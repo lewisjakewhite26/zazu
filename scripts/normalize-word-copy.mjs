@@ -70,12 +70,12 @@ function processJsonFile(relativePath) {
 }
 
 function processZazuHtml() {
-  const abs = resolve(root, 'zazu.html');
+  const abs = resolve(root, 'index.html');
   let html = readFileSync(abs, 'utf8');
   const marker = 'const WORDS = ';
   const start = html.indexOf(marker);
   if (start === -1) {
-    console.log('  zazu.html: WORDS block not found');
+    console.log('  index.html: WORDS block not found');
     return 0;
   }
 
@@ -116,7 +116,7 @@ function processZazuHtml() {
   }
 
   if (jsonEnd === -1) {
-    throw new Error('Could not parse WORDS JSON in zazu.html');
+    throw new Error('Could not parse WORDS JSON in index.html');
   }
 
   const jsonText = html.slice(jsonStart, jsonEnd);
@@ -125,14 +125,14 @@ function processZazuHtml() {
   const newHtml = html.slice(0, jsonStart) + newJson + html.slice(jsonEnd);
 
   if (newHtml === html) {
-    console.log('  zazu.html: no changes');
+    console.log('  index.html: no changes');
     return 0;
   }
 
   if (!dryRun) {
     writeFileSync(abs, newHtml, 'utf8');
   }
-  console.log(`  zazu.html: WORDS updated${dryRun ? ' (dry run)' : ''}`);
+  console.log(`  index.html: WORDS updated${dryRun ? ' (dry run)' : ''}`);
   return 1;
 }
 

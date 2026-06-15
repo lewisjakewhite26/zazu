@@ -117,7 +117,7 @@ npx expo start --dev-client
 
 Open **Zazu Dev** on the phone → scan QR code. Code changes on your laptop reload in the installed app.
 
-**Partial testing without a dev build:** deploy `zazu.html` to Vercel for stable phone browser testing (UI + puzzle + persistence). Does not test native notifications.
+**Partial testing without a dev build:** deploy `index.html` to Vercel for stable phone browser testing (UI + persistence). Does not test native notifications.
 
 ### Verify without a phone
 
@@ -144,7 +144,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 |---|------|--------|
 | 10 | Extract shared game logic (`COPY`, puzzle engine, `mapWordRow` into `lib/`) | Not started |
 | 11 | Supabase auth + Zazu Gold subscription (full calendar history, Word Gym) | Not started |
-| 12 | Web persistence parity (`localStorage` in `zazu.html`) | Done |
+| 12 | Web persistence parity (`localStorage` in `index.html`) | Done |
 | 13 | Accessibility on web puzzle (keyboard, ARIA, remove `user-scalable=no`) | Done |
 | 14 | Error states (visible message when Supabase fetch fails) | Done (web); mobile still silent fallback |
 | 15 | CI baseline (GitHub Actions: `tsc`, `seed:dry`, morning-task check) | Done |
@@ -217,7 +217,7 @@ These match the agreed UX. Alarm flow is live on web and mobile; Word Gym tab is
 |---|------|--------|
 | 16 | Ad SDK integration (replace mock Huel card on web) | Not started |
 | 17 | Coin shop + thematic word packs (see below) | Not started |
-| 18 | PWA manifest + service worker for `zazu.html` | Not started |
+| 18 | PWA manifest + service worker for `index.html` | Not started |
 | 19 | Night mode on mobile | **Partial** — gradual adaptive theme on alarm flow; home/calendar still static palette |
 | 20 | Reach 100 words | Done |
 | 21 | Analytics + crash reporting | Not started |
@@ -293,7 +293,7 @@ Revenue estimates (low / medium / high): see [AUDIT.md](AUDIT.md). Current reali
 
 1. **P1 dev build:** `eas login` → install `expo-dev-client` → configure `eas.json` → first Android development build → install on phone.
 2. **P1 #9:** device verification on the dev build (notifications, audio, kill/reopen, haptics, new alarm flow).
-3. **Optional:** deploy `zazu.html` to Vercel for stable web-on-phone testing without tunnels.
+3. **Optional:** deploy to Vercel for stable web-on-phone testing without tunnels.
 4. **P2b #24:** Word Gym tab on home + gym success recap; wire `gymCompleted` in calendar.
 5. **P2:** migrate home and calendar to `useTheme()` for full adaptive palette.
 

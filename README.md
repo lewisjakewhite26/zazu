@@ -8,7 +8,7 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 
 | Surface | Built |
 |---------|--------|
-| **Web** (`zazu.html`) | Home, alarm, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; localStorage progress |
+| **Web** (`index.html`) | Home, alarm, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; localStorage progress |
 | **Mobile** (Expo) | Home, add alarm, alarm, **learn**, **morning task**, success, **calendar**, Word Gym puzzle; notifications; adaptive theme on alarm flow; AsyncStorage progress |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
@@ -19,7 +19,7 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 
 | Layer | Tools |
 |-------|--------|
-| Web prototype | `zazu.html`, vanilla JS, Supabase JS (CDN) |
+| Web prototype | `index.html`, vanilla JS, Supabase JS (CDN) |
 | Mobile app | Expo 56, React Native, Expo Router, TypeScript |
 | Backend | Supabase (Postgres, RLS, RPCs for alarm vs gym) |
 | Content | `zazu-words.json` (395 words, all `tier: free` for now) |
@@ -29,7 +29,7 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 
 ```
 zazu/
-├── zazu.html                 Web prototype (alarm, learn, morning task, ad, success)
+├── index.html                Web prototype (alarm, learn, morning task, ad, success)
 ├── zazu-words.json           Master word library (395 words)
 ├── morning-distractors.json  Shared wrong-answer pool for morning tasks
 ├── WORDS.md                  Alphabetical index of all words
@@ -96,22 +96,20 @@ npm install
 npm run config
 ```
 
-3. Open `zazu.html` in your browser.
+3. Open `index.html` in your browser (or serve the folder locally).
 
 The page loads alarm words from Supabase on start (`get_words_for_alarm`). If the fetch fails, it falls back to three hardcoded demo words (Matutinal, Lucid, Ephemeral). Use **Try the alarm** to run through learn → morning task → success.
 
 Theme shifts gradually between light and dark over 30 minutes at dusk (20:30–21:00) and dawn (5:30–6:00). Use the theme button to override.
 
-If the browser blocks local file requests, serve the folder with any static server and open `zazu.html` from there.
+If the browser blocks local file requests, serve the folder with any static server.
 
 ### Deploy to Vercel
 
 1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new).
-2. Leave the defaults — `vercel.json` rewrites `/` to `zazu.html`.
-3. Optional: add **Environment variables** in the Vercel project (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build generates `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
+2. Leave the defaults — `index.html` is served at `/` automatically.
+3. Optional: add **Environment variables** (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build generates `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
 4. Redeploy after pushing changes.
-
-Direct link if rewrite is missing: `https://your-project.vercel.app/zazu.html`
 
 ## Supabase setup
 
