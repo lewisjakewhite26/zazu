@@ -18,8 +18,10 @@ const url = process.env.SUPABASE_URL;
 const anonKey = process.env.SUPABASE_ANON_KEY;
 
 if (!url || !anonKey || url.includes('YOUR_PROJECT')) {
-  console.error('Set SUPABASE_URL and SUPABASE_ANON_KEY in .env first.');
-  process.exit(1);
+  console.warn(
+    '[Zazu] SUPABASE_URL / SUPABASE_ANON_KEY not set — skipping public/config.js (demo words only).',
+  );
+  process.exit(0);
 }
 
 const outDir = resolve(root, 'public');

@@ -104,6 +104,15 @@ Theme shifts gradually between light and dark over 30 minutes at dusk (20:30–2
 
 If the browser blocks local file requests, serve the folder with any static server and open `zazu.html` from there.
 
+### Deploy to Vercel
+
+1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new).
+2. Leave the defaults — `vercel.json` rewrites `/` to `zazu.html`.
+3. Optional: add **Environment variables** in the Vercel project (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build generates `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
+4. Redeploy after pushing changes.
+
+Direct link if rewrite is missing: `https://your-project.vercel.app/zazu.html`
+
 ## Supabase setup
 
 1. Create a project at [supabase.com](https://supabase.com).
