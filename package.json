@@ -5,7 +5,7 @@
   "type": "module",
     "scripts": {
     "config": "node scripts/generate-public-config.mjs",
-    "vercel-build": "node scripts/generate-public-config.mjs",
+    "vercel-build": "node scripts/vercel-build.mjs",
     "seed": "node scripts/seed-words.mjs",
     "seed:dry": "node scripts/seed-words.mjs --dry-run",
     "words:morning-tasks": "node scripts/generate-morning-tasks.mjs",

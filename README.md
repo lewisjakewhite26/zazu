@@ -107,9 +107,10 @@ If the browser blocks local file requests, serve the folder with any static serv
 ### Deploy to Vercel
 
 1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new).
-2. Leave the defaults — `index.html` is served at `/` automatically.
-3. Optional: add **Environment variables** (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build generates `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
-4. Redeploy after pushing changes.
+2. **Root Directory** must be blank (repo root, not `mobile/`).
+3. Vercel runs `npm run vercel-build`, which copies `index.html` and `lib/` into `dist/` for deployment.
+4. Optional: add **Environment variables** (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build writes `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
+5. Redeploy after pushing changes.
 
 ## Supabase setup
 

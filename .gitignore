@@ -5,6 +5,9 @@
 config.js
 public/config.js
 
+# Vercel build output
+dist/
+
 # Dependencies
 node_modules/
 mobile/node_modules/
