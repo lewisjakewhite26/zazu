@@ -11,6 +11,10 @@ import { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-reanimated';
 
+import { AlarmFlowProvider } from '@/context/AlarmFlowContext';
+import { ThemeProvider } from '@/context/ThemeContext';
+import { NotificationBootstrap } from '@/components/NotificationBootstrap';
+
 export { ErrorBoundary } from 'expo-router';
 
 export const unstable_settings = {
@@ -43,9 +47,22 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      </Stack>
+      <ThemeProvider>
+        <AlarmFlowProvider>
+          <NotificationBootstrap>
+            <Stack>
+              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+              <Stack.Screen name="add-alarm" options={{ headerShown: false, presentation: 'modal' }} />
+              <Stack.Screen name="alarm" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="learn" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="morning-task" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="puzzle" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="success" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="calendar" options={{ headerShown: false }} />
+            </Stack>
+          </NotificationBootstrap>
+        </AlarmFlowProvider>
+      </ThemeProvider>
     </SafeAreaProvider>
   );
 }

@@ -1,6 +1,7 @@
-import { useCallback, useState } from 'react';
+import { useCallback } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HomeHeader } from '@/components/home/HomeHeader';
@@ -10,43 +11,43 @@ import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { colors, fonts } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
-import type { Alarm, HomeStats, WordOfDay } from '@/types/home';
-
-const PLACEHOLDER_WORD: WordOfDay = {
-  word: 'Matutinal',
-  pronunciation: 'mat·yoo·TY·nl',
-  pos: 'adjective',
-  definition: 'Of, relating to, or occurring in the morning.',
-  origin: copy.placeholder.matutinalOrigin,
-};
-
-const INITIAL_ALARMS: Alarm[] = [
-  { id: '1', time: '07:30', label: copy.home.weekdaysPack, enabled: true },
-  { id: '2', time: '09:00', label: copy.home.weekendsPack, enabled: false },
-];
-
-const INITIAL_STATS: HomeStats = {
-  streak: 7,
-  coins: 340,
-};
+import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
+import { useWordLibrary } from '@/hooks/useWordLibrary';
+import { useProgress } from '@/hooks/useProgress';
+import { useAlarms, type Alarm } from '@/hooks/useAlarms';
+import { useAlarmFlow } from '@/context/AlarmFlowContext';
 
 export function HomeScreen() {
+  const router = useRouter();
   const insets = useSafeAreaInsets();
-  const [alarms, setAlarms] = useState<Alarm[]>(INITIAL_ALARMS);
+  const { startFlow } = useAlarmFlow();
+  const { loading: alarmsLoading, alarms, toggleAlarm } = useAlarms();
+  const {
+    loading: progressLoading,
+    streak,
+    coins,
+    learnedWordIds,
+    completeWord,
+    setLastCompletedDateDebug,
+  } = useProgress();
+  const { loading: wordsLoading, alarmWordOfDay } = useWordLibrary(learnedWordIds);
 
-  const handleToggleAlarm = useCallback((id: string, enabled: boolean) => {
-    setAlarms((current) =>
-      current.map((alarm) => (alarm.id === id ? { ...alarm, enabled } : alarm)),
-    );
-  }, []);
+  const handleToggleAlarm = useCallback(
+    (id: string, enabled: boolean) => {
+      void toggleAlarm(id, enabled);
+    },
+    [toggleAlarm],
+  );
 
   const handleAddAlarm = useCallback(() => {
-    // Navigation to add-alarm flow will be wired in a later step.
-  }, []);
+    router.push('/add-alarm');
+  }, [router]);
 
   const handleDemoAlarm = useCallback(() => {
-    // Navigation to alarm demo flow will be wired in a later step.
-  }, []);
+    if (!alarmWordOfDay) return;
+    startFlow(alarmWordOfDay);
+    router.push('/alarm');
+  }, [startFlow, alarmWordOfDay, router]);
 
   return (
     <LinearGradient
@@ -56,7 +57,7 @@ export function HomeScreen() {
     >
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
         <View style={styles.inner}>
-          <HomeHeader streak={INITIAL_STATS.streak} coins={INITIAL_STATS.coins} />
+          <HomeHeader streak={streak} coins={coins} loading={progressLoading} />
 
           <ScrollView
             style={styles.scroll}
@@ -64,19 +65,33 @@ export function HomeScreen() {
             showsVerticalScrollIndicator={false}
             keyboardShouldPersistTaps="handled"
           >
-            <WordOfDayCard {...PLACEHOLDER_WORD} />
+            <WordOfDayCard {...alarmWordOfDay} loading={wordsLoading} />
 
             <Text style={styles.sectionLabel}>{copy.home.yourAlarms}</Text>
 
             <View style={styles.alarmList}>
-              {alarms.map((alarm) => (
-                <AlarmCard key={alarm.id} alarm={alarm} onToggle={handleToggleAlarm} />
-              ))}
+              {!alarmsLoading &&
+                alarms.map((alarm: Alarm) => (
+                  <AlarmCard key={alarm.id} alarm={alarm} onToggle={handleToggleAlarm} />
+                ))}
             </View>
+
+            <ProgressDebugPanel
+              wordId={alarmWordOfDay.id}
+              streak={streak}
+              onSetLastCompleted={setLastCompletedDateDebug}
+              onCompleteWord={completeWord}
+            />
           </ScrollView>
 
           <View style={[styles.footer, { paddingBottom: insets.bottom || spacing.md }]}>
             <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} />
+            <PrimaryButton
+              label={copy.calendar.title}
+              variant="outline"
+              onPress={() => router.push('/calendar')}
+              style={styles.secondaryButton}
+            />
             <PrimaryButton
               label={copy.home.tryTheAlarm}
               variant="outline"

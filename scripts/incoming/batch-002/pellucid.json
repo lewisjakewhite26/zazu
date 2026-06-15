@@ -1,0 +1,128 @@
+{
+  "word": "Pellucid",
+  "pronunciation": "peh-LOO-sid",
+  "pos": "adjective",
+  "definition": "Translucently clear; expressed in a very clear and elegant style.",
+  "origin": "From Latin <strong>pellucere</strong> -- to shine through. From <strong>per</strong> (through) + <strong>lucere</strong> (to shine).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "pellucere",
+      "highlight": true
+    },
+    {
+      "text": " (to shine through), from ",
+      "highlight": false
+    },
+    {
+      "text": "per",
+      "highlight": true
+    },
+    {
+      "text": " (through) + ",
+      "highlight": false
+    },
+    {
+      "text": "lucere",
+      "highlight": true
+    },
+    {
+      "text": " (to shine).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "per",
+      "root_language": "Latin",
+      "root_meaning": "through",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "lucere",
+      "root_language": "Latin",
+      "root_meaning": "to shine",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "lucere",
+    "correct_answer": "To shine"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Pellucid</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin per",
+          "b": "Through"
+        },
+        {
+          "a": "Latin lucere",
+          "b": "To shine"
+        },
+        {
+          "a": "Latin pellucere",
+          "b": "To shine through"
+        },
+        {
+          "a": "Related: lucid",
+          "b": "Clear and bright"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Pellucid</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Pellucid means",
+          "b": "Transparently clear"
+        },
+        {
+          "a": "Pellucid prose",
+          "b": "Is elegantly easy to read"
+        },
+        {
+          "a": "Synonym of pellucid",
+          "b": "Limpid"
+        },
+        {
+          "a": "A pellucid stream",
+          "b": "Is crystal clear to the bottom"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Pellucid</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "Her pellucid argument",
+          "b": "Needed no further explanation"
+        },
+        {
+          "a": "Pellucid water revealed",
+          "b": "Every pebble below"
+        },
+        {
+          "a": "A pellucid style",
+          "b": "Rare in academic writing"
+        },
+        {
+          "a": "The pellucid morning air",
+          "b": "Was sharp and still"
+        }
+      ]
+    }
+  ]
+}

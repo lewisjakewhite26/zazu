@@ -1,0 +1,128 @@
+{
+  "word": "Pecuniary",
+  "pronunciation": "pih-KYOO-nee-er-ee",
+  "pos": "adjective",
+  "definition": "Relating to or consisting of money.",
+  "origin": "From Latin <strong>pecuniarius</strong> -- of money. From <strong>pecunia</strong> -- money, wealth. From <strong>pecus</strong> -- cattle, once used as currency.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "pecuniarius",
+      "highlight": true
+    },
+    {
+      "text": " (of money), from ",
+      "highlight": false
+    },
+    {
+      "text": "pecunia",
+      "highlight": true
+    },
+    {
+      "text": " (money), from ",
+      "highlight": false
+    },
+    {
+      "text": "pecus",
+      "highlight": true
+    },
+    {
+      "text": " (cattle, once used as currency).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "pecus",
+      "root_language": "Latin",
+      "root_meaning": "cattle",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "pecunia",
+      "root_language": "Latin",
+      "root_meaning": "money or wealth",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "pecus",
+    "correct_answer": "Cattle"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Pecuniary</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin pecus",
+          "b": "Cattle"
+        },
+        {
+          "a": "Latin pecunia",
+          "b": "Money or wealth"
+        },
+        {
+          "a": "Cattle were once",
+          "b": "Used as currency"
+        },
+        {
+          "a": "Related: impecunious",
+          "b": "Without money"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Pecuniary</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Pecuniary means",
+          "b": "Relating to money"
+        },
+        {
+          "a": "A pecuniary matter",
+          "b": "Concerns finance"
+        },
+        {
+          "a": "Synonym of pecuniary",
+          "b": "Financial"
+        },
+        {
+          "a": "Pecuniary gain",
+          "b": "Is profit or financial benefit"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Pecuniary</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "Pecuniary difficulties",
+          "b": "Forced him to sell the house"
+        },
+        {
+          "a": "She had no pecuniary",
+          "b": "Interest in the outcome"
+        },
+        {
+          "a": "A pecuniary penalty",
+          "b": "Of two thousand pounds"
+        },
+        {
+          "a": "His motives were",
+          "b": "Entirely pecuniary"
+        }
+      ]
+    }
+  ]
+}

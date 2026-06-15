@@ -1,0 +1,128 @@
+{
+  "word": "Recidivism",
+  "pronunciation": "rih-SID-ih-viz-um",
+  "pos": "noun",
+  "definition": "The tendency of a convicted criminal to reoffend; the habit of relapsing into criminal behaviour.",
+  "origin": "From Latin <strong>recidivus</strong> -- recurring. From <strong>re</strong> (back, again) + <strong>cadere</strong> (to fall).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "recidivus",
+      "highlight": true
+    },
+    {
+      "text": " (recurring), from ",
+      "highlight": false
+    },
+    {
+      "text": "re",
+      "highlight": true
+    },
+    {
+      "text": " (back, again) + ",
+      "highlight": false
+    },
+    {
+      "text": "cadere",
+      "highlight": true
+    },
+    {
+      "text": " (to fall).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "re",
+      "root_language": "Latin",
+      "root_meaning": "back or again",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "cadere",
+      "root_language": "Latin",
+      "root_meaning": "to fall",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "cadere",
+    "correct_answer": "To fall"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Recidivism</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin re-",
+          "b": "Back or again"
+        },
+        {
+          "a": "Latin cadere",
+          "b": "To fall"
+        },
+        {
+          "a": "Latin recidivus",
+          "b": "Falling back, recurring"
+        },
+        {
+          "a": "Related: accident",
+          "b": "A falling upon something"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Recidivism</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Recidivism means",
+          "b": "Reoffending after punishment"
+        },
+        {
+          "a": "A recidivist is",
+          "b": "A repeat offender"
+        },
+        {
+          "a": "High recidivism rates",
+          "b": "Suggest rehabilitation has failed"
+        },
+        {
+          "a": "Recidivism concerns",
+          "b": "Prisons and criminal justice policy"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Recidivism</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "Recidivism rates",
+          "b": "Remained stubbornly high"
+        },
+        {
+          "a": "The programme aimed",
+          "b": "To reduce recidivism"
+        },
+        {
+          "a": "His recidivism",
+          "b": "Surprised no one who knew him"
+        },
+        {
+          "a": "Recidivism is influenced",
+          "b": "By poverty and lack of support"
+        }
+      ]
+    }
+  ]
+}

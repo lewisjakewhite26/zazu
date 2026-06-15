@@ -1,0 +1,120 @@
+{
+  "word": "Nacreous",
+  "pronunciation": "NAY-kree-us",
+  "pos": "adjective",
+  "definition": "Having the lustre of mother-of-pearl; iridescent and pearlescent.",
+  "origin": "From French <strong>nacre</strong> -- mother-of-pearl. Probably from Arabic <strong>naqqara</strong> -- a drum, referring to the shell's shape.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From French ",
+      "highlight": false
+    },
+    {
+      "text": "nacre",
+      "highlight": true
+    },
+    {
+      "text": " (mother-of-pearl), probably from Arabic ",
+      "highlight": false
+    },
+    {
+      "text": "naqqara",
+      "highlight": true
+    },
+    {
+      "text": " (a drum), referring to the shell's rounded shape.",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "nacre",
+      "root_language": "French",
+      "root_meaning": "mother-of-pearl",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "naqqara",
+      "root_language": "Arabic",
+      "root_meaning": "a drum",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "definition",
+    "source_value": "definition",
+    "correct_answer": "Having a pearlescent lustre"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Nacreous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "French nacre",
+          "b": "Mother-of-pearl"
+        },
+        {
+          "a": "Arabic naqqara",
+          "b": "A drum"
+        },
+        {
+          "a": "The shape comparison",
+          "b": "Rounded like a drum"
+        },
+        {
+          "a": "Related: nacre",
+          "b": "The inner layer of a mollusc shell"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Nacreous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Nacreous means",
+          "b": "Having a pearlescent lustre"
+        },
+        {
+          "a": "A nacreous surface",
+          "b": "Shimmers like mother-of-pearl"
+        },
+        {
+          "a": "Synonym of nacreous",
+          "b": "Opalescent"
+        },
+        {
+          "a": "Nacreous clouds form",
+          "b": "At extremely high altitudes"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Nacreous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "Nacreous clouds",
+          "b": "Glowed above the Arctic horizon"
+        },
+        {
+          "a": "A nacreous sheen",
+          "b": "On the inside of the shell"
+        },
+        {
+          "a": "Her nacreous nail varnish",
+          "b": "Caught every light"
+        },
+        {
+          "a": "The nacreous dawn sky",
+          "b": "Shifted from pink to white"
+        }
+      ]
+    }
+  ]
+}

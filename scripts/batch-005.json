@@ -1,0 +1,1120 @@
+[
+{
+"word": "Dearth",
+"pronunciation": "DURTH",
+"pos": "noun",
+"definition": "A scarcity or lack of something.",
+"origin": "From Middle English derthe, from Old English deore (precious, costly, dear).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Dearth come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Old English deore", "b": "Precious or costly" },
+{ "a": "Suffix -th", "b": "State or condition of" },
+{ "a": "Combined meaning", "b": "High cost due to scarcity" },
+{ "a": "Related: dear", "b": "Highly valued or expensive" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Dearth mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Dearth means", "b": "An acute shortage of supply" },
+{ "a": "Synonym of dearth", "b": "Paucity" },
+{ "a": "Antonym of dearth", "b": "Abundance" },
+{ "a": "A dearth of talent", "b": "Leaves roles unfilled" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Dearth used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "There was a dearth", "b": "Of evidence against the suspect" },
+{ "a": "The team suffered a", "b": "Dearth of clear opportunities" },
+{ "a": "A sudden dearth of", "b": "Rainfall ruined the crops" },
+{ "a": "Despite the dearth of", "b": "Funds, the school flourished" }
+]
+}
+]
+},
+{
+"word": "Debauchery",
+"pronunciation": "dih-BAW-chuh-ree",
+"pos": "noun",
+"definition": "Excessive indulgence in physical pleasures or wild living.",
+"origin": "From French débaucher, from dé- (turn away) + Old French bauche (a beam or workshop).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Debauchery come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "French dé-", "b": "Away from" },
+{ "a": "Old French bauche", "b": "A workshop or frame" },
+{ "a": "Combined meaning", "b": "Enticing someone away from honest work" },
+{ "a": "Related: debauch", "b": "To corrupt or lead astray" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Debauchery mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Debauchery means", "b": "Dissolute and immoral behavior" },
+{ "a": "Synonym of debauchery", "b": "Depravity" },
+{ "a": "Antonym of debauchery", "b": "Asceticism" },
+{ "a": "A life of debauchery", "b": "Squanders health and fortune" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Debauchery used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The historical drama depicted", "b": "The debauchery of the Roman court" },
+{ "a": "He later regretted the", "b": "Debauchery of his student days" },
+{ "a": "Tales of late-night debauchery", "b": "Filled the morning tabloids" },
+{ "a": "The remote island became", "b": "A haven for wealthy debauchery" }
+]
+}
+]
+},
+{
+"word": "Decorous",
+"pronunciation": "DEK-uh-rus",
+"pos": "adjective",
+"definition": "In keeping with good taste and propriety, polite and restrained. UK spelling.",
+"origin": "From Latin decorus, from decor (beauty, elegance, grace).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Decorous come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin decor", "b": "Elegance or grace" },
+{ "a": "Latin decere", "b": "To be fitting or proper" },
+{ "a": "Combined meaning", "b": "Suitable and well-behaved" },
+{ "a": "Related: decorate", "b": "To adorn or make beautiful" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Decorous mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Decorous means", "b": "Proper and socially acceptable" },
+{ "a": "Synonym of decorous", "b": "Seemly" },
+{ "a": "Antonym of decorous", "b": "Unseemly" },
+{ "a": "A decorous silence", "b": "Is expected during a funeral" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Decorous used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "They maintained a decorous", "b": "Demeanor during the court hearing" },
+{ "a": "The meeting was perfectly", "b": "Decorous and strictly professional" },
+{ "a": "She offered a decorous", "b": "Nod before leaving the dinner" },
+{ "a": "His behavior was always", "b": "Decorous in front of guests" }
+]
+}
+]
+},
+{
+"word": "Decry",
+"pronunciation": "dih-KRY",
+"pos": "verb",
+"definition": "To publicly denounce or express strong disapproval of something.",
+"origin": "From French décrier, from dé- (down) + crier (to cry out).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Decry come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "French dé-", "b": "Down or away" },
+{ "a": "French crier", "b": "To cry out or shout" },
+{ "a": "Combined meaning", "b": "To cry down or lower the value" },
+{ "a": "Related: clamor", "b": "A loud and confused shouting" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Decry mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Decry means", "b": "To condemn or disparage openly" },
+{ "a": "Synonym of decry", "b": "Deprecate" },
+{ "a": "Antonym of decry", "b": "Extol" },
+{ "a": "To decry injustice", "b": "Demands immediate public reform" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Decry used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Activists were quick to", "b": "Decry the new pollution laws" },
+{ "a": "They did decry the", "b": "Lack of funding for schools" },
+{ "a": "Traditionalists decry modern", "b": "Trends in architectural design" },
+{ "a": "It is easy to", "b": "Decry the choices of others" }
+]
+}
+]
+},
+{
+"word": "Deference",
+"pronunciation": "DEF-uh-runss",
+"pos": "noun",
+"definition": "Polite submission and respect shown to an elder or authority figure.",
+"origin": "From French déférence, from déférer, from Latin deferre (to carry down, submit).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Deference come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Down" },
+{ "a": "Latin ferre", "b": "To bear or carry" },
+{ "a": "Combined meaning", "b": "To yield to another's judgment" },
+{ "a": "Related: transfer", "b": "To carry across from one to another" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Deference mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Deference means", "b": "Respectful compliance or courtesy" },
+{ "a": "Synonym of deference", "b": "Obsequiousness" },
+{ "a": "Antonym of deference", "b": "Defiance" },
+{ "a": "Showing deference", "b": "Acknowledges someone's expertise" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Deference used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He bowed his head", "b": "In deference to the judge" },
+{ "a": "Out of deference to", "b": "His age, they let him sit" },
+{ "a": "She treated her mentors", "b": "With traditional academic deference" },
+{ "a": "The council acted in", "b": "Deference to public sentiment" }
+]
+}
+]
+},
+{
+"word": "Deleterious",
+"pronunciation": "del-ih-TEER-ee-us",
+"pos": "adjective",
+"definition": "Causing harm or damage.",
+"origin": "From Greek deleterios, from deleisthai (to hurt, injure, damage).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Deleterious come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek deleter", "b": "A destroyer" },
+{ "a": "Greek deleisthai", "b": "To hurt or damage" },
+{ "a": "Combined meaning", "b": "Harmful or destructive" },
+{ "a": "Related: delete", "b": "To erase or eliminate" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Deleterious mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Deleterious means", "b": "Injurious to health or well-being" },
+{ "a": "Synonym of deleterious", "b": "Detrimental" },
+{ "a": "Antonym of deleterious", "b": "Salubrious" },
+{ "a": "Deleterious side effects", "b": "Can compromise a medical trial" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Deleterious used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The divorce had a", "b": "Deleterious effect on the children" },
+{ "a": "Smoking has clear and", "b": "Deleterious impacts on the lungs" },
+{ "a": "Fumes can be highly", "b": "Deleterious in confined spaces" },
+{ "a": "They avoided policies with", "b": "Deleterious economic consequences" }
+]
+}
+]
+},
+{
+"word": "Demagogue",
+"pronunciation": "DEM-uh-gog",
+"pos": "noun",
+"definition": "A political leader who seeks support by appealing to popular desires rather than using rational argument. UK spelling.",
+"origin": "From Greek demagogogos, from demos (people) + agogos (leader, leading).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Demagogue come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek demos", "b": "The common people" },
+{ "a": "Greek agogos", "b": "A leader or guide" },
+{ "a": "Combined meaning", "b": "A popular leader of the people" },
+{ "a": "Related: pedagogy", "b": "The method and practice of teaching" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Demagogue mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Demagogue means", "b": "An agitator who manipulates crowds" },
+{ "a": "Synonym of demagogue", "b": "Firebrand" },
+{ "a": "Antonym of demagogue", "b": "Statesman" },
+{ "a": "A master demagogue", "b": "Exploits public fears for power" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Demagogue used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The senator was a", "b": "Demagogue who whipped up hysteria" },
+{ "a": "He was dismissed as", "b": "A dangerous economic demagogue" },
+{ "a": "The crowd cheered the", "b": "Demagogue's aggressive speech" },
+{ "a": "A true democracy protects", "b": "Itself from the populist demagogue" }
+]
+}
+]
+},
+{
+"word": "Demur",
+"pronunciation": "dih-MUR",
+"pos": "verb",
+"definition": "To raise objections or show reluctance to do something.",
+"origin": "From Old French demorer, from Latin demorari (to linger, delay).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Demur come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Thoroughly" },
+{ "a": "Latin morari", "b": "To delay or linger" },
+{ "a": "Combined meaning", "b": "To hesitate or linger over a decision" },
+{ "a": "Related: moratorium", "b": "A temporary prohibition of an activity" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Demur mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Demur means", "b": "To protest or voice hesitation" },
+{ "a": "Synonym of demur", "b": "Expostulate" },
+{ "a": "Antonym of demur", "b": "Acquiesce" },
+{ "a": "To demur at a proposal", "b": "Signals that you do not agree" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Demur used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The doctor did demur", "b": "At the suggested treatment path" },
+{ "a": "Most guests accepted, but", "b": "A few chose to demur" },
+{ "a": "She did not demur", "b": "When asked to lead the project" },
+{ "a": "He wanted to demur", "b": "But feared his manager's reaction" }
+]
+}
+]
+},
+{
+"word": "Denigrate",
+"pronunciation": "DEN-ih-grayt",
+"pos": "verb",
+"definition": "To criticize unfairly, disparage, or defame someone's reputation. UK spelling.",
+"origin": "From Latin denigratis, from de- (completely) + nigrare (to blacken).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Denigrate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Completely or down" },
+{ "a": "Latin nigrare", "b": "To turn black" },
+{ "a": "Combined meaning", "b": "To blacken someone's reputation" },
+{ "a": "Related: denigration", "b": "The act of defaming or belittling" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Denigrate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Denigrate means", "b": "To belittle or run down" },
+{ "a": "Synonym of denigrate", "b": "Vilify" },
+{ "a": "Antonym of denigrate", "b": "Praise" },
+{ "a": "To denigrate achievements", "b": "Diminishes hard work unfairly" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Denigrate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Do not attempt to", "b": "Denigrate her success out of envy" },
+{ "a": "The campaign sought to", "b": "Denigrate the rival candidate" },
+{ "a": "He tended to denigrate", "b": "The efforts of his assistants" },
+{ "a": "Columns that denigrate public", "b": "Figures are very popular" }
+]
+}
+]
+},
+{
+"word": "Depravity",
+"pronunciation": "dih-PRAV-ih-tee",
+"pos": "noun",
+"definition": "Moral corruption or wickedness.",
+"origin": "From alteration of Old French depraver, from Latin depravare (to pervert, distort, corrupt).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Depravity come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Thoroughly" },
+{ "a": "Latin pravus", "b": "Crooked or perverse" },
+{ "a": "Combined meaning", "b": "Making completely crooked or bad" },
+{ "a": "Related: deprave", "b": "To corrupt morally" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Depravity mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Depravity means", "b": "Extreme moral degeneracy" },
+{ "a": "Synonym of depravity", "b": "Turpitude" },
+{ "a": "Antonym of depravity", "b": "Righteousness" },
+{ "a": "Acts of depravity", "b": "Shock the conscience of society" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Depravity used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The dictator's utter depravity", "b": "Was exposed after the revolution" },
+{ "a": "He sank into a", "b": "Life of vice and depravity" },
+{ "a": "The harsh prison bred", "b": "Depravity among the inmates" },
+{ "a": "The novel explores human", "b": "Depravity in times of war" }
+]
+}
+]
+},
+{
+"word": "Deprecate",
+"pronunciation": "DEP-ruh-kayt",
+"pos": "verb",
+"definition": "To express strong disapproval of something, or to play down the value of.",
+"origin": "From Latin deprecatus, from de- (away) + precari (to pray).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Deprecate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Away or off" },
+{ "a": "Latin precari", "b": "To pray or beg" },
+{ "a": "Combined meaning", "b": "To pray to avert an evil" },
+{ "a": "Related: imprecation", "b": "A spoken curse or insult" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Deprecate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Deprecate means", "b": "To deplore or belittle" },
+{ "a": "Synonym of deprecate", "b": "Disparage" },
+{ "a": "Antonym of deprecate", "b": "Approve" },
+{ "a": "To self-deprecate", "b": "Means to make fun of oneself" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Deprecate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The school leaders deprecate", "b": "The use of mobile phones" },
+{ "a": "He was careful to", "b": "Deprecate his own achievements" },
+{ "a": "The critics did deprecate", "b": "The author's latest attempts" },
+{ "a": "She smiled at his", "b": "Self-deprecating humor" }
+]
+}
+]
+},
+{
+"word": "Deride",
+"pronunciation": "dih-RYD",
+"pos": "verb",
+"definition": "To express contempt for, or mock someone or something cruelly.",
+"origin": "From Latin deridere, from de- (down, thoroughly) + ridere (to laugh).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Deride come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Down or mockingly" },
+{ "a": "Latin ridere", "b": "To laugh" },
+{ "a": "Combined meaning", "b": "To laugh down at someone" },
+{ "a": "Related: ridiculous", "b": "Deserving of mockery or laughter" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Deride mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Deride means", "b": "To ridicule or scoff at" },
+{ "a": "Synonym of deride", "b": "Jeer" },
+{ "a": "Antonym of deride", "b": "Respect" },
+{ "a": "To deride an idea", "b": "Dismisses it as foolish" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Deride used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Critics were quick to", "b": "Deride the new comedy show" },
+{ "a": "They would constantly deride", "b": "His choice of clothing" },
+{ "a": "The crowd began to", "b": "Deride the clumsy referee" },
+{ "a": "Do not deride the", "b": "Efforts of a beginner" }
+]
+}
+]
+},
+{
+"word": "Descry",
+"pronunciation": "dih-SKRY",
+"pos": "verb",
+"definition": "To catch sight of something distant, obscure, or hard to see.",
+"origin": "From Old French decrier (cry down, proclaim), from dé- (thoroughly) + crier (to cry).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Descry come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Old French de-", "b": "Thoroughly" },
+{ "a": "Old French crier", "b": "To shout out" },
+{ "a": "Semantic shift", "b": "From crying out an announcement to spotting an object" },
+{ "a": "Related: cry", "b": "To call out loudly" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Descry mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Descry means", "b": "To discern or spy out" },
+{ "a": "Synonym of descry", "b": "Espy" },
+{ "a": "Antonym of descry", "b": "Overlook" },
+{ "a": "To descry a vessel", "b": "Means to spot it on the horizon" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Descry used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The lookout managed to", "b": "Descry a tiny island ahead" },
+{ "a": "We could just descry", "b": "A dark figure through the fog" },
+{ "a": "Using binoculars, she did", "b": "Descry the rare mountain eagle" },
+{ "a": "He struggled to descry", "b": "The faint path in the forest" }
+]
+}
+]
+},
+{
+"word": "Desecrate",
+"pronunciation": "DES-ih-krayt",
+"pos": "verb",
+"definition": "To violate or treat a sacred place or thing with violent disrespect.",
+"origin": "From reversal of Latin sacrare (to dedicate as sacred), influenced by de- (reversing action).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Desecrate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Undoing or reversing" },
+{ "a": "Latin sacrare", "b": "To consecrate or make holy" },
+{ "a": "Combined meaning", "b": "To divest of sacred character" },
+{ "a": "Related: sacred", "b": "Holy or connected with religion" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Desecrate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Desecrate means", "b": "To profane or defile something holy" },
+{ "a": "Synonym of desecrate", "b": "Vandallise" },
+{ "a": "Antonym of desecrate", "b": "Sanctify" },
+{ "a": "To desecrate a tomb", "b": "Outrages local communities" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Desecrate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Vandals chose to desecrate", "b": "The ancient village cemetery" },
+{ "a": "The soldiers did desecrate", "b": "The temple during the raid" },
+{ "a": "To graffiti a shrine", "b": "Is to desecrate it entirely" },
+{ "a": "They feared invaders would", "b": "Desecrate their holy relics" }
+]
+}
+]
+},
+{
+"word": "Desiccate",
+"pronunciation": "DES-ih-kayt",
+"pos": "verb",
+"definition": "To remove the moisture from something, completely drying it out.",
+"origin": "From Latin desiccatus, from de- (thoroughly) + siccare (to dry).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Desiccate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin de-", "b": "Thoroughly" },
+{ "a": "Latin siccus", "b": "Dry" },
+{ "a": "Combined meaning", "b": "To drain of all moisture" },
+{ "a": "Related: exsiccate", "b": "To squeeze out moisture" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Desiccate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Desiccate means", "b": "To dehydrate or wither" },
+{ "a": "Synonym of desiccate", "b": "Parch" },
+{ "a": "Antonym of desiccate", "b": "Moisten" },
+{ "a": "To desiccate food specimens", "b": "Preserves them for long trips" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Desiccate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The scorching sun will", "b": "Desiccate the autumn leaves" },
+{ "a": "Harsh desert winds did", "b": "Desiccate the travelers' skin" },
+{ "a": "Packets of silica help", "b": "To desiccate the sample box" },
+{ "a": "Heat was applied to", "b": "Desiccate the timber pieces" }
+]
+}
+]
+},
+{
+"word": "Despotism",
+"pronunciation": "DES-puh-tiz-um",
+"pos": "noun",
+"definition": "The exercise of absolute power, especially in a cruel and oppressive way.",
+"origin": "From French despotisme, from Greek despotes (master, lord, absolute ruler).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Despotism come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek despotes", "b": "Lord or master of a house" },
+{ "a": "Greek potis", "b": "Husband or powerful one" },
+{ "a": "Combined meaning", "b": "Absolute rule or tyranny" },
+{ "a": "Related: despot", "b": "A ruler with unlimited power" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Despotism mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Despotism means", "b": "Autocracy and oppressive dictatorship" },
+{ "a": "Synonym of despotism", "b": "Totalitarianism" },
+{ "a": "Antonym of despotism", "b": "Democracy" },
+{ "a": "Enlightened despotism", "b": "Refers to absolute rule guided by reason" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Despotism used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The nation revolted against", "b": "Decades of cruel despotism" },
+{ "a": "He governed the firm", "b": "With a style approaching despotism" },
+{ "a": "Free speech is the", "b": "Ultimate defense against despotism" },
+{ "a": "The military coup established", "b": "A harsh, unyielding despotism" }
+]
+}
+]
+},
+{
+"word": "Diatribe",
+"pronunciation": "DY-uh-tryb",
+"pos": "noun",
+"definition": "A forceful and bitter verbal attack against someone or something.",
+"origin": "From Greek diatribe (discourse, pastime, a wasting of time).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Diatribe come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek dia-", "b": "Through or away" },
+{ "a": "Greek tribein", "b": "To rub or wear out" },
+{ "a": "Combined meaning", "b": "A wearing away of time in talk" },
+{ "a": "Related: attrition", "b": "A gradual wearing down of resistance" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Diatribe mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Diatribe means", "b": "A tirade or scathingly critical speech" },
+{ "a": "Synonym of diatribe", "b": "Harangue" },
+{ "a": "Antonym of diatribe", "b": "Panegyric" },
+{ "a": "A lengthly diatribe", "b": "Tests the patience of listeners" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Diatribe used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The editor wrote a", "b": "Bitter diatribe against high taxes" },
+{ "a": "He launched into a", "b": "Fierce diatribe when interrupted" },
+{ "a": "Her letter was a", "b": "Long diatribe about modern manners" },
+{ "a": "We had to endure", "b": "His angry diatribe at breakfast" }
+]
+}
+]
+},
+{
+"word": "Dictum",
+"pronunciation": "DIK-tum",
+"pos": "noun",
+"definition": "A formal pronouncement from an authoritative source, or a short popular saying.",
+"origin": "From Latin dictum, from dicere (to say, speak, pronounce).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Dictum come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dictum", "b": "A thing said or utterance" },
+{ "a": "Latin dicere", "b": "To speak" },
+{ "a": "Combined meaning", "b": "An authoritative statement" },
+{ "a": "Related: contradict", "b": "To speak against a claim" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Dictum mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Dictum means", "b": "An axiom or judicial assertion" },
+{ "a": "Synonym of dictum", "b": "Maxim" },
+{ "a": "Antonym of dictum", "b": "Absurdity" },
+{ "a": "An ancient dictum", "b": "Preserves traditional social wisdom" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Dictum used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He lived by the", "b": "Old dictum that honesty is best" },
+{ "a": "The judge issued a", "b": "Strict dictum on jury conduct" },
+{ "a": "We remember the medical", "b": "Dictum to do no harm" },
+{ "a": "She challenged the corporate", "b": "Dictum regarding office hours" }
+]
+}
+]
+},
+{
+"word": "Didactic",
+"pronunciation": "dy-DAK-tik",
+"pos": "adjective",
+"definition": "Intended to teach, particularly in having moral instruction as an unstated motive.",
+"origin": "From Greek didaktikos, from didaskein (to teach).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Didactic come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek didaktikos", "b": "Apt at teaching" },
+{ "a": "Greek didaskein", "b": "To instruct or lecture" },
+{ "a": "Combined meaning", "b": "Designed for educational instruction" },
+{ "a": "Related: doctor", "b": "Originally meaning a teacher or learned man" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Didactic mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Didactic means", "b": "Preachy and highly instructional" },
+{ "a": "Synonym of didactic", "b": "Edifying" },
+{ "a": "Antonym of didactic", "b": "Uninformative" },
+{ "a": "A didactic novel", "b": "Prioritizes its moral over plot" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Didactic used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The children's poem had", "b": "A clearly didactic purpose" },
+{ "a": "His tone was rather", "b": "Didactic and patronizing to colleagues" },
+{ "a": "She wrote a highly", "b": "Didactic text on geometry" },
+{ "a": "They disliked the play's", "b": "Heavy-handed didactic approach" }
+]
+}
+]
+},
+{
+"word": "Diffident",
+"pronunciation": "DIF-ih-dunt",
+"pos": "adjective",
+"definition": "Modest or shy because of a lack of self-confidence.",
+"origin": "From Latin diffidentem, from diffidere (to mistrust, lack confidence).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Diffident come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dis-", "b": "Away or reversing" },
+{ "a": "Latin fidere", "b": "To trust" },
+{ "a": "Combined meaning", "b": "Lacking trust in oneself" },
+{ "a": "Related: fidelity", "b": "Faithfulness and loyalty" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Diffident mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Diffident means", "b": "Timid and self-effacing" },
+{ "a": "Synonym of diffident", "b": "Bashful" },
+{ "a": "Antonym of diffident", "b": "Confident" },
+{ "a": "A diffident speaker", "b": "Hesitates before an audience" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Diffident used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He made a diffident", "b": "Request for a small advance" },
+{ "a": "She was surprisingly diffident", "b": "Despite her immense talent" },
+{ "a": "His diffident manner made", "b": "Him fly under the radar" },
+{ "a": "They coaxed the diffident", "b": "Child into joining the game" }
+]
+}
+]
+},
+{
+"word": "Dilatory",
+"pronunciation": "DIL-uh-tur-ee",
+"pos": "adjective",
+"definition": "Slow to act, or deliberately intended to cause delay.",
+"origin": "From Latin dilatorius, from dilator (a procrastinator, delayer).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Dilatory come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dis-", "b": "Apart or away" },
+{ "a": "Latin ferre", "b": "To carry" },
+{ "a": "Combined meaning", "b": "Deferring or putting off action" },
+{ "a": "Related: delay", "b": "To postpone or linger" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Dilatory mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Dilatory means", "b": "Procrastinating and sluggish" },
+{ "a": "Synonym of dilatory", "b": "Tardy" },
+{ "a": "Antonym of dilatory", "b": "Expeditious" },
+{ "a": "Dilatory legal tactics", "b": "Drag a trial out for months" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Dilatory used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The firm was dilatory", "b": "In paying its local suppliers" },
+{ "a": "They used dilatory strategies", "b": "To stall the vote in parliament" },
+{ "a": "He regretted his dilatory", "b": "Approach to filing his taxes" },
+{ "a": "The clerk's dilatory habits", "b": "Frustrated the whole department" }
+]
+}
+]
+},
+{
+"word": "Din",
+"pronunciation": "DIN",
+"pos": "noun",
+"definition": "A loud, unpleasant, and prolonged noise.",
+"origin": "From Old English dyn or dynnan (to resound, echo, rattle).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Din come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Old English dyn", "b": "A loud noise or clamor" },
+{ "a": "Old Norse dynr", "b": "A roaring or rumbling" },
+{ "a": "Combined meaning", "b": "A continuous roaring sound" },
+{ "a": "Related: dun", "b": "An old word for noisy demand" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Din mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Din means", "b": "A deafening, chaotic racket" },
+{ "a": "Synonym of din", "b": "Hubbub" },
+{ "a": "Antonym of din", "b": "Tranquility" },
+{ "a": "The din of traffic", "b": "Makes street conversations difficult" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Din used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "We couldn't speak over", "b": "The awful din of the engines" },
+{ "a": "The classroom was a", "b": "Raucous din during lunchtime" },
+{ "a": "A terrible din arose", "b": "From the building site nearby" },
+{ "a": "She tried to ignore", "b": "The steady din of the crowd" }
+]
+}
+]
+},
+{
+"word": "Disabuse",
+"pronunciation": "dis-uh-BYOOZ",
+"pos": "verb",
+"definition": "To persuade someone that an idea or belief is mistaken.",
+"origin": "From French désabuser, from dés- (reversing) + abuser (to misuse, mislead).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Disabuse come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "French dés-", "b": "Expressing reversal" },
+{ "a": "Latin abuti", "b": "To misuse or deceive" },
+{ "a": "Combined meaning", "b": "To free from deception or error" },
+{ "a": "Related: abuse", "b": "The wrong or cruel use of something" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Disabuse mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Disabuse means", "b": "To set straight or undeceive" },
+{ "a": "Synonym of disabuse", "b": "Disenchant" },
+{ "a": "Antonym of disabuse", "b": "Delude" },
+{ "a": "To disabuse a friend", "b": "Corrects their false assumptions" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Disabuse used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "I must disabuse you", "b": "Of that silly notion immediately" },
+{ "a": "The harsh facts did", "b": "Disabuse him of his romantic ideals" },
+{ "a": "Allow me to disabuse", "b": "The public of this false rumor" },
+{ "a": "She was quick to", "b": "Disabuse them of their errors" }
+]
+}
+]
+},
+{
+"word": "Disparate",
+"pronunciation": "DIS-puh-rut",
+"pos": "adjective",
+"definition": "Essentially different in kind, not allowing for a fair comparison.",
+"origin": "From Latin disparatus, from dispar (unequal, separate).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Disparate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dis-", "b": "Apart or non" },
+{ "a": "Latin paratus", "b": "Prepared or equalled" },
+{ "a": "Combined meaning", "b": "Separated or fundamentally unequal" },
+{ "a": "Related: parity", "b": "The state of being equal" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Disparate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Disparate means", "b": "Divergent and distinct" },
+{ "a": "Synonym of disparate", "b": "Dissimilar" },
+{ "a": "Antonym of disparate", "b": "Homogeneous" },
+{ "a": "Disparate data points", "b": "Cannot be combined easily" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Disparate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The culture brings together", "b": "Disparate elements into a whole" },
+{ "a": "They held completely disparate", "b": "Views on foreign policy" },
+{ "a": "The collection includes highly", "b": "Disparate artifacts from around the world" },
+{ "a": "Scientists tried to link", "b": "These disparate phenomena" }
+]
+}
+]
+},
+{
+"word": "Dissemble",
+"pronunciation": "dih-SEM-bul",
+"pos": "verb",
+"definition": "To conceal one's true motives, feelings, or beliefs.",
+"origin": "From Old French dissembler, an alteration of Latin dissimulare (to disguise, conceal).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Dissemble come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dis-", "b": "Reversing or completely" },
+{ "a": "Latin simulare", "b": "To make like or feign" },
+{ "a": "Combined meaning", "b": "To disguise or hide the truth" },
+{ "a": "Related: simulate", "b": "To copy or imitate a process" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Dissemble mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Dissemble means", "b": "To pretend or mask intentions" },
+{ "a": "Synonym of dissemble", "b": "Equivocate" },
+{ "a": "Antonym of dissemble", "b": "Reveal" },
+{ "a": "To dissemble anger", "b": "Forces a person to appear calm" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Dissemble used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He found it hard", "b": "To dissemble his disappointment" },
+{ "a": "Politicians often learn to", "b": "Dissemble during tough interviews" },
+{ "a": "She chose to dissemble", "b": "Rather than hurt his feelings" },
+{ "a": "An honest man cannot", "b": "Dissemble his true nature" }
+]
+}
+]
+},
+{
+"word": "Dissonance",
+"pronunciation": "DIS-uh-nunss",
+"pos": "noun",
+"definition": "A lack of harmony or agreement, especially between elements, ideas, or musical notes.",
+"origin": "From French dissonance, from Latin dissonare (to differ in sound).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Dissonance come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin dis-", "b": "Apart or asunder" },
+{ "a": "Latin sonus", "b": "A sound" },
+{ "a": "Combined meaning", "b": "Sounding apart or clashing" },
+{ "a": "Related: resonance", "b": "A echoing or full sound quality" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Dissonance mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Dissonance means", "b": "Discord or conflict between things" },
+{ "a": "Synonym of dissonance", "b": "Incongruity" },
+{ "a": "Antonym of dissonance", "b": "Concord" },
+{ "a": "Cognitive dissonance", "b": "Occurs when beliefs clash with reality" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Dissonance used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "There was a strange", "b": "Dissonance between his words and actions" },
+{ "a": "The modern piece featured", "b": "A lot of deliberate musical dissonance" },
+{ "a": "To resolve the internal", "b": "Dissonance, she changed her mind" },
+{ "a": "The party suffered from", "b": "Ideological dissonance among leaders" }
+]
+}
+]
+}
+]

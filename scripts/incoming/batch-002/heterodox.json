@@ -1,0 +1,120 @@
+{
+  "word": "Heterodox",
+  "pronunciation": "HET-er-oh-doks",
+  "pos": "adjective",
+  "definition": "Not conforming to accepted or orthodox standards or beliefs.",
+  "origin": "From Greek <strong>heteros</strong> (other, different) + <strong>doxa</strong> (opinion, belief).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Greek ",
+      "highlight": false
+    },
+    {
+      "text": "heteros",
+      "highlight": true
+    },
+    {
+      "text": " (other, different) + ",
+      "highlight": false
+    },
+    {
+      "text": "doxa",
+      "highlight": true
+    },
+    {
+      "text": " (opinion, belief).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "heteros",
+      "root_language": "Greek",
+      "root_meaning": "other or different",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "doxa",
+      "root_language": "Greek",
+      "root_meaning": "opinion or belief",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "doxa",
+    "correct_answer": "Opinion or belief"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Heterodox</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Greek heteros",
+          "b": "Other or different"
+        },
+        {
+          "a": "Greek doxa",
+          "b": "Opinion or belief"
+        },
+        {
+          "a": "Related: orthodox",
+          "b": "Holding the correct belief"
+        },
+        {
+          "a": "Related: paradox",
+          "b": "A belief against common opinion"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Heterodox</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Heterodox means",
+          "b": "Not conforming to accepted beliefs"
+        },
+        {
+          "a": "A heterodox view",
+          "b": "Challenges the mainstream"
+        },
+        {
+          "a": "Synonym of heterodox",
+          "b": "Unorthodox"
+        },
+        {
+          "a": "Antonym of heterodox",
+          "b": "Orthodox"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Heterodox</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "A heterodox economist",
+          "b": "Who rejected the consensus"
+        },
+        {
+          "a": "His heterodox views",
+          "b": "Made him few friends in academia"
+        },
+        {
+          "a": "The heterodox approach",
+          "b": "Produced surprising results"
+        },
+        {
+          "a": "Heterodox theology",
+          "b": "Has a long history of persecution"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1819 @@
+[
+  {
+    "word": "Iconoclast",
+    "pronunciation": "eye-KON-uh-klast",
+    "pos": "noun",
+    "definition": "A person who attacks cherished beliefs or established institutions.",
+    "origin": "From Greek eikonoklastes, from eikon (image) + klan (to break).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Iconoclast come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek eikon",
+            "b": "An image or likeness"
+          },
+          {
+            "a": "Greek klan",
+            "b": "To break or smash"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "A breaker of religious images"
+          },
+          {
+            "a": "Related: icon",
+            "b": "A symbol or sacred painting"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Iconoclast mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Iconoclast means",
+            "b": "A challenger of sacred traditions"
+          },
+          {
+            "a": "Synonym of iconoclast",
+            "b": "Maverick"
+          },
+          {
+            "a": "Antonym of iconoclast",
+            "b": "Traditionalist"
+          },
+          {
+            "a": "A design iconoclast",
+            "b": "Tears up old rules to create new layouts"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Iconoclast used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The young software developer was",
+            "b": "An iconoclast who hated old code"
+          },
+          {
+            "a": "As an educational iconoclast",
+            "b": "He banned traditional rows of desks"
+          },
+          {
+            "a": "The artist was a celebrated",
+            "b": "Iconoclast within the gallery world"
+          },
+          {
+            "a": "She gained a reputation as",
+            "b": "A political iconoclast during debates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Idiosyncrasy",
+    "pronunciation": "id-ee-oh-SING-kruh-see",
+    "pos": "noun",
+    "definition": "A mode of behaviour or way of thinking peculiar to an individual. UK spelling.",
+    "origin": "From Greek idiosunkrasia, from idios (own, peculiar) + sun (with) + krasis (mixture).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Idiosyncrasy come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek idios",
+            "b": "One's own or private"
+          },
+          {
+            "a": "Greek krasis",
+            "b": "A tempering or physical mixture"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "A peculiar physical temperament"
+          },
+          {
+            "a": "Related: idiot",
+            "b": "Originally meaning a private citizen"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Idiosyncrasy mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Idiosyncrasy means",
+            "b": "A quirky personal characteristic"
+          },
+          {
+            "a": "Synonym of idiosyncrasy",
+            "b": "Eccentricity"
+          },
+          {
+            "a": "Antonym of idiosyncrasy",
+            "b": "Conformity"
+          },
+          {
+            "a": "A mechanical idiosyncrasy",
+            "b": "Requires a specific knack to handle"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Idiosyncrasy used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The old car had an",
+            "b": "Idiosyncrasy involving the fuel gauge"
+          },
+          {
+            "a": "She smiled at the quirky",
+            "b": "Idiosyncrasies of her grandfather"
+          },
+          {
+            "a": "Every programming language has its",
+            "b": "Own bizarre internal idiosyncrasy"
+          },
+          {
+            "a": "He wore mismatched socks as",
+            "b": "A matter of personal idiosyncrasy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Idolatry",
+    "pronunciation": "eye-DOL-uh-tree",
+    "pos": "noun",
+    "definition": "The worship of idols, or extreme admiration and reverence for something.",
+    "origin": "From Old French idolatrie, from Greek eidololatria, from eidolon (image, phantom) + latreia (worship).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Idolatry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek eidolon",
+            "b": "An image, phantom, or idol"
+          },
+          {
+            "a": "Greek latreia",
+            "b": "Service, hire, or worship"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "The worship of physical images"
+          },
+          {
+            "a": "Related: idolise",
+            "b": "To admire or love excessively"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Idolatry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Idolatry means",
+            "b": "Blind or uncritical devotion"
+          },
+          {
+            "a": "Synonym of idolatory",
+            "b": "Adoration"
+          },
+          {
+            "a": "Antonym of idolatory",
+            "b": "Vilification"
+          },
+          {
+            "a": "Pop star idolatory",
+            "b": "Fills massive stadiums with screaming fans"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Idolatry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The fans' borderline idolatory of",
+            "b": "The striker alarmed the manager"
+          },
+          {
+            "a": "The prophet warned the tribe",
+            "b": "Against the sins of idolatory"
+          },
+          {
+            "a": "Her stance approached uncritical idolatory",
+            "b": "Whenever the author published a novel"
+          },
+          {
+            "a": "He looked beyond the public",
+            "b": "Idolatry to see the real man"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Illusion",
+    "pronunciation": "ih-LOO-zhun",
+    "pos": "noun",
+    "definition": "An instance of a wrong or misinterpreted perception of a sensory experience.",
+    "origin": "From Latin illusio, from illudere (to mock, trick, literally to play with).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Illusion come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Against or at"
+          },
+          {
+            "a": "Latin ludere",
+            "b": "To play or mock"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "A mocking or deceitful trick"
+          },
+          {
+            "a": "Related: elusive",
+            "b": "Difficult to find, catch, or achieve"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Illusion mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Illusion means",
+            "b": "A deceptive appearance or fallacy"
+          },
+          {
+            "a": "Synonym of illusion",
+            "b": "Delusion"
+          },
+          {
+            "a": "Antonym of illusion",
+            "b": "Reality"
+          },
+          {
+            "a": "An optical illusion",
+            "b": "Tricks the brain into seeing motion"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Illusion used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The mirrors create a clever",
+            "b": "Illusion of endless space inside"
+          },
+          {
+            "a": "He was under no illusion",
+            "b": "About the scale of the task"
+          },
+          {
+            "a": "The desert heat created the",
+            "b": "Illusion of a distant lake"
+          },
+          {
+            "a": "They maintained a happy illusion",
+            "b": "Of domestic peace for years"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Immutable",
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "pos": "adjective",
+    "definition": "Unchanging over time or unable to be changed.",
+    "origin": "From Latin immutabilis, from in- (not) + mutare (to change).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Immutable come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin mutare",
+            "b": "To shift or alter"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Incapable of being altered"
+          },
+          {
+            "a": "Related: mutate",
+            "b": "To change form or undergo alteration"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Immutable mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Immutable means",
+            "b": "Fixed and permanent"
+          },
+          {
+            "a": "Synonym of immutable",
+            "b": "Invariable"
+          },
+          {
+            "a": "Antonym of immutable",
+            "b": "Capricious"
+          },
+          {
+            "a": "An immutable law of physics",
+            "b": "Cannot be broken by any machine"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Immutable used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The contract terms were completely",
+            "b": "Immutable once the signature matched"
+          },
+          {
+            "a": "He viewed these rules as",
+            "b": "Immutable truths of code structure"
+          },
+          {
+            "a": "The landscape seemed absolute and",
+            "b": "Immutable under the winter snow"
+          },
+          {
+            "a": "Human nature is not an",
+            "b": "Immutable set of rigid instincts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impassioned",
+    "pronunciation": "im-PASH-und",
+    "pos": "adjective",
+    "definition": "Filled with or showing great emotion or intense feeling.",
+    "origin": "From Italian impassionation, from Latin in- (into) + passio (suffering, passion).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impassioned come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "In, into, or thoroughly"
+          },
+          {
+            "a": "Latin pati",
+            "b": "To suffer or endure"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Brought into a state of intense feeling"
+          },
+          {
+            "a": "Related: patient",
+            "b": "Bearing trials calmly or suffering"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impassioned mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impassioned means",
+            "b": "Ardent and vehemently heartfelt"
+          },
+          {
+            "a": "Synonym of impassioned",
+            "b": "Fervid"
+          },
+          {
+            "a": "Antonym of impassioned",
+            "b": "Dispassionate"
+          },
+          {
+            "a": "An impassioned plea",
+            "b": "Aims to move listeners to action"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impassioned used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The barrister delivered an impassioned",
+            "b": "Defense of the primary suspect"
+          },
+          {
+            "a": "She wrote an impassioned letter",
+            "b": "To decry the local library cuts"
+          },
+          {
+            "a": "His impassioned speech swept through",
+            "b": "The crowded village hall"
+          },
+          {
+            "a": "They engaged in an impassioned",
+            "b": "Debate regarding software safety"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impeccable",
+    "pronunciation": "im-PEK-uh-bul",
+    "pos": "adjective",
+    "definition": "In accordance with the highest standards, faultless or sinless.",
+    "origin": "From Latin impeccabilis, from in- (not) + peccare (to sin).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impeccable come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin peccare",
+            "b": "To sin or stumble"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Incapable of sin or error"
+          },
+          {
+            "a": "Related: peccadillo",
+            "b": "A tiny, insignificant sin or fault"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impeccable mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impeccable means",
+            "b": "Flawless and perfectly executed"
+          },
+          {
+            "a": "Synonym of impeccable",
+            "b": "Exquisite"
+          },
+          {
+            "a": "Antonym of impeccable",
+            "b": "Defective"
+          },
+          {
+            "a": "Impeccable manners",
+            "b": "Make a great impression during interviews"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impeccable used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Her written Spanish was absolutely",
+            "b": "Impeccable after daily practice"
+          },
+          {
+            "a": "He maintained an impeccable record",
+            "b": "Throughout his teaching career"
+          },
+          {
+            "a": "The house was in impeccable",
+            "b": "Condition for the evening guests"
+          },
+          {
+            "a": "She showed impeccable timing by",
+            "b": "Scoring in the final minute"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Imperious",
+    "pronunciation": "im-PEER-ee-us",
+    "pos": "adjective",
+    "definition": "Arrogant and domineering, expecting immediate obedience without question.",
+    "origin": "From Latin imperiosus, from imperium (command, supreme power, empire).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Imperious come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin imperium",
+            "b": "Command, power, or dominion"
+          },
+          {
+            "a": "Latin imperare",
+            "b": "To command or order"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Full of command or lordly"
+          },
+          {
+            "a": "Related: empire",
+            "b": "An extensive group of states under single rule"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Imperious mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Imperious means",
+            "b": "Dictatorial and overbearing"
+          },
+          {
+            "a": "Synonym of imperious",
+            "b": "Magisterial"
+          },
+          {
+            "a": "Antonym of imperious",
+            "b": "Submissive"
+          },
+          {
+            "a": "An imperious gesture",
+            "b": "Commands someone to leave immediately"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Imperious used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She ignored his imperious demands",
+            "b": "With a quiet, confident smile"
+          },
+          {
+            "a": "The manager spoke in an",
+            "b": "Imperious tone that upset staff"
+          },
+          {
+            "a": "The king cast an imperious",
+            "b": "Look across the courtroom"
+          },
+          {
+            "a": "His imperious nature made collaboration",
+            "b": "Virtually impossible for the team"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Imperturbable",
+    "pronunciation": "im-pur-TUR-buh-bul",
+    "pos": "adjective",
+    "definition": "Incapable of being upset or agitated, naturally calm and serene.",
+    "origin": "From Late Latin imperturbabilis, from in- (not) + perturbare (to confuse, disturb).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Imperturbable come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin per-",
+            "b": "Thoroughly"
+          },
+          {
+            "a": "Latin turbare",
+            "b": "To throw into confusion or disorder"
+          },
+          {
+            "a": "Related: turbulent",
+            "b": "Moving rapidly or in a disordered way"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Imperturbable mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Imperturbable means",
+            "b": "Unshakeable and composed"
+          },
+          {
+            "a": "Synonym of imperturbable",
+            "b": "Equanimous"
+          },
+          {
+            "a": "Antonym of imperturbable",
+            "b": "Excitable"
+          },
+          {
+            "a": "An imperturbable goalkeeper",
+            "b": "Stays focused during a penalty shootout"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Imperturbable used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The detective remained perfectly imperturbable",
+            "b": "Throughout the chaotic interview"
+          },
+          {
+            "a": "Her imperturbable calm did diffuse",
+            "b": "The heated classroom argument"
+          },
+          {
+            "a": "He possessed an imperturbable",
+            "b": "Disposition even during software crashes"
+          },
+          {
+            "a": "The general was famously imperturbable",
+            "b": "Under heavy enemy fire"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impervious",
+    "pronunciation": "im-PUR-vee-us",
+    "pos": "adjective",
+    "definition": "Not allowing fluid to pass through, or unable to be affected by something.",
+    "origin": "From Latin impervius, from in- (not) + pervius (letting things through).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impervious come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin per",
+            "b": "Through"
+          },
+          {
+            "a": "Latin via",
+            "b": "A way or road"
+          },
+          {
+            "a": "Related: deviate",
+            "b": "To turn aside from a set path"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impervious mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impervious means",
+            "b": "Impenetrable or immune to impact"
+          },
+          {
+            "a": "Synonym of impervious",
+            "b": "Inviolable"
+          },
+          {
+            "a": "Antonym of impervious",
+            "b": "Susceptible"
+          },
+          {
+            "a": "An impervious coat",
+            "b": "Repels heavy winter downpours easily"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impervious used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The rubber boots were entirely",
+            "b": "Impervious to the deep mud"
+          },
+          {
+            "a": "He seemed completely impervious to",
+            "b": "The harsh criticism of reviewers"
+          },
+          {
+            "a": "The material is treated to be",
+            "b": "Impervious to toxic chemical stains"
+          },
+          {
+            "a": "She remained coolly impervious to",
+            "b": "His standard flatteries and charms"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impetuous",
+    "pronunciation": "im-PET-yoo-us",
+    "pos": "adjective",
+    "definition": "Acting or done quickly and without thought or care.",
+    "origin": "From Old French impetueux, from Late Latin impetuosus, from impetus (an attack, impulse).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impetuous come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Into or upon"
+          },
+          {
+            "a": "Latin petere",
+            "b": "To seek, aim at, or rush"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Rushing violently forward"
+          },
+          {
+            "a": "Related: impetus",
+            "b": "The force that makes something move"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impetuous mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impetuous means",
+            "b": "Rash and violently impulsive"
+          },
+          {
+            "a": "Synonym of impetuous",
+            "b": "Headlong"
+          },
+          {
+            "a": "Antonym of impetuous",
+            "b": "Prudent"
+          },
+          {
+            "a": "An impetuous decision",
+            "b": "Often leads to immediate regret"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impetuous used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He made an impetuous purchase",
+            "b": "By buying the classic car online"
+          },
+          {
+            "a": "Her impetuous nature often landed",
+            "b": "Her in complicated office arguments"
+          },
+          {
+            "a": "The youth was brilliant but",
+            "b": "Highly impetuous in his work"
+          },
+          {
+            "a": "We must avoid impetuous actions",
+            "b": "During this financial emergency"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Implacable",
+    "pronunciation": "im-PLAK-uh-bul",
+    "pos": "adjective",
+    "definition": "Unable to be placated, appeased, or significantly modified.",
+    "origin": "From Latin implacabilis, from in- (not) + placare (to appease).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Implacable come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin placare",
+            "b": "To calm or appease"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Incapable of being pacified"
+          },
+          {
+            "a": "Related: placid",
+            "b": "Calm, peaceful, or quiet"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Implacable mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Implacable means",
+            "b": "Relentless and unyielding"
+          },
+          {
+            "a": "Synonym of implacable",
+            "b": "Inexorable"
+          },
+          {
+            "a": "Antonym of implacable",
+            "b": "Amenable"
+          },
+          {
+            "a": "An implacable enemy",
+            "b": "Refuses to sign any peace treaty"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Implacable used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The army advanced with an",
+            "b": "Implacable momentum toward the town"
+          },
+          {
+            "a": "He faced the implacable logic",
+            "b": "Of the legal contract terms"
+          },
+          {
+            "a": "She was an implacable foe",
+            "b": "Of corporate tax avoidance policies"
+          },
+          {
+            "a": "The weather presented an implacable",
+            "b": "Barrier to the mountain rescue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Importunate",
+    "pronunciation": "im-POR-choo-nut",
+    "pos": "adjective",
+    "definition": "Persistent and demanding, especially to the point of annoyance.",
+    "origin": "From Latin importunus (unsuitable, troublesome, literally having no harbor).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Importunate come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or without"
+          },
+          {
+            "a": "Latin portus",
+            "b": "A harbor or port"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Difficult to access or harborless"
+          },
+          {
+            "a": "Related: opportunity",
+            "b": "A favorable time or moving toward port"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Importunate mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Importunate means",
+            "b": "Troublesomely urgent or pressing"
+          },
+          {
+            "a": "Synonym of importunate",
+            "b": "Exigent"
+          },
+          {
+            "a": "Antonym of importunate",
+            "b": "Diffident"
+          },
+          {
+            "a": "An importunate beggar",
+            "b": "Follows pedestrians down the street"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Importunate used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The office suffered from the",
+            "b": "Importunate demands of the client"
+          },
+          {
+            "a": "He chose to ignore the",
+            "b": "Importunate ringing of his phone"
+          },
+          {
+            "a": "She grew weary of his",
+            "b": "Importunate requests for a loan"
+          },
+          {
+            "a": "The cabinet faced importunate appeals",
+            "b": "From local school headteachers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Imprecation",
+    "pronunciation": "im-prih-KAY-shun",
+    "pos": "noun",
+    "definition": "A spoken curse or insult.",
+    "origin": "From Latin imprecatio, from imprecari (to invoke evil upon, pray to).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Imprecation come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Upon or into"
+          },
+          {
+            "a": "Latin precari",
+            "b": "To pray or beg"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Praying for evil upon someone"
+          },
+          {
+            "a": "Related: precarious",
+            "b": "Dependent on chance or another's will"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Imprecation mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Imprecation means",
+            "b": "A malediction or profane oath"
+          },
+          {
+            "a": "Synonym of imprecation",
+            "b": "Anathema"
+          },
+          {
+            "a": "Antonym of imprecation",
+            "b": "Benediction"
+          },
+          {
+            "a": "Muttering an imprecation",
+            "b": "Reveals intense internal fury"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Imprecation used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The old witch hurled an",
+            "b": "Imprecation at the fleeing soldiers"
+          },
+          {
+            "a": "He muttered a bitter imprecation",
+            "b": "When the dashboard light flashed"
+          },
+          {
+            "a": "The crowd responded with angry",
+            "b": "Imprecations during the speech"
+          },
+          {
+            "a": "She turned away, her lips",
+            "b": "Forming a silent imprecation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impregnable",
+    "pronunciation": "im-PREG-nuh-bul",
+    "pos": "adjective",
+    "definition": "Incapable of being taken by assault, unconquerable.",
+    "origin": "From Old French imprenable, from in- (not) + prendre (to take), from Latin prehendere.",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impregnable come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French prendre",
+            "b": "To seize or take"
+          },
+          {
+            "a": "Latin prehendere",
+            "b": "To grasp or capture"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Incapable of being captured"
+          },
+          {
+            "a": "Related: comprehend",
+            "b": "To grasp a concept mentally"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impregnable mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impregnable means",
+            "b": "Invulnerable and unassailable"
+          },
+          {
+            "a": "Synonym of impregnable",
+            "b": "Inexpugnable"
+          },
+          {
+            "a": "Antonym of impregnable",
+            "b": "Vulnerable"
+          },
+          {
+            "a": "An impregnable fortress",
+            "b": "Withstands months of siege warfare"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impregnable used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The castle was built on",
+            "b": "An impregnable mountain cliff edge"
+          },
+          {
+            "a": "They established an impregnable lead",
+            "b": "During the final tournament round"
+          },
+          {
+            "a": "His legal argument was entirely",
+            "b": "Impregnable against cross-examination"
+          },
+          {
+            "a": "The data vault offers an",
+            "b": "Impregnable defense against hackers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Improvident",
+    "pronunciation": "im-PROV-ih-dunt",
+    "pos": "adjective",
+    "definition": "Not having or showing foresight, spendthrift or thoughtless.",
+    "origin": "From Latin improvidens, from in- (not) + providere (to foresee, look ahead).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Improvident come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin pro",
+            "b": "Ahead or forward"
+          },
+          {
+            "a": "Latin videre",
+            "b": "To see or look"
+          },
+          {
+            "a": "Related: provide",
+            "b": "To make preparation for the future"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Improvident mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Improvident means",
+            "b": "Prodigal and thriftless"
+          },
+          {
+            "a": "Synonym of improvident",
+            "b": "Spendthrift"
+          },
+          {
+            "a": "Antonym of improvident",
+            "b": "Provident"
+          },
+          {
+            "a": "An improvident lifestyle",
+            "b": "Leads to heavy personal debts"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Improvident used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His improvident financial habits ruined",
+            "b": "The family business within a year"
+          },
+          {
+            "a": "They made an improvident choice",
+            "b": "By neglecting winter roof maintenance"
+          },
+          {
+            "a": "The company was hurt by",
+            "b": "Improvident spending on luxury trips"
+          },
+          {
+            "a": "An improvident youth often faces",
+            "b": "A difficult or broke middle age"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Impugn",
+    "pronunciation": "im-PYOON",
+    "pos": "verb",
+    "definition": "To dispute the truth, validity, or honesty of a statement or motive.",
+    "origin": "From Latin impugnare, from in- (against) + pugnare (to fight).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Impugn come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Against or upon"
+          },
+          {
+            "a": "Latin pugnare",
+            "b": "To fight with fists"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "To assail or attack verbally"
+          },
+          {
+            "a": "Related: pugnacious",
+            "b": "Eager or quick to argue or fight"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Impugn mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Impugn means",
+            "b": "To call into question or challenge"
+          },
+          {
+            "a": "Synonym of impugn",
+            "b": "Gainsay"
+          },
+          {
+            "a": "Antonym of impugn",
+            "b": "Vindicate"
+          },
+          {
+            "a": "To impugn motives",
+            "b": "Suggests hidden underhanded agendas exist"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Impugn used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The defense sought to",
+            "b": "Impugn the reliability of the witness"
+          },
+          {
+            "a": "Do not attempt to impugn",
+            "b": "Her professional teaching integrity"
+          },
+          {
+            "a": "He wrote a letter to",
+            "b": "Impugn the validity of the audit"
+          },
+          {
+            "a": "The report did heavily impugn",
+            "b": "The executive board's honesty"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Imputation",
+    "pronunciation": "im-pyoo-TAY-shun",
+    "pos": "noun",
+    "definition": "A charge or insinuation that someone has done something criminal or dishonourable.",
+    "origin": "From Latin imputatio, from imputare (to bring into the reckoning, charge).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Imputation come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "In, into, or upon"
+          },
+          {
+            "a": "Latin putare",
+            "b": "To reckon, consider, or prune"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "To score or enter into an account"
+          },
+          {
+            "a": "Related: computer",
+            "b": "An electronic device for calculating numbers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Imputation mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Imputation means",
+            "b": "An attribution of fault or blame"
+          },
+          {
+            "a": "Synonym of imputation",
+            "b": "Insinuation"
+          },
+          {
+            "a": "Antonym of imputation",
+            "b": "Exoneration"
+          },
+          {
+            "a": "A false imputation",
+            "b": "Damages an honest professional name"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Imputation used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He strongly denied the imputation",
+            "b": "Of corporate price collusion"
+          },
+          {
+            "a": "She was offended by the",
+            "b": "Imputation that she had cheated"
+          },
+          {
+            "a": "The article was a nasty",
+            "b": "Imputation of personal misconduct"
+          },
+          {
+            "a": "They fought hard against any",
+            "b": "Imputation of operational negligence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Inadvertent",
+    "pronunciation": "in-ad-VUR-tunt",
+    "pos": "adjective",
+    "definition": "Not resulting from or achieved through deliberate planning, unintentional.",
+    "origin": "From Latin in- (not) + advertentem, from advertere (to turn the mind to).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Inadvertent come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin ad-",
+            "b": "Toward"
+          },
+          {
+            "a": "Latin vertere",
+            "b": "To spin or turn"
+          },
+          {
+            "a": "Related: advertise",
+            "b": "To call public attention to a product"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Inadvertent mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Inadvertent means",
+            "b": "Accidental and unheeding"
+          },
+          {
+            "a": "Synonym of inadvertent",
+            "b": "Unwitting"
+          },
+          {
+            "a": "Antonym of inadvertent",
+            "b": "Deliberate"
+          },
+          {
+            "a": "An inadvertent deletion",
+            "b": "Can erase hours of software development"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Inadvertent used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He made an inadvertent error",
+            "b": "By mixing up his scorecard metrics"
+          },
+          {
+            "a": "The data spill was an",
+            "b": "Inadvertent breach of corporate rules"
+          },
+          {
+            "a": "She offered an apology for the",
+            "b": "Inadvertent insult to her host"
+          },
+          {
+            "a": "An inadvertent click closed the",
+            "b": "Entire front-end coding interface"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Inane",
+    "pronunciation": "ih-NAYN",
+    "pos": "adjective",
+    "definition": "Lacking sense or substance, silly or mindless.",
+    "origin": "From Latin inanis (empty, void, worthless, useless).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Inane come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin inanis",
+            "b": "Empty or hollow"
+          },
+          {
+            "a": "PIE root es-",
+            "b": "To be, connected to empty space"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Devoid of intelligence or empty"
+          },
+          {
+            "a": "Related: inanity",
+            "b": "The quality of total silliness"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Inane mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Inane means",
+            "b": "Fatuous and completely vacuous"
+          },
+          {
+            "a": "Synonym of inane",
+            "b": "Pointless"
+          },
+          {
+            "a": "Antonym of inane",
+            "b": "Profound"
+          },
+          {
+            "a": "An inane conversation",
+            "b": "Offers no intellectual substance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Inane used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He grew tired of the",
+            "b": "Inane chatter in the tavern"
+          },
+          {
+            "a": "She made an inane remark",
+            "b": "About the referee's haircut"
+          },
+          {
+            "a": "The television show had an",
+            "b": "Inane plot that bored critics"
+          },
+          {
+            "a": "Do not fill the document",
+            "b": "With inane corporate buzzwords"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Inchoate",
+    "pronunciation": "in-KOH-ut",
+    "pos": "adjective",
+    "definition": "Just begun and so not fully formed or developed, rudimentary.",
+    "origin": "From Latin inchoatus, from inchoare (to begin, construct, lay foundations).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Inchoate come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin inchoare",
+            "b": "To begin or initiate"
+          },
+          {
+            "a": "Latin cohum",
+            "b": "The strap matching a plow to a yoke"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Hitching up the plow to start work"
+          },
+          {
+            "a": "Related: cohere",
+            "b": "To stick together or form a whole"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Inchoate mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Inchoate means",
+            "b": "Formless and in early stages"
+          },
+          {
+            "a": "Synonym of inchoate",
+            "b": "Amorphous"
+          },
+          {
+            "a": "Antonym of inchoate",
+            "b": "Mature"
+          },
+          {
+            "a": "An inchoate plan",
+            "b": "Lacks specific practical milestones"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Inchoate used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The project was an inchoate",
+            "b": "Idea written on a napkin"
+          },
+          {
+            "a": "He felt an inchoate sense",
+            "b": "Of anxiety about the contract"
+          },
+          {
+            "a": "The new law reflects an",
+            "b": "Inchoate public desire for reform"
+          },
+          {
+            "a": "Her thesis outline was still",
+            "b": "Inchoate and poorly organized"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Incipient",
+    "pronunciation": "in-SIP-ee-unt",
+    "pos": "adjective",
+    "definition": "Beginning to happen or develop, appearing or growing.",
+    "origin": "From Latin incipientem, from incipere (to take in hand, begin).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Incipient come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Into or upon"
+          },
+          {
+            "a": "Latin capere",
+            "b": "To take, hold, or grasp"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Taking things in hand at the start"
+          },
+          {
+            "a": "Related: capture",
+            "b": "The act of taking by force"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Incipient mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Incipient means",
+            "b": "Developing or dawning"
+          },
+          {
+            "a": "Synonym of incipient",
+            "b": "Nascent"
+          },
+          {
+            "a": "Antonym of incipient",
+            "b": "Full-blown"
+          },
+          {
+            "a": "An incipient cold",
+            "b": "Causes a slight tickle in the throat"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Incipient used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The doctor spotted an incipient",
+            "b": "Infection during the routine check"
+          },
+          {
+            "a": "He noticed signs of incipient",
+            "b": "Rust on the classic car's wings"
+          },
+          {
+            "a": "The meeting defused an incipient",
+            "b": "Rebellion among the factory staff"
+          },
+          {
+            "a": "They discussed an incipient economic",
+            "b": "Trend within the local market"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Inclement",
+    "pronunciation": "in-KLEM-unt",
+    "pos": "adjective",
+    "definition": "Denoting weather that is unpleasantly cold, wet, or severe.",
+    "origin": "From Latin inclemens, from in- (not) + clemens (mild, gentle).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Inclement come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in-",
+            "b": "Not or un-"
+          },
+          {
+            "a": "Latin clemens",
+            "b": "Gentle, calm, or merciful"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Harsh, severe, or unmerciful"
+          },
+          {
+            "a": "Related: clemency",
+            "b": "Mercy or leniency shown to offenders"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Inclement mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Inclement means",
+            "b": "Stormy and foul weather"
+          },
+          {
+            "a": "Synonym of inclement",
+            "b": "Intemperate"
+          },
+          {
+            "a": "Antonym of inclement",
+            "b": "Clement"
+          },
+          {
+            "a": "Inclement conditions",
+            "b": "Force Sunday league matches to be postponed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Inclement used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tour was canceled due",
+            "b": "To highly inclement winter weather"
+          },
+          {
+            "a": "They braved the inclement",
+            "b": "Rain to finish the golf round"
+          },
+          {
+            "a": "School children stayed inside during",
+            "b": "The inclement lunch hour"
+          },
+          {
+            "a": "Sailing in such inclement",
+            "b": "Conditions is extremely dangerous"
+          }
+        ]
+      }
+    ]
+  }
+]

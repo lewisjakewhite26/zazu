@@ -1,0 +1,128 @@
+{
+  "word": "Inveterate",
+  "pronunciation": "in-VET-er-ut",
+  "pos": "adjective",
+  "definition": "Having a particular habit, activity, or interest that is deeply established and unlikely to change.",
+  "origin": "From Latin <strong>inveteratus</strong> -- of long standing. From <strong>in</strong> (intensive) + <strong>vetus</strong> (old).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "inveteratus",
+      "highlight": true
+    },
+    {
+      "text": " (of long standing), from ",
+      "highlight": false
+    },
+    {
+      "text": "in",
+      "highlight": true
+    },
+    {
+      "text": " (intensive) + ",
+      "highlight": false
+    },
+    {
+      "text": "vetus",
+      "highlight": true
+    },
+    {
+      "text": " (old).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "in",
+      "root_language": "Latin",
+      "root_meaning": "intensive prefix",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "vetus",
+      "root_language": "Latin",
+      "root_meaning": "old",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "vetus",
+    "correct_answer": "Old"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Inveterate</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin in-",
+          "b": "Intensive prefix"
+        },
+        {
+          "a": "Latin vetus",
+          "b": "Old"
+        },
+        {
+          "a": "Latin inveteratus",
+          "b": "Of long standing"
+        },
+        {
+          "a": "Related: veteran",
+          "b": "One long experienced in service"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Inveterate</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Inveterate means",
+          "b": "Deeply and long established"
+        },
+        {
+          "a": "An inveterate habit",
+          "b": "Is unlikely to change"
+        },
+        {
+          "a": "Synonym of inveterate",
+          "b": "Confirmed"
+        },
+        {
+          "a": "Antonym of inveterate",
+          "b": "Occasional"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Inveterate</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "An inveterate gambler",
+          "b": "Who never learned his lesson"
+        },
+        {
+          "a": "An inveterate liar",
+          "b": "Whose word meant nothing"
+        },
+        {
+          "a": "She was an inveterate",
+          "b": "Early riser"
+        },
+        {
+          "a": "An inveterate traveller",
+          "b": "Who had never owned a home"
+        }
+      ]
+    }
+  ]
+}

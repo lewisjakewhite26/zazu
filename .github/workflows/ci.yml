@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Validate word library (schema + dry run)
+        run: npm run seed:dry
+
+      - name: Verify morning task blocks match generator rules
+        run: npm run words:morning-tasks:check
+
+      - name: Install mobile dependencies
+        working-directory: mobile
+        run: npm ci
+
+      - name: Typecheck mobile app
+        working-directory: mobile
+        run: npx tsc --noEmit

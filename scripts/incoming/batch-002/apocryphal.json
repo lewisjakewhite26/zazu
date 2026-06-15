@@ -1,0 +1,128 @@
+{
+  "word": "Apocryphal",
+  "pronunciation": "uh-POK-rih-ful",
+  "pos": "adjective",
+  "definition": "Of doubtful authenticity; widely circulated but probably not true.",
+  "origin": "From Greek <strong>apokryphos</strong> -- hidden away. From <strong>apo</strong> (away) + <strong>kryptein</strong> (to hide).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Greek ",
+      "highlight": false
+    },
+    {
+      "text": "apokryphos",
+      "highlight": true
+    },
+    {
+      "text": " (hidden away), from ",
+      "highlight": false
+    },
+    {
+      "text": "apo",
+      "highlight": true
+    },
+    {
+      "text": " (away) + ",
+      "highlight": false
+    },
+    {
+      "text": "kryptein",
+      "highlight": true
+    },
+    {
+      "text": " (to hide).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "apo",
+      "root_language": "Greek",
+      "root_meaning": "away",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "kryptein",
+      "root_language": "Greek",
+      "root_meaning": "to hide",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "kryptein",
+    "correct_answer": "To hide"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Apocryphal</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Greek apo",
+          "b": "Away"
+        },
+        {
+          "a": "Greek kryptein",
+          "b": "To hide"
+        },
+        {
+          "a": "Related: cryptic",
+          "b": "Hidden or mysterious"
+        },
+        {
+          "a": "Related: crypt",
+          "b": "A hidden underground chamber"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Apocryphal</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Apocryphal means",
+          "b": "Of doubtful authenticity"
+        },
+        {
+          "a": "An apocryphal story",
+          "b": "Is probably not true"
+        },
+        {
+          "a": "Synonym of apocryphal",
+          "b": "Spurious"
+        },
+        {
+          "a": "Antonym of apocryphal",
+          "b": "Authenticated"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Apocryphal</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The quote is almost certainly",
+          "b": "Apocryphal"
+        },
+        {
+          "a": "An apocryphal tale",
+          "b": "Told at every dinner"
+        },
+        {
+          "a": "The apocryphal story",
+          "b": "Has been repeated for centuries"
+        },
+        {
+          "a": "Historians consider it",
+          "b": "Apocryphal at best"
+        }
+      ]
+    }
+  ]
+}

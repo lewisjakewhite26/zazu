@@ -1,0 +1,120 @@
+{
+  "word": "Unctuous",
+  "pronunciation": "UNK-choo-us",
+  "pos": "adjective",
+  "definition": "Excessively flattering or ingratiating; having a smooth greasy feel or appearance.",
+  "origin": "From Latin <strong>unctuosus</strong> -- greasy. From <strong>ungere</strong> -- to anoint with oil.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "unctuosus",
+      "highlight": true
+    },
+    {
+      "text": " (greasy), from ",
+      "highlight": false
+    },
+    {
+      "text": "ungere",
+      "highlight": true
+    },
+    {
+      "text": " (to anoint with oil).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "ungere",
+      "root_language": "Latin",
+      "root_meaning": "to anoint with oil",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "unctuosus",
+      "root_language": "Latin",
+      "root_meaning": "greasy",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "ungere",
+    "correct_answer": "To anoint with oil"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Unctuous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin ungere",
+          "b": "To anoint with oil"
+        },
+        {
+          "a": "Latin unctuosus",
+          "b": "Greasy"
+        },
+        {
+          "a": "Related: unguent",
+          "b": "A soothing ointment"
+        },
+        {
+          "a": "Figurative sense",
+          "b": "Excessively smooth and flattering"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Unctuous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Unctuous means",
+          "b": "Excessively flattering"
+        },
+        {
+          "a": "An unctuous manner",
+          "b": "Is oily and ingratiating"
+        },
+        {
+          "a": "Synonym of unctuous",
+          "b": "Sycophantic"
+        },
+        {
+          "a": "Antonym of unctuous",
+          "b": "Blunt"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Unctuous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The unctuous salesman",
+          "b": "Agreed with everything she said"
+        },
+        {
+          "a": "An unctuous compliment",
+          "b": "That sounded hollow"
+        },
+        {
+          "a": "His unctuous tone",
+          "b": "Set everyone's teeth on edge"
+        },
+        {
+          "a": "The unctuous texture",
+          "b": "Of the sauce coated every leaf"
+        }
+      ]
+    }
+  ]
+}

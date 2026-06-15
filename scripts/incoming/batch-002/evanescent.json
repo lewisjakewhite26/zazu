@@ -1,0 +1,128 @@
+{
+  "word": "Evanescent",
+  "pronunciation": "ev-uh-NES-ent",
+  "pos": "adjective",
+  "definition": "Soon passing out of sight, memory, or existence; quickly fading or disappearing.",
+  "origin": "From Latin <strong>evanescere</strong> -- to vanish. From <strong>e</strong> (out) + <strong>vanescere</strong> (to become empty).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "evanescere",
+      "highlight": true
+    },
+    {
+      "text": " (to vanish), from ",
+      "highlight": false
+    },
+    {
+      "text": "e",
+      "highlight": true
+    },
+    {
+      "text": " (out) + ",
+      "highlight": false
+    },
+    {
+      "text": "vanescere",
+      "highlight": true
+    },
+    {
+      "text": " (to become empty).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "e",
+      "root_language": "Latin",
+      "root_meaning": "out",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "vanescere",
+      "root_language": "Latin",
+      "root_meaning": "to become empty",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "vanescere",
+    "correct_answer": "To become empty"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Evanescent</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin e-",
+          "b": "Out"
+        },
+        {
+          "a": "Latin vanescere",
+          "b": "To become empty"
+        },
+        {
+          "a": "Latin evanescere",
+          "b": "To vanish"
+        },
+        {
+          "a": "Related: vanish",
+          "b": "From the same root"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Evanescent</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Evanescent means",
+          "b": "Quickly fading or disappearing"
+        },
+        {
+          "a": "An evanescent moment",
+          "b": "Cannot be held or kept"
+        },
+        {
+          "a": "Synonym of evanescent",
+          "b": "Fleeting"
+        },
+        {
+          "a": "Antonym of evanescent",
+          "b": "Enduring"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Evanescent</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "An evanescent smile",
+          "b": "Gone before she caught it"
+        },
+        {
+          "a": "The evanescent light",
+          "b": "Of a winter afternoon"
+        },
+        {
+          "a": "Fame proved",
+          "b": "Entirely evanescent"
+        },
+        {
+          "a": "An evanescent scent",
+          "b": "Of cut grass after rain"
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,10 @@
     "config": "node scripts/generate-public-config.mjs",
     "seed": "node scripts/seed-words.mjs",
     "seed:dry": "node scripts/seed-words.mjs --dry-run",
+    "words:morning-tasks": "node scripts/generate-morning-tasks.mjs",
+    "words:morning-tasks:check": "node scripts/generate-morning-tasks.mjs --check",
     "words:normalize": "node scripts/normalize-word-copy.mjs",
+    "sounds:alarm-chime": "node scripts/generate-alarm-chime.mjs",
     "db:push": "echo Run supabase/migrations/001_create_words_schema.sql in the Supabase SQL Editor, or use: npx supabase db push"
   },
   "dependencies": {

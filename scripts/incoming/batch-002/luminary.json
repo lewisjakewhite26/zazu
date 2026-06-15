@@ -1,0 +1,120 @@
+{
+  "word": "Luminary",
+  "pronunciation": "LOO-mih-ner-ee",
+  "pos": "noun",
+  "definition": "A person who inspires or influences others, especially in a particular sphere; also a natural light-giving body.",
+  "origin": "From Latin <strong>luminare</strong> -- a light, a lamp. From <strong>lumen</strong> -- light.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "luminare",
+      "highlight": true
+    },
+    {
+      "text": " (a light, a lamp), from ",
+      "highlight": false
+    },
+    {
+      "text": "lumen",
+      "highlight": true
+    },
+    {
+      "text": " (light).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "lumen",
+      "root_language": "Latin",
+      "root_meaning": "light",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "luminare",
+      "root_language": "Latin",
+      "root_meaning": "a light or lamp",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "lumen",
+    "correct_answer": "Light"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Luminary</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin lumen",
+          "b": "Light"
+        },
+        {
+          "a": "Latin luminare",
+          "b": "A light or lamp"
+        },
+        {
+          "a": "Related: illuminate",
+          "b": "To light up"
+        },
+        {
+          "a": "Related: luminous",
+          "b": "Full of light"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Luminary</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "A luminary is",
+          "b": "A person who inspires others"
+        },
+        {
+          "a": "Luminary also means",
+          "b": "A natural light-giving body"
+        },
+        {
+          "a": "Synonym of luminary",
+          "b": "Leading light"
+        },
+        {
+          "a": "A luminary in their field",
+          "b": "Is a recognised authority"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Luminary</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "A luminary of the art world",
+          "b": "Whose work changed everything"
+        },
+        {
+          "a": "The evening sky",
+          "b": "Was full of luminaries"
+        },
+        {
+          "a": "She was a luminary",
+          "b": "In twentieth-century science"
+        },
+        {
+          "a": "A gathering of luminaries",
+          "b": "From across the profession"
+        }
+      ]
+    }
+  ]
+}

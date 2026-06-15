@@ -1,0 +1,106 @@
+{
+  "word": "Bathetic",
+  "pronunciation": "buh-THET-ik",
+  "pos": "adjective",
+  "definition": "Producing an effect of anticlimax through an abrupt and disappointing descent from the elevated to the trivial.",
+  "origin": "From Greek <strong>bathos</strong> -- depth. First used by Alexander Pope in 1727 to describe a ludicrous descent in writing.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Greek ",
+      "highlight": false
+    },
+    {
+      "text": "bathos",
+      "highlight": true
+    },
+    {
+      "text": " (depth). Alexander Pope coined the literary term in 1727 to describe a sudden drop from the grand to the trivial.",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "bathos",
+      "root_language": "Greek",
+      "root_meaning": "depth",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "bathos",
+    "correct_answer": "Depth"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Bathetic</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Greek bathos",
+          "b": "Depth"
+        },
+        {
+          "a": "Coined by",
+          "b": "Alexander Pope in 1727"
+        },
+        {
+          "a": "Related: bathos",
+          "b": "An anticlimax or letdown"
+        },
+        {
+          "a": "Related: bathysphere",
+          "b": "A deep-sea vessel"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Bathetic</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Bathetic means",
+          "b": "Absurdly anticlimactic"
+        },
+        {
+          "a": "A bathetic ending",
+          "b": "Disappoints after raising expectations"
+        },
+        {
+          "a": "Synonym of bathetic",
+          "b": "Anticlimactic"
+        },
+        {
+          "a": "Antonym of bathetic",
+          "b": "Sublime"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Bathetic</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The bathetic finale",
+          "b": "Left the audience cold"
+        },
+        {
+          "a": "A bathetic attempt",
+          "b": "At profound emotion"
+        },
+        {
+          "a": "The speech descended",
+          "b": "Into the bathetic"
+        },
+        {
+          "a": "Unintentionally bathetic",
+          "b": "The villain tripped and fell"
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,20 @@ export const colors = {
   subtext: '#9080a0',
   border: 'rgba(44,31,46,0.1)',
   card: 'rgba(255,255,255,0.72)',
+  correct: '#a8d8b0',
+  correctIcon: '#5cbd8a',
+  wrong: '#e8617a',
+  cardPeach: '#fde8d8',
+  cardPeachBorder: 'rgba(249,201,168,0.5)',
+  cardLavender: '#ede0f8',
+  cardLavenderBorder: 'rgba(200,180,232,0.5)',
+  cardBlush: '#fce8f0',
+  cardBlushBorder: 'rgba(240,160,188,0.5)',
+  cardDawn: '#e8f0fd',
+  cardDawnBorder: 'rgba(168,196,232,0.5)',
+  overlay: 'rgba(44,31,46,0.45)',
+  sheetSecondary: 'rgba(255,255,255,0.72)',
+  streakFlame: '#e8a040',
 } as const;
 
 export const fonts = {

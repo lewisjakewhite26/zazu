@@ -1,0 +1,120 @@
+{
+  "word": "Querulous",
+  "pronunciation": "KWER-oo-lus",
+  "pos": "adjective",
+  "definition": "Complaining in a petulant or whining manner.",
+  "origin": "From Latin <strong>querulus</strong> -- full of complaints. From <strong>queri</strong> -- to complain.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "querulus",
+      "highlight": true
+    },
+    {
+      "text": " (full of complaints), from ",
+      "highlight": false
+    },
+    {
+      "text": "queri",
+      "highlight": true
+    },
+    {
+      "text": " (to complain).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "queri",
+      "root_language": "Latin",
+      "root_meaning": "to complain",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "querulus",
+      "root_language": "Latin",
+      "root_meaning": "full of complaints",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "queri",
+    "correct_answer": "To complain"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Querulous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin queri",
+          "b": "To complain"
+        },
+        {
+          "a": "Latin querulus",
+          "b": "Full of complaints"
+        },
+        {
+          "a": "Related: quarrel",
+          "b": "From the same complaining root"
+        },
+        {
+          "a": "Related: query",
+          "b": "A question or complaint"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Querulous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Querulous means",
+          "b": "Whining and complaining"
+        },
+        {
+          "a": "A querulous tone",
+          "b": "Is petulant and dissatisfied"
+        },
+        {
+          "a": "Synonym of querulous",
+          "b": "Peevish"
+        },
+        {
+          "a": "Antonym of querulous",
+          "b": "Contented"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Querulous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "A querulous voice",
+          "b": "From the back of the room"
+        },
+        {
+          "a": "He grew querulous",
+          "b": "As the wait stretched on"
+        },
+        {
+          "a": "The querulous patient",
+          "b": "Rang the bell every ten minutes"
+        },
+        {
+          "a": "A querulous editorial",
+          "b": "That pleased no one"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "word": "Anfractuous",
+  "pronunciation": "an-FRAK-choo-us",
+  "pos": "adjective",
+  "definition": "Sinuous and winding in character; full of twists and turns.",
+  "origin": "From Latin <strong>anfractus</strong> -- a winding, a turning. From <strong>amb</strong> (around) + <strong>fractus</strong> (broken, bent).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "anfractus",
+      "highlight": true
+    },
+    {
+      "text": " (a winding), from ",
+      "highlight": false
+    },
+    {
+      "text": "amb",
+      "highlight": true
+    },
+    {
+      "text": " (around) + ",
+      "highlight": false
+    },
+    {
+      "text": "fractus",
+      "highlight": true
+    },
+    {
+      "text": " (broken, bent).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "amb",
+      "root_language": "Latin",
+      "root_meaning": "around",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "fractus",
+      "root_language": "Latin",
+      "root_meaning": "broken or bent",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "fractus",
+    "correct_answer": "Broken or bent"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Anfractuous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin amb",
+          "b": "Around"
+        },
+        {
+          "a": "Latin fractus",
+          "b": "Broken or bent"
+        },
+        {
+          "a": "Latin anfractus",
+          "b": "A winding or turning"
+        },
+        {
+          "a": "Related: fracture",
+          "b": "A break or crack"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Anfractuous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Anfractuous means",
+          "b": "Full of twists and turns"
+        },
+        {
+          "a": "Synonym of anfractuous",
+          "b": "Sinuous"
+        },
+        {
+          "a": "Antonym of anfractuous",
+          "b": "Straight"
+        },
+        {
+          "a": "An anfractuous path",
+          "b": "Winds and doubles back"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Anfractuous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The anfractuous road",
+          "b": "Tested every driver"
+        },
+        {
+          "a": "His anfractuous reasoning",
+          "b": "Lost the jury entirely"
+        },
+        {
+          "a": "An anfractuous career",
+          "b": "Of unexpected turns"
+        },
+        {
+          "a": "The anfractuous river",
+          "b": "Carved through the valley"
+        }
+      ]
+    }
+  ]
+}

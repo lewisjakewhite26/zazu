@@ -1,0 +1,128 @@
+{
+  "word": "Obstinate",
+  "pronunciation": "OB-stih-nut",
+  "pos": "adjective",
+  "definition": "Stubbornly refusing to change one's opinion or chosen course of action, despite attempts to persuade.",
+  "origin": "From Latin <strong>obstinatus</strong> -- resolved, persistent. From <strong>ob</strong> (against) + <strong>stare</strong> (to stand).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "obstinatus",
+      "highlight": true
+    },
+    {
+      "text": " (resolved, persistent), from ",
+      "highlight": false
+    },
+    {
+      "text": "ob",
+      "highlight": true
+    },
+    {
+      "text": " (against) + ",
+      "highlight": false
+    },
+    {
+      "text": "stare",
+      "highlight": true
+    },
+    {
+      "text": " (to stand).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "ob",
+      "root_language": "Latin",
+      "root_meaning": "against",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "stare",
+      "root_language": "Latin",
+      "root_meaning": "to stand",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "stare",
+    "correct_answer": "To stand"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Obstinate</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin ob-",
+          "b": "Against"
+        },
+        {
+          "a": "Latin stare",
+          "b": "To stand"
+        },
+        {
+          "a": "Latin obstinatus",
+          "b": "Standing firm against change"
+        },
+        {
+          "a": "Related: obstacle",
+          "b": "Something that stands against you"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Obstinate</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Obstinate means",
+          "b": "Stubbornly refusing to change"
+        },
+        {
+          "a": "Synonym of obstinate",
+          "b": "Dogged"
+        },
+        {
+          "a": "Antonym of obstinate",
+          "b": "Flexible"
+        },
+        {
+          "a": "An obstinate refusal",
+          "b": "Resists all persuasion"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Obstinate</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "An obstinate child",
+          "b": "Who would not eat his greens"
+        },
+        {
+          "a": "The obstinate mule",
+          "b": "Refused to move an inch"
+        },
+        {
+          "a": "She was obstinate",
+          "b": "In the face of all evidence"
+        },
+        {
+          "a": "His obstinate silence",
+          "b": "Spoke louder than words"
+        }
+      ]
+    }
+  ]
+}

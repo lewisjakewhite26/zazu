@@ -1,0 +1,1077 @@
+[
+{
+"word": "Cacophony",
+"pronunciation": "kuh-KOF-uh-nee",
+"pos": "noun",
+"definition": "A harsh, discordant mixture of sounds.",
+"origin": "From Greek kakophonia, from kakos (bad) + phone (voice, sound).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Cacophony come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek kakos", "b": "Bad or evil" },
+{ "a": "Greek phone", "b": "Voice or sound" },
+{ "a": "Combined meaning", "b": "Bad-sounding utterance" },
+{ "a": "Related: symphony", "b": "Sounds sounding together in harmony" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Cacophony mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Cacophony means", "b": "A loud, unpleasant racket" },
+{ "a": "Synonym of cacophony", "b": "Din" },
+{ "a": "Antonym of cacophony", "b": "Euphony" },
+{ "a": "A city cacophony", "b": "Blends car horns and sirens" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Cacophony used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The market was a", "b": "Cacophony of shouting vendors" },
+{ "a": "An awful cacophony arose", "b": "As the orchestra tuned up" },
+{ "a": "She woke up to a", "b": "Cacophony of alarm bells" },
+{ "a": "Behind the wall lay a", "b": "Deafening cacophony of machinery" }
+]
+}
+]
+},
+{
+"word": "Cadence",
+"pronunciation": "KAY-dunss",
+"pos": "noun",
+"definition": "A modulation or inflection of the voice, or the rhythmic flow of a sequence of sounds.",
+"origin": "From Latin cadentia, from cadere (to fall).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Cadence come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin cadere", "b": "To fall" },
+{ "a": "Italian cadenza", "b": "A musical conclusion or fall" },
+{ "a": "Combined meaning", "b": "The falling of the voice" },
+{ "a": "Related: decadent", "b": "Falling into decay or ruin" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Cadence mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Cadence means", "b": "Rhythmic rise and fall" },
+{ "a": "Synonym of cadence", "b": "Tempo" },
+{ "a": "Antonym of cadence", "b": "Arrhythmia" },
+{ "a": "A steady cadence", "b": "Keeps marchers in time" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Cadence used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He spoke with the", "b": "Measured cadence of a preacher" },
+{ "a": "The soothing cadence of", "b": "The ocean waves put him to sleep" },
+{ "a": "The drums maintained a", "b": "Strict military cadence" },
+{ "a": "She noted the strange", "b": "Cadence of his foreign accent" }
+]
+}
+]
+},
+{
+"word": "Calumny",
+"pronunciation": "KAL-um-nee",
+"pos": "noun",
+"definition": "The making of false and defamatory statements about someone in order to damage their reputation.",
+"origin": "From Latin calumnia, from calvi (to deceive, trick).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Calumny come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin calumniari", "b": "To accuse falsely" },
+{ "a": "Latin calvi", "b": "To trick or mock" },
+{ "a": "Combined meaning", "b": "Slanderous deception" },
+{ "a": "Related: challenge", "b": "An accusation or calling to account" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Calumny mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Calumny means", "b": "Slander or malicious gossip" },
+{ "a": "Synonym of calumny", "b": "Aspersion" },
+{ "a": "Antonym of calumny", "b": "Vindication" },
+{ "a": "A target of calumny", "b": "Suffers unfair public disgrace" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Calumny used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The article was a", "b": "Web of outright calumny" },
+{ "a": "He refused to answer", "b": "The vicious calumnies of the press" },
+{ "a": "Her pristine reputation survived", "b": "Their bitter calumny" },
+{ "a": "They resorted to political", "b": "Calumny to win the election" }
+]
+}
+]
+},
+{
+"word": "Canard",
+"pronunciation": "kuh-NAHRD",
+"pos": "noun",
+"definition": "An unfounded rumour or story, especially a deliberately misleading one.",
+"origin": "From French canard (duck), from the idiom vendre des canards à moitié (to half-sell ducks).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Canard come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "French canard", "b": "A duck" },
+{ "a": "Old French caner", "b": "To quack or honk" },
+{ "a": "Idiom context", "b": "To swindle someone by half-selling a bird" },
+{ "a": "Combined meaning", "b": "A hoax or ridiculous tale" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Canard mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Canard means", "b": "A fabricated report" },
+{ "a": "Synonym of canard", "b": "Fib" },
+{ "a": "Antonym of canard", "b": "Fact" },
+{ "a": "An old newspaper canard", "b": "Tricked readers for decades" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Canard used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The story was exposed", "b": "As a malicious canard" },
+{ "a": "He dismissed the report", "b": "As an absurd canard" },
+{ "a": "That old canard about", "b": "Goldfish having short memories is false" },
+{ "a": "The politician repeated a", "b": "Well-worn economic canard" }
+]
+}
+]
+},
+{
+"word": "Capricious",
+"pronunciation": "kuh-PRISH-us",
+"pos": "adjective",
+"definition": "Given to sudden and unaccountable changes of mood or behaviour. UK spelling.",
+"origin": "From Italian capriccioso, from capriccio (whim, literally a shivering, goat-like skip).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Capricious come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Italian capriccio", "b": "A sudden whim or start" },
+{ "a": "Latin caper", "b": "A goat" },
+{ "a": "Combined meaning", "b": "Skipping about like a goat" },
+{ "a": "Related: cabriolet", "b": "A light, skipping carriage" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Capricious mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Capricious means", "b": "Unpredictable and changeable" },
+{ "a": "Synonym of capricious", "b": "Fickle" },
+{ "a": "Antonym of capricious", "b": "Steadfast" },
+{ "a": "Capricious weather", "b": "Brings sun one minute and rain the next" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Capricious used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The administration of the", "b": "Dictator was entirely capricious" },
+{ "a": "He had to deal with", "b": "A highly capricious boss" },
+{ "a": "Sailing depends on the", "b": "Capricious winter winds" },
+{ "a": "Her capricious moods made", "b": "Friendship very difficult" }
+]
+}
+]
+},
+{
+"word": "Castigate",
+"pronunciation": "KAS-tih-gayt",
+"pos": "verb",
+"definition": "To reprimand or criticise someone severely.",
+"origin": "From Latin castigatus, from castus (pure) + agere (to drive, make).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Castigate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin castus", "b": "Pure or chaste" },
+{ "a": "Latin agere", "b": "To make or do" },
+{ "a": "Combined meaning", "b": "To make pure by correction" },
+{ "a": "Related: chasten", "b": "To discipline or subdue" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Castigate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Castigate means", "b": "To scold or berate harshly" },
+{ "a": "Synonym of castigate", "b": "Chastise" },
+{ "a": "Antonym of castigate", "b": "Praise" },
+{ "a": "To castigate an error", "b": "Points it out with fierce disapproval" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Castigate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The headteacher proceeded to", "b": "Castigate the unruly students" },
+{ "a": "The judge did castigate", "b": "The defendant for his actions" },
+{ "a": "Critics were quick to", "b": "Castigate the director's new flop" },
+{ "a": "He chose to castigate", "b": "Himself for the oversight" }
+]
+}
+]
+},
+{
+"word": "Catharsis",
+"pronunciation": "kuh-THAR-sis",
+"pos": "noun",
+"definition": "The process of releasing, and thereby providing relief from, strong or repressed emotions.",
+"origin": "From Greek katharsis, from kathairein (to cleanse, purify).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Catharsis come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek katharsis", "b": "A purging or purification" },
+{ "a": "Greek katharos", "b": "Pure or clean" },
+{ "a": "Combined meaning", "b": "Emotional cleansing" },
+{ "a": "Related: cathartic", "b": "Providing psychological relief" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Catharsis mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Catharsis means", "b": "An emotional release or purging" },
+{ "a": "Synonym of catharsis", "b": "Purgation" },
+{ "a": "Antonym of catharsis", "b": "Repression" },
+{ "a": "Achieving a catharsis", "b": "Leaves a person feeling unburdened" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Catharsis used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Writing the novel brought", "b": "A deep sense of catharsis" },
+{ "a": "The tragic play offered", "b": "A catharsis for the audience" },
+{ "a": "Crying provided the necessary", "b": "Catharsis after the funeral" },
+{ "a": "He sought an emotional", "b": "Catharsis through strenuous exercise" }
+]
+}
+]
+},
+{
+"word": "Caustic",
+"pronunciation": "KAW-stik",
+"pos": "adjective",
+"definition": "Sarcastic in a scathing and bitter way, or able to burn organic tissue by chemical action.",
+"origin": "From Greek kaustikos, from kaiein (to burn).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Caustic come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek kaustikos", "b": "Capable of burning" },
+{ "a": "Greek kaustos", "b": "Burnt" },
+{ "a": "Combined meaning", "b": "Burning or sharply biting" },
+{ "a": "Related: holocaust", "b": "A sacrifice wholly consumed by fire" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Caustic mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Caustic means", "b": "Severely critical or corrosive" },
+{ "a": "Synonym of caustic", "b": "Astringent" },
+{ "a": "Antonym of caustic", "b": "Complimentary" },
+{ "a": "A caustic solution", "b": "Can destroy solid materials" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Caustic used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "She made several caustic", "b": "Remarks about his attire" },
+{ "a": "The review was written", "b": "In a characteristically caustic style" },
+{ "a": "Industrial cleaners use", "b": "Highly caustic chemical agents" },
+{ "a": "He winced at her", "b": "Caustic sense of humour" }
+]
+}
+]
+},
+{
+"word": "Celerity",
+"pronunciation": "suh-LER-ih-tee",
+"pos": "noun",
+"definition": "Swiftness of movement, or rapid speed.",
+"origin": "From Latin celeritas, from celer (swift, fast).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Celerity come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin celer", "b": "Swift or quick" },
+{ "a": "Latin -itas", "b": "The state of being" },
+{ "a": "Combined meaning", "b": "The quality of quickness" },
+{ "a": "Related: accelerate", "b": "To increase the speed of" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Celerity mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Celerity means", "b": "Rapidity or velocity" },
+{ "a": "Synonym of celerity", "b": "Alacrity" },
+{ "a": "Antonym of celerity", "b": "Sluggishness" },
+{ "a": "Moving with celerity", "b": "Saves precious time in an emergency" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Celerity used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The couriers moved with", "b": "Impressive celerity through town" },
+{ "a": "He responded with maximum", "b": "Celerity to the crisis" },
+{ "a": "The feline pounced with", "b": "Astonishing celerity and grace" },
+{ "a": "Orders were executed with", "b": "The utmost celerity" }
+]
+}
+]
+},
+{
+"word": "Censure",
+"pronunciation": "SEN-shur",
+"pos": "noun",
+"definition": "The formal expression of severe disapproval, especially by an official body.",
+"origin": "From Latin censura, from censere (to assess, judge, give an opinion).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Censure come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin censura", "b": "Judgment or office of a censor" },
+{ "a": "Latin censere", "b": "To judge or estimate" },
+{ "a": "Combined meaning", "b": "An adverse judgment" },
+{ "a": "Related: census", "b": "An official registration and count" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Censure mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Censure means", "b": "A formal rebuke or condemnation" },
+{ "a": "Synonym of censure", "b": "Reproof" },
+{ "a": "Antonym of censure", "b": "Approbation" },
+{ "a": "A vote of censure", "b": "Expresses total parliamentarian disapproval" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Censure used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The magistrate faced public", "b": "Censure for his conduct" },
+{ "a": "The board passed a", "b": "Motion of censure against him" },
+{ "a": "He received a heavy", "b": "Censure from the committee" },
+{ "a": "Her behavior drew strong", "b": "Censure from local traditionalists" }
+]
+}
+]
+},
+{
+"word": "Chary",
+"pronunciation": "CHAIR-ee",
+"pos": "adjective",
+"definition": "Cautious or suspiciously reluctant to do something.",
+"origin": "From Old English cearig (sorrowful, anxious), from cearu (care).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Chary come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Old English cearig", "b": "Anxious or sorrowful" },
+{ "a": "Old English cearu", "b": "Care or grief" },
+{ "a": "Combined meaning", "b": "Full of care or caution" },
+{ "a": "Related: care", "b": "Serious attention or worry" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Chary mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Chary means", "b": "Wary and guarded" },
+{ "a": "Synonym of chary", "b": "Circumspect" },
+{ "a": "Antonym of chary", "b": "Heedless" },
+{ "a": "Being chary of strangers", "b": "Is a natural defense mechanism" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Chary used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Banks are increasingly chary", "b": "Of lending to new ventures" },
+{ "a": "She was always chary", "b": "About giving away personal details" },
+{ "a": "He is very chary", "b": "Of making grand promises" },
+{ "a": "Be chary of investing", "b": "All your cash in one firm" }
+]
+}
+]
+},
+{
+"word": "Chimerical",
+"pronunciation": "ky-MER-ih-kul",
+"pos": "adjective",
+"definition": "Created by an unchecked imagination, highly improbable or unrealistic.",
+"origin": "From Greek khimaira (a mythical fire-breathing monster made of various animal parts).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Chimerical come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Greek khimaira", "b": "A fabulous she-monster" },
+{ "a": "Greek khimairos", "b": "A young goat" },
+{ "a": "Mythological context", "b": "A beast with a lion's head and goat's body" },
+{ "a": "Combined meaning", "b": "Wildly fanciful or impossible" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Chimerical mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Chimerical means", "b": "Imaginary and utopian" },
+{ "a": "Synonym of chimerical", "b": "Quixotic" },
+{ "a": "Antonym of chimerical", "b": "Pragmatic" },
+{ "a": "A chimerical scheme", "b": "Is bound to fail in reality" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Chimerical used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He chased the chimerical", "b": "Dream of perpetual motion" },
+{ "a": "The gold rush was", "b": "A grand, chimerical venture" },
+{ "a": "She dismissed the idea", "b": "As a chimerical notion" },
+{ "a": "They wasted funds on", "b": "Chimerical engineering projects" }
+]
+}
+]
+},
+{
+"word": "Circuitous",
+"pronunciation": "ser-KYOO-ih-tus",
+"pos": "adjective",
+"definition": "Longer and more indirect than the most direct way.",
+"origin": "From Latin circuitus, from circum- (around) + ire (to go).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Circuitous come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin circum-", "b": "Around" },
+{ "a": "Latin ire", "b": "To go" },
+{ "a": "Combined meaning", "b": "A going around" },
+{ "a": "Related: transition", "b": "A going across" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Circuitous mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Circuitous means", "b": "Meandering and winding" },
+{ "a": "Synonym of circuitous", "b": "Tortuous" },
+{ "a": "Antonym of circuitous", "b": "Direct" },
+{ "a": "A circuitous explanation", "b": "Takes too long to reach the point" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Circuitous used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "They took a circuitous", "b": "Route to avoid the traffic" },
+{ "a": "His logic was highly", "b": "Circuitous and hard to follow" },
+{ "a": "A circuitous path wound", "b": "Up the mountain side" },
+{ "a": "The letter traveled via", "b": "A circuitous postal network" }
+]
+}
+]
+},
+{
+"word": "Circumspect",
+"pronunciation": "SER-kum-spekt",
+"pos": "adjective",
+"definition": "Wary and unwilling to take risks, careful.",
+"origin": "From Latin circumspectus, from circum- (around) + specere (to look).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Circumspect come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin circum-", "b": "Around" },
+{ "a": "Latin specere", "b": "To look" },
+{ "a": "Combined meaning", "b": "Looking around cautiously" },
+{ "a": "Related: spectacle", "b": "A public show or sight" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Circumspect mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Circumspect means", "b": "Prudent and hyper-vigilant" },
+{ "a": "Synonym of circumspect", "b": "Guarded" },
+{ "a": "Antonym of circumspect", "b": "Audacious" },
+{ "a": "A circumspect reply", "b": "Avoids committing to a stance" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Circumspect used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Officials were highly circumspect", "b": "About commenting on the scandal" },
+{ "a": "He made a circumspect", "b": "Approach to the negotiations" },
+{ "a": "It is wise to be", "b": "Circumspect in online forums" },
+{ "a": "Her circumspect nature saved", "b": "The business from bankruptcy" }
+]
+}
+]
+},
+{
+"word": "Clairvoyant",
+"pronunciation": "klair-VOY-unt",
+"pos": "noun",
+"definition": "A person who claims to have a supernatural ability to perceive events in the future.",
+"origin": "From French clair (clear) + voyant (seeing).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Clairvoyant come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "French clair", "b": "Clear or bright" },
+{ "a": "French voyant", "b": "Seeing or viewer" },
+{ "a": "Combined meaning", "b": "Clear-sighted or discerning" },
+{ "a": "Related: vision", "b": "The faculty of sight" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Clairvoyant mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Clairvoyant means", "b": "Having psychic second sight" },
+{ "a": "Synonym of clairvoyant", "b": "Seer" },
+{ "a": "Antonym of clairvoyant", "b": "Unperceptive" },
+{ "a": "An alleged clairvoyant", "b": "Purports to read minds" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Clairvoyant used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The king consulted a", "b": "Clairvoyant before the war" },
+{ "a": "She claimed to have", "b": "Clairvoyant visions of the disaster" },
+{ "a": "He had a bizarre", "b": "Clairvoyant feeling about the raffle" },
+{ "a": "Police questioned a self-proclaimed", "b": "Clairvoyant about the case" }
+]
+}
+]
+},
+{
+"word": "Clemency",
+"pronunciation": "KLEM-un-see",
+"pos": "noun",
+"definition": "Mercy or leniency shown by an authority figure towards an offender.",
+"origin": "From Latin clementia, from clemens (mild, merciful, gentle).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Clemency come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin clemens", "b": "Gentle or calm" },
+{ "a": "Latin -ia", "b": "Quality or state of" },
+{ "a": "Combined meaning", "b": "Mildness of temper" },
+{ "a": "Related: inclement", "b": "Harsh or severe weather" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Clemency mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Clemency means", "b": "Leniency or compassion" },
+{ "a": "Synonym of clemency", "b": "Forbearance" },
+{ "a": "Antonym of clemency", "b": "Ruthlessness" },
+{ "a": "An appeal for clemency", "b": "Begs a ruler to reduce a sentence" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Clemency used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The governor granted ultimate", "b": "Clemency to the prisoner" },
+{ "b": "We beg the court", "b": "To show some clemency" },
+{ "a": "The tyrant was not", "b": "Disposed to acts of clemency" },
+{ "a": "He threw himself on", "b": "The clemency of the king" }
+]
+}
+]
+},
+{
+"word": "Coalesce",
+"pronunciation": "koh-uh-LESS",
+"pos": "verb",
+"definition": "To come together to form one mass or whole.",
+"origin": "From Latin coalescere, from co- (together) + alescere (to grow up).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Coalesce come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin co-", "b": "Together" },
+{ "a": "Latin alescere", "b": "To grow or feed" },
+{ "a": "Combined meaning", "b": "To grow together" },
+{ "a": "Related: adolescent", "b": "Growing up toward maturity" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Coalesce mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Coalesce means", "b": "To merge or fuse" },
+{ "a": "Synonym of coalesce", "b": "Amalgamate" },
+{ "a": "Antonym of coalesce", "b": "Splinter" },
+{ "a": "To coalesce forces", "b": "Unites multiple factions" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Coalesce used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The puddles began to", "b": "Coalesce into a stream" },
+{ "a": "Separate factions did coalesce", "b": "To form a coalition" },
+{ "a": "The droplets coalesce on", "b": "The chilly glass surface" },
+{ "a": "Our ideas slowly began", "b": "To coalesce into a plan" }
+]
+}
+]
+},
+{
+"word": "Cogent",
+"pronunciation": "KOH-jent",
+"pos": "adjective",
+"definition": "Clear, logical, and convincing in the context of an argument.",
+"origin": "From Latin cogere, from co- (together) + agere (to drive).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Cogent come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin co-", "b": "Together" },
+{ "a": "Latin agere", "b": "To drive or force" },
+{ "a": "Combined meaning", "b": "Driving or forcing together" },
+{ "a": "Related: coagulate", "b": "To clot or thicken together" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Cogent mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Cogent means", "b": "Persuasive and well-founded" },
+{ "a": "Synonym of cogent", "b": "Compelling" },
+{ "a": "Antonym of cogent", "b": "Specious" },
+{ "a": "A cogent thesis", "b": "Is supported by solid evidence" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Cogent used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "She put forward a", "b": "Cogent argument for reform" },
+{ "a": "The lawyer's summary was", "b": "Cogent and highly effective" },
+{ "a": "They lacked a cogent", "b": "Strategy to win the match" },
+{ "a": "He made a cogent", "b": "Case for changing the rules" }
+]
+}
+]
+},
+{
+"word": "Cognizant",
+"pronunciation": "KOG-nih-zunt",
+"pos": "adjective",
+"definition": "Having knowledge or awareness of something. UK spelling.",
+"origin": "From Old French conoissant, based on Latin cognoscere (to get to know).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Cognizant come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin co-", "b": "With or thoroughly" },
+{ "a": "Latin gnoscere", "b": "To know" },
+{ "a": "Combined meaning", "b": "Having full understanding" },
+{ "a": "Related: recognize", "b": "To identify from knowledge" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Cognizant mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Cognizant means", "b": "Conscious and mindful" },
+{ "a": "Synonym of cognizant", "b": "Apprised" },
+{ "a": "Antonym of cognizant", "b": "Oblivious" },
+{ "a": "Being cognizant of risks", "b": "Helps minimize mistakes" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Cognizant used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "We must be cognizant", "b": "Of the legal implications" },
+{ "a": "He was fully cognizant", "b": "Of the difficulties ahead" },
+{ "a": "Statesmen should remain", "b": "Cognizant of public opinion" },
+{ "a": "She became closely cognizant", "b": "Of her team's grievances" }
+]
+}
+]
+},
+{
+"word": "Collusion",
+"pronunciation": "kuh-LOO-zhun",
+"pos": "noun",
+"definition": "Secret or illegal cooperation or conspiracy, especially in order to deceive others.",
+"origin": "From Latin collusio, from colludere (to play together, conspire).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Collusion come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin con-", "b": "Together" },
+{ "a": "Latin ludere", "b": "To play" },
+{ "a": "Combined meaning", "b": "Playing together secretly" },
+{ "a": "Related: ludicrous", "b": "Laughable or trick-like" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Collusion mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Collusion means", "b": "Underhanded plotting or connivance" },
+{ "a": "Synonym of collusion", "b": "Complicity" },
+{ "a": "Antonym of collusion", "b": "Openness" },
+{ "a": "Price collusion", "b": "Artificially inflates market rates" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Collusion used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The executives acted in", "b": "Collusion to fix the prices" },
+{ "a": "There was suspected collusion", "b": "Between the guards and prisoners" },
+{ "a": "They were cleared of", "b": "Any direct collusion" },
+{ "a": "The book alleges corporate", "b": "Collusion at the highest level" }
+]
+}
+]
+},
+{
+"word": "Commensurate",
+"pronunciation": "kuh-MEN-shur-ut",
+"pos": "adjective",
+"definition": "Corresponding in size, degree, or proportion.",
+"origin": "From Latin commensuratus, from com- (together) + mensurare (to measure).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Commensurate come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin com-", "b": "Together" },
+{ "a": "Latin mensura", "b": "A measure" },
+{ "a": "Combined meaning", "b": "Measured together out of equality" },
+{ "a": "Related: immense", "b": "Beyond all measurement" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Commensurate mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Commensurate means", "b": "Proportional and appropriate" },
+{ "a": "Synonym of commensurate", "b": "Equivalent" },
+{ "a": "Antonym of commensurate", "b": "Inadequate" },
+{ "a": "A salary commensurate", "b": "Matches your experience level" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Commensurate used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The punishment must be", "b": "Commensurate with the crime" },
+{ "a": "He wanted pay commensurate", "b": "With his teaching experience" },
+{ "a": "The outcome was not", "b": "Commensurate with their effort" },
+{ "a": "Her promotion was fully", "b": "Commensurate with her abilities" }
+]
+}
+]
+},
+{
+"word": "Compendious",
+"pronunciation": "kum-PEN-dee-us",
+"pos": "adjective",
+"definition": "Containing or presenting the essential facts of something in a comprehensive but concise way.",
+"origin": "From Latin compendiosus, from compendium (an abridgement, literally a weighing together).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Compendious come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin com-", "b": "Together" },
+{ "a": "Latin pendere", "b": "To weigh" },
+{ "a": "Combined meaning", "b": "Weighed together tightly" },
+{ "a": "Related: pendant", "b": "A hanging or weighed ornament" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Compendious mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Compendious means", "b": "Succinct yet complete" },
+{ "a": "Synonym of compendious", "b": "Pithy" },
+{ "a": "Antonym of compendious", "b": "Diffuse" },
+{ "a": "A compendious guide", "b": "Covers all facts in few pages" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Compendious used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "He published a compendious", "b": "History of the visual arts" },
+{ "a": "The manual provides a", "b": "Compendious overview of coding" },
+{ "a": "Her report was wonderfully", "b": "Compendious and easy to read" },
+{ "a": "We appreciate this compendious", "b": "Account of the meeting" }
+]
+}
+]
+},
+{
+"word": "Complacent",
+"pronunciation": "kum-PLAY-sunt",
+"pos": "adjective",
+"definition": "Showing smug or uncritical satisfaction with oneself or one's achievements.",
+"origin": "From Latin complacentia, from complacere (to please greatly).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Complacent come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin com-", "b": "Thoroughly" },
+{ "a": "Latin placere", "b": "To please" },
+{ "a": "Combined meaning", "b": "Entirely pleased with oneself" },
+{ "a": "Related: placate", "b": "To pacify or please someone" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Complacent mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Complacent means", "b": "Self-satisfied and lazy" },
+{ "a": "Synonym of complacent", "b": "Smug" },
+{ "a": "Antonym of complacent", "b": "Apprehensive" },
+{ "a": "A complacent team", "b": "Fails to prepare for their rivals" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Complacent used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "We cannot afford to", "b": "Become complacent about safety" },
+{ "a": "The champion grew complacent", "b": "And lost the final match" },
+{ "a": "He had a complacent", "b": "Expression on his face" },
+{ "a": "A complacent attitude blocks", "b": "Personal growth and learning" }
+]
+}
+]
+},
+{
+"word": "Concomitant",
+"pronunciation": "kun-KOM-ih-tunt",
+"pos": "adjective",
+"definition": "Naturally accompanying or associated with something else.",
+"origin": "From Latin concomitari, from com- (together) + comes (companion).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Concomitant come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin con-", "b": "Together with" },
+{ "a": "Latin comes", "b": "A companion or traveler" },
+{ "a": "Combined meaning", "b": "Journeying together" },
+{ "a": "Related: count", "b": "A noble title derived from companion" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Concomitant mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Concomitant means", "b": "Attendant or coexisting" },
+{ "a": "Synonym of concomitant", "b": "Collateral" },
+{ "a": "Antonym of concomitant", "b": "Unrelated" },
+{ "a": "A concomitant result", "b": "Occurs alongside a main event" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Concomitant used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "Inflation and the concomitant", "b": "Rise in interest rates hurt" },
+{ "a": "Loss of memory is", "b": "A concomitant of old age" },
+{ "a": "They accepted the duties", "b": "Concomitant with high office" },
+{ "a": "The drug has several", "b": "Concomitant side effects" }
+]
+}
+]
+},
+{
+"word": "Conflagration",
+"pronunciation": "kon-fluh-GRAY-shun",
+"pos": "noun",
+"definition": "An extensive fire which destroys a great deal of land or property.",
+"origin": "From Latin conflagratio, from com- (thoroughly) + flagrare (to blaze).",
+"tier": "free",
+"rounds": [
+{
+"type": "Etymology",
+"label": "Round 1 of 3 · Etymology",
+"context": "Where does Conflagration come from? Match each root to its meaning.",
+"pairs": [
+{ "a": "Latin con-", "b": "Thoroughly" },
+{ "a": "Latin flagrare", "b": "To burn or blaze" },
+{ "a": "Combined meaning", "b": "A burning up completely" },
+{ "a": "Related: flagrant", "b": "Glaring or scandalously burning" }
+]
+},
+{
+"type": "Definition",
+"label": "Round 2 of 3 · Definition",
+"context": "What does Conflagration mean? Match each clue to the right answer.",
+"pairs": [
+{ "a": "Conflagration means", "b": "An all-consuming inferno" },
+{ "a": "Synonym of conflagration", "b": "Blaze" },
+{ "a": "Antonym of conflagration", "b": "Spark" },
+{ "a": "A forest conflagration", "b": "Can be seen from outer space" }
+]
+},
+{
+"type": "Usage",
+"label": "Round 3 of 3 · Usage",
+"context": "How is Conflagration used? Match each fragment to its correct completion.",
+"pairs": [
+{ "a": "The historic church was", "b": "Destroyed in the conflagration" },
+{ "a": "Firefighters fought the conflagration", "b": "For over forty-eight hours" },
+{ "a": "A single match sparked", "b": "The terrible conflagration" },
+{ "a": "The conflict threatened a", "b": "Global political conflagration" }
+]
+}
+]
+}
+]

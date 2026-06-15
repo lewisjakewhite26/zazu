@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 
 import { copy } from '@/constants/copy';
 import { colors, fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import type { WordOfDay } from '@/types/home';
 
-export type WordOfDayCardProps = WordOfDay;
+export type WordOfDayCardProps = WordOfDay & {
+  loading?: boolean;
+};
 
 export function WordOfDayCard({
   word,
@@ -13,7 +15,20 @@ export function WordOfDayCard({
   pos,
   definition,
   origin,
+  loading = false,
 }: WordOfDayCardProps) {
+  if (loading) {
+    return (
+      <View style={[styles.card, styles.cardLoading]} accessibilityRole="progressbar">
+        <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
+        <View style={styles.loadingRow}>
+          <ActivityIndicator color={colors.subtext} size="small" />
+          <Text style={styles.loadingText}>{copy.home.wordOfDayLoading}</Text>
+        </View>
+      </View>
+    );
+  }
+
   return (
     <View
       style={styles.card}
@@ -95,6 +110,21 @@ const styles = StyleSheet.create({
     fontFamily: fonts.sans,
     fontSize: 12,
     lineHeight: 18,
+    color: colors.subtext,
+  },
+  cardLoading: {
+    minHeight: 180,
+    justifyContent: 'flex-start',
+  },
+  loadingRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    marginTop: spacing.md,
+  },
+  loadingText: {
+    fontFamily: fonts.sans,
+    fontSize: 15,
     color: colors.subtext,
   },
 });

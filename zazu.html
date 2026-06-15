@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Zazu. Wake up. Learn something.</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
@@ -117,6 +117,46 @@ body.night .wotd-hero { background:linear-gradient(135deg,rgba(249,201,168,.08),
   background:rgba(44,31,46,.07); padding:3px 8px; border-radius:100px; margin-bottom:8px;
 }
 body.night .wotd-pos { background:rgba(255,255,255,.08); }
+.wotd-hero.wotd-loading .wotd-word { opacity:.45; }
+
+.wotd-error {
+  width:calc(100% - 40px);
+  margin:0 20px 12px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:rgba(232,97,122,.12);
+  border:1px solid rgba(232,97,122,.35);
+  font-size:.82rem;
+  color:var(--text);
+  line-height:1.45;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px;
+}
+.wotd-error[hidden] { display:none; }
+.wotd-error-btn {
+  background:var(--card);
+  border:1px solid var(--border);
+  color:var(--text);
+  padding:6px 14px;
+  border-radius:100px;
+  font-family:'DM Sans',sans-serif;
+  font-size:.78rem;
+  font-weight:600;
+  cursor:pointer;
+  flex-shrink:0;
+}
+.wotd-error-btn:hover { background:rgba(255,255,255,.15); }
+
+.sr-only {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+.wotd-hero.wotd-loading .wotd-pronunciation,
+.wotd-hero.wotd-loading .wotd-pos,
+.wotd-hero.wotd-loading .wotd-def,
+.wotd-hero.wotd-loading .wotd-origin { opacity:.3; }
 
 /* Alarms */
 .home-section-label {
@@ -224,6 +264,38 @@ body.night .alarm-glow { background:radial-gradient(ellipse at 50% 30%, rgba(200
 body.night .btn-wake { background:rgba(255,255,255,.9); color:#2c1f2e; }
 .btn-wake:hover { transform:translateY(-2px); opacity:.9; }
 
+/* ══ LEARN + MORNING TASK ══ */
+#screenLearn, #screenMorningTask { justify-content:flex-start; padding:28px 20px 32px; overflow-y:auto; }
+.learn-eyebrow, .mt-eyebrow { font-size:.68rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; }
+.learn-word, .mt-word { font-family:'DM Serif Display',serif; font-size:clamp(2rem,8vw,2.6rem); color:var(--text); letter-spacing:-.02em; margin-bottom:6px; }
+.learn-pron { font-size:.88rem; font-style:italic; color:var(--subtext); margin-bottom:20px; }
+.learn-card, .learn-etym {
+  width:100%; max-width:400px; background:var(--card); border:1px solid var(--border);
+  border-radius:18px; padding:18px 20px; margin-bottom:14px; backdrop-filter:blur(10px);
+}
+.learn-def { font-size:1rem; line-height:1.5; color:var(--text); }
+.learn-etym-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.learn-etym-text { font-size:.88rem; line-height:1.55; color:var(--subtext); }
+.learn-etym-text strong { color:var(--text); font-weight:600; }
+.btn-continue, .btn-dismiss {
+  background:var(--ink); color:var(--white); border:none; padding:16px 40px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:1rem; font-weight:500; cursor:pointer; margin-top:20px;
+  box-shadow:0 8px 28px rgba(44,31,46,.15);
+}
+body.night .btn-continue, body.night .btn-dismiss { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.mt-question { font-size:1.05rem; font-weight:500; line-height:1.45; color:var(--text); margin-bottom:18px; max-width:400px; width:100%; }
+.mt-options { display:flex; flex-direction:column; gap:10px; width:100%; max-width:400px; }
+.mt-option {
+  border:1px solid var(--border); border-radius:14px; background:var(--card);
+  padding:14px 16px; text-align:left; font-family:'DM Sans',sans-serif; font-size:.92rem;
+  color:var(--text); cursor:pointer; transition:background .2s, border-color .2s;
+}
+.mt-option:hover { border-color:var(--blush); }
+.mt-option.correct { background:rgba(168,216,176,.35); border-color:var(--correct,#6a9a72); }
+.mt-option.wrong { background:rgba(232,97,122,.15); border-color:var(--wrong,#e8617a); }
+.mt-hint { font-size:.82rem; color:var(--subtext); margin-top:14px; max-width:400px; }
+.mt-try-again { font-size:.85rem; color:var(--subtext); margin-top:16px; text-align:center; }
+
 /* ══ PUZZLE ══ */
 #screenPuzzle { justify-content:flex-start; padding:0 20px 24px; gap:0; overflow-y:auto; }
 
@@ -260,8 +332,27 @@ body.night .btn-wake { background:rgba(255,255,255,.9); color:#2c1f2e; }
   padding:14px 10px; cursor:pointer; text-align:center; min-height:70px;
   transition:transform .18s cubic-bezier(.34,1.56,.64,1),box-shadow .18s,background .18s,border-color .18s,opacity .25s;
   border:2px solid transparent; -webkit-tap-highlight-color:transparent; backdrop-filter:blur(10px);
+  font:inherit; color:inherit; width:100%;
+  appearance:none; -webkit-appearance:none;
 }
+.tile:disabled { cursor:default; opacity:1; }
 .tile:active { transform:scale(.97); }
+.tile:focus { outline:none; }
+.tile:focus-visible {
+  outline:2px solid var(--blush);
+  outline-offset:2px;
+  box-shadow:0 0 0 4px rgba(240,160,188,.25);
+}
+.demo-btn:focus-visible,
+.btn-wake:focus-visible,
+.btn-done:focus-visible,
+.add-alarm-btn:focus-visible,
+.ad-skip:focus-visible,
+.ad-cta:focus-visible,
+.wotd-error-btn:focus-visible {
+  outline:2px solid var(--blush);
+  outline-offset:2px;
+}
 
 /* Left = prompt: serif italic muted */
 .tile.side-a .tile-text {
@@ -372,25 +463,30 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
           <span class="streak-flame-icon">🔥</span>
         </div>
         <div class="streak-info">
-          <span class="streak-count" id="homeStreakNum">7</span>
+          <span class="streak-count" id="homeStreakNum">0</span>
           <span class="streak-label">day streak</span>
         </div>
       </div>
       <div class="coin-chip">
         <div class="coin-chip-icon">🪙</div>
-        <span class="coin-chip-amount" id="homeCoinAmount">340</span>
+        <span class="coin-chip-amount" id="homeCoinAmount">0</span>
       </div>
     </div>
   </div>
 
+  <div class="wotd-error" id="wotdError" hidden role="alert">
+    <span id="wotdErrorText">Could not load words from the cloud. Using the built-in library for now.</span>
+    <button type="button" class="wotd-error-btn" id="wotdRetryBtn" onclick="retryWordLibrary()">Try again</button>
+  </div>
+
   <!-- Word of the Day -->
-  <div class="wotd-hero">
+  <div class="wotd-hero wotd-loading" id="wotdHero">
     <div class="wotd-eyebrow">Word of the day</div>
-    <div class="wotd-word">Matutinal</div>
-    <div class="wotd-pronunciation">mat·yoo·TY·nl</div>
-    <div class="wotd-pos">adjective</div>
-    <div class="wotd-def">Of, relating to, or occurring in the morning.</div>
-    <div class="wotd-origin">From Latin <strong>matutinus</strong>, of the morning, from <strong>Matuta</strong>, the Roman goddess of the dawn. Related to <strong>mature</strong> (early) and the root <strong>mane</strong> (in the morning).</div>
+    <div class="wotd-word" id="wotdWord">Loading…</div>
+    <div class="wotd-pronunciation" id="wotdPronunciation"></div>
+    <div class="wotd-pos" id="wotdPos"></div>
+    <div class="wotd-def" id="wotdDef"></div>
+    <div class="wotd-origin" id="wotdOrigin"></div>
   </div>
 
   <div class="home-section-label">Your alarms</div>
@@ -427,7 +523,7 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
 </div>
 
 <!-- ══ ALARM FIRING ══ -->
-<div id="screenAlarm" class="screen">
+<div id="screenAlarm" class="screen" aria-hidden="true">
   <div class="alarm-orb alarm-orb-1"></div>
   <div class="alarm-orb alarm-orb-2"></div>
   <div class="alarm-orb alarm-orb-3"></div>
@@ -436,26 +532,53 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
   <div class="alarm-label-text">Good morning</div>
   <div class="alarm-big-time" id="alarmTimeDisplay">07:30</div>
   <div class="alarm-word-tease">Today's word: <strong id="alarmWordTease">Matutinal</strong></div>
-  <div class="alarm-name-sub">Three rounds to learn it properly</div>
-  <button class="btn-wake" onclick="startPuzzle()">I'm awake. Let's go.</button>
+  <div class="alarm-name-sub" id="alarmSubtext">Learn it, then one quick question</div>
+  <button class="btn-wake" onclick="startLearn()">I'm awake. Let's go.</button>
 </div>
 
-<!-- ══ PUZZLE ══ -->
-<div id="screenPuzzle" class="screen">
-  <div class="puzzle-word-banner">
-    <div class="puzzle-word-main" id="puzzleWordMain">–</div>
-    <div class="puzzle-word-round" id="puzzleWordRound">–</div>
+<!-- ══ LEARN ══ -->
+<div id="screenLearn" class="screen" aria-hidden="true">
+  <div class="learn-eyebrow">Learn the word</div>
+  <h1 class="learn-word" id="learnWord">–</h1>
+  <p class="learn-pron" id="learnPron">–</p>
+  <div class="learn-card">
+    <p class="learn-def" id="learnDef">–</p>
   </div>
-  <div class="round-context" id="roundContext">
+  <div class="learn-etym">
+    <div class="learn-etym-label">Etymology</div>
+    <div class="learn-etym-text" id="learnEtym">–</div>
+  </div>
+  <button class="btn-continue" onclick="showMorningTask()">Continue</button>
+</div>
+
+<!-- ══ MORNING TASK ══ -->
+<div id="screenMorningTask" class="screen" aria-hidden="true">
+  <div class="mt-eyebrow">Morning task</div>
+  <h2 class="mt-word" id="mtWord">–</h2>
+  <p class="mt-question" id="mtQuestion">–</p>
+  <div class="mt-options" id="mtOptions"></div>
+  <p class="mt-hint" id="mtHint" hidden></p>
+  <p class="mt-try-again" id="mtTryAgain" hidden>Not quite. Try again.</p>
+  <button class="btn-dismiss" id="mtDismissBtn" onclick="dismissMorningTask()" hidden>Dismiss alarm</button>
+</div>
+
+<!-- ══ PUZZLE (Word Gym) ══ -->
+<div id="screenPuzzle" class="screen" aria-hidden="true">
+  <div class="puzzle-word-banner">
+    <h1 class="puzzle-word-main" id="puzzleWordMain">–</h1>
+    <p class="puzzle-word-round" id="puzzleWordRound">–</p>
+  </div>
+  <section class="round-context" id="roundContext" aria-labelledby="roundContextLabel">
     <div class="round-context-label" id="roundContextLabel">–</div>
     <div class="round-context-text" id="roundContextText">–</div>
-  </div>
-  <div class="progress-row" id="progressRow"></div>
-  <div class="board" id="board"></div>
+  </section>
+  <div class="progress-row" id="progressRow" role="group" aria-label="Round progress"></div>
+  <div class="board" id="board" role="group" aria-label="Matching pairs. Select one prompt and one answer."></div>
+  <div id="puzzleLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 </div>
 
 <!-- ══ AD ══ -->
-<div id="screenAd" class="screen">
+<div id="screenAd" class="screen" aria-hidden="true">
   <div class="ad-eyebrow">One quick message</div>
   <div class="ad-card-full">
     <div class="ad-pill">Ad. Keeps Zazu free.</div>
@@ -467,7 +590,7 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
 </div>
 
 <!-- ══ SUCCESS ══ -->
-<div id="screenSuccess" class="screen">
+<div id="screenSuccess" class="screen" aria-hidden="true">
   <div class="success-glow"></div>
   <div class="success-bird">🐦</div>
   <div class="success-heading">You're up.</div>
@@ -489,12 +612,12 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
     </div>
   </div>
 
-  <div class="coins-earned">
+  <div class="coins-earned" id="coinsEarnedCard">
     <div class="coins-earned-title">Coins earned</div>
-    <div class="coins-row"><span>Puzzle completed</span><span>+15 🪙</span></div>
-    <div class="coins-row"><span>No snooze</span><span>+10 🪙</span></div>
-    <div class="coins-row"><span>Streak bonus</span><span>+25 🪙</span></div>
-    <div class="coins-row"><span>Total</span><span>+50 🪙</span></div>
+    <div class="coins-row" id="coinRowPuzzle"><span id="coinLabelPuzzle">Morning task completed</span><span id="coinAmtPuzzle">+15 🪙</span></div>
+    <div class="coins-row" id="coinRowNoSnooze"><span>No snooze</span><span id="coinAmtNoSnooze">+10 🪙</span></div>
+    <div class="coins-row" id="coinRowStreakBonus"><span>Streak bonus</span><span id="coinAmtStreakBonus">+25 🪙</span></div>
+    <div class="coins-row"><span>Total</span><span id="coinAmtTotal">+25 🪙</span></div>
   </div>
 
   <button class="btn-done" onclick="goHome()">Done</button>
@@ -516,9 +639,11 @@ const COPY = {
   alarm: {
     goodMorning: 'Good morning',
     todaysWord: "Today's word:",
-    threeRounds: 'Three rounds to learn it properly',
+    learnSub: 'Learn it, then one quick question',
     wakeCta: "I'm awake. Let's go.",
   },
+  learn: { eyebrow: 'Learn the word', etymology: 'Etymology', continue: 'Continue' },
+  morningTask: { eyebrow: 'Morning task', dismiss: 'Dismiss alarm', tryAgain: 'Not quite. Try again.' },
   ad: { eyebrow: 'One quick message', pill: 'Ad. Keeps Zazu free.' },
   success: {
     heading: "You're up.",
@@ -526,6 +651,7 @@ const COPY = {
     wordLearned: 'Word learned',
     coinsEarned: 'Coins earned',
     puzzleCompleted: 'Puzzle completed',
+    morningTaskCompleted: 'Morning task completed',
     noSnooze: 'No snooze',
     streakBonus: 'Streak bonus',
     total: 'Total',
@@ -562,14 +688,114 @@ function getStreakTitle(n) {
 
 // ── WORD LIBRARY (Supabase overrides inline WORDS when configured) ──
 let wordLibrary = WORDS;
+let todaysWord = WORDS[0];
+
+function pickWordOfDay(words) {
+  if (window.ZazuWords?.pickWordOfDay) return window.ZazuWords.pickWordOfDay(words);
+  if (!words?.length) return null;
+  const dayIndex = Math.floor(Date.now() / 86400000);
+  return words[dayIndex % words.length];
+}
+
+function pickSessionWord(words) {
+  const learnedIds = window.ZazuProgress?.readProgress()?.learnedWordIds ?? [];
+  if (window.ZazuWords?.pickNextWord) return window.ZazuWords.pickNextWord(words, learnedIds);
+  return pickWordOfDay(words);
+}
+
+function renderWordOfDay(word) {
+  if (!word) return;
+  document.getElementById('wotdWord').textContent = word.word;
+  document.getElementById('wotdPronunciation').textContent = word.pronunciation;
+  document.getElementById('wotdPos').textContent = word.pos;
+  document.getElementById('wotdDef').textContent = word.definition;
+  document.getElementById('wotdOrigin').innerHTML = word.origin;
+}
+
+function setWordOfDayLoading(loading) {
+  document.getElementById('wotdHero').classList.toggle('wotd-loading', loading);
+  if (loading) {
+    document.getElementById('wotdWord').textContent = 'Loading…';
+    document.getElementById('wotdPronunciation').textContent = '';
+    document.getElementById('wotdPos').textContent = '';
+    document.getElementById('wotdDef').textContent = '';
+    document.getElementById('wotdOrigin').innerHTML = '';
+  }
+}
+
+function showWordFetchError(message) {
+  const banner = document.getElementById('wotdError');
+  const text = document.getElementById('wotdErrorText');
+  if (!banner || !text) return;
+  text.textContent = message;
+  banner.hidden = false;
+}
+
+function hideWordFetchError() {
+  const banner = document.getElementById('wotdError');
+  if (banner) banner.hidden = true;
+}
 
 async function initWordLibrary() {
-  if (!window.ZazuWords) return;
-  const loaded = await window.ZazuWords.fetch();
-  if (loaded?.length) {
-    wordLibrary = loaded;
-    console.info('[Zazu] Loaded', loaded.length, 'words from Supabase');
+  setWordOfDayLoading(true);
+  hideWordFetchError();
+
+  let result = { words: WORDS, error: null, usedFallback: false, source: 'inline' };
+  try {
+    if (window.ZazuWords?.fetchAlarmWordsWithStatus) {
+      result = await window.ZazuWords.fetchAlarmWordsWithStatus();
+    } else if (window.ZazuWords?.fetchWithStatus) {
+      result = await window.ZazuWords.fetchWithStatus();
+    } else if (window.ZazuWords?.fetch) {
+      const loaded = await window.ZazuWords.fetch();
+      result = { words: loaded, error: null, usedFallback: false, source: 'inline' };
+    }
+  } catch (err) {
+    console.error('[Zazu] Word fetch failed:', err);
+    result = {
+      words: WORDS,
+      error: err?.message || 'Network error while loading words.',
+      usedFallback: true,
+      source: 'fallback',
+    };
   }
+
+  const rawWords = result.words?.length ? result.words : WORDS;
+  wordLibrary = rawWords.map((w) =>
+    window.ZazuMorningTask?.ensureMorningTask ? window.ZazuMorningTask.ensureMorningTask(w) : w,
+  );
+  if (result.source === 'supabase') {
+    console.info('[Zazu] Loaded', wordLibrary.length, 'words from Supabase');
+  }
+  if (result.usedFallback && result.error) {
+    showWordFetchError(
+      `Could not load words from the cloud. ${result.error} Using the built-in library for now.`,
+    );
+  }
+
+  todaysWord = pickSessionWord(wordLibrary) ?? WORDS[0];
+  renderWordOfDay(todaysWord);
+  setWordOfDayLoading(false);
+  refreshHomeProgress();
+}
+
+async function retryWordLibrary() {
+  const btn = document.getElementById('wotdRetryBtn');
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = 'Retrying…';
+  }
+  await initWordLibrary();
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = 'Try again';
+  }
+}
+
+function refreshHomeProgress() {
+  const saved = window.ZazuProgress?.readProgress() ?? { streak: 0, coins: 0 };
+  document.getElementById('homeCoinAmount').textContent = saved.coins;
+  document.getElementById('homeStreakNum').textContent = saved.streak;
 }
 
 // ── STATE ──
@@ -578,18 +804,31 @@ let roundIndex = 0;
 let selectedTile = null;
 let matched = 0;
 let locked = false;
-let coins = 340;
-let streak = 7;
+let morningBuilt = null;
+let morningSelected = null;
 
 // ── ADAPTIVE THEME ──
-function applyTheme() {
-  const h = new Date().getHours();
-  const isNight = h >= 21 || h < 6;
-  document.body.classList.toggle('night', isNight);
+let themeManual = null;
+
+function applyAdaptiveTheme() {
+  if (!window.ZazuAdaptiveTheme) return;
+  let blend;
+  if (themeManual === 'light') blend = 0;
+  else if (themeManual === 'dark') blend = 1;
+  else blend = window.ZazuAdaptiveTheme.getThemeBlend(new Date());
+
+  const palette = window.ZazuAdaptiveTheme.blendPalette(blend);
+  window.ZazuAdaptiveTheme.applyCssVars(document.documentElement, palette);
+  document.body.classList.toggle('night', blend >= 0.5);
+
   const btn = document.getElementById('themeBtn');
-  if (btn) btn.textContent = isNight ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+  if (btn) {
+    btn.textContent = blend >= 0.5 ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+  }
 }
-applyTheme();
+
+applyAdaptiveTheme();
+setInterval(applyAdaptiveTheme, 30 * 1000);
 
 // ── AUDIO ──
 const AC = window.AudioContext || window.webkitAudioContext;
@@ -696,21 +935,122 @@ updateClock(); setInterval(updateClock,10000);
 
 // ── SCREENS ──
 function showScreen(id) {
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-  window.scrollTo(0,0);
+  document.querySelectorAll('.screen').forEach((s) => {
+    const active = s.id === id;
+    s.classList.toggle('active', active);
+    s.setAttribute('aria-hidden', active ? 'false' : 'true');
+  });
+  window.scrollTo(0, 0);
 }
 
 function fireAlarm() {
-  currentWord = wordLibrary[Math.floor(Math.random()*wordLibrary.length)];
+  currentWord = pickSessionWord(wordLibrary) ?? wordLibrary[0];
+  if (window.ZazuMorningTask?.ensureMorningTask) {
+    currentWord = window.ZazuMorningTask.ensureMorningTask(currentWord);
+  }
   document.getElementById('alarmWordTease').textContent = currentWord.word;
+  const sub = document.getElementById('alarmSubtext');
+  if (sub) sub.textContent = COPY.alarm.learnSub;
   showScreen('screenAlarm');
   startAlarmSound();
 }
 
+function renderIntroEtymology(word, el) {
+  if (!el) return;
+  const spans = word.introEtymology?.spans;
+  if (spans?.length) {
+    el.innerHTML = spans
+      .map((span) =>
+        span.highlight ? `<strong>${span.text}</strong>` : span.text,
+      )
+      .join('');
+    return;
+  }
+  el.innerHTML = word.origin;
+}
+
+function startLearn() {
+  stopAlarmSound();
+  clearInactivityTimer();
+  document.getElementById('learnWord').textContent = currentWord.word;
+  document.getElementById('learnPron').textContent =
+    `${currentWord.pronunciation} · ${currentWord.pos}`;
+  document.getElementById('learnDef').textContent = currentWord.definition;
+  renderIntroEtymology(currentWord, document.getElementById('learnEtym'));
+  showScreen('screenLearn');
+}
+
+async function showMorningTask() {
+  morningSelected = null;
+  morningBuilt = null;
+  document.getElementById('mtWord').textContent = currentWord.word;
+  document.getElementById('mtQuestion').textContent = 'Loading…';
+  document.getElementById('mtOptions').innerHTML = '';
+  document.getElementById('mtHint').hidden = true;
+  document.getElementById('mtTryAgain').hidden = true;
+  document.getElementById('mtDismissBtn').hidden = true;
+  showScreen('screenMorningTask');
+
+  let pool = [];
+  if (window.ZazuWords?.fetchMorningTaskDistractors) {
+    pool = await window.ZazuWords.fetchMorningTaskDistractors();
+  }
+  if (!pool.length && window.ZazuMorningTask?.fallbackDistractorPool) {
+    pool = window.ZazuMorningTask.fallbackDistractorPool(wordLibrary);
+  }
+
+  morningBuilt = window.ZazuMorningTask.buildMorningOptions(currentWord, pool, 3);
+  document.getElementById('mtQuestion').textContent = morningBuilt.question;
+
+  const optionsEl = document.getElementById('mtOptions');
+  optionsEl.innerHTML = '';
+  morningBuilt.options.forEach((option, index) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'mt-option';
+    btn.textContent = option;
+    btn.onclick = () => selectMorningOption(index, btn);
+    optionsEl.appendChild(btn);
+  });
+}
+
+function selectMorningOption(index, btn) {
+  if (!morningBuilt || morningSelected === morningBuilt.correctIndex) return;
+
+  const buttons = document.querySelectorAll('.mt-option');
+  if (index === morningBuilt.correctIndex) {
+    morningSelected = index;
+    btn.classList.add('correct');
+    playCorrect();
+    haptic('correct');
+    document.getElementById('mtHint').hidden = true;
+    document.getElementById('mtTryAgain').hidden = true;
+    document.getElementById('mtDismissBtn').hidden = false;
+    return;
+  }
+
+  playWrong();
+  haptic('wrong');
+  btn.classList.add('wrong');
+  document.getElementById('mtTryAgain').hidden = false;
+  const hint = currentWord.morningTask?.hint;
+  const hintEl = document.getElementById('mtHint');
+  if (hint && hintEl) {
+    hintEl.textContent = hint;
+    hintEl.hidden = false;
+  }
+  setTimeout(() => {
+    btn.classList.remove('wrong');
+    buttons.forEach((b) => b.classList.remove('wrong'));
+  }, 700);
+}
+
+function dismissMorningTask() {
+  showScreen('screenAd');
+}
+
 function goHome() {
-  document.getElementById('homeCoinAmount').textContent = coins;
-  document.getElementById('homeStreakNum').textContent = streak;
+  refreshHomeProgress();
   showScreen('screenHome');
 }
 
@@ -815,6 +1155,53 @@ function haptic(type) {
   if (type === 'wrong')   navigator.vibrate([60, 40, 60]);
 }
 
+function stripHtml(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || '';
+}
+
+function announcePuzzle(message) {
+  const live = document.getElementById('puzzleLive');
+  if (!live) return;
+  live.textContent = '';
+  requestAnimationFrame(() => { live.textContent = message; });
+}
+
+function syncTileA11y(el) {
+  const selected = el.classList.contains('selected');
+  const inactive = el.classList.contains('correct') || el.classList.contains('gone');
+  el.setAttribute('aria-pressed', selected ? 'true' : 'false');
+  el.disabled = inactive;
+  if (inactive) el.setAttribute('aria-disabled', 'true');
+  else el.removeAttribute('aria-disabled');
+}
+
+function getFocusableTiles() {
+  return [...document.querySelectorAll('#board .tile')].filter(
+    (t) => !t.disabled && !t.classList.contains('gone') && !t.classList.contains('correct'),
+  );
+}
+
+function handleTileKeydown(e, el) {
+  const tiles = getFocusableTiles();
+  const idx = tiles.indexOf(el);
+  if (idx === -1) return;
+
+  const cols = 2;
+  let next = idx;
+  if (e.key === 'ArrowRight') next = Math.min(idx + 1, tiles.length - 1);
+  else if (e.key === 'ArrowLeft') next = Math.max(idx - 1, 0);
+  else if (e.key === 'ArrowDown') next = Math.min(idx + cols, tiles.length - 1);
+  else if (e.key === 'ArrowUp') next = Math.max(idx - cols, 0);
+  else return;
+
+  if (next !== idx) {
+    e.preventDefault();
+    tiles[next].focus();
+  }
+}
+
 function loadRound() {
   const round = currentWord.rounds[roundIndex];
   matched = 0; selectedTile = null; locked = false;
@@ -833,22 +1220,36 @@ function loadRound() {
     board.appendChild(makeTile(aItems[r]));
     board.appendChild(makeTile(bItems[r]));
   }
+
+  announcePuzzle(
+    `Round ${roundIndex + 1} of 3. ${round.type}. ${stripHtml(round.context)}`,
+  );
+  const firstTile = getFocusableTiles()[0];
+  if (firstTile) firstTile.focus();
   resetInactivityTimer();
 }
 
 function renderProgress() {
-  document.getElementById('progressRow').innerHTML =
+  const row = document.getElementById('progressRow');
+  row.innerHTML =
     Array.from({length:3},(_,i)=>
-      `<div class="prog-dot ${i<roundIndex?'done':''}"></div>`
+      `<div class="prog-dot ${i<roundIndex?'done':''}" aria-hidden="true"></div>`
     ).join('');
+  row.setAttribute('aria-label', `Round ${roundIndex + 1} of 3`);
 }
 
 function makeTile(item) {
-  const el=document.createElement('div');
-  el.className=`tile side-${item.side}`;
-  el.dataset.pairId=item.pairId; el.dataset.side=item.side;
-  el.innerHTML=`<span class="tile-text">${item.text}</span>`;
-  el.addEventListener('click',()=>handleTap(el));
+  const sideLabel = item.side === 'a' ? 'Prompt' : 'Answer';
+  const el = document.createElement('button');
+  el.type = 'button';
+  el.className = `tile side-${item.side}`;
+  el.dataset.pairId = item.pairId;
+  el.dataset.side = item.side;
+  el.setAttribute('aria-pressed', 'false');
+  el.setAttribute('aria-label', `${sideLabel}: ${item.text}`);
+  el.innerHTML = `<span class="tile-text">${item.text}</span>`;
+  el.addEventListener('click', () => handleTap(el));
+  el.addEventListener('keydown', (e) => handleTileKeydown(e, el));
   return el;
 }
 
@@ -856,23 +1257,42 @@ function handleTap(el) {
   if(locked) return;
   if(el.classList.contains('correct')||el.classList.contains('gone')) return;
   resetInactivityTimer();
-  if(selectedTile===el){el.classList.remove('selected');selectedTile=null;return;}
+  if(selectedTile===el){
+    el.classList.remove('selected');
+    syncTileA11y(el);
+    selectedTile=null;
+    return;
+  }
   if(selectedTile && el.dataset.side===selectedTile.dataset.side){
-    selectedTile.classList.remove('selected');selectedTile=el;el.classList.add('selected');playSnap();return;
+    syncTileA11y(selectedTile);
+    selectedTile.classList.remove('selected');
+    selectedTile=el;
+    el.classList.add('selected');
+    syncTileA11y(el);
+    playSnap();
+    return;
   }
   playSnap();
-  if(!selectedTile){selectedTile=el;el.classList.add('selected');return;}
+  if(!selectedTile){
+    selectedTile=el;
+    el.classList.add('selected');
+    syncTileA11y(el);
+    return;
+  }
 
   const match=el.dataset.pairId===selectedTile.dataset.pairId && el.dataset.side!==selectedTile.dataset.side;
 
   if(match){
     playCorrect();
     haptic('correct');
-    [el,selectedTile].forEach(t=>{t.classList.remove('selected');t.classList.add('correct');});
-    selectedTile=null; matched++;
+    [el,selectedTile].forEach(t=>{t.classList.remove('selected');t.classList.add('correct');syncTileA11y(t);});
+    selectedTile=null;
+    matched++;
+    announcePuzzle('Correct match.');
     if(matched>=currentWord.rounds[roundIndex].pairs.length){
+      announcePuzzle('Round complete.');
       setTimeout(()=>{
-        document.querySelectorAll('.tile.correct').forEach(t=>t.classList.add('gone'));
+        document.querySelectorAll('.tile.correct').forEach(t=>{t.classList.add('gone');syncTileA11y(t);});
         setTimeout(advanceRound,380);
       },520);
     }
@@ -881,8 +1301,12 @@ function handleTap(el) {
     haptic('wrong');
     locked=true;
     const prev=selectedTile;
-    [el,prev].forEach(t=>{t.classList.remove('selected');t.classList.add('wrong');});
-    setTimeout(()=>{[el,prev].forEach(t=>t.classList.remove('wrong'));locked=false;},480);
+    [el,prev].forEach(t=>{t.classList.remove('selected');t.classList.add('wrong');syncTileA11y(t);});
+    announcePuzzle('Not a match. Try again.');
+    setTimeout(()=>{
+      [el,prev].forEach(t=>{t.classList.remove('wrong');syncTileA11y(t);});
+      locked=false;
+    },480);
     selectedTile=null;
   }
 }
@@ -894,19 +1318,47 @@ function advanceRound() {
   else { loadRound(); }
 }
 
+function renderCoinBreakdown(breakdown, total) {
+  const labelEl = document.getElementById('coinLabelPuzzle');
+  if (labelEl) labelEl.textContent = COPY.success.morningTaskCompleted;
+  const rows = [
+    { id: 'coinRowPuzzle', amt: 'coinAmtPuzzle', value: breakdown.puzzle },
+    { id: 'coinRowNoSnooze', amt: 'coinAmtNoSnooze', value: breakdown.noSnooze },
+    { id: 'coinRowStreakBonus', amt: 'coinAmtStreakBonus', value: breakdown.streakBonus },
+  ];
+  rows.forEach(({ id, amt, value }) => {
+    const row = document.getElementById(id);
+    if (!row) return;
+    row.style.display = value > 0 ? '' : 'none';
+    const amtEl = document.getElementById(amt);
+    if (amtEl) amtEl.textContent = `+${value} 🪙`;
+  });
+  const totalEl = document.getElementById('coinAmtTotal');
+  if (totalEl) totalEl.textContent = `+${total} 🪙`;
+}
+
 function showSuccess() {
   clearInactivityTimer();
   stopAlarmSound();
-  coins+=50; streak+=1;
-  const newStreak=streak;
-  const title=getStreakTitle(newStreak);
-  document.getElementById('successWord').textContent=currentWord.word;
-  document.getElementById('successPronunciation').textContent=currentWord.pronunciation;
-  document.getElementById('successDef').textContent=currentWord.definition;
-  document.getElementById('successOrigin').innerHTML=currentWord.origin;
-  document.getElementById('successStreakText').textContent=COPY.success.streakCount(newStreak);
-  document.getElementById('successStreakTitle').textContent=COPY.success.streakSubtitle(title);
-  playSuccess(); launchConfetti();
+
+  const wordId = window.ZazuProgress?.getWordId(currentWord) ?? currentWord.word;
+  const result = window.ZazuProgress?.completeWord(wordId, { noSnooze: true }) ?? {
+    streak: 1,
+    coinsEarned: 25,
+    breakdown: { puzzle: 15, noSnooze: 10, streakBonus: 0, total: 25 },
+  };
+
+  const newStreak = result.streak;
+  const title = getStreakTitle(newStreak);
+  document.getElementById('successWord').textContent = currentWord.word;
+  document.getElementById('successPronunciation').textContent = currentWord.pronunciation;
+  document.getElementById('successDef').textContent = currentWord.definition;
+  document.getElementById('successOrigin').innerHTML = currentWord.origin;
+  document.getElementById('successStreakText').textContent = COPY.success.streakCount(newStreak);
+  document.getElementById('successStreakTitle').textContent = COPY.success.streakSubtitle(title);
+  renderCoinBreakdown(result.breakdown, result.coinsEarned);
+  playSuccess();
+  launchConfetti();
   showScreen('screenSuccess');
 }
 
@@ -922,8 +1374,13 @@ function launchConfetti() {
 }
 
 function toggleTheme() {
-  const isNight = document.body.classList.toggle('night');
-  document.getElementById('themeBtn').textContent = isNight ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+  const autoBlend = window.ZazuAdaptiveTheme
+    ? window.ZazuAdaptiveTheme.getThemeBlend(new Date())
+    : 0;
+  const currentBlend =
+    themeManual === 'light' ? 0 : themeManual === 'dark' ? 1 : autoBlend;
+  themeManual = currentBlend >= 0.5 ? 'light' : 'dark';
+  applyAdaptiveTheme();
 }
 
 function shuffle(a){
@@ -931,10 +1388,15 @@ function shuffle(a){
   return a;
 }
 </script>
+<script src="lib/adaptive-theme.js"></script>
+<script src="lib/morning-task.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="public/config.js" onerror="console.info('[Zazu] public/config.js not found. Run npm run config')"></script>
+<script src="lib/progress-web.js"></script>
 <script src="lib/words-api.js"></script>
 <script>
+applyAdaptiveTheme();
+refreshHomeProgress();
 initWordLibrary();
 </script>
 </body>

@@ -1,0 +1,555 @@
+[
+  {
+    "word": "Gainsay",
+    "pronunciation": "gayn-SAY",
+    "pos": "verb",
+    "definition": "To deny, contradict, or speak against a fact or statement.",
+    "origin": "From Middle English gayn- (against) + sayen (to say).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Gainsay come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old English gegn",
+            "b": "Against or in opposition"
+          },
+          {
+            "a": "Middle English sayen",
+            "b": "To utter or declare"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "To say against or contradict"
+          },
+          {
+            "a": "Related: gainsayer",
+            "b": "One who objects or denies"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Gainsay mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Gainsay means",
+            "b": "To dispute or challenge a claim"
+          },
+          {
+            "a": "Synonym of gainsay",
+            "b": "Repudiate"
+          },
+          {
+            "a": "Antonym of gainsay",
+            "b": "Corroborate"
+          },
+          {
+            "a": "To gainsay a truth",
+            "b": "Is impossible when proof is absolute"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Gainsay used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "No one could gainsay",
+            "b": "The accuracy of his game metrics"
+          },
+          {
+            "a": "It was difficult to",
+            "b": "Gainsay the official verdict"
+          },
+          {
+            "a": "She did not try to",
+            "b": "Gainsay his account of the match"
+          },
+          {
+            "a": "The impact of software is",
+            "b": "Hard to gainsay in modern schools"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Garish",
+    "pronunciation": "GAIR-ish",
+    "pos": "adjective",
+    "definition": "Obtrusively bright and showy, lurid or gaudy.",
+    "origin": "From obsolete Middle English gauren (to stare), perhaps from Old Norse.",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Garish come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Middle English gauren",
+            "b": "To stare or gawk"
+          },
+          {
+            "a": "Suffix -ish",
+            "b": "Having the qualities of"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Making people stare due to brightness"
+          },
+          {
+            "a": "Related: gawk",
+            "b": "To stare openly and stupidly"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Garish mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Garish means",
+            "b": "Tastelessly colorful and flashy"
+          },
+          {
+            "a": "Synonym of garish",
+            "b": "Ostentatious"
+          },
+          {
+            "a": "Antonym of garish",
+            "b": "Tasteful"
+          },
+          {
+            "a": "A garish neon sign",
+            "b": "Ruined the aesthetic of the village"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Garish used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He wore a garish",
+            "b": "Hawaiian shirt to the staff meeting"
+          },
+          {
+            "a": "The bedroom was painted",
+            "b": "In a garish shade of pink"
+          },
+          {
+            "a": "She disliked the garish",
+            "b": "Gold trim on the dashboard"
+          },
+          {
+            "a": "They avoided the garish",
+            "b": "Light displays on the seafront"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Genial",
+    "pronunciation": "JEE-nee-ul",
+    "pos": "adjective",
+    "definition": "Friendly, cheerful, and pleasant in manner.",
+    "origin": "From Latin genialis (festive, pleasant, jovial), from genius (spirit).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Genial come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin genialis",
+            "b": "Festive, jovial, or nuptial"
+          },
+          {
+            "a": "Latin genius",
+            "b": "A guardian spirit of a person"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Enlivening or naturally cheerful"
+          },
+          {
+            "a": "Related: geniality",
+            "b": "The quality of being friendly"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Genial mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Genial means",
+            "b": "Warm and amiably disposed"
+          },
+          {
+            "a": "Synonym of genial",
+            "b": "Affable"
+          },
+          {
+            "a": "Antonym of genial",
+            "b": "Morose"
+          },
+          {
+            "a": "A genial host",
+            "b": "Makes everyone feel comfortable quickly"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Genial used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The headteacher offered a",
+            "b": "Genial welcome to the new staff"
+          },
+          {
+            "a": "He was a genial",
+            "b": "Man who loved telling old jokes"
+          },
+          {
+            "a": "The room warmed to her",
+            "b": "Genial and approachable manner"
+          },
+          {
+            "a": "They enjoyed a genial",
+            "b": "Conversation over Sunday lunch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Gibe",
+    "pronunciation": "JYB",
+    "pos": "noun",
+    "definition": "An insulting or mocking remark, a taunt.",
+    "origin": "Perhaps from Old French giber (to handle roughly, shake, kick).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Gibe come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French giber",
+            "b": "To shake or treat roughly"
+          },
+          {
+            "a": "Alternative link",
+            "b": "Related to gibbet meaning gallows"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "A mocking gesture or cutting taunt"
+          },
+          {
+            "a": "Related: gibe (verb)",
+            "b": "To utter scoffing words"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Gibe mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Gibe means",
+            "b": "A sarcastic, derisive insult"
+          },
+          {
+            "a": "Synonym of gibe",
+            "b": "Jeer"
+          },
+          {
+            "a": "Antonym of gibe",
+            "b": "Compliment"
+          },
+          {
+            "a": "An cruel gibe",
+            "b": "Can damage a child's confidence"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Gibe used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He ignored the nasty",
+            "b": "Gibes from the opposing dugout"
+          },
+          {
+            "a": "Her comment was a",
+            "b": "Clever gibe aimed at the board"
+          },
+          {
+            "a": "They endured constant gibes",
+            "b": "About their poor tournament record"
+          },
+          {
+            "a": "A witty gibe defused",
+            "b": "The tension during the debate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Glib",
+    "pronunciation": "GLIB",
+    "pos": "adjective",
+    "definition": "Fluent and voluble but insincere and shallow.",
+    "origin": "From Dutch or Low German glibberig (slippery) or glip (to slip).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Glib come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Low German glibberig",
+            "b": "Slippery or smooth"
+          },
+          {
+            "a": "German flitschen",
+            "b": "To slide or glide easily"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Having a smooth, slippery tongue"
+          },
+          {
+            "a": "Related: glibness",
+            "b": "Superficial fluency in speech"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Glib mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Glib means",
+            "b": "Articulate but slick and shallow"
+          },
+          {
+            "a": "Synonym of glib",
+            "b": "Superficial"
+          },
+          {
+            "a": "Antonym of glib",
+            "b": "Profound"
+          },
+          {
+            "a": "A glib salesman",
+            "b": "Promises anything to secure a signature"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Glib used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The politician offered a glib",
+            "b": "Excuse for the policy failure"
+          },
+          {
+            "a": "We must look beyond",
+            "b": "Glib assertions in this audit"
+          },
+          {
+            "a": "She gave a glib",
+            "b": "Answer without thinking it through"
+          },
+          {
+            "a": "His glib tongue managed",
+            "b": "To charm the skeptical panel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Gregarious",
+    "pronunciation": "grih-GAIR-ee-us",
+    "pos": "adjective",
+    "definition": "Fond of company, highly sociable.",
+    "origin": "From Latin gregarius, from grex (a flock, herd, pack).",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Gregarious come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin grex",
+            "b": "A flock, herd, or crowd"
+          },
+          {
+            "a": "Latin -arius",
+            "b": "Pertaining to or belonging to"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Belonging to a flock or social group"
+          },
+          {
+            "a": "Related: segregate",
+            "b": "To separate from the flock"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Gregarious mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Gregarious means",
+            "b": "Extroverted and outgoing"
+          },
+          {
+            "a": "Synonym of gregarious",
+            "b": "Convivial"
+          },
+          {
+            "a": "Antonym of gregarious",
+            "b": "Reclusive"
+          },
+          {
+            "a": "Gregarious animals",
+            "b": "Live and hunt together in packs"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Gregarious used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She was a gregarious",
+            "b": "Character who loved hosting parties"
+          },
+          {
+            "a": "He became more gregarious",
+            "b": "Once he joined the local club"
+          },
+          {
+            "a": "Dolphins are famously gregarious",
+            "b": "Creatures that swim in pods"
+          },
+          {
+            "a": "Her gregarious nature made",
+            "b": "Her popular at primary school"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "Guile",
+    "pronunciation": "GYL",
+    "pos": "noun",
+    "definition": "Sly or cunning intelligence, duplicity.",
+    "origin": "From Old French guile (deceit, fraud, trickery), probably from a Germanic source.",
+    "tier": "free",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does Guile come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French guile",
+            "b": "Deceit or trickery"
+          },
+          {
+            "a": "Frankish wigila",
+            "b": "Ruse or subtext"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "The use of clever deceit"
+          },
+          {
+            "a": "Related: beguile",
+            "b": "To charm or trick someone completely"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does Guile mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Guile means",
+            "b": "Chicanery and underhanded cunning"
+          },
+          {
+            "a": "Synonym of guile",
+            "b": "Duplicity"
+          },
+          {
+            "a": "Antonym of guile",
+            "b": "Ingenuousness"
+          },
+          {
+            "a": "A politician with guile",
+            "b": "Easily maneuvers through a crisis"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is Guile used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He used absolute guile",
+            "b": "To bypass the defender and score"
+          },
+          {
+            "a": "The audit exposed the",
+            "b": "Guile of the financial director"
+          },
+          {
+            "a": "She was completely without",
+            "b": "Guile, speaking with total honesty"
+          },
+          {
+            "a": "They won the match",
+            "b": "Through tactical guile and grit"
+          }
+        ]
+      }
+    ]
+  }
+]

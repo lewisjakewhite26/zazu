@@ -5,9 +5,13 @@ import { colors, fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import type { HomeStats } from '@/types/home';
 
-export type HomeHeaderProps = HomeStats;
+export type HomeHeaderProps = HomeStats & {
+  loading?: boolean;
+};
 
-export function HomeHeader({ streak, coins }: HomeHeaderProps) {
+export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) {
+  const streakLabel = loading ? '—' : String(streak);
+  const coinsLabel = loading ? '—' : String(coins);
   return (
     <View style={styles.container}>
       <Text style={styles.wordmark}>{copy.brand.wordmark}</Text>
@@ -22,7 +26,7 @@ export function HomeHeader({ streak, coins }: HomeHeaderProps) {
             <Text style={styles.emoji}>🔥</Text>
           </View>
           <View>
-            <Text style={styles.statValue}>{streak}</Text>
+            <Text style={styles.statValue}>{streakLabel}</Text>
             <Text style={styles.statLabel}>{copy.home.dayStreak}</Text>
           </View>
         </View>
@@ -35,7 +39,7 @@ export function HomeHeader({ streak, coins }: HomeHeaderProps) {
           <View style={styles.coinCircle}>
             <Text style={styles.coinEmoji}>🪙</Text>
           </View>
-          <Text style={styles.statValue}>{coins}</Text>
+          <Text style={styles.statValue}>{coinsLabel}</Text>
         </View>
       </View>
     </View>

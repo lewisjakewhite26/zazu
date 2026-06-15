@@ -1,0 +1,120 @@
+{
+  "word": "Imprimatur",
+  "pronunciation": "im-prih-MAH-ter",
+  "pos": "noun",
+  "definition": "Official approval or licence to print or publish; more broadly, any formal authorisation.",
+  "origin": "From Latin <strong>imprimatur</strong> -- let it be printed. From <strong>imprimere</strong> -- to press upon or imprint.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "imprimatur",
+      "highlight": true
+    },
+    {
+      "text": " (let it be printed), from ",
+      "highlight": false
+    },
+    {
+      "text": "imprimere",
+      "highlight": true
+    },
+    {
+      "text": " (to press upon or imprint).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "imprimere",
+      "root_language": "Latin",
+      "root_meaning": "to press upon or imprint",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "imprimatur",
+      "root_language": "Latin",
+      "root_meaning": "let it be printed",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "etymology",
+    "source_value": "imprimatur",
+    "correct_answer": "Let it be printed"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Imprimatur</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin imprimere",
+          "b": "To press upon or imprint"
+        },
+        {
+          "a": "Latin imprimatur",
+          "b": "Let it be printed"
+        },
+        {
+          "a": "Related: imprint",
+          "b": "A mark pressed into a surface"
+        },
+        {
+          "a": "Related: print",
+          "b": "From the same pressing root"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Imprimatur</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Imprimatur means",
+          "b": "Official approval to publish"
+        },
+        {
+          "a": "More broadly, imprimatur means",
+          "b": "Any formal authorisation"
+        },
+        {
+          "a": "Synonym of imprimatur",
+          "b": "Sanction"
+        },
+        {
+          "a": "Without imprimatur",
+          "b": "Publication was forbidden"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Imprimatur</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The project had",
+          "b": "The board's imprimatur"
+        },
+        {
+          "a": "Without the bishop's imprimatur",
+          "b": "The text could not be published"
+        },
+        {
+          "a": "His imprimatur",
+          "b": "Was enough to open doors"
+        },
+        {
+          "a": "She gave her imprimatur",
+          "b": "To the final design"
+        }
+      ]
+    }
+  ]
+}
