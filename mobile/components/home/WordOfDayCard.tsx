@@ -1,0 +1,100 @@
+import { StyleSheet, Text, View } from 'react-native';
+
+import { copy } from '@/constants/copy';
+import { colors, fonts } from '@/constants/theme';
+import { spacing } from '@/constants/layout';
+import type { WordOfDay } from '@/types/home';
+
+export type WordOfDayCardProps = WordOfDay;
+
+export function WordOfDayCard({
+  word,
+  pronunciation,
+  pos,
+  definition,
+  origin,
+}: WordOfDayCardProps) {
+  return (
+    <View
+      style={styles.card}
+      accessibilityRole="summary"
+      accessibilityLabel={copy.a11y.wordOfDay(word, definition)}
+    >
+      <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
+      <Text style={styles.word}>{word}</Text>
+      <Text style={styles.pronunciation}>{pronunciation}</Text>
+      <View style={styles.posBadge}>
+        <Text style={styles.posText}>{pos}</Text>
+      </View>
+      <Text style={styles.definition}>{definition}</Text>
+      <Text style={styles.origin}>{stripOriginTags(origin)}</Text>
+    </View>
+  );
+}
+
+/** Plain-text fallback until rich text rendering is added. */
+function stripOriginTags(origin: string): string {
+  return origin.replace(/<\/?strong>/g, '');
+}
+
+const styles = StyleSheet.create({
+  card: {
+    width: '100%',
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: 'rgba(249,201,168,0.35)',
+    padding: spacing.lg,
+    marginBottom: spacing.lg,
+  },
+  eyebrow: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 11,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+    color: colors.subtext,
+    marginBottom: spacing.sm,
+  },
+  word: {
+    fontFamily: fonts.serif,
+    fontSize: 32,
+    color: colors.text,
+    letterSpacing: -0.5,
+    marginBottom: spacing.xs,
+  },
+  pronunciation: {
+    fontFamily: fonts.sans,
+    fontSize: 13,
+    fontStyle: 'italic',
+    color: colors.subtext,
+    marginBottom: spacing.sm,
+  },
+  posBadge: {
+    alignSelf: 'flex-start',
+    backgroundColor: 'rgba(44,31,46,0.07)',
+    borderRadius: 999,
+    paddingHorizontal: spacing.sm,
+    paddingVertical: 3,
+    marginBottom: spacing.sm,
+  },
+  posText: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 10,
+    letterSpacing: 0.8,
+    textTransform: 'uppercase',
+    color: colors.subtext,
+  },
+  definition: {
+    fontFamily: fonts.sans,
+    fontSize: 15,
+    lineHeight: 23,
+    color: colors.text,
+    marginBottom: spacing.sm,
+  },
+  origin: {
+    fontFamily: fonts.sans,
+    fontSize: 12,
+    lineHeight: 18,
+    color: colors.subtext,
+  },
+});

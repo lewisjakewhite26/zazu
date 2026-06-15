@@ -1,0 +1,17 @@
+{
+  "name": "zazu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+    "scripts": {
+    "config": "node scripts/generate-public-config.mjs",
+    "seed": "node scripts/seed-words.mjs",
+    "seed:dry": "node scripts/seed-words.mjs --dry-run",
+    "words:normalize": "node scripts/normalize-word-copy.mjs",
+    "db:push": "echo Run supabase/migrations/001_create_words_schema.sql in the Supabase SQL Editor, or use: npx supabase db push"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7"
+  }
+}

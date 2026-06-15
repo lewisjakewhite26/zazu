@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<title>Zazu. Wake up. Learn something.</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --peach:    #f9c9a8;
+  --blush:    #f0a0bc;
+  --lavender: #c8b4e8;
+  --dawn:     #fde8d8;
+  --dusk:     #ede0f8;
+  --ink:      #2c1f2e;
+  --muted:    #9080a0;
+  --correct:  #a8d8b0;
+  --wrong:    #e8617a;
+  --gold:     #c9963a;
+  --white:    #fefcfb;
+  --card:     rgba(255,255,255,0.72);
+  --bg-from:  #fde8d8;
+  --bg-mid:   #dde8f8;
+  --bg-to:    #ede0f8;
+  --text:     #2c1f2e;
+  --subtext:  #9080a0;
+  --border:   rgba(44,31,46,0.1);
+}
+
+body.night {
+  --card:     rgba(255,255,255,0.11);
+  --bg-from:  #1a1225;
+  --bg-mid:   #1a1830;
+  --bg-to:    #0e0c1a;
+  --text:     #f0e8f8;
+  --subtext:  #b0a0c8;
+  --border:   rgba(255,255,255,0.13);
+  --ink:      #f0e8f8;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(160deg, var(--bg-from) 0%, var(--bg-mid) 50%, var(--bg-to) 100%);
+  color: var(--text);
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: background 2s ease;
+}
+
+.screen { display:none; position:absolute; inset:0; flex-direction:column; align-items:center; }
+.screen.active { display:flex; }
+
+/* ══ HOME ══ */
+#screenHome { justify-content:flex-start; padding:0 0 40px; overflow-y:auto; }
+
+.home-header {
+  width:100%; padding:52px 20px 20px;
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+}
+
+.zazu-wordmark {
+  font-family:'DM Serif Display',serif; font-size:1.6rem;
+  color:var(--text); letter-spacing:-.02em; flex-shrink:0;
+}
+
+.nav-right { display:flex; align-items:center; gap:8px; }
+
+.streak-pill {
+  display:flex; align-items:center; gap:8px;
+  background:var(--card); border:1px solid var(--border);
+  padding:7px 13px 7px 8px; border-radius:100px; backdrop-filter:blur(10px);
+}
+.streak-flame-wrap {
+  width:26px; height:26px; border-radius:50%; position:relative;
+  display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(135deg, rgba(249,180,80,.35), rgba(240,100,80,.25));
+}
+.streak-flame-icon { font-size:.9rem; position:relative; z-index:1; line-height:1; }
+.streak-info { display:flex; flex-direction:column; line-height:1; }
+.streak-count { font-size:.9rem; font-weight:700; color:var(--text); letter-spacing:-.01em; }
+.streak-label { font-size:.56rem; font-weight:500; letter-spacing:.08em; text-transform:uppercase; color:var(--subtext); margin-top:1px; }
+
+.coin-chip {
+  display:flex; align-items:center; gap:6px;
+  background:var(--card); border:1px solid var(--border);
+  padding:7px 12px 7px 7px; border-radius:100px; backdrop-filter:blur(10px);
+}
+.coin-chip-icon {
+  width:22px; height:22px; border-radius:50%;
+  background:linear-gradient(135deg,#f0c060,#c9963a);
+  display:flex; align-items:center; justify-content:center; font-size:.72rem; flex-shrink:0;
+}
+.coin-chip-amount { font-size:.9rem; font-weight:700; color:var(--text); letter-spacing:-.01em; }
+
+/* WOTD hero */
+.wotd-hero {
+  width:calc(100% - 40px);
+  background:linear-gradient(135deg, rgba(249,201,168,.35) 0%, rgba(200,180,232,.35) 100%);
+  border:1px solid var(--border); border-radius:22px;
+  padding:22px 22px 20px; margin-bottom:20px;
+  backdrop-filter:blur(10px);
+}
+body.night .wotd-hero { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.wotd-eyebrow { font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.wotd-word { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; margin-bottom:4px; }
+.wotd-pronunciation { font-size:.78rem; color:var(--subtext); font-style:italic; margin-bottom:8px; }
+.wotd-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.wotd-origin { font-size:.75rem; color:var(--subtext); line-height:1.5; }
+.wotd-origin strong { color:var(--gold); font-weight:600; }
+.wotd-pos {
+  display:inline-block; font-size:.62rem; font-weight:600; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--subtext);
+  background:rgba(44,31,46,.07); padding:3px 8px; border-radius:100px; margin-bottom:8px;
+}
+body.night .wotd-pos { background:rgba(255,255,255,.08); }
+
+/* Alarms */
+.home-section-label {
+  width:calc(100% - 40px); font-size:.7rem; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--subtext); margin-bottom:10px;
+}
+.alarm-list { width:calc(100% - 40px); display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
+.alarm-card {
+  background:var(--card); border:1px solid var(--border); border-radius:18px;
+  padding:15px 18px; display:flex; align-items:center; justify-content:space-between;
+  backdrop-filter:blur(10px); transition:opacity .2s;
+}
+.alarm-card.off { opacity:.38; }
+.alarm-time-display { font-family:'DM Serif Display',serif; font-size:1.9rem; letter-spacing:-.03em; color:var(--text); line-height:1; }
+.alarm-meta { font-size:.72rem; color:var(--subtext); margin-top:3px; }
+.alarm-right { display:flex; align-items:center; gap:12px; }
+.toggle { position:relative; width:44px; height:26px; cursor:pointer; }
+.toggle input { display:none; }
+.toggle-track { position:absolute; inset:0; background:var(--border); border-radius:100px; transition:background .2s; }
+.toggle input:checked + .toggle-track { background:var(--blush); }
+.toggle-thumb { position:absolute; top:3px; left:3px; width:20px; height:20px; background:white; border-radius:50%; transition:transform .2s; box-shadow:0 1px 4px rgba(0,0,0,.15); pointer-events:none; }
+.toggle input:checked ~ .toggle-thumb { transform:translateX(18px); }
+
+.add-alarm-btn {
+  width:calc(100% - 40px); background:var(--ink); color:var(--white); border:none;
+  padding:15px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; font-weight:500; cursor:pointer; margin-bottom:12px; transition:opacity .2s;
+}
+body.night .add-alarm-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.add-alarm-btn:hover { opacity:.85; }
+.demo-btn {
+  background:none; border:1.5px solid var(--border); color:var(--subtext);
+  padding:11px 24px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.82rem; cursor:pointer; transition:opacity .2s;
+}
+.demo-btn:hover { opacity:.7; }
+
+/* ══ ALARM FIRING ══ */
+#screenAlarm { justify-content:center; text-align:center; padding:40px 24px; gap:0; overflow:hidden; }
+
+/* Floating gradient orbs */
+.alarm-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.alarm-orb-1 {
+  width: 280px; height: 280px;
+  background: radial-gradient(circle, #f9c9a8, #f0a0bc);
+  top: -60px; left: -80px;
+  animation: orbFloat1 7s ease-in-out infinite;
+}
+.alarm-orb-2 {
+  width: 240px; height: 240px;
+  background: radial-gradient(circle, #c8b4e8, #a8d8e8);
+  bottom: -40px; right: -60px;
+  animation: orbFloat2 9s ease-in-out infinite;
+}
+.alarm-orb-3 {
+  width: 180px; height: 180px;
+  background: radial-gradient(circle, #f0a0bc, #c8b4e8);
+  top: 40%; left: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbFloat3 11s ease-in-out infinite;
+  opacity: 0.35;
+}
+body.night .alarm-orb { opacity: 0.3; }
+
+@keyframes orbFloat1 {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33%      { transform: translate(40px, 30px) scale(1.08); }
+  66%      { transform: translate(-20px, 50px) scale(0.95); }
+}
+@keyframes orbFloat2 {
+  0%,100% { transform: translate(0,0) scale(1); }
+  40%      { transform: translate(-50px, -40px) scale(1.1); }
+  70%      { transform: translate(20px, -60px) scale(0.92); }
+}
+@keyframes orbFloat3 {
+  0%,100% { transform: translate(-50%,-50%) scale(1); }
+  50%      { transform: translate(-50%,-50%) scale(1.3); }
+}
+
+.alarm-glow {
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse at 50% 40%, rgba(249,201,168,.25) 0%, transparent 65%);
+  pointer-events:none; animation:glowPulse 3s ease-in-out infinite;
+}
+body.night .alarm-glow { background:radial-gradient(ellipse at 50% 30%, rgba(200,180,232,.15) 0%, transparent 65%); }
+@keyframes glowPulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+.alarm-bird { font-size:3rem; margin-bottom:16px; position:relative; z-index:1; animation:birdBob 2s ease-in-out infinite; }
+@keyframes birdBob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+.alarm-label-text { font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; position:relative; z-index:1; }
+.alarm-big-time { font-family:'DM Serif Display',serif; font-size:clamp(5rem,22vw,9rem); letter-spacing:-.05em; line-height:1; color:var(--text); position:relative; z-index:1; margin-bottom:8px; }
+.alarm-word-tease { font-size:.9rem; color:var(--subtext); margin-bottom:6px; position:relative; z-index:1; }
+.alarm-word-tease strong { font-family:'DM Serif Display',serif; font-style:italic; color:var(--text); }
+.alarm-name-sub { font-size:.78rem; color:var(--subtext); font-weight:300; margin-bottom:44px; position:relative; z-index:1; }
+.btn-wake {
+  background:var(--ink); color:var(--white); border:none; padding:18px 52px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:1.05rem; font-weight:500; cursor:pointer;
+  position:relative; z-index:1; box-shadow:0 8px 32px rgba(44,31,46,.18); transition:transform .15s,opacity .2s;
+}
+body.night .btn-wake { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.btn-wake:hover { transform:translateY(-2px); opacity:.9; }
+
+/* ══ PUZZLE ══ */
+#screenPuzzle { justify-content:flex-start; padding:0 20px 24px; gap:0; overflow-y:auto; }
+
+/* Word banner. Stays at top of puzzle */
+.puzzle-word-banner {
+  width:100%; padding:28px 0 16px;
+  text-align:center; flex-shrink:0;
+}
+.puzzle-word-main { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; }
+.puzzle-word-round { font-size:.68rem; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-top:4px; }
+
+/* Round context. Explains what this round is about */
+.round-context {
+  width:100%; max-width:400px;
+  background:var(--card); border:1px solid var(--border); border-radius:16px;
+  padding:13px 16px; margin-bottom:14px;
+  backdrop-filter:blur(10px); flex-shrink:0;
+  animation:fadeUp .3s ease both;
+}
+.round-context-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:4px; }
+.round-context-text { font-size:.82rem; color:var(--text); line-height:1.45; font-style:italic; }
+.round-context-text strong { font-style:normal; font-weight:600; color:var(--gold); }
+
+.progress-row { display:flex; gap:8px; justify-content:center; margin-bottom:16px; flex-shrink:0; }
+.prog-dot { width:8px; height:8px; border-radius:50%; background:var(--border); transition:background .3s,transform .3s; }
+.prog-dot.done { background:var(--blush); transform:scale(1.2); }
+
+.board { display:grid; grid-template-columns:1fr 1fr; gap:10px; width:100%; max-width:400px; flex-shrink:0; }
+
+.tile {
+  border-radius:16px; background:var(--card);
+  box-shadow:0 3px 14px rgba(44,31,46,.08);
+  display:flex; align-items:center; justify-content:center;
+  padding:14px 10px; cursor:pointer; text-align:center; min-height:70px;
+  transition:transform .18s cubic-bezier(.34,1.56,.64,1),box-shadow .18s,background .18s,border-color .18s,opacity .25s;
+  border:2px solid transparent; -webkit-tap-highlight-color:transparent; backdrop-filter:blur(10px);
+}
+.tile:active { transform:scale(.97); }
+
+/* Left = prompt: serif italic muted */
+.tile.side-a .tile-text {
+  font-family:'DM Serif Display',serif; font-style:italic;
+  font-size:clamp(.82rem,3vw,.95rem); color:var(--subtext); line-height:1.35;
+}
+body.night .tile.side-a .tile-text { color: #d0c0e8; }
+/* Right = answer: bold sans ink */
+.tile.side-b .tile-text {
+  font-family:'DM Sans',sans-serif; font-weight:700;
+  font-size:clamp(.82rem,3vw,.95rem); color:var(--text); line-height:1.3; letter-spacing:-.01em;
+}
+
+.tile.selected { border-color:var(--blush); background:rgba(240,160,188,.18); transform:scale(1.04); box-shadow:0 8px 28px rgba(240,160,188,.3); }
+.tile.correct { border-color:var(--correct); background:rgba(168,216,176,.2); pointer-events:none; animation:correctPop .4s cubic-bezier(.34,1.56,.64,1); }
+@keyframes correctPop { 0%{transform:scale(.88)} 60%{transform:scale(1.07)} 100%{transform:scale(1)} }
+.tile.wrong { border-color:var(--wrong); background:rgba(232,97,122,.1); animation:wrongShake .35s ease; }
+@keyframes wrongShake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-7px)} 40%{transform:translateX(7px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
+.tile.gone { opacity:0; pointer-events:none; transform:scale(.85); }
+
+/* ══ AD ══ */
+#screenAd { justify-content:center; align-items:center; padding:40px 24px; gap:20px; text-align:center; }
+.ad-eyebrow { font-size:.68rem; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); }
+.ad-card-full {
+  background:var(--card); backdrop-filter:blur(16px); border-radius:24px;
+  padding:26px 22px; max-width:320px; width:100%; border:1px solid var(--border); text-align:left;
+}
+.ad-pill { display:inline-block; font-size:.6rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); background:rgba(44,31,46,.07); padding:3px 8px; border-radius:100px; margin-bottom:12px; }
+body.night .ad-pill { background:rgba(255,255,255,.08); }
+.ad-brand { font-weight:600; font-size:1.1rem; color:var(--text); margin-bottom:6px; }
+.ad-copy { font-size:.84rem; color:var(--subtext); line-height:1.55; margin-bottom:16px; }
+.ad-cta { background:var(--ink); color:white; border:none; padding:12px 24px; border-radius:100px; font-family:'DM Sans',sans-serif; font-size:.88rem; font-weight:500; cursor:pointer; }
+body.night .ad-cta { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.ad-skip { font-size:.8rem; color:var(--subtext); background:none; border:none; font-family:'DM Sans',sans-serif; cursor:pointer; padding:8px; }
+
+/* ══ SUCCESS ══ */
+#screenSuccess { justify-content:center; align-items:center; padding:40px 24px; gap:0; text-align:center; overflow-y:auto; }
+.success-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 40%, rgba(168,216,176,.3) 0%, transparent 65%); animation:successGlow 2s ease-out forwards; }
+@keyframes successGlow { 0%{opacity:0;transform:scale(.8)} 100%{opacity:1;transform:scale(1)} }
+.success-bird { font-size:3rem; margin-bottom:14px; position:relative; animation:successPop .5s .1s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes successPop { 0%{transform:scale(0);opacity:0} 100%{transform:scale(1);opacity:1} }
+.success-heading { font-family:'DM Serif Display',serif; font-size:clamp(2rem,8vw,2.8rem); color:var(--text); margin-bottom:4px; position:relative; animation:fadeUp .5s .25s ease both; }
+.success-sub { font-size:.92rem; color:var(--subtext); font-weight:300; margin-bottom:24px; position:relative; animation:fadeUp .5s .35s ease both; }
+@keyframes fadeUp { 0%{opacity:0;transform:translateY(12px)} 100%{opacity:1;transform:translateY(0)} }
+
+/* Word learned. Hero card on success */
+.word-card-success {
+  background:linear-gradient(135deg, rgba(249,201,168,.28), rgba(200,180,232,.28));
+  border:1px solid var(--border); border-radius:22px;
+  padding:20px 22px; max-width:320px; width:100%;
+  text-align:left; margin-bottom:14px;
+  animation:fadeUp .5s .38s ease both;
+}
+body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.wcs-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.wcs-word { font-family:'DM Serif Display',serif; font-size:1.7rem; color:var(--text); letter-spacing:-.02em; margin-bottom:3px; }
+.wcs-pronunciation { font-size:.74rem; color:var(--subtext); font-style:italic; margin-bottom:8px; }
+.wcs-def { font-size:.82rem; color:var(--text); line-height:1.5; margin-bottom:8px; }
+.wcs-origin { font-size:.74rem; color:var(--subtext); line-height:1.45; }
+.wcs-origin strong { color:var(--gold); font-weight:600; }
+
+/* Streak banner */
+.streak-banner {
+  background:linear-gradient(135deg,rgba(249,201,168,.22),rgba(240,160,188,.22));
+  border:1px solid rgba(240,160,188,.28); border-radius:14px;
+  padding:11px 16px; max-width:320px; width:100%;
+  display:flex; align-items:center; gap:10px;
+  margin-bottom:12px; animation:fadeUp .5s .48s ease both;
+}
+.streak-banner-icon { font-size:1.3rem; }
+.streak-banner-text { font-size:.82rem; color:var(--text); font-weight:600; }
+.streak-banner-sub { font-size:.7rem; color:var(--subtext); }
+
+/* Coins earned */
+.coins-earned {
+  background:var(--card); backdrop-filter:blur(16px);
+  border-radius:18px; padding:16px 20px;
+  max-width:320px; width:100%; margin-bottom:18px;
+  border:1px solid var(--border); animation:fadeUp .5s .54s ease both;
+}
+.coins-earned-title { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; }
+.coins-row { display:flex; justify-content:space-between; align-items:center; padding:5px 0; font-size:.82rem; color:var(--text); border-bottom:1px solid var(--border); }
+.coins-row:last-child { border-bottom:none; font-weight:700; padding-top:10px; }
+.coins-row span:last-child { color:var(--gold); font-weight:600; }
+
+.btn-done {
+  background:none; border:1.5px solid var(--border); color:var(--text);
+  padding:13px 40px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; cursor:pointer; transition:background .2s;
+  animation:fadeUp .5s .6s ease both;
+}
+.btn-done:hover { background:rgba(255,255,255,.1); }
+
+/* Confetti */
+.confetti-piece { position:fixed; pointer-events:none; z-index:9998; animation:confettiFall linear forwards; border-radius:2px; }
+@keyframes confettiFall { 0%{transform:translateY(-20px) rotate(0deg);opacity:1} 100%{transform:translateY(110vh) rotate(720deg);opacity:0} }
+</style>
+</head>
+<body>
+
+<!-- ══ HOME ══ -->
+<div id="screenHome" class="screen active">
+  <div class="home-header">
+    <div class="zazu-wordmark">zazu</div>
+    <div class="nav-right">
+      <div class="streak-pill">
+        <div class="streak-flame-wrap">
+          <span class="streak-flame-icon">🔥</span>
+        </div>
+        <div class="streak-info">
+          <span class="streak-count" id="homeStreakNum">7</span>
+          <span class="streak-label">day streak</span>
+        </div>
+      </div>
+      <div class="coin-chip">
+        <div class="coin-chip-icon">🪙</div>
+        <span class="coin-chip-amount" id="homeCoinAmount">340</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Word of the Day -->
+  <div class="wotd-hero">
+    <div class="wotd-eyebrow">Word of the day</div>
+    <div class="wotd-word">Matutinal</div>
+    <div class="wotd-pronunciation">mat·yoo·TY·nl</div>
+    <div class="wotd-pos">adjective</div>
+    <div class="wotd-def">Of, relating to, or occurring in the morning.</div>
+    <div class="wotd-origin">From Latin <strong>matutinus</strong>, of the morning, from <strong>Matuta</strong>, the Roman goddess of the dawn. Related to <strong>mature</strong> (early) and the root <strong>mane</strong> (in the morning).</div>
+  </div>
+
+  <div class="home-section-label">Your alarms</div>
+  <div class="alarm-list">
+    <div class="alarm-card">
+      <div>
+        <div class="alarm-time-display">07:30</div>
+        <div class="alarm-meta">Weekdays · Words pack</div>
+      </div>
+      <div class="alarm-right">
+        <label class="toggle">
+          <input type="checkbox" checked onchange="this.closest('.alarm-card').classList.toggle('off',!this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+    </div>
+    <div class="alarm-card off">
+      <div>
+        <div class="alarm-time-display">09:00</div>
+        <div class="alarm-meta">Weekends · Words pack</div>
+      </div>
+      <div class="alarm-right">
+        <label class="toggle">
+          <input type="checkbox" onchange="this.closest('.alarm-card').classList.toggle('off',!this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <button class="add-alarm-btn">+ Add alarm</button>
+  <button class="demo-btn" onclick="fireAlarm()">Try the alarm</button>
+  <button class="demo-btn" style="margin-top:8px" onclick="toggleTheme()" id="themeBtn">☀️ Switch to light mode</button>
+</div>
+
+<!-- ══ ALARM FIRING ══ -->
+<div id="screenAlarm" class="screen">
+  <div class="alarm-orb alarm-orb-1"></div>
+  <div class="alarm-orb alarm-orb-2"></div>
+  <div class="alarm-orb alarm-orb-3"></div>
+  <div class="alarm-glow"></div>
+  <div class="alarm-bird">🐦</div>
+  <div class="alarm-label-text">Good morning</div>
+  <div class="alarm-big-time" id="alarmTimeDisplay">07:30</div>
+  <div class="alarm-word-tease">Today's word: <strong id="alarmWordTease">Matutinal</strong></div>
+  <div class="alarm-name-sub">Three rounds to learn it properly</div>
+  <button class="btn-wake" onclick="startPuzzle()">I'm awake. Let's go.</button>
+</div>
+
+<!-- ══ PUZZLE ══ -->
+<div id="screenPuzzle" class="screen">
+  <div class="puzzle-word-banner">
+    <div class="puzzle-word-main" id="puzzleWordMain">–</div>
+    <div class="puzzle-word-round" id="puzzleWordRound">–</div>
+  </div>
+  <div class="round-context" id="roundContext">
+    <div class="round-context-label" id="roundContextLabel">–</div>
+    <div class="round-context-text" id="roundContextText">–</div>
+  </div>
+  <div class="progress-row" id="progressRow"></div>
+  <div class="board" id="board"></div>
+</div>
+
+<!-- ══ AD ══ -->
+<div id="screenAd" class="screen">
+  <div class="ad-eyebrow">One quick message</div>
+  <div class="ad-card-full">
+    <div class="ad-pill">Ad. Keeps Zazu free.</div>
+    <div class="ad-brand">Huel Black Edition</div>
+    <div class="ad-copy">Complete nutrition in 90 seconds. Ideal for mornings when breakfast isn't happening. Try the starter kit. First order 20% off.</div>
+    <button class="ad-cta">Find out more</button>
+  </div>
+  <button class="ad-skip" onclick="showSuccess()">Skip →</button>
+</div>
+
+<!-- ══ SUCCESS ══ -->
+<div id="screenSuccess" class="screen">
+  <div class="success-glow"></div>
+  <div class="success-bird">🐦</div>
+  <div class="success-heading">You're up.</div>
+  <div class="success-sub">One new word. Carry it with you today.</div>
+
+  <div class="word-card-success">
+    <div class="wcs-label">Word learned</div>
+    <div class="wcs-word" id="successWord">–</div>
+    <div class="wcs-pronunciation" id="successPronunciation">–</div>
+    <div class="wcs-def" id="successDef">–</div>
+    <div class="wcs-origin" id="successOrigin">–</div>
+  </div>
+
+  <div class="streak-banner">
+    <div class="streak-banner-icon">🔥</div>
+    <div>
+      <div class="streak-banner-text" id="successStreakText">8 day streak!</div>
+      <div class="streak-banner-sub" id="successStreakTitle">Early Riser. Keep it going tomorrow</div>
+    </div>
+  </div>
+
+  <div class="coins-earned">
+    <div class="coins-earned-title">Coins earned</div>
+    <div class="coins-row"><span>Puzzle completed</span><span>+15 🪙</span></div>
+    <div class="coins-row"><span>No snooze</span><span>+10 🪙</span></div>
+    <div class="coins-row"><span>Streak bonus</span><span>+25 🪙</span></div>
+    <div class="coins-row"><span>Total</span><span>+50 🪙</span></div>
+  </div>
+
+  <button class="btn-done" onclick="goHome()">Done</button>
+</div>
+
+<script>
+// ── UI COPY (mirrors mobile/constants/copy.ts) ──
+const COPY = {
+  brand: { wordmark: 'zazu', tagline: 'A new word. Every morning.' },
+  home: {
+    wordOfDayEyebrow: 'Word of the day',
+    yourAlarms: 'Your alarms',
+    addAlarm: '+ Add alarm',
+    tryTheAlarm: 'Try the alarm',
+    dayStreak: 'day streak',
+    weekdaysPack: 'Weekdays · Words pack',
+    weekendsPack: 'Weekends · Words pack',
+  },
+  alarm: {
+    goodMorning: 'Good morning',
+    todaysWord: "Today's word:",
+    threeRounds: 'Three rounds to learn it properly',
+    wakeCta: "I'm awake. Let's go.",
+  },
+  ad: { eyebrow: 'One quick message', pill: 'Ad. Keeps Zazu free.' },
+  success: {
+    heading: "You're up.",
+    sub: 'One new word. Carry it with you today.',
+    wordLearned: 'Word learned',
+    coinsEarned: 'Coins earned',
+    puzzleCompleted: 'Puzzle completed',
+    noSnooze: 'No snooze',
+    streakBonus: 'Streak bonus',
+    total: 'Total',
+    done: 'Done',
+    streakCount: (n) => `${n} day streak!`,
+    streakSubtitle: (title) => `${title}. Keep it going tomorrow.`,
+  },
+  puzzle: {
+    roundLabel: (round, type) => `Round ${round} of 3 · ${type}`,
+    emptyPlaceholder: '–',
+  },
+};
+
+// ── WORD DATABASE ──
+// Each word has 3 rounds: etymology → definition → usage
+const WORDS = [{"word":"Matutinal","pronunciation":"mat·yoo·TY·nl","pos":"adjective","definition":"Of, relating to, or occurring in the morning.","origin":"From Latin <strong>matutinus</strong>, of the morning, from Matuta, the Roman goddess of the dawn.","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Matutinal</strong> come from? Match each root to its meaning.","pairs":[{"a":"Latin matutinus","b":"Of the morning"},{"a":"Matuta","b":"Roman goddess of dawn"},{"a":"Root: mane","b":"In the morning"},{"a":"Related word: mature","b":"Early, timely"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Matutinal</strong> mean? Match each clue to the right answer.","pairs":[{"a":"Matutinal means","b":"Of the morning"},{"a":"A matutinal bird sings","b":"At dawn"},{"a":"Opposite of matutinal","b":"Nocturnal"},{"a":"Part of speech","b":"Adjective"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Matutinal</strong> used? Match each sentence fragment to its correct completion.","pairs":[{"a":"She had a matutinal","b":"Routine of stretching"},{"a":"His matutinal mood was","b":"Unusually bright"},{"a":"The robin's matutinal","b":"Song woke the street"},{"a":"A matutinal cup of","b":"Tea began every day"}]}]},{"word":"Lucid","pronunciation":"LOO·sid","pos":"adjective","definition":"Expressed clearly; easy to understand. Also: mentally clear, not confused.","origin":"From Latin <strong>lucidus</strong>, bright, shining, clear. From <strong>lux</strong>, light.","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Lucid</strong> come from? Match each root to its meaning.","pairs":[{"a":"Latin lucidus","b":"Bright, shining"},{"a":"Latin lux","b":"Light"},{"a":"Related: elucidate","b":"To make clear"},{"a":"Related: translucent","b":"Letting light through"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Lucid</strong> mean? Match each clue to the right answer.","pairs":[{"a":"A lucid explanation is","b":"Clear and easy to follow"},{"a":"A lucid dream means","b":"You know you are dreaming"},{"a":"Lucid thinking is","b":"Rational and clear"},{"a":"Synonym of lucid","b":"Intelligible"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Lucid</strong> used? Match each fragment to its correct completion.","pairs":[{"a":"She gave a lucid","b":"Account of events"},{"a":"Despite the fever he remained","b":"Lucid and calm"},{"a":"The professor's lucid","b":"Style won praise"},{"a":"A lucid moment after","b":"Weeks of confusion"}]}]},{"word":"Ephemeral","pronunciation":"ih·FEM·er·ul","pos":"adjective","definition":"Lasting for a very short time; transitory.","origin":"From Greek <strong>ephemeros</strong>, lasting only a day. From <strong>epi</strong> (on) + <strong>hemera</strong> (day).","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Ephemeral</strong> come from? Match each root to its meaning.","pairs":[{"a":"Greek ephemeros","b":"Lasting only a day"},{"a":"Greek epi","b":"On or upon"},{"a":"Greek hemera","b":"Day"},{"a":"Related: ephemeris","b":"A daily almanac"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Ephemeral</strong> mean? Match each clue to the right answer.","pairs":[{"a":"Ephemeral means","b":"Lasting a very short time"},{"a":"An ephemeral trend","b":"Fades quickly"},{"a":"Antonym of ephemeral","b":"Enduring"},{"a":"Synonym of ephemeral","b":"Fleeting"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Ephemeral</strong> used? Match each fragment to its correct completion.","pairs":[{"a":"Cherry blossom is","b":"Ephemeral but beloved"},{"a":"The fame proved","b":"Entirely ephemeral"},{"a":"She captured the","b":"Ephemeral morning light"},{"a":"Social media trends are","b":"Inherently ephemeral"}]}]}];
+
+// ── STREAK TITLES ──
+const STREAK_TITLES = [
+  [1,   'Early Riser'],
+  [7,   'Early Riser'],
+  [14,  'Auroral'],
+  [30,  'Dawn Chaser'],
+  [60,  'Diurnal'],
+  [100, 'Chronobiologist'],
+  [365, 'Matutinal'],
+];
+
+function getStreakTitle(n) {
+  let title = 'Early Riser';
+  for (const [days, t] of STREAK_TITLES) { if (n >= days) title = t; }
+  return title;
+}
+
+// ── WORD LIBRARY (Supabase overrides inline WORDS when configured) ──
+let wordLibrary = WORDS;
+
+async function initWordLibrary() {
+  if (!window.ZazuWords) return;
+  const loaded = await window.ZazuWords.fetch();
+  if (loaded?.length) {
+    wordLibrary = loaded;
+    console.info('[Zazu] Loaded', loaded.length, 'words from Supabase');
+  }
+}
+
+// ── STATE ──
+let currentWord = null;
+let roundIndex = 0;
+let selectedTile = null;
+let matched = 0;
+let locked = false;
+let coins = 340;
+let streak = 7;
+
+// ── ADAPTIVE THEME ──
+function applyTheme() {
+  const h = new Date().getHours();
+  const isNight = h >= 21 || h < 6;
+  document.body.classList.toggle('night', isNight);
+  const btn = document.getElementById('themeBtn');
+  if (btn) btn.textContent = isNight ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+}
+applyTheme();
+
+// ── AUDIO ──
+const AC = window.AudioContext || window.webkitAudioContext;
+let ac = null;
+function audio() { if (!ac) ac = new AC(); return ac; }
+
+function playSnap() {
+  try {
+    const c=audio(),o=c.createOscillator(),g=c.createGain();
+    o.connect(g);g.connect(c.destination);o.type='sine';
+    o.frequency.setValueAtTime(700,c.currentTime);
+    o.frequency.exponentialRampToValueAtTime(920,c.currentTime+.07);
+    g.gain.setValueAtTime(0.1,c.currentTime);g.gain.exponentialRampToValueAtTime(0.001,c.currentTime+.13);
+    o.start();o.stop(c.currentTime+.15);
+  }catch(e){}
+}
+function playCorrect() {
+  try {
+    const c=audio();
+    [523.25,659.25,783.99,1046.5].forEach((f,i)=>{
+      const o=c.createOscillator(),g=c.createGain();
+      o.connect(g);g.connect(c.destination);o.type='sine';o.frequency.value=f;
+      const t=c.currentTime+i*.09;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(0.15,t+.02);g.gain.exponentialRampToValueAtTime(0.001,t+.3);
+      o.start(t);o.stop(t+.35);
+    });
+  }catch(e){}
+}
+function playWrong() {
+  try {
+    const c=audio(),o=c.createOscillator(),g=c.createGain();
+    o.connect(g);g.connect(c.destination);o.type='sawtooth';o.frequency.value=150;
+    g.gain.setValueAtTime(0.07,c.currentTime);g.gain.exponentialRampToValueAtTime(0.001,c.currentTime+.22);
+    o.start();o.stop(c.currentTime+.25);
+  }catch(e){}
+}
+function playSuccess() {
+  try {
+    const c=audio();
+    [523.25,659.25,783.99,1046.5,1318.51].forEach((f,i)=>{
+      const o=c.createOscillator(),g=c.createGain();
+      o.connect(g);g.connect(c.destination);o.type='sine';o.frequency.value=f;
+      const t=c.currentTime+i*.13;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(0.2,t+.03);g.gain.exponentialRampToValueAtTime(0.001,t+.5);
+      o.start(t);o.stop(t+.55);
+    });
+  }catch(e){}
+}
+
+// ── ALARM SOUND ──
+let alarmInterval = null;
+let alarmGain = null;
+let alarmStartTime = null;
+
+function startAlarmSound() {
+  try {
+    const c = audio();
+    alarmGain = c.createGain();
+    alarmGain.connect(c.destination);
+    alarmGain.gain.setValueAtTime(0, c.currentTime);
+
+    // Fade in over 8 seconds
+    alarmGain.gain.linearRampToValueAtTime(0.18, c.currentTime + 8);
+    alarmStartTime = c.currentTime;
+
+    function playChime() {
+      if (!alarmGain) return;
+      // Gentle two-note chime: perfect fifth
+      [[440, 0], [660, 0.3], [440, 1.2], [660, 1.5]].forEach(([freq, delay]) => {
+        const o = c.createOscillator();
+        const g = c.createGain();
+        o.connect(g); g.connect(alarmGain);
+        o.type = 'sine';
+        o.frequency.value = freq;
+        const t = c.currentTime + delay;
+        g.gain.setValueAtTime(0, t);
+        g.gain.linearRampToValueAtTime(0.5, t + 0.05);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 1.0);
+        o.start(t); o.stop(t + 1.1);
+      });
+    }
+
+    playChime();
+    alarmInterval = setInterval(playChime, 3000);
+  } catch(e) {}
+}
+
+function stopAlarmSound() {
+  try {
+    if (alarmInterval) { clearInterval(alarmInterval); alarmInterval = null; }
+    if (alarmGain) {
+      alarmGain.gain.linearRampToValueAtTime(0, audio().currentTime + 0.4);
+      setTimeout(() => { alarmGain = null; }, 500);
+    }
+  } catch(e) {}
+}
+function updateClock() {
+  const n=new Date();
+  const t=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');
+  const el=document.getElementById('alarmTimeDisplay');
+  if(el) el.textContent=t;
+}
+updateClock(); setInterval(updateClock,10000);
+
+// ── SCREENS ──
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0,0);
+}
+
+function fireAlarm() {
+  currentWord = wordLibrary[Math.floor(Math.random()*wordLibrary.length)];
+  document.getElementById('alarmWordTease').textContent = currentWord.word;
+  showScreen('screenAlarm');
+  startAlarmSound();
+}
+
+function goHome() {
+  document.getElementById('homeCoinAmount').textContent = coins;
+  document.getElementById('homeStreakNum').textContent = streak;
+  showScreen('screenHome');
+}
+
+// ── PUZZLE ──
+function startPuzzle() {
+  stopAlarmSound();
+  roundIndex = 0;
+  loadRound();
+  showScreen('screenPuzzle');
+}
+
+// ── INACTIVITY TIMER ──
+let nudgeTimer = null;
+let restartTimer = null;
+
+function resetInactivityTimer() {
+  clearTimeout(nudgeTimer);
+  clearTimeout(restartTimer);
+  clearPuzzleNudge();
+
+  // 30s. Gentle nudge.
+  nudgeTimer = setTimeout(() => {
+    playNudge();
+    haptic('nudge');
+    showPuzzleNudge();
+
+    // 60s total. Full alarm restart.
+    restartTimer = setTimeout(() => {
+      haptic('alarm');
+      startAlarmSound();
+      clearPuzzleNudge();
+      showScreen('screenAlarm');
+    }, 30000);
+  }, 30000);
+}
+
+function clearInactivityTimer() {
+  clearTimeout(nudgeTimer);
+  clearTimeout(restartTimer);
+  nudgeTimer = null; restartTimer = null;
+  clearPuzzleNudge();
+}
+
+// Nudge overlay on puzzle screen
+function showPuzzleNudge() {
+  let el = document.getElementById('puzzleNudge');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'puzzleNudge';
+    el.style.cssText = `
+      position:fixed; inset:0; z-index:500; pointer-events:none;
+      animation: nudgePulse 1.5s ease-in-out 3;
+    `;
+    // Inject keyframe if not present
+    if (!document.getElementById('nudgeStyle')) {
+      const s = document.createElement('style');
+      s.id = 'nudgeStyle';
+      s.textContent = `
+        @keyframes nudgePulse {
+          0%,100% { box-shadow: inset 0 0 0 0 rgba(240,160,188,0); }
+          50%      { box-shadow: inset 0 0 60px 20px rgba(240,160,188,0.35); }
+        }
+      `;
+      document.head.appendChild(s);
+    }
+    document.body.appendChild(el);
+  }
+  el.style.display = 'block';
+  el.style.animation = 'none';
+  void el.offsetWidth;
+  el.style.animation = 'nudgePulse 1.5s ease-in-out 3';
+}
+
+function clearPuzzleNudge() {
+  const el = document.getElementById('puzzleNudge');
+  if (el) el.style.display = 'none';
+}
+
+// Nudge sound. Soft single tone.
+function playNudge() {
+  try {
+    const c = audio();
+    [523.25, 659.25].forEach((f, i) => {
+      const o = c.createOscillator(), g = c.createGain();
+      o.connect(g); g.connect(c.destination);
+      o.type = 'sine'; o.frequency.value = f;
+      const t = c.currentTime + i * 0.25;
+      g.gain.setValueAtTime(0, t);
+      g.gain.linearRampToValueAtTime(0.12, t + 0.04);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.6);
+      o.start(t); o.stop(t + 0.65);
+    });
+  } catch(e) {}
+}
+
+// Haptic via Vibration API
+function haptic(type) {
+  if (!navigator.vibrate) return;
+  if (type === 'nudge')  navigator.vibrate([80, 60, 80]);
+  if (type === 'alarm')  navigator.vibrate([200, 100, 200, 100, 400]);
+  if (type === 'correct') navigator.vibrate(40);
+  if (type === 'wrong')   navigator.vibrate([60, 40, 60]);
+}
+
+function loadRound() {
+  const round = currentWord.rounds[roundIndex];
+  matched = 0; selectedTile = null; locked = false;
+
+  document.getElementById('puzzleWordMain').textContent = currentWord.word;
+  document.getElementById('puzzleWordRound').textContent = round.type;
+  document.getElementById('roundContextLabel').textContent = round.label;
+  document.getElementById('roundContextText').innerHTML = round.context;
+  renderProgress();
+
+  const aItems = shuffle(round.pairs.map((p,i)=>({text:p.a,pairId:i,side:'a'})));
+  const bItems = shuffle(round.pairs.map((p,i)=>({text:p.b,pairId:i,side:'b'})));
+  const board = document.getElementById('board');
+  board.innerHTML='';
+  for(let r=0;r<round.pairs.length;r++){
+    board.appendChild(makeTile(aItems[r]));
+    board.appendChild(makeTile(bItems[r]));
+  }
+  resetInactivityTimer();
+}
+
+function renderProgress() {
+  document.getElementById('progressRow').innerHTML =
+    Array.from({length:3},(_,i)=>
+      `<div class="prog-dot ${i<roundIndex?'done':''}"></div>`
+    ).join('');
+}
+
+function makeTile(item) {
+  const el=document.createElement('div');
+  el.className=`tile side-${item.side}`;
+  el.dataset.pairId=item.pairId; el.dataset.side=item.side;
+  el.innerHTML=`<span class="tile-text">${item.text}</span>`;
+  el.addEventListener('click',()=>handleTap(el));
+  return el;
+}
+
+function handleTap(el) {
+  if(locked) return;
+  if(el.classList.contains('correct')||el.classList.contains('gone')) return;
+  resetInactivityTimer();
+  if(selectedTile===el){el.classList.remove('selected');selectedTile=null;return;}
+  if(selectedTile && el.dataset.side===selectedTile.dataset.side){
+    selectedTile.classList.remove('selected');selectedTile=el;el.classList.add('selected');playSnap();return;
+  }
+  playSnap();
+  if(!selectedTile){selectedTile=el;el.classList.add('selected');return;}
+
+  const match=el.dataset.pairId===selectedTile.dataset.pairId && el.dataset.side!==selectedTile.dataset.side;
+
+  if(match){
+    playCorrect();
+    haptic('correct');
+    [el,selectedTile].forEach(t=>{t.classList.remove('selected');t.classList.add('correct');});
+    selectedTile=null; matched++;
+    if(matched>=currentWord.rounds[roundIndex].pairs.length){
+      setTimeout(()=>{
+        document.querySelectorAll('.tile.correct').forEach(t=>t.classList.add('gone'));
+        setTimeout(advanceRound,380);
+      },520);
+    }
+  } else {
+    playWrong();
+    haptic('wrong');
+    locked=true;
+    const prev=selectedTile;
+    [el,prev].forEach(t=>{t.classList.remove('selected');t.classList.add('wrong');});
+    setTimeout(()=>{[el,prev].forEach(t=>t.classList.remove('wrong'));locked=false;},480);
+    selectedTile=null;
+  }
+}
+
+function advanceRound() {
+  clearInactivityTimer();
+  roundIndex++;
+  if(roundIndex>=3){ showScreen('screenAd'); }
+  else { loadRound(); }
+}
+
+function showSuccess() {
+  clearInactivityTimer();
+  stopAlarmSound();
+  coins+=50; streak+=1;
+  const newStreak=streak;
+  const title=getStreakTitle(newStreak);
+  document.getElementById('successWord').textContent=currentWord.word;
+  document.getElementById('successPronunciation').textContent=currentWord.pronunciation;
+  document.getElementById('successDef').textContent=currentWord.definition;
+  document.getElementById('successOrigin').innerHTML=currentWord.origin;
+  document.getElementById('successStreakText').textContent=COPY.success.streakCount(newStreak);
+  document.getElementById('successStreakTitle').textContent=COPY.success.streakSubtitle(title);
+  playSuccess(); launchConfetti();
+  showScreen('screenSuccess');
+}
+
+// ── CONFETTI ──
+function launchConfetti() {
+  const cols=['#f9c9a8','#f0a0bc','#c8b4e8','#a8d8b0','#fde8d8','#e8d4f0'];
+  for(let i=0;i<65;i++){
+    const el=document.createElement('div'); el.className='confetti-piece';
+    el.style.cssText=`left:${Math.random()*100}vw;top:-10px;background:${cols[Math.floor(Math.random()*cols.length)]};width:${6+Math.random()*6}px;height:${6+Math.random()*6}px;border-radius:${Math.random()>.5?'50%':'2px'};animation-duration:${1.2+Math.random()*1.8}s;animation-delay:${Math.random()*.6}s;`;
+    document.body.appendChild(el);
+    el.addEventListener('animationend',()=>el.remove());
+  }
+}
+
+function toggleTheme() {
+  const isNight = document.body.classList.toggle('night');
+  document.getElementById('themeBtn').textContent = isNight ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+}
+
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="public/config.js" onerror="console.info('[Zazu] public/config.js not found. Run npm run config')"></script>
+<script src="lib/words-api.js"></script>
+<script>
+initWordLibrary();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+config.js
+public/config.js
+
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Expo
+mobile/.expo/
+mobile/.expo-tmp-export/
+mobile/dist/
+mobile/_docx.zip
+mobile/_docx_extract/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Supabase local
+.supabase/
