@@ -8,12 +8,23 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 
 | Surface | Built |
 |---------|--------|
-| **Web** (`index.html`) | Home, alarm, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; localStorage progress |
-| **Mobile** (Expo) | Home, add alarm, alarm, **learn**, **morning task**, success, **calendar**, Word Gym puzzle; notifications; adaptive theme on alarm flow; AsyncStorage progress |
+| **Web** (`index.html`) | Home, alarm demo, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; **progress** in `localStorage` (streak, coins, learned words) |
+| **Mobile** (Expo) | Home, **add alarm**, alarm, **learn**, **morning task**, success, **calendar**, Word Gym puzzle; **scheduled notifications**; alarm list in AsyncStorage; adaptive theme on alarm flow |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
+| **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
 
-**Not built yet:** dedicated Word Gym tab on home, auth, paywall, and coin shop.
+**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), dedicated Word Gym tab on home, auth, paywall, and coin shop.
+
+### Web vs mobile — what persists
+
+| | Web (browser / Vercel) | Mobile (Expo) |
+|--|------------------------|---------------|
+| Streak, coins, learned words | Yes (`localStorage`, same origin) | Yes (AsyncStorage) |
+| Alarm times and on/off | No — demo cards only; use **Try the alarm** | Yes — saved; notifications fire at set time |
+| Calendar / Word Gym | No | Yes |
+
+Use **Vercel on your phone** to test the learn → morning task flow and streak saving. Use the **mobile app** (eventually an EAS dev build) for a real daily alarm.
 
 ## Tech stack
 
@@ -38,23 +49,23 @@ zazu/
 │   ├── useProgress.ts        Streak, coins, learned words (AsyncStorage)
 │   ├── useAlarms.ts          Alarm list + notification sync
 │   ├── morning-task.ts       Morning task runtime helpers
-│   ├── morning-task.js       Browser morning-task helper for zazu.html
+│   ├── morning-task.js       Browser morning-task helper for index.html
 │   ├── adaptive-theme.ts     Gradual light/dark theme (30 min dusk/dawn)
-│   ├── adaptive-theme.js     Browser theme helper for zazu.html
-│   ├── calendar-utils.ts     Calendar grid and word history helpers
-│   ├── demo-alarm-words.ts   Offline alarm fallback (3 words)
-│   ├── demo-words.ts         Offline gym fallback (3 words)
-│   └── words-api.js          Browser loader for zazu.html
-├── mobile/                   Expo app (alarm flow, calendar, Word Gym puzzle)
-├── supabase/
-│   ├── migrations/           001 schema + 002 morning tasks and gym
-│   └── README.md             Setup, RPCs, re-seeding
+│   ├── adaptive-theme.js     Browser theme helper for index.html
+│   ├── progress-web.js       Browser streak/coins store (localStorage)
+│   └── words-api.js          Browser loader for index.html
+├── vercel.json               Vercel static deploy config
 ├── scripts/
+│   ├── vercel-build.mjs      Copies index.html + lib/ into dist/ for Vercel
 │   ├── seed-words.mjs        Upload words to Supabase
 │   ├── import-word-batch.mjs Merge batch JSON into zazu-words.json
 │   ├── generate-morning-tasks.mjs
 │   ├── generate-public-config.mjs
 │   └── normalize-word-copy.mjs
+├── mobile/                   Expo app (alarm flow, calendar, Word Gym puzzle)
+├── supabase/
+│   ├── migrations/           001 schema + 002 morning tasks and gym
+│   └── README.md             Setup, RPCs, re-seeding
 ├── public/
 │   └── config.js             Generated Supabase keys for browser (gitignored)
 ├── writing-rules.md          Copy and voice guidelines
@@ -106,19 +117,16 @@ If the browser blocks local file requests, serve the folder with any static serv
 
 ### Deploy to Vercel
 
-Zazu’s web app is **static HTML** (`index.html` + `lib/*.js`), not Next.js.
+The web app is **static HTML** deployed from `dist/` after `npm run vercel-build`. Repo config in `vercel.json` sets framework to **Other** (not Next.js).
 
-1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new) (repo: `lewisjakewhite26/zazu`).
-2. **Settings → Build and Deployment** — set **Framework Preset** to **Other** (not Next.js).
-3. Turn **off** any dashboard overrides for Build Command / Output Directory so `vercel.json` in the repo is used:
-   - **Build command:** `npm run vercel-build`
-   - **Output directory:** `dist`
-   - **Install command:** `npm install`
-4. **Root Directory** must be blank (repo root, not `mobile/`).
-5. **Environment variables** (recommended): `SUPABASE_URL`, `SUPABASE_ANON_KEY` — the build writes `public/config.js` so all 395 words load. Without them, the 3-word demo fallback still works.
-6. Redeploy. The site root `/` should serve `index.html`.
+1. Connect [github.com/lewisjakewhite26/zazu](https://github.com/lewisjakewhite26/zazu) at [vercel.com/new](https://vercel.com/new).
+2. **Root Directory:** blank (repo root, not `mobile/`).
+3. **Environment variables** (recommended): `SUPABASE_URL`, `SUPABASE_ANON_KEY` — build writes `dist/public/config.js` for the full 395-word library. Without them, the 3-word demo fallback still works.
+4. Push to `main` — Vercel redeploys automatically.
 
-If you still see `next build` in the deployment logs, the dashboard is overriding the repo — reset Framework Preset to **Other** and disable overrides.
+**Phone testing:** open your `*.vercel.app` URL on your phone. Progress (streak/coins) persists per browser. Use **Try the alarm** to run the flow; scheduled alarms require the mobile app.
+
+If deployment 404s, check build logs show `npm run vercel-build` (not `next build`) and output directory `dist`.
 
 ## Supabase setup
 
@@ -197,6 +205,7 @@ The mobile app imports shared code from `lib/` via Metro. Words come from Supaba
 | Script | Purpose |
 |--------|---------|
 | `npm run config` | Generate `public/config.js` and `mobile/.env` from `.env` |
+| `npm run vercel-build` | Build static site into `dist/` (used by Vercel) |
 | `npm run seed` | Upload `zazu-words.json` to Supabase |
 | `npm run seed:dry` | Validate JSON and morning tasks without writing |
 | `npm run words:morning-tasks` | Regenerate morning-task blocks in JSON |

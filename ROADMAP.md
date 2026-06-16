@@ -12,7 +12,7 @@ Priority list for Zazu development. Last updated after P2b alarm flow and adapti
 |------|------|--------|
 | **P0** | Daily-usable mobile alarm + puzzle flow | Complete |
 | **P1** | TestFlight-ready foundations (notifications, persistence, audio) | Code complete; **dev build + device sign-off open** |
-| **P2** | Public-launch polish (web parity, CI, backend) | Mostly complete |
+| **P2** | Public-launch polish (web parity, CI, backend, Vercel) | Mostly complete |
 | **P2b** | Product pivot (gentle alarm + Word Gym) | **Partial — alarm flow shipped** |
 | **P3** | Post-launch (ads, shop, PWA, analytics) | Backlog |
 
@@ -117,7 +117,7 @@ npx expo start --dev-client
 
 Open **Zazu Dev** on the phone → scan QR code. Code changes on your laptop reload in the installed app.
 
-**Partial testing without a dev build:** deploy `index.html` to Vercel for stable phone browser testing (UI + persistence). Does not test native notifications.
+**Partial testing without a dev build:** use the **Vercel deployment** on your phone — stable URL, gentle alarm flow, streak/coins persist in the browser. Does **not** replace a real alarm (no scheduled notifications on web).
 
 ### Verify without a phone
 
@@ -144,7 +144,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 |---|------|--------|
 | 10 | Extract shared game logic (`COPY`, puzzle engine, `mapWordRow` into `lib/`) | Not started |
 | 11 | Supabase auth + Zazu Gold subscription (full calendar history, Word Gym) | Not started |
-| 12 | Web persistence parity (`localStorage` in `index.html`) | Done |
+| 12 | Web progress persistence (`localStorage`: streak, coins, learned words) | Done |
 | 13 | Accessibility on web puzzle (keyboard, ARIA, remove `user-scalable=no`) | Done |
 | 14 | Error states (visible message when Supabase fetch fails) | Done (web); mobile still silent fallback |
 | 15 | CI baseline (GitHub Actions: `tsc`, `seed:dry`, morning-task check) | Done |
@@ -164,11 +164,13 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | README and roadmap refresh (round 4) | Done |
 | Gradual adaptive theme (30 min dusk/dawn, web + mobile) | Done |
 | Gentle alarm flow (mobile + web) | Done |
+| Vercel static deploy (`vercel.json`, `dist/` build, GitHub auto-deploy) | Done |
 
 ### P2 still open
 
 | Task | Status |
 |------|--------|
+| Web alarm list persistence (`localStorage`, UI only — no scheduled wake-up until PWA) | Not started |
 | Mobile Supabase error banner (match web retry UX) | Not started |
 | Update `zazu-words.schema.json` to match current JSON shape | Not started |
 | Migrate home/calendar screens to `useTheme()` for full adaptive palette | Not started |
@@ -217,7 +219,7 @@ These match the agreed UX. Alarm flow is live on web and mobile; Word Gym tab is
 |---|------|--------|
 | 16 | Ad SDK integration (replace mock Huel card on web) | Not started |
 | 17 | Coin shop + thematic word packs (see below) | Not started |
-| 18 | PWA manifest + service worker for `index.html` | Not started |
+| 18 | PWA manifest + service worker + browser notifications for `index.html` | Not started |
 | 19 | Night mode on mobile | **Partial** — gradual adaptive theme on alarm flow; home/calendar still static palette |
 | 20 | Reach 100 words | Done |
 | 21 | Analytics + crash reporting | Not started |
@@ -280,7 +282,7 @@ Not built today. The success screen shows a **+10 “No snooze”** coin line, b
 | After P0 | ~74 |
 | After P1 code | ~79 |
 | After P2 web/CI + morning-task backend | ~83 |
-| **Current (395 words + calendar + gentle alarm flow)** | **~88** |
+| **Current (395 words + Vercel + gentle alarm flow)** | **~88** |
 | After Word Gym tab + full theme on all screens (P2b #24) | ~90+ |
 | After auth/paywall + device verified | ~92+ |
 | After word packs + coin shop | ~94+ |
@@ -293,7 +295,7 @@ Revenue estimates (low / medium / high): see [AUDIT.md](AUDIT.md). Current reali
 
 1. **P1 dev build:** `eas login` → install `expo-dev-client` → configure `eas.json` → first Android development build → install on phone.
 2. **P1 #9:** device verification on the dev build (notifications, audio, kill/reopen, haptics, new alarm flow).
-3. **Optional:** deploy to Vercel for stable web-on-phone testing without tunnels.
+3. **Vercel:** add `SUPABASE_URL` + `SUPABASE_ANON_KEY` env vars if not already set (full word library on web).
 4. **P2b #24:** Word Gym tab on home + gym success recap; wire `gymCompleted` in calendar.
 5. **P2:** migrate home and calendar to `useTheme()` for full adaptive palette.
 
