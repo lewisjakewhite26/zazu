@@ -1,6 +1,6 @@
 # Zazu roadmap
 
-Priority list for Zazu development. Last updated after P2b alarm flow and adaptive theme (June 2025).
+Priority list for Zazu development. Last updated after P2 adaptive theme on home/calendar (June 2025).
 
 **Overall score: ~88/100** · Vision-aligned product: ~78/100 · Details in [AUDIT.md](AUDIT.md)
 
@@ -12,7 +12,7 @@ Priority list for Zazu development. Last updated after P2b alarm flow and adapti
 |------|------|--------|
 | **P0** | Daily-usable mobile alarm + puzzle flow | Complete |
 | **P1** | TestFlight-ready foundations (notifications, persistence, audio) | Code complete; **dev build + device sign-off open** |
-| **P2** | Public-launch polish (web parity, CI, backend, Vercel) | Mostly complete |
+| **P2** | Public-launch polish (web parity, CI, backend, Vercel) | Mostly complete — theme migration done |
 | **P2b** | Product pivot (gentle alarm + Word Gym) | **Done** |
 | **P3** | Post-launch (ads, shop, PWA, analytics) | Backlog |
 
@@ -163,6 +163,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | Mobile calendar screen (`/calendar`, free/Gold preview, word detail sheet) | Done |
 | README and roadmap refresh (round 4) | Done |
 | Gradual adaptive theme (30 min dusk/dawn, web + mobile) | Done |
+| Mobile `useTheme()` on home, calendar, gym tab, tab bar | Done |
 | Gentle alarm flow (mobile + web) | Done |
 | Vercel static deploy (`vercel.json`, `dist/` build, GitHub auto-deploy) | Done |
 
@@ -173,7 +174,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | Web alarm list persistence (`localStorage`, UI only — no scheduled wake-up until PWA) | Not started |
 | Mobile Supabase error banner (match web retry UX) | Not started |
 | Update `zazu-words.schema.json` to match current JSON shape | Not started |
-| Migrate home/calendar screens to `useTheme()` for full adaptive palette | Not started |
+| Migrate alarm-flow screens to `useTheme()` (learn, alarm, success, puzzle) | Not started |
 
 ---
 
@@ -214,7 +215,7 @@ These match the agreed UX. Alarm flow and Word Gym are live on web and mobile.
 | 16 | Ad SDK integration (replace mock Huel card on web) | Not started |
 | 17 | Coin shop + thematic word packs (see below) | Not started |
 | 18 | PWA manifest + service worker + browser notifications for `index.html` | Not started |
-| 19 | Night mode on mobile | **Partial** — gradual adaptive theme on alarm flow; home/calendar still static palette |
+| 19 | Night mode on mobile | **Partial** — gradual adaptive theme on home, calendar, gym tab, and web; alarm-flow screens still static palette |
 | 20 | Reach 100 words | Done |
 | 21 | Analytics + crash reporting | Not started |
 | 22 | Remove `ProgressDebugPanel` once streak logic verified on device | Dev only |
@@ -276,8 +277,8 @@ Not built today. The success screen shows a **+10 “No snooze”** coin line, b
 | After P0 | ~74 |
 | After P1 code | ~79 |
 | After P2 web/CI + morning-task backend | ~83 |
-| **Current (395 words + Vercel + gentle alarm flow)** | **~88** |
-| After Word Gym tab + full theme on all screens (P2b #24) | ~90+ |
+| **Current (395 words + Vercel + gentle alarm + adaptive home/calendar)** | **~88** |
+| After alarm-flow theme + device verified (P1 #9) | ~90+ |
 | After auth/paywall + device verified | ~92+ |
 | After word packs + coin shop | ~94+ |
 
@@ -288,9 +289,8 @@ Revenue estimates (low / medium / high): see [AUDIT.md](AUDIT.md). Current reali
 ## Suggested next session
 
 1. **P1 dev build:** `eas login` → install `expo-dev-client` → configure `eas.json` → first Android development build → install on phone.
-2. **P1 #9:** device verification on the dev build (notifications, audio, kill/reopen, haptics, new alarm flow).
-3. **Vercel:** add `SUPABASE_URL` + `SUPABASE_ANON_KEY` env vars if not already set (full word library on web).
-4. **P1 dev build + #9:** device verification (notifications, audio, persistence, haptics).
-5. **P2:** migrate home and calendar to `useTheme()` for full adaptive palette.
+2. **P1 #9:** device verification on the dev build (notifications, audio, kill/reopen, haptics, alarm flow).
+3. **P2:** web alarm list persistence, mobile Supabase error banner, `zazu-words.schema.json` update.
+4. **P3 (optional):** migrate alarm-flow screens to `useTheme()` for full palette consistency.
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).

@@ -2,9 +2,11 @@ import { Tabs } from 'expo-router';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 import { copy } from '@/constants/copy';
-import { colors } from '@/constants/theme';
+import { useTheme } from '@/context/ThemeContext';
 
 export default function TabLayout() {
+  const { colors } = useTheme();
+
   return (
     <Tabs
       screenOptions={{
@@ -12,7 +14,7 @@ export default function TabLayout() {
         tabBarActiveTintColor: colors.ink,
         tabBarInactiveTintColor: colors.subtext,
         tabBarStyle: {
-          backgroundColor: 'rgba(255,255,255,0.92)',
+          backgroundColor: colors.card,
           borderTopColor: colors.border,
           paddingTop: 4,
         },

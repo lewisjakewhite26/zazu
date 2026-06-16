@@ -9,7 +9,7 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 | Surface | Built |
 |---------|--------|
 | **Web** (`index.html`) | Home, alarm demo, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; **progress** in `localStorage` (streak, coins, learned words) |
-| **Mobile** (Expo) | Home + **Word Gym tab**, add alarm, alarm, **learn**, **morning task**, success, **calendar**; scheduled notifications; `completeGym()` + gym success screen |
+| **Mobile** (Expo) | Home + **Word Gym tab**, add alarm, alarm, **learn**, **morning task**, success, **calendar**; scheduled notifications; `completeGym()` + gym success screen; **adaptive theme** on home, calendar, gym tab, tab bar |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
 | **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
@@ -62,7 +62,7 @@ zazu/
 │   ├── generate-morning-tasks.mjs
 │   ├── generate-public-config.mjs
 │   └── normalize-word-copy.mjs
-├── mobile/                   Expo app (alarm flow, calendar, Word Gym puzzle)
+├── mobile/                   Expo app (alarm flow, calendar, Word Gym puzzle, ThemeProvider)
 ├── supabase/
 │   ├── migrations/           001 schema + 002 morning tasks and gym
 │   └── README.md             Setup, RPCs, re-seeding
@@ -190,6 +190,7 @@ On a restrictive network, try `npm run start:tunnel` or connect via USB with `np
 | Route | Purpose |
 |-------|---------|
 | `(tabs)/` | Home — word of the day, streak, coins, alarms |
+| `(tabs)/gym` | Word Gym tab — today's gym word, mastery, start puzzle |
 | `/add-alarm` | Set time and label; schedules notification |
 | `/alarm` | Wake screen with chime |
 | `/learn` | Word, definition, and etymology |
@@ -200,6 +201,8 @@ On a restrictive network, try `npm run start:tunnel` or connect via USB with `np
 | `/calendar` | Word history (free vs Gold preview toggle) |
 
 The mobile app imports shared code from `lib/` via Metro. Words come from Supabase (`get_words_for_alarm` / `get_words_for_gym`) with demo fallbacks when offline or unconfigured.
+
+**Theme:** Home, calendar, gym tab, and tab bar use `useTheme()` from `mobile/context/ThemeContext.tsx` — the same gradual dusk/dawn blend as the web prototype (30 min at 20:30–21:00 and 5:30–6:00). Alarm-flow screens still use a fixed palette for now.
 
 ## npm scripts (root)
 

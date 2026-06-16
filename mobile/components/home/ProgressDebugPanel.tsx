@@ -1,8 +1,10 @@
+import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
-import { colors, fonts } from '@/constants/theme';
+import { fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
+import { useTheme } from '@/context/ThemeContext';
 
 type ProgressDebugPanelProps = {
   wordId: string;
@@ -26,6 +28,42 @@ export function ProgressDebugPanel({
   onSetLastCompleted,
   onCompleteWord,
 }: ProgressDebugPanelProps) {
+  const { colors } = useTheme();
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        panel: {
+          width: '100%',
+          marginTop: spacing.md,
+          padding: spacing.md,
+          borderRadius: 12,
+          borderWidth: 1,
+          borderColor: colors.border,
+          borderStyle: 'dashed',
+          backgroundColor: colors.card,
+        },
+        title: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 12,
+          letterSpacing: 0.8,
+          textTransform: 'uppercase',
+          color: colors.subtext,
+          marginBottom: spacing.xs,
+        },
+        meta: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.text,
+          marginBottom: spacing.sm,
+        },
+        button: {
+          marginTop: spacing.xs,
+        },
+      }),
+    [colors],
+  );
+
   if (!__DEV__) return null;
 
   return (
@@ -53,33 +91,3 @@ export function ProgressDebugPanel({
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  panel: {
-    width: '100%',
-    marginTop: spacing.md,
-    padding: spacing.md,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderStyle: 'dashed',
-    backgroundColor: 'rgba(255,255,255,0.4)',
-  },
-  title: {
-    fontFamily: fonts.sansSemiBold,
-    fontSize: 12,
-    letterSpacing: 0.8,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginBottom: spacing.xs,
-  },
-  meta: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.text,
-    marginBottom: spacing.sm,
-  },
-  button: {
-    marginTop: spacing.xs,
-  },
-});

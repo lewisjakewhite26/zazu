@@ -1,8 +1,10 @@
+import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-import { colors, fonts } from '@/constants/theme';
 import { copy } from '@/constants/copy';
+import { fonts } from '@/constants/theme';
+import { useTheme } from '@/context/ThemeContext';
 import { formatDismissTime } from '../../../lib/calendar-utils';
 
 type GymDisplay = 'done' | 'skipped' | 'gold' | 'pending';
@@ -31,7 +33,43 @@ export function CalendarIconRow({
   gymDisplay,
   layout = 'card',
 }: CalendarIconRowProps) {
+  const { colors } = useTheme();
   const iconSize = layout === 'hero' ? 16 : 14;
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        heroRow: {
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          gap: 8,
+        },
+        cardRow: {
+          flexDirection: 'row',
+          gap: 10,
+          marginTop: 10,
+        },
+        iconItem: {
+          alignItems: 'center',
+          gap: 2,
+        },
+        heroLabel: {
+          fontFamily: fonts.sansMedium,
+          fontSize: 9,
+          color: colors.subtext,
+          letterSpacing: 0.4,
+          textTransform: 'uppercase',
+        },
+        cardLabel: {
+          fontFamily: fonts.sans,
+          fontSize: 9,
+          color: colors.subtext,
+          textTransform: 'lowercase',
+        },
+      }),
+    [colors],
+  );
+
   const labelStyle = layout === 'hero' ? styles.heroLabel : styles.cardLabel;
   const containerStyle = layout === 'hero' ? styles.heroRow : styles.cardRow;
 
@@ -60,36 +98,6 @@ export function CalendarIconRow({
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  heroRow: {
-    flexDirection: 'column',
-    alignItems: 'flex-end',
-    gap: 8,
-  },
-  cardRow: {
-    flexDirection: 'row',
-    gap: 10,
-    marginTop: 10,
-  },
-  iconItem: {
-    alignItems: 'center',
-    gap: 2,
-  },
-  heroLabel: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 9,
-    color: colors.subtext,
-    letterSpacing: 0.4,
-    textTransform: 'uppercase',
-  },
-  cardLabel: {
-    fontFamily: fonts.sans,
-    fontSize: 9,
-    color: colors.subtext,
-    textTransform: 'lowercase',
-  },
-});
 
 export function resolveGymDisplay(
   isGold: boolean,

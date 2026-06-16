@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import {
   Modal,
   Pressable,
@@ -5,13 +6,15 @@ import {
   StyleSheet,
   Text,
   View,
+  type TextStyle,
 } from 'react-native';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useRouter } from 'expo-router';
 
 import { copy } from '@/constants/copy';
-import { colors, fonts } from '@/constants/theme';
+import { fonts } from '@/constants/theme';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
+import { useTheme, type AppThemeColors } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
 import { morningQuestionText } from '../../../lib/morning-task';
 import {
@@ -28,7 +31,276 @@ type WordDetailSheetProps = {
   onUnlockGold: () => void;
 };
 
-function IntroEtymologyText({ entry }: { entry: CalendarDayEntry }) {
+type SheetStyles = ReturnType<typeof createSheetStyles>;
+
+function createSheetStyles(colors: AppThemeColors) {
+  return StyleSheet.create({
+    overlay: {
+      flex: 1,
+      backgroundColor: colors.overlay,
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+    },
+    sheet: {
+      width: '100%',
+      maxWidth: 390,
+      maxHeight: '88%',
+      backgroundColor: colors.card,
+      borderTopLeftRadius: 24,
+      borderTopRightRadius: 24,
+      paddingHorizontal: 20,
+      paddingTop: 20,
+      paddingBottom: 32,
+    },
+    handle: {
+      width: 36,
+      height: 4,
+      backgroundColor: colors.border,
+      borderRadius: 2,
+      alignSelf: 'center',
+      marginBottom: 18,
+    },
+    eyebrow: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 10,
+      letterSpacing: 1,
+      textTransform: 'uppercase',
+      color: colors.subtext,
+      marginBottom: 6,
+    },
+    word: {
+      fontFamily: fonts.serif,
+      fontSize: 34,
+      color: colors.text,
+      letterSpacing: -1,
+      marginBottom: 2,
+    },
+    pron: {
+      fontFamily: fonts.sans,
+      fontSize: 13,
+      color: colors.subtext,
+      fontStyle: 'italic',
+      marginBottom: 14,
+    },
+    divider: {
+      height: 0.5,
+      backgroundColor: colors.border,
+      marginVertical: 14,
+    },
+    def: {
+      fontFamily: fonts.sans,
+      fontSize: 14,
+      color: colors.text,
+      lineHeight: 22,
+      marginBottom: 10,
+    },
+    etymBox: {
+      padding: 12,
+      backgroundColor: colors.sheetSecondary,
+      borderRadius: 12,
+      marginBottom: 14,
+    },
+    etymText: {
+      fontFamily: fonts.sans,
+      fontSize: 13,
+      color: colors.subtext,
+      lineHeight: 20,
+    },
+    etymStrong: {
+      color: colors.gold,
+      fontFamily: fonts.sansMedium,
+    },
+    taskBox: {
+      padding: 12,
+      backgroundColor: colors.sheetSecondary,
+      borderRadius: 12,
+      marginBottom: 14,
+    },
+    taskLabel: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 10,
+      letterSpacing: 0.8,
+      textTransform: 'uppercase',
+      color: colors.subtext,
+      marginBottom: 6,
+    },
+    taskQ: {
+      fontFamily: fonts.sans,
+      fontSize: 13,
+      color: colors.text,
+      marginBottom: 6,
+    },
+    taskAnsRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 5,
+    },
+    taskAns: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 13,
+      color: colors.correctIcon,
+    },
+    taskTries: {
+      fontFamily: fonts.sans,
+      fontSize: 11,
+      color: colors.subtext,
+      marginTop: 4,
+    },
+    streakRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 8,
+      paddingVertical: 10,
+      paddingHorizontal: 12,
+      backgroundColor: colors.cardPeach,
+      borderWidth: 0.5,
+      borderColor: colors.cardPeachBorder,
+      borderRadius: 12,
+      marginBottom: 14,
+    },
+    streakText: {
+      fontFamily: fonts.sans,
+      fontSize: 13,
+      color: colors.text,
+    },
+    statGrid: {
+      flexDirection: 'row',
+      gap: 8,
+      marginBottom: 14,
+    },
+    statCard: {
+      flex: 1,
+      backgroundColor: colors.sheetSecondary,
+      borderRadius: 12,
+      padding: 12,
+    },
+    statLabel: {
+      fontFamily: fonts.sans,
+      fontSize: 11,
+      color: colors.subtext,
+      marginBottom: 4,
+    },
+    statVal: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 19,
+      color: colors.text,
+    },
+    statSub: {
+      fontFamily: fonts.sans,
+      fontSize: 11,
+      color: colors.subtext,
+      marginTop: 2,
+    },
+    gymRow: {
+      borderRadius: 12,
+      marginBottom: 16,
+      overflow: 'hidden',
+    },
+    gymInner: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      padding: 12,
+      backgroundColor: colors.sheetSecondary,
+    },
+    gymLeft: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 8,
+      flex: 1,
+    },
+    gymLeftText: {
+      fontFamily: fonts.sans,
+      fontSize: 13,
+      color: colors.text,
+      flexShrink: 1,
+    },
+    gymBtn: {
+      borderWidth: 0.5,
+      borderColor: colors.border,
+      paddingVertical: 6,
+      paddingHorizontal: 12,
+      borderRadius: 100,
+    },
+    gymBtnText: {
+      fontFamily: fonts.sans,
+      fontSize: 12,
+      color: colors.subtext,
+    },
+    gymLock: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      padding: 12,
+      backgroundColor: colors.sheetSecondary,
+      borderWidth: 0.5,
+      borderColor: colors.border,
+      borderRadius: 12,
+      marginBottom: 16,
+    },
+    gymLockLeft: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 10,
+      flex: 1,
+    },
+    gymLockIcon: {
+      width: 34,
+      height: 34,
+      borderRadius: 17,
+      backgroundColor: colors.card,
+      borderWidth: 0.5,
+      borderColor: colors.border,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    gymLockTitle: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 13,
+      color: colors.text,
+    },
+    gymLockSub: {
+      fontFamily: fonts.sans,
+      fontSize: 11,
+      color: colors.subtext,
+      marginTop: 1,
+    },
+    gymUnlockBtn: {
+      paddingVertical: 6,
+      paddingHorizontal: 12,
+      borderRadius: 100,
+      backgroundColor: colors.cardDawn,
+      borderWidth: 0.5,
+      borderColor: colors.cardDawnBorder,
+    },
+    gymUnlockText: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 12,
+      color: colors.gold,
+    },
+    closeBtn: {
+      width: '100%',
+      paddingVertical: 13,
+      backgroundColor: colors.sheetSecondary,
+      borderRadius: 100,
+      alignItems: 'center',
+      marginTop: 8,
+    },
+    closeBtnText: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 14,
+      color: colors.text,
+    },
+  });
+}
+
+function IntroEtymologyText({
+  entry,
+  styles,
+}: {
+  entry: CalendarDayEntry;
+  styles: SheetStyles;
+}) {
   const spans = entry.word.introEtymology?.spans;
   if (!spans?.length) {
     return (
@@ -43,7 +315,7 @@ function IntroEtymologyText({ entry }: { entry: CalendarDayEntry }) {
       {spans.map((span, index) => (
         <Text
           key={`${span.text}-${index}`}
-          style={span.highlight ? styles.etymStrong : undefined}
+          style={span.highlight ? (styles.etymStrong as TextStyle) : undefined}
         >
           {span.text}
         </Text>
@@ -61,8 +333,11 @@ export function WordDetailSheet({
   onUnlockGold,
 }: WordDetailSheetProps) {
   const router = useRouter();
+  const { colors } = useTheme();
   const { startGymFlow } = useAlarmFlow();
   const { gymWords } = useWordLibrary([]);
+
+  const styles = useMemo(() => createSheetStyles(colors), [colors]);
 
   const openGym = () => {
     if (!entry) return;
@@ -97,7 +372,7 @@ export function WordDetailSheet({
             <View style={styles.divider} />
             <Text style={styles.def}>{entry.word.definition}</Text>
             <View style={styles.etymBox}>
-              <IntroEtymologyText entry={entry} />
+              <IntroEtymologyText entry={entry} styles={styles} />
             </View>
 
             <View style={styles.taskBox}>
@@ -182,262 +457,3 @@ export function WordDetailSheet({
     </Modal>
   );
 }
-
-const styles = StyleSheet.create({
-  overlay: {
-    flex: 1,
-    backgroundColor: colors.overlay,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-  },
-  sheet: {
-    width: '100%',
-    maxWidth: 390,
-    maxHeight: '88%',
-    backgroundColor: colors.white,
-    borderTopLeftRadius: 24,
-    borderTopRightRadius: 24,
-    paddingHorizontal: 20,
-    paddingTop: 20,
-    paddingBottom: 32,
-  },
-  handle: {
-    width: 36,
-    height: 4,
-    backgroundColor: colors.border,
-    borderRadius: 2,
-    alignSelf: 'center',
-    marginBottom: 18,
-  },
-  eyebrow: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 10,
-    letterSpacing: 1,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginBottom: 6,
-  },
-  word: {
-    fontFamily: fonts.serif,
-    fontSize: 34,
-    color: colors.text,
-    letterSpacing: -1,
-    marginBottom: 2,
-  },
-  pron: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.subtext,
-    fontStyle: 'italic',
-    marginBottom: 14,
-  },
-  divider: {
-    height: 0.5,
-    backgroundColor: colors.border,
-    marginVertical: 14,
-  },
-  def: {
-    fontFamily: fonts.sans,
-    fontSize: 14,
-    color: colors.text,
-    lineHeight: 22,
-    marginBottom: 10,
-  },
-  etymBox: {
-    padding: 12,
-    backgroundColor: colors.sheetSecondary,
-    borderRadius: 12,
-    marginBottom: 14,
-  },
-  etymText: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.subtext,
-    lineHeight: 20,
-  },
-  etymStrong: {
-    color: colors.gold,
-    fontFamily: fonts.sansMedium,
-  },
-  taskBox: {
-    padding: 12,
-    backgroundColor: colors.sheetSecondary,
-    borderRadius: 12,
-    marginBottom: 14,
-  },
-  taskLabel: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 10,
-    letterSpacing: 0.8,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginBottom: 6,
-  },
-  taskQ: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.text,
-    marginBottom: 6,
-  },
-  taskAnsRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 5,
-  },
-  taskAns: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 13,
-    color: colors.correctIcon,
-  },
-  taskTries: {
-    fontFamily: fonts.sans,
-    fontSize: 11,
-    color: colors.subtext,
-    marginTop: 4,
-  },
-  streakRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    backgroundColor: 'rgba(249,201,168,0.2)',
-    borderWidth: 0.5,
-    borderColor: colors.cardPeachBorder,
-    borderRadius: 12,
-    marginBottom: 14,
-  },
-  streakText: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.text,
-  },
-  statGrid: {
-    flexDirection: 'row',
-    gap: 8,
-    marginBottom: 14,
-  },
-  statCard: {
-    flex: 1,
-    backgroundColor: colors.sheetSecondary,
-    borderRadius: 12,
-    padding: 12,
-  },
-  statLabel: {
-    fontFamily: fonts.sans,
-    fontSize: 11,
-    color: colors.subtext,
-    marginBottom: 4,
-  },
-  statVal: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 19,
-    color: colors.text,
-  },
-  statSub: {
-    fontFamily: fonts.sans,
-    fontSize: 11,
-    color: colors.subtext,
-    marginTop: 2,
-  },
-  gymRow: {
-    borderRadius: 12,
-    marginBottom: 16,
-    overflow: 'hidden',
-  },
-  gymInner: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: 12,
-    backgroundColor: colors.sheetSecondary,
-  },
-  gymLeft: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    flex: 1,
-  },
-  gymLeftText: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.text,
-    flexShrink: 1,
-  },
-  gymBtn: {
-    borderWidth: 0.5,
-    borderColor: colors.border,
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 100,
-  },
-  gymBtnText: {
-    fontFamily: fonts.sans,
-    fontSize: 12,
-    color: colors.subtext,
-  },
-  gymLock: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: 12,
-    backgroundColor: colors.sheetSecondary,
-    borderWidth: 0.5,
-    borderColor: colors.border,
-    borderRadius: 12,
-    marginBottom: 16,
-  },
-  gymLockLeft: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 10,
-    flex: 1,
-  },
-  gymLockIcon: {
-    width: 34,
-    height: 34,
-    borderRadius: 17,
-    backgroundColor: colors.card,
-    borderWidth: 0.5,
-    borderColor: colors.border,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  gymLockTitle: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 13,
-    color: colors.text,
-  },
-  gymLockSub: {
-    fontFamily: fonts.sans,
-    fontSize: 11,
-    color: colors.subtext,
-    marginTop: 1,
-  },
-  gymUnlockBtn: {
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 100,
-    backgroundColor: 'rgba(201,150,58,0.1)',
-    borderWidth: 0.5,
-    borderColor: 'rgba(201,150,58,0.3)',
-  },
-  gymUnlockText: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 12,
-    color: colors.gold,
-  },
-  closeBtn: {
-    width: '100%',
-    paddingVertical: 13,
-    backgroundColor: colors.sheetSecondary,
-    borderRadius: 100,
-    alignItems: 'center',
-    marginTop: 8,
-  },
-  closeBtnText: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 14,
-    color: colors.text,
-  },
-});

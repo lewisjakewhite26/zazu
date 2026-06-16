@@ -9,9 +9,10 @@ import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
-import { colors, fonts } from '@/constants/theme';
+import { fonts } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
+import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
 import { useProgress } from '@/hooks/useProgress';
 import { useAlarms, type Alarm } from '@/hooks/useAlarms';
@@ -20,6 +21,7 @@ import { useAlarmFlow } from '@/context/AlarmFlowContext';
 export function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
+  const { colors } = useTheme();
   const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, toggleAlarm } = useAlarms();
   const {
@@ -67,7 +69,9 @@ export function HomeScreen() {
           >
             <WordOfDayCard {...alarmWordOfDay} loading={wordsLoading} />
 
-            <Text style={styles.sectionLabel}>{copy.home.yourAlarms}</Text>
+            <Text style={[styles.sectionLabel, { color: colors.subtext }]}>
+              {copy.home.yourAlarms}
+            </Text>
 
             <View style={styles.alarmList}>
               {!alarmsLoading &&
@@ -132,7 +136,6 @@ const styles = StyleSheet.create({
     fontSize: 11,
     letterSpacing: 1,
     textTransform: 'uppercase',
-    color: colors.subtext,
     marginBottom: spacing.sm,
   },
   alarmList: {

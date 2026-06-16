@@ -18,10 +18,9 @@ import {
   CalendarIconRow,
   resolveGymDisplay,
 } from '@/components/calendar/CalendarIconRow';
-import { calendarStyles, cardVariantStyle } from '@/components/calendar/calendarStyles';
+import { useCalendarStyles } from '@/components/calendar/calendarStyles';
 import { WordDetailSheet } from '@/components/calendar/WordDetailSheet';
 import { copy } from '@/constants/copy';
-import { colors } from '@/constants/theme';
 import { useProgress } from '@/hooks/useProgress';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
 import {
@@ -45,12 +44,13 @@ type DayCardProps = {
 };
 
 function DayCard({ entry, isGold, onPress }: DayCardProps) {
+  const { styles, cardVariantStyle, colors } = useCalendarStyles();
   const locked = !isGold && !isDayAccessibleForFree(entry.dayOffset);
   const gymDisplay = resolveGymDisplay(isGold, entry.gymCompleted, entry.completed);
 
   return (
     <Pressable
-      style={[calendarStyles.gridItem]}
+      style={styles.gridItem}
       onPress={() => {
         if (!locked) onPress(entry);
       }}
@@ -58,10 +58,10 @@ function DayCard({ entry, isGold, onPress }: DayCardProps) {
       accessibilityRole="button"
       accessibilityState={{ disabled: locked }}
     >
-      <View style={[calendarStyles.dayCard, cardVariantStyle(entry.variant)]}>
+      <View style={[styles.dayCard, cardVariantStyle(entry.variant)]}>
         <View>
-          <Text style={calendarStyles.cardDate}>{entry.dateLabelShort}</Text>
-          <Text style={calendarStyles.cardWord}>{entry.word.word}</Text>
+          <Text style={styles.cardDate}>{entry.dateLabelShort}</Text>
+          <Text style={styles.cardWord}>{entry.word.word}</Text>
         </View>
         <CalendarIconRow
           completed={entry.completed}
@@ -70,7 +70,7 @@ function DayCard({ entry, isGold, onPress }: DayCardProps) {
           layout="card"
         />
         {locked ? (
-          <View style={calendarStyles.cardLockedOverlay} pointerEvents="none">
+          <View style={styles.cardLockedOverlay} pointerEvents="none">
             <MaterialCommunityIcons name="lock" size={18} color={colors.subtext} />
           </View>
         ) : null}
@@ -80,14 +80,17 @@ function DayCard({ entry, isGold, onPress }: DayCardProps) {
 }
 
 function OlderWordsBlurGrid({ entries }: { entries: CalendarDayEntry[] }) {
+  const { styles, cardVariantStyle, blend } = useCalendarStyles();
+  const blurTint = blend >= 0.5 ? 'dark' : 'light';
+
   const grid = (
-    <View style={calendarStyles.grid}>
+    <View style={styles.grid}>
       {entries.map((entry) => (
-        <View key={entry.dayOffset} style={calendarStyles.gridItem}>
-          <View style={[calendarStyles.dayCard, cardVariantStyle(entry.variant)]}>
+        <View key={entry.dayOffset} style={styles.gridItem}>
+          <View style={[styles.dayCard, cardVariantStyle(entry.variant)]}>
             <View>
-              <Text style={calendarStyles.cardDate}>{entry.dateLabelShort}</Text>
-              <Text style={calendarStyles.cardWord}>{entry.word.word}</Text>
+              <Text style={styles.cardDate}>{entry.dateLabelShort}</Text>
+              <Text style={styles.cardWord}>{entry.word.word}</Text>
             </View>
           </View>
         </View>
@@ -96,11 +99,11 @@ function OlderWordsBlurGrid({ entries }: { entries: CalendarDayEntry[] }) {
   );
 
   if (Platform.OS === 'web') {
-    return <View style={styles.webBlur}>{grid}</View>;
+    return <View style={localStyles.webBlur}>{grid}</View>;
   }
 
   return (
-    <BlurView intensity={18} tint="light" style={styles.blurWrap}>
+    <BlurView intensity={18} tint={blurTint} style={localStyles.blurWrap}>
       {grid}
     </BlurView>
   );
@@ -108,6 +111,7 @@ function OlderWordsBlurGrid({ entries }: { entries: CalendarDayEntry[] }) {
 
 export function CalendarScreen() {
   const router = useRouter();
+  const { styles, colors } = useCalendarStyles();
   const { loading: progressLoading, streak, learnedWordIds, wordProgress } = useProgress();
   const { loading: wordsLoading, alarmWords } = useWordLibrary(learnedWordIds);
   const [isGold, setIsGold] = useState(false);
@@ -140,62 +144,54 @@ export function CalendarScreen() {
     : 'pending';
 
   return (
-    <SafeAreaView style={calendarStyles.screen} edges={['top', 'left', 'right']}>
+    <SafeAreaView style={styles.screen} edges={['top', 'left', 'right']}>
       <ScrollView
-        contentContainerStyle={calendarStyles.scrollContent}
+        contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        <View style={calendarStyles.nav}>
-          <View style={styles.navLeft}>
+        <View style={styles.nav}>
+          <View style={localStyles.navLeft}>
             <Pressable
               onPress={() => router.back()}
-              style={styles.backBtn}
+              style={localStyles.backBtn}
               accessibilityRole="button"
               accessibilityLabel="Go back"
             >
               <MaterialCommunityIcons name="chevron-left" size={22} color={colors.text} />
             </Pressable>
             <View>
-              <Text style={calendarStyles.navTitle}>{copy.calendar.title}</Text>
-              <Text style={calendarStyles.navSub}>
+              <Text style={styles.navTitle}>{copy.calendar.title}</Text>
+              <Text style={styles.navSub}>
                 {loading ? copy.home.wordOfDayLoading : copy.calendar.wordsLearned(wordsLearned)}
               </Text>
             </View>
           </View>
-          <View style={calendarStyles.streakPill}>
+          <View style={styles.streakPill}>
             <MaterialCommunityIcons name="fire" size={14} color={colors.streakFlame} />
-            <Text style={calendarStyles.streakPillText}>
+            <Text style={styles.streakPillText}>
               {loading ? '—' : copy.calendar.streakDays(streak)}
             </Text>
           </View>
         </View>
 
-        <View style={calendarStyles.toggleRow}>
-          <Text style={calendarStyles.toggleLabel}>{copy.calendar.previewAs}</Text>
-          <View style={calendarStyles.toggleWrap}>
+        <View style={styles.toggleRow}>
+          <Text style={styles.toggleLabel}>{copy.calendar.previewAs}</Text>
+          <View style={styles.toggleWrap}>
             <Pressable
-              style={[calendarStyles.toggleOpt, !isGold && calendarStyles.toggleOptActive]}
+              style={[styles.toggleOpt, !isGold && styles.toggleOptActive]}
               onPress={() => setIsGold(false)}
             >
               <Text
-                style={[
-                  calendarStyles.toggleOptText,
-                  !isGold && calendarStyles.toggleOptTextActive,
-                ]}
+                style={[styles.toggleOptText, !isGold && styles.toggleOptTextActive]}
               >
                 {copy.calendar.freeUser}
               </Text>
             </Pressable>
             <Pressable
-              style={[calendarStyles.toggleOpt, isGold && calendarStyles.toggleOptActive]}
+              style={[styles.toggleOpt, isGold && styles.toggleOptActive]}
               onPress={() => setIsGold(true)}
             >
-              <Text
-                style={[
-                  calendarStyles.toggleOptText,
-                  isGold && calendarStyles.toggleOptTextActive,
-                ]}
-              >
+              <Text style={[styles.toggleOptText, isGold && styles.toggleOptTextActive]}>
                 {copy.calendar.goldUser}
               </Text>
             </Pressable>
@@ -203,22 +199,22 @@ export function CalendarScreen() {
         </View>
 
         {loading ? (
-          <View style={styles.loadingWrap}>
+          <View style={localStyles.loadingWrap}>
             <ActivityIndicator color={colors.text} />
           </View>
         ) : (
           <>
-            <Text style={calendarStyles.sectionLabel}>{copy.calendar.today}</Text>
+            <Text style={styles.sectionLabel}>{copy.calendar.today}</Text>
             {todayEntry ? (
               <Pressable
-                style={calendarStyles.heroCard}
+                style={styles.heroCard}
                 onPress={() => openEntry(todayEntry)}
                 accessibilityRole="button"
               >
                 <View>
-                  <Text style={calendarStyles.heroBadge}>{copy.calendar.today}</Text>
-                  <Text style={calendarStyles.heroWord}>{todayEntry.word.word}</Text>
-                  <Text style={calendarStyles.heroDate}>{todayEntry.dateLabelLong}</Text>
+                  <Text style={styles.heroBadge}>{copy.calendar.today}</Text>
+                  <Text style={styles.heroWord}>{todayEntry.word.word}</Text>
+                  <Text style={styles.heroDate}>{todayEntry.dateLabelLong}</Text>
                 </View>
                 <CalendarIconRow
                   completed={todayEntry.completed}
@@ -229,37 +225,37 @@ export function CalendarScreen() {
               </Pressable>
             ) : null}
 
-            <Text style={calendarStyles.sectionLabel}>{copy.calendar.thisWeek}</Text>
-            <View style={calendarStyles.grid}>
+            <Text style={styles.sectionLabel}>{copy.calendar.thisWeek}</Text>
+            <View style={styles.grid}>
               {weekEntries.map((entry) => (
                 <DayCard key={entry.dayOffset} entry={entry} isGold={isGold} onPress={openEntry} />
               ))}
             </View>
 
-            <Text style={calendarStyles.sectionLabel}>{copy.calendar.olderWords}</Text>
+            <Text style={styles.sectionLabel}>{copy.calendar.olderWords}</Text>
             {isGold ? (
-              <View style={calendarStyles.grid}>
+              <View style={styles.grid}>
                 {olderEntries.map((entry) => (
                   <DayCard key={entry.dayOffset} entry={entry} isGold={isGold} onPress={openEntry} />
                 ))}
               </View>
             ) : (
               <>
-                <View style={calendarStyles.lockWrap}>
+                <View style={styles.lockWrap}>
                   <OlderWordsBlurGrid entries={olderPreview} />
-                  <View style={calendarStyles.lockOverlay} pointerEvents="none">
+                  <View style={styles.lockOverlay} pointerEvents="none">
                     <MaterialCommunityIcons name="lock" size={22} color={colors.subtext} />
-                    <Text style={calendarStyles.lockTitle}>
+                    <Text style={styles.lockTitle}>
                       {copy.calendar.lockTitle(lockedOlderCount)}
                     </Text>
-                    <Text style={calendarStyles.lockSub}>{copy.calendar.lockSub}</Text>
+                    <Text style={styles.lockSub}>{copy.calendar.lockSub}</Text>
                   </View>
                 </View>
 
-                <Pressable style={calendarStyles.goldBtn} onPress={showGoldUpsell}>
-                  <Text style={calendarStyles.goldBtnText}>{copy.calendar.unlockGold}</Text>
+                <Pressable style={styles.goldBtn} onPress={showGoldUpsell}>
+                  <Text style={styles.goldBtnText}>{copy.calendar.unlockGold}</Text>
                 </Pressable>
-                <Text style={calendarStyles.goldSub}>{copy.calendar.goldPricing}</Text>
+                <Text style={styles.goldSub}>{copy.calendar.goldPricing}</Text>
               </>
             )}
           </>
@@ -278,7 +274,7 @@ export function CalendarScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
   navLeft: {
     flexDirection: 'row',
     alignItems: 'center',
