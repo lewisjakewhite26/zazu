@@ -14,6 +14,8 @@ export const copy = {
     dayStreak: 'day streak',
     weekdaysPack: 'Weekdays · Words pack',
     weekendsPack: 'Weekends · Words pack',
+    tabHome: 'Home',
+    tabGym: 'Word Gym',
   },
   alarm: {
     goodMorning: 'Good morning',
@@ -61,6 +63,27 @@ export const copy = {
   puzzle: {
     roundLabel: (round: number, type: string) => `Round ${round} of 3 · ${type}`,
     emptyPlaceholder: '–',
+  },
+  gym: {
+    eyebrow: 'Word Gym',
+    todaysWord: "Today's practice word",
+    subtitle: 'Three rounds to lock it in',
+    mastery: 'Mastery',
+    masteryComplete: 'Completed today',
+    masteryNew: 'Not practised yet',
+    start: 'Start practice',
+    continue: 'Practise again',
+  },
+  gymSuccess: {
+    heading: 'Well practised.',
+    sub: 'Three rounds done. That word should stick.',
+    wordPractised: 'Word practised',
+    masteryLabel: 'Mastery',
+    coinsEarned: 'Coins earned',
+    gymCompleted: 'Word Gym completed',
+    total: 'Total',
+    done: 'Done',
+    masteryPercent: (n: number) => `${n}% mastery`,
   },
   placeholder: {
     matutinalOrigin:

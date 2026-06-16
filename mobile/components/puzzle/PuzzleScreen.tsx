@@ -19,7 +19,7 @@ import { stopAlarmSound } from '../../../lib/alarm-sound';
 
 export function PuzzleScreen() {
   const router = useRouter();
-  const { gymSessionWord } = useAlarmFlow();
+  const { gymSessionWord, setGymCompletionResult } = useAlarmFlow();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
   const [tiles, setTiles] = useState<PuzzleTileState[]>([]);
@@ -53,9 +53,10 @@ export function PuzzleScreen() {
   const handleFinish = useCallback(async () => {
     if (!gymSessionWord || finishing) return;
     setFinishing(true);
-    await completeGym(gymSessionWord.id);
-    router.replace('/');
-  }, [gymSessionWord, finishing, completeGym, router]);
+    const result = await completeGym(gymSessionWord.id);
+    setGymCompletionResult(result);
+    router.replace('/gym-success');
+  }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router]);
 
   const advanceRound = useCallback(() => {
     if (!gymSessionWord) return;

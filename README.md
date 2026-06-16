@@ -9,12 +9,12 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 | Surface | Built |
 |---------|--------|
 | **Web** (`index.html`) | Home, alarm demo, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; **progress** in `localStorage` (streak, coins, learned words) |
-| **Mobile** (Expo) | Home, **add alarm**, alarm, **learn**, **morning task**, success, **calendar**, Word Gym puzzle; **scheduled notifications**; alarm list in AsyncStorage; adaptive theme on alarm flow |
+| **Mobile** (Expo) | Home + **Word Gym tab**, add alarm, alarm, **learn**, **morning task**, success, **calendar**; scheduled notifications; `completeGym()` + gym success screen |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
 | **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
 
-**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), dedicated Word Gym tab on home, auth, paywall, and coin shop.
+**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), auth, paywall, and coin shop.
 
 ### Web vs mobile — what persists
 
@@ -195,7 +195,8 @@ On a restrictive network, try `npm run start:tunnel` or connect via USB with `np
 | `/learn` | Word, definition, and etymology |
 | `/morning-task` | One MCQ to dismiss the alarm |
 | `/success` | Streak and coin recap |
-| `/puzzle` | Word Gym — 3-round matching game (calendar entry) |
+| `/puzzle` | Word Gym — 3-round matching game |
+| `/gym-success` | Word Gym completion recap (coins + mastery) |
 | `/calendar` | Word history (free vs Gold preview toggle) |
 
 The mobile app imports shared code from `lib/` via Metro. Words come from Supabase (`get_words_for_alarm` / `get_words_for_gym`) with demo fallbacks when offline or unconfigured.

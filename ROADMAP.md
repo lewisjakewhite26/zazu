@@ -13,7 +13,7 @@ Priority list for Zazu development. Last updated after P2b alarm flow and adapti
 | **P0** | Daily-usable mobile alarm + puzzle flow | Complete |
 | **P1** | TestFlight-ready foundations (notifications, persistence, audio) | Code complete; **dev build + device sign-off open** |
 | **P2** | Public-launch polish (web parity, CI, backend, Vercel) | Mostly complete |
-| **P2b** | Product pivot (gentle alarm + Word Gym) | **Partial — alarm flow shipped** |
+| **P2b** | Product pivot (gentle alarm + Word Gym) | **Done** |
 | **P3** | Post-launch (ads, shop, PWA, analytics) | Backlog |
 
 ---
@@ -179,12 +179,12 @@ npm run web         # full flow + web chimes + add alarm + calendar
 
 ## P2b — Product pivot (gentle alarm + Word Gym)
 
-These match the agreed UX. Alarm flow is live on web and mobile; Word Gym tab is still open.
+These match the agreed UX. Alarm flow and Word Gym are live on web and mobile.
 
 | # | Task | Status |
 |---|------|--------|
 | 23 | New alarm flow: reveal → learn → one MCQ → dismiss | **Done** (mobile `/learn`, `/morning-task`; web learn + morning task screens) |
-| 24 | Word Gym screen/tab (3-round puzzle on `gymRounds`, `completeGym`) | **Partial** — calendar deep link + `completeGym()` wired; no home Gym tab yet |
+| 24 | Word Gym screen/tab (3-round puzzle on `gymRounds`, `completeGym`) | **Done** |
 | 25 | Web alarm path on `fetchAlarmWords` + morning task UI | **Done** |
 
 ### Also shipped with P2b
@@ -195,14 +195,8 @@ These match the agreed UX. Alarm flow is live on web and mobile; Word Gym tab is
 | Calendar “Open in Word Gym” → `startGymFlow()` + `/puzzle` | Done |
 | `lib/morning-task.js` for browser MCQ builder | Done |
 | Copy refresh (`learnSub`, morning task labels) | Done |
-
-### P2b still open
-
-| Task | Status |
-|------|--------|
-| Word Gym tab or entry point on home | Not started |
-| Gym completion success screen (coins/mastery recap) | Not started |
-| Wire `completeGym()` progress to calendar `gymCompleted` display | Not started |
+| Word Gym tab (`/(tabs)/gym`) + `/gym-success` recap | Done |
+| `gymCompletedAt` in progress → calendar gym icon | Done |
 
 ### P2b dependencies (already in place)
 
@@ -296,7 +290,7 @@ Revenue estimates (low / medium / high): see [AUDIT.md](AUDIT.md). Current reali
 1. **P1 dev build:** `eas login` → install `expo-dev-client` → configure `eas.json` → first Android development build → install on phone.
 2. **P1 #9:** device verification on the dev build (notifications, audio, kill/reopen, haptics, new alarm flow).
 3. **Vercel:** add `SUPABASE_URL` + `SUPABASE_ANON_KEY` env vars if not already set (full word library on web).
-4. **P2b #24:** Word Gym tab on home + gym success recap; wire `gymCompleted` in calendar.
+4. **P1 dev build + #9:** device verification (notifications, audio, persistence, haptics).
 5. **P2:** migrate home and calendar to `useTheme()` for full adaptive palette.
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
