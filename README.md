@@ -106,11 +106,19 @@ If the browser blocks local file requests, serve the folder with any static serv
 
 ### Deploy to Vercel
 
-1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new).
-2. **Root Directory** must be blank (repo root, not `mobile/`).
-3. Vercel runs `npm run vercel-build`, which copies `index.html` and `lib/` into `dist/` for deployment.
-4. Optional: add **Environment variables** (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) so the build writes `public/config.js` and loads all 395 words. Without them, the demo fallback (3 words) still works.
-5. Redeploy after pushing changes.
+Zazu’s web app is **static HTML** (`index.html` + `lib/*.js`), not Next.js.
+
+1. Import the GitHub repo at [vercel.com/new](https://vercel.com/new) (repo: `lewisjakewhite26/zazu`).
+2. **Settings → Build and Deployment** — set **Framework Preset** to **Other** (not Next.js).
+3. Turn **off** any dashboard overrides for Build Command / Output Directory so `vercel.json` in the repo is used:
+   - **Build command:** `npm run vercel-build`
+   - **Output directory:** `dist`
+   - **Install command:** `npm install`
+4. **Root Directory** must be blank (repo root, not `mobile/`).
+5. **Environment variables** (recommended): `SUPABASE_URL`, `SUPABASE_ANON_KEY` — the build writes `public/config.js` so all 395 words load. Without them, the 3-word demo fallback still works.
+6. Redeploy. The site root `/` should serve `index.html`.
+
+If you still see `next build` in the deployment logs, the dashboard is overriding the repo — reset Framework Preset to **Other** and disable overrides.
 
 ## Supabase setup
 

@@ -1,0 +1,13 @@
+# Expo app — deploy separately (EAS). Vercel serves the static web prototype only.
+mobile/
+
+# Generated at build time
+dist/
+
+# Large content (words load from Supabase in production)
+zazu-words.json
+morning-distractors.json
+
+# CI / reference (not needed on the live site)
+.github/
+calendar-reference.html.html

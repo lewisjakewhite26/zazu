@@ -23,6 +23,7 @@ cpSync(resolve(root, 'lib'), resolve(dist, 'lib'), { recursive: true });
 
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🐦</text></svg>`;
 writeFileSync(resolve(dist, 'favicon.svg'), faviconSvg, 'utf8');
+writeFileSync(resolve(dist, 'favicon.ico'), faviconSvg, 'utf8');
 
 const url = process.env.SUPABASE_URL;
 const anonKey = process.env.SUPABASE_ANON_KEY;
