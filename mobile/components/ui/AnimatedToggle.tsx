@@ -38,7 +38,7 @@ export function AnimatedToggle({ value, onValueChange, accessibilityLabel }: Ani
           justifyContent: 'center',
         },
         track: {
-          ...StyleSheet.absoluteFillObject,
+          ...StyleSheet.absoluteFill,
           borderRadius: 100,
           backgroundColor: value ? colors.blush : colors.border,
         },

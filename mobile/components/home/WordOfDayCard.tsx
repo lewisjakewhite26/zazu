@@ -1,9 +1,10 @@
 import { useMemo } from 'react';
-import { Platform, StyleSheet, Text, View, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import { OriginText } from '@/components/ui/OriginText';
+import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { copy } from '@/constants/copy';
 import { cardBlurIntensity, radii, typography } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
@@ -36,10 +37,10 @@ export function WordOfDayCard({
           marginBottom: 20,
         },
         gradient: {
-          ...StyleSheet.absoluteFillObject,
+          ...StyleSheet.absoluteFill,
         },
         blur: {
-          ...StyleSheet.absoluteFillObject,
+          ...StyleSheet.absoluteFill,
         },
         cardInner: {
           paddingTop: 22,
@@ -108,7 +109,7 @@ export function WordOfDayCard({
       <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={[styles.word, styles.wordLoading]}>{copy.home.wordOfDayLoading}</Text>
       <View style={styles.loadingRow}>
-        <ActivityIndicator color={colors.subtext} size="small" />
+        <LoadingSpinner size={16} />
         <Text style={styles.loadingText}>{copy.home.wordOfDayLoading}</Text>
       </View>
     </View>

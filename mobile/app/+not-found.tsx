@@ -1,42 +1,49 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { colors, fonts } from '@/constants/theme';
+import { GradientBackground } from '@/components/ui/GradientBackground';
+import { typography } from '@/constants/theme';
+import { useTheme } from '@/context/ThemeContext';
 
 export default function NotFoundScreen() {
+  const { colors } = useTheme();
+
   return (
     <>
       <Stack.Screen options={{ title: 'Not found' }} />
-      <View style={styles.container}>
-        <Text style={styles.title}>This page is not here.</Text>
-        <Link href="/" style={styles.link}>
-          <Text style={styles.linkText}>Back to home</Text>
-        </Link>
-      </View>
+      <GradientBackground>
+        <SafeAreaView style={styles.safeArea}>
+          <View style={styles.container}>
+            <Text style={[styles.title, { color: colors.text }]}>This page is not here.</Text>
+            <Link href="/" style={styles.link}>
+              <Text style={[styles.linkText, { color: colors.ink }]}>Back to home</Text>
+            </Link>
+          </View>
+        </SafeAreaView>
+      </GradientBackground>
     </>
   );
 }
 
 const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+  },
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    backgroundColor: colors.bgFrom,
   },
   title: {
-    fontFamily: fonts.sans,
-    fontSize: 18,
-    color: colors.text,
+    ...typography.learnDef,
   },
   link: {
     marginTop: 16,
     paddingVertical: 12,
   },
   linkText: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 15,
-    color: colors.ink,
+    ...typography.btnPrimary,
   },
 });

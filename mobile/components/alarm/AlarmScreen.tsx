@@ -1,13 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { AlarmOrbs } from '@/components/ui/AlarmOrbs';
+import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
-import { colors, fonts } from '@/constants/theme';
-import { spacing } from '@/constants/layout';
+import { typography } from '@/constants/theme';
+import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useAlarmSound } from '@/hooks/useAlarmSound';
 
@@ -19,6 +21,7 @@ function formatClock(date: Date): string {
 
 export function AlarmScreen() {
   const router = useRouter();
+  const { colors } = useTheme();
   const { sessionWord } = useAlarmFlow();
   const [clock, setClock] = useState(formatClock(new Date()));
 
@@ -35,14 +38,69 @@ export function AlarmScreen() {
 
   useAlarmSound(Boolean(sessionWord));
 
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        safeArea: {
+          flex: 1,
+        },
+        content: {
+          flex: 1,
+          width: '100%',
+          maxWidth: CONTENT_MAX_WIDTH,
+          alignSelf: 'center',
+          alignItems: 'center',
+          justifyContent: 'center',
+          paddingHorizontal: spacing.lg,
+        },
+        bird: {
+          fontSize: 48,
+          marginBottom: spacing.md,
+          zIndex: 1,
+        },
+        label: {
+          ...typography.alarmLabel,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: 10,
+          zIndex: 1,
+        },
+        time: {
+          ...typography.alarmBigTime,
+          color: colors.text,
+          marginBottom: spacing.sm,
+          zIndex: 1,
+        },
+        wordTease: {
+          ...typography.alarmTease,
+          color: colors.subtext,
+          marginBottom: 6,
+          zIndex: 1,
+        },
+        wordEmphasis: {
+          fontFamily: typography.learnWord.fontFamily,
+          fontStyle: 'italic',
+          color: colors.text,
+        },
+        sub: {
+          ...typography.alarmSub,
+          color: colors.subtext,
+          marginBottom: 44,
+          zIndex: 1,
+        },
+        cta: {
+          maxWidth: 320,
+          zIndex: 1,
+        },
+      }),
+    [colors],
+  );
+
   if (!sessionWord) return null;
 
   return (
-    <LinearGradient colors={[colors.bgFrom, colors.bgMid, colors.bgTo]} style={styles.gradient}>
-      <View style={styles.orbOne} />
-      <View style={styles.orbTwo} />
-      <View style={styles.glow} />
-
+    <GradientBackground>
+      <AlarmOrbs />
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.content}>
           <Text style={styles.bird}>🐦</Text>
@@ -55,94 +113,12 @@ export function AlarmScreen() {
           <Text style={styles.sub}>{copy.alarm.learnSub}</Text>
           <PrimaryButton
             label={copy.alarm.wakeCta}
+            variant="wake"
             onPress={() => router.push('/learn')}
             style={styles.cta}
           />
         </View>
       </SafeAreaView>
-    </LinearGradient>
+    </GradientBackground>
   );
 }
-
-const styles = StyleSheet.create({
-  gradient: {
-    flex: 1,
-  },
-  orbOne: {
-    position: 'absolute',
-    width: 280,
-    height: 280,
-    borderRadius: 140,
-    backgroundColor: colors.peach,
-    opacity: 0.45,
-    top: -60,
-    left: -80,
-  },
-  orbTwo: {
-    position: 'absolute',
-    width: 240,
-    height: 240,
-    borderRadius: 120,
-    backgroundColor: colors.lavender,
-    opacity: 0.4,
-    bottom: -40,
-    right: -60,
-  },
-  glow: {
-    ...StyleSheet.absoluteFill,
-    backgroundColor: 'rgba(249,201,168,0.12)',
-  },
-  safeArea: {
-    flex: 1,
-  },
-  content: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: spacing.lg,
-  },
-  bird: {
-    fontSize: 48,
-    marginBottom: spacing.md,
-  },
-  label: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 12,
-    letterSpacing: 2,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginBottom: spacing.sm,
-  },
-  time: {
-    fontFamily: fonts.serif,
-    fontSize: 96,
-    letterSpacing: -4,
-    color: colors.text,
-    lineHeight: 96,
-    marginBottom: spacing.sm,
-  },
-  wordTease: {
-    fontFamily: fonts.sans,
-    fontSize: 15,
-    color: colors.subtext,
-    marginBottom: spacing.xs,
-  },
-  wordEmphasis: {
-    fontFamily: fonts.serif,
-    fontStyle: 'italic',
-    color: colors.text,
-  },
-  sub: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    color: colors.subtext,
-    marginBottom: spacing.xl,
-  },
-  cta: {
-    maxWidth: 320,
-    shadowColor: colors.ink,
-    shadowOpacity: 0.18,
-    shadowRadius: 16,
-    shadowOffset: { width: 0, height: 8 },
-  },
-});

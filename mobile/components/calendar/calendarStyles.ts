@@ -38,7 +38,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
   return StyleSheet.create({
     screen: {
       flex: 1,
-      backgroundColor: colors.bgFrom,
+      backgroundColor: 'transparent',
     },
     scrollContent: {
       paddingHorizontal: 16,

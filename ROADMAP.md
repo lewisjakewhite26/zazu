@@ -173,7 +173,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 
 | # | Task | Status |
 |---|------|--------|
-| 36 | **Finalise mobile UI for all pages** — match `index.html` per screen (alarm, learn, morning task, success, add alarm, calendar, Word Gym, settings, onboarding, Gold); reuse `theme.ts` tokens + UI primitives; no invented colours | **In progress** (home done) |
+| 36 | **Finalise mobile UI for all pages** — match `index.html` per screen (alarm, learn, morning task, success, add alarm, calendar, Word Gym, settings, onboarding, Gold); reuse `theme.ts` tokens + UI primitives; no invented colours | **Done** |
 | — | Web alarm list persistence (`localStorage`, UI only — no scheduled wake-up until PWA) | Not started |
 | — | Mobile Supabase error banner (match web retry UX) | Not started |
 | — | Update `zazu-words.schema.json` to match current JSON shape | Not started |

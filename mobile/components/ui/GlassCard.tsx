@@ -33,7 +33,7 @@ export function GlassCard({
           borderRadius,
         },
         blur: {
-          ...StyleSheet.absoluteFillObject,
+          ...StyleSheet.absoluteFill,
         },
         inner: {
           position: 'relative',

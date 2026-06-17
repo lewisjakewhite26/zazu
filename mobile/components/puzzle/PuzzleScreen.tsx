@@ -1,14 +1,16 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { GlassCard } from '@/components/ui/GlassCard';
+import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PuzzleTile } from '@/components/puzzle/PuzzleTile';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
-import { colors, fonts } from '@/constants/theme';
+import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { useTheme } from '@/context/ThemeContext';
 import {
   buildBoardTiles,
   stripHtml,
@@ -19,6 +21,7 @@ import { stopAlarmSound } from '../../../lib/alarm-sound';
 
 export function PuzzleScreen() {
   const router = useRouter();
+  const { colors } = useTheme();
   const { gymSessionWord, setGymCompletionResult } = useAlarmFlow();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
@@ -55,7 +58,7 @@ export function PuzzleScreen() {
     setFinishing(true);
     const result = await completeGym(gymSessionWord.id);
     setGymCompletionResult(result);
-    router.replace('/gym-success');
+    router.replace('/ad');
   }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router]);
 
   const advanceRound = useCallback(() => {
@@ -162,6 +165,82 @@ export function PuzzleScreen() {
     [locked, tiles, selectedId, matched, round, advanceRound],
   );
 
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        safeArea: {
+          flex: 1,
+        },
+        scrollContent: {
+          flexGrow: 1,
+          paddingBottom: spacing.xl,
+        },
+        inner: {
+          width: '100%',
+          maxWidth: CONTENT_MAX_WIDTH,
+          alignSelf: 'center',
+          paddingHorizontal: spacing.lg,
+        },
+        banner: {
+          alignItems: 'center',
+          paddingTop: 28,
+          paddingBottom: 16,
+        },
+        wordMain: {
+          ...typography.puzzleWordMain,
+          color: colors.text,
+        },
+        wordRound: {
+          ...typography.puzzleWordRound,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginTop: 4,
+        },
+        contextContent: {
+          paddingHorizontal: 16,
+          paddingVertical: 13,
+          marginBottom: 14,
+        },
+        contextLabel: {
+          ...typography.etymLabel,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: 4,
+        },
+        contextText: {
+          fontFamily: typography.btnDemo.fontFamily,
+          fontSize: 13,
+          lineHeight: 19,
+          color: colors.text,
+          fontStyle: 'italic',
+        },
+        progressRow: {
+          flexDirection: 'row',
+          justifyContent: 'center',
+          gap: spacing.sm,
+          marginBottom: spacing.md,
+        },
+        progressDot: {
+          width: 8,
+          height: 8,
+          borderRadius: 4,
+          backgroundColor: colors.border,
+        },
+        progressDotDone: {
+          backgroundColor: colors.blush,
+          transform: [{ scale: 1.2 }],
+        },
+        board: {
+          gap: spacing.sm,
+        },
+        boardRow: {
+          flexDirection: 'row',
+          gap: spacing.sm,
+        },
+      }),
+    [colors],
+  );
+
   const progressDots = useMemo(
     () =>
       Array.from({ length: 3 }, (_, index) => (
@@ -170,7 +249,7 @@ export function PuzzleScreen() {
           style={[styles.progressDot, index < roundIndex && styles.progressDotDone]}
         />
       )),
-    [roundIndex],
+    [roundIndex, styles.progressDot, styles.progressDotDone],
   );
 
   if (!gymSessionWord || !round) return null;
@@ -181,22 +260,19 @@ export function PuzzleScreen() {
   }
 
   return (
-    <LinearGradient colors={[colors.bgFrom, colors.bgMid, colors.bgTo]} style={styles.gradient}>
+    <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
-        <ScrollView
-          contentContainerStyle={styles.scrollContent}
-          showsVerticalScrollIndicator={false}
-        >
+        <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={styles.inner}>
             <View style={styles.banner}>
               <Text style={styles.wordMain}>{gymSessionWord.word}</Text>
               <Text style={styles.wordRound}>{round.type}</Text>
             </View>
 
-            <View style={styles.contextCard}>
+            <GlassCard borderRadius={16} contentStyle={styles.contextContent}>
               <Text style={styles.contextLabel}>{round.label}</Text>
               <Text style={styles.contextText}>{stripHtml(round.context)}</Text>
-            </View>
+            </GlassCard>
 
             <View style={styles.progressRow}>{progressDots}</View>
 
@@ -216,91 +292,6 @@ export function PuzzleScreen() {
           </View>
         </ScrollView>
       </SafeAreaView>
-    </LinearGradient>
+    </GradientBackground>
   );
 }
-
-const styles = StyleSheet.create({
-  gradient: {
-    flex: 1,
-  },
-  safeArea: {
-    flex: 1,
-  },
-  scrollContent: {
-    flexGrow: 1,
-    paddingBottom: spacing.xl,
-  },
-  inner: {
-    width: '100%',
-    maxWidth: CONTENT_MAX_WIDTH,
-    alignSelf: 'center',
-    paddingHorizontal: spacing.lg,
-  },
-  banner: {
-    alignItems: 'center',
-    paddingTop: spacing.lg,
-    paddingBottom: spacing.md,
-  },
-  wordMain: {
-    fontFamily: fonts.serif,
-    fontSize: 32,
-    color: colors.text,
-    letterSpacing: -0.5,
-  },
-  wordRound: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 11,
-    letterSpacing: 1.2,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginTop: spacing.xs,
-  },
-  contextCard: {
-    backgroundColor: colors.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: 16,
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm + 2,
-    marginBottom: spacing.md,
-  },
-  contextLabel: {
-    fontFamily: fonts.sansSemiBold,
-    fontSize: 10,
-    letterSpacing: 1,
-    textTransform: 'uppercase',
-    color: colors.subtext,
-    marginBottom: spacing.xs,
-  },
-  contextText: {
-    fontFamily: fonts.sans,
-    fontSize: 13,
-    lineHeight: 19,
-    color: colors.text,
-    fontStyle: 'italic',
-  },
-  progressRow: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    gap: spacing.sm,
-    marginBottom: spacing.md,
-  },
-  progressDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: colors.border,
-  },
-  progressDotDone: {
-    backgroundColor: colors.blush,
-    transform: [{ scale: 1.2 }],
-  },
-  board: {
-    gap: spacing.sm,
-  },
-  boardRow: {
-    flexDirection: 'row',
-    gap: spacing.sm,
-  },
-});

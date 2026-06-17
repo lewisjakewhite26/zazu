@@ -82,6 +82,29 @@ function getSupabaseConfig() {
 
 let client: SupabaseClient | null = null;
 
+type AuthStorage = {
+  getItem: (key: string) => Promise<string | null>;
+  setItem: (key: string, value: string) => Promise<void>;
+  removeItem: (key: string) => Promise<void>;
+};
+
+/** Initialise Supabase with persistent auth (call once from AuthProvider). */
+export function initSupabaseAuth(storage: AuthStorage): SupabaseClient | null {
+  const { url, anonKey } = getSupabaseConfig();
+  if (!url || !anonKey || url.includes('YOUR_PROJECT')) return null;
+  if (!client) {
+    client = createClient(url, anonKey, {
+      auth: {
+        storage,
+        autoRefreshToken: true,
+        persistSession: true,
+        detectSessionInUrl: false,
+      },
+    });
+  }
+  return client;
+}
+
 export function getSupabase(): SupabaseClient | null {
   const { url, anonKey } = getSupabaseConfig();
   if (!url || !anonKey || url.includes('YOUR_PROJECT')) return null;

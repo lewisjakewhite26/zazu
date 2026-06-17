@@ -13,7 +13,7 @@ import { typography } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 
-export type PrimaryButtonVariant = 'filled' | 'outline';
+export type PrimaryButtonVariant = 'filled' | 'outline' | 'wake';
 export type PrimaryButtonSize = 'primary' | 'demo';
 
 export type PrimaryButtonProps = {
@@ -37,7 +37,8 @@ export function PrimaryButton({
   style,
   accessibilityLabel,
 }: PrimaryButtonProps) {
-  const { colors } = useTheme();
+  const { colors, blend } = useTheme();
+  const isNight = blend >= 0.5;
 
   const styles = useMemo(
     () =>
@@ -53,6 +54,15 @@ export function PrimaryButton({
           backgroundColor: colors.primaryButtonBg,
           paddingVertical: 15,
           paddingHorizontal: spacing.lg,
+        },
+        wake: {
+          backgroundColor: isNight ? colors.wakeButtonBgNight : colors.primaryButtonBg,
+          paddingVertical: 18,
+          paddingHorizontal: 52,
+          shadowColor: colors.ink,
+          shadowOpacity: 0.18,
+          shadowRadius: 16,
+          shadowOffset: { width: 0, height: 8 },
         },
         outline: {
           backgroundColor: 'transparent',
@@ -77,15 +87,20 @@ export function PrimaryButton({
           ...typography.btnPrimary,
           color: colors.primaryButtonText,
         },
+        labelWake: {
+          ...typography.btnWake,
+          color: isNight ? colors.wakeButtonTextNight : colors.primaryButtonText,
+        },
         labelOutline: {
           ...typography.btnDemo,
           color: colors.subtext,
         },
       }),
-    [colors],
+    [colors, isNight],
   );
 
-  const isFilled = variant === 'filled';
+  const isFilled = variant === 'filled' || variant === 'wake';
+  const isWake = variant === 'wake';
   const isDisabled = disabled || loading;
 
   return (
@@ -97,7 +112,7 @@ export function PrimaryButton({
       onPress={onPress}
       style={({ pressed }) => [
         styles.base,
-        isFilled ? styles.filled : styles.outline,
+        isWake ? styles.wake : isFilled ? styles.filled : styles.outline,
         pressed && !isDisabled && (isFilled ? styles.pressed : styles.pressedOutline),
         isDisabled && styles.disabled,
         style,
@@ -106,7 +121,7 @@ export function PrimaryButton({
       {loading ? (
         <ActivityIndicator color={isFilled ? colors.primaryButtonText : colors.text} />
       ) : (
-        <Text style={[styles.label, isFilled ? styles.labelFilled : styles.labelOutline]}>
+        <Text style={[styles.label, isWake ? styles.labelWake : isFilled ? styles.labelFilled : styles.labelOutline]}>
           {label}
         </Text>
       )}

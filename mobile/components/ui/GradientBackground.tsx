@@ -44,7 +44,7 @@ export function GradientBackground({ children, style }: GradientBackgroundProps)
 
   return (
     <LinearGradient
-      colors={colors}
+      colors={colors as [string, string, string]}
       locations={[0, 0.5, 1]}
       start={GRADIENT_START}
       end={GRADIENT_END}

@@ -57,9 +57,13 @@ export default function RootLayout() {
               <Stack.Screen name="learn" options={{ headerShown: false, gestureEnabled: false }} />
               <Stack.Screen name="morning-task" options={{ headerShown: false, gestureEnabled: false }} />
               <Stack.Screen name="puzzle" options={{ headerShown: false, gestureEnabled: false }} />
+              <Stack.Screen name="ad" options={{ headerShown: false, gestureEnabled: false }} />
               <Stack.Screen name="success" options={{ headerShown: false, gestureEnabled: false }} />
               <Stack.Screen name="gym-success" options={{ headerShown: false, gestureEnabled: false }} />
               <Stack.Screen name="calendar" options={{ headerShown: false }} />
+              <Stack.Screen name="settings" options={{ headerShown: false, presentation: 'modal' }} />
+              <Stack.Screen name="gold" options={{ headerShown: false, presentation: 'modal' }} />
+              <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
             </Stack>
           </NotificationBootstrap>
         </AlarmFlowProvider>

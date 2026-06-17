@@ -20,6 +20,7 @@ import {
 } from '@/components/calendar/CalendarIconRow';
 import { useCalendarStyles } from '@/components/calendar/calendarStyles';
 import { WordDetailSheet } from '@/components/calendar/WordDetailSheet';
+import { GradientBackground } from '@/components/ui/GradientBackground';
 import { copy } from '@/constants/copy';
 import { useProgress } from '@/hooks/useProgress';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
@@ -144,7 +145,8 @@ export function CalendarScreen() {
     : 'pending';
 
   return (
-    <SafeAreaView style={styles.screen} edges={['top', 'left', 'right']}>
+    <GradientBackground>
+      <SafeAreaView style={styles.screen} edges={['top', 'left', 'right']}>
       <ScrollView
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
@@ -270,7 +272,8 @@ export function CalendarScreen() {
         onClose={closeSheet}
         onUnlockGold={showGoldUpsell}
       />
-    </SafeAreaView>
+      </SafeAreaView>
+    </GradientBackground>
   );
 }
 

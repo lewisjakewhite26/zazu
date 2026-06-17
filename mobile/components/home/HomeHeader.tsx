@@ -119,7 +119,7 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
               colors={[colors.streakFlameStart, colors.streakFlameEnd]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
-              style={StyleSheet.absoluteFillObject}
+              style={StyleSheet.absoluteFill}
             />
             <Text style={styles.emoji}>🔥</Text>
           </View>
@@ -139,7 +139,7 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
               colors={[colors.coinGradientStart, colors.coinGradientEnd]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
-              style={StyleSheet.absoluteFillObject}
+              style={StyleSheet.absoluteFill}
             />
             <Text style={styles.coinEmoji}>🪙</Text>
           </View>

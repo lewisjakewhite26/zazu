@@ -74,6 +74,26 @@ export const colors = {
   cardDawnBorder: 'rgba(168,196,232,0.5)',
   sheetSecondary: 'rgba(255,255,255,0.72)',
   streakFlame: '#e8a040',
+  /** Success word card — index.html .word-card-success */
+  successWordGradientStart: 'rgba(249,201,168,0.28)',
+  successWordGradientEnd: 'rgba(200,180,232,0.28)',
+  successWordGradientStartNight: 'rgba(249,201,168,0.08)',
+  successWordGradientEndNight: 'rgba(200,180,232,0.08)',
+  /** Streak banner — index.html .streak-banner */
+  streakBannerStart: 'rgba(249,201,168,0.22)',
+  streakBannerEnd: 'rgba(240,160,188,0.22)',
+  streakBannerBorder: 'rgba(240,160,188,0.28)',
+  /** Wake / continue CTA at night — index.html .btn-wake */
+  wakeButtonBgNight: 'rgba(255,255,255,0.9)',
+  wakeButtonTextNight: '#2c1f2e',
+  /** Ad pill — index.html .ad-pill */
+  adPillBg: 'rgba(44,31,46,0.07)',
+  adPillBgNight: 'rgba(255,255,255,0.08)',
+  /** Alarm glow — index.html .alarm-glow */
+  alarmGlowLight: 'rgba(249,201,168,0.25)',
+  alarmGlowDark: 'rgba(200,180,232,0.15)',
+  /** Success glow — index.html .success-glow */
+  successGlow: 'rgba(168,216,176,0.3)',
 } as const;
 
 export const fonts = {
@@ -169,6 +189,105 @@ export const typography = {
   btnDemo: {
     fontFamily: fonts.sans,
     fontSize: 13, // .82rem
+  },
+  tagline: {
+    fontFamily: fonts.serif,
+    fontSize: 22,
+    letterSpacing: -0.44,
+    lineHeight: 28,
+  },
+  eyebrow: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 11, // .68rem
+    letterSpacing: 1.32, // .12em
+  },
+  learnWord: {
+    fontFamily: fonts.serif,
+    fontSize: 42, // clamp max ~8vw
+    letterSpacing: -0.84,
+  },
+  learnPron: {
+    fontFamily: fonts.sans,
+    fontSize: 14, // .88rem
+    fontStyle: 'italic' as const,
+  },
+  learnDef: {
+    fontFamily: fonts.sans,
+    fontSize: 16,
+    lineHeight: 24,
+  },
+  etymLabel: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 10, // .62rem
+    letterSpacing: 1,
+  },
+  etymBody: {
+    fontFamily: fonts.sans,
+    fontSize: 14, // .88rem
+    lineHeight: 22,
+  },
+  mtQuestion: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 17, // 1.05rem
+    lineHeight: 25,
+  },
+  mtOption: {
+    fontFamily: fonts.sans,
+    fontSize: 15, // .92rem
+    lineHeight: 22,
+  },
+  alarmBigTime: {
+    fontFamily: fonts.serif,
+    fontSize: 96,
+    letterSpacing: -4.8,
+    lineHeight: 96,
+  },
+  alarmLabel: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 12, // .72rem
+    letterSpacing: 1.68, // .14em
+  },
+  alarmTease: {
+    fontFamily: fonts.sans,
+    fontSize: 14, // .9rem
+  },
+  alarmSub: {
+    fontFamily: fonts.sans,
+    fontSize: 12, // .78rem
+    fontWeight: '300' as const,
+  },
+  btnWake: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 17, // 1.05rem
+  },
+  successHeading: {
+    fontFamily: fonts.serif,
+    fontSize: 36,
+    letterSpacing: -0.72,
+  },
+  successSub: {
+    fontFamily: fonts.sans,
+    fontSize: 15, // .92rem
+    fontWeight: '300' as const,
+  },
+  puzzleWordMain: {
+    fontFamily: fonts.serif,
+    fontSize: 32,
+    letterSpacing: -0.64,
+  },
+  puzzleWordRound: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 11, // .68rem
+    letterSpacing: 1.32,
+  },
+  adBrand: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 18,
+  },
+  adCopy: {
+    fontFamily: fonts.sans,
+    fontSize: 13, // .84rem
+    lineHeight: 20,
   },
 } as const;
 

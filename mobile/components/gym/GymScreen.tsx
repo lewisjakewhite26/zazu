@@ -1,20 +1,21 @@
 import { useCallback, useMemo } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HomeHeader } from '@/components/home/HomeHeader';
+import { GlassCard } from '@/components/ui/GlassCard';
+import { GradientBackground } from '@/components/ui/GradientBackground';
+import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
-import { fonts } from '@/constants/theme';
+import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
-import { stripHtml } from '../../../lib/puzzle-utils';
 import type { UserWordProgressLocal } from '../../../lib/morning-task';
 
 export function GymScreen() {
@@ -61,11 +62,9 @@ export function GymScreen() {
           marginBottom: spacing.md,
         },
         eyebrow: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 11,
-          letterSpacing: 1,
-          textTransform: 'uppercase',
+          ...typography.eyebrow,
           color: colors.subtext,
+          textTransform: 'uppercase',
           marginBottom: spacing.xs,
         },
         subtitle: {
@@ -83,46 +82,30 @@ export function GymScreen() {
         },
         wordCard: {
           width: '100%',
-          borderRadius: 22,
-          borderWidth: 1,
-          borderColor: colors.border,
-          backgroundColor: colors.card,
+        },
+        wordCardInner: {
           padding: spacing.lg,
         },
         wordLabel: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 10,
-          letterSpacing: 1,
-          textTransform: 'uppercase',
+          ...typography.wotdEyebrow,
           color: colors.subtext,
+          textTransform: 'uppercase',
           marginBottom: spacing.sm,
         },
         word: {
-          fontFamily: fonts.serif,
-          fontSize: 32,
+          ...typography.wordHero,
           color: colors.text,
           marginBottom: spacing.xs,
         },
         pron: {
-          fontFamily: fonts.sans,
-          fontSize: 13,
-          fontStyle: 'italic',
+          ...typography.wotdPron,
           color: colors.subtext,
           marginBottom: spacing.md,
         },
         def: {
-          fontFamily: fonts.sans,
-          fontSize: 15,
-          lineHeight: 22,
+          ...typography.wotdDef,
           color: colors.text,
           marginBottom: spacing.sm,
-        },
-        origin: {
-          fontFamily: fonts.sans,
-          fontSize: 13,
-          lineHeight: 20,
-          color: colors.subtext,
-          marginBottom: spacing.md,
         },
         masteryRow: {
           flexDirection: 'row',
@@ -175,11 +158,7 @@ export function GymScreen() {
   }, [word, startGymFlow, router]);
 
   return (
-    <LinearGradient
-      colors={[colors.bgFrom, colors.bgMid, colors.bgTo]}
-      locations={[0, 0.5, 1]}
-      style={styles.gradient}
-    >
+    <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
         <View style={styles.inner}>
           <HomeHeader streak={streak} coins={coins} loading={progressLoading} />
@@ -198,14 +177,14 @@ export function GymScreen() {
             {loading || !word ? (
               <Text style={styles.loading}>{copy.home.wordOfDayLoading}</Text>
             ) : (
-              <View style={styles.wordCard}>
+              <GlassCard borderRadius={radii.wotd} style={styles.wordCard} contentStyle={styles.wordCardInner}>
                 <Text style={styles.wordLabel}>{copy.gym.todaysWord}</Text>
                 <Text style={styles.word}>{word.word}</Text>
                 <Text style={styles.pron}>
                   {word.pronunciation} · {word.pos}
                 </Text>
                 <Text style={styles.def}>{word.definition}</Text>
-                <Text style={styles.origin}>{stripHtml(word.origin)}</Text>
+                <OriginText origin={word.origin} style={{ marginBottom: spacing.md }} />
 
                 <View style={styles.masteryRow}>
                   <Text style={styles.masteryLabel}>{copy.gym.mastery}</Text>
@@ -217,7 +196,7 @@ export function GymScreen() {
                         : copy.gym.masteryNew}
                   </Text>
                 </View>
-              </View>
+              </GlassCard>
             )}
           </ScrollView>
 
@@ -230,6 +209,6 @@ export function GymScreen() {
           </View>
         </View>
       </SafeAreaView>
-    </LinearGradient>
+    </GradientBackground>
   );
 }

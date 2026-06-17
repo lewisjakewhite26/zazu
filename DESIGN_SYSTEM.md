@@ -11,13 +11,11 @@
 
 | Screen / surface | Status | Reference |
 |------------------|--------|-----------|
-| **Home** (mobile) | **Done** — matches `index.html` light + dark | `New SS/home-light.png`, `New SS/home-dark.png` |
-| Alarm, learn, morning task, success | Pending | Use home tokens; do not invent colours |
-| Add alarm, calendar, Word Gym tab | Pending | Legacy palette / partial `useTheme()` |
-| Settings, onboarding, Gold | Pending | Not yet aligned |
+| **Home** (mobile) | **Done** | `New SS/home-light.png`, `New SS/home-dark.png` |
+| **Alarm flow** (alarm → learn → morning task → success) | **Done** | Matches `index.html` tokens + components |
+| **Word Gym** (tab → puzzle → ad → gym-success) | **Done** | Includes mock ad screen |
+| **Add alarm, calendar, settings, onboarding, Gold** | **Done** | Same `GradientBackground` + `GlassCard` + `useTheme()` |
 | Web (`index.html`) | Source of truth | — |
-
-**Next milestone (ROADMAP P2 #36):** Finalise mobile UI for all remaining pages against `index.html`.
 
 ---
 

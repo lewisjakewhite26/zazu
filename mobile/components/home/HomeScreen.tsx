@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
@@ -32,7 +33,13 @@ export function HomeScreen() {
     completeWord,
     setLastCompletedDateDebug,
   } = useProgress();
-  const { loading: wordsLoading, alarmWordOfDay } = useWordLibrary(learnedWordIds);
+  const {
+    loading: wordsLoading,
+    fetchFailed: wordsFetchFailed,
+    retry: retryWordLibrary,
+    retrying: wordsRetrying,
+    alarmWordOfDay,
+  } = useWordLibrary(learnedWordIds);
 
   const handleToggleAlarm = useCallback(
     (id: string, enabled: boolean) => {
@@ -66,6 +73,10 @@ export function HomeScreen() {
             showsVerticalScrollIndicator={false}
             keyboardShouldPersistTaps="handled"
           >
+            {wordsFetchFailed ? (
+              <WordLibraryErrorBanner onRetry={retryWordLibrary} retrying={wordsRetrying} />
+            ) : null}
+
             <WordOfDayCard {...alarmWordOfDay} loading={wordsLoading} />
 
             <Text style={[styles.sectionLabel, { color: colors.subtext }]}>

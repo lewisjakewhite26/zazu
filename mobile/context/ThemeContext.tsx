@@ -56,6 +56,20 @@ const STATIC_EXTRAS = {
   cardDawnBorder: staticColors.cardDawnBorder,
   sheetSecondary: staticColors.sheetSecondary,
   streakFlame: staticColors.streakFlame,
+  successWordGradientStart: staticColors.successWordGradientStart,
+  successWordGradientEnd: staticColors.successWordGradientEnd,
+  successWordGradientStartNight: staticColors.successWordGradientStartNight,
+  successWordGradientEndNight: staticColors.successWordGradientEndNight,
+  streakBannerStart: staticColors.streakBannerStart,
+  streakBannerEnd: staticColors.streakBannerEnd,
+  streakBannerBorder: staticColors.streakBannerBorder,
+  wakeButtonBgNight: staticColors.wakeButtonBgNight,
+  wakeButtonTextNight: staticColors.wakeButtonTextNight,
+  adPillBg: staticColors.adPillBg,
+  adPillBgNight: staticColors.adPillBgNight,
+  alarmGlowLight: staticColors.alarmGlowLight,
+  alarmGlowDark: staticColors.alarmGlowDark,
+  successGlow: staticColors.successGlow,
 } as const;
 
 function mergePalette(palette: ThemePalette) {
