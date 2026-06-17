@@ -1,8 +1,9 @@
 import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 
 import { copy } from '@/constants/copy';
-import { fonts } from '@/constants/theme';
+import { typography } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import type { HomeStats } from '@/types/home';
@@ -24,38 +25,50 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
-          gap: spacing.sm,
-          paddingBottom: spacing.md,
+          gap: 10,
+          paddingTop: 12,
+          paddingBottom: spacing.lg,
         },
         wordmark: {
-          fontFamily: fonts.serif,
-          fontSize: 26,
+          ...typography.wordmark,
           color: colors.text,
-          letterSpacing: -0.5,
           flexShrink: 0,
         },
         statsRow: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: spacing.sm,
+          gap: 8,
           flexShrink: 1,
         },
-        pill: {
+        streakPill: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: spacing.sm,
+          gap: 8,
           backgroundColor: colors.card,
           borderWidth: 1,
           borderColor: colors.border,
           borderRadius: 999,
           paddingVertical: 7,
-          paddingHorizontal: 12,
+          paddingRight: 13,
+          paddingLeft: 8,
+        },
+        coinPill: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 6,
+          backgroundColor: colors.card,
+          borderWidth: 1,
+          borderColor: colors.border,
+          borderRadius: 999,
+          paddingVertical: 7,
+          paddingRight: 12,
+          paddingLeft: 7,
         },
         flameCircle: {
           width: 26,
           height: 26,
           borderRadius: 13,
-          backgroundColor: 'rgba(249,180,80,0.35)',
+          overflow: 'hidden',
           alignItems: 'center',
           justifyContent: 'center',
         },
@@ -63,7 +76,7 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           width: 22,
           height: 22,
           borderRadius: 11,
-          backgroundColor: '#f0c060',
+          overflow: 'hidden',
           alignItems: 'center',
           justifyContent: 'center',
         },
@@ -74,16 +87,18 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           fontSize: 11,
         },
         statValue: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 15,
+          ...typography.streakCount,
           color: colors.text,
         },
         statLabel: {
-          fontFamily: fonts.sansMedium,
-          fontSize: 9,
-          letterSpacing: 0.8,
+          ...typography.streakLabel,
           textTransform: 'uppercase',
           color: colors.subtext,
+          marginTop: 1,
+        },
+        coinValue: {
+          ...typography.coinAmount,
+          color: colors.text,
         },
       }),
     [colors],
@@ -95,11 +110,17 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
 
       <View style={styles.statsRow}>
         <View
-          style={styles.pill}
+          style={styles.streakPill}
           accessibilityRole="text"
           accessibilityLabel={copy.a11y.streak(streak)}
         >
           <View style={styles.flameCircle}>
+            <LinearGradient
+              colors={[colors.streakFlameStart, colors.streakFlameEnd]}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={StyleSheet.absoluteFillObject}
+            />
             <Text style={styles.emoji}>🔥</Text>
           </View>
           <View>
@@ -109,14 +130,20 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
         </View>
 
         <View
-          style={styles.pill}
+          style={styles.coinPill}
           accessibilityRole="text"
           accessibilityLabel={copy.a11y.coins(coins)}
         >
           <View style={styles.coinCircle}>
+            <LinearGradient
+              colors={[colors.coinGradientStart, colors.coinGradientEnd]}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={StyleSheet.absoluteFillObject}
+            />
             <Text style={styles.coinEmoji}>🪙</Text>
           </View>
-          <Text style={styles.statValue}>{coinsLabel}</Text>
+          <Text style={styles.coinValue}>{coinsLabel}</Text>
         </View>
       </View>
     </View>

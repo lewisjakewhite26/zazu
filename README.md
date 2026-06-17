@@ -2,19 +2,19 @@
 
 Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word, and learn it before the day starts. The web prototype and Expo mobile app run the gentle alarm flow: **reveal → learn → one morning task → dismiss**. Word Gym (3-round puzzle) is available from the calendar. The word library (395 words) lives in `zazu-words.json` and syncs to Supabase.
 
-**Status (round 5):** ~88/100 platform score · ~78/100 vision-aligned · See [AUDIT.md](AUDIT.md) and [ROADMAP.md](ROADMAP.md).
+**Status (round 6):** ~89/100 platform score · ~80/100 vision-aligned · See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
 
 ## What works today
 
 | Surface | Built |
 |---------|--------|
 | **Web** (`index.html`) | Home, alarm demo, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; **progress** in `localStorage` (streak, coins, learned words) |
-| **Mobile** (Expo) | Home + **Word Gym tab**, add alarm, alarm, **learn**, **morning task**, success, **calendar**; scheduled notifications; `completeGym()` + gym success screen; **adaptive theme** on home, calendar, gym tab, tab bar |
+| **Mobile** (Expo) | Home **matches `index.html` prototype** (light + dark); Word Gym tab, add alarm, alarm, learn, morning task, success, calendar; scheduled notifications; `completeGym()` + gym success screen; adaptive theme on home, calendar, gym tab, tab bar |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
 | **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
 
-**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), auth, paywall, and coin shop.
+**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), auth, paywall, coin shop, and **prototype-aligned UI on non-home mobile screens** (ROADMAP P2 #36).
 
 ### Web vs mobile — what persists
 
@@ -50,13 +50,15 @@ zazu/
 │   ├── useAlarms.ts          Alarm list + notification sync
 │   ├── morning-task.ts       Morning task runtime helpers
 │   ├── morning-task.js       Browser morning-task helper for index.html
-│   ├── adaptive-theme.ts     Gradual light/dark theme (30 min dusk/dawn)
+│   ├── adaptive-theme.ts     Gradual light/dark theme (30 min dusk/dawn; night-snap tokens)
 │   ├── adaptive-theme.js     Browser theme helper for index.html
 │   ├── progress-web.js       Browser streak/coins store (localStorage)
 │   └── words-api.js          Browser loader for index.html
+├── New SS/                   Approved mobile UI screenshots (home light/dark)
 ├── vercel.json               Vercel static deploy config
 ├── scripts/
 │   ├── vercel-build.mjs      Copies index.html + lib/ into dist/ for Vercel
+│   ├── capture-new-ss.mjs    Capture mobile home screenshots (Expo web)
 │   ├── seed-words.mjs        Upload words to Supabase
 │   ├── import-word-batch.mjs Merge batch JSON into zazu-words.json
 │   ├── generate-morning-tasks.mjs
@@ -69,8 +71,9 @@ zazu/
 ├── public/
 │   └── config.js             Generated Supabase keys for browser (gitignored)
 ├── writing-rules.md          Copy and voice guidelines
+├── DESIGN_SYSTEM.md          Mobile design tokens (from index.html) + alignment status
 ├── AUDIT.md                  Product audit (latest scores and gaps)
-├── ROADMAP.md                P0–P3 development priorities
+├── ROADMAP.md                P0–P3 development priorities (incl. P2 #36 UI finalisation)
 └── .env.example              Environment variable template
 ```
 

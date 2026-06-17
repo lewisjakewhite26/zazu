@@ -11,6 +11,8 @@ export const copy = {
     yourAlarms: 'Your alarms',
     addAlarm: '+ Add alarm',
     tryTheAlarm: 'Try the alarm',
+    switchToLightMode: '☀️ Switch to light mode',
+    switchToDarkMode: '🌙 Switch to dark mode',
     dayStreak: 'day streak',
     weekdaysPack: 'Weekdays · Words pack',
     weekendsPack: 'Weekends · Words pack',

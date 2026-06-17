@@ -1,9 +1,14 @@
 /**
  * Gradual light ↔ dark theme over 30 minutes at dusk and dawn.
  * Dusk: 20:30–21:00 · Dawn: 5:30–6:00 · Full dark: 21:00–5:30
+ *
+ * Matches index.html: eight CSS variables lerp during dawn/dusk;
+ * body.night rules snap at blend >= 0.5.
  */
 
-export type ThemePalette = {
+import { colorsDark, colorsLight } from '../mobile/constants/theme';
+
+export type BlendablePalette = {
   bgFrom: string;
   bgMid: string;
   bgTo: string;
@@ -14,48 +19,73 @@ export type ThemePalette = {
   card: string;
 };
 
-export const THEME_LIGHT: ThemePalette = {
-  bgFrom: '#fde8d8',
-  bgMid: '#dde8f8',
-  bgTo: '#ede0f8',
-  text: '#2c1f2e',
-  subtext: '#9080a0',
-  ink: '#2c1f2e',
-  border: 'rgba(44,31,46,0.1)',
-  card: 'rgba(255,255,255,0.72)',
+export type NightSnapPalette = {
+  wotdGradientStart: string;
+  wotdGradientEnd: string;
+  posBadgeBg: string;
+  primaryButtonBg: string;
+  primaryButtonText: string;
 };
 
-export const THEME_DARK: ThemePalette = {
-  bgFrom: '#1a1225',
-  bgMid: '#1a1830',
-  bgTo: '#0e0c1a',
-  text: '#f0e8f8',
-  subtext: '#b0a0c8',
-  ink: '#f0e8f8',
-  border: 'rgba(255,255,255,0.13)',
-  card: 'rgba(255,255,255,0.11)',
+export type ThemePalette = BlendablePalette & NightSnapPalette;
+
+const LIGHT_BLEND: BlendablePalette = {
+  bgFrom: colorsLight.bgFrom,
+  bgMid: colorsLight.bgMid,
+  bgTo: colorsLight.bgTo,
+  text: colorsLight.text,
+  subtext: colorsLight.subtext,
+  ink: colorsLight.ink,
+  border: colorsLight.border,
+  card: colorsLight.card,
 };
+
+const DARK_BLEND: BlendablePalette = {
+  bgFrom: colorsDark.bgFrom,
+  bgMid: colorsDark.bgMid,
+  bgTo: colorsDark.bgTo,
+  text: colorsDark.text,
+  subtext: colorsDark.subtext,
+  ink: colorsDark.ink,
+  border: colorsDark.border,
+  card: colorsDark.card,
+};
+
+const LIGHT_SNAP: NightSnapPalette = {
+  wotdGradientStart: 'rgba(249,201,168,0.35)',
+  wotdGradientEnd: 'rgba(200,180,232,0.35)',
+  posBadgeBg: 'rgba(44,31,46,0.07)',
+  primaryButtonBg: colorsLight.ink,
+  primaryButtonText: colorsLight.white,
+};
+
+const DARK_SNAP: NightSnapPalette = {
+  wotdGradientStart: 'rgba(249,201,168,0.08)',
+  wotdGradientEnd: 'rgba(200,180,232,0.08)',
+  posBadgeBg: 'rgba(255,255,255,0.08)',
+  primaryButtonBg: 'rgba(255,255,255,0.12)',
+  primaryButtonText: colorsDark.text,
+};
+
+export const THEME_LIGHT: ThemePalette = { ...LIGHT_BLEND, ...LIGHT_SNAP };
+export const THEME_DARK: ThemePalette = { ...DARK_BLEND, ...DARK_SNAP };
 
 /** 0 = full light, 1 = full dark */
 export function getThemeBlend(date: Date = new Date()): number {
   const minutes = date.getHours() * 60 + date.getMinutes() + date.getSeconds() / 60;
 
-  // Dawn 5:30–6:00: dark → light
   if (minutes >= 330 && minutes < 360) {
     return 1 - (minutes - 330) / 30;
   }
 
-  // Day 6:00–20:30
   if (minutes >= 360 && minutes < 1230) {
     return 0;
   }
 
-  // Dusk 20:30–21:00: light → dark
   if (minutes >= 1230 && minutes < 1260) {
     return (minutes - 1230) / 30;
   }
 
-  // Night 21:00–5:30
   return 1;
 }
 
@@ -104,11 +134,12 @@ export function lerpColor(from: string, to: string, t: number): string {
   return `#${[r, g, b].map((c) => c.toString(16).padStart(2, '0')).join('')}`;
 }
 
+/** Lerp only the eight CSS variables from index.html (:root). */
 export function blendThemePalette(
   blend: number,
-  light: ThemePalette = THEME_LIGHT,
-  dark: ThemePalette = THEME_DARK,
-): ThemePalette {
+  light: BlendablePalette = LIGHT_BLEND,
+  dark: BlendablePalette = DARK_BLEND,
+): BlendablePalette {
   return {
     bgFrom: lerpColor(light.bgFrom, dark.bgFrom, blend),
     bgMid: lerpColor(light.bgMid, dark.bgMid, blend),
@@ -121,11 +152,18 @@ export function blendThemePalette(
   };
 }
 
+function snapPalette(isNight: boolean): NightSnapPalette {
+  return isNight ? DARK_SNAP : LIGHT_SNAP;
+}
+
 export function resolveThemePalette(
   date: Date = new Date(),
   override: 'light' | 'dark' | null = null,
 ): ThemePalette {
-  if (override === 'light') return { ...THEME_LIGHT };
-  if (override === 'dark') return { ...THEME_DARK };
-  return blendThemePalette(getThemeBlend(date));
+  let blend: number;
+  if (override === 'light') blend = 0;
+  else if (override === 'dark') blend = 1;
+  else blend = getThemeBlend(date);
+
+  return { ...blendThemePalette(blend), ...snapPalette(blend >= 0.5) };
 }

@@ -1,10 +1,10 @@
-# Zazu product audit (round 5)
+# Zazu product audit (round 6)
 
-**Date:** June 2025  
-**Overall score: ~88 / 100** (up from ~85 after gentle alarm flow + adaptive theme)  
-**Vision-aligned product: ~78 / 100** (up from ~68; core alarm UX now matches vision)
+**Date:** June 2026  
+**Overall score: ~89 / 100** (up from ~88 after mobile home UI prototype alignment)  
+**Vision-aligned product: ~80 / 100** (up from ~78; home screen now matches web prototype exactly)
 
-See [ROADMAP.md](ROADMAP.md) for what to build next.
+See [ROADMAP.md](ROADMAP.md) for what to build next. Design tokens and alignment status: [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
 
 ---
 
@@ -12,46 +12,41 @@ See [ROADMAP.md](ROADMAP.md) for what to build next.
 
 | Area | Score | Δ vs R4 | Summary |
 |------|------:|---------|---------|
-| **Product vision & UX** | 78 | +18 | Gentle alarm flow shipped (learn → one MCQ → dismiss) on web and mobile. Word Gym tab still missing. |
-| **Mobile app** | 89 | +3 | Nine routes including `/learn` and `/morning-task`; adaptive theme on alarm flow; calendar Gym deep link fixed. |
-| **Web prototype** | 88 | +4 | Alarm path uses `fetchAlarmWords` + morning task UI; gradual light/dark theme over 30 minutes. |
+| **Product vision & UX** | 80 | +2 | Home screen matches `index.html` light + dark; alarm flow still uses legacy styling on mobile. |
+| **Mobile app** | 91 | +2 | Home prototype-aligned (`theme.ts` from HTML, glass cards, WOTD hero, animated toggle); nine routes; alarm flow functional. |
+| **Web prototype** | 88 | 0 | Source of truth for design tokens; alarm path uses `fetchAlarmWords` + morning task UI; gradual light/dark theme. |
 | **Content & words** | 96 | 0 | **395 words** (A–Z), morning tasks validated, Supabase synced. |
 | **Backend & data** | 93 | 0 | Unchanged; auth and cloud progress still unwired. |
 | **Monetisation** | 26 | 0 | All words free; Gold is calendar UI preview only. |
 | **Launch readiness** | 68 | +3 | Core product loop matches vision; P1 #9 device sign-off still open. |
-| **Documentation & ops** | 82 | +14 | README, ROADMAP, and this audit refreshed to match shipped features. |
+| **Documentation & ops** | 86 | +4 | README, ROADMAP, DESIGN_SYSTEM, and this audit refreshed; approved home screenshots in `New SS/`. |
 
-**Weighted overall: ~88/100**
+**Weighted overall: ~89/100**
 
-**Vision-aligned product score: ~78/100**
+**Vision-aligned product score: ~80/100**
 
 ---
 
-## What improved since round 4 (~85)
+## What improved since round 5 (~88)
 
 ### Shipped and real
 
-- **Gentle alarm flow** on mobile: `/alarm` → `/learn` → `/morning-task` → `/success`
-- **Web parity:** learn screen, morning task MCQ, `fetchAlarmWords`, distractor pool via Supabase
-- **Gradual adaptive theme:** 30-minute dusk (20:30–21:00) and dawn (5:30–6:00) transitions on web and mobile alarm screens
-- **Word Gym split:** alarm uses `ZazuAlarmWord`; puzzle uses `gymSessionWord` + `completeGym()` from calendar
-- **Calendar fix:** “Open in Word Gym” calls `startGymFlow()` before `/puzzle`
-- **Shared libs:** `lib/adaptive-theme.ts`, `lib/morning-task.js`, mobile `ThemeProvider`
+- **Mobile home UI prototype alignment:** exact tokens from `index.html` (`theme.ts`), night-snap adaptive palette, `GradientBackground`, `GlassCard`, `AnimatedToggle`, WOTD hero — approved light/dark screenshots (`New SS/home-light.png`, `New SS/home-dark.png`)
+- **Design system doc:** `DESIGN_SYSTEM.md` documents tokens, primitives, and per-screen alignment status
+- **Expo web stability:** removed `useFocusEffect` from shared hooks (SDK 56 crash fix)
 
 ### Still open
 
-- Word Gym tab or home entry point (P2b #24)
-- Gym completion success screen and calendar `gymCompleted` sync from local progress
-- Full adaptive theme on home and calendar (alarm flow only today)
+- **P2 #36:** Finalise mobile UI for all remaining pages (alarm flow, calendar, gym, settings, onboarding, Gold)
 - Auth, IAP, P1 #9 device verification
 
 ---
 
 ## Critical gaps (ordered by impact)
 
-### 1. Word Gym as a product surface
+### 1. Mobile UI consistency (P2 #36)
 
-`get_words_for_gym`, `completeGym()`, and calendar deep link work. No dedicated Gym tab, no gym success recap, calendar may not reflect gym completion from local progress yet.
+Home matches `index.html`. Alarm flow, calendar, Word Gym tab, settings, onboarding, and Gold still use legacy styling — need the same token system and UI primitives applied screen by screen.
 
 ### 2. Monetisation
 

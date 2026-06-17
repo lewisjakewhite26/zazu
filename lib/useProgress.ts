@@ -1,6 +1,5 @@
 // @ts-nocheck — resolved via mobile/node_modules at runtime; re-exported through mobile/hooks/useProgress.ts
 import { useCallback, useEffect, useState } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import type { UserWordProgressLocal } from './morning-task';
@@ -210,15 +209,6 @@ export function useProgress() {
       cancelled = true;
     };
   }, [applyProgress]);
-
-  useFocusEffect(
-    useCallback(() => {
-      void (async () => {
-        const saved = await readProgress();
-        applyProgress(saved);
-      })();
-    }, [applyProgress]),
-  );
 
   /** Morning alarm completion. Updates streak, coins, and learnedWordIds only. */
   const completeWord = useCallback(

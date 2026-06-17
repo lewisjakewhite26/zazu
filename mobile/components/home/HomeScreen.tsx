@@ -1,6 +1,5 @@
 import { useCallback } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -8,10 +7,11 @@ import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
-import { copy } from '@/constants/copy';
-import { fonts } from '@/constants/theme';
-import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { GradientBackground } from '@/components/ui/GradientBackground';
 import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
+import { copy } from '@/constants/copy';
+import { typography } from '@/constants/theme';
+import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
 import { useProgress } from '@/hooks/useProgress';
@@ -21,7 +21,7 @@ import { useAlarmFlow } from '@/context/AlarmFlowContext';
 export function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { colors } = useTheme();
+  const { colors, blend, toggleOverride } = useTheme();
   const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, toggleAlarm } = useAlarms();
   const {
@@ -51,12 +51,11 @@ export function HomeScreen() {
     router.push('/alarm');
   }, [startFlow, alarmWordOfDay, router]);
 
+  const themeToggleLabel =
+    blend >= 0.5 ? copy.home.switchToLightMode : copy.home.switchToDarkMode;
+
   return (
-    <LinearGradient
-      colors={[colors.bgFrom, colors.bgMid, colors.bgTo]}
-      locations={[0, 0.5, 1]}
-      style={styles.gradient}
-    >
+    <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
         <View style={styles.inner}>
           <HomeHeader streak={streak} coins={coins} loading={progressLoading} />
@@ -88,31 +87,29 @@ export function HomeScreen() {
             />
           </ScrollView>
 
-          <View style={[styles.footer, { paddingBottom: insets.bottom || spacing.md }]}>
-            <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} />
-            <PrimaryButton
-              label={copy.calendar.title}
-              variant="outline"
-              onPress={() => router.push('/calendar')}
-              style={styles.secondaryButton}
-            />
+          <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, spacing.md) }]}>
+            <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} style={styles.addAlarmBtn} />
             <PrimaryButton
               label={copy.home.tryTheAlarm}
               variant="outline"
+              size="demo"
               onPress={handleDemoAlarm}
-              style={styles.secondaryButton}
+            />
+            <PrimaryButton
+              label={themeToggleLabel}
+              variant="outline"
+              size="demo"
+              onPress={toggleOverride}
+              style={styles.themeBtn}
             />
           </View>
         </View>
       </SafeAreaView>
-    </LinearGradient>
+    </GradientBackground>
   );
 }
 
 const styles = StyleSheet.create({
-  gradient: {
-    flex: 1,
-  },
   safeArea: {
     flex: 1,
   },
@@ -131,24 +128,24 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.sm,
   },
   sectionLabel: {
-    width: '100%',
-    fontFamily: fonts.sansSemiBold,
-    fontSize: 11,
-    letterSpacing: 1,
+    ...typography.sectionLabel,
     textTransform: 'uppercase',
-    marginBottom: spacing.sm,
+    marginBottom: 10,
   },
   alarmList: {
     width: '100%',
-    gap: spacing.sm,
+    gap: 10,
+    marginBottom: 18,
   },
   footer: {
     width: '100%',
     paddingTop: spacing.sm,
     gap: spacing.sm,
-    backgroundColor: 'transparent',
   },
-  secondaryButton: {
+  addAlarmBtn: {
+    marginBottom: 4,
+  },
+  themeBtn: {
     marginTop: 0,
   },
 });

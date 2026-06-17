@@ -1,6 +1,5 @@
 // @ts-nocheck
 import { useCallback, useEffect, useState } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { DEFAULT_ALARMS, type Alarm } from './alarm';
@@ -64,15 +63,6 @@ export function useAlarms() {
       cancelled = true;
     };
   }, []);
-
-  useFocusEffect(
-    useCallback(() => {
-      void (async () => {
-        const saved = await readAlarms();
-        setAlarms(saved);
-      })();
-    }, []),
-  );
 
   const toggleAlarm = useCallback(
     async (id: string, enabled: boolean) => {

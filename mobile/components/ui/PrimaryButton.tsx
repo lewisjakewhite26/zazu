@@ -9,16 +9,18 @@ import {
   type ViewStyle,
 } from 'react-native';
 
-import { fonts } from '@/constants/theme';
+import { typography } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 
 export type PrimaryButtonVariant = 'filled' | 'outline';
+export type PrimaryButtonSize = 'primary' | 'demo';
 
 export type PrimaryButtonProps = {
   label: string;
   onPress: PressableProps['onPress'];
   variant?: PrimaryButtonVariant;
+  size?: PrimaryButtonSize;
   disabled?: boolean;
   loading?: boolean;
   style?: StyleProp<ViewStyle>;
@@ -29,13 +31,13 @@ export function PrimaryButton({
   label,
   onPress,
   variant = 'filled',
+  size = 'primary',
   disabled = false,
   loading = false,
   style,
   accessibilityLabel,
 }: PrimaryButtonProps) {
-  const { colors, blend } = useTheme();
-  const labelOnInk = blend >= 0.5 ? '#2c1f2e' : colors.white;
+  const { colors } = useTheme();
 
   const styles = useMemo(
     () =>
@@ -43,39 +45,44 @@ export function PrimaryButton({
         base: {
           width: '100%',
           minHeight: MIN_TOUCH_TARGET,
-          paddingHorizontal: spacing.lg,
-          paddingVertical: spacing.md,
           borderRadius: 999,
           alignItems: 'center',
           justifyContent: 'center',
         },
         filled: {
-          backgroundColor: colors.ink,
+          backgroundColor: colors.primaryButtonBg,
+          paddingVertical: 15,
+          paddingHorizontal: spacing.lg,
         },
         outline: {
           backgroundColor: 'transparent',
           borderWidth: 1.5,
           borderColor: colors.border,
+          paddingVertical: 11,
+          paddingHorizontal: 24,
         },
         pressed: {
           opacity: 0.85,
+        },
+        pressedOutline: {
+          opacity: 0.7,
         },
         disabled: {
           opacity: 0.5,
         },
         label: {
-          fontFamily: fonts.sansMedium,
-          fontSize: 16,
           textAlign: 'center',
         },
         labelFilled: {
-          color: labelOnInk,
+          ...typography.btnPrimary,
+          color: colors.primaryButtonText,
         },
         labelOutline: {
+          ...typography.btnDemo,
           color: colors.subtext,
         },
       }),
-    [colors, labelOnInk],
+    [colors],
   );
 
   const isFilled = variant === 'filled';
@@ -91,13 +98,13 @@ export function PrimaryButton({
       style={({ pressed }) => [
         styles.base,
         isFilled ? styles.filled : styles.outline,
-        pressed && !isDisabled && styles.pressed,
+        pressed && !isDisabled && (isFilled ? styles.pressed : styles.pressedOutline),
         isDisabled && styles.disabled,
         style,
       ]}
     >
       {loading ? (
-        <ActivityIndicator color={isFilled ? labelOnInk : colors.text} />
+        <ActivityIndicator color={isFilled ? colors.primaryButtonText : colors.text} />
       ) : (
         <Text style={[styles.label, isFilled ? styles.labelFilled : styles.labelOutline]}>
           {label}

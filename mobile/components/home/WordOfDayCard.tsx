@@ -1,9 +1,11 @@
 import { useMemo } from 'react';
-import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, Text, View, ActivityIndicator } from 'react-native';
+import { BlurView } from 'expo-blur';
+import { LinearGradient } from 'expo-linear-gradient';
 
+import { OriginText } from '@/components/ui/OriginText';
 import { copy } from '@/constants/copy';
-import { fonts } from '@/constants/theme';
-import { spacing } from '@/constants/layout';
+import { cardBlurIntensity, radii, typography } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
 import type { WordOfDay } from '@/types/home';
 
@@ -19,104 +21,100 @@ export function WordOfDayCard({
   origin,
   loading = false,
 }: WordOfDayCardProps) {
-  const { colors } = useTheme();
+  const { colors, blend } = useTheme();
+  const isNight = blend >= 0.5;
 
   const styles = useMemo(
     () =>
       StyleSheet.create({
         card: {
           width: '100%',
-          borderRadius: 22,
+          borderRadius: radii.wotd,
           borderWidth: 1,
           borderColor: colors.border,
-          backgroundColor: 'rgba(249,201,168,0.35)',
-          padding: spacing.lg,
-          marginBottom: spacing.lg,
+          overflow: 'hidden',
+          marginBottom: 20,
+        },
+        gradient: {
+          ...StyleSheet.absoluteFillObject,
+        },
+        blur: {
+          ...StyleSheet.absoluteFillObject,
+        },
+        cardInner: {
+          paddingTop: 22,
+          paddingHorizontal: 22,
+          paddingBottom: 20,
         },
         eyebrow: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 11,
-          letterSpacing: 1.2,
+          ...typography.wotdEyebrow,
           textTransform: 'uppercase',
           color: colors.subtext,
-          marginBottom: spacing.sm,
+          marginBottom: 8,
         },
         word: {
-          fontFamily: fonts.serif,
-          fontSize: 32,
+          ...typography.wordHero,
           color: colors.text,
-          letterSpacing: -0.5,
-          marginBottom: spacing.xs,
+          marginBottom: 4,
+        },
+        wordLoading: {
+          opacity: 0.45,
         },
         pronunciation: {
-          fontFamily: fonts.sans,
-          fontSize: 13,
-          fontStyle: 'italic',
+          ...typography.wotdPron,
           color: colors.subtext,
-          marginBottom: spacing.sm,
+          marginBottom: 8,
         },
         posBadge: {
           alignSelf: 'flex-start',
-          backgroundColor: colors.border,
-          borderRadius: 999,
-          paddingHorizontal: spacing.sm,
+          backgroundColor: colors.posBadgeBg,
+          borderRadius: radii.pill,
+          paddingHorizontal: 8,
           paddingVertical: 3,
-          marginBottom: spacing.sm,
+          marginBottom: 8,
         },
         posText: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 10,
-          letterSpacing: 0.8,
+          ...typography.posBadge,
           textTransform: 'uppercase',
           color: colors.subtext,
         },
         definition: {
-          fontFamily: fonts.sans,
-          fontSize: 15,
-          lineHeight: 23,
+          ...typography.wotdDef,
           color: colors.text,
-          marginBottom: spacing.sm,
+          marginBottom: 10,
         },
-        origin: {
-          fontFamily: fonts.sans,
-          fontSize: 12,
-          lineHeight: 18,
-          color: colors.subtext,
+        dimmed: {
+          opacity: 0.3,
         },
         cardLoading: {
           minHeight: 180,
-          justifyContent: 'flex-start',
         },
         loadingRow: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: spacing.sm,
-          marginTop: spacing.md,
+          gap: 8,
+          marginTop: 12,
         },
         loadingText: {
-          fontFamily: fonts.sans,
-          fontSize: 15,
+          ...typography.wotdDef,
           color: colors.subtext,
         },
       }),
     [colors],
   );
 
-  if (loading) {
-    return (
-      <View style={[styles.card, styles.cardLoading]} accessibilityRole="progressbar">
-        <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
-        <View style={styles.loadingRow}>
-          <ActivityIndicator color={colors.subtext} size="small" />
-          <Text style={styles.loadingText}>{copy.home.wordOfDayLoading}</Text>
-        </View>
+  const cardBody = loading ? (
+    <View style={[styles.cardInner, styles.cardLoading]} accessibilityRole="progressbar">
+      <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
+      <Text style={[styles.word, styles.wordLoading]}>{copy.home.wordOfDayLoading}</Text>
+      <View style={styles.loadingRow}>
+        <ActivityIndicator color={colors.subtext} size="small" />
+        <Text style={styles.loadingText}>{copy.home.wordOfDayLoading}</Text>
       </View>
-    );
-  }
-
-  return (
+    </View>
+  ) : (
     <View
-      style={styles.card}
+      style={styles.cardInner}
       accessibilityRole="summary"
       accessibilityLabel={copy.a11y.wordOfDay(word, definition)}
     >
@@ -127,11 +125,22 @@ export function WordOfDayCard({
         <Text style={styles.posText}>{pos}</Text>
       </View>
       <Text style={styles.definition}>{definition}</Text>
-      <Text style={styles.origin}>{stripOriginTags(origin)}</Text>
+      <OriginText origin={origin} />
     </View>
   );
-}
 
-function stripOriginTags(origin: string): string {
-  return origin.replace(/<\/?strong>/g, '');
+  return (
+    <View style={styles.card}>
+      <LinearGradient
+        colors={[colors.wotdGradientStart, colors.wotdGradientEnd]}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.gradient}
+      />
+      {Platform.OS !== 'web' ? (
+        <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
+      ) : null}
+      {cardBody}
+    </View>
+  );
 }

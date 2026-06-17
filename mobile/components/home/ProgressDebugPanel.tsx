@@ -28,7 +28,7 @@ export function ProgressDebugPanel({
   onSetLastCompleted,
   onCompleteWord,
 }: ProgressDebugPanelProps) {
-  const { colors } = useTheme();
+  const { colors, toggleOverride } = useTheme();
 
   const styles = useMemo(
     () =>
@@ -87,6 +87,13 @@ export function ProgressDebugPanel({
         variant="outline"
         onPress={() => onCompleteWord(wordId)}
         style={styles.button}
+      />
+      <PrimaryButton
+        label="Toggle theme (dev)"
+        variant="outline"
+        onPress={toggleOverride}
+        style={styles.button}
+        accessibilityLabel="Toggle theme (dev)"
       />
     </View>
   );

@@ -9,7 +9,6 @@ import {
 } from 'react';
 
 import {
-  blendThemePalette,
   getThemeBlend,
   resolveThemePalette,
   type ThemePalette,
@@ -39,6 +38,14 @@ const STATIC_EXTRAS = {
   correct: staticColors.correct,
   correctIcon: staticColors.correctIcon,
   wrong: staticColors.wrong,
+  overlay: staticColors.overlay,
+  streakFlameStart: staticColors.streakFlameStart,
+  streakFlameEnd: staticColors.streakFlameEnd,
+  coinGradientStart: staticColors.coinGradientStart,
+  coinGradientEnd: staticColors.coinGradientEnd,
+  toggleThumbShadow: staticColors.toggleThumbShadow,
+  appleButtonBg: staticColors.appleButtonBg,
+  appleButtonText: staticColors.appleButtonText,
   cardPeach: staticColors.cardPeach,
   cardPeachBorder: staticColors.cardPeachBorder,
   cardLavender: staticColors.cardLavender,
@@ -47,7 +54,6 @@ const STATIC_EXTRAS = {
   cardBlushBorder: staticColors.cardBlushBorder,
   cardDawn: staticColors.cardDawn,
   cardDawnBorder: staticColors.cardDawnBorder,
-  overlay: staticColors.overlay,
   sheetSecondary: staticColors.sheetSecondary,
   streakFlame: staticColors.streakFlame,
 } as const;
@@ -103,7 +109,7 @@ export function useTheme() {
   const context = useContext(ThemeContext);
   if (!context) {
     return {
-      colors: mergePalette(blendThemePalette(getThemeBlend())),
+      colors: mergePalette(resolveThemePalette()),
       blend: getThemeBlend(),
       override: null as ThemeOverride,
       toggleOverride: () => {},
