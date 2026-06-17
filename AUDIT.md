@@ -1,101 +1,90 @@
-# Zazu product audit (round 6)
+# Zazu product audit (round 8)
 
 **Date:** June 2026  
-**Overall score: ~89 / 100** (up from ~88 after mobile home UI prototype alignment)  
-**Vision-aligned product: ~80 / 100** (up from ~78; home screen now matches web prototype exactly)
+**Overall score: ~93 / 100** (up from ~91 after web calendar, settings, PWA, gym entry, alarm persistence)  
+**Vision-aligned product: ~85 / 100** (up from ~83; web now matches mobile surfaces for daily use)
 
-See [ROADMAP.md](ROADMAP.md) for what to build next. Design tokens and alignment status: [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
+See [ROADMAP.md](ROADMAP.md) for what to build next. Design tokens: [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
 
 ---
 
 ## Score by area
 
-| Area | Score | Δ vs R4 | Summary |
+| Area | Score | Δ vs R7 | Summary |
 |------|------:|---------|---------|
-| **Product vision & UX** | 80 | +2 | Home screen matches `index.html` light + dark; alarm flow still uses legacy styling on mobile. |
-| **Mobile app** | 91 | +2 | Home prototype-aligned (`theme.ts` from HTML, glass cards, WOTD hero, animated toggle); nine routes; alarm flow functional. |
-| **Web prototype** | 88 | 0 | Source of truth for design tokens; alarm path uses `fetchAlarmWords` + morning task UI; gradual light/dark theme. |
-| **Content & words** | 96 | 0 | **395 words** (A–Z), morning tasks validated, Supabase synced. |
-| **Backend & data** | 93 | 0 | Unchanged; auth and cloud progress still unwired. |
-| **Monetisation** | 26 | 0 | All words free; Gold is calendar UI preview only. |
-| **Launch readiness** | 68 | +3 | Core product loop matches vision; P1 #9 device sign-off still open. |
-| **Documentation & ops** | 86 | +4 | README, ROADMAP, DESIGN_SYSTEM, and this audit refreshed; approved home screenshots in `New SS/`. |
+| **Product vision & UX** | 85 | +2 | Web has home, gym tab, calendar, settings, full alarm flow; scheduled wake-up still mobile-only. |
+| **Mobile app** | 94 | 0 | All screens prototype-aligned; auth providers still unwired. |
+| **Web prototype** | 93 | +5 | Calendar, settings, gym entry, alarm persistence, floating tab bar, PWA install + offline shell. |
+| **Content & words** | 96 | 0 | **395 words**, validated pipeline, Supabase ready. |
+| **Backend & data** | 94 | 0 | Entitlements migration ready; auth unwired. |
+| **Monetisation** | 28 | 0 | Gold preview on web calendar; no live IAP. |
+| **Launch readiness** | 76 | +3 | Web parity strong; device sign-off (P1 #9) still open. |
+| **Documentation & ops** | 90 | +2 | Audit/roadmap refreshed; PWA assets in build pipeline. |
 
-**Weighted overall: ~89/100**
+**Weighted overall: ~93/100**
 
-**Vision-aligned product score: ~80/100**
+**Vision-aligned product score: ~85/100**
 
 ---
 
-## What improved since round 5 (~88)
+## What improved since round 7 (~91)
 
 ### Shipped and real
 
-- **Mobile home UI prototype alignment:** exact tokens from `index.html` (`theme.ts`), night-snap adaptive palette, `GradientBackground`, `GlassCard`, `AnimatedToggle`, WOTD hero — approved light/dark screenshots (`New SS/home-light.png`, `New SS/home-dark.png`)
-- **Design system doc:** `DESIGN_SYSTEM.md` documents tokens, primitives, and per-screen alignment status
-- **Expo web stability:** removed `useFocusEffect` from shared hooks (SDK 56 crash fix)
+- **Web Word Gym tab** — practice word, start puzzle, gym success flow
+- **Web alarm persistence** — `lib/alarms-web.js`, toggles + add-alarm dialog in `localStorage`
+- **Web calendar** — 30-day history, free/Gold preview toggle, locked older words, word detail sheet, Open in Word Gym
+- **Web settings** — push notification toggle (browser permission), theme (auto/light/dark), guest account name on device
+- **PWA** — `manifest.webmanifest`, `sw.js`, installable shell, offline static assets
+- **Web tab bar** — floating pill nav (Home | Word Gym); calendar/settings via header icons
+- **Mobile web tab bar** — floating pill styling on Expo web
 
 ### Still open
 
-- **P2 #36:** Finalise mobile UI for all remaining pages (alarm flow, calendar, gym, settings, onboarding, Gold)
-- Auth, IAP, P1 #9 device verification
+- **P1 #9** device verification on EAS dev build
+- **Auth wiring** on mobile (`AuthProvider` not mounted)
+- **Live IAP / Gold billing**
+- **Browser scheduled wake-up alarms** (PWA notifications are permission-only today; no alarm scheduling on web)
+- **Cloud progress sync**
 
 ---
 
 ## Critical gaps (ordered by impact)
 
-### 1. Mobile UI consistency (P2 #36)
-
-Home matches `index.html`. Alarm flow, calendar, Word Gym tab, settings, onboarding, and Gold still use legacy styling — need the same token system and UI primitives applied screen by screen.
-
-### 2. Monetisation
-
-All 395 words remain free. Gold preview in calendar is not billable.
-
-### 3. Device sign-off (P1 #9)
-
-Notifications, audio, and kill/reopen need verification on a real device via EAS dev build.
-
-### 4. Smaller gaps
-
-- Mobile Supabase fetch failures still fail silently (demo fallback)
-- Shared game logic (#10) still partially duplicated
-- `zazu-words.schema.json` still behind current JSON shape
-- No analytics or crash reporting
+1. **Device sign-off (P1 #9)** — EAS dev build + notifications/audio/persistence on phone
+2. **Auth + entitlements** — mount providers, run migration 003, connect Gold to real subscription
+3. **Monetisation** — RevenueCat / store billing; all words still free
+4. **Web scheduled alarms** — PWA can install and cache; morning alarm scheduling remains mobile-only
+5. **In-app nav on mobile** — calendar/settings routes exist but no home header links yet
 
 ---
 
 ## What is genuinely strong
 
-- **Vision-aligned alarm:** Learn-first wake-up, not a 12-pair puzzle at 7am
-- **Content at scale:** 395 words, validated pipeline, one-command seed
-- **Architecture:** Alarm vs Gym split end-to-end in UI and Supabase
-- **Mobile foundation:** Expo 56, typed routes, notifications, calendar, design system
-- **CI:** `seed:dry`, morning-task check, mobile `tsc` on every PR
+- **End-to-end web product:** home → alarm → learn → morning task → success; gym tab → puzzle → ad → recap; calendar + settings
+- **Mobile + web design parity:** same tokens, glass cards, floating tab bar pattern
+- **395-word content pipeline** with CI validation
+- **PWA-ready static deploy** on Vercel with offline shell
 
 ---
 
 ## Top 5 fixes next (by impact)
 
-1. **Word Gym tab** + gym success recap + calendar `gymCompleted` wiring
-2. **P1 #9 device checklist** on EAS dev build
-3. **Full adaptive theme** on home and calendar
-4. **Supabase Auth + IAP** when ready to gate Gold
-5. **Deploy web to Vercel** for stable phone browser testing
+1. **EAS dev build + P1 #9** device verification
+2. **Wire auth stack** on mobile
+3. **Mobile home nav** to calendar + settings
+4. **Live Gold IAP** when ready to monetise
+5. **Browser alarm scheduling** (optional — Service Worker + Notification schedule API when supported)
 
-After (1) and (2), vision-aligned score could reach **~82+** and overall **~90+**.
+After (1) and (2), realistic path to **~94+ overall / ~87+ vision**.
 
 ---
 
 ## Revenue estimate (monthly, GBP)
 
-**Current realistic monthly revenue: £0** (pre-monetisation, pre-store, all content free).
+**Current realistic monthly revenue: £0** (pre-monetisation, pre-store).
 
-| Scenario | MAU | Conversion | Est. monthly |
-|----------|-----|------------|--------------|
-| Low (soft launch) | 200–800 | 0–1% | £0–£150 |
-| Medium (6–12 mo) | 3k–12k | 2–3.5% | £250–£1,800 |
-| High (breakout) | 40k–120k | 3–5% | £5k–£25k |
+See prior rounds in table below for scenario estimates.
 
 ---
 
@@ -103,17 +92,17 @@ After (1) and (2), vision-aligned score could reach **~82+** and overall **~90+*
 
 | Round | Date | Overall | Vision | Notes |
 |-------|------|---------|--------|-------|
-| 1 | Early build | ~58 | — | Single-file prototype, 36 words |
-| 2 | After P0/P1 | ~79 | — | Mobile flow, Supabase 98 words |
-| 3 | P2 + morning tasks | ~83 | ~65 | Morning-task data; UX pivot pending |
-| 4 | 395 words + calendar | ~85 | ~68 | Full library live; alarm UX still legacy |
-| 5 | Gentle alarm + theme | **~88** | **~78** | P2b alarm flow shipped; Gym tab open |
+| 1 | Early build | ~58 | — | Single-file prototype |
+| 5 | Gentle alarm + theme | ~88 | ~78 | P2b alarm flow |
+| 6 | Home UI prototype | ~89 | ~80 | Home matches index.html |
+| 7 | Full mobile UI + P1 polish | ~91 | ~83 | All mobile screens aligned |
+| 8 | Web parity + PWA | **~93** | **~85** | Calendar, settings, gym, alarms, install |
 
 ---
 
 ## Bottom line
 
-**~88/100** as a build, content, and platform score.  
-**~78/100** as a shippable product matching the latest vision.
+**~93/100** as a build, content, and platform score.  
+**~85/100** as a shippable product matching the latest vision.
 
-The main remaining gap for a store-ready v1 is **Word Gym as a first-class surface**, **device verification**, and **monetisation wiring**.
+Web is now a credible companion to mobile for learning, streaks, calendar, and Word Gym. Store-ready v1 still needs **device verification**, **auth**, and **monetisation**.

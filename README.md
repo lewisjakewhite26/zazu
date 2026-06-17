@@ -1,30 +1,31 @@
 # Zazu
 
-Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word, and learn it before the day starts. The web prototype and Expo mobile app run the gentle alarm flow: **reveal → learn → one morning task → dismiss**. Word Gym (3-round puzzle) is available from the calendar. The word library (395 words) lives in `zazu-words.json` and syncs to Supabase.
+Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word, and learn it before the day starts. The web prototype and Expo mobile app run the gentle alarm flow: **reveal → learn → one morning task → dismiss**. Word Gym (3-round puzzle) is available from the gym tab and calendar. The word library (395 words) lives in `zazu-words.json` and syncs to Supabase.
 
-**Status (round 6):** ~89/100 platform score · ~80/100 vision-aligned · See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
+**Status (round 8):** ~93/100 platform score · ~85/100 vision-aligned · See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
 
 ## What works today
 
 | Surface | Built |
 |---------|--------|
-| **Web** (`index.html`) | Home, alarm demo, **learn**, **morning task**, mock ad, success; `fetchAlarmWords`; gradual light/dark theme; **progress** in `localStorage` (streak, coins, learned words) |
-| **Mobile** (Expo) | Home **matches `index.html` prototype** (light + dark); Word Gym tab, add alarm, alarm, learn, morning task, success, calendar; scheduled notifications; `completeGym()` + gym success screen; adaptive theme on home, calendar, gym tab, tab bar |
+| **Web** (`index.html`) | Home + **Word Gym tab**, alarm flow, calendar, settings, progress in `localStorage`, alarm list persistence, WOTD error banner, **PWA install + offline shell** |
+| **Mobile** (Expo) | All screens prototype-aligned; Word Gym tab, calendar, settings, onboarding, Gold; scheduled notifications |
 | **Content** | **395 words** (A–Z), morning tasks, gym rounds, distractor pool |
-| **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress schema |
+| **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress + entitlements schema |
 | **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
 
-**Not built yet:** web alarm list persistence, real browser wake-up alarms (PWA), auth, paywall, coin shop, and **prototype-aligned UI on non-home mobile screens** (ROADMAP P2 #36).
+**Not built yet:** auth wiring on mobile, live IAP, coin shop, **web scheduled wake-up alarms**, cloud progress sync.
 
 ### Web vs mobile — what persists
 
-| | Web (browser / Vercel) | Mobile (Expo) |
-|--|------------------------|---------------|
-| Streak, coins, learned words | Yes (`localStorage`, same origin) | Yes (AsyncStorage) |
-| Alarm times and on/off | No — demo cards only; use **Try the alarm** | Yes — saved; notifications fire at set time |
-| Calendar / Word Gym | No | Yes |
+| | Web (browser / Vercel / PWA) | Mobile (Expo) |
+|--|------------------------------|---------------|
+| Streak, coins, learned words | Yes (`localStorage`) | Yes (AsyncStorage) |
+| Alarm times and on/off | Yes (`localStorage` — UI only, no scheduled wake-up) | Yes — notifications fire at set time |
+| Calendar / Word Gym | Yes | Yes |
+| Install to home screen | Yes (PWA) | App store / dev build |
 
-Use **Vercel on your phone** to test the learn → morning task flow and streak saving. Use the **mobile app** (eventually an EAS dev build) for a real daily alarm.
+Use **Vercel on your phone** to test the learn → morning task flow and streak saving. Use an **EAS dev build** (see [mobile/BUILD.md](mobile/BUILD.md)) for a real daily alarm on device.
 
 ## Tech stack
 
@@ -46,34 +47,46 @@ zazu/
 ├── WORDS.md                  Alphabetical index of all words
 ├── lib/
 │   ├── supabase.ts           Shared Supabase client (alarm + gym fetch)
-│   ├── useProgress.ts        Streak, coins, learned words (AsyncStorage)
-│   ├── useAlarms.ts          Alarm list + notification sync
+│   ├── entitlements.ts       Gold tier helpers
+│   ├── entitlements-sync.ts  Sync entitlements from Supabase
+│   ├── progress-storage.ts   Local progress persistence helpers
+│   ├── progress-sync.ts      Cloud progress sync (scaffold)
 │   ├── morning-task.ts       Morning task runtime helpers
 │   ├── morning-task.js       Browser morning-task helper for index.html
-│   ├── adaptive-theme.ts     Gradual light/dark theme (30 min dusk/dawn; night-snap tokens)
+│   ├── adaptive-theme.ts     Gradual light/dark theme (30 min dusk/dawn)
 │   ├── adaptive-theme.js     Browser theme helper for index.html
+│   ├── alarms-web.js         Browser alarm list (localStorage)
+│   ├── settings-web.js       Browser settings (theme, notifications pref)
+│   ├── calendar-web.js       Calendar entry builder for index.html
+│   ├── web-screens.js        Calendar + settings UI for index.html
 │   ├── progress-web.js       Browser streak/coins store (localStorage)
 │   └── words-api.js          Browser loader for index.html
-├── New SS/                   Approved mobile UI screenshots (home light/dark)
+├── public/
+│   ├── manifest.webmanifest  PWA manifest
+│   ├── sw.js                 Service worker (offline shell)
+│   ├── icons/                PWA icons
+│   └── config.js             Generated Supabase keys (gitignored)
+├── New SS/                   Mobile UI screenshots (light + dark flows)
+├── screenshots/ui-audit/     Full UI audit captures (prototype + Expo web)
 ├── vercel.json               Vercel static deploy config
 ├── scripts/
 │   ├── vercel-build.mjs      Copies index.html + lib/ into dist/ for Vercel
-│   ├── capture-new-ss.mjs    Capture mobile home screenshots (Expo web)
+│   ├── capture-flow-screenshots.mjs   Capture alarm/gym flows (Expo web)
+│   ├── capture-dark-screenshots.mjs   Re-capture dark mode screens
+│   ├── capture-ui-screenshots.mjs     Audit all routes (desktop + mobile)
 │   ├── seed-words.mjs        Upload words to Supabase
 │   ├── import-word-batch.mjs Merge batch JSON into zazu-words.json
 │   ├── generate-morning-tasks.mjs
 │   ├── generate-public-config.mjs
 │   └── normalize-word-copy.mjs
-├── mobile/                   Expo app (alarm flow, calendar, Word Gym puzzle, ThemeProvider)
+├── mobile/                   Expo app (see mobile/BUILD.md for EAS dev build)
 ├── supabase/
-│   ├── migrations/           001 schema + 002 morning tasks and gym
+│   ├── migrations/           001 schema + 002 morning tasks + 003 entitlements
 │   └── README.md             Setup, RPCs, re-seeding
-├── public/
-│   └── config.js             Generated Supabase keys for browser (gitignored)
 ├── writing-rules.md          Copy and voice guidelines
 ├── DESIGN_SYSTEM.md          Mobile design tokens (from index.html) + alignment status
 ├── AUDIT.md                  Product audit (latest scores and gaps)
-├── ROADMAP.md                P0–P3 development priorities (incl. P2 #36 UI finalisation)
+├── ROADMAP.md                P0–P3 development priorities
 └── .env.example              Environment variable template
 ```
 
@@ -112,11 +125,11 @@ npm run config
 
 3. Open `index.html` in your browser (or serve the folder locally).
 
-The page loads alarm words from Supabase on start (`get_words_for_alarm`). If the fetch fails, it falls back to three hardcoded demo words (Matutinal, Lucid, Ephemeral). Use **Try the alarm** to run through learn → morning task → success.
+The page loads alarm words from Supabase on start. Alarms, streak, and settings persist in the browser. Use **Try the alarm** or the **Word Gym** tab. Open **📅** for calendar and **⚙️** for settings. Install as a PWA from your browser menu for offline access to the app shell.
+
+**PWA:** `manifest.webmanifest` + `sw.js` are copied to `dist/` on Vercel build. Add to home screen on iOS/Android for standalone mode. Scheduled morning alarms still require the mobile app.
 
 Theme shifts gradually between light and dark over 30 minutes at dusk (20:30–21:00) and dawn (5:30–6:00). Use the theme button to override.
-
-If the browser blocks local file requests, serve the folder with any static server.
 
 ### Deploy to Vercel
 
@@ -128,8 +141,6 @@ The web app is **static HTML** deployed from `dist/` after `npm run vercel-build
 4. Push to `main` — Vercel redeploys automatically.
 
 **Phone testing:** open your `*.vercel.app` URL on your phone. Progress (streak/coins) persists per browser. Use **Try the alarm** to run the flow; scheduled alarms require the mobile app.
-
-If deployment 404s, check build logs show `npm run vercel-build` (not `next build`) and output directory `dist`.
 
 ## Supabase setup
 
@@ -151,10 +162,11 @@ Fill in these values in `.env`:
 | `VITE_SUPABASE_URL` | Same URL as above (used by `lib/supabase.ts`) |
 | `VITE_SUPABASE_ANON_KEY` | Same anon key as above |
 
-3. Run both migrations in the Supabase SQL Editor, in order:
+3. Run all three migrations in the Supabase SQL Editor, in order:
 
    - `supabase/migrations/001_create_words_schema.sql`
    - `supabase/migrations/002_morning_tasks_and_gym.sql`
+   - `supabase/migrations/003_user_entitlements.sql`
 
 4. Seed the word library:
 
@@ -188,6 +200,8 @@ npm run ios          # iOS simulator or device
 
 On a restrictive network, try `npm run start:tunnel` or connect via USB with `npm run android:usb` (requires `adb`).
 
+**Physical device:** Expo Go from the Play Store does not support SDK 56. Use an EAS development build — see [mobile/BUILD.md](mobile/BUILD.md).
+
 ### Mobile routes
 
 | Route | Purpose |
@@ -200,12 +214,18 @@ On a restrictive network, try `npm run start:tunnel` or connect via USB with `np
 | `/morning-task` | One MCQ to dismiss the alarm |
 | `/success` | Streak and coin recap |
 | `/puzzle` | Word Gym — 3-round matching game |
+| `/ad` | Mock ad screen (gym path) |
 | `/gym-success` | Word Gym completion recap (coins + mastery) |
 | `/calendar` | Word history (free vs Gold preview toggle) |
+| `/settings` | Account, theme, notifications |
+| `/gold` | Zazu Gold paywall |
+| `/(onboarding)/welcome` | Welcome screen |
+| `/(onboarding)/sign-in` | OAuth sign-in |
+| `/(onboarding)/name` | Display name entry |
 
-The mobile app imports shared code from `lib/` via Metro. Words come from Supabase (`get_words_for_alarm` / `get_words_for_gym`) with demo fallbacks when offline or unconfigured.
+The mobile app imports shared code from `lib/` via Metro. Words come from Supabase (`get_words_for_alarm` / `get_words_for_gym`) with demo fallbacks when offline or unconfigured. A WOTD error banner appears on fetch failure with a **Try again** button.
 
-**Theme:** Home, calendar, gym tab, and tab bar use `useTheme()` from `mobile/context/ThemeContext.tsx` — the same gradual dusk/dawn blend as the web prototype (30 min at 20:30–21:00 and 5:30–6:00). Alarm-flow screens still use a fixed palette for now.
+**Theme:** All screens use `useTheme()` from `mobile/context/ThemeContext.tsx` — the same gradual dusk/dawn blend as the web prototype (30 min at 20:30–21:00 and 5:30–6:00).
 
 ## npm scripts (root)
 
@@ -228,7 +248,7 @@ All user-facing text in this project follows [writing-rules.md](writing-rules.md
 | Document | Purpose |
 |----------|---------|
 | [ROADMAP.md](ROADMAP.md) | P0–P3 priorities and what to build next |
-| [AUDIT.md](AUDIT.md) | Round 5 scores, gaps, and revenue notes |
+| [AUDIT.md](AUDIT.md) | Round 8 scores, gaps, and revenue notes |
 
 ## Licence
 

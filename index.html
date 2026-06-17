@@ -3,8 +3,14 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#f9c9a8"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="Zazu"/>
+<meta name="description" content="Zazu — a vocabulary alarm clock. Wake up. Learn something."/>
 <title>Zazu. Wake up. Learn something.</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-512.svg"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -56,7 +62,7 @@ html, body {
 .screen.active { display:flex; }
 
 /* ══ HOME ══ */
-#screenHome { justify-content:flex-start; padding:0 0 40px; overflow-y:auto; }
+#screenHome { justify-content:flex-start; padding:0 0 calc(88px + env(safe-area-inset-bottom, 0px)); overflow-y:auto; }
 
 .home-header {
   width:100%; padding:52px 20px 20px;
@@ -194,6 +200,112 @@ body.night .add-alarm-btn { background:rgba(255,255,255,.12); color:var(--text);
   font-size:.82rem; cursor:pointer; transition:opacity .2s;
 }
 .demo-btn:hover { opacity:.7; }
+
+/* Word Gym tab */
+#screenGym { justify-content:flex-start; padding:0 0 calc(88px + env(safe-area-inset-bottom, 0px)); overflow-y:auto; align-items:center; }
+.gym-hero-icon {
+  width:56px; height:56px; border-radius:28px;
+  background:rgba(200,180,232,.35); display:flex; align-items:center; justify-content:center;
+  font-size:1.35rem; margin:4px auto 12px;
+}
+body.night .gym-hero-icon { background:rgba(200,180,232,.12); }
+.gym-eyebrow {
+  font-size:.7rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--subtext); margin-bottom:6px; text-align:center;
+}
+.gym-subtitle {
+  font-size:.9rem; color:var(--subtext); text-align:center; margin-bottom:18px;
+  width:calc(100% - 40px); line-height:1.45;
+}
+.gym-word-card {
+  width:calc(100% - 40px);
+  background:var(--card); border:1px solid var(--border); border-radius:22px;
+  padding:20px 22px; backdrop-filter:blur(10px); margin-bottom:16px;
+}
+.gym-word-label {
+  font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--subtext); margin-bottom:8px;
+}
+.gym-word-main { font-family:'DM Serif Display',serif; font-size:1.85rem; color:var(--text); letter-spacing:-.02em; margin-bottom:4px; }
+.gym-word-pron { font-size:.78rem; color:var(--subtext); font-style:italic; margin-bottom:10px; }
+.gym-word-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.gym-word-origin { font-size:.75rem; color:var(--subtext); line-height:1.5; margin-bottom:14px; }
+.gym-word-origin strong { color:var(--gold); font-weight:600; }
+.gym-mastery-row {
+  display:flex; justify-content:space-between; align-items:center;
+  border-top:1px solid var(--border); padding-top:12px;
+  font-size:.75rem; font-weight:600;
+}
+.gym-mastery-label { color:var(--subtext); }
+.gym-mastery-value { color:var(--text); }
+.gym-start-btn {
+  width:calc(100% - 40px); background:var(--ink); color:var(--white); border:none;
+  padding:15px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; font-weight:500; cursor:pointer; margin-bottom:12px; transition:opacity .2s;
+}
+body.night .gym-start-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.gym-start-btn:disabled { opacity:.45; cursor:not-allowed; }
+
+/* Bottom tab bar — floating pill (matches mobile tab intent) */
+.app-tab-bar {
+  position:fixed; bottom:0; left:0; right:0; z-index:200;
+  display:flex; justify-content:center;
+  padding:10px 24px calc(10px + env(safe-area-inset-bottom, 0px));
+  pointer-events:none;
+}
+.app-tab-bar[hidden] { display:none !important; }
+.app-tab-bar-inner {
+  pointer-events:auto; display:flex; max-width:300px; width:100%;
+  background:var(--card); border:1px solid var(--border); border-radius:100px;
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  padding:4px; box-shadow:0 4px 28px rgba(44,31,46,.12);
+}
+body.night .app-tab-bar-inner { box-shadow:0 4px 32px rgba(0,0,0,.4); }
+.app-tab {
+  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:2px; padding:7px 4px; border:none; background:transparent;
+  color:var(--subtext); font-family:'DM Sans',sans-serif;
+  font-size:.56rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase;
+  cursor:pointer; border-radius:100px; transition:background .2s,color .2s;
+  min-height:46px;
+}
+.app-tab.active { background:rgba(240,160,188,.22); color:var(--text); }
+body.night .app-tab.active { background:rgba(240,160,188,.14); }
+.app-tab-icon { font-size:1.1rem; line-height:1; }
+
+/* Add alarm dialog */
+.add-alarm-dialog { border:none; background:transparent; padding:0; max-width:360px; width:calc(100% - 40px); margin:auto; }
+.add-alarm-dialog::backdrop { background:rgba(44,31,46,.4); }
+.add-alarm-panel {
+  background:var(--card); border:1px solid var(--border); border-radius:22px;
+  padding:22px; backdrop-filter:blur(16px);
+}
+.add-alarm-title { font-family:'DM Serif Display',serif; font-size:1.35rem; margin-bottom:16px; color:var(--text); }
+.add-alarm-field { margin-bottom:14px; }
+.add-alarm-field label {
+  display:block; font-size:.65rem; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--subtext); margin-bottom:6px;
+}
+.add-alarm-field input {
+  width:100%; padding:12px 14px; border-radius:12px; border:1px solid var(--border);
+  background:rgba(255,255,255,.5); font-family:'DM Sans',sans-serif; font-size:1rem; color:var(--text);
+}
+body.night .add-alarm-field input { background:rgba(255,255,255,.06); }
+.add-alarm-actions { display:flex; gap:10px; margin-top:18px; }
+.add-alarm-cancel {
+  flex:1; padding:13px; border-radius:100px; border:1.5px solid var(--border);
+  background:none; color:var(--subtext); font-family:'DM Sans',sans-serif; font-size:.9rem; cursor:pointer;
+}
+.add-alarm-save {
+  flex:1; padding:13px; border-radius:100px; border:none; background:var(--ink);
+  color:var(--white); font-family:'DM Sans',sans-serif; font-size:.9rem; font-weight:500; cursor:pointer;
+}
+body.night .add-alarm-save { background:rgba(255,255,255,.9); color:#2c1f2e; }
+
+.home-footer-actions {
+  width:calc(100% - 40px); display:flex; flex-direction:column; align-items:center; gap:8px;
+  margin-bottom:8px;
+}
 
 /* ══ ALARM FIRING ══ */
 #screenAlarm { justify-content:center; text-align:center; padding:40px 24px; gap:0; overflow:hidden; }
@@ -447,6 +559,149 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
 }
 .btn-done:hover { background:rgba(255,255,255,.1); }
 
+.nav-right { display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+
+.icon-nav-btn {
+  width:36px; height:36px; border-radius:50%; border:1px solid var(--border);
+  background:var(--card); backdrop-filter:blur(10px); cursor:pointer;
+  display:flex; align-items:center; justify-content:center; font-size:1rem;
+  color:var(--text); flex-shrink:0; transition:opacity .2s;
+}
+.icon-nav-btn:hover { opacity:.75; }
+
+/* Calendar + settings shell screens */
+.shell-screen {
+  justify-content:flex-start; padding:0 0 24px; overflow-y:auto; align-items:stretch;
+  width:100%;
+}
+.shell-inner {
+  width:100%; max-width:390px; margin:0 auto; padding:0 16px 24px;
+}
+.shell-nav {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:52px 0 16px; gap:10px;
+}
+.shell-nav-left { display:flex; align-items:center; gap:6px; }
+.shell-back {
+  width:40px; height:40px; border:none; background:none; cursor:pointer;
+  font-size:1.4rem; color:var(--text); line-height:1;
+}
+.shell-title { font-size:1.05rem; font-weight:500; color:var(--text); }
+.shell-sub { font-size:.75rem; color:var(--subtext); margin-top:2px; }
+.shell-streak-pill {
+  display:flex; align-items:center; gap:6px; background:var(--card);
+  border:1px solid var(--border); padding:6px 12px; border-radius:100px; font-size:.75rem; font-weight:500;
+}
+
+.cal-toggle-row {
+  display:flex; align-items:center; gap:8px; margin-bottom:18px; padding:12px;
+  background:var(--card); border:1px solid var(--border); border-radius:12px;
+}
+.cal-toggle-label { flex:1; font-size:.75rem; color:var(--subtext); }
+.cal-toggle-wrap { display:flex; background:rgba(44,31,46,.06); border-radius:100px; padding:3px; }
+body.night .cal-toggle-wrap { background:rgba(255,255,255,.06); }
+.cal-toggle-opt {
+  border:none; background:transparent; padding:6px 12px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:.72rem; font-weight:500; color:var(--subtext); cursor:pointer;
+}
+.cal-toggle-opt.active { background:var(--card); color:var(--text); box-shadow:0 1px 4px rgba(0,0,0,.08); }
+
+.cal-section-label {
+  font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--subtext); margin:8px 0 10px;
+}
+.cal-hero-card, .cal-day-card {
+  width:100%; border:1px solid var(--border); border-radius:16px; padding:16px;
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  text-align:left; cursor:pointer; font:inherit; color:inherit;
+  backdrop-filter:blur(8px); position:relative;
+}
+.cal-hero-card { margin-bottom:12px; background:linear-gradient(135deg,rgba(249,201,168,.35),rgba(200,180,232,.25)); }
+body.night .cal-hero-card { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.cal-hero-badge, .cal-day-date {
+  font-size:.62rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--subtext); margin-bottom:6px;
+}
+.cal-hero-word, .cal-day-word {
+  font-family:'DM Serif Display',serif; font-size:1.5rem; color:var(--text); letter-spacing:-.02em;
+}
+.cal-hero-date { font-size:.75rem; color:var(--subtext); margin-top:2px; }
+.cal-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:12px; }
+.cal-day-card { min-height:88px; }
+.cal-card-peach { background:rgba(253,232,216,.85); border-color:rgba(249,201,168,.5); }
+.cal-card-lavender { background:rgba(221,232,248,.85); border-color:rgba(200,180,232,.5); }
+.cal-card-blush { background:rgba(240,160,188,.15); border-color:rgba(240,160,188,.35); }
+.cal-card-dawn { background:rgba(237,224,248,.85); border-color:rgba(200,180,232,.4); }
+body.night .cal-card-peach, body.night .cal-card-lavender, body.night .cal-card-blush, body.night .cal-card-dawn {
+  background:var(--card);
+}
+.cal-day-locked { opacity:.55; cursor:not-allowed; }
+.cal-lock-icon { position:absolute; top:10px; right:10px; font-size:.85rem; }
+.cal-icons { font-size:.72rem; color:var(--subtext); white-space:nowrap; }
+.cal-lock-wrap { position:relative; margin-bottom:12px; }
+.cal-grid-blur { filter:blur(5px); opacity:.55; pointer-events:none; user-select:none; }
+.cal-lock-overlay {
+  position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  text-align:center; padding:16px; gap:6px;
+}
+.cal-lock-big { font-size:1.4rem; }
+.cal-lock-title { font-size:.88rem; font-weight:600; color:var(--text); max-width:240px; }
+.cal-lock-sub { font-size:.78rem; color:var(--subtext); max-width:260px; line-height:1.45; }
+.cal-gold-btn {
+  width:100%; padding:13px; background:var(--ink); color:var(--white); border:none;
+  border-radius:100px; font-family:'DM Sans',sans-serif; font-size:.9rem; font-weight:500; cursor:pointer; margin-bottom:8px;
+}
+body.night .cal-gold-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.cal-gold-sub { font-size:.72rem; color:var(--subtext); text-align:center; line-height:1.45; margin-bottom:8px; }
+
+.settings-card {
+  background:var(--card); border:1px solid var(--border); border-radius:16px;
+  padding:18px; margin-bottom:12px; backdrop-filter:blur(10px);
+}
+.settings-card-title { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:6px; }
+.settings-card-sub { font-size:.85rem; color:var(--subtext); line-height:1.5; }
+.settings-row {
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px 0; border-bottom:1px solid var(--border);
+}
+.settings-row:last-child { border-bottom:none; padding-bottom:0; }
+.settings-row-label { font-size:.88rem; color:var(--text); }
+.settings-row-hint { font-size:.72rem; color:var(--subtext); margin-top:4px; line-height:1.4; }
+.settings-select {
+  border:1px solid var(--border); border-radius:10px; padding:8px 10px;
+  background:var(--card); color:var(--text); font-family:'DM Sans',sans-serif; font-size:.85rem;
+}
+.settings-btn {
+  width:100%; padding:14px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.9rem; font-weight:500; cursor:pointer; margin-top:8px;
+}
+.settings-btn-outline { background:none; border:1.5px solid var(--border); color:var(--text); }
+.settings-btn-primary { background:var(--ink); border:none; color:var(--white); }
+body.night .settings-btn-primary { background:rgba(255,255,255,.9); color:#2c1f2e; }
+
+.word-sheet-dialog { border:none; background:transparent; padding:0; margin:auto; max-width:390px; width:100%; }
+.word-sheet-dialog::backdrop { background:rgba(44,31,46,.45); }
+.word-sheet {
+  background:var(--card); border:1px solid var(--border); border-top-left-radius:24px; border-top-right-radius:24px;
+  padding:20px 20px 28px; max-height:88vh; overflow-y:auto; backdrop-filter:blur(16px);
+  margin-top:12vh;
+}
+.word-sheet-handle { width:36px; height:4px; background:var(--border); border-radius:2px; margin:0 auto 16px; }
+.sheet-eyebrow { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:6px; }
+.sheet-word { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; }
+.sheet-pron { font-size:.82rem; color:var(--subtext); font-style:italic; margin:4px 0 14px; }
+.sheet-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.sheet-etym { font-size:.78rem; color:var(--subtext); line-height:1.5; padding:12px; background:rgba(44,31,46,.04); border-radius:12px; margin-bottom:14px; }
+body.night .sheet-etym { background:rgba(255,255,255,.05); }
+.sheet-etym strong { color:var(--gold); font-weight:600; }
+.sheet-divider { height:1px; background:var(--border); margin:14px 0; }
+.sheet-stat { font-size:.82rem; color:var(--text); margin-bottom:8px; }
+.sheet-gym-row { display:flex; justify-content:space-between; align-items:center; font-size:.82rem; margin-bottom:16px; gap:10px; }
+.sheet-link-btn { border:none; background:none; color:var(--gold); font-weight:600; cursor:pointer; font-family:'DM Sans',sans-serif; font-size:.82rem; }
+.sheet-done-btn {
+  width:100%; padding:13px; border-radius:100px; border:1.5px solid var(--border);
+  background:none; color:var(--text); font-family:'DM Sans',sans-serif; font-size:.9rem; cursor:pointer;
+}
+
 /* Confetti */
 .confetti-piece { position:fixed; pointer-events:none; z-index:9998; animation:confettiFall linear forwards; border-radius:2px; }
 @keyframes confettiFall { 0%{transform:translateY(-20px) rotate(0deg);opacity:1} 100%{transform:translateY(110vh) rotate(720deg);opacity:0} }
@@ -472,6 +727,8 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
         <div class="coin-chip-icon">🪙</div>
         <span class="coin-chip-amount" id="homeCoinAmount">0</span>
       </div>
+      <button type="button" class="icon-nav-btn" onclick="openCalendarFromHome()" aria-label="Your words">📅</button>
+      <button type="button" class="icon-nav-btn" onclick="openSettingsFromHome()" aria-label="Settings">⚙️</button>
     </div>
   </div>
 
@@ -491,37 +748,72 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
   </div>
 
   <div class="home-section-label">Your alarms</div>
-  <div class="alarm-list">
-    <div class="alarm-card">
-      <div>
-        <div class="alarm-time-display">07:30</div>
-        <div class="alarm-meta">Weekdays · Words pack</div>
+  <div class="alarm-list" id="alarmList"></div>
+
+  <button type="button" class="add-alarm-btn" id="addAlarmBtn">+ Add alarm</button>
+  <div class="home-footer-actions">
+    <button type="button" class="demo-btn" onclick="fireAlarm()">Try the alarm</button>
+    <button type="button" class="demo-btn" onclick="toggleTheme()" id="themeBtn">☀️ Switch to light mode</button>
+  </div>
+</div>
+
+<!-- ══ WORD GYM TAB ══ -->
+<div id="screenGym" class="screen" aria-hidden="true">
+  <div class="home-header">
+    <div class="zazu-wordmark">zazu</div>
+    <div class="nav-right">
+      <div class="streak-pill">
+        <div class="streak-flame-wrap"><span class="streak-flame-icon">🔥</span></div>
+        <div class="streak-info">
+          <span class="streak-count" id="gymStreakNum">0</span>
+          <span class="streak-label">day streak</span>
+        </div>
       </div>
-      <div class="alarm-right">
-        <label class="toggle">
-          <input type="checkbox" checked onchange="this.closest('.alarm-card').classList.toggle('off',!this.checked)"/>
-          <div class="toggle-track"></div><div class="toggle-thumb"></div>
-        </label>
+      <div class="coin-chip">
+        <div class="coin-chip-icon">🪙</div>
+        <span class="coin-chip-amount" id="gymCoinAmount">0</span>
       </div>
-    </div>
-    <div class="alarm-card off">
-      <div>
-        <div class="alarm-time-display">09:00</div>
-        <div class="alarm-meta">Weekends · Words pack</div>
-      </div>
-      <div class="alarm-right">
-        <label class="toggle">
-          <input type="checkbox" onchange="this.closest('.alarm-card').classList.toggle('off',!this.checked)"/>
-          <div class="toggle-track"></div><div class="toggle-thumb"></div>
-        </label>
-      </div>
+      <button type="button" class="icon-nav-btn" onclick="openCalendarFromGym()" aria-label="Your words">📅</button>
+      <button type="button" class="icon-nav-btn" onclick="openSettingsFromGym()" aria-label="Settings">⚙️</button>
     </div>
   </div>
 
-  <button class="add-alarm-btn">+ Add alarm</button>
-  <button class="demo-btn" onclick="fireAlarm()">Try the alarm</button>
-  <button class="demo-btn" style="margin-top:8px" onclick="toggleTheme()" id="themeBtn">☀️ Switch to light mode</button>
+  <div class="gym-hero-icon" aria-hidden="true">🏋️</div>
+  <div class="gym-eyebrow">Word Gym</div>
+  <p class="gym-subtitle">Three rounds to lock it in</p>
+
+  <div class="gym-word-card" id="gymWordCard">
+    <div class="gym-word-label">Today's practice word</div>
+    <div class="gym-word-main" id="gymWord">Loading…</div>
+    <div class="gym-word-pron" id="gymPron"></div>
+    <div class="gym-word-def" id="gymDef"></div>
+    <div class="gym-word-origin" id="gymOrigin"></div>
+    <div class="gym-mastery-row">
+      <span class="gym-mastery-label">Mastery</span>
+      <span class="gym-mastery-value" id="gymMastery">Not practised yet</span>
+    </div>
+  </div>
+
+  <button type="button" class="gym-start-btn" id="gymStartBtn" onclick="startGymPuzzle()" disabled>Start practice</button>
 </div>
+
+<dialog class="add-alarm-dialog" id="addAlarmDialog">
+  <form class="add-alarm-panel" method="dialog" id="addAlarmForm">
+    <div class="add-alarm-title">Add alarm</div>
+    <div class="add-alarm-field">
+      <label for="addAlarmTime">Time</label>
+      <input type="time" id="addAlarmTime" name="time" required value="07:00"/>
+    </div>
+    <div class="add-alarm-field">
+      <label for="addAlarmLabel">Label</label>
+      <input type="text" id="addAlarmLabel" name="label" required maxlength="48" value="Words pack" placeholder="Weekdays · Words pack"/>
+    </div>
+    <div class="add-alarm-actions">
+      <button type="button" class="add-alarm-cancel" id="addAlarmCancelBtn">Cancel</button>
+      <button type="submit" class="add-alarm-save">Save</button>
+    </div>
+  </form>
+</dialog>
 
 <!-- ══ ALARM FIRING ══ -->
 <div id="screenAlarm" class="screen" aria-hidden="true">
@@ -621,8 +913,113 @@ body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,1
     <div class="coins-row"><span>Total</span><span id="coinAmtTotal">+25 🪙</span></div>
   </div>
 
-  <button class="btn-done" onclick="goHome()">Done</button>
+  <button type="button" class="btn-done" onclick="goHome()">Done</button>
 </div>
+
+<!-- ══ CALENDAR ══ -->
+<div id="screenCalendar" class="screen shell-screen" aria-hidden="true">
+  <div class="shell-inner">
+    <div class="shell-nav">
+      <div class="shell-nav-left">
+        <button type="button" class="shell-back" onclick="closeOverlayScreen()" aria-label="Go back">‹</button>
+        <div>
+          <div class="shell-title">Your words</div>
+          <div class="shell-sub" id="calNavSub">0 words learned</div>
+        </div>
+      </div>
+      <div class="shell-streak-pill">🔥 <span id="calStreakPill">0 days</span></div>
+    </div>
+
+    <div class="cal-toggle-row">
+      <span class="cal-toggle-label">Preview as:</span>
+      <div class="cal-toggle-wrap">
+        <button type="button" class="cal-toggle-opt active" id="calToggleFree" onclick="setCalendarGoldPreview(false)">Free user</button>
+        <button type="button" class="cal-toggle-opt" id="calToggleGold" onclick="setCalendarGoldPreview(true)">Zazu Gold</button>
+      </div>
+    </div>
+
+    <div class="cal-section-label">Today</div>
+    <div id="calHero"></div>
+
+    <div class="cal-section-label">This week</div>
+    <div class="cal-grid" id="calWeekGrid"></div>
+
+    <div class="cal-section-label">Older words</div>
+    <div id="calOlderSection"></div>
+  </div>
+</div>
+
+<!-- ══ SETTINGS ══ -->
+<div id="screenSettings" class="screen shell-screen" aria-hidden="true">
+  <div class="shell-inner">
+    <div class="shell-nav">
+      <div class="shell-nav-left">
+        <button type="button" class="shell-back" onclick="closeOverlayScreen()" aria-label="Go back">‹</button>
+        <div class="shell-title">Settings</div>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-card-title" id="settingsAccountTitle">Guest mode</div>
+      <div class="settings-card-sub" id="settingsAccountHint">Sign in to sync streak, coins, and Gold across devices.</div>
+      <div class="settings-card-sub" id="settingsPlan" style="margin-top:8px">Free plan</div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-row-label">Push notifications</div>
+          <div class="settings-row-hint" id="settingsNotifHint">Browser notification permission.</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="settingsNotifToggle" onchange="handleSettingsNotifToggle(this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+      <div class="settings-row">
+        <div class="settings-row-label">Theme</div>
+        <select class="settings-select" id="settingsThemeSelect" onchange="handleSettingsThemeChange(this.value)">
+          <option value="auto">Auto (dawn/dusk)</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="button" class="settings-btn settings-btn-outline" onclick="handleSettingsSignIn()">Sign in on this device</button>
+    <button type="button" class="settings-btn settings-btn-outline" onclick="handleSettingsSignOut()">Clear local name</button>
+    <button type="button" class="settings-btn settings-btn-outline" onclick="showGoldUpsellFromSettings()">Upgrade to Gold</button>
+  </div>
+</div>
+
+<dialog class="word-sheet-dialog" id="wordDetailSheet">
+  <div class="word-sheet" role="document">
+    <div class="word-sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-eyebrow" id="sheetEyebrow">–</div>
+    <div class="sheet-word" id="sheetWord">–</div>
+    <div class="sheet-pron" id="sheetPron">–</div>
+    <div class="sheet-def" id="sheetDef">–</div>
+    <div class="sheet-etym" id="sheetEtym">–</div>
+    <div class="sheet-divider"></div>
+    <div class="sheet-stat" id="sheetStreak">–</div>
+    <div class="sheet-stat" id="sheetDismiss">–</div>
+    <div class="sheet-gym-row" id="sheetGymRow"></div>
+    <button type="button" class="sheet-done-btn" onclick="closeWordSheet()">Done</button>
+  </div>
+</dialog>
+
+<nav class="app-tab-bar" id="appTabBar" aria-label="Main navigation">
+  <div class="app-tab-bar-inner">
+    <button type="button" class="app-tab active" id="tabHome" onclick="switchMainTab('home')" aria-current="page">
+      <span class="app-tab-icon" aria-hidden="true">🏠</span>
+      <span>Home</span>
+    </button>
+    <button type="button" class="app-tab" id="tabGym" onclick="switchMainTab('gym')">
+      <span class="app-tab-icon" aria-hidden="true">🏋️</span>
+      <span>Word Gym</span>
+    </button>
+  </div>
+</nav>
 
 <script>
 // ── UI COPY (mirrors mobile/constants/copy.ts) ──
@@ -636,6 +1033,8 @@ const COPY = {
     dayStreak: 'day streak',
     weekdaysPack: 'Weekdays · Words pack',
     weekendsPack: 'Weekends · Words pack',
+    tabHome: 'Home',
+    tabGym: 'Word Gym',
   },
   alarm: {
     goodMorning: 'Good morning',
@@ -664,6 +1063,56 @@ const COPY = {
     roundLabel: (round, type) => `Round ${round} of 3 · ${type}`,
     emptyPlaceholder: '–',
   },
+  gym: {
+    eyebrow: 'Word Gym',
+    todaysWord: "Today's practice word",
+    subtitle: 'Three rounds to lock it in',
+    mastery: 'Mastery',
+    masteryComplete: 'Completed today',
+    masteryNew: 'Not practised yet',
+    start: 'Start practice',
+    continue: 'Practise again',
+  },
+  gymSuccess: {
+    heading: 'Well practised.',
+    sub: 'Three rounds done. That word should stick.',
+    gymCompleted: 'Word Gym completed',
+    done: 'Done',
+    masteryPercent: (n) => `${n}% mastery`,
+  },
+  settings: {
+    signedInAs: (name) => `Signed in as ${name}`,
+    guestMode: 'Guest mode',
+    guestHint: 'Sign in to sync streak, coins, and Gold across devices.',
+    goldMember: 'Zazu Gold member',
+    freePlan: 'Free plan',
+    upgradeGold: 'Upgrade to Gold',
+    signOut: 'Sign out',
+    signIn: 'Sign in',
+  },
+  calendar: {
+    wordsLearned: (n) => `${n} word${n === 1 ? '' : 's'} learned`,
+    streakDays: (n) => `${n} day${n === 1 ? '' : 's'}`,
+    previewAs: 'Preview as:',
+    freeUser: 'Free user',
+    goldUser: 'Zazu Gold',
+    today: 'Today',
+    thisWeek: 'This week',
+    olderWords: 'Older words',
+    lockTitle: (n) => `${n} more word${n === 1 ? '' : 's'}, waiting for you`,
+    lockSub: 'Unlock your full word history with Zazu Gold',
+    unlockGold: 'Unlock with Zazu Gold ↗',
+    goldPricing: '£3.99/month or £24.99/year · 7-day free trial',
+    streakDayOf: (n) => `Day ${n} of your current streak`,
+    timeToDismiss: 'Time to dismiss',
+    notCompleted: '–',
+    gymCompleted: 'Word Gym completed',
+    gymNotDone: 'Word Gym not done that day',
+    wordGym: 'Word Gym',
+    goldFeature: 'Zazu Gold feature',
+    unlock: 'Unlock ↗',
+    openGym: 'Open in Word Gym',
+  },
 };
 
 // ── WORD DATABASE ──
@@ -689,7 +1138,11 @@ function getStreakTitle(n) {
 
 // ── WORD LIBRARY (Supabase overrides inline WORDS when configured) ──
 let wordLibrary = WORDS;
+let gymWordLibrary = WORDS;
 let todaysWord = WORDS[0];
+let gymWordOfDay = WORDS[0];
+let activeMainTab = 'home';
+let puzzleSource = 'gym';
 
 function pickWordOfDay(words) {
   if (window.ZazuWords?.pickWordOfDay) return window.ZazuWords.pickWordOfDay(words);
@@ -698,10 +1151,38 @@ function pickWordOfDay(words) {
   return words[dayIndex % words.length];
 }
 
-function pickSessionWord(words) {
+function pickGymWordOfDay() {
+  if (!gymWordLibrary?.length) return null;
   const learnedIds = window.ZazuProgress?.readProgress()?.learnedWordIds ?? [];
-  if (window.ZazuWords?.pickNextWord) return window.ZazuWords.pickNextWord(words, learnedIds);
-  return pickWordOfDay(words);
+  const alarmId = todaysWord?.id ?? (todaysWord?.word ? `word:${String(todaysWord.word).toLowerCase()}` : null);
+  const match =
+    alarmId &&
+    gymWordLibrary.find(
+      (w) => w.id === alarmId || w.word === todaysWord?.word,
+    );
+  if (match) return match;
+  if (window.ZazuWords?.pickNextAlarmWord) {
+    return window.ZazuWords.pickNextAlarmWord(gymWordLibrary, learnedIds);
+  }
+  return pickWordOfDay(gymWordLibrary);
+}
+
+function isGymDoneToday(wordId) {
+  const progress = window.ZazuProgress?.readProgress()?.wordProgress ?? [];
+  const entry = progress.find((item) => item.wordId === wordId);
+  if (!entry?.gymCompletedAt) return false;
+  const completed = new Date(entry.gymCompletedAt);
+  const now = new Date();
+  return (
+    completed.getFullYear() === now.getFullYear() &&
+    completed.getMonth() === now.getMonth() &&
+    completed.getDate() === now.getDate()
+  );
+}
+
+function getGymMastery(wordId) {
+  const progress = window.ZazuProgress?.readProgress()?.wordProgress ?? [];
+  return progress.find((item) => item.wordId === wordId)?.gymMastery ?? 0;
 }
 
 function renderWordOfDay(word) {
@@ -777,7 +1258,25 @@ async function initWordLibrary() {
   todaysWord = pickSessionWord(wordLibrary) ?? WORDS[0];
   renderWordOfDay(todaysWord);
   setWordOfDayLoading(false);
-  refreshHomeProgress();
+
+  let gymResult = { words: WORDS, error: null, usedFallback: false, source: 'inline' };
+  try {
+    if (window.ZazuWords?.fetchGymWordsWithStatus) {
+      gymResult = await window.ZazuWords.fetchGymWordsWithStatus();
+    }
+  } catch (err) {
+    console.error('[Zazu] Gym word fetch failed:', err);
+    gymResult = { words: WORDS, error: err?.message, usedFallback: true, source: 'fallback' };
+  }
+
+  gymWordLibrary = (gymResult.words?.length ? gymResult.words : WORDS).map((w) => {
+    const withRounds = w.rounds?.length ? w : { ...w, rounds: w.gymRounds ?? WORDS[0].rounds };
+    return withRounds;
+  });
+  gymWordOfDay = pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+  renderGymScreen();
+  renderAlarms();
+  refreshHeaderProgress();
 }
 
 async function retryWordLibrary() {
@@ -793,10 +1292,137 @@ async function retryWordLibrary() {
   }
 }
 
-function refreshHomeProgress() {
+function pickSessionWord(words) {
+  const learnedIds = window.ZazuProgress?.readProgress()?.learnedWordIds ?? [];
+  if (window.ZazuWords?.pickNextWord) return window.ZazuWords.pickNextWord(words, learnedIds);
+  return pickWordOfDay(words);
+}
+
+function refreshHeaderProgress() {
   const saved = window.ZazuProgress?.readProgress() ?? { streak: 0, coins: 0 };
-  document.getElementById('homeCoinAmount').textContent = saved.coins;
-  document.getElementById('homeStreakNum').textContent = saved.streak;
+  ['homeStreakNum', 'gymStreakNum'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = saved.streak;
+  });
+  ['homeCoinAmount', 'gymCoinAmount'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = saved.coins;
+  });
+}
+
+function renderAlarms() {
+  const list = document.getElementById('alarmList');
+  if (!list || !window.ZazuAlarms) return;
+
+  const alarms = window.ZazuAlarms.readAlarms();
+  list.innerHTML = alarms
+    .map(
+      (alarm) => `
+    <div class="alarm-card${alarm.enabled ? '' : ' off'}" data-alarm-id="${alarm.id}">
+      <div>
+        <div class="alarm-time-display">${alarm.time}</div>
+        <div class="alarm-meta">${alarm.label}</div>
+      </div>
+      <div class="alarm-right">
+        <label class="toggle">
+          <input type="checkbox" ${alarm.enabled ? 'checked' : ''} aria-label="Alarm ${alarm.time}, ${alarm.enabled ? 'on' : 'off'}" onchange="handleAlarmToggle('${alarm.id}', this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+    </div>`,
+    )
+    .join('');
+}
+
+function handleAlarmToggle(id, enabled) {
+  window.ZazuAlarms.toggleAlarm(id, enabled);
+  renderAlarms();
+}
+
+function openAddAlarmDialog() {
+  const dialog = document.getElementById('addAlarmDialog');
+  if (!dialog?.showModal) return;
+  dialog.showModal();
+}
+
+function closeAddAlarmDialog() {
+  const dialog = document.getElementById('addAlarmDialog');
+  if (dialog?.open) dialog.close();
+}
+
+function handleAddAlarmSubmit(event) {
+  event.preventDefault();
+  const timeInput = document.getElementById('addAlarmTime');
+  const labelInput = document.getElementById('addAlarmLabel');
+  const timeRaw = timeInput?.value ?? '07:00';
+  const label = (labelInput?.value ?? 'Words pack').trim() || 'Words pack';
+  window.ZazuAlarms.addAlarm(timeRaw, label);
+  renderAlarms();
+  closeAddAlarmDialog();
+}
+
+function renderGymScreen() {
+  const word = gymWordOfDay;
+  const startBtn = document.getElementById('gymStartBtn');
+  if (!word) {
+    document.getElementById('gymWord').textContent = 'Loading…';
+    if (startBtn) startBtn.disabled = true;
+    return;
+  }
+
+  document.getElementById('gymWord').textContent = word.word;
+  document.getElementById('gymPron').textContent = `${word.pronunciation} · ${word.pos}`;
+  document.getElementById('gymDef').textContent = word.definition;
+  document.getElementById('gymOrigin').innerHTML = word.origin ?? '';
+
+  const wordId = window.ZazuProgress?.getWordId(word) ?? word.word;
+  const mastery = getGymMastery(wordId);
+  const doneToday = isGymDoneToday(wordId);
+  const masteryEl = document.getElementById('gymMastery');
+  if (masteryEl) {
+    masteryEl.textContent = doneToday
+      ? COPY.gym.masteryComplete
+      : mastery > 0
+        ? COPY.gymSuccess.masteryPercent(mastery)
+        : COPY.gym.masteryNew;
+  }
+  if (startBtn) {
+    startBtn.disabled = false;
+    startBtn.textContent = doneToday ? COPY.gym.continue : COPY.gym.start;
+  }
+}
+
+function setActiveMainTab(tab) {
+  activeMainTab = tab;
+  document.getElementById('tabHome')?.classList.toggle('active', tab === 'home');
+  document.getElementById('tabGym')?.classList.toggle('active', tab === 'gym');
+  document.getElementById('tabHome')?.setAttribute('aria-current', tab === 'home' ? 'page' : 'false');
+  document.getElementById('tabGym')?.setAttribute('aria-current', tab === 'gym' ? 'page' : 'false');
+}
+
+function switchMainTab(tab) {
+  if (tab === 'gym') {
+    gymWordOfDay = pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+    renderGymScreen();
+    refreshHeaderProgress();
+    setActiveMainTab('gym');
+    showScreen('screenGym');
+    return;
+  }
+  setActiveMainTab('home');
+  showScreen('screenHome');
+}
+
+function updateTabBarVisibility(screenId) {
+  const tabBar = document.getElementById('appTabBar');
+  if (!tabBar) return;
+  const show = screenId === 'screenHome' || screenId === 'screenGym';
+  tabBar.hidden = !show;
+}
+
+/** @deprecated Use refreshHeaderProgress */
+function refreshHomeProgress() {
+  refreshHeaderProgress();
 }
 
 // ── STATE ──
@@ -814,7 +1440,10 @@ let themeManual = null;
 function applyAdaptiveTheme() {
   if (!window.ZazuAdaptiveTheme) return;
   let blend;
-  if (themeManual === 'light') blend = 0;
+  const override = window.ZazuSettings?.getThemeOverride?.() ?? themeManual ?? 'auto';
+  if (override === 'light') blend = 0;
+  else if (override === 'dark') blend = 1;
+  else if (themeManual === 'light') blend = 0;
   else if (themeManual === 'dark') blend = 1;
   else blend = window.ZazuAdaptiveTheme.getThemeBlend(new Date());
 
@@ -827,6 +1456,84 @@ function applyAdaptiveTheme() {
     btn.textContent = blend >= 0.5 ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
   }
 }
+
+function applyThemeFromSettings(mode) {
+  themeManual = mode === 'auto' ? null : mode;
+  applyAdaptiveTheme();
+}
+
+function openCalendarFromHome() {
+  window.ZazuWebScreens.getAlarmWords = () => wordLibrary;
+  window.ZazuWebScreens.openCalendar('screenHome');
+}
+
+function openCalendarFromGym() {
+  window.ZazuWebScreens.getAlarmWords = () => wordLibrary;
+  window.ZazuWebScreens.openCalendar('screenGym');
+}
+
+function openSettingsFromHome() {
+  window.ZazuWebScreens.openSettings('screenHome');
+}
+
+function openSettingsFromGym() {
+  window.ZazuWebScreens.openSettings('screenGym');
+}
+
+function closeOverlayScreen() {
+  window.ZazuWebScreens.closeOverlayScreen();
+}
+
+function setCalendarGoldPreview(isGold) {
+  window.ZazuWebScreens.setCalendarGoldPreview(isGold);
+}
+
+function closeWordSheet() {
+  window.ZazuWebScreens.closeWordSheet();
+}
+
+function handleSettingsNotifToggle(enabled) {
+  void window.ZazuWebScreens.handleNotifToggle(enabled);
+}
+
+function handleSettingsThemeChange(mode) {
+  window.ZazuWebScreens.handleThemeChange(mode);
+}
+
+function handleSettingsSignIn() {
+  window.ZazuWebScreens.handleSignIn();
+}
+
+function handleSettingsSignOut() {
+  window.ZazuWebScreens.handleSignOut();
+}
+
+function showGoldUpsellFromSettings() {
+  window.ZazuWebScreens.showGoldUpsell();
+}
+
+function startGymFromWord(word) {
+  const match =
+    gymWordLibrary.find((w) => (w.id && w.id === word.id) || w.word === word.word) ?? word;
+  currentWord = match.rounds?.length
+    ? match
+    : { ...match, rounds: match.gymRounds ?? match.rounds ?? WORDS[0].rounds };
+  gymWordOfDay = currentWord;
+  puzzleSource = 'gym';
+  setActiveMainTab('gym');
+  startPuzzle();
+}
+window.startGymFromWord = startGymFromWord;
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch((err) => {
+      console.warn('[Zazu] Service worker registration failed:', err);
+    });
+  });
+}
+registerServiceWorker();
 
 applyAdaptiveTheme();
 setInterval(applyAdaptiveTheme, 30 * 1000);
@@ -941,10 +1648,12 @@ function showScreen(id) {
     s.classList.toggle('active', active);
     s.setAttribute('aria-hidden', active ? 'false' : 'true');
   });
+  updateTabBarVisibility(id);
   window.scrollTo(0, 0);
 }
 
 function fireAlarm() {
+  puzzleSource = 'alarm';
   currentWord = pickSessionWord(wordLibrary) ?? wordLibrary[0];
   if (window.ZazuMorningTask?.ensureMorningTask) {
     currentWord = window.ZazuMorningTask.ensureMorningTask(currentWord);
@@ -1051,8 +1760,22 @@ function dismissMorningTask() {
 }
 
 function goHome() {
-  refreshHomeProgress();
-  showScreen('screenHome');
+  refreshHeaderProgress();
+  renderGymScreen();
+  if (activeMainTab === 'gym') {
+    showScreen('screenGym');
+  } else {
+    showScreen('screenHome');
+  }
+}
+
+function startGymPuzzle() {
+  currentWord = gymWordOfDay ?? pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+  if (!currentWord?.rounds?.length && gymWordLibrary[0]?.rounds) {
+    currentWord = { ...currentWord, rounds: gymWordLibrary[0].rounds };
+  }
+  puzzleSource = 'gym';
+  startPuzzle();
 }
 
 // ── PUZZLE ──
@@ -1338,9 +2061,62 @@ function renderCoinBreakdown(breakdown, total) {
   if (totalEl) totalEl.textContent = `+${total} 🪙`;
 }
 
+function renderGymCoinBreakdown(coinsEarned) {
+  const labelEl = document.getElementById('coinLabelPuzzle');
+  if (labelEl) labelEl.textContent = COPY.gymSuccess.gymCompleted;
+  ['coinRowNoSnooze', 'coinRowStreakBonus'].forEach((id) => {
+    const row = document.getElementById(id);
+    if (row) row.style.display = 'none';
+  });
+  const puzzleRow = document.getElementById('coinRowPuzzle');
+  if (puzzleRow) puzzleRow.style.display = '';
+  const amtEl = document.getElementById('coinAmtPuzzle');
+  if (amtEl) amtEl.textContent = `+${coinsEarned} 🪙`;
+  const totalEl = document.getElementById('coinAmtTotal');
+  if (totalEl) totalEl.textContent = `+${coinsEarned} 🪙`;
+}
+
+function showGymSuccess() {
+  const wordId = window.ZazuProgress?.getWordId(currentWord) ?? currentWord.word;
+  const result = window.ZazuProgress?.completeGym(wordId, { mastery: 100 }) ?? {
+    coinsEarned: 20,
+    totalCoins: 20,
+    gymMastery: 100,
+  };
+
+  const saved = window.ZazuProgress?.readProgress() ?? { streak: 0 };
+  const title = getStreakTitle(saved.streak);
+
+  const heading = document.querySelector('#screenSuccess .success-heading');
+  const sub = document.querySelector('#screenSuccess .success-sub');
+  if (heading) heading.textContent = COPY.gymSuccess.heading;
+  if (sub) sub.textContent = COPY.gymSuccess.sub;
+
+  document.getElementById('successWord').textContent = currentWord.word;
+  document.getElementById('successPronunciation').textContent = currentWord.pronunciation;
+  document.getElementById('successDef').textContent = currentWord.definition;
+  document.getElementById('successOrigin').innerHTML = currentWord.origin ?? '';
+  document.getElementById('successStreakText').textContent = COPY.success.streakCount(saved.streak);
+  document.getElementById('successStreakTitle').textContent = COPY.gymSuccess.masteryPercent(result.gymMastery ?? 100);
+  renderGymCoinBreakdown(result.coinsEarned);
+  playSuccess();
+  launchConfetti();
+  showScreen('screenSuccess');
+}
+
 function showSuccess() {
   clearInactivityTimer();
   stopAlarmSound();
+
+  if (puzzleSource === 'gym') {
+    showGymSuccess();
+    return;
+  }
+
+  const heading = document.querySelector('#screenSuccess .success-heading');
+  const sub = document.querySelector('#screenSuccess .success-sub');
+  if (heading) heading.textContent = COPY.success.heading;
+  if (sub) sub.textContent = COPY.success.sub;
 
   const wordId = window.ZazuProgress?.getWordId(currentWord) ?? currentWord.word;
   const result = window.ZazuProgress?.completeWord(wordId, { noSnooze: true }) ?? {
@@ -1380,7 +2156,11 @@ function toggleTheme() {
     : 0;
   const currentBlend =
     themeManual === 'light' ? 0 : themeManual === 'dark' ? 1 : autoBlend;
-  themeManual = currentBlend >= 0.5 ? 'light' : 'dark';
+  const next = currentBlend >= 0.5 ? 'light' : 'dark';
+  themeManual = next;
+  window.ZazuSettings?.setThemeOverride(next);
+  const select = document.getElementById('settingsThemeSelect');
+  if (select) select.value = next;
   applyAdaptiveTheme();
 }
 
@@ -1393,11 +2173,22 @@ function shuffle(a){
 <script src="lib/morning-task.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="public/config.js" onerror="console.info('[Zazu] public/config.js not found. Run npm run config')"></script>
+<script src="lib/alarms-web.js"></script>
+<script src="lib/settings-web.js"></script>
+<script src="lib/calendar-web.js"></script>
 <script src="lib/progress-web.js"></script>
 <script src="lib/words-api.js"></script>
+<script src="lib/web-screens.js"></script>
 <script>
 applyAdaptiveTheme();
-refreshHomeProgress();
+if (window.ZazuSettings?.getThemeOverride()) {
+  applyThemeFromSettings(window.ZazuSettings.getThemeOverride());
+}
+refreshHeaderProgress();
+renderAlarms();
+document.getElementById('addAlarmBtn')?.addEventListener('click', openAddAlarmDialog);
+document.getElementById('addAlarmCancelBtn')?.addEventListener('click', closeAddAlarmDialog);
+document.getElementById('addAlarmForm')?.addEventListener('submit', handleAddAlarmSubmit);
 initWordLibrary();
 </script>
 </body>

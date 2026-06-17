@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -200,7 +200,12 @@ export function GymScreen() {
             )}
           </ScrollView>
 
-          <View style={[styles.footer, { paddingBottom: insets.bottom || spacing.md }]}>
+          <View
+            style={[
+              styles.footer,
+              { paddingBottom: (insets.bottom || spacing.md) + (Platform.OS === 'web' ? 72 : 0) },
+            ]}
+          >
             <PrimaryButton
               label={gymDoneToday ? copy.gym.continue : copy.gym.start}
               onPress={handleStart}

@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -98,7 +98,15 @@ export function HomeScreen() {
             />
           </ScrollView>
 
-          <View style={[styles.footer, { paddingBottom: Math.max(insets.bottom, spacing.md) }]}>
+          <View
+            style={[
+              styles.footer,
+              {
+                paddingBottom:
+                  Math.max(insets.bottom, spacing.md) + (Platform.OS === 'web' ? 72 : 0),
+              },
+            ]}
+          >
             <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} style={styles.addAlarmBtn} />
             <PrimaryButton
               label={copy.home.tryTheAlarm}

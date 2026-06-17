@@ -17,9 +17,13 @@ dotenv.config({ path: resolve(root, '.env') });
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(resolve(dist, 'lib'), { recursive: true });
 mkdirSync(resolve(dist, 'public'), { recursive: true });
+mkdirSync(resolve(dist, 'icons'), { recursive: true });
 
 cpSync(resolve(root, 'index.html'), resolve(dist, 'index.html'));
 cpSync(resolve(root, 'lib'), resolve(dist, 'lib'), { recursive: true });
+cpSync(resolve(root, 'public/manifest.webmanifest'), resolve(dist, 'manifest.webmanifest'));
+cpSync(resolve(root, 'public/sw.js'), resolve(dist, 'sw.js'));
+cpSync(resolve(root, 'public/icons'), resolve(dist, 'icons'), { recursive: true });
 
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🐦</text></svg>`;
 writeFileSync(resolve(dist, 'favicon.svg'), faviconSvg, 'utf8');
