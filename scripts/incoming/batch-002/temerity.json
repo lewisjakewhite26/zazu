@@ -1,0 +1,120 @@
+{
+  "word": "Temerity",
+  "pronunciation": "teh-MER-ih-tee",
+  "pos": "noun",
+  "definition": "Excessive confidence or boldness; audacity.",
+  "origin": "From Latin <strong>temeritas</strong> -- rashness. From <strong>temere</strong> -- blindly, rashly, by chance.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "temeritas",
+      "highlight": true
+    },
+    {
+      "text": " (rashness), from ",
+      "highlight": false
+    },
+    {
+      "text": "temere",
+      "highlight": true
+    },
+    {
+      "text": " (blindly, rashly, by chance).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "temere",
+      "root_language": "Latin",
+      "root_meaning": "blindly or rashly",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "temeritas",
+      "root_language": "Latin",
+      "root_meaning": "rashness",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "definition",
+    "source_value": "definition",
+    "correct_answer": "Excessive boldness or audacity"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Temerity</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin temere",
+          "b": "Blindly or rashly"
+        },
+        {
+          "a": "Latin temeritas",
+          "b": "Rashness"
+        },
+        {
+          "a": "Related: temerity",
+          "b": "Acting without thinking"
+        },
+        {
+          "a": "Often confused with",
+          "b": "Timidity (its opposite)"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Temerity</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Temerity means",
+          "b": "Excessive boldness"
+        },
+        {
+          "a": "Have the temerity to",
+          "b": "Do something shockingly audacious"
+        },
+        {
+          "a": "Synonym of temerity",
+          "b": "Audacity"
+        },
+        {
+          "a": "Antonym of temerity",
+          "b": "Timidity"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Temerity</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "She had the temerity",
+          "b": "To question the professor"
+        },
+        {
+          "a": "His temerity shocked",
+          "b": "Everyone in the room"
+        },
+        {
+          "a": "The temerity of the claim",
+          "b": "Left the board speechless"
+        },
+        {
+          "a": "Only someone with temerity",
+          "b": "Would attempt it at all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "word": "Lissom",
+  "pronunciation": "LIS-um",
+  "pos": "adjective",
+  "definition": "Thin, supple, and graceful in movement.",
+  "origin": "A contraction of <strong>lithesome</strong>, from Old English <strong>lithe</strong> (flexible, gentle) + <strong>-some</strong> (having the quality of).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "A contraction of ",
+      "highlight": false
+    },
+    {
+      "text": "lithesome",
+      "highlight": true
+    },
+    {
+      "text": ", from Old English ",
+      "highlight": false
+    },
+    {
+      "text": "lithe",
+      "highlight": true
+    },
+    {
+      "text": " (flexible, gentle) + ",
+      "highlight": false
+    },
+    {
+      "text": "-some",
+      "highlight": true
+    },
+    {
+      "text": " (having the quality of).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "lithe",
+      "root_language": "Old English",
+      "root_meaning": "flexible or gentle",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "-some",
+      "root_language": "Old English",
+      "root_meaning": "having the quality of",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "lithe",
+    "correct_answer": "Flexible or gentle"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Lissom</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Old English lithe",
+          "b": "Flexible or gentle"
+        },
+        {
+          "a": "Suffix -some",
+          "b": "Having the quality of"
+        },
+        {
+          "a": "Lissom contracts",
+          "b": "Lithesome"
+        },
+        {
+          "a": "Related: lithe",
+          "b": "Flexible and graceful"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Lissom</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Lissom means",
+          "b": "Supple and gracefully slim"
+        },
+        {
+          "a": "A lissom dancer",
+          "b": "Moves with fluid ease"
+        },
+        {
+          "a": "Synonym of lissom",
+          "b": "Lithe"
+        },
+        {
+          "a": "Antonym of lissom",
+          "b": "Ungainly"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Lissom</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The lissom gymnast",
+          "b": "Bent like a willow"
+        },
+        {
+          "a": "A lissom figure",
+          "b": "Crossed the stage"
+        },
+        {
+          "a": "The lissom cat",
+          "b": "Slipped through the gap"
+        },
+        {
+          "a": "A lissom grace",
+          "b": "That age had not diminished"
+        }
+      ]
+    }
+  ]
+}

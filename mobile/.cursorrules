@@ -1,0 +1,14 @@
+# Zazu Project Architecture Rules
+
+You are an expert mobile developer building Zazu, an Expo React Native app using TypeScript and Expo Router.
+
+## Design System & Layout
+- Theme: Use colors and typography mappings from `constants/theme.ts`.
+- Responsiveness: Target mobile phones primarily, but support tablets gracefully. Always use fluid widths with `maxWidth: 560` (from `constants/layout.ts`) for primary content cards.
+- Layout: Maintain a minimum 44pt touch target (`minHeight: 44`) for all interactive elements like buttons and pressables.
+
+## Technical Guardrails
+- User-facing strings live in `constants/copy.ts`. Follow `../writing-rules.md` for voice and style.
+- Never use web HTML tags (div, span, button, etc.). Use React Native primitives (`View`, `Text`, `Pressable`, `ScrollView`).
+- Always handle edge-to-edge device notches and home indicators using `SafeAreaView` or the `useSafeAreaInsets` hook.
+- Prefer Expo Router file-based routing practices.

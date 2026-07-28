@@ -1,0 +1,128 @@
+{
+  "word": "Contumacious",
+  "pronunciation": "kon-tyoo-MAY-shus",
+  "pos": "adjective",
+  "definition": "Stubbornly or wilfully disobedient to authority.",
+  "origin": "From Latin <strong>contumax</strong> -- insolent, stubborn. From <strong>con</strong> (intensive) + <strong>tumere</strong> (to swell with pride).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "contumax",
+      "highlight": true
+    },
+    {
+      "text": " (insolent, stubborn), from ",
+      "highlight": false
+    },
+    {
+      "text": "con",
+      "highlight": true
+    },
+    {
+      "text": " (intensive) + ",
+      "highlight": false
+    },
+    {
+      "text": "tumere",
+      "highlight": true
+    },
+    {
+      "text": " (to swell with pride).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "con",
+      "root_language": "Latin",
+      "root_meaning": "intensive prefix",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "tumere",
+      "root_language": "Latin",
+      "root_meaning": "to swell with pride",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "tumere",
+    "correct_answer": "To swell with pride"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Contumacious</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin con-",
+          "b": "Intensive prefix"
+        },
+        {
+          "a": "Latin tumere",
+          "b": "To swell with pride"
+        },
+        {
+          "a": "Latin contumax",
+          "b": "Insolent and stubborn"
+        },
+        {
+          "a": "Related: tumult",
+          "b": "A swelling uproar"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Contumacious</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Contumacious means",
+          "b": "Wilfully disobedient"
+        },
+        {
+          "a": "Synonym of contumacious",
+          "b": "Insubordinate"
+        },
+        {
+          "a": "Antonym of contumacious",
+          "b": "Compliant"
+        },
+        {
+          "a": "A contumacious defendant",
+          "b": "Defies the court"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Contumacious</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The contumacious pupil",
+          "b": "Ignored every instruction"
+        },
+        {
+          "a": "A contumacious refusal",
+          "b": "To follow orders"
+        },
+        {
+          "a": "He remained contumacious",
+          "b": "Throughout the trial"
+        },
+        {
+          "a": "Contumacious behaviour",
+          "b": "Drew a contempt ruling"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+[
+    {
+    "word": "Ken",
+    "pronunciation": "KEN",
+    "pos": "noun",
+    "definition": "One's range of knowledge or sight.",
+    "origin": "From Middle English kennen, from Old English cennan (to make known, declare), from Proto-Germanic kannjan.",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Ken come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old English cennan", "b": "To declare or make known" },
+    { "a": "Proto-Germanic kannjan", "b": "To cause to know" },
+    { "a": "Combined meaning", "b": "The boundary of what is known" },
+    { "a": "Related: uncanny", "b": "Strange, eerie, or beyond knowledge" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Ken mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Ken means", "b": "Scope of understanding or vision" },
+    { "a": "Synonym of ken", "b": "Cognizance" },
+    { "a": "Antonym of ken", "b": "Ignorance" },
+    { "a": "Beyond our ken", "b": "Refers to things we cannot comprehend" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Ken used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "Abstract computing algorithms are completely", "b": "Beyond the ken of primary pupils" },
+    { "a": "The true scale of space", "b": "Is outside all human ken" },
+    { "a": "Such specialized medical data lies", "b": "Far beyond my professional ken" },
+    { "a": "A faint speck appeared on", "b": "The horizon, just within our ken" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Kernel",
+    "pronunciation": "KUR-nul",
+    "pos": "noun",
+    "definition": "The central or most important part of something, or the edible seed within a nut casing.",
+    "origin": "From Old English cyrnel, a diminutive of corn (grain, seed).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Kernel come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old English corn", "b": "Seed or single grain" },
+    { "a": "Suffix -el", "b": "Diminutive tag meaning little" },
+    { "a": "Combined meaning", "b": "A tiny grain or inner core" },
+    { "a": "Related: corn", "b": "A common cereal crop plant grain" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Kernel mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Kernel means", "b": "The core, essence, or nucleus" },
+    { "a": "Synonym of kernel", "b": "Quintessence" },
+    { "a": "Antonym of kernel", "b": "Periphery" },
+    { "a": "An operating system kernel", "b": "Manages core communication with computer hardware" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Kernel used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "There was a kernel of", "b": "Truth in his bizarre explanation" },
+    { "a": "The programmer modified the core", "b": "Kernel of the digital audio software" },
+    { "a": "This concept forms the basic", "b": "Kernel of their entire business strategy" },
+    { "a": "She cracked the shell to", "b": "Extract the sweet walnut kernel" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Kindle",
+    "pronunciation": "KIN-dul",
+    "pos": "verb",
+    "definition": "To arouse or inspire an emotion, or to light a fire.",
+    "origin": "From Middle English kindlen, from Old Norse kynda (to light a fire, inflame).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Kindle come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old Norse kynda", "b": "To ignite or light up" },
+    { "a": "Old Norse kyndill", "b": "A torch or light flare" },
+    { "a": "Combined meaning", "b": "To set on fire or spark" },
+    { "a": "Related: tinder", "b": "Dry material used to catch a spark" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Kindle mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Kindle means", "b": "To stimulate, provoke, or ignite" },
+    { "a": "Synonym of kindle", "b": "Engender" },
+    { "a": "Antonym of kindle", "b": "Extinguish" },
+    { "a": "To kindle enthusiasm", "b": "Makes learning easy for primary school children" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Kindle used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The photography lesson did kindle", "b": "A deep creative interest in Year 4" },
+    { "a": "We used dry twigs to", "b": "Kindle the campfire down the beach" },
+    { "a": "Her brilliant presentation helped kindle", "b": "Fresh debate among the governors" },
+    { "a": "His harsh criticism managed to", "b": "Kindle a sudden spark of resentment" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Kinship",
+    "pronunciation": "KIN-ship",
+    "pos": "noun",
+    "definition": "A sharing of characteristics or origins, or blood relationship.",
+    "origin": "From Old English cynn (family, race, nature) + the suffix -ship (state, condition).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Kinship come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old English cynn", "b": "Family, kind, stock, or gender" },
+    { "a": "Suffix -ship", "b": "Condition, office, or quality of" },
+    { "a": "Combined meaning", "b": "The state of belonging to a family" },
+    { "a": "Related: kindred", "b": "One's family or relations" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Kinship mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Kinship means", "b": "Affinity, consanguinity, or close bond" },
+    { "a": "Synonym of kinship", "b": "Alliance" },
+    { "a": "Antonym of kinship", "b": "Estrangement" },
+    { "a": "A kinship network", "b": "Provides essential support in small villages" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Kinship used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "He felt a strong spiritual", "b": "Kinship with the mountain isolation" },
+    { "a": "The study tracked complex lines", "b": "Of tribal kinship and marriage" },
+    { "a": "They felt an immediate creative", "b": "Kinship upon starting the software project" },
+    { "a": "Tie badges reinforce a sense", "b": "Of structural kinship within the club" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Kismet",
+    "pronunciation": "KIZ-met",
+    "pos": "noun",
+    "definition": "Destiny or fate.",
+    "origin": "From Turkish kısmet, from Arabic qismah (portion, lot, division, fate).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Kismet come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Arabic qismah", "b": "A portion, share, or lot" },
+    { "a": "Arabic qasama", "b": "To divide or distribute" },
+    { "a": "Combined meaning", "b": "One's allotted share of destiny" },
+    { "a": "Related: division", "b": "The separation of a whole into parts" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Kismet mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Kismet means", "b": "Providence, destiny, or serendipity" },
+    { "a": "Synonym of kismet", "b": "Karma" },
+    { "a": "Antonym of kismet", "b": "Design" },
+    { "a": "Attributing events to kismet", "b": "Implies humans have no real control over life" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Kismet used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "Meeting my old friend in", "b": "Marrakech felt like absolute kismet" },
+    { "a": "He shrugged, assuming their sudden", "b": "Tournament defeat was just kismet" },
+    { "a": "It must have been kismet", "b": "That the exact used club was for sale" },
+    { "a": "She refused to believe that", "b": "Failing the exam was simple kismet" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Knell",
+    "pronunciation": "NEL",
+    "pos": "noun",
+    "definition": "The sound of a bell, especially when rung solemnly for a death or funeral.",
+    "origin": "From Old English cnyll (sound of a bell), from cnyllan (to strike sound out, ring).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Knell come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old English cnyll", "b": "A tolling sound or signal stroke" },
+    { "a": "Old High German knellen", "b": "To clatter or make a loud din" },
+    { "a": "Combined meaning", "b": "A solemn bell strike or chime" },
+    { "a": "Related: knoll", "b": "An old word for standard bell ringing" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Knell mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Knell means", "b": "An omen of death, termination, or ruin" },
+    { "a": "Synonym of knell", "b": "Toll" },
+    { "a": "Antonym of knell", "b": "Resurrection" },
+    { "a": "A death knell", "b": "Signals the definitive end of an era or system" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Knell used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The budget cuts sounded the", "b": "Death knell for the local school library" },
+    { "a": "We heard the distant knell", "b": "Echo across the churchyard at twilight" },
+    { "a": "The new legislation strikes a", "b": "Knell for traditional print publishing houses" },
+    { "a": "That final goal tolled a", "b": "Sad knell for our cup tournament dreams" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Kowtow",
+    "pronunciation": "kow-TOW",
+    "pos": "verb",
+    "definition": "To act in an excessively subservient or sycophantic manner.",
+    "origin": "From Chinese koutou, from kou (knock) + tou (head).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Kowtow come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Chinese kou", "b": "To knock or strike down" },
+    { "a": "Chinese tou", "b": "The head" },
+    { "a": "Cultural context", "b": "The custom of touching the forehead to the ground in respect" },
+    { "a": "Combined meaning", "b": "To bow down low or grovel submissively" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Kowtow mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Kowtow means", "b": "To fawn, grovel, or behave obsequiously" },
+    { "a": "Synonym of kowtow", "b": "Truckle" },
+    { "a": "Antonym of kowtow", "b": "Defy" },
+    { "a": "Refusing to kowtow", "b": "Shows strong independent strength of character" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Kowtow used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "He refused to kowtow to", "b": "The ridiculous demands of the executive board" },
+    { "a": "She hated watching colleagues kowtow", "b": "To the manager just for promotions" },
+    { "a": "Independent local firms will not", "b": "Kowtow to massive retail monopolies" },
+    { "a": "You must stand firm and", "b": "Never kowtow to high-handed school bureaucrats" }
+    ]
+    }
+    ]
+    }
+    ]

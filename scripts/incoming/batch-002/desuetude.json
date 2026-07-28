@@ -1,0 +1,128 @@
+{
+  "word": "Desuetude",
+  "pronunciation": "DES-wih-tyood",
+  "pos": "noun",
+  "definition": "A state of no longer being practised or used; disuse.",
+  "origin": "From Latin <strong>desuetudo</strong> -- disuse. From <strong>de</strong> (away from) + <strong>suescere</strong> (to become accustomed).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "desuetudo",
+      "highlight": true
+    },
+    {
+      "text": " (disuse), from ",
+      "highlight": false
+    },
+    {
+      "text": "de",
+      "highlight": true
+    },
+    {
+      "text": " (away from) + ",
+      "highlight": false
+    },
+    {
+      "text": "suescere",
+      "highlight": true
+    },
+    {
+      "text": " (to become accustomed).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "de",
+      "root_language": "Latin",
+      "root_meaning": "away from",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "suescere",
+      "root_language": "Latin",
+      "root_meaning": "to become accustomed",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "definition",
+    "source_value": "definition",
+    "correct_answer": "A state of disuse"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Desuetude</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin de-",
+          "b": "Away from"
+        },
+        {
+          "a": "Latin suescere",
+          "b": "To become accustomed"
+        },
+        {
+          "a": "Latin desuetudo",
+          "b": "A falling out of use"
+        },
+        {
+          "a": "Related: custom",
+          "b": "From the same Latin root"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Desuetude</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Desuetude means",
+          "b": "A state of disuse"
+        },
+        {
+          "a": "Fall into desuetude",
+          "b": "Stop being used or practised"
+        },
+        {
+          "a": "Synonym of desuetude",
+          "b": "Obsolescence"
+        },
+        {
+          "a": "Antonym of desuetude",
+          "b": "Common practice"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Desuetude</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The law had fallen",
+          "b": "Into desuetude"
+        },
+        {
+          "a": "Years of desuetude",
+          "b": "Left the building beyond repair"
+        },
+        {
+          "a": "The tradition drifted",
+          "b": "Into desuetude"
+        },
+        {
+          "a": "Rescued from desuetude",
+          "b": "By a new generation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "word": "Garrulous",
+  "pronunciation": "GAR-uh-lus",
+  "pos": "adjective",
+  "definition": "Excessively talkative, especially on trivial matters.",
+  "origin": "From Latin <strong>garrulus</strong> -- chattering, talkative. From <strong>garrire</strong> -- to chatter or prattle.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "garrulus",
+      "highlight": true
+    },
+    {
+      "text": " (chattering, talkative), from ",
+      "highlight": false
+    },
+    {
+      "text": "garrire",
+      "highlight": true
+    },
+    {
+      "text": " (to chatter or prattle).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "garrire",
+      "root_language": "Latin",
+      "root_meaning": "to chatter or prattle",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "garrulus",
+      "root_language": "Latin",
+      "root_meaning": "chattering and talkative",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "garrire",
+    "correct_answer": "To chatter or prattle"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Garrulous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin garrire",
+          "b": "To chatter or prattle"
+        },
+        {
+          "a": "Latin garrulus",
+          "b": "Chattering and talkative"
+        },
+        {
+          "a": "Related: gargle",
+          "b": "From the same sound-making root"
+        },
+        {
+          "a": "Related: loquacious",
+          "b": "Also means excessively talkative"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Garrulous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Garrulous means",
+          "b": "Excessively talkative"
+        },
+        {
+          "a": "A garrulous person",
+          "b": "Talks especially about trivialities"
+        },
+        {
+          "a": "Synonym of garrulous",
+          "b": "Voluble"
+        },
+        {
+          "a": "Antonym of garrulous",
+          "b": "Taciturn"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Garrulous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The garrulous uncle",
+          "b": "Held court at every gathering"
+        },
+        {
+          "a": "Her garrulous neighbour",
+          "b": "Appeared whenever she opened the door"
+        },
+        {
+          "a": "A garrulous account",
+          "b": "Of a perfectly simple journey"
+        },
+        {
+          "a": "He grew more garrulous",
+          "b": "With each glass of wine"
+        }
+      ]
+    }
+  ]
+}

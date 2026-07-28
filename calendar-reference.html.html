@@ -1,0 +1,273 @@
+
+<h2 class="sr-only">Zazu word calendar version 3 with free and Gold user states</h2>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.screen{padding:16px;max-width:390px;margin:0 auto}
+.nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.nav-title{font-size:17px;font-weight:500;color:var(--color-text-primary)}
+.nav-sub{font-size:12px;color:var(--color-text-secondary);margin-top:2px}
+.streak-pill{display:flex;align-items:center;gap:6px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);padding:6px 12px;border-radius:100px;font-size:12px;font-weight:500;color:var(--color-text-primary)}
+.toggle-row{display:flex;align-items:center;gap:8px;margin-bottom:20px;padding:12px;background:var(--color-background-secondary);border-radius:12px;border:0.5px solid var(--color-border-tertiary)}
+.toggle-label{font-size:12px;color:var(--color-text-secondary);flex:1}
+.toggle-wrap{display:flex;background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:100px;padding:2px;gap:2px}
+.toggle-opt{font-size:12px;font-weight:500;padding:5px 12px;border-radius:100px;border:none;cursor:pointer;font-family:var(--font-sans);color:var(--color-text-secondary);background:transparent;transition:all .15s}
+.toggle-opt.active{background:#2c1f2e;color:#fefcfb}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:10px}
+.hero-card{border-radius:16px;padding:16px;margin-bottom:12px;cursor:pointer;background:#fde8d8;border:0.5px solid rgba(249,201,168,0.5);display:flex;align-items:center;justify-content:space-between}
+.hero-badge{display:inline-block;font-size:10px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:#9080a0;background:rgba(255,255,255,0.5);padding:3px 8px;border-radius:100px;margin-bottom:8px}
+.hero-word{font-size:26px;font-weight:500;color:#2c1f2e;letter-spacing:-.02em;font-family:var(--font-serif);margin-bottom:2px}
+.hero-date{font-size:12px;color:#9080a0}
+.hero-icons{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.icon-item{display:flex;flex-direction:column;align-items:center;gap:2px}
+.icon-item i{font-size:16px}
+.icon-item i.done{color:#5cbd8a}
+.icon-item i.muted{color:#c8b4e8}
+.icon-label{font-size:9px;color:#9080a0;letter-spacing:.04em;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.day-card{border-radius:14px;padding:14px;cursor:pointer;min-height:100px;display:flex;flex-direction:column;justify-content:space-between}
+.day-card.peach{background:#fde8d8;border:0.5px solid rgba(249,201,168,0.5)}
+.day-card.lavender{background:#ede0f8;border:0.5px solid rgba(200,180,232,0.5)}
+.day-card.blush{background:#fce8f0;border:0.5px solid rgba(240,160,188,0.5)}
+.day-card.dawn{background:#e8f0fd;border:0.5px solid rgba(168,196,232,0.5)}
+.card-date{font-size:10px;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:#9080a0;margin-bottom:5px}
+.card-word{font-size:17px;font-weight:500;color:#2c1f2e;letter-spacing:-.01em;font-family:var(--font-serif)}
+.card-icons{display:flex;gap:10px;margin-top:10px}
+.ci{display:flex;flex-direction:column;align-items:center;gap:2px}
+.ci i{font-size:14px}
+.ci i.done{color:#5cbd8a}
+.ci i.muted{color:#c8b4e8}
+.ci span{font-size:9px;color:#9080a0}
+.lock-wrap{position:relative;margin-bottom:12px}
+.lock-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:rgba(254,252,251,0.55);border-radius:14px;z-index:2;padding:12px;text-align:center}
+.lock-overlay i{font-size:22px;color:#9080a0}
+.lock-title{font-size:13px;font-weight:500;color:#2c1f2e}
+.lock-sub{font-size:11px;color:#9080a0;line-height:1.4}
+.gold-btn{display:block;width:100%;padding:13px;background:#2c1f2e;color:#fefcfb;border:none;border-radius:100px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--font-sans);margin-bottom:8px}
+.gold-sub{font-size:11px;color:var(--color-text-secondary);text-align:center}
+.overlay{position:fixed;inset:0;background:rgba(44,31,46,0.45);display:flex;align-items:flex-end;justify-content:center;z-index:100}
+.sheet{background:var(--color-background-primary);border-radius:24px 24px 0 0;padding:20px 20px 32px;width:100%;max-width:390px;max-height:88vh;overflow-y:auto}
+.handle{width:36px;height:4px;background:var(--color-border-secondary);border-radius:2px;margin:0 auto 18px}
+.sheet-eyebrow{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#9080a0;margin-bottom:6px}
+.sheet-word{font-size:34px;font-weight:500;color:var(--color-text-primary);letter-spacing:-.03em;font-family:var(--font-serif);margin-bottom:2px}
+.sheet-pron{font-size:13px;color:var(--color-text-secondary);font-style:italic;margin-bottom:14px}
+.divider{height:0.5px;background:var(--color-border-tertiary);margin:14px 0}
+.sheet-def{font-size:14px;color:var(--color-text-primary);line-height:1.6;margin-bottom:10px}
+.sheet-etym{font-size:13px;color:var(--color-text-secondary);line-height:1.55;padding:12px;background:var(--color-background-secondary);border-radius:12px;margin-bottom:14px}
+.sheet-etym strong{color:#c9963a;font-weight:500}
+.task-box{padding:12px;background:var(--color-background-secondary);border-radius:12px;margin-bottom:14px}
+.task-label{font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:#9080a0;margin-bottom:6px}
+.task-q{font-size:13px;color:var(--color-text-primary);margin-bottom:6px}
+.task-ans{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:500;color:#5cbd8a}
+.task-ans i{font-size:14px}
+.task-tries{font-size:11px;color:var(--color-text-secondary);margin-top:4px}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.stat-card{background:var(--color-background-secondary);border-radius:12px;padding:12px}
+.stat-label{font-size:11px;color:var(--color-text-secondary);margin-bottom:4px}
+.stat-val{font-size:19px;font-weight:500;color:var(--color-text-primary)}
+.stat-sub{font-size:11px;color:var(--color-text-secondary);margin-top:2px}
+.streak-row{display:flex;align-items:center;gap:8px;padding:10px 12px;background:rgba(249,201,168,0.2);border:0.5px solid rgba(249,201,168,0.5);border-radius:12px;margin-bottom:14px;font-size:13px;color:var(--color-text-primary)}
+.streak-row i{font-size:16px;color:#e8a040}
+.gym-row{border-radius:12px;margin-bottom:16px;overflow:hidden;position:relative}
+.gym-inner{display:flex;align-items:center;justify-content:space-between;padding:12px;background:var(--color-background-secondary)}
+.gym-left{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--color-text-primary)}
+.gym-left i{font-size:16px;color:#5cbd8a}
+.gym-left i.skip{color:#9080a0}
+.gym-btn{font-size:12px;color:var(--color-text-secondary);background:none;border:0.5px solid var(--color-border-tertiary);padding:6px 12px;border-radius:100px;cursor:pointer;font-family:var(--font-sans)}
+.gym-lock{display:flex;align-items:center;justify-content:space-between;padding:12px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;margin-bottom:16px}
+.gym-lock-left{display:flex;align-items:center;gap:10px}
+.gym-lock-icon{width:34px;height:34px;border-radius:50%;background:var(--color-background-tertiary);border:0.5px solid var(--color-border-tertiary);display:flex;align-items:center;justify-content:center}
+.gym-lock-icon i{font-size:16px;color:#9080a0}
+.gym-lock-title{font-size:13px;font-weight:500;color:var(--color-text-primary)}
+.gym-lock-sub{font-size:11px;color:var(--color-text-secondary);margin-top:1px}
+.gym-unlock-btn{font-size:12px;font-weight:500;color:#c9963a;background:rgba(201,150,58,0.1);border:0.5px solid rgba(201,150,58,0.3);padding:6px 12px;border-radius:100px;cursor:pointer;font-family:var(--font-sans);white-space:nowrap}
+.close-btn{width:100%;padding:13px;background:var(--color-background-secondary);color:var(--color-text-primary);border:none;border-radius:100px;font-size:14px;cursor:pointer;font-family:var(--font-sans);font-weight:500}
+</style>
+
+<div class="screen">
+  <div class="nav">
+    <div>
+      <div class="nav-title">Your words</div>
+      <div class="nav-sub" id="wordcount">23 words learned</div>
+    </div>
+    <div class="streak-pill">
+      <i class="ti ti-flame" aria-hidden="true"></i>
+      23 days
+    </div>
+  </div>
+
+  <div class="toggle-row">
+    <span class="toggle-label">Preview as:</span>
+    <div class="toggle-wrap">
+      <button class="toggle-opt active" onclick="setTier('free',this)">Free user</button>
+      <button class="toggle-opt" onclick="setTier('gold',this)">Zazu Gold</button>
+    </div>
+  </div>
+
+  <div class="section-label">Today</div>
+  <div class="hero-card" onclick="openSheet('today')">
+    <div>
+      <div class="hero-badge">Today</div>
+      <div class="hero-word">Mellifluous</div>
+      <div class="hero-date">Mon 16 June 2026</div>
+    </div>
+    <div class="hero-icons">
+      <div class="icon-item"><i class="ti ti-check done" aria-hidden="true"></i><span class="icon-label">Done</span></div>
+      <div class="icon-item"><i class="ti ti-clock muted" aria-hidden="true"></i><span class="icon-label">42s</span></div>
+      <div class="icon-item" id="hero-gym-icon"><i class="ti ti-barbell done" aria-hidden="true"></i><span class="icon-label">Gym</span></div>
+    </div>
+  </div>
+
+  <div class="section-label">This week</div>
+  <div class="grid">
+    <div class="day-card lavender" onclick="openSheet('sun')">
+      <div><div class="card-date">Sun 15 Jun</div><div class="card-word">Ephemeral</div></div>
+      <div class="card-icons">
+        <div class="ci"><i class="ti ti-check done" aria-hidden="true"></i><span>done</span></div>
+        <div class="ci"><i class="ti ti-clock muted" aria-hidden="true"></i><span>58s</span></div>
+        <div class="ci" id="ci-sun"><i class="ti ti-barbell done" aria-hidden="true"></i><span>gym</span></div>
+      </div>
+    </div>
+    <div class="day-card blush" onclick="openSheet('sat')">
+      <div><div class="card-date">Sat 14 Jun</div><div class="card-word">Laconic</div></div>
+      <div class="card-icons">
+        <div class="ci"><i class="ti ti-check done" aria-hidden="true"></i><span>done</span></div>
+        <div class="ci"><i class="ti ti-clock muted" aria-hidden="true"></i><span>1m 12s</span></div>
+        <div class="ci" id="ci-sat"><i class="ti ti-barbell muted" aria-hidden="true"></i><span>skipped</span></div>
+      </div>
+    </div>
+    <div class="day-card dawn" onclick="openSheet('fri')">
+      <div><div class="card-date">Fri 13 Jun</div><div class="card-word">Penumbra</div></div>
+      <div class="card-icons">
+        <div class="ci"><i class="ti ti-check done" aria-hidden="true"></i><span>done</span></div>
+        <div class="ci"><i class="ti ti-clock muted" aria-hidden="true"></i><span>37s</span></div>
+        <div class="ci" id="ci-fri"><i class="ti ti-barbell done" aria-hidden="true"></i><span>gym</span></div>
+      </div>
+    </div>
+    <div class="day-card peach" onclick="openSheet('thu')">
+      <div><div class="card-date">Thu 12 Jun</div><div class="card-word">Sanguine</div></div>
+      <div class="card-icons">
+        <div class="ci"><i class="ti ti-check done" aria-hidden="true"></i><span>done</span></div>
+        <div class="ci"><i class="ti ti-clock muted" aria-hidden="true"></i><span>49s</span></div>
+        <div class="ci" id="ci-thu"><i class="ti ti-barbell muted" aria-hidden="true"></i><span>skipped</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Older words</div>
+  <div class="lock-wrap" id="history-lock">
+    <div class="grid" style="filter:blur(4px);pointer-events:none;user-select:none">
+      <div class="day-card lavender"><div><div class="card-date">Wed 11 Jun</div><div class="card-word">Truculent</div></div></div>
+      <div class="day-card blush"><div><div class="card-date">Tue 10 Jun</div><div class="card-word">Equanimity</div></div></div>
+      <div class="day-card dawn"><div><div class="card-date">Mon 9 Jun</div><div class="card-word">Loquacious</div></div></div>
+      <div class="day-card peach"><div><div class="card-date">Sun 8 Jun</div><div class="card-word">Subterfuge</div></div></div>
+    </div>
+    <div class="lock-overlay">
+      <i class="ti ti-lock" aria-hidden="true"></i>
+      <div class="lock-title">19 more words, waiting for you</div>
+      <div class="lock-sub">Unlock your full word history with Zazu Gold</div>
+    </div>
+  </div>
+
+  <div id="gold-cta">
+    <button class="gold-btn" onclick="sendPrompt('Tell me about Zazu Gold pricing and what it includes')">Unlock with Zazu Gold ↗</button>
+    <div class="gold-sub">£3.99/month or £24.99/year · 7-day free trial</div>
+  </div>
+</div>
+
+<div class="overlay" id="ov" style="display:none" onclick="if(event.target===this)document.getElementById('ov').style.display='none'">
+  <div class="sheet">
+    <div class="handle"></div>
+    <div id="sc"></div>
+    <button class="close-btn" onclick="document.getElementById('ov').style.display='none'">Done</button>
+  </div>
+</div>
+
+<script>
+let tier = 'free';
+
+const words = {
+  today:{date:'Monday 16 June 2026',word:'Mellifluous',pron:'meh-LIF-loo-us · adjective',def:'Sweet or musical; pleasant to hear.',etym:'From Latin <strong>mel</strong> (honey) + <strong>fluere</strong> (to flow) — literally flowing with honey.',taskQ:'What does the root <em>mel</em> mean?',taskA:'Honey',firstTry:true,time:'42 sec',coins:50,gym:true,streak:'day 23 of your current streak'},
+  sun:{date:'Sunday 15 June 2026',word:'Ephemeral',pron:'ih-FEM-er-ul · adjective',def:'Lasting for a very short time; transitory.',etym:'From Greek <strong>ephemeros</strong> — lasting only a day. From <strong>epi</strong> (on) + <strong>hemera</strong> (day).',taskQ:'What does the root <em>hemera</em> mean?',taskA:'Day',firstTry:true,time:'58 sec',coins:50,gym:true,streak:'day 22 of your current streak'},
+  sat:{date:'Saturday 14 June 2026',word:'Laconic',pron:'luh-KON-ik · adjective',def:'Using very few words; brief and concise in speech or expression.',etym:'From Greek <strong>Lakonikos</strong> — of Laconia (Sparta). The Spartans were famous for their brief speech.',taskQ:'Laconic is named after which ancient people?',taskA:'The Spartans',firstTry:false,time:'1 min 12 sec',coins:25,gym:false,streak:'day 21 of your current streak'},
+  fri:{date:'Friday 13 June 2026',word:'Penumbra',pron:'peh-NUM-bra · noun',def:'The partially shaded outer region of a shadow; the area between full light and full shadow.',etym:'From Latin <strong>paene</strong> (almost) + <strong>umbra</strong> (shadow) — literally almost a shadow.',taskQ:'What does the root <em>umbra</em> mean?',taskA:'Shadow',firstTry:true,time:'37 sec',coins:50,gym:true,streak:'day 20 of your current streak'},
+  thu:{date:'Thursday 12 June 2026',word:'Sanguine',pron:'SANG-gwin · adjective',def:'Optimistic or positive, especially in a difficult situation.',etym:'From Latin <strong>sanguis</strong> — blood. Medieval medicine believed a blood-dominant temperament produced a cheerful outlook.',taskQ:'What does Sanguine mean?',taskA:'Optimistic and positive',firstTry:true,time:'49 sec',coins:40,gym:false,streak:'day 19 of your current streak'}
+};
+
+function gymIcon(done){
+  if(tier==='free') return `<div class="ci"><i class="ti ti-lock muted" aria-hidden="true"></i><span>gold</span></div>`;
+  return done
+    ? `<div class="ci"><i class="ti ti-barbell done" aria-hidden="true"></i><span>gym</span></div>`
+    : `<div class="ci"><i class="ti ti-barbell muted" aria-hidden="true"></i><span>skipped</span></div>`;
+}
+
+function gymBlock(done){
+  if(tier==='free'){
+    return `<div class="gym-lock">
+      <div class="gym-lock-left">
+        <div class="gym-lock-icon"><i class="ti ti-lock" aria-hidden="true"></i></div>
+        <div>
+          <div class="gym-lock-title">Word Gym</div>
+          <div class="gym-lock-sub">Zazu Gold feature</div>
+        </div>
+      </div>
+      <button class="gym-unlock-btn" onclick="sendPrompt('Tell me about Zazu Gold pricing and what it includes')">Unlock ↗</button>
+    </div>`;
+  }
+  return `<div class="gym-row">
+    <div class="gym-inner">
+      <div class="gym-left">
+        <i class="ti ti-barbell ${done?'':'skip'}" aria-hidden="true"></i>
+        ${done?'Word Gym completed':'Word Gym not done that day'}
+      </div>
+      <button class="gym-btn">Open in Word Gym</button>
+    </div>
+  </div>`;
+}
+
+function setTier(t, btn){
+  tier = t;
+  document.querySelectorAll('.toggle-opt').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('history-lock').style.display = t==='gold' ? 'none' : 'block';
+  document.getElementById('gold-cta').style.display = t==='gold' ? 'none' : 'block';
+  document.getElementById('wordcount').textContent = t==='gold' ? '23 words learned' : '5 words learned';
+  document.getElementById('hero-gym-icon').innerHTML = t==='free'
+    ? `<i class="ti ti-lock muted" aria-hidden="true"></i><span class="icon-label">Gold</span>`
+    : `<i class="ti ti-barbell done" aria-hidden="true"></i><span class="icon-label">Gym</span>`;
+  document.getElementById('ci-sun').innerHTML = gymIcon(true).replace(/class="ci"/,'').replace('<div ','').replace('</div>','');
+  ['sun','sat','fri','thu'].forEach(k=>{
+    const el = document.getElementById('ci-'+k);
+    if(el) el.outerHTML = gymIcon(words[k].gym).replace('class="ci"','id="ci-'+k+'" class="ci"');
+  });
+  if(t==='gold'){
+    document.querySelectorAll('.day-card.lavender, .day-card.blush, .day-card.dawn, .day-card.peach').forEach(c=>{
+      if(!c.closest('.lock-wrap')) c.style.filter='none';
+    });
+  }
+}
+
+function openSheet(k){
+  const w=words[k];
+  document.getElementById('sc').innerHTML=`
+    <div class="sheet-eyebrow">${w.date}</div>
+    <div class="sheet-word">${w.word}</div>
+    <div class="sheet-pron">${w.pron}</div>
+    <div class="divider"></div>
+    <div class="sheet-def">${w.def}</div>
+    <div class="sheet-etym">${w.etym}</div>
+    <div class="task-box">
+      <div class="task-label">Morning task</div>
+      <div class="task-q">${w.taskQ}</div>
+      <div class="task-ans"><i class="ti ti-check" aria-hidden="true"></i>${w.taskA}</div>
+      <div class="task-tries">${w.firstTry?'Got it first try':'Needed one hint'}</div>
+    </div>
+    <div class="streak-row"><i class="ti ti-flame" aria-hidden="true"></i>${w.streak}</div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-label">Time to dismiss</div><div class="stat-val">${w.time}</div><div class="stat-sub">alarm to done</div></div>
+      <div class="stat-card"><div class="stat-label">Coins earned</div><div class="stat-val">${w.coins}</div><div class="stat-sub">that morning</div></div>
+    </div>
+    ${gymBlock(w.gym)}
+  `;
+  document.getElementById('ov').style.display='flex';
+}
+</script>

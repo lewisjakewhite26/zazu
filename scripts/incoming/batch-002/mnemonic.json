@@ -1,0 +1,120 @@
+{
+  "word": "Mnemonic",
+  "pronunciation": "nih-MON-ik",
+  "pos": "adjective / noun",
+  "definition": "Aiding or designed to aid the memory; a device such as a pattern or rhyme used to assist recall.",
+  "origin": "From Greek <strong>mnemonikos</strong> -- of memory. From <strong>mnemon</strong> (mindful) + <strong>mnasthai</strong> (to remember). Mnemosyne was the Greek goddess of memory.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Greek ",
+      "highlight": false
+    },
+    {
+      "text": "mnemonikos",
+      "highlight": true
+    },
+    {
+      "text": " (of memory), from ",
+      "highlight": false
+    },
+    {
+      "text": "mnasthai",
+      "highlight": true
+    },
+    {
+      "text": " (to remember). Mnemosyne was the Greek goddess of memory.",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "mnasthai",
+      "root_language": "Greek",
+      "root_meaning": "to remember",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "mnemonikos",
+      "root_language": "Greek",
+      "root_meaning": "of memory",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "mnasthai",
+    "correct_answer": "To remember"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Mnemonic</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Greek mnasthai",
+          "b": "To remember"
+        },
+        {
+          "a": "Greek mnemonikos",
+          "b": "Of memory"
+        },
+        {
+          "a": "Mnemosyne was",
+          "b": "The Greek goddess of memory"
+        },
+        {
+          "a": "Related: amnesia",
+          "b": "Loss of memory"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Mnemonic</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "A mnemonic is",
+          "b": "A device to aid the memory"
+        },
+        {
+          "a": "As an adjective, mnemonic means",
+          "b": "Designed to help recall"
+        },
+        {
+          "a": "Example of a mnemonic",
+          "b": "Every Good Boy Deserves Food"
+        },
+        {
+          "a": "Mnemonics work by",
+          "b": "Linking new information to known patterns"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Mnemonic</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "She taught the class",
+          "b": "A mnemonic for the periodic table"
+        },
+        {
+          "a": "The mnemonic stuck",
+          "b": "Long after the lesson was over"
+        },
+        {
+          "a": "A useful mnemonic",
+          "b": "For remembering the order of planets"
+        },
+        {
+          "a": "Mnemonic devices",
+          "b": "Are older than writing itself"
+        }
+      ]
+    }
+  ]
+}

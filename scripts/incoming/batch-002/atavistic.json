@@ -1,0 +1,128 @@
+{
+  "word": "Atavistic",
+  "pronunciation": "at-uh-VIS-tik",
+  "pos": "adjective",
+  "definition": "Relating to or characterised by reversion to something ancient or ancestral.",
+  "origin": "From Latin <strong>atavus</strong> -- a great-great-great-grandfather; a remote ancestor. From <strong>ata</strong> (father) + <strong>avus</strong> (grandfather).",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "atavus",
+      "highlight": true
+    },
+    {
+      "text": " (a remote ancestor), from ",
+      "highlight": false
+    },
+    {
+      "text": "ata",
+      "highlight": true
+    },
+    {
+      "text": " (father) + ",
+      "highlight": false
+    },
+    {
+      "text": "avus",
+      "highlight": true
+    },
+    {
+      "text": " (grandfather).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "atavus",
+      "root_language": "Latin",
+      "root_meaning": "a remote ancestor",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "avus",
+      "root_language": "Latin",
+      "root_meaning": "grandfather",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "atavus",
+    "correct_answer": "A remote ancestor"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Atavistic</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin ata",
+          "b": "Father"
+        },
+        {
+          "a": "Latin avus",
+          "b": "Grandfather"
+        },
+        {
+          "a": "Latin atavus",
+          "b": "A remote ancestor"
+        },
+        {
+          "a": "Related: atavism",
+          "b": "Reappearance of an ancestral trait"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Atavistic</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Atavistic means",
+          "b": "Reverting to something ancestral"
+        },
+        {
+          "a": "An atavistic urge",
+          "b": "Comes from deep in our past"
+        },
+        {
+          "a": "Synonym of atavistic",
+          "b": "Primordial"
+        },
+        {
+          "a": "Antonym of atavistic",
+          "b": "Progressive"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Atavistic</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "An atavistic fear",
+          "b": "Of the dark"
+        },
+        {
+          "a": "The crowd displayed",
+          "b": "An atavistic rage"
+        },
+        {
+          "a": "Something atavistic",
+          "b": "Stirred inside him"
+        },
+        {
+          "a": "An atavistic impulse",
+          "b": "Older than language"
+        }
+      ]
+    }
+  ]
+}

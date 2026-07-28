@@ -1,0 +1,225 @@
+import { useCallback, useMemo } from 'react';
+import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { useRouter } from 'expo-router';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { HomeHeader } from '@/components/home/HomeHeader';
+import { GlassCard } from '@/components/ui/GlassCard';
+import { GradientBackground } from '@/components/ui/GradientBackground';
+import { OriginText } from '@/components/ui/OriginText';
+import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { copy } from '@/constants/copy';
+import { fonts, radii, typography } from '@/constants/theme';
+import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { useAlarmFlow } from '@/context/AlarmFlowContext';
+import { useSubscription } from '@/context/SubscriptionContext';
+import { useTheme } from '@/context/ThemeContext';
+import { useProgress } from '@/hooks/useProgress';
+import { useWordLibrary } from '@/hooks/useWordLibrary';
+import type { UserWordProgressLocal } from '../../../lib/morning-task';
+
+export function GymScreen() {
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const { colors } = useTheme();
+  const { startGymFlow } = useAlarmFlow();
+  const { isGold, loading: subscriptionLoading } = useSubscription();
+  const { loading: progressLoading, streak, coins, learnedWordIds, getGymMastery, wordProgress } =
+    useProgress();
+  const { loading: wordsLoading, gymWordOfDay } = useWordLibrary(learnedWordIds);
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        gradient: {
+          flex: 1,
+        },
+        safeArea: {
+          flex: 1,
+        },
+        inner: {
+          flex: 1,
+          width: '100%',
+          maxWidth: CONTENT_MAX_WIDTH,
+          alignSelf: 'center',
+          paddingHorizontal: spacing.lg,
+        },
+        scroll: {
+          flex: 1,
+        },
+        scrollContent: {
+          flexGrow: 1,
+          paddingBottom: spacing.sm,
+          alignItems: 'center',
+        },
+        heroIcon: {
+          width: 56,
+          height: 56,
+          borderRadius: 28,
+          backgroundColor: colors.cardLavender,
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginTop: spacing.md,
+          marginBottom: spacing.md,
+        },
+        eyebrow: {
+          ...typography.eyebrow,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: spacing.xs,
+        },
+        subtitle: {
+          fontFamily: fonts.sans,
+          fontSize: 15,
+          color: colors.subtext,
+          marginBottom: spacing.lg,
+          textAlign: 'center',
+        },
+        loading: {
+          fontFamily: fonts.sans,
+          fontSize: 15,
+          color: colors.subtext,
+          marginTop: spacing.xl,
+        },
+        wordCard: {
+          width: '100%',
+        },
+        wordCardInner: {
+          padding: spacing.lg,
+        },
+        wordLabel: {
+          ...typography.wotdEyebrow,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: spacing.sm,
+        },
+        word: {
+          ...typography.wordHero,
+          color: colors.text,
+          marginBottom: spacing.xs,
+        },
+        pron: {
+          ...typography.wotdPron,
+          color: colors.subtext,
+          marginBottom: spacing.md,
+        },
+        def: {
+          ...typography.wotdDef,
+          color: colors.text,
+          marginBottom: spacing.sm,
+        },
+        masteryRow: {
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          borderTopWidth: 1,
+          borderTopColor: colors.border,
+          paddingTop: spacing.md,
+        },
+        masteryLabel: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 12,
+          color: colors.subtext,
+        },
+        masteryValue: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 12,
+          color: colors.text,
+        },
+        footer: {
+          width: '100%',
+          paddingTop: spacing.sm,
+        },
+      }),
+    [colors],
+  );
+
+  const loading = progressLoading || wordsLoading || subscriptionLoading;
+  const word = gymWordOfDay;
+  const mastery = word ? getGymMastery(word.id) : 0;
+  const gymEntry = word
+    ? wordProgress.find((entry: UserWordProgressLocal) => entry.wordId === word.id)
+    : null;
+  const gymDoneToday = (() => {
+    const at = gymEntry?.gymCompletedAt;
+    if (!at) return false;
+    const completed = new Date(at);
+    const now = new Date();
+    return (
+      completed.getFullYear() === now.getFullYear() &&
+      completed.getMonth() === now.getMonth() &&
+      completed.getDate() === now.getDate()
+    );
+  })();
+
+  const handleStart = useCallback(() => {
+    if (!word) return;
+    if (!isGold) {
+      router.push('/gold');
+      return;
+    }
+    startGymFlow(word);
+    router.push('/puzzle');
+  }, [word, isGold, startGymFlow, router]);
+
+  return (
+    <GradientBackground>
+      <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
+        <View style={styles.inner}>
+          <HomeHeader streak={streak} coins={coins} loading={progressLoading} />
+
+          <ScrollView
+            style={styles.scroll}
+            contentContainerStyle={styles.scrollContent}
+            showsVerticalScrollIndicator={false}
+          >
+            <View style={styles.heroIcon}>
+              <MaterialCommunityIcons name="dumbbell" size={28} color={colors.ink} />
+            </View>
+            <Text style={styles.eyebrow}>{copy.gym.eyebrow}</Text>
+            <Text style={styles.subtitle}>{copy.gym.subtitle}</Text>
+
+            {loading || !word ? (
+              <Text style={styles.loading}>{copy.home.wordOfDayLoading}</Text>
+            ) : (
+              <GlassCard borderRadius={radii.wotd} style={styles.wordCard} contentStyle={styles.wordCardInner}>
+                <Text style={styles.wordLabel}>{copy.gym.todaysWord}</Text>
+                <Text style={styles.word}>{word.word}</Text>
+                <Text style={styles.pron}>
+                  {word.pronunciation} · {word.pos}
+                </Text>
+                <Text style={styles.def}>{word.definition}</Text>
+                <OriginText origin={word.origin} style={{ marginBottom: spacing.md }} />
+
+                <View style={styles.masteryRow}>
+                  <Text style={styles.masteryLabel}>{copy.gym.mastery}</Text>
+                  <Text style={styles.masteryValue}>
+                    {gymDoneToday
+                      ? copy.gym.masteryComplete
+                      : mastery > 0
+                        ? copy.gymSuccess.masteryPercent(mastery)
+                        : copy.gym.masteryNew}
+                  </Text>
+                </View>
+              </GlassCard>
+            )}
+          </ScrollView>
+
+          <View
+            style={[
+              styles.footer,
+              { paddingBottom: (insets.bottom || spacing.md) + (Platform.OS === 'web' ? 72 : 0) },
+            ]}
+          >
+            <PrimaryButton
+              label={gymDoneToday ? copy.gym.continue : copy.gym.start}
+              onPress={handleStart}
+              disabled={loading || !word}
+            />
+          </View>
+        </View>
+      </SafeAreaView>
+    </GradientBackground>
+  );
+}

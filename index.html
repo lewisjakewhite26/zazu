@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#f9c9a8"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="Zazu"/>
+<meta name="description" content="Zazu — a vocabulary alarm clock. Wake up. Learn something."/>
+<title>Zazu. Wake up. Learn something.</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-512.svg"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --peach:    #f9c9a8;
+  --blush:    #f0a0bc;
+  --lavender: #c8b4e8;
+  --dawn:     #fde8d8;
+  --dusk:     #ede0f8;
+  --ink:      #2c1f2e;
+  --muted:    #9080a0;
+  --correct:  #a8d8b0;
+  --wrong:    #e8617a;
+  --gold:     #c9963a;
+  --white:    #fefcfb;
+  --card:     rgba(255,255,255,0.72);
+  --bg-from:  #fde8d8;
+  --bg-mid:   #dde8f8;
+  --bg-to:    #ede0f8;
+  --text:     #2c1f2e;
+  --subtext:  #9080a0;
+  --border:   rgba(44,31,46,0.1);
+}
+
+body.night {
+  --card:     rgba(255,255,255,0.11);
+  --bg-from:  #1a1225;
+  --bg-mid:   #1a1830;
+  --bg-to:    #0e0c1a;
+  --text:     #f0e8f8;
+  --subtext:  #b0a0c8;
+  --border:   rgba(255,255,255,0.13);
+  --ink:      #f0e8f8;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(160deg, var(--bg-from) 0%, var(--bg-mid) 50%, var(--bg-to) 100%);
+  color: var(--text);
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: background 2s ease;
+}
+
+.screen { display:none; position:absolute; inset:0; flex-direction:column; align-items:center; }
+.screen.active { display:flex; }
+
+/* ══ HOME ══ */
+#screenHome { justify-content:flex-start; padding:0 0 calc(88px + env(safe-area-inset-bottom, 0px)); overflow-y:auto; }
+
+.home-header {
+  width:100%; padding:52px 20px 20px;
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+}
+
+.zazu-wordmark {
+  font-family:'DM Serif Display',serif; font-size:1.6rem;
+  color:var(--text); letter-spacing:-.02em; flex-shrink:0;
+}
+
+.nav-right { display:flex; align-items:center; gap:8px; }
+
+.streak-pill {
+  display:flex; align-items:center; gap:8px;
+  background:var(--card); border:1px solid var(--border);
+  padding:7px 13px 7px 8px; border-radius:100px; backdrop-filter:blur(10px);
+}
+.streak-flame-wrap {
+  width:26px; height:26px; border-radius:50%; position:relative;
+  display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(135deg, rgba(249,180,80,.35), rgba(240,100,80,.25));
+}
+.streak-flame-icon { font-size:.9rem; position:relative; z-index:1; line-height:1; }
+.streak-info { display:flex; flex-direction:column; line-height:1; }
+.streak-count { font-size:.9rem; font-weight:700; color:var(--text); letter-spacing:-.01em; }
+.streak-label { font-size:.56rem; font-weight:500; letter-spacing:.08em; text-transform:uppercase; color:var(--subtext); margin-top:1px; }
+
+.coin-chip {
+  display:flex; align-items:center; gap:6px;
+  background:var(--card); border:1px solid var(--border);
+  padding:7px 12px 7px 7px; border-radius:100px; backdrop-filter:blur(10px);
+}
+.coin-chip-icon {
+  width:22px; height:22px; border-radius:50%;
+  background:linear-gradient(135deg,#f0c060,#c9963a);
+  display:flex; align-items:center; justify-content:center; font-size:.72rem; flex-shrink:0;
+}
+.coin-chip-amount { font-size:.9rem; font-weight:700; color:var(--text); letter-spacing:-.01em; }
+
+/* WOTD hero */
+.wotd-hero {
+  width:calc(100% - 40px);
+  background:linear-gradient(135deg, rgba(249,201,168,.35) 0%, rgba(200,180,232,.35) 100%);
+  border:1px solid var(--border); border-radius:22px;
+  padding:22px 22px 20px; margin-bottom:20px;
+  backdrop-filter:blur(10px);
+}
+body.night .wotd-hero { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.wotd-eyebrow { font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.wotd-word { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; margin-bottom:4px; }
+.wotd-pronunciation { font-size:.78rem; color:var(--subtext); font-style:italic; margin-bottom:8px; }
+.wotd-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.wotd-origin { font-size:.75rem; color:var(--subtext); line-height:1.5; }
+.wotd-origin strong { color:var(--gold); font-weight:600; }
+.wotd-pos {
+  display:inline-block; font-size:.62rem; font-weight:600; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--subtext);
+  background:rgba(44,31,46,.07); padding:3px 8px; border-radius:100px; margin-bottom:8px;
+}
+body.night .wotd-pos { background:rgba(255,255,255,.08); }
+.wotd-hero.wotd-loading .wotd-word { opacity:.45; }
+
+.wotd-error {
+  width:calc(100% - 40px);
+  margin:0 20px 12px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:rgba(232,97,122,.12);
+  border:1px solid rgba(232,97,122,.35);
+  font-size:.82rem;
+  color:var(--text);
+  line-height:1.45;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px;
+}
+.wotd-error[hidden] { display:none; }
+.wotd-error-btn {
+  background:var(--card);
+  border:1px solid var(--border);
+  color:var(--text);
+  padding:6px 14px;
+  border-radius:100px;
+  font-family:'DM Sans',sans-serif;
+  font-size:.78rem;
+  font-weight:600;
+  cursor:pointer;
+  flex-shrink:0;
+}
+.wotd-error-btn:hover { background:rgba(255,255,255,.15); }
+
+.sr-only {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+.wotd-hero.wotd-loading .wotd-pronunciation,
+.wotd-hero.wotd-loading .wotd-pos,
+.wotd-hero.wotd-loading .wotd-def,
+.wotd-hero.wotd-loading .wotd-origin { opacity:.3; }
+
+/* Alarms */
+.home-section-label {
+  width:calc(100% - 40px); font-size:.7rem; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--subtext); margin-bottom:10px;
+}
+.alarm-list { width:calc(100% - 40px); display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
+.alarm-card {
+  background:var(--card); border:1px solid var(--border); border-radius:18px;
+  padding:15px 18px; display:flex; align-items:center; justify-content:space-between;
+  backdrop-filter:blur(10px); transition:opacity .2s;
+}
+.alarm-card.off { opacity:.38; }
+.alarm-time-display { font-family:'DM Serif Display',serif; font-size:1.9rem; letter-spacing:-.03em; color:var(--text); line-height:1; }
+.alarm-meta { font-size:.72rem; color:var(--subtext); margin-top:3px; }
+.alarm-right { display:flex; align-items:center; gap:12px; }
+.toggle { position:relative; width:44px; height:26px; cursor:pointer; }
+.toggle input { display:none; }
+.toggle-track { position:absolute; inset:0; background:var(--border); border-radius:100px; transition:background .2s; }
+.toggle input:checked + .toggle-track { background:var(--blush); }
+.toggle-thumb { position:absolute; top:3px; left:3px; width:20px; height:20px; background:white; border-radius:50%; transition:transform .2s; box-shadow:0 1px 4px rgba(0,0,0,.15); pointer-events:none; }
+.toggle input:checked ~ .toggle-thumb { transform:translateX(18px); }
+
+.add-alarm-btn {
+  width:calc(100% - 40px); background:var(--ink); color:var(--white); border:none;
+  padding:15px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; font-weight:500; cursor:pointer; margin-bottom:12px; transition:opacity .2s;
+}
+body.night .add-alarm-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.add-alarm-btn:hover { opacity:.85; }
+.demo-btn {
+  background:none; border:1.5px solid var(--border); color:var(--subtext);
+  padding:11px 24px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.82rem; cursor:pointer; transition:opacity .2s;
+}
+.demo-btn:hover { opacity:.7; }
+
+/* Word Gym tab */
+#screenGym { justify-content:flex-start; padding:0 0 calc(88px + env(safe-area-inset-bottom, 0px)); overflow-y:auto; align-items:center; }
+.gym-hero-icon {
+  width:56px; height:56px; border-radius:28px;
+  background:rgba(200,180,232,.35); display:flex; align-items:center; justify-content:center;
+  font-size:1.35rem; margin:4px auto 12px;
+}
+body.night .gym-hero-icon { background:rgba(200,180,232,.12); }
+.gym-eyebrow {
+  font-size:.7rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--subtext); margin-bottom:6px; text-align:center;
+}
+.gym-subtitle {
+  font-size:.9rem; color:var(--subtext); text-align:center; margin-bottom:18px;
+  width:calc(100% - 40px); line-height:1.45;
+}
+.gym-word-card {
+  width:calc(100% - 40px);
+  background:var(--card); border:1px solid var(--border); border-radius:22px;
+  padding:20px 22px; backdrop-filter:blur(10px); margin-bottom:16px;
+}
+.gym-word-label {
+  font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--subtext); margin-bottom:8px;
+}
+.gym-word-main { font-family:'DM Serif Display',serif; font-size:1.85rem; color:var(--text); letter-spacing:-.02em; margin-bottom:4px; }
+.gym-word-pron { font-size:.78rem; color:var(--subtext); font-style:italic; margin-bottom:10px; }
+.gym-word-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.gym-word-origin { font-size:.75rem; color:var(--subtext); line-height:1.5; margin-bottom:14px; }
+.gym-word-origin strong { color:var(--gold); font-weight:600; }
+.gym-mastery-row {
+  display:flex; justify-content:space-between; align-items:center;
+  border-top:1px solid var(--border); padding-top:12px;
+  font-size:.75rem; font-weight:600;
+}
+.gym-mastery-label { color:var(--subtext); }
+.gym-mastery-value { color:var(--text); }
+.gym-start-btn {
+  width:calc(100% - 40px); background:var(--ink); color:var(--white); border:none;
+  padding:15px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; font-weight:500; cursor:pointer; margin-bottom:12px; transition:opacity .2s;
+}
+body.night .gym-start-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.gym-start-btn:disabled { opacity:.45; cursor:not-allowed; }
+
+/* Bottom tab bar — floating pill (matches mobile tab intent) */
+.app-tab-bar {
+  position:fixed; bottom:0; left:0; right:0; z-index:200;
+  display:flex; justify-content:center;
+  padding:10px 24px calc(10px + env(safe-area-inset-bottom, 0px));
+  pointer-events:none;
+}
+.app-tab-bar[hidden] { display:none !important; }
+.app-tab-bar-inner {
+  pointer-events:auto; display:flex; max-width:300px; width:100%;
+  background:var(--card); border:1px solid var(--border); border-radius:100px;
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  padding:4px; box-shadow:0 4px 28px rgba(44,31,46,.12);
+}
+body.night .app-tab-bar-inner { box-shadow:0 4px 32px rgba(0,0,0,.4); }
+.app-tab {
+  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:2px; padding:7px 4px; border:none; background:transparent;
+  color:var(--subtext); font-family:'DM Sans',sans-serif;
+  font-size:.56rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase;
+  cursor:pointer; border-radius:100px; transition:background .2s,color .2s;
+  min-height:46px;
+}
+.app-tab.active { background:rgba(240,160,188,.22); color:var(--text); }
+body.night .app-tab.active { background:rgba(240,160,188,.14); }
+.app-tab-icon { font-size:1.1rem; line-height:1; }
+
+/* Add alarm dialog */
+.add-alarm-dialog { border:none; background:transparent; padding:0; max-width:360px; width:calc(100% - 40px); margin:auto; }
+.add-alarm-dialog::backdrop { background:rgba(44,31,46,.4); }
+.add-alarm-panel {
+  background:var(--card); border:1px solid var(--border); border-radius:22px;
+  padding:22px; backdrop-filter:blur(16px);
+}
+.add-alarm-title { font-family:'DM Serif Display',serif; font-size:1.35rem; margin-bottom:16px; color:var(--text); }
+.add-alarm-field { margin-bottom:14px; }
+.add-alarm-field label {
+  display:block; font-size:.65rem; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--subtext); margin-bottom:6px;
+}
+.add-alarm-field input {
+  width:100%; padding:12px 14px; border-radius:12px; border:1px solid var(--border);
+  background:rgba(255,255,255,.5); font-family:'DM Sans',sans-serif; font-size:1rem; color:var(--text);
+}
+body.night .add-alarm-field input { background:rgba(255,255,255,.06); }
+.add-alarm-actions { display:flex; gap:10px; margin-top:18px; }
+.add-alarm-cancel {
+  flex:1; padding:13px; border-radius:100px; border:1.5px solid var(--border);
+  background:none; color:var(--subtext); font-family:'DM Sans',sans-serif; font-size:.9rem; cursor:pointer;
+}
+.add-alarm-save {
+  flex:1; padding:13px; border-radius:100px; border:none; background:var(--ink);
+  color:var(--white); font-family:'DM Sans',sans-serif; font-size:.9rem; font-weight:500; cursor:pointer;
+}
+body.night .add-alarm-save { background:rgba(255,255,255,.9); color:#2c1f2e; }
+
+.home-footer-actions {
+  width:calc(100% - 40px); display:flex; flex-direction:column; align-items:center; gap:8px;
+  margin-bottom:8px;
+}
+
+/* ══ ALARM FIRING ══ */
+#screenAlarm { justify-content:center; text-align:center; padding:40px 24px; gap:0; overflow:hidden; }
+
+/* Floating gradient orbs */
+.alarm-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.alarm-orb-1 {
+  width: 280px; height: 280px;
+  background: radial-gradient(circle, #f9c9a8, #f0a0bc);
+  top: -60px; left: -80px;
+  animation: orbFloat1 7s ease-in-out infinite;
+}
+.alarm-orb-2 {
+  width: 240px; height: 240px;
+  background: radial-gradient(circle, #c8b4e8, #a8d8e8);
+  bottom: -40px; right: -60px;
+  animation: orbFloat2 9s ease-in-out infinite;
+}
+.alarm-orb-3 {
+  width: 180px; height: 180px;
+  background: radial-gradient(circle, #f0a0bc, #c8b4e8);
+  top: 40%; left: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbFloat3 11s ease-in-out infinite;
+  opacity: 0.35;
+}
+body.night .alarm-orb { opacity: 0.3; }
+
+@keyframes orbFloat1 {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33%      { transform: translate(40px, 30px) scale(1.08); }
+  66%      { transform: translate(-20px, 50px) scale(0.95); }
+}
+@keyframes orbFloat2 {
+  0%,100% { transform: translate(0,0) scale(1); }
+  40%      { transform: translate(-50px, -40px) scale(1.1); }
+  70%      { transform: translate(20px, -60px) scale(0.92); }
+}
+@keyframes orbFloat3 {
+  0%,100% { transform: translate(-50%,-50%) scale(1); }
+  50%      { transform: translate(-50%,-50%) scale(1.3); }
+}
+
+.alarm-glow {
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse at 50% 40%, rgba(249,201,168,.25) 0%, transparent 65%);
+  pointer-events:none; animation:glowPulse 3s ease-in-out infinite;
+}
+body.night .alarm-glow { background:radial-gradient(ellipse at 50% 30%, rgba(200,180,232,.15) 0%, transparent 65%); }
+@keyframes glowPulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+.alarm-bird { font-size:3rem; margin-bottom:16px; position:relative; z-index:1; animation:birdBob 2s ease-in-out infinite; }
+@keyframes birdBob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+.alarm-label-text { font-size:.72rem; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; position:relative; z-index:1; }
+.alarm-big-time { font-family:'DM Serif Display',serif; font-size:clamp(5rem,22vw,9rem); letter-spacing:-.05em; line-height:1; color:var(--text); position:relative; z-index:1; margin-bottom:8px; }
+.alarm-word-tease { font-size:.9rem; color:var(--subtext); margin-bottom:6px; position:relative; z-index:1; }
+.alarm-word-tease strong { font-family:'DM Serif Display',serif; font-style:italic; color:var(--text); }
+.alarm-name-sub { font-size:.78rem; color:var(--subtext); font-weight:300; margin-bottom:44px; position:relative; z-index:1; }
+.btn-wake {
+  background:var(--ink); color:var(--white); border:none; padding:18px 52px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:1.05rem; font-weight:500; cursor:pointer;
+  position:relative; z-index:1; box-shadow:0 8px 32px rgba(44,31,46,.18); transition:transform .15s,opacity .2s;
+}
+body.night .btn-wake { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.btn-wake:hover { transform:translateY(-2px); opacity:.9; }
+
+/* ══ LEARN + MORNING TASK ══ */
+#screenLearn, #screenMorningTask { justify-content:flex-start; padding:28px 20px 32px; overflow-y:auto; }
+.learn-eyebrow, .mt-eyebrow { font-size:.68rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; }
+.learn-word, .mt-word { font-family:'DM Serif Display',serif; font-size:clamp(2rem,8vw,2.6rem); color:var(--text); letter-spacing:-.02em; margin-bottom:6px; }
+.learn-pron { font-size:.88rem; font-style:italic; color:var(--subtext); margin-bottom:20px; }
+.learn-card, .learn-etym {
+  width:100%; max-width:400px; background:var(--card); border:1px solid var(--border);
+  border-radius:18px; padding:18px 20px; margin-bottom:14px; backdrop-filter:blur(10px);
+}
+.learn-def { font-size:1rem; line-height:1.5; color:var(--text); }
+.learn-etym-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.learn-etym-text { font-size:.88rem; line-height:1.55; color:var(--subtext); }
+.learn-etym-text strong { color:var(--text); font-weight:600; }
+.btn-continue, .btn-dismiss {
+  background:var(--ink); color:var(--white); border:none; padding:16px 40px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:1rem; font-weight:500; cursor:pointer; margin-top:20px;
+  box-shadow:0 8px 28px rgba(44,31,46,.15);
+}
+body.night .btn-continue, body.night .btn-dismiss { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.mt-question { font-size:1.05rem; font-weight:500; line-height:1.45; color:var(--text); margin-bottom:18px; max-width:400px; width:100%; }
+.mt-options { display:flex; flex-direction:column; gap:10px; width:100%; max-width:400px; }
+.mt-option {
+  border:1px solid var(--border); border-radius:14px; background:var(--card);
+  padding:14px 16px; text-align:left; font-family:'DM Sans',sans-serif; font-size:.92rem;
+  color:var(--text); cursor:pointer; transition:background .2s, border-color .2s;
+}
+.mt-option:hover { border-color:var(--blush); }
+.mt-option.correct { background:rgba(168,216,176,.35); border-color:var(--correct,#6a9a72); }
+.mt-option.wrong { background:rgba(232,97,122,.15); border-color:var(--wrong,#e8617a); }
+.mt-hint { font-size:.82rem; color:var(--subtext); margin-top:14px; max-width:400px; }
+.mt-try-again { font-size:.85rem; color:var(--subtext); margin-top:16px; text-align:center; }
+
+/* ══ PUZZLE ══ */
+#screenPuzzle { justify-content:flex-start; padding:0 20px 24px; gap:0; overflow-y:auto; }
+
+/* Word banner. Stays at top of puzzle */
+.puzzle-word-banner {
+  width:100%; padding:28px 0 16px;
+  text-align:center; flex-shrink:0;
+}
+.puzzle-word-main { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; }
+.puzzle-word-round { font-size:.68rem; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); margin-top:4px; }
+
+/* Round context. Explains what this round is about */
+.round-context {
+  width:100%; max-width:400px;
+  background:var(--card); border:1px solid var(--border); border-radius:16px;
+  padding:13px 16px; margin-bottom:14px;
+  backdrop-filter:blur(10px); flex-shrink:0;
+  animation:fadeUp .3s ease both;
+}
+.round-context-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:4px; }
+.round-context-text { font-size:.82rem; color:var(--text); line-height:1.45; font-style:italic; }
+.round-context-text strong { font-style:normal; font-weight:600; color:var(--gold); }
+
+.progress-row { display:flex; gap:8px; justify-content:center; margin-bottom:16px; flex-shrink:0; }
+.prog-dot { width:8px; height:8px; border-radius:50%; background:var(--border); transition:background .3s,transform .3s; }
+.prog-dot.done { background:var(--blush); transform:scale(1.2); }
+
+.board { display:grid; grid-template-columns:1fr 1fr; gap:10px; width:100%; max-width:400px; flex-shrink:0; }
+
+.tile {
+  border-radius:16px; background:var(--card);
+  box-shadow:0 3px 14px rgba(44,31,46,.08);
+  display:flex; align-items:center; justify-content:center;
+  padding:14px 10px; cursor:pointer; text-align:center; min-height:70px;
+  transition:transform .18s cubic-bezier(.34,1.56,.64,1),box-shadow .18s,background .18s,border-color .18s,opacity .25s;
+  border:2px solid transparent; -webkit-tap-highlight-color:transparent; backdrop-filter:blur(10px);
+  font:inherit; color:inherit; width:100%;
+  appearance:none; -webkit-appearance:none;
+}
+.tile:disabled { cursor:default; opacity:1; }
+.tile:active { transform:scale(.97); }
+.tile:focus { outline:none; }
+.tile:focus-visible {
+  outline:2px solid var(--blush);
+  outline-offset:2px;
+  box-shadow:0 0 0 4px rgba(240,160,188,.25);
+}
+.demo-btn:focus-visible,
+.btn-wake:focus-visible,
+.btn-done:focus-visible,
+.add-alarm-btn:focus-visible,
+.ad-skip:focus-visible,
+.ad-cta:focus-visible,
+.wotd-error-btn:focus-visible {
+  outline:2px solid var(--blush);
+  outline-offset:2px;
+}
+
+/* Left = prompt: serif italic muted */
+.tile.side-a .tile-text {
+  font-family:'DM Serif Display',serif; font-style:italic;
+  font-size:clamp(.82rem,3vw,.95rem); color:var(--subtext); line-height:1.35;
+}
+body.night .tile.side-a .tile-text { color: #d0c0e8; }
+/* Right = answer: bold sans ink */
+.tile.side-b .tile-text {
+  font-family:'DM Sans',sans-serif; font-weight:700;
+  font-size:clamp(.82rem,3vw,.95rem); color:var(--text); line-height:1.3; letter-spacing:-.01em;
+}
+
+.tile.selected { border-color:var(--blush); background:rgba(240,160,188,.18); transform:scale(1.04); box-shadow:0 8px 28px rgba(240,160,188,.3); }
+.tile.correct { border-color:var(--correct); background:rgba(168,216,176,.2); pointer-events:none; animation:correctPop .4s cubic-bezier(.34,1.56,.64,1); }
+@keyframes correctPop { 0%{transform:scale(.88)} 60%{transform:scale(1.07)} 100%{transform:scale(1)} }
+.tile.wrong { border-color:var(--wrong); background:rgba(232,97,122,.1); animation:wrongShake .35s ease; }
+@keyframes wrongShake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-7px)} 40%{transform:translateX(7px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
+.tile.gone { opacity:0; pointer-events:none; transform:scale(.85); }
+
+/* ══ AD ══ */
+#screenAd { justify-content:center; align-items:center; padding:40px 24px; gap:20px; text-align:center; }
+.ad-eyebrow { font-size:.68rem; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--subtext); }
+.ad-card-full {
+  background:var(--card); backdrop-filter:blur(16px); border-radius:24px;
+  padding:26px 22px; max-width:320px; width:100%; border:1px solid var(--border); text-align:left;
+}
+.ad-pill { display:inline-block; font-size:.6rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); background:rgba(44,31,46,.07); padding:3px 8px; border-radius:100px; margin-bottom:12px; }
+body.night .ad-pill { background:rgba(255,255,255,.08); }
+.ad-brand { font-weight:600; font-size:1.1rem; color:var(--text); margin-bottom:6px; }
+.ad-copy { font-size:.84rem; color:var(--subtext); line-height:1.55; margin-bottom:16px; }
+.ad-cta { background:var(--ink); color:white; border:none; padding:12px 24px; border-radius:100px; font-family:'DM Sans',sans-serif; font-size:.88rem; font-weight:500; cursor:pointer; }
+body.night .ad-cta { background:rgba(255,255,255,.9); color:#2c1f2e; }
+.ad-skip { font-size:.8rem; color:var(--subtext); background:none; border:none; font-family:'DM Sans',sans-serif; cursor:pointer; padding:8px; }
+
+/* ══ SUCCESS ══ */
+#screenSuccess { justify-content:center; align-items:center; padding:40px 24px; gap:0; text-align:center; overflow-y:auto; }
+.success-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 40%, rgba(168,216,176,.3) 0%, transparent 65%); animation:successGlow 2s ease-out forwards; }
+@keyframes successGlow { 0%{opacity:0;transform:scale(.8)} 100%{opacity:1;transform:scale(1)} }
+.success-bird { font-size:3rem; margin-bottom:14px; position:relative; animation:successPop .5s .1s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes successPop { 0%{transform:scale(0);opacity:0} 100%{transform:scale(1);opacity:1} }
+.success-heading { font-family:'DM Serif Display',serif; font-size:clamp(2rem,8vw,2.8rem); color:var(--text); margin-bottom:4px; position:relative; animation:fadeUp .5s .25s ease both; }
+.success-sub { font-size:.92rem; color:var(--subtext); font-weight:300; margin-bottom:24px; position:relative; animation:fadeUp .5s .35s ease both; }
+@keyframes fadeUp { 0%{opacity:0;transform:translateY(12px)} 100%{opacity:1;transform:translateY(0)} }
+
+/* Word learned. Hero card on success */
+.word-card-success {
+  background:linear-gradient(135deg, rgba(249,201,168,.28), rgba(200,180,232,.28));
+  border:1px solid var(--border); border-radius:22px;
+  padding:20px 22px; max-width:320px; width:100%;
+  text-align:left; margin-bottom:14px;
+  animation:fadeUp .5s .38s ease both;
+}
+body.night .word-card-success { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.wcs-label { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:8px; }
+.wcs-word { font-family:'DM Serif Display',serif; font-size:1.7rem; color:var(--text); letter-spacing:-.02em; margin-bottom:3px; }
+.wcs-pronunciation { font-size:.74rem; color:var(--subtext); font-style:italic; margin-bottom:8px; }
+.wcs-def { font-size:.82rem; color:var(--text); line-height:1.5; margin-bottom:8px; }
+.wcs-origin { font-size:.74rem; color:var(--subtext); line-height:1.45; }
+.wcs-origin strong { color:var(--gold); font-weight:600; }
+
+/* Streak banner */
+.streak-banner {
+  background:linear-gradient(135deg,rgba(249,201,168,.22),rgba(240,160,188,.22));
+  border:1px solid rgba(240,160,188,.28); border-radius:14px;
+  padding:11px 16px; max-width:320px; width:100%;
+  display:flex; align-items:center; gap:10px;
+  margin-bottom:12px; animation:fadeUp .5s .48s ease both;
+}
+.streak-banner-icon { font-size:1.3rem; }
+.streak-banner-text { font-size:.82rem; color:var(--text); font-weight:600; }
+.streak-banner-sub { font-size:.7rem; color:var(--subtext); }
+
+/* Coins earned */
+.coins-earned {
+  background:var(--card); backdrop-filter:blur(16px);
+  border-radius:18px; padding:16px 20px;
+  max-width:320px; width:100%; margin-bottom:18px;
+  border:1px solid var(--border); animation:fadeUp .5s .54s ease both;
+}
+.coins-earned-title { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:10px; }
+.coins-row { display:flex; justify-content:space-between; align-items:center; padding:5px 0; font-size:.82rem; color:var(--text); border-bottom:1px solid var(--border); }
+.coins-row:last-child { border-bottom:none; font-weight:700; padding-top:10px; }
+.coins-row span:last-child { color:var(--gold); font-weight:600; }
+
+.btn-done {
+  background:none; border:1.5px solid var(--border); color:var(--text);
+  padding:13px 40px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.95rem; cursor:pointer; transition:background .2s;
+  animation:fadeUp .5s .6s ease both;
+}
+.btn-done:hover { background:rgba(255,255,255,.1); }
+
+.nav-right { display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+
+.icon-nav-btn {
+  width:36px; height:36px; border-radius:50%; border:1px solid var(--border);
+  background:var(--card); backdrop-filter:blur(10px); cursor:pointer;
+  display:flex; align-items:center; justify-content:center; font-size:1rem;
+  color:var(--text); flex-shrink:0; transition:opacity .2s;
+}
+.icon-nav-btn:hover { opacity:.75; }
+
+/* Calendar + settings shell screens */
+.shell-screen {
+  justify-content:flex-start; padding:0 0 24px; overflow-y:auto; align-items:stretch;
+  width:100%;
+}
+.shell-inner {
+  width:100%; max-width:390px; margin:0 auto; padding:0 16px 24px;
+}
+.shell-nav {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:52px 0 16px; gap:10px;
+}
+.shell-nav-left { display:flex; align-items:center; gap:6px; }
+.shell-back {
+  width:40px; height:40px; border:none; background:none; cursor:pointer;
+  font-size:1.4rem; color:var(--text); line-height:1;
+}
+.shell-title { font-size:1.05rem; font-weight:500; color:var(--text); }
+.shell-sub { font-size:.75rem; color:var(--subtext); margin-top:2px; }
+.shell-streak-pill {
+  display:flex; align-items:center; gap:6px; background:var(--card);
+  border:1px solid var(--border); padding:6px 12px; border-radius:100px; font-size:.75rem; font-weight:500;
+}
+
+.cal-toggle-row {
+  display:flex; align-items:center; gap:8px; margin-bottom:18px; padding:12px;
+  background:var(--card); border:1px solid var(--border); border-radius:12px;
+}
+.cal-toggle-label { flex:1; font-size:.75rem; color:var(--subtext); }
+.cal-toggle-wrap { display:flex; background:rgba(44,31,46,.06); border-radius:100px; padding:3px; }
+body.night .cal-toggle-wrap { background:rgba(255,255,255,.06); }
+.cal-toggle-opt {
+  border:none; background:transparent; padding:6px 12px; border-radius:100px;
+  font-family:'DM Sans',sans-serif; font-size:.72rem; font-weight:500; color:var(--subtext); cursor:pointer;
+}
+.cal-toggle-opt.active { background:var(--card); color:var(--text); box-shadow:0 1px 4px rgba(0,0,0,.08); }
+
+.cal-section-label {
+  font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--subtext); margin:8px 0 10px;
+}
+.cal-hero-card, .cal-day-card {
+  width:100%; border:1px solid var(--border); border-radius:16px; padding:16px;
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  text-align:left; cursor:pointer; font:inherit; color:inherit;
+  backdrop-filter:blur(8px); position:relative;
+}
+.cal-hero-card { margin-bottom:12px; background:linear-gradient(135deg,rgba(249,201,168,.35),rgba(200,180,232,.25)); }
+body.night .cal-hero-card { background:linear-gradient(135deg,rgba(249,201,168,.08),rgba(200,180,232,.08)); }
+.cal-hero-badge, .cal-day-date {
+  font-size:.62rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--subtext); margin-bottom:6px;
+}
+.cal-hero-word, .cal-day-word {
+  font-family:'DM Serif Display',serif; font-size:1.5rem; color:var(--text); letter-spacing:-.02em;
+}
+.cal-hero-date { font-size:.75rem; color:var(--subtext); margin-top:2px; }
+.cal-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:12px; }
+.cal-day-card { min-height:88px; }
+.cal-card-peach { background:rgba(253,232,216,.85); border-color:rgba(249,201,168,.5); }
+.cal-card-lavender { background:rgba(221,232,248,.85); border-color:rgba(200,180,232,.5); }
+.cal-card-blush { background:rgba(240,160,188,.15); border-color:rgba(240,160,188,.35); }
+.cal-card-dawn { background:rgba(237,224,248,.85); border-color:rgba(200,180,232,.4); }
+body.night .cal-card-peach, body.night .cal-card-lavender, body.night .cal-card-blush, body.night .cal-card-dawn {
+  background:var(--card);
+}
+.cal-day-locked { opacity:.55; cursor:not-allowed; }
+.cal-lock-icon { position:absolute; top:10px; right:10px; font-size:.85rem; }
+.cal-icons { font-size:.72rem; color:var(--subtext); white-space:nowrap; }
+.cal-lock-wrap { position:relative; margin-bottom:12px; }
+.cal-grid-blur { filter:blur(5px); opacity:.55; pointer-events:none; user-select:none; }
+.cal-lock-overlay {
+  position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  text-align:center; padding:16px; gap:6px;
+}
+.cal-lock-big { font-size:1.4rem; }
+.cal-lock-title { font-size:.88rem; font-weight:600; color:var(--text); max-width:240px; }
+.cal-lock-sub { font-size:.78rem; color:var(--subtext); max-width:260px; line-height:1.45; }
+.cal-gold-btn {
+  width:100%; padding:13px; background:var(--ink); color:var(--white); border:none;
+  border-radius:100px; font-family:'DM Sans',sans-serif; font-size:.9rem; font-weight:500; cursor:pointer; margin-bottom:8px;
+}
+body.night .cal-gold-btn { background:rgba(255,255,255,.12); color:var(--text); }
+.cal-gold-sub { font-size:.72rem; color:var(--subtext); text-align:center; line-height:1.45; margin-bottom:8px; }
+
+.settings-card {
+  background:var(--card); border:1px solid var(--border); border-radius:16px;
+  padding:18px; margin-bottom:12px; backdrop-filter:blur(10px);
+}
+.settings-card-title { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:6px; }
+.settings-card-sub { font-size:.85rem; color:var(--subtext); line-height:1.5; }
+.settings-row {
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px 0; border-bottom:1px solid var(--border);
+}
+.settings-row:last-child { border-bottom:none; padding-bottom:0; }
+.settings-row-label { font-size:.88rem; color:var(--text); }
+.settings-row-hint { font-size:.72rem; color:var(--subtext); margin-top:4px; line-height:1.4; }
+.settings-select {
+  border:1px solid var(--border); border-radius:10px; padding:8px 10px;
+  background:var(--card); color:var(--text); font-family:'DM Sans',sans-serif; font-size:.85rem;
+}
+.settings-btn {
+  width:100%; padding:14px; border-radius:100px; font-family:'DM Sans',sans-serif;
+  font-size:.9rem; font-weight:500; cursor:pointer; margin-top:8px;
+}
+.settings-btn-outline { background:none; border:1.5px solid var(--border); color:var(--text); }
+.settings-btn-primary { background:var(--ink); border:none; color:var(--white); }
+body.night .settings-btn-primary { background:rgba(255,255,255,.9); color:#2c1f2e; }
+
+.word-sheet-dialog { border:none; background:transparent; padding:0; margin:auto; max-width:390px; width:100%; }
+.word-sheet-dialog::backdrop { background:rgba(44,31,46,.45); }
+.word-sheet {
+  background:var(--card); border:1px solid var(--border); border-top-left-radius:24px; border-top-right-radius:24px;
+  padding:20px 20px 28px; max-height:88vh; overflow-y:auto; backdrop-filter:blur(16px);
+  margin-top:12vh;
+}
+.word-sheet-handle { width:36px; height:4px; background:var(--border); border-radius:2px; margin:0 auto 16px; }
+.sheet-eyebrow { font-size:.62rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--subtext); margin-bottom:6px; }
+.sheet-word { font-family:'DM Serif Display',serif; font-size:2rem; color:var(--text); letter-spacing:-.02em; }
+.sheet-pron { font-size:.82rem; color:var(--subtext); font-style:italic; margin:4px 0 14px; }
+.sheet-def { font-size:.88rem; color:var(--text); line-height:1.55; margin-bottom:10px; }
+.sheet-etym { font-size:.78rem; color:var(--subtext); line-height:1.5; padding:12px; background:rgba(44,31,46,.04); border-radius:12px; margin-bottom:14px; }
+body.night .sheet-etym { background:rgba(255,255,255,.05); }
+.sheet-etym strong { color:var(--gold); font-weight:600; }
+.sheet-divider { height:1px; background:var(--border); margin:14px 0; }
+.sheet-stat { font-size:.82rem; color:var(--text); margin-bottom:8px; }
+.sheet-gym-row { display:flex; justify-content:space-between; align-items:center; font-size:.82rem; margin-bottom:16px; gap:10px; }
+.sheet-link-btn { border:none; background:none; color:var(--gold); font-weight:600; cursor:pointer; font-family:'DM Sans',sans-serif; font-size:.82rem; }
+.sheet-done-btn {
+  width:100%; padding:13px; border-radius:100px; border:1.5px solid var(--border);
+  background:none; color:var(--text); font-family:'DM Sans',sans-serif; font-size:.9rem; cursor:pointer;
+}
+
+/* Confetti */
+.confetti-piece { position:fixed; pointer-events:none; z-index:9998; animation:confettiFall linear forwards; border-radius:2px; }
+@keyframes confettiFall { 0%{transform:translateY(-20px) rotate(0deg);opacity:1} 100%{transform:translateY(110vh) rotate(720deg);opacity:0} }
+</style>
+</head>
+<body>
+
+<!-- ══ HOME ══ -->
+<div id="screenHome" class="screen active">
+  <div class="home-header">
+    <div class="zazu-wordmark">zazu</div>
+    <div class="nav-right">
+      <div class="streak-pill">
+        <div class="streak-flame-wrap">
+          <span class="streak-flame-icon">🔥</span>
+        </div>
+        <div class="streak-info">
+          <span class="streak-count" id="homeStreakNum">0</span>
+          <span class="streak-label">day streak</span>
+        </div>
+      </div>
+      <div class="coin-chip">
+        <div class="coin-chip-icon">🪙</div>
+        <span class="coin-chip-amount" id="homeCoinAmount">0</span>
+      </div>
+      <button type="button" class="icon-nav-btn" onclick="openCalendarFromHome()" aria-label="Your words">📅</button>
+      <button type="button" class="icon-nav-btn" onclick="openSettingsFromHome()" aria-label="Settings">⚙️</button>
+    </div>
+  </div>
+
+  <div class="wotd-error" id="wotdError" hidden role="alert">
+    <span id="wotdErrorText">Could not load words from the cloud. Using the built-in library for now.</span>
+    <button type="button" class="wotd-error-btn" id="wotdRetryBtn" onclick="retryWordLibrary()">Try again</button>
+  </div>
+
+  <!-- Word of the Day -->
+  <div class="wotd-hero wotd-loading" id="wotdHero">
+    <div class="wotd-eyebrow">Word of the day</div>
+    <div class="wotd-word" id="wotdWord">Loading…</div>
+    <div class="wotd-pronunciation" id="wotdPronunciation"></div>
+    <div class="wotd-pos" id="wotdPos"></div>
+    <div class="wotd-def" id="wotdDef"></div>
+    <div class="wotd-origin" id="wotdOrigin"></div>
+  </div>
+
+  <div class="home-section-label">Your alarms</div>
+  <div class="alarm-list" id="alarmList"></div>
+
+  <button type="button" class="add-alarm-btn" id="addAlarmBtn">+ Add alarm</button>
+  <div class="home-footer-actions">
+    <button type="button" class="demo-btn" onclick="fireAlarm()">Try the alarm</button>
+    <button type="button" class="demo-btn" onclick="toggleTheme()" id="themeBtn">☀️ Switch to light mode</button>
+  </div>
+</div>
+
+<!-- ══ WORD GYM TAB ══ -->
+<div id="screenGym" class="screen" aria-hidden="true">
+  <div class="home-header">
+    <div class="zazu-wordmark">zazu</div>
+    <div class="nav-right">
+      <div class="streak-pill">
+        <div class="streak-flame-wrap"><span class="streak-flame-icon">🔥</span></div>
+        <div class="streak-info">
+          <span class="streak-count" id="gymStreakNum">0</span>
+          <span class="streak-label">day streak</span>
+        </div>
+      </div>
+      <div class="coin-chip">
+        <div class="coin-chip-icon">🪙</div>
+        <span class="coin-chip-amount" id="gymCoinAmount">0</span>
+      </div>
+      <button type="button" class="icon-nav-btn" onclick="openCalendarFromGym()" aria-label="Your words">📅</button>
+      <button type="button" class="icon-nav-btn" onclick="openSettingsFromGym()" aria-label="Settings">⚙️</button>
+    </div>
+  </div>
+
+  <div class="gym-hero-icon" aria-hidden="true">🏋️</div>
+  <div class="gym-eyebrow">Word Gym</div>
+  <p class="gym-subtitle">Three rounds to lock it in</p>
+
+  <div class="gym-word-card" id="gymWordCard">
+    <div class="gym-word-label">Today's practice word</div>
+    <div class="gym-word-main" id="gymWord">Loading…</div>
+    <div class="gym-word-pron" id="gymPron"></div>
+    <div class="gym-word-def" id="gymDef"></div>
+    <div class="gym-word-origin" id="gymOrigin"></div>
+    <div class="gym-mastery-row">
+      <span class="gym-mastery-label">Mastery</span>
+      <span class="gym-mastery-value" id="gymMastery">Not practised yet</span>
+    </div>
+  </div>
+
+  <button type="button" class="gym-start-btn" id="gymStartBtn" onclick="startGymPuzzle()" disabled>Start practice</button>
+</div>
+
+<dialog class="add-alarm-dialog" id="addAlarmDialog">
+  <form class="add-alarm-panel" method="dialog" id="addAlarmForm">
+    <div class="add-alarm-title">Add alarm</div>
+    <div class="add-alarm-field">
+      <label for="addAlarmTime">Time</label>
+      <input type="time" id="addAlarmTime" name="time" required value="07:00"/>
+    </div>
+    <div class="add-alarm-field">
+      <label for="addAlarmLabel">Label</label>
+      <input type="text" id="addAlarmLabel" name="label" required maxlength="48" value="Words pack" placeholder="Weekdays · Words pack"/>
+    </div>
+    <div class="add-alarm-actions">
+      <button type="button" class="add-alarm-cancel" id="addAlarmCancelBtn">Cancel</button>
+      <button type="submit" class="add-alarm-save">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- ══ ALARM FIRING ══ -->
+<div id="screenAlarm" class="screen" aria-hidden="true">
+  <div class="alarm-orb alarm-orb-1"></div>
+  <div class="alarm-orb alarm-orb-2"></div>
+  <div class="alarm-orb alarm-orb-3"></div>
+  <div class="alarm-glow"></div>
+  <div class="alarm-bird">🐦</div>
+  <div class="alarm-label-text">Good morning</div>
+  <div class="alarm-big-time" id="alarmTimeDisplay">07:30</div>
+  <div class="alarm-word-tease">Today's word: <strong id="alarmWordTease">Matutinal</strong></div>
+  <div class="alarm-name-sub" id="alarmSubtext">Learn it, then one quick question</div>
+  <button class="btn-wake" onclick="startLearn()">I'm awake. Let's go.</button>
+</div>
+
+<!-- ══ LEARN ══ -->
+<div id="screenLearn" class="screen" aria-hidden="true">
+  <div class="learn-eyebrow">Learn the word</div>
+  <h1 class="learn-word" id="learnWord">–</h1>
+  <p class="learn-pron" id="learnPron">–</p>
+  <div class="learn-card">
+    <p class="learn-def" id="learnDef">–</p>
+  </div>
+  <div class="learn-etym">
+    <div class="learn-etym-label">Etymology</div>
+    <div class="learn-etym-text" id="learnEtym">–</div>
+  </div>
+  <button class="btn-continue" onclick="showMorningTask()">Continue</button>
+</div>
+
+<!-- ══ MORNING TASK ══ -->
+<div id="screenMorningTask" class="screen" aria-hidden="true">
+  <div class="mt-eyebrow">Morning task</div>
+  <h2 class="mt-word" id="mtWord">–</h2>
+  <p class="mt-question" id="mtQuestion">–</p>
+  <div class="mt-options" id="mtOptions"></div>
+  <p class="mt-hint" id="mtHint" hidden></p>
+  <p class="mt-try-again" id="mtTryAgain" hidden>Not quite. Try again.</p>
+  <button class="btn-dismiss" id="mtDismissBtn" onclick="dismissMorningTask()" hidden>Dismiss alarm</button>
+</div>
+
+<!-- ══ PUZZLE (Word Gym) ══ -->
+<div id="screenPuzzle" class="screen" aria-hidden="true">
+  <div class="puzzle-word-banner">
+    <h1 class="puzzle-word-main" id="puzzleWordMain">–</h1>
+    <p class="puzzle-word-round" id="puzzleWordRound">–</p>
+  </div>
+  <section class="round-context" id="roundContext" aria-labelledby="roundContextLabel">
+    <div class="round-context-label" id="roundContextLabel">–</div>
+    <div class="round-context-text" id="roundContextText">–</div>
+  </section>
+  <div class="progress-row" id="progressRow" role="group" aria-label="Round progress"></div>
+  <div class="board" id="board" role="group" aria-label="Matching pairs. Select one prompt and one answer."></div>
+  <div id="puzzleLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+</div>
+
+<!-- ══ AD ══ -->
+<div id="screenAd" class="screen" aria-hidden="true">
+  <div class="ad-eyebrow">One quick message</div>
+  <div class="ad-card-full">
+    <div class="ad-pill">Ad. Keeps Zazu free.</div>
+    <div class="ad-brand">Huel Black Edition</div>
+    <div class="ad-copy">Complete nutrition in 90 seconds. Ideal for mornings when breakfast isn't happening. Try the starter kit. First order 20% off.</div>
+    <button class="ad-cta">Find out more</button>
+  </div>
+  <button class="ad-skip" onclick="showSuccess()">Skip →</button>
+</div>
+
+<!-- ══ SUCCESS ══ -->
+<div id="screenSuccess" class="screen" aria-hidden="true">
+  <div class="success-glow"></div>
+  <div class="success-bird">🐦</div>
+  <div class="success-heading">You're up.</div>
+  <div class="success-sub">One new word. Carry it with you today.</div>
+
+  <div class="word-card-success">
+    <div class="wcs-label">Word learned</div>
+    <div class="wcs-word" id="successWord">–</div>
+    <div class="wcs-pronunciation" id="successPronunciation">–</div>
+    <div class="wcs-def" id="successDef">–</div>
+    <div class="wcs-origin" id="successOrigin">–</div>
+  </div>
+
+  <div class="streak-banner">
+    <div class="streak-banner-icon">🔥</div>
+    <div>
+      <div class="streak-banner-text" id="successStreakText">8 day streak!</div>
+      <div class="streak-banner-sub" id="successStreakTitle">Early Riser. Keep it going tomorrow</div>
+    </div>
+  </div>
+
+  <div class="coins-earned" id="coinsEarnedCard">
+    <div class="coins-earned-title">Coins earned</div>
+    <div class="coins-row" id="coinRowPuzzle"><span id="coinLabelPuzzle">Morning task completed</span><span id="coinAmtPuzzle">+15 🪙</span></div>
+    <div class="coins-row" id="coinRowNoSnooze"><span>No snooze</span><span id="coinAmtNoSnooze">+10 🪙</span></div>
+    <div class="coins-row" id="coinRowStreakBonus"><span>Streak bonus</span><span id="coinAmtStreakBonus">+25 🪙</span></div>
+    <div class="coins-row"><span>Total</span><span id="coinAmtTotal">+25 🪙</span></div>
+  </div>
+
+  <button type="button" class="btn-done" onclick="goHome()">Done</button>
+</div>
+
+<!-- ══ CALENDAR ══ -->
+<div id="screenCalendar" class="screen shell-screen" aria-hidden="true">
+  <div class="shell-inner">
+    <div class="shell-nav">
+      <div class="shell-nav-left">
+        <button type="button" class="shell-back" onclick="closeOverlayScreen()" aria-label="Go back">‹</button>
+        <div>
+          <div class="shell-title">Your words</div>
+          <div class="shell-sub" id="calNavSub">0 words learned</div>
+        </div>
+      </div>
+      <div class="shell-streak-pill">🔥 <span id="calStreakPill">0 days</span></div>
+    </div>
+
+    <div class="cal-toggle-row">
+      <span class="cal-toggle-label">Preview as:</span>
+      <div class="cal-toggle-wrap">
+        <button type="button" class="cal-toggle-opt active" id="calToggleFree" onclick="setCalendarGoldPreview(false)">Free user</button>
+        <button type="button" class="cal-toggle-opt" id="calToggleGold" onclick="setCalendarGoldPreview(true)">Zazu Gold</button>
+      </div>
+    </div>
+
+    <div class="cal-section-label">Today</div>
+    <div id="calHero"></div>
+
+    <div class="cal-section-label">This week</div>
+    <div class="cal-grid" id="calWeekGrid"></div>
+
+    <div class="cal-section-label">Older words</div>
+    <div id="calOlderSection"></div>
+  </div>
+</div>
+
+<!-- ══ SETTINGS ══ -->
+<div id="screenSettings" class="screen shell-screen" aria-hidden="true">
+  <div class="shell-inner">
+    <div class="shell-nav">
+      <div class="shell-nav-left">
+        <button type="button" class="shell-back" onclick="closeOverlayScreen()" aria-label="Go back">‹</button>
+        <div class="shell-title">Settings</div>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-card-title" id="settingsAccountTitle">Guest mode</div>
+      <div class="settings-card-sub" id="settingsAccountHint">Sign in to sync streak, coins, and Gold across devices.</div>
+      <div class="settings-card-sub" id="settingsPlan" style="margin-top:8px">Free plan</div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-row-label">Push notifications</div>
+          <div class="settings-row-hint" id="settingsNotifHint">Browser notification permission.</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="settingsNotifToggle" onchange="handleSettingsNotifToggle(this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+      <div class="settings-row">
+        <div class="settings-row-label">Theme</div>
+        <select class="settings-select" id="settingsThemeSelect" onchange="handleSettingsThemeChange(this.value)">
+          <option value="auto">Auto (dawn/dusk)</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="button" class="settings-btn settings-btn-outline" onclick="handleSettingsSignIn()">Sign in on this device</button>
+    <button type="button" class="settings-btn settings-btn-outline" onclick="handleSettingsSignOut()">Clear local name</button>
+    <button type="button" class="settings-btn settings-btn-outline" onclick="showGoldUpsellFromSettings()">Upgrade to Gold</button>
+  </div>
+</div>
+
+<dialog class="word-sheet-dialog" id="wordDetailSheet">
+  <div class="word-sheet" role="document">
+    <div class="word-sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-eyebrow" id="sheetEyebrow">–</div>
+    <div class="sheet-word" id="sheetWord">–</div>
+    <div class="sheet-pron" id="sheetPron">–</div>
+    <div class="sheet-def" id="sheetDef">–</div>
+    <div class="sheet-etym" id="sheetEtym">–</div>
+    <div class="sheet-divider"></div>
+    <div class="sheet-stat" id="sheetStreak">–</div>
+    <div class="sheet-stat" id="sheetDismiss">–</div>
+    <div class="sheet-gym-row" id="sheetGymRow"></div>
+    <button type="button" class="sheet-done-btn" onclick="closeWordSheet()">Done</button>
+  </div>
+</dialog>
+
+<nav class="app-tab-bar" id="appTabBar" aria-label="Main navigation">
+  <div class="app-tab-bar-inner">
+    <button type="button" class="app-tab active" id="tabHome" onclick="switchMainTab('home')" aria-current="page">
+      <span class="app-tab-icon" aria-hidden="true">🏠</span>
+      <span>Home</span>
+    </button>
+    <button type="button" class="app-tab" id="tabGym" onclick="switchMainTab('gym')">
+      <span class="app-tab-icon" aria-hidden="true">🏋️</span>
+      <span>Word Gym</span>
+    </button>
+  </div>
+</nav>
+
+<script>
+// ── UI COPY (mirrors mobile/constants/copy.ts) ──
+const COPY = {
+  brand: { wordmark: 'zazu', tagline: 'A new word. Every morning.' },
+  home: {
+    wordOfDayEyebrow: 'Word of the day',
+    yourAlarms: 'Your alarms',
+    addAlarm: '+ Add alarm',
+    tryTheAlarm: 'Try the alarm',
+    dayStreak: 'day streak',
+    weekdaysPack: 'Weekdays · Words pack',
+    weekendsPack: 'Weekends · Words pack',
+    tabHome: 'Home',
+    tabGym: 'Word Gym',
+  },
+  alarm: {
+    goodMorning: 'Good morning',
+    todaysWord: "Today's word:",
+    learnSub: 'Learn it, then one quick question',
+    wakeCta: "I'm awake. Let's go.",
+  },
+  learn: { eyebrow: 'Learn the word', etymology: 'Etymology', continue: 'Continue' },
+  morningTask: { eyebrow: 'Morning task', dismiss: 'Dismiss alarm', tryAgain: 'Not quite. Try again.' },
+  ad: { eyebrow: 'One quick message', pill: 'Ad. Keeps Zazu free.' },
+  success: {
+    heading: "You're up.",
+    sub: 'One new word. Carry it with you today.',
+    wordLearned: 'Word learned',
+    coinsEarned: 'Coins earned',
+    puzzleCompleted: 'Puzzle completed',
+    morningTaskCompleted: 'Morning task completed',
+    noSnooze: 'No snooze',
+    streakBonus: 'Streak bonus',
+    total: 'Total',
+    done: 'Done',
+    streakCount: (n) => `${n} day streak!`,
+    streakSubtitle: (title) => `${title}. Keep it going tomorrow.`,
+  },
+  puzzle: {
+    roundLabel: (round, type) => `Round ${round} of 3 · ${type}`,
+    emptyPlaceholder: '–',
+  },
+  gym: {
+    eyebrow: 'Word Gym',
+    todaysWord: "Today's practice word",
+    subtitle: 'Three rounds to lock it in',
+    mastery: 'Mastery',
+    masteryComplete: 'Completed today',
+    masteryNew: 'Not practised yet',
+    start: 'Start practice',
+    continue: 'Practise again',
+  },
+  gymSuccess: {
+    heading: 'Well practised.',
+    sub: 'Three rounds done. That word should stick.',
+    gymCompleted: 'Word Gym completed',
+    done: 'Done',
+    masteryPercent: (n) => `${n}% mastery`,
+  },
+  settings: {
+    signedInAs: (name) => `Signed in as ${name}`,
+    guestMode: 'Guest mode',
+    guestHint: 'Sign in to sync streak, coins, and Gold across devices.',
+    goldMember: 'Zazu Gold member',
+    freePlan: 'Free plan',
+    upgradeGold: 'Upgrade to Gold',
+    signOut: 'Sign out',
+    signIn: 'Sign in',
+  },
+  calendar: {
+    wordsLearned: (n) => `${n} word${n === 1 ? '' : 's'} learned`,
+    streakDays: (n) => `${n} day${n === 1 ? '' : 's'}`,
+    previewAs: 'Preview as:',
+    freeUser: 'Free user',
+    goldUser: 'Zazu Gold',
+    today: 'Today',
+    thisWeek: 'This week',
+    olderWords: 'Older words',
+    lockTitle: (n) => `${n} more word${n === 1 ? '' : 's'}, waiting for you`,
+    lockSub: 'Unlock your full word history with Zazu Gold',
+    unlockGold: 'Unlock with Zazu Gold ↗',
+    goldPricing: '£3.99/month or £24.99/year · 7-day free trial',
+    streakDayOf: (n) => `Day ${n} of your current streak`,
+    timeToDismiss: 'Time to dismiss',
+    notCompleted: '–',
+    gymCompleted: 'Word Gym completed',
+    gymNotDone: 'Word Gym not done that day',
+    wordGym: 'Word Gym',
+    goldFeature: 'Zazu Gold feature',
+    unlock: 'Unlock ↗',
+    openGym: 'Open in Word Gym',
+  },
+};
+
+// ── WORD DATABASE ──
+// Each word has 3 rounds: etymology → definition → usage
+const WORDS = [{"word":"Matutinal","pronunciation":"mat·yoo·TY·nl","pos":"adjective","definition":"Of, relating to, or occurring in the morning.","origin":"From Latin <strong>matutinus</strong>, of the morning, from Matuta, the Roman goddess of the dawn.","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Matutinal</strong> come from? Match each root to its meaning.","pairs":[{"a":"Latin matutinus","b":"Of the morning"},{"a":"Matuta","b":"Roman goddess of dawn"},{"a":"Root: mane","b":"In the morning"},{"a":"Related word: mature","b":"Early, timely"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Matutinal</strong> mean? Match each clue to the right answer.","pairs":[{"a":"Matutinal means","b":"Of the morning"},{"a":"A matutinal bird sings","b":"At dawn"},{"a":"Opposite of matutinal","b":"Nocturnal"},{"a":"Part of speech","b":"Adjective"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Matutinal</strong> used? Match each sentence fragment to its correct completion.","pairs":[{"a":"She had a matutinal","b":"Routine of stretching"},{"a":"His matutinal mood was","b":"Unusually bright"},{"a":"The robin's matutinal","b":"Song woke the street"},{"a":"A matutinal cup of","b":"Tea began every day"}]}]},{"word":"Lucid","pronunciation":"LOO·sid","pos":"adjective","definition":"Expressed clearly; easy to understand. Also: mentally clear, not confused.","origin":"From Latin <strong>lucidus</strong>, bright, shining, clear. From <strong>lux</strong>, light.","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Lucid</strong> come from? Match each root to its meaning.","pairs":[{"a":"Latin lucidus","b":"Bright, shining"},{"a":"Latin lux","b":"Light"},{"a":"Related: elucidate","b":"To make clear"},{"a":"Related: translucent","b":"Letting light through"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Lucid</strong> mean? Match each clue to the right answer.","pairs":[{"a":"A lucid explanation is","b":"Clear and easy to follow"},{"a":"A lucid dream means","b":"You know you are dreaming"},{"a":"Lucid thinking is","b":"Rational and clear"},{"a":"Synonym of lucid","b":"Intelligible"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Lucid</strong> used? Match each fragment to its correct completion.","pairs":[{"a":"She gave a lucid","b":"Account of events"},{"a":"Despite the fever he remained","b":"Lucid and calm"},{"a":"The professor's lucid","b":"Style won praise"},{"a":"A lucid moment after","b":"Weeks of confusion"}]}]},{"word":"Ephemeral","pronunciation":"ih·FEM·er·ul","pos":"adjective","definition":"Lasting for a very short time; transitory.","origin":"From Greek <strong>ephemeros</strong>, lasting only a day. From <strong>epi</strong> (on) + <strong>hemera</strong> (day).","rounds":[{"type":"Etymology","label":"Round 1 of 3 · Etymology","context":"Where does <strong>Ephemeral</strong> come from? Match each root to its meaning.","pairs":[{"a":"Greek ephemeros","b":"Lasting only a day"},{"a":"Greek epi","b":"On or upon"},{"a":"Greek hemera","b":"Day"},{"a":"Related: ephemeris","b":"A daily almanac"}]},{"type":"Definition","label":"Round 2 of 3 · Definition","context":"What does <strong>Ephemeral</strong> mean? Match each clue to the right answer.","pairs":[{"a":"Ephemeral means","b":"Lasting a very short time"},{"a":"An ephemeral trend","b":"Fades quickly"},{"a":"Antonym of ephemeral","b":"Enduring"},{"a":"Synonym of ephemeral","b":"Fleeting"}]},{"type":"Usage","label":"Round 3 of 3 · Usage","context":"How is <strong>Ephemeral</strong> used? Match each fragment to its correct completion.","pairs":[{"a":"Cherry blossom is","b":"Ephemeral but beloved"},{"a":"The fame proved","b":"Entirely ephemeral"},{"a":"She captured the","b":"Ephemeral morning light"},{"a":"Social media trends are","b":"Inherently ephemeral"}]}]}];
+
+// ── STREAK TITLES ──
+const STREAK_TITLES = [
+  [1,   'Early Riser'],
+  [7,   'Early Riser'],
+  [14,  'Auroral'],
+  [30,  'Dawn Chaser'],
+  [60,  'Diurnal'],
+  [100, 'Chronobiologist'],
+  [365, 'Matutinal'],
+];
+
+function getStreakTitle(n) {
+  let title = 'Early Riser';
+  for (const [days, t] of STREAK_TITLES) { if (n >= days) title = t; }
+  return title;
+}
+
+// ── WORD LIBRARY (Supabase overrides inline WORDS when configured) ──
+let wordLibrary = WORDS;
+let gymWordLibrary = WORDS;
+let todaysWord = WORDS[0];
+let gymWordOfDay = WORDS[0];
+let activeMainTab = 'home';
+let puzzleSource = 'gym';
+
+function pickWordOfDay(words) {
+  if (window.ZazuWords?.pickWordOfDay) return window.ZazuWords.pickWordOfDay(words);
+  if (!words?.length) return null;
+  const dayIndex = Math.floor(Date.now() / 86400000);
+  return words[dayIndex % words.length];
+}
+
+function pickGymWordOfDay() {
+  if (!gymWordLibrary?.length) return null;
+  const learnedIds = window.ZazuProgress?.readProgress()?.learnedWordIds ?? [];
+  const alarmId = todaysWord?.id ?? (todaysWord?.word ? `word:${String(todaysWord.word).toLowerCase()}` : null);
+  const match =
+    alarmId &&
+    gymWordLibrary.find(
+      (w) => w.id === alarmId || w.word === todaysWord?.word,
+    );
+  if (match) return match;
+  if (window.ZazuWords?.pickNextAlarmWord) {
+    return window.ZazuWords.pickNextAlarmWord(gymWordLibrary, learnedIds);
+  }
+  return pickWordOfDay(gymWordLibrary);
+}
+
+function isGymDoneToday(wordId) {
+  const progress = window.ZazuProgress?.readProgress()?.wordProgress ?? [];
+  const entry = progress.find((item) => item.wordId === wordId);
+  if (!entry?.gymCompletedAt) return false;
+  const completed = new Date(entry.gymCompletedAt);
+  const now = new Date();
+  return (
+    completed.getFullYear() === now.getFullYear() &&
+    completed.getMonth() === now.getMonth() &&
+    completed.getDate() === now.getDate()
+  );
+}
+
+function getGymMastery(wordId) {
+  const progress = window.ZazuProgress?.readProgress()?.wordProgress ?? [];
+  return progress.find((item) => item.wordId === wordId)?.gymMastery ?? 0;
+}
+
+function renderWordOfDay(word) {
+  if (!word) return;
+  document.getElementById('wotdWord').textContent = word.word;
+  document.getElementById('wotdPronunciation').textContent = word.pronunciation;
+  document.getElementById('wotdPos').textContent = word.pos;
+  document.getElementById('wotdDef').textContent = word.definition;
+  document.getElementById('wotdOrigin').innerHTML = word.origin;
+}
+
+function setWordOfDayLoading(loading) {
+  document.getElementById('wotdHero').classList.toggle('wotd-loading', loading);
+  if (loading) {
+    document.getElementById('wotdWord').textContent = 'Loading…';
+    document.getElementById('wotdPronunciation').textContent = '';
+    document.getElementById('wotdPos').textContent = '';
+    document.getElementById('wotdDef').textContent = '';
+    document.getElementById('wotdOrigin').innerHTML = '';
+  }
+}
+
+function showWordFetchError(message) {
+  const banner = document.getElementById('wotdError');
+  const text = document.getElementById('wotdErrorText');
+  if (!banner || !text) return;
+  text.textContent = message;
+  banner.hidden = false;
+}
+
+function hideWordFetchError() {
+  const banner = document.getElementById('wotdError');
+  if (banner) banner.hidden = true;
+}
+
+async function initWordLibrary() {
+  setWordOfDayLoading(true);
+  hideWordFetchError();
+
+  let result = { words: WORDS, error: null, usedFallback: false, source: 'inline' };
+  try {
+    if (window.ZazuWords?.fetchAlarmWordsWithStatus) {
+      result = await window.ZazuWords.fetchAlarmWordsWithStatus();
+    } else if (window.ZazuWords?.fetchWithStatus) {
+      result = await window.ZazuWords.fetchWithStatus();
+    } else if (window.ZazuWords?.fetch) {
+      const loaded = await window.ZazuWords.fetch();
+      result = { words: loaded, error: null, usedFallback: false, source: 'inline' };
+    }
+  } catch (err) {
+    console.error('[Zazu] Word fetch failed:', err);
+    result = {
+      words: WORDS,
+      error: err?.message || 'Network error while loading words.',
+      usedFallback: true,
+      source: 'fallback',
+    };
+  }
+
+  const rawWords = result.words?.length ? result.words : WORDS;
+  wordLibrary = rawWords.map((w) =>
+    window.ZazuMorningTask?.ensureMorningTask ? window.ZazuMorningTask.ensureMorningTask(w) : w,
+  );
+  if (result.source === 'supabase') {
+    console.info('[Zazu] Loaded', wordLibrary.length, 'words from Supabase');
+  }
+  if (result.usedFallback && result.error) {
+    showWordFetchError(
+      `Could not load words from the cloud. ${result.error} Using the built-in library for now.`,
+    );
+  }
+
+  todaysWord = pickSessionWord(wordLibrary) ?? WORDS[0];
+  renderWordOfDay(todaysWord);
+  setWordOfDayLoading(false);
+
+  let gymResult = { words: WORDS, error: null, usedFallback: false, source: 'inline' };
+  try {
+    if (window.ZazuWords?.fetchGymWordsWithStatus) {
+      gymResult = await window.ZazuWords.fetchGymWordsWithStatus();
+    }
+  } catch (err) {
+    console.error('[Zazu] Gym word fetch failed:', err);
+    gymResult = { words: WORDS, error: err?.message, usedFallback: true, source: 'fallback' };
+  }
+
+  gymWordLibrary = (gymResult.words?.length ? gymResult.words : WORDS).map((w) => {
+    const withRounds = w.rounds?.length ? w : { ...w, rounds: w.gymRounds ?? WORDS[0].rounds };
+    return withRounds;
+  });
+  gymWordOfDay = pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+  renderGymScreen();
+  renderAlarms();
+  refreshHeaderProgress();
+}
+
+async function retryWordLibrary() {
+  const btn = document.getElementById('wotdRetryBtn');
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = 'Retrying…';
+  }
+  await initWordLibrary();
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = 'Try again';
+  }
+}
+
+function pickSessionWord(words) {
+  const learnedIds = window.ZazuProgress?.readProgress()?.learnedWordIds ?? [];
+  if (window.ZazuWords?.pickNextWord) return window.ZazuWords.pickNextWord(words, learnedIds);
+  return pickWordOfDay(words);
+}
+
+function refreshHeaderProgress() {
+  const saved = window.ZazuProgress?.readProgress() ?? { streak: 0, coins: 0 };
+  ['homeStreakNum', 'gymStreakNum'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = saved.streak;
+  });
+  ['homeCoinAmount', 'gymCoinAmount'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = saved.coins;
+  });
+}
+
+function renderAlarms() {
+  const list = document.getElementById('alarmList');
+  if (!list || !window.ZazuAlarms) return;
+
+  const alarms = window.ZazuAlarms.readAlarms();
+  list.innerHTML = alarms
+    .map(
+      (alarm) => `
+    <div class="alarm-card${alarm.enabled ? '' : ' off'}" data-alarm-id="${alarm.id}">
+      <div>
+        <div class="alarm-time-display">${alarm.time}</div>
+        <div class="alarm-meta">${alarm.label}</div>
+      </div>
+      <div class="alarm-right">
+        <label class="toggle">
+          <input type="checkbox" ${alarm.enabled ? 'checked' : ''} aria-label="Alarm ${alarm.time}, ${alarm.enabled ? 'on' : 'off'}" onchange="handleAlarmToggle('${alarm.id}', this.checked)"/>
+          <div class="toggle-track"></div><div class="toggle-thumb"></div>
+        </label>
+      </div>
+    </div>`,
+    )
+    .join('');
+}
+
+function handleAlarmToggle(id, enabled) {
+  window.ZazuAlarms.toggleAlarm(id, enabled);
+  renderAlarms();
+}
+
+function openAddAlarmDialog() {
+  const dialog = document.getElementById('addAlarmDialog');
+  if (!dialog?.showModal) return;
+  dialog.showModal();
+}
+
+function closeAddAlarmDialog() {
+  const dialog = document.getElementById('addAlarmDialog');
+  if (dialog?.open) dialog.close();
+}
+
+function handleAddAlarmSubmit(event) {
+  event.preventDefault();
+  const timeInput = document.getElementById('addAlarmTime');
+  const labelInput = document.getElementById('addAlarmLabel');
+  const timeRaw = timeInput?.value ?? '07:00';
+  const label = (labelInput?.value ?? 'Words pack').trim() || 'Words pack';
+  window.ZazuAlarms.addAlarm(timeRaw, label);
+  renderAlarms();
+  closeAddAlarmDialog();
+}
+
+function renderGymScreen() {
+  const word = gymWordOfDay;
+  const startBtn = document.getElementById('gymStartBtn');
+  if (!word) {
+    document.getElementById('gymWord').textContent = 'Loading…';
+    if (startBtn) startBtn.disabled = true;
+    return;
+  }
+
+  document.getElementById('gymWord').textContent = word.word;
+  document.getElementById('gymPron').textContent = `${word.pronunciation} · ${word.pos}`;
+  document.getElementById('gymDef').textContent = word.definition;
+  document.getElementById('gymOrigin').innerHTML = word.origin ?? '';
+
+  const wordId = window.ZazuProgress?.getWordId(word) ?? word.word;
+  const mastery = getGymMastery(wordId);
+  const doneToday = isGymDoneToday(wordId);
+  const masteryEl = document.getElementById('gymMastery');
+  if (masteryEl) {
+    masteryEl.textContent = doneToday
+      ? COPY.gym.masteryComplete
+      : mastery > 0
+        ? COPY.gymSuccess.masteryPercent(mastery)
+        : COPY.gym.masteryNew;
+  }
+  if (startBtn) {
+    startBtn.disabled = false;
+    startBtn.textContent = doneToday ? COPY.gym.continue : COPY.gym.start;
+  }
+}
+
+function setActiveMainTab(tab) {
+  activeMainTab = tab;
+  document.getElementById('tabHome')?.classList.toggle('active', tab === 'home');
+  document.getElementById('tabGym')?.classList.toggle('active', tab === 'gym');
+  document.getElementById('tabHome')?.setAttribute('aria-current', tab === 'home' ? 'page' : 'false');
+  document.getElementById('tabGym')?.setAttribute('aria-current', tab === 'gym' ? 'page' : 'false');
+}
+
+function switchMainTab(tab) {
+  if (tab === 'gym') {
+    gymWordOfDay = pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+    renderGymScreen();
+    refreshHeaderProgress();
+    setActiveMainTab('gym');
+    showScreen('screenGym');
+    return;
+  }
+  setActiveMainTab('home');
+  showScreen('screenHome');
+}
+
+function updateTabBarVisibility(screenId) {
+  const tabBar = document.getElementById('appTabBar');
+  if (!tabBar) return;
+  const show = screenId === 'screenHome' || screenId === 'screenGym';
+  tabBar.hidden = !show;
+}
+
+/** @deprecated Use refreshHeaderProgress */
+function refreshHomeProgress() {
+  refreshHeaderProgress();
+}
+
+// ── STATE ──
+let currentWord = null;
+let roundIndex = 0;
+let selectedTile = null;
+let matched = 0;
+let locked = false;
+let morningBuilt = null;
+let morningSelected = null;
+
+// ── ADAPTIVE THEME ──
+let themeManual = null;
+
+function applyAdaptiveTheme() {
+  if (!window.ZazuAdaptiveTheme) return;
+  let blend;
+  const override = window.ZazuSettings?.getThemeOverride?.() ?? themeManual ?? 'auto';
+  if (override === 'light') blend = 0;
+  else if (override === 'dark') blend = 1;
+  else if (themeManual === 'light') blend = 0;
+  else if (themeManual === 'dark') blend = 1;
+  else blend = window.ZazuAdaptiveTheme.getThemeBlend(new Date());
+
+  const palette = window.ZazuAdaptiveTheme.blendPalette(blend);
+  window.ZazuAdaptiveTheme.applyCssVars(document.documentElement, palette);
+  document.body.classList.toggle('night', blend >= 0.5);
+
+  const btn = document.getElementById('themeBtn');
+  if (btn) {
+    btn.textContent = blend >= 0.5 ? '☀️ Switch to light mode' : '🌙 Switch to dark mode';
+  }
+}
+
+function applyThemeFromSettings(mode) {
+  themeManual = mode === 'auto' ? null : mode;
+  applyAdaptiveTheme();
+}
+
+function openCalendarFromHome() {
+  window.ZazuWebScreens.getAlarmWords = () => wordLibrary;
+  window.ZazuWebScreens.openCalendar('screenHome');
+}
+
+function openCalendarFromGym() {
+  window.ZazuWebScreens.getAlarmWords = () => wordLibrary;
+  window.ZazuWebScreens.openCalendar('screenGym');
+}
+
+function openSettingsFromHome() {
+  window.ZazuWebScreens.openSettings('screenHome');
+}
+
+function openSettingsFromGym() {
+  window.ZazuWebScreens.openSettings('screenGym');
+}
+
+function closeOverlayScreen() {
+  window.ZazuWebScreens.closeOverlayScreen();
+}
+
+function setCalendarGoldPreview(isGold) {
+  window.ZazuWebScreens.setCalendarGoldPreview(isGold);
+}
+
+function closeWordSheet() {
+  window.ZazuWebScreens.closeWordSheet();
+}
+
+function handleSettingsNotifToggle(enabled) {
+  void window.ZazuWebScreens.handleNotifToggle(enabled);
+}
+
+function handleSettingsThemeChange(mode) {
+  window.ZazuWebScreens.handleThemeChange(mode);
+}
+
+function handleSettingsSignIn() {
+  window.ZazuWebScreens.handleSignIn();
+}
+
+function handleSettingsSignOut() {
+  window.ZazuWebScreens.handleSignOut();
+}
+
+function showGoldUpsellFromSettings() {
+  window.ZazuWebScreens.showGoldUpsell();
+}
+
+function startGymFromWord(word) {
+  const match =
+    gymWordLibrary.find((w) => (w.id && w.id === word.id) || w.word === word.word) ?? word;
+  currentWord = match.rounds?.length
+    ? match
+    : { ...match, rounds: match.gymRounds ?? match.rounds ?? WORDS[0].rounds };
+  gymWordOfDay = currentWord;
+  puzzleSource = 'gym';
+  setActiveMainTab('gym');
+  startPuzzle();
+}
+window.startGymFromWord = startGymFromWord;
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch((err) => {
+      console.warn('[Zazu] Service worker registration failed:', err);
+    });
+  });
+}
+registerServiceWorker();
+
+applyAdaptiveTheme();
+setInterval(applyAdaptiveTheme, 30 * 1000);
+
+// ── AUDIO ──
+const AC = window.AudioContext || window.webkitAudioContext;
+let ac = null;
+function audio() { if (!ac) ac = new AC(); return ac; }
+
+function playSnap() {
+  try {
+    const c=audio(),o=c.createOscillator(),g=c.createGain();
+    o.connect(g);g.connect(c.destination);o.type='sine';
+    o.frequency.setValueAtTime(700,c.currentTime);
+    o.frequency.exponentialRampToValueAtTime(920,c.currentTime+.07);
+    g.gain.setValueAtTime(0.1,c.currentTime);g.gain.exponentialRampToValueAtTime(0.001,c.currentTime+.13);
+    o.start();o.stop(c.currentTime+.15);
+  }catch(e){}
+}
+function playCorrect() {
+  try {
+    const c=audio();
+    [523.25,659.25,783.99,1046.5].forEach((f,i)=>{
+      const o=c.createOscillator(),g=c.createGain();
+      o.connect(g);g.connect(c.destination);o.type='sine';o.frequency.value=f;
+      const t=c.currentTime+i*.09;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(0.15,t+.02);g.gain.exponentialRampToValueAtTime(0.001,t+.3);
+      o.start(t);o.stop(t+.35);
+    });
+  }catch(e){}
+}
+function playWrong() {
+  try {
+    const c=audio(),o=c.createOscillator(),g=c.createGain();
+    o.connect(g);g.connect(c.destination);o.type='sawtooth';o.frequency.value=150;
+    g.gain.setValueAtTime(0.07,c.currentTime);g.gain.exponentialRampToValueAtTime(0.001,c.currentTime+.22);
+    o.start();o.stop(c.currentTime+.25);
+  }catch(e){}
+}
+function playSuccess() {
+  try {
+    const c=audio();
+    [523.25,659.25,783.99,1046.5,1318.51].forEach((f,i)=>{
+      const o=c.createOscillator(),g=c.createGain();
+      o.connect(g);g.connect(c.destination);o.type='sine';o.frequency.value=f;
+      const t=c.currentTime+i*.13;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(0.2,t+.03);g.gain.exponentialRampToValueAtTime(0.001,t+.5);
+      o.start(t);o.stop(t+.55);
+    });
+  }catch(e){}
+}
+
+// ── ALARM SOUND ──
+let alarmInterval = null;
+let alarmGain = null;
+let alarmStartTime = null;
+
+function startAlarmSound() {
+  try {
+    const c = audio();
+    alarmGain = c.createGain();
+    alarmGain.connect(c.destination);
+    alarmGain.gain.setValueAtTime(0, c.currentTime);
+
+    // Fade in over 8 seconds
+    alarmGain.gain.linearRampToValueAtTime(0.18, c.currentTime + 8);
+    alarmStartTime = c.currentTime;
+
+    function playChime() {
+      if (!alarmGain) return;
+      // Gentle two-note chime: perfect fifth
+      [[440, 0], [660, 0.3], [440, 1.2], [660, 1.5]].forEach(([freq, delay]) => {
+        const o = c.createOscillator();
+        const g = c.createGain();
+        o.connect(g); g.connect(alarmGain);
+        o.type = 'sine';
+        o.frequency.value = freq;
+        const t = c.currentTime + delay;
+        g.gain.setValueAtTime(0, t);
+        g.gain.linearRampToValueAtTime(0.5, t + 0.05);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 1.0);
+        o.start(t); o.stop(t + 1.1);
+      });
+    }
+
+    playChime();
+    alarmInterval = setInterval(playChime, 3000);
+  } catch(e) {}
+}
+
+function stopAlarmSound() {
+  try {
+    if (alarmInterval) { clearInterval(alarmInterval); alarmInterval = null; }
+    if (alarmGain) {
+      alarmGain.gain.linearRampToValueAtTime(0, audio().currentTime + 0.4);
+      setTimeout(() => { alarmGain = null; }, 500);
+    }
+  } catch(e) {}
+}
+function updateClock() {
+  const n=new Date();
+  const t=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');
+  const el=document.getElementById('alarmTimeDisplay');
+  if(el) el.textContent=t;
+}
+updateClock(); setInterval(updateClock,10000);
+
+// ── SCREENS ──
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach((s) => {
+    const active = s.id === id;
+    s.classList.toggle('active', active);
+    s.setAttribute('aria-hidden', active ? 'false' : 'true');
+  });
+  updateTabBarVisibility(id);
+  window.scrollTo(0, 0);
+}
+
+function fireAlarm() {
+  puzzleSource = 'alarm';
+  currentWord = pickSessionWord(wordLibrary) ?? wordLibrary[0];
+  if (window.ZazuMorningTask?.ensureMorningTask) {
+    currentWord = window.ZazuMorningTask.ensureMorningTask(currentWord);
+  }
+  document.getElementById('alarmWordTease').textContent = currentWord.word;
+  const sub = document.getElementById('alarmSubtext');
+  if (sub) sub.textContent = COPY.alarm.learnSub;
+  showScreen('screenAlarm');
+  startAlarmSound();
+}
+
+function renderIntroEtymology(word, el) {
+  if (!el) return;
+  const spans = word.introEtymology?.spans;
+  if (spans?.length) {
+    el.innerHTML = spans
+      .map((span) =>
+        span.highlight ? `<strong>${span.text}</strong>` : span.text,
+      )
+      .join('');
+    return;
+  }
+  el.innerHTML = word.origin;
+}
+
+function startLearn() {
+  stopAlarmSound();
+  clearInactivityTimer();
+  document.getElementById('learnWord').textContent = currentWord.word;
+  document.getElementById('learnPron').textContent =
+    `${currentWord.pronunciation} · ${currentWord.pos}`;
+  document.getElementById('learnDef').textContent = currentWord.definition;
+  renderIntroEtymology(currentWord, document.getElementById('learnEtym'));
+  showScreen('screenLearn');
+}
+
+async function showMorningTask() {
+  morningSelected = null;
+  morningBuilt = null;
+  document.getElementById('mtWord').textContent = currentWord.word;
+  document.getElementById('mtQuestion').textContent = 'Loading…';
+  document.getElementById('mtOptions').innerHTML = '';
+  document.getElementById('mtHint').hidden = true;
+  document.getElementById('mtTryAgain').hidden = true;
+  document.getElementById('mtDismissBtn').hidden = true;
+  showScreen('screenMorningTask');
+
+  let pool = [];
+  if (window.ZazuWords?.fetchMorningTaskDistractors) {
+    pool = await window.ZazuWords.fetchMorningTaskDistractors();
+  }
+  if (!pool.length && window.ZazuMorningTask?.fallbackDistractorPool) {
+    pool = window.ZazuMorningTask.fallbackDistractorPool(wordLibrary);
+  }
+
+  morningBuilt = window.ZazuMorningTask.buildMorningOptions(currentWord, pool, 3);
+  document.getElementById('mtQuestion').textContent = morningBuilt.question;
+
+  const optionsEl = document.getElementById('mtOptions');
+  optionsEl.innerHTML = '';
+  morningBuilt.options.forEach((option, index) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'mt-option';
+    btn.textContent = option;
+    btn.onclick = () => selectMorningOption(index, btn);
+    optionsEl.appendChild(btn);
+  });
+}
+
+function selectMorningOption(index, btn) {
+  if (!morningBuilt || morningSelected === morningBuilt.correctIndex) return;
+
+  const buttons = document.querySelectorAll('.mt-option');
+  if (index === morningBuilt.correctIndex) {
+    morningSelected = index;
+    btn.classList.add('correct');
+    playCorrect();
+    haptic('correct');
+    document.getElementById('mtHint').hidden = true;
+    document.getElementById('mtTryAgain').hidden = true;
+    document.getElementById('mtDismissBtn').hidden = false;
+    return;
+  }
+
+  playWrong();
+  haptic('wrong');
+  btn.classList.add('wrong');
+  document.getElementById('mtTryAgain').hidden = false;
+  const hint = currentWord.morningTask?.hint;
+  const hintEl = document.getElementById('mtHint');
+  if (hint && hintEl) {
+    hintEl.textContent = hint;
+    hintEl.hidden = false;
+  }
+  setTimeout(() => {
+    btn.classList.remove('wrong');
+    buttons.forEach((b) => b.classList.remove('wrong'));
+  }, 700);
+}
+
+function dismissMorningTask() {
+  showScreen('screenAd');
+}
+
+function goHome() {
+  refreshHeaderProgress();
+  renderGymScreen();
+  if (activeMainTab === 'gym') {
+    showScreen('screenGym');
+  } else {
+    showScreen('screenHome');
+  }
+}
+
+function startGymPuzzle() {
+  currentWord = gymWordOfDay ?? pickGymWordOfDay() ?? gymWordLibrary[0] ?? WORDS[0];
+  if (!currentWord?.rounds?.length && gymWordLibrary[0]?.rounds) {
+    currentWord = { ...currentWord, rounds: gymWordLibrary[0].rounds };
+  }
+  puzzleSource = 'gym';
+  startPuzzle();
+}
+
+// ── PUZZLE ──
+function startPuzzle() {
+  stopAlarmSound();
+  roundIndex = 0;
+  loadRound();
+  showScreen('screenPuzzle');
+}
+
+// ── INACTIVITY TIMER ──
+let nudgeTimer = null;
+let restartTimer = null;
+
+function resetInactivityTimer() {
+  clearTimeout(nudgeTimer);
+  clearTimeout(restartTimer);
+  clearPuzzleNudge();
+
+  // 30s. Gentle nudge.
+  nudgeTimer = setTimeout(() => {
+    playNudge();
+    haptic('nudge');
+    showPuzzleNudge();
+
+    // 60s total. Full alarm restart.
+    restartTimer = setTimeout(() => {
+      haptic('alarm');
+      startAlarmSound();
+      clearPuzzleNudge();
+      showScreen('screenAlarm');
+    }, 30000);
+  }, 30000);
+}
+
+function clearInactivityTimer() {
+  clearTimeout(nudgeTimer);
+  clearTimeout(restartTimer);
+  nudgeTimer = null; restartTimer = null;
+  clearPuzzleNudge();
+}
+
+// Nudge overlay on puzzle screen
+function showPuzzleNudge() {
+  let el = document.getElementById('puzzleNudge');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'puzzleNudge';
+    el.style.cssText = `
+      position:fixed; inset:0; z-index:500; pointer-events:none;
+      animation: nudgePulse 1.5s ease-in-out 3;
+    `;
+    // Inject keyframe if not present
+    if (!document.getElementById('nudgeStyle')) {
+      const s = document.createElement('style');
+      s.id = 'nudgeStyle';
+      s.textContent = `
+        @keyframes nudgePulse {
+          0%,100% { box-shadow: inset 0 0 0 0 rgba(240,160,188,0); }
+          50%      { box-shadow: inset 0 0 60px 20px rgba(240,160,188,0.35); }
+        }
+      `;
+      document.head.appendChild(s);
+    }
+    document.body.appendChild(el);
+  }
+  el.style.display = 'block';
+  el.style.animation = 'none';
+  void el.offsetWidth;
+  el.style.animation = 'nudgePulse 1.5s ease-in-out 3';
+}
+
+function clearPuzzleNudge() {
+  const el = document.getElementById('puzzleNudge');
+  if (el) el.style.display = 'none';
+}
+
+// Nudge sound. Soft single tone.
+function playNudge() {
+  try {
+    const c = audio();
+    [523.25, 659.25].forEach((f, i) => {
+      const o = c.createOscillator(), g = c.createGain();
+      o.connect(g); g.connect(c.destination);
+      o.type = 'sine'; o.frequency.value = f;
+      const t = c.currentTime + i * 0.25;
+      g.gain.setValueAtTime(0, t);
+      g.gain.linearRampToValueAtTime(0.12, t + 0.04);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.6);
+      o.start(t); o.stop(t + 0.65);
+    });
+  } catch(e) {}
+}
+
+// Haptic via Vibration API
+function haptic(type) {
+  if (!navigator.vibrate) return;
+  if (type === 'nudge')  navigator.vibrate([80, 60, 80]);
+  if (type === 'alarm')  navigator.vibrate([200, 100, 200, 100, 400]);
+  if (type === 'correct') navigator.vibrate(40);
+  if (type === 'wrong')   navigator.vibrate([60, 40, 60]);
+}
+
+function stripHtml(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || '';
+}
+
+function announcePuzzle(message) {
+  const live = document.getElementById('puzzleLive');
+  if (!live) return;
+  live.textContent = '';
+  requestAnimationFrame(() => { live.textContent = message; });
+}
+
+function syncTileA11y(el) {
+  const selected = el.classList.contains('selected');
+  const inactive = el.classList.contains('correct') || el.classList.contains('gone');
+  el.setAttribute('aria-pressed', selected ? 'true' : 'false');
+  el.disabled = inactive;
+  if (inactive) el.setAttribute('aria-disabled', 'true');
+  else el.removeAttribute('aria-disabled');
+}
+
+function getFocusableTiles() {
+  return [...document.querySelectorAll('#board .tile')].filter(
+    (t) => !t.disabled && !t.classList.contains('gone') && !t.classList.contains('correct'),
+  );
+}
+
+function handleTileKeydown(e, el) {
+  const tiles = getFocusableTiles();
+  const idx = tiles.indexOf(el);
+  if (idx === -1) return;
+
+  const cols = 2;
+  let next = idx;
+  if (e.key === 'ArrowRight') next = Math.min(idx + 1, tiles.length - 1);
+  else if (e.key === 'ArrowLeft') next = Math.max(idx - 1, 0);
+  else if (e.key === 'ArrowDown') next = Math.min(idx + cols, tiles.length - 1);
+  else if (e.key === 'ArrowUp') next = Math.max(idx - cols, 0);
+  else return;
+
+  if (next !== idx) {
+    e.preventDefault();
+    tiles[next].focus();
+  }
+}
+
+function loadRound() {
+  const round = currentWord.rounds[roundIndex];
+  matched = 0; selectedTile = null; locked = false;
+
+  document.getElementById('puzzleWordMain').textContent = currentWord.word;
+  document.getElementById('puzzleWordRound').textContent = round.type;
+  document.getElementById('roundContextLabel').textContent = round.label;
+  document.getElementById('roundContextText').innerHTML = round.context;
+  renderProgress();
+
+  const aItems = shuffle(round.pairs.map((p,i)=>({text:p.a,pairId:i,side:'a'})));
+  const bItems = shuffle(round.pairs.map((p,i)=>({text:p.b,pairId:i,side:'b'})));
+  const board = document.getElementById('board');
+  board.innerHTML='';
+  for(let r=0;r<round.pairs.length;r++){
+    board.appendChild(makeTile(aItems[r]));
+    board.appendChild(makeTile(bItems[r]));
+  }
+
+  announcePuzzle(
+    `Round ${roundIndex + 1} of 3. ${round.type}. ${stripHtml(round.context)}`,
+  );
+  const firstTile = getFocusableTiles()[0];
+  if (firstTile) firstTile.focus();
+  resetInactivityTimer();
+}
+
+function renderProgress() {
+  const row = document.getElementById('progressRow');
+  row.innerHTML =
+    Array.from({length:3},(_,i)=>
+      `<div class="prog-dot ${i<roundIndex?'done':''}" aria-hidden="true"></div>`
+    ).join('');
+  row.setAttribute('aria-label', `Round ${roundIndex + 1} of 3`);
+}
+
+function makeTile(item) {
+  const sideLabel = item.side === 'a' ? 'Prompt' : 'Answer';
+  const el = document.createElement('button');
+  el.type = 'button';
+  el.className = `tile side-${item.side}`;
+  el.dataset.pairId = item.pairId;
+  el.dataset.side = item.side;
+  el.setAttribute('aria-pressed', 'false');
+  el.setAttribute('aria-label', `${sideLabel}: ${item.text}`);
+  el.innerHTML = `<span class="tile-text">${item.text}</span>`;
+  el.addEventListener('click', () => handleTap(el));
+  el.addEventListener('keydown', (e) => handleTileKeydown(e, el));
+  return el;
+}
+
+function handleTap(el) {
+  if(locked) return;
+  if(el.classList.contains('correct')||el.classList.contains('gone')) return;
+  resetInactivityTimer();
+  if(selectedTile===el){
+    el.classList.remove('selected');
+    syncTileA11y(el);
+    selectedTile=null;
+    return;
+  }
+  if(selectedTile && el.dataset.side===selectedTile.dataset.side){
+    syncTileA11y(selectedTile);
+    selectedTile.classList.remove('selected');
+    selectedTile=el;
+    el.classList.add('selected');
+    syncTileA11y(el);
+    playSnap();
+    return;
+  }
+  playSnap();
+  if(!selectedTile){
+    selectedTile=el;
+    el.classList.add('selected');
+    syncTileA11y(el);
+    return;
+  }
+
+  const match=el.dataset.pairId===selectedTile.dataset.pairId && el.dataset.side!==selectedTile.dataset.side;
+
+  if(match){
+    playCorrect();
+    haptic('correct');
+    [el,selectedTile].forEach(t=>{t.classList.remove('selected');t.classList.add('correct');syncTileA11y(t);});
+    selectedTile=null;
+    matched++;
+    announcePuzzle('Correct match.');
+    if(matched>=currentWord.rounds[roundIndex].pairs.length){
+      announcePuzzle('Round complete.');
+      setTimeout(()=>{
+        document.querySelectorAll('.tile.correct').forEach(t=>{t.classList.add('gone');syncTileA11y(t);});
+        setTimeout(advanceRound,380);
+      },520);
+    }
+  } else {
+    playWrong();
+    haptic('wrong');
+    locked=true;
+    const prev=selectedTile;
+    [el,prev].forEach(t=>{t.classList.remove('selected');t.classList.add('wrong');syncTileA11y(t);});
+    announcePuzzle('Not a match. Try again.');
+    setTimeout(()=>{
+      [el,prev].forEach(t=>{t.classList.remove('wrong');syncTileA11y(t);});
+      locked=false;
+    },480);
+    selectedTile=null;
+  }
+}
+
+function advanceRound() {
+  clearInactivityTimer();
+  roundIndex++;
+  if(roundIndex>=3){ showScreen('screenAd'); }
+  else { loadRound(); }
+}
+
+function renderCoinBreakdown(breakdown, total) {
+  const labelEl = document.getElementById('coinLabelPuzzle');
+  if (labelEl) labelEl.textContent = COPY.success.morningTaskCompleted;
+  const rows = [
+    { id: 'coinRowPuzzle', amt: 'coinAmtPuzzle', value: breakdown.puzzle },
+    { id: 'coinRowNoSnooze', amt: 'coinAmtNoSnooze', value: breakdown.noSnooze },
+    { id: 'coinRowStreakBonus', amt: 'coinAmtStreakBonus', value: breakdown.streakBonus },
+  ];
+  rows.forEach(({ id, amt, value }) => {
+    const row = document.getElementById(id);
+    if (!row) return;
+    row.style.display = value > 0 ? '' : 'none';
+    const amtEl = document.getElementById(amt);
+    if (amtEl) amtEl.textContent = `+${value} 🪙`;
+  });
+  const totalEl = document.getElementById('coinAmtTotal');
+  if (totalEl) totalEl.textContent = `+${total} 🪙`;
+}
+
+function renderGymCoinBreakdown(coinsEarned) {
+  const labelEl = document.getElementById('coinLabelPuzzle');
+  if (labelEl) labelEl.textContent = COPY.gymSuccess.gymCompleted;
+  ['coinRowNoSnooze', 'coinRowStreakBonus'].forEach((id) => {
+    const row = document.getElementById(id);
+    if (row) row.style.display = 'none';
+  });
+  const puzzleRow = document.getElementById('coinRowPuzzle');
+  if (puzzleRow) puzzleRow.style.display = '';
+  const amtEl = document.getElementById('coinAmtPuzzle');
+  if (amtEl) amtEl.textContent = `+${coinsEarned} 🪙`;
+  const totalEl = document.getElementById('coinAmtTotal');
+  if (totalEl) totalEl.textContent = `+${coinsEarned} 🪙`;
+}
+
+function showGymSuccess() {
+  const wordId = window.ZazuProgress?.getWordId(currentWord) ?? currentWord.word;
+  const result = window.ZazuProgress?.completeGym(wordId, { mastery: 100 }) ?? {
+    coinsEarned: 20,
+    totalCoins: 20,
+    gymMastery: 100,
+  };
+
+  const saved = window.ZazuProgress?.readProgress() ?? { streak: 0 };
+  const title = getStreakTitle(saved.streak);
+
+  const heading = document.querySelector('#screenSuccess .success-heading');
+  const sub = document.querySelector('#screenSuccess .success-sub');
+  if (heading) heading.textContent = COPY.gymSuccess.heading;
+  if (sub) sub.textContent = COPY.gymSuccess.sub;
+
+  document.getElementById('successWord').textContent = currentWord.word;
+  document.getElementById('successPronunciation').textContent = currentWord.pronunciation;
+  document.getElementById('successDef').textContent = currentWord.definition;
+  document.getElementById('successOrigin').innerHTML = currentWord.origin ?? '';
+  document.getElementById('successStreakText').textContent = COPY.success.streakCount(saved.streak);
+  document.getElementById('successStreakTitle').textContent = COPY.gymSuccess.masteryPercent(result.gymMastery ?? 100);
+  renderGymCoinBreakdown(result.coinsEarned);
+  playSuccess();
+  launchConfetti();
+  showScreen('screenSuccess');
+}
+
+function showSuccess() {
+  clearInactivityTimer();
+  stopAlarmSound();
+
+  if (puzzleSource === 'gym') {
+    showGymSuccess();
+    return;
+  }
+
+  const heading = document.querySelector('#screenSuccess .success-heading');
+  const sub = document.querySelector('#screenSuccess .success-sub');
+  if (heading) heading.textContent = COPY.success.heading;
+  if (sub) sub.textContent = COPY.success.sub;
+
+  const wordId = window.ZazuProgress?.getWordId(currentWord) ?? currentWord.word;
+  const result = window.ZazuProgress?.completeWord(wordId, { noSnooze: true }) ?? {
+    streak: 1,
+    coinsEarned: 25,
+    breakdown: { puzzle: 15, noSnooze: 10, streakBonus: 0, total: 25 },
+  };
+
+  const newStreak = result.streak;
+  const title = getStreakTitle(newStreak);
+  document.getElementById('successWord').textContent = currentWord.word;
+  document.getElementById('successPronunciation').textContent = currentWord.pronunciation;
+  document.getElementById('successDef').textContent = currentWord.definition;
+  document.getElementById('successOrigin').innerHTML = currentWord.origin;
+  document.getElementById('successStreakText').textContent = COPY.success.streakCount(newStreak);
+  document.getElementById('successStreakTitle').textContent = COPY.success.streakSubtitle(title);
+  renderCoinBreakdown(result.breakdown, result.coinsEarned);
+  playSuccess();
+  launchConfetti();
+  showScreen('screenSuccess');
+}
+
+// ── CONFETTI ──
+function launchConfetti() {
+  const cols=['#f9c9a8','#f0a0bc','#c8b4e8','#a8d8b0','#fde8d8','#e8d4f0'];
+  for(let i=0;i<65;i++){
+    const el=document.createElement('div'); el.className='confetti-piece';
+    el.style.cssText=`left:${Math.random()*100}vw;top:-10px;background:${cols[Math.floor(Math.random()*cols.length)]};width:${6+Math.random()*6}px;height:${6+Math.random()*6}px;border-radius:${Math.random()>.5?'50%':'2px'};animation-duration:${1.2+Math.random()*1.8}s;animation-delay:${Math.random()*.6}s;`;
+    document.body.appendChild(el);
+    el.addEventListener('animationend',()=>el.remove());
+  }
+}
+
+function toggleTheme() {
+  const autoBlend = window.ZazuAdaptiveTheme
+    ? window.ZazuAdaptiveTheme.getThemeBlend(new Date())
+    : 0;
+  const currentBlend =
+    themeManual === 'light' ? 0 : themeManual === 'dark' ? 1 : autoBlend;
+  const next = currentBlend >= 0.5 ? 'light' : 'dark';
+  themeManual = next;
+  window.ZazuSettings?.setThemeOverride(next);
+  const select = document.getElementById('settingsThemeSelect');
+  if (select) select.value = next;
+  applyAdaptiveTheme();
+}
+
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
+</script>
+<script src="lib/adaptive-theme.js"></script>
+<script src="lib/morning-task.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="public/config.js" onerror="console.info('[Zazu] public/config.js not found. Run npm run config')"></script>
+<script src="lib/alarms-web.js"></script>
+<script src="lib/settings-web.js"></script>
+<script src="lib/calendar-web.js"></script>
+<script src="lib/progress-web.js"></script>
+<script src="lib/words-api.js"></script>
+<script src="lib/web-screens.js"></script>
+<script>
+applyAdaptiveTheme();
+if (window.ZazuSettings?.getThemeOverride()) {
+  applyThemeFromSettings(window.ZazuSettings.getThemeOverride());
+}
+refreshHeaderProgress();
+renderAlarms();
+document.getElementById('addAlarmBtn')?.addEventListener('click', openAddAlarmDialog);
+document.getElementById('addAlarmCancelBtn')?.addEventListener('click', closeAddAlarmDialog);
+document.getElementById('addAlarmForm')?.addEventListener('submit', handleAddAlarmSubmit);
+initWordLibrary();
+</script>
+</body>
+</html>

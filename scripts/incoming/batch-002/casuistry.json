@@ -1,0 +1,120 @@
+{
+  "word": "Casuistry",
+  "pronunciation": "KAZ-yoo-is-tree",
+  "pos": "noun",
+  "definition": "The use of clever but unsound reasoning to resolve moral problems; specious argumentation.",
+  "origin": "From Latin <strong>casus</strong> -- a case or event. From <strong>cadere</strong> -- to fall.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "casus",
+      "highlight": true
+    },
+    {
+      "text": " (a case or event), from ",
+      "highlight": false
+    },
+    {
+      "text": "cadere",
+      "highlight": true
+    },
+    {
+      "text": " (to fall).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "casus",
+      "root_language": "Latin",
+      "root_meaning": "a case or event",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "cadere",
+      "root_language": "Latin",
+      "root_meaning": "to fall",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "definition",
+    "source_value": "definition",
+    "correct_answer": "Clever but unsound moral reasoning"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Casuistry</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin cadere",
+          "b": "To fall"
+        },
+        {
+          "a": "Latin casus",
+          "b": "A case or event"
+        },
+        {
+          "a": "Related: casual",
+          "b": "From the same root: by chance"
+        },
+        {
+          "a": "Related: occasion",
+          "b": "A falling together of events"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Casuistry</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Casuistry means",
+          "b": "Clever but flawed moral reasoning"
+        },
+        {
+          "a": "A casuist uses",
+          "b": "Specious arguments to justify actions"
+        },
+        {
+          "a": "Synonym of casuistry",
+          "b": "Sophistry"
+        },
+        {
+          "a": "Antonym of casuistry",
+          "b": "Sound reasoning"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Casuistry</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "His defence relied on",
+          "b": "Transparent casuistry"
+        },
+        {
+          "a": "The philosopher dismissed it",
+          "b": "As mere casuistry"
+        },
+        {
+          "a": "Casuistry allowed him",
+          "b": "To justify almost anything"
+        },
+        {
+          "a": "Political casuistry",
+          "b": "Dressed self-interest as principle"
+        }
+      ]
+    }
+  ]
+}

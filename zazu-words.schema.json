@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zazu.app/schemas/words.json",
+  "title": "Zazu word library",
+  "description": "Array of vocabulary entries for alarm puzzles. Target: 100 words.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["word", "pronunciation", "pos", "definition", "origin", "tier", "rounds"],
+    "additionalProperties": false,
+    "properties": {
+      "word": { "type": "string", "minLength": 1 },
+      "pronunciation": { "type": "string", "minLength": 1 },
+      "pos": { "type": "string", "minLength": 1 },
+      "definition": { "type": "string", "minLength": 1 },
+      "origin": { "type": "string", "minLength": 1 },
+      "tier": { "type": "string", "enum": ["free", "premium"] },
+      "rounds": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": ["type", "label", "context", "pairs"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "enum": ["Etymology", "Definition", "Usage"] },
+            "label": { "type": "string", "pattern": "^Round [123] of 3 · (Etymology|Definition|Usage)$" },
+            "context": { "type": "string" },
+            "pairs": {
+              "type": "array",
+              "minItems": 4,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": ["a", "b"],
+                "additionalProperties": false,
+                "properties": {
+                  "a": { "type": "string", "minLength": 1 },
+                  "b": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

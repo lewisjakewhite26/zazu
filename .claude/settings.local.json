@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd c:\\\\Users\\\\lewis\\\\zazu\\\\mobile; & \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \".\\\\node_modules\\\\typescript\\\\bin\\\\tsc\" --noEmit; echo \"EXIT CODE: $LASTEXITCODE\")",
+      "PowerShell(Write-Output \"ANDROID_HOME=$env:ANDROID_HOME\"; Write-Output \"ANDROID_SDK_ROOT=$env:ANDROID_SDK_ROOT\"; Get-ChildItem \"C:\\\\\" -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"Android\" })",
+      "PowerShell(cd c:\\\\Users\\\\lewis\\\\zazu\\\\mobile; $env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; & \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" run start)",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\lewis\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-lewis-zazu\\\\1c7d0243-2fe2-4fc8-bd21-e022baa61359\\\\scratchpad\\\\zazu-mark-transparent.png\" \"c:\\\\Users\\\\lewis\\\\zazu\\\\mobile\\\\assets\\\\images\\\\zazu-mark.png\" -Force)",
+      "WebSearch",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:registry.npmjs.org)",
+      "PowerShell(git -C mobile rev-parse --is-inside-work-tree 2>$null)",
+      "PowerShell(git -C mobile status --short 2>$null)",
+      "PowerShell(Get-Command winget -ErrorAction SilentlyContinue)",
+      "PowerShell(winget install --id Git.Git -e --source winget --accept-package-agreements --accept-source-agreements)"
+    ]
+  }
+}

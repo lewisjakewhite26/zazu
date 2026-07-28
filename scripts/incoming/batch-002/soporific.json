@@ -1,0 +1,120 @@
+{
+  "word": "Soporific",
+  "pronunciation": "sop-uh-RIF-ik",
+  "pos": "adjective / noun",
+  "definition": "Tending to induce sleep; a drug or other substance that causes sleep.",
+  "origin": "From Latin <strong>sopor</strong> (deep sleep) + <strong>facere</strong> (to make). Related to <strong>Hypnos</strong>, the Greek god of sleep.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "sopor",
+      "highlight": true
+    },
+    {
+      "text": " (deep sleep) + ",
+      "highlight": false
+    },
+    {
+      "text": "facere",
+      "highlight": true
+    },
+    {
+      "text": " (to make).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "sopor",
+      "root_language": "Latin",
+      "root_meaning": "deep sleep",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "facere",
+      "root_language": "Latin",
+      "root_meaning": "to make",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "sopor",
+    "correct_answer": "Deep sleep"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Soporific</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin sopor",
+          "b": "Deep sleep"
+        },
+        {
+          "a": "Latin facere",
+          "b": "To make"
+        },
+        {
+          "a": "Combined meaning",
+          "b": "Something that makes you sleep"
+        },
+        {
+          "a": "Related: insomnia",
+          "b": "Inability to sleep"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Soporific</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Soporific means",
+          "b": "Tending to induce sleep"
+        },
+        {
+          "a": "As a noun, a soporific is",
+          "b": "A sleep-inducing substance"
+        },
+        {
+          "a": "Synonym of soporific",
+          "b": "Hypnotic"
+        },
+        {
+          "a": "Antonym of soporific",
+          "b": "Stimulating"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Soporific</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "The lecture had",
+          "b": "A soporific effect on the room"
+        },
+        {
+          "a": "A warm bath is",
+          "b": "Naturally soporific"
+        },
+        {
+          "a": "The soporific drone",
+          "b": "Of the motorway at night"
+        },
+        {
+          "a": "He prescribed",
+          "b": "A mild soporific"
+        }
+      ]
+    }
+  ]
+}

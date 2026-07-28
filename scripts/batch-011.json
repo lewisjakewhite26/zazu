@@ -1,0 +1,432 @@
+[
+    {
+    "word": "Jaded",
+    "pronunciation": "JAY-did",
+    "pos": "adjective",
+    "definition": "Bored or lacking enthusiasm, typically after overexposure to something.",
+    "origin": "From Middle English jade (a worn-out horse, nag).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jaded come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Middle English jade", "b": "A broken-down or exhausted horse" },
+    { "a": "Verb jade", "b": "To drive a horse to total exhaustion" },
+    { "a": "Combined meaning", "b": "Worn out or dulled by overwork" },
+    { "a": "Related: jade (noun)", "b": "An old term of contempt for a nag" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jaded mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jaded means", "b": "Satiated and dulled by experience" },
+    { "a": "Synonym of jaded", "b": "Blasé" },
+    { "a": "Antonym of jaded", "b": "Enthusiastic" },
+    { "a": "A jaded palate", "b": "Requires highly spiced food to enjoy a meal" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jaded used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The teacher felt a little jaded", "b": "By the final week of the summer term" },
+    { "a": "He looked at the world with", "b": "A jaded and cynical eye" },
+    { "a": "Even the most jaded critics", "b": "Praised the new application layout" },
+    { "a": "She needed a holiday to refresh", "b": "Her jaded spirit" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jargon",
+    "pronunciation": "JAR-gun",
+    "pos": "noun",
+    "definition": "Specialised expressions used by a particular profession that are difficult for others to understand.",
+    "origin": "From Old French jargon (chatter of birds, meaningless talk).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jargon come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old French jargon", "b": "The warbling or chattering of birds" },
+    { "a": "PIE root gwer-", "b": "To swallow or sound out" },
+    { "a": "Combined meaning", "b": "Unintelligible gibberish or slang" },
+    { "a": "Related: gargle", "b": "To wash the throat with liquid liquids" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jargon mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jargon means", "b": "Technical terminology or argot" },
+    { "a": "Synonym of jargon", "b": "Patter" },
+    { "a": "Antonym of jargon", "b": "Prose" },
+    { "a": "Medical jargon", "b": "Can confuse a patient during a consultation" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jargon used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The manual was written in", "b": "Obscure software engineering jargon" },
+    { "a": "Please explain it without using", "b": "Convoluted legal jargon" },
+    { "a": "He dropped into school standard", "b": "Jargon during the curriculum review" },
+    { "a": "I struggle to follow the", "b": "Jargon of modern financial markets" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jaundiced",
+    "pronunciation": "JAWN-dist",
+    "pos": "adjective",
+    "definition": "Affected by bitterness, resentment, or cynicism. UK spelling.",
+    "origin": "From French jaunisse (yellowness), from jaune (yellow).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jaundiced come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "French jaune", "b": "Yellow" },
+    { "a": "Medical context", "b": "A condition turning the skin yellow with bile" },
+    { "a": "Combined meaning", "b": "Having a distorted, bitter view of things" },
+    { "a": "Related: jaundice (noun)", "b": "A disease causing yellow skin tone" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jaundiced mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jaundiced means", "b": "Skeptical and envious" },
+    { "a": "Synonym of jaundiced", "b": "Resentful" },
+    { "a": "Antonym of jaundiced", "b": "Optimistic" },
+    { "a": "A jaundiced view", "b": "Assumes everyone acts out of pure self-interest" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jaundiced used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "He took a jaundiced view", "b": "Of the firm's new bonus structure" },
+    { "a": "Years of political scandals left her", "b": "With a highly jaundiced perspective" },
+    { "a": "She refused to let a jaundiced", "b": "Attitude ruin her new partnership" },
+    { "a": "They listened to his jaundiced", "b": "Comments about the local council" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jaunty",
+    "pronunciation": "JAWN-tee",
+    "pos": "adjective",
+    "definition": "Having or expressing a lively, cheerful, and self-confident manner.",
+    "origin": "From French gentil (well-born, noble, graceful).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jaunty come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "French gentil", "b": "Nice, elegant, or noble" },
+    { "a": "Latin gentilis", "b": "Belonging to the same family" },
+    { "a": "Semantic shift", "b": "From aristocratic manners to a sprightly, easy style" },
+    { "a": "Related: genteel", "b": "Polite, refined, or respectable" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jaunty mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jaunty means", "b": "Sprightly and dapper" },
+    { "a": "Synonym of jaunty", "b": "Buoyant" },
+    { "a": "Antonym of jaunty", "b": "Staid" },
+    { "a": "A jaunty cap angle", "b": "Gives a rakish, confident look" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jaunty used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "He walked into the office with", "b": "A jaunty step this morning" },
+    { "a": "She wore a jaunty red hat", "b": "To the village tournament" },
+    { "a": "A jaunty tune played on the", "b": "Radio as he fixed the car bulb" },
+    { "a": "He offered a jaunty wave before", "b": "Driving off down the road" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jeopardise",
+    "pronunciation": "JEP-uh-dyz",
+    "pos": "verb",
+    "definition": "To put someone or something into a situation in which there is a danger of loss or failure. UK spelling.",
+    "origin": "From Old French jeu parti (a divided or even game).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jeopardise come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old French jeu", "b": "A game" },
+    { "a": "Old French parti", "b": "Divided or split" },
+    { "a": "Combined meaning", "b": "A game with an uncertain, risky outcome" },
+    { "a": "Related: jeopardy", "b": "Danger of loss, harm, or failure" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jeopardise mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jeopardise means", "b": "To imperil or compromise safety" },
+    { "a": "Synonym of jeopardise", "b": "Endanger" },
+    { "a": "Antonym of jeopardise", "b": "Safeguard" },
+    { "a": "To jeopardise a contract", "b": "Risks losing essential business funding" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jeopardise used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "A single coding error could", "b": "Jeopardise the entire software launch" },
+    { "a": "Do not jeopardise your health", "b": "By neglecting proper gym recovery" },
+    { "a": "The scandal threatened to jeopardise", "b": "The school's excellent reputation" },
+    { "a": "He refused to jeopardise his", "b": "Daily language practice streak" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jettison",
+    "pronunciation": "JET-ih-sun",
+    "pos": "verb",
+    "definition": "To throw or drop something from an aircraft or ship, or to abandon an unwanted plan.",
+    "origin": "From Old French getaison, from Latin jactatio (a throwing).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jettison come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Old French geter", "b": "To throw or cast out" },
+    { "a": "Latin jactare", "b": "To throw persistently" },
+    { "a": "Combined meaning", "b": "The act of throwing cargo overboard" },
+    { "a": "Related: reject", "b": "To throw back or refuse to accept" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jettison mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jettison means", "b": "To discard or cast off" },
+    { "a": "Synonym of jettison", "b": "Scrap" },
+    { "a": "Antonym of jettison", "b": "Retain" },
+    { "a": "To jettison cargo", "b": "Lightens a vessel during a heavy storm" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jettison used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The pilot had to jettison", "b": "The extra fuel before landing" },
+    { "a": "They decided to jettison the", "b": "Old evaluation suite entirely" },
+    { "a": "We must jettison our prejudices", "b": "To achieve proper collaboration" },
+    { "a": "The team chose to jettison", "b": "Their original tactical strategy" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jocular",
+    "pronunciation": "JOK-yoo-lur",
+    "pos": "adjective",
+    "definition": "Fond of or characterised by joking, humorous or playful.",
+    "origin": "From Latin jocularis, from joculus, a diminutive of jocus (joke, jest).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jocular come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Latin jocus", "b": "A joke, jest, or sport" },
+    { "a": "Suffix -aris", "b": "Pertaining to" },
+    { "a": "Combined meaning", "b": "Laughable or full of jokes" },
+    { "a": "Related: juggle", "b": "Originally meaning to entertain with jests" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jocular mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jocular means", "b": "Wagglish and good-humoured" },
+    { "a": "Synonym of jocular", "b": "Facetious" },
+    { "a": "Antonym of jocular", "b": "Solemn" },
+    { "a": "A jocular comment", "b": "Aims to keep the mood lighthearted" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jocular used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "He spoke in a jocular", "b": "Tone to diffuse the argument" },
+    { "a": "Her jocular manner made her", "b": "Very popular in the staffroom" },
+    { "a": "They shared a jocular banter", "b": "During the long drive home" },
+    { "a": "Behind his apparently jocular exterior", "b": "Lay a highly focused researcher" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Jovial",
+    "pronunciation": "JOH-vee-ul",
+    "pos": "adjective",
+    "definition": "Cheerful and friendly in disposition.",
+    "origin": "From French jovial, from Italian joviale (born under the lucky influence of the planet Jupiter).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Jovial come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Latin Jovis", "b": "The Roman god Jupiter or Jove" },
+    { "a": "Astrological context", "b": "Pertaining to those born under a happy planet" },
+    { "a": "Combined meaning", "b": "Naturally joyful or good-spirited" },
+    { "a": "Related: joviality", "b": "The state of hearty good cheer" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Jovial mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Jovial means", "b": "Convivial and full of mirth" },
+    { "a": "Synonym of jovial", "b": "Genial" },
+    { "a": "Antonym of jovial", "b": "Saturnine" },
+    { "a": "A jovial gathering", "b": "Involves plenty of laughter and food" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Jovial used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The host was a jovial", "b": "Man who poured large glasses of wine" },
+    { "a": "They enjoyed a jovial evening", "b": "At the Sunday league dinner" },
+    { "a": "She offered a jovial laugh", "b": "Before answering the question" },
+    { "a": "The tavern was filled with", "b": "Jovial miners singing old songs" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Judicious",
+    "pronunciation": "joo-DISH-us",
+    "pos": "adjective",
+    "definition": "Having, showing, or done with good judgment or sense.",
+    "origin": "From French judicieux, from Latin judicium (judgment).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Judicious come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Latin judex", "b": "A judge or decider" },
+    { "a": "Latin jus", "b": "Law or right" },
+    { "a": "Combined meaning", "b": "Acting with the wisdom of a judge" },
+    { "a": "Related: judicial", "b": "Relating to a court or legal system" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Judicious mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Judicious means", "b": "Prudent and highly discerning" },
+    { "a": "Synonym of judicious", "b": "Sagacious" },
+    { "a": "Antonym of judicious", "b": "Injudicious" },
+    { "a": "A judicious blend", "b": "Combines elements in exact proportion" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Judicious used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "The headteacher made a judicious", "b": "Use of the school budget funds" },
+    { "a": "We require a judicious approach", "b": "To these sensitive negotiations" },
+    { "a": "Through a judicious selection of", "b": "Second-hand clubs, his game improved" },
+    { "a": "She offered some judicious advice", "b": "To the junior teaching assistant" }
+    ]
+    }
+    ]
+    },
+    {
+    "word": "Juncture",
+    "pronunciation": "JUNK-chur",
+    "pos": "noun",
+    "definition": "A particular point in events or time, especially a critical one.",
+    "origin": "From Latin junctura (a joint, joining), from jungere (to join).",
+    "tier": "free",
+    "rounds": [
+    {
+    "type": "Etymology",
+    "label": "Round 1 of 3 · Etymology",
+    "context": "Where does Juncture come from? Match each root to its meaning.",
+    "pairs": [
+    { "a": "Latin jungere", "b": "To bind or yoke together" },
+    { "a": "Latin junctura", "b": "A seam or point of connection" },
+    { "a": "Combined meaning", "b": "A convergence of lines or times" },
+    { "a": "Related: junction", "b": "A place where roads meet" }
+    ]
+    },
+    {
+    "type": "Definition",
+    "label": "Round 2 of 3 · Definition",
+    "context": "What does Juncture mean? Match each clue to the right answer.",
+    "pairs": [
+    { "a": "Juncture means", "b": "A crucial crossroads or epoch" },
+    { "a": "Synonym of juncture", "b": "Contingency" },
+    { "a": "Antonym of juncture", "b": "Disconnection" },
+    { "a": "At this critical juncture", "b": "Any delay will destroy our progress" }
+    ]
+    },
+    {
+    "type": "Usage",
+    "label": "Round 3 of 3 · Usage",
+    "context": "How is Juncture used? Match each fragment to its correct completion.",
+    "pairs": [
+    { "a": "At this particular juncture, we", "b": "Cannot afford to pivot strategies" },
+    { "a": "The negotiations reached a delicate", "b": "Juncture late last night" },
+    { "a": "It is difficult at this", "b": "Juncture to predict the final baseline" },
+    { "a": "The accident occurred at the", "b": "Juncture of two major software modules" }
+    ]
+    }
+    ]
+    }
+    ]

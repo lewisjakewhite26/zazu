@@ -1,0 +1,120 @@
+{
+  "word": "Fatuous",
+  "pronunciation": "FACH-oo-us",
+  "pos": "adjective",
+  "definition": "Silly and pointless; complacently or inanely foolish.",
+  "origin": "From Latin <strong>fatuus</strong> -- foolish, insipid. Related to <strong>fari</strong> -- to speak.",
+  "tier": "free",
+  "intro_etymology": [
+    {
+      "text": "From Latin ",
+      "highlight": false
+    },
+    {
+      "text": "fatuus",
+      "highlight": true
+    },
+    {
+      "text": " (foolish, insipid), related to ",
+      "highlight": false
+    },
+    {
+      "text": "fari",
+      "highlight": true
+    },
+    {
+      "text": " (to speak).",
+      "highlight": false
+    }
+  ],
+  "roots": [
+    {
+      "root_text": "fatuus",
+      "root_language": "Latin",
+      "root_meaning": "foolish or insipid",
+      "show_in_intro": true
+    },
+    {
+      "root_text": "fari",
+      "root_language": "Latin",
+      "root_meaning": "to speak",
+      "show_in_intro": true
+    }
+  ],
+  "morning_task": {
+    "task_type": "root",
+    "source_value": "fatuus",
+    "correct_answer": "Foolish or insipid"
+  },
+  "rounds": [
+    {
+      "type": "Etymology",
+      "label": "Round 1 of 3 -- Etymology",
+      "context": "Where does <strong>Fatuous</strong> come from? Match each root to its meaning.",
+      "pairs": [
+        {
+          "a": "Latin fatuus",
+          "b": "Foolish or insipid"
+        },
+        {
+          "a": "Latin fari",
+          "b": "To speak"
+        },
+        {
+          "a": "Related: infatuation",
+          "b": "A foolish passion"
+        },
+        {
+          "a": "Related: ineffable",
+          "b": "That cannot be spoken"
+        }
+      ]
+    },
+    {
+      "type": "Definition",
+      "label": "Round 2 of 3 -- Definition",
+      "context": "What does <strong>Fatuous</strong> mean? Match each clue to the right answer.",
+      "pairs": [
+        {
+          "a": "Fatuous means",
+          "b": "Silly and pointless"
+        },
+        {
+          "a": "A fatuous remark",
+          "b": "Is foolish and self-satisfied"
+        },
+        {
+          "a": "Synonym of fatuous",
+          "b": "Vacuous"
+        },
+        {
+          "a": "Antonym of fatuous",
+          "b": "Astute"
+        }
+      ]
+    },
+    {
+      "type": "Usage",
+      "label": "Round 3 of 3 -- Usage",
+      "context": "How is <strong>Fatuous</strong> used? Match each fragment to its correct completion.",
+      "pairs": [
+        {
+          "a": "A fatuous grin",
+          "b": "That suggested no thought at all"
+        },
+        {
+          "a": "The fatuous comment",
+          "b": "Silenced the room"
+        },
+        {
+          "a": "His fatuous optimism",
+          "b": "Ignored every warning sign"
+        },
+        {
+          "a": "A fatuous suggestion",
+          "b": "That wasted everyone's time"
+        }
+      ]
+    }
+  ]
+}
