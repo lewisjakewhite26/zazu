@@ -46,6 +46,21 @@ const WEEKDAYS_LONG = [
   'Saturday',
 ];
 
+const MONTHS_LONG = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+
 export function dayIndexFromDate(date: Date): number {
   return Math.floor(date.getTime() / 86400000);
 }
@@ -141,6 +156,39 @@ export function buildCalendarEntries(
   }
 
   return entries;
+}
+
+export type CalendarMonthGroup = {
+  key: string;
+  label: string;
+  entries: CalendarDayEntry[];
+};
+
+export function monthKey(date: Date): string {
+  return `${date.getFullYear()}-${String(date.getMonth()).padStart(2, '0')}`;
+}
+
+export function formatMonthLabel(date: Date): string {
+  return `${MONTHS_LONG[date.getMonth()]} ${date.getFullYear()}`;
+}
+
+/** Groups entries by calendar month, preserving the newest-first order already in `entries`. */
+export function groupEntriesByMonth(entries: CalendarDayEntry[]): CalendarMonthGroup[] {
+  const groups: CalendarMonthGroup[] = [];
+  const groupsByKey = new Map<string, CalendarMonthGroup>();
+
+  for (const entry of entries) {
+    const key = monthKey(entry.date);
+    let group = groupsByKey.get(key);
+    if (!group) {
+      group = { key, label: formatMonthLabel(entry.date), entries: [] };
+      groupsByKey.set(key, group);
+      groups.push(group);
+    }
+    group.entries.push(entry);
+  }
+
+  return groups;
 }
 
 /** Free users can open today and yesterday only. */

@@ -979,7 +979,6 @@ body.night .sheet-etym { background:rgba(255,255,255,.05); }
       <div class="settings-row">
         <div class="settings-row-label">Theme</div>
         <select class="settings-select" id="settingsThemeSelect" onchange="handleSettingsThemeChange(this.value)">
-          <option value="auto">Auto (dawn/dusk)</option>
           <option value="light">Light</option>
           <option value="dark">Dark</option>
         </select>
@@ -1434,18 +1433,14 @@ let locked = false;
 let morningBuilt = null;
 let morningSelected = null;
 
-// ── ADAPTIVE THEME ──
+// ── THEME (manual light/dark, defaults to dark) ──
 let themeManual = null;
 
 function applyAdaptiveTheme() {
   if (!window.ZazuAdaptiveTheme) return;
-  let blend;
-  const override = window.ZazuSettings?.getThemeOverride?.() ?? themeManual ?? 'auto';
-  if (override === 'light') blend = 0;
-  else if (override === 'dark') blend = 1;
-  else if (themeManual === 'light') blend = 0;
-  else if (themeManual === 'dark') blend = 1;
-  else blend = window.ZazuAdaptiveTheme.getThemeBlend(new Date());
+  const stored = window.ZazuSettings?.getThemeOverride?.();
+  const mode = stored || themeManual || 'dark';
+  const blend = mode === 'light' ? 0 : 1;
 
   const palette = window.ZazuAdaptiveTheme.blendPalette(blend);
   window.ZazuAdaptiveTheme.applyCssVars(document.documentElement, palette);
@@ -1458,7 +1453,7 @@ function applyAdaptiveTheme() {
 }
 
 function applyThemeFromSettings(mode) {
-  themeManual = mode === 'auto' ? null : mode;
+  themeManual = mode;
   applyAdaptiveTheme();
 }
 
@@ -1536,7 +1531,6 @@ function registerServiceWorker() {
 registerServiceWorker();
 
 applyAdaptiveTheme();
-setInterval(applyAdaptiveTheme, 30 * 1000);
 
 // ── AUDIO ──
 const AC = window.AudioContext || window.webkitAudioContext;
@@ -2151,12 +2145,9 @@ function launchConfetti() {
 }
 
 function toggleTheme() {
-  const autoBlend = window.ZazuAdaptiveTheme
-    ? window.ZazuAdaptiveTheme.getThemeBlend(new Date())
-    : 0;
-  const currentBlend =
-    themeManual === 'light' ? 0 : themeManual === 'dark' ? 1 : autoBlend;
-  const next = currentBlend >= 0.5 ? 'light' : 'dark';
+  const stored = window.ZazuSettings?.getThemeOverride?.();
+  const current = stored || themeManual || 'dark';
+  const next = current === 'dark' ? 'light' : 'dark';
   themeManual = next;
   window.ZazuSettings?.setThemeOverride(next);
   const select = document.getElementById('settingsThemeSelect');

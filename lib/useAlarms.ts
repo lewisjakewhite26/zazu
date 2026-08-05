@@ -87,6 +87,14 @@ export function useAlarms() {
     [alarms, persistAlarms],
   );
 
+  const deleteAlarm = useCallback(
+    async (id: string) => {
+      const next = alarms.filter((alarm) => alarm.id !== id);
+      await persistAlarms(next);
+    },
+    [alarms, persistAlarms],
+  );
+
   return {
     loading,
     alarms,
@@ -94,5 +102,6 @@ export function useAlarms() {
     toggleAlarm,
     replaceAlarms,
     addAlarm,
+    deleteAlarm,
   };
 }
