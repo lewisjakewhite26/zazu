@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { BarbellIcon, CheckIcon, ClockIcon, LockIcon, MinusIcon, type Icon } from 'phosphor-react-native';
 
 import { copy } from '@/constants/copy';
 import { fonts } from '@/constants/theme';
@@ -16,9 +16,9 @@ type CalendarIconRowProps = {
   layout?: 'hero' | 'card';
 };
 
-function gymIconName(display: GymDisplay): keyof typeof MaterialCommunityIcons.glyphMap {
-  if (display === 'gold') return 'lock';
-  return 'dumbbell';
+function gymIcon(display: GymDisplay): Icon {
+  if (display === 'gold') return LockIcon;
+  return BarbellIcon;
 }
 
 function gymLabel(display: GymDisplay): string {
@@ -72,24 +72,24 @@ export function CalendarIconRow({
 
   const labelStyle = layout === 'hero' ? styles.heroLabel : styles.cardLabel;
   const containerStyle = layout === 'hero' ? styles.heroRow : styles.cardRow;
+  const CompletedIcon = completed ? CheckIcon : MinusIcon;
+  const GymIcon = gymIcon(gymDisplay);
 
   return (
     <View style={containerStyle}>
       <View style={styles.iconItem}>
-        <MaterialCommunityIcons
-          name={completed ? 'check' : 'minus'}
+        <CompletedIcon
           size={iconSize}
           color={completed ? colors.correctIcon : colors.lavender}
         />
         <Text style={labelStyle}>{completed ? copy.calendar.done : copy.calendar.notCompleted}</Text>
       </View>
       <View style={styles.iconItem}>
-        <MaterialCommunityIcons name="clock-outline" size={iconSize} color={colors.lavender} />
+        <ClockIcon size={iconSize} color={colors.lavender} />
         <Text style={labelStyle}>{formatDismissTime(dismissSeconds)}</Text>
       </View>
       <View style={styles.iconItem}>
-        <MaterialCommunityIcons
-          name={gymIconName(gymDisplay)}
+        <GymIcon
           size={iconSize}
           color={gymDisplay === 'done' ? colors.correctIcon : colors.lavender}
         />

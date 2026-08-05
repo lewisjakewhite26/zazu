@@ -7,6 +7,7 @@ import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
+import { showAppAlert } from '@/components/ui/AppAlert';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
@@ -24,7 +25,7 @@ export function HomeScreen() {
   const insets = useSafeAreaInsets();
   const { colors, blend, toggleOverride } = useTheme();
   const { startFlow } = useAlarmFlow();
-  const { loading: alarmsLoading, alarms, toggleAlarm } = useAlarms();
+  const { loading: alarmsLoading, alarms, toggleAlarm, deleteAlarm } = useAlarms();
   const {
     loading: progressLoading,
     streak,
@@ -46,6 +47,24 @@ export function HomeScreen() {
       void toggleAlarm(id, enabled);
     },
     [toggleAlarm],
+  );
+
+  const handleDeleteAlarm = useCallback(
+    (id: string, time: string) => {
+      showAppAlert({
+        title: copy.addAlarm.deleteTitle,
+        message: copy.addAlarm.deleteMessage(time),
+        buttons: [
+          { text: copy.addAlarm.cancel, style: 'cancel' },
+          {
+            text: copy.addAlarm.deleteConfirm,
+            style: 'destructive',
+            onPress: () => void deleteAlarm(id),
+          },
+        ],
+      });
+    },
+    [deleteAlarm],
   );
 
   const handleAddAlarm = useCallback(() => {
@@ -86,7 +105,12 @@ export function HomeScreen() {
             <View style={styles.alarmList}>
               {!alarmsLoading &&
                 alarms.map((alarm: Alarm) => (
-                  <AlarmCard key={alarm.id} alarm={alarm} onToggle={handleToggleAlarm} />
+                  <AlarmCard
+                    key={alarm.id}
+                    alarm={alarm}
+                    onToggle={handleToggleAlarm}
+                    onDelete={handleDeleteAlarm}
+                  />
                 ))}
             </View>
 

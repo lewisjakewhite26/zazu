@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
 import { fonts, radii } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
@@ -32,12 +32,6 @@ export function GoldPaywallScreen() {
         header: {
           paddingHorizontal: spacing.md,
           paddingTop: spacing.sm,
-        },
-        backBtn: {
-          width: 40,
-          height: 40,
-          alignItems: 'center',
-          justifyContent: 'center',
         },
         scroll: {
           flex: 1,
@@ -162,9 +156,7 @@ export function GoldPaywallScreen() {
       <GradientBackground>
         <SafeAreaView style={styles.safeArea}>
           <View style={styles.header}>
-            <Pressable style={styles.backBtn} onPress={() => router.back()}>
-              <MaterialCommunityIcons name="chevron-left" size={28} color={colors.text} />
-            </Pressable>
+            <ScreenHeader onBack={() => router.back()} />
           </View>
           <View style={styles.content}>
             <Text style={styles.title}>{copy.gold.alreadyGold}</Text>
@@ -179,14 +171,7 @@ export function GoldPaywallScreen() {
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.header}>
-          <Pressable
-            style={styles.backBtn}
-            onPress={() => router.back()}
-            accessibilityRole="button"
-            accessibilityLabel="Go back"
-          >
-            <MaterialCommunityIcons name="chevron-left" size={28} color={colors.text} />
-          </Pressable>
+          <ScreenHeader onBack={() => router.back()} />
         </View>
 
         <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>

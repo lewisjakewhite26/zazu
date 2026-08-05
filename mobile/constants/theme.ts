@@ -63,16 +63,6 @@ export const colors = {
   overlay: 'rgba(44,31,46,0.45)',
   appleButtonBg: '#000000',
   appleButtonText: '#ffffff',
-  /** Legacy calendar card tints — not in index.html home; kept for other screens */
-  cardPeach: '#fde8d8',
-  cardPeachBorder: 'rgba(249,201,168,0.5)',
-  cardLavender: '#ede0f8',
-  cardLavenderBorder: 'rgba(200,180,232,0.5)',
-  cardBlush: '#fce8f0',
-  cardBlushBorder: 'rgba(240,160,188,0.5)',
-  cardDawn: '#e8f0fd',
-  cardDawnBorder: 'rgba(168,196,232,0.5)',
-  sheetSecondary: 'rgba(255,255,255,0.72)',
   streakFlame: '#e8a040',
   /** Success word card — index.html .word-card-success */
   successWordGradientStart: 'rgba(249,201,168,0.28)',

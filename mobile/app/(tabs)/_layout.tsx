@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 import { Tabs } from 'expo-router';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { BarbellIcon, HouseIcon } from 'phosphor-react-native';
 
 import { copy } from '@/constants/copy';
 import { useTheme } from '@/context/ThemeContext';
@@ -59,7 +59,7 @@ export default function TabLayout() {
         options={{
           title: copy.home.tabHome,
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home-variant-outline" size={size} color={color} />
+            <HouseIcon size={size} color={color as string} />
           ),
         }}
       />
@@ -68,7 +68,7 @@ export default function TabLayout() {
         options={{
           title: copy.home.tabGym,
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="dumbbell" size={size} color={color} />
+            <BarbellIcon size={size} color={color as string} />
           ),
         }}
       />

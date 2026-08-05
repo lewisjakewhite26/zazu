@@ -16,6 +16,7 @@ import { SubscriptionProvider } from '@/context/SubscriptionContext';
 import { AlarmFlowProvider } from '@/context/AlarmFlowContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { NotificationBootstrap } from '@/components/NotificationBootstrap';
+import { AppAlertHost } from '@/components/ui/AppAlert';
 
 export { ErrorBoundary } from 'expo-router';
 
@@ -69,6 +70,7 @@ export default function RootLayout() {
                   <Stack.Screen name="gold" options={{ headerShown: false, presentation: 'modal' }} />
                   <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
                 </Stack>
+                <AppAlertHost />
               </NotificationBootstrap>
             </AlarmFlowProvider>
           </SubscriptionProvider>

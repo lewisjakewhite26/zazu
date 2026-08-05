@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { BarbellIcon, CoinsIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -162,6 +162,11 @@ export function GymSuccessScreen() {
           fontSize: 13,
           color: colors.text,
         },
+        coinAmountRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 4,
+        },
         coinAmount: {
           fontFamily: fonts.sansSemiBold,
           fontSize: 13,
@@ -197,8 +202,7 @@ export function GymSuccessScreen() {
       <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={styles.inner}>
-            <MaterialCommunityIcons
-              name="dumbbell"
+            <BarbellIcon
               size={48}
               color={colors.lavender}
               style={styles.icon}
@@ -225,13 +229,19 @@ export function GymSuccessScreen() {
               <Text style={styles.coinsTitle}>{copy.gymSuccess.coinsEarned}</Text>
               <View style={styles.coinRow}>
                 <Text style={styles.coinLabel}>{copy.gymSuccess.gymCompleted}</Text>
-                <Text style={styles.coinAmount}>+{coinsEarned} 🪙</Text>
+                <View style={styles.coinAmountRow}>
+                  <Text style={styles.coinAmount}>+{coinsEarned}</Text>
+                  <CoinsIcon size={13} color={colors.gold} weight="fill" />
+                </View>
               </View>
               <View style={styles.totalRow}>
                 <Text style={[styles.coinLabel, { fontFamily: fonts.sansSemiBold }]}>
                   {copy.gymSuccess.total}
                 </Text>
-                <Text style={styles.coinAmount}>+{coinsEarned} 🪙</Text>
+                <View style={styles.coinAmountRow}>
+                  <Text style={styles.coinAmount}>+{coinsEarned}</Text>
+                  <CoinsIcon size={13} color={colors.gold} weight="fill" />
+                </View>
               </View>
             </GlassCard>
 

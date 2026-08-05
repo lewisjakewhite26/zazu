@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react';
-import { StyleSheet, type ViewStyle } from 'react-native';
+import { Platform, StyleSheet, type ViewStyle } from 'react-native';
 
 import { useTheme, type AppThemeColors } from '@/context/ThemeContext';
 import type { CalendarCardVariant } from '../../../lib/calendar-utils';
@@ -31,7 +31,6 @@ function cardVariantStyleFor(colors: AppThemeColors, variant: CalendarCardVarian
 }
 
 function createCalendarStyles(colors: AppThemeColors, blend: number) {
-  const scrim = blend >= 0.5 ? 'rgba(14,12,26,0.55)' : 'rgba(254,252,251,0.55)';
   const cardScrim = blend >= 0.5 ? 'rgba(14,12,26,0.45)' : 'rgba(254,252,251,0.45)';
   const labelOnInk = blend >= 0.5 ? '#2c1f2e' : colors.white;
 
@@ -57,12 +56,6 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       fontFamily: 'DMSans_500Medium',
       fontSize: 17,
       color: colors.text,
-    },
-    navSub: {
-      fontFamily: 'DMSans_400Regular',
-      fontSize: 12,
-      color: colors.subtext,
-      marginTop: 2,
     },
     streakPill: {
       flexDirection: 'row',
@@ -158,6 +151,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     heroWord: {
       fontFamily: 'DMSerifDisplay_400Regular',
       fontSize: 26,
+      lineHeight: 32,
       color: colors.text,
       letterSpacing: -0.5,
       marginBottom: 2,
@@ -199,6 +193,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     cardWord: {
       fontFamily: 'DMSerifDisplay_400Regular',
       fontSize: 17,
+      lineHeight: 21,
       color: colors.text,
       letterSpacing: -0.2,
     },
@@ -207,32 +202,56 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       gap: 10,
       marginTop: 10,
     },
-    lockWrap: {
-      position: 'relative',
+    monthSection: {
       marginBottom: 12,
     },
-    lockOverlay: {
-      ...StyleSheet.absoluteFill,
+    monthHeader: {
+      flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'center',
-      gap: 6,
-      backgroundColor: scrim,
-      borderRadius: 14,
-      padding: 12,
-      zIndex: 2,
+      justifyContent: 'space-between',
+      backgroundColor: colors.sheetSecondary,
+      borderWidth: 0.5,
+      borderColor: colors.border,
+      borderRadius: 12,
+      paddingVertical: 12,
+      paddingHorizontal: 14,
+      marginBottom: 10,
     },
-    lockTitle: {
+    monthHeaderLabel: {
       fontFamily: 'DMSans_500Medium',
-      fontSize: 13,
+      fontSize: 14,
       color: colors.text,
-      textAlign: 'center',
     },
-    lockSub: {
+    monthHeaderRight: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 8,
+    },
+    monthHeaderCount: {
       fontFamily: 'DMSans_400Regular',
-      fontSize: 11,
+      fontSize: 12,
       color: colors.subtext,
-      lineHeight: 16,
-      textAlign: 'center',
+    },
+    monthHeaderBlurWeb: {
+      ...StyleSheet.absoluteFill,
+      borderRadius: 12,
+      overflow: 'hidden',
+      backgroundColor: cardScrim,
+      ...(Platform.OS === 'web'
+        ? ({ backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)' } as object)
+        : null),
+    },
+    monthHeaderBlurNative: {
+      ...StyleSheet.absoluteFill,
+      borderRadius: 12,
+      overflow: 'hidden',
+    },
+    monthHeaderLockWrap: {
+      position: 'absolute',
+      right: 14,
+      top: 0,
+      bottom: 0,
+      justifyContent: 'center',
     },
     goldBtn: {
       width: '100%',
@@ -253,13 +272,37 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       color: colors.subtext,
       textAlign: 'center',
     },
-    cardLockedOverlay: {
+    cardLockedBlurWeb: {
       ...StyleSheet.absoluteFill,
-      backgroundColor: cardScrim,
       borderRadius: 14,
+      overflow: 'hidden',
+      backgroundColor: cardScrim,
+      zIndex: 2,
+      ...(Platform.OS === 'web'
+        ? ({ backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)' } as object)
+        : null),
+    },
+    cardLockedBlurNative: {
+      ...StyleSheet.absoluteFill,
+      borderRadius: 14,
+      overflow: 'hidden',
+      zIndex: 2,
+    },
+    cardLockedIconWrap: {
+      ...StyleSheet.absoluteFill,
       alignItems: 'center',
       justifyContent: 'center',
-      zIndex: 2,
+      zIndex: 3,
+    },
+    cardLockedIconBadge: {
+      width: 34,
+      height: 34,
+      borderRadius: 17,
+      backgroundColor: colors.sheetBg,
+      borderWidth: 0.5,
+      borderColor: colors.border,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
   });
 }

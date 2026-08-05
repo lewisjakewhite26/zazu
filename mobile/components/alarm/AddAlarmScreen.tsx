@@ -6,24 +6,23 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { ScreenHeader } from '@/components/ui/ScreenHeader';
+import { TimeWheelPicker } from '@/components/alarm/TimeWheelPicker';
 import { copy } from '@/constants/copy';
 import { radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarms } from '@/hooks/useAlarms';
 
-function isValidTime(value: string): boolean {
-  return /^([01]\d|2[0-3]):[0-5]\d$/.test(value);
-}
-
 export function AddAlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { addAlarm } = useAlarms();
-  const [time, setTime] = useState('07:30');
-  const [label, setLabel] = useState<string>(copy.home.weekdaysPack);
-  const [error, setError] = useState('');
+  const [hour, setHour] = useState(7);
+  const [minute, setMinute] = useState(30);
+  const [label, setLabel] = useState('');
   const [saving, setSaving] = useState(false);
+  const time = `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
 
   const styles = useMemo(
     () =>
@@ -42,11 +41,13 @@ export function AddAlarmScreen() {
           paddingHorizontal: spacing.lg,
           paddingTop: spacing.lg,
         },
+        header: {
+          marginBottom: spacing.lg,
+        },
         title: {
           ...typography.learnWord,
           fontSize: 32,
           color: colors.text,
-          marginBottom: spacing.lg,
         },
         fieldLabel: {
           ...typography.eyebrow,
@@ -65,11 +66,8 @@ export function AddAlarmScreen() {
           paddingVertical: spacing.sm + 2,
           marginBottom: spacing.md,
         },
-        error: {
-          fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          color: colors.wrong,
-          marginBottom: spacing.sm,
+        timeWheel: {
+          marginBottom: spacing.md,
         },
         card: {
           marginBottom: spacing.lg,
@@ -85,13 +83,7 @@ export function AddAlarmScreen() {
   );
 
   const handleSave = async () => {
-    if (!isValidTime(time)) {
-      setError(copy.addAlarm.invalidTime);
-      return;
-    }
-
     setSaving(true);
-    setError('');
     await addAlarm(time, label.trim() || copy.home.weekdaysPack);
     setSaving(false);
     router.back();
@@ -105,18 +97,22 @@ export function AddAlarmScreen() {
           style={styles.keyboard}
         >
           <View style={styles.inner}>
-            <Text style={styles.title}>{copy.addAlarm.title}</Text>
+            <ScreenHeader
+              style={styles.header}
+              title={copy.addAlarm.title}
+              titleStyle={styles.title}
+              onBack={() => router.back()}
+              backAccessibilityLabel={copy.addAlarm.cancel}
+            />
 
             <GlassCard borderRadius={radii.alarmCard} style={styles.card} contentStyle={styles.cardInner}>
               <Text style={styles.fieldLabel}>{copy.addAlarm.timeLabel}</Text>
-              <TextInput
-                value={time}
-                onChangeText={setTime}
-                placeholder={copy.addAlarm.timePlaceholder}
-                placeholderTextColor={colors.subtext}
-                keyboardType="numbers-and-punctuation"
-                autoCapitalize="none"
-                style={styles.input}
+              <TimeWheelPicker
+                hour={hour}
+                minute={minute}
+                onChangeHour={setHour}
+                onChangeMinute={setMinute}
+                style={styles.timeWheel}
               />
 
               <Text style={styles.fieldLabel}>{copy.addAlarm.labelLabel}</Text>
@@ -127,8 +123,6 @@ export function AddAlarmScreen() {
                 placeholderTextColor={colors.subtext}
                 style={styles.input}
               />
-
-              {error ? <Text style={styles.error}>{error}</Text> : null}
 
               <PrimaryButton
                 label={copy.addAlarm.save}

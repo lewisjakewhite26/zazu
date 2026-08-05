@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
 import { fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
@@ -27,22 +27,8 @@ export function SettingsScreen() {
           flex: 1,
         },
         header: {
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: spacing.xs,
           paddingHorizontal: spacing.md,
           paddingBottom: spacing.md,
-        },
-        backBtn: {
-          width: 40,
-          height: 40,
-          alignItems: 'center',
-          justifyContent: 'center',
-        },
-        title: {
-          fontFamily: fonts.sansMedium,
-          fontSize: 17,
-          color: colors.text,
         },
         body: {
           paddingHorizontal: spacing.lg,
@@ -74,15 +60,11 @@ export function SettingsScreen() {
     <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
       <View style={styles.header}>
-        <Pressable
-          style={styles.backBtn}
-          onPress={() => router.back()}
-          accessibilityRole="button"
-          accessibilityLabel={copy.settings.back}
-        >
-          <MaterialCommunityIcons name="chevron-left" size={28} color={colors.text} />
-        </Pressable>
-        <Text style={styles.title}>{copy.settings.title}</Text>
+        <ScreenHeader
+          title={copy.settings.title}
+          onBack={() => router.back()}
+          backAccessibilityLabel={copy.settings.back}
+        />
       </View>
 
       <View style={styles.body}>

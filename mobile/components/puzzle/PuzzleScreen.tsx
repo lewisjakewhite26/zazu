@@ -7,6 +7,7 @@ import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PuzzleTile } from '@/components/puzzle/PuzzleTile';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
+import { useSubscription } from '@/context/SubscriptionContext';
 import { useProgress } from '@/hooks/useProgress';
 import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
@@ -23,6 +24,7 @@ export function PuzzleScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { gymSessionWord, setGymCompletionResult } = useAlarmFlow();
+  const { isGold } = useSubscription();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
   const [tiles, setTiles] = useState<PuzzleTileState[]>([]);
@@ -58,8 +60,8 @@ export function PuzzleScreen() {
     setFinishing(true);
     const result = await completeGym(gymSessionWord.id);
     setGymCompletionResult(result);
-    router.replace('/ad');
-  }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router]);
+    router.replace(isGold ? '/gym-success' : '/ad');
+  }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router, isGold]);
 
   const advanceRound = useCallback(() => {
     if (!gymSessionWord) return;

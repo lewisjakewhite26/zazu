@@ -1,7 +1,6 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   ActivityIndicator,
-  Alert,
   Platform,
   Pressable,
   ScrollView,
@@ -10,7 +9,7 @@ import {
   View,
 } from 'react-native';
 import { BlurView } from 'expo-blur';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { CaretDownIcon, CaretUpIcon, FireIcon, LockIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -20,7 +19,9 @@ import {
 } from '@/components/calendar/CalendarIconRow';
 import { useCalendarStyles } from '@/components/calendar/calendarStyles';
 import { WordDetailSheet } from '@/components/calendar/WordDetailSheet';
+import { showAppAlert } from '@/components/ui/AppAlert';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
 import { useSubscription } from '@/context/SubscriptionContext';
 import { useProgress } from '@/hooks/useProgress';
@@ -28,15 +29,19 @@ import { useWordLibrary } from '@/hooks/useWordLibrary';
 import {
   buildCalendarEntries,
   countLearnedForTier,
+  groupEntriesByMonth,
   isDayAccessibleForFree,
   type CalendarDayEntry,
+  type CalendarMonthGroup,
 } from '../../../lib/calendar-utils';
 
 const HISTORY_DAYS = 30;
-const OLDER_PREVIEW_COUNT = 4;
 
 function showGoldUpsell() {
-  Alert.alert(copy.calendar.unlockGold.replace(' ↗', ''), copy.calendar.goldPricing);
+  showAppAlert({
+    title: copy.calendar.unlockGold.replace(' ↗', ''),
+    message: copy.calendar.goldPricing,
+  });
 }
 
 type DayCardProps = {
@@ -46,7 +51,7 @@ type DayCardProps = {
 };
 
 function DayCard({ entry, isGold, onPress }: DayCardProps) {
-  const { styles, cardVariantStyle, colors } = useCalendarStyles();
+  const { styles, cardVariantStyle, colors, blend } = useCalendarStyles();
   const locked = !isGold && !isDayAccessibleForFree(entry.dayOffset);
   const gymDisplay = resolveGymDisplay(isGold, entry.gymCompleted, entry.completed);
 
@@ -72,42 +77,93 @@ function DayCard({ entry, isGold, onPress }: DayCardProps) {
           layout="card"
         />
         {locked ? (
-          <View style={styles.cardLockedOverlay} pointerEvents="none">
-            <MaterialCommunityIcons name="lock" size={18} color={colors.subtext} />
-          </View>
+          <>
+            {Platform.OS === 'web' ? (
+              <View style={styles.cardLockedBlurWeb} pointerEvents="none" />
+            ) : (
+              <BlurView
+                intensity={22}
+                tint={blend >= 0.5 ? 'dark' : 'light'}
+                style={styles.cardLockedBlurNative}
+                pointerEvents="none"
+              />
+            )}
+            <View style={styles.cardLockedIconWrap} pointerEvents="none">
+              <View style={styles.cardLockedIconBadge}>
+                <LockIcon size={16} color={colors.text} />
+              </View>
+            </View>
+          </>
         ) : null}
       </View>
     </Pressable>
   );
 }
 
-function OlderWordsBlurGrid({ entries }: { entries: CalendarDayEntry[] }) {
-  const { styles, cardVariantStyle, blend } = useCalendarStyles();
-  const blurTint = blend >= 0.5 ? 'dark' : 'light';
+type MonthSectionProps = {
+  group: CalendarMonthGroup;
+  expanded: boolean;
+  onToggle: (key: string) => void;
+  isGold: boolean;
+  onPressEntry: (entry: CalendarDayEntry) => void;
+};
 
-  const grid = (
-    <View style={styles.grid}>
-      {entries.map((entry) => (
-        <View key={entry.dayOffset} style={styles.gridItem}>
-          <View style={[styles.dayCard, cardVariantStyle(entry.variant)]}>
-            <View>
-              <Text style={styles.cardDate}>{entry.dateLabelShort}</Text>
-              <Text style={styles.cardWord}>{entry.word.word}</Text>
-            </View>
-          </View>
-        </View>
-      ))}
-    </View>
-  );
+function MonthSection({ group, expanded, onToggle, isGold, onPressEntry }: MonthSectionProps) {
+  const { styles, colors, blend } = useCalendarStyles();
+  const allLocked = !isGold && group.entries.every((entry) => !isDayAccessibleForFree(entry.dayOffset));
+  const CaretIcon = expanded ? CaretUpIcon : CaretDownIcon;
 
-  if (Platform.OS === 'web') {
-    return <View style={localStyles.webBlur}>{grid}</View>;
-  }
+  const handlePress = () => {
+    if (allLocked) {
+      showGoldUpsell();
+      return;
+    }
+    onToggle(group.key);
+  };
 
   return (
-    <BlurView intensity={18} tint={blurTint} style={localStyles.blurWrap}>
-      {grid}
-    </BlurView>
+    <View style={styles.monthSection}>
+      <Pressable
+        style={styles.monthHeader}
+        onPress={handlePress}
+        accessibilityRole="button"
+        accessibilityState={allLocked ? undefined : { expanded }}
+      >
+        <Text style={styles.monthHeaderLabel}>{group.label}</Text>
+        <View style={styles.monthHeaderRight}>
+          <Text style={styles.monthHeaderCount}>
+            {copy.calendar.monthWordCount(group.entries.length)}
+          </Text>
+          {allLocked ? null : <CaretIcon size={16} color={colors.subtext} />}
+        </View>
+
+        {allLocked ? (
+          <>
+            {Platform.OS === 'web' ? (
+              <View style={styles.monthHeaderBlurWeb} pointerEvents="none" />
+            ) : (
+              <BlurView
+                intensity={16}
+                tint={blend >= 0.5 ? 'dark' : 'light'}
+                style={styles.monthHeaderBlurNative}
+                pointerEvents="none"
+              />
+            )}
+            <View style={styles.monthHeaderLockWrap} pointerEvents="none">
+              <LockIcon size={16} color={colors.text} />
+            </View>
+          </>
+        ) : null}
+      </Pressable>
+
+      {expanded && !allLocked ? (
+        <View style={styles.grid}>
+          {group.entries.map((entry) => (
+            <DayCard key={entry.dayOffset} entry={entry} isGold={isGold} onPress={onPressEntry} />
+          ))}
+        </View>
+      ) : null}
+    </View>
   );
 }
 
@@ -118,6 +174,8 @@ export function CalendarScreen() {
   const { loading: wordsLoading, alarmWords } = useWordLibrary(learnedWordIds);
   const { isGold, setDevGoldPreview, loading: subscriptionLoading } = useSubscription();
   const [selectedEntry, setSelectedEntry] = useState<CalendarDayEntry | null>(null);
+  const [expandedMonths, setExpandedMonths] = useState<Set<string>>(new Set());
+  const hasSetDefaultExpanded = useRef(false);
 
   const loading = progressLoading || wordsLoading || subscriptionLoading;
 
@@ -127,11 +185,24 @@ export function CalendarScreen() {
   );
 
   const todayEntry = entries[0] ?? null;
-  const weekEntries = entries.filter((entry) => entry.dayOffset >= 1 && entry.dayOffset <= 4);
-  const olderEntries = entries.filter((entry) => entry.dayOffset >= 5);
-  const olderPreview = olderEntries.slice(0, OLDER_PREVIEW_COUNT);
-  const lockedOlderCount = olderEntries.length;
+  const monthGroups = useMemo(() => groupEntriesByMonth(entries.slice(1)), [entries]);
   const wordsLearned = countLearnedForTier(entries, isGold);
+
+  useEffect(() => {
+    if (!hasSetDefaultExpanded.current && monthGroups.length > 0) {
+      setExpandedMonths(new Set([monthGroups[0].key]));
+      hasSetDefaultExpanded.current = true;
+    }
+  }, [monthGroups]);
+
+  const toggleMonth = useCallback((key: string) => {
+    setExpandedMonths((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }, []);
 
   const openEntry = useCallback((entry: CalendarDayEntry) => {
     setSelectedEntry(entry);
@@ -152,30 +223,21 @@ export function CalendarScreen() {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        <View style={styles.nav}>
-          <View style={localStyles.navLeft}>
-            <Pressable
-              onPress={() => router.back()}
-              style={localStyles.backBtn}
-              accessibilityRole="button"
-              accessibilityLabel="Go back"
-            >
-              <MaterialCommunityIcons name="chevron-left" size={22} color={colors.text} />
-            </Pressable>
-            <View>
-              <Text style={styles.navTitle}>{copy.calendar.title}</Text>
-              <Text style={styles.navSub}>
-                {loading ? copy.home.wordOfDayLoading : copy.calendar.wordsLearned(wordsLearned)}
+        <ScreenHeader
+          style={styles.nav}
+          title={copy.calendar.title}
+          titleStyle={styles.navTitle}
+          subtitle={loading ? copy.home.wordOfDayLoading : copy.calendar.wordsLearned(wordsLearned)}
+          onBack={() => router.back()}
+          right={
+            <View style={styles.streakPill}>
+              <FireIcon size={14} color={colors.streakFlame} />
+              <Text style={styles.streakPillText}>
+                {loading ? '—' : copy.calendar.streakDays(streak)}
               </Text>
             </View>
-          </View>
-          <View style={styles.streakPill}>
-            <MaterialCommunityIcons name="fire" size={14} color={colors.streakFlame} />
-            <Text style={styles.streakPillText}>
-              {loading ? '—' : copy.calendar.streakDays(streak)}
-            </Text>
-          </View>
-        </View>
+          }
+        />
 
         {__DEV__ ? (
           <View style={styles.toggleRow}>
@@ -230,39 +292,25 @@ export function CalendarScreen() {
               </Pressable>
             ) : null}
 
-            <Text style={styles.sectionLabel}>{copy.calendar.thisWeek}</Text>
-            <View style={styles.grid}>
-              {weekEntries.map((entry) => (
-                <DayCard key={entry.dayOffset} entry={entry} isGold={isGold} onPress={openEntry} />
-              ))}
-            </View>
+            {monthGroups.map((group) => (
+              <MonthSection
+                key={group.key}
+                group={group}
+                expanded={expandedMonths.has(group.key)}
+                onToggle={toggleMonth}
+                isGold={isGold}
+                onPressEntry={openEntry}
+              />
+            ))}
 
-            <Text style={styles.sectionLabel}>{copy.calendar.olderWords}</Text>
-            {isGold ? (
-              <View style={styles.grid}>
-                {olderEntries.map((entry) => (
-                  <DayCard key={entry.dayOffset} entry={entry} isGold={isGold} onPress={openEntry} />
-                ))}
-              </View>
-            ) : (
+            {!isGold ? (
               <>
-                <View style={styles.lockWrap}>
-                  <OlderWordsBlurGrid entries={olderPreview} />
-                  <View style={styles.lockOverlay} pointerEvents="none">
-                    <MaterialCommunityIcons name="lock" size={22} color={colors.subtext} />
-                    <Text style={styles.lockTitle}>
-                      {copy.calendar.lockTitle(lockedOlderCount)}
-                    </Text>
-                    <Text style={styles.lockSub}>{copy.calendar.lockSub}</Text>
-                  </View>
-                </View>
-
                 <Pressable style={styles.goldBtn} onPress={showGoldUpsell}>
                   <Text style={styles.goldBtnText}>{copy.calendar.unlockGold}</Text>
                 </Pressable>
                 <Text style={styles.goldSub}>{copy.calendar.goldPricing}</Text>
               </>
-            )}
+            ) : null}
           </>
         )}
       </ScrollView>
@@ -281,27 +329,8 @@ export function CalendarScreen() {
 }
 
 const localStyles = StyleSheet.create({
-  navLeft: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-    flex: 1,
-  },
-  backBtn: {
-    width: 32,
-    height: 32,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   loadingWrap: {
     paddingVertical: 48,
     alignItems: 'center',
-  },
-  blurWrap: {
-    borderRadius: 14,
-    overflow: 'hidden',
-  },
-  webBlur: {
-    opacity: 0.45,
   },
 });

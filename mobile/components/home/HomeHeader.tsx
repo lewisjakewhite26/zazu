@@ -1,7 +1,9 @@
 import { useMemo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import { useRouter } from 'expo-router';
+import { CalendarBlankIcon, CoinsIcon, FireIcon, GearIcon } from 'phosphor-react-native';
 
+import { IconButton } from '@/components/ui/IconButton';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
@@ -14,6 +16,7 @@ export type HomeHeaderProps = HomeStats & {
 
 export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) {
   const { colors } = useTheme();
+  const router = useRouter();
   const streakLabel = loading ? '—' : String(streak);
   const coinsLabel = loading ? '—' : String(coins);
 
@@ -53,58 +56,30 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
         streakPill: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
-          backgroundColor: colors.card,
-          borderWidth: 1,
-          borderColor: colors.border,
-          borderRadius: 999,
-          paddingVertical: 7,
-          paddingRight: 13,
-          paddingLeft: 8,
-        },
-        coinPill: {
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: 6,
+          gap: 7,
           backgroundColor: colors.card,
           borderWidth: 1,
           borderColor: colors.border,
           borderRadius: 999,
           paddingVertical: 7,
           paddingRight: 12,
-          paddingLeft: 7,
+          paddingLeft: 8,
         },
-        flameCircle: {
-          width: 26,
-          height: 26,
-          borderRadius: 13,
-          overflow: 'hidden',
+        coinPill: {
+          flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'center',
-        },
-        coinCircle: {
-          width: 22,
-          height: 22,
-          borderRadius: 11,
-          overflow: 'hidden',
-          alignItems: 'center',
-          justifyContent: 'center',
-        },
-        emoji: {
-          fontSize: 14,
-        },
-        coinEmoji: {
-          fontSize: 11,
+          gap: 7,
+          backgroundColor: colors.card,
+          borderWidth: 1,
+          borderColor: colors.border,
+          borderRadius: 999,
+          paddingVertical: 7,
+          paddingRight: 12,
+          paddingLeft: 8,
         },
         statValue: {
           ...typography.streakCount,
           color: colors.text,
-        },
-        statLabel: {
-          ...typography.streakLabel,
-          textTransform: 'uppercase',
-          color: colors.subtext,
-          marginTop: 1,
         },
         coinValue: {
           ...typography.coinAmount,
@@ -132,19 +107,8 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           accessibilityRole="text"
           accessibilityLabel={copy.a11y.streak(streak)}
         >
-          <View style={styles.flameCircle}>
-            <LinearGradient
-              colors={[colors.streakFlameStart, colors.streakFlameEnd]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={StyleSheet.absoluteFill}
-            />
-            <Text style={styles.emoji}>🔥</Text>
-          </View>
-          <View>
-            <Text style={styles.statValue}>{streakLabel}</Text>
-            <Text style={styles.statLabel}>{copy.home.dayStreak}</Text>
-          </View>
+          <FireIcon size={18} color={colors.streakFlame} weight="fill" />
+          <Text style={styles.statValue}>{streakLabel}</Text>
         </View>
 
         <View
@@ -152,17 +116,31 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           accessibilityRole="text"
           accessibilityLabel={copy.a11y.coins(coins)}
         >
-          <View style={styles.coinCircle}>
-            <LinearGradient
-              colors={[colors.coinGradientStart, colors.coinGradientEnd]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={StyleSheet.absoluteFill}
-            />
-            <Text style={styles.coinEmoji}>🪙</Text>
-          </View>
+          <CoinsIcon
+            size={15}
+            color={colors.coinGradientEnd}
+            weight="duotone"
+            duotoneColor={colors.coinGradientStart}
+            duotoneOpacity={1}
+          />
           <Text style={styles.coinValue}>{coinsLabel}</Text>
         </View>
+
+        <IconButton
+          variant="card"
+          onPress={() => router.push('/calendar')}
+          accessibilityLabel={copy.calendar.title}
+        >
+          <CalendarBlankIcon size={18} color={colors.text} />
+        </IconButton>
+
+        <IconButton
+          variant="card"
+          onPress={() => router.push('/settings')}
+          accessibilityLabel={copy.settings.title}
+        >
+          <GearIcon size={18} color={colors.text} />
+        </IconButton>
       </View>
     </View>
   );

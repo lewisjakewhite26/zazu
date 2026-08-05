@@ -1,6 +1,6 @@
 import { useCallback, useMemo } from 'react';
 import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { BarbellIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -175,7 +175,7 @@ export function GymScreen() {
             showsVerticalScrollIndicator={false}
           >
             <View style={styles.heroIcon}>
-              <MaterialCommunityIcons name="dumbbell" size={28} color={colors.ink} />
+              <BarbellIcon size={28} color={colors.ink} />
             </View>
             <Text style={styles.eyebrow}>{copy.gym.eyebrow}</Text>
             <Text style={styles.subtitle}>{copy.gym.subtitle}</Text>

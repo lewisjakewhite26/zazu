@@ -1,12 +1,12 @@
 import { useEffect, useMemo } from 'react';
-import { Pressable, Platform, StyleSheet, Text, View } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import * as Google from 'expo-auth-session/providers/google';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 
 import { OAuthButton } from '@/components/auth/OAuthButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
 import { fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
@@ -30,7 +30,6 @@ export function SignInScreen() {
     clientId: googleConfig.webClientId,
     iosClientId: googleConfig.iosClientId,
     androidClientId: googleConfig.androidClientId,
-    redirectUri: googleConfig.redirectUri,
   });
 
   useEffect(() => {
@@ -55,12 +54,6 @@ export function SignInScreen() {
         header: {
           paddingHorizontal: spacing.md,
           paddingTop: spacing.sm,
-        },
-        backBtn: {
-          width: 40,
-          height: 40,
-          alignItems: 'center',
-          justifyContent: 'center',
         },
         body: {
           flex: 1,
@@ -103,14 +96,7 @@ export function SignInScreen() {
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.header}>
-          <Pressable
-            style={styles.backBtn}
-            onPress={() => router.back()}
-            accessibilityRole="button"
-            accessibilityLabel="Go back"
-          >
-            <MaterialCommunityIcons name="chevron-left" size={28} color={colors.text} />
-          </Pressable>
+          <ScreenHeader onBack={() => router.back()} />
         </View>
 
         <View style={styles.body}>

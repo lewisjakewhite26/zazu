@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import { CoinsIcon, FireIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -21,7 +22,10 @@ function CoinRow({ label, amount, colors }: { label: string; amount: number; col
   return (
     <View style={[coinRowStyles.row, { borderBottomColor: colors.border }]}>
       <Text style={[coinRowStyles.label, { color: colors.text }]}>{label}</Text>
-      <Text style={[coinRowStyles.amount, { color: colors.gold }]}>+{amount} 🪙</Text>
+      <View style={coinRowStyles.amountRow}>
+        <Text style={[coinRowStyles.amount, { color: colors.gold }]}>+{amount}</Text>
+        <CoinsIcon size={13} color={colors.gold} weight="fill" />
+      </View>
     </View>
   );
 }
@@ -37,6 +41,11 @@ const coinRowStyles = StyleSheet.create({
   label: {
     fontFamily: fonts.sans,
     fontSize: 13,
+  },
+  amountRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
   },
   amount: {
     fontFamily: fonts.sansSemiBold,
@@ -81,7 +90,8 @@ export function SuccessScreen() {
           alignItems: 'center',
         },
         bird: {
-          fontSize: 48,
+          width: 48,
+          height: 63,
           marginBottom: 14,
         },
         heading: {
@@ -148,9 +158,6 @@ export function SuccessScreen() {
           marginBottom: 12,
           overflow: 'hidden',
         },
-        streakIcon: {
-          fontSize: 21,
-        },
         streakText: {
           fontFamily: fonts.sansSemiBold,
           fontSize: 13,
@@ -186,6 +193,11 @@ export function SuccessScreen() {
           fontFamily: fonts.sansSemiBold,
           fontSize: 13,
           color: colors.text,
+        },
+        totalAmountRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 4,
         },
         totalAmount: {
           fontFamily: fonts.sansSemiBold,
@@ -223,7 +235,12 @@ export function SuccessScreen() {
       <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={styles.inner}>
-            <Text style={styles.bird}>🐦</Text>
+            <Image
+              source={require('@/assets/images/zazu-mark.png')}
+              style={styles.bird}
+              resizeMode="contain"
+              accessibilityIgnoresInvertColors
+            />
             <Text style={styles.heading}>{copy.success.heading}</Text>
             <Text style={styles.sub}>{copy.success.sub}</Text>
 
@@ -236,7 +253,7 @@ export function SuccessScreen() {
             </LinearGradient>
 
             <LinearGradient colors={streakGradient as [string, string]} style={styles.streakBanner}>
-              <Text style={styles.streakIcon}>🔥</Text>
+              <FireIcon size={21} color={colors.streakFlame} weight="fill" />
               <View>
                 <Text style={styles.streakText}>
                   {copy.success.streakCount(completionResult.streak)}
@@ -254,7 +271,10 @@ export function SuccessScreen() {
               <CoinRow label={copy.success.streakBonus} amount={breakdown.streakBonus} colors={colors} />
               <View style={styles.totalRow}>
                 <Text style={styles.totalLabel}>{copy.success.total}</Text>
-                <Text style={styles.totalAmount}>+{coinsEarned} 🪙</Text>
+                <View style={styles.totalAmountRow}>
+                  <Text style={styles.totalAmount}>+{coinsEarned}</Text>
+                  <CoinsIcon size={13} color={colors.gold} weight="fill" />
+                </View>
               </View>
             </GlassCard>
 

@@ -1,8 +1,10 @@
 import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { TrashIcon } from 'phosphor-react-native';
 
 import { AnimatedToggle } from '@/components/ui/AnimatedToggle';
 import { GlassCard } from '@/components/ui/GlassCard';
+import { IconButton } from '@/components/ui/IconButton';
 import { copy } from '@/constants/copy';
 import { radii, typography } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
@@ -12,9 +14,10 @@ import type { Alarm } from '@/types/home';
 export type AlarmCardProps = {
   alarm: Alarm;
   onToggle: (id: string, enabled: boolean) => void;
+  onDelete: (id: string, time: string) => void;
 };
 
-export function AlarmCard({ alarm, onToggle }: AlarmCardProps) {
+export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
   const { colors } = useTheme();
   const { id, time, label, enabled } = alarm;
 
@@ -33,6 +36,7 @@ export function AlarmCard({ alarm, onToggle }: AlarmCardProps) {
           justifyContent: 'space-between',
           paddingVertical: 15,
           paddingHorizontal: 18,
+          gap: spacing.sm,
         },
         info: {
           flex: 1,
@@ -46,6 +50,11 @@ export function AlarmCard({ alarm, onToggle }: AlarmCardProps) {
           ...typography.alarmMeta,
           color: colors.subtext,
           marginTop: 3,
+        },
+        actions: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: spacing.sm,
         },
       }),
     [colors],
@@ -62,11 +71,19 @@ export function AlarmCard({ alarm, onToggle }: AlarmCardProps) {
         <Text style={styles.meta}>{label}</Text>
       </View>
 
-      <AnimatedToggle
-        value={enabled}
-        onValueChange={(next) => onToggle(id, next)}
-        accessibilityLabel={copy.a11y.alarmToggle(time, enabled)}
-      />
+      <View style={styles.actions}>
+        <AnimatedToggle
+          value={enabled}
+          onValueChange={(next) => onToggle(id, next)}
+          accessibilityLabel={copy.a11y.alarmToggle(time, enabled)}
+        />
+        <IconButton
+          onPress={() => onDelete(id, time)}
+          accessibilityLabel={copy.a11y.deleteAlarm(time)}
+        >
+          <TrashIcon size={18} color={colors.subtext} />
+        </IconButton>
+      </View>
     </GlassCard>
   );
 }

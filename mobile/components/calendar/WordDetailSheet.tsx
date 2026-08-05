@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import {
   Modal,
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -8,9 +9,12 @@ import {
   View,
   type TextStyle,
 } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { BlurView } from 'expo-blur';
+import { BarbellIcon, CheckIcon, FireIcon, LockIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 
+import { GlassCard } from '@/components/ui/GlassCard';
+import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { fonts } from '@/constants/theme';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
@@ -38,16 +42,22 @@ function createSheetStyles(colors: AppThemeColors) {
     overlay: {
       flex: 1,
       backgroundColor: colors.overlay,
-      justifyContent: 'flex-end',
+      justifyContent: 'center',
       alignItems: 'center',
+      paddingHorizontal: 20,
+      ...(Platform.OS === 'web'
+        ? ({ backdropFilter: 'blur(14px)', WebkitBackdropFilter: 'blur(14px)' } as object)
+        : null),
     },
     sheet: {
       width: '100%',
       maxWidth: 390,
       maxHeight: '88%',
-      backgroundColor: colors.card,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
+    },
+    sheetCard: {
+      backgroundColor: colors.sheetBg,
+    },
+    sheetContent: {
       paddingHorizontal: 20,
       paddingTop: 20,
       paddingBottom: 32,
@@ -279,17 +289,7 @@ function createSheetStyles(colors: AppThemeColors) {
       color: colors.gold,
     },
     closeBtn: {
-      width: '100%',
-      paddingVertical: 13,
-      backgroundColor: colors.sheetSecondary,
-      borderRadius: 100,
-      alignItems: 'center',
       marginTop: 8,
-    },
-    closeBtnText: {
-      fontFamily: fonts.sansMedium,
-      fontSize: 14,
-      color: colors.text,
     },
   });
 }
@@ -333,7 +333,7 @@ export function WordDetailSheet({
   onUnlockGold,
 }: WordDetailSheetProps) {
   const router = useRouter();
-  const { colors } = useTheme();
+  const { colors, blend } = useTheme();
   const { startGymFlow } = useAlarmFlow();
   const { gymWords } = useWordLibrary([]);
 
@@ -359,9 +359,17 @@ export function WordDetailSheet({
     entry.coinsEarned != null ? String(entry.coinsEarned) : copy.calendar.notCompleted;
 
   return (
-    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
+    <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
       <Pressable style={styles.overlay} onPress={onClose}>
+        {Platform.OS !== 'web' ? (
+          <BlurView
+            intensity={30}
+            tint={blend >= 0.5 ? 'dark' : 'light'}
+            style={StyleSheet.absoluteFill}
+          />
+        ) : null}
         <Pressable style={styles.sheet} onPress={(e) => e.stopPropagation()}>
+        <GlassCard borderRadius={24} style={styles.sheetCard} contentStyle={styles.sheetContent}>
           <View style={styles.handle} />
           <ScrollView showsVerticalScrollIndicator={false}>
             <Text style={styles.eyebrow}>{entry.dateLabelLong}</Text>
@@ -381,7 +389,7 @@ export function WordDetailSheet({
               {entry.completed ? (
                 <>
                   <View style={styles.taskAnsRow}>
-                    <MaterialCommunityIcons name="check" size={14} color={colors.correctIcon} />
+                    <CheckIcon size={14} color={colors.correctIcon} />
                     <Text style={styles.taskAns}>{task.correctAnswer}</Text>
                   </View>
                   <Text style={styles.taskTries}>
@@ -394,7 +402,7 @@ export function WordDetailSheet({
             </View>
 
             <View style={styles.streakRow}>
-              <MaterialCommunityIcons name="fire" size={16} color={colors.streakFlame} />
+              <FireIcon size={16} color={colors.streakFlame} />
               <Text style={styles.streakText}>{copy.calendar.streakDayOf(streak)}</Text>
             </View>
 
@@ -415,7 +423,7 @@ export function WordDetailSheet({
               <View style={styles.gymLock}>
                 <View style={styles.gymLockLeft}>
                   <View style={styles.gymLockIcon}>
-                    <MaterialCommunityIcons name="lock" size={16} color={colors.subtext} />
+                    <LockIcon size={16} color={colors.subtext} />
                   </View>
                   <View>
                     <Text style={styles.gymLockTitle}>{copy.calendar.wordGym}</Text>
@@ -430,8 +438,7 @@ export function WordDetailSheet({
               <View style={styles.gymRow}>
                 <View style={styles.gymInner}>
                   <View style={styles.gymLeft}>
-                    <MaterialCommunityIcons
-                      name="dumbbell"
+                    <BarbellIcon
                       size={16}
                       color={entry.gymCompleted ? colors.correctIcon : colors.subtext}
                     />
@@ -449,9 +456,13 @@ export function WordDetailSheet({
             )}
           </ScrollView>
 
-          <Pressable style={styles.closeBtn} onPress={onClose}>
-            <Text style={styles.closeBtnText}>{copy.calendar.sheetDone}</Text>
-          </Pressable>
+          <PrimaryButton
+            label={copy.calendar.sheetDone}
+            variant="outline"
+            onPress={onClose}
+            style={styles.closeBtn}
+          />
+        </GlassCard>
         </Pressable>
       </Pressable>
     </Modal>

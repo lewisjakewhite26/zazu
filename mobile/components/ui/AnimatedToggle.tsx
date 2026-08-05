@@ -67,6 +67,7 @@ export function AnimatedToggle({ value, onValueChange, accessibilityLabel }: Ani
       accessibilityState={{ checked: value }}
       onPress={() => onValueChange(!value)}
       style={styles.hit}
+      hitSlop={{ top: 9, bottom: 9, left: 9, right: 9 }}
     >
       <Animated.View style={styles.track} />
       <Animated.View style={[styles.thumb, { transform: [{ translateX: thumbX }] }]} />

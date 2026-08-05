@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -54,7 +54,8 @@ export function AlarmScreen() {
           paddingHorizontal: spacing.lg,
         },
         bird: {
-          fontSize: 48,
+          width: 48,
+          height: 63,
           marginBottom: spacing.md,
           zIndex: 1,
         },
@@ -103,7 +104,12 @@ export function AlarmScreen() {
       <AlarmOrbs />
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.content}>
-          <Text style={styles.bird}>🐦</Text>
+          <Image
+            source={require('@/assets/images/zazu-mark.png')}
+            style={styles.bird}
+            resizeMode="contain"
+            accessibilityIgnoresInvertColors
+          />
           <Text style={styles.label}>{copy.alarm.goodMorning}</Text>
           <Text style={styles.time}>{clock}</Text>
           <Text style={styles.wordTease}>

@@ -8,7 +8,7 @@ import {
   type StyleProp,
   type ViewStyle,
 } from 'react-native';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { AppleLogoIcon, GoogleLogoIcon } from 'phosphor-react-native';
 
 import { fonts } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
@@ -78,7 +78,7 @@ export function OAuthButton({
 
   const isDisabled = disabled || loading;
   const label = isApple ? 'Continue with Apple' : 'Continue with Google';
-  const iconName = isApple ? 'apple' : 'google';
+  const ProviderIcon = isApple ? AppleLogoIcon : GoogleLogoIcon;
   const iconColor = isApple ? colors.appleButtonText : colors.text;
 
   return (
@@ -100,7 +100,7 @@ export function OAuthButton({
         <ActivityIndicator color={iconColor} />
       ) : (
         <>
-          <MaterialCommunityIcons name={iconName} size={20} color={iconColor} />
+          <ProviderIcon size={20} color={iconColor} weight="fill" />
           <Text style={[styles.label, isApple ? styles.appleLabel : styles.googleLabel]}>
             {label}
           </Text>

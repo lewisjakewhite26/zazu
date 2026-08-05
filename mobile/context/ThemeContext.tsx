@@ -2,20 +2,15 @@ import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
   useMemo,
   useState,
   type ReactNode,
 } from 'react';
 
-import {
-  getThemeBlend,
-  resolveThemePalette,
-  type ThemePalette,
-} from '../../lib/adaptive-theme';
+import { THEME_DARK, THEME_LIGHT, type ThemePalette } from '../../lib/adaptive-theme';
 import { colors as staticColors } from '@/constants/theme';
 
-type ThemeOverride = 'light' | 'dark' | null;
+type ThemeOverride = 'light' | 'dark';
 
 type ThemeContextValue = {
   colors: ReturnType<typeof mergePalette>;
@@ -46,15 +41,6 @@ const STATIC_EXTRAS = {
   toggleThumbShadow: staticColors.toggleThumbShadow,
   appleButtonBg: staticColors.appleButtonBg,
   appleButtonText: staticColors.appleButtonText,
-  cardPeach: staticColors.cardPeach,
-  cardPeachBorder: staticColors.cardPeachBorder,
-  cardLavender: staticColors.cardLavender,
-  cardLavenderBorder: staticColors.cardLavenderBorder,
-  cardBlush: staticColors.cardBlush,
-  cardBlushBorder: staticColors.cardBlushBorder,
-  cardDawn: staticColors.cardDawn,
-  cardDawnBorder: staticColors.cardDawnBorder,
-  sheetSecondary: staticColors.sheetSecondary,
   streakFlame: staticColors.streakFlame,
   successWordGradientStart: staticColors.successWordGradientStart,
   successWordGradientEnd: staticColors.successWordGradientEnd,
@@ -77,33 +63,19 @@ function mergePalette(palette: ThemePalette) {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [now, setNow] = useState(() => new Date());
-  const [override, setOverride] = useState<ThemeOverride>(null);
+  const [override, setOverride] = useState<ThemeOverride>('dark');
 
-  useEffect(() => {
-    const timer = setInterval(() => setNow(new Date()), 30_000);
-    return () => clearInterval(timer);
-  }, []);
+  const blend = override === 'light' ? 0 : 1;
 
-  const blend = useMemo(() => {
-    if (override === 'light') return 0;
-    if (override === 'dark') return 1;
-    return getThemeBlend(now);
-  }, [now, override]);
-
-  const palette = useMemo(
-    () => resolveThemePalette(now, override),
-    [now, override],
+  const palette = useMemo<ThemePalette>(
+    () => (override === 'light' ? THEME_LIGHT : THEME_DARK),
+    [override],
   );
 
   const colors = useMemo(() => mergePalette(palette), [palette]);
 
   const toggleOverride = useCallback(() => {
-    setOverride((current) => {
-      const currentBlend =
-        current === 'light' ? 0 : current === 'dark' ? 1 : getThemeBlend(new Date());
-      return currentBlend >= 0.5 ? 'light' : 'dark';
-    });
+    setOverride((current) => (current === 'light' ? 'dark' : 'light'));
   }, []);
 
   const value = useMemo(
@@ -123,9 +95,9 @@ export function useTheme() {
   const context = useContext(ThemeContext);
   if (!context) {
     return {
-      colors: mergePalette(resolveThemePalette()),
-      blend: getThemeBlend(),
-      override: null as ThemeOverride,
+      colors: mergePalette(THEME_DARK),
+      blend: 1,
+      override: 'dark' as ThemeOverride,
       toggleOverride: () => {},
     };
   }
