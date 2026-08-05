@@ -11,7 +11,110 @@
       "PowerShell(git -C mobile rev-parse --is-inside-work-tree 2>$null)",
       "PowerShell(git -C mobile status --short 2>$null)",
       "PowerShell(Get-Command winget -ErrorAction SilentlyContinue)",
-      "PowerShell(winget install --id Git.Git -e --source winget --accept-package-agreements --accept-source-agreements)"
+      "PowerShell(winget install --id Git.Git -e --source winget --accept-package-agreements --accept-source-agreements)",
+      "Bash(node -e \"const d=require\\('./zazu-words.json'\\); console.log\\(Array.isArray\\(d\\) ? d.length : Object.keys\\(d\\)\\);\")",
+      "Bash(cd c:/Users/lewis/zazu/mobile && find ../lib -type f 2>/dev/null | sort)",
+      "Read(//c/Users/lewis/**)",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.scripts,null,2\\)\\)\")",
+      "Bash(node -e \"const p=require\\('./mobile/package.json'\\); const d={...p.dependencies}; Object.keys\\(d\\).filter\\(k=>/icon|svg|phosphor|vector/i.test\\(k\\)\\).forEach\\(k=>console.log\\(k, d[k]\\)\\)\")",
+      "Bash(git check-ignore *)",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"console.log\\(require\\('fs'\\).readFileSync\\('scripts/seed-words.mjs','utf8'\\).split\\('\\\\n'\\).slice\\(0,80\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(timeout 90 npx tsc --noEmit)",
+      "Bash(node -e \"console.log\\(JSON.stringify\\(require\\('./mobile/package.json'\\).scripts, null, 2\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(wc -l /tmp_tsc_out.txt)",
+      "Bash(cat /tmp_tsc_out.txt)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\lewis\\\\.claude\\\\projects\\\\c--Users-lewis-zazu\\\\memory\" 2>/dev/null; printf '%s\\\\n' \\\\ *)",
+      "Bash(node -e \"console.log\\(require\\('phosphor-react-native/package.json'\\).version\\)\")",
+      "Bash(npm install *)",
+      "Bash(chromium-cli --help)",
+      "Bash(timeout 45 bash -c 'until grep -qE \"Web is waiting|Metro waiting|running at http|localhost:[0-9]+\" \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\" 2>/dev/null; do sleep 2; done; cat \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\"')",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8081)",
+      "Bash(tail -n 40 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Read(//c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/**)",
+      "Bash(sleep 3 && tail -n 15 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(sleep 2 && tail -n 8 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(sleep 5 && tail -n 25 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 11532)",
+      "Bash(rm -rf /c/Users/lewis/AppData/Local/Temp/metro-cache && echo \"cache cleared\")",
+      "Bash(timeout 60 bash -c 'until grep -qE \"Waiting on http|error\" \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\" 2>/dev/null; do sleep 2; done; cat \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\"')",
+      "Bash(sleep 10 && cat \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(taskkill //F //PID 6692)",
+      "Bash(timeout 45 bash -c 'until grep -q \"Waiting on http\" \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\" 2>/dev/null; do sleep 2; done')",
+      "Bash(node --check lib/settings-web.js)",
+      "Bash(node --check lib/web-screens.js)",
+      "Bash(sleep 3 && tail -n 20 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(tail -n 15 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(sleep 5 && tail -n 20 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(taskkill //F //PID 864)",
+      "WebFetch(domain:www.eleken.co)",
+      "WebFetch(domain:mui.com)",
+      "Bash(node -e \"console.log\\(require\\('react-native-web/package.json'\\).version\\)\")",
+      "Bash(taskkill //F //PID 5868)",
+      "Bash(tail -n 25 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(tail -n 30 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "PowerShell(Get-Process -Name node -ErrorAction SilentlyContinue | Select-Object Id, StartTime, HandleCount, @{N='CPU';E={$_.CPU}} | Format-Table -AutoSize)",
+      "Bash(taskkill //F //PID 1532)",
+      "Bash(rm -rf /c/Users/lewis/AppData/Local/Temp/metro-cache)",
+      "Bash(npx expo *)",
+      "Bash(tail -n 20 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(sleep 6 && curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8081 && tail -n 10 \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\")",
+      "Bash(node -e \"console.log\\(require\\('metro-cache/package.json'\\).version\\)\")",
+      "Bash(taskkill //F //PID 8368)",
+      "Bash(timeout 90 bash -c 'until grep -qE \"Waiting on http|Metro error\" \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/b5a6a6a0-9701-4770-a4aa-920a371adeb2/scratchpad/web-dev-server.log\" 2>/dev/null; do sleep 2; done')",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" --max-time 15 http://localhost:8081)",
+      "WebFetch(domain:github.com)",
+      "Bash(npx impeccable *)",
+      "Skill(impeccable)",
+      "Skill(impeccable:*)",
+      "Bash(echo \"EXIT_CODE:$?\")",
+      "Bash(IMPECCABLE_CRITIQUE_META='{\"target\":\"mobile/components/calendar/CalendarScreen.tsx\",\"total_score\":21,\"max_score\":40,\"na_heuristics\":\"\",\"p0_count\":0,\"p1_count\":3}' node .claude/skills/impeccable/scripts/critique-storage.mjs write \"mobile/components/calendar/CalendarScreen.tsx\" \"C:\\\\Users\\\\lewis\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-lewis-zazu\\\\b5a6a6a0-9701-4770-a4aa-920a371adeb2\\\\scratchpad\\\\critique-calendar-body.md\")",
+      "Bash(node .claude/skills/impeccable/scripts/critique-storage.mjs slug \"mobile\")",
+      "Bash(node .claude/skills/impeccable/scripts/detect.mjs --json mobile/app mobile/components)",
+      "Bash(node .claude/skills/impeccable/scripts/detect.mjs mobile/app mobile/components)",
+      "Bash(IMPECCABLE_CRITIQUE_META='{\"target\":\"mobile \\(whole app\\)\",\"total_score\":27,\"max_score\":40,\"na_heuristics\":\"\",\"p0_count\":1,\"p1_count\":3}' node .claude/skills/impeccable/scripts/critique-storage.mjs write \"mobile\" \"C:\\\\Users\\\\lewis\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-lewis-zazu\\\\b5a6a6a0-9701-4770-a4aa-920a371adeb2\\\\scratchpad\\\\critique-whole-app-body.md\")",
+      "Bash(node .claude/skills/impeccable/scripts/critique-storage.mjs trend \"mobile\" 5)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8081 --max-time 3)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" --max-time 5 http://localhost:8081)",
+      "Bash(node .claude/skills/impeccable/scripts/detect.mjs --json mobile)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(echo \"EXIT: $?\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\lewis\\.claude\\projects\\c--Users-lewis-zazu\\memory",
+      "C:\\Users\\lewis\\AppData\\Local\\Temp\\metro-cache"
     ]
-  }
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ ! -f \"${CLAUDE_PROJECT_DIR}/.claude/skills/impeccable/scripts/hook.mjs\" ] || node \"${CLAUDE_PROJECT_DIR}/.claude/skills/impeccable/scripts/hook.mjs\"",
+            "timeout": 5,
+            "statusMessage": "Checking UI changes"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ ! -f \"${CLAUDE_PROJECT_DIR}/.claude/skills/impeccable/scripts/hook.mjs\" ] || node \"${CLAUDE_PROJECT_DIR}/.claude/skills/impeccable/scripts/hook.mjs\"",
+            "timeout": 30,
+            "statusMessage": "Design deep pass"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Impeccable design detector: immediate-tier checks after Edit/Write/MultiEdit on UI files, full-rule deep pass on Stop."
 }
