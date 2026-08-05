@@ -42,10 +42,24 @@
           "icon": "./assets/images/icon.png",
           "color": "#f9c9a8"
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.1.0"
+          }
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a025f502-13ab-4a04-bea2-a91e237d2d6a"
+      }
     }
   }
 }
