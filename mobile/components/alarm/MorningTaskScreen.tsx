@@ -76,12 +76,27 @@ export function MorningTaskScreen() {
   }, [sessionWord]);
 
   useEffect(() => {
-    optionScales.current = options.map((_, index) => optionScales.current[index] ?? new Animated.Value(1));
-    optionShakes.current = options.map((_, index) => optionShakes.current[index] ?? new Animated.Value(0));
     setDismissReady(false);
     setSelectedIndex(null);
     setWrongAttempts(0);
   }, [options]);
+
+  /** Lazily creates the Animated.Value for an option on first access during
+   * render, rather than waiting on a separate effect (which mutates the ref
+   * without triggering a re-render, so options could commit as empty). */
+  function getOptionScale(index: number): Animated.Value {
+    if (!optionScales.current[index]) {
+      optionScales.current[index] = new Animated.Value(1);
+    }
+    return optionScales.current[index];
+  }
+
+  function getOptionShake(index: number): Animated.Value {
+    if (!optionShakes.current[index]) {
+      optionShakes.current[index] = new Animated.Value(0);
+    }
+    return optionShakes.current[index];
+  }
 
   const isCorrect = selectedIndex === correctIndex;
 
@@ -196,8 +211,7 @@ export function MorningTaskScreen() {
   );
 
   const runCorrectPop = (index: number) => {
-    const scale = optionScales.current[index];
-    if (!scale) return;
+    const scale = getOptionScale(index);
     Animated.sequence([
       Animated.timing(scale, { toValue: 0.88, duration: 0, useNativeDriver: true }),
       Animated.timing(scale, {
@@ -216,8 +230,7 @@ export function MorningTaskScreen() {
   };
 
   const runWrongShake = (index: number) => {
-    const shake = optionShakes.current[index];
-    if (!shake) return;
+    const shake = getOptionShake(index);
     shake.setValue(0);
     Animated.sequence([
       Animated.timing(shake, { toValue: -7, duration: 70, useNativeDriver: true }),
@@ -298,9 +311,8 @@ export function MorningTaskScreen() {
 
               <View style={styles.options}>
                 {options.map((option, index) => {
-                  const scale = optionScales.current[index];
-                  const shake = optionShakes.current[index];
-                  if (!scale || !shake) return null;
+                  const scale = getOptionScale(index);
+                  const shake = getOptionShake(index);
                   return (
                     <Animated.View
                       key={`${option}-${index}`}
