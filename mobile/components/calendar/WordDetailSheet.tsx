@@ -433,7 +433,7 @@ export function WordDetailSheet({
                 <Pressable
                   style={styles.gymUnlockBtn}
                   onPress={onUnlockGold}
-                  hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                  hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
                 >
                   <Text style={styles.gymUnlockText}>{copy.calendar.unlock}</Text>
                 </Pressable>
@@ -455,7 +455,7 @@ export function WordDetailSheet({
                   <Pressable
                     style={styles.gymBtn}
                     onPress={openGym}
-                    hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
                   >
                     <Text style={styles.gymBtnText}>{copy.calendar.openGym}</Text>
                   </Pressable>

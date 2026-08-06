@@ -68,7 +68,7 @@ export function WordLibraryErrorBanner({ onRetry, retrying = false }: WordLibrar
         disabled={retrying}
         accessibilityRole="button"
         accessibilityLabel={copy.home.wordLibraryRetry}
-        hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+        hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
       >
         {retrying ? <ActivityIndicator size="small" color={colors.text} /> : null}
         <Text style={styles.btnText}>{copy.home.wordLibraryRetry}</Text>
