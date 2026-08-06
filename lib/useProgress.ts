@@ -17,6 +17,8 @@ export type CompleteWordOptions = {
   noSnooze?: boolean;
   /** Seconds from alarm open to dismiss, for calendar history. */
   dismissSeconds?: number;
+  /** True when the MCQ was answered correctly with no wrong attempts. Defaults to true. */
+  firstTry?: boolean;
 };
 
 export type CompleteGymOptions = {
@@ -231,6 +233,7 @@ export function useProgress() {
         alarmCompletedAt: now,
         coinsEarned: earned,
         dismissSeconds: options.dismissSeconds ?? existing.dismissSeconds ?? null,
+        firstTry: options.firstTry ?? true,
       });
 
       const next: ProgressState = {

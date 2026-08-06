@@ -166,4 +166,6 @@ export type UserWordProgressLocal = {
   nextReviewAt: string | null;
   dismissSeconds?: number | null;
   coinsEarned?: number | null;
+  /** True when the morning task's MCQ was answered correctly with no wrong attempts (no hint needed). */
+  firstTry?: boolean;
 };

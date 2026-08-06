@@ -151,7 +151,7 @@ export function buildCalendarEntries(
       dismissSeconds: progress?.dismissSeconds ?? null,
       gymCompleted: Boolean(progress?.gymCompletedAt),
       coinsEarned: progress?.coinsEarned ?? null,
-      firstTry: (progress?.coinsEarned ?? 0) >= 50,
+      firstTry: progress?.firstTry ?? false,
     });
   }
 

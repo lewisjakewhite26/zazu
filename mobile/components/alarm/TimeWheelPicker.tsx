@@ -32,9 +32,10 @@ type WheelColumnProps = {
   selected: number;
   onChange: (value: number) => void;
   textColor: string;
+  label: string;
 };
 
-function WheelColumn({ values, selected, onChange, textColor }: WheelColumnProps) {
+function WheelColumn({ values, selected, onChange, textColor, label }: WheelColumnProps) {
   const scrollRef = useRef<ScrollView>(null);
   const scrollY = useRef(new Animated.Value(0)).current;
   const settleTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -58,6 +59,15 @@ function WheelColumn({ values, selected, onChange, textColor }: WheelColumnProps
     onChange(values[clamped]);
   };
 
+  const handleAccessibilityAction = (event: { nativeEvent: { actionName: string } }) => {
+    const currentIndex = values.indexOf(selected);
+    if (event.nativeEvent.actionName === 'increment') {
+      snapToIndex((currentIndex + 1) % values.length, true);
+    } else if (event.nativeEvent.actionName === 'decrement') {
+      snapToIndex((currentIndex - 1 + values.length) % values.length, true);
+    }
+  };
+
   const handleScroll = Animated.event(
     [{ nativeEvent: { contentOffset: { y: scrollY } } }],
     {
@@ -73,7 +83,15 @@ function WheelColumn({ values, selected, onChange, textColor }: WheelColumnProps
   );
 
   return (
-    <View style={styles.column}>
+    <View
+      style={styles.column}
+      accessible
+      accessibilityRole="adjustable"
+      accessibilityLabel={label}
+      accessibilityValue={{ text: pad2(selected) }}
+      accessibilityActions={[{ name: 'increment' }, { name: 'decrement' }]}
+      onAccessibilityAction={handleAccessibilityAction}
+    >
       <Animated.ScrollView
         ref={scrollRef}
         showsVerticalScrollIndicator={false}
@@ -136,9 +154,15 @@ export function TimeWheelPicker({ hour, minute, onChangeHour, onChangeMinute, st
   return (
     <View style={containerStyle}>
       <View pointerEvents="none" style={highlightStyle} />
-      <WheelColumn values={HOURS} selected={hour} onChange={onChangeHour} textColor={colors.text} />
+      <WheelColumn values={HOURS} selected={hour} onChange={onChangeHour} textColor={colors.text} label="Hour" />
       <Text style={[styles.colon, { color: colors.text }]}>:</Text>
-      <WheelColumn values={MINUTES} selected={minute} onChange={onChangeMinute} textColor={colors.text} />
+      <WheelColumn
+        values={MINUTES}
+        selected={minute}
+        onChange={onChangeMinute}
+        textColor={colors.text}
+        label="Minute"
+      />
     </View>
   );
 }

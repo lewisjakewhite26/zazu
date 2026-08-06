@@ -1,5 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Animated, Easing, Pressable, StyleSheet, Text, View } from 'react-native';
+import {
+  AccessibilityInfo,
+  ActivityIndicator,
+  Animated,
+  Easing,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -32,6 +41,7 @@ export function MorningTaskScreen() {
   const [dismissReady, setDismissReady] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [hint, setHint] = useState<string | null>(null);
+  const [wrongAttempts, setWrongAttempts] = useState(0);
   const optionScales = useRef<Animated.Value[]>([]);
   const optionShakes = useRef<Animated.Value[]>([]);
 
@@ -70,6 +80,7 @@ export function MorningTaskScreen() {
     optionShakes.current = options.map((_, index) => optionShakes.current[index] ?? new Animated.Value(0));
     setDismissReady(false);
     setSelectedIndex(null);
+    setWrongAttempts(0);
   }, [options]);
 
   const isCorrect = selectedIndex === correctIndex;
@@ -224,13 +235,19 @@ export function MorningTaskScreen() {
       setSelectedIndex(index);
       hapticCorrect();
       runCorrectPop(index);
-      setTimeout(() => setDismissReady(true), CORRECT_CONFIRM_MS);
+      AccessibilityInfo.announceForAccessibility(`Correct. ${options[index]}.`);
+      setTimeout(() => {
+        setDismissReady(true);
+        AccessibilityInfo.announceForAccessibility('You can now dismiss the alarm.');
+      }, CORRECT_CONFIRM_MS);
       return;
     }
 
     hapticWrong();
     setSelectedIndex(index);
+    setWrongAttempts((count) => count + 1);
     runWrongShake(index);
+    AccessibilityInfo.announceForAccessibility(hint ? `Not quite. ${hint}` : 'Not quite. Try again.');
     setTimeout(() => {
       setSelectedIndex((current) => (current === index ? null : current));
     }, 700);
@@ -240,7 +257,10 @@ export function MorningTaskScreen() {
     if (!sessionWord || !dismissReady || submitting) return;
     setSubmitting(true);
     try {
-      const result = await completeWord(sessionWord.id, { noSnooze: true });
+      const result = await completeWord(sessionWord.id, {
+        noSnooze: true,
+        firstTry: wrongAttempts === 0,
+      });
       if (result) {
         setCompletionResult(result);
         router.replace('/success');
@@ -288,6 +308,11 @@ export function MorningTaskScreen() {
                       }}
                     >
                       <Pressable
+                        accessibilityRole="button"
+                        accessibilityState={{
+                          selected: selectedIndex === index,
+                          disabled: dismissReady,
+                        }}
                         onPress={() => handleSelect(index)}
                         disabled={dismissReady}
                         style={[
@@ -317,6 +342,7 @@ export function MorningTaskScreen() {
                   variant="wake"
                   onPress={() => void handleDismiss()}
                   disabled={submitting}
+                  loading={submitting}
                   style={styles.cta}
                 />
               ) : null}
