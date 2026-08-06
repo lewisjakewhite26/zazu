@@ -26,6 +26,8 @@ export type PrimaryButtonProps = {
   style?: StyleProp<ViewStyle>;
   accessibilityLabel?: string;
   accessibilityHint?: string;
+  /** Overrides the default per-variant label color (e.g. a high-contrast outline label). */
+  labelColor?: string;
 };
 
 export function PrimaryButton({
@@ -38,6 +40,7 @@ export function PrimaryButton({
   style,
   accessibilityLabel,
   accessibilityHint,
+  labelColor,
 }: PrimaryButtonProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
@@ -124,7 +127,13 @@ export function PrimaryButton({
       {loading ? (
         <ActivityIndicator color={isFilled ? colors.primaryButtonText : colors.text} />
       ) : (
-        <Text style={[styles.label, isWake ? styles.labelWake : isFilled ? styles.labelFilled : styles.labelOutline]}>
+        <Text
+          style={[
+            styles.label,
+            isWake ? styles.labelWake : isFilled ? styles.labelFilled : styles.labelOutline,
+            labelColor ? { color: labelColor } : null,
+          ]}
+        >
           {label}
         </Text>
       )}

@@ -1,18 +1,100 @@
 import { useMemo } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { CaretRightIcon } from 'phosphor-react-native';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
-import { fonts } from '@/constants/theme';
-import { spacing } from '@/constants/layout';
+import { fonts, radii, typography } from '@/constants/theme';
+import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAuth } from '@/context/AuthContext';
 import { useSubscription } from '@/context/SubscriptionContext';
-import { useTheme } from '@/context/ThemeContext';
+import { useTheme, type AppThemeColors } from '@/context/ThemeContext';
+
+const GOLD_BADGE_BG = 'rgba(201,150,58,0.16)';
+
+type SettingsRowProps = {
+  label: string;
+  value?: string;
+  valueTone?: 'neutral' | 'gold';
+  onPress?: () => void;
+  showChevron?: boolean;
+  colors: AppThemeColors;
+};
+
+/** A single tappable, opaque-backed settings row — never a floating label on the gradient. */
+function SettingsRow({ label, value, valueTone = 'neutral', onPress, showChevron, colors }: SettingsRowProps) {
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        row: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          minHeight: MIN_TOUCH_TARGET,
+          paddingHorizontal: spacing.lg,
+          paddingVertical: 12,
+          gap: spacing.sm,
+        },
+        pressed: {
+          opacity: 0.6,
+        },
+        label: {
+          fontFamily: fonts.sansMedium,
+          fontSize: 15,
+          color: colors.text,
+        },
+        right: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 6,
+        },
+        badge: {
+          borderRadius: radii.pill,
+          paddingHorizontal: 10,
+          paddingVertical: 4,
+          backgroundColor: valueTone === 'gold' ? GOLD_BADGE_BG : colors.border,
+        },
+        badgeText: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 12,
+          color: valueTone === 'gold' ? colors.gold : colors.text,
+        },
+      }),
+    [colors, valueTone],
+  );
+
+  const content = (
+    <View style={styles.row}>
+      <Text style={styles.label}>{label}</Text>
+      <View style={styles.right}>
+        {value ? (
+          <View style={styles.badge}>
+            <Text style={styles.badgeText}>{value}</Text>
+          </View>
+        ) : null}
+        {showChevron ? <CaretRightIcon size={16} color={colors.subtext} /> : null}
+      </View>
+    </View>
+  );
+
+  if (!onPress) return content;
+
+  return (
+    <Pressable
+      onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={value ? `${label}: ${value}` : label}
+      style={({ pressed }) => pressed && styles.pressed}
+    >
+      {content}
+    </Pressable>
+  );
+}
 
 export function SettingsScreen() {
   const router = useRouter();
@@ -20,12 +102,8 @@ export function SettingsScreen() {
   const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy } = useAuth();
   const { isGold, grantDevGold } = useSubscription();
 
-  const themeToggleLabel =
-    override === 'auto'
-      ? copy.settings.themeAuto
-      : override === 'light'
-        ? copy.settings.themeLight
-        : copy.settings.themeDark;
+  const themeValueLabel =
+    override === 'auto' ? 'Auto (Dawn/Dusk)' : override === 'light' ? 'Light' : 'Dark';
 
   const styles = useMemo(
     () =>
@@ -38,15 +116,31 @@ export function SettingsScreen() {
           paddingBottom: spacing.md,
         },
         body: {
+          flex: 1,
+          justifyContent: 'center',
           paddingHorizontal: spacing.lg,
-          gap: spacing.md,
+          paddingBottom: spacing.xl,
+          gap: spacing.xl,
+        },
+        section: {
+          gap: spacing.sm,
+        },
+        sectionLabel: {
+          ...typography.sectionLabel,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginLeft: 4,
         },
         card: {
           width: '100%',
         },
         cardInner: {
-          padding: spacing.lg,
-          gap: spacing.sm,
+          paddingVertical: 4,
+        },
+        infoRow: {
+          paddingHorizontal: spacing.lg,
+          paddingVertical: spacing.md,
+          gap: 6,
         },
         cardTitle: {
           fontFamily: fonts.sansSemiBold,
@@ -55,9 +149,17 @@ export function SettingsScreen() {
         },
         cardSub: {
           fontFamily: fonts.sans,
-          fontSize: 14,
-          lineHeight: 21,
+          fontSize: 13,
+          lineHeight: 19,
           color: colors.subtext,
+        },
+        divider: {
+          height: StyleSheet.hairlineWidth,
+          backgroundColor: colors.border,
+          marginHorizontal: spacing.lg,
+        },
+        footer: {
+          gap: spacing.sm,
         },
       }),
     [colors],
@@ -66,61 +168,86 @@ export function SettingsScreen() {
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
-      <View style={styles.header}>
-        <ScreenHeader
-          title={copy.settings.title}
-          onBack={() => router.back()}
-          backAccessibilityLabel={copy.settings.back}
-        />
-      </View>
-
-      <View style={styles.body}>
-        <GlassCard borderRadius={16} style={styles.card} contentStyle={styles.cardInner}>
-          {session && displayName ? (
-            <Text style={styles.cardTitle}>{copy.settings.signedInAs(displayName)}</Text>
-          ) : (
-            <>
-              <Text style={styles.cardTitle}>{copy.settings.guestMode}</Text>
-              <Text style={styles.cardSub}>{copy.settings.guestHint}</Text>
-            </>
-          )}
-          <Text style={styles.cardSub}>
-            {isGold ? copy.settings.goldMember : copy.settings.freePlan}
-          </Text>
-        </GlassCard>
-
-        <PrimaryButton
-          label={themeToggleLabel}
-          variant="outline"
-          onPress={toggleOverride}
-          accessibilityHint={copy.settings.themeToggleHint}
-        />
-
-        <PrimaryButton
-          label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
-          variant="outline"
-          onPress={() => router.push('/gold')}
-        />
-
-        {session ? (
-          <PrimaryButton
-            label={copy.settings.signOut}
-            variant="outline"
-            onPress={() => void signOut()}
-            loading={authBusy}
+        <View style={styles.header}>
+          <ScreenHeader
+            title={copy.settings.title}
+            onBack={() => router.back()}
+            backAccessibilityLabel={copy.settings.back}
           />
-        ) : isAnonymous ? (
-          <PrimaryButton label={copy.settings.signIn} onPress={goToSignIn} />
-        ) : null}
+        </View>
 
-        {__DEV__ && session ? (
-          <PrimaryButton
-            label="Grant Gold (dev)"
-            variant="outline"
-            onPress={() => void grantDevGold()}
-          />
-        ) : null}
-      </View>
+        <View style={styles.body}>
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>Account</Text>
+            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+              <View style={styles.infoRow}>
+                {session && displayName ? (
+                  <Text style={styles.cardTitle}>{copy.settings.signedInAs(displayName)}</Text>
+                ) : (
+                  <>
+                    <Text style={styles.cardTitle}>{copy.settings.guestMode}</Text>
+                    <Text style={styles.cardSub}>{copy.settings.guestHint}</Text>
+                  </>
+                )}
+              </View>
+            </GlassCard>
+          </View>
+
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>Preferences</Text>
+            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+              <SettingsRow
+                label="Theme"
+                value={themeValueLabel}
+                onPress={toggleOverride}
+                colors={colors}
+              />
+            </GlassCard>
+          </View>
+
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>Subscription</Text>
+            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+              <SettingsRow
+                label="Plan"
+                value={isGold ? copy.settings.goldMember : copy.settings.freePlan}
+                valueTone={isGold ? 'gold' : 'neutral'}
+                colors={colors}
+              />
+              <View style={styles.divider} />
+              <SettingsRow
+                label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
+                onPress={() => router.push('/gold')}
+                showChevron
+                colors={colors}
+              />
+              {__DEV__ && session ? (
+                <>
+                  <View style={styles.divider} />
+                  <SettingsRow
+                    label="Grant Gold (dev)"
+                    onPress={() => void grantDevGold()}
+                    colors={colors}
+                  />
+                </>
+              ) : null}
+            </GlassCard>
+          </View>
+
+          <View style={styles.footer}>
+            {session ? (
+              <PrimaryButton
+                label={copy.settings.signOut}
+                variant="outline"
+                labelColor={colors.text}
+                onPress={() => void signOut()}
+                loading={authBusy}
+              />
+            ) : isAnonymous ? (
+              <PrimaryButton label={copy.settings.signIn} onPress={goToSignIn} />
+            ) : null}
+          </View>
+        </View>
       </SafeAreaView>
     </GradientBackground>
   );

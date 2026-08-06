@@ -95,7 +95,11 @@ async function setTheme(page, mode) {
 
   const toggle = page.getByRole('button', { name: /^Theme:/ });
   for (let attempt = 0; attempt < 3; attempt += 1) {
-    const label = await toggle.textContent();
+    // Read the accessible name (aria-label), not textContent -- the row
+    // renders "Theme" and the value as separate <Text> nodes with no
+    // ": " separator in the visible DOM text, so textContent() never
+    // matches `target` and the loop used to always exhaust and drift.
+    const label = await toggle.getAttribute('aria-label');
     if (label?.trim() === target) break;
     await toggle.click();
     await wait(page, 600);
