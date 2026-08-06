@@ -24,7 +24,7 @@ function formatClock(date: Date): string {
 export function AlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { sessionWord, isDemo, clearFlow } = useAlarmFlow();
+  const { sessionWord, isDemo, soundId, clearFlow } = useAlarmFlow();
   const [clock, setClock] = useState(formatClock(new Date()));
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export function AlarmScreen() {
     }
   }, [sessionWord, router]);
 
-  useAlarmSound(Boolean(sessionWord));
+  useAlarmSound(Boolean(sessionWord), soundId);
 
   const handleExitDemo = () => {
     clearFlow();

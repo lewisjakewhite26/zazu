@@ -41,6 +41,8 @@ export const copy = {
     timeLabel: 'Time',
     labelLabel: 'Label',
     labelPlaceholder: 'e.g. Work',
+    soundLabel: 'Sound',
+    soundPreviewA11y: (name: string) => `Preview ${name}`,
     save: 'Save alarm',
     cancel: 'Cancel',
     deleteTitle: 'Delete alarm?',

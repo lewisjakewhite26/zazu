@@ -4,6 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { DEFAULT_ALARMS, type Alarm } from './alarm';
 import { requestNotificationPermissions, syncAlarmNotifications } from './alarm-notifications';
+import { DEFAULT_ALARM_SOUND_ID, isAlarmSoundId } from './alarm-sound';
 
 const STORAGE_KEY = 'zazu:alarms';
 
@@ -14,13 +15,19 @@ async function readAlarms(): Promise<Alarm[]> {
   try {
     const parsed = JSON.parse(raw) as unknown;
     if (!Array.isArray(parsed)) return DEFAULT_ALARMS;
-    return parsed.filter(
-      (entry): entry is Alarm =>
-        typeof entry?.id === 'string' &&
-        typeof entry?.time === 'string' &&
-        typeof entry?.label === 'string' &&
-        typeof entry?.enabled === 'boolean',
-    );
+    return parsed
+      .filter(
+        (entry): entry is Alarm =>
+          typeof entry?.id === 'string' &&
+          typeof entry?.time === 'string' &&
+          typeof entry?.label === 'string' &&
+          typeof entry?.enabled === 'boolean',
+      )
+      // Alarms saved before sound selection existed have no soundId yet.
+      .map((entry) => ({
+        ...entry,
+        soundId: isAlarmSoundId(entry.soundId) ? entry.soundId : DEFAULT_ALARM_SOUND_ID,
+      }));
   } catch {
     return DEFAULT_ALARMS;
   }
@@ -80,9 +87,9 @@ export function useAlarms() {
   );
 
   const addAlarm = useCallback(
-    async (time: string, label: string) => {
+    async (time: string, label: string, soundId: Alarm['soundId'] = DEFAULT_ALARM_SOUND_ID) => {
       const id = `alarm-${Date.now()}`;
-      await persistAlarms([...alarms, { id, time, label, enabled: true }]);
+      await persistAlarms([...alarms, { id, time, label, enabled: true, soundId }]);
     },
     [alarms, persistAlarms],
   );
