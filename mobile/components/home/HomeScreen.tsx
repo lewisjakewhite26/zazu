@@ -23,7 +23,7 @@ import { useAlarmFlow } from '@/context/AlarmFlowContext';
 export function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { colors, override, toggleOverride } = useTheme();
+  const { colors } = useTheme();
   const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, toggleAlarm, deleteAlarm } = useAlarms();
   const {
@@ -76,13 +76,6 @@ export function HomeScreen() {
     startFlow(alarmWordOfDay, { isDemo: true });
     router.push('/alarm');
   }, [startFlow, alarmWordOfDay, router]);
-
-  const themeToggleLabel =
-    override === 'auto'
-      ? copy.home.themeAuto
-      : override === 'light'
-        ? copy.home.themeLight
-        : copy.home.themeDark;
 
   return (
     <GradientBackground>
@@ -142,13 +135,6 @@ export function HomeScreen() {
               size="demo"
               onPress={handleDemoAlarm}
             />
-            <PrimaryButton
-              label={themeToggleLabel}
-              variant="outline"
-              size="demo"
-              onPress={toggleOverride}
-              style={styles.themeBtn}
-            />
           </View>
         </View>
       </SafeAreaView>
@@ -191,8 +177,5 @@ const styles = StyleSheet.create({
   },
   addAlarmBtn: {
     marginBottom: 4,
-  },
-  themeBtn: {
-    marginTop: 0,
   },
 });

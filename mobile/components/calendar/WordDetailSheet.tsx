@@ -430,7 +430,11 @@ export function WordDetailSheet({
                     <Text style={styles.gymLockSub}>{copy.calendar.goldFeature}</Text>
                   </View>
                 </View>
-                <Pressable style={styles.gymUnlockBtn} onPress={onUnlockGold}>
+                <Pressable
+                  style={styles.gymUnlockBtn}
+                  onPress={onUnlockGold}
+                  hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                >
                   <Text style={styles.gymUnlockText}>{copy.calendar.unlock}</Text>
                 </Pressable>
               </View>
@@ -448,7 +452,11 @@ export function WordDetailSheet({
                         : copy.calendar.gymNotDone}
                     </Text>
                   </View>
-                  <Pressable style={styles.gymBtn} onPress={openGym}>
+                  <Pressable
+                    style={styles.gymBtn}
+                    onPress={openGym}
+                    hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                  >
                     <Text style={styles.gymBtnText}>{copy.calendar.openGym}</Text>
                   </Pressable>
                 </View>

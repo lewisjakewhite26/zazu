@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Linking, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -11,6 +11,8 @@ import { radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
+
+const AD_URL = 'https://huel.com';
 
 /** index.html #screenAd — shown after Word Gym puzzle */
 export function AdScreen() {
@@ -90,6 +92,10 @@ export function AdScreen() {
 
   if (!gymSessionWord || !gymCompletionResult) return null;
 
+  const handleFindOutMore = () => {
+    void Linking.openURL(AD_URL);
+  };
+
   const handleSkip = () => {
     router.replace('/gym-success');
   };
@@ -104,10 +110,15 @@ export function AdScreen() {
             <Text style={styles.pill}>{copy.ad.pill}</Text>
             <Text style={styles.brand}>{copy.ad.brand}</Text>
             <Text style={styles.body}>{copy.ad.copy}</Text>
-            <PrimaryButton label={copy.ad.cta} variant="wake" onPress={handleSkip} />
+            <PrimaryButton label={copy.ad.cta} variant="wake" onPress={handleFindOutMore} />
           </GlassCard>
 
-          <Pressable style={styles.skip} onPress={handleSkip} accessibilityRole="button">
+          <Pressable
+            style={styles.skip}
+            onPress={handleSkip}
+            accessibilityRole="button"
+            hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+          >
             <Text style={styles.skipText}>{copy.ad.skip}</Text>
           </Pressable>
         </View>

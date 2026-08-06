@@ -25,6 +25,7 @@ export type PrimaryButtonProps = {
   loading?: boolean;
   style?: StyleProp<ViewStyle>;
   accessibilityLabel?: string;
+  accessibilityHint?: string;
 };
 
 export function PrimaryButton({
@@ -36,6 +37,7 @@ export function PrimaryButton({
   loading = false,
   style,
   accessibilityLabel,
+  accessibilityHint,
 }: PrimaryButtonProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
@@ -107,6 +109,7 @@ export function PrimaryButton({
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={accessibilityLabel ?? label}
+      accessibilityHint={accessibilityHint}
       accessibilityState={{ disabled: isDisabled, busy: loading }}
       disabled={isDisabled}
       onPress={onPress}

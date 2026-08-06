@@ -16,9 +16,16 @@ import { useTheme } from '@/context/ThemeContext';
 
 export function SettingsScreen() {
   const router = useRouter();
-  const { colors } = useTheme();
+  const { colors, override, toggleOverride } = useTheme();
   const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy } = useAuth();
   const { isGold, grantDevGold } = useSubscription();
+
+  const themeToggleLabel =
+    override === 'auto'
+      ? copy.settings.themeAuto
+      : override === 'light'
+        ? copy.settings.themeLight
+        : copy.settings.themeDark;
 
   const styles = useMemo(
     () =>
@@ -81,6 +88,13 @@ export function SettingsScreen() {
             {isGold ? copy.settings.goldMember : copy.settings.freePlan}
           </Text>
         </GlassCard>
+
+        <PrimaryButton
+          label={themeToggleLabel}
+          variant="outline"
+          onPress={toggleOverride}
+          accessibilityHint={copy.settings.themeToggleHint}
+        />
 
         <PrimaryButton
           label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}

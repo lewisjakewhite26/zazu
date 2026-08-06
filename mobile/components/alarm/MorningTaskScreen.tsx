@@ -256,6 +256,7 @@ export function MorningTaskScreen() {
   const handleDismiss = async () => {
     if (!sessionWord || !dismissReady || submitting) return;
     setSubmitting(true);
+    AccessibilityInfo.announceForAccessibility('Dismissing alarm…');
     try {
       const result = await completeWord(sessionWord.id, {
         noSnooze: true,
