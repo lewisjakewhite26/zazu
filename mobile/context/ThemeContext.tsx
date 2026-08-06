@@ -7,6 +7,7 @@ import {
   useState,
   type ReactNode,
 } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { THEME_DARK, getThemeBlend, resolveThemePalette, type ThemePalette } from '../../lib/adaptive-theme';
 import { colors as staticColors } from '@/constants/theme';
@@ -15,6 +16,11 @@ import { colors as staticColors } from '@/constants/theme';
 type ThemeOverride = 'light' | 'dark' | 'auto';
 
 const AUTO_TICK_MS = 60_000;
+const THEME_OVERRIDE_STORAGE_KEY = 'zazu:themeOverride';
+
+function isThemeOverride(value: string | null): value is ThemeOverride {
+  return value === 'auto' || value === 'light' || value === 'dark';
+}
 
 type ThemeContextValue = {
   colors: ReturnType<typeof mergePalette>;
@@ -67,8 +73,26 @@ function mergePalette(palette: ThemePalette) {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [override, setOverride] = useState<ThemeOverride>('auto');
+  const [override, setOverrideState] = useState<ThemeOverride>('auto');
   const [now, setNow] = useState(() => new Date());
+
+  // Restore the user's last explicit theme choice on cold start.
+  useEffect(() => {
+    let cancelled = false;
+    void AsyncStorage.getItem(THEME_OVERRIDE_STORAGE_KEY).then((stored) => {
+      if (!cancelled && isThemeOverride(stored)) {
+        setOverrideState(stored);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const setOverride = useCallback((next: ThemeOverride) => {
+    setOverrideState(next);
+    void AsyncStorage.setItem(THEME_OVERRIDE_STORAGE_KEY, next);
+  }, []);
 
   // While in auto mode, re-check the dawn/dusk clock periodically so the
   // gradual light<->dark blend actually moves during a long-open session.
@@ -93,12 +117,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   // Sequential three-way cycle: auto (dawn/dusk) -> light -> dark -> auto.
   const toggleOverride = useCallback(() => {
-    setOverride((current) => {
-      if (current === 'auto') return 'light';
-      if (current === 'light') return 'dark';
-      return 'auto';
-    });
-  }, []);
+    const next: ThemeOverride = override === 'auto' ? 'light' : override === 'light' ? 'dark' : 'auto';
+    setOverride(next);
+  }, [override, setOverride]);
 
   const value = useMemo(
     () => ({
