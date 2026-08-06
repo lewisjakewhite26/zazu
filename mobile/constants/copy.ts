@@ -115,6 +115,7 @@ export const copy = {
   puzzle: {
     roundLabel: (round: number, type: string) => `Round ${round} of 3 · ${type}`,
     emptyPlaceholder: '–',
+    saving: 'Saving your progress…',
   },
   gym: {
     eyebrow: 'Word Gym',

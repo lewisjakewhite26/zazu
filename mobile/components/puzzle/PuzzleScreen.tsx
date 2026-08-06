@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { AccessibilityInfo, ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -11,6 +11,7 @@ import { PuzzleTile } from '@/components/puzzle/PuzzleTile';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useSubscription } from '@/context/SubscriptionContext';
 import { useProgress } from '@/hooks/useProgress';
+import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
@@ -60,6 +61,7 @@ export function PuzzleScreen() {
   const handleFinish = useCallback(async () => {
     if (!gymSessionWord || finishing) return;
     setFinishing(true);
+    AccessibilityInfo.announceForAccessibility(copy.puzzle.saving);
     const result = await completeGym(gymSessionWord.id);
     setGymCompletionResult(result);
     router.replace(isGold ? '/gym-success' : '/ad');
@@ -77,7 +79,7 @@ export function PuzzleScreen() {
 
   const handleTilePress = useCallback(
     (tileId: string) => {
-      if (locked) return;
+      if (locked || finishing) return;
 
       const tile = tiles.find((entry) => entry.id === tileId);
       if (!tile || tile.state === 'correct' || tile.state === 'gone') return;
@@ -166,7 +168,7 @@ export function PuzzleScreen() {
         setLocked(false);
       }, 480);
     },
-    [locked, tiles, selectedId, matched, round, advanceRound],
+    [locked, finishing, tiles, selectedId, matched, round, advanceRound],
   );
 
   const handleExit = useCallback(() => {
@@ -252,6 +254,18 @@ export function PuzzleScreen() {
           flexDirection: 'row',
           gap: spacing.sm,
         },
+        finishingRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: spacing.sm,
+          paddingVertical: spacing.xl,
+        },
+        finishingText: {
+          fontFamily: typography.btnDemo.fontFamily,
+          fontSize: 14,
+          color: colors.subtext,
+        },
       }),
     [colors],
   );
@@ -300,17 +314,24 @@ export function PuzzleScreen() {
             <View style={styles.progressRow}>{progressDots}</View>
 
             <View style={styles.board}>
-              {rows.map((row, rowIndex) => (
-                <View key={rowIndex} style={styles.boardRow}>
-                  {row.map((tile) => (
-                    <PuzzleTile
-                      key={tile.id}
-                      tile={tile}
-                      onPress={() => handleTilePress(tile.id)}
-                    />
-                  ))}
+              {finishing ? (
+                <View style={styles.finishingRow} accessibilityRole="alert">
+                  <ActivityIndicator color={colors.subtext} />
+                  <Text style={styles.finishingText}>{copy.puzzle.saving}</Text>
                 </View>
-              ))}
+              ) : (
+                rows.map((row, rowIndex) => (
+                  <View key={rowIndex} style={styles.boardRow}>
+                    {row.map((tile) => (
+                      <PuzzleTile
+                        key={tile.id}
+                        tile={tile}
+                        onPress={() => handleTilePress(tile.id)}
+                      />
+                    ))}
+                  </View>
+                ))
+              )}
             </View>
           </View>
         </ScrollView>
