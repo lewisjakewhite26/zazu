@@ -23,7 +23,7 @@ import { useAlarmFlow } from '@/context/AlarmFlowContext';
 export function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { colors, blend, toggleOverride } = useTheme();
+  const { colors, override, toggleOverride } = useTheme();
   const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, toggleAlarm, deleteAlarm } = useAlarms();
   const {
@@ -78,7 +78,11 @@ export function HomeScreen() {
   }, [startFlow, alarmWordOfDay, router]);
 
   const themeToggleLabel =
-    blend >= 0.5 ? copy.home.switchToLightMode : copy.home.switchToDarkMode;
+    override === 'auto'
+      ? copy.home.themeAuto
+      : override === 'light'
+        ? copy.home.themeLight
+        : copy.home.themeDark;
 
   return (
     <GradientBackground>

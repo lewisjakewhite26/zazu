@@ -2,15 +2,19 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type ReactNode,
 } from 'react';
 
-import { THEME_DARK, THEME_LIGHT, type ThemePalette } from '../../lib/adaptive-theme';
+import { THEME_DARK, getThemeBlend, resolveThemePalette, type ThemePalette } from '../../lib/adaptive-theme';
 import { colors as staticColors } from '@/constants/theme';
 
-type ThemeOverride = 'light' | 'dark';
+/** 'auto' follows the real-time dawn/dusk blend; 'light'/'dark' is an explicit user override. */
+type ThemeOverride = 'light' | 'dark' | 'auto';
+
+const AUTO_TICK_MS = 60_000;
 
 type ThemeContextValue = {
   colors: ReturnType<typeof mergePalette>;
@@ -63,19 +67,37 @@ function mergePalette(palette: ThemePalette) {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [override, setOverride] = useState<ThemeOverride>('dark');
+  const [override, setOverride] = useState<ThemeOverride>('auto');
+  const [now, setNow] = useState(() => new Date());
 
-  const blend = override === 'light' ? 0 : 1;
+  // While in auto mode, re-check the dawn/dusk clock periodically so the
+  // gradual light<->dark blend actually moves during a long-open session.
+  useEffect(() => {
+    if (override !== 'auto') return;
+    const id = setInterval(() => setNow(new Date()), AUTO_TICK_MS);
+    return () => clearInterval(id);
+  }, [override]);
+
+  const blend = useMemo(() => {
+    if (override === 'light') return 0;
+    if (override === 'dark') return 1;
+    return getThemeBlend(now);
+  }, [override, now]);
 
   const palette = useMemo<ThemePalette>(
-    () => (override === 'light' ? THEME_LIGHT : THEME_DARK),
-    [override],
+    () => resolveThemePalette(now, override === 'auto' ? null : override),
+    [now, override],
   );
 
   const colors = useMemo(() => mergePalette(palette), [palette]);
 
+  // Sequential three-way cycle: auto (dawn/dusk) -> light -> dark -> auto.
   const toggleOverride = useCallback(() => {
-    setOverride((current) => (current === 'light' ? 'dark' : 'light'));
+    setOverride((current) => {
+      if (current === 'auto') return 'light';
+      if (current === 'light') return 'dark';
+      return 'auto';
+    });
   }, []);
 
   const value = useMemo(
