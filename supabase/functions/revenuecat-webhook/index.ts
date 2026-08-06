@@ -14,6 +14,18 @@ function parseSignatureHeader(signatureHeader: string): { timestamp: string; sig
   };
 }
 
+/** Constant-time string comparison — avoids leaking match length via timing. */
+function timingSafeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) return false;
+  let mismatch = 0;
+  for (let i = 0; i < a.length; i += 1) {
+    mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return mismatch === 0;
+}
+
+const WEBHOOK_TOLERANCE_SECONDS = 300;
+
 const SUPABASE_URL = Deno.env.get('SUPABASE_URL');
 const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
 const REVENUECAT_WEBHOOK_KEY = Deno.env.get('REVENUECAT_WEBHOOK_KEY');
@@ -50,9 +62,19 @@ function verifyWebhookSignature(body: string, signatureHeader: string): boolean 
     const parsed = parseSignatureHeader(signatureHeader);
     if (!parsed) return false;
 
+    // Reject stale signatures so a captured, still-valid payload can't be
+    // replayed later to re-grant or otherwise mutate entitlements.
+    const timestampSeconds = Number.parseInt(parsed.timestamp, 10);
+    if (!Number.isFinite(timestampSeconds)) return false;
+    const ageSeconds = Math.abs(Date.now() / 1000 - timestampSeconds);
+    if (ageSeconds > WEBHOOK_TOLERANCE_SECONDS) {
+      console.error('Webhook timestamp outside tolerance window');
+      return false;
+    }
+
     const signedPayload = `${parsed.timestamp}.${body}`;
     const computedSignature = hmacSHA256(signedPayload, REVENUECAT_WEBHOOK_KEY!).toString();
-    return computedSignature.toLowerCase() === parsed.signature.toLowerCase();
+    return timingSafeEqual(computedSignature.toLowerCase(), parsed.signature.toLowerCase());
   } catch (error) {
     console.error('Error verifying webhook signature:', error);
     return false;
