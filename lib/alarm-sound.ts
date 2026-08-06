@@ -36,15 +36,11 @@ function playWebChime() {
   });
 }
 
-async function playNativeChime() {
-  if (Platform.OS === 'web') return;
+/** Loads the chime into memory once and reuses it; safe to call repeatedly. */
+async function ensureNativeSoundLoaded(): Promise<Audio.Sound | null> {
+  if (nativeSound) return nativeSound;
 
   try {
-    if (nativeSound) {
-      await nativeSound.replayAsync();
-      return;
-    }
-
     await Audio.setAudioModeAsync({
       playsInSilentModeIOS: true,
       staysActiveInBackground: true,
@@ -53,11 +49,37 @@ async function playNativeChime() {
 
     const { sound } = await Audio.Sound.createAsync(
       require('../mobile/assets/sounds/alarm-chime.wav'),
-      { shouldPlay: true, volume: 0.7 },
+      { shouldPlay: false, volume: 0.7 },
     );
     nativeSound = sound;
+    return nativeSound;
   } catch (error) {
-    console.warn('[Zazu] Alarm chime failed:', error);
+    console.warn('[Zazu] Alarm chime load failed:', error);
+    return null;
+  }
+}
+
+/**
+ * Decodes and primes the chime ahead of time so the first real play — the
+ * highest-stakes, most time-sensitive sound in the app — has no audio-session
+ * or file-decode latency. Call once, early (app boot), not from the alarm
+ * screen itself.
+ */
+export async function preloadAlarmSound(): Promise<void> {
+  if (Platform.OS === 'web') return;
+  await ensureNativeSoundLoaded();
+}
+
+async function playNativeChime() {
+  if (Platform.OS === 'web') return;
+
+  const sound = await ensureNativeSoundLoaded();
+  if (!sound) return;
+
+  try {
+    await sound.replayAsync();
+  } catch (error) {
+    console.warn('[Zazu] Alarm chime playback failed:', error);
   }
 }
 

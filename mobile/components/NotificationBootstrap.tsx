@@ -5,6 +5,7 @@ import { useRouter } from 'expo-router';
 
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
+import { preloadAlarmSound } from '../../lib/alarm-sound';
 
 type NotificationBootstrapProps = {
   children: React.ReactNode;
@@ -23,6 +24,10 @@ export function NotificationBootstrap({ children }: NotificationBootstrapProps) 
 
   useEffect(() => {
     if (Platform.OS === 'web') return;
+
+    // Prime the chime once at boot so the real alarm never pays a
+    // decode/audio-session delay on its first play.
+    void preloadAlarmSound();
 
     void Notifications.getLastNotificationResponseAsync().then((response) => {
       if (response) openAlarmFlow();
