@@ -29,3 +29,6 @@ Thumbs.db
 
 # impeccable skill critique logs
 .impeccable/
+
+# Playwright screenshot audit output
+screenshots/

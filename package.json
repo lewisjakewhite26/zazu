@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-    "scripts": {
+  "scripts": {
     "config": "node scripts/generate-public-config.mjs",
     "vercel-build": "node scripts/vercel-build.mjs",
     "seed": "node scripts/seed-words.mjs",
@@ -17,5 +17,8 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }
