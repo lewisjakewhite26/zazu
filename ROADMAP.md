@@ -100,7 +100,8 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 41 | Add automated tests — start with webhook signature verification and RLS policy checks (the actual paywall enforcement layer) | Not started |
 | 42 | Fix `zazu-words.schema.json` — stale (says "Target: 100 words," missing `roots`/`introEtymology`/`morningTask` fields), unused by any script today, so harmless but misleading | Not started |
 | 43 | Reconcile git remote / deploy pipeline — `git remote -v` is empty despite README describing GitHub→Vercel auto-deploy; confirm how deploys actually happen today | Not started |
-| 44 | Land or drop the in-flight icon migration — `mobile/package.json` has uncommitted additions of `phosphor-react-native` + `react-native-svg` alongside the existing `@expo/vector-icons`; two icon systems present mid-migration | In progress, uncommitted |
+| 44 | Land or drop the in-flight icon migration — `mobile/package.json` has uncommitted additions of `phosphor-react-native` + `react-native-svg` alongside the existing `@expo/vector-icons`; two icon systems present mid-migration | **Done** — all 11 files migrated to `phosphor-react-native`, `@expo/vector-icons` removed from `package.json`, committed in `95306b0` |
+| 45 | Demo-alarm exit affordance — `AlarmFlowContext.startFlow` takes `{ isDemo?: boolean }`; Home's "Try the alarm" preview sets it, and `AlarmScreen`/`LearnScreen`/`MorningTaskScreen` show a close `IconButton` only when `isDemo` is true, calling `clearFlow()` + `router.replace('/')`. Real (non-demo) alarms stay locked with no exit, by design. | In progress, uncommitted — `PuzzleScreen.tsx`'s exit button is **not** gated on `isDemo` (always shown, routes to `/gym` instead of `/`); confirm whether that's intentional (Word Gym has no locked mode) or a gap before committing |
 
 ### Also shipped with P2 (data + content)
 
@@ -189,9 +190,10 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 
 1. ~~Fix the paywall bypass~~ — **done**, `006_lock_remaining_premium_rls.sql` shipped.
 2. ~~Add mobile nav~~ — **done**, Settings + Calendar icons on Home header.
-3. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end.
-4. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification.
-5. **Add minimal tests:** webhook signature verification + RLS policy checks first, since those are the paywall's actual enforcement layer.
-6. **Resolve the in-flight icon migration** (`phosphor-react-native` vs `@expo/vector-icons`) — commit or revert, don't leave both mid-flight.
+3. ~~Resolve the in-flight icon migration~~ — **done**, `phosphor-react-native` fully swapped in, committed in `95306b0`.
+4. **Finish + commit the demo-alarm exit affordance (#45):** decide whether `PuzzleScreen`'s exit button should gate on `isDemo` like the other three screens, then commit — currently uncommitted in the working tree.
+5. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end.
+6. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification.
+7. **Add minimal tests:** webhook signature verification + RLS policy checks first, since those are the paywall's actual enforcement layer.
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
