@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { IconButton } from '@/components/ui/IconButton';
 import { PuzzleTile } from '@/components/puzzle/PuzzleTile';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useSubscription } from '@/context/SubscriptionContext';
@@ -23,7 +25,7 @@ import { stopAlarmSound } from '../../../lib/alarm-sound';
 export function PuzzleScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { gymSessionWord, setGymCompletionResult } = useAlarmFlow();
+  const { gymSessionWord, setGymCompletionResult, clearFlow } = useAlarmFlow();
   const { isGold } = useSubscription();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
@@ -167,11 +169,22 @@ export function PuzzleScreen() {
     [locked, tiles, selectedId, matched, round, advanceRound],
   );
 
+  const handleExit = useCallback(() => {
+    clearFlow();
+    router.replace('/gym');
+  }, [clearFlow, router]);
+
   const styles = useMemo(
     () =>
       StyleSheet.create({
         safeArea: {
           flex: 1,
+        },
+        closeButton: {
+          position: 'absolute',
+          top: spacing.sm,
+          right: spacing.lg,
+          zIndex: 2,
         },
         scrollContent: {
           flexGrow: 1,
@@ -264,6 +277,14 @@ export function PuzzleScreen() {
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
+        <IconButton
+          onPress={handleExit}
+          accessibilityLabel="Exit Word Gym"
+          variant="card"
+          style={styles.closeButton}
+        >
+          <XIcon size={20} color={colors.text} />
+        </IconButton>
         <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={styles.inner}>
             <View style={styles.banner}>

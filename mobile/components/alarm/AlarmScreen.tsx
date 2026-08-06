@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
+import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { AlarmOrbs } from '@/components/ui/AlarmOrbs';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
@@ -22,7 +24,7 @@ function formatClock(date: Date): string {
 export function AlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { sessionWord } = useAlarmFlow();
+  const { sessionWord, isDemo, clearFlow } = useAlarmFlow();
   const [clock, setClock] = useState(formatClock(new Date()));
 
   useEffect(() => {
@@ -38,11 +40,22 @@ export function AlarmScreen() {
 
   useAlarmSound(Boolean(sessionWord));
 
+  const handleExitDemo = () => {
+    clearFlow();
+    router.replace('/');
+  };
+
   const styles = useMemo(
     () =>
       StyleSheet.create({
         safeArea: {
           flex: 1,
+        },
+        closeButton: {
+          position: 'absolute',
+          top: spacing.sm,
+          right: spacing.lg,
+          zIndex: 2,
         },
         content: {
           flex: 1,
@@ -103,6 +116,16 @@ export function AlarmScreen() {
     <GradientBackground>
       <AlarmOrbs />
       <SafeAreaView style={styles.safeArea}>
+        {isDemo ? (
+          <IconButton
+            onPress={handleExitDemo}
+            accessibilityLabel="Exit demo alarm"
+            variant="card"
+            style={styles.closeButton}
+          >
+            <XIcon size={20} color={colors.text} />
+          </IconButton>
+        ) : null}
         <View style={styles.content}>
           <Image
             source={require('@/assets/images/zazu-mark.png')}

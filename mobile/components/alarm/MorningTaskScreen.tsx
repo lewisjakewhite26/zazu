@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, Easing, Pressable, StyleSheet, Text, View } from 'react-native';
+import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
@@ -20,7 +22,7 @@ const CORRECT_CONFIRM_MS = 500;
 export function MorningTaskScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { sessionWord, setCompletionResult } = useAlarmFlow();
+  const { sessionWord, isDemo, clearFlow, setCompletionResult } = useAlarmFlow();
   const { completeWord } = useProgress();
   const [loading, setLoading] = useState(true);
   const [question, setQuestion] = useState('');
@@ -105,11 +107,22 @@ export function MorningTaskScreen() {
     [colors, correctIndex, isCorrect, options, selectedIndex],
   );
 
+  const handleExitDemo = () => {
+    clearFlow();
+    router.replace('/');
+  };
+
   const styles = useMemo(
     () =>
       StyleSheet.create({
         safeArea: {
           flex: 1,
+        },
+        closeButton: {
+          position: 'absolute',
+          top: spacing.sm,
+          right: spacing.lg,
+          zIndex: 2,
         },
         inner: {
           flex: 1,
@@ -242,6 +255,16 @@ export function MorningTaskScreen() {
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
+        {isDemo ? (
+          <IconButton
+            onPress={handleExitDemo}
+            accessibilityLabel="Exit demo alarm"
+            variant="card"
+            style={styles.closeButton}
+          >
+            <XIcon size={20} color={colors.text} />
+          </IconButton>
+        ) : null}
         <View style={styles.inner}>
           <Text style={styles.eyebrow}>{copy.morningTask.eyebrow}</Text>
           <Text style={styles.word}>{sessionWord.word}</Text>

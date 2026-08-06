@@ -1,10 +1,12 @@
 import { useEffect, useMemo } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { IconButton } from '@/components/ui/IconButton';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
 export function LearnScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { sessionWord } = useAlarmFlow();
+  const { sessionWord, isDemo, clearFlow } = useAlarmFlow();
 
   useEffect(() => {
     if (!sessionWord) {
@@ -59,11 +61,22 @@ export function LearnScreen() {
     void stopAlarmSound();
   }, [sessionWord, router]);
 
+  const handleExitDemo = () => {
+    clearFlow();
+    router.replace('/');
+  };
+
   const screenStyles = useMemo(
     () =>
       StyleSheet.create({
         safeArea: {
           flex: 1,
+        },
+        closeButton: {
+          position: 'absolute',
+          top: spacing.sm,
+          right: spacing.lg,
+          zIndex: 2,
         },
         scrollContent: {
           flexGrow: 1,
@@ -136,6 +149,16 @@ export function LearnScreen() {
   return (
     <GradientBackground>
       <SafeAreaView style={screenStyles.safeArea}>
+        {isDemo ? (
+          <IconButton
+            onPress={handleExitDemo}
+            accessibilityLabel="Exit demo alarm"
+            variant="card"
+            style={screenStyles.closeButton}
+          >
+            <XIcon size={20} color={colors.text} />
+          </IconButton>
+        ) : null}
         <ScrollView contentContainerStyle={screenStyles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={screenStyles.inner}>
             <Text style={screenStyles.eyebrow}>{copy.learn.eyebrow}</Text>

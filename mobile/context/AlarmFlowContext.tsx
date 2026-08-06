@@ -8,7 +8,9 @@ type AlarmFlowContextValue = {
   gymSessionWord: ZazuGymWord | null;
   completionResult: CompletionResult | null;
   gymCompletionResult: GymCompletionResult | null;
-  startFlow: (word: ZazuAlarmWord) => void;
+  /** True when the alarm flow was entered via the Home screen's "Try the alarm" preview rather than a real scheduled notification. Demo sessions get a visible exit; the real alarm stays locked until the task is done, by design. */
+  isDemo: boolean;
+  startFlow: (word: ZazuAlarmWord, options?: { isDemo?: boolean }) => void;
   startGymFlow: (word: ZazuGymWord) => void;
   setCompletionResult: (result: CompletionResult) => void;
   setGymCompletionResult: (result: GymCompletionResult) => void;
@@ -24,12 +26,14 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   const [gymCompletionResult, setGymCompletionResultState] = useState<GymCompletionResult | null>(
     null,
   );
+  const [isDemo, setIsDemo] = useState(false);
 
-  const startFlow = useCallback((word: ZazuAlarmWord) => {
+  const startFlow = useCallback((word: ZazuAlarmWord, options?: { isDemo?: boolean }) => {
     setSessionWord(word);
     setGymSessionWord(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
+    setIsDemo(Boolean(options?.isDemo));
   }, []);
 
   const startGymFlow = useCallback((word: ZazuGymWord) => {
@@ -52,6 +56,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setGymSessionWord(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
+    setIsDemo(false);
   }, []);
 
   const value = useMemo(
@@ -60,6 +65,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       gymSessionWord,
       completionResult,
       gymCompletionResult,
+      isDemo,
       startFlow,
       startGymFlow,
       setCompletionResult,
@@ -71,6 +77,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       gymSessionWord,
       completionResult,
       gymCompletionResult,
+      isDemo,
       startFlow,
       startGymFlow,
       setCompletionResult,

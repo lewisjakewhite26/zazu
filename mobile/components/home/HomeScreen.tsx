@@ -73,7 +73,7 @@ export function HomeScreen() {
 
   const handleDemoAlarm = useCallback(() => {
     if (!alarmWordOfDay) return;
-    startFlow(alarmWordOfDay);
+    startFlow(alarmWordOfDay, { isDemo: true });
     router.push('/alarm');
   }, [startFlow, alarmWordOfDay, router]);
 
