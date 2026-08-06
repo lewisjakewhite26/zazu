@@ -1,6 +1,9 @@
 // @ts-nocheck
-import { Platform } from 'react-native';
+import { Platform, Vibration } from 'react-native';
 import { Audio } from 'expo-av';
+
+/** Pulses while the alarm rings; loops from the start of the pattern until Vibration.cancel(). */
+const ALARM_VIBRATION_PATTERN = [0, 800, 400, 800];
 
 export type AlarmSoundId = 'chime' | 'susurrus' | 'mellifluous' | 'penumbra' | 'ephemeral';
 
@@ -117,6 +120,11 @@ async function playNativeChime(soundId: AlarmSoundId) {
 export async function startAlarmSound(soundId: AlarmSoundId = DEFAULT_ALARM_SOUND_ID): Promise<void> {
   activeSoundId = soundId;
 
+  if (Platform.OS !== 'web') {
+    // `true` repeats the pattern from the start for as long as the alarm rings.
+    Vibration.vibrate(ALARM_VIBRATION_PATTERN, true);
+  }
+
   if (Platform.OS === 'web') {
     const context = getWebAudioContext();
     if (!context) return;
@@ -138,6 +146,10 @@ export async function startAlarmSound(soundId: AlarmSoundId = DEFAULT_ALARM_SOUN
 }
 
 export async function stopAlarmSound(): Promise<void> {
+  // Explicit stop, whether the user dismissed, snoozed, or backed out of the
+  // demo — a stray repeating vibration is a lot worse than a stray chime.
+  Vibration.cancel();
+
   if (webInterval) {
     clearInterval(webInterval);
     webInterval = null;

@@ -13,6 +13,26 @@ Notifications.setNotificationHandler({
   }),
 });
 
+const ALARM_CHANNEL_ID = 'alarm';
+
+/**
+ * Android ignores per-notification vibration and routes it through the
+ * channel instead — without this, a scheduled alarm falls back to the
+ * default channel's single short buzz, nowhere near enough to wake someone.
+ */
+async function ensureAlarmNotificationChannel(): Promise<void> {
+  if (Platform.OS !== 'android') return;
+
+  await Notifications.setNotificationChannelAsync(ALARM_CHANNEL_ID, {
+    name: 'Alarm',
+    importance: Notifications.AndroidImportance.MAX,
+    vibrationPattern: [0, 1000, 500, 1000],
+    enableVibrate: true,
+    lockscreenVisibility: Notifications.AndroidNotificationVisibility.PUBLIC,
+    sound: 'default',
+  });
+}
+
 function parseTime(time: string): { hour: number; minute: number } | null {
   const match = /^(\d{1,2}):(\d{2})$/.exec(time);
   if (!match) return null;
@@ -24,6 +44,8 @@ function parseTime(time: string): { hour: number; minute: number } | null {
 
 export async function requestNotificationPermissions(): Promise<boolean> {
   if (Platform.OS === 'web') return false;
+
+  await ensureAlarmNotificationChannel();
 
   const settings = await Notifications.getPermissionsAsync();
   if (settings.granted) return true;
@@ -54,6 +76,7 @@ export async function scheduleAlarmNotification(alarm: Alarm): Promise<string | 
       type: Notifications.SchedulableTriggerInputTypes.DAILY,
       hour: parsed.hour,
       minute: parsed.minute,
+      channelId: ALARM_CHANNEL_ID,
     },
   });
 }

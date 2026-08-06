@@ -20,7 +20,7 @@ import {
   stripHtml,
   type PuzzleTileState,
 } from '../../../lib/puzzle-utils';
-import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
+import { hapticCorrect, hapticSelect, hapticWrong } from '../../../lib/feedback';
 import { stopAlarmSound } from '../../../lib/alarm-sound';
 
 export function PuzzleScreen() {
@@ -83,6 +83,8 @@ export function PuzzleScreen() {
 
       const tile = tiles.find((entry) => entry.id === tileId);
       if (!tile || tile.state === 'correct' || tile.state === 'gone') return;
+
+      hapticSelect();
 
       if (selectedId === tileId) {
         setSelectedId(null);
