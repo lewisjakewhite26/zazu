@@ -215,44 +215,49 @@ export function useProgress() {
   /** Morning alarm completion. Updates streak, coins, and learnedWordIds only. */
   const completeWord = useCallback(
     async (wordId: string, options: CompleteWordOptions = {}) => {
-      const noSnooze = options.noSnooze ?? true;
-      const today = toIsoDate();
-      const now = toIsoDateTime();
+      console.time('[Zazu] completeWord');
+      try {
+        const noSnooze = options.noSnooze ?? true;
+        const today = toIsoDate();
+        const now = toIsoDateTime();
 
-      const saved = await readProgress();
-      const newStreak = nextStreak(saved.streak, saved.lastCompletedDate, today);
-      const earned = coinsBreakdown(newStreak, noSnooze).total;
-      const newLearned = saved.learnedWordIds.includes(wordId)
-        ? saved.learnedWordIds
-        : [...saved.learnedWordIds, wordId];
+        const saved = await readProgress();
+        const newStreak = nextStreak(saved.streak, saved.lastCompletedDate, today);
+        const earned = coinsBreakdown(newStreak, noSnooze).total;
+        const newLearned = saved.learnedWordIds.includes(wordId)
+          ? saved.learnedWordIds
+          : [...saved.learnedWordIds, wordId];
 
-      const existing = getWordProgress(saved, wordId);
-      const nextWordProgress = upsertWordProgress(saved.wordProgress, {
-        ...existing,
-        wordId,
-        alarmCompletedAt: now,
-        coinsEarned: earned,
-        dismissSeconds: options.dismissSeconds ?? existing.dismissSeconds ?? null,
-        firstTry: options.firstTry ?? true,
-      });
+        const existing = getWordProgress(saved, wordId);
+        const nextWordProgress = upsertWordProgress(saved.wordProgress, {
+          ...existing,
+          wordId,
+          alarmCompletedAt: now,
+          coinsEarned: earned,
+          dismissSeconds: options.dismissSeconds ?? existing.dismissSeconds ?? null,
+          firstTry: options.firstTry ?? true,
+        });
 
-      const next: ProgressState = {
-        streak: newStreak,
-        lastCompletedDate: today,
-        coins: saved.coins + earned,
-        learnedWordIds: newLearned,
-        wordProgress: nextWordProgress,
-      };
+        const next: ProgressState = {
+          streak: newStreak,
+          lastCompletedDate: today,
+          coins: saved.coins + earned,
+          learnedWordIds: newLearned,
+          wordProgress: nextWordProgress,
+        };
 
-      await writeProgress(next);
-      applyProgress(next);
+        await writeProgress(next);
+        applyProgress(next);
 
-      return {
-        streak: next.streak,
-        coinsEarned: earned,
-        totalCoins: next.coins,
-        breakdown: coinsBreakdown(newStreak, noSnooze),
-      };
+        return {
+          streak: next.streak,
+          coinsEarned: earned,
+          totalCoins: next.coins,
+          breakdown: coinsBreakdown(newStreak, noSnooze),
+        };
+      } finally {
+        console.timeEnd('[Zazu] completeWord');
+      }
     },
     [applyProgress],
   );

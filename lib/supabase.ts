@@ -195,51 +195,107 @@ export function pickNextWord(words: ZazuGymWord[], learnedIds: string[]): ZazuGy
   return pickWordOfDay(pool);
 }
 
+/** Above this, a hung RPC would otherwise block the alarm/puzzle screen forever. */
+const RPC_TIMEOUT_MS = 8000;
+
+/** Races a Supabase call against a timeout so a stalled network request can't hang the caller indefinitely. */
+function withTimeout<T>(promise: PromiseLike<T>, ms: number, label: string): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`${label} timed out after ${ms}ms`)), ms);
+    Promise.resolve(promise).then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (error) => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
+}
+
 export async function fetchAlarmWords(): Promise<ZazuAlarmWord[]> {
   const supabase = getSupabase();
   if (!supabase) return [];
 
-  const { data, error } = await supabase.rpc('get_words_for_alarm');
+  console.time('[Zazu] rpc:get_words_for_alarm');
+  try {
+    const { data, error } = await withTimeout(
+      supabase.rpc('get_words_for_alarm'),
+      RPC_TIMEOUT_MS,
+      'get_words_for_alarm',
+    );
 
-  if (error) {
-    console.error('[Zazu] Alarm word fetch failed:', error.message);
+    if (error) {
+      console.error('[Zazu] Alarm word fetch failed:', error.message);
+      return [];
+    }
+
+    return (data ?? []).map((row: AlarmRow) => mapAlarmRow(row));
+  } catch (error) {
+    console.error('[Zazu] Alarm word fetch failed:', error instanceof Error ? error.message : error);
     return [];
+  } finally {
+    console.timeEnd('[Zazu] rpc:get_words_for_alarm');
   }
-
-  return (data ?? []).map((row: AlarmRow) => mapAlarmRow(row));
 }
 
 export async function fetchGymWords(): Promise<ZazuGymWord[]> {
   const supabase = getSupabase();
   if (!supabase) return [];
 
-  const { data, error } = await supabase.rpc('get_words_for_gym');
+  console.time('[Zazu] rpc:get_words_for_gym');
+  try {
+    const { data, error } = await withTimeout(
+      supabase.rpc('get_words_for_gym'),
+      RPC_TIMEOUT_MS,
+      'get_words_for_gym',
+    );
 
-  if (error) {
-    console.error('[Zazu] Gym word fetch failed:', error.message);
+    if (error) {
+      console.error('[Zazu] Gym word fetch failed:', error.message);
+      return [];
+    }
+
+    return (data ?? []).map((row: GymRow) => mapGymRow(row));
+  } catch (error) {
+    console.error('[Zazu] Gym word fetch failed:', error instanceof Error ? error.message : error);
     return [];
+  } finally {
+    console.timeEnd('[Zazu] rpc:get_words_for_gym');
   }
-
-  return (data ?? []).map((row: GymRow) => mapGymRow(row));
 }
 
 export async function fetchMorningTaskDistractors(): Promise<MorningTaskDistractor[]> {
   const supabase = getSupabase();
   if (!supabase) return [];
 
-  const { data, error } = await supabase.rpc('get_morning_task_distractors');
+  console.time('[Zazu] rpc:get_morning_task_distractors');
+  try {
+    const { data, error } = await withTimeout(
+      supabase.rpc('get_morning_task_distractors'),
+      RPC_TIMEOUT_MS,
+      'get_morning_task_distractors',
+    );
 
-  if (error) {
-    console.error('[Zazu] Distractor fetch failed:', error.message);
+    if (error) {
+      console.error('[Zazu] Distractor fetch failed:', error.message);
+      return [];
+    }
+
+    return (data ?? []).map((row: DistractorRow) => ({
+      id: row.id,
+      taskType: row.task_type,
+      answerText: row.answer_text,
+      weight: row.weight,
+    }));
+  } catch (error) {
+    console.error('[Zazu] Distractor fetch failed:', error instanceof Error ? error.message : error);
     return [];
+  } finally {
+    console.timeEnd('[Zazu] rpc:get_morning_task_distractors');
   }
-
-  return (data ?? []).map((row: DistractorRow) => ({
-    id: row.id,
-    taskType: row.task_type,
-    answerText: row.answer_text,
-    weight: row.weight,
-  }));
 }
 
 /** @deprecated Use fetchGymWords for puzzle rounds or fetchAlarmWords for the alarm path. */
