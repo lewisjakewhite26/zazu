@@ -60,10 +60,14 @@ export function AuthProvider({ children }: AuthProviderProps) {
     let cancelled = false;
 
     void (async () => {
-      const flags = await readOnboardingFlags();
-      if (cancelled) return;
-
-      const { data } = await supabase.auth.getSession();
+      // Onboarding flags (AsyncStorage) and the Supabase session (its own
+      // storage-backed read) are independent — run them concurrently rather
+      // than paying two sequential AsyncStorage round-trips before the app
+      // knows which screen to show.
+      const [flags, { data }] = await Promise.all([
+        readOnboardingFlags(),
+        supabase.auth.getSession(),
+      ]);
       if (cancelled) return;
 
       setHasOnboarded(flags.hasOnboarded);
