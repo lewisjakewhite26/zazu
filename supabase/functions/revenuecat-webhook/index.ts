@@ -31,6 +31,7 @@ interface RevenueCatEvent {
     product_id?: string;
     purchased_at_ms?: number;
     expiration_at_ms?: number;
+    grace_period_expiration_at_ms?: number;
   };
 }
 
@@ -106,10 +107,43 @@ async function handleRevenueCatEvent(event: RevenueCatEvent): Promise<void> {
         console.log(`Downgraded user ${userId} to free tier`);
         break;
 
-      case 'BILLING_ISSUE':
-        // Billing issue — could optionally suspend access
-        console.log(`Billing issue for user ${userId}, logging for review`);
+      case 'BILLING_ISSUE': {
+        // Payment failed — RevenueCat gives a grace window before the entitlement
+        // actually lapses. Store that window as gold_until so existing RLS checks
+        // (gold_until > now()) keep access alive during grace and self-expire after,
+        // without needing a follow-up event.
+        const graceExpiresAtMs = event.event.grace_period_expiration_at_ms;
+        const inGracePeriod = Boolean(graceExpiresAtMs && graceExpiresAtMs > Date.now());
+
+        if (inGracePeriod) {
+          await supabase.from('user_entitlements').upsert(
+            {
+              user_id: userId,
+              tier: 'gold',
+              gold_until: new Date(graceExpiresAtMs!).toISOString(),
+              source: 'revenuecat',
+              updated_at: new Date().toISOString(),
+            },
+            { onConflict: 'user_id' },
+          );
+          console.log(
+            `Billing issue for user ${userId}, in grace period until ${new Date(graceExpiresAtMs!).toISOString()}`,
+          );
+        } else {
+          await supabase.from('user_entitlements').upsert(
+            {
+              user_id: userId,
+              tier: 'free',
+              gold_until: null,
+              source: 'revenuecat',
+              updated_at: new Date().toISOString(),
+            },
+            { onConflict: 'user_id' },
+          );
+          console.log(`Billing issue for user ${userId}, no/expired grace period — downgraded to free`);
+        }
         break;
+      }
 
       default:
         console.log(`Unhandled event type: ${eventType}`);
