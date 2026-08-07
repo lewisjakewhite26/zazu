@@ -11,7 +11,7 @@ The short list. For full detail, evidence, and status notes, see [ROADMAP.md](RO
 - ~~Add a few automated tests~~ — done (webhook signature/entitlement logic + a structural RLS-policy regression test; real Postgres integration testing still needs Docker/Supabase CLI, which this environment doesn't have)
 - ~~Port the native floating tab bar~~ — done, now floating on all platforms (was web-only before)
 - ~~Rebuild Word Gym practice modes~~ — done: review queue, roots drill, usage lab all built on data already in the library
-- Wire up the Literary word pack (data already exists, needs seeding + gym screens)
+- ~~Wire up the Literary word pack~~ — code done, but **you need to**: run `supabase/migrations/008_literary_words.sql`, then `npm run seed:literary`
 - Build snooze properly (reschedule 5–10 min, no bonus if snoozed, one per morning)
 
 ## Later / backlog

@@ -1,26 +1,21 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Animated, Easing, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Animated, Easing, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
-import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useProgress } from '@/hooks/useProgress';
-import type { GymMcqQuestion } from '../../../lib/gym-modes';
+import type { LiteraryMcqQuestion } from '../../../lib/literary-words';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
 
 const CORRECT_ADVANCE_MS = 500;
 
-type GymMcqSessionScreenProps = {
-  modeLabel: string;
-};
-
-export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
+export function GymLiteraryRoundScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { gymSession, clearFlow } = useAlarmFlow();
@@ -29,18 +24,17 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [advanceReady, setAdvanceReady] = useState(false);
-  const [hintShown, setHintShown] = useState(false);
   const [sessionWordIds, setSessionWordIds] = useState<string[]>([]);
   const [finishing, setFinishing] = useState(false);
 
   const optionScales = useRef<Animated.Value[]>([]);
   const optionShakes = useRef<Animated.Value[]>([]);
 
-  const questions = gymSession && gymSession.mode !== 'literary' ? gymSession.mcqQuestions : [];
-  const current: GymMcqQuestion | undefined = questions[questionIndex];
+  const questions = gymSession && gymSession.mode === 'literary' ? gymSession.literaryQuestions : [];
+  const current: LiteraryMcqQuestion | undefined = questions[questionIndex];
 
   useEffect(() => {
-    if (!gymSession || gymSession.mode === 'literary' || gymSession.mcqQuestions.length === 0) {
+    if (!gymSession || gymSession.mode !== 'literary' || gymSession.literaryQuestions.length === 0) {
       router.replace('/(tabs)/gym');
     }
   }, [gymSession, router]);
@@ -55,7 +49,6 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
     );
     setSelectedIndex(null);
     setAdvanceReady(false);
-    setHintShown(false);
   }, [current?.wordId, current?.question]);
 
   const isCorrect = selectedIndex !== null && current && selectedIndex === current.correctIndex;
@@ -127,7 +120,6 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
 
     hapticWrong();
     setSelectedIndex(index);
-    setHintShown(true);
     runWrongShake(index);
     void recordMcqAnswer(current.wordId, false);
     setTimeout(() => setSelectedIndex(null), 700);
@@ -137,125 +129,149 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
     () =>
       StyleSheet.create({
         safeArea: { flex: 1 },
+        scrollContent: { flexGrow: 1, paddingBottom: spacing.xl },
         inner: {
-          flex: 1,
           width: '100%',
           maxWidth: CONTENT_MAX_WIDTH,
           alignSelf: 'center',
           paddingHorizontal: spacing.lg,
-          paddingTop: 28,
         },
-        eyebrow: {
-          ...typography.eyebrow,
+        banner: { alignItems: 'center', paddingTop: 28, paddingBottom: 16 },
+        wordMain: { ...typography.puzzleWordMain, color: colors.text },
+        wordRound: {
+          ...typography.puzzleWordRound,
           color: colors.subtext,
           textTransform: 'uppercase',
-          marginBottom: 8,
+          marginTop: 4,
         },
-        progress: {
+        contextContent: { paddingHorizontal: 16, paddingVertical: 13, marginBottom: 14 },
+        contextLabel: {
+          ...typography.etymLabel,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: 4,
+        },
+        contextText: {
           fontFamily: typography.btnDemo.fontFamily,
           fontSize: 13,
-          color: colors.subtext,
-          marginBottom: spacing.md,
-        },
-        questionCard: {
-          paddingHorizontal: 16,
-          paddingVertical: 14,
-          marginBottom: spacing.lg,
-        },
-        question: {
-          ...typography.mtQuestion,
+          lineHeight: 19,
           color: colors.text,
         },
-        options: { gap: 10 },
+        excerptLabel: {
+          ...typography.etymLabel,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginTop: 10,
+          marginBottom: 4,
+        },
+        excerptText: {
+          fontFamily: typography.btnDemo.fontFamily,
+          fontSize: 13,
+          lineHeight: 20,
+          color: colors.text,
+          fontStyle: 'italic',
+        },
+        options: { gap: spacing.sm },
         option: {
-          borderWidth: 1,
           borderRadius: 14,
+          borderWidth: 1,
           paddingHorizontal: 16,
           paddingVertical: 14,
         },
         optionText: {
-          ...typography.mtOption,
-        },
-        hint: {
-          fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          lineHeight: 20,
-          color: colors.subtext,
-          marginTop: 14,
-        },
-        tryAgain: {
           fontFamily: typography.btnDemo.fontFamily,
           fontSize: 14,
-          color: colors.subtext,
-          marginTop: spacing.md,
-          textAlign: 'center',
+          lineHeight: 20,
+        },
+        progressRow: {
+          flexDirection: 'row',
+          justifyContent: 'center',
+          gap: spacing.sm,
+          marginBottom: spacing.md,
+        },
+        progressDot: {
+          width: 8,
+          height: 8,
+          borderRadius: 4,
+          backgroundColor: colors.border,
+        },
+        progressDotDone: {
+          backgroundColor: colors.blush,
+          transform: [{ scale: 1.2 }],
         },
       }),
     [colors],
   );
 
-  if (!gymSession || !current) return null;
+  if (!gymSession || gymSession.mode !== 'literary' || !current) return null;
 
-  const progressLabel = copy.gymModes.questionProgress(questionIndex + 1, questions.length);
+  const progressDots = questions.map((_, index) => (
+    <View key={index} style={[styles.progressDot, index <= questionIndex && styles.progressDotDone]} />
+  ));
 
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
-        <View style={styles.inner}>
-          <Text style={styles.eyebrow}>{modeLabel}</Text>
-          <Text style={styles.progress}>{progressLabel}</Text>
+        <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+          <View style={styles.inner}>
+            <View style={styles.banner}>
+              <Text style={styles.wordMain}>{current.word}</Text>
+              <Text style={styles.wordRound}>{current.roundTitle}</Text>
+            </View>
 
-          <GlassCard borderRadius={16} contentStyle={styles.questionCard}>
-            <Text style={styles.question}>{current.question}</Text>
-          </GlassCard>
+            <GlassCard borderRadius={16} contentStyle={styles.contextContent}>
+              <Text style={styles.contextLabel}>{current.roundTitle}</Text>
+              <Text style={styles.contextText}>{current.context}</Text>
+              {current.excerptText ? (
+                <>
+                  <Text style={styles.excerptLabel}>{current.excerptLabel}</Text>
+                  <Text style={styles.excerptText}>"{current.excerptText}"</Text>
+                </>
+              ) : null}
+            </GlassCard>
 
-          <View style={styles.options}>
-            {current.options.map((option, index) => {
-              const scale = optionScales.current[index];
-              const shake = optionShakes.current[index];
-              if (!scale || !shake) return null;
+            <View style={styles.progressRow}>{progressDots}</View>
 
-              let backgroundColor = colors.card;
-              let borderColor = colors.border;
-              let textColor = colors.text;
+            <View style={styles.options}>
+              {current.options.map((option, index) => {
+                const scale = optionScales.current[index];
+                const shake = optionShakes.current[index];
+                if (!scale || !shake) return null;
 
-              if (selectedIndex !== null) {
-                if (index === current.correctIndex && isCorrect) {
-                  backgroundColor = 'rgba(168,216,176,0.35)';
-                  borderColor = colors.correct;
-                } else if (index === selectedIndex && !isCorrect) {
-                  backgroundColor = 'rgba(232,97,122,0.15)';
-                  borderColor = colors.wrong;
-                } else if (!isCorrect) {
-                  textColor = colors.subtext;
+                let backgroundColor = colors.card;
+                let borderColor = colors.border;
+                let textColor = colors.text;
+
+                if (selectedIndex !== null) {
+                  if (index === current.correctIndex && isCorrect) {
+                    backgroundColor = 'rgba(168,216,176,0.35)';
+                    borderColor = colors.correct;
+                  } else if (index === selectedIndex && !isCorrect) {
+                    backgroundColor = 'rgba(232,97,122,0.15)';
+                    borderColor = colors.wrong;
+                  } else if (!isCorrect) {
+                    textColor = colors.subtext;
+                  }
                 }
-              }
 
-              return (
-                <Animated.View
-                  key={`${current.wordId}-${option}`}
-                  style={{ transform: [{ scale }, { translateX: shake }] }}
-                >
-                  <Pressable
-                    onPress={() => handleSelect(index)}
-                    disabled={advanceReady || finishing}
-                    style={[styles.option, { backgroundColor, borderColor }]}
+                return (
+                  <Animated.View
+                    key={`${current.wordId}-${questionIndex}-${index}`}
+                    style={{ transform: [{ scale }, { translateX: shake }] }}
                   >
-                    <Text style={[styles.optionText, { color: textColor }]}>{option}</Text>
-                  </Pressable>
-                </Animated.View>
-              );
-            })}
+                    <Pressable
+                      onPress={() => handleSelect(index)}
+                      disabled={advanceReady || finishing}
+                      style={[styles.option, { backgroundColor, borderColor }]}
+                    >
+                      <Text style={[styles.optionText, { color: textColor }]}>{option}</Text>
+                    </Pressable>
+                  </Animated.View>
+                );
+              })}
+            </View>
           </View>
-
-          {hintShown && selectedIndex !== null && !isCorrect ? (
-            <Text style={styles.hint}>{copy.gymModes.mcqHint(current.word)}</Text>
-          ) : null}
-
-          {selectedIndex !== null && !isCorrect ? (
-            <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text>
-          ) : null}
-        </View>
+        </ScrollView>
       </SafeAreaView>
     </GradientBackground>
   );

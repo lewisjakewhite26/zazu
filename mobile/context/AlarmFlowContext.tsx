@@ -2,13 +2,13 @@ import { createContext, useCallback, useContext, useMemo, useState, type ReactNo
 
 import type { CompletionResult, GymCompletionResult } from '../../lib/useProgress';
 import type { GymMcqQuestion } from '../../lib/gym-modes';
+import type { LiteraryMcqQuestion } from '../../lib/literary-words';
 import type { ZazuAlarmWord, ZazuGymWord } from '../../lib/supabase';
 import { DEFAULT_ALARM_SOUND_ID, type AlarmSoundId } from '../../lib/alarm-sound';
 
-export type GymModeSession = {
-  mode: 'roots_drill' | 'usage_lab';
-  mcqQuestions: GymMcqQuestion[];
-};
+export type GymModeSession =
+  | { mode: 'roots_drill' | 'usage_lab'; mcqQuestions: GymMcqQuestion[] }
+  | { mode: 'literary'; literaryQuestions: LiteraryMcqQuestion[] };
 
 type AlarmFlowContextValue = {
   sessionWord: ZazuAlarmWord | null;

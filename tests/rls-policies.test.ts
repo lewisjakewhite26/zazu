@@ -61,6 +61,39 @@ describe('premium RLS policies', () => {
   });
 });
 
+describe('literary_words RLS', () => {
+  // Unlike the PREMIUM_GATED_TABLES above, every literary_words row is
+  // premium - there's no free-tier policy to check, by design.
+  const policies = extractFinalPolicies(MIGRATIONS_DIR);
+
+  it('literary_words_select_premium requires an active Gold entitlement', () => {
+    const policy = policies.get('literary_words.literary_words_select_premium');
+    expect(policy, 'literary_words_select_premium policy not found').toBeDefined();
+
+    expect(policy!.body).toContain('user_entitlements');
+    expect(policy!.body).toContain("tier = 'gold'");
+    expect(policy!.body).toContain('gold_until');
+  });
+
+  it('literary_words is not readable by anonymous users', () => {
+    const policy = policies.get('literary_words.literary_words_select_premium');
+    expect(policy).toBeDefined();
+
+    const roles = policy!.roles.split(',').map((r) => r.trim());
+    expect(roles).not.toContain('anon');
+  });
+
+  it('row level security is enabled on literary_words', () => {
+    const allSql = readdirSync(MIGRATIONS_DIR)
+      .filter((f) => f.endsWith('.sql'))
+      .map((f) => readFileSync(join(MIGRATIONS_DIR, f), 'utf8'))
+      .join('\n');
+
+    expect(allSql).toMatch(/alter table public\.literary_words enable row level security/);
+    expect(allSql).not.toMatch(/alter table public\.literary_words disable row level security/);
+  });
+});
+
 describe('user_entitlements RLS', () => {
   const policies = extractFinalPolicies(MIGRATIONS_DIR);
 

@@ -8,6 +8,8 @@
     "vercel-build": "node scripts/vercel-build.mjs",
     "seed": "node scripts/seed-words.mjs",
     "seed:dry": "node scripts/seed-words.mjs --dry-run",
+    "seed:literary:dry": "node scripts/seed-literary-words.mjs",
+    "seed:literary": "node scripts/seed-literary-words.mjs --apply",
     "words:morning-tasks": "node scripts/generate-morning-tasks.mjs",
     "words:morning-tasks:check": "node scripts/generate-morning-tasks.mjs --check",
     "words:normalize": "node scripts/normalize-word-copy.mjs",

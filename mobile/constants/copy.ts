@@ -146,6 +146,9 @@ export const copy = {
     needLearnedWords: 'Learn a few words first to unlock this.',
     questionProgress: (current: number, total: number) => `Question ${current} of ${total}`,
     mcqHint: (word: string) => `Have another look, then try ${word} again.`,
+    literaryTitle: 'Literary words',
+    literaryDescription: 'Quotes and coinages from Shakespeare, Milton, Dickens and more.',
+    literaryEmpty: 'No literary words yet.',
   },
   gymSuccess: {
     heading: 'Well practised.',

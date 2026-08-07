@@ -1,6 +1,12 @@
 import { useCallback, useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { ArrowsClockwiseIcon, BarbellIcon, QuotesIcon, TreeStructureIcon } from 'phosphor-react-native';
+import {
+  ArrowsClockwiseIcon,
+  BarbellIcon,
+  BookOpenIcon,
+  QuotesIcon,
+  TreeStructureIcon,
+} from 'phosphor-react-native';
 import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -19,6 +25,7 @@ import { useSubscription } from '@/context/SubscriptionContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
+import { useLiteraryWords } from '@/hooks/useLiteraryWords';
 import {
   buildRootsDrillQuestions,
   buildUsageLabQuestions,
@@ -26,6 +33,7 @@ import {
   pickDrillWords,
   pickNextReviewWord,
 } from '../../../lib/gym-modes';
+import { buildLiteraryQuestions } from '../../../lib/literary-words';
 import type { UserWordProgressLocal } from '../../../lib/morning-task';
 
 export function GymScreen() {
@@ -37,6 +45,7 @@ export function GymScreen() {
   const { loading: progressLoading, streak, coins, learnedWordIds, getGymMastery, wordProgress } =
     useProgress();
   const { loading: wordsLoading, gymWordOfDay, gymWords } = useWordLibrary(learnedWordIds);
+  const { literaryWords } = useLiteraryWords(isGold);
 
   const styles = useMemo(
     () =>
@@ -228,6 +237,13 @@ export function GymScreen() {
     router.push({ pathname: '/gym-mcq', params: { mode: 'usage' } } as unknown as Href);
   }, [gymWords, learnedWordIds, word?.id, startGymModeSession, router]);
 
+  const handleLiteraryRound = useCallback(() => {
+    const questions = buildLiteraryQuestions(literaryWords, 3);
+    if (questions.length === 0) return;
+    startGymModeSession({ mode: 'literary', literaryQuestions: questions });
+    router.push('/gym-literary-round');
+  }, [literaryWords, startGymModeSession, router]);
+
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
@@ -298,6 +314,15 @@ export function GymScreen() {
                   icon={QuotesIcon}
                   disabled={!canDrill}
                   onPress={handleUsageLab}
+                />
+                <GymModeCard
+                  title={copy.gymModes.literaryTitle}
+                  description={
+                    literaryWords.length > 0 ? copy.gymModes.literaryDescription : copy.gymModes.literaryEmpty
+                  }
+                  icon={BookOpenIcon}
+                  disabled={literaryWords.length === 0}
+                  onPress={handleLiteraryRound}
                 />
               </View>
             ) : (

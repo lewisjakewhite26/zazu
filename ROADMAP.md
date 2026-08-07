@@ -46,7 +46,7 @@ Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re
 | Check | Status |
 |---|---|
 | `npx tsc --noEmit` (mobile) | **Passes clean, zero errors** |
-| Automated tests | **Started 2026-08-07** — Vitest at root, 46 tests: webhook signature verification + entitlement-decision logic (`supabase/functions/revenuecat-webhook/logic.test.ts`), and a structural RLS-policy regression test (`tests/rls-policies.test.ts`, see #41 below). Still no tests for mobile UI or web. |
+| Automated tests | **Started 2026-08-07** — Vitest at root, 76 tests: webhook signature verification + entitlement-decision logic, a structural RLS-policy regression test covering every premium table including `literary_words` (see #41), and pure-logic coverage for Gym Modes (#26) and the Literary pack's question builder (#48). Still no tests for mobile UI or web. |
 | CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, root `tsc --noEmit`, `npm test`, and mobile `tsc --noEmit` — still no web build/lint, no mobile UI tests |
 
 **P1 code is complete and typesafe. Only #9 (real device) and test coverage remain.**
@@ -167,7 +167,7 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 | Feature | Verdict | Why |
 |---|---|---|
 | **Gym Modes** — review queue, roots drill, usage lab | **Rewritten — done (#26)** | Highest value, and it paid off: `lib/gym-modes.ts` rebuilt from scratch, `useProgress`/`useAlarmFlow` extended with session tracking, all built on data already in the library (no missing content). |
-| **Literary Gym Round** (quote-completion, author attribution) | **Rewrite** | Second-highest value. Unlike the old copy, **you already have the real data** — `THEMATIC PACKS/zazu-words-literary.json` (270 words, matches its own schema) is sitting uncommitted in this repo. Needs `gym-session.ts` rebuilt + that JSON seeded into Supabase; the screens themselves only touch libs you already have (`feedback.ts`, `alarm-sound.ts`, `puzzle-utils.ts`). |
+| **Literary Gym Round** (quote-completion, contextual definition) | **Rewritten — done, needs your migration run (#48)** | Turned out more involved than sized: the old copy's rounds mix match-pairs (Etymology) with a different MCQ shape (Quote Completion, Contextual Definition) that doesn't fit `word_rounds`/`word_pairs`, and the old screen wired literary rounds directly into the same step-by-step session as the normal puzzle — reworking that shared core wasn't worth the risk. Built as a fully isolated table + dedicated screen instead, see below. |
 | **FloatingTabBar** (native blur pill tab bar) | **Ported — done (#47)** | Only dependency was `AppIcon` (see below) — swapped for direct `phosphor-react-native` imports. No backend/data dependency. Cheapest real win found, and it was: one bug fixed in the port (`accessibilityRole` was `"button"`, needed `"tab"`), verified visually in both themes. |
 | **Snooze** | **Rewrite from spec** | The old copy's hook is an 8-line empty re-export — nothing to recover. Build fresh from the spec already below. |
 | **Word reroll** | **Rewrite, low priority** | Not previously tracked; mild tension with "one word, no choice" product framing. Needs a new persisted "reroll used today" state. |
@@ -176,6 +176,19 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 | **AppIcon fallback** (Phosphor + `@expo/vector-icons` runtime fallback) | **Drop** | Actively conflicts with #44 (icon migration), which already removed `@expo/vector-icons` from `package.json`. Resurrecting this means re-adding a dependency you deliberately dropped. |
 
 Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
+
+### Literary Gym Round (#48) — built, needs a migration + seed run
+
+Code is done and typechecks/tests pass, but this is the first feature this round that needs *you* to act before it does anything: I can't apply Supabase migrations or write to your live project from here.
+
+| # | Task | Status |
+|---|------|--------|
+| 48a | `supabase/migrations/008_literary_words.sql` — new `literary_words` table, RLS gold-gated (same pattern as 005/006), isolated from `words`/`word_rounds`/`word_pairs` entirely | Written, **not applied** — run it in the Supabase SQL Editor, or `npx supabase db push` |
+| 48b | `scripts/seed-literary-words.mjs` — loads `THEMATIC PACKS/zazu-words-literary.json` (270 words) into `literary_words` | Written and dry-run validated against the real file (`npm run seed:literary:dry`). **Not run against Supabase** — `npm run seed:literary` after 48a |
+| 48c | `lib/literary-words.ts` — types, `fetchLiteraryWords()`, `buildLiteraryQuestions()` (Quote Completion + Contextual Definition only; Etymology's match-pairs format isn't reused here, the word's own definition/origin already cover it) | Done, 8 Vitest tests |
+| 48d | New Gym Mode card "Literary words" → `/gym-literary-round` (`GymLiteraryRoundScreen`, self-contained, does not touch `PuzzleScreen`/`gymStepIndex`) | Done. Verified visually: renders correctly with 0 literary words (disabled card, "No literary words yet.", fetch fails gracefully — confirmed by pointing it at your live, not-yet-migrated Supabase project) |
+
+Once you've run 48a and 48b, the "Literary words" card unlocks for Gold users automatically — no further code changes needed.
 
 ### Snooze (#27) — design spec
 
@@ -223,7 +236,7 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 8. ~~Add minimal tests: webhook signature verification + RLS policy checks~~ — **done**, see #41. RLS coverage is structural, not a live-Postgres integration test — no Docker/Supabase CLI available here.
 9. ~~Port FloatingTabBar (#47)~~ — **done**, see #47.
 10. ~~Rebuild Gym Modes (#26)~~ — **done**, see #26.
-11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`. *(Code + a Supabase seed run.)*
+11. ~~Wire up the Literary pack + Literary Gym Round~~ — **code done**, see #48. **You still need to**: run `supabase/migrations/008_literary_words.sql`, then `npm run seed:literary` (populate your `.env` with `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` first if not already set).
 12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
