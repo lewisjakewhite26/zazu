@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import type { UserWordProgressLocal } from './morning-task';
+import { computeNextReview } from './gym-modes';
 
 const STORAGE_KEYS = {
   streak: 'zazu:streak',
@@ -262,15 +263,21 @@ export function useProgress() {
     [applyProgress],
   );
 
-  /** Word Gym completion. Updates gym mastery only, not learnedWordIds. */
+  /** Word Gym completion. Updates gym mastery and schedules the next spaced-repetition review. */
   const completeGym = useCallback(
     async (wordId: string, options: CompleteGymOptions = {}) => {
       const now = toIsoDateTime();
       const saved = await readProgress();
       const existing = getWordProgress(saved, wordId);
-      const wrongCount = (existing.gymWrongCount ?? 0) + (options.wrongCount ?? 0);
+      const roundWrongCount = options.wrongCount ?? 0;
+      const wrongCount = (existing.gymWrongCount ?? 0) + roundWrongCount;
       const gymMastery = Math.min(100, options.mastery ?? 100);
       const gymCoins = 20;
+
+      const { nextReviewAt, nextReviewIntervalDays } = computeNextReview(
+        existing.nextReviewIntervalDays,
+        roundWrongCount > 0,
+      );
 
       const nextWordProgress = upsertWordProgress(saved.wordProgress, {
         ...existing,
@@ -278,7 +285,8 @@ export function useProgress() {
         gymCompletedAt: now,
         gymMastery,
         gymWrongCount: wrongCount,
-        nextReviewAt: null,
+        nextReviewAt,
+        nextReviewIntervalDays,
       });
 
       const next: ProgressState = {
@@ -304,6 +312,39 @@ export function useProgress() {
     [wordProgress],
   );
 
+  /** Roots Drill / Usage Lab MCQ answer. Only wrong answers are persisted, feeding the same wrong-count signal completeGym uses. */
+  const recordMcqAnswer = useCallback(async (wordId: string, correct: boolean) => {
+    if (correct) return;
+    const saved = await readProgress();
+    const existing = getWordProgress(saved, wordId);
+    const next: ProgressState = {
+      ...saved,
+      wordProgress: upsertWordProgress(saved.wordProgress, {
+        ...existing,
+        wordId,
+        gymWrongCount: (existing.gymWrongCount ?? 0) + 1,
+      }),
+    };
+    await writeProgress(next);
+    applyProgress(next);
+  }, [applyProgress]);
+
+  /** Finishes a Roots Drill / Usage Lab session: flat coins per word answered, no effect on gym mastery or review scheduling. */
+  const completeGymModeSession = useCallback(
+    async (wordIds: string[], options: { coinsPerWord?: number } = {}) => {
+      const coinsPerWord = options.coinsPerWord ?? 15;
+      const earned = coinsPerWord * wordIds.length;
+
+      const saved = await readProgress();
+      const next: ProgressState = { ...saved, coins: saved.coins + earned };
+      await writeProgress(next);
+      applyProgress(next);
+
+      return { coinsEarned: earned, totalCoins: next.coins };
+    },
+    [applyProgress],
+  );
+
   /** Dev only. Sets last completed date without changing streak or coins. */
   const setLastCompletedDateDebug = useCallback(async (isoDate: string) => {
     const saved = await readProgress();
@@ -319,6 +360,8 @@ export function useProgress() {
     completeWord,
     completeGym,
     getGymMastery,
+    recordMcqAnswer,
+    completeGymModeSession,
     setLastCompletedDateDebug,
   };
 }

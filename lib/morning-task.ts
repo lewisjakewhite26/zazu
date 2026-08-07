@@ -164,6 +164,8 @@ export type UserWordProgressLocal = {
   gymMastery: number;
   gymWrongCount: number;
   nextReviewAt: string | null;
+  /** Days until the next review, doubling on a clean pass. See computeNextReview in gym-modes.ts. */
+  nextReviewIntervalDays?: number;
   dismissSeconds?: number | null;
   coinsEarned?: number | null;
   /** True when the morning task's MCQ was answered correctly with no wrong attempts (no hint needed). */

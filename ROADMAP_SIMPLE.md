@@ -10,7 +10,7 @@ The short list. For full detail, evidence, and status notes, see [ROADMAP.md](RO
 - Build the EAS dev build and install it on a real phone *(needs you — Expo account + device)*
 - ~~Add a few automated tests~~ — done (webhook signature/entitlement logic + a structural RLS-policy regression test; real Postgres integration testing still needs Docker/Supabase CLI, which this environment doesn't have)
 - ~~Port the native floating tab bar~~ — done, now floating on all platforms (was web-only before)
-- Rebuild Word Gym practice modes: review queue, roots drill, usage lab
+- ~~Rebuild Word Gym practice modes~~ — done: review queue, roots drill, usage lab all built on data already in the library
 - Wire up the Literary word pack (data already exists, needs seeding + gym screens)
 - Build snooze properly (reschedule 5–10 min, no bonus if snoozed, one per morning)
 

@@ -1,12 +1,19 @@
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react';
 
 import type { CompletionResult, GymCompletionResult } from '../../lib/useProgress';
+import type { GymMcqQuestion } from '../../lib/gym-modes';
 import type { ZazuAlarmWord, ZazuGymWord } from '../../lib/supabase';
 import { DEFAULT_ALARM_SOUND_ID, type AlarmSoundId } from '../../lib/alarm-sound';
+
+export type GymModeSession = {
+  mode: 'roots_drill' | 'usage_lab';
+  mcqQuestions: GymMcqQuestion[];
+};
 
 type AlarmFlowContextValue = {
   sessionWord: ZazuAlarmWord | null;
   gymSessionWord: ZazuGymWord | null;
+  gymSession: GymModeSession | null;
   completionResult: CompletionResult | null;
   gymCompletionResult: GymCompletionResult | null;
   /** True when the alarm flow was entered via the Home screen's "Try the alarm" preview rather than a real scheduled notification. Demo sessions get a visible exit; the real alarm stays locked until the task is done, by design. */
@@ -15,6 +22,7 @@ type AlarmFlowContextValue = {
   soundId: AlarmSoundId;
   startFlow: (word: ZazuAlarmWord, options?: { isDemo?: boolean; soundId?: AlarmSoundId }) => void;
   startGymFlow: (word: ZazuGymWord) => void;
+  startGymModeSession: (session: GymModeSession) => void;
   setCompletionResult: (result: CompletionResult) => void;
   setGymCompletionResult: (result: GymCompletionResult) => void;
   clearFlow: () => void;
@@ -25,6 +33,7 @@ const AlarmFlowContext = createContext<AlarmFlowContextValue | null>(null);
 export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   const [sessionWord, setSessionWord] = useState<ZazuAlarmWord | null>(null);
   const [gymSessionWord, setGymSessionWord] = useState<ZazuGymWord | null>(null);
+  const [gymSession, setGymSession] = useState<GymModeSession | null>(null);
   const [completionResult, setCompletionResultState] = useState<CompletionResult | null>(null);
   const [gymCompletionResult, setGymCompletionResultState] = useState<GymCompletionResult | null>(
     null,
@@ -35,6 +44,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   const startFlow = useCallback((word: ZazuAlarmWord, options?: { isDemo?: boolean; soundId?: AlarmSoundId }) => {
     setSessionWord(word);
     setGymSessionWord(null);
+    setGymSession(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
     setIsDemo(Boolean(options?.isDemo));
@@ -43,6 +53,15 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
 
   const startGymFlow = useCallback((word: ZazuGymWord) => {
     setGymSessionWord(word);
+    setGymSession(null);
+    setSessionWord(null);
+    setCompletionResultState(null);
+    setGymCompletionResultState(null);
+  }, []);
+
+  const startGymModeSession = useCallback((session: GymModeSession) => {
+    setGymSession(session);
+    setGymSessionWord(null);
     setSessionWord(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
@@ -59,6 +78,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   const clearFlow = useCallback(() => {
     setSessionWord(null);
     setGymSessionWord(null);
+    setGymSession(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
     setIsDemo(false);
@@ -69,12 +89,14 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     () => ({
       sessionWord,
       gymSessionWord,
+      gymSession,
       completionResult,
       gymCompletionResult,
       isDemo,
       soundId,
       startFlow,
       startGymFlow,
+      startGymModeSession,
       setCompletionResult,
       setGymCompletionResult,
       clearFlow,
@@ -82,12 +104,14 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     [
       sessionWord,
       gymSessionWord,
+      gymSession,
       completionResult,
       gymCompletionResult,
       isDemo,
       soundId,
       startFlow,
       startGymFlow,
+      startGymModeSession,
       setCompletionResult,
       setGymCompletionResult,
       clearFlow,

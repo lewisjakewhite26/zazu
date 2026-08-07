@@ -152,7 +152,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 20 | Reach 100 words | Done (395) |
 | 21 | Analytics + crash reporting | Not started |
 | 22 | Remove `ProgressDebugPanel` once streak logic verified on device | Dev only |
-| 26 | Spaced repetition in Word Gym (review queue, roots drill, usage lab) | **Audited 2026-08-07** — highest-value recoverable feature, see below. Not started in this repo |
+| 26 | Spaced repetition in Word Gym (review queue, roots drill, usage lab) | **Done** — `lib/gym-modes.ts` built fresh (the old copy's version was unrecoverable, see audit below). Review queue reuses the existing 3-round puzzle flow (`startGymFlow` + `/puzzle`) against whichever learned word is most overdue, on a doubling spaced-repetition interval (`computeNextReview`, capped at 30 days, resets to 1 day on any wrong answer) now written by `completeGym` instead of the old hardcoded `nextReviewAt: null`. Roots Drill and Usage Lab are new MCQ modes (`/gym-mcq`, `GymMcqSessionScreen`) built entirely from data every word already has — the Etymology and Usage rounds used by the main puzzle — so no new content or Supabase schema was needed. Gated behind Gold, matching the rest of Word Gym. 19 Vitest tests in `tests/gym-modes.test.ts`. Verified visually end-to-end (real Supabase data, not mocked) via a throwaway Playwright script. |
 | 27 | Snooze | Not started — design spec below; an old-copy hook exists but is an empty re-export, nothing to port |
 | 28 | Scale word library to 365+ | Done (395 words) |
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
@@ -166,7 +166,7 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 
 | Feature | Verdict | Why |
 |---|---|---|
-| **Gym Modes** — review queue, roots drill, usage lab | **Rewrite** | Highest value: operates on words you already have (no missing content, unlike packs), directly closes roadmap #26. Needs `gym-modes.ts` rebuilt + `useProgress`/`useAlarmFlow` extended with session tracking. |
+| **Gym Modes** — review queue, roots drill, usage lab | **Rewritten — done (#26)** | Highest value, and it paid off: `lib/gym-modes.ts` rebuilt from scratch, `useProgress`/`useAlarmFlow` extended with session tracking, all built on data already in the library (no missing content). |
 | **Literary Gym Round** (quote-completion, author attribution) | **Rewrite** | Second-highest value. Unlike the old copy, **you already have the real data** — `THEMATIC PACKS/zazu-words-literary.json` (270 words, matches its own schema) is sitting uncommitted in this repo. Needs `gym-session.ts` rebuilt + that JSON seeded into Supabase; the screens themselves only touch libs you already have (`feedback.ts`, `alarm-sound.ts`, `puzzle-utils.ts`). |
 | **FloatingTabBar** (native blur pill tab bar) | **Ported — done (#47)** | Only dependency was `AppIcon` (see below) — swapped for direct `phosphor-react-native` imports. No backend/data dependency. Cheapest real win found, and it was: one bug fixed in the port (`accessibilityRole` was `"button"`, needed `"tab"`), verified visually in both themes. |
 | **Snooze** | **Rewrite from spec** | The old copy's hook is an 8-line empty re-export — nothing to recover. Build fresh from the spec already below. |
@@ -222,7 +222,7 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 7. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification. *(Needs your Expo account + a physical device.)*
 8. ~~Add minimal tests: webhook signature verification + RLS policy checks~~ — **done**, see #41. RLS coverage is structural, not a live-Postgres integration test — no Docker/Supabase CLI available here.
 9. ~~Port FloatingTabBar (#47)~~ — **done**, see #47.
-10. **Rebuild Gym Modes (#26):** review queue, roots drill, usage lab — highest-value recoverable feature, works on words you already have. *(Code-only — can do end-to-end.)*
+10. ~~Rebuild Gym Modes (#26)~~ — **done**, see #26.
 11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`. *(Code + a Supabase seed run.)*
 12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*
 

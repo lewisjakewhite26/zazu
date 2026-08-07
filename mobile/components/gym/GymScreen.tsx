@@ -1,12 +1,13 @@
 import { useCallback, useMemo } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { BarbellIcon } from 'phosphor-react-native';
-import { useRouter } from 'expo-router';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ArrowsClockwiseIcon, BarbellIcon, QuotesIcon, TreeStructureIcon } from 'phosphor-react-native';
+import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { GymModeCard } from '@/components/gym/GymModeCard';
 import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
@@ -18,17 +19,24 @@ import { useSubscription } from '@/context/SubscriptionContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
+import {
+  buildRootsDrillQuestions,
+  buildUsageLabQuestions,
+  countReviewQueueDue,
+  pickDrillWords,
+  pickNextReviewWord,
+} from '../../../lib/gym-modes';
 import type { UserWordProgressLocal } from '../../../lib/morning-task';
 
 export function GymScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { colors } = useTheme();
-  const { startGymFlow } = useAlarmFlow();
+  const { startGymFlow, startGymModeSession } = useAlarmFlow();
   const { isGold, loading: subscriptionLoading } = useSubscription();
   const { loading: progressLoading, streak, coins, learnedWordIds, getGymMastery, wordProgress } =
     useProgress();
-  const { loading: wordsLoading, gymWordOfDay } = useWordLibrary(learnedWordIds);
+  const { loading: wordsLoading, gymWordOfDay, gymWords } = useWordLibrary(learnedWordIds);
 
   const styles = useMemo(
     () =>
@@ -132,6 +140,33 @@ export function GymScreen() {
           width: '100%',
           paddingTop: spacing.sm,
         },
+        modesSection: {
+          width: '100%',
+          marginTop: spacing.lg,
+        },
+        modesEyebrow: {
+          ...typography.eyebrow,
+          color: colors.subtext,
+          textTransform: 'uppercase',
+          marginBottom: spacing.xs,
+        },
+        modesSubtitle: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          lineHeight: 18,
+          color: colors.subtext,
+          marginBottom: spacing.md,
+        },
+        goldLink: {
+          alignSelf: 'center',
+          paddingVertical: spacing.md,
+          marginTop: spacing.sm,
+        },
+        goldLinkText: {
+          fontFamily: fonts.sansMedium,
+          fontSize: 13,
+          color: colors.gold,
+        },
       }),
     [colors],
   );
@@ -154,6 +189,10 @@ export function GymScreen() {
     );
   })();
 
+  const reviewDueCount = countReviewQueueDue(gymWords, learnedWordIds, wordProgress);
+  const hasLearnedWords = learnedWordIds.length > 0;
+  const canDrill = hasLearnedWords;
+
   const handleStart = useCallback(() => {
     if (!word) return;
     if (!isGold) {
@@ -163,6 +202,31 @@ export function GymScreen() {
     startGymFlow(word);
     router.push('/puzzle');
   }, [word, isGold, startGymFlow, router]);
+
+  const handleReviewQueue = useCallback(() => {
+    const reviewWord = pickNextReviewWord(gymWords, learnedWordIds, wordProgress);
+    if (!reviewWord) return;
+    startGymFlow(reviewWord);
+    router.push('/puzzle');
+  }, [gymWords, learnedWordIds, wordProgress, startGymFlow, router]);
+
+  const handleRootsDrill = useCallback(() => {
+    const drillWords = pickDrillWords(gymWords, learnedWordIds, word?.id);
+    if (drillWords.length === 0) return;
+    const questions = buildRootsDrillQuestions(drillWords, gymWords);
+    if (questions.length === 0) return;
+    startGymModeSession({ mode: 'roots_drill', mcqQuestions: questions });
+    router.push({ pathname: '/gym-mcq', params: { mode: 'roots' } } as unknown as Href);
+  }, [gymWords, learnedWordIds, word?.id, startGymModeSession, router]);
+
+  const handleUsageLab = useCallback(() => {
+    const drillWords = pickDrillWords(gymWords, learnedWordIds, word?.id);
+    if (drillWords.length === 0) return;
+    const questions = buildUsageLabQuestions(drillWords, gymWords);
+    if (questions.length === 0) return;
+    startGymModeSession({ mode: 'usage_lab', mcqQuestions: questions });
+    router.push({ pathname: '/gym-mcq', params: { mode: 'usage' } } as unknown as Href);
+  }, [gymWords, learnedWordIds, word?.id, startGymModeSession, router]);
 
   return (
     <GradientBackground>
@@ -204,6 +268,42 @@ export function GymScreen() {
                   </Text>
                 </View>
               </GlassCard>
+            )}
+
+            {isGold ? (
+              <View style={styles.modesSection}>
+                <Text style={styles.modesEyebrow}>{copy.gym.goldModesTitle}</Text>
+                <Text style={styles.modesSubtitle}>{copy.gym.goldModesSub}</Text>
+
+                <GymModeCard
+                  title={copy.gymModes.reviewTitle}
+                  description={
+                    reviewDueCount > 0 ? copy.gymModes.reviewDescription : copy.gymModes.reviewEmpty
+                  }
+                  icon={ArrowsClockwiseIcon}
+                  badgeLabel={reviewDueCount > 0 ? copy.gymModes.reviewBadge(reviewDueCount) : undefined}
+                  disabled={reviewDueCount === 0}
+                  onPress={handleReviewQueue}
+                />
+                <GymModeCard
+                  title={copy.gymModes.rootsTitle}
+                  description={canDrill ? copy.gymModes.rootsDescription : copy.gymModes.needLearnedWords}
+                  icon={TreeStructureIcon}
+                  disabled={!canDrill}
+                  onPress={handleRootsDrill}
+                />
+                <GymModeCard
+                  title={copy.gymModes.usageTitle}
+                  description={canDrill ? copy.gymModes.usageDescription : copy.gymModes.needLearnedWords}
+                  icon={QuotesIcon}
+                  disabled={!canDrill}
+                  onPress={handleUsageLab}
+                />
+              </View>
+            ) : (
+              <Pressable style={styles.goldLink} onPress={() => router.push('/gold')}>
+                <Text style={styles.goldLinkText}>{copy.gym.unlockGoldLink}</Text>
+              </Pressable>
             )}
           </ScrollView>
 
