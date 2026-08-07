@@ -177,18 +177,18 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 
 Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
 
-### Literary Gym Round (#48) — built, needs a migration + seed run
-
-Code is done and typechecks/tests pass, but this is the first feature this round that needs *you* to act before it does anything: I can't apply Supabase migrations or write to your live project from here.
+### Literary Gym Round (#48) — done, live in Supabase
 
 | # | Task | Status |
 |---|------|--------|
-| 48a | `supabase/migrations/008_literary_words.sql` — new `literary_words` table, RLS gold-gated (same pattern as 005/006), isolated from `words`/`word_rounds`/`word_pairs` entirely | Written, **not applied** — run it in the Supabase SQL Editor, or `npx supabase db push` |
-| 48b | `scripts/seed-literary-words.mjs` — loads `THEMATIC PACKS/zazu-words-literary.json` (270 words) into `literary_words` | Written and dry-run validated against the real file (`npm run seed:literary:dry`). **Not run against Supabase** — `npm run seed:literary` after 48a |
+| 48a | `supabase/migrations/008_literary_words.sql` — new `literary_words` table, RLS gold-gated (same pattern as 005/006), isolated from `words`/`word_rounds`/`word_pairs` entirely | **Applied** to the live project |
+| 48b | `scripts/seed-literary-words.mjs` — loads `THEMATIC PACKS/zazu-words-literary.json` (270 words) into `literary_words` | **Run** — confirmed 270 rows live via `select count`, spot-checked a sample row's shape |
 | 48c | `lib/literary-words.ts` — types, `fetchLiteraryWords()`, `buildLiteraryQuestions()` (Quote Completion + Contextual Definition only; Etymology's match-pairs format isn't reused here, the word's own definition/origin already cover it) | Done, 8 Vitest tests |
-| 48d | New Gym Mode card "Literary words" → `/gym-literary-round` (`GymLiteraryRoundScreen`, self-contained, does not touch `PuzzleScreen`/`gymStepIndex`) | Done. Verified visually: renders correctly with 0 literary words (disabled card, "No literary words yet.", fetch fails gracefully — confirmed by pointing it at your live, not-yet-migrated Supabase project) |
+| 48d | New Gym Mode card "Literary words" → `/gym-literary-round` (`GymLiteraryRoundScreen`, self-contained, does not touch `PuzzleScreen`/`gymStepIndex`) | Done |
 
-Once you've run 48a and 48b, the "Literary words" card unlocks for Gold users automatically — no further code changes needed.
+**RLS verified both directions**, not just assumed from the structural test: an anon-key client sees 0 rows (confirmed), and a throwaway real auth user with a genuine `user_entitlements(tier='gold')` row sees all 270 (confirmed, then deleted — no leftover test data). This matters because the web app's "Preview as Gold" toggle used for manual QA is a **local-only** preview (by design, see #29) that doesn't create a real entitlement row, so it can't actually prove the paywall grants access, only that it denies it. The temporary-user check is the only way either of us could confirm a genuine subscriber sees the content.
+
+**Data bug found and fixed** in the process: the "Jollity" word's Quote Completion round had its correct answer ("joliftee.") listed twice in `options` — once at the marked `correctIndex`, once as a fake distractor. A user selecting the duplicate would've been told they got it wrong despite picking text identical to the right answer. Found by running the question-builder logic across all 270 real words (my unit tests only used synthetic 2-3 word fixtures, which wouldn't have caught this) — fixed in `THEMATIC PACKS/zazu-words-literary.json` and re-synced to the live row.
 
 ### Snooze (#27) — design spec
 
@@ -236,7 +236,7 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 8. ~~Add minimal tests: webhook signature verification + RLS policy checks~~ — **done**, see #41. RLS coverage is structural, not a live-Postgres integration test — no Docker/Supabase CLI available here.
 9. ~~Port FloatingTabBar (#47)~~ — **done**, see #47.
 10. ~~Rebuild Gym Modes (#26)~~ — **done**, see #26.
-11. ~~Wire up the Literary pack + Literary Gym Round~~ — **code done**, see #48. **You still need to**: run `supabase/migrations/008_literary_words.sql`, then `npm run seed:literary` (populate your `.env` with `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` first if not already set).
+11. ~~Wire up the Literary pack + Literary Gym Round~~ — **done**, migration applied, 270 words live, RLS verified both ways, see #48.
 12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
