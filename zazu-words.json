@@ -10057,7 +10057,7 @@
     "word": "Ossify",
     "pronunciation": "OS-ih-fy",
     "pos": "verb",
-    "definition": "To turn into bone; to become rigid and fixed in one ways.",
+    "definition": "To turn into bone; to become rigid and fixed in one's ways.",
     "origin": "From Latin <strong>os</strong> (bone) + <strong>facere</strong> (to make), to make into bone.",
     "tier": "free",
     "rounds": [
@@ -13047,7 +13047,7 @@
   {
     "word": "Recusant",
     "pronunciation": "REK-yoo-zunt",
-    "pos": "noun/adjective",
+    "pos": "noun",
     "definition": "A person who refuses to submit to an authority or comply with a regulation; historically, an English Catholic who refused to attend Church of England services.",
     "origin": "From Latin <strong>recusare</strong>, to refuse. From <strong>re</strong> (back) + <strong>causa</strong> (cause, reason).",
     "tier": "free",
@@ -16347,7 +16347,7 @@
   {
     "word": "Mnemonic",
     "pronunciation": "nih-MON-ik",
-    "pos": "adjective / noun",
+    "pos": "adjective",
     "definition": "Aiding or designed to aid the memory; a device such as a pattern or rhyme used to assist recall.",
     "origin": "From Greek <strong>mnemonikos</strong>,of memory. From <strong>mnemon</strong> (mindful) + <strong>mnasthai</strong> (to remember). Mnemosyne was the Greek goddess of memory.",
     "tier": "free",
@@ -17237,7 +17237,7 @@
   {
     "word": "Soporific",
     "pronunciation": "sop-uh-RIF-ik",
-    "pos": "adjective / noun",
+    "pos": "adjective",
     "definition": "Tending to induce sleep; a drug or other substance that causes sleep.",
     "origin": "From Latin <strong>sopor</strong> (deep sleep) + <strong>facere</strong> (to make). Related to <strong>Hypnos</strong>, the Greek god of sleep.",
     "tier": "free",
@@ -19353,7 +19353,7 @@
     "word": "Aesthetic",
     "pronunciation": "ees-THET-ik",
     "pos": "adjective",
-    "definition": "Concerned with beauty or the appreciation of beauty. UK spelling.",
+    "definition": "Concerned with beauty or the appreciation of beauty.",
     "origin": "From Greek aisthetikos, from aisthesis (perception, sensation).",
     "tier": "free",
     "rounds": [
@@ -19494,7 +19494,7 @@
     "word": "Ameliorate",
     "pronunciation": "uh-MEE-lee-uh-rayt",
     "pos": "verb",
-    "definition": "To make something bad or unsatisfactory better. UK spelling.",
+    "definition": "To make something bad or unsatisfactory better.",
     "origin": "From French améliorer, based on Latin melior (better).",
     "tier": "free",
     "rounds": [
@@ -21758,7 +21758,7 @@
     "word": "Capricious",
     "pronunciation": "kuh-PRISH-us",
     "pos": "adjective",
-    "definition": "Given to sudden and unaccountable changes of mood or behaviour. UK spelling.",
+    "definition": "Given to sudden and unaccountable changes of mood or behaviour.",
     "origin": "From Italian capriccioso, from capriccio (whim, literally a shivering, goat-like skip).",
     "tier": "free",
     "rounds": [
@@ -23732,7 +23732,7 @@
     "word": "Cognizant",
     "pronunciation": "KOG-nih-zunt",
     "pos": "adjective",
-    "definition": "Having knowledge or awareness of something. UK spelling.",
+    "definition": "Having knowledge or awareness of something.",
     "origin": "From Old French conoissant, based on Latin cognoscere (to get to know).",
     "tier": "free",
     "rounds": [
@@ -24957,7 +24957,7 @@
     "word": "Decorous",
     "pronunciation": "DEK-uh-rus",
     "pos": "adjective",
-    "definition": "In keeping with good taste and propriety, polite and restrained. UK spelling.",
+    "definition": "In keeping with good taste and propriety, polite and restrained.",
     "origin": "From Latin decorus, from decor (beauty, elegance, grace).",
     "tier": "free",
     "rounds": [
@@ -25803,7 +25803,7 @@
     "word": "Denigrate",
     "pronunciation": "DEN-ih-grayt",
     "pos": "verb",
-    "definition": "To criticize unfairly, disparage, or defame someone's reputation. UK spelling.",
+    "definition": "To criticise unfairly, disparage, or defame someone's reputation.",
     "origin": "From Latin denigratis, from de- (completely) + nigrare (to blacken).",
     "tier": "free",
     "rounds": [
@@ -30671,7 +30671,7 @@
     "word": "Esoteric",
     "pronunciation": "ess-oh-TER-ik",
     "pos": "adjective",
-    "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge.",
+    "definition": "Intended for or likely to be understood by only a small number of people with a specialised knowledge.",
     "origin": "From Greek esōterikos, from esōterō (inner).",
     "tier": "free",
     "rounds": [
@@ -36288,7 +36288,7 @@
     "word": "Idiosyncrasy",
     "pronunciation": "id-ee-oh-SING-kruh-see",
     "pos": "noun",
-    "definition": "A mode of behaviour or way of thinking peculiar to an individual. UK spelling.",
+    "definition": "A mode of behaviour or way of thinking peculiar to an individual.",
     "origin": "From Greek idiosunkrasia, from idios (own, peculiar) + sun (with) + krasis (mixture).",
     "tier": "free",
     "rounds": [
@@ -39649,7 +39649,7 @@
     "word": "Jaundiced",
     "pronunciation": "JAWN-dist",
     "pos": "adjective",
-    "definition": "Affected by bitterness, resentment, or cynicism. UK spelling.",
+    "definition": "Affected by bitterness, resentment, or cynicism.",
     "origin": "From French jaunisse (yellowness), from jaune (yellow).",
     "tier": "free",
     "rounds": [
@@ -39909,7 +39909,7 @@
     "word": "Jeopardise",
     "pronunciation": "JEP-uh-dyz",
     "pos": "verb",
-    "definition": "To put someone or something into a situation in which there is a danger of loss or failure. UK spelling.",
+    "definition": "To put someone or something into a situation in which there is a danger of loss or failure.",
     "origin": "From Old French jeu parti (a divided or even game).",
     "tier": "free",
     "rounds": [
@@ -42559,7 +42559,7 @@
     "word": "Liturgy",
     "pronunciation": "LIT-ur-jee",
     "pos": "noun",
-    "definition": "A customized form or formulation according to which public religious worship is conducted.",
+    "definition": "A customised form or formulation according to which public religious worship is conducted.",
     "origin": "From French <strong>liturgie</strong>, from Greek <strong>leitourgia</strong> (public work, state service).",
     "tier": "free",
     "rounds": [
@@ -44896,7 +44896,7 @@
     "word": "Nefarious",
     "pronunciation": "nih-FAIR-ee-us",
     "pos": "adjective",
-    "definition": "Wicked, impious, or criminal in behavior.",
+    "definition": "Wicked, impious, or criminal in behaviour.",
     "origin": "From Latin <strong>nefarious</strong>, from <strong>nefas</strong> (an impiety, crime against divine law, from ne- not + fas divine right).",
     "tier": "free",
     "rounds": [
@@ -47575,7 +47575,7 @@
     "word": "Rancour",
     "pronunciation": "RANG-kur",
     "pos": "noun",
-    "definition": "Bitterness or resentfulness, especially when long-standing. UK spelling.",
+    "definition": "Bitterness or resentfulness, especially when long-standing.",
     "origin": "From Old French <strong>rancour</strong>, from Late Latin <strong>rancor</strong> (sourness, stinking, or grudge).",
     "tier": "free",
     "rounds": [
@@ -50567,7 +50567,7 @@
     "word": "Tortuous",
     "pronunciation": "TOR-choo-us",
     "pos": "adjective",
-    "definition": "Full of twists and turns, or excessively lengthly and complex.",
+    "definition": "Full of twists and turns, or excessively lengthy and complex.",
     "origin": "From Old French <strong>tortueux</strong>, from Latin <strong>tortuosus</strong>, from <strong>tortus</strong> (a twisting, from torquere to twist).",
     "tier": "free",
     "rounds": [

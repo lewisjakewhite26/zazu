@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zazu.app/schemas/literary-words.json",
+  "title": "Zazu literary word library",
+  "description": "The Literary Pack — 270 premium words tied to canonical authors and public-domain quotes.",
+  "type": "array",
+  "minItems": 1,
+  "maxItems": 270,
+  "items": {
+    "type": "object",
+    "required": [
+      "word",
+      "pronunciation",
+      "pos",
+      "definition",
+      "origin",
+      "tier",
+      "packId",
+      "authorGroup",
+      "source",
+      "rounds",
+      "roots",
+      "introEtymology",
+      "morningTask"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "word": { "type": "string", "minLength": 1 },
+      "pronunciation": { "type": "string", "minLength": 1 },
+      "pos": { "type": "string", "minLength": 1 },
+      "definition": { "type": "string", "minLength": 1 },
+      "origin": { "type": "string", "minLength": 1 },
+      "tier": { "const": "premium" },
+      "packId": { "const": "literary" },
+      "authorGroup": {
+        "type": "string",
+        "enum": [
+          "shakespeare",
+          "milton",
+          "tolkien",
+          "orwell",
+          "dickens",
+          "chaucer",
+          "romantic",
+          "other"
+        ]
+      },
+      "source": {
+        "type": "object",
+        "required": ["author", "work", "date", "quote"],
+        "additionalProperties": false,
+        "properties": {
+          "author": { "type": "string", "minLength": 1 },
+          "work": { "type": "string", "minLength": 1 },
+          "date": { "type": "string", "minLength": 1 },
+          "quote": { "type": "string", "minLength": 1 }
+        }
+      },
+      "rounds": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["type", "format", "label", "context", "pairs"],
+              "additionalProperties": false,
+              "properties": {
+                "type": { "const": "Etymology" },
+                "format": { "const": "match" },
+                "label": { "type": "string" },
+                "context": { "type": "string" },
+                "pairs": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "items": {
+                    "type": "object",
+                    "required": ["a", "b"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "a": { "type": "string", "minLength": 1 },
+                      "b": { "type": "string", "minLength": 1 }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "object",
+              "required": [
+                "type",
+                "format",
+                "label",
+                "context",
+                "options",
+                "correctIndex",
+                "targetWord"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "type": { "enum": ["QuoteCompletion", "ContextualDefinition"] },
+                "format": { "const": "mcq" },
+                "label": { "type": "string" },
+                "context": { "type": "string" },
+                "prompt": { "type": "string" },
+                "passage": { "type": "string" },
+                "options": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "items": { "type": "string", "minLength": 1 }
+                },
+                "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+                "targetWord": { "type": "string", "minLength": 1 }
+              }
+            }
+          ]
+        }
+      },
+      "roots": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["rootText", "rootMeaning"],
+          "properties": {
+            "rootText": { "type": "string" },
+            "rootLanguage": { "type": "string" },
+            "rootMeaning": { "type": "string" },
+            "showInIntro": { "type": "boolean" }
+          }
+        }
+      },
+      "introEtymology": {
+        "type": "object",
+        "required": ["spans"],
+        "properties": {
+          "spans": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["text", "highlight"],
+              "properties": {
+                "text": { "type": "string" },
+                "highlight": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      },
+      "subpack": {
+        "type": "object",
+        "required": ["id", "name", "packId"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "packId": { "const": "literary" }
+        }
+      },
+      "crossRef": {
+        "type": "object",
+        "required": ["pack", "note"],
+        "additionalProperties": false,
+        "properties": {
+          "pack": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 }
+        }
+      },
+      "morningTask": {
+        "type": "object",
+        "required": [
+          "taskType",
+          "sourceKind",
+          "sourceValue",
+          "correctAnswer",
+          "generatorVersion",
+          "meta"
+        ],
+        "properties": {
+          "taskType": {
+            "enum": ["quoteCompletion", "authorAttribution", "contextualDefinition"]
+          },
+          "sourceKind": { "type": "string" },
+          "sourceValue": { "type": "string" },
+          "correctAnswer": { "type": "string" },
+          "hint": { "type": "string" },
+          "generatorVersion": { "type": "string" },
+          "meta": {
+            "type": "object",
+            "required": ["displayQuote", "displayWork", "displayAuthor"],
+            "properties": {
+              "displayQuote": { "type": "string" },
+              "displayWork": { "type": "string" },
+              "displayAuthor": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
