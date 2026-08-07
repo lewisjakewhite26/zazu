@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -10,6 +10,7 @@ import { AlarmCard } from '@/components/home/AlarmCard';
 import { showAppAlert } from '@/components/ui/AppAlert';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
@@ -122,10 +123,7 @@ export function HomeScreen() {
           <View
             style={[
               styles.footer,
-              {
-                paddingBottom:
-                  Math.max(insets.bottom, spacing.md) + (Platform.OS === 'web' ? 72 : 0),
-              },
+              { paddingBottom: floatingTabBarClearance(insets.bottom) },
             ]}
           >
             <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} style={styles.addAlarmBtn} />

@@ -158,7 +158,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
 | 30 | Cloud progress sync via Supabase Auth | Scaffolded (`user_word_progress` exists); not confirmed wired end-to-end from mobile UI |
 | 46 | Word reroll (pick a different alarm word once/day) | Not started — new idea surfaced by old-copy audit, not previously tracked. Low priority |
-| 47 | Native floating tab bar (blur pill on native, matching the existing web pill) | Not started — cheap, self-contained visual upgrade surfaced by old-copy audit |
+| 47 | Native floating tab bar (blur pill on native, matching the existing web pill) | **Done** — `mobile/components/ui/FloatingTabBar.tsx` ported from the old copy, `AppIcon` swapped for direct `phosphor-react-native` imports (`HouseIcon`/`BarbellIcon`) to match this repo's icon pattern. Now floating on **all** platforms, not just web, so `HomeScreen`/`GymScreen` footer padding was switched from a `Platform.OS === 'web' ? 72 : 0` hack to `floatingTabBarClearance(insets.bottom)`, applied universally. Fixed one bug found during porting: the old copy used `accessibilityRole="button"` on each tab, which is both an accessibility regression (screen readers wouldn't announce it as a tab) and broke this repo's own Playwright screenshot script (`getByRole('tab', ...)` timed out) — changed to `accessibilityRole="tab"`. Verified visually via `scripts/capture-screenshots.mjs` in light + dark on web; `tsc --noEmit` passes. |
 
 ### Word packs, Gym Modes & related — old-copy audit (2026-08-07)
 
@@ -168,7 +168,7 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 |---|---|---|
 | **Gym Modes** — review queue, roots drill, usage lab | **Rewrite** | Highest value: operates on words you already have (no missing content, unlike packs), directly closes roadmap #26. Needs `gym-modes.ts` rebuilt + `useProgress`/`useAlarmFlow` extended with session tracking. |
 | **Literary Gym Round** (quote-completion, author attribution) | **Rewrite** | Second-highest value. Unlike the old copy, **you already have the real data** — `THEMATIC PACKS/zazu-words-literary.json` (270 words, matches its own schema) is sitting uncommitted in this repo. Needs `gym-session.ts` rebuilt + that JSON seeded into Supabase; the screens themselves only touch libs you already have (`feedback.ts`, `alarm-sound.ts`, `puzzle-utils.ts`). |
-| **FloatingTabBar** (native blur pill tab bar) | **Port as-is** | Only dependency is `AppIcon` (see below) — swap for direct `phosphor-react-native` imports and it drops straight in. No backend/data dependency. Cheapest real win found. |
+| **FloatingTabBar** (native blur pill tab bar) | **Ported — done (#47)** | Only dependency was `AppIcon` (see below) — swapped for direct `phosphor-react-native` imports. No backend/data dependency. Cheapest real win found, and it was: one bug fixed in the port (`accessibilityRole` was `"button"`, needed `"tab"`), verified visually in both themes. |
 | **Snooze** | **Rewrite from spec** | The old copy's hook is an 8-line empty re-export — nothing to recover. Build fresh from the spec already below. |
 | **Word reroll** | **Rewrite, low priority** | Not previously tracked; mild tension with "one word, no choice" product framing. Needs a new persisted "reroll used today" state. |
 | **Pack Shop** (8 non-literary packs: Architecture, Eponym, Games, Geography, Law, Music, Mythology, Science) | **Rewrite, data-first** | Zero word content exists for any of these 8 — porting the screen means porting an empty storefront. Each pack is a Literary-pack-sized content job (150 words × full schema) on its own; treat as backlog, not a sprint. |
@@ -221,7 +221,7 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 6. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end. *(Needs your App Store Connect / Play Console / RevenueCat dashboard access — not something I can do directly.)*
 7. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification. *(Needs your Expo account + a physical device.)*
 8. ~~Add minimal tests: webhook signature verification + RLS policy checks~~ — **done**, see #41. RLS coverage is structural, not a live-Postgres integration test — no Docker/Supabase CLI available here.
-9. **Port FloatingTabBar (#47):** cheapest real win from the old-copy audit — native blur pill tab bar, swap `AppIcon` for direct `phosphor-react-native` imports, no backend touch. *(Code-only — can do end-to-end.)*
+9. ~~Port FloatingTabBar (#47)~~ — **done**, see #47.
 10. **Rebuild Gym Modes (#26):** review queue, roots drill, usage lab — highest-value recoverable feature, works on words you already have. *(Code-only — can do end-to-end.)*
 11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`. *(Code + a Supabase seed run.)*
 12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*

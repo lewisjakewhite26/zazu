@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react';
-import { Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { BarbellIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -9,6 +9,7 @@ import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
 import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
@@ -209,7 +210,7 @@ export function GymScreen() {
           <View
             style={[
               styles.footer,
-              { paddingBottom: (insets.bottom || spacing.md) + (Platform.OS === 'web' ? 72 : 0) },
+              { paddingBottom: floatingTabBarClearance(insets.bottom) },
             ]}
           >
             <PrimaryButton
