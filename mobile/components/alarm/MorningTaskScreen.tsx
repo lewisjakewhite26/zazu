@@ -22,6 +22,7 @@ import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
+import { useSnooze } from '@/hooks/useSnooze';
 import { buildMorningOptions } from '../../../lib/morning-task';
 import { fetchMorningTaskDistractors } from '../../../lib/supabase';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
@@ -33,6 +34,8 @@ export function MorningTaskScreen() {
   const { colors } = useTheme();
   const { sessionWord, isDemo, clearFlow, setCompletionResult } = useAlarmFlow();
   const { completeWord } = useProgress();
+  // Not yet used today's snooze -> this alarm was dismissed clean, award the bonus.
+  const { canSnooze: earnedNoSnoozeBonus } = useSnooze();
   const [loading, setLoading] = useState(true);
   const [question, setQuestion] = useState('');
   const [options, setOptions] = useState<string[]>([]);
@@ -272,7 +275,7 @@ export function MorningTaskScreen() {
     AccessibilityInfo.announceForAccessibility('Dismissing alarm…');
     try {
       const result = await completeWord(sessionWord.id, {
-        noSnooze: true,
+        noSnooze: earnedNoSnoozeBonus,
         firstTry: wrongAttempts === 0,
       });
       if (result) {

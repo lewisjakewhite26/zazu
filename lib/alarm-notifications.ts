@@ -81,6 +81,33 @@ export async function scheduleAlarmNotification(alarm: Alarm): Promise<string | 
   });
 }
 
+/**
+ * One-shot reminder fired `minutes` from now, independent of the alarm's own
+ * daily schedule (which is left untouched — snoozing doesn't cancel tomorrow's
+ * alarm). Carries the same `alarmId` so NotificationBootstrap re-opens the
+ * flow exactly like the original firing did.
+ */
+export async function scheduleSnoozeNotification(
+  alarmId: string,
+  minutes: number,
+): Promise<string | null> {
+  if (Platform.OS === 'web') return null;
+
+  return Notifications.scheduleNotificationAsync({
+    content: {
+      title: 'Good morning',
+      body: 'Time to wake up and learn a new word.',
+      data: { alarmId },
+      sound: true,
+    },
+    trigger: {
+      type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
+      seconds: minutes * 60,
+      channelId: ALARM_CHANNEL_ID,
+    },
+  });
+}
+
 export async function syncAlarmNotifications(alarms: Alarm[]): Promise<Alarm[]> {
   if (Platform.OS === 'web') return alarms;
 

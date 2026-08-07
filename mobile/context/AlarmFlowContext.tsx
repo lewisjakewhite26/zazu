@@ -20,7 +20,12 @@ type AlarmFlowContextValue = {
   isDemo: boolean;
   /** Which alarm sound to ring for this session — the triggering alarm's own choice, or the default for demo sessions. */
   soundId: AlarmSoundId;
-  startFlow: (word: ZazuAlarmWord, options?: { isDemo?: boolean; soundId?: AlarmSoundId }) => void;
+  /** The triggering alarm's id, for rescheduling a snooze. Null for demo sessions — there's no real notification to reschedule. */
+  alarmId: string | null;
+  startFlow: (
+    word: ZazuAlarmWord,
+    options?: { isDemo?: boolean; soundId?: AlarmSoundId; alarmId?: string },
+  ) => void;
   startGymFlow: (word: ZazuGymWord) => void;
   startGymModeSession: (session: GymModeSession) => void;
   setCompletionResult: (result: CompletionResult) => void;
@@ -40,16 +45,21 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   );
   const [isDemo, setIsDemo] = useState(false);
   const [soundId, setSoundId] = useState<AlarmSoundId>(DEFAULT_ALARM_SOUND_ID);
+  const [alarmId, setAlarmId] = useState<string | null>(null);
 
-  const startFlow = useCallback((word: ZazuAlarmWord, options?: { isDemo?: boolean; soundId?: AlarmSoundId }) => {
-    setSessionWord(word);
-    setGymSessionWord(null);
-    setGymSession(null);
-    setCompletionResultState(null);
-    setGymCompletionResultState(null);
-    setIsDemo(Boolean(options?.isDemo));
-    setSoundId(options?.soundId ?? DEFAULT_ALARM_SOUND_ID);
-  }, []);
+  const startFlow = useCallback(
+    (word: ZazuAlarmWord, options?: { isDemo?: boolean; soundId?: AlarmSoundId; alarmId?: string }) => {
+      setSessionWord(word);
+      setGymSessionWord(null);
+      setGymSession(null);
+      setCompletionResultState(null);
+      setGymCompletionResultState(null);
+      setIsDemo(Boolean(options?.isDemo));
+      setSoundId(options?.soundId ?? DEFAULT_ALARM_SOUND_ID);
+      setAlarmId(options?.alarmId ?? null);
+    },
+    [],
+  );
 
   const startGymFlow = useCallback((word: ZazuGymWord) => {
     setGymSessionWord(word);
@@ -57,6 +67,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setSessionWord(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
+    setAlarmId(null);
   }, []);
 
   const startGymModeSession = useCallback((session: GymModeSession) => {
@@ -65,6 +76,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setSessionWord(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
+    setAlarmId(null);
   }, []);
 
   const setCompletionResult = useCallback((result: CompletionResult) => {
@@ -83,6 +95,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setGymCompletionResultState(null);
     setIsDemo(false);
     setSoundId(DEFAULT_ALARM_SOUND_ID);
+    setAlarmId(null);
   }, []);
 
   const value = useMemo(
@@ -94,6 +107,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       gymCompletionResult,
       isDemo,
       soundId,
+      alarmId,
       startFlow,
       startGymFlow,
       startGymModeSession,
@@ -109,6 +123,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       gymCompletionResult,
       isDemo,
       soundId,
+      alarmId,
       startFlow,
       startGymFlow,
       startGymModeSession,

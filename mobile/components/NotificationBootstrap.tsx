@@ -23,7 +23,7 @@ export function NotificationBootstrap({ children }: NotificationBootstrapProps) 
       if (!alarmWordOfDay) return;
       const alarmId = response?.notification.request.content.data?.alarmId as string | undefined;
       const soundId = alarms.find((alarm: Alarm) => alarm.id === alarmId)?.soundId ?? DEFAULT_ALARM_SOUND_ID;
-      startFlow(alarmWordOfDay, { soundId });
+      startFlow(alarmWordOfDay, { soundId, alarmId });
       router.push('/alarm');
     },
     [alarmWordOfDay, alarms, startFlow, router],

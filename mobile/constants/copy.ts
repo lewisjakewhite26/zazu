@@ -25,6 +25,8 @@ export const copy = {
     todaysWord: "Today's word:",
     learnSub: 'Learn it, then one quick question',
     wakeCta: "I'm awake. Let's go.",
+    snoozeCta: (minutes: number) => `Snooze ${minutes} minutes`,
+    snoozeUsed: 'Snooze used for today',
   },
   learn: {
     eyebrow: 'Learn the word',

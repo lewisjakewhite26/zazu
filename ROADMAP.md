@@ -46,7 +46,7 @@ Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re
 | Check | Status |
 |---|---|
 | `npx tsc --noEmit` (mobile) | **Passes clean, zero errors** |
-| Automated tests | **Started 2026-08-07** — Vitest at root, 76 tests: webhook signature verification + entitlement-decision logic, a structural RLS-policy regression test covering every premium table including `literary_words` (see #41), and pure-logic coverage for Gym Modes (#26) and the Literary pack's question builder (#48). Still no tests for mobile UI or web. |
+| Automated tests | **Started 2026-08-07** — Vitest at root, 80 tests: webhook signature verification + entitlement-decision logic, a structural RLS-policy regression test covering every premium table including `literary_words` (see #41), pure-logic coverage for Gym Modes (#26), the Literary pack's question builder (#48), and Snooze's date-cap logic (#27). Still no tests for mobile UI or web. |
 | CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, root `tsc --noEmit`, `npm test`, and mobile `tsc --noEmit` — still no web build/lint, no mobile UI tests |
 
 **P1 code is complete and typesafe. Only #9 (real device) and test coverage remain.**
@@ -153,7 +153,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 21 | Analytics + crash reporting | Not started |
 | 22 | Remove `ProgressDebugPanel` once streak logic verified on device | Dev only |
 | 26 | Spaced repetition in Word Gym (review queue, roots drill, usage lab) | **Done** — `lib/gym-modes.ts` built fresh (the old copy's version was unrecoverable, see audit below). Review queue reuses the existing 3-round puzzle flow (`startGymFlow` + `/puzzle`) against whichever learned word is most overdue, on a doubling spaced-repetition interval (`computeNextReview`, capped at 30 days, resets to 1 day on any wrong answer) now written by `completeGym` instead of the old hardcoded `nextReviewAt: null`. Roots Drill and Usage Lab are new MCQ modes (`/gym-mcq`, `GymMcqSessionScreen`) built entirely from data every word already has — the Etymology and Usage rounds used by the main puzzle — so no new content or Supabase schema was needed. Gated behind Gold, matching the rest of Word Gym. 19 Vitest tests in `tests/gym-modes.test.ts`. Verified visually end-to-end (real Supabase data, not mocked) via a throwaway Playwright script. |
-| 27 | Snooze | Not started — design spec below; an old-copy hook exists but is an empty re-export, nothing to port |
+| 27 | Snooze | **Done** — see design spec below, now implemented exactly as specced: 8-minute reschedule (midpoint of the 5–10 min range), no coin bonus if used, capped at one per calendar day. Built fresh; the old copy's hook was an empty re-export, nothing to port. |
 | 28 | Scale word library to 365+ | Done (395 words) |
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
 | 30 | Cloud progress sync via Supabase Auth | Scaffolded (`user_word_progress` exists); not confirmed wired end-to-end from mobile UI |
@@ -190,9 +190,17 @@ Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze
 
 **Data bug found and fixed** in the process: the "Jollity" word's Quote Completion round had its correct answer ("joliftee.") listed twice in `options` — once at the marked `correctIndex`, once as a fake distractor. A user selecting the duplicate would've been told they got it wrong despite picking text identical to the right answer. Found by running the question-builder logic across all 270 real words (my unit tests only used synthetic 2-3 word fixtures, which wouldn't have caught this) — fixed in `THEMATIC PACKS/zazu-words-literary.json` and re-synced to the live row.
 
-### Snooze (#27) — design spec
+### Snooze (#27) — implemented
 
-Not built. Success screen shows a "+10 No snooze" coin line, but `completeWord` always passes `noSnooze: true`. Design when implemented: reschedule 5–10 min, no +10 bonus if snoozed, cap one snooze/morning.
+Design was: reschedule 5–10 min, no +10 bonus if snoozed, cap one snooze/morning. Built as specced:
+
+- `lib/snooze-logic.ts` — pure, tested (`isSnoozeAvailable` date comparison, 4 Vitest tests). `lib/useSnooze.ts` wraps it in an AsyncStorage-backed hook (one snooze per calendar day, key `zazu:snoozedDate`), re-exported through `mobile/hooks/useSnooze.ts`.
+- `lib/alarm-notifications.ts` — new `scheduleSnoozeNotification(alarmId, minutes)`, a one-shot `TIME_INTERVAL` trigger 8 minutes out. Doesn't touch the alarm's own daily schedule — snoozing today doesn't cancel or change tomorrow's alarm.
+- `AlarmFlowContext` — added `alarmId` (threaded through from `NotificationBootstrap`'s notification payload), so the snooze button knows which alarm to reschedule. Demo sessions never get an `alarmId`, so the button is hidden there — there's no real notification to reschedule, and demo already gets its own exit affordance.
+- `AlarmScreen` — new outline "Snooze 8 minutes" button below the primary CTA when eligible; once used, replaced by a plain "Snooze used for today" line, no dead button.
+- `completeWord`'s `noSnooze` flag (previously hardcoded `true` in `MorningTaskScreen`) now reflects whether today's snooze was actually used, so the success screen's "+10 No snooze" line finally means something.
+
+Verified: full typecheck (root + mobile) and the new tests pass. Visually confirmed the demo alarm flow correctly shows no snooze button (no `alarmId` there) with no regression, and separately force-rendered the button to confirm its layout/copy read correctly, then reverted that override. **Not verified**: an actual scheduled notification firing, being snoozed, and re-firing 8 minutes later — that needs a real device (same gap as P1 #9), since web has no real notification support and this environment has no physical device or emulator.
 
 ---
 
@@ -237,6 +245,6 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 9. ~~Port FloatingTabBar (#47)~~ — **done**, see #47.
 10. ~~Rebuild Gym Modes (#26)~~ — **done**, see #26.
 11. ~~Wire up the Literary pack + Literary Gym Round~~ — **done**, migration applied, 270 words live, RLS verified both ways, see #48.
-12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*
+12. ~~Build Snooze (#27)~~ — **done**, see #27. Real-device notification re-fire still unverified (same gap as P1 #9).
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).

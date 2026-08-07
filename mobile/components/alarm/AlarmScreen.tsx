@@ -14,6 +14,8 @@ import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useAlarmSound } from '@/hooks/useAlarmSound';
+import { useSnooze, SNOOZE_MINUTES } from '@/hooks/useSnooze';
+import { scheduleSnoozeNotification } from '../../../lib/alarm-notifications';
 
 function formatClock(date: Date): string {
   const hours = String(date.getHours()).padStart(2, '0');
@@ -24,8 +26,10 @@ function formatClock(date: Date): string {
 export function AlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { sessionWord, isDemo, soundId, clearFlow } = useAlarmFlow();
+  const { sessionWord, isDemo, soundId, alarmId, clearFlow } = useAlarmFlow();
+  const { canSnooze, recordSnooze } = useSnooze();
   const [clock, setClock] = useState(formatClock(new Date()));
+  const [snoozing, setSnoozing] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => setClock(formatClock(new Date())), 10000);
@@ -43,6 +47,19 @@ export function AlarmScreen() {
   const handleExitDemo = () => {
     clearFlow();
     router.replace('/');
+  };
+
+  const handleSnooze = async () => {
+    if (!alarmId || snoozing) return;
+    setSnoozing(true);
+    try {
+      await scheduleSnoozeNotification(alarmId, SNOOZE_MINUTES);
+      await recordSnooze();
+      clearFlow();
+      router.replace('/');
+    } finally {
+      setSnoozing(false);
+    }
   };
 
   const styles = useMemo(
@@ -106,11 +123,25 @@ export function AlarmScreen() {
           maxWidth: 320,
           zIndex: 1,
         },
+        snoozeCta: {
+          maxWidth: 320,
+          marginTop: spacing.sm,
+          zIndex: 1,
+        },
+        snoozeUsed: {
+          ...typography.alarmSub,
+          color: colors.subtext,
+          marginBottom: 0,
+          marginTop: spacing.sm,
+          zIndex: 1,
+        },
       }),
     [colors],
   );
 
   if (!sessionWord) return null;
+
+  const showSnooze = !isDemo && Boolean(alarmId);
 
   return (
     <GradientBackground>
@@ -146,6 +177,20 @@ export function AlarmScreen() {
             onPress={() => router.push('/learn')}
             style={styles.cta}
           />
+          {showSnooze ? (
+            canSnooze ? (
+              <PrimaryButton
+                label={copy.alarm.snoozeCta(SNOOZE_MINUTES)}
+                variant="outline"
+                onPress={handleSnooze}
+                disabled={snoozing}
+                loading={snoozing}
+                style={styles.snoozeCta}
+              />
+            ) : (
+              <Text style={styles.snoozeUsed}>{copy.alarm.snoozeUsed}</Text>
+            )
+          ) : null}
         </View>
       </SafeAreaView>
     </GradientBackground>
