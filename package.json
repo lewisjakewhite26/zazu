@@ -12,13 +12,18 @@
     "words:morning-tasks:check": "node scripts/generate-morning-tasks.mjs --check",
     "words:normalize": "node scripts/normalize-word-copy.mjs",
     "sounds:alarm-chime": "node scripts/generate-alarm-chime.mjs",
-    "db:push": "echo Run supabase/migrations/001_create_words_schema.sql in the Supabase SQL Editor, or use: npx supabase db push"
+    "db:push": "echo Run supabase/migrations/001_create_words_schema.sql in the Supabase SQL Editor, or use: npx supabase db push",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "playwright": "^1.62.1"
+    "@types/node": "^22.10.5",
+    "playwright": "^1.62.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.2.4"
   }
 }

@@ -46,8 +46,8 @@ Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re
 | Check | Status |
 |---|---|
 | `npx tsc --noEmit` (mobile) | **Passes clean, zero errors** |
-| Automated tests (mobile or web) | **None exist** — no `test` script in either `package.json`, no test files anywhere |
-| CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, and mobile `tsc --noEmit` only — no tests, no web build/lint, no Supabase policy checks |
+| Automated tests | **Started 2026-08-07** — Vitest at root, 46 tests: webhook signature verification + entitlement-decision logic (`supabase/functions/revenuecat-webhook/logic.test.ts`), and a structural RLS-policy regression test (`tests/rls-policies.test.ts`, see #41 below). Still no tests for mobile UI or web. |
+| CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, root `tsc --noEmit`, `npm test`, and mobile `tsc --noEmit` — still no web build/lint, no mobile UI tests |
 
 **P1 code is complete and typesafe. Only #9 (real device) and test coverage remain.**
 
@@ -97,7 +97,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 14 | Error states (visible message when Supabase fetch fails) | Done (web + mobile) |
 | 15 | CI baseline (GitHub Actions: `tsc`, `seed:dry`, morning-task check) | Done — **but does not cover web app, tests, or Supabase policies** |
 | 36 | Finalise mobile UI for all pages — match `index.html` per screen | Done |
-| 41 | Add automated tests — start with webhook signature verification and RLS policy checks (the actual paywall enforcement layer) | Not started |
+| 41 | Add automated tests — start with webhook signature verification and RLS policy checks (the actual paywall enforcement layer) | **Done (partially)** — `supabase/functions/revenuecat-webhook/logic.ts` extracted from the Deno entrypoint (pure, no Deno/URL imports) with 23 Vitest tests covering signature verification (valid/tampered/wrong-secret/stale-timestamp/malformed-header) and the event→entitlement decision for every RevenueCat event type including both `BILLING_ISSUE` grace-period branches. RLS coverage (`tests/rls-policies.test.ts`, 23 tests) is **structural, not a live-database integration test** — no Docker/Supabase CLI in this environment, so it replays every migration's `create policy`/`drop policy` statement in order and asserts the *final* policy text requires `user_entitlements`/`gold`/`gold_until`, catching regressions of the exact bug #37 fixed. Verified it actually catches that bug by simulating the pre-#37 policy text. True integration testing (real Postgres, different JWT roles) still needs a Docker/Supabase-CLI environment. |
 | 42 | Fix `zazu-words.schema.json` — stale (says "Target: 100 words," missing `roots`/`introEtymology`/`morningTask` fields), unused by any script today, so harmless but misleading | Not started |
 | 43 | Reconcile git remote / deploy pipeline — `git remote -v` is empty despite README describing GitHub→Vercel auto-deploy; confirm how deploys actually happen today | Not started |
 | 44 | Land or drop the in-flight icon migration — `mobile/package.json` has uncommitted additions of `phosphor-react-native` + `react-native-svg` alongside the existing `@expo/vector-icons`; two icon systems present mid-migration | **Done** — all 11 files migrated to `phosphor-react-native`, `@expo/vector-icons` removed from `package.json`, committed in `95306b0` |
@@ -216,14 +216,14 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 1. ~~Fix the paywall bypass~~ — **done**, `006_lock_remaining_premium_rls.sql` shipped.
 2. ~~Add mobile nav~~ — **done**, Settings + Calendar icons on Home header.
 3. ~~Resolve the in-flight icon migration~~ — **done**, `phosphor-react-native` fully swapped in, committed in `95306b0`.
-4. **Finish + commit the demo-alarm exit affordance (#45):** decide whether `PuzzleScreen`'s exit button should gate on `isDemo` like the other three screens, then commit — currently uncommitted in the working tree.
-5. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end.
-6. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification.
-7. **Add minimal tests:** webhook signature verification + RLS policy checks first, since those are the paywall's actual enforcement layer.
-8. **Commit the pending word-bank sync:** `WORDS.md`, `zazu-words.json`, `scripts/audit-word-bank.mjs`, and `THEMATIC PACKS/` (see "Uncommitted work" above).
-9. **Port FloatingTabBar (#47):** cheapest real win from the old-copy audit — native blur pill tab bar, swap `AppIcon` for direct `phosphor-react-native` imports, no backend touch.
-10. **Rebuild Gym Modes (#26):** review queue, roots drill, usage lab — highest-value recoverable feature, works on words you already have.
-11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`.
-12. **Build Snooze (#27)** from the spec above once the higher-priority items land.
+4. ~~Demo-alarm exit affordance (#45)~~ — **done**, confirmed no gap; nothing was left uncommitted.
+5. ~~Commit the pending word-bank sync~~ — **done**, `WORDS.md`/`zazu-words.json`/`audit-word-bank.mjs`/`THEMATIC PACKS/` committed (`97478e6`).
+6. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end. *(Needs your App Store Connect / Play Console / RevenueCat dashboard access — not something I can do directly.)*
+7. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification. *(Needs your Expo account + a physical device.)*
+8. ~~Add minimal tests: webhook signature verification + RLS policy checks~~ — **done**, see #41. RLS coverage is structural, not a live-Postgres integration test — no Docker/Supabase CLI available here.
+9. **Port FloatingTabBar (#47):** cheapest real win from the old-copy audit — native blur pill tab bar, swap `AppIcon` for direct `phosphor-react-native` imports, no backend touch. *(Code-only — can do end-to-end.)*
+10. **Rebuild Gym Modes (#26):** review queue, roots drill, usage lab — highest-value recoverable feature, works on words you already have. *(Code-only — can do end-to-end.)*
+11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`. *(Code + a Supabase seed run.)*
+12. **Build Snooze (#27)** from the spec above once the higher-priority items land. *(Code-only.)*
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).

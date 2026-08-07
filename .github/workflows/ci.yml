@@ -25,6 +25,12 @@ jobs:
       - name: Verify morning task blocks match generator rules
         run: npm run words:morning-tasks:check
 
+      - name: Typecheck root TypeScript (webhook logic, tests)
+        run: npm run typecheck
+
+      - name: Run tests (webhook signature/entitlement logic, RLS policy structure)
+        run: npm test
+
       - name: Install mobile dependencies
         working-directory: mobile
         run: npm ci

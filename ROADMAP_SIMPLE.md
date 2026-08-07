@@ -4,11 +4,11 @@ The short list. For full detail, evidence, and status notes, see [ROADMAP.md](RO
 
 ## Do next, in order
 
-- Commit the pending word-bank sync (`WORDS.md`, `zazu-words.json`, `scripts/audit-word-bank.mjs`, `THEMATIC PACKS/`)
-- Finish the demo-alarm exit affordance and commit it
-- Configure RevenueCat properly and run one real sandbox purchase
-- Build the EAS dev build and install it on a real phone (notifications, audio, persistence all need real-device proof)
-- Add a few automated tests — start with webhook signature checks and RLS policy checks
+- ~~Commit the pending word-bank sync~~ — done
+- ~~Demo-alarm exit affordance~~ — done, no gap found
+- Configure RevenueCat properly and run one real sandbox purchase *(needs you — dashboard/store access)*
+- Build the EAS dev build and install it on a real phone *(needs you — Expo account + device)*
+- ~~Add a few automated tests~~ — done (webhook signature/entitlement logic + a structural RLS-policy regression test; real Postgres integration testing still needs Docker/Supabase CLI, which this environment doesn't have)
 - Port the native floating tab bar (cheap, self-contained, no backend work)
 - Rebuild Word Gym practice modes: review queue, roots drill, usage lab
 - Wire up the Literary word pack (data already exists, needs seeding + gym screens)

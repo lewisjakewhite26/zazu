@@ -1,30 +1,14 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.38.4';
 import { hmacSHA256 } from 'https://esm.sh/crypto-js@4.1.1';
+import {
+  decideEntitlementUpdate,
+  verifyWebhookSignature as verifyWebhookSignatureCore,
+  type RevenueCatEvent,
+} from './logic.ts';
 
-function parseSignatureHeader(signatureHeader: string): { timestamp: string; signature: string } | null {
-  const parts = signatureHeader.split(',');
-  const timestampPart = parts.find((part) => part.startsWith('t='));
-  const signaturePart = parts.find((part) => part.startsWith('v1='));
-
-  if (!timestampPart || !signaturePart) return null;
-
-  return {
-    timestamp: timestampPart.slice(2),
-    signature: signaturePart.slice(3),
-  };
+function computeHmacHex(payload: string, secret: string): string {
+  return hmacSHA256(payload, secret).toString();
 }
-
-/** Constant-time string comparison — avoids leaking match length via timing. */
-function timingSafeEqual(a: string, b: string): boolean {
-  if (a.length !== b.length) return false;
-  let mismatch = 0;
-  for (let i = 0; i < a.length; i += 1) {
-    mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
-  }
-  return mismatch === 0;
-}
-
-const WEBHOOK_TOLERANCE_SECONDS = 300;
 
 const SUPABASE_URL = Deno.env.get('SUPABASE_URL');
 const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
@@ -36,49 +20,9 @@ if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY || !REVENUECAT_WEBHOOK_KEY) {
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
-interface RevenueCatEvent {
-  event: {
-    type: string;
-    app_user_id: string;
-    product_id?: string;
-    purchased_at_ms?: number;
-    expiration_at_ms?: number;
-    grace_period_expiration_at_ms?: number;
-  };
-}
-
 interface WebhookRequest {
   body: string;
   headers: Record<string, string>;
-}
-
-/**
- * Verify RevenueCat webhook signature per their current documentation:
- * header format: X-RevenueCat-Webhook-Signature: t=<timestamp>,v1=<hmac_sha256_hex>
- * payload: <timestamp>.<raw_request_body>
- */
-function verifyWebhookSignature(body: string, signatureHeader: string): boolean {
-  try {
-    const parsed = parseSignatureHeader(signatureHeader);
-    if (!parsed) return false;
-
-    // Reject stale signatures so a captured, still-valid payload can't be
-    // replayed later to re-grant or otherwise mutate entitlements.
-    const timestampSeconds = Number.parseInt(parsed.timestamp, 10);
-    if (!Number.isFinite(timestampSeconds)) return false;
-    const ageSeconds = Math.abs(Date.now() / 1000 - timestampSeconds);
-    if (ageSeconds > WEBHOOK_TOLERANCE_SECONDS) {
-      console.error('Webhook timestamp outside tolerance window');
-      return false;
-    }
-
-    const signedPayload = `${parsed.timestamp}.${body}`;
-    const computedSignature = hmacSHA256(signedPayload, REVENUECAT_WEBHOOK_KEY!).toString();
-    return timingSafeEqual(computedSignature.toLowerCase(), parsed.signature.toLowerCase());
-  } catch (error) {
-    console.error('Error verifying webhook signature:', error);
-    return false;
-  }
 }
 
 async function handleRevenueCatEvent(event: RevenueCatEvent): Promise<void> {
@@ -93,83 +37,23 @@ async function handleRevenueCatEvent(event: RevenueCatEvent): Promise<void> {
   console.log(`Processing RevenueCat event: ${eventType} for user: ${userId}`);
 
   try {
-    // Map RevenueCat events to entitlement state
-    switch (eventType) {
-      case 'INITIAL_PURCHASE':
-      case 'RENEWAL':
-        // User purchased or renewed Gold subscription
-        await supabase.from('user_entitlements').upsert(
-          {
-            user_id: userId,
-            tier: 'gold',
-            gold_until: event.event.expiration_at_ms
-              ? new Date(event.event.expiration_at_ms).toISOString()
-              : null,
-            source: 'revenuecat',
-            updated_at: new Date().toISOString(),
-          },
-          { onConflict: 'user_id' },
-        );
-        console.log(`Updated user ${userId} to gold tier`);
-        break;
-
-      case 'CANCELLATION':
-      case 'EXPIRATION':
-        // User cancelled or Gold subscription expired - downgrade to free
-        await supabase.from('user_entitlements').upsert(
-          {
-            user_id: userId,
-            tier: 'free',
-            gold_until: null,
-            source: 'revenuecat',
-            updated_at: new Date().toISOString(),
-          },
-          { onConflict: 'user_id' },
-        );
-        console.log(`Downgraded user ${userId} to free tier`);
-        break;
-
-      case 'BILLING_ISSUE': {
-        // Payment failed — RevenueCat gives a grace window before the entitlement
-        // actually lapses. Store that window as gold_until so existing RLS checks
-        // (gold_until > now()) keep access alive during grace and self-expire after,
-        // without needing a follow-up event.
-        const graceExpiresAtMs = event.event.grace_period_expiration_at_ms;
-        const inGracePeriod = Boolean(graceExpiresAtMs && graceExpiresAtMs > Date.now());
-
-        if (inGracePeriod) {
-          await supabase.from('user_entitlements').upsert(
-            {
-              user_id: userId,
-              tier: 'gold',
-              gold_until: new Date(graceExpiresAtMs!).toISOString(),
-              source: 'revenuecat',
-              updated_at: new Date().toISOString(),
-            },
-            { onConflict: 'user_id' },
-          );
-          console.log(
-            `Billing issue for user ${userId}, in grace period until ${new Date(graceExpiresAtMs!).toISOString()}`,
-          );
-        } else {
-          await supabase.from('user_entitlements').upsert(
-            {
-              user_id: userId,
-              tier: 'free',
-              gold_until: null,
-              source: 'revenuecat',
-              updated_at: new Date().toISOString(),
-            },
-            { onConflict: 'user_id' },
-          );
-          console.log(`Billing issue for user ${userId}, no/expired grace period — downgraded to free`);
-        }
-        break;
-      }
-
-      default:
-        console.log(`Unhandled event type: ${eventType}`);
+    const update = decideEntitlementUpdate(event);
+    if (!update) {
+      console.log(`Unhandled event type: ${eventType}`);
+      return;
     }
+
+    await supabase.from('user_entitlements').upsert(
+      {
+        user_id: userId,
+        tier: update.tier,
+        gold_until: update.gold_until,
+        source: 'revenuecat',
+        updated_at: new Date().toISOString(),
+      },
+      { onConflict: 'user_id' },
+    );
+    console.log(`Updated user ${userId} to ${update.tier} tier (gold_until: ${update.gold_until ?? 'null'})`);
   } catch (error) {
     console.error(`Error processing event for user ${userId}:`, error);
     throw error;
@@ -192,7 +76,7 @@ export async function handler(req: WebhookRequest): Promise<Response> {
 
     const body = req.body;
 
-    if (!verifyWebhookSignature(body, signature as string)) {
+    if (!verifyWebhookSignatureCore(body, signature as string, REVENUECAT_WEBHOOK_KEY!, computeHmacHex)) {
       console.error('Invalid webhook signature');
       return new Response(JSON.stringify({ error: 'Invalid signature' }), { status: 401 });
     }
