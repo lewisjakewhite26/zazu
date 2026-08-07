@@ -1,6 +1,6 @@
 # Zazu roadmap
 
-Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re-audit (every item below was re-verified against the actual code, not carried forward from prior docs).
+Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re-audit (every item below was re-verified against the actual code, not carried forward from prior docs). Updated 2026-08-07 with a feature audit of an old, never-committed laptop copy (Pack Shop, Coin Shop, Gym Modes, Literary Gym Round, Word Reroll, Snooze, FloatingTabBar, AppIcon fallback) — see the new subsection under P3 and [ROADMAP_SIMPLE.md](ROADMAP_SIMPLE.md) for the short version.
 
 **Overall score: ~78/100** · Vision-aligned product: ~70/100 · Details in [AUDIT.md](AUDIT.md)
 
@@ -146,25 +146,50 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | # | Task | Status |
 |---|------|--------|
 | 16 | Ad SDK integration (replace mock Huel card) | Not started — `screenAd` in `index.html` is explicitly a hardcoded mock |
-| 17 | Coin shop + thematic word packs | Not started |
+| 17 | Coin shop + thematic word packs | **Audited 2026-08-07** — see below. UI exists in an old copy but has no data behind it; recommend rebuilding data-first, not porting the screen |
 | 18 | PWA scheduled wake-up alarms | **Confirmed still not real** — `sw.js` has no `push`/`showNotification` handling; `enableNotifications()` only requests permission |
 | 19 | Night mode on mobile | Done — all screens use adaptive `useTheme()` |
 | 20 | Reach 100 words | Done (395) |
 | 21 | Analytics + crash reporting | Not started |
 | 22 | Remove `ProgressDebugPanel` once streak logic verified on device | Dev only |
-| 26 | Spaced repetition in Word Gym | Not started |
-| 27 | Snooze | Not started |
+| 26 | Spaced repetition in Word Gym (review queue, roots drill, usage lab) | **Audited 2026-08-07** — highest-value recoverable feature, see below. Not started in this repo |
+| 27 | Snooze | Not started — design spec below; an old-copy hook exists but is an empty re-export, nothing to port |
 | 28 | Scale word library to 365+ | Done (395 words) |
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
 | 30 | Cloud progress sync via Supabase Auth | Scaffolded (`user_word_progress` exists); not confirmed wired end-to-end from mobile UI |
+| 46 | Word reroll (pick a different alarm word once/day) | Not started — new idea surfaced by old-copy audit, not previously tracked. Low priority |
+| 47 | Native floating tab bar (blur pill on native, matching the existing web pill) | Not started — cheap, self-contained visual upgrade surfaced by old-copy audit |
 
-### Word packs — monetisation model (planned, not built)
+### Word packs, Gym Modes & related — old-copy audit (2026-08-07)
 
-All 395 words in `zazu-words.json` are `tier: free` today. **Zazu Gold** (subscription) covers full word history + Word Gym access — this part is real and coded (mobile), pending config (#39) and the RLS fix (#37).
+A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\Downloads\Zazu (1)`) turned out to contain a chunk of unfinished work: a Pack Shop, a Coin Shop, new Word Gym practice modes, word reroll, and snooze. None of it compiles as-is — every screen imports from a root-level `lib/` folder (`word-packs.ts`, `pack-access.ts`, `gym-modes.ts`, `gym-session.ts`, `useSnooze.ts`, `alarm-word-reroll.ts`, `literary-word-types.ts`) that is missing from disk in *every* copy checked (both Downloads extractions, that repo's own git history and stash, both zip archives) — it was apparently deleted from the laptop before either copy was made and never committed. So this is UI scaffolding with no working data layer, not a finished feature waiting to be merged. Full scored breakdown (UI quality / UX value / app fit / import. / difficulty) was done feature-by-feature; verdicts:
 
-### Snooze (#27)
+| Feature | Verdict | Why |
+|---|---|---|
+| **Gym Modes** — review queue, roots drill, usage lab | **Rewrite** | Highest value: operates on words you already have (no missing content, unlike packs), directly closes roadmap #26. Needs `gym-modes.ts` rebuilt + `useProgress`/`useAlarmFlow` extended with session tracking. |
+| **Literary Gym Round** (quote-completion, author attribution) | **Rewrite** | Second-highest value. Unlike the old copy, **you already have the real data** — `THEMATIC PACKS/zazu-words-literary.json` (270 words, matches its own schema) is sitting uncommitted in this repo. Needs `gym-session.ts` rebuilt + that JSON seeded into Supabase; the screens themselves only touch libs you already have (`feedback.ts`, `alarm-sound.ts`, `puzzle-utils.ts`). |
+| **FloatingTabBar** (native blur pill tab bar) | **Port as-is** | Only dependency is `AppIcon` (see below) — swap for direct `phosphor-react-native` imports and it drops straight in. No backend/data dependency. Cheapest real win found. |
+| **Snooze** | **Rewrite from spec** | The old copy's hook is an 8-line empty re-export — nothing to recover. Build fresh from the spec already below. |
+| **Word reroll** | **Rewrite, low priority** | Not previously tracked; mild tension with "one word, no choice" product framing. Needs a new persisted "reroll used today" state. |
+| **Pack Shop** (8 non-literary packs: Architecture, Eponym, Games, Geography, Law, Music, Mythology, Science) | **Rewrite, data-first** | Zero word content exists for any of these 8 — porting the screen means porting an empty storefront. Each pack is a Literary-pack-sized content job (150 words × full schema) on its own; treat as backlog, not a sprint. |
+| **Coin Shop** | **Drop for now** | Screen is a literal `PLACEHOLDER_ITEMS` list with "more coming soon" copy — no missing dependency, but nothing to actually ship. Revisit once one real spendable item (streak freeze) exists. |
+| **AppIcon fallback** (Phosphor + `@expo/vector-icons` runtime fallback) | **Drop** | Actively conflicts with #44 (icon migration), which already removed `@expo/vector-icons` from `package.json`. Resurrecting this means re-adding a dependency you deliberately dropped. |
+
+Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
+
+### Snooze (#27) — design spec
 
 Not built. Success screen shows a "+10 No snooze" coin line, but `completeWord` always passes `noSnooze: true`. Design when implemented: reschedule 5–10 min, no +10 bonus if snoozed, cap one snooze/morning.
+
+---
+
+## Uncommitted work in this repo (as of 2026-08-07)
+
+| What | Status |
+|---|---|
+| `WORDS.md` + `zazu-words.json` definition/spelling fixes (15 definitions, 3 POS fields) | **Done locally, matches Supabase** — a manual SQL pass was run directly against the live `words` table; this repo's seed source and doc were updated to match, so a future `seed-words.mjs` run won't regress them. Not yet committed. |
+| `scripts/audit-word-bank.mjs` | New UK-spelling + definition-clarity auditor for the Supabase word bank. Not yet committed. |
+| `THEMATIC PACKS/` folder | Only `zazu-words-literary.json` (270 words) + its schema are real, generated data. `WORDS-ALL.md` in the same folder also lists word names for 9 more packs, but those are name lists only — no schema, no definitions, no data files. Not yet committed. |
 
 ---
 
@@ -195,5 +220,10 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 5. **Configure RevenueCat:** populate `mobile/.env`, set up store products, run one sandbox purchase end-to-end.
 6. **P1 dev build:** `eas login` → `eas build --profile development --platform android` → install APK (see [mobile/BUILD.md](mobile/BUILD.md)) → P1 #9 device verification.
 7. **Add minimal tests:** webhook signature verification + RLS policy checks first, since those are the paywall's actual enforcement layer.
+8. **Commit the pending word-bank sync:** `WORDS.md`, `zazu-words.json`, `scripts/audit-word-bank.mjs`, and `THEMATIC PACKS/` (see "Uncommitted work" above).
+9. **Port FloatingTabBar (#47):** cheapest real win from the old-copy audit — native blur pill tab bar, swap `AppIcon` for direct `phosphor-react-native` imports, no backend touch.
+10. **Rebuild Gym Modes (#26):** review queue, roots drill, usage lab — highest-value recoverable feature, works on words you already have.
+11. **Wire up the Literary pack + Literary Gym Round:** seed `THEMATIC PACKS/zazu-words-literary.json` into Supabase, rebuild `lib/gym-session.ts`, port `GymLiteraryRoundScreen`/`GymMcqSessionScreen`.
+12. **Build Snooze (#27)** from the spec above once the higher-priority items land.
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
