@@ -167,15 +167,15 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 | Feature | Verdict | Why |
 |---|---|---|
 | **Gym Modes** — review queue, roots drill, usage lab | **Rewritten — done (#26)** | Highest value, and it paid off: `lib/gym-modes.ts` rebuilt from scratch, `useProgress`/`useAlarmFlow` extended with session tracking, all built on data already in the library (no missing content). |
-| **Literary Gym Round** (quote-completion, contextual definition) | **Rewritten — done, needs your migration run (#48)** | Turned out more involved than sized: the old copy's rounds mix match-pairs (Etymology) with a different MCQ shape (Quote Completion, Contextual Definition) that doesn't fit `word_rounds`/`word_pairs`, and the old screen wired literary rounds directly into the same step-by-step session as the normal puzzle — reworking that shared core wasn't worth the risk. Built as a fully isolated table + dedicated screen instead, see below. |
+| **Literary Gym Round** (quote-completion, contextual definition) | **Rewritten — done, live in Supabase (#48)** | Turned out more involved than sized: the old copy's rounds mix match-pairs (Etymology) with a different MCQ shape (Quote Completion, Contextual Definition) that doesn't fit `word_rounds`/`word_pairs`, and the old screen wired literary rounds directly into the same step-by-step session as the normal puzzle — reworking that shared core wasn't worth the risk. Built as a fully isolated table + dedicated screen instead; migration applied, 270 words seeded, RLS verified both directions, see below. |
 | **FloatingTabBar** (native blur pill tab bar) | **Ported — done (#47)** | Only dependency was `AppIcon` (see below) — swapped for direct `phosphor-react-native` imports. No backend/data dependency. Cheapest real win found, and it was: one bug fixed in the port (`accessibilityRole` was `"button"`, needed `"tab"`), verified visually in both themes. |
-| **Snooze** | **Rewrite from spec** | The old copy's hook is an 8-line empty re-export — nothing to recover. Build fresh from the spec already below. |
+| **Snooze** | **Rewritten — done (#27)** | The old copy's hook was an 8-line empty re-export — nothing to recover. Built fresh from the spec below: 8-minute reschedule, no coin bonus if used, one per calendar day. |
 | **Word reroll** | **Rewrite, low priority** | Not previously tracked; mild tension with "one word, no choice" product framing. Needs a new persisted "reroll used today" state. |
 | **Pack Shop** (8 non-literary packs: Architecture, Eponym, Games, Geography, Law, Music, Mythology, Science) | **Rewrite, data-first** | Zero word content exists for any of these 8 — porting the screen means porting an empty storefront. Each pack is a Literary-pack-sized content job (150 words × full schema) on its own; treat as backlog, not a sprint. |
 | **Coin Shop** | **Drop for now** | Screen is a literal `PLACEHOLDER_ITEMS` list with "more coming soon" copy — no missing dependency, but nothing to actually ship. Revisit once one real spendable item (streak freeze) exists. |
 | **AppIcon fallback** (Phosphor + `@expo/vector-icons` runtime fallback) | **Drop** | Actively conflicts with #44 (icon migration), which already removed `@expo/vector-icons` from `package.json`. Resurrecting this means re-adding a dependency you deliberately dropped. |
 
-Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
+Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. **All four done.** Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
 
 ### Literary Gym Round (#48) — done, live in Supabase
 
@@ -227,6 +227,8 @@ Verified: full typecheck (root + mobile) and the new tests pass. Visually confir
 | After P2 Critical (#37–40) fixed | ~85+ |
 | After device verification (P1 #9) + tests (#41) | ~90+ |
 | After word packs + coin shop | ~92+ |
+
+**This table predates everything shipped in the 2026-08-07 session** (#41 tests, #26 Gym Modes, #47 FloatingTabBar, #48 Literary Gym Round live in Supabase, #27 Snooze) and hasn't been independently re-scored against it — treat the numbers above as historical, not current. The one line item it already anticipated, "device verification + tests," is half true now: automated tests are real and passing, device verification (P1 #9) is still the single biggest open gap, blocking on the EAS dev build below.
 
 Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** (RevenueCat code complete but unconfigured; no store listing live).
 
