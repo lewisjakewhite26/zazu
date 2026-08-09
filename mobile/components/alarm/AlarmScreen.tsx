@@ -14,8 +14,9 @@ import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useAlarmSound } from '@/hooks/useAlarmSound';
-import { useSnooze, SNOOZE_MINUTES } from '@/hooks/useSnooze';
+import { useSnooze, SNOOZE_MINUTES, SNOOZE_MIN_MINUTES, SNOOZE_MAX_MINUTES } from '@/hooks/useSnooze';
 import { scheduleSnoozeNotification } from '../../../lib/alarm-notifications';
+import { SnoozeSlider } from './SnoozeSlider';
 
 function formatClock(date: Date): string {
   const hours = String(date.getHours()).padStart(2, '0');
@@ -30,6 +31,7 @@ export function AlarmScreen() {
   const { canSnooze, recordSnooze } = useSnooze();
   const [clock, setClock] = useState(formatClock(new Date()));
   const [snoozing, setSnoozing] = useState(false);
+  const [snoozeMinutes, setSnoozeMinutes] = useState(SNOOZE_MINUTES);
 
   useEffect(() => {
     const timer = setInterval(() => setClock(formatClock(new Date())), 10000);
@@ -53,7 +55,7 @@ export function AlarmScreen() {
     if (!alarmId || snoozing) return;
     setSnoozing(true);
     try {
-      await scheduleSnoozeNotification(alarmId, SNOOZE_MINUTES);
+      await scheduleSnoozeNotification(alarmId, snoozeMinutes);
       await recordSnooze();
       clearFlow();
       router.replace('/');
@@ -123,6 +125,11 @@ export function AlarmScreen() {
           maxWidth: 320,
           zIndex: 1,
         },
+        snoozeSlider: {
+          maxWidth: 320,
+          marginTop: spacing.md,
+          zIndex: 1,
+        },
         snoozeCta: {
           maxWidth: 320,
           marginTop: spacing.sm,
@@ -179,14 +186,24 @@ export function AlarmScreen() {
           />
           {showSnooze ? (
             canSnooze ? (
-              <PrimaryButton
-                label={copy.alarm.snoozeCta(SNOOZE_MINUTES)}
-                variant="outline"
-                onPress={handleSnooze}
-                disabled={snoozing}
-                loading={snoozing}
-                style={styles.snoozeCta}
-              />
+              <>
+                <SnoozeSlider
+                  value={snoozeMinutes}
+                  min={SNOOZE_MIN_MINUTES}
+                  max={SNOOZE_MAX_MINUTES}
+                  onChange={setSnoozeMinutes}
+                  disabled={snoozing}
+                  style={styles.snoozeSlider}
+                />
+                <PrimaryButton
+                  label={copy.alarm.snoozeCta(snoozeMinutes)}
+                  variant="outline"
+                  onPress={handleSnooze}
+                  disabled={snoozing}
+                  loading={snoozing}
+                  style={styles.snoozeCta}
+                />
+              </>
             ) : (
               <Text style={styles.snoozeUsed}>{copy.alarm.snoozeUsed}</Text>
             )

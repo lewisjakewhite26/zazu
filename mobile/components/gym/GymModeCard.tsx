@@ -33,7 +33,7 @@ export function GymModeCard({
       StyleSheet.create({
         card: {
           width: '100%',
-          marginBottom: spacing.sm,
+          marginBottom: spacing.md,
         },
         inner: {
           flexDirection: 'row',

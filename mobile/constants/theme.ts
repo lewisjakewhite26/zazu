@@ -125,60 +125,60 @@ export const typography = {
   },
   sectionLabel: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 11, // .7rem
+    fontSize: 12, // was 11 (.7rem)
     letterSpacing: 1.1, // .1em
   },
   wotdEyebrow: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 10, // .65rem
+    fontSize: 11, // was 10 (.65rem)
     letterSpacing: 1.2, // .12em
   },
   wotdPron: {
     fontFamily: fonts.sans,
-    fontSize: 12, // .78rem
+    fontSize: 13, // was 12 (.78rem)
     fontStyle: 'italic' as const,
   },
   wotdDef: {
     fontFamily: fonts.sans,
-    fontSize: 14, // .88rem
-    lineHeight: 22, // 1.55
+    fontSize: 15, // was 14 (.88rem)
+    lineHeight: 23, // was 22
   },
   wotdOrigin: {
     fontFamily: fonts.sans,
-    fontSize: 12, // .75rem
-    lineHeight: 18,
+    fontSize: 13, // was 12 (.75rem)
+    lineHeight: 19, // was 18
   },
   posBadge: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 10, // .62rem
+    fontSize: 11, // was 10 (.62rem)
     letterSpacing: 0.8,
   },
   alarmMeta: {
     fontFamily: fonts.sans,
-    fontSize: 12, // .72rem
+    fontSize: 13, // was 12 (.72rem)
   },
   streakCount: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 14, // .9rem
+    fontSize: 15, // was 14 (.9rem)
     letterSpacing: -0.14,
   },
   streakLabel: {
     fontFamily: fonts.sansMedium,
-    fontSize: 9, // .56rem
+    fontSize: 10, // was 9 (.56rem)
     letterSpacing: 0.72,
   },
   coinAmount: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 14,
+    fontSize: 15, // was 14
     letterSpacing: -0.14,
   },
   btnPrimary: {
     fontFamily: fonts.sansMedium,
-    fontSize: 15, // .95rem
+    fontSize: 16, // was 15 (.95rem)
   },
   btnDemo: {
     fontFamily: fonts.sans,
-    fontSize: 13, // .82rem
+    fontSize: 14, // was 13 (.82rem)
   },
   tagline: {
     fontFamily: fonts.serif,
@@ -188,7 +188,7 @@ export const typography = {
   },
   eyebrow: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 11, // .68rem
+    fontSize: 12, // was 11 (.68rem)
     letterSpacing: 1.32, // .12em
   },
   learnWord: {
@@ -198,33 +198,33 @@ export const typography = {
   },
   learnPron: {
     fontFamily: fonts.sans,
-    fontSize: 14, // .88rem
+    fontSize: 15, // was 14 (.88rem)
     fontStyle: 'italic' as const,
   },
   learnDef: {
     fontFamily: fonts.sans,
-    fontSize: 16,
-    lineHeight: 24,
+    fontSize: 17, // was 16
+    lineHeight: 25, // was 24
   },
   etymLabel: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 10, // .62rem
+    fontSize: 11, // was 10 (.62rem)
     letterSpacing: 1,
   },
   etymBody: {
     fontFamily: fonts.sans,
-    fontSize: 14, // .88rem
-    lineHeight: 22,
+    fontSize: 15, // was 14 (.88rem)
+    lineHeight: 23, // was 22
   },
   mtQuestion: {
     fontFamily: fonts.sansMedium,
-    fontSize: 17, // 1.05rem
-    lineHeight: 25,
+    fontSize: 18, // was 17 (1.05rem)
+    lineHeight: 26, // was 25
   },
   mtOption: {
     fontFamily: fonts.sans,
-    fontSize: 15, // .92rem
-    lineHeight: 22,
+    fontSize: 16, // was 15 (.92rem)
+    lineHeight: 23, // was 22
   },
   alarmBigTime: {
     fontFamily: fonts.serif,
@@ -234,21 +234,21 @@ export const typography = {
   },
   alarmLabel: {
     fontFamily: fonts.sansMedium,
-    fontSize: 12, // .72rem
+    fontSize: 13, // was 12 (.72rem)
     letterSpacing: 1.68, // .14em
   },
   alarmTease: {
     fontFamily: fonts.sans,
-    fontSize: 14, // .9rem
+    fontSize: 15, // was 14 (.9rem)
   },
   alarmSub: {
     fontFamily: fonts.sans,
-    fontSize: 12, // .78rem
+    fontSize: 13, // was 12 (.78rem)
     fontWeight: '300' as const,
   },
   btnWake: {
     fontFamily: fonts.sansMedium,
-    fontSize: 17, // 1.05rem
+    fontSize: 18, // was 17 (1.05rem)
   },
   successHeading: {
     fontFamily: fonts.serif,
@@ -257,7 +257,7 @@ export const typography = {
   },
   successSub: {
     fontFamily: fonts.sans,
-    fontSize: 15, // .92rem
+    fontSize: 16, // was 15 (.92rem)
     fontWeight: '300' as const,
   },
   puzzleWordMain: {
@@ -267,7 +267,7 @@ export const typography = {
   },
   puzzleWordRound: {
     fontFamily: fonts.sansMedium,
-    fontSize: 11, // .68rem
+    fontSize: 12, // was 11 (.68rem)
     letterSpacing: 1.32,
   },
   adBrand: {
@@ -276,8 +276,8 @@ export const typography = {
   },
   adCopy: {
     fontFamily: fonts.sans,
-    fontSize: 13, // .84rem
-    lineHeight: 20,
+    fontSize: 14, // was 13 (.84rem)
+    lineHeight: 21, // was 20
   },
 } as const;
 

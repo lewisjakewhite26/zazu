@@ -187,7 +187,7 @@ export function GymLiteraryRoundScreen() {
           flexDirection: 'row',
           justifyContent: 'center',
           gap: spacing.sm,
-          marginBottom: spacing.md,
+          marginTop: spacing.sm,
         },
         progressDot: {
           width: 8,
@@ -217,6 +217,7 @@ export function GymLiteraryRoundScreen() {
             <View style={styles.banner}>
               <Text style={styles.wordMain}>{current.word}</Text>
               <Text style={styles.wordRound}>{current.roundTitle}</Text>
+              <View style={styles.progressRow}>{progressDots}</View>
             </View>
 
             <GlassCard borderRadius={16} contentStyle={styles.contextContent}>
@@ -229,8 +230,6 @@ export function GymLiteraryRoundScreen() {
                 </>
               ) : null}
             </GlassCard>
-
-            <View style={styles.progressRow}>{progressDots}</View>
 
             <View style={styles.options}>
               {current.options.map((option, index) => {

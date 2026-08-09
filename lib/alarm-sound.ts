@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { Platform, Vibration } from 'react-native';
-import { Audio } from 'expo-av';
+import { createAudioPlayer, preload, setAudioModeAsync, type AudioPlayer } from 'expo-audio';
 
 /** Pulses while the alarm rings; loops from the start of the pattern until Vibration.cancel(). */
 const ALARM_VIBRATION_PATTERN = [0, 800, 400, 800];
@@ -35,11 +35,10 @@ function getAlarmSoundFile(soundId: string): number {
 let webInterval: ReturnType<typeof setInterval> | null = null;
 let webAudioContext: AudioContext | null = null;
 let webGain: GainNode | null = null;
-let nativeInterval: ReturnType<typeof setInterval> | null = null;
 let activeSoundId: AlarmSoundId = DEFAULT_ALARM_SOUND_ID;
 
 /** Decoded sounds, keyed by id, kept loaded for the app session so repeat alarms never re-pay the decode cost. */
-const loadedSounds = new Map<string, Audio.Sound>();
+const loadedSounds = new Map<string, AudioPlayer>();
 
 function getWebAudioContext(): AudioContext | null {
   if (Platform.OS !== 'web' || typeof window === 'undefined') return null;
@@ -70,23 +69,27 @@ function playWebChime() {
 }
 
 /** Loads a sound into memory once and reuses it; safe to call repeatedly. */
-async function ensureSoundLoaded(soundId: AlarmSoundId): Promise<Audio.Sound | null> {
+async function ensureSoundLoaded(soundId: AlarmSoundId): Promise<AudioPlayer | null> {
   const cached = loadedSounds.get(soundId);
   if (cached) return cached;
 
   try {
-    await Audio.setAudioModeAsync({
-      playsInSilentModeIOS: true,
-      staysActiveInBackground: true,
-      shouldDuckAndroid: false,
+    await setAudioModeAsync({
+      playsInSilentMode: true,
+      shouldPlayInBackground: true,
+      interruptionMode: 'doNotMix',
     });
 
-    const { sound } = await Audio.Sound.createAsync(getAlarmSoundFile(soundId), {
-      shouldPlay: false,
-      volume: 0.7,
-    });
-    loadedSounds.set(soundId, sound);
-    return sound;
+    const source = getAlarmSoundFile(soundId);
+    // Waits for the file to actually finish decoding — createAudioPlayer()
+    // alone returns before that, so playback started immediately after it
+    // would run off the end of the not-yet-buffered audio within ~1s.
+    await preload(source);
+
+    const player = createAudioPlayer(source);
+    player.volume = 0.7;
+    loadedSounds.set(soundId, player);
+    return player;
   } catch (error) {
     console.warn('[Zazu] Alarm sound load failed:', error);
     return null;
@@ -111,7 +114,9 @@ async function playNativeChime(soundId: AlarmSoundId) {
   if (!sound) return;
 
   try {
-    await sound.replayAsync();
+    sound.loop = true;
+    await sound.seekTo(0);
+    sound.play();
   } catch (error) {
     console.warn('[Zazu] Alarm sound playback failed:', error);
   }
@@ -140,9 +145,6 @@ export async function startAlarmSound(soundId: AlarmSoundId = DEFAULT_ALARM_SOUN
   }
 
   await playNativeChime(soundId);
-  nativeInterval = setInterval(() => {
-    void playNativeChime(activeSoundId);
-  }, 3000);
 }
 
 export async function stopAlarmSound(): Promise<void> {
@@ -160,17 +162,14 @@ export async function stopAlarmSound(): Promise<void> {
     webGain = null;
   }
 
-  if (nativeInterval) {
-    clearInterval(nativeInterval);
-    nativeInterval = null;
-  }
-
   // Stop, but keep decoded and cached for the next alarm — unloading here
   // would silently undo the whole point of preloading/reusing sounds.
   const sound = loadedSounds.get(activeSoundId);
   if (sound) {
     try {
-      await sound.stopAsync();
+      sound.loop = false;
+      sound.pause();
+      await sound.seekTo(0);
     } catch {
       // ignore cleanup errors
     }
@@ -183,8 +182,10 @@ export async function previewAlarmSound(soundId: AlarmSoundId): Promise<void> {
   if (!sound) return;
 
   try {
-    await sound.stopAsync().catch(() => {});
-    await sound.replayAsync();
+    sound.loop = false;
+    sound.pause();
+    await sound.seekTo(0);
+    sound.play();
   } catch (error) {
     console.warn('[Zazu] Alarm sound preview failed:', error);
   }
@@ -194,7 +195,8 @@ export async function stopAlarmSoundPreview(soundId: AlarmSoundId): Promise<void
   const sound = loadedSounds.get(soundId);
   if (!sound) return;
   try {
-    await sound.stopAsync();
+    sound.pause();
+    await sound.seekTo(0);
   } catch {
     // ignore cleanup errors
   }

@@ -1,8 +1,12 @@
 // Pure snooze logic - no React/AsyncStorage imports, so it can be unit
 // tested under plain Node/Vitest. lib/useSnooze.ts wraps this in a hook.
 
-/** Minutes a snoozed alarm is deferred by. Spec: 5-10 min, picked the midpoint. */
+/** Default minutes a snoozed alarm is deferred by, before the user drags the slider. */
 export const SNOOZE_MINUTES = 8;
+
+/** Slider bounds — kept well short of a full sleep cycle so a snooze stays a snooze. */
+export const SNOOZE_MIN_MINUTES = 1;
+export const SNOOZE_MAX_MINUTES = 20;
 
 export function toIsoDate(date: Date = new Date()): string {
   const year = date.getFullYear();

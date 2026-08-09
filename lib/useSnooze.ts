@@ -2,9 +2,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import { SNOOZE_MINUTES, isSnoozeAvailable, toIsoDate } from './snooze-logic';
+import { SNOOZE_MINUTES, SNOOZE_MIN_MINUTES, SNOOZE_MAX_MINUTES, isSnoozeAvailable, toIsoDate } from './snooze-logic';
 
-export { SNOOZE_MINUTES, isSnoozeAvailable };
+export { SNOOZE_MINUTES, SNOOZE_MIN_MINUTES, SNOOZE_MAX_MINUTES, isSnoozeAvailable };
 
 const STORAGE_KEY = 'zazu:snoozedDate';
 
