@@ -1,0 +1,1898 @@
+[
+  {
+    "word": "Avocado",
+    "pronunciation": "av-uh-KAH-doh",
+    "pos": "noun",
+    "definition": "A pear-shaped fruit with rough green skin, buttery flesh, and a large stone, native to Central America.",
+    "origin": "From Nahuatl <strong>ahuacatl</strong>, the Aztec name for the fruit, which also meant testicle, likely for its shape. Spanish speakers adapted it to <strong>aguacate</strong>, then <strong>avocado</strong>.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Avocado</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Nahuatl ahuacatl", "b": "The Aztec name for the fruit" },
+          { "a": "Nahuatl was spoken by", "b": "The Aztecs" },
+          { "a": "Spanish aguacate", "b": "The adapted Spanish form" },
+          { "a": "Native region", "b": "Central America" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Avocado</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An avocado is", "b": "A green fruit with buttery flesh" },
+          { "a": "Inside the avocado sits", "b": "A single large stone" },
+          { "a": "Avocados are the base of", "b": "Guacamole" },
+          { "a": "The fruit is native to", "b": "Central America" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Avocado</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She mashed the avocado", "b": "Onto her morning toast" },
+          { "a": "The avocado was perfectly ripe", "b": "Soft but not brown" },
+          { "a": "Guacamole needs", "b": "Avocado, lime, and salt" },
+          { "a": "Mexican growers export", "b": "Avocados worldwide" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ahuacatl", "rootLanguage": "Nahuatl", "rootMeaning": "The Aztec name for the fruit", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Nahuatl ", "highlight": false },
+        { "text": "ahuacatl", "highlight": true },
+        { "text": ", the Aztec name, adapted through Spanish aguacate.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ahuacatl",
+      "correctAnswer": "The Aztec name for the fruit",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chocolate",
+    "pronunciation": "CHOK-lit",
+    "pos": "noun",
+    "definition": "A food made from roasted cacao seeds, eaten as confectionery or drunk. First consumed as a bitter drink by Mesoamerican civilisations.",
+    "origin": "From Nahuatl <strong>chocolatl</strong> or <strong>xocolatl</strong>, possibly from <strong>xococ</strong> (bitter) + <strong>atl</strong> (water). The Aztecs drank it bitter and spiced; sugar came later in Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chocolate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Nahuatl xococ", "b": "Bitter" },
+          { "a": "Nahuatl atl", "b": "Water" },
+          { "a": "Original Aztec form", "b": "A bitter spiced drink" },
+          { "a": "European addition", "b": "Sugar" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chocolate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chocolate is made from", "b": "Roasted cacao seeds" },
+          { "a": "The Aztecs drank it", "b": "Bitter and spiced" },
+          { "a": "Dark chocolate contains", "b": "A high share of cacao" },
+          { "a": "Cacao trees grow", "b": "In tropical climates" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chocolate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She melted the chocolate", "b": "Slowly over the pan" },
+          { "a": "Aztec nobles drank chocolate", "b": "From ornate vessels" },
+          { "a": "The chocolatier tempered", "b": "The glossy dark batch" },
+          { "a": "Hot chocolate on a cold night", "b": "Is hard to improve on" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "xococ", "rootLanguage": "Nahuatl", "rootMeaning": "Bitter", "showInIntro": true },
+      { "rootText": "atl", "rootLanguage": "Nahuatl", "rootMeaning": "Water", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly Nahuatl ", "highlight": false },
+        { "text": "xococ", "highlight": true },
+        { "text": " (bitter) + ", "highlight": false },
+        { "text": "atl", "highlight": true },
+        { "text": " (water); the Aztec drink Europe sweetened.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "atl",
+      "correctAnswer": "Water",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Coyote",
+    "pronunciation": "ky-OH-tee",
+    "pos": "noun",
+    "definition": "A wild canine of North and Central America, smaller than a wolf, famed for adaptability and its haunting evening howl.",
+    "origin": "From Nahuatl <strong>coyotl</strong>, the Aztec name for the animal, entering English through Mexican Spanish in the 18th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Coyote</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Nahuatl coyotl", "b": "The animal's Aztec name" },
+          { "a": "Route into English", "b": "Mexican Spanish" },
+          { "a": "First recorded in English", "b": "18th century" },
+          { "a": "Compared with the wolf", "b": "Smaller and more adaptable" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Coyote</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A coyote is", "b": "A wild American canine" },
+          { "a": "Coyotes are famed for", "b": "Adaptability to any habitat" },
+          { "a": "Their evening call is", "b": "A haunting howl and yip" },
+          { "a": "In Native American stories", "b": "Coyote is a trickster figure" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Coyote</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A coyote howled", "b": "Somewhere beyond the ridge" },
+          { "a": "Coyotes have spread", "b": "Into cities across America" },
+          { "a": "The trickster Coyote", "b": "Stars in many folk tales" },
+          { "a": "The coyote trotted", "b": "Along the canyon rim at dusk" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "coyotl", "rootLanguage": "Nahuatl", "rootMeaning": "The animal's Aztec name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Nahuatl ", "highlight": false },
+        { "text": "coyotl", "highlight": true },
+        { "text": " via Mexican Spanish; the adaptable trickster of the Americas.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "coyotl",
+      "correctAnswer": "The animal's Aztec name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hammock",
+    "pronunciation": "HAM-uk",
+    "pos": "noun",
+    "definition": "A bed of netting or fabric suspended between two supports, invented by the peoples of the Caribbean and Central America.",
+    "origin": "From Taíno <strong>hamaka</strong>, the name used by the indigenous people of the Caribbean, recorded by Columbus's expeditions and carried into Spanish, then English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hammock</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno hamaka", "b": "The suspended bed's name" },
+          { "a": "The Taíno lived in", "b": "The Caribbean" },
+          { "a": "Recorded by", "b": "Columbus's expeditions" },
+          { "a": "Adopted by sailors for", "b": "Sleeping aboard ships" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hammock</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hammock is", "b": "A suspended bed of net or fabric" },
+          { "a": "It hangs between", "b": "Two supports" },
+          { "a": "It was invented by", "b": "Caribbean peoples" },
+          { "a": "Navies adopted hammocks because", "b": "They sway with the ship" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hammock</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He dozed in the hammock", "b": "Strung between two palms" },
+          { "a": "Sailors slept in hammocks", "b": "Below decks for centuries" },
+          { "a": "The hammock swayed gently", "b": "In the afternoon breeze" },
+          { "a": "She hung a hammock", "b": "At the end of the garden" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "hamaka", "rootLanguage": "Taíno", "rootMeaning": "The suspended bed", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "hamaka", "highlight": true },
+        { "text": "; a Caribbean invention the world lay down in.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hamaka",
+      "correctAnswer": "The suspended bed",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Canoe",
+    "pronunciation": "kuh-NOO",
+    "pos": "noun",
+    "definition": "A narrow, lightweight boat pointed at both ends, moved with a paddle, developed by indigenous peoples across the Americas.",
+    "origin": "From Taíno or Carib <strong>kanawa</strong>, via Spanish <strong>canoa</strong>, recorded on Columbus's first voyage as one of the earliest American words to enter European languages.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Canoe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno or Carib kanawa", "b": "The boat's original name" },
+          { "a": "Spanish canoa", "b": "The route into European languages" },
+          { "a": "Recorded on", "b": "Columbus's first voyage" },
+          { "a": "Moved with", "b": "A single-bladed paddle" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Canoe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A canoe is", "b": "A narrow open paddled boat" },
+          { "a": "Its shape is", "b": "Pointed at both ends" },
+          { "a": "Traditional canoes were made from", "b": "Bark, dugout logs, or skins" },
+          { "a": "One of the first American words", "b": "To enter European languages" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Canoe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They paddled the canoe", "b": "Across the still lake at dawn" },
+          { "a": "The birch-bark canoe", "b": "Carried furs down the river" },
+          { "a": "The canoe slid silently", "b": "Between the reed beds" },
+          { "a": "Canoe racing", "b": "Is an Olympic discipline" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kanawa", "rootLanguage": "Taíno", "rootMeaning": "The boat's original name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "kanawa", "highlight": true },
+        { "text": " via Spanish canoa; among the first American words Europe learned.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A narrow paddled boat pointed at both ends, from a Taíno word.",
+      "correctAnswer": "A narrow open paddled boat",
+      "hint": "Think about the boat moved with a single paddle.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tobacco",
+    "pronunciation": "tuh-BAK-oh",
+    "pos": "noun",
+    "definition": "A plant whose dried leaves are smoked or chewed, first cultivated by the peoples of the Americas long before European contact.",
+    "origin": "From Taíno via Spanish <strong>tabaco</strong>, possibly the name for a roll of leaves or the pipe used to inhale, recorded by early Spanish chroniclers in the Caribbean.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tobacco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno origin", "b": "Possibly the leaf roll or the pipe" },
+          { "a": "Spanish tabaco", "b": "The route into English" },
+          { "a": "First cultivated by", "b": "Peoples of the Americas" },
+          { "a": "Recorded by", "b": "Early Spanish chroniclers" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tobacco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tobacco is", "b": "A plant with dried smokable leaves" },
+          { "a": "It was first grown in", "b": "The Americas" },
+          { "a": "It reached Europe in", "b": "The 16th century" },
+          { "a": "Its ceremonial use", "b": "Long predates European contact" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tobacco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tobacco fields stretched", "b": "Across the Virginia lowlands" },
+          { "a": "Ceremonial tobacco held", "b": "Sacred meaning for many nations" },
+          { "a": "The tobacco trade shaped", "b": "Colonial economies" },
+          { "a": "Dried tobacco leaves hang", "b": "In the curing barn" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tabaco", "rootLanguage": "Taíno via Spanish", "rootMeaning": "The leaf roll or pipe", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno via Spanish ", "highlight": false },
+        { "text": "tabaco", "highlight": true },
+        { "text": "; a plant of the Americas that reshaped world trade.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A plant with dried smokable leaves, first cultivated in the Americas.",
+      "correctAnswer": "A plant with dried smokable leaves",
+      "hint": "Think about the crop that dominated early colonial trade.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hurricane",
+    "pronunciation": "HUR-ih-kayn",
+    "pos": "noun",
+    "definition": "A violent tropical storm with winds above 74 miles per hour, forming over warm Atlantic and eastern Pacific waters.",
+    "origin": "From Taíno <strong>hurakán</strong>, the name of the storm god of the Caribbean peoples, via Spanish <strong>huracán</strong>. The Maya knew a similar deity, Huracan, god of wind and storm.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hurricane</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno hurakán", "b": "The storm god" },
+          { "a": "Maya Huracan", "b": "God of wind and storm" },
+          { "a": "Spanish huracán", "b": "The route into English" },
+          { "a": "Wind threshold", "b": "74 miles per hour and above" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hurricane</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hurricane is", "b": "A violent tropical storm" },
+          { "a": "Hurricanes form over", "b": "Warm ocean waters" },
+          { "a": "The storm's centre is called", "b": "The eye" },
+          { "a": "The name honours", "b": "A Caribbean storm god" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hurricane</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hurricane made landfall", "b": "Just after midnight" },
+          { "a": "Residents boarded windows", "b": "As the hurricane approached" },
+          { "a": "The hurricane season runs", "b": "From June to November" },
+          { "a": "Inside the eye of the hurricane", "b": "The air is strangely calm" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "hurakán", "rootLanguage": "Taíno", "rootMeaning": "The storm god", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "hurakán", "highlight": true },
+        { "text": ", the storm god; the deity's name became the storm itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hurakán",
+      "correctAnswer": "The storm god",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kayak",
+    "pronunciation": "KY-ak",
+    "pos": "noun",
+    "definition": "A narrow, covered canoe with a small cockpit, propelled with a double-bladed paddle, invented by Arctic peoples for hunting on icy waters.",
+    "origin": "From Inuit <strong>qajaq</strong> (hunter's boat), developed by the Inuit, Yupik, and Aleut peoples of the Arctic. The sealed design allowed hunters to roll upright after capsizing.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kayak</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Inuit qajaq", "b": "Hunter's boat" },
+          { "a": "Invented by", "b": "Arctic peoples" },
+          { "a": "Original purpose", "b": "Hunting on icy waters" },
+          { "a": "Key design feature", "b": "Sealed cockpit for rolling upright" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kayak</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A kayak is", "b": "A covered canoe with a cockpit" },
+          { "a": "It is propelled with", "b": "A double-bladed paddle" },
+          { "a": "Traditional kayaks were built from", "b": "Driftwood and sealskin" },
+          { "a": "The Eskimo roll lets a paddler", "b": "Right the boat after capsizing" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kayak</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She paddled the kayak", "b": "Through the sea caves" },
+          { "a": "Inuit hunters used kayaks", "b": "To approach seals silently" },
+          { "a": "The kayak rolled and righted", "b": "In one smooth motion" },
+          { "a": "Whitewater kayaking", "b": "Tests nerve and technique" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "qajaq", "rootLanguage": "Inuit", "rootMeaning": "Hunter's boat", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Inuit ", "highlight": false },
+        { "text": "qajaq", "highlight": true },
+        { "text": " (hunter's boat); Arctic engineering for icy seas.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "qajaq",
+      "correctAnswer": "Hunter's boat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Igloo",
+    "pronunciation": "IG-loo",
+    "pos": "noun",
+    "definition": "A dome-shaped shelter built from blocks of compacted snow, used by Inuit peoples as winter housing and hunting shelter.",
+    "origin": "From Inuit <strong>iglu</strong> (house, dwelling). In Inuit languages the word covers any house; English narrowed it to the snow dome.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Igloo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Inuit iglu", "b": "House or dwelling" },
+          { "a": "In Inuit languages it means", "b": "Any house at all" },
+          { "a": "English narrowed it to", "b": "The snow dome only" },
+          { "a": "Built from", "b": "Blocks of compacted snow" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Igloo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An igloo is", "b": "A dome built of snow blocks" },
+          { "a": "Snow insulates because", "b": "It traps pockets of air" },
+          { "a": "Inside an igloo it can be", "b": "Far warmer than outside" },
+          { "a": "The blocks spiral upward", "b": "Into a self-supporting dome" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Igloo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hunters built an igloo", "b": "In under an hour" },
+          { "a": "The igloo's entrance tunnel", "b": "Keeps the cold wind out" },
+          { "a": "A single oil lamp", "b": "Warms the igloo's interior" },
+          { "a": "The snow blocks locked", "b": "Into a perfect dome" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "iglu", "rootLanguage": "Inuit", "rootMeaning": "House or dwelling", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Inuit ", "highlight": false },
+        { "text": "iglu", "highlight": true },
+        { "text": " (house); English kept only the snow-built kind.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "iglu",
+      "correctAnswer": "House or dwelling",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Anorak",
+    "pronunciation": "AN-uh-rak",
+    "pos": "noun",
+    "definition": "A hooded, weatherproof jacket. In British slang, also a person with an obsessive niche interest.",
+    "origin": "From Greenlandic Inuit <strong>anoraq</strong>, a hooded sealskin jacket designed for Arctic conditions. The British slang sense came from the jackets worn by trainspotters.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Anorak</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greenlandic anoraq", "b": "A hooded sealskin jacket" },
+          { "a": "Designed for", "b": "Arctic weather" },
+          { "a": "British slang sense", "b": "An obsessive hobbyist" },
+          { "a": "Slang origin", "b": "Jackets worn by trainspotters" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Anorak</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An anorak is", "b": "A hooded weatherproof jacket" },
+          { "a": "Calling someone an anorak means", "b": "They have an obsessive niche hobby" },
+          { "a": "The original anoraq was made of", "b": "Sealskin" },
+          { "a": "The slang was born on", "b": "Railway platforms" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Anorak</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He zipped his anorak", "b": "Against the driving rain" },
+          { "a": "A bit of an anorak", "b": "He knew every locomotive number" },
+          { "a": "The anorak's hood", "b": "Kept the sleet off" },
+          { "a": "Greenlandic hunters wore anoraqs", "b": "Long before the high street did" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "anoraq", "rootLanguage": "Greenlandic", "rootMeaning": "Hooded sealskin jacket", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greenlandic ", "highlight": false },
+        { "text": "anoraq", "highlight": true },
+        { "text": "; Arctic outerwear that became British slang for a hobbyist.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "anoraq",
+      "correctAnswer": "Hooded sealskin jacket",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Moose",
+    "pronunciation": "MOOS",
+    "pos": "noun",
+    "definition": "The largest member of the deer family, with broad flattened antlers, native to the northern forests of North America.",
+    "origin": "From Eastern Abenaki <strong>mos</strong>, likely meaning stripper of bark, describing how the animal feeds on trees. One of many Algonquian words adopted by early English settlers.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Moose</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Abenaki mos", "b": "Likely stripper of bark" },
+          { "a": "Language family", "b": "Algonquian" },
+          { "a": "Adopted by", "b": "Early English settlers" },
+          { "a": "The name describes", "b": "How it feeds on trees" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Moose</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A moose is", "b": "The largest deer species" },
+          { "a": "Male moose carry", "b": "Broad flattened antlers" },
+          { "a": "Moose live in", "b": "Northern forests and wetlands" },
+          { "a": "In Europe the same animal is", "b": "Called an elk" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Moose</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A bull moose waded", "b": "Into the shallow lake" },
+          { "a": "The moose stripped bark", "b": "From the young willows" },
+          { "a": "Drivers brake for moose", "b": "On northern highways" },
+          { "a": "The moose's antlers spanned", "b": "Nearly two metres" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mos", "rootLanguage": "Abenaki", "rootMeaning": "Stripper of bark", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Abenaki ", "highlight": false },
+        { "text": "mos", "highlight": true },
+        { "text": ", likely stripper of bark; named for how it feeds.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mos",
+      "correctAnswer": "Stripper of bark",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Raccoon",
+    "pronunciation": "ruh-KOON",
+    "pos": "noun",
+    "definition": "A masked, ring-tailed North American mammal known for dexterous front paws and washing food in water.",
+    "origin": "From Powhatan <strong>aroughcun</strong> (one who scratches with hands), recorded by the Jamestown colonists in Virginia in the early 17th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Raccoon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Powhatan aroughcun", "b": "One who scratches with hands" },
+          { "a": "Recorded by", "b": "Jamestown colonists" },
+          { "a": "Region", "b": "Virginia, early 17th century" },
+          { "a": "The name describes", "b": "Its busy dexterous paws" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Raccoon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A raccoon is", "b": "A masked ring-tailed mammal" },
+          { "a": "Its famous habit is", "b": "Appearing to wash its food" },
+          { "a": "Its front paws are", "b": "Remarkably dexterous" },
+          { "a": "Raccoons thrive in", "b": "Forests and cities alike" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Raccoon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The raccoon prised open", "b": "The supposedly secure bin" },
+          { "a": "Its masked face peered", "b": "From the hollow tree" },
+          { "a": "The raccoon dabbled its paws", "b": "In the shallow stream" },
+          { "a": "City raccoons have learned", "b": "To open latches and lids" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "aroughcun", "rootLanguage": "Powhatan", "rootMeaning": "One who scratches with hands", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Powhatan ", "highlight": false },
+        { "text": "aroughcun", "highlight": true },
+        { "text": " (one who scratches with hands); named for those clever paws.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "aroughcun",
+      "correctAnswer": "One who scratches with hands",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Totem",
+    "pronunciation": "TOH-tum",
+    "pos": "noun",
+    "definition": "A natural object or animal serving as the emblem of a family or clan, especially among Indigenous peoples of North America. A totem pole carves these emblems in cedar.",
+    "origin": "From Ojibwe <strong>odoodem</strong> (his kinship group), describing the clan system in which families identified with an animal ancestor.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Totem</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ojibwe odoodem", "b": "His kinship group" },
+          { "a": "The system links families to", "b": "An animal ancestor" },
+          { "a": "Totem poles are carved from", "b": "Cedar" },
+          { "a": "Pole carving traditions belong to", "b": "Pacific Northwest nations" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Totem</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A totem is", "b": "A clan's emblem animal or object" },
+          { "a": "A totem pole displays", "b": "Carved family emblems" },
+          { "a": "Ojibwe odoodem refers to", "b": "Kinship groups" },
+          { "a": "Figuratively, a totem is", "b": "A revered symbol" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Totem</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The carved totem pole", "b": "Told the family's history" },
+          { "a": "The raven was the clan's", "b": "Totem animal" },
+          { "a": "Haida carvers raise totems", "b": "In coastal villages" },
+          { "a": "The old car became a totem", "b": "Of his younger days" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "odoodem", "rootLanguage": "Ojibwe", "rootMeaning": "His kinship group", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Ojibwe ", "highlight": false },
+        { "text": "odoodem", "highlight": true },
+        { "text": " (his kinship group); the clan emblem carved into cedar.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "odoodem",
+      "correctAnswer": "His kinship group",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jaguar",
+    "pronunciation": "JAG-yoo-ar",
+    "pos": "noun",
+    "definition": "The largest cat of the Americas, a powerful spotted predator of Central and South American forests, capable of crushing bites no other big cat can match.",
+    "origin": "From Tupi-Guaraní <strong>yaguara</strong> (beast, fierce dog), via Portuguese. The Tupi peoples of Brazil named the great cat of their forests.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jaguar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tupi-Guaraní yaguara", "b": "Beast or fierce dog" },
+          { "a": "Route into English", "b": "Portuguese" },
+          { "a": "Named by", "b": "The Tupi peoples of Brazil" },
+          { "a": "Its bite", "b": "Strongest of any big cat" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jaguar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The jaguar is", "b": "The largest cat of the Americas" },
+          { "a": "Its coat carries", "b": "Rosette-patterned spots" },
+          { "a": "It hunts", "b": "In forests and rivers alike" },
+          { "a": "In Maya and Aztec culture it was", "b": "A symbol of power" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jaguar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jaguar slipped", "b": "Through the flooded forest" },
+          { "a": "Jaguars swim readily", "b": "Unlike most big cats" },
+          { "a": "Maya kings wore", "b": "Jaguar pelts as regalia" },
+          { "a": "Camera traps caught", "b": "A jaguar crossing at night" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "yaguara", "rootLanguage": "Tupi-Guaraní", "rootMeaning": "Beast or fierce dog", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tupi-Guaraní ", "highlight": false },
+        { "text": "yaguara", "highlight": true },
+        { "text": " (beast); the great cat named by the forests' own people.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "yaguara",
+      "correctAnswer": "Beast or fierce dog",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tapioca",
+    "pronunciation": "tap-ee-OH-kuh",
+    "pos": "noun",
+    "definition": "A starch extracted from cassava root, used in puddings and bubble tea, originally processed by Indigenous peoples of Brazil.",
+    "origin": "From Tupi <strong>tipi'óka</strong> (squeezed-out dregs), describing the process of pressing cassava to extract its starch and remove its toxins.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tapioca</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tupi tipi'óka", "b": "Squeezed-out dregs" },
+          { "a": "The name describes", "b": "Pressing cassava for starch" },
+          { "a": "Processing removes", "b": "The root's natural toxins" },
+          { "a": "First made by", "b": "Indigenous peoples of Brazil" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tapioca</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tapioca is", "b": "Starch from cassava root" },
+          { "a": "Tapioca pearls appear in", "b": "Puddings and bubble tea" },
+          { "a": "Raw cassava must be processed because", "b": "It contains natural toxins" },
+          { "a": "The extraction technique is", "b": "An Indigenous Brazilian invention" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tapioca</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tapioca pudding", "b": "Was a school dinner staple" },
+          { "a": "Bubble tea pearls", "b": "Are chewy balls of tapioca" },
+          { "a": "Tapioca thickens", "b": "Pie fillings and sauces" },
+          { "a": "Cassava is pressed", "b": "To yield tapioca starch" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tipi'óka", "rootLanguage": "Tupi", "rootMeaning": "Squeezed-out dregs", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tupi ", "highlight": false },
+        { "text": "tipi'óka", "highlight": true },
+        { "text": " (squeezed-out dregs); the pressing process named the product.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tipi'óka",
+      "correctAnswer": "Squeezed-out dregs",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Powwow",
+    "pronunciation": "POW-wow",
+    "pos": "noun",
+    "definition": "A Native American ceremonial gathering with dancing, drumming, and regalia. Informally, any meeting for discussion.",
+    "origin": "From Narragansett <strong>powwaw</strong> (spiritual leader, healer), from a root meaning to dream or have visions. English shifted the word from the person to the gathering.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Powwow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Narragansett powwaw", "b": "Spiritual leader or healer" },
+          { "a": "The deeper root means", "b": "To dream or have visions" },
+          { "a": "English shifted the meaning", "b": "From the person to the gathering" },
+          { "a": "Modern powwows feature", "b": "Dance, drum, and regalia" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Powwow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A powwow is", "b": "A Native American ceremonial gathering" },
+          { "a": "Powwow dancing is performed in", "b": "Traditional regalia" },
+          { "a": "The drum at a powwow", "b": "Is the heartbeat of the event" },
+          { "a": "Informally, a powwow is", "b": "Any meeting to talk things over" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Powwow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Dancers from many nations", "b": "Gathered at the summer powwow" },
+          { "a": "The powwow drum circle", "b": "Carried across the grounds" },
+          { "a": "The grand entry opened", "b": "The weekend powwow" },
+          { "a": "Regalia at the powwow", "b": "Took months of beadwork" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "powwaw", "rootLanguage": "Narragansett", "rootMeaning": "Spiritual leader or healer", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Narragansett ", "highlight": false },
+        { "text": "powwaw", "highlight": true },
+        { "text": " (healer); the leader's title became the gathering's name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "powwaw",
+      "correctAnswer": "Spiritual leader or healer",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chipmunk",
+    "pronunciation": "CHIP-munk",
+    "pos": "noun",
+    "definition": "A small striped ground squirrel of North America with cheek pouches for carrying food to its burrow.",
+    "origin": "From Ojibwe <strong>ajidamoo</strong> (red squirrel, literally one who descends trees headfirst), reshaped by English speakers into chipmunk.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chipmunk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ojibwe ajidamoo", "b": "One who descends trees headfirst" },
+          { "a": "Originally named", "b": "The red squirrel" },
+          { "a": "English speakers reshaped it", "b": "Into chipmunk" },
+          { "a": "Signature feature", "b": "Cheek pouches for food" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chipmunk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chipmunk is", "b": "A small striped ground squirrel" },
+          { "a": "Its cheek pouches", "b": "Carry seeds to the burrow" },
+          { "a": "Its back carries", "b": "Distinctive dark stripes" },
+          { "a": "The Ojibwe name describes", "b": "Headfirst tree descent" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chipmunk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chipmunk stuffed its cheeks", "b": "With sunflower seeds" },
+          { "a": "A chipmunk darted", "b": "Across the woodland path" },
+          { "a": "Its burrow hides", "b": "A winter store of nuts" },
+          { "a": "Cheeks bulging, the chipmunk", "b": "Vanished under the log" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ajidamoo", "rootLanguage": "Ojibwe", "rootMeaning": "One who descends trees headfirst", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Ojibwe ", "highlight": false },
+        { "text": "ajidamoo", "highlight": true },
+        { "text": " (headfirst tree-descender), reshaped into chipmunk.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ajidamoo",
+      "correctAnswer": "One who descends trees headfirst",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Skunk",
+    "pronunciation": "SKUNK",
+    "pos": "noun",
+    "definition": "A black and white striped mammal of the Americas that sprays a powerful foul-smelling liquid in defence.",
+    "origin": "From Massachusett <strong>squnck</strong>, from a Proto-Algonquian root meaning urinating fox, describing the animal's famous defensive spray.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Skunk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Massachusett squnck", "b": "The animal's Algonquian name" },
+          { "a": "Proto-Algonquian root", "b": "Urinating fox" },
+          { "a": "The name describes", "b": "Its defensive spray" },
+          { "a": "Warning colours", "b": "Bold black and white stripes" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Skunk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A skunk is", "b": "A striped spraying mammal" },
+          { "a": "Its spray can reach", "b": "Several metres" },
+          { "a": "The stripes serve as", "b": "A warning to predators" },
+          { "a": "Before spraying, a skunk", "b": "Stamps and raises its tail" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Skunk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dog learned the hard way", "b": "Not to chase the skunk" },
+          { "a": "A skunk waddled", "b": "Across the moonlit lawn" },
+          { "a": "The skunk's warning stamp", "b": "Sent the coyote packing" },
+          { "a": "Tomato juice barely touched", "b": "The lingering skunk smell" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "squnck", "rootLanguage": "Massachusett", "rootMeaning": "The animal's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Massachusett ", "highlight": false },
+        { "text": "squnck", "highlight": true },
+        { "text": "; an Algonquian name for the striped sprayer.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A striped American mammal that sprays a foul-smelling liquid in defence.",
+      "correctAnswer": "A striped spraying mammal",
+      "hint": "Think about which animal defends itself with a famous spray.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Llama",
+    "pronunciation": "LAH-muh",
+    "pos": "noun",
+    "definition": "A domesticated South American pack animal related to the camel, bred by Andean peoples for wool, meat, and carrying loads.",
+    "origin": "From Quechua <strong>llama</strong>, the animal's name in the language of the Inca Empire, carried into English via Spanish.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Llama</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Quechua llama", "b": "The animal's Inca-era name" },
+          { "a": "Quechua was the language of", "b": "The Inca Empire" },
+          { "a": "Route into English", "b": "Spanish" },
+          { "a": "Bred by Andean peoples for", "b": "Wool, meat, and carrying" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Llama</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A llama is", "b": "A domesticated Andean pack animal" },
+          { "a": "It is related to", "b": "The camel" },
+          { "a": "Its smaller wild cousin is", "b": "The vicuña" },
+          { "a": "An overloaded llama may", "b": "Refuse to move or spit" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Llama</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The llama train climbed", "b": "The steep Andean pass" },
+          { "a": "Llama wool is spun", "b": "Into warm Andean textiles" },
+          { "a": "The llama fixed him", "b": "With a disdainful stare" },
+          { "a": "Inca caravans relied", "b": "On llamas for transport" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "llama", "rootLanguage": "Quechua", "rootMeaning": "The animal's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Quechua ", "highlight": false },
+        { "text": "llama", "highlight": true },
+        { "text": "; the Inca Empire's pack animal, named in its own language.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A domesticated Andean pack animal related to the camel, named in Quechua.",
+      "correctAnswer": "A domesticated Andean pack animal",
+      "hint": "Think about which animal carried loads for the Inca.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Maize",
+    "pronunciation": "MAYZ",
+    "pos": "noun",
+    "definition": "The cereal plant known in Britain as sweetcorn or corn on the cob, first domesticated in Mexico around nine thousand years ago.",
+    "origin": "From Taíno <strong>mahiz</strong>, via Spanish <strong>maíz</strong>, recorded on Columbus's first voyage. The crop itself was domesticated from wild teosinte in Mexico.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Maize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno mahiz", "b": "The grain's Caribbean name" },
+          { "a": "Spanish maíz", "b": "The route into English" },
+          { "a": "Domesticated in", "b": "Mexico, from wild teosinte" },
+          { "a": "Age of cultivation", "b": "Around nine thousand years" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Maize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Maize is", "b": "The cereal also called corn" },
+          { "a": "Its wild ancestor is", "b": "Teosinte" },
+          { "a": "Maize sustained", "b": "The great Mesoamerican civilisations" },
+          { "a": "In Britain it is eaten as", "b": "Sweetcorn" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Maize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Fields of maize rippled", "b": "In the summer wind" },
+          { "a": "Maya farmers planted maize", "b": "Alongside beans and squash" },
+          { "a": "Maize flour makes", "b": "Tortillas and tamales" },
+          { "a": "The maize harvest", "b": "Fed the whole village" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mahiz", "rootLanguage": "Taíno", "rootMeaning": "The grain's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "mahiz", "highlight": true },
+        { "text": " via Spanish; the nine-thousand-year-old grain of the Americas.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mahiz",
+      "correctAnswer": "The grain's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Iguana",
+    "pronunciation": "ih-GWAH-nuh",
+    "pos": "noun",
+    "definition": "A large tropical American lizard with a spiny crest along its back, often seen basking in trees near water.",
+    "origin": "From Taíno <strong>iwana</strong>, the lizard's Caribbean name, via Spanish <strong>iguana</strong>, recorded by early Spanish explorers.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Iguana</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno iwana", "b": "The lizard's Caribbean name" },
+          { "a": "Spanish iguana", "b": "The route into English" },
+          { "a": "Recorded by", "b": "Early Spanish explorers" },
+          { "a": "Signature feature", "b": "A spiny crest along the back" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Iguana</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An iguana is", "b": "A large tropical American lizard" },
+          { "a": "Green iguanas spend their days", "b": "Basking in trees near water" },
+          { "a": "When threatened they", "b": "Dive from branches into rivers" },
+          { "a": "Marine iguanas live only", "b": "On the Galápagos Islands" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Iguana</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The iguana basked", "b": "On the branch above the river" },
+          { "a": "Startled, the iguana dropped", "b": "Into the water below" },
+          { "a": "Marine iguanas graze", "b": "On underwater algae" },
+          { "a": "Its spiny crest ran", "b": "From neck to tail" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "iwana", "rootLanguage": "Taíno", "rootMeaning": "The lizard's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "iwana", "highlight": true },
+        { "text": " via Spanish; the crested basker of tropical rivers.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A large tropical American lizard with a spiny crest, named in Taíno.",
+      "correctAnswer": "A large tropical American lizard",
+      "hint": "Think about the crested lizard basking over tropical rivers.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Barbecue",
+    "pronunciation": "BAR-bih-kyoo",
+    "pos": "noun",
+    "definition": "A method of cooking meat slowly over an open fire or coals, and the social gathering built around it.",
+    "origin": "From Taíno <strong>barbacoa</strong>, a raised wooden frame for cooking or drying meat over fire, via Spanish, recorded in the Caribbean in the 16th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Barbecue</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Taíno barbacoa", "b": "A raised frame for cooking over fire" },
+          { "a": "Route into English", "b": "Spanish, 16th century" },
+          { "a": "Region of origin", "b": "The Caribbean" },
+          { "a": "Modern sense includes", "b": "The gathering as well as the cooking" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Barbecue</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Barbecue is", "b": "Slow cooking over fire or coals" },
+          { "a": "The original barbacoa was", "b": "A raised wooden cooking frame" },
+          { "a": "A barbecue is also", "b": "The social event itself" },
+          { "a": "Barbecue traditions vary", "b": "From Texas to Korea" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Barbecue</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The brisket smoked", "b": "On the barbecue for twelve hours" },
+          { "a": "They threw a barbecue", "b": "For the whole street" },
+          { "a": "The barbecue coals glowed", "b": "As evening came on" },
+          { "a": "Taíno cooks raised meat", "b": "On the barbacoa frame" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "barbacoa", "rootLanguage": "Taíno", "rootMeaning": "A raised cooking frame", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Taíno ", "highlight": false },
+        { "text": "barbacoa", "highlight": true },
+        { "text": " (raised cooking frame); a Caribbean technique the world adopted.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "barbacoa",
+      "correctAnswer": "A raised cooking frame",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Opossum",
+    "pronunciation": "uh-POSS-um",
+    "pos": "noun",
+    "definition": "North America's only marsupial, a nocturnal animal famous for feigning death when threatened, known as playing possum.",
+    "origin": "From Powhatan <strong>opassum</strong> or <strong>aposoum</strong> (white animal or white dog), recorded by the Jamestown colonists in the early 17th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Opossum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Powhatan opassum", "b": "White animal or white dog" },
+          { "a": "Recorded by", "b": "Jamestown colonists" },
+          { "a": "Unique status", "b": "North America's only marsupial" },
+          { "a": "Famous behaviour", "b": "Feigning death when threatened" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Opossum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An opossum is", "b": "A nocturnal North American marsupial" },
+          { "a": "Playing possum means", "b": "Feigning death" },
+          { "a": "As a marsupial it carries young", "b": "In a pouch" },
+          { "a": "The Powhatan name meant", "b": "White animal" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Opossum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The opossum froze stiff", "b": "Playing dead by the fence" },
+          { "a": "An opossum raided", "b": "The fallen apples at night" },
+          { "a": "Her young clung", "b": "To the opossum's back" },
+          { "a": "He was playing possum", "b": "Pretending to be asleep" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "opassum", "rootLanguage": "Powhatan", "rootMeaning": "White animal", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Powhatan ", "highlight": false },
+        { "text": "opassum", "highlight": true },
+        { "text": " (white animal); the marsupial that acts its own death scene.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "opassum",
+      "correctAnswer": "White animal",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cannibal",
+    "pronunciation": "KAN-ih-bul",
+    "pos": "noun",
+    "definition": "A person or animal that eats the flesh of its own species.",
+    "origin": "From Spanish <strong>caníbal</strong>, Columbus's rendering of <strong>Caribes</strong>, the name of the Carib people of the Lesser Antilles. The word's history reflects European accounts of the era rather than settled fact.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cannibal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Caribes", "b": "The Carib people's name" },
+          { "a": "Spanish caníbal", "b": "Columbus's altered spelling" },
+          { "a": "The Caribs lived in", "b": "The Lesser Antilles" },
+          { "a": "The same root gave us", "b": "The word Caribbean" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cannibal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cannibal eats", "b": "The flesh of its own species" },
+          { "a": "In biology, cannibalism occurs in", "b": "Many animal species" },
+          { "a": "The word derives from", "b": "A people's name, altered" },
+          { "a": "Cannibalise a machine means", "b": "Strip it for spare parts" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cannibal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Some spiders are cannibals", "b": "Eating rivals of their own kind" },
+          { "a": "They cannibalised the old bike", "b": "To repair the new one" },
+          { "a": "The word cannibal shares a root", "b": "With the Caribbean itself" },
+          { "a": "Cannibalism in nature", "b": "Is studied across many species" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Caribes", "rootLanguage": "Carib via Spanish", "rootMeaning": "The Carib people's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "Caribes", "highlight": true },
+        { "text": ", the Carib people, altered in Spanish; cousin of the word Caribbean.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Caribes",
+      "correctAnswer": "The Carib people's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Piranha",
+    "pronunciation": "pih-RAH-nuh",
+    "pos": "noun",
+    "definition": "A South American freshwater fish with razor-sharp teeth, feeding in groups in the rivers of the Amazon basin.",
+    "origin": "From Tupi <strong>pira</strong> (fish) + <strong>ánha</strong> (tooth), literally tooth fish, via Portuguese. Named by the peoples of the Amazon for its most obvious feature.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Piranha</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tupi pira", "b": "Fish" },
+          { "a": "Tupi ánha", "b": "Tooth" },
+          { "a": "Combined meaning", "b": "Tooth fish" },
+          { "a": "Route into English", "b": "Portuguese" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Piranha</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A piranha is", "b": "A sharp-toothed Amazonian fish" },
+          { "a": "Piranhas feed", "b": "In fast-moving groups" },
+          { "a": "Their home waters are", "b": "The rivers of the Amazon basin" },
+          { "a": "Their fearsome reputation is", "b": "Larger than the reality" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Piranha</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The piranha shoal stripped", "b": "The bait in seconds" },
+          { "a": "Piranha teeth are prized", "b": "As tools by river peoples" },
+          { "a": "The water boiled", "b": "As the piranhas fed" },
+          { "a": "Most piranha species", "b": "Mainly eat seeds and smaller fish" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pira", "rootLanguage": "Tupi", "rootMeaning": "Fish", "showInIntro": true },
+      { "rootText": "ánha", "rootLanguage": "Tupi", "rootMeaning": "Tooth", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tupi ", "highlight": false },
+        { "text": "pira", "highlight": true },
+        { "text": " (fish) + ", "highlight": false },
+        { "text": "ánha", "highlight": true },
+        { "text": " (tooth); the tooth fish, plainly named.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pira",
+      "correctAnswer": "Fish",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Toboggan",
+    "pronunciation": "tuh-BOG-un",
+    "pos": "noun",
+    "definition": "A long, flat-bottomed sled without runners, curved up at the front, originally used by northern Indigenous peoples to haul loads over snow.",
+    "origin": "From Mi'kmaq <strong>topaghan</strong> or Algonquian <strong>odabaggan</strong> (sled, that which is dragged), via Canadian French <strong>tabagane</strong>.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Toboggan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mi'kmaq topaghan", "b": "Sled, that which is dragged" },
+          { "a": "Canadian French tabagane", "b": "The route into English" },
+          { "a": "Original use", "b": "Hauling loads over snow" },
+          { "a": "Design", "b": "Flat bottom, curved front, no runners" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Toboggan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A toboggan is", "b": "A flat-bottomed snow sled" },
+          { "a": "Unlike other sleds it has", "b": "No runners" },
+          { "a": "Its curved front", "b": "Rides over soft snow" },
+          { "a": "It was invented for", "b": "Hauling loads in winter" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Toboggan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The children dragged the toboggan", "b": "Back up the hill" },
+          { "a": "The toboggan flew", "b": "Down the packed slope" },
+          { "a": "Trappers hauled supplies", "b": "By toboggan through the drifts" },
+          { "a": "Three of them squeezed", "b": "Onto one toboggan" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "topaghan", "rootLanguage": "Mi'kmaq", "rootMeaning": "Sled, that which is dragged", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Mi'kmaq ", "highlight": false },
+        { "text": "topaghan", "highlight": true },
+        { "text": " (that which is dragged); the load-hauler that became a joyride.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "topaghan",
+      "correctAnswer": "Sled, that which is dragged",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pecan",
+    "pronunciation": "pih-KAHN",
+    "pos": "noun",
+    "definition": "A sweet, buttery nut from a large hickory tree native to the southern United States and Mexico.",
+    "origin": "From Illinois (Algonquian) <strong>pakani</strong> (nut requiring a stone to crack), via French, describing any hard-shelled nut before settling on this one.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pecan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Illinois pakani", "b": "Nut needing a stone to crack" },
+          { "a": "Language family", "b": "Algonquian" },
+          { "a": "Route into English", "b": "French" },
+          { "a": "Original meaning covered", "b": "Any hard-shelled nut" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pecan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pecan is", "b": "A sweet, buttery nut" },
+          { "a": "It grows on", "b": "A large hickory tree" },
+          { "a": "Its native range is", "b": "The southern US and Mexico" },
+          { "a": "Its most famous dish is", "b": "Pecan pie" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pecan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pecan pie cooled", "b": "On the windowsill" },
+          { "a": "Pecan orchards line", "b": "The Texas river valleys" },
+          { "a": "She scattered toasted pecans", "b": "Over the salad" },
+          { "a": "The old pecan tree dropped", "b": "Nuts across the yard" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pakani", "rootLanguage": "Illinois (Algonquian)", "rootMeaning": "Nut requiring a stone to crack", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Illinois ", "highlight": false },
+        { "text": "pakani", "highlight": true },
+        { "text": " (a nut you crack with a stone); the hickory's sweet prize.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pakani",
+      "correctAnswer": "Nut requiring a stone to crack",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cayenne",
+    "pronunciation": "ky-EN",
+    "pos": "noun",
+    "definition": "A hot red chilli pepper, usually dried and ground into a fiery powder used across world cuisines.",
+    "origin": "From Tupi <strong>kyynha</strong> or <strong>quiínia</strong> (capsicum, hot pepper). The spelling was influenced by the city of Cayenne in French Guiana, though the word predates the association.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cayenne</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tupi kyynha", "b": "Capsicum, hot pepper" },
+          { "a": "Spelling influenced by", "b": "The city of Cayenne" },
+          { "a": "Cayenne city is in", "b": "French Guiana" },
+          { "a": "The word itself", "b": "Predates the city link" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cayenne</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cayenne is", "b": "A hot red chilli pepper" },
+          { "a": "It is usually sold", "b": "Dried and ground to powder" },
+          { "a": "Its heat comes from", "b": "Capsaicin" },
+          { "a": "The Tupi named it as", "b": "Their word for hot pepper" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cayenne</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A pinch of cayenne", "b": "Woke the whole dish up" },
+          { "a": "The gumbo takes cayenne", "b": "For its signature heat" },
+          { "a": "Cayenne powder glows", "b": "Deep red in the jar" },
+          { "a": "Go easy on the cayenne", "b": "Unless you like it fierce" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kyynha", "rootLanguage": "Tupi", "rootMeaning": "Hot pepper", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tupi ", "highlight": false },
+        { "text": "kyynha", "highlight": true },
+        { "text": " (hot pepper); the spelling later borrowed a city's name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kyynha",
+      "correctAnswer": "Hot pepper",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Manatee",
+    "pronunciation": "MAN-uh-tee",
+    "pos": "noun",
+    "definition": "A large, gentle aquatic mammal that grazes on seagrass in warm coastal waters, sometimes called a sea cow.",
+    "origin": "From Carib <strong>manattouí</strong>, via Spanish <strong>manatí</strong>, the Caribbean name for the animal. Folk etymology linked it to Latin manus (hand) for its flippers, but the Carib origin came first.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Manatee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Carib manattouí", "b": "The animal's Caribbean name" },
+          { "a": "Spanish manatí", "b": "The route into English" },
+          { "a": "Folk etymology linked it to", "b": "Latin manus, hand" },
+          { "a": "Its nickname", "b": "Sea cow" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Manatee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A manatee is", "b": "A gentle aquatic grazing mammal" },
+          { "a": "It feeds on", "b": "Seagrass in warm shallows" },
+          { "a": "Its closest relative is", "b": "The dugong" },
+          { "a": "Its main threat is", "b": "Boat strikes in busy waterways" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Manatee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The manatee drifted", "b": "Through the warm spring waters" },
+          { "a": "Manatees gather in winter", "b": "At Florida's warm springs" },
+          { "a": "Slow zones protect manatees", "b": "From speeding boats" },
+          { "a": "The calf surfaced", "b": "Beside its manatee mother" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "manattouí", "rootLanguage": "Carib", "rootMeaning": "The animal's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Carib ", "highlight": false },
+        { "text": "manattouí", "highlight": true },
+        { "text": " via Spanish manatí; the Caribbean's gentle sea cow.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A gentle aquatic mammal that grazes on seagrass, named in Carib.",
+      "correctAnswer": "A gentle aquatic grazing mammal",
+      "hint": "Think about the slow grazer nicknamed the sea cow.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Quinoa",
+    "pronunciation": "KEEN-wah",
+    "pos": "noun",
+    "definition": "A protein-rich seed crop of the Andes, cultivated for thousands of years and eaten like a grain.",
+    "origin": "From Quechua <strong>kinwa</strong> or <strong>kinua</strong>, the crop's name in the language of the Andes, via Spanish. The Inca called it the mother of all grains.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-americas", "name": "From the Americas", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Quinoa</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Quechua kinwa", "b": "The crop's Andean name" },
+          { "a": "Route into English", "b": "Spanish" },
+          { "a": "The Inca called it", "b": "The mother of all grains" },
+          { "a": "Botanically quinoa is", "b": "A seed, not a true grain" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Quinoa</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Quinoa is", "b": "A protein-rich Andean seed crop" },
+          { "a": "It is eaten", "b": "Like a grain" },
+          { "a": "It has been cultivated for", "b": "Thousands of years" },
+          { "a": "It grows best", "b": "At high Andean altitudes" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Quinoa</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She rinsed the quinoa", "b": "Before simmering it" },
+          { "a": "Andean farmers grow quinoa", "b": "On steep mountain terraces" },
+          { "a": "The quinoa salad", "b": "Travelled well for lunch" },
+          { "a": "Global demand for quinoa", "b": "Transformed Andean farming" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kinwa", "rootLanguage": "Quechua", "rootMeaning": "The crop's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Quechua ", "highlight": false },
+        { "text": "kinwa", "highlight": true },
+        { "text": "; the Inca's mother of all grains, named in the Andes.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kinwa",
+      "correctAnswer": "The crop's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

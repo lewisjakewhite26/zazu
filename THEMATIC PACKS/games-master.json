@@ -1,0 +1,1886 @@
+[
+  {
+    "word": "Stalemate",
+    "pronunciation": "STAYL-mayt",
+    "pos": "noun",
+    "definition": "A situation in which no progress can be made; a deadlock. In chess, a position in which a player's king is not in check but they have no legal move.",
+    "origin": "From Old French <strong>estal</strong> (fixed position, standstill) + <strong>mat</strong> (defeated). The chess term entered English in the 18th century.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stalemate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French estal", "b": "Fixed position or standstill" },
+          { "a": "Old French mat", "b": "Defeated" },
+          { "a": "Chess sense", "b": "No legal move but king not in check" },
+          { "a": "Modern use", "b": "Any deadlock or impasse" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stalemate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Stalemate describes", "b": "A deadlock with no way forward" },
+          { "a": "In chess, stalemate means", "b": "No legal move; draw result" },
+          { "a": "Synonym of stalemate", "b": "Impasse" },
+          { "a": "Antonym of stalemate", "b": "Breakthrough" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stalemate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Negotiations reached", "b": "A stalemate after weeks" },
+          { "a": "The chess match ended", "b": "In stalemate, not checkmate" },
+          { "a": "A political stalemate", "b": "Left the bill unpassed" },
+          { "a": "To break the stalemate", "b": "Both sides compromised" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "estal", "rootLanguage": "Old French", "rootMeaning": "Fixed position", "showInIntro": true },
+      { "rootText": "mat", "rootLanguage": "Old French", "rootMeaning": "Defeated", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "estal", "highlight": true },
+        { "text": " (standstill) + ", "highlight": false },
+        { "text": "mat", "highlight": true },
+        { "text": " (defeated); a draw by paralysis.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "estal",
+      "correctAnswer": "Fixed position",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rook",
+    "pronunciation": "ROOK",
+    "pos": "noun",
+    "definition": "A chess piece that moves in straight lines horizontally or vertically. Also a crow-like bird. The chess piece takes its name from the Persian word for chariot.",
+    "origin": "From Persian <strong>rukh</strong> (chariot), via Arabic <strong>rukhkh</strong>. The piece represented a war chariot in the original Persian game of chess.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rook</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Persian rukh", "b": "Chariot" },
+          { "a": "Arabic rukhkh", "b": "The chess piece name via Arabic" },
+          { "a": "Original chess piece", "b": "Represented a war chariot" },
+          { "a": "Modern movement", "b": "Straight lines, any distance" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rook</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rook in chess moves", "b": "Horizontally or vertically" },
+          { "a": "The rook was once called", "b": "The castle" },
+          { "a": "Persian original meaning", "b": "War chariot" },
+          { "a": "Rook also means", "b": "A type of crow" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rook</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She moved her rook", "b": "Across the entire board" },
+          { "a": "Castling involves", "b": "The king and a rook" },
+          { "a": "The rook controls", "b": "Open files and ranks" },
+          { "a": "Persian shatranj used", "b": "The rukh as a chariot piece" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "rukh", "rootLanguage": "Persian", "rootMeaning": "Chariot", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Persian ", "highlight": false },
+        { "text": "rukh", "highlight": true },
+        { "text": " (chariot); the chess piece that began as a war vehicle.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A chess piece that moves in straight lines, named after the Persian word for chariot.",
+      "correctAnswer": "Chariot",
+      "hint": "Think about what the original Persian piece represented on the battlefield.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gambit",
+    "pronunciation": "GAM-bit",
+    "pos": "noun",
+    "definition": "An opening move in chess in which a player sacrifices a piece to gain a positional advantage. More broadly, a calculated opening move or manoeuvre.",
+    "origin": "From Italian <strong>gambetto</strong> (a tripping up), from <strong>gamba</strong> (leg). The chess term entered English via Spanish <strong>gambito</strong> in the 17th century.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gambit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian gamba", "b": "Leg" },
+          { "a": "Italian gambetto", "b": "A tripping up" },
+          { "a": "Spanish gambito", "b": "The chess term route into English" },
+          { "a": "Chess sense", "b": "Sacrifice a piece for advantage" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gambit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gambit in chess involves", "b": "Sacrificing material for position" },
+          { "a": "A gambit in conversation is", "b": "A calculated opening remark" },
+          { "a": "Synonym of gambit", "b": "Stratagem" },
+          { "a": "Italian origin sense", "b": "Tripping someone with the leg" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gambit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The Queen's Gambit", "b": "Offers a pawn on move two" },
+          { "a": "His opening gambit", "b": "Was a flattering compliment" },
+          { "a": "A diplomatic gambit", "b": "That risked short-term loss" },
+          { "a": "She declined the gambit", "b": "And kept her material" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gamba", "rootLanguage": "Italian", "rootMeaning": "Leg", "showInIntro": true },
+      { "rootText": "gambetto", "rootLanguage": "Italian", "rootMeaning": "A tripping up", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Italian ", "highlight": false },
+        { "text": "gamba", "highlight": true },
+        { "text": " (leg) + ", "highlight": false },
+        { "text": "gambetto", "highlight": true },
+        { "text": " (tripping up); a calculated sacrifice for advantage.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gamba",
+      "correctAnswer": "Leg",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bishop",
+    "pronunciation": "BISH-up",
+    "pos": "noun",
+    "definition": "A chess piece that moves diagonally any number of squares. Also a senior member of the Christian clergy. The chess piece was originally an elephant in the Persian game.",
+    "origin": "From Old English <strong>bisceop</strong>, from Latin <strong>episcopus</strong>, from Greek <strong>episkopos</strong> (overseer). The chess piece was called the elephant in Persian but renamed bishop in European versions.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bishop</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek episkopos", "b": "Overseer" },
+          { "a": "Latin episcopus", "b": "Bishop or church overseer" },
+          { "a": "Persian chess original", "b": "The elephant piece" },
+          { "a": "European adaptation", "b": "Renamed to bishop" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bishop</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bishop in chess moves", "b": "Diagonally any number of squares" },
+          { "a": "Each player starts with", "b": "Two bishops" },
+          { "a": "Original Persian piece", "b": "The elephant" },
+          { "a": "Greek episkopos means", "b": "One who oversees" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bishop</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fianchettoed bishop", "b": "Controls the long diagonal" },
+          { "a": "A bishop pair", "b": "Is considered an advantage" },
+          { "a": "The dark-squared bishop", "b": "Was trapped behind its pawns" },
+          { "a": "She sacrificed the bishop", "b": "To open the king's position" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "episkopos", "rootLanguage": "Greek", "rootMeaning": "Overseer", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "episkopos", "highlight": true },
+        { "text": " (overseer); the Persian elephant piece renamed for European clergy.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A chess piece moving diagonally; originally the Persian elephant, renamed for a church official.",
+      "correctAnswer": "Overseer",
+      "hint": "Think about what the Greek root episkopos means.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Knight",
+    "pronunciation": "NYT",
+    "pos": "noun",
+    "definition": "A chess piece that moves in an L-shape: two squares in one direction and one square perpendicular. The only piece that can jump over others. Also a medieval mounted warrior.",
+    "origin": "From Old English <strong>cniht</strong> (boy, servant, warrior). The chess piece represents a mounted knight on horseback, inherited from the Persian horse piece.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Knight</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English cniht", "b": "Boy, servant, warrior" },
+          { "a": "Persian chess original", "b": "The horse piece" },
+          { "a": "Unique movement", "b": "L-shape, can jump pieces" },
+          { "a": "Medieval sense", "b": "Mounted armed warrior" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Knight</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A knight moves in", "b": "An L-shape" },
+          { "a": "The knight is unique because", "b": "It can jump over other pieces" },
+          { "a": "Old English cniht meant", "b": "A boy or servant" },
+          { "a": "Symbol of the knight", "b": "The letter N in chess notation" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Knight</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Knights to f3", "b": "Is the most common opening move" },
+          { "a": "A knight on the rim", "b": "Is dim" },
+          { "a": "The knight fork", "b": "Attacked two pieces at once" },
+          { "a": "She outposted her knight", "b": "On a strong central square" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "cniht", "rootLanguage": "Old English", "rootMeaning": "Boy, servant, warrior", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old English ", "highlight": false },
+        { "text": "cniht", "highlight": true },
+        { "text": " (warrior); the chess horse piece, unique in jumping over others.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "usage",
+      "sourceKind": "usage",
+      "sourceValue": "A knight moves in an L-shape and is the only chess piece that can jump over others.",
+      "correctAnswer": "It can jump over other pieces",
+      "hint": "Think about what makes the knight's movement unique among all chess pieces.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pawn",
+    "pronunciation": "PAWN",
+    "pos": "noun",
+    "definition": "The most numerous chess piece, moving one square forward but capturing diagonally. More broadly, a person used by others for their own purposes.",
+    "origin": "From Old French <strong>paon</strong> (foot soldier), from Medieval Latin <strong>pedo</strong> (one who goes on foot). Related to Latin <strong>pes</strong> (foot).",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pawn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French paon", "b": "Foot soldier" },
+          { "a": "Medieval Latin pedo", "b": "One who goes on foot" },
+          { "a": "Latin pes", "b": "Foot" },
+          { "a": "Figurative modern use", "b": "A person used by others" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pawn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pawn captures", "b": "Diagonally, not forward" },
+          { "a": "A promoted pawn becomes", "b": "Any piece except a king" },
+          { "a": "Calling someone a pawn means", "b": "They are used by more powerful figures" },
+          { "a": "Each player starts with", "b": "Eight pawns" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pawn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She felt like a pawn", "b": "In someone else's game" },
+          { "a": "The passed pawn", "b": "Marched toward promotion" },
+          { "a": "Pawn structure", "b": "Determines long-term strategy" },
+          { "a": "He sacrificed two pawns", "b": "For a fierce attack" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "paon", "rootLanguage": "Old French", "rootMeaning": "Foot soldier", "showInIntro": true },
+      { "rootText": "pes", "rootLanguage": "Latin", "rootMeaning": "Foot", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "paon", "highlight": true },
+        { "text": " (foot soldier); from Latin ", "highlight": false },
+        { "text": "pes", "highlight": true },
+        { "text": " (foot); the infantry of chess.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pes",
+      "correctAnswer": "Foot",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Trump",
+    "pronunciation": "TRUMP",
+    "pos": "noun",
+    "definition": "A card of a suit that outranks all others during a particular hand. To trump is to beat someone or something by playing a superior card or argument.",
+    "origin": "From a 16th-century alteration of <strong>triumph</strong>, via French <strong>triomphe</strong>, from Latin <strong>triumphus</strong>. A trump card was literally a card that triumphs over others.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Trump</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin triumphus", "b": "A triumph or victory parade" },
+          { "a": "French triomphe", "b": "Route into English card games" },
+          { "a": "16th-century alteration", "b": "Triumph shortened to trump" },
+          { "a": "Card game sense", "b": "A suit that beats all others" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Trump</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A trump card", "b": "Beats any card of another suit" },
+          { "a": "To trump someone means", "b": "To beat them with a superior move" },
+          { "a": "Trump suit is decided", "b": "At the start of a hand" },
+          { "a": "Latin triumphus meant", "b": "A Roman victory parade" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Trump</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She played her trump card", "b": "At the last moment" },
+          { "a": "Hearts were trumps", "b": "For the entire round" },
+          { "a": "Safety concerns trump", "b": "Any other consideration" },
+          { "a": "He was trumped", "b": "By a better argument" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "triumphus", "rootLanguage": "Latin", "rootMeaning": "Triumph", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "triumphus", "highlight": true },
+        { "text": " (triumph); shortened to trump for the card that beats all others.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A card that outranks all others; from the Latin word for triumph.",
+      "correctAnswer": "Triumph",
+      "hint": "Think about what Latin word trump is shortened from.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Poker",
+    "pronunciation": "POH-ker",
+    "pos": "noun",
+    "definition": "A card game in which players bet on the value of their hands, with the winner taking the pot. Known for requiring skill, strategy, and the ability to bluff.",
+    "origin": "Possibly from German <strong>pochen</strong> (to brag or boast) or French <strong>poque</strong>, a similar card game. First recorded in America in the early 19th century.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Poker</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German pochen", "b": "To brag or boast" },
+          { "a": "French poque", "b": "A similar earlier card game" },
+          { "a": "First recorded", "b": "In early 19th-century America" },
+          { "a": "Poker face", "b": "An expressionless look to hide intent" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Poker</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The pot in poker", "b": "Is what all players bet into" },
+          { "a": "A poker bluff is", "b": "Betting as if you have a strong hand" },
+          { "a": "A royal flush", "b": "Is the strongest possible hand" },
+          { "a": "Poker face describes", "b": "A deliberately unreadable expression" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Poker</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She kept a poker face", "b": "Throughout the negotiation" },
+          { "a": "He went all in", "b": "On a bluff" },
+          { "a": "The poker tournament", "b": "Drew players from across Europe" },
+          { "a": "Poker requires", "b": "Reading people as much as cards" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pochen", "rootLanguage": "German", "rootMeaning": "To brag or boast", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly from German ", "highlight": false },
+        { "text": "pochen", "highlight": true },
+        { "text": " (to boast); the card game of betting, bluffing, and reading faces.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "usage",
+      "sourceKind": "usage",
+      "sourceValue": "She kept a poker face throughout the negotiation, giving nothing away.",
+      "correctAnswer": "A deliberately unreadable expression",
+      "hint": "Think about what a player in poker tries to hide from opponents.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bridge",
+    "pronunciation": "BRIJ",
+    "pos": "noun",
+    "definition": "A card game for four players in two partnerships, developed from whist. One of the most complex and widely played card games in the world.",
+    "origin": "The name bridge likely derives from the Russian card game <strong>biritch</strong> or <strong>britch</strong>, introduced to Western Europe in the late 19th century. The origin remains disputed.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bridge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Russian biritch", "b": "Possible origin of the card game name" },
+          { "a": "Developed from", "b": "Whist, an older English card game" },
+          { "a": "Players required", "b": "Four, in two partnerships" },
+          { "a": "First recorded in English", "b": "Late 19th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bridge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bridge is played by", "b": "Four players in pairs" },
+          { "a": "The bidding phase determines", "b": "The trump suit and contract" },
+          { "a": "The declarer in bridge", "b": "Plays both their hand and dummy" },
+          { "a": "Bridge descends from", "b": "The game of whist" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bridge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They play bridge", "b": "Every Thursday evening" },
+          { "a": "The bridge club", "b": "Meets at the community hall" },
+          { "a": "Contract bridge", "b": "Is the most widely played form" },
+          { "a": "She bid six spades", "b": "And made the grand slam" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "biritch", "rootLanguage": "Russian", "rootMeaning": "Disputed origin of the card game", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly from Russian ", "highlight": false },
+        { "text": "biritch", "highlight": true },
+        { "text": "; a four-player partnership card game evolved from whist.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A four-player partnership card game, possibly named from the Russian biritch.",
+      "correctAnswer": "Four players in two partnerships",
+      "hint": "Think about how many people play bridge and how they are arranged.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jackpot",
+    "pronunciation": "JAK-pot",
+    "pos": "noun",
+    "definition": "A large cash prize, especially one that accumulates until it is won. Originally a poker term for a pot that could only be opened by a player holding a pair of jacks or better.",
+    "origin": "From <strong>jack</strong> (the playing card) + <strong>pot</strong> (the pool of bets). First used in poker in the 1880s; the broader sense of a large prize followed.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jackpot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Jack", "b": "The playing card face value" },
+          { "a": "Pot", "b": "The accumulated pool of bets" },
+          { "a": "Original poker rule", "b": "Only a pair of jacks could open it" },
+          { "a": "Modern sense", "b": "Any large accumulated prize" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jackpot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Hitting the jackpot means", "b": "Winning a large prize" },
+          { "a": "A jackpot accumulates", "b": "Until someone wins it" },
+          { "a": "Original poker jackpot", "b": "Required jacks or better to open" },
+          { "a": "Figurative jackpot", "b": "Any outstanding stroke of luck" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jackpot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She hit the jackpot", "b": "On her first attempt" },
+          { "a": "The lottery jackpot", "b": "Rolled over for three weeks" },
+          { "a": "He hit the jackpot", "b": "Finding that rare first edition" },
+          { "a": "The jackpot grows", "b": "Each time nobody wins" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "jack", "rootLanguage": "English", "rootMeaning": "The playing card", "showInIntro": true },
+      { "rootText": "pot", "rootLanguage": "English", "rootMeaning": "Pool of accumulated bets", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From poker: ", "highlight": false },
+        { "text": "jack", "highlight": true },
+        { "text": " (the card) + ", "highlight": false },
+        { "text": "pot", "highlight": true },
+        { "text": " (the pool); a prize that builds until claimed.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pot",
+      "correctAnswer": "Pool of accumulated bets",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Joker",
+    "pronunciation": "JOH-ker",
+    "pos": "noun",
+    "definition": "An extra playing card included in a deck, often used as a wild card. Also a person who tells jokes or behaves in a frivolous way.",
+    "origin": "From <strong>joke</strong> + <strong>-er</strong>. The joker card was introduced in American decks in the 1860s for the game of euchre, where it served as the highest trump card, called the 'best bower'.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Joker</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Introduced for euchre", "b": "An American card game of the 1860s" },
+          { "a": "Originally called", "b": "The best bower" },
+          { "a": "Joke plus -er", "b": "The card's name derived from the game" },
+          { "a": "Modern use", "b": "Wild card in many games" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Joker</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A joker card is often", "b": "A wild card substituting any card" },
+          { "a": "A standard deck contains", "b": "Two jokers" },
+          { "a": "Calling someone a joker means", "b": "They are not to be taken seriously" },
+          { "a": "The joker was introduced for", "b": "The game of euchre" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Joker</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He played the joker", "b": "And took the trick" },
+          { "a": "The joker in the pack", "b": "Can change everything" },
+          { "a": "Do not take him seriously", "b": "He is a complete joker" },
+          { "a": "Wild cards including jokers", "b": "Vary by which game you play" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "euchre", "rootLanguage": "American English", "rootMeaning": "The card game that introduced the joker", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Introduced for the game of ", "highlight": false },
+        { "text": "euchre", "highlight": true },
+        { "text": " in the 1860s; the extra card that can become anything.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "An extra playing card, originally the highest trump in euchre, now often a wild card.",
+      "correctAnswer": "A wild card substituting any card",
+      "hint": "Think about what makes the joker useful in many card games.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ace",
+    "pronunciation": "AYS",
+    "pos": "noun",
+    "definition": "The playing card with a single pip, ranking either highest or lowest depending on the game. In tennis, a serve the opponent cannot return. More broadly, someone who excels at something.",
+    "origin": "From Old French <strong>as</strong> and Latin <strong>as</strong> (a unit, a single thing). The Latin as was a unit of currency. In dice games, the ace was the lowest throw before card games raised it to highest.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ace</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin as", "b": "A unit or single thing" },
+          { "a": "Original dice sense", "b": "The lowest throw" },
+          { "a": "Card game shift", "b": "Became the highest card" },
+          { "a": "Tennis ace", "b": "A serve the opponent cannot return" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ace</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ace in most card games", "b": "Is the highest ranking card" },
+          { "a": "An ace in tennis", "b": "Is an unreturnable serve" },
+          { "a": "Calling someone an ace means", "b": "They are exceptionally skilled" },
+          { "a": "Ace up your sleeve", "b": "A hidden advantage" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ace</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She served three aces", "b": "In the opening game" },
+          { "a": "He had an ace", "b": "Up his sleeve all along" },
+          { "a": "An ace mechanic", "b": "Fixed it in under an hour" },
+          { "a": "The ace of spades", "b": "Is the highest card in the pack" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "as", "rootLanguage": "Latin", "rootMeaning": "A unit or single thing", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "as", "highlight": true },
+        { "text": " (a unit); began as the lowest dice throw, became the highest card.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "as",
+      "correctAnswer": "A unit or single thing",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Par",
+    "pronunciation": "PAR",
+    "pos": "noun",
+    "definition": "In golf, the number of strokes a skilled golfer is expected to need to complete a hole or course. More broadly, an expected or normal standard.",
+    "origin": "From Latin <strong>par</strong> (equal). In golf, par is the equal or standard score. The term entered golf vocabulary in the early 20th century.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Par</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin par", "b": "Equal" },
+          { "a": "Golf sense", "b": "The expected score for a hole" },
+          { "a": "Below par means", "b": "Fewer strokes than expected" },
+          { "a": "Figurative use", "b": "Meeting the expected standard" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Par</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Par in golf is", "b": "The expected number of strokes" },
+          { "a": "Under par means", "b": "Fewer strokes than expected" },
+          { "a": "On a par with means", "b": "Equal to" },
+          { "a": "Not up to par means", "b": "Below the expected standard" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Par</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He finished the hole", "b": "One under par" },
+          { "a": "Her work is not", "b": "Up to par this week" },
+          { "a": "The two rivals are", "b": "On a par with each other" },
+          { "a": "Par for the course", "b": "Means exactly what was expected" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "par", "rootLanguage": "Latin", "rootMeaning": "Equal", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "par", "highlight": true },
+        { "text": " (equal); the score that equals what is expected.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "par",
+      "correctAnswer": "Equal",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bogey",
+    "pronunciation": "BOH-gee",
+    "pos": "noun",
+    "definition": "In golf, a score of one stroke over par on a hole. Also an imaginary evil spirit or source of fear. The golf term came from a song about a mysterious figure called the Bogey Man.",
+    "origin": "From Scottish and Northern English <strong>bogle</strong> (a phantom or goblin). The golf term came from a popular 1890s song about Colonel Bogey, an imaginary standard golfer who always played one over.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bogey</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Scottish bogle", "b": "A phantom or goblin" },
+          { "a": "Colonel Bogey", "b": "An imaginary standard golfer" },
+          { "a": "Golf sense", "b": "One stroke over par" },
+          { "a": "Bogey Man", "b": "An imaginary figure of fear" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bogey</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bogey in golf is", "b": "One over par" },
+          { "a": "A double bogey is", "b": "Two over par" },
+          { "a": "A bogey as a fear", "b": "An imaginary source of dread" },
+          { "a": "Colonel Bogey was", "b": "A fictitious standard player" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bogey</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She made a bogey", "b": "On the par-three fifth hole" },
+          { "a": "His bogey subject", "b": "Was always mathematics" },
+          { "a": "The bogey man", "b": "Haunted children's nightmares" },
+          { "a": "He avoided a bogey", "b": "With a long putt to save par" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bogle", "rootLanguage": "Scottish", "rootMeaning": "A phantom or goblin", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Scottish ", "highlight": false },
+        { "text": "bogle", "highlight": true },
+        { "text": " (goblin); via Colonel Bogey, the imaginary golfer who plays one over.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "One stroke over par in golf; named after the phantom standard player Colonel Bogey.",
+      "correctAnswer": "One stroke over par",
+      "hint": "Think about what bogey means relative to par in golf.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Birdie",
+    "pronunciation": "BUR-dee",
+    "pos": "noun",
+    "definition": "In golf, a score of one stroke under par on a hole. The term derives from American slang for something excellent.",
+    "origin": "From American slang <strong>bird</strong> (something excellent or first-rate), recorded from the 1860s. The golf term originated at the Atlantic City Country Club around 1903 when a golfer called a great shot a bird of a shot.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Birdie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "American slang bird", "b": "Something excellent or first-rate" },
+          { "a": "First golf use", "b": "Atlantic City, around 1903" },
+          { "a": "Golf sense", "b": "One under par" },
+          { "a": "Eagle follows birdie", "b": "Two under par" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Birdie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A birdie in golf is", "b": "One stroke under par" },
+          { "a": "Better than a birdie is", "b": "An eagle" },
+          { "a": "The word bird in slang meant", "b": "Something excellent" },
+          { "a": "A birdie putt is", "b": "One that would hole for under par" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Birdie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She made a birdie", "b": "On the long par four" },
+          { "a": "He narrowly missed", "b": "The birdie putt" },
+          { "a": "Three birdies in a row", "b": "Moved her up the leaderboard" },
+          { "a": "A birdie on the last", "b": "Won her the tournament" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bird", "rootLanguage": "American slang", "rootMeaning": "Something excellent", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From American slang ", "highlight": false },
+        { "text": "bird", "highlight": true },
+        { "text": " (something excellent); coined on a golf course around 1903 for one under par.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "One stroke under par in golf; from American slang for something excellent.",
+      "correctAnswer": "One stroke under par",
+      "hint": "Think about what birdie means relative to par in golf.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mulligan",
+    "pronunciation": "MUL-ih-gun",
+    "pos": "noun",
+    "definition": "In golf, a free second attempt at a shot, not counted in the score. More broadly, a second chance to do something over again.",
+    "origin": "Disputed origin, possibly from David Mulligan, a Canadian golfer of the 1920s who reputedly took a second drive after a bad shot. The name Mulligan is Irish in origin, from <strong>maol</strong> (bald or tonsured).",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mulligan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "David Mulligan", "b": "Canadian golfer credited with the first do-over" },
+          { "a": "Irish maol", "b": "Bald or tonsured" },
+          { "a": "Golf sense", "b": "A free second shot not counted" },
+          { "a": "Broader sense", "b": "Any second chance" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mulligan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mulligan in golf is", "b": "A free retry not on the scorecard" },
+          { "a": "Mulligans are used in", "b": "Casual or charity rounds" },
+          { "a": "Taking a mulligan means", "b": "Pretending the first shot did not happen" },
+          { "a": "Mulligan in life means", "b": "Getting a second chance" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mulligan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He took a mulligan", "b": "On his opening drive" },
+          { "a": "If I could have a mulligan", "b": "I would redo that decision" },
+          { "a": "Mulligans are allowed", "b": "In friendly rounds only" },
+          { "a": "She used her mulligan", "b": "Wisely on the tricky par three" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "maol", "rootLanguage": "Irish", "rootMeaning": "Bald or tonsured", "showInIntro": false }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Disputed origin; possibly named after David Mulligan, a 1920s golfer who reputedly took a free second drive.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A free second attempt at a golf shot, not counted in the score; more broadly, any second chance.",
+      "correctAnswer": "A free retry not on the scorecard",
+      "hint": "Think about what a mulligan allows a golfer to do after a bad shot.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Love",
+    "pronunciation": "LUV",
+    "pos": "noun",
+    "definition": "In tennis, a score of zero. The term is used in all racket sports scored using the same system.",
+    "origin": "Disputed. The most likely explanation is from French <strong>l'oeuf</strong> (the egg), because zero resembles an egg. Another theory suggests it comes from the phrase playing for love, meaning playing for nothing.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Love</strong> in tennis come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French l'oeuf", "b": "The egg, resembling a zero" },
+          { "a": "Playing for love", "b": "Playing for nothing, no stakes" },
+          { "a": "Tennis scoring", "b": "Love, fifteen, thirty, forty" },
+          { "a": "Love all", "b": "Both players on zero" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Love</strong> mean in tennis? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Love in tennis means", "b": "A score of zero" },
+          { "a": "Love-fifteen means", "b": "Server has zero, opponent has fifteen" },
+          { "a": "Love all means", "b": "Both players have zero" },
+          { "a": "French l'oeuf means", "b": "The egg" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Love</strong> used in sport? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She won the first game", "b": "To love" },
+          { "a": "The score stood", "b": "At thirty love" },
+          { "a": "He served an ace", "b": "To make it love fifteen" },
+          { "a": "Love all", "b": "Called at the start of each game" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "l'oeuf", "rootLanguage": "French", "rootMeaning": "The egg", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly from French ", "highlight": false },
+        { "text": "l'oeuf", "highlight": true },
+        { "text": " (the egg); zero resembles an egg, giving tennis its word for nothing.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In tennis, a score of zero; possibly from French l'oeuf, the egg, which zero resembles.",
+      "correctAnswer": "A score of zero",
+      "hint": "Think about what love means on a tennis scoreboard.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Deuce",
+    "pronunciation": "DYOOS",
+    "pos": "noun",
+    "definition": "In tennis, a score of forty-all, after which a player must win two consecutive points to win the game. Also the two in cards or dice.",
+    "origin": "From Old French <strong>deus</strong> (two), from Latin <strong>duo</strong> (two). In tennis, deuce indicates that two consecutive points are needed to win.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Deuce</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin duo", "b": "Two" },
+          { "a": "Old French deus", "b": "Two" },
+          { "a": "Tennis sense", "b": "Two points needed to win from forty-all" },
+          { "a": "Card and dice sense", "b": "The face showing two" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Deuce</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Deuce in tennis is", "b": "Forty-all" },
+          { "a": "After deuce, to win you need", "b": "Two consecutive points" },
+          { "a": "Deuce in cards is", "b": "The two of any suit" },
+          { "a": "Latin duo means", "b": "Two" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Deuce</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The game went to deuce", "b": "Three times before she won" },
+          { "a": "At deuce, the pressure", "b": "Falls on both players equally" },
+          { "a": "The deuce of clubs", "b": "Is the lowest card in the suit" },
+          { "a": "After five deuces", "b": "He finally took the game" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "duo", "rootLanguage": "Latin", "rootMeaning": "Two", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "duo", "highlight": true },
+        { "text": " (two); in tennis, the point where two wins are needed to break the tie.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "duo",
+      "correctAnswer": "Two",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Volley",
+    "pronunciation": "VOL-ee",
+    "pos": "noun",
+    "definition": "In tennis and other racket sports, a shot played before the ball bounces. More broadly, a number of things happening at the same time.",
+    "origin": "From French <strong>volée</strong> (a flight), from <strong>voler</strong> (to fly), from Latin <strong>volare</strong> (to fly). A volley is the ball caught in flight before it touches the ground.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Volley</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin volare", "b": "To fly" },
+          { "a": "French voler", "b": "To fly" },
+          { "a": "French volée", "b": "A flight" },
+          { "a": "Tennis sense", "b": "Striking the ball before it bounces" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Volley</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A volley in tennis", "b": "Is hit before the ball bounces" },
+          { "a": "A volley of questions", "b": "Many questions at once" },
+          { "a": "A half-volley", "b": "Is struck just as the ball bounces" },
+          { "a": "Volleying at the net", "b": "Is an aggressive tactic" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Volley</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She put the volley", "b": "Away with precision" },
+          { "a": "A volley of criticism", "b": "Followed his announcement" },
+          { "a": "He rushed the net", "b": "To play the winning volley" },
+          { "a": "Their volleys", "b": "Kept the rally short" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "volare", "rootLanguage": "Latin", "rootMeaning": "To fly", "showInIntro": true },
+      { "rootText": "volée", "rootLanguage": "French", "rootMeaning": "A flight", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "volare", "highlight": true },
+        { "text": " (to fly) via French ", "highlight": false },
+        { "text": "volée", "highlight": true },
+        { "text": " (a flight); the ball caught before it touches the ground.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "volare",
+      "correctAnswer": "To fly",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Strike",
+    "pronunciation": "STRYK",
+    "pos": "noun",
+    "definition": "In bowling, knocking down all ten pins with the first ball. In baseball, a pitch the batter fails to hit or swings at and misses. More broadly, a sudden attack or an act of hitting.",
+    "origin": "From Old English <strong>strican</strong> (to stroke or pass over). The bowling sense came from the action of sweeping all the pins away with a single stroke.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Strike</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English strican", "b": "To stroke or pass over" },
+          { "a": "Bowling sense", "b": "All ten pins down with one ball" },
+          { "a": "Baseball sense", "b": "A pitch the batter fails to hit" },
+          { "a": "Three strikes", "b": "And the batter is out" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Strike</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bowling strike means", "b": "All ten pins knocked down" },
+          { "a": "A turkey in bowling is", "b": "Three strikes in a row" },
+          { "a": "A baseball strike", "b": "Goes against the batter" },
+          { "a": "Strike while the iron is hot", "b": "Act at the right moment" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Strike</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She bowled a strike", "b": "On the final frame" },
+          { "a": "Three strikes", "b": "Ended his turn at the plate" },
+          { "a": "A lightning strike", "b": "Hit the tree at midnight" },
+          { "a": "They went on strike", "b": "For better conditions" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "strican", "rootLanguage": "Old English", "rootMeaning": "To stroke or pass over", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old English ", "highlight": false },
+        { "text": "strican", "highlight": true },
+        { "text": " (to stroke); in bowling, sweeping all the pins with a single ball.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In bowling, knocking down all ten pins with the first ball.",
+      "correctAnswer": "All ten pins knocked down",
+      "hint": "Think about what a perfect first ball in bowling achieves.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Spare",
+    "pronunciation": "SPAIR",
+    "pos": "noun",
+    "definition": "In bowling, knocking down all remaining pins with the second ball of a frame, after failing to get a strike with the first.",
+    "origin": "From Old English <strong>sparian</strong> (to refrain from using, to save). A spare saves the frame by clearing the remaining pins on the second attempt.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Spare</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English sparian", "b": "To refrain or save" },
+          { "a": "Bowling sense", "b": "Clearing all pins on the second ball" },
+          { "a": "Better than a split", "b": "A spare converts remaining pins" },
+          { "a": "Spare in common use", "b": "Extra or not currently needed" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Spare</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A spare in bowling means", "b": "All remaining pins knocked on second ball" },
+          { "a": "A spare scores", "b": "Ten plus the next ball" },
+          { "a": "A split is harder to convert because", "b": "Pins are separated" },
+          { "a": "Spare as an adjective means", "b": "Extra or available" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Spare</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She converted the spare", "b": "To keep her score alive" },
+          { "a": "A spare room", "b": "Is one not currently in use" },
+          { "a": "He had no spare time", "b": "During the busy season" },
+          { "a": "Spare and strike", "b": "Are the two ways to clear a frame" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sparian", "rootLanguage": "Old English", "rootMeaning": "To refrain or save", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old English ", "highlight": false },
+        { "text": "sparian", "highlight": true },
+        { "text": " (to save); in bowling, saving the frame by clearing pins on the second ball.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In bowling, knocking down all remaining pins with the second ball of a frame.",
+      "correctAnswer": "All remaining pins knocked on second ball",
+      "hint": "Think about what happens after a first ball that does not get a strike.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Referee",
+    "pronunciation": "ref-uh-REE",
+    "pos": "noun",
+    "definition": "An official who enforces the rules of a sport during a match or game. Also someone asked to arbitrate or judge a dispute.",
+    "origin": "From <strong>refer</strong> + <strong>-ee</strong>. Someone to whom a matter is referred for a decision. From Latin <strong>referre</strong> (to bring back, to refer).",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Referee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin referre", "b": "To bring back or refer" },
+          { "a": "Suffix -ee", "b": "One to whom something is done" },
+          { "a": "Combined meaning", "b": "One to whom matters are referred" },
+          { "a": "Sports role", "b": "Enforces the rules during play" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Referee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A referee enforces", "b": "The rules of a sport" },
+          { "a": "A referee in boxing is", "b": "Inside the ring with the fighters" },
+          { "a": "A job referee is", "b": "Someone who vouches for a candidate" },
+          { "a": "Latin referre means", "b": "To bring back or refer" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Referee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The referee blew the whistle", "b": "For a foul" },
+          { "a": "Please list two referees", "b": "On your application form" },
+          { "a": "The referee stopped the fight", "b": "In the seventh round" },
+          { "a": "She acted as referee", "b": "In their dispute" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "referre", "rootLanguage": "Latin", "rootMeaning": "To bring back or refer", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "referre", "highlight": true },
+        { "text": " (to refer); one to whom decisions are brought for judgement.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "referre",
+      "correctAnswer": "To bring back or refer",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sprint",
+    "pronunciation": "SPRINT",
+    "pos": "noun",
+    "definition": "A short burst of running at maximum speed. In athletics, a short-distance race run at full pace throughout.",
+    "origin": "From Scandinavian, related to Swedish <strong>spritta</strong> (to start, to spring up). First recorded in English in the 18th century for a short fast run.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sprint</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Swedish spritta", "b": "To start or spring up" },
+          { "a": "Scandinavian origin", "b": "Via Norse languages into English" },
+          { "a": "Athletics sense", "b": "A short race at maximum speed" },
+          { "a": "Figurative sprint", "b": "A short intense period of effort" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sprint</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sprint is defined by", "b": "Maximum speed over a short distance" },
+          { "a": "The 100 metres is", "b": "The most famous sprint event" },
+          { "a": "A final sprint", "b": "Is an effort to finish quickly" },
+          { "a": "Sprint in project management", "b": "A short focused work cycle" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sprint</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She sprinted for the finish", "b": "And won by a metre" },
+          { "a": "A two-week sprint", "b": "Delivered the new feature" },
+          { "a": "He made a sprint", "b": "For the departing train" },
+          { "a": "The sprint start", "b": "Requires explosive technique" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "spritta", "rootLanguage": "Swedish", "rootMeaning": "To start or spring up", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Swedish ", "highlight": false },
+        { "text": "spritta", "highlight": true },
+        { "text": " (to spring up); a burst of maximum speed over a short distance.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A short burst of running at maximum speed; from Swedish spritta, to spring up.",
+      "correctAnswer": "Maximum speed over a short distance",
+      "hint": "Think about what makes a sprint different from a jog or a run.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Podium",
+    "pronunciation": "POH-dee-um",
+    "pos": "noun",
+    "definition": "A raised platform on which a speaker, conductor, or winner stands. In motor racing and athletics, finishing on the podium means finishing in the top three.",
+    "origin": "From Latin <strong>podium</strong> (a raised platform or balcony), from Greek <strong>podion</strong> (a little foot or base), from <strong>pous</strong> (foot).",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Podium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pous", "b": "Foot" },
+          { "a": "Greek podion", "b": "A little foot or base" },
+          { "a": "Latin podium", "b": "A raised platform" },
+          { "a": "Sports sense", "b": "Top three positions" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Podium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A podium finish means", "b": "First, second, or third place" },
+          { "a": "A conductor's podium is", "b": "The raised platform they stand on" },
+          { "a": "Greek pous means", "b": "Foot" },
+          { "a": "A podium in architecture", "b": "Is a raised base for a structure" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Podium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She stepped onto the podium", "b": "To collect her gold medal" },
+          { "a": "A podium finish", "b": "Was all he needed for the championship" },
+          { "a": "The conductor raised his baton", "b": "From behind the podium" },
+          { "a": "Three drivers stood", "b": "On the podium after the race" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pous", "rootLanguage": "Greek", "rootMeaning": "Foot", "showInIntro": true },
+      { "rootText": "podion", "rootLanguage": "Greek", "rootMeaning": "A little foot or base", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "pous", "highlight": true },
+        { "text": " (foot) via ", "highlight": false },
+        { "text": "podion", "highlight": true },
+        { "text": " (base); a platform raised on a foot-like base.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pous",
+      "correctAnswer": "Foot",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Underdog",
+    "pronunciation": "UN-der-dog",
+    "pos": "noun",
+    "definition": "A competitor thought unlikely to win; a person or group at a disadvantage. The underdog is the one expected to lose.",
+    "origin": "From <strong>under</strong> + <strong>dog</strong>. Originally referred to the dog that lost a fight. First recorded in the 1850s in American English for the losing side in a dogfight.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Underdog</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Under", "b": "In a lower position" },
+          { "a": "Dog", "b": "The losing animal in a fight" },
+          { "a": "First recorded", "b": "1850s American English" },
+          { "a": "Modern sense", "b": "Anyone expected to lose" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Underdog</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An underdog is expected to", "b": "Lose" },
+          { "a": "Rooting for the underdog means", "b": "Supporting the weaker side" },
+          { "a": "An underdog victory is", "b": "A surprising upset" },
+          { "a": "Original meaning of underdog", "b": "The dog that lost the fight" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Underdog</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crowd cheered", "b": "For the underdog" },
+          { "a": "Going in as the underdog", "b": "She won in straight sets" },
+          { "a": "Underdog stories", "b": "Resonate because anyone can relate" },
+          { "a": "They were clear underdogs", "b": "But won the cup regardless" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "under", "rootLanguage": "Old English", "rootMeaning": "In a lower position", "showInIntro": true },
+      { "rootText": "dog", "rootLanguage": "Old English", "rootMeaning": "The losing animal", "showInIntro": false }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "under", "highlight": true },
+        { "text": " (lower) + dog; originally the dog that lost a fight; now anyone expected to lose.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A competitor expected to lose; originally the dog on the losing side of a fight.",
+      "correctAnswer": "Anyone expected to lose",
+      "hint": "Think about what position the underdog occupies relative to the favourite.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Knockout",
+    "pronunciation": "NOK-owt",
+    "pos": "noun",
+    "definition": "In boxing, a blow that renders an opponent unable to continue, ending the fight. More broadly, something or someone strikingly impressive.",
+    "origin": "From <strong>knock</strong> + <strong>out</strong>. Old English <strong>cnocian</strong> (to strike). The boxing term was first recorded in the late 19th century.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Knockout</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English cnocian", "b": "To strike" },
+          { "a": "Knock out", "b": "To render unconscious with a blow" },
+          { "a": "Boxing KO", "b": "The referee counts to ten" },
+          { "a": "Figurative knockout", "b": "Someone or something stunning" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Knockout</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A knockout in boxing ends", "b": "The fight immediately" },
+          { "a": "A knockout competition", "b": "Eliminates losers each round" },
+          { "a": "She is a knockout means", "b": "She is strikingly attractive" },
+          { "a": "Technical knockout means", "b": "The referee stops the fight" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Knockout</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He won by knockout", "b": "In the third round" },
+          { "a": "A knockout tournament", "b": "Runs until one team remains" },
+          { "a": "The design was", "b": "An absolute knockout" },
+          { "a": "The knockout blow", "b": "Ended the fight instantly" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "cnocian", "rootLanguage": "Old English", "rootMeaning": "To strike", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old English ", "highlight": false },
+        { "text": "cnocian", "highlight": true },
+        { "text": " (to strike); a blow that strikes an opponent out of the fight.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In boxing, a blow that ends the fight by rendering the opponent unable to continue.",
+      "correctAnswer": "A blow that ends the fight",
+      "hint": "Think about what a knockout achieves in a boxing match.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Scrimmage",
+    "pronunciation": "SKRIH-mij",
+    "pos": "noun",
+    "definition": "In American football, the line of scrimmage is the imaginary line from which play begins. More broadly, a practice game or informal contest.",
+    "origin": "From a variant of <strong>skirmish</strong>, from Old French <strong>escarmuche</strong> (a skirmish), from Italian <strong>scaramuccia</strong>. Related to the idea of a minor or practice conflict.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Scrimmage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian scaramuccia", "b": "A skirmish or minor battle" },
+          { "a": "Old French escarmuche", "b": "A skirmish" },
+          { "a": "American football use", "b": "The line from which play starts" },
+          { "a": "Practice scrimmage", "b": "An informal game between teammates" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Scrimmage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Line of scrimmage is", "b": "Where play begins each down" },
+          { "a": "A practice scrimmage is", "b": "An informal game for training" },
+          { "a": "Scrimmage derives from", "b": "The word skirmish" },
+          { "a": "Beyond the line of scrimmage", "b": "Is where defenders position" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Scrimmage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The quarterback lined up", "b": "Behind the scrimmage" },
+          { "a": "They held a scrimmage", "b": "Before the season opener" },
+          { "a": "A goalline scrimmage", "b": "Tests the defence" },
+          { "a": "The teams played a full", "b": "Scrimmage to prepare" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "scaramuccia", "rootLanguage": "Italian", "rootMeaning": "A skirmish", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Italian ", "highlight": false },
+        { "text": "scaramuccia", "highlight": true },
+        { "text": " (a skirmish); the line from which the contest begins.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In American football, the line from which play begins each down; more broadly, a practice game.",
+      "correctAnswer": "Where play begins each down",
+      "hint": "Think about what the line of scrimmage marks in American football.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Touchdown",
+    "pronunciation": "TUCH-down",
+    "pos": "noun",
+    "definition": "In American football, the act of carrying or catching the ball in the opposing team's end zone, scoring six points. Also the moment an aircraft lands.",
+    "origin": "From <strong>touch</strong> + <strong>down</strong>. The American football term literally means touching the ball down in the end zone, inherited from the rugby rule of the same name.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Touchdown</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Touch down", "b": "To touch the ball to the ground" },
+          { "a": "Rugby origin", "b": "The rule American football inherited" },
+          { "a": "Scores", "b": "Six points in American football" },
+          { "a": "Aviation sense", "b": "The moment a plane lands" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Touchdown</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A touchdown scores", "b": "Six points" },
+          { "a": "A touchdown requires", "b": "The ball to cross the end zone" },
+          { "a": "Touchdown in aviation", "b": "The moment wheels meet runway" },
+          { "a": "After a touchdown", "b": "A conversion attempt follows" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Touchdown</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He scored the winning", "b": "Touchdown with seconds left" },
+          { "a": "Touchdown confirmed", "b": "The spacecraft had landed" },
+          { "a": "A last-minute touchdown", "b": "Sent the crowd wild" },
+          { "a": "She caught the touchdown pass", "b": "In the back of the end zone" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "touch", "rootLanguage": "Old French", "rootMeaning": "To make contact", "showInIntro": true },
+      { "rootText": "down", "rootLanguage": "Old English", "rootMeaning": "To a lower position", "showInIntro": false }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From rugby: ", "highlight": false },
+        { "text": "touch", "highlight": true },
+        { "text": " the ball down in the end zone; six points in American football.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "In American football, scoring by carrying or catching the ball in the opposing end zone.",
+      "correctAnswer": "Six points",
+      "hint": "Think about how many points a touchdown scores in American football.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Monopoly",
+    "pronunciation": "muh-NOP-uh-lee",
+    "pos": "noun",
+    "definition": "Exclusive control of a commodity or market by a single entity. Also the name of a famous board game simulating property ownership and trading.",
+    "origin": "From Greek <strong>mono</strong> (alone, single) + <strong>polein</strong> (to sell). A monopoly is when one entity alone does the selling.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Monopoly</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek mono", "b": "Alone or single" },
+          { "a": "Greek polein", "b": "To sell" },
+          { "a": "Combined meaning", "b": "Sole seller" },
+          { "a": "Board game sense", "b": "Simulates property trading" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Monopoly</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A monopoly in economics", "b": "One company controls the market" },
+          { "a": "Monopoly the board game was invented", "b": "In 1935 by Charles Darrow" },
+          { "a": "Greek mono means", "b": "Alone or single" },
+          { "a": "Breaking up a monopoly", "b": "Increases market competition" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Monopoly</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They played Monopoly", "b": "Until midnight on Christmas Day" },
+          { "a": "The company had a monopoly", "b": "On the regional water supply" },
+          { "a": "She had a monopoly", "b": "On good ideas that week" },
+          { "a": "Antitrust laws prevent", "b": "Companies forming a monopoly" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mono", "rootLanguage": "Greek", "rootMeaning": "Alone or single", "showInIntro": true },
+      { "rootText": "polein", "rootLanguage": "Greek", "rootMeaning": "To sell", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "mono", "highlight": true },
+        { "text": " (alone) + ", "highlight": false },
+        { "text": "polein", "highlight": true },
+        { "text": " (to sell); sole control of a market.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mono",
+      "correctAnswer": "Alone or single",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Backgammon",
+    "pronunciation": "BAK-gam-un",
+    "pos": "noun",
+    "definition": "One of the oldest known board games, played by two players on a board with 24 narrow triangles, using dice to move pieces. The aim is to move all your pieces off the board before your opponent.",
+    "origin": "From Middle English <strong>bacc</strong> (back) + <strong>gamen</strong> (game). The name refers to the fact that pieces can be sent back to the beginning when hit by an opponent.",
+    "tier": "premium",
+    "packId": "games",
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Backgammon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle English bacc", "b": "Back" },
+          { "a": "Middle English gamen", "b": "Game" },
+          { "a": "Combined meaning", "b": "Back-game; pieces can be sent back" },
+          { "a": "One of the oldest", "b": "Board games known to humanity" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Backgammon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Backgammon is played by", "b": "Two players" },
+          { "a": "The aim of backgammon is", "b": "To bear off all your pieces first" },
+          { "a": "Dice in backgammon", "b": "Determine how far pieces move" },
+          { "a": "A hit piece is", "b": "Sent to the bar" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Backgammon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They spent the afternoon", "b": "Playing backgammon" },
+          { "a": "He doubled the cube", "b": "In the backgammon match" },
+          { "a": "Backgammon boards", "b": "Have been found in ancient Persian ruins" },
+          { "a": "She hit his blot", "b": "Sending it back to the bar" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bacc", "rootLanguage": "Middle English", "rootMeaning": "Back", "showInIntro": true },
+      { "rootText": "gamen", "rootLanguage": "Middle English", "rootMeaning": "Game", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Middle English ", "highlight": false },
+        { "text": "bacc", "highlight": true },
+        { "text": " (back) + ", "highlight": false },
+        { "text": "gamen", "highlight": true },
+        { "text": " (game); pieces can be sent back to the start.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gamen",
+      "correctAnswer": "Game",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

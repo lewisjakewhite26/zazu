@@ -1,0 +1,2033 @@
+[
+  {
+    "word": "Chaos",
+    "pronunciation": "KAY-oss",
+    "pos": "noun",
+    "definition": "Complete disorder and confusion. In Greek cosmology, the formless void that existed before the universe.",
+    "origin": "From Greek <strong>khaos</strong> (vast chasm, void), the primordial emptiness from which the first gods emerged in Greek myth. The modern sense of disorder developed in English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chaos</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek khaos", "b": "Vast chasm or void" },
+          { "a": "In Greek cosmology", "b": "The state before creation" },
+          { "a": "From chaos emerged", "b": "The first gods" },
+          { "a": "Modern English sense", "b": "Complete disorder" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chaos</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chaos describes", "b": "Complete disorder and confusion" },
+          { "a": "Chaos theory studies", "b": "Systems sensitive to tiny changes" },
+          { "a": "Synonym of chaos", "b": "Pandemonium" },
+          { "a": "Antonym of chaos", "b": "Order" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chaos</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cancelled flights caused", "b": "Chaos at the airport" },
+          { "a": "In Hesiod's telling", "b": "Chaos came before everything" },
+          { "a": "The classroom descended", "b": "Into cheerful chaos" },
+          { "a": "Out of the chaos", "b": "A plan slowly formed" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "khaos", "rootLanguage": "Greek", "rootMeaning": "Vast chasm or void", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "khaos", "highlight": true },
+        { "text": " (the void before creation); disorder with a cosmic pedigree.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khaos",
+      "correctAnswer": "Vast chasm or void",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Labyrinth",
+    "pronunciation": "LAB-uh-rinth",
+    "pos": "noun",
+    "definition": "A complex network of paths in which it is easy to get lost; a maze. In myth, the structure built to contain the Minotaur.",
+    "origin": "From Greek <strong>labyrinthos</strong>, the maze Daedalus built for King Minos of Crete. Possibly from Lydian <strong>labrys</strong> (double axe), the symbol of the Minoan palace at Knossos.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Labyrinth</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek labyrinthos", "b": "The Minotaur's maze" },
+          { "a": "Lydian labrys", "b": "Double axe" },
+          { "a": "Built by", "b": "Daedalus for King Minos" },
+          { "a": "Associated palace", "b": "Knossos on Crete" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Labyrinth</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A labyrinth is", "b": "A complex maze of paths" },
+          { "a": "In myth it contained", "b": "The Minotaur" },
+          { "a": "Theseus escaped it using", "b": "Ariadne's thread" },
+          { "a": "A labyrinthine argument is", "b": "Confusingly intricate" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Labyrinth</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old town was a labyrinth", "b": "Of narrow twisting lanes" },
+          { "a": "Theseus entered the labyrinth", "b": "Trailing thread behind him" },
+          { "a": "The tax code is a labyrinth", "b": "Few can navigate unaided" },
+          { "a": "They wandered the labyrinth", "b": "Of corridors for an hour" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "labrys", "rootLanguage": "Lydian", "rootMeaning": "Double axe", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek labyrinthos, possibly Lydian ", "highlight": false },
+        { "text": "labrys", "highlight": true },
+        { "text": " (double axe); the Minotaur's maze at Knossos.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "labrys",
+      "correctAnswer": "Double axe",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sarcasm",
+    "pronunciation": "SAR-kaz-um",
+    "pos": "noun",
+    "definition": "The use of irony to mock or convey contempt, saying one thing while meaning its cutting opposite.",
+    "origin": "From Greek <strong>sarkazein</strong> (to tear flesh, to bite the lips in rage), from <strong>sarx</strong> (flesh). Sarcasm is literally flesh-tearing speech.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sarcasm</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek sarx", "b": "Flesh" },
+          { "a": "Greek sarkazein", "b": "To tear flesh" },
+          { "a": "Literal meaning", "b": "Flesh-tearing speech" },
+          { "a": "Related word sarcophagus", "b": "Flesh-eating stone" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sarcasm</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sarcasm uses", "b": "Irony to mock or wound" },
+          { "a": "A sarcastic remark says", "b": "The opposite of what is meant" },
+          { "a": "Sarcasm's tone is", "b": "Cutting and contemptuous" },
+          { "a": "Its Greek root involves", "b": "Tearing flesh" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sarcasm</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Lovely weather, he said", "b": "With heavy sarcasm, soaked through" },
+          { "a": "Her sarcasm cut deeper", "b": "Than any direct insult" },
+          { "a": "Sarcasm rarely translates", "b": "Well in text messages" },
+          { "a": "He masked his hurt", "b": "Behind a shield of sarcasm" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sarx", "rootLanguage": "Greek", "rootMeaning": "Flesh", "showInIntro": true },
+      { "rootText": "sarkazein", "rootLanguage": "Greek", "rootMeaning": "To tear flesh", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "sarkazein", "highlight": true },
+        { "text": " (to tear flesh), from ", "highlight": false },
+        { "text": "sarx", "highlight": true },
+        { "text": " (flesh); words that bite.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sarx",
+      "correctAnswer": "Flesh",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Panorama",
+    "pronunciation": "pan-uh-RAH-muh",
+    "pos": "noun",
+    "definition": "An unbroken view of the whole region surrounding an observer; a complete survey of a subject.",
+    "origin": "From Greek <strong>pan</strong> (all) + <strong>horama</strong> (view, sight). Coined in the 1790s by the painter Robert Barker for his 360-degree paintings displayed in a rotunda.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Panorama</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pan", "b": "All" },
+          { "a": "Greek horama", "b": "View or sight" },
+          { "a": "Coined by", "b": "The painter Robert Barker" },
+          { "a": "Original panoramas were", "b": "360-degree rotunda paintings" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Panorama</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A panorama is", "b": "An unbroken all-round view" },
+          { "a": "A panoramic photo captures", "b": "A very wide field of view" },
+          { "a": "A panorama of history is", "b": "A sweeping complete survey" },
+          { "a": "Greek pan means", "b": "All" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Panorama</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The summit offered a panorama", "b": "Of the whole valley" },
+          { "a": "She switched to panorama mode", "b": "To fit the skyline in" },
+          { "a": "The documentary was a panorama", "b": "Of the entire century" },
+          { "a": "Barker's painted panorama", "b": "Wrapped around its viewers" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pan", "rootLanguage": "Greek", "rootMeaning": "All", "showInIntro": true },
+      { "rootText": "horama", "rootLanguage": "Greek", "rootMeaning": "View or sight", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "pan", "highlight": true },
+        { "text": " (all) + ", "highlight": false },
+        { "text": "horama", "highlight": true },
+        { "text": " (view); the all-seeing view, coined for painted rotundas.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "horama",
+      "correctAnswer": "View or sight",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Eureka",
+    "pronunciation": "yoo-REE-kuh",
+    "pos": "exclamation",
+    "definition": "A cry of joy at a discovery. The word Archimedes reputedly shouted on realising how to measure the volume of irregular objects.",
+    "origin": "From Greek <strong>heureka</strong> (I have found it), from <strong>heuriskein</strong> (to find). Archimedes reportedly leapt from his bath shouting it, having solved the problem of the king's crown.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Eureka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek heureka", "b": "I have found it" },
+          { "a": "Greek heuriskein", "b": "To find" },
+          { "a": "Shouted by", "b": "Archimedes in his bath" },
+          { "a": "Related word heuristic", "b": "A discovery-based method" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Eureka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Eureka expresses", "b": "Joy at a discovery" },
+          { "a": "A eureka moment is", "b": "A sudden flash of insight" },
+          { "a": "Archimedes' problem involved", "b": "The volume of a golden crown" },
+          { "a": "California's state motto is", "b": "Eureka" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Eureka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Eureka! she cried", "b": "Finding the missing keys" },
+          { "a": "The eureka moment came", "b": "In the shower, of course" },
+          { "a": "Archimedes ran through Syracuse", "b": "Shouting eureka" },
+          { "a": "Science is less eureka", "b": "And more patient graft" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "heuriskein", "rootLanguage": "Greek", "rootMeaning": "To find", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "heureka", "highlight": true },
+        { "text": " (I have found it); Archimedes' bathtime triumph.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A cry of joy at a discovery, famously shouted by Archimedes.",
+      "correctAnswer": "Joy at a discovery",
+      "hint": "Think about what you shout when the answer suddenly arrives.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Patriot",
+    "pronunciation": "PAY-tree-ut",
+    "pos": "noun",
+    "definition": "A person who loves and vigorously supports their country.",
+    "origin": "From Greek <strong>patriotes</strong> (fellow countryman), from <strong>patris</strong> (fatherland), from <strong>pater</strong> (father). One who shares a fatherland.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Patriot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pater", "b": "Father" },
+          { "a": "Greek patris", "b": "Fatherland" },
+          { "a": "Greek patriotes", "b": "Fellow countryman" },
+          { "a": "Related words", "b": "Paternal, patriarch" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Patriot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A patriot", "b": "Loves and supports their country" },
+          { "a": "Patriotism is", "b": "Devotion to one's homeland" },
+          { "a": "The Greek root means", "b": "Sharing a fatherland" },
+          { "a": "A patriot may still", "b": "Criticise their country's faults" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Patriot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A true patriot serves", "b": "Their country in peace and war" },
+          { "a": "The patriots rallied", "b": "To defend the homeland" },
+          { "a": "She proved her patriotism", "b": "Through quiet public service" },
+          { "a": "Patriot and compatriot share", "b": "The same Greek father-root" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "pater", "rootLanguage": "Greek", "rootMeaning": "Father", "showInIntro": true },
+      { "rootText": "patris", "rootLanguage": "Greek", "rootMeaning": "Fatherland", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "patris", "highlight": true },
+        { "text": " (fatherland), from ", "highlight": false },
+        { "text": "pater", "highlight": true },
+        { "text": " (father); one who shares a fatherland.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pater",
+      "correctAnswer": "Father",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mustache",
+    "pronunciation": "muh-STASH",
+    "pos": "noun",
+    "definition": "Hair grown on the upper lip. Also spelled moustache in British English.",
+    "origin": "From Greek <strong>mystax</strong> (upper lip, mustache), via Italian <strong>mostaccio</strong> and French <strong>moustache</strong> into English in the 16th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mustache</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek mystax", "b": "Upper lip" },
+          { "a": "Italian mostaccio", "b": "The Italian stage of the word" },
+          { "a": "French moustache", "b": "The immediate source for English" },
+          { "a": "British spelling", "b": "Moustache" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mustache</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mustache is", "b": "Hair on the upper lip" },
+          { "a": "A handlebar mustache", "b": "Curls up at the ends" },
+          { "a": "The Greek root mystax meant", "b": "The upper lip itself" },
+          { "a": "Movember celebrates", "b": "Mustaches for charity" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mustache</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He twirled his mustache", "b": "Like a pantomime villain" },
+          { "a": "The walrus mustache drooped", "b": "Over his entire mouth" },
+          { "a": "She drew a mustache", "b": "On the poster for a laugh" },
+          { "a": "His mustache took", "b": "Months of patient growing" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mystax", "rootLanguage": "Greek", "rootMeaning": "Upper lip", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "mystax", "highlight": true },
+        { "text": " (upper lip), via Italian and French; the lip named the hair.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mystax",
+      "correctAnswer": "Upper lip",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Guitar",
+    "pronunciation": "gih-TAR",
+    "pos": "noun",
+    "definition": "A stringed instrument with a fretted neck, played by plucking or strumming, central to music from flamenco to rock.",
+    "origin": "From Greek <strong>kithara</strong>, an ancient lyre-like instrument, travelling through Arabic <strong>qitara</strong> and Spanish <strong>guitarra</strong> into English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guitar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kithara", "b": "An ancient lyre-like instrument" },
+          { "a": "Arabic qitara", "b": "The word's route through Iberia" },
+          { "a": "Spanish guitarra", "b": "The immediate source for English" },
+          { "a": "The kithara was played by", "b": "Professional musicians of Greece" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guitar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A guitar is", "b": "A fretted stringed instrument" },
+          { "a": "A standard guitar has", "b": "Six strings" },
+          { "a": "It is played by", "b": "Plucking or strumming" },
+          { "a": "Its ancient ancestor was", "b": "The Greek kithara" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guitar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She tuned the guitar", "b": "Before the first song" },
+          { "a": "The flamenco guitar rang", "b": "Through the Seville courtyard" },
+          { "a": "He learned guitar", "b": "From videos and patience" },
+          { "a": "The electric guitar changed", "b": "Popular music forever" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kithara", "rootLanguage": "Greek", "rootMeaning": "An ancient lyre-like instrument", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "kithara", "highlight": true },
+        { "text": ", via Arabic and Spanish; an ancient lyre reborn with frets.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kithara",
+      "correctAnswer": "An ancient lyre-like instrument",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Platypus",
+    "pronunciation": "PLAT-ih-pus",
+    "pos": "noun",
+    "definition": "An egg-laying Australian mammal with a duck-like bill, webbed feet, and a beaver-like tail.",
+    "origin": "From Greek <strong>platys</strong> (flat, broad) + <strong>pous</strong> (foot), literally flat-foot, named by scientists baffled by the specimen sent from Australia in 1799.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Platypus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek platys", "b": "Flat or broad" },
+          { "a": "Greek pous", "b": "Foot" },
+          { "a": "Literal meaning", "b": "Flat-foot" },
+          { "a": "First specimen reached Europe", "b": "1799, suspected a hoax" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Platypus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A platypus is", "b": "An egg-laying Australian mammal" },
+          { "a": "Its bill resembles", "b": "A duck's" },
+          { "a": "Scientists first thought it", "b": "A stitched-together hoax" },
+          { "a": "Male platypuses carry", "b": "A venomous ankle spur" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Platypus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The platypus dived", "b": "Hunting by electric sense" },
+          { "a": "London scientists poked", "b": "The platypus pelt for stitches" },
+          { "a": "The platypus lays eggs", "b": "Yet suckles its young" },
+          { "a": "At dusk the platypus", "b": "Foraged along the creek bed" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "platys", "rootLanguage": "Greek", "rootMeaning": "Flat or broad", "showInIntro": true },
+      { "rootText": "pous", "rootLanguage": "Greek", "rootMeaning": "Foot", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "platys", "highlight": true },
+        { "text": " (flat) + ", "highlight": false },
+        { "text": "pous", "highlight": true },
+        { "text": " (foot); the flat-footed puzzle from Australia.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "platys",
+      "correctAnswer": "Flat or broad",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nemesis",
+    "pronunciation": "NEM-uh-sis",
+    "pos": "noun",
+    "definition": "A long-standing rival or arch-enemy; an agent of downfall that cannot be escaped. Originally the Greek goddess of retribution.",
+    "origin": "From Greek <strong>Nemesis</strong>, goddess of divine retribution, from <strong>nemein</strong> (to give what is due). She punished hubris and restored balance.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nemesis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek nemein", "b": "To give what is due" },
+          { "a": "The goddess Nemesis", "b": "Divine retribution" },
+          { "a": "She punished", "b": "Hubris and arrogance" },
+          { "a": "Modern sense", "b": "An inescapable arch-rival" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nemesis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A nemesis is", "b": "A long-standing arch-enemy" },
+          { "a": "The goddess Nemesis delivered", "b": "What each person was due" },
+          { "a": "Meeting your nemesis means", "b": "Facing your inevitable rival" },
+          { "a": "Nemesis follows", "b": "Hubris, in Greek tragedy" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nemesis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Moriarty was Holmes's", "b": "Great nemesis" },
+          { "a": "The champion faced her nemesis", "b": "In the final again" },
+          { "a": "Pride invites nemesis", "b": "As the Greeks warned" },
+          { "a": "The steep hill remained", "b": "The cyclist's nemesis" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "nemein", "rootLanguage": "Greek", "rootMeaning": "To give what is due", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "nemein", "highlight": true },
+        { "text": " (to give what is due); the goddess of retribution became every arch-rival.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nemein",
+      "correctAnswer": "To give what is due",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mentor",
+    "pronunciation": "MEN-tor",
+    "pos": "noun",
+    "definition": "An experienced and trusted adviser who guides someone less experienced.",
+    "origin": "From <strong>Mentor</strong>, the friend Odysseus entrusted with his son Telemachus in Homer's Odyssey. The goddess Athena took Mentor's form to guide the young man.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mentor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mentor in the Odyssey", "b": "Odysseus's trusted friend" },
+          { "a": "Entrusted with", "b": "Telemachus, Odysseus's son" },
+          { "a": "Athena's disguise", "b": "She guided in Mentor's form" },
+          { "a": "Modern sense", "b": "A trusted experienced adviser" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mentor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mentor is", "b": "A trusted guide and adviser" },
+          { "a": "A mentee is", "b": "The person being guided" },
+          { "a": "The original Mentor appears in", "b": "Homer's Odyssey" },
+          { "a": "Mentoring passes on", "b": "Experience and wisdom" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mentor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her mentor read", "b": "Every draft she wrote" },
+          { "a": "He mentored young engineers", "b": "Through their first projects" },
+          { "a": "Athena, disguised as Mentor", "b": "Steered Telemachus to sea" },
+          { "a": "A good mentor asks questions", "b": "Rather than giving answers" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Mentor", "rootLanguage": "Greek", "rootMeaning": "Odysseus's trusted friend", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "Mentor", "highlight": true },
+        { "text": ", guardian of Odysseus's son; a name that became a role.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A trusted adviser who guides someone less experienced, named from the Odyssey.",
+      "correctAnswer": "A trusted guide and adviser",
+      "hint": "Think about the person who guides a beginner's growth.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Marathon",
+    "pronunciation": "MA-ruh-thon",
+    "pos": "noun",
+    "definition": "A long-distance running race of 26.2 miles; any long, gruelling task requiring endurance.",
+    "origin": "From <strong>Marathon</strong>, the Greek plain where Athens defeated Persia in 490 BC. Legend says the messenger Pheidippides ran to Athens with news of victory and died on arrival.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Marathon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Marathon the place", "b": "A plain near Athens" },
+          { "a": "The battle of 490 BC", "b": "Athens defeated Persia" },
+          { "a": "Pheidippides", "b": "The legendary running messenger" },
+          { "a": "Modern race distance", "b": "26.2 miles" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Marathon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A marathon is", "b": "A 26.2-mile running race" },
+          { "a": "Figuratively, a marathon is", "b": "Any long gruelling task" },
+          { "a": "The name comes from", "b": "A Greek battlefield" },
+          { "a": "The odd 0.2 miles was added", "b": "For the 1908 London royal box" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Marathon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She trained a year", "b": "For her first marathon" },
+          { "a": "The negotiation became", "b": "A marathon session" },
+          { "a": "The runners hit the wall", "b": "At mile twenty of the marathon" },
+          { "a": "A film marathon", "b": "Ran through the night" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Marathon", "rootLanguage": "Greek", "rootMeaning": "The battlefield plain near Athens", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "Marathon", "highlight": true },
+        { "text": ", the battlefield; one legendary run became every long race.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A 26.2-mile race named after a messenger's legendary run from a Greek battlefield.",
+      "correctAnswer": "A 26.2-mile running race",
+      "hint": "Think about the race distance named after a Greek plain.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Arena",
+    "pronunciation": "uh-REE-nuh",
+    "pos": "noun",
+    "definition": "An enclosed area for sports and entertainment; any sphere of intense activity or conflict.",
+    "origin": "From Latin <strong>harena</strong> (sand), the sand spread across Roman amphitheatre floors to absorb blood during gladiatorial games. The surface named the space.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Arena</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin harena", "b": "Sand" },
+          { "a": "The sand's purpose", "b": "Covering amphitheatre floors" },
+          { "a": "The surface named", "b": "The whole space" },
+          { "a": "Roman arenas hosted", "b": "Gladiatorial games" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Arena</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An arena is", "b": "An enclosed venue for events" },
+          { "a": "The political arena is", "b": "The sphere of political conflict" },
+          { "a": "Latin harena meant", "b": "Sand" },
+          { "a": "The most famous Roman arena", "b": "The Colosseum" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Arena</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The arena roared", "b": "As the teams emerged" },
+          { "a": "She entered the political arena", "b": "As a local councillor" },
+          { "a": "Roman slaves raked", "b": "Fresh sand across the arena" },
+          { "a": "The band sold out", "b": "Every arena on the tour" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "harena", "rootLanguage": "Latin", "rootMeaning": "Sand", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "harena", "highlight": true },
+        { "text": " (sand); the amphitheatre floor that named the venue.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "harena",
+      "correctAnswer": "Sand",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Circus",
+    "pronunciation": "SUR-kus",
+    "pos": "noun",
+    "definition": "A travelling show of acrobats, clowns, and performers; in Roman times, an oval track for chariot racing. Also a chaotic scene.",
+    "origin": "From Latin <strong>circus</strong> (ring, circle), related to Greek <strong>kirkos</strong>. Rome's Circus Maximus was the great chariot-racing ring of the ancient city.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Circus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin circus", "b": "Ring or circle" },
+          { "a": "Greek kirkos", "b": "The related Greek word" },
+          { "a": "Circus Maximus", "b": "Rome's chariot-racing ring" },
+          { "a": "Related word", "b": "Circle" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Circus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A modern circus features", "b": "Acrobats, clowns, and performers" },
+          { "a": "A Roman circus was", "b": "A chariot-racing track" },
+          { "a": "A media circus is", "b": "Chaotic frenzied coverage" },
+          { "a": "Latin circus meant", "b": "Ring" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Circus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The circus came to town", "b": "With its striped big top" },
+          { "a": "Chariots thundered around", "b": "The Circus Maximus" },
+          { "a": "The trial became", "b": "A complete media circus" },
+          { "a": "The trapeze artists closed", "b": "The circus's final act" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "circus", "rootLanguage": "Latin", "rootMeaning": "Ring or circle", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "circus", "highlight": true },
+        { "text": " (ring); from Roman racetrack to big top.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "circus",
+      "correctAnswer": "Ring or circle",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Alias",
+    "pronunciation": "AY-lee-us",
+    "pos": "noun",
+    "definition": "A false or assumed name, used especially to conceal identity.",
+    "origin": "From Latin <strong>alias</strong> (at another time, otherwise), from <strong>alius</strong> (other). In legal use it introduced a person's other names.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Alias</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin alius", "b": "Other" },
+          { "a": "Latin alias", "b": "At another time, otherwise" },
+          { "a": "Legal use introduced", "b": "A person's other names" },
+          { "a": "Related word alibi", "b": "Elsewhere" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Alias</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An alias is", "b": "A false or assumed name" },
+          { "a": "Criminals use aliases to", "b": "Conceal their identity" },
+          { "a": "In computing an alias is", "b": "An alternative name or shortcut" },
+          { "a": "Latin alius means", "b": "Other" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Alias</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He checked in under an alias", "b": "To avoid the press" },
+          { "a": "The fraudster used aliases", "b": "In every city" },
+          { "a": "The writer's alias hid", "b": "Her real identity for years" },
+          { "a": "Samuel Clemens, alias", "b": "Mark Twain" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "alius", "rootLanguage": "Latin", "rootMeaning": "Other", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "alius", "highlight": true },
+        { "text": " (other); otherwise known as.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "alius",
+      "correctAnswer": "Other",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Agenda",
+    "pronunciation": "uh-JEN-duh",
+    "pos": "noun",
+    "definition": "A list of items to be discussed at a meeting; an underlying plan or motive.",
+    "origin": "From Latin <strong>agenda</strong> (things to be done), the plural gerundive of <strong>agere</strong> (to do, to drive). Literally, the things that must be done.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Agenda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin agere", "b": "To do or drive" },
+          { "a": "Latin agenda", "b": "Things to be done" },
+          { "a": "Grammatical form", "b": "A plural gerundive" },
+          { "a": "Related words", "b": "Agent, act, agitate" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Agenda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A meeting agenda lists", "b": "Items to be discussed" },
+          { "a": "A hidden agenda is", "b": "An undisclosed motive" },
+          { "a": "Latin agenda meant", "b": "Things that must be done" },
+          { "a": "Setting the agenda means", "b": "Controlling what gets discussed" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Agenda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The first item on the agenda", "b": "Was the budget review" },
+          { "a": "She suspected a hidden agenda", "b": "Behind his generous offer" },
+          { "a": "The chair circulated the agenda", "b": "A day before the meeting" },
+          { "a": "Climate topped the agenda", "b": "At the summit" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "agere", "rootLanguage": "Latin", "rootMeaning": "To do or drive", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "agere", "highlight": true },
+        { "text": " (to do); literally the things to be done.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "agere",
+      "correctAnswer": "To do or drive",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Veto",
+    "pronunciation": "VEE-toh",
+    "pos": "noun",
+    "definition": "The power to reject a decision or proposal unilaterally; the act of using that power.",
+    "origin": "From Latin <strong>veto</strong> (I forbid), the word Roman tribunes spoke to block legislation that harmed the common people.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Veto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin veto", "b": "I forbid" },
+          { "a": "Spoken by", "b": "Roman tribunes" },
+          { "a": "Its purpose", "b": "Blocking harmful legislation" },
+          { "a": "Grammatical form", "b": "First person: I forbid" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Veto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A veto is", "b": "The power to reject unilaterally" },
+          { "a": "Latin veto translates as", "b": "I forbid" },
+          { "a": "UN Security Council vetoes belong to", "b": "Five permanent members" },
+          { "a": "To override a veto usually needs", "b": "A supermajority" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Veto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The president vetoed", "b": "The spending bill" },
+          { "a": "The tribune cried veto", "b": "And the law was stopped" },
+          { "a": "She exercised her veto", "b": "Over the holiday plans" },
+          { "a": "Congress overrode the veto", "b": "With a two-thirds vote" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "veto", "rootLanguage": "Latin", "rootMeaning": "I forbid", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "veto", "highlight": true },
+        { "text": " (I forbid); the tribune's word that stopped Rome's laws.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "veto",
+      "correctAnswer": "I forbid",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ultimatum",
+    "pronunciation": "ul-tih-MAY-tum",
+    "pos": "noun",
+    "definition": "A final demand whose rejection will end negotiations and bring consequences.",
+    "origin": "From Latin <strong>ultimatus</strong> (final, last), from <strong>ultimus</strong> (farthest, last). The final word before action follows.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ultimatum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ultimus", "b": "Farthest or last" },
+          { "a": "Latin ultimatus", "b": "Final" },
+          { "a": "An ultimatum is literally", "b": "The final thing said" },
+          { "a": "Related word ultimate", "b": "The very last or best" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ultimatum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ultimatum is", "b": "A final demand with consequences" },
+          { "a": "Rejecting an ultimatum brings", "b": "The threatened action" },
+          { "a": "Ultimatums end", "b": "Negotiation and compromise" },
+          { "a": "In diplomacy an ultimatum often precedes", "b": "Conflict" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ultimatum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The union issued an ultimatum", "b": "Settle by Friday or we strike" },
+          { "a": "The 1914 ultimatum to Serbia", "b": "Preceded the Great War" },
+          { "a": "She gave him an ultimatum", "b": "The gaming or the relationship" },
+          { "a": "Ultimatums rarely leave room", "b": "For saving face" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ultimus", "rootLanguage": "Latin", "rootMeaning": "Farthest or last", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "ultimus", "highlight": true },
+        { "text": " (last); the final word before consequences follow.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ultimus",
+      "correctAnswer": "Farthest or last",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Propaganda",
+    "pronunciation": "prop-uh-GAN-duh",
+    "pos": "noun",
+    "definition": "Information, especially biased or misleading, spread to promote a political cause or point of view.",
+    "origin": "From Latin <strong>propagare</strong> (to propagate, spread), via the Congregatio de Propaganda Fide, the Vatican's 1622 Congregation for Propagating the Faith. The political sense grew in the 20th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Propaganda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin propagare", "b": "To propagate or spread" },
+          { "a": "Propaganda Fide", "b": "Vatican body for spreading the faith" },
+          { "a": "Founded in", "b": "1622" },
+          { "a": "Political sense grew in", "b": "The 20th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Propaganda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Propaganda is", "b": "Biased information spread for a cause" },
+          { "a": "Its original sense was", "b": "Spreading religious faith" },
+          { "a": "Wartime propaganda aims to", "b": "Shape public opinion" },
+          { "a": "Propaganda differs from news in", "b": "Its deliberate one-sidedness" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Propaganda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wartime posters spread", "b": "Propaganda on every wall" },
+          { "a": "The regime's propaganda machine", "b": "Ran day and night" },
+          { "a": "Historians study propaganda", "b": "To read a regime's fears" },
+          { "a": "She could spot propaganda", "b": "By its too-neat story" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "propagare", "rootLanguage": "Latin", "rootMeaning": "To propagate or spread", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "propagare", "highlight": true },
+        { "text": " (to spread); from spreading faith to spreading persuasion.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "propagare",
+      "correctAnswer": "To propagate or spread",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Virus",
+    "pronunciation": "VY-rus",
+    "pos": "noun",
+    "definition": "A microscopic infectious agent that replicates inside living cells; also self-replicating malicious computer code.",
+    "origin": "From Latin <strong>virus</strong> (poison, venom, slimy liquid). Roman writers used it for snake venom; science adopted it for infectious agents in the 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Virus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin virus", "b": "Poison or venom" },
+          { "a": "Roman writers used it for", "b": "Snake venom" },
+          { "a": "Science adopted it in", "b": "The 19th century" },
+          { "a": "Computing borrowed it for", "b": "Self-replicating code" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Virus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A virus replicates", "b": "Only inside living cells" },
+          { "a": "A computer virus", "b": "Copies itself into programs" },
+          { "a": "Latin virus meant", "b": "Poison" },
+          { "a": "Going viral means", "b": "Spreading like an infection" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Virus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The flu virus mutates", "b": "A little every season" },
+          { "a": "The virus locked", "b": "Every file on the network" },
+          { "a": "The video went viral", "b": "Spreading like its namesake" },
+          { "a": "Vaccines teach the body", "b": "To recognise the virus" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "virus", "rootLanguage": "Latin", "rootMeaning": "Poison or venom", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "virus", "highlight": true },
+        { "text": " (poison); Roman venom became modern infection.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "virus",
+      "correctAnswer": "Poison or venom",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Campus",
+    "pronunciation": "KAM-pus",
+    "pos": "noun",
+    "definition": "The grounds and buildings of a university, college, or large organisation.",
+    "origin": "From Latin <strong>campus</strong> (field, open plain), as in the Campus Martius, Rome's Field of Mars. First applied to Princeton's grounds in the 18th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Campus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin campus", "b": "Field or open plain" },
+          { "a": "Campus Martius", "b": "Rome's Field of Mars" },
+          { "a": "First applied to", "b": "Princeton's grounds" },
+          { "a": "Related word", "b": "Camp" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Campus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A campus is", "b": "A university's grounds and buildings" },
+          { "a": "Latin campus meant", "b": "An open field" },
+          { "a": "A corporate campus houses", "b": "A company's headquarters" },
+          { "a": "On campus means", "b": "Within the university grounds" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Campus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The campus emptied", "b": "For the summer break" },
+          { "a": "She lived on campus", "b": "In first-year halls" },
+          { "a": "The tech campus sprawled", "b": "Across the valley floor" },
+          { "a": "Autumn turned the campus", "b": "Gold along every path" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "campus", "rootLanguage": "Latin", "rootMeaning": "Field or open plain", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "campus", "highlight": true },
+        { "text": " (field); Rome's open plain became the university lawn.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "campus",
+      "correctAnswer": "Field or open plain",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bonus",
+    "pronunciation": "BOH-nus",
+    "pos": "noun",
+    "definition": "An extra payment or benefit beyond what is expected or due.",
+    "origin": "From Latin <strong>bonus</strong> (good). Adopted into English commercial slang in the 18th century, possibly by London Stock Exchange traders showing off their Latin.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bonus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin bonus", "b": "Good" },
+          { "a": "Adopted as", "b": "18th-century commercial slang" },
+          { "a": "Possibly coined by", "b": "Stock Exchange traders" },
+          { "a": "Related words", "b": "Bonanza, bounty, bon voyage" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bonus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bonus is", "b": "An extra beyond what is due" },
+          { "a": "A Christmas bonus is", "b": "A seasonal extra payment" },
+          { "a": "Latin bonus means", "b": "Good" },
+          { "a": "An added bonus is", "b": "An unexpected extra benefit" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bonus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The team earned a bonus", "b": "For finishing early" },
+          { "a": "As an added bonus", "b": "Breakfast was included" },
+          { "a": "Her annual bonus", "b": "Paid for the holiday" },
+          { "a": "The bonus round doubled", "b": "Every point scored" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bonus", "rootLanguage": "Latin", "rootMeaning": "Good", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "bonus", "highlight": true },
+        { "text": " (good); a good thing, on top.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bonus",
+      "correctAnswer": "Good",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Alibi",
+    "pronunciation": "AL-ih-by",
+    "pos": "noun",
+    "definition": "Evidence that a person was elsewhere when a crime was committed; more loosely, any excuse.",
+    "origin": "From Latin <strong>alibi</strong> (elsewhere), from <strong>alius</strong> (other) + <strong>ibi</strong> (there). A legal claim of being in another place.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Alibi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin alius", "b": "Other" },
+          { "a": "Latin ibi", "b": "There" },
+          { "a": "Latin alibi", "b": "Elsewhere" },
+          { "a": "Related word alias", "b": "Otherwise named" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Alibi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An alibi proves", "b": "You were somewhere else" },
+          { "a": "A solid alibi can", "b": "Clear a suspect entirely" },
+          { "a": "Latin alibi means", "b": "Elsewhere" },
+          { "a": "Loosely, an alibi is", "b": "Any excuse" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Alibi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "His alibi checked out", "b": "He was on camera miles away" },
+          { "a": "The suspect had no alibi", "b": "For the night in question" },
+          { "a": "Her sister confirmed", "b": "The alibi in court" },
+          { "a": "Working late became his alibi", "b": "For missing every dinner" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "alius", "rootLanguage": "Latin", "rootMeaning": "Other", "showInIntro": true },
+      { "rootText": "ibi", "rootLanguage": "Latin", "rootMeaning": "There", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "alius", "highlight": true },
+        { "text": " (other) + ", "highlight": false },
+        { "text": "ibi", "highlight": true },
+        { "text": " (there); elsewhere, sworn under oath.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ibi",
+      "correctAnswer": "There",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Verbatim",
+    "pronunciation": "vur-BAY-tim",
+    "pos": "adverb",
+    "definition": "In exactly the same words as were used originally; word for word.",
+    "origin": "From Latin <strong>verbatim</strong> (word by word), from <strong>verbum</strong> (word). Repeating each word precisely as spoken or written.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Verbatim</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin verbum", "b": "Word" },
+          { "a": "Latin verbatim", "b": "Word by word" },
+          { "a": "Related words", "b": "Verb, verbal, verbose" },
+          { "a": "A verbatim record", "b": "Preserves every exact word" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Verbatim</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Verbatim means", "b": "Word for word" },
+          { "a": "Quoting verbatim requires", "b": "Exact original wording" },
+          { "a": "A verbatim transcript records", "b": "Every word as spoken" },
+          { "a": "Latin verbum means", "b": "Word" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Verbatim</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She repeated the message", "b": "Verbatim, tone and all" },
+          { "a": "The court reporter typed", "b": "Every word verbatim" },
+          { "a": "He memorised the speech", "b": "And delivered it verbatim" },
+          { "a": "Do not copy verbatim", "b": "Paraphrase in your own words" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "verbum", "rootLanguage": "Latin", "rootMeaning": "Word", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "verbum", "highlight": true },
+        { "text": " (word); word by word, exactly as said.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "verbum",
+      "correctAnswer": "Word",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gratis",
+    "pronunciation": "GRAH-tis",
+    "pos": "adverb",
+    "definition": "Free of charge; without payment.",
+    "origin": "From Latin <strong>gratis</strong>, contracted from <strong>gratiis</strong> (as a favour, out of kindness), from <strong>gratia</strong> (favour, grace). Done for thanks alone.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gratis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin gratia", "b": "Favour or grace" },
+          { "a": "Latin gratiis", "b": "As a favour" },
+          { "a": "Literal sense", "b": "Done for thanks alone" },
+          { "a": "Related words", "b": "Grace, gratitude, gratuity" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gratis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gratis means", "b": "Free of charge" },
+          { "a": "Work done gratis", "b": "Receives no payment" },
+          { "a": "Latin gratia means", "b": "Favour or grace" },
+          { "a": "Similar phrase", "b": "Free, gratis, and for nothing" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gratis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The consultation was gratis", "b": "No fee for the first visit" },
+          { "a": "He fixed the fence gratis", "b": "As a favour to the neighbours" },
+          { "a": "Drinks came gratis", "b": "With the hotel booking" },
+          { "a": "The lawyer took the case", "b": "Gratis, for the principle" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gratia", "rootLanguage": "Latin", "rootMeaning": "Favour or grace", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "gratia", "highlight": true },
+        { "text": " (favour); done for thanks, not for pay.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gratia",
+      "correctAnswer": "Favour or grace",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Atlas",
+    "pronunciation": "AT-lus",
+    "pos": "noun",
+    "definition": "A book of maps. Named after the Titan condemned to hold up the heavens.",
+    "origin": "From Greek <strong>Atlas</strong>, the Titan who bore the sky on his shoulders. The mapmaker Mercator put his image on a 1595 map collection, and the name stuck to the book itself.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Atlas</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Atlas the Titan", "b": "Condemned to hold up the heavens" },
+          { "a": "Mercator", "b": "Mapmaker who used Atlas's image" },
+          { "a": "The 1595 collection", "b": "Fixed the name to map books" },
+          { "a": "The Atlas Mountains", "b": "Also carry the Titan's name" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Atlas</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An atlas is", "b": "A book of maps" },
+          { "a": "The Titan Atlas held", "b": "The sky on his shoulders" },
+          { "a": "The top neck vertebra is called", "b": "The atlas, holding the head" },
+          { "a": "A road atlas maps", "b": "Highways and routes" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Atlas</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She traced the route", "b": "Across the atlas pages" },
+          { "a": "The Titan Atlas strained", "b": "Beneath the weight of heaven" },
+          { "a": "The old atlas showed", "b": "Countries that no longer exist" },
+          { "a": "A world atlas opened", "b": "His childhood love of maps" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Atlas", "rootLanguage": "Greek", "rootMeaning": "The sky-bearing Titan", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "Atlas", "highlight": true },
+        { "text": ", the Titan bearing the heavens; Mercator put him on the cover.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A book of maps, named after the Titan who held up the sky.",
+      "correctAnswer": "A book of maps",
+      "hint": "Think about what you open to find a map of the world.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Enigma",
+    "pronunciation": "ih-NIG-muh",
+    "pos": "noun",
+    "definition": "A person or thing that is mysterious and difficult to understand; a riddle.",
+    "origin": "From Greek <strong>ainigma</strong> (riddle, dark saying), from <strong>ainissesthai</strong> (to speak in riddles), from <strong>ainos</strong> (tale, fable).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Enigma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek ainos", "b": "Tale or fable" },
+          { "a": "Greek ainissesthai", "b": "To speak in riddles" },
+          { "a": "Greek ainigma", "b": "Riddle or dark saying" },
+          { "a": "The Enigma machine", "b": "Encrypted wartime German messages" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Enigma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An enigma is", "b": "A mystery hard to understand" },
+          { "a": "An enigmatic smile", "b": "Gives nothing away" },
+          { "a": "The Greek root involves", "b": "Speaking in riddles" },
+          { "a": "The Sphinx posed", "b": "An enigma to travellers" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Enigma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The Mona Lisa's smile remains", "b": "An enduring enigma" },
+          { "a": "He was an enigma", "b": "Even to close friends" },
+          { "a": "Turing's team cracked", "b": "The Enigma cipher" },
+          { "a": "The ruins pose an enigma", "b": "Archaeologists still debate" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ainigma", "rootLanguage": "Greek", "rootMeaning": "Riddle or dark saying", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "ainigma", "highlight": true },
+        { "text": " (riddle); the dark saying that resists solving.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ainigma",
+      "correctAnswer": "Riddle or dark saying",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Phantom",
+    "pronunciation": "FAN-tum",
+    "pos": "noun",
+    "definition": "A ghost or apparition; something apparently seen or sensed but having no physical reality.",
+    "origin": "From Greek <strong>phantasma</strong> (apparition, image), from <strong>phainein</strong> (to show, to appear), via Old French <strong>fantosme</strong>.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Phantom</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek phainein", "b": "To show or appear" },
+          { "a": "Greek phantasma", "b": "Apparition or image" },
+          { "a": "Old French fantosme", "b": "The route into English" },
+          { "a": "Related words", "b": "Fantasy, phenomenon, phase" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Phantom</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A phantom is", "b": "A ghost or apparition" },
+          { "a": "Phantom pain is felt", "b": "In a limb no longer there" },
+          { "a": "A phantom menace is", "b": "A threat that proves unreal" },
+          { "a": "Greek phainein means", "b": "To appear" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Phantom</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The phantom glided", "b": "Through the opera house" },
+          { "a": "Phantom limb pain puzzled", "b": "Doctors for centuries" },
+          { "a": "The phantom traffic jam", "b": "Had no visible cause" },
+          { "a": "A phantom knock at the door", "b": "But nobody was there" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "phainein", "rootLanguage": "Greek", "rootMeaning": "To show or appear", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "phainein", "highlight": true },
+        { "text": " (to appear); the appearance without the substance.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "phainein",
+      "correctAnswer": "To show or appear",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stigma",
+    "pronunciation": "STIG-muh",
+    "pos": "noun",
+    "definition": "A mark of disgrace associated with a circumstance, quality, or person.",
+    "origin": "From Greek <strong>stigma</strong> (mark made by a pointed instrument, brand), from <strong>stizein</strong> (to prick, tattoo). Greek slaves and criminals were branded with stigmata.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stigma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek stizein", "b": "To prick or tattoo" },
+          { "a": "Greek stigma", "b": "A brand or mark" },
+          { "a": "Branded in Greece", "b": "Slaves and criminals" },
+          { "a": "Modern sense", "b": "A mark of social disgrace" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stigma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A stigma is", "b": "A mark of disgrace" },
+          { "a": "To stigmatise someone is", "b": "To brand them shamefully" },
+          { "a": "The Greek root means", "b": "A pricked or branded mark" },
+          { "a": "In botany, the stigma", "b": "Receives pollen in a flower" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stigma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Campaigns work to lift", "b": "The stigma around mental health" },
+          { "a": "The stigma of the scandal", "b": "Followed him for years" },
+          { "a": "Ancient stigmata were burned", "b": "Into the skin as brands" },
+          { "a": "Talking openly reduces", "b": "Stigma over time" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "stizein", "rootLanguage": "Greek", "rootMeaning": "To prick or tattoo", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "stizein", "highlight": true },
+        { "text": " (to prick); the brand that became social shame.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "stizein",
+      "correctAnswer": "To prick or tattoo",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Crater",
+    "pronunciation": "KRAY-tur",
+    "pos": "noun",
+    "definition": "A bowl-shaped depression formed by an impact, explosion, or volcanic eruption.",
+    "origin": "From Greek <strong>krater</strong> (mixing bowl), the wide vessel in which Greeks blended wine with water at feasts. Volcano mouths reminded observers of the great bowls.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Crater</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek krater", "b": "A wine-mixing bowl" },
+          { "a": "Used at Greek feasts for", "b": "Blending wine with water" },
+          { "a": "Volcano mouths recalled", "b": "The bowl's wide shape" },
+          { "a": "Modern craters form by", "b": "Impact, blast, or eruption" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Crater</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A crater is", "b": "A bowl-shaped depression" },
+          { "a": "The Moon's craters formed by", "b": "Ancient impacts" },
+          { "a": "A volcanic crater sits", "b": "At the summit vent" },
+          { "a": "Greek krater was", "b": "A feast's mixing bowl" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Crater</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The meteor left a crater", "b": "A mile across" },
+          { "a": "The volcano's crater steamed", "b": "Quietly at dawn" },
+          { "a": "Lunar craters record", "b": "Billions of years of impacts" },
+          { "a": "Greeks ladled wine", "b": "From the krater at feasts" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "krater", "rootLanguage": "Greek", "rootMeaning": "A wine-mixing bowl", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "krater", "highlight": true },
+        { "text": " (mixing bowl); the feast vessel that named the volcano's mouth.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "krater",
+      "correctAnswer": "A wine-mixing bowl",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boycott",
+    "pronunciation": "BOY-kot",
+    "pos": "verb",
+    "definition": "To refuse to buy, use, or participate in something as a protest.",
+    "origin": "From Captain Charles <strong>Boycott</strong>, an English land agent in Ireland ostracised by his community in 1880 during the Land War, when tenants refused all dealings with him.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boycott</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Captain Charles Boycott", "b": "The ostracised land agent" },
+          { "a": "The year", "b": "1880" },
+          { "a": "The setting", "b": "Ireland's Land War" },
+          { "a": "The tactic", "b": "Total refusal of dealings" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boycott</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To boycott is", "b": "To refuse dealings in protest" },
+          { "a": "A consumer boycott targets", "b": "A company's products" },
+          { "a": "The word comes from", "b": "A man's surname" },
+          { "a": "Boycott's tenants", "b": "Cut him off completely" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boycott</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Customers boycotted the brand", "b": "Over its factory conditions" },
+          { "a": "The bus boycott lasted", "b": "Over a year in Montgomery" },
+          { "a": "Athletes boycotted", "b": "The 1980 Games" },
+          { "a": "Boycott's harvest rotted", "b": "With no one willing to work" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Boycott", "rootLanguage": "English surname", "rootMeaning": "The ostracised land agent", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Captain ", "highlight": false },
+        { "text": "Boycott", "highlight": true },
+        { "text": ", frozen out by all of Ireland in 1880; his name became the tactic.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "To refuse to buy or participate as a protest, named after an ostracised land agent.",
+      "correctAnswer": "To refuse dealings in protest",
+      "hint": "Think about what campaigners do when they shun a company.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Robot",
+    "pronunciation": "ROH-bot",
+    "pos": "noun",
+    "definition": "A machine capable of carrying out complex actions automatically, especially one programmable by computer.",
+    "origin": "From Czech <strong>robota</strong> (forced labour, drudgery), coined by Karel Čapek in his 1920 play R.U.R. about artificial workers. His brother Josef suggested the word.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-classical", "name": "From the Classical World", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Robot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Czech robota", "b": "Forced labour or drudgery" },
+          { "a": "Coined for", "b": "The 1920 play R.U.R." },
+          { "a": "Karel Čapek", "b": "The playwright" },
+          { "a": "Josef Čapek", "b": "The brother who suggested the word" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Robot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A robot is", "b": "A machine acting automatically" },
+          { "a": "Industrial robots typically", "b": "Weld, lift, and assemble" },
+          { "a": "Czech robota meant", "b": "Forced labour" },
+          { "a": "R.U.R.'s robots were", "b": "Artificial workers who rebel" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Robot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The robot arm welded", "b": "Each chassis in seconds" },
+          { "a": "Čapek's play gave the world", "b": "The word robot" },
+          { "a": "A vacuum robot mapped", "b": "The whole flat by itself" },
+          { "a": "Mars rovers are robots", "b": "Exploring where humans cannot" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "robota", "rootLanguage": "Czech", "rootMeaning": "Forced labour or drudgery", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Czech ", "highlight": false },
+        { "text": "robota", "highlight": true },
+        { "text": " (forced labour); coined for a 1920 play about artificial workers.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "robota",
+      "correctAnswer": "Forced labour or drudgery",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

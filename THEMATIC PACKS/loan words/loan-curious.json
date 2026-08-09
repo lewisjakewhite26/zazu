@@ -1,0 +1,1775 @@
+[
+  {
+    "word": "Vodka",
+    "pronunciation": "VOD-kuh",
+    "pos": "noun",
+    "definition": "A clear distilled spirit, traditionally made from fermented grain or potatoes, closely associated with Russia and Poland.",
+    "origin": "From Russian <strong>vodka</strong>, a diminutive of <strong>voda</strong> (water), literally little water. The affectionate diminutive reflects the drink's everyday place in Slavic culture.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vodka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Russian voda", "b": "Water" },
+          { "a": "Russian vodka", "b": "Little water" },
+          { "a": "Grammatical form", "b": "A diminutive of water" },
+          { "a": "Traditionally made from", "b": "Grain or potatoes" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vodka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vodka is", "b": "A clear distilled spirit" },
+          { "a": "It is closely associated with", "b": "Russia and Poland" },
+          { "a": "Russian voda means", "b": "Water" },
+          { "a": "Vodka is traditionally served", "b": "Ice cold, in small glasses" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vodka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They toasted with", "b": "A round of chilled vodka" },
+          { "a": "The recipe called for", "b": "A splash of vodka" },
+          { "a": "Vodka is distilled", "b": "Until nearly flavourless" },
+          { "a": "The little water", "b": "Warmed them through the winter" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "voda", "rootLanguage": "Russian", "rootMeaning": "Water", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Russian ", "highlight": false },
+        { "text": "voda", "highlight": true },
+        { "text": " (water), affectionately diminished; little water indeed.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "voda",
+      "correctAnswer": "Water",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tsar",
+    "pronunciation": "ZAR",
+    "pos": "noun",
+    "definition": "A former emperor of Russia. Also used informally for a person given great authority over a specific area.",
+    "origin": "From Russian <strong>tsar</strong>, from Latin <strong>Caesar</strong>, the imperial title of Rome carried through Byzantine and Slavic tradition to the Russian throne.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tsar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin Caesar", "b": "The Roman imperial title" },
+          { "a": "Russian tsar", "b": "Emperor of Russia" },
+          { "a": "Route of transmission", "b": "Rome to Byzantium to Russia" },
+          { "a": "Related word Kaiser", "b": "The German equivalent title" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tsar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tsar was", "b": "A former emperor of Russia" },
+          { "a": "Informally, a tsar is", "b": "Someone with sweeping authority" },
+          { "a": "The word descends from", "b": "Caesar" },
+          { "a": "The last tsar was", "b": "Nicholas II" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tsar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tsar ruled", "b": "From the Winter Palace" },
+          { "a": "The government appointed", "b": "A new housing tsar" },
+          { "a": "The drug tsar coordinated", "b": "Enforcement across agencies" },
+          { "a": "Caesar's name echoed on", "b": "As tsar and kaiser" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Caesar", "rootLanguage": "Latin", "rootMeaning": "The Roman imperial title", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "Caesar", "highlight": true },
+        { "text": ", carried through Byzantium; one name, three empires.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Caesar",
+      "correctAnswer": "The Roman imperial title",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Steppe",
+    "pronunciation": "STEP",
+    "pos": "noun",
+    "definition": "A vast, flat, treeless grassland, especially the plains of southeastern Europe and Asia.",
+    "origin": "From Russian <strong>step</strong>, of uncertain earlier origin, describing the great grasslands stretching from Ukraine to Mongolia.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Steppe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Russian step", "b": "The grassland's name" },
+          { "a": "Geographic range", "b": "Ukraine to Mongolia" },
+          { "a": "Earlier origin", "b": "Uncertain" },
+          { "a": "Landscape type", "b": "Flat, treeless grassland" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Steppe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A steppe is", "b": "A vast treeless grassland" },
+          { "a": "Steppes are found in", "b": "Southeastern Europe and Asia" },
+          { "a": "The steppe climate is", "b": "Semi-arid, with extreme seasons" },
+          { "a": "Historically, steppe peoples were", "b": "Skilled horsemen and nomads" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Steppe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The steppe stretched", "b": "Flat to every horizon" },
+          { "a": "Nomadic riders crossed", "b": "The Mongolian steppe" },
+          { "a": "Wind swept unbroken", "b": "Across the open steppe" },
+          { "a": "Wild horses once roamed", "b": "The Eurasian steppe" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "step", "rootLanguage": "Russian", "rootMeaning": "Grassland", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Russian ", "highlight": false },
+        { "text": "step", "highlight": true },
+        { "text": "; the flat grasslands stretching from Ukraine to Mongolia.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A vast, flat, treeless grassland of Europe and Asia, named in Russian.",
+      "correctAnswer": "A vast treeless grassland",
+      "hint": "Think about the flat open plains stretching from Ukraine to Mongolia.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Caddy",
+    "pronunciation": "KAD-ee",
+    "pos": "noun",
+    "definition": "A person who carries a golfer's clubs. Also a small container, especially for tea.",
+    "origin": "From French <strong>cadet</strong> (younger son, junior officer). The golf sense developed in Scotland from young assistants who carried clubs; the tea sense comes from Malay <strong>kati</strong>, a unit of weight.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Caddy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French cadet", "b": "Younger son or junior officer" },
+          { "a": "Golf sense developed in", "b": "Scotland" },
+          { "a": "Malay kati", "b": "A unit of weight for tea" },
+          { "a": "Two senses share", "b": "Different, unrelated origins" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Caddy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A golf caddy", "b": "Carries the player's clubs" },
+          { "a": "A tea caddy is", "b": "A small storage container" },
+          { "a": "French cadet meant", "b": "A younger son" },
+          { "a": "Malay kati measured", "b": "Weight, especially of tea" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Caddy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The caddy handed him", "b": "The seven iron" },
+          { "a": "She kept the leaves", "b": "In a silver tea caddy" },
+          { "a": "Young caddies once earned", "b": "Pocket money at the links" },
+          { "a": "A desk caddy organised", "b": "Pens and paperclips" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "cadet", "rootLanguage": "French", "rootMeaning": "Younger son or junior officer", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "cadet", "highlight": true },
+        { "text": " (junior); the club-carrying junior of the golf course.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cadet",
+      "correctAnswer": "Younger son or junior officer",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kibbutz",
+    "pronunciation": "kih-BOOTS",
+    "pos": "noun",
+    "definition": "A communal settlement in Israel, traditionally based on agriculture and shared property.",
+    "origin": "From Hebrew <strong>kibbutz</strong> (gathering, clustering), from <strong>kibbetz</strong> (to gather). The first kibbutz was founded in 1909 as a collective farming community.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kibbutz</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hebrew kibbetz", "b": "To gather" },
+          { "a": "Hebrew kibbutz", "b": "Gathering or clustering" },
+          { "a": "First kibbutz founded", "b": "1909" },
+          { "a": "Traditional basis", "b": "Agriculture and shared property" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kibbutz</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A kibbutz is", "b": "A communal settlement in Israel" },
+          { "a": "Property on a kibbutz was traditionally", "b": "Held in common" },
+          { "a": "Hebrew kibbetz means", "b": "To gather" },
+          { "a": "Kibbutz members are called", "b": "Kibbutzniks" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kibbutz</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She volunteered", "b": "On a kibbutz one summer" },
+          { "a": "Meals on the kibbutz", "b": "Were eaten together" },
+          { "a": "The kibbutz movement began", "b": "In the early 20th century" },
+          { "a": "Children on the kibbutz", "b": "Grew up in shared housing" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kibbetz", "rootLanguage": "Hebrew", "rootMeaning": "To gather", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Hebrew ", "highlight": false },
+        { "text": "kibbetz", "highlight": true },
+        { "text": " (to gather); a settlement built on gathering together.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kibbetz",
+      "correctAnswer": "To gather",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gamelan",
+    "pronunciation": "GAM-uh-lan",
+    "pos": "noun",
+    "definition": "A traditional Indonesian ensemble of percussion instruments, including metallophones, gongs, and drums.",
+    "origin": "From Javanese <strong>gamel</strong> (to handle, to hammer), describing how the instruments are struck with mallets.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gamelan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Javanese gamel", "b": "To handle or hammer" },
+          { "a": "The name describes", "b": "How the instruments are struck" },
+          { "a": "Region of origin", "b": "Indonesia" },
+          { "a": "Ensemble includes", "b": "Metallophones, gongs, and drums" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gamelan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gamelan is", "b": "An Indonesian percussion ensemble" },
+          { "a": "Its instruments are played with", "b": "Mallets" },
+          { "a": "Gamelan music accompanies", "b": "Dance and shadow puppetry" },
+          { "a": "The tuning of gamelan sets is", "b": "Unique to each ensemble" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gamelan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gamelan shimmered", "b": "Through the temple courtyard" },
+          { "a": "Dancers moved", "b": "To the gamelan's rhythm" },
+          { "a": "The gongs of the gamelan", "b": "Rang out across the village" },
+          { "a": "Composers borrowed", "b": "Gamelan scales for new works" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gamel", "rootLanguage": "Javanese", "rootMeaning": "To handle or hammer", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Javanese ", "highlight": false },
+        { "text": "gamel", "highlight": true },
+        { "text": " (to hammer); the shimmering percussion of Indonesia.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gamel",
+      "correctAnswer": "To handle or hammer",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boondocks",
+    "pronunciation": "BOON-doks",
+    "pos": "noun",
+    "definition": "A remote rural area far from towns or cities; the middle of nowhere.",
+    "origin": "From Tagalog <strong>bundok</strong> (mountain), brought back by American soldiers stationed in the Philippines in the early 20th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boondocks</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tagalog bundok", "b": "Mountain" },
+          { "a": "Brought back by", "b": "American soldiers" },
+          { "a": "Stationed in", "b": "The Philippines" },
+          { "a": "Period", "b": "Early 20th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boondocks</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The boondocks describes", "b": "A remote rural area" },
+          { "a": "Living in the boondocks means", "b": "Being far from any town" },
+          { "a": "Tagalog bundok means", "b": "Mountain" },
+          { "a": "Boondocking now also means", "b": "Camping off-grid in an RV" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boondocks</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They lived out in", "b": "The boondocks, miles from town" },
+          { "a": "The signal died", "b": "The moment they hit the boondocks" },
+          { "a": "He grew up in the boondocks", "b": "Where everyone knew everyone" },
+          { "a": "The soldiers brought the word", "b": "Back from the Philippine boondocks" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bundok", "rootLanguage": "Tagalog", "rootMeaning": "Mountain", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tagalog ", "highlight": false },
+        { "text": "bundok", "highlight": true },
+        { "text": " (mountain); soldiers carried it home for anywhere remote.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bundok",
+      "correctAnswer": "Mountain",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Yo-yo",
+    "pronunciation": "YOH-yoh",
+    "pos": "noun",
+    "definition": "A toy consisting of two discs connected by an axle, with string wound around it, spun up and down by hand.",
+    "origin": "Possibly from Ilocano or Tagalog <strong>yo-yo</strong>, a Philippine word for the toy, meaning come come or return. The toy has Filipino roots stretching back centuries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Yo-yo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tagalog or Ilocano yo-yo", "b": "The toy's Philippine name" },
+          { "a": "Possible literal meaning", "b": "Come come, or return" },
+          { "a": "The toy's roots go back", "b": "Centuries in the Philippines" },
+          { "a": "Modern craze began", "b": "In America in the 1920s" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Yo-yo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A yo-yo is", "b": "A spinning string toy" },
+          { "a": "To yo-yo means", "b": "To move up and down repeatedly" },
+          { "a": "The toy consists of", "b": "Two discs on an axle" },
+          { "a": "It is spun using", "b": "Wound string and hand motion" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Yo-yo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He performed tricks", "b": "With his favourite yo-yo" },
+          { "a": "Her weight yo-yoed", "b": "Through years of crash diets" },
+          { "a": "The yo-yo spun", "b": "Down and snapped back up" },
+          { "a": "Yo-yo dieting rarely", "b": "Leads to lasting results" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "yo-yo", "rootLanguage": "Tagalog", "rootMeaning": "Come come, or return", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tagalog ", "highlight": false },
+        { "text": "yo-yo", "highlight": true }, 
+        { "text": " (return); centuries old in the Philippines before the 1920s craze.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A spinning string toy of two discs on an axle, with roots in the Philippines.",
+      "correctAnswer": "A spinning string toy",
+      "hint": "Think about the toy that spins down and springs back up.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tacky",
+    "pronunciation": "TAK-ee",
+    "pos": "adjective",
+    "definition": "Showing poor taste, cheap, or gaudy. Also, slightly sticky to the touch.",
+    "origin": "From English dialect <strong>tacky</strong> (sticky), from <strong>tack</strong> (adhesive quality). The sense of poor taste developed in 19th-century American English, possibly from tacky meaning shabby.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tacky</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English tack", "b": "Adhesive quality" },
+          { "a": "Original tacky sense", "b": "Sticky to the touch" },
+          { "a": "Taste sense developed in", "b": "19th-century American English" },
+          { "a": "Possibly linked to", "b": "Tacky meaning shabby" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tacky</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tacky describes", "b": "Poor taste, cheap or gaudy" },
+          { "a": "Tacky paint feels", "b": "Slightly sticky, not fully dry" },
+          { "a": "A tacky souvenir is", "b": "Cheap and garish" },
+          { "a": "Calling décor tacky means", "b": "It looks cheap or overdone" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tacky</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gift shop sold", "b": "Nothing but tacky souvenirs" },
+          { "a": "Mind the paint", "b": "It is still tacky" },
+          { "a": "The neon sign looked", "b": "Cheap and tacky" },
+          { "a": "She thought sequins were", "b": "A bit tacky for a wedding" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tack", "rootLanguage": "English", "rootMeaning": "Adhesive quality", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From English ", "highlight": false },
+        { "text": "tack", "highlight": true },
+        { "text": " (sticky); sticky paint became a word for cheap taste.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Showing poor taste, cheap or gaudy; originally meant sticky.",
+      "correctAnswer": "Poor taste, cheap or gaudy",
+      "hint": "Think about what you'd call a garish plastic souvenir.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Baroque",
+    "pronunciation": "buh-ROHK",
+    "pos": "adjective",
+    "definition": "Highly ornate and extravagant in style, especially referring to 17th and 18th-century European art, architecture, and music.",
+    "origin": "From French <strong>baroque</strong>, from Portuguese <strong>barroco</strong> (an irregularly shaped pearl). The term began as a criticism of overly ornate style before becoming a period name.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Baroque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Portuguese barroco", "b": "An irregularly shaped pearl" },
+          { "a": "French baroque", "b": "The route into English" },
+          { "a": "Originally used as", "b": "A criticism of excess" },
+          { "a": "Now names", "b": "A whole artistic period" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Baroque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Baroque style is", "b": "Highly ornate and extravagant" },
+          { "a": "The Baroque period spanned", "b": "The 17th and 18th centuries" },
+          { "a": "Baroque music features composers like", "b": "Bach and Vivaldi" },
+          { "a": "Portuguese barroco described", "b": "An irregular pearl" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Baroque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ceiling frescoes were", "b": "Gloriously baroque" },
+          { "a": "Baroque churches overflow", "b": "With gilt and marble" },
+          { "a": "The plot grew increasingly", "b": "Baroque with every twist" },
+          { "a": "She played a baroque sonata", "b": "On the harpsichord" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "barroco", "rootLanguage": "Portuguese", "rootMeaning": "An irregularly shaped pearl", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Portuguese ", "highlight": false },
+        { "text": "barroco", "highlight": true },
+        { "text": " (irregular pearl); a flaw that became a whole artistic era.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "barroco",
+      "correctAnswer": "An irregularly shaped pearl",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Galore",
+    "pronunciation": "guh-LOR",
+    "pos": "adverb",
+    "definition": "In abundance; in great plenty. Always placed after the noun it describes.",
+    "origin": "From Irish <strong>go leor</strong> (enough, plenty), from <strong>leor</strong> (sufficient). Entered English in the 17th century through Irish and Scots Gaelic.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Galore</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish leor", "b": "Sufficient" },
+          { "a": "Irish go leor", "b": "Enough, plenty" },
+          { "a": "Entered English via", "b": "Irish and Scots Gaelic" },
+          { "a": "Grammatical quirk", "b": "Always follows its noun" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Galore</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Galore means", "b": "In great abundance" },
+          { "a": "You would say", "b": "Bargains galore, not galore bargains" },
+          { "a": "Irish go leor means", "b": "Enough" },
+          { "a": "A word order it shares with", "b": "Very few other English adverbs" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Galore</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The market offered", "b": "Bargains galore" },
+          { "a": "There were laughs galore", "b": "At the family reunion" },
+          { "a": "The garden grew tomatoes", "b": "Galore this summer" },
+          { "a": "Problems galore emerged", "b": "Once the renovation began" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "go leor", "rootLanguage": "Irish", "rootMeaning": "Enough, plenty", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Irish ", "highlight": false },
+        { "text": "go leor", "highlight": true },
+        { "text": " (plenty); an adverb that still follows Irish word order.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "go leor",
+      "correctAnswer": "Enough, plenty",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Leprechaun",
+    "pronunciation": "LEP-ruh-kawn",
+    "pos": "noun",
+    "definition": "A small mischievous fairy of Irish folklore, often depicted as a shoemaker who guards a hidden pot of gold.",
+    "origin": "From Irish <strong>leipreachán</strong>, from Old Irish <strong>luchorpán</strong>, from <strong>lu</strong> (small) + <strong>corp</strong> (body), literally small body.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Leprechaun</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish lu", "b": "Small" },
+          { "a": "Old Irish corp", "b": "Body" },
+          { "a": "Old Irish luchorpán", "b": "Small body" },
+          { "a": "Traditional trade", "b": "Shoemaker" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Leprechaun</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A leprechaun is", "b": "A small mischievous Irish fairy" },
+          { "a": "Leprechauns are said to guard", "b": "A hidden pot of gold" },
+          { "a": "The Old Irish root means", "b": "Small body" },
+          { "a": "In folklore, catching one grants", "b": "Three wishes, if you can hold on" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Leprechaun</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The children searched", "b": "For a leprechaun's gold" },
+          { "a": "Leprechaun costumes appeared", "b": "Every Saint Patrick's Day" },
+          { "a": "Folklore says the leprechaun", "b": "Cobbles fairy shoes by night" },
+          { "a": "At the rainbow's end", "b": "Sat the leprechaun's treasure" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "lu", "rootLanguage": "Old Irish", "rootMeaning": "Small", "showInIntro": true },
+      { "rootText": "corp", "rootLanguage": "Old Irish", "rootMeaning": "Body", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old Irish ", "highlight": false },
+        { "text": "lu", "highlight": true },
+        { "text": " (small) + ", "highlight": false },
+        { "text": "corp", "highlight": true },
+        { "text": " (body); the small-bodied guardian of gold.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "corp",
+      "correctAnswer": "Body",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shamrock",
+    "pronunciation": "SHAM-rok",
+    "pos": "noun",
+    "definition": "A three-leaved clover, the national symbol of Ireland, traditionally worn on Saint Patrick's Day.",
+    "origin": "From Irish <strong>seamróg</strong>, a diminutive of <strong>seamair</strong> (clover). Legend credits Saint Patrick with using its three leaves to explain the Holy Trinity.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shamrock</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish seamair", "b": "Clover" },
+          { "a": "Irish seamróg", "b": "Little clover" },
+          { "a": "Legend links it to", "b": "Saint Patrick's teaching" },
+          { "a": "Explained", "b": "The Holy Trinity" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shamrock</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A shamrock is", "b": "A three-leaved clover" },
+          { "a": "It symbolises", "b": "Ireland" },
+          { "a": "It is worn on", "b": "Saint Patrick's Day" },
+          { "a": "Irish seamair means", "b": "Clover" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shamrock</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She pinned a shamrock", "b": "To her lapel" },
+          { "a": "Shamrocks decorated", "b": "Every shop window in March" },
+          { "a": "Legend says Patrick used it", "b": "To explain three in one" },
+          { "a": "The shamrock field turned", "b": "Bright green after rain" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "seamair", "rootLanguage": "Irish", "rootMeaning": "Clover", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Irish ", "highlight": false },
+        { "text": "seamair", "highlight": true },
+        { "text": " (clover); the little clover that became a whole nation's symbol.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "seamair",
+      "correctAnswer": "Clover",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Banshee",
+    "pronunciation": "BAN-shee",
+    "pos": "noun",
+    "definition": "A female spirit in Irish folklore whose wailing cry is said to foretell a death in the family.",
+    "origin": "From Irish <strong>bean sí</strong> (woman of the fairy mound), from <strong>bean</strong> (woman) + <strong>sí</strong> (fairy, otherworld).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Banshee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish bean", "b": "Woman" },
+          { "a": "Irish sí", "b": "Fairy or otherworld" },
+          { "a": "Irish bean sí", "b": "Woman of the fairy mound" },
+          { "a": "Her cry foretells", "b": "A death in the family" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Banshee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A banshee is", "b": "A wailing spirit of Irish folklore" },
+          { "a": "Her cry is said to warn of", "b": "An impending death" },
+          { "a": "Irish bean means", "b": "Woman" },
+          { "a": "A banshee wail describes", "b": "Any loud piercing scream" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Banshee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The wind howled", "b": "Like a banshee through the eaves" },
+          { "a": "Legend says a banshee wails", "b": "Outside the house of the dying" },
+          { "a": "The siren screamed", "b": "Louder than any banshee" },
+          { "a": "Old tales describe the banshee", "b": "Combing her long grey hair" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bean sí", "rootLanguage": "Irish", "rootMeaning": "Woman of the fairy mound", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Irish ", "highlight": false },
+        { "text": "bean sí", "highlight": true },
+        { "text": " (fairy woman); her cry a warning carried through Irish nights.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bean sí",
+      "correctAnswer": "Woman of the fairy mound",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Serendipity",
+    "pronunciation": "ser-un-DIP-ih-tee",
+    "pos": "noun",
+    "definition": "The occurrence of fortunate discoveries by accident; a pleasant surprise found while looking for something else.",
+    "origin": "Coined by Horace Walpole in 1754 from <strong>Serendip</strong>, an old name for Sri Lanka, after a Persian fairy tale in which princes made lucky discoveries by chance.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Serendipity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Serendip", "b": "An old name for Sri Lanka" },
+          { "a": "Coined by", "b": "Horace Walpole in 1754" },
+          { "a": "Inspired by", "b": "A Persian fairy tale" },
+          { "a": "The tale's princes made", "b": "Lucky discoveries by chance" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Serendipity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Serendipity is", "b": "Fortunate accidental discovery" },
+          { "a": "A serendipitous meeting is", "b": "A lucky chance encounter" },
+          { "a": "The word was coined for", "b": "A private letter, not a book" },
+          { "a": "Serendip was the old name for", "b": "Sri Lanka" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Serendipity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Penicillin's discovery was", "b": "A famous case of serendipity" },
+          { "a": "It was pure serendipity", "b": "That they sat at the same table" },
+          { "a": "The bookshop find felt like", "b": "Serendipity in paperback form" },
+          { "a": "Walpole invented the word", "b": "In a letter to a friend" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Serendip", "rootLanguage": "Persian", "rootMeaning": "An old name for Sri Lanka", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Coined from ", "highlight": false },
+        { "text": "Serendip", "highlight": true },
+        { "text": ", old Sri Lanka, after a tale of princes finding luck by accident.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Fortunate accidental discovery, coined from an old name for Sri Lanka.",
+      "correctAnswer": "Fortunate accidental discovery",
+      "hint": "Think about what you call a lucky discovery you weren't even looking for.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Albino",
+    "pronunciation": "al-BY-noh",
+    "pos": "noun",
+    "definition": "A person or animal with a congenital absence of pigment, resulting in white hair, pale skin, and light-coloured eyes.",
+    "origin": "From Portuguese <strong>albino</strong>, from Latin <strong>albus</strong> (white). Portuguese sailors used it to describe pale-skinned Africans they encountered.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Albino</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin albus", "b": "White" },
+          { "a": "Portuguese albino", "b": "The word's immediate source" },
+          { "a": "Used by", "b": "Portuguese sailors and traders" },
+          { "a": "Related word albumen", "b": "The white of an egg" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Albino</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Albinism results from", "b": "A congenital absence of pigment" },
+          { "a": "Albino animals or people have", "b": "White hair and pale skin" },
+          { "a": "Latin albus means", "b": "White" },
+          { "a": "Albinism can occur in", "b": "Many species, not only humans" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Albino</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The albino peacock spread", "b": "Its snow-white tail" },
+          { "a": "Albinism affects", "b": "Roughly one in twenty thousand people" },
+          { "a": "The albino crocodile drew", "b": "Crowds at the aquarium" },
+          { "a": "Sunscreen matters especially", "b": "For people with albinism" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "albus", "rootLanguage": "Latin", "rootMeaning": "White", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "albus", "highlight": true },
+        { "text": " (white), via Portuguese; the absence of pigment, named for its whiteness.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "albus",
+      "correctAnswer": "White",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Amok",
+    "pronunciation": "uh-MUK",
+    "pos": "adverb",
+    "definition": "In an uncontrolled or frenzied way, as in the phrase to run amok, meaning to behave wildly or destructively.",
+    "origin": "From Malay <strong>amuk</strong> (a murderous frenzy), describing a sudden violent rage. Recorded by early European traders in Southeast Asia.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Amok</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Malay amuk", "b": "A murderous frenzy" },
+          { "a": "Recorded by", "b": "Early European traders" },
+          { "a": "Region", "b": "Southeast Asia" },
+          { "a": "Common phrase", "b": "To run amok" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Amok</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Amok describes", "b": "Frenzied, uncontrolled behaviour" },
+          { "a": "To run amok means", "b": "To act wildly or destructively" },
+          { "a": "Malay amuk originally described", "b": "A sudden violent rage" },
+          { "a": "Amok can describe", "b": "Chaos in any situation, not just violence" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Amok</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The toddler ran amok", "b": "Through the supermarket aisles" },
+          { "a": "The escaped goat ran amok", "b": "Around the village green" },
+          { "a": "Prices ran amok", "b": "During the shortage" },
+          { "a": "The dog ran amok", "b": "The second the gate was left open" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "amuk", "rootLanguage": "Malay", "rootMeaning": "A murderous frenzy", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Malay ", "highlight": false },
+        { "text": "amuk", "highlight": true },
+        { "text": " (frenzy); a violent rage now describing any wild chaos.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "amuk",
+      "correctAnswer": "A murderous frenzy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gecko",
+    "pronunciation": "GEK-oh",
+    "pos": "noun",
+    "definition": "A small lizard, mostly nocturnal, known for its ability to climb smooth vertical surfaces using specialised toe pads.",
+    "origin": "From Malay <strong>gekoq</strong>, imitating the clicking, chirping sound the lizard makes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gecko</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Malay gekoq", "b": "Imitates the lizard's call" },
+          { "a": "The name mimics", "b": "A clicking, chirping sound" },
+          { "a": "Geckos are mostly", "b": "Nocturnal" },
+          { "a": "Their toe pads let them", "b": "Climb smooth vertical surfaces" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gecko</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gecko is", "b": "A small climbing lizard" },
+          { "a": "Its toe pads allow it to", "b": "Walk up glass and ceilings" },
+          { "a": "Malay gekoq imitates", "b": "The animal's own call" },
+          { "a": "Many geckos are active", "b": "At night" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gecko</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gecko clung upside down", "b": "To the ceiling above the lamp" },
+          { "a": "A gecko chirped", "b": "Somewhere in the dark garden" },
+          { "a": "Engineers studied gecko feet", "b": "To design new adhesives" },
+          { "a": "The tiny gecko darted", "b": "Across the sunlit wall" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gekoq", "rootLanguage": "Malay", "rootMeaning": "Imitating the lizard's call", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Malay ", "highlight": false },
+        { "text": "gekoq", "highlight": true },
+        { "text": ", echoing its own chirp; the lizard that named itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A small climbing lizard named from Malay, imitating its own call.",
+      "correctAnswer": "A small climbing lizard",
+      "hint": "Think about the lizard that can walk up glass.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Goulash",
+    "pronunciation": "GOO-lash",
+    "pos": "noun",
+    "definition": "A rich Hungarian stew of meat and vegetables, seasoned generously with paprika.",
+    "origin": "From Hungarian <strong>gulyás</strong> (herdsman), short for <strong>gulyáshús</strong> (herdsman's meat), the stew traditionally cooked by cattle herders over an open fire.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Goulash</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hungarian gulyás", "b": "Herdsman" },
+          { "a": "Hungarian gulyáshús", "b": "Herdsman's meat" },
+          { "a": "Traditionally cooked by", "b": "Cattle herders" },
+          { "a": "Cooked over", "b": "An open fire" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Goulash</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Goulash is", "b": "A rich Hungarian meat stew" },
+          { "a": "It is generously seasoned with", "b": "Paprika" },
+          { "a": "Hungarian gulyás means", "b": "Herdsman" },
+          { "a": "It was traditionally cooked", "b": "In a cauldron over an open fire" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Goulash</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The goulash simmered", "b": "All afternoon on the stove" },
+          { "a": "Paprika gave the goulash", "b": "Its deep red colour" },
+          { "a": "Herdsmen once cooked goulash", "b": "In cauldrons on the open plain" },
+          { "a": "She served goulash", "b": "With crusty bread on the side" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gulyás", "rootLanguage": "Hungarian", "rootMeaning": "Herdsman", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Hungarian ", "highlight": false },
+        { "text": "gulyás", "highlight": true },
+        { "text": " (herdsman); the cattle-drover's stew from the open plain.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gulyás",
+      "correctAnswer": "Herdsman",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hussar",
+    "pronunciation": "huh-ZAR",
+    "pos": "noun",
+    "definition": "A light cavalry soldier, originally Hungarian, known for elaborate braided uniforms and dashing reputation.",
+    "origin": "From Hungarian <strong>huszár</strong>, possibly from Old Serbian <strong>husar</strong> (bandit, raider), ultimately traced to Latin <strong>cursarius</strong> (one who runs, raider).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hussar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hungarian huszár", "b": "The cavalry soldier's name" },
+          { "a": "Old Serbian husar", "b": "Bandit or raider" },
+          { "a": "Latin cursarius", "b": "One who runs, raider" },
+          { "a": "Known for", "b": "Elaborate braided uniforms" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hussar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hussar was", "b": "A light cavalry soldier" },
+          { "a": "Hussars originated in", "b": "Hungary" },
+          { "a": "Their uniforms featured", "b": "Ornate braiding" },
+          { "a": "The root cursarius meant", "b": "One who runs" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hussar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hussars charged", "b": "Across the open field" },
+          { "a": "The hussar's dolman jacket", "b": "Gleamed with gold braid" },
+          { "a": "Painters loved depicting", "b": "The dashing hussar regiments" },
+          { "a": "Napoleon's hussars were feared", "b": "For their speed and daring" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "huszár", "rootLanguage": "Hungarian", "rootMeaning": "Light cavalry soldier", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Hungarian ", "highlight": false },
+        { "text": "huszár", "highlight": true },
+        { "text": "; the braided, dashing rider of light cavalry.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A light cavalry soldier, originally Hungarian, known for elaborate uniforms.",
+      "correctAnswer": "A light cavalry soldier",
+      "hint": "Think about the dashing braided-uniform rider of old European armies.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Paprika",
+    "pronunciation": "puh-PREE-kuh",
+    "pos": "noun",
+    "definition": "A spice made from ground dried peppers, ranging from mild and sweet to fiery hot, central to Hungarian cooking.",
+    "origin": "From Hungarian <strong>paprika</strong>, from Serbian <strong>papar</strong>, ultimately from Latin <strong>piper</strong> (pepper). Hungarians adopted the New World pepper and made it their signature spice.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Paprika</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin piper", "b": "Pepper" },
+          { "a": "Serbian papar", "b": "The intermediate form" },
+          { "a": "Hungarian paprika", "b": "The spice's familiar name" },
+          { "a": "Hungary made it", "b": "Its signature national spice" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Paprika</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Paprika is made from", "b": "Ground dried peppers" },
+          { "a": "Its heat ranges from", "b": "Mild and sweet to fiery" },
+          { "a": "Latin piper means", "b": "Pepper" },
+          { "a": "Paprika is central to", "b": "Hungarian cooking" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Paprika</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She dusted the goulash", "b": "With smoked paprika" },
+          { "a": "Sweet paprika coloured", "b": "The sauce deep red" },
+          { "a": "Hungarian paprika comes in", "b": "Grades from mild to hot" },
+          { "a": "The chicken paprikash simmered", "b": "In its rich paprika sauce" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "piper", "rootLanguage": "Latin", "rootMeaning": "Pepper", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "piper", "highlight": true },
+        { "text": " (pepper), via Serbian into Hungarian; a New World pepper, made Hungary's own.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "piper",
+      "correctAnswer": "Pepper",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Parachute",
+    "pronunciation": "PA-ruh-shoot",
+    "pos": "noun",
+    "definition": "A folding canopy device used to slow the descent of a person or object falling through the air.",
+    "origin": "From French <strong>para</strong> (protecting against) + <strong>chute</strong> (fall), coined in the 1780s by the balloonist Louis-Sébastien Lenormand. Literally, that which guards against falling.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Parachute</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French para", "b": "Protecting against" },
+          { "a": "French chute", "b": "Fall" },
+          { "a": "Combined meaning", "b": "That which guards against falling" },
+          { "a": "Coined by", "b": "Balloonist Louis-Sébastien Lenormand" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Parachute</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A parachute is", "b": "A canopy device slowing descent" },
+          { "a": "A golden parachute is", "b": "A generous executive severance deal" },
+          { "a": "French chute means", "b": "Fall" },
+          { "a": "Lenormand tested his design", "b": "By jumping from a tower" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Parachute</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The parachute bloomed open", "b": "High above the drop zone" },
+          { "a": "Supplies were parachuted", "b": "Into the flooded region" },
+          { "a": "He received a golden parachute", "b": "On leaving the company" },
+          { "a": "She checked her parachute", "b": "Twice before jumping" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "para", "rootLanguage": "French", "rootMeaning": "Protecting against", "showInIntro": true },
+      { "rootText": "chute", "rootLanguage": "French", "rootMeaning": "Fall", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "para", "highlight": true },
+        { "text": " (against) + ", "highlight": false },
+        { "text": "chute", "highlight": true },
+        { "text": " (fall); guarding against the fall itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "chute",
+      "correctAnswer": "Fall",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Denim",
+    "pronunciation": "DEN-im",
+    "pos": "noun",
+    "definition": "A sturdy cotton twill fabric, typically blue, used to make jeans and workwear.",
+    "origin": "From French <strong>serge de Nîmes</strong> (serge from Nîmes), the French town where the fabric was originally produced.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Denim</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French serge de Nîmes", "b": "Serge from Nîmes" },
+          { "a": "Nîmes", "b": "A town in southern France" },
+          { "a": "Shortened over time to", "b": "Denim" },
+          { "a": "Related word", "b": "Jeans, from Genoa" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Denim</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Denim is", "b": "A sturdy cotton twill fabric" },
+          { "a": "It is most commonly", "b": "Dyed indigo blue" },
+          { "a": "It originated in", "b": "The town of Nîmes" },
+          { "a": "Denim is used to make", "b": "Jeans and workwear" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Denim</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The denim jacket faded", "b": "After years of washing" },
+          { "a": "Raw denim stiffens", "b": "Before it softens with wear" },
+          { "a": "Nîmes gave its name", "b": "To the fabric worldwide" },
+          { "a": "Workers favoured denim", "b": "For its durability" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "de Nîmes", "rootLanguage": "French", "rootMeaning": "From Nîmes", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French serge ", "highlight": false },
+        { "text": "de Nîmes", "highlight": true },
+        { "text": "; a fabric that carries its French hometown in every pair of jeans.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "de Nîmes",
+      "correctAnswer": "From Nîmes",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Salary",
+    "pronunciation": "SAL-uh-ree",
+    "pos": "noun",
+    "definition": "A fixed regular payment made by an employer to an employee, typically monthly or annually.",
+    "origin": "From Latin <strong>salarium</strong> (salt money), the allowance given to Roman soldiers to buy salt, from <strong>sal</strong> (salt).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Salary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sal", "b": "Salt" },
+          { "a": "Latin salarium", "b": "Salt money" },
+          { "a": "Given to", "b": "Roman soldiers" },
+          { "a": "Purpose of the allowance", "b": "Buying salt" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Salary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A salary is", "b": "A fixed regular payment" },
+          { "a": "Salaries are usually paid", "b": "Monthly or annually" },
+          { "a": "Latin salarium literally meant", "b": "Salt money" },
+          { "a": "The phrase worth one's salt", "b": "Also traces to this Roman practice" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Salary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She negotiated her salary", "b": "Before accepting the offer" },
+          { "a": "His salary rose", "b": "After the promotion" },
+          { "a": "Roman soldiers received", "b": "A salarium for salt" },
+          { "a": "The salary band for the role", "b": "Was posted in the listing" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sal", "rootLanguage": "Latin", "rootMeaning": "Salt", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "sal", "highlight": true },
+        { "text": " (salt); the Roman soldier's salt allowance became every payslip.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sal",
+      "correctAnswer": "Salt",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mortgage",
+    "pronunciation": "MOR-gij",
+    "pos": "noun",
+    "definition": "A loan used to buy property, secured against the property itself until the debt is repaid.",
+    "origin": "From Old French <strong>mort</strong> (dead) + <strong>gage</strong> (pledge), literally dead pledge. The pledge dies either when the debt is paid off or when the borrower fails to pay.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mortgage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French mort", "b": "Dead" },
+          { "a": "Old French gage", "b": "Pledge" },
+          { "a": "Combined meaning", "b": "Dead pledge" },
+          { "a": "The pledge dies when", "b": "The debt is paid or defaulted" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mortgage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mortgage is", "b": "A loan secured against property" },
+          { "a": "The property acts as", "b": "Collateral for the loan" },
+          { "a": "Old French mort means", "b": "Dead" },
+          { "a": "Paying off a mortgage means", "b": "The pledge finally dies" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mortgage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They took out a mortgage", "b": "To buy their first flat" },
+          { "a": "Interest rates affect", "b": "Monthly mortgage repayments" },
+          { "a": "She remortgaged the house", "b": "To fund the extension" },
+          { "a": "After thirty years", "b": "The mortgage was finally cleared" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mort", "rootLanguage": "Old French", "rootMeaning": "Dead", "showInIntro": true },
+      { "rootText": "gage", "rootLanguage": "Old French", "rootMeaning": "Pledge", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "mort", "highlight": true },
+        { "text": " (dead) + ", "highlight": false },
+        { "text": "gage", "highlight": true },
+        { "text": " (pledge); a dead pledge, settled one way or another.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mort",
+      "correctAnswer": "Dead",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Checkmate",
+    "pronunciation": "CHEK-mayt",
+    "pos": "noun",
+    "definition": "The winning move in chess, when the opponent's king is in check with no legal escape. Figuratively, a total and decisive defeat.",
+    "origin": "From Persian <strong>shah mat</strong> (the king is helpless, or the king is dead), via Arabic and Old French into English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Checkmate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Persian shah", "b": "King" },
+          { "a": "Persian mat", "b": "Helpless, or dead" },
+          { "a": "Persian shah mat", "b": "The king is helpless" },
+          { "a": "Route into English", "b": "Arabic and Old French" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Checkmate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Checkmate ends", "b": "A chess game outright" },
+          { "a": "It occurs when", "b": "The king has no legal escape" },
+          { "a": "Persian shah mat literally means", "b": "The king is helpless" },
+          { "a": "Figuratively, checkmate means", "b": "A total, decisive defeat" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Checkmate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She delivered checkmate", "b": "In just twelve moves" },
+          { "a": "The evidence was checkmate", "b": "For the defence's case" },
+          { "a": "Checkmate! he announced", "b": "Trapping the cornered king" },
+          { "a": "With no moves left", "b": "It was checkmate" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "shah mat", "rootLanguage": "Persian", "rootMeaning": "The king is helpless", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Persian ", "highlight": false },
+        { "text": "shah mat", "highlight": true },
+        { "text": " (the king is helpless); the final word of every lost game.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "shah mat",
+      "correctAnswer": "The king is helpless",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Clan",
+    "pronunciation": "KLAN",
+    "pos": "noun",
+    "definition": "A group of families claiming descent from a common ancestor, especially in Scottish and Irish tradition.",
+    "origin": "From Scottish Gaelic <strong>clann</strong> (children, family, offspring), from Old Irish <strong>cland</strong>, ultimately from Latin <strong>planta</strong> (sprout, offshoot).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Clan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Scottish Gaelic clann", "b": "Children, family, offspring" },
+          { "a": "Old Irish cland", "b": "The earlier Irish form" },
+          { "a": "Latin planta", "b": "Sprout or offshoot" },
+          { "a": "Central to", "b": "Scottish and Irish tradition" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Clan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A clan is", "b": "Families sharing a common ancestor" },
+          { "a": "Each clan has its own", "b": "Tartan and crest" },
+          { "a": "Scottish Gaelic clann means", "b": "Children" },
+          { "a": "The head of a clan is", "b": "The clan chief" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Clan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The clan gathered", "b": "For the annual Highland games" },
+          { "a": "Her clan's tartan", "b": "Had been worn for centuries" },
+          { "a": "The whole clan turned up", "b": "For the wedding" },
+          { "a": "Clan loyalty once meant", "b": "Everything in the Highlands" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "clann", "rootLanguage": "Scottish Gaelic", "rootMeaning": "Children, family, offspring", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Scottish Gaelic ", "highlight": false },
+        { "text": "clann", "highlight": true },
+        { "text": " (children); a shared ancestor's descendants, bound by name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "clann",
+      "correctAnswer": "Children, family, offspring",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Blarney",
+    "pronunciation": "BLAR-nee",
+    "pos": "noun",
+    "definition": "Charming, flattering talk intended to persuade or deceive without being taken too seriously.",
+    "origin": "From <strong>Blarney</strong> Castle in County Cork, Ireland. Legend says kissing the castle's Blarney Stone grants the gift of persuasive eloquence.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-curious", "name": "Curious Words", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Blarney</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blarney Castle", "b": "Located in County Cork, Ireland" },
+          { "a": "The Blarney Stone", "b": "Legendarily grants eloquence" },
+          { "a": "Kissing the stone", "b": "The castle's famous tradition" },
+          { "a": "Modern sense", "b": "Charming, flattering talk" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Blarney</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Blarney is", "b": "Charming, persuasive flattery" },
+          { "a": "The word comes from", "b": "A castle in County Cork" },
+          { "a": "Blarney is often used", "b": "Without being fully believed" },
+          { "a": "Legend claims the stone grants", "b": "The gift of eloquent talk" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Blarney</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He talked his way in", "b": "With pure blarney" },
+          { "a": "She saw through", "b": "His practised blarney" },
+          { "a": "Tourists queue to kiss", "b": "The Blarney Stone" },
+          { "a": "It was all blarney", "b": "But charming all the same" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Blarney", "rootLanguage": "Irish place name", "rootMeaning": "A castle in County Cork", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "Blarney", "highlight": true },
+        { "text": " Castle; a legendary stone that grants the gift of the gab.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Charming, flattering talk, named after a castle famous for its eloquence-granting stone.",
+      "correctAnswer": "Charming, persuasive flattery",
+      "hint": "Think about what you call smooth talk not meant to be taken too seriously.",
+      "generatorVersion": "1"
+    }
+  }
+]

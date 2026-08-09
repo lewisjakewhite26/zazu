@@ -1,0 +1,1922 @@
+[
+  {
+    "word": "Sushi",
+    "pronunciation": "SOO-shee",
+    "pos": "noun",
+    "definition": "A Japanese dish of vinegared rice combined with other ingredients, especially raw fish, vegetables, or seafood.",
+    "origin": "From Japanese <strong>sushi</strong>, from an older word meaning sour tasting, referring to the vinegared rice rather than the fish itself.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sushi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese sushi", "b": "The dish's name" },
+          { "a": "Older meaning", "b": "Sour tasting" },
+          { "a": "The name refers to", "b": "The vinegared rice" },
+          { "a": "Not necessarily about", "b": "The fish itself" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sushi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sushi is defined by", "b": "Vinegared rice" },
+          { "a": "Sashimi differs from sushi in", "b": "Having no rice at all" },
+          { "a": "Nigiri sushi is", "b": "Rice topped with fish" },
+          { "a": "Maki sushi is", "b": "Rolled in seaweed" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sushi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chef pressed the rice", "b": "For a fresh piece of sushi" },
+          { "a": "They queued for lunch", "b": "At the popular sushi counter" },
+          { "a": "Sushi restaurants spread", "b": "Worldwide from the 1970s" },
+          { "a": "She learned to roll", "b": "Sushi at a weekend class" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sushi", "rootLanguage": "Japanese", "rootMeaning": "Sour tasting", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "sushi", "highlight": true },
+        { "text": " (sour tasting); the name honours the rice, not the fish.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sushi",
+      "correctAnswer": "Sour tasting",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Karaoke",
+    "pronunciation": "ka-ree-OH-kee",
+    "pos": "noun",
+    "definition": "An entertainment activity in which people sing along to recorded music using a microphone, with lyrics displayed on screen.",
+    "origin": "From Japanese <strong>kara</strong> (empty) + <strong>okesutora</strong> (orchestra), literally empty orchestra, meaning music without its original singer.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Karaoke</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese kara", "b": "Empty" },
+          { "a": "Japanese okesutora", "b": "Orchestra" },
+          { "a": "Combined meaning", "b": "Empty orchestra" },
+          { "a": "The name describes", "b": "Music missing its singer" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Karaoke</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Karaoke involves", "b": "Singing along to recorded music" },
+          { "a": "Lyrics are shown", "b": "On a screen as a guide" },
+          { "a": "Japanese kara means", "b": "Empty" },
+          { "a": "Karaoke bars became popular", "b": "Worldwide from the 1980s" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Karaoke</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They booked a private room", "b": "For a night of karaoke" },
+          { "a": "She grabbed the microphone", "b": "For one more karaoke song" },
+          { "a": "Karaoke machines display", "b": "Scrolling lyrics on screen" },
+          { "a": "The office party ended", "b": "In enthusiastic karaoke" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kara", "rootLanguage": "Japanese", "rootMeaning": "Empty", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "kara", "highlight": true },
+        { "text": " (empty) + orchestra; the backing track with the singer removed.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kara",
+      "correctAnswer": "Empty",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tsunami",
+    "pronunciation": "tsoo-NAH-mee",
+    "pos": "noun",
+    "definition": "A series of powerful ocean waves caused by underwater earthquakes, volcanic eruptions, or landslides.",
+    "origin": "From Japanese <strong>tsu</strong> (harbour) + <strong>nami</strong> (wave), literally harbour wave, describing the sudden surge fishermen saw only near shore.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tsunami</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese tsu", "b": "Harbour" },
+          { "a": "Japanese nami", "b": "Wave" },
+          { "a": "Combined meaning", "b": "Harbour wave" },
+          { "a": "The name reflects", "b": "How fishermen only saw it near shore" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tsunami</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tsunami is caused by", "b": "Underwater earthquakes or eruptions" },
+          { "a": "In open ocean, a tsunami wave is", "b": "Barely noticeable" },
+          { "a": "Near shore, the wave", "b": "Rises dramatically in height" },
+          { "a": "Japanese nami means", "b": "Wave" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tsunami</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The earthquake triggered", "b": "A devastating tsunami" },
+          { "a": "Warning sirens sounded", "b": "Along the tsunami-prone coast" },
+          { "a": "A tsunami of applications", "b": "Followed the job posting" },
+          { "a": "Coastal towns rebuilt", "b": "Higher ground after the tsunami" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tsu", "rootLanguage": "Japanese", "rootMeaning": "Harbour", "showInIntro": true },
+      { "rootText": "nami", "rootLanguage": "Japanese", "rootMeaning": "Wave", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "tsu", "highlight": true },
+        { "text": " (harbour) + ", "highlight": false },
+        { "text": "nami", "highlight": true },
+        { "text": " (wave); a wave only seen for what it is near shore.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nami",
+      "correctAnswer": "Wave",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Karate",
+    "pronunciation": "kuh-RAH-tee",
+    "pos": "noun",
+    "definition": "A Japanese martial art using striking techniques with hands and feet, developed in Okinawa.",
+    "origin": "From Japanese <strong>kara</strong> (empty) + <strong>te</strong> (hand), literally empty hand, meaning fighting without weapons.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Karate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese kara", "b": "Empty" },
+          { "a": "Japanese te", "b": "Hand" },
+          { "a": "Combined meaning", "b": "Empty hand" },
+          { "a": "Developed in", "b": "Okinawa" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Karate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Karate uses", "b": "Striking with hands and feet" },
+          { "a": "Empty hand means", "b": "Fighting without weapons" },
+          { "a": "Karate belts signal", "b": "A practitioner's grade" },
+          { "a": "Karate developed on", "b": "The island of Okinawa" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Karate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He earned his black belt", "b": "After years of karate" },
+          { "a": "The karate class practised", "b": "Kicks and precise strikes" },
+          { "a": "She broke the board", "b": "With a single karate chop" },
+          { "a": "Karate tournaments test", "b": "Both form and sparring" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kara", "rootLanguage": "Japanese", "rootMeaning": "Empty", "showInIntro": true },
+      { "rootText": "te", "rootLanguage": "Japanese", "rootMeaning": "Hand", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "kara", "highlight": true },
+        { "text": " (empty) + ", "highlight": false },
+        { "text": "te", "highlight": true },
+        { "text": " (hand); the martial art of the empty hand.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "te",
+      "correctAnswer": "Hand",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Origami",
+    "pronunciation": "or-ih-GAH-mee",
+    "pos": "noun",
+    "definition": "The Japanese art of paper folding, transforming a flat square into intricate shapes without cutting or gluing.",
+    "origin": "From Japanese <strong>ori</strong> (folding) + <strong>kami</strong> (paper), literally folding paper.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Origami</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese ori", "b": "Folding" },
+          { "a": "Japanese kami", "b": "Paper" },
+          { "a": "Combined meaning", "b": "Folding paper" },
+          { "a": "Traditional rule", "b": "No cutting or gluing" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Origami</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Origami is", "b": "The art of paper folding" },
+          { "a": "Classic origami starts from", "b": "A single flat square" },
+          { "a": "Japanese kami means", "b": "Paper" },
+          { "a": "The famous origami crane symbolises", "b": "Peace and hope" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Origami</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She folded an origami crane", "b": "In just a few minutes" },
+          { "a": "The origami exhibition displayed", "b": "impossibly intricate shapes" },
+          { "a": "Engineers borrowed origami principles", "b": "For folding solar panels" },
+          { "a": "Children learned basic origami", "b": "In the after-school club" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ori", "rootLanguage": "Japanese", "rootMeaning": "Folding", "showInIntro": true },
+      { "rootText": "kami", "rootLanguage": "Japanese", "rootMeaning": "Paper", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "ori", "highlight": true },
+        { "text": " (folding) + ", "highlight": false },
+        { "text": "kami", "highlight": true },
+        { "text": " (paper); nothing but folds transforming a flat square.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kami",
+      "correctAnswer": "Paper",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tycoon",
+    "pronunciation": "ty-KOON",
+    "pos": "noun",
+    "definition": "A wealthy, powerful businessperson, especially one who has built a large commercial empire.",
+    "origin": "From Japanese <strong>taikun</strong> (great lord), from Chinese <strong>da</strong> (great) + <strong>jun</strong> (prince, ruler). Used as a title for the shogun when addressing foreigners.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tycoon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese taikun", "b": "Great lord" },
+          { "a": "Chinese da", "b": "Great" },
+          { "a": "Chinese jun", "b": "Prince or ruler" },
+          { "a": "Used as a title for", "b": "The shogun, to foreigners" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tycoon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tycoon is", "b": "A wealthy, powerful businessperson" },
+          { "a": "A media tycoon controls", "b": "A large media empire" },
+          { "a": "Japanese taikun meant", "b": "Great lord" },
+          { "a": "The word entered English via", "b": "American diplomats in Japan" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tycoon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The shipping tycoon built", "b": "A fleet spanning the globe" },
+          { "a": "The property tycoon bought", "b": "Half the city block" },
+          { "a": "She became a tycoon", "b": "Through decades of shrewd deals" },
+          { "a": "Tycoons of the era", "b": "Shaped whole industries" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "taikun", "rootLanguage": "Japanese", "rootMeaning": "Great lord", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "taikun", "highlight": true },
+        { "text": " (great lord); a shogun's title, now any business titan.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "taikun",
+      "correctAnswer": "Great lord",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Samurai",
+    "pronunciation": "SAM-uh-ry",
+    "pos": "noun",
+    "definition": "A member of the hereditary warrior class of feudal Japan, bound by a strict code of honour.",
+    "origin": "From Japanese <strong>samurai</strong>, from the verb <strong>saburau</strong> (to serve), describing warriors who served the lords of Japan.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Samurai</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese saburau", "b": "To serve" },
+          { "a": "Samurai served", "b": "The lords of feudal Japan" },
+          { "a": "Their code was called", "b": "Bushido" },
+          { "a": "Samurai carried", "b": "The katana sword" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Samurai</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A samurai was", "b": "A hereditary warrior of feudal Japan" },
+          { "a": "Samurai lived by", "b": "A strict code of honour" },
+          { "a": "Japanese saburau means", "b": "To serve" },
+          { "a": "The samurai class ended in", "b": "The late 19th century" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Samurai</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The samurai bowed", "b": "Before drawing his sword" },
+          { "a": "Films romanticised", "b": "The samurai's discipline" },
+          { "a": "The samurai served", "b": "His lord without question" },
+          { "a": "Museums display", "b": "Beautifully forged samurai armour" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "saburau", "rootLanguage": "Japanese", "rootMeaning": "To serve", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "saburau", "highlight": true },
+        { "text": " (to serve); the warrior defined first by loyalty.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "saburau",
+      "correctAnswer": "To serve",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ninja",
+    "pronunciation": "NIN-juh",
+    "pos": "noun",
+    "definition": "A covert agent of feudal Japan, trained in stealth, espionage, and unconventional warfare.",
+    "origin": "From Japanese <strong>nin</strong> (to endure, to stealth) + <strong>ja</strong> (person), literally person of stealth or endurance.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ninja</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese nin", "b": "To endure or stealth" },
+          { "a": "Japanese ja", "b": "Person" },
+          { "a": "Combined meaning", "b": "Person of stealth" },
+          { "a": "Trained in", "b": "Espionage and unconventional warfare" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ninja</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ninja was", "b": "A covert agent of feudal Japan" },
+          { "a": "Ninjas specialised in", "b": "Stealth and espionage" },
+          { "a": "Japanese nin means", "b": "Endurance or stealth" },
+          { "a": "A modern ninja describes", "b": "Anyone highly skilled or elusive" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ninja</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ninja vanished", "b": "Into the shadows" },
+          { "a": "She's a real ninja", "b": "At fixing tricky code" },
+          { "a": "Historical ninjas worked as", "b": "Spies for rival lords" },
+          { "a": "The film's ninja sequence", "b": "Was a fan favourite" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "nin", "rootLanguage": "Japanese", "rootMeaning": "To endure or stealth", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "nin", "highlight": true },
+        { "text": " (stealth) + person; the covert agent named for their skill.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nin",
+      "correctAnswer": "To endure or stealth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Emoji",
+    "pronunciation": "ih-MOH-jee",
+    "pos": "noun",
+    "definition": "A small digital image or icon used to express an idea, emotion, or object in electronic communication.",
+    "origin": "From Japanese <strong>e</strong> (picture) + <strong>moji</strong> (character), literally picture character. The resemblance to English emotion is coincidental.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Emoji</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese e", "b": "Picture" },
+          { "a": "Japanese moji", "b": "Character" },
+          { "a": "Combined meaning", "b": "Picture character" },
+          { "a": "Resemblance to emotion is", "b": "Purely coincidental" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Emoji</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An emoji is", "b": "A small digital picture icon" },
+          { "a": "Emoji were first developed for", "b": "Japanese mobile phones" },
+          { "a": "Japanese moji means", "b": "Character" },
+          { "a": "The word emoji is unrelated to", "b": "Emotion, despite the sound" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Emoji</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She replied with", "b": "A single thumbs-up emoji" },
+          { "a": "New emoji are approved", "b": "By a global standards body" },
+          { "a": "The message read strangely", "b": "Without any emoji at all" },
+          { "a": "His texts were mostly", "b": "Emoji and abbreviations" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "e", "rootLanguage": "Japanese", "rootMeaning": "Picture", "showInIntro": true },
+      { "rootText": "moji", "rootLanguage": "Japanese", "rootMeaning": "Character", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "e", "highlight": true },
+        { "text": " (picture) + ", "highlight": false },
+        { "text": "moji", "highlight": true },
+        { "text": " (character); picture character, not emotion at all.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "moji",
+      "correctAnswer": "Character",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Honcho",
+    "pronunciation": "HON-choh",
+    "pos": "noun",
+    "definition": "A person in charge; a leader or boss, especially in informal American usage.",
+    "origin": "From Japanese <strong>hancho</strong> (squad leader), from <strong>han</strong> (group, squad) + <strong>cho</strong> (chief). Brought back by American servicemen after the Second World War.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Honcho</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese han", "b": "Group or squad" },
+          { "a": "Japanese cho", "b": "Chief" },
+          { "a": "Japanese hancho", "b": "Squad leader" },
+          { "a": "Brought back by", "b": "American servicemen" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Honcho</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A honcho is", "b": "A person in charge" },
+          { "a": "The head honcho is", "b": "The top leader" },
+          { "a": "Japanese hancho originally meant", "b": "A squad leader" },
+          { "a": "The word entered English after", "b": "The Second World War" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Honcho</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She's the head honcho", "b": "Around here now" },
+          { "a": "He honchoed the whole project", "b": "From start to finish" },
+          { "a": "The site honcho signed off", "b": "On every delivery" },
+          { "a": "Talk to the honcho", "b": "If you want a straight answer" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "hancho", "rootLanguage": "Japanese", "rootMeaning": "Squad leader", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "hancho", "highlight": true },
+        { "text": " (squad leader); brought home by servicemen, kept as slang for boss.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hancho",
+      "correctAnswer": "Squad leader",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Judo",
+    "pronunciation": "JOO-doh",
+    "pos": "noun",
+    "definition": "A Japanese martial art and Olympic sport focused on throws and grappling, using an opponent's force against them.",
+    "origin": "From Japanese <strong>ju</strong> (gentle) + <strong>do</strong> (way, path), literally the gentle way, founded by Jigoro Kano in 1882.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Judo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese ju", "b": "Gentle" },
+          { "a": "Japanese do", "b": "Way or path" },
+          { "a": "Combined meaning", "b": "The gentle way" },
+          { "a": "Founded by", "b": "Jigoro Kano in 1882" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Judo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Judo focuses on", "b": "Throws and grappling" },
+          { "a": "The gentle way describes", "b": "Using an opponent's force against them" },
+          { "a": "Japanese do means", "b": "Way or path" },
+          { "a": "Judo became", "b": "An Olympic sport" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Judo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judoka executed", "b": "A perfect shoulder throw" },
+          { "a": "She trained in judo", "b": "Since the age of six" },
+          { "a": "Judo teaches you to", "b": "Redirect an opponent's strength" },
+          { "a": "The judo mat absorbed", "b": "Every controlled fall" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ju", "rootLanguage": "Japanese", "rootMeaning": "Gentle", "showInIntro": true },
+      { "rootText": "do", "rootLanguage": "Japanese", "rootMeaning": "Way or path", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "ju", "highlight": true },
+        { "text": " (gentle) + ", "highlight": false },
+        { "text": "do", "highlight": true },
+        { "text": " (way); winning by yielding, not resisting.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ju",
+      "correctAnswer": "Gentle",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Haiku",
+    "pronunciation": "HY-koo",
+    "pos": "noun",
+    "definition": "A traditional Japanese poem of three lines, with a strict rhythm of five, seven, and five syllables, often capturing a moment in nature.",
+    "origin": "From Japanese <strong>haiku</strong>, shortened from <strong>haikai no ku</strong> (light verse), a form refined by the 17th-century poet Matsuo Basho.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Haiku</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese haikai no ku", "b": "Light verse" },
+          { "a": "Shortened to", "b": "Haiku" },
+          { "a": "Refined by", "b": "The poet Matsuo Basho" },
+          { "a": "Basho's era", "b": "The 17th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Haiku</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A haiku has", "b": "Three lines of five, seven, five syllables" },
+          { "a": "Haiku often capture", "b": "A single moment in nature" },
+          { "a": "Japanese haikai no ku meant", "b": "Light verse" },
+          { "a": "A season word in haiku is called", "b": "A kigo" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Haiku</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She wrote a haiku", "b": "About the falling autumn leaves" },
+          { "a": "The class practised counting", "b": "Syllables for their haiku" },
+          { "a": "Basho's most famous haiku", "b": "Describes a frog and an old pond" },
+          { "a": "A single haiku can hold", "b": "An entire season in miniature" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "haikai no ku", "rootLanguage": "Japanese", "rootMeaning": "Light verse", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "haikai no ku", "highlight": true },
+        { "text": " (light verse); a whole season captured in seventeen syllables.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A three-line Japanese poem with a strict five-seven-five syllable rhythm.",
+      "correctAnswer": "Three lines of five, seven, five syllables",
+      "hint": "Think about the syllable structure that defines this short poem form.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kimono",
+    "pronunciation": "kih-MOH-noh",
+    "pos": "noun",
+    "definition": "A traditional Japanese garment, a long robe with wide sleeves, wrapped around the body and secured with a sash.",
+    "origin": "From Japanese <strong>ki</strong> (wear) + <strong>mono</strong> (thing), literally a thing to wear.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kimono</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese ki", "b": "Wear" },
+          { "a": "Japanese mono", "b": "Thing" },
+          { "a": "Combined meaning", "b": "A thing to wear" },
+          { "a": "Secured with", "b": "A sash called an obi" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kimono</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A kimono is", "b": "A traditional Japanese robe" },
+          { "a": "Its sleeves are", "b": "Wide and flowing" },
+          { "a": "Japanese mono means", "b": "Thing" },
+          { "a": "Formal kimono are worn for", "b": "Ceremonies and festivals" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kimono</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She wore a silk kimono", "b": "For the tea ceremony" },
+          { "a": "The obi cinched the kimono", "b": "Neatly at the waist" },
+          { "a": "Antique kimono fabrics", "b": "Fetch high prices at auction" },
+          { "a": "Each pattern on the kimono", "b": "Carried its own meaning" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ki", "rootLanguage": "Japanese", "rootMeaning": "Wear", "showInIntro": true },
+      { "rootText": "mono", "rootLanguage": "Japanese", "rootMeaning": "Thing", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "ki", "highlight": true },
+        { "text": " (wear) + ", "highlight": false },
+        { "text": "mono", "highlight": true },
+        { "text": " (thing); simply, a thing worn.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mono",
+      "correctAnswer": "Thing",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ramen",
+    "pronunciation": "RAH-men",
+    "pos": "noun",
+    "definition": "A Japanese noodle soup dish, typically served with broth, wheat noodles, and toppings such as sliced meat and vegetables.",
+    "origin": "From Japanese <strong>ramen</strong>, borrowed from Chinese <strong>lamian</strong> (pulled noodles), from <strong>la</strong> (to pull) + <strong>mian</strong> (noodles).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ramen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chinese la", "b": "To pull" },
+          { "a": "Chinese mian", "b": "Noodles" },
+          { "a": "Chinese lamian", "b": "Pulled noodles" },
+          { "a": "Japanese adapted this as", "b": "Ramen" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ramen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ramen is", "b": "A Japanese noodle soup dish" },
+          { "a": "It typically includes", "b": "Broth, noodles, and toppings" },
+          { "a": "Chinese la means", "b": "To pull" },
+          { "a": "Instant ramen became popular", "b": "As a cheap quick meal worldwide" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ramen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Steam rose", "b": "From the bowl of ramen" },
+          { "a": "The ramen shop queue", "b": "Stretched around the corner" },
+          { "a": "Chefs simmer the broth", "b": "For a rich ramen base" },
+          { "a": "Students survived largely", "b": "On instant ramen" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "lamian", "rootLanguage": "Chinese", "rootMeaning": "Pulled noodles", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Chinese ", "highlight": false },
+        { "text": "lamian", "highlight": true },
+        { "text": " (pulled noodles), adapted into Japanese; a bowl with roots on both sides of the sea.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lamian",
+      "correctAnswer": "Pulled noodles",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zen",
+    "pronunciation": "ZEN",
+    "pos": "noun",
+    "definition": "A school of Buddhism emphasising meditation and direct insight. Informally, a state of calm and focused awareness.",
+    "origin": "From Japanese <strong>zen</strong>, from Chinese <strong>chan</strong>, from Sanskrit <strong>dhyana</strong> (meditation).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Sanskrit dhyana", "b": "Meditation" },
+          { "a": "Chinese chan", "b": "The intermediate form" },
+          { "a": "Japanese zen", "b": "The familiar English word" },
+          { "a": "Path of transmission", "b": "India, China, then Japan" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Zen is", "b": "A school of Buddhism" },
+          { "a": "Zen emphasises", "b": "Meditation and direct insight" },
+          { "a": "Sanskrit dhyana means", "b": "Meditation" },
+          { "a": "Informally, being zen means", "b": "Feeling calm and focused" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The monk practised zen meditation", "b": "For hours each morning" },
+          { "a": "She stayed remarkably zen", "b": "Through the chaotic move" },
+          { "a": "Zen gardens use", "b": "Raked gravel and stone" },
+          { "a": "He found his zen", "b": "Long walks by the river" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "dhyana", "rootLanguage": "Sanskrit", "rootMeaning": "Meditation", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Sanskrit ", "highlight": false },
+        { "text": "dhyana", "highlight": true },
+        { "text": " (meditation), via China to Japan; calm carried across three languages.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dhyana",
+      "correctAnswer": "Meditation",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Geisha",
+    "pronunciation": "GAY-shuh",
+    "pos": "noun",
+    "definition": "A traditional Japanese entertainer, trained in music, dance, and conversation, who hosts guests at formal gatherings.",
+    "origin": "From Japanese <strong>gei</strong> (art, performance) + <strong>sha</strong> (person), literally a person of the arts.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Geisha</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese gei", "b": "Art or performance" },
+          { "a": "Japanese sha", "b": "Person" },
+          { "a": "Combined meaning", "b": "A person of the arts" },
+          { "a": "Trained in", "b": "Music, dance, and conversation" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Geisha</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A geisha is", "b": "A traditional Japanese entertainer" },
+          { "a": "Geisha training covers", "b": "Music, dance, and etiquette" },
+          { "a": "Japanese gei means", "b": "Art" },
+          { "a": "Geisha districts remain", "b": "In cities like Kyoto" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Geisha</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The geisha performed", "b": "A traditional dance for guests" },
+          { "a": "Years of training shaped", "b": "Every geisha's refined skill" },
+          { "a": "Tourists photographed", "b": "Geisha walking through Kyoto" },
+          { "a": "The geisha's white makeup", "b": "Followed centuries-old convention" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gei", "rootLanguage": "Japanese", "rootMeaning": "Art or performance", "showInIntro": true },
+      { "rootText": "sha", "rootLanguage": "Japanese", "rootMeaning": "Person", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "gei", "highlight": true },
+        { "text": " (art) + ", "highlight": false },
+        { "text": "sha", "highlight": true },
+        { "text": " (person); an entertainer defined by artistry.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gei",
+      "correctAnswer": "Art or performance",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Miso",
+    "pronunciation": "MEE-soh",
+    "pos": "noun",
+    "definition": "A thick Japanese paste made from fermented soybeans, used to flavour soups, marinades, and sauces.",
+    "origin": "From Japanese <strong>miso</strong>, possibly derived from Chinese <strong>jiang</strong> (fermented paste), though the exact origin is debated.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Miso</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese miso", "b": "The paste's Japanese name" },
+          { "a": "Possibly related to", "b": "Chinese jiang, fermented paste" },
+          { "a": "Made from", "b": "Fermented soybeans" },
+          { "a": "Exact origin is", "b": "Still debated" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Miso</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Miso is", "b": "A fermented soybean paste" },
+          { "a": "Miso soup is made by", "b": "Dissolving the paste in dashi" },
+          { "a": "Darker miso tends to be", "b": "Stronger and saltier" },
+          { "a": "Miso is used to flavour", "b": "Soups, marinades, and sauces" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Miso</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She whisked the miso", "b": "Into the simmering broth" },
+          { "a": "The miso marinade gave", "b": "The salmon a rich umami crust" },
+          { "a": "A bowl of miso soup", "b": "Started every set meal" },
+          { "a": "White miso is milder", "b": "Than its darker cousins" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "jiang", "rootLanguage": "Chinese", "rootMeaning": "Fermented paste", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly from Chinese ", "highlight": false },
+        { "text": "jiang", "highlight": true },
+        { "text": " (fermented paste); a pantry staple with a debated past.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A thick fermented soybean paste used to flavour Japanese soups and sauces.",
+      "correctAnswer": "A fermented soybean paste",
+      "hint": "Think about the paste dissolved in the soup that shares its name.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wasabi",
+    "pronunciation": "wuh-SAH-bee",
+    "pos": "noun",
+    "definition": "A pungent green Japanese condiment made from a plant related to horseradish, traditionally served with sushi.",
+    "origin": "From Japanese <strong>wasabi</strong>, the name of the plant, native to Japan's mountain streams.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wasabi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese wasabi", "b": "The plant's name" },
+          { "a": "Native to", "b": "Japan's mountain streams" },
+          { "a": "Related to", "b": "Horseradish" },
+          { "a": "Traditionally served with", "b": "Sushi" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wasabi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Wasabi is", "b": "A pungent green condiment" },
+          { "a": "It is made from", "b": "A plant related to horseradish" },
+          { "a": "Real wasabi is grown in", "b": "Cold mountain streams" },
+          { "a": "Most wasabi outside Japan is", "b": "Dyed horseradish, not true wasabi" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wasabi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A dab of wasabi", "b": "Cleared his sinuses instantly" },
+          { "a": "The chef grated fresh wasabi", "b": "Straight from the root" },
+          { "a": "Too much wasabi", "b": "Overwhelms delicate fish" },
+          { "a": "Real wasabi is rare and", "b": "Considerably more expensive" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "wasabi", "rootLanguage": "Japanese", "rootMeaning": "The plant's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "wasabi", "highlight": true },
+        { "text": "; a mountain stream plant, sharp enough to clear the nose.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A pungent green condiment made from a horseradish relative, native to Japan.",
+      "correctAnswer": "A pungent green condiment",
+      "hint": "Think about the sharp green paste served alongside sushi.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tofu",
+    "pronunciation": "TOH-foo",
+    "pos": "noun",
+    "definition": "A soft food made by coagulating soy milk and pressing it into blocks, used as a protein source across East Asian cuisine.",
+    "origin": "From Japanese <strong>tofu</strong>, from Chinese <strong>doufu</strong>, from <strong>dou</strong> (bean) + <strong>fu</strong> (rotten, fermented, or curdled).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tofu</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chinese dou", "b": "Bean" },
+          { "a": "Chinese fu", "b": "Curdled or fermented" },
+          { "a": "Chinese doufu", "b": "The dish's Chinese name" },
+          { "a": "Japanese adapted this as", "b": "Tofu" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tofu</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tofu is made by", "b": "Coagulating soy milk" },
+          { "a": "It is pressed into", "b": "Solid blocks" },
+          { "a": "Chinese dou means", "b": "Bean" },
+          { "a": "Tofu is prized as", "b": "A protein source" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tofu</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She cubed the tofu", "b": "For the miso soup" },
+          { "a": "Silken tofu is", "b": "Softer than the firm variety" },
+          { "a": "Crispy fried tofu topped", "b": "The noodle bowl" },
+          { "a": "Tofu absorbs", "b": "Whatever it's marinated in" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "dou", "rootLanguage": "Chinese", "rootMeaning": "Bean", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Chinese ", "highlight": false },
+        { "text": "dou", "highlight": true },
+        { "text": " (bean) + fu (curdled), via Japanese; the bean pressed into blocks.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dou",
+      "correctAnswer": "Bean",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kimchi",
+    "pronunciation": "KIM-chee",
+    "pos": "noun",
+    "definition": "A traditional Korean dish of fermented vegetables, most commonly cabbage, seasoned with chilli, garlic, and ginger.",
+    "origin": "From Korean <strong>gimchi</strong>, from an older word <strong>chimchae</strong> (soaked vegetables), from Chinese <strong>chen</strong> (soak) + <strong>cai</strong> (vegetable).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kimchi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Korean gimchi", "b": "The dish's modern name" },
+          { "a": "Older Korean chimchae", "b": "Soaked vegetables" },
+          { "a": "Chinese cai", "b": "Vegetable" },
+          { "a": "Preparation method", "b": "Fermentation" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kimchi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Kimchi is", "b": "Fermented seasoned vegetables" },
+          { "a": "The most common base is", "b": "Napa cabbage" },
+          { "a": "Kimchi's flavour comes from", "b": "Chilli, garlic, and ginger" },
+          { "a": "Older Korean chimchae meant", "b": "Soaked vegetables" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kimchi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Every meal came with", "b": "A side of kimchi" },
+          { "a": "The kimchi fermented", "b": "In earthenware jars outside" },
+          { "a": "Kimchi fried rice used up", "b": "The last of the batch" },
+          { "a": "Grandmother's kimchi recipe", "b": "Passed down for generations" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "chimchae", "rootLanguage": "Korean", "rootMeaning": "Soaked vegetables", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Korean ", "highlight": false },
+        { "text": "chimchae", "highlight": true },
+        { "text": " (soaked vegetables); fermentation turned into a national dish.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "chimchae",
+      "correctAnswer": "Soaked vegetables",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Taekwondo",
+    "pronunciation": "ty-kwon-DOH",
+    "pos": "noun",
+    "definition": "A Korean martial art known for its emphasis on head-height kicks and fast, powerful strikes.",
+    "origin": "From Korean <strong>tae</strong> (foot, kick) + <strong>kwon</strong> (fist) + <strong>do</strong> (way), literally the way of the foot and fist.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Taekwondo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Korean tae", "b": "Foot or kick" },
+          { "a": "Korean kwon", "b": "Fist" },
+          { "a": "Korean do", "b": "Way" },
+          { "a": "Combined meaning", "b": "The way of the foot and fist" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Taekwondo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Taekwondo emphasises", "b": "Head-height kicks" },
+          { "a": "Korean tae means", "b": "Foot or kick" },
+          { "a": "Taekwondo became", "b": "An Olympic sport" },
+          { "a": "Practitioners train for", "b": "Speed and powerful strikes" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Taekwondo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She landed a spinning kick", "b": "In the taekwondo final" },
+          { "a": "Taekwondo grading tests", "b": "Cover forms and sparring" },
+          { "a": "His taekwondo dojang trained", "b": "Both children and adults" },
+          { "a": "The high kick is", "b": "Taekwondo's signature move" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tae", "rootLanguage": "Korean", "rootMeaning": "Foot or kick", "showInIntro": true },
+      { "rootText": "kwon", "rootLanguage": "Korean", "rootMeaning": "Fist", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Korean ", "highlight": false },
+        { "text": "tae", "highlight": true },
+        { "text": " (foot) + ", "highlight": false },
+        { "text": "kwon", "highlight": true },
+        { "text": " (fist); the way of foot and fist together.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tae",
+      "correctAnswer": "Foot or kick",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ketchup",
+    "pronunciation": "KECH-up",
+    "pos": "noun",
+    "definition": "A thick, tangy sauce made primarily from tomatoes, vinegar, and sugar.",
+    "origin": "From Hokkien Chinese <strong>ke-tsiap</strong>, a fermented fish sauce, carried west by traders and gradually transformed in Britain and America into the tomato sauce known today.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ketchup</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hokkien ke-tsiap", "b": "A fermented fish sauce" },
+          { "a": "Carried west by", "b": "Traders" },
+          { "a": "Transformed in", "b": "Britain and America" },
+          { "a": "Modern ketchup is based on", "b": "Tomatoes, not fish" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ketchup</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ketchup is", "b": "A tangy tomato sauce" },
+          { "a": "Its original form was", "b": "A fermented fish sauce" },
+          { "a": "Hokkien ke-tsiap named", "b": "The ancestor sauce" },
+          { "a": "Tomato ketchup emerged in", "b": "The 19th century" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ketchup</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He squeezed ketchup", "b": "Over the golden chips" },
+          { "a": "The bottle of ketchup", "b": "Sat on every diner table" },
+          { "a": "Ketchup's ancestor was", "b": "A pungent fish sauce" },
+          { "a": "She stirred ketchup", "b": "Into the burger sauce" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ke-tsiap", "rootLanguage": "Hokkien Chinese", "rootMeaning": "A fermented fish sauce", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Hokkien ", "highlight": false },
+        { "text": "ke-tsiap", "highlight": true },
+        { "text": " (fish sauce); it travelled west and turned entirely to tomato.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ke-tsiap",
+      "correctAnswer": "A fermented fish sauce",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Typhoon",
+    "pronunciation": "ty-FOON",
+    "pos": "noun",
+    "definition": "A severe tropical storm occurring in the region of the Indian or western Pacific Ocean.",
+    "origin": "From Chinese <strong>tai fung</strong> (great wind), reinforced by Greek <strong>typhon</strong>, the monstrous storm-giant of myth. Both influences shaped the English word.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Typhoon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chinese tai fung", "b": "Great wind" },
+          { "a": "Greek typhon", "b": "The monstrous storm-giant" },
+          { "a": "The English word blends", "b": "Both Chinese and Greek influences" },
+          { "a": "Region of use", "b": "Indian and western Pacific Ocean" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Typhoon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A typhoon is", "b": "A severe tropical storm" },
+          { "a": "Chinese tai fung means", "b": "Great wind" },
+          { "a": "In the Atlantic the same storm is called", "b": "A hurricane" },
+          { "a": "Greek typhon was", "b": "A mythological storm-giant" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Typhoon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The typhoon made landfall", "b": "Near the coastal city" },
+          { "a": "Shops boarded windows", "b": "Ahead of the typhoon" },
+          { "a": "The typhoon's eye passed", "b": "Directly overhead at noon" },
+          { "a": "Typhoon season runs", "b": "Through the summer months" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tai fung", "rootLanguage": "Chinese", "rootMeaning": "Great wind", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Chinese ", "highlight": false },
+        { "text": "tai fung", "highlight": true },
+        { "text": " (great wind), echoed by Greek Typhon; two myths meeting in one storm.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tai fung",
+      "correctAnswer": "Great wind",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tatami",
+    "pronunciation": "tuh-TAH-mee",
+    "pos": "noun",
+    "definition": "A traditional Japanese floor mat made of tightly woven rice straw, used to cover the floors of Japanese-style rooms.",
+    "origin": "From Japanese <strong>tatami</strong>, from the verb <strong>tatamu</strong> (to fold), as early mats were thin and could be folded or stacked.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tatami</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese tatamu", "b": "To fold" },
+          { "a": "Early mats could be", "b": "Folded or stacked" },
+          { "a": "Made from", "b": "Tightly woven rice straw" },
+          { "a": "Used to cover", "b": "Japanese-style room floors" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tatami</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tatami mat is", "b": "A woven rice straw floor mat" },
+          { "a": "Room sizes in Japan are measured by", "b": "The number of tatami mats" },
+          { "a": "Japanese tatamu means", "b": "To fold" },
+          { "a": "Tatami mats are edged with", "b": "Decorative fabric borders" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tatami</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They removed their shoes", "b": "Before stepping onto the tatami" },
+          { "a": "The tatami room felt", "b": "Cool and quietly formal" },
+          { "a": "Sunlight faded", "b": "The tatami's pale green weave" },
+          { "a": "Judo mats developed from", "b": "Traditional tatami padding" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tatamu", "rootLanguage": "Japanese", "rootMeaning": "To fold", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "tatamu", "highlight": true },
+        { "text": " (to fold); early mats thin enough to fold or stack away.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tatamu",
+      "correctAnswer": "To fold",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kowtow",
+    "pronunciation": "kow-TOW",
+    "pos": "verb",
+    "definition": "To act in an excessively subservient manner; originally, to kneel and touch the forehead to the ground as a sign of deep respect.",
+    "origin": "From Chinese <strong>ketou</strong>, from <strong>ke</strong> (knock) + <strong>tou</strong> (head), literally to knock the head, the traditional gesture of submission before the emperor.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kowtow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chinese ke", "b": "Knock" },
+          { "a": "Chinese tou", "b": "Head" },
+          { "a": "Chinese ketou", "b": "To knock the head" },
+          { "a": "Traditional gesture before", "b": "The emperor" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kowtow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The original kowtow involved", "b": "Kneeling and touching the head to the ground" },
+          { "a": "To kowtow to someone now means", "b": "To act excessively subservient" },
+          { "a": "Chinese tou means", "b": "Head" },
+          { "a": "The gesture showed", "b": "Deep respect or submission" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kowtow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He refused to kowtow", "b": "To the demanding client" },
+          { "a": "Officials once kowtowed", "b": "Before the imperial throne" },
+          { "a": "She wouldn't kowtow", "b": "To unreasonable demands" },
+          { "a": "The court required visitors", "b": "To kowtow on arrival" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ke", "rootLanguage": "Chinese", "rootMeaning": "Knock", "showInIntro": true },
+      { "rootText": "tou", "rootLanguage": "Chinese", "rootMeaning": "Head", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Chinese ", "highlight": false },
+        { "text": "ke", "highlight": true },
+        { "text": " (knock) + ", "highlight": false },
+        { "text": "tou", "highlight": true },
+        { "text": " (head); a bow so deep it once touched the ground.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tou",
+      "correctAnswer": "Head",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rickshaw",
+    "pronunciation": "RIK-shaw",
+    "pos": "noun",
+    "definition": "A small, two-wheeled passenger vehicle pulled or pedalled by a driver, once common across East and South Asia.",
+    "origin": "From Japanese <strong>jinrikisha</strong>, from <strong>jin</strong> (person) + <strong>riki</strong> (power, strength) + <strong>sha</strong> (vehicle), literally human-powered vehicle.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rickshaw</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese jin", "b": "Person" },
+          { "a": "Japanese riki", "b": "Power or strength" },
+          { "a": "Japanese sha", "b": "Vehicle" },
+          { "a": "Full word jinrikisha", "b": "Human-powered vehicle" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rickshaw</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rickshaw is", "b": "A small passenger vehicle" },
+          { "a": "It was traditionally", "b": "Pulled by a runner" },
+          { "a": "Japanese jin means", "b": "Person" },
+          { "a": "Modern versions are often", "b": "Pedalled or motorised" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rickshaw</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The rickshaw driver wove", "b": "Through the crowded market" },
+          { "a": "They hired a rickshaw", "b": "For the short trip downtown" },
+          { "a": "Pedal rickshaws replaced", "b": "The older hand-pulled kind" },
+          { "a": "Tourists photographed", "b": "The brightly painted rickshaws" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "riki", "rootLanguage": "Japanese", "rootMeaning": "Power or strength", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese jin (person) + ", "highlight": false },
+        { "text": "riki", "highlight": true },
+        { "text": " (power) + vehicle; the vehicle powered entirely by a person.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "riki",
+      "correctAnswer": "Power or strength",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wok",
+    "pronunciation": "WOK",
+    "pos": "noun",
+    "definition": "A large, round-bottomed cooking pan used in Chinese cooking, especially suited to stir-frying at high heat.",
+    "origin": "From Cantonese <strong>wok</strong>, the pan's name, entering English through Cantonese-speaking communities in the 19th and 20th centuries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wok</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Cantonese wok", "b": "The pan's name" },
+          { "a": "Route into English", "b": "Cantonese-speaking communities" },
+          { "a": "Shape", "b": "Large and round-bottomed" },
+          { "a": "Best suited to", "b": "High-heat stir-frying" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wok</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A wok is", "b": "A round-bottomed Chinese pan" },
+          { "a": "It is especially good for", "b": "Stir-frying at high heat" },
+          { "a": "The wok's shape allows", "b": "Food to be tossed easily" },
+          { "a": "Cantonese speakers brought", "b": "The word into English" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wok</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Oil shimmered", "b": "At the bottom of the hot wok" },
+          { "a": "She tossed the vegetables", "b": "Quickly in the wok" },
+          { "a": "The wok hei flavour", "b": "Comes from intense heat" },
+          { "a": "A well-seasoned wok", "b": "Develops a natural non-stick surface" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "wok", "rootLanguage": "Cantonese", "rootMeaning": "The pan's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Cantonese ", "highlight": false },
+        { "text": "wok", "highlight": true },
+        { "text": "; the round pan built for fire and speed.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A round-bottomed Chinese cooking pan, ideal for high-heat stir-frying.",
+      "correctAnswer": "A round-bottomed Chinese pan",
+      "hint": "Think about the pan used for tossing stir-fried food over high heat.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bonsai",
+    "pronunciation": "BON-sy",
+    "pos": "noun",
+    "definition": "The Japanese art of growing miniature trees in containers, shaped and pruned to mimic the form of full-sized trees.",
+    "origin": "From Japanese <strong>bon</strong> (tray, pot) + <strong>sai</strong> (planting), literally tray planting.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bonsai</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese bon", "b": "Tray or pot" },
+          { "a": "Japanese sai", "b": "Planting" },
+          { "a": "Combined meaning", "b": "Tray planting" },
+          { "a": "The art shapes", "b": "Miniature versions of full trees" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bonsai</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bonsai is", "b": "The art of growing miniature trees" },
+          { "a": "Japanese bon means", "b": "Tray or pot" },
+          { "a": "Bonsai trees are shaped through", "b": "Careful pruning and wiring" },
+          { "a": "Some bonsai trees have lived", "b": "For hundreds of years" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bonsai</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He trimmed the bonsai", "b": "With tiny precise scissors" },
+          { "a": "The bonsai exhibition displayed", "b": "Trees over a century old" },
+          { "a": "Wiring the branches shaped", "b": "The bonsai's elegant form" },
+          { "a": "She watered her bonsai", "b": "Every morning without fail" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bon", "rootLanguage": "Japanese", "rootMeaning": "Tray or pot", "showInIntro": true },
+      { "rootText": "sai", "rootLanguage": "Japanese", "rootMeaning": "Planting", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "bon", "highlight": true },
+        { "text": " (tray) + ", "highlight": false },
+        { "text": "sai", "highlight": true },
+        { "text": " (planting); a whole tree, patiently kept small.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sai",
+      "correctAnswer": "Planting",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shogun",
+    "pronunciation": "SHOH-gun",
+    "pos": "noun",
+    "definition": "The hereditary military ruler of feudal Japan, who held real power while the emperor remained a symbolic figurehead.",
+    "origin": "From Japanese <strong>shogun</strong>, short for <strong>sei-i taishogun</strong> (great general who subdues barbarians), a title dating to the 8th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shogun</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese sei-i taishogun", "b": "Great general who subdues barbarians" },
+          { "a": "Shortened to", "b": "Shogun" },
+          { "a": "Title dates to", "b": "The 8th century" },
+          { "a": "Shoguns held", "b": "Real military power" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shogun</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A shogun was", "b": "The military ruler of feudal Japan" },
+          { "a": "The emperor remained", "b": "A symbolic figurehead" },
+          { "a": "Shogun rule lasted until", "b": "The mid 19th century" },
+          { "a": "Shogun literally means", "b": "General who subdues" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shogun</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The shogun commanded", "b": "Loyalty from every samurai" },
+          { "a": "The Tokugawa shoguns ruled", "b": "For over two centuries" },
+          { "a": "The shogun's court", "b": "Held true political power" },
+          { "a": "Historical dramas often centre", "b": "On rivalries between shoguns" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sei-i taishogun", "rootLanguage": "Japanese", "rootMeaning": "Great general who subdues barbarians", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Short for Japanese ", "highlight": false },
+        { "text": "sei-i taishogun", "highlight": true },
+        { "text": "; the general who held Japan's true power for centuries.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "The hereditary military ruler of feudal Japan, holding real power over the figurehead emperor.",
+      "correctAnswer": "The military ruler of feudal Japan",
+      "hint": "Think about who actually held power in feudal Japan, behind the emperor's throne.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Noh",
+    "pronunciation": "NOH",
+    "pos": "noun",
+    "definition": "A classical Japanese form of masked dance drama, dating to the 14th century, known for its slow, stylised movement.",
+    "origin": "From Japanese <strong>no</strong> (skill, talent, performance), reflecting the highly refined technical mastery the form demands.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-east-asian", "name": "From East Asia", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Noh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Japanese no", "b": "Skill or talent" },
+          { "a": "Dates to", "b": "The 14th century" },
+          { "a": "Known for", "b": "Slow, stylised movement" },
+          { "a": "Performers wear", "b": "Traditional carved masks" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Noh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Noh is", "b": "A classical masked dance drama" },
+          { "a": "Japanese no means", "b": "Skill or talent" },
+          { "a": "Noh movement is", "b": "Slow and highly stylised" },
+          { "a": "Noh masks represent", "b": "Fixed character types" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Noh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The noh performer moved", "b": "With deliberate, measured grace" },
+          { "a": "The noh mask concealed", "b": "Every trace of expression" },
+          { "a": "Audiences sat in silence", "b": "Through the noh performance" },
+          { "a": "Noh has influenced", "b": "Theatre traditions worldwide" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "no", "rootLanguage": "Japanese", "rootMeaning": "Skill or talent", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Japanese ", "highlight": false },
+        { "text": "no", "highlight": true },
+        { "text": " (skill); centuries of refined mastery behind every masked movement.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "no",
+      "correctAnswer": "Skill or talent",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

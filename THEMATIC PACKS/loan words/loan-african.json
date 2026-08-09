@@ -1,0 +1,1901 @@
+[
+  {
+    "word": "Ubuntu",
+    "pronunciation": "oo-BOON-too",
+    "pos": "noun",
+    "definition": "A Southern African philosophy emphasising shared humanity: the belief that a person is a person through other people.",
+    "origin": "From Zulu and Xhosa <strong>ubuntu</strong> (humanity), from the Bantu root <strong>ntu</strong> (person). Popularised worldwide through South African thought and the open-source operating system named after it.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ubuntu</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Bantu root ntu", "b": "Person" },
+          { "a": "Zulu ubuntu", "b": "Humanity" },
+          { "a": "Core philosophy", "b": "A person is a person through others" },
+          { "a": "Modern reach", "b": "Global via South African thought" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ubuntu</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ubuntu emphasises", "b": "Shared humanity" },
+          { "a": "Ubuntu comes from", "b": "Zulu and Xhosa" },
+          { "a": "Ubuntu values", "b": "Community over the individual" },
+          { "a": "Ubuntu is also", "b": "A well-known operating system" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ubuntu</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The spirit of ubuntu", "b": "Guided the reconciliation process" },
+          { "a": "She lived by ubuntu", "b": "Putting the community first" },
+          { "a": "Ubuntu teaches that", "b": "We exist through one another" },
+          { "a": "His speech invoked ubuntu", "b": "To call for unity" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ntu", "rootLanguage": "Bantu", "rootMeaning": "Person", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Zulu and Xhosa, built on the Bantu root ", "highlight": false },
+        { "text": "ntu", "highlight": true },
+        { "text": " (person); humanity through other people.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ntu",
+      "correctAnswer": "Person",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zombie",
+    "pronunciation": "ZOM-bee",
+    "pos": "noun",
+    "definition": "A reanimated corpse in folklore and fiction. Figuratively, a person who seems lifeless or acts mechanically without awareness.",
+    "origin": "From Kikongo <strong>nzambi</strong> (god, spirit) or <strong>zumbi</strong> (fetish spirit), carried into Haitian Creole as <strong>zonbi</strong> through the Atlantic slave trade, then into English in the 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zombie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Kikongo nzambi", "b": "God or spirit" },
+          { "a": "Haitian Creole zonbi", "b": "Reanimated being of folklore" },
+          { "a": "Route into English", "b": "Via the Caribbean, 19th century" },
+          { "a": "Figurative sense", "b": "Someone acting without awareness" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zombie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A zombie in folklore is", "b": "A reanimated corpse" },
+          { "a": "Feeling like a zombie means", "b": "Exhausted and mechanical" },
+          { "a": "The word travelled via", "b": "Haitian Creole" },
+          { "a": "A zombie process in computing", "b": "Has finished but not been cleared" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zombie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "After the night shift", "b": "He wandered round like a zombie" },
+          { "a": "The zombie film genre", "b": "Took off in the twentieth century" },
+          { "a": "She scrolled her phone", "b": "In a zombie-like trance" },
+          { "a": "Zombie companies", "b": "Survive only on cheap debt" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "nzambi", "rootLanguage": "Kikongo", "rootMeaning": "God or spirit", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Kikongo ", "highlight": false },
+        { "text": "nzambi", "highlight": true },
+        { "text": " (spirit), via Haitian Creole zonbi into English.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nzambi",
+      "correctAnswer": "God or spirit",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Voodoo",
+    "pronunciation": "VOO-doo",
+    "pos": "noun",
+    "definition": "A religious tradition originating in West Africa and the Caribbean, combining African spiritual beliefs with elements of Catholicism.",
+    "origin": "From Fon <strong>vodun</strong> (spirit, deity), the name of the West African religion of Benin and Togo, carried to Haiti and Louisiana where it developed into distinct traditions.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Voodoo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Fon vodun", "b": "Spirit or deity" },
+          { "a": "Region of origin", "b": "West Africa, Benin and Togo" },
+          { "a": "Caribbean development", "b": "Haitian Vodou tradition" },
+          { "a": "American development", "b": "Louisiana Voodoo" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Voodoo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Voodoo is", "b": "A living religious tradition" },
+          { "a": "Its roots combine", "b": "African belief and Catholicism" },
+          { "a": "Fon vodun means", "b": "Spirit or deity" },
+          { "a": "Its heartlands include", "b": "Benin, Haiti, and Louisiana" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Voodoo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Vodun ceremonies", "b": "Honour ancestral spirits" },
+          { "a": "The museum exhibition explored", "b": "Voodoo's West African origins" },
+          { "a": "Haitian Vodou", "b": "Blends several spiritual traditions" },
+          { "a": "Scholars study voodoo", "b": "As a rich religious culture" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "vodun", "rootLanguage": "Fon", "rootMeaning": "Spirit or deity", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Fon ", "highlight": false },
+        { "text": "vodun", "highlight": true },
+        { "text": " (spirit); a West African religion carried across the Atlantic.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vodun",
+      "correctAnswer": "Spirit or deity",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chimpanzee",
+    "pronunciation": "chim-pan-ZEE",
+    "pos": "noun",
+    "definition": "A great ape native to the forests and savannahs of tropical Africa, and one of the closest living relatives of humans.",
+    "origin": "From Kikongo or Tshiluba <strong>kivili-chimpenze</strong> (ape), entering English in the 18th century via Portuguese and French traders on the Congo coast.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chimpanzee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Kikongo chimpenze", "b": "Ape" },
+          { "a": "Region of origin", "b": "The Congo basin" },
+          { "a": "Route into English", "b": "Via Portuguese and French traders" },
+          { "a": "First recorded in English", "b": "18th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chimpanzee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chimpanzee is", "b": "A great ape of tropical Africa" },
+          { "a": "Chimpanzees are known for", "b": "Tool use and complex societies" },
+          { "a": "Their closest living relatives include", "b": "Humans" },
+          { "a": "Chimp is", "b": "The common shortened form" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chimpanzee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chimpanzee used a stick", "b": "To fish termites from the mound" },
+          { "a": "Jane Goodall studied chimpanzees", "b": "In Gombe for decades" },
+          { "a": "Chimpanzee troops", "b": "Have complex social hierarchies" },
+          { "a": "The sanctuary protects", "b": "Orphaned chimpanzees" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "chimpenze", "rootLanguage": "Kikongo", "rootMeaning": "Ape", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Kikongo ", "highlight": false },
+        { "text": "chimpenze", "highlight": true },
+        { "text": " (ape); named in the Congo basin where it lives.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "chimpenze",
+      "correctAnswer": "Ape",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gorilla",
+    "pronunciation": "guh-RIL-uh",
+    "pos": "noun",
+    "definition": "The largest living primate, a powerful herbivorous ape native to the forests of central Africa.",
+    "origin": "From Greek <strong>gorillai</strong>, the name recorded by the Carthaginian explorer Hanno for wild inhabitants of the West African coast. Applied to the great ape by the American missionary Thomas Savage in 1847.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gorilla</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek gorillai", "b": "Name from Hanno's voyage account" },
+          { "a": "Hanno", "b": "Carthaginian explorer of West Africa" },
+          { "a": "Thomas Savage", "b": "Applied the name to the ape in 1847" },
+          { "a": "Modern sense", "b": "The largest living primate" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gorilla</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gorilla is", "b": "The largest living primate" },
+          { "a": "Gorillas mainly eat", "b": "Plants, stems, and fruit" },
+          { "a": "Gorillas live in", "b": "The forests of central Africa" },
+          { "a": "A silverback is", "b": "A mature male gorilla" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gorilla</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The silverback gorilla", "b": "Led the troop through the forest" },
+          { "a": "Mountain gorillas survive", "b": "In protected national parks" },
+          { "a": "The eight-hundred-pound gorilla", "b": "Means the dominant force in a room" },
+          { "a": "Conservationists track", "b": "Gorilla families in the Virungas" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gorillai", "rootLanguage": "Greek", "rootMeaning": "Name from Hanno's account of West Africa", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "gorillai", "highlight": true },
+        { "text": ", recorded by the explorer Hanno; applied to the great ape in 1847.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "The largest living primate, a herbivorous ape of central African forests.",
+      "correctAnswer": "The largest living primate",
+      "hint": "Think about the gorilla's place among the world's primates.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zebra",
+    "pronunciation": "ZEB-ruh",
+    "pos": "noun",
+    "definition": "An African wild horse with distinctive black and white stripes, unique to each individual like a fingerprint.",
+    "origin": "Probably from a Congolese language via Portuguese <strong>zebra</strong>, originally applied by Portuguese explorers to a wild ass. The word settled on the striped African horse in the 17th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zebra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Congolese origin", "b": "Likely source of the word" },
+          { "a": "Portuguese zebra", "b": "Route into European languages" },
+          { "a": "Original application", "b": "A wild ass" },
+          { "a": "Settled meaning", "b": "The striped African horse" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zebra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A zebra is", "b": "A striped African wild horse" },
+          { "a": "Zebra stripes are", "b": "Unique to each individual" },
+          { "a": "A zebra crossing is", "b": "A striped pedestrian crossing" },
+          { "a": "Zebras live in", "b": "African grasslands and savannahs" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zebra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The zebra herd grazed", "b": "Alongside the wildebeest" },
+          { "a": "Cross at the zebra", "b": "Where drivers must stop" },
+          { "a": "No two zebras", "b": "Share the same stripe pattern" },
+          { "a": "The foal stayed close", "b": "To its mother's stripes" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "zebra", "rootLanguage": "Portuguese", "rootMeaning": "Wild ass, later the striped horse", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Probably Congolese via Portuguese ", "highlight": false },
+        { "text": "zebra", "highlight": true },
+        { "text": "; the name settled on the striped horse in the 17th century.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "An African wild horse with black and white stripes unique to each individual.",
+      "correctAnswer": "A striped African wild horse",
+      "hint": "Think about which animal carries a one-of-a-kind stripe pattern.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Okapi",
+    "pronunciation": "oh-KAH-pee",
+    "pos": "noun",
+    "definition": "A forest-dwelling African mammal related to the giraffe, with a dark body and striped legs, found only in the Democratic Republic of the Congo.",
+    "origin": "From Mbuba <strong>o'api</strong>, the local name in the Ituri Forest of the Congo. The animal was unknown to Western science until 1901.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Okapi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mbuba o'api", "b": "The local Ituri Forest name" },
+          { "a": "Home region", "b": "Democratic Republic of the Congo" },
+          { "a": "Known to Western science", "b": "Only from 1901" },
+          { "a": "Closest relative", "b": "The giraffe" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Okapi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An okapi is", "b": "A forest relative of the giraffe" },
+          { "a": "Its legs carry", "b": "Zebra-like stripes" },
+          { "a": "It is found only in", "b": "The Congo rainforest" },
+          { "a": "The okapi was long", "b": "Unknown outside its forest home" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Okapi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The okapi's striped legs", "b": "Camouflage it in dappled light" },
+          { "a": "The reserve protects", "b": "The last wild okapi populations" },
+          { "a": "Like its giraffe cousin", "b": "The okapi has a long dark tongue" },
+          { "a": "The elusive okapi", "b": "Is rarely seen in the wild" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "o'api", "rootLanguage": "Mbuba", "rootMeaning": "The animal's local name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Mbuba ", "highlight": false },
+        { "text": "o'api", "highlight": true },
+        { "text": "; the Ituri Forest's hidden giraffe relative, named by its neighbours.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A striped-legged forest mammal of the Congo, the giraffe's only living relative.",
+      "correctAnswer": "A forest relative of the giraffe",
+      "hint": "Think about which tall African animal the okapi is related to.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wildebeest",
+    "pronunciation": "WIL-duh-beest",
+    "pos": "noun",
+    "definition": "A large African antelope with a heavy head and mane, also called a gnu, famous for vast migratory herds crossing the Serengeti.",
+    "origin": "From Afrikaans <strong>wildebees</strong> (wild beast), from Dutch <strong>wild</strong> (wild) + <strong>beest</strong> (beast). Named by Dutch settlers in South Africa.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wildebeest</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dutch wild", "b": "Wild" },
+          { "a": "Dutch beest", "b": "Beast" },
+          { "a": "Afrikaans wildebees", "b": "Wild beast" },
+          { "a": "Alternative name", "b": "Gnu" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wildebeest</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A wildebeest is", "b": "A large African antelope" },
+          { "a": "Wildebeest are famous for", "b": "The great Serengeti migration" },
+          { "a": "The name was given by", "b": "Dutch settlers in South Africa" },
+          { "a": "Its other name is", "b": "The gnu" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wildebeest</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A million wildebeest", "b": "Cross the Mara river each year" },
+          { "a": "The wildebeest herd", "b": "Stretched to the horizon" },
+          { "a": "Crocodiles wait for", "b": "The wildebeest at the crossing" },
+          { "a": "The migration of the wildebeest", "b": "Follows the seasonal rains" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "wild", "rootLanguage": "Dutch", "rootMeaning": "Wild", "showInIntro": true },
+      { "rootText": "beest", "rootLanguage": "Dutch", "rootMeaning": "Beast", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Dutch ", "highlight": false },
+        { "text": "wild", "highlight": true },
+        { "text": " + ", "highlight": false },
+        { "text": "beest", "highlight": true },
+        { "text": " (wild beast); named by settlers, famed for its migration.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "beest",
+      "correctAnswer": "Beast",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Apartheid",
+    "pronunciation": "uh-PART-hayt",
+    "pos": "noun",
+    "definition": "The former South African system of institutionalised racial segregation, in force from 1948 to the early 1990s. Now used for any systematic policy of segregation.",
+    "origin": "From Afrikaans <strong>apartheid</strong> (separateness), from Dutch <strong>apart</strong> (separate) + the suffix <strong>-heid</strong> (equivalent to -hood).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Apartheid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dutch apart", "b": "Separate" },
+          { "a": "Suffix -heid", "b": "State or condition, like -hood" },
+          { "a": "Combined meaning", "b": "Separateness" },
+          { "a": "Historical period", "b": "1948 to the early 1990s" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Apartheid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Apartheid was", "b": "Institutionalised racial segregation" },
+          { "a": "It operated in", "b": "South Africa" },
+          { "a": "Afrikaans apartheid means", "b": "Separateness" },
+          { "a": "Its end came with", "b": "The democratic elections of 1994" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Apartheid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The struggle against apartheid", "b": "Drew worldwide support" },
+          { "a": "Mandela emerged from prison", "b": "As apartheid collapsed" },
+          { "a": "The apartheid laws", "b": "Segregated every part of life" },
+          { "a": "Historians study apartheid", "b": "As a warning from the past" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "apart", "rootLanguage": "Dutch", "rootMeaning": "Separate", "showInIntro": true },
+      { "rootText": "-heid", "rootLanguage": "Dutch", "rootMeaning": "State or condition", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Afrikaans: ", "highlight": false },
+        { "text": "apart", "highlight": true },
+        { "text": " (separate) + ", "highlight": false },
+        { "text": "-heid", "highlight": true },
+        { "text": " (-hood); the state of separateness, made law.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "apart",
+      "correctAnswer": "Separate",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Biltong",
+    "pronunciation": "BIL-tong",
+    "pos": "noun",
+    "definition": "Dried, cured strips of meat, a traditional South African snack similar to jerky but air-dried and spiced differently.",
+    "origin": "From Afrikaans, from Dutch <strong>bil</strong> (rump) + <strong>tong</strong> (tongue or strip), describing the cut and shape of the meat.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Biltong</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dutch tong", "b": "Tongue or strip shape" },
+          { "a": "Afrikaans origin", "b": "South African Dutch settlers" },
+          { "a": "Preparation method", "b": "Air-dried and cured" },
+          { "a": "Similar food", "b": "Jerky, though made differently" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Biltong</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Biltong is", "b": "Dried, cured strips of meat" },
+          { "a": "It comes from", "b": "South Africa" },
+          { "a": "Unlike jerky, biltong is", "b": "Air-dried with vinegar and spices" },
+          { "a": "Common biltong meats include", "b": "Beef and game" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Biltong</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They shared a bag of biltong", "b": "On the long drive" },
+          { "a": "The butcher hangs biltong", "b": "To dry for several days" },
+          { "a": "Biltong spiced with coriander", "b": "Is the traditional style" },
+          { "a": "South African expats", "b": "Seek out biltong abroad" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tong", "rootLanguage": "Dutch", "rootMeaning": "Tongue or strip", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Dutch via Afrikaans; ", "highlight": false },
+        { "text": "tong", "highlight": true },
+        { "text": " (strip) describes the shape of the cured meat.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Dried, cured strips of meat, a traditional South African snack.",
+      "correctAnswer": "Dried, cured strips of meat",
+      "hint": "Think about what biltong is made of and how it is prepared.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Commando",
+    "pronunciation": "kuh-MAHN-doh",
+    "pos": "noun",
+    "definition": "A soldier trained for rapid raids in hostile territory, or a unit of such soldiers.",
+    "origin": "From Afrikaans <strong>kommando</strong> (a mobile militia unit), from Portuguese <strong>comando</strong> (command). The word entered English during the Boer Wars, where Boer kommandos fought the British.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Commando</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Portuguese comando", "b": "Command" },
+          { "a": "Afrikaans kommando", "b": "A mobile militia unit" },
+          { "a": "Route into English", "b": "The Boer Wars" },
+          { "a": "Modern sense", "b": "A soldier trained for raids" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Commando</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A commando is trained for", "b": "Rapid raids in hostile territory" },
+          { "a": "The word came from", "b": "Boer mounted militia units" },
+          { "a": "British Commandos formed in", "b": "The Second World War" },
+          { "a": "Commando units value", "b": "Speed and surprise" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Commando</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The commandos landed", "b": "Under cover of darkness" },
+          { "a": "Boer kommandos harried", "b": "The British supply lines" },
+          { "a": "Commando training includes", "b": "Endurance and raiding skills" },
+          { "a": "The raid was carried out", "b": "By a small commando unit" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "comando", "rootLanguage": "Portuguese", "rootMeaning": "Command", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Portuguese ", "highlight": false },
+        { "text": "comando", "highlight": true },
+        { "text": " via Afrikaans kommando; the Boer raiding unit that named modern special forces.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "comando",
+      "correctAnswer": "Command",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Commandeer",
+    "pronunciation": "kom-un-DEER",
+    "pos": "verb",
+    "definition": "To seize something, especially for military or official use; to take arbitrary possession of.",
+    "origin": "From Afrikaans <strong>kommandeer</strong> (to command or conscript), from Dutch, ultimately from Latin <strong>commendare</strong>. Entered English during the Boer Wars alongside commando.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Commandeer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Afrikaans kommandeer", "b": "To command or conscript" },
+          { "a": "Latin commendare", "b": "The distant root of command" },
+          { "a": "Route into English", "b": "The Boer Wars" },
+          { "a": "Modern sense", "b": "To seize for official use" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Commandeer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To commandeer means", "b": "To seize, often officially" },
+          { "a": "Armies commandeer", "b": "Vehicles and supplies" },
+          { "a": "Informally, to commandeer is", "b": "To take over without asking" },
+          { "a": "Related word", "b": "Commando" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Commandeer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The officers commandeered", "b": "Every truck in the district" },
+          { "a": "She commandeered the meeting room", "b": "For the emergency call" },
+          { "a": "The ship was commandeered", "b": "For the war effort" },
+          { "a": "He commandeered the remote", "b": "And changed the channel" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "kommandeer", "rootLanguage": "Afrikaans", "rootMeaning": "To command or conscript", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Afrikaans ", "highlight": false },
+        { "text": "kommandeer", "highlight": true },
+        { "text": " (to conscript); to seize as if by military order.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "To seize something, especially for military or official use.",
+      "correctAnswer": "To seize, often officially",
+      "hint": "Think about what an army does when it takes civilian vehicles for its own use.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Meerkat",
+    "pronunciation": "MEER-kat",
+    "pos": "noun",
+    "definition": "A small social mongoose of southern Africa, famous for standing upright on sentry duty while the group forages.",
+    "origin": "From Afrikaans <strong>meerkat</strong>, from Dutch <strong>meerkat</strong> (a kind of monkey), literally lake cat or sea cat, from <strong>meer</strong> (lake) + <strong>kat</strong> (cat). The name transferred to the mongoose in South Africa.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Meerkat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dutch meer", "b": "Lake" },
+          { "a": "Dutch kat", "b": "Cat" },
+          { "a": "Original Dutch sense", "b": "A kind of monkey" },
+          { "a": "South African transfer", "b": "Applied to the sentry mongoose" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Meerkat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A meerkat is", "b": "A small social mongoose" },
+          { "a": "Meerkats are famous for", "b": "Standing upright on sentry duty" },
+          { "a": "They live in", "b": "The deserts of southern Africa" },
+          { "a": "A meerkat group is called", "b": "A mob or gang" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Meerkat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The meerkat sentry", "b": "Scanned the sky for hawks" },
+          { "a": "The mob of meerkats", "b": "Foraged for scorpions" },
+          { "a": "Standing like a meerkat", "b": "She peered over the cubicle wall" },
+          { "a": "Meerkat burrows", "b": "Shelter the whole family" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "meer", "rootLanguage": "Dutch", "rootMeaning": "Lake", "showInIntro": true },
+      { "rootText": "kat", "rootLanguage": "Dutch", "rootMeaning": "Cat", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Dutch ", "highlight": false },
+        { "text": "meer", "highlight": true },
+        { "text": " (lake) + ", "highlight": false },
+        { "text": "kat", "highlight": true },
+        { "text": " (cat); a monkey name that settled on the desert sentry.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kat",
+      "correctAnswer": "Cat",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jumbo",
+    "pronunciation": "JUM-boh",
+    "pos": "adjective",
+    "definition": "Very large; oversized. From the name of a famous elephant, now applied to anything unusually big, from jets to hot dogs.",
+    "origin": "From <strong>Jumbo</strong>, a huge African elephant exhibited at London Zoo and sold to Barnum's circus in 1882. The name possibly derives from Swahili <strong>jumbe</strong> (chief).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jumbo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Jumbo the elephant", "b": "London Zoo's famous giant" },
+          { "a": "Swahili jumbe", "b": "Chief, the likely name source" },
+          { "a": "Sold in 1882", "b": "To Barnum's American circus" },
+          { "a": "Modern sense", "b": "Anything unusually large" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jumbo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Jumbo means", "b": "Very large or oversized" },
+          { "a": "A jumbo jet is", "b": "A wide-bodied airliner" },
+          { "a": "The original Jumbo was", "b": "A famous African elephant" },
+          { "a": "Jumbe in Swahili means", "b": "Chief" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jumbo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jumbo jet taxied", "b": "To the runway at dawn" },
+          { "a": "She ordered the jumbo portion", "b": "And regretted nothing" },
+          { "a": "Jumbo the elephant drew", "b": "Enormous Victorian crowds" },
+          { "a": "A jumbo crossword", "b": "Filled the whole back page" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "jumbe", "rootLanguage": "Swahili", "rootMeaning": "Chief", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Jumbo the elephant, possibly Swahili ", "highlight": false },
+        { "text": "jumbe", "highlight": true },
+        { "text": " (chief); one animal's name became the word for huge.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "jumbe",
+      "correctAnswer": "Chief",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bongo",
+    "pronunciation": "BONG-goh",
+    "pos": "noun",
+    "definition": "A pair of small drums played with the hands, or a striped forest antelope of central Africa.",
+    "origin": "The drum name comes via Cuban Spanish <strong>bongó</strong>, likely from a Bantu language of West or Central Africa. The antelope name comes directly from a Bantu language of Kenya.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bongo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Bantu origin", "b": "Likely source of the drum name" },
+          { "a": "Cuban Spanish bongó", "b": "Route into English for the drums" },
+          { "a": "Kenyan Bantu", "b": "Source of the antelope name" },
+          { "a": "Played with", "b": "The hands, not sticks" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bongo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bongos are", "b": "A pair of small hand drums" },
+          { "a": "The bongo antelope has", "b": "White stripes on chestnut" },
+          { "a": "The drums travelled via", "b": "Cuba into world music" },
+          { "a": "Bongos are central to", "b": "Afro-Cuban rhythm" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bongo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He played the bongos", "b": "At the beach gathering" },
+          { "a": "The bongo antelope slipped", "b": "Silently through the forest" },
+          { "a": "The bongo rhythm", "b": "Drove the whole band" },
+          { "a": "She learned bongo patterns", "b": "From a Cuban percussionist" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bongó", "rootLanguage": "Cuban Spanish", "rootMeaning": "The paired hand drums", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Likely Bantu via Cuban Spanish ", "highlight": false },
+        { "text": "bongó", "highlight": true },
+        { "text": "; African rhythm carried through Cuba to the world.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A pair of small drums played with the hands, named via Cuban Spanish from a Bantu source.",
+      "correctAnswer": "A pair of small hand drums",
+      "hint": "Think about what a percussionist plays when they play the bongos.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Marimba",
+    "pronunciation": "muh-RIM-buh",
+    "pos": "noun",
+    "definition": "A percussion instrument of wooden bars struck with mallets, with resonators beneath each bar to amplify the sound.",
+    "origin": "From a Bantu language, likely Kimbundu <strong>marimba</strong> or <strong>malimba</strong> (xylophone), carried to the Americas where the instrument became central to Central American music.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Marimba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Kimbundu marimba", "b": "Xylophone" },
+          { "a": "Bantu origin", "b": "Southern and Central Africa" },
+          { "a": "Carried to", "b": "The Americas" },
+          { "a": "National instrument of", "b": "Guatemala" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Marimba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A marimba is played with", "b": "Mallets on wooden bars" },
+          { "a": "Beneath each bar sits", "b": "A resonator tube" },
+          { "a": "The marimba's ancestor is", "b": "The African xylophone" },
+          { "a": "Its sound is", "b": "Warm, deep, and woody" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Marimba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The marimba player rolled", "b": "Four mallets across the bars" },
+          { "a": "The marimba's resonators", "b": "Give it that deep warm hum" },
+          { "a": "Guatemalan festivals feature", "b": "Marimba ensembles" },
+          { "a": "She composed a piece", "b": "For solo marimba" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "marimba", "rootLanguage": "Kimbundu", "rootMeaning": "Xylophone", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Kimbundu ", "highlight": false },
+        { "text": "marimba", "highlight": true },
+        { "text": " (xylophone); an African instrument that crossed the Atlantic.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "marimba",
+      "correctAnswer": "Xylophone",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Safari",
+    "pronunciation": "suh-FAR-ee",
+    "pos": "noun",
+    "definition": "An expedition to observe or hunt animals in their natural habitat, especially in East Africa. Now most often a wildlife-watching journey.",
+    "origin": "From Swahili <strong>safari</strong> (journey), from Arabic <strong>safar</strong> (journey, travel). Entered English through East African travel in the 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Safari</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic safar", "b": "Journey or travel" },
+          { "a": "Swahili safari", "b": "Journey" },
+          { "a": "Route into English", "b": "East African travel, 19th century" },
+          { "a": "Modern sense", "b": "A wildlife-watching expedition" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Safari</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A safari is", "b": "An expedition to see wildlife" },
+          { "a": "Swahili safari means", "b": "Journey" },
+          { "a": "Classic safari country includes", "b": "Kenya and Tanzania" },
+          { "a": "A photo safari involves", "b": "Cameras rather than rifles" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Safari</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "On safari in the Serengeti", "b": "They watched the lions wake" },
+          { "a": "The safari lodge overlooked", "b": "A busy waterhole" },
+          { "a": "Their guide led the safari", "b": "At dawn when animals stir" },
+          { "a": "A walking safari", "b": "Brings you closer to the small things" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "safar", "rootLanguage": "Arabic", "rootMeaning": "Journey or travel", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Arabic ", "highlight": false },
+        { "text": "safar", "highlight": true },
+        { "text": " (journey) via Swahili; every safari is simply a journey.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "safar",
+      "correctAnswer": "Journey or travel",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Banana",
+    "pronunciation": "buh-NAH-nuh",
+    "pos": "noun",
+    "definition": "A long curved tropical fruit with soft flesh and yellow skin when ripe, one of the most widely eaten fruits in the world.",
+    "origin": "From Wolof <strong>banaana</strong>, a West African language of Senegal, carried into English via Spanish and Portuguese traders in the 16th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Banana</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Wolof banaana", "b": "The fruit's West African name" },
+          { "a": "Wolof is spoken in", "b": "Senegal" },
+          { "a": "Route into English", "b": "Spanish and Portuguese traders" },
+          { "a": "First recorded in English", "b": "16th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Banana</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A banana is", "b": "A curved tropical fruit" },
+          { "a": "When ripe its skin is", "b": "Yellow" },
+          { "a": "Bananas grow in", "b": "Large hanging bunches" },
+          { "a": "Going bananas means", "b": "Becoming wildly excited" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Banana</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She sliced a banana", "b": "Over her morning porridge" },
+          { "a": "The banana plantation", "b": "Stretched down the valley" },
+          { "a": "The crowd went bananas", "b": "When the winner crossed the line" },
+          { "a": "A banana republic", "b": "Depends on a single export" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "banaana", "rootLanguage": "Wolof", "rootMeaning": "The fruit's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Wolof ", "highlight": false },
+        { "text": "banaana", "highlight": true },
+        { "text": "; a Senegalese word carried worldwide by 16th-century traders.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A curved tropical fruit named from the Wolof language of Senegal.",
+      "correctAnswer": "A curved tropical fruit",
+      "hint": "Think about which everyday fruit takes its name from West Africa.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Trek",
+    "pronunciation": "TREK",
+    "pos": "noun",
+    "definition": "A long, arduous journey, especially on foot. To trek is to travel slowly and with effort.",
+    "origin": "From Afrikaans <strong>trek</strong> (a journey by wagon), from Dutch <strong>trekken</strong> (to pull, to march). Entered English through the Great Trek, the 1830s migration of Boer settlers into the South African interior.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Trek</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dutch trekken", "b": "To pull or march" },
+          { "a": "Afrikaans trek", "b": "A journey by ox wagon" },
+          { "a": "The Great Trek", "b": "The 1830s Boer migration" },
+          { "a": "Modern sense", "b": "Any long arduous journey" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Trek</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A trek is", "b": "A long, hard journey" },
+          { "a": "Trekking usually happens", "b": "On foot" },
+          { "a": "The original treks used", "b": "Ox wagons" },
+          { "a": "A trek up the mountain", "b": "Takes days of walking" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Trek</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The trek to base camp", "b": "Took eleven days" },
+          { "a": "It's a bit of a trek", "b": "But the view is worth it" },
+          { "a": "They trekked across", "b": "The high mountain passes" },
+          { "a": "The Boers trekked inland", "b": "By ox wagon in the 1830s" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "trekken", "rootLanguage": "Dutch", "rootMeaning": "To pull or march", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Dutch ", "highlight": false },
+        { "text": "trekken", "highlight": true },
+        { "text": " (to pull); the ox-wagon journey that became every long walk.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "trekken",
+      "correctAnswer": "To pull or march",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vuvuzela",
+    "pronunciation": "voo-voo-ZEH-luh",
+    "pos": "noun",
+    "definition": "A long plastic horn producing a loud single-note drone, blown by football crowds, made world-famous at the 2010 South African World Cup.",
+    "origin": "From Zulu, possibly from <strong>vuvu</strong>, imitating the sound it makes, or from a word meaning to make noise. The instrument became a global symbol of South African football culture.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vuvuzela</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Zulu vuvu", "b": "Imitates the horn's sound" },
+          { "a": "Country of origin", "b": "South Africa" },
+          { "a": "Global fame", "b": "The 2010 World Cup" },
+          { "a": "Sound produced", "b": "A loud single-note drone" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vuvuzela</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A vuvuzela is", "b": "A long plastic stadium horn" },
+          { "a": "It produces", "b": "One loud droning note" },
+          { "a": "It is blown at", "b": "Football matches" },
+          { "a": "It became famous at", "b": "The 2010 World Cup" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vuvuzela</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Thousands of vuvuzelas", "b": "Droned through the stadium" },
+          { "a": "He blew his vuvuzela", "b": "Every time his team attacked" },
+          { "a": "The vuvuzela's buzz", "b": "Defined the 2010 tournament" },
+          { "a": "Broadcasters struggled", "b": "To filter the vuvuzela noise" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "vuvu", "rootLanguage": "Zulu", "rootMeaning": "Imitating the horn's sound", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Zulu, likely ", "highlight": false },
+        { "text": "vuvu", "highlight": true },
+        { "text": " imitating its drone; the sound of South African football.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A long plastic horn blown by football crowds, famous from the 2010 World Cup.",
+      "correctAnswer": "A long plastic stadium horn",
+      "hint": "Think about the droning instrument heard throughout the 2010 World Cup.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Indaba",
+    "pronunciation": "in-DAH-buh",
+    "pos": "noun",
+    "definition": "An important meeting or conference for discussion, especially one gathering many parties to resolve a shared problem.",
+    "origin": "From Zulu and Xhosa <strong>indaba</strong> (matter for discussion, news, affair). Used in South African English for major gatherings, and adopted internationally for climate negotiations.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Indaba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Zulu indaba", "b": "Matter for discussion" },
+          { "a": "Also means", "b": "News or affair" },
+          { "a": "South African English use", "b": "A major conference" },
+          { "a": "International adoption", "b": "UN climate negotiations" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Indaba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An indaba is", "b": "An important gathering for discussion" },
+          { "a": "The word comes from", "b": "Zulu and Xhosa" },
+          { "a": "An indaba aims to", "b": "Resolve shared problems together" },
+          { "a": "Climate summits borrowed", "b": "The indaba format" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Indaba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chiefs called an indaba", "b": "To settle the land question" },
+          { "a": "The Paris talks used indabas", "b": "To break the deadlock" },
+          { "a": "The mining indaba", "b": "Draws delegates from worldwide" },
+          { "a": "An indaba brings everyone", "b": "Into one honest conversation" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "indaba", "rootLanguage": "Zulu", "rootMeaning": "Matter for discussion", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Zulu ", "highlight": false },
+        { "text": "indaba", "highlight": true },
+        { "text": " (matter for discussion); the gathering where problems are talked through.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "indaba",
+      "correctAnswer": "Matter for discussion",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mamba",
+    "pronunciation": "MAM-buh",
+    "pos": "noun",
+    "definition": "A fast, highly venomous African snake. The black mamba is among the deadliest and quickest snakes in the world.",
+    "origin": "From Zulu <strong>imamba</strong>, the name for the snake. The black mamba is named not for its scales, which are grey-brown, but for the inky black inside of its mouth.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mamba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Zulu imamba", "b": "The snake's name" },
+          { "a": "Black mamba named for", "b": "The black inside of its mouth" },
+          { "a": "Its scales are actually", "b": "Grey-brown" },
+          { "a": "Known for", "b": "Speed and potent venom" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mamba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mamba is", "b": "A fast, venomous African snake" },
+          { "a": "The black mamba can move", "b": "Faster than most snakes alive" },
+          { "a": "Green mambas live", "b": "In trees" },
+          { "a": "Zulu imamba is", "b": "The original name" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mamba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The black mamba reared", "b": "And showed its dark mouth" },
+          { "a": "Rangers relocated the mamba", "b": "Away from the village" },
+          { "a": "The green mamba wound", "b": "Through the branches" },
+          { "a": "Few snakes match the mamba", "b": "For sheer speed" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "imamba", "rootLanguage": "Zulu", "rootMeaning": "The snake's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Zulu ", "highlight": false },
+        { "text": "imamba", "highlight": true },
+        { "text": "; the black mamba is named for its mouth, not its scales.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A fast, highly venomous African snake named from Zulu.",
+      "correctAnswer": "A fast, venomous African snake",
+      "hint": "Think about which African snake is famed for speed and venom.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Impala",
+    "pronunciation": "im-PAH-luh",
+    "pos": "noun",
+    "definition": "A graceful medium-sized African antelope known for extraordinary leaping, capable of jumps three metres high and ten metres long.",
+    "origin": "From Zulu <strong>impala</strong>, the animal's name. One of the most numerous antelopes of the African savannah.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Impala</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Zulu impala", "b": "The antelope's name" },
+          { "a": "Famous ability", "b": "Extraordinary leaping" },
+          { "a": "Jump height", "b": "Up to three metres" },
+          { "a": "Habitat", "b": "African savannah" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Impala</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An impala is", "b": "A graceful African antelope" },
+          { "a": "Impalas can leap", "b": "Ten metres in a single bound" },
+          { "a": "Male impalas carry", "b": "Elegant lyre-shaped horns" },
+          { "a": "Impala herds", "b": "Graze the open savannah" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Impala</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The impala cleared the bush", "b": "In one soaring leap" },
+          { "a": "A herd of impala scattered", "b": "As the cheetah broke cover" },
+          { "a": "The ram's horns curved", "b": "In elegant spirals" },
+          { "a": "Impala are everywhere", "b": "On the savannah at dawn" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "impala", "rootLanguage": "Zulu", "rootMeaning": "The antelope's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Zulu ", "highlight": false },
+        { "text": "impala", "highlight": true },
+        { "text": "; the savannah's great leaper, three metres up and ten along.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A graceful African antelope famed for leaps of up to ten metres.",
+      "correctAnswer": "A graceful African antelope",
+      "hint": "Think about the leaping antelope of the African savannah.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gnu",
+    "pronunciation": "NOO",
+    "pos": "noun",
+    "definition": "Another name for the wildebeest, a large African antelope with a heavy head, mane, and curved horns.",
+    "origin": "From Khoekhoe <strong>t'gnu</strong>, imitating the animal's grunting call, recorded by early travellers in southern Africa in the 18th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gnu</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Khoekhoe t'gnu", "b": "Imitates the animal's grunt" },
+          { "a": "Khoekhoe is spoken in", "b": "Southern Africa" },
+          { "a": "Recorded in English", "b": "18th century" },
+          { "a": "Same animal as", "b": "The wildebeest" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gnu</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gnu is", "b": "A wildebeest" },
+          { "a": "The name imitates", "b": "The animal's grunting call" },
+          { "a": "The gnu's build features", "b": "A heavy head and mane" },
+          { "a": "The silent g in gnu", "b": "Makes it a crossword favourite" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gnu</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gnu herds thundered", "b": "Across the river crossing" },
+          { "a": "Gnu and zebra graze", "b": "Side by side on the plains" },
+          { "a": "The word gnu mimics", "b": "The animal's low grunt" },
+          { "a": "Is it gnu or wildebeest?", "b": "Both name the same beast" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "t'gnu", "rootLanguage": "Khoekhoe", "rootMeaning": "Imitating the animal's call", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Khoekhoe ", "highlight": false },
+        { "text": "t'gnu", "highlight": true },
+        { "text": ", echoing its grunt; the wildebeest by its older African name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Another name for the wildebeest, from a Khoekhoe word imitating its call.",
+      "correctAnswer": "A wildebeest",
+      "hint": "Think about which large antelope has two common names.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dashiki",
+    "pronunciation": "duh-SHEE-kee",
+    "pos": "noun",
+    "definition": "A loose, brightly patterned pullover garment originating in West Africa, worn across the world as both everyday wear and cultural statement.",
+    "origin": "From Yoruba <strong>danshiki</strong>, borrowed from Hausa <strong>dan ciki</strong> (undershirt, literally son of the inside). The garment became internationally prominent in the 1960s.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dashiki</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hausa dan ciki", "b": "Undershirt, son of the inside" },
+          { "a": "Yoruba danshiki", "b": "The borrowed garment name" },
+          { "a": "Region of origin", "b": "West Africa" },
+          { "a": "International prominence", "b": "The 1960s" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dashiki</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dashiki is", "b": "A loose patterned pullover garment" },
+          { "a": "Its patterns are typically", "b": "Bright and bold" },
+          { "a": "It originates in", "b": "West Africa" },
+          { "a": "It is worn as", "b": "Everyday wear and cultural statement" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dashiki</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He wore a bright dashiki", "b": "To the summer festival" },
+          { "a": "The dashiki's embroidered neckline", "b": "Is its signature detail" },
+          { "a": "Dashikis became popular worldwide", "b": "During the 1960s" },
+          { "a": "The market stall sold", "b": "Dashikis in every colour" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "dan ciki", "rootLanguage": "Hausa", "rootMeaning": "Undershirt", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Hausa ", "highlight": false },
+        { "text": "dan ciki", "highlight": true },
+        { "text": " (undershirt) via Yoruba; West African dress gone global.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dan ciki",
+      "correctAnswer": "Undershirt",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mumbo Jumbo",
+    "pronunciation": "MUM-boh JUM-boh",
+    "pos": "noun",
+    "definition": "Meaningless or confusing language; nonsense, especially technical or ritual language used to bamboozle.",
+    "origin": "From Mandinka <strong>maamajomboo</strong>, the name of a masked ceremonial figure of West Africa, recorded by 18th-century travellers. The sense of confusing nonsense developed in English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mumbo Jumbo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mandinka maamajomboo", "b": "A masked ceremonial figure" },
+          { "a": "Recorded by", "b": "18th-century travellers" },
+          { "a": "English shift", "b": "Came to mean confusing nonsense" },
+          { "a": "Modern target", "b": "Jargon and baffling language" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mumbo Jumbo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mumbo jumbo means", "b": "Meaningless, confusing language" },
+          { "a": "Legal mumbo jumbo is", "b": "Impenetrable legal jargon" },
+          { "a": "The original maamajomboo was", "b": "A West African masked figure" },
+          { "a": "Calling something mumbo jumbo", "b": "Dismisses it as nonsense" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mumbo Jumbo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The contract was full of", "b": "Legal mumbo jumbo" },
+          { "a": "Skip the technical mumbo jumbo", "b": "And tell me plainly" },
+          { "a": "He dismissed the theory", "b": "As pure mumbo jumbo" },
+          { "a": "Marketing mumbo jumbo", "b": "Obscured the actual product" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "maamajomboo", "rootLanguage": "Mandinka", "rootMeaning": "A masked ceremonial figure", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Mandinka ", "highlight": false },
+        { "text": "maamajomboo", "highlight": true },
+        { "text": ", a masked figure; in English it came to mean baffling nonsense.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Meaningless or confusing language, especially jargon used to bamboozle.",
+      "correctAnswer": "Meaningless, confusing language",
+      "hint": "Think about what you call impenetrable jargon.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tsetse",
+    "pronunciation": "TSET-see",
+    "pos": "noun",
+    "definition": "A blood-feeding African fly that transmits sleeping sickness to humans and nagana to cattle, shaping settlement patterns across the continent.",
+    "origin": "From Tswana <strong>tsetse</strong> (fly), the name in the Bantu language of Botswana, imitating the insect's buzz.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tsetse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tswana tsetse", "b": "Fly" },
+          { "a": "Tswana is spoken in", "b": "Botswana" },
+          { "a": "The name imitates", "b": "The insect's buzz" },
+          { "a": "Disease carried", "b": "Sleeping sickness" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tsetse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tsetse is", "b": "A blood-feeding African fly" },
+          { "a": "It transmits", "b": "Sleeping sickness" },
+          { "a": "In cattle it causes", "b": "Nagana" },
+          { "a": "Its historical effect", "b": "Shaped where people could settle" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tsetse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tsetse belt", "b": "Made cattle farming impossible" },
+          { "a": "Tsetse traps", "b": "Help control the fly's spread" },
+          { "a": "The tsetse's bite", "b": "Can transmit the parasite" },
+          { "a": "Researchers map", "b": "Tsetse habitats by satellite" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tsetse", "rootLanguage": "Tswana", "rootMeaning": "Fly", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Tswana ", "highlight": false },
+        { "text": "tsetse", "highlight": true },
+        { "text": " (fly), echoing its buzz; the insect that redrew Africa's farming map.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tsetse",
+      "correctAnswer": "Fly",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Baobab",
+    "pronunciation": "BAY-oh-bab",
+    "pos": "noun",
+    "definition": "A massive African tree with a hugely swollen trunk that stores water, living for thousands of years and known as the tree of life.",
+    "origin": "Probably from an Arabic name <strong>bu hibab</strong> (fruit with many seeds), recorded by the 16th-century botanist Prospero Alpini describing the tree in Egypt.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Baobab</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic bu hibab", "b": "Fruit with many seeds" },
+          { "a": "Recorded by", "b": "Botanist Prospero Alpini" },
+          { "a": "Known as", "b": "The tree of life" },
+          { "a": "Its trunk", "b": "Stores thousands of litres of water" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Baobab</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A baobab is", "b": "A massive water-storing African tree" },
+          { "a": "Baobabs can live", "b": "For thousands of years" },
+          { "a": "Its swollen trunk", "b": "Survives long droughts" },
+          { "a": "Its fruit is rich in", "b": "Vitamin C" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Baobab</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ancient baobab", "b": "Had stood for two thousand years" },
+          { "a": "Elephants strip baobab bark", "b": "For its stored moisture" },
+          { "a": "The village met", "b": "In the baobab's shade" },
+          { "a": "Baobab avenue in Madagascar", "b": "Draws travellers at sunset" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bu hibab", "rootLanguage": "Arabic", "rootMeaning": "Fruit with many seeds", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Probably Arabic ", "highlight": false },
+        { "text": "bu hibab", "highlight": true },
+        { "text": " (fruit with many seeds); Africa's ancient tree of life.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A massive, long-lived African tree that stores water in its swollen trunk.",
+      "correctAnswer": "A massive water-storing African tree",
+      "hint": "Think about the tree of life with the hugely swollen trunk.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Funk",
+    "pronunciation": "FUNK",
+    "pos": "noun",
+    "definition": "A style of rhythmic dance music built on strong bass grooves, developed by African American musicians in the 1960s. Also a state of gloom, or a strong smell.",
+    "origin": "The musical sense likely traces to Kikongo <strong>lu-fuki</strong> (strong body odour, used approvingly of a hard-working musician), reinforced by older English funk (strong smell). The etymology is debated.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Funk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Kikongo lu-fuki", "b": "Strong odour, used approvingly" },
+          { "a": "Older English funk", "b": "A strong smell" },
+          { "a": "Musical development", "b": "African American musicians, 1960s" },
+          { "a": "Musical signature", "b": "Strong rhythmic bass grooves" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Funk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Funk music is built on", "b": "Deep rhythmic grooves" },
+          { "a": "Being in a funk means", "b": "Feeling gloomy or stuck" },
+          { "a": "James Brown pioneered", "b": "The funk sound" },
+          { "a": "The Kikongo sense praised", "b": "A musician's hard-earned sweat" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Funk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bassline dripped", "b": "With pure funk" },
+          { "a": "He fell into a funk", "b": "After the season ended" },
+          { "a": "The funk band locked", "b": "Into an unstoppable groove" },
+          { "a": "Seventies funk records", "b": "Still fill dance floors" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "lu-fuki", "rootLanguage": "Kikongo", "rootMeaning": "Strong odour, approvingly", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Likely Kikongo ", "highlight": false },
+        { "text": "lu-fuki", "highlight": true },
+        { "text": ", praising a musician's sweat; the groove that earned its name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A rhythmic dance music of deep bass grooves, developed by African American musicians in the 1960s.",
+      "correctAnswer": "Deep rhythmic grooves",
+      "hint": "Think about what defines funk as a musical style.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Juke",
+    "pronunciation": "JOOK",
+    "pos": "verb",
+    "definition": "To dance, especially in a roadhouse; to fake or dodge with a quick movement in sport. A jukebox is a coin-operated music machine.",
+    "origin": "From Gullah <strong>juke</strong> or <strong>joog</strong> (wicked, disorderly), likely from Wolof <strong>dzug</strong> (to live wickedly) or a related West African source. Juke joints were roadside dance halls of the American South.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-african", "name": "From Africa", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Juke</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Wolof dzug", "b": "To live wickedly" },
+          { "a": "Gullah juke", "b": "Wicked or disorderly" },
+          { "a": "Juke joint", "b": "A roadside dance hall" },
+          { "a": "Jukebox", "b": "Coin-operated music machine" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Juke</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To juke originally meant", "b": "To dance at a roadhouse" },
+          { "a": "In sport, to juke is", "b": "To dodge with a quick fake" },
+          { "a": "A juke joint served", "b": "Music, dancing, and drink" },
+          { "a": "Gullah is spoken", "b": "On the American south-east coast" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Juke</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The runner juked left", "b": "And broke free downfield" },
+          { "a": "The juke joint jumped", "b": "Until the small hours" },
+          { "a": "The jukebox played", "b": "Blues for a nickel" },
+          { "a": "Saturday nights meant", "b": "Juking at the roadhouse" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "dzug", "rootLanguage": "Wolof", "rootMeaning": "To live wickedly", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Likely Wolof ", "highlight": false },
+        { "text": "dzug", "highlight": true },
+        { "text": " via Gullah juke; the roadhouse dance that named the jukebox.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "To dance at a roadhouse, or to dodge with a quick fake in sport; source of jukebox.",
+      "correctAnswer": "To dance at a roadhouse",
+      "hint": "Think about what happened at a juke joint on a Saturday night.",
+      "generatorVersion": "1"
+    }
+  }
+]
