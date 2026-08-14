@@ -64,7 +64,7 @@ All values are extracted from `index.html`. Components must use `useTheme().colo
 | `radii.wotd` | 22 | `.wotd-hero` |
 | `radii.alarmCard` | 18 | `.alarm-card` |
 
-Typography scale (wordmark, WOTD word, section labels, etc.) lives in `theme.ts` → `typography`.
+Typography scale (wordmark, WOTD word, section labels, etc.) lives in `theme.ts` → `typography`. Serif face is **`DM Serif Text`** (`fonts.serif`, changed from `DM Serif Display` 2026-08-09 for legibility — same type family, the reading-optimized sibling cut rather than the decorative display cut). ~25 body/label/button text styles were bumped a notch in size at the same time; the big display headings (word hero, alarm time, success heading) were left as-is.
 
 ---
 
@@ -90,6 +90,7 @@ Matches `index.html` gradual light/dark behaviour:
 | `OriginText` | `mobile/components/ui/OriginText.tsx` | Etymology with `<strong>` in `colors.gold` |
 | `PrimaryButton` | `mobile/components/ui/PrimaryButton.tsx` | Ink/white (light), translucent white (dark) |
 | `DawnBackground` | `mobile/components/ui/DawnBackground.tsx` | Alias re-export of `GradientBackground` |
+| `SnoozeSlider` | `mobile/components/alarm/SnoozeSlider.tsx` | Draggable 1–20 min snooze picker, built on core RN `PanResponder` (no native slider dependency) |
 
 ---
 

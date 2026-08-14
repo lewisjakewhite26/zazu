@@ -1,3 +1,4 @@
+import { dateKeyToDayIndex, toLocalDateKey } from './date-utils';
 import type { ZazuAlarmWord } from './morning-task';
 import type { UserWordProgressLocal } from './morning-task';
 
@@ -61,15 +62,17 @@ const MONTHS_LONG = [
   'December',
 ];
 
+/** Local calendar day index for `date` - same rule as pickWordOfDay in lib/supabase.ts. */
 export function dayIndexFromDate(date: Date): number {
-  return Math.floor(date.getTime() / 86400000);
+  return dateKeyToDayIndex(toLocalDateKey(date));
 }
 
 /** Word assigned to a calendar day (same rule as pickWordOfDay). */
 export function wordForDate(words: ZazuAlarmWord[], date: Date): ZazuAlarmWord | null {
   if (!words.length) return null;
   const dayIndex = dayIndexFromDate(date);
-  return words[dayIndex % words.length] ?? null;
+  const index = ((dayIndex % words.length) + words.length) % words.length;
+  return words[index] ?? null;
 }
 
 export function startOfLocalDay(date: Date = new Date()): Date {

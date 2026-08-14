@@ -31,7 +31,6 @@ export function HomeScreen() {
     loading: progressLoading,
     streak,
     coins,
-    learnedWordIds,
     completeWord,
     setLastCompletedDateDebug,
   } = useProgress();
@@ -41,7 +40,7 @@ export function HomeScreen() {
     retry: retryWordLibrary,
     retrying: wordsRetrying,
     alarmWordOfDay,
-  } = useWordLibrary(learnedWordIds);
+  } = useWordLibrary();
 
   const handleToggleAlarm = useCallback(
     (id: string, enabled: boolean) => {

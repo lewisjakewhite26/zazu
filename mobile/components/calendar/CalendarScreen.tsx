@@ -171,7 +171,7 @@ export function CalendarScreen() {
   const router = useRouter();
   const { styles, colors } = useCalendarStyles();
   const { loading: progressLoading, streak, learnedWordIds, wordProgress } = useProgress();
-  const { loading: wordsLoading, alarmWords } = useWordLibrary(learnedWordIds);
+  const { loading: wordsLoading, alarmWords } = useWordLibrary();
   const { isGold, setDevGoldPreview, loading: subscriptionLoading } = useSubscription();
   const [selectedEntry, setSelectedEntry] = useState<CalendarDayEntry | null>(null);
   const [expandedMonths, setExpandedMonths] = useState<Set<string>>(new Set());

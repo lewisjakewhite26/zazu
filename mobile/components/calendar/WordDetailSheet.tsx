@@ -335,7 +335,7 @@ export function WordDetailSheet({
   const router = useRouter();
   const { colors, blend } = useTheme();
   const { startGymFlow } = useAlarmFlow();
-  const { gymWords } = useWordLibrary([]);
+  const { gymWords } = useWordLibrary();
 
   const styles = useMemo(() => createSheetStyles(colors), [colors]);
 

@@ -90,7 +90,7 @@ export const fonts = {
   sans: 'DMSans_400Regular',
   sansMedium: 'DMSans_500Medium',
   sansSemiBold: 'DMSans_600SemiBold',
-  serif: 'DMSerifDisplay_400Regular',
+  serif: 'DMSerifText_400Regular',
 } as const;
 
 /** index.html linear-gradient(160deg, …) */

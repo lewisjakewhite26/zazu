@@ -145,8 +145,8 @@ npm run web         # full flow + web chimes + add alarm + calendar
 
 | # | Task | Status |
 |---|------|--------|
-| 16 | Ad SDK integration (replace mock Huel card) | Not started — `screenAd` in `index.html` is explicitly a hardcoded mock |
-| 17 | Coin shop + thematic word packs | **Audited 2026-08-07** — see below. UI exists in an old copy but has no data behind it; recommend rebuilding data-first, not porting the screen |
+| 16 | Rewarded-video ads (opt-in coin-earning, capped ~3/day) | **Spec locked 2026-08-09** — see "Coin Economy & Thematic Word Packs" below. Replaces the earlier "ad SDK / replace mock Huel card" framing: no static/banner ads, no forced ads on snooze — rewarded video only, and only as an optional way to earn coins faster. Not started. |
+| 17 | Thematic Word Packs (Gym-only, 30-day campaigns) + coin unlock | **Spec locked 2026-08-09** — see "Coin Economy & Thematic Word Packs" below. Supersedes the 2026-08-07 audit's "coin shop + thematic word packs" framing with a concrete structure (30-day paths, spaced retrieval, completion badge, unlock via spent coins or all-access pass). Content: several packs already drafted in `THEMATIC PACKS/` (Games, Loan Words — African/Americas/Classical/Curious/East Asian), not yet imported to Supabase or wired in. Not started. |
 | 18 | PWA scheduled wake-up alarms | **Confirmed still not real** — `sw.js` has no `push`/`showNotification` handling; `enableNotifications()` only requests permission |
 | 19 | Night mode on mobile | Done — all screens use adaptive `useTheme()` |
 | 20 | Reach 100 words | Done (395) |
@@ -176,6 +176,26 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 | **AppIcon fallback** (Phosphor + `@expo/vector-icons` runtime fallback) | **Drop** | Actively conflicts with #44 (icon migration), which already removed `@expo/vector-icons` from `package.json`. Resurrecting this means re-adding a dependency you deliberately dropped. |
 
 Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. **All four done.** Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
+
+### Coin Economy & Thematic Word Packs (#16, #17) — spec locked 2026-08-09, not yet built
+
+**⚠️ User caution (2026-08-09):** flagged explicitly as needing "real careful thought" — a big, important job, not a quick follow-on to batch in with smaller UI fixes. Give this its own dedicated, deliberate design session (like #1's notifee migration) before writing any code against the spec below. See `POST_APP_TEST_ROADMAP.md` #8 for the same note.
+
+Supersedes the "Coin Shop: drop for now" / "Pack Shop: rewrite, data-first" verdicts above with a concrete design. Documentation only at this stage — see `PRODUCT.md` (Operating Context, Monetization) for the product-level statement; this is the build-facing breakdown.
+
+**Universal Word of the Day (dependency, already done):** the earning loop and packs below both assume the alarm word is a single global, date-keyed value — true as of `POST_APP_TEST_ROADMAP.md` #3. No further work needed here, just noting the dependency is satisfied.
+
+**Earning loop:**
+- Coins earned via: completing the morning alarm/puzzle, not snoozing, keeping a streak alive, completing Word Gym sessions. This is the existing "coins" mechanic (`PRODUCT.md` Gamification), evolving into a real spendable currency rather than just a displayed number — staying "coins," not renamed.
+- Optional rewarded-video ads as an extra earn path, capped at ~3/day. No static/banner ads anywhere. No ads — forced or optional — inserted into the snooze flow.
+
+**Thematic Word Packs:**
+- Live inside Word Gym, separate from the daily alarm word/Word of the Day — a Gym-only track, not a competing "which word today" mechanic.
+- Content: thousands of curated words across themes (Science, Food, Geography, Games, Loan Words, etc.). `THEMATIC PACKS/` already has draft content for Games (30 words) and Loan Words (5 sub-packs: African, Americas, Classical, Curious, East Asian; 30 words each seen so far) — none imported into Supabase or wired into the app yet.
+- Structure: 30-day mini-campaigns per pack, with spaced retrieval built in (reuse/extend the existing spaced-repetition primitives in `lib/gym-modes.ts` rather than building a second system). Daily levels, a completion badge + bonus coins at the end of the 30 days.
+- Unlock model: free users get a preview; full 30-day-pack access costs either spent coins or an all-access pass. This sits alongside the existing Gold subscription (which still gates full calendar history + base Word Gym) rather than replacing it — two separate unlock axes (subscription for the core app depth, coins/pass for pack depth).
+
+**Not yet scoped (needs follow-up before building):** exact coin costs per pack/pass, whether packs are Gold-subscriber-only *before* the coin/pass unlock even applies (i.e. is this a Gold-then-coins double-gate, or coins/pass alone sufficient for a free user?), the rewarded-video ad SDK choice, and the spaced-retrieval schedule shape for a 30-day path (daily levels imply a different cadence than the existing review-queue's doubling interval).
 
 ### Literary Gym Round (#48) — done, live in Supabase
 

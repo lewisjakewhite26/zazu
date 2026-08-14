@@ -15,7 +15,7 @@ type NotificationBootstrapProps = {
 export function NotificationBootstrap({ children }: NotificationBootstrapProps) {
   const router = useRouter();
   const { startFlow } = useAlarmFlow();
-  const { alarmWordOfDay } = useWordLibrary([]);
+  const { alarmWordOfDay } = useWordLibrary();
   const { alarms } = useAlarms();
 
   const openAlarmFlow = useCallback(

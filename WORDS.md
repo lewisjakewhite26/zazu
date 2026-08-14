@@ -12,6 +12,8 @@ Zazu Gold's actual gating (per `PRODUCT.md`) works differently: every word is av
 
 So the free/gold split lives at the *feature* level, not the *word content* level. If you want an actual curated Gold word pack (a subset of these 395 marked `premium` and gated by the existing RLS policies), that would be new scoping — happy to build it, just say which words or how many.
 
+Separately, **Thematic Word Packs** (Science, Food, Geography, Games, Loan Words, etc.) are planned as a distinct content track inside Word Gym — 30-day campaigns unlocked by coins or an all-access pass, not part of this 395-word daily-alarm library. Spec: `ROADMAP.md` "Coin Economy & Thematic Word Packs." Draft content for two packs already exists in `THEMATIC PACKS/` (Games, Loan Words), not yet imported to Supabase.
+
 ## Word list
 
 | # | Word | Pronunciation | Part of speech | Definition | Origin |

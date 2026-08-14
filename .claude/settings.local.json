@@ -189,7 +189,18 @@
       "Bash(node scripts/_tmp-fix-usage-casing.mjs)",
       "Bash(grep -i \"^sharp$\\\\|^pngjs$\\\\|^jimp$\")",
       "Bash(node -e \"console.log\\(require\\('sharp'\\)\\)\")",
-      "Bash(node -e *)"
+      "Bash(node -e *)",
+      "Bash(git log *)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --msg-filter 'sed \"/^Co-Authored-By: Claude/Id\"' -- --all)",
+      "Bash(git stash *)",
+      "Bash(git update-ref *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(node -e \"console.log\\(Object.keys\\(require\\('@expo-google-fonts/dm-serif-text'\\)\\)\\)\")",
+      "Read(//c/Users/lewis/lib/**)",
+      "Bash(npx vitest *)",
+      "Bash(rm tests/_tmp-word-of-day-verify.test.ts)",
+      "Bash(git --no-pager diff -- lib/supabase.ts mobile/package.json .claude/settings.local.json lib/snooze-logic.ts)"
     ],
     "additionalDirectories": [
       "C:\\Users\\lewis\\.claude\\projects\\c--Users-lewis-zazu\\memory",

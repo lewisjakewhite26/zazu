@@ -2,7 +2,7 @@
 
 Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word, and learn it before the day starts. The web prototype and Expo mobile app run the gentle alarm flow: **reveal → learn → one morning task → dismiss**. Word Gym (3-round puzzle) is available from the gym tab and calendar. The word library (395 words) lives in `zazu-words.json` and syncs to Supabase.
 
-**Status (round 8):** ~93/100 platform score · ~85/100 vision-aligned · See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md).
+**Status (round 9, 2026-07-31):** ~83/100 platform score · ~75/100 vision-aligned · See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md). A first real on-device test pass happened 2026-08-09 — see [POST_APP_TEST_ROADMAP.md](POST_APP_TEST_ROADMAP.md) for what that found and fixed (not yet folded into a re-scored audit).
 
 ## What works today
 
@@ -14,7 +14,7 @@ Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress + entitlements schema |
 | **Hosting** | Static web on **Vercel** (GitHub → auto-deploy) |
 
-**Not built yet:** auth wiring on mobile, live IAP, coin shop, **web scheduled wake-up alarms**, cloud progress sync.
+**Not built yet:** auth wiring on mobile, live IAP, **web scheduled wake-up alarms**, cloud progress sync. Coin economy + Thematic Word Packs (30-day Gym campaigns, coin/pass unlock) have a locked spec as of 2026-08-09 but no code yet — see [ROADMAP.md](ROADMAP.md) "Coin Economy & Thematic Word Packs."
 
 ### Web vs mobile — what persists
 
@@ -47,6 +47,7 @@ zazu/
 ├── WORDS.md                  Alphabetical index of all words
 ├── lib/
 │   ├── supabase.ts           Shared Supabase client (alarm + gym fetch)
+│   ├── date-utils.ts         Local-timezone date-key helpers (Word of the Day, snooze, calendar)
 │   ├── entitlements.ts       Gold tier helpers
 │   ├── entitlements-sync.ts  Sync entitlements from Supabase
 │   ├── progress-storage.ts   Local progress persistence helpers
@@ -248,7 +249,9 @@ All user-facing text in this project follows [writing-rules.md](writing-rules.md
 | Document | Purpose |
 |----------|---------|
 | [ROADMAP.md](ROADMAP.md) | P0–P3 priorities and what to build next |
-| [AUDIT.md](AUDIT.md) | Round 8 scores, gaps, and revenue notes |
+| [AUDIT.md](AUDIT.md) | Round 9 scores, gaps, and revenue notes (2026-07-31, not yet re-scored against the 2026-08-09 test pass) |
+| [POST_APP_TEST_ROADMAP.md](POST_APP_TEST_ROADMAP.md) | First real on-device test findings (2026-08-09) — bug fixes and the locked Coin Economy / Thematic Word Packs spec |
+| [PRODUCT.md](PRODUCT.md) | Product definition — purpose, positioning, monetization, principles |
 
 ## Licence
 

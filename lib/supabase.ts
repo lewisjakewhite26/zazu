@@ -1,5 +1,6 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
+import { dateKeyToDayIndex, toLocalDateKey } from './date-utils';
 import type {
   IntroEtymology,
   MorningTask,
@@ -169,30 +170,26 @@ export function gymWordToLegacy(word: ZazuGymWord): ZazuWord {
   };
 }
 
-/** Same index for everyone each calendar day (UTC). */
-export function pickWordOfDay<T>(words: T[]): T | null {
+/**
+ * Same word for every user on the same local calendar day - global and
+ * date-keyed, not personalized by learned status (previously filtered by
+ * `learnedIds`, which meant the alarm screen, home screen, and Gym tab could
+ * each resolve a different word depending on which caller passed real
+ * learned IDs vs. an empty array - see POST_APP_TEST_ROADMAP.md #3).
+ */
+export function pickWordOfDay<T>(words: T[], dateKey: string = toLocalDateKey()): T | null {
   if (!words.length) return null;
-  const dayIndex = Math.floor(Date.now() / 86400000);
-  return words[dayIndex % words.length];
+  const dayIndex = dateKeyToDayIndex(dateKey);
+  return words[((dayIndex % words.length) + words.length) % words.length];
 }
 
-/** Skip alarm-completed words until the library is exhausted, then cycle again. */
-export function pickNextAlarmWord(
-  words: ZazuAlarmWord[],
-  learnedIds: string[],
-): ZazuAlarmWord | null {
-  if (!words.length) return null;
-  const unlearned = words.filter((w) => !learnedIds.includes(w.id));
-  const pool = unlearned.length > 0 ? unlearned : words;
-  return pickWordOfDay(pool);
+export function pickNextAlarmWord(words: ZazuAlarmWord[]): ZazuAlarmWord | null {
+  return pickWordOfDay(words);
 }
 
 /** @deprecated Use pickNextAlarmWord. */
-export function pickNextWord(words: ZazuGymWord[], learnedIds: string[]): ZazuGymWord | null {
-  if (!words.length) return null;
-  const unlearned = words.filter((w) => !learnedIds.includes(w.id));
-  const pool = unlearned.length > 0 ? unlearned : words;
-  return pickWordOfDay(pool);
+export function pickNextWord(words: ZazuGymWord[]): ZazuGymWord | null {
+  return pickWordOfDay(words);
 }
 
 /** Above this, a hung RPC would otherwise block the alarm/puzzle screen forever. */

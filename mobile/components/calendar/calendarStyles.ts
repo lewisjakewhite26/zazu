@@ -149,7 +149,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       marginBottom: 8,
     },
     heroWord: {
-      fontFamily: 'DMSerifDisplay_400Regular',
+      fontFamily: 'DMSerifText_400Regular',
       fontSize: 26,
       lineHeight: 32,
       color: colors.text,
@@ -191,7 +191,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       marginBottom: 5,
     },
     cardWord: {
-      fontFamily: 'DMSerifDisplay_400Regular',
+      fontFamily: 'DMSerifText_400Regular',
       fontSize: 17,
       lineHeight: 21,
       color: colors.text,

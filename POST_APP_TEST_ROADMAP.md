@@ -9,13 +9,13 @@ Findings from the first real on-device test of a working Zazu Dev build (after r
 | # | Item | Type | Needs native rebuild? | Status |
 |---|------|------|------|------|
 | 1 | Full-screen alarm intent (`notifee` migration) | Architecture | **Yes** | Open |
-| 2 | Morning alarm UX flow — drag-and-drop spelling dismissal | UX design | No | Open (depends on #3) |
-| 3 | Word of the Day logic (per-alarm → per-day) | Logic / data model | No | Open |
+| 2 | Morning alarm UX flow — drag-and-drop spelling dismissal | UX design | No | Open (unblocked, #3 is done) |
+| 3 | Word of the Day logic (per-alarm → per-day) | Logic / data model | No | **Done** |
 | 4 | Snooze duration slider | UI + logic | No | **Done** |
 | 5 | Word Gym card spacing / dot position | UI polish | No | **Done** |
-| 6 | Typography & readability (serif, size) | Design tokens | No | **Partly done** — sizes bumped; typeface swap still open |
+| 6 | Typography & readability (serif, size) | Design tokens | No | **Done** |
 | 7 | Z logo visual bug (light mode stray line) | Bug fix | No | **Done** |
-| 8 | Word Gym / Duolingo alignment | Product design | No | Open |
+| 8 | Word Gym / Duolingo alignment | Product design | No | Partly scoped — packs structure decided, see `ROADMAP.md` |
 | 9 | Word-bank Usage-pair capitalization (found post-launch, not in original list) | Content bug | No | **Done** |
 
 Only #1 touches native code. Remaining open items (#1, #2, #3, #8) are pure JS/UI/logic apart from #1 — worth batching #2 and #3 together next (in that order, since #2 depends on #3), and treating #1 as its own focused session given how build-cycle-heavy native work proved to be tonight.
@@ -40,9 +40,14 @@ Depends on #3 (Word of the Day needs to be a single per-day value, not per-alarm
 
 ---
 
-## 3. Word of the Day Logic
+## 3. Word of the Day Logic — Done
 
-Word selection currently happens per-alarm-firing rather than per-day, so multiple enabled alarms each roll their own word instead of sharing one. Needs to become genuinely date-keyed so "Word of the Day" means the day, not the specific alarm instance.
+Turned out to be two separate bugs, both fixed, and the fix had to cover more ground than just the mobile app:
+
+1. **Timezone bug**: the day-index was computed as `Math.floor(Date.now() / 86400000)` — UTC epoch days, not the user's local calendar day. Near midnight in non-UTC zones this flips to the "wrong" day (e.g. Sydney, UTC+10, would roll over at 10am local instead of midnight). Fixed with a new shared `lib/date-utils.ts` (`toLocalDateKey()` + `dateKeyToDayIndex()`) that derives the index from the device's actual local Y/M/D, not from `Date.now()`.
+2. **Inconsistent pools bug** — the real cause of "multiple alarms, multiple words": the word-of-day pool was filtered to exclude already-learned words (`pickNextAlarmWord(words, learnedIds)`), and **5 different screens called this with inconsistent arguments** — `HomeScreen.tsx`/`CalendarScreen.tsx`/`GymScreen.tsx` passed the user's real learned-word IDs, while `NotificationBootstrap.tsx` (the actual alarm-firing path) and `WordDetailSheet.tsx` hardcoded an empty array. Different filtered pool → `dayIndex % pool.length` lands on a different word, even on the same date. Fixed by making Word of the Day fully global per the spec (every user, same word, same day) — dropped the learned-filtering from word-of-day selection entirely, and removed the now-dead `learnedWordIds` parameter from `useWordLibrary()` and all 5 call sites.
+
+Also found and fixed the same two bugs in three more places that mirror this logic: `lib/calendar-utils.ts` (the Calendar tab's per-day word lookup — had its own independent, differently-broken UTC calculation, so the Calendar could already disagree with the live alarm word even before this fix), plus their web-prototype mirrors `lib/words-api.js` and `lib/calendar-web.js`. Added `tests/word-of-day.test.ts` covering the timezone-boundary cases specifically (a `Date` at 23:30 local vs. just after local midnight).
 
 ---
 
@@ -60,11 +65,11 @@ Doubled the gap between mode-selection cards (`GymModeCard.tsx`, 8px → 16px). 
 
 ---
 
-## 6. Typography & Readability — Partly done
+## 6. Typography & Readability — Done
 
-**Done:** bumped ~25 text styles in `constants/theme.ts` (body copy, labels, buttons, meta text) by roughly a notch each, with matching line-height increases. Left the big display headings (word hero, alarm time, success heading) untouched since those weren't reported as too small.
+Bumped ~25 text styles in `constants/theme.ts` (body copy, labels, buttons, meta text) by roughly a notch each, with matching line-height increases. Left the big display headings (word hero, alarm time, success heading) untouched since those weren't reported as too small.
 
-**Still open:** the "too fancy" complaint is about the `DM Serif Display` typeface itself (used for the Word of the Day text, alarm time, headings), not size — none of the small/body text actually uses the serif face, only big showcase text does. Discussed options: **DM Serif Text** (the same type family's reading-optimized sibling cut — lowest-risk, same brand DNA) was the recommendation, vs. Lora / Fraunces / Newsreader as further-afield alternatives. Not yet implemented — needs the user to see DM Serif Text in place before deciding whether it's enough or a bigger typeface change is wanted.
+Swapped the serif typeface from `DM Serif Display` to **`DM Serif Text`** — the same type family's reading-optimized sibling cut (Display cuts are drawn for large decorative use with high-contrast quirky details; Text cuts are drawn to stay legible at reading sizes). Same brand DNA, addresses the "too fancy" complaint without a random typeface change. Updated the font load in `app/_layout.tsx`, the `fonts.serif` token in `theme.ts`, and two spots in `calendarStyles.ts` that referenced the old font name directly instead of going through the shared token. Uninstalled the now-unused `@expo-google-fonts/dm-serif-display` package. Fonts are loaded as data assets rather than native code, so this didn't need an EAS build either.
 
 ---
 
@@ -74,9 +79,13 @@ Root cause wasn't SVG (the mark is actually a raster PNG, `assets/images/zazu-ma
 
 ---
 
-## 8. Word Gym / Duolingo Alignment
+## 8. Word Gym / Duolingo Alignment — Partly scoped 2026-08-09
 
-Look into aligning Word Gym's gameplay and structure much more closely with how Duolingo works, for better engagement and progression loops. Currently unscoped — needs a proper look at what Duolingo actually does mechanically (streaks, XP/leveling, lesson-unit structure, hearts/lives, skill trees) versus what Word Gym already has (spaced-repetition modes, review queue, roots drill, usage lab), and a decision on which mechanics are worth adopting versus which would fight Zazu's own identity as an alarm-first app rather than a standalone learning app.
+The Duolingo-style piece of this is now decided: **Thematic Word Packs** as 30-day mini-campaigns with spaced retrieval, completion badges, and a coin/all-access-pass unlock — full spec in `ROADMAP.md` under "Coin Economy & Thematic Word Packs (#16, #17)". That answers the "lesson-unit structure" and "progression loop" half of this item directly.
+
+Still open: whether any *other* Duolingo mechanics (hearts/lives, skill trees, XP/leveling as a concept separate from coins) are worth adopting for the base Word Gym experience (review queue, roots drill, usage lab) outside the new thematic packs specifically.
+
+**⚠️ User caution (2026-08-09):** the user explicitly flagged that the Duolingo-aligned Word Gym work "needs real careful thought" and called it a big, important job — not something to rush into on the strength of tonight's quick-win momentum. Treat this as its own dedicated, deliberate session (design-first, like the notifee migration in #1), not a batched follow-on task. Don't start building against the spec in `ROADMAP.md` without a proper design pass first.
 
 ---
 

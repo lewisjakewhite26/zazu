@@ -16,6 +16,12 @@ No ellipsis for effect. If a thought is unfinished, finish it.
 
 ---
 
+## Product terminology
+
+**Coins**, not "gold," for the in-app earned currency (streaks, completing the alarm/puzzle, Word Gym sessions, rewarded ads). "Gold" is reserved for the paid subscription tier (Zazu Gold). Never use "gold" for the currency in copy — "earn coins" and "upgrade to Gold" must stay clearly distinct.
+
+---
+
 ## Words to never use
 
 These appear far more often in AI-generated text than human writing. Remove them on sight.

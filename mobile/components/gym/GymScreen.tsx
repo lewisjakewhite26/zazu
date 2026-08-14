@@ -44,7 +44,7 @@ export function GymScreen() {
   const { isGold, loading: subscriptionLoading } = useSubscription();
   const { loading: progressLoading, streak, coins, learnedWordIds, getGymMastery, wordProgress } =
     useProgress();
-  const { loading: wordsLoading, gymWordOfDay, gymWords } = useWordLibrary(learnedWordIds);
+  const { loading: wordsLoading, gymWordOfDay, gymWords } = useWordLibrary();
   const { literaryWords } = useLiteraryWords(isGold);
 
   const styles = useMemo(

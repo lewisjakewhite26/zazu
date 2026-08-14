@@ -3,7 +3,7 @@ import {
   DMSans_500Medium,
   DMSans_600SemiBold,
 } from '@expo-google-fonts/dm-sans';
-import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
+import { DMSerifText_400Regular } from '@expo-google-fonts/dm-serif-text';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
@@ -32,7 +32,7 @@ export default function RootLayout() {
     DMSans_400Regular,
     DMSans_500Medium,
     DMSans_600SemiBold,
-    DMSerifDisplay_400Regular,
+    DMSerifText_400Regular,
   });
 
   useEffect(() => {

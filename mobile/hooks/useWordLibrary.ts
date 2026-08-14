@@ -11,7 +11,7 @@ import {
   type ZazuGymWord,
 } from '../../lib/supabase';
 
-export function useWordLibrary(learnedWordIds: string[] = []) {
+export function useWordLibrary() {
   const [loading, setLoading] = useState(true);
   const [retrying, setRetrying] = useState(false);
   const [fetchFailed, setFetchFailed] = useState(false);
@@ -59,8 +59,8 @@ export function useWordLibrary(learnedWordIds: string[] = []) {
   }, [loadWords]);
 
   const alarmWordOfDay = useMemo(
-    () => pickNextAlarmWord(alarmWords, learnedWordIds) ?? alarmWords[0],
-    [alarmWords, learnedWordIds],
+    () => pickNextAlarmWord(alarmWords) ?? alarmWords[0],
+    [alarmWords],
   );
 
   const gymWordOfDay = useMemo(() => {
