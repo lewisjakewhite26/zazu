@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outDir = resolve(__dirname, '../mobile/assets/sounds');
-const outPath = resolve(outDir, 'alarm-chime.wav');
+const outPath = resolve(outDir, 'alarm_chime.wav');
 
 const sampleRate = 22050;
 const duration = 0.55;

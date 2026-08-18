@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { AlarmPermissionBanner } from '@/components/home/AlarmPermissionBanner';
 import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
@@ -26,7 +27,7 @@ export function HomeScreen() {
   const insets = useSafeAreaInsets();
   const { colors } = useTheme();
   const { startFlow } = useAlarmFlow();
-  const { loading: alarmsLoading, alarms, toggleAlarm, deleteAlarm } = useAlarms();
+  const { loading: alarmsLoading, alarms, permissionStatus, toggleAlarm, deleteAlarm, addAlarm } = useAlarms();
   const {
     loading: progressLoading,
     streak,
@@ -77,6 +78,15 @@ export function HomeScreen() {
     router.push('/alarm');
   }, [startFlow, alarmWordOfDay, router]);
 
+  // Schedules a real notification (not the JS-only demo above) 2 minutes
+  // out, exercising the actual AlarmManager/lock-screen path -- avoids
+  // hand-setting the time-wheel picker for every locked-phone test round.
+  const handleQuickTestAlarm = useCallback(() => {
+    const target = new Date(Date.now() + 2 * 60 * 1000);
+    const time = `${String(target.getHours()).padStart(2, '0')}:${String(target.getMinutes()).padStart(2, '0')}`;
+    void addAlarm(time, 'Quick test (+2 min)');
+  }, [addAlarm]);
+
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
@@ -89,6 +99,8 @@ export function HomeScreen() {
             showsVerticalScrollIndicator={false}
             keyboardShouldPersistTaps="handled"
           >
+            <AlarmPermissionBanner status={permissionStatus} />
+
             {wordsFetchFailed ? (
               <WordLibraryErrorBanner onRetry={retryWordLibrary} retrying={wordsRetrying} />
             ) : null}
@@ -131,6 +143,12 @@ export function HomeScreen() {
               variant="outline"
               size="demo"
               onPress={handleDemoAlarm}
+            />
+            <PrimaryButton
+              label="Quick test alarm (+2 min)"
+              variant="outline"
+              size="demo"
+              onPress={handleQuickTestAlarm}
             />
           </View>
         </View>

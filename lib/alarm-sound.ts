@@ -1,6 +1,7 @@
 // @ts-nocheck
-import { Platform, Vibration } from 'react-native';
+import { Alert, Platform, Vibration } from 'react-native';
 import { createAudioPlayer, preload, setAudioModeAsync, type AudioPlayer } from 'expo-audio';
+import { Asset } from 'expo-asset';
 
 /** Pulses while the alarm rings; loops from the start of the pattern until Vibration.cancel(). */
 const ALARM_VIBRATION_PATTERN = [0, 800, 400, 800];
@@ -15,7 +16,7 @@ export type AlarmSoundOption = {
 
 /** Every selectable alarm sound. Labels borrow real Zazu word-bank vocabulary — see writing-rules.md. */
 export const ALARM_SOUNDS: AlarmSoundOption[] = [
-  { id: 'chime', label: 'Chime', file: require('../mobile/assets/sounds/alarm-chime.wav') },
+  { id: 'chime', label: 'Chime', file: require('../mobile/assets/sounds/alarm_chime.wav') },
   { id: 'susurrus', label: 'Susurrus', file: require('../mobile/assets/sounds/susurrus.wav') },
   { id: 'mellifluous', label: 'Mellifluous', file: require('../mobile/assets/sounds/mellifluous.wav') },
   { id: 'penumbra', label: 'Penumbra', file: require('../mobile/assets/sounds/penumbra.wav') },
@@ -80,7 +81,18 @@ async function ensureSoundLoaded(soundId: AlarmSoundId): Promise<AudioPlayer | n
       interruptionMode: 'doNotMix',
     });
 
-    const source = getAlarmSoundFile(soundId);
+    // expo-audio's preload()/createAudioPlayer() resolve a raw require() id
+    // via the asset's bundled resource name -- Metro's Android packaging
+    // renames local assets to short opaque names at build time (e.g.
+    // "alarm_chime.wav" -> "qS.wav"), which that naive lookup never
+    // accounts for, so it throws FileNotFoundException in every release
+    // build regardless of filename. Resolving through expo-asset first
+    // (same thing expo-audio's own downloadFirst path does internally)
+    // gets a real local file:// URI that bypasses that lookup entirely.
+    const moduleId = getAlarmSoundFile(soundId);
+    const asset = await Asset.fromModule(moduleId).downloadAsync();
+    const source = { uri: asset.localUri ?? asset.uri };
+
     // Waits for the file to actually finish decoding — createAudioPlayer()
     // alone returns before that, so playback started immediately after it
     // would run off the end of the not-yet-buffered audio within ~1s.
@@ -92,6 +104,9 @@ async function ensureSoundLoaded(soundId: AlarmSoundId): Promise<AudioPlayer | n
     return player;
   } catch (error) {
     console.warn('[Zazu] Alarm sound load failed:', error);
+    // TEMP diagnostic — this failure was previously silent (console.warn only,
+    // never seen on device). Surfacing it until the real cause is confirmed.
+    Alert.alert('Alarm sound load failed', String(error));
     return null;
   }
 }
@@ -119,6 +134,7 @@ async function playNativeChime(soundId: AlarmSoundId) {
     sound.play();
   } catch (error) {
     console.warn('[Zazu] Alarm sound playback failed:', error);
+    Alert.alert('Alarm sound playback failed', String(error));
   }
 }
 
@@ -188,6 +204,7 @@ export async function previewAlarmSound(soundId: AlarmSoundId): Promise<void> {
     sound.play();
   } catch (error) {
     console.warn('[Zazu] Alarm sound preview failed:', error);
+    Alert.alert('Alarm sound preview failed', String(error));
   }
 }
 

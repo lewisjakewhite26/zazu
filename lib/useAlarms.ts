@@ -1,10 +1,22 @@
 // @ts-nocheck
 import { useCallback, useEffect, useState } from 'react';
+import { AppState } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { DEFAULT_ALARMS, type Alarm } from './alarm';
-import { requestNotificationPermissions, syncAlarmNotifications } from './alarm-notifications';
+import {
+  getAlarmPermissionStatus,
+  requestNotificationPermissions,
+  syncAlarmNotifications,
+  type AlarmPermissionStatus,
+} from './alarm-notifications';
 import { DEFAULT_ALARM_SOUND_ID, isAlarmSoundId } from './alarm-sound';
+
+const UNKNOWN_PERMISSION_STATUS: AlarmPermissionStatus = {
+  notificationsGranted: false,
+  exactAlarmGranted: false,
+  batteryUnrestricted: false,
+};
 
 const STORAGE_KEY = 'zazu:alarms';
 
@@ -40,7 +52,15 @@ async function writeAlarms(alarms: Alarm[]): Promise<void> {
 export function useAlarms() {
   const [loading, setLoading] = useState(true);
   const [alarms, setAlarms] = useState<Alarm[]>(DEFAULT_ALARMS);
-  const [notificationsReady, setNotificationsReady] = useState(false);
+  const [permissionStatus, setPermissionStatus] = useState<AlarmPermissionStatus>(
+    UNKNOWN_PERMISSION_STATUS,
+  );
+
+  const refreshPermissionStatus = useCallback(async () => {
+    const status = await getAlarmPermissionStatus();
+    setPermissionStatus(status);
+    return status;
+  }, []);
 
   const persistAlarms = useCallback(async (next: Alarm[]) => {
     const synced = await syncAlarmNotifications(next);
@@ -54,10 +74,10 @@ export function useAlarms() {
 
     (async () => {
       const saved = await readAlarms();
-      const granted = await requestNotificationPermissions();
+      await requestNotificationPermissions();
       if (cancelled) return;
 
-      setNotificationsReady(granted);
+      await refreshPermissionStatus();
       const synced = await syncAlarmNotifications(saved);
       if (!cancelled) {
         await writeAlarms(synced);
@@ -69,7 +89,17 @@ export function useAlarms() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [refreshPermissionStatus]);
+
+  // Exact-alarm and battery-optimization grants happen in system Settings,
+  // outside any in-app callback -- foreground is the only moment we can
+  // notice the user came back having fixed (or revoked) them.
+  useEffect(() => {
+    const subscription = AppState.addEventListener('change', (state) => {
+      if (state === 'active') void refreshPermissionStatus();
+    });
+    return () => subscription.remove();
+  }, [refreshPermissionStatus]);
 
   const toggleAlarm = useCallback(
     async (id: string, enabled: boolean) => {
@@ -105,7 +135,8 @@ export function useAlarms() {
   return {
     loading,
     alarms,
-    notificationsReady,
+    permissionStatus,
+    refreshPermissionStatus,
     toggleAlarm,
     replaceAlarms,
     addAlarm,

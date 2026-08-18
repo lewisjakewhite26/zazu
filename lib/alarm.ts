@@ -6,7 +6,6 @@ export type Alarm = {
   time: string;
   label: string;
   enabled: boolean;
-  notificationId?: string;
   soundId: AlarmSoundId;
 };
 
