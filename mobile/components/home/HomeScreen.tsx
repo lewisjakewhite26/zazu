@@ -12,7 +12,6 @@ import { showAppAlert } from '@/components/ui/AppAlert';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
-import { ProgressDebugPanel } from '@/components/home/ProgressDebugPanel';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
@@ -28,13 +27,7 @@ export function HomeScreen() {
   const { colors } = useTheme();
   const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, permissionStatus, toggleAlarm, deleteAlarm } = useAlarms();
-  const {
-    loading: progressLoading,
-    streak,
-    coins,
-    completeWord,
-    setLastCompletedDateDebug,
-  } = useProgress();
+  const { loading: progressLoading, streak, coins } = useProgress();
   const {
     loading: wordsLoading,
     fetchFailed: wordsFetchFailed,
@@ -113,13 +106,6 @@ export function HomeScreen() {
                   />
                 ))}
             </View>
-
-            <ProgressDebugPanel
-              wordId={alarmWordOfDay.id}
-              streak={streak}
-              onSetLastCompleted={setLastCompletedDateDebug}
-              onCompleteWord={completeWord}
-            />
           </ScrollView>
 
           <View
