@@ -225,6 +225,7 @@ async function upsertWord(supabase, entry, displayOrder) {
       source_value: task.sourceValue,
       correct_answer: task.correctAnswer,
       hint: task.hint ?? null,
+      passage: task.passage ?? null,
       source_root_id: sourceRootId,
       generator_version: task.generatorVersion ?? '1',
       generated_at: new Date().toISOString(),
