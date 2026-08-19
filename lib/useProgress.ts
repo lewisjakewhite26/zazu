@@ -329,6 +329,40 @@ export function useProgress() {
     applyProgress(next);
   }, [applyProgress]);
 
+  /**
+   * Finishes the free Daily Ritual (today's word only, offered after the
+   * alarm). Flat, modest reward -- smaller than a paid Gym completion, and
+   * only paid out once per word per day so reopening the ritual to replay
+   * for practice doesn't farm coins. No effect on gym mastery or review
+   * scheduling, matching completeGymModeSession's scope.
+   */
+  const completeDailyRitual = useCallback(
+    async (wordId: string) => {
+      const DAILY_RITUAL_COINS = 10;
+      const today = toIsoDate();
+      const saved = await readProgress();
+      const existing = getWordProgress(saved, wordId);
+      const alreadyCompletedToday = existing.dailyRitualCompletedDate === today;
+      const earned = alreadyCompletedToday ? 0 : DAILY_RITUAL_COINS;
+
+      const next: ProgressState = {
+        ...saved,
+        coins: saved.coins + earned,
+        wordProgress: upsertWordProgress(saved.wordProgress, {
+          ...existing,
+          wordId,
+          dailyRitualCompletedDate: today,
+        }),
+      };
+
+      await writeProgress(next);
+      applyProgress(next);
+
+      return { coinsEarned: earned, totalCoins: next.coins, alreadyCompletedToday };
+    },
+    [applyProgress],
+  );
+
   /** Finishes a Roots Drill / Usage Lab session: flat coins per word answered, no effect on gym mastery or review scheduling. */
   const completeGymModeSession = useCallback(
     async (wordIds: string[], options: { coinsPerWord?: number } = {}) => {
@@ -359,6 +393,7 @@ export function useProgress() {
     wordProgress,
     completeWord,
     completeGym,
+    completeDailyRitual,
     getGymMastery,
     recordMcqAnswer,
     completeGymModeSession,

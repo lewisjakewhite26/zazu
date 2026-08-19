@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { CoinsIcon, FireIcon } from 'phosphor-react-native';
-import { useRouter } from 'expo-router';
+import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
@@ -14,6 +14,8 @@ import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
+import { useWordLibrary } from '@/hooks/useWordLibrary';
+import { buildDailyRitual } from '../../../lib/daily-ritual';
 import { hapticSuccess } from '../../../lib/feedback';
 import { getStreakTitle } from '../../../lib/streak-titles';
 
@@ -56,8 +58,21 @@ const coinRowStyles = StyleSheet.create({
 export function SuccessScreen() {
   const router = useRouter();
   const { colors, blend } = useTheme();
-  const { sessionWord, completionResult, clearFlow } = useAlarmFlow();
+  const { sessionWord, completionResult, clearFlow, startDailyRitual } = useAlarmFlow();
+  const { alarmWords, gymWords } = useWordLibrary();
   const isNight = blend >= 0.5;
+
+  const dailyRitual = useMemo(() => {
+    if (!sessionWord) return null;
+    const gymWord = gymWords.find((word) => word.id === sessionWord.id);
+    return buildDailyRitual(sessionWord, alarmWords, gymWord, gymWords);
+  }, [sessionWord, alarmWords, gymWords]);
+
+  const handleStartDailyRitual = () => {
+    if (!sessionWord || !dailyRitual) return;
+    startDailyRitual({ ...dailyRitual, wordId: sessionWord.id, word: sessionWord.word });
+    router.push('/daily-ritual' as unknown as Href);
+  };
 
   useEffect(() => {
     if (!sessionWord || !completionResult) {
@@ -207,6 +222,34 @@ export function SuccessScreen() {
         doneBtn: {
           maxWidth: 320,
         },
+        ritualCard: {
+          width: '100%',
+          maxWidth: 320,
+          marginBottom: 18,
+        },
+        ritualContent: {
+          paddingHorizontal: 20,
+          paddingVertical: 18,
+          alignItems: 'center',
+        },
+        ritualHeading: {
+          fontFamily: fonts.serif,
+          fontSize: 18,
+          color: colors.text,
+          marginBottom: 4,
+          textAlign: 'center',
+        },
+        ritualSub: {
+          fontFamily: fonts.sans,
+          fontSize: 12.5,
+          lineHeight: 18,
+          color: colors.subtext,
+          marginBottom: 14,
+          textAlign: 'center',
+        },
+        ritualCta: {
+          width: '100%',
+        },
       }),
     [colors],
   );
@@ -277,6 +320,19 @@ export function SuccessScreen() {
                 </View>
               </View>
             </GlassCard>
+
+            {dailyRitual && dailyRitual.mcqQuestions.length > 0 ? (
+              <GlassCard borderRadius={radii.alarmCard} style={styles.ritualCard} contentStyle={styles.ritualContent}>
+                <Text style={styles.ritualHeading}>{copy.dailyRitual.successCta}</Text>
+                <Text style={styles.ritualSub}>{copy.dailyRitual.successCtaSub}</Text>
+                <PrimaryButton
+                  label={copy.dailyRitual.start}
+                  variant="outline"
+                  onPress={handleStartDailyRitual}
+                  style={styles.ritualCta}
+                />
+              </GlassCard>
+            ) : null}
 
             <PrimaryButton label={copy.success.done} variant="outline" onPress={handleDone} style={styles.doneBtn} />
           </View>

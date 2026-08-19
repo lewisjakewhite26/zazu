@@ -24,6 +24,7 @@ export const DEMO_ALARM_WORDS: ZazuAlarmWord[] = [
       sourceValue: 'matutinus',
       correctAnswer: 'Of the morning',
       hint: 'Check the highlighted roots in the etymology line.',
+      passage: 'She always did her best thinking during a quiet matutinal walk, before the street had woken up.',
     },
   },
   {
@@ -50,6 +51,7 @@ export const DEMO_ALARM_WORDS: ZazuAlarmWord[] = [
       sourceValue: 'lucidus',
       correctAnswer: 'Bright, shining',
       hint: 'Check the highlighted roots in the etymology line.',
+      passage: 'Even half asleep, her explanation was lucid enough that everyone understood the plan.',
     },
   },
   {
@@ -80,6 +82,7 @@ export const DEMO_ALARM_WORDS: ZazuAlarmWord[] = [
       sourceValue: 'ephemeros',
       correctAnswer: 'Lasting only a day',
       hint: 'Check the highlighted roots in the etymology line.',
+      passage: 'The morning fog was ephemeral, gone within minutes of the sun coming up.',
     },
   },
 ];

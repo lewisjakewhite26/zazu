@@ -21,6 +21,12 @@ export type MorningTask = {
   sourceValue: string;
   correctAnswer: string;
   hint: string | null;
+  /**
+   * Short passage containing the word of the day exactly once, for the
+   * tap-to-find dismissal task. Pre-written/pre-generated, never built at
+   * alarm-fire time -- see lib/word-spotting.ts.
+   */
+  passage?: string;
 };
 
 export type MorningTaskDistractor = {
@@ -170,4 +176,6 @@ export type UserWordProgressLocal = {
   coinsEarned?: number | null;
   /** True when the morning task's MCQ was answered correctly with no wrong attempts (no hint needed). */
   firstTry?: boolean;
+  /** Local calendar date (YYYY-MM-DD) the free Daily Ritual was last completed for this word, for same-day dedupe. */
+  dailyRitualCompletedDate?: string | null;
 };

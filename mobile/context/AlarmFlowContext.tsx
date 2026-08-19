@@ -3,6 +3,7 @@ import { createContext, useCallback, useContext, useMemo, useState, type ReactNo
 import type { CompletionResult, GymCompletionResult } from '../../lib/useProgress';
 import type { GymMcqQuestion } from '../../lib/gym-modes';
 import type { LiteraryMcqQuestion } from '../../lib/literary-words';
+import type { DailyRitual } from '../../lib/daily-ritual';
 import type { ZazuAlarmWord, ZazuGymWord } from '../../lib/supabase';
 import { DEFAULT_ALARM_SOUND_ID, type AlarmSoundId } from '../../lib/alarm-sound';
 
@@ -10,10 +11,14 @@ export type GymModeSession =
   | { mode: 'roots_drill' | 'usage_lab'; mcqQuestions: GymMcqQuestion[] }
   | { mode: 'literary'; literaryQuestions: LiteraryMcqQuestion[] };
 
+/** The free, optional post-alarm ritual, scoped to just today's word. */
+export type DailyRitualSession = DailyRitual & { wordId: string; word: string };
+
 type AlarmFlowContextValue = {
   sessionWord: ZazuAlarmWord | null;
   gymSessionWord: ZazuGymWord | null;
   gymSession: GymModeSession | null;
+  dailyRitualSession: DailyRitualSession | null;
   completionResult: CompletionResult | null;
   gymCompletionResult: GymCompletionResult | null;
   /** True when the alarm flow was entered via the Home screen's "Try the alarm" preview rather than a real scheduled notification. Demo sessions get a visible exit; the real alarm stays locked until the task is done, by design. */
@@ -28,6 +33,7 @@ type AlarmFlowContextValue = {
   ) => void;
   startGymFlow: (word: ZazuGymWord) => void;
   startGymModeSession: (session: GymModeSession) => void;
+  startDailyRitual: (session: DailyRitualSession) => void;
   setCompletionResult: (result: CompletionResult) => void;
   setGymCompletionResult: (result: GymCompletionResult) => void;
   clearFlow: () => void;
@@ -39,6 +45,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
   const [sessionWord, setSessionWord] = useState<ZazuAlarmWord | null>(null);
   const [gymSessionWord, setGymSessionWord] = useState<ZazuGymWord | null>(null);
   const [gymSession, setGymSession] = useState<GymModeSession | null>(null);
+  const [dailyRitualSession, setDailyRitualSession] = useState<DailyRitualSession | null>(null);
   const [completionResult, setCompletionResultState] = useState<CompletionResult | null>(null);
   const [gymCompletionResult, setGymCompletionResultState] = useState<GymCompletionResult | null>(
     null,
@@ -79,6 +86,10 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setAlarmId(null);
   }, []);
 
+  const startDailyRitual = useCallback((session: DailyRitualSession) => {
+    setDailyRitualSession(session);
+  }, []);
+
   const setCompletionResult = useCallback((result: CompletionResult) => {
     setCompletionResultState(result);
   }, []);
@@ -91,6 +102,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
     setSessionWord(null);
     setGymSessionWord(null);
     setGymSession(null);
+    setDailyRitualSession(null);
     setCompletionResultState(null);
     setGymCompletionResultState(null);
     setIsDemo(false);
@@ -103,6 +115,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       sessionWord,
       gymSessionWord,
       gymSession,
+      dailyRitualSession,
       completionResult,
       gymCompletionResult,
       isDemo,
@@ -111,6 +124,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       startFlow,
       startGymFlow,
       startGymModeSession,
+      startDailyRitual,
       setCompletionResult,
       setGymCompletionResult,
       clearFlow,
@@ -119,6 +133,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       sessionWord,
       gymSessionWord,
       gymSession,
+      dailyRitualSession,
       completionResult,
       gymCompletionResult,
       isDemo,
@@ -127,6 +142,7 @@ export function AlarmFlowProvider({ children }: { children: ReactNode }) {
       startFlow,
       startGymFlow,
       startGymModeSession,
+      startDailyRitual,
       setCompletionResult,
       setGymCompletionResult,
       clearFlow,

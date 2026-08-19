@@ -1,14 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import {
-  AccessibilityInfo,
-  ActivityIndicator,
-  Animated,
-  Easing,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { useEffect, useMemo, useState } from 'react';
+import { AccessibilityInfo, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -17,17 +8,17 @@ import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
-import { typography } from '@/constants/theme';
+import { fonts, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useSnooze } from '@/hooks/useSnooze';
-import { buildMorningOptions } from '../../../lib/morning-task';
-import { fetchMorningTaskDistractors } from '../../../lib/supabase';
+import { tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
 
 const CORRECT_CONFIRM_MS = 500;
+const WRONG_CLEAR_MS = 700;
 
 export function MorningTaskScreen() {
   const router = useRouter();
@@ -36,17 +27,13 @@ export function MorningTaskScreen() {
   const { completeWord } = useProgress();
   // Not yet used today's snooze -> this alarm was dismissed clean, award the bonus.
   const { canSnooze: earnedNoSnoozeBonus } = useSnooze();
-  const [loading, setLoading] = useState(true);
-  const [question, setQuestion] = useState('');
-  const [options, setOptions] = useState<string[]>([]);
-  const [correctIndex, setCorrectIndex] = useState(0);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [dismissReady, setDismissReady] = useState(false);
+  const [checking, setChecking] = useState(false);
+  const [correctIndex, setCorrectIndex] = useState<number | null>(null);
+  const [wrongIndex, setWrongIndex] = useState<number | null>(null);
+  const [showTryAgain, setShowTryAgain] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [hint, setHint] = useState<string | null>(null);
   const [wrongAttempts, setWrongAttempts] = useState(0);
-  const optionScales = useRef<Animated.Value[]>([]);
-  const optionShakes = useRef<Animated.Value[]>([]);
 
   useEffect(() => {
     if (!sessionWord) {
@@ -55,90 +42,81 @@ export function MorningTaskScreen() {
   }, [sessionWord, router]);
 
   useEffect(() => {
-    if (!sessionWord) return;
-
-    let cancelled = false;
-
-    (async () => {
-      const pool = await fetchMorningTaskDistractors();
-      if (cancelled) return;
-
-      const built = buildMorningOptions(sessionWord, pool, 3);
-      setQuestion(built.question);
-      setOptions(built.options);
-      setCorrectIndex(built.correctIndex);
-      setHint(sessionWord.morningTask.hint);
-      setSelectedIndex(null);
-      setDismissReady(false);
-      setLoading(false);
-    })();
-
-    return () => {
-      cancelled = true;
-    };
+    setDismissReady(false);
+    setChecking(false);
+    setCorrectIndex(null);
+    setWrongIndex(null);
+    setShowTryAgain(false);
+    setWrongAttempts(0);
   }, [sessionWord]);
 
+  const tokens: PassageToken[] = useMemo(() => {
+    if (!sessionWord?.morningTask.passage) return [];
+    return tokenizePassage(sessionWord.morningTask.passage, sessionWord.word);
+  }, [sessionWord]);
+
+  const targetIndex = useMemo(() => tokens.findIndex((token) => token.isTarget), [tokens]);
+  const showHintClue = wrongAttempts >= 1;
+  const showHintReveal = wrongAttempts >= 2;
+
   useEffect(() => {
-    setDismissReady(false);
-    setSelectedIndex(null);
-    setWrongAttempts(0);
-  }, [options]);
-
-  /** Lazily creates the Animated.Value for an option on first access during
-   * render, rather than waiting on a separate effect (which mutates the ref
-   * without triggering a re-render, so options could commit as empty). */
-  function getOptionScale(index: number): Animated.Value {
-    if (!optionScales.current[index]) {
-      optionScales.current[index] = new Animated.Value(1);
+    if (wrongAttempts === 1 && sessionWord) {
+      AccessibilityInfo.announceForAccessibility(copy.morningTask.hintClue(sessionWord.definition));
+    } else if (wrongAttempts === 2) {
+      AccessibilityInfo.announceForAccessibility(copy.morningTask.hintReveal);
     }
-    return optionScales.current[index];
-  }
-
-  function getOptionShake(index: number): Animated.Value {
-    if (!optionShakes.current[index]) {
-      optionShakes.current[index] = new Animated.Value(0);
-    }
-    return optionShakes.current[index];
-  }
-
-  const isCorrect = selectedIndex === correctIndex;
-
-  const optionStyles = useMemo(
-    () =>
-      options.map((_, index) => {
-        if (selectedIndex === null) {
-          return {
-            backgroundColor: colors.card,
-            borderColor: colors.border,
-            textColor: colors.text,
-          };
-        }
-        if (index === correctIndex && isCorrect) {
-          return {
-            backgroundColor: 'rgba(168,216,176,0.35)',
-            borderColor: colors.correct,
-            textColor: colors.text,
-          };
-        }
-        if (index === selectedIndex && !isCorrect) {
-          return {
-            backgroundColor: 'rgba(232,97,122,0.15)',
-            borderColor: colors.wrong,
-            textColor: colors.text,
-          };
-        }
-        return {
-          backgroundColor: colors.card,
-          borderColor: colors.border,
-          textColor: colors.subtext,
-        };
-      }),
-    [colors, correctIndex, isCorrect, options, selectedIndex],
-  );
+  }, [wrongAttempts, sessionWord]);
 
   const handleExitDemo = () => {
     clearFlow();
     router.replace('/');
+  };
+
+  const handleTapToken = (index: number) => {
+    const token = tokens[index];
+    if (!token?.isWord || checking || dismissReady || submitting) return;
+
+    if (token.isTarget) {
+      setChecking(true);
+      setShowTryAgain(false);
+      setCorrectIndex(index);
+      hapticCorrect();
+      AccessibilityInfo.announceForAccessibility('Correct.');
+      setTimeout(() => {
+        setDismissReady(true);
+        setChecking(false);
+        AccessibilityInfo.announceForAccessibility('You can now dismiss the alarm.');
+      }, CORRECT_CONFIRM_MS);
+      return;
+    }
+
+    setWrongAttempts((count) => count + 1);
+    setShowTryAgain(true);
+    setWrongIndex(index);
+    hapticWrong();
+    AccessibilityInfo.announceForAccessibility(copy.morningTask.tryAgain);
+    setTimeout(() => {
+      setWrongIndex(null);
+      setShowTryAgain(false);
+    }, WRONG_CLEAR_MS);
+  };
+
+  const handleDismiss = async () => {
+    if (!sessionWord || !dismissReady || submitting) return;
+    setSubmitting(true);
+    AccessibilityInfo.announceForAccessibility('Dismissing alarm…');
+    try {
+      const result = await completeWord(sessionWord.id, {
+        noSnooze: earnedNoSnoozeBonus,
+        firstTry: wrongAttempts === 0,
+      });
+      if (result) {
+        setCompletionResult(result);
+        router.replace('/success');
+      }
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const styles = useMemo(
@@ -167,43 +145,50 @@ export function MorningTaskScreen() {
           textTransform: 'uppercase',
           marginBottom: 10,
         },
-        word: {
-          ...typography.learnWord,
-          color: colors.text,
-          marginBottom: spacing.lg,
-        },
-        loader: {
-          marginTop: spacing.xl,
-        },
-        question: {
+        prompt: {
           ...typography.mtQuestion,
           color: colors.text,
-          marginBottom: 18,
+          marginBottom: 8,
         },
-        options: {
-          gap: 10,
+        passageWrap: {
+          marginBottom: spacing.xl,
         },
-        option: {
-          borderWidth: 1,
-          borderRadius: 14,
-          paddingHorizontal: 16,
-          paddingVertical: 14,
+        passageText: {
+          fontFamily: fonts.serif,
+          fontSize: 24,
+          lineHeight: 38,
+          color: colors.text,
         },
-        optionText: {
-          ...typography.mtOption,
+        wordToken: {
+          // Larger touch target than the glyphs alone need -- deliberately
+          // generous, since precise taps are the wrong thing to demand right
+          // after waking (see ALARM_DEBUG_SESSION notes on sleep inertia).
+          paddingVertical: 4,
         },
-        hint: {
-          fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          lineHeight: 20,
-          color: colors.subtext,
-          marginTop: 14,
+        wordTokenCorrect: {
+          backgroundColor: colors.correct,
+          borderRadius: 6,
+        },
+        wordTokenWrong: {
+          backgroundColor: colors.wrong,
+          borderRadius: 6,
+        },
+        wordTokenHint: {
+          backgroundColor: `${colors.gold}2e`,
+          borderRadius: 6,
         },
         tryAgain: {
-          fontFamily: typography.btnDemo.fontFamily,
+          fontFamily: fonts.sans,
           fontSize: 14,
           color: colors.subtext,
           marginTop: spacing.md,
+          textAlign: 'center',
+        },
+        hintClue: {
+          fontFamily: fonts.sans,
+          fontSize: 14,
+          color: colors.subtext,
+          marginTop: spacing.sm,
           textAlign: 'center',
         },
         cta: {
@@ -212,80 +197,6 @@ export function MorningTaskScreen() {
       }),
     [colors],
   );
-
-  const runCorrectPop = (index: number) => {
-    const scale = getOptionScale(index);
-    Animated.sequence([
-      Animated.timing(scale, { toValue: 0.88, duration: 0, useNativeDriver: true }),
-      Animated.timing(scale, {
-        toValue: 1.07,
-        duration: 240,
-        easing: Easing.out(Easing.cubic),
-        useNativeDriver: true,
-      }),
-      Animated.timing(scale, {
-        toValue: 1,
-        duration: 160,
-        easing: Easing.out(Easing.cubic),
-        useNativeDriver: true,
-      }),
-    ]).start();
-  };
-
-  const runWrongShake = (index: number) => {
-    const shake = getOptionShake(index);
-    shake.setValue(0);
-    Animated.sequence([
-      Animated.timing(shake, { toValue: -7, duration: 70, useNativeDriver: true }),
-      Animated.timing(shake, { toValue: 7, duration: 70, useNativeDriver: true }),
-      Animated.timing(shake, { toValue: -4, duration: 70, useNativeDriver: true }),
-      Animated.timing(shake, { toValue: 4, duration: 70, useNativeDriver: true }),
-      Animated.timing(shake, { toValue: 0, duration: 70, useNativeDriver: true }),
-    ]).start();
-  };
-
-  const handleSelect = (index: number) => {
-    if (submitting || dismissReady || isCorrect) return;
-
-    if (index === correctIndex) {
-      setSelectedIndex(index);
-      hapticCorrect();
-      runCorrectPop(index);
-      AccessibilityInfo.announceForAccessibility(`Correct. ${options[index]}.`);
-      setTimeout(() => {
-        setDismissReady(true);
-        AccessibilityInfo.announceForAccessibility('You can now dismiss the alarm.');
-      }, CORRECT_CONFIRM_MS);
-      return;
-    }
-
-    hapticWrong();
-    setSelectedIndex(index);
-    setWrongAttempts((count) => count + 1);
-    runWrongShake(index);
-    AccessibilityInfo.announceForAccessibility(hint ? `Not quite. ${hint}` : 'Not quite. Try again.');
-    setTimeout(() => {
-      setSelectedIndex((current) => (current === index ? null : current));
-    }, 700);
-  };
-
-  const handleDismiss = async () => {
-    if (!sessionWord || !dismissReady || submitting) return;
-    setSubmitting(true);
-    AccessibilityInfo.announceForAccessibility('Dismissing alarm…');
-    try {
-      const result = await completeWord(sessionWord.id, {
-        noSnooze: earnedNoSnoozeBonus,
-        firstTry: wrongAttempts === 0,
-      });
-      if (result) {
-        setCompletionResult(result);
-        router.replace('/success');
-      }
-    } finally {
-      setSubmitting(false);
-    }
-  };
 
   if (!sessionWord) return null;
 
@@ -304,70 +215,51 @@ export function MorningTaskScreen() {
         ) : null}
         <View style={styles.inner}>
           <Text style={styles.eyebrow}>{copy.morningTask.eyebrow}</Text>
-          <Text style={styles.word}>{sessionWord.word}</Text>
+          <Text style={styles.prompt}>{copy.morningTask.findPrompt}</Text>
 
-          {loading ? (
-            <ActivityIndicator color={colors.subtext} style={styles.loader} />
-          ) : (
-            <>
-              <Text style={styles.question}>{question}</Text>
+          <View style={styles.passageWrap}>
+            <Text style={styles.passageText}>
+              {tokens.map((token, index) => {
+                if (!token.isWord) {
+                  return <Text key={index}>{token.text}</Text>;
+                }
+                return (
+                  <Text
+                    key={index}
+                    onPress={() => handleTapToken(index)}
+                    style={[
+                      styles.wordToken,
+                      showHintReveal && index === targetIndex && styles.wordTokenHint,
+                      correctIndex === index && styles.wordTokenCorrect,
+                      wrongIndex === index && styles.wordTokenWrong,
+                    ]}
+                    accessibilityRole="button"
+                    accessibilityLabel={`Word: ${token.text}`}
+                  >
+                    {token.text}
+                  </Text>
+                );
+              })}
+            </Text>
+          </View>
 
-              <View style={styles.options}>
-                {options.map((option, index) => {
-                  const scale = getOptionScale(index);
-                  const shake = getOptionShake(index);
-                  return (
-                    <Animated.View
-                      key={`${option}-${index}`}
-                      style={{
-                        transform: [{ scale }, { translateX: shake }],
-                      }}
-                    >
-                      <Pressable
-                        accessibilityRole="button"
-                        accessibilityState={{
-                          selected: selectedIndex === index,
-                          disabled: dismissReady,
-                        }}
-                        onPress={() => handleSelect(index)}
-                        disabled={dismissReady}
-                        style={[
-                          styles.option,
-                          {
-                            backgroundColor: optionStyles[index].backgroundColor,
-                            borderColor: optionStyles[index].borderColor,
-                          },
-                        ]}
-                      >
-                        <Text style={[styles.optionText, { color: optionStyles[index].textColor }]}>
-                          {option}
-                        </Text>
-                      </Pressable>
-                    </Animated.View>
-                  );
-                })}
-              </View>
+          {showTryAgain ? <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text> : null}
+          {!dismissReady && showHintReveal ? (
+            <Text style={styles.hintClue}>{copy.morningTask.hintReveal}</Text>
+          ) : !dismissReady && showHintClue && sessionWord ? (
+            <Text style={styles.hintClue}>{copy.morningTask.hintClue(sessionWord.definition)}</Text>
+          ) : null}
 
-              {selectedIndex !== null && !isCorrect && hint ? (
-                <Text style={styles.hint}>{hint}</Text>
-              ) : null}
-
-              {dismissReady ? (
-                <PrimaryButton
-                  label={copy.morningTask.dismiss}
-                  variant="wake"
-                  onPress={() => void handleDismiss()}
-                  disabled={submitting}
-                  loading={submitting}
-                  style={styles.cta}
-                />
-              ) : null}
-
-              {selectedIndex !== null && !isCorrect ? (
-                <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text>
-              ) : null}
-            </>
-          )}
+          {dismissReady ? (
+            <PrimaryButton
+              label={copy.morningTask.dismiss}
+              variant="wake"
+              onPress={() => void handleDismiss()}
+              disabled={submitting}
+              loading={submitting}
+              style={styles.cta}
+            />
+          ) : null}
         </View>
       </SafeAreaView>
     </GradientBackground>

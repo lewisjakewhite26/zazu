@@ -99,6 +99,7 @@ export default function RootLayout() {
                     <Stack.Screen name="gym-literary-round" options={{ headerShown: false }} />
                     <Stack.Screen name="ad" options={{ headerShown: false, gestureEnabled: false }} />
                     <Stack.Screen name="success" options={{ headerShown: false, gestureEnabled: false }} />
+                    <Stack.Screen name="daily-ritual" options={{ headerShown: false }} />
                     <Stack.Screen name="gym-success" options={{ headerShown: false, gestureEnabled: false }} />
                     <Stack.Screen name="calendar" options={{ headerShown: false }} />
                     <Stack.Screen name="settings" options={{ headerShown: false, presentation: 'modal' }} />
