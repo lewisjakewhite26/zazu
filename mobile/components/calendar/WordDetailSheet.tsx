@@ -360,7 +360,7 @@ export function WordDetailSheet({
 
   return (
     <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
-      <Pressable style={styles.overlay} onPress={onClose}>
+      <Pressable style={styles.overlay} onPress={onClose} accessible={false}>
         {Platform.OS !== 'web' ? (
           <BlurView
             intensity={30}
@@ -368,7 +368,12 @@ export function WordDetailSheet({
             style={StyleSheet.absoluteFill}
           />
         ) : null}
-        <Pressable style={styles.sheet} onPress={(e) => e.stopPropagation()}>
+        <Pressable
+          style={styles.sheet}
+          onPress={(e) => e.stopPropagation()}
+          accessible={false}
+          accessibilityViewIsModal
+        >
         <GlassCard borderRadius={24} style={styles.sheetCard} contentStyle={styles.sheetContent}>
           <View style={styles.handle} />
           <ScrollView showsVerticalScrollIndicator={false}>
@@ -434,6 +439,8 @@ export function WordDetailSheet({
                   style={styles.gymUnlockBtn}
                   onPress={onUnlockGold}
                   hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                  accessibilityRole="button"
+                  accessibilityLabel={copy.calendar.unlock}
                 >
                   <Text style={styles.gymUnlockText}>{copy.calendar.unlock}</Text>
                 </Pressable>
@@ -456,6 +463,8 @@ export function WordDetailSheet({
                     style={styles.gymBtn}
                     onPress={openGym}
                     hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                    accessibilityRole="button"
+                    accessibilityLabel={copy.calendar.openGym}
                   >
                     <Text style={styles.gymBtnText}>{copy.calendar.openGym}</Text>
                   </Pressable>

@@ -87,8 +87,17 @@ export function GymModeCard({
     [colors, locked, disabled],
   );
 
+  const accessibilityLabel = [title, description, badgeLabel].filter(Boolean).join('. ');
+
   return (
-    <Pressable onPress={onPress} disabled={disabled} style={styles.pressable}>
+    <Pressable
+      onPress={onPress}
+      disabled={disabled}
+      style={styles.pressable}
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel}
+      accessibilityState={{ disabled: locked || disabled }}
+    >
       <GlassCard borderRadius={radii.alarmCard} style={styles.card} contentStyle={styles.inner}>
         <View style={styles.iconWrap}>
           {locked ? (

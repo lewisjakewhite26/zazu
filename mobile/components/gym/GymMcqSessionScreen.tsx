@@ -240,6 +240,12 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
                     onPress={() => handleSelect(index)}
                     disabled={advanceReady || finishing}
                     style={[styles.option, { backgroundColor, borderColor }]}
+                    accessibilityRole="button"
+                    accessibilityLabel={option}
+                    accessibilityState={{
+                      selected: selectedIndex === index,
+                      disabled: advanceReady || finishing,
+                    }}
                   >
                     <Text style={[styles.optionText, { color: textColor }]}>{option}</Text>
                   </Pressable>

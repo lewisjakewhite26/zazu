@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { AccessibilityInfo, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -131,7 +131,9 @@ export function GoldPaywallScreen() {
       await purchaseGold();
       router.back();
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Purchase failed');
+      const message = err instanceof Error ? err.message : 'Purchase failed';
+      setError(message);
+      AccessibilityInfo.announceForAccessibility(message);
     } finally {
       setBusy(false);
     }
@@ -142,10 +144,16 @@ export function GoldPaywallScreen() {
     setError(null);
     try {
       const restored = await restorePurchases();
-      if (restored) router.back();
-      else setError(copy.gold.restoreNone);
+      if (restored) {
+        router.back();
+      } else {
+        setError(copy.gold.restoreNone);
+        AccessibilityInfo.announceForAccessibility(copy.gold.restoreNone);
+      }
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Restore failed');
+      const message = err instanceof Error ? err.message : 'Restore failed';
+      setError(message);
+      AccessibilityInfo.announceForAccessibility(message);
     } finally {
       setBusy(false);
     }
@@ -196,7 +204,11 @@ export function GoldPaywallScreen() {
             <Text style={styles.sub}>{copy.gold.setupRequired}</Text>
           ) : null}
 
-          {error ? <Text style={styles.error}>{error}</Text> : null}
+          {error ? (
+            <Text style={styles.error} accessibilityRole="alert">
+              {error}
+            </Text>
+          ) : null}
         </ScrollView>
 
         <View style={[styles.footer, { paddingBottom: insets.bottom || spacing.lg }]}>
@@ -207,7 +219,12 @@ export function GoldPaywallScreen() {
             disabled={loading}
           />
           {revenueCatReady ? (
-            <Pressable style={styles.link} onPress={() => void handleRestore()}>
+            <Pressable
+              style={styles.link}
+              onPress={() => void handleRestore()}
+              accessibilityRole="button"
+              accessibilityLabel={copy.gold.restore}
+            >
               <Text style={styles.linkText}>{copy.gold.restore}</Text>
             </Pressable>
           ) : null}

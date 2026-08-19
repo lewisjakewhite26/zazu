@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { AccessibilityInfo, Pressable, StyleSheet, Text, View } from 'react-native';
+import { AccessibilityInfo, ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { CoinsIcon } from 'phosphor-react-native';
+import { CoinsIcon, XIcon } from 'phosphor-react-native';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { fonts, typography } from '@/constants/theme';
@@ -58,9 +59,16 @@ export function DailyRitualScreen() {
   const finishRitual = useCallback(async () => {
     if (!dailyRitualSession || finishing) return;
     setFinishing(true);
+    AccessibilityInfo.announceForAccessibility(copy.dailyRitual.saving);
     const result = await completeDailyRitual(dailyRitualSession.wordId);
     setReward(result);
   }, [dailyRitualSession, finishing, completeDailyRitual]);
+
+  const handleExit = useCallback(() => {
+    if (finishing) return;
+    clearFlow();
+    router.replace('/');
+  }, [finishing, clearFlow, router]);
 
   const goNextStep = useCallback(() => {
     const next = stepIndex + 1;
@@ -80,6 +88,7 @@ export function DailyRitualScreen() {
     if (index === current.correctIndex) {
       setSelectedIndex(index);
       hapticCorrect();
+      AccessibilityInfo.announceForAccessibility('Correct.');
       setTimeout(() => {
         setAdvanceReady(true);
         setTimeout(goNextStep, ADVANCE_MS);
@@ -90,6 +99,7 @@ export function DailyRitualScreen() {
     hapticWrong();
     setSelectedIndex(index);
     setShowTryAgain(true);
+    AccessibilityInfo.announceForAccessibility(copy.morningTask.tryAgain);
     setTimeout(() => setSelectedIndex(null), WRONG_CLEAR_MS);
   };
 
@@ -116,6 +126,12 @@ export function DailyRitualScreen() {
     () =>
       StyleSheet.create({
         safeArea: { flex: 1 },
+        closeButton: {
+          position: 'absolute',
+          top: spacing.sm,
+          right: spacing.lg,
+          zIndex: 2,
+        },
         inner: {
           flex: 1,
           width: '100%',
@@ -174,6 +190,17 @@ export function DailyRitualScreen() {
         wordToken: { paddingVertical: 3 },
         wordTokenCorrect: { backgroundColor: colors.correct, borderRadius: 6 },
         wordTokenWrong: { backgroundColor: colors.wrong, borderRadius: 6 },
+        savingRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 8,
+          marginTop: spacing.lg,
+        },
+        savingText: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.subtext,
+        },
         rewardWrap: {
           flex: 1,
           alignItems: 'center',
@@ -243,6 +270,15 @@ export function DailyRitualScreen() {
   return (
     <GradientBackground>
       <SafeAreaView style={styles.safeArea}>
+        <IconButton
+          onPress={handleExit}
+          accessibilityLabel={copy.dailyRitual.skip}
+          variant="card"
+          style={styles.closeButton}
+          disabled={finishing}
+        >
+          <XIcon size={20} color={colors.text} />
+        </IconButton>
         <View style={styles.inner}>
           <Text style={styles.eyebrow}>{copy.dailyRitual.eyebrow}</Text>
           <Text style={styles.progress}>{copy.gymModes.questionProgress(stepIndex + 1, totalSteps)}</Text>
@@ -316,6 +352,13 @@ export function DailyRitualScreen() {
                 })}
               </Text>
             </>
+          ) : null}
+
+          {finishing ? (
+            <View style={styles.savingRow}>
+              <ActivityIndicator color={colors.subtext} />
+              <Text style={styles.savingText}>{copy.dailyRitual.saving}</Text>
+            </View>
           ) : null}
         </View>
       </SafeAreaView>

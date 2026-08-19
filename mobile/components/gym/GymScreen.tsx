@@ -326,7 +326,12 @@ export function GymScreen() {
                 />
               </View>
             ) : (
-              <Pressable style={styles.goldLink} onPress={() => router.push('/gold')}>
+              <Pressable
+                style={styles.goldLink}
+                onPress={() => router.push('/gold')}
+                accessibilityRole="button"
+                accessibilityLabel={copy.gym.unlockGoldLink}
+              >
                 <Text style={styles.goldLinkText}>{copy.gym.unlockGoldLink}</Text>
               </Pressable>
             )}

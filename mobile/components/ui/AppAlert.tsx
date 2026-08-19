@@ -91,7 +91,7 @@ export function AppAlertHost() {
 
   return (
     <Modal visible transparent animationType="fade" onRequestClose={close}>
-      <Pressable style={styles.overlay} onPress={close}>
+      <Pressable style={styles.overlay} onPress={close} accessible={false}>
         {Platform.OS !== 'web' ? (
           <BlurView
             intensity={30}
@@ -99,9 +99,14 @@ export function AppAlertHost() {
             style={StyleSheet.absoluteFill}
           />
         ) : null}
-        <Pressable onPress={(e) => e.stopPropagation()} style={{ width: '100%', maxWidth: 340 }}>
+        <Pressable
+          onPress={(e) => e.stopPropagation()}
+          style={{ width: '100%', maxWidth: 340 }}
+          accessible={false}
+          accessibilityViewIsModal
+        >
           <GlassCard borderRadius={24} style={styles.card} contentStyle={styles.content}>
-            <Text style={styles.title}>{current.title}</Text>
+            <Text style={styles.title} accessibilityRole="header">{current.title}</Text>
             {current.message ? <Text style={styles.message}>{current.message}</Text> : null}
             <View style={styles.buttons}>
               {buttons.map((button) => (

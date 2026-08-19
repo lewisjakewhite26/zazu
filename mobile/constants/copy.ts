@@ -176,6 +176,7 @@ export const copy = {
     coinsEarned: 'Coins earned',
     alreadyDoneToday: 'Already done for today — come back tomorrow for a new word.',
     done: 'Done',
+    saving: 'Saving your progress…',
   },
   gymSuccess: {
     heading: 'Well practised.',
