@@ -1,12 +1,12 @@
-import { useMemo } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { useMemo, useState } from 'react';
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { OriginText } from '@/components/ui/OriginText';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
+import { WordOfDayDetailSheet } from '@/components/home/WordOfDayDetailSheet';
 import { copy } from '@/constants/copy';
-import { cardBlurIntensity, radii, typography } from '@/constants/theme';
+import { cardBlurIntensity, fonts, radii, typography } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
 import type { WordOfDay } from '@/types/home';
 
@@ -24,6 +24,7 @@ export function WordOfDayCard({
 }: WordOfDayCardProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
+  const [detailVisible, setDetailVisible] = useState(false);
 
   const styles = useMemo(
     () =>
@@ -43,9 +44,8 @@ export function WordOfDayCard({
           ...StyleSheet.absoluteFill,
         },
         cardInner: {
-          paddingTop: 22,
+          paddingVertical: 22,
           paddingHorizontal: 22,
-          paddingBottom: 20,
         },
         eyebrow: {
           ...typography.wotdEyebrow,
@@ -53,42 +53,23 @@ export function WordOfDayCard({
           color: colors.subtext,
           marginBottom: 8,
         },
+        hint: {
+          fontFamily: fonts.sans,
+          fontSize: 11,
+          color: colors.subtext,
+          marginTop: 6,
+        },
         word: {
-          ...typography.wordHero,
+          fontFamily: fonts.serif,
+          fontSize: 42,
+          letterSpacing: -0.84,
           color: colors.text,
-          marginBottom: 4,
         },
         wordLoading: {
           opacity: 0.45,
         },
-        pronunciation: {
-          ...typography.wotdPron,
-          color: colors.subtext,
-          marginBottom: 8,
-        },
-        posBadge: {
-          alignSelf: 'flex-start',
-          backgroundColor: colors.posBadgeBg,
-          borderRadius: radii.pill,
-          paddingHorizontal: 8,
-          paddingVertical: 3,
-          marginBottom: 8,
-        },
-        posText: {
-          ...typography.posBadge,
-          textTransform: 'uppercase',
-          color: colors.subtext,
-        },
-        definition: {
-          ...typography.wotdDef,
-          color: colors.text,
-          marginBottom: 10,
-        },
-        dimmed: {
-          opacity: 0.3,
-        },
         cardLoading: {
-          minHeight: 180,
+          minHeight: 100,
         },
         loadingRow: {
           flexDirection: 'row',
@@ -114,34 +95,44 @@ export function WordOfDayCard({
       </View>
     </View>
   ) : (
-    <View
+    <Pressable
       style={styles.cardInner}
-      accessibilityRole="summary"
+      onPress={() => setDetailVisible(true)}
+      accessibilityRole="button"
       accessibilityLabel={copy.a11y.wordOfDay(word, definition)}
+      accessibilityHint={copy.home.wordOfDayHint}
     >
       <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={styles.word}>{word}</Text>
-      <Text style={styles.pronunciation}>{pronunciation}</Text>
-      <View style={styles.posBadge}>
-        <Text style={styles.posText}>{pos}</Text>
-      </View>
-      <Text style={styles.definition}>{definition}</Text>
-      <OriginText origin={origin} />
-    </View>
+      <Text style={styles.hint}>{copy.home.wordOfDayHint}</Text>
+    </Pressable>
   );
 
   return (
-    <View style={styles.card}>
-      <LinearGradient
-        colors={[colors.wotdGradientStart, colors.wotdGradientEnd]}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={styles.gradient}
-      />
-      {Platform.OS !== 'web' ? (
-        <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
+    <>
+      <View style={styles.card}>
+        <LinearGradient
+          colors={[colors.wotdGradientStart, colors.wotdGradientEnd]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.gradient}
+        />
+        {Platform.OS !== 'web' ? (
+          <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
+        ) : null}
+        {cardBody}
+      </View>
+      {!loading ? (
+        <WordOfDayDetailSheet
+          visible={detailVisible}
+          word={word}
+          pronunciation={pronunciation}
+          pos={pos}
+          definition={definition}
+          origin={origin}
+          onClose={() => setDetailVisible(false)}
+        />
       ) : null}
-      {cardBody}
-    </View>
+    </>
   );
 }
