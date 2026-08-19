@@ -155,7 +155,19 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
           fontFamily: typography.btnDemo.fontFamily,
           fontSize: 13,
           color: colors.subtext,
-          marginBottom: spacing.md,
+          marginBottom: spacing.sm,
+        },
+        progressTrack: {
+          height: 4,
+          borderRadius: 2,
+          backgroundColor: colors.border,
+          overflow: 'hidden',
+          marginBottom: spacing.lg,
+        },
+        progressFill: {
+          height: '100%',
+          borderRadius: 2,
+          backgroundColor: colors.ink,
         },
         questionCard: {
           paddingHorizontal: 16,
@@ -166,12 +178,12 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
           ...typography.mtQuestion,
           color: colors.text,
         },
-        options: { gap: 10 },
+        options: { gap: 14 },
         option: {
           borderWidth: 1,
-          borderRadius: 14,
-          paddingHorizontal: 16,
-          paddingVertical: 14,
+          borderRadius: 24,
+          paddingHorizontal: 20,
+          paddingVertical: 16,
         },
         optionText: {
           ...typography.mtOption,
@@ -204,6 +216,14 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
         <View style={styles.inner}>
           <Text style={styles.eyebrow}>{modeLabel}</Text>
           <Text style={styles.progress}>{progressLabel}</Text>
+          <View style={styles.progressTrack}>
+            <View
+              style={[
+                styles.progressFill,
+                { width: `${((questionIndex + 1) / questions.length) * 100}%` },
+              ]}
+            />
+          </View>
 
           <GlassCard borderRadius={16} contentStyle={styles.questionCard}>
             <Text style={styles.question}>{current.question}</Text>

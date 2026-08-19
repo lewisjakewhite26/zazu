@@ -28,8 +28,8 @@ export function GlassCard({
         shell: {
           overflow: 'hidden',
           borderWidth: 1,
-          borderColor: colors.border,
-          backgroundColor: colors.card,
+          borderColor: colors.glassCardBorder,
+          backgroundColor: colors.glassCardFill,
           borderRadius,
         },
         blur: {
@@ -39,7 +39,7 @@ export function GlassCard({
           position: 'relative',
         },
       }),
-    [colors.border, colors.card, borderRadius],
+    [colors.glassCardBorder, colors.glassCardFill, borderRadius],
   );
 
   return (

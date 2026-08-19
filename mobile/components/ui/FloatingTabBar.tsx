@@ -66,6 +66,8 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
             }
           };
 
+          const activeFg = isNight ? colors.wakeButtonTextNight : colors.white;
+
           return (
             <Pressable
               key={route.key}
@@ -73,7 +75,7 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
               style={[
                 styles.tab,
                 isFocused && {
-                  backgroundColor: isNight ? 'rgba(240,160,188,0.14)' : 'rgba(240,160,188,0.22)',
+                  backgroundColor: isNight ? colors.wakeButtonBgNight : colors.ink,
                 },
               ]}
               accessibilityRole="tab"
@@ -81,14 +83,14 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
             >
               <Icon
                 size={18}
-                color={isFocused ? colors.text : colors.subtext}
+                color={isFocused ? activeFg : colors.subtext}
                 weight={isFocused ? 'fill' : 'regular'}
               />
               <Text
                 style={[
                   styles.label,
                   {
-                    color: isFocused ? colors.text : colors.subtext,
+                    color: isFocused ? activeFg : colors.subtext,
                   },
                 ]}
               >
@@ -120,7 +122,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     overflow: 'hidden',
     padding: 4,
-    shadowColor: '#2c1f2e',
+    shadowColor: '#1a1225',
     shadowOffset: { width: 0, height: 4 },
     shadowRadius: 14,
     elevation: 8,

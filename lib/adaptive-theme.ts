@@ -17,6 +17,8 @@ export type BlendablePalette = {
   ink: string;
   border: string;
   card: string;
+  glassCardFill: string;
+  glassCardBorder: string;
 };
 
 export type NightSnapPalette = {
@@ -48,6 +50,8 @@ const LIGHT_BLEND: BlendablePalette = {
   ink: colorsLight.ink,
   border: colorsLight.border,
   card: colorsLight.card,
+  glassCardFill: colorsLight.glassCardFill,
+  glassCardBorder: colorsLight.glassCardBorder,
 };
 
 const DARK_BLEND: BlendablePalette = {
@@ -59,12 +63,14 @@ const DARK_BLEND: BlendablePalette = {
   ink: colorsDark.ink,
   border: colorsDark.border,
   card: colorsDark.card,
+  glassCardFill: colorsDark.glassCardFill,
+  glassCardBorder: colorsDark.glassCardBorder,
 };
 
 const LIGHT_SNAP: NightSnapPalette = {
   wotdGradientStart: 'rgba(249,201,168,0.35)',
   wotdGradientEnd: 'rgba(200,180,232,0.35)',
-  posBadgeBg: 'rgba(44,31,46,0.07)',
+  posBadgeBg: 'rgba(26,18,37,0.07)',
   primaryButtonBg: colorsLight.ink,
   primaryButtonText: colorsLight.white,
   cardPeach: '#fde8d8',
@@ -179,6 +185,8 @@ export function blendThemePalette(
     ink: lerpColor(light.ink, dark.ink, blend),
     border: lerpColor(light.border, dark.border, blend),
     card: lerpColor(light.card, dark.card, blend),
+    glassCardFill: lerpColor(light.glassCardFill, dark.glassCardFill, blend),
+    glassCardBorder: lerpColor(light.glassCardBorder, dark.glassCardBorder, blend),
   };
 }
 

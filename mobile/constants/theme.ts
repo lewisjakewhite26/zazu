@@ -10,24 +10,29 @@ export const colorsLight = {
   lavender: '#c8b4e8',
   dawn: '#fde8d8',
   dusk: '#ede0f8',
-  ink: '#2c1f2e',
+  ink: '#1a1225',
   muted: '#9080a0',
   correct: '#a8d8b0',
   wrong: '#e8617a',
   gold: '#c9963a',
   white: '#fefcfb',
   card: 'rgba(255,255,255,0.72)',
+  /** Lighter, airier glass-card fill/border — GlassCard only, not the shared `border` token. */
+  glassCardFill: 'rgba(255,255,255,0.4)',
+  glassCardBorder: 'rgba(255,255,255,0.8)',
   bgFrom: '#fde8d8',
   bgMid: '#dde8f8',
   bgTo: '#ede0f8',
-  text: '#2c1f2e',
+  text: '#1a1225',
   subtext: '#9080a0',
-  border: 'rgba(44,31,46,0.1)',
+  border: 'rgba(26,18,37,0.1)',
 } as const;
 
 /** index.html body.night overrides */
 export const colorsDark = {
   card: 'rgba(255,255,255,0.11)',
+  glassCardFill: 'rgba(255,255,255,0.11)',
+  glassCardBorder: 'rgba(255,255,255,0.13)',
   bgFrom: '#1a1225',
   bgMid: '#1a1830',
   bgTo: '#0e0c1a',
@@ -53,14 +58,14 @@ export const colors = {
   wotdGradientStartNight: 'rgba(249,201,168,0.08)',
   wotdGradientEndNight: 'rgba(200,180,232,0.08)',
   /** POS badge — index.html .wotd-pos */
-  posBadgeBg: 'rgba(44,31,46,0.07)',
+  posBadgeBg: 'rgba(26,18,37,0.07)',
   posBadgeBgNight: 'rgba(255,255,255,0.08)',
   /** Primary button dark — body.night .add-alarm-btn */
   primaryButtonBgNight: 'rgba(255,255,255,0.12)',
   /** Toggle thumb shadow */
   toggleThumbShadow: 'rgba(0,0,0,0.15)',
   correctIcon: '#5cbd8a',
-  overlay: 'rgba(44,31,46,0.45)',
+  overlay: 'rgba(26,18,37,0.45)',
   appleButtonBg: '#000000',
   appleButtonText: '#ffffff',
   streakFlame: '#e8a040',
@@ -75,9 +80,9 @@ export const colors = {
   streakBannerBorder: 'rgba(240,160,188,0.28)',
   /** Wake / continue CTA at night — index.html .btn-wake */
   wakeButtonBgNight: 'rgba(255,255,255,0.9)',
-  wakeButtonTextNight: '#2c1f2e',
+  wakeButtonTextNight: '#1a1225',
   /** Ad pill — index.html .ad-pill */
-  adPillBg: 'rgba(44,31,46,0.07)',
+  adPillBg: 'rgba(26,18,37,0.07)',
   adPillBgNight: 'rgba(255,255,255,0.08)',
   /** Alarm glow — index.html .alarm-glow */
   alarmGlowLight: 'rgba(249,201,168,0.25)',
@@ -96,7 +101,7 @@ export const fonts = {
 /** index.html linear-gradient(160deg, …) */
 export const backgroundGradientAngle = 160;
 export const backgroundTransitionMs = 2000;
-export const cardBlurIntensity = 10;
+export const cardBlurIntensity = 20;
 
 export const radii = {
   wotd: 22,

@@ -2,6 +2,7 @@ import { useCallback, useMemo } from 'react';
 import { Platform, StyleSheet, type ViewStyle } from 'react-native';
 
 import { useTheme, type AppThemeColors } from '@/context/ThemeContext';
+import { colorsLight } from '@/constants/theme';
 import type { CalendarCardVariant } from '../../../lib/calendar-utils';
 
 function cardVariantStyleFor(colors: AppThemeColors, variant: CalendarCardVariant): ViewStyle {
@@ -32,7 +33,7 @@ function cardVariantStyleFor(colors: AppThemeColors, variant: CalendarCardVarian
 
 function createCalendarStyles(colors: AppThemeColors, blend: number) {
   const cardScrim = blend >= 0.5 ? 'rgba(14,12,26,0.45)' : 'rgba(254,252,251,0.45)';
-  const labelOnInk = blend >= 0.5 ? '#2c1f2e' : colors.white;
+  const labelOnInk = blend >= 0.5 ? colorsLight.ink : colors.white;
 
   return StyleSheet.create({
     screen: {
