@@ -8,8 +8,6 @@ export const copy = {
   home: {
     wordOfDayEyebrow: 'Word of the day',
     wordOfDayLoading: 'Loading…',
-    wordOfDayHint: 'Tap for the definition',
-    wordOfDayClose: 'Close',
     wordLibraryError:
       'Could not load words from the cloud. Using the built-in library for now.',
     wordLibraryRetry: 'Try again',

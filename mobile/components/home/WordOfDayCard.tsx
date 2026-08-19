@@ -1,10 +1,9 @@
-import { useMemo, useState } from 'react';
-import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { useMemo } from 'react';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
-import { WordOfDayDetailSheet } from '@/components/home/WordOfDayDetailSheet';
 import { copy } from '@/constants/copy';
 import { cardBlurIntensity, fonts, radii, typography } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
@@ -14,17 +13,9 @@ export type WordOfDayCardProps = WordOfDay & {
   loading?: boolean;
 };
 
-export function WordOfDayCard({
-  word,
-  pronunciation,
-  pos,
-  definition,
-  origin,
-  loading = false,
-}: WordOfDayCardProps) {
+export function WordOfDayCard({ word, definition, loading = false }: WordOfDayCardProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
-  const [detailVisible, setDetailVisible] = useState(false);
 
   const styles = useMemo(
     () =>
@@ -52,12 +43,6 @@ export function WordOfDayCard({
           textTransform: 'uppercase',
           color: colors.subtext,
           marginBottom: 8,
-        },
-        hint: {
-          fontFamily: fonts.sans,
-          fontSize: 11,
-          color: colors.subtext,
-          marginTop: 6,
         },
         word: {
           fontFamily: fonts.serif,
@@ -95,44 +80,28 @@ export function WordOfDayCard({
       </View>
     </View>
   ) : (
-    <Pressable
+    <View
       style={styles.cardInner}
-      onPress={() => setDetailVisible(true)}
-      accessibilityRole="button"
+      accessibilityRole="summary"
       accessibilityLabel={copy.a11y.wordOfDay(word, definition)}
-      accessibilityHint={copy.home.wordOfDayHint}
     >
       <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={styles.word}>{word}</Text>
-      <Text style={styles.hint}>{copy.home.wordOfDayHint}</Text>
-    </Pressable>
+    </View>
   );
 
   return (
-    <>
-      <View style={styles.card}>
-        <LinearGradient
-          colors={[colors.wotdGradientStart, colors.wotdGradientEnd]}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 1 }}
-          style={styles.gradient}
-        />
-        {Platform.OS !== 'web' ? (
-          <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
-        ) : null}
-        {cardBody}
-      </View>
-      {!loading ? (
-        <WordOfDayDetailSheet
-          visible={detailVisible}
-          word={word}
-          pronunciation={pronunciation}
-          pos={pos}
-          definition={definition}
-          origin={origin}
-          onClose={() => setDetailVisible(false)}
-        />
+    <View style={styles.card}>
+      <LinearGradient
+        colors={[colors.wotdGradientStart, colors.wotdGradientEnd]}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.gradient}
+      />
+      {Platform.OS !== 'web' ? (
+        <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
       ) : null}
-    </>
+      {cardBody}
+    </View>
   );
 }
