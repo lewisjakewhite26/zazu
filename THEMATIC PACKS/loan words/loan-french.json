@@ -1,0 +1,1901 @@
+[
+  {
+    "word": "Déjà vu",
+    "pronunciation": "day-zhah VOO",
+    "pos": "noun",
+    "definition": "The unsettling feeling of having already experienced a present situation.",
+    "origin": "From French <strong>déjà vu</strong>, literally already seen, from <strong>déjà</strong> (already) + <strong>vu</strong> (seen). Coined by the psychical researcher Émile Boirac in 1876.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Déjà vu</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French déjà", "b": "Already" },
+          { "a": "French vu", "b": "Seen" },
+          { "a": "Combined meaning", "b": "Already seen" },
+          { "a": "Coined by", "b": "Émile Boirac in 1876" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Déjà vu</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Déjà vu describes", "b": "Feeling you've lived this moment before" },
+          { "a": "The sensation is", "b": "Brief and unsettling" },
+          { "a": "French vu means", "b": "Seen" },
+          { "a": "Boirac studied it as", "b": "A psychical phenomenon" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Déjà vu</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Walking into the room", "b": "Gave her a jolt of déjà vu" },
+          { "a": "He paused, struck by", "b": "An eerie sense of déjà vu" },
+          { "a": "The plot twist felt like", "b": "Déjà vu from an earlier film" },
+          { "a": "Scientists still debate", "b": "What causes déjà vu" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "déjà", "rootLanguage": "French", "rootMeaning": "Already", "showInIntro": true },
+      { "rootText": "vu", "rootLanguage": "French", "rootMeaning": "Seen", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "déjà", "highlight": true },
+        { "text": " (already) + ", "highlight": false },
+        { "text": "vu", "highlight": true },
+        { "text": " (seen); the moment that feels already lived.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vu",
+      "correctAnswer": "Seen",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rendezvous",
+    "pronunciation": "RON-day-voo",
+    "pos": "noun",
+    "definition": "An agreed meeting, especially a romantic or secretive one, at a set time and place.",
+    "origin": "From French <strong>rendez-vous</strong>, literally present yourselves, from <strong>rendre</strong> (to render, to present) in the imperative form.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rendezvous</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French rendre", "b": "To render or present" },
+          { "a": "French rendez-vous", "b": "Present yourselves" },
+          { "a": "Grammatical form", "b": "An imperative command" },
+          { "a": "Original military use", "b": "A muster point for troops" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rendezvous</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rendezvous is", "b": "A meeting at a set time and place" },
+          { "a": "A romantic rendezvous suggests", "b": "A secretive, intimate meeting" },
+          { "a": "French rendre means", "b": "To render or present" },
+          { "a": "A spacecraft rendezvous means", "b": "Two craft meeting in orbit" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rendezvous</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They arranged a rendezvous", "b": "At the old café" },
+          { "a": "The spacecraft completed", "b": "Its orbital rendezvous" },
+          { "a": "She kept the rendezvous", "b": "A secret from everyone" },
+          { "a": "Soldiers gathered at", "b": "The rendezvous point at dawn" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "rendre", "rootLanguage": "French", "rootMeaning": "To render or present", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "rendez-vous", "highlight": true },
+        { "text": " (present yourselves); a command that became a meeting.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "rendre",
+      "correctAnswer": "To render or present",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Entrepreneur",
+    "pronunciation": "on-truh-pruh-NUR",
+    "pos": "noun",
+    "definition": "A person who sets up and runs a business, taking on financial risk in the hope of profit.",
+    "origin": "From French <strong>entreprendre</strong> (to undertake), from <strong>entre</strong> (between) + <strong>prendre</strong> (to take). Literally, one who undertakes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Entrepreneur</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French entre", "b": "Between" },
+          { "a": "French prendre", "b": "To take" },
+          { "a": "French entreprendre", "b": "To undertake" },
+          { "a": "Literal meaning", "b": "One who undertakes" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Entrepreneur</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An entrepreneur", "b": "Sets up and runs a business" },
+          { "a": "Entrepreneurship involves", "b": "Taking on financial risk" },
+          { "a": "French entreprendre means", "b": "To undertake" },
+          { "a": "A serial entrepreneur", "b": "Starts multiple businesses" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Entrepreneur</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The young entrepreneur launched", "b": "Her first startup at twenty" },
+          { "a": "He took an entrepreneur's risk", "b": "And left his salaried job" },
+          { "a": "The city's entrepreneurs gathered", "b": "For a networking evening" },
+          { "a": "Being an entrepreneur means", "b": "Living with uncertainty" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "entreprendre", "rootLanguage": "French", "rootMeaning": "To undertake", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "entreprendre", "highlight": true },
+        { "text": " (to undertake); one who takes on the risk of doing.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "entreprendre",
+      "correctAnswer": "To undertake",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cliché",
+    "pronunciation": "klee-SHAY",
+    "pos": "noun",
+    "definition": "A phrase or idea that has become overused and lost its original impact through repetition.",
+    "origin": "From French <strong>cliché</strong>, the past participle of <strong>clicher</strong> (to stereotype), originally a printing term for a cast metal plate that could reproduce text repeatedly.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cliché</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French clicher", "b": "To stereotype" },
+          { "a": "Original printing sense", "b": "A cast metal plate" },
+          { "a": "The plate could", "b": "Reproduce text repeatedly" },
+          { "a": "Modern sense", "b": "An overused phrase or idea" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cliché</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cliché is", "b": "A phrase worn out by repetition" },
+          { "a": "Calling something cliché means", "b": "It lacks originality" },
+          { "a": "French clicher meant", "b": "To stereotype in print" },
+          { "a": "Writers often avoid clichés to", "b": "Keep prose fresh" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cliché</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The film relied on", "b": "Every romantic cliché in the book" },
+          { "a": "She crossed out the cliché", "b": "And rewrote the line" },
+          { "a": "It sounds like a cliché", "b": "But the advice still holds" },
+          { "a": "Avoiding clichés takes", "b": "Real editorial discipline" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "clicher", "rootLanguage": "French", "rootMeaning": "To stereotype", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "clicher", "highlight": true },
+        { "text": " (to stereotype); a printer's plate, endlessly repeating.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "clicher",
+      "correctAnswer": "To stereotype",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bourgeois",
+    "pronunciation": "boor-ZHWAH",
+    "pos": "adjective",
+    "definition": "Belonging to or characteristic of the middle class, often used to suggest materialism or conventional taste.",
+    "origin": "From French <strong>bourgeois</strong> (town dweller), from <strong>bourg</strong> (market town), from Late Latin <strong>burgus</strong> (fortified town).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bourgeois</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Late Latin burgus", "b": "Fortified town" },
+          { "a": "French bourg", "b": "Market town" },
+          { "a": "French bourgeois", "b": "Town dweller" },
+          { "a": "Related word", "b": "Borough" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bourgeois</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bourgeois describes", "b": "The middle class" },
+          { "a": "Used critically, bourgeois suggests", "b": "Materialism or dull convention" },
+          { "a": "French bourg meant", "b": "A market town" },
+          { "a": "In Marxist theory, the bourgeoisie owns", "b": "The means of production" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bourgeois</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He mocked their bourgeois", "b": "obsession with the right postcode" },
+          { "a": "The novel satirised", "b": "Bourgeois respectability" },
+          { "a": "Her bourgeois upbringing", "b": "Valued stability above all" },
+          { "a": "The word bourgeois traces", "b": "Back to medieval market towns" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "burgus", "rootLanguage": "Late Latin", "rootMeaning": "Fortified town", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Late Latin ", "highlight": false },
+        { "text": "burgus", "highlight": true },
+        { "text": " (fortified town); the town dweller who became a whole social class.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "burgus",
+      "correctAnswer": "Fortified town",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Naive",
+    "pronunciation": "ny-EEV",
+    "pos": "adjective",
+    "definition": "Showing a lack of experience or judgement; innocently trusting.",
+    "origin": "From French <strong>naïf</strong>, from Latin <strong>nativus</strong> (native, natural, innate), from <strong>nasci</strong> (to be born).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Naive</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin nasci", "b": "To be born" },
+          { "a": "Latin nativus", "b": "Native or innate" },
+          { "a": "French naïf", "b": "The direct source for English" },
+          { "a": "Related word", "b": "Native" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Naive</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Naive describes", "b": "A lack of experience or judgement" },
+          { "a": "A naive question can be", "b": "Refreshingly honest" },
+          { "a": "Latin nativus meant", "b": "Innate or natural" },
+          { "a": "Naive art refers to", "b": "Untrained, unstudied painting style" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Naive</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "It was naive of him", "b": "To trust the offer so quickly" },
+          { "a": "Her naive optimism", "b": "Carried the whole team" },
+          { "a": "The naive painter's style", "b": "Charmed the gallery visitors" },
+          { "a": "Looking back, I was", "b": "Painfully naive about the risks" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "nasci", "rootLanguage": "Latin", "rootMeaning": "To be born", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "nasci", "highlight": true },
+        { "text": " (to be born); an innocence as natural as birth itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nasci",
+      "correctAnswer": "To be born",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Risqué",
+    "pronunciation": "ris-KAY",
+    "pos": "adjective",
+    "definition": "Slightly indecent or sexually suggestive, often in a way intended to be humorous or daring.",
+    "origin": "From French <strong>risqué</strong>, the past participle of <strong>risquer</strong> (to risk), from <strong>risque</strong> (risk).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Risqué</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French risque", "b": "Risk" },
+          { "a": "French risquer", "b": "To risk" },
+          { "a": "French risqué", "b": "Risked, the past participle" },
+          { "a": "Related word", "b": "Risk itself" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Risqué</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Risqué describes", "b": "Something slightly indecent" },
+          { "a": "A risqué joke pushes", "b": "The bounds of good taste" },
+          { "a": "French risquer means", "b": "To risk" },
+          { "a": "Risqué differs from explicit in being", "b": "Suggestive, not graphic" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Risqué</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The comedian's risqué material", "b": "Divided the audience" },
+          { "a": "Her risqué costume", "b": "Raised a few eyebrows" },
+          { "a": "The joke was a little risqué", "b": "For a family dinner" },
+          { "a": "The risqué poster", "b": "Was pulled from the campaign" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "risque", "rootLanguage": "French", "rootMeaning": "Risk", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "risque", "highlight": true },
+        { "text": " (risk); humour that dares a little too much.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "risque",
+      "correctAnswer": "Risk",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Faux pas",
+    "pronunciation": "foh PAH",
+    "pos": "noun",
+    "definition": "An embarrassing social blunder or breach of etiquette.",
+    "origin": "From French <strong>faux pas</strong>, literally false step, from <strong>faux</strong> (false) + <strong>pas</strong> (step).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Faux pas</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French faux", "b": "False" },
+          { "a": "French pas", "b": "Step" },
+          { "a": "Combined meaning", "b": "False step" },
+          { "a": "Related word faux", "b": "Fake, as in faux leather" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Faux pas</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A faux pas is", "b": "An embarrassing social blunder" },
+          { "a": "French faux means", "b": "False" },
+          { "a": "Committing a faux pas often means", "b": "Breaching etiquette unknowingly" },
+          { "a": "The literal meaning is", "b": "A false step" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Faux pas</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Mentioning the divorce", "b": "Was a serious faux pas" },
+          { "a": "He realised his faux pas", "b": "The moment the room went quiet" },
+          { "a": "Cultural faux pas are easy", "b": "To make while travelling" },
+          { "a": "She smoothed over", "b": "The awkward faux pas gracefully" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "faux", "rootLanguage": "French", "rootMeaning": "False", "showInIntro": true },
+      { "rootText": "pas", "rootLanguage": "French", "rootMeaning": "Step", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "faux", "highlight": true },
+        { "text": " (false) + ", "highlight": false },
+        { "text": "pas", "highlight": true },
+        { "text": " (step); one wrong step in company.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pas",
+      "correctAnswer": "Step",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Genre",
+    "pronunciation": "ZHON-ruh",
+    "pos": "noun",
+    "definition": "A category of artistic composition, characterised by a particular style, form, or content.",
+    "origin": "From French <strong>genre</strong> (kind, type), from Latin <strong>genus</strong> (birth, race, kind), from the same root as gender and generate.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Genre</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin genus", "b": "Birth, race, kind" },
+          { "a": "French genre", "b": "Kind or type" },
+          { "a": "Related words", "b": "Gender, generate, genus" },
+          { "a": "Common shared meaning", "b": "A category or kind" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Genre</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A genre is", "b": "A category of artistic work" },
+          { "a": "Genre fiction includes", "b": "Categories like romance or crime" },
+          { "a": "Latin genus meant", "b": "Kind or birth" },
+          { "a": "Genre painting depicted", "b": "Scenes of everyday life" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Genre</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her favourite genre", "b": "Was gothic horror" },
+          { "a": "The film blended", "b": "Two genres seamlessly" },
+          { "a": "Jazz emerged as", "b": "A wholly new genre" },
+          { "a": "Bookshops sort novels", "b": "By genre" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "genus", "rootLanguage": "Latin", "rootMeaning": "Birth, race, kind", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "genus", "highlight": true },
+        { "text": " (kind); every category of art shares this ancient root.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "genus",
+      "correctAnswer": "Birth, race, kind",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Avant-garde",
+    "pronunciation": "ah-vahnt-GARD",
+    "pos": "adjective",
+    "definition": "New and experimental, especially in the arts, pushing beyond established conventions.",
+    "origin": "From French <strong>avant-garde</strong>, literally advance guard, from <strong>avant</strong> (before) + <strong>garde</strong> (guard). Originally a military term for the forward troops of an army.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Avant-garde</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French avant", "b": "Before" },
+          { "a": "French garde", "b": "Guard" },
+          { "a": "Combined meaning", "b": "Advance guard" },
+          { "a": "Original military sense", "b": "The forward troops of an army" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Avant-garde</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Avant-garde describes", "b": "New, experimental art" },
+          { "a": "Avant-garde artists work to", "b": "Push beyond convention" },
+          { "a": "French avant means", "b": "Before" },
+          { "a": "The military origin was", "b": "The advance guard of an army" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Avant-garde</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The avant-garde film", "b": "Rejected all narrative structure" },
+          { "a": "Critics dismissed it as", "b": "Too avant-garde for the audience" },
+          { "a": "The designer's avant-garde collection", "b": "Shocked the front row" },
+          { "a": "Avant-garde composers explored", "b": "Sound beyond traditional harmony" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "avant", "rootLanguage": "French", "rootMeaning": "Before", "showInIntro": true },
+      { "rootText": "garde", "rootLanguage": "French", "rootMeaning": "Guard", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "avant", "highlight": true },
+        { "text": " (before) + ", "highlight": false },
+        { "text": "garde", "highlight": true },
+        { "text": " (guard); the advance guard of art itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "avant",
+      "correctAnswer": "Before",
+      "hint": "Check the highlighted roots in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mirage",
+    "pronunciation": "mih-RAHZH",
+    "pos": "noun",
+    "definition": "An optical illusion caused by atmospheric conditions, especially the appearance of water in a desert.",
+    "origin": "From French <strong>mirage</strong>, from <strong>se mirer</strong> (to be reflected), from Latin <strong>mirari</strong> (to wonder at, admire).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mirage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin mirari", "b": "To wonder at, admire" },
+          { "a": "French se mirer", "b": "To be reflected" },
+          { "a": "French mirage", "b": "The illusion's name" },
+          { "a": "Related words", "b": "Mirror, admire, miracle" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mirage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mirage is", "b": "An atmospheric optical illusion" },
+          { "a": "Desert mirages often resemble", "b": "Water on the horizon" },
+          { "a": "Latin mirari means", "b": "To wonder at" },
+          { "a": "Figuratively, a mirage is", "b": "A hope that proves illusory" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mirage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The shimmering pool ahead", "b": "Turned out to be a mirage" },
+          { "a": "Heat rising off the tarmac", "b": "Created a road mirage" },
+          { "a": "The promised promotion proved", "b": "Little more than a mirage" },
+          { "a": "Travellers learn to doubt", "b": "Every desert mirage" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mirari", "rootLanguage": "Latin", "rootMeaning": "To wonder at, admire", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "mirari", "highlight": true },
+        { "text": " (to wonder at); the desert's reflection of a wish.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mirari",
+      "correctAnswer": "To wonder at, admire",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bouquet",
+    "pronunciation": "boo-KAY",
+    "pos": "noun",
+    "definition": "A bunch of flowers, especially one arranged attractively. Also the distinctive aroma of a wine.",
+    "origin": "From French <strong>bouquet</strong> (small wood, cluster), a diminutive of Old French <strong>bosc</strong> (wood), related to English bush.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bouquet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French bosc", "b": "Wood" },
+          { "a": "French bouquet", "b": "Small wood or cluster" },
+          { "a": "Related word", "b": "Bush" },
+          { "a": "Wine sense refers to", "b": "Its distinctive aroma" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bouquet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bouquet is", "b": "An arranged bunch of flowers" },
+          { "a": "A wine's bouquet is", "b": "Its complex aroma" },
+          { "a": "Old French bosc meant", "b": "Wood" },
+          { "a": "A bridal bouquet is", "b": "Carried during the ceremony" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bouquet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She arranged a bouquet", "b": "Of peonies and eucalyptus" },
+          { "a": "The wine's bouquet hinted", "b": "At cherry and oak" },
+          { "a": "He sent a bouquet", "b": "To apologise properly" },
+          { "a": "The bride tossed her bouquet", "b": "Into the waiting crowd" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bosc", "rootLanguage": "Old French", "rootMeaning": "Wood", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "bosc", "highlight": true },
+        { "text": " (wood); a small thicket that became a bunch of flowers.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bosc",
+      "correctAnswer": "Wood",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ballet",
+    "pronunciation": "BAL-ay",
+    "pos": "noun",
+    "definition": "A classical dance form characterised by precise, formalised steps and gestures, often performed to accompany a narrative.",
+    "origin": "From French <strong>ballet</strong>, from Italian <strong>balletto</strong>, a diminutive of <strong>ballo</strong> (a dance), from Latin <strong>ballare</strong> (to dance).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ballet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ballare", "b": "To dance" },
+          { "a": "Italian ballo", "b": "A dance" },
+          { "a": "Italian balletto", "b": "A little dance" },
+          { "a": "Route into English", "b": "French" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ballet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ballet is", "b": "A classical formalised dance form" },
+          { "a": "Ballet developed initially in", "b": "Renaissance Italian courts" },
+          { "a": "It was refined further in", "b": "French royal courts" },
+          { "a": "Latin ballare means", "b": "To dance" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ballet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ballerina rose", "b": "En pointe for the final scene" },
+          { "a": "She attended ballet class", "b": "Three evenings a week" },
+          { "a": "The ballet company toured", "b": "Swan Lake across Europe" },
+          { "a": "His footwork showed", "b": "Years of ballet training" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "ballare", "rootLanguage": "Latin", "rootMeaning": "To dance", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "ballare", "highlight": true },
+        { "text": " (to dance), via Italian and French; the little dance that became an art form.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ballare",
+      "correctAnswer": "To dance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chauffeur",
+    "pronunciation": "SHOH-fur",
+    "pos": "noun",
+    "definition": "A person employed to drive a car for someone else.",
+    "origin": "From French <strong>chauffeur</strong> (stoker, one who heats), from <strong>chauffer</strong> (to heat). Early steam and combustion cars required a driver to also stoke the engine.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chauffeur</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French chauffer", "b": "To heat" },
+          { "a": "French chauffeur", "b": "Stoker, one who heats" },
+          { "a": "Early cars required", "b": "Someone to stoke the engine" },
+          { "a": "Modern sense", "b": "A person employed to drive" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chauffeur</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chauffeur is", "b": "A person paid to drive" },
+          { "a": "The word originally referred to", "b": "Stoking a steam engine" },
+          { "a": "French chauffer means", "b": "To heat" },
+          { "a": "To chauffeur someone means", "b": "To drive them somewhere" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chauffeur</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chauffeur waited", "b": "Outside the hotel entrance" },
+          { "a": "She chauffeured her parents", "b": "To every appointment that week" },
+          { "a": "A private chauffeur drove", "b": "The ambassador to the airport" },
+          { "a": "The limousine's chauffeur", "b": "Opened the door with a bow" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "chauffer", "rootLanguage": "French", "rootMeaning": "To heat", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "chauffer", "highlight": true },
+        { "text": " (to heat); early cars needed a driver who could also stoke the fire.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "chauffer",
+      "correctAnswer": "To heat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Souvenir",
+    "pronunciation": "soo-vuh-NEER",
+    "pos": "noun",
+    "definition": "An object kept as a reminder of a place, person, or event.",
+    "origin": "From French <strong>souvenir</strong> (to remember), from Latin <strong>subvenire</strong> (to come to mind), from <strong>sub</strong> (under) + <strong>venire</strong> (to come).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Souvenir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin venire", "b": "To come" },
+          { "a": "Latin subvenire", "b": "To come to mind" },
+          { "a": "French souvenir", "b": "To remember" },
+          { "a": "Related word", "b": "Convene" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Souvenir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A souvenir is", "b": "An object kept as a reminder" },
+          { "a": "Souvenirs are often bought", "b": "While travelling" },
+          { "a": "French souvenir literally means", "b": "To remember" },
+          { "a": "Latin subvenire meant", "b": "To come to mind" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Souvenir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She bought a small souvenir", "b": "From the market stall" },
+          { "a": "The ticket stub became", "b": "An unlikely souvenir" },
+          { "a": "Tourists crowded the souvenir shop", "b": "Near the cathedral" },
+          { "a": "He kept the pebble", "b": "As a souvenir of the trip" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "subvenire", "rootLanguage": "Latin", "rootMeaning": "To come to mind", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "subvenire", "highlight": true },
+        { "text": " (to come to mind); a small object that keeps a memory close.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "subvenire",
+      "correctAnswer": "To come to mind",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boutique",
+    "pronunciation": "boo-TEEK",
+    "pos": "noun",
+    "definition": "A small shop selling fashionable clothes or specialist goods, often with a distinctive, curated style.",
+    "origin": "From French <strong>boutique</strong> (shop), from Latin <strong>apotheca</strong> (storehouse), from Greek <strong>apotheke</strong> (store, warehouse).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boutique</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek apotheke", "b": "Store or warehouse" },
+          { "a": "Latin apotheca", "b": "Storehouse" },
+          { "a": "French boutique", "b": "Shop" },
+          { "a": "Related word", "b": "Apothecary" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boutique</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A boutique is", "b": "A small fashionable shop" },
+          { "a": "A boutique firm describes", "b": "A small, specialist business" },
+          { "a": "Greek apotheke meant", "b": "A warehouse" },
+          { "a": "Boutique hotels emphasise", "b": "Individual, curated character" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boutique</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She found the dress", "b": "In a tiny local boutique" },
+          { "a": "The boutique hotel offered", "b": "Just twelve individual rooms" },
+          { "a": "A boutique law firm handled", "b": "Only high-profile cases" },
+          { "a": "The street was lined", "b": "With independent boutiques" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "apotheke", "rootLanguage": "Greek", "rootMeaning": "Store or warehouse", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "apotheke", "highlight": true },
+        { "text": " (warehouse), via Latin and French; a storehouse made small and stylish.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "apotheke",
+      "correctAnswer": "Store or warehouse",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Detour",
+    "pronunciation": "DEE-toor",
+    "pos": "noun",
+    "definition": "An indirect route taken to avoid something or to visit an additional place.",
+    "origin": "From French <strong>détour</strong>, from <strong>détourner</strong> (to turn away), from <strong>de</strong> (away) + <strong>tourner</strong> (to turn).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Detour</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French tourner", "b": "To turn" },
+          { "a": "French détourner", "b": "To turn away" },
+          { "a": "French détour", "b": "The indirect route" },
+          { "a": "Related word", "b": "Tour" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Detour</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A detour is", "b": "An indirect route" },
+          { "a": "Detours are often taken to", "b": "Avoid roadworks or delays" },
+          { "a": "French tourner means", "b": "To turn" },
+          { "a": "A scenic detour adds", "b": "Distance for the sake of the view" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Detour</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Roadworks forced", "b": "A lengthy detour" },
+          { "a": "They took a detour", "b": "Past the old lighthouse" },
+          { "a": "Her career took a detour", "b": "Into teaching for a while" },
+          { "a": "The map showed the detour", "b": "In a dotted red line" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "tourner", "rootLanguage": "French", "rootMeaning": "To turn", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "tourner", "highlight": true },
+        { "text": " (to turn); a route that turns away from the direct path.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tourner",
+      "correctAnswer": "To turn",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Salon",
+    "pronunciation": "sah-LON",
+    "pos": "noun",
+    "definition": "A room where a hairdresser or beautician works; also a gathering of intellectuals or artists for conversation, historically hosted in a private home.",
+    "origin": "From French <strong>salon</strong> (reception room), from Italian <strong>salone</strong>, augmentative of <strong>sala</strong> (hall).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Salon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian sala", "b": "Hall" },
+          { "a": "Italian salone", "b": "A grand hall" },
+          { "a": "French salon", "b": "Reception room" },
+          { "a": "Related word", "b": "Saloon" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Salon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hair salon is", "b": "A place for hair or beauty treatments" },
+          { "a": "A literary salon was", "b": "A gathering of intellectuals" },
+          { "a": "Italian sala means", "b": "Hall" },
+          { "a": "Salons were historically hosted", "b": "In private homes" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Salon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She booked an appointment", "b": "At the new hair salon" },
+          { "a": "The Enlightenment salon gathered", "b": "Philosophers every Thursday" },
+          { "a": "Writers and painters mixed", "b": "In the crowded Parisian salon" },
+          { "a": "The salon's grand mirrors", "b": "Lined every wall" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sala", "rootLanguage": "Italian", "rootMeaning": "Hall", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Italian ", "highlight": false },
+        { "text": "sala", "highlight": true },
+        { "text": " (hall); a grand room for conversation, or for a haircut.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sala",
+      "correctAnswer": "Hall",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Turquoise",
+    "pronunciation": "TUR-koyz",
+    "pos": "noun",
+    "definition": "A blue-green semi-precious stone; also the colour it displays.",
+    "origin": "From French <strong>pierre turquoise</strong> (Turkish stone), because the mineral reached Europe through Turkish traders, though it was mined further east.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Turquoise</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French turquoise", "b": "Turkish" },
+          { "a": "French pierre turquoise", "b": "Turkish stone" },
+          { "a": "The stone reached Europe via", "b": "Turkish traders" },
+          { "a": "It was actually mined", "b": "Further east than Turkey" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Turquoise</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Turquoise is", "b": "A blue-green semi-precious stone" },
+          { "a": "As a colour, turquoise sits", "b": "Between blue and green" },
+          { "a": "French turquoise means", "b": "Turkish" },
+          { "a": "The name reflects", "b": "The trade route, not the mine" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Turquoise</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The turquoise ring", "b": "Caught the afternoon light" },
+          { "a": "The sea turned a brilliant", "b": "Turquoise near the reef" },
+          { "a": "She painted the door", "b": "A bold turquoise" },
+          { "a": "Turquoise jewellery was", "b": "Prized across many cultures" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "turquoise", "rootLanguage": "French", "rootMeaning": "Turkish", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "turquoise", "highlight": true },
+        { "text": " (Turkish); named for the trade route, not the mine itself.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "turquoise",
+      "correctAnswer": "Turkish",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mushroom",
+    "pronunciation": "MUSH-room",
+    "pos": "noun",
+    "definition": "The fleshy, spore-bearing fruiting body of a fungus, typically with a stem and cap.",
+    "origin": "From Old French <strong>mousseron</strong>, possibly related to <strong>mousse</strong> (moss), describing where the fungus grows.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mushroom</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French mousseron", "b": "The fungus's early name" },
+          { "a": "Possibly related to", "b": "Mousse, meaning moss" },
+          { "a": "The link describes", "b": "Where the fungus grows" },
+          { "a": "Modern verb to mushroom means", "b": "To grow or spread rapidly" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mushroom</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mushroom is", "b": "The fruiting body of a fungus" },
+          { "a": "It typically has", "b": "A stem and a cap" },
+          { "a": "To mushroom means", "b": "To grow rapidly" },
+          { "a": "Old French mousse meant", "b": "Moss" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mushroom</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wild mushrooms sprouted", "b": "After the autumn rain" },
+          { "a": "The complaints mushroomed", "b": "Into a full investigation" },
+          { "a": "She fried the mushrooms", "b": "In garlic and butter" },
+          { "a": "New housing developments mushroomed", "b": "Across the valley" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "mousseron", "rootLanguage": "Old French", "rootMeaning": "The fungus's early name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "mousseron", "highlight": true },
+        { "text": ", possibly linked to moss; where the mushroom is often found.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mousseron",
+      "correctAnswer": "The fungus's early name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chassis",
+    "pronunciation": "SHAS-ee",
+    "pos": "noun",
+    "definition": "The base frame of a vehicle, supporting the body, engine, and wheels.",
+    "origin": "From French <strong>châssis</strong> (frame), from Latin <strong>capsa</strong> (box, case), the same root that gave us case and capsule.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chassis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin capsa", "b": "Box or case" },
+          { "a": "French châssis", "b": "Frame" },
+          { "a": "Related words", "b": "Case, capsule" },
+          { "a": "In cars the chassis supports", "b": "Body, engine, and wheels" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chassis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chassis is", "b": "The base frame of a vehicle" },
+          { "a": "Latin capsa meant", "b": "Box or case" },
+          { "a": "A window chassis holds", "b": "The pane of glass" },
+          { "a": "The word also applies to", "b": "Aircraft and machinery frames" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chassis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The mechanic inspected", "b": "The car's rusted chassis" },
+          { "a": "The racing chassis was built", "b": "For maximum rigidity" },
+          { "a": "Engineers welded the chassis", "b": "In a single continuous frame" },
+          { "a": "The old chassis rattled", "b": "Over every pothole" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "capsa", "rootLanguage": "Latin", "rootMeaning": "Box or case", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "capsa", "highlight": true },
+        { "text": " (box); the frame that everything else sits inside.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "capsa",
+      "correctAnswer": "Box or case",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cologne",
+    "pronunciation": "kuh-LOHN",
+    "pos": "noun",
+    "definition": "A lightly scented perfume, less concentrated than true perfume, traditionally worn by men.",
+    "origin": "Named after the German city of <strong>Cologne</strong>, where an Italian perfumer created eau de Cologne in the early 18th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cologne</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "The German city of Cologne" },
+          { "a": "Created by", "b": "An Italian perfumer" },
+          { "a": "Original name", "b": "Eau de Cologne" },
+          { "a": "Period", "b": "Early 18th century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cologne</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cologne is", "b": "A lightly scented perfume" },
+          { "a": "It is less concentrated than", "b": "Eau de parfum" },
+          { "a": "Cologne is traditionally worn by", "b": "Men" },
+          { "a": "The name honours", "b": "A German city" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cologne</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He splashed on a little", "b": "Cologne before the interview" },
+          { "a": "The scent of his cologne", "b": "Lingered in the hallway" },
+          { "a": "She chose a cologne", "b": "With notes of citrus and cedar" },
+          { "a": "The perfumer bottled", "b": "The city's name into a fragrance" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Cologne", "rootLanguage": "German place name", "rootMeaning": "A city on the Rhine", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named after ", "highlight": false },
+        { "text": "Cologne", "highlight": true },
+        { "text": ", the German city where an Italian perfumer bottled its water.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A lightly scented perfume, named after the German city where it was created.",
+      "correctAnswer": "A lightly scented perfume",
+      "hint": "Think about the men's fragrance named after a city on the Rhine.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Silhouette",
+    "pronunciation": "sil-oo-ET",
+    "pos": "noun",
+    "definition": "The dark outline or shape of a person or object visible against a lighter background.",
+    "origin": "Named after Étienne de <strong>Silhouette</strong>, an 18th-century French finance minister mocked for his stinginess. Cheap paper-cut portraits, associated with cheapness, took his name.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Silhouette</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Étienne de Silhouette", "b": "An 18th-century French finance minister" },
+          { "a": "He was mocked for", "b": "His stinginess" },
+          { "a": "Associated with", "b": "Cheap paper-cut portraits" },
+          { "a": "The style needed", "b": "No expensive paint or canvas" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Silhouette</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A silhouette is", "b": "A dark outline against a light background" },
+          { "a": "Silhouette portraits were originally", "b": "Cheap paper cutouts" },
+          { "a": "The word comes from", "b": "A finance minister's surname" },
+          { "a": "A dress silhouette describes", "b": "Its overall shape" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Silhouette</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her silhouette appeared", "b": "Against the sunset sky" },
+          { "a": "The artist cut a silhouette", "b": "From black paper" },
+          { "a": "The building's silhouette dominated", "b": "The city skyline" },
+          { "a": "The dress had a fitted", "b": "Hourglass silhouette" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Silhouette", "rootLanguage": "French surname", "rootMeaning": "A mocked finance minister", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named after ", "highlight": false },
+        { "text": "Silhouette", "highlight": true },
+        { "text": ", a minister mocked for stinginess; his name stuck to the cheap art form.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A dark outline against a lighter background, named after a French finance minister.",
+      "correctAnswer": "A dark outline against a light background",
+      "hint": "Think about the shape you see when someone stands in front of the sun.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sabotage",
+    "pronunciation": "SAB-uh-tahzh",
+    "pos": "noun",
+    "definition": "Deliberate action to obstruct, damage, or destroy, especially for political or competitive advantage.",
+    "origin": "From French <strong>sabotage</strong>, from <strong>saboter</strong> (to bungle, to work clumsily), possibly related to <strong>sabot</strong> (wooden clog), from workers allegedly damaging machinery with their clogs.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sabotage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French sabot", "b": "Wooden clog" },
+          { "a": "French saboter", "b": "To bungle or work clumsily" },
+          { "a": "Popular legend claims", "b": "Workers damaged machines with clogs" },
+          { "a": "Modern sense", "b": "Deliberate obstruction or damage" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sabotage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sabotage is", "b": "Deliberate damage or obstruction" },
+          { "a": "Industrial sabotage targets", "b": "Machinery or production" },
+          { "a": "French saboter meant", "b": "To bungle" },
+          { "a": "The clog legend is", "b": "Popular but historically disputed" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sabotage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Investigators suspected", "b": "Deliberate sabotage" },
+          { "a": "He accused his rival of", "b": "Sabotaging the negotiations" },
+          { "a": "The wartime resistance sabotaged", "b": "Railway lines and bridges" },
+          { "a": "She felt her own doubts", "b": "Were sabotaging her progress" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "sabot", "rootLanguage": "French", "rootMeaning": "Wooden clog", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "sabot", "highlight": true },
+        { "text": " (clog); a shoe accused of jamming the machinery.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sabot",
+      "correctAnswer": "Wooden clog",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chic",
+    "pronunciation": "SHEEK",
+    "pos": "adjective",
+    "definition": "Elegantly and fashionably stylish.",
+    "origin": "From French <strong>chic</strong>, possibly from German <strong>Schick</strong> (skill, tact), or related to <strong>chicane</strong>. The exact origin is disputed among etymologists.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Schick", "b": "Skill or tact, a possible source" },
+          { "a": "French chic", "b": "Stylish" },
+          { "a": "Exact origin is", "b": "Disputed among etymologists" },
+          { "a": "Possibly related to", "b": "Chicane" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chic describes", "b": "Elegant, fashionable style" },
+          { "a": "A chic outfit is", "b": "Effortlessly stylish" },
+          { "a": "German Schick meant", "b": "Skill or tact" },
+          { "a": "Chic differs from trendy in suggesting", "b": "Timeless elegance" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her apartment was", "b": "Minimal and utterly chic" },
+          { "a": "The restaurant had", "b": "A chic understated interior" },
+          { "a": "He dressed with", "b": "Effortless Parisian chic" },
+          { "a": "The brand built its name", "b": "On timeless chic" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "Schick", "rootLanguage": "German", "rootMeaning": "Skill or tact", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Possibly from German ", "highlight": false },
+        { "text": "Schick", "highlight": true },
+        { "text": " (skill); a disputed origin for effortless elegance.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "Elegantly and fashionably stylish, with a disputed origin.",
+      "correctAnswer": "Elegant, fashionable style",
+      "hint": "Think about what you'd call an effortlessly stylish outfit.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bizarre",
+    "pronunciation": "bih-ZAR",
+    "pos": "adjective",
+    "definition": "Very strange or unusual, especially in a striking or unsettling way.",
+    "origin": "From French <strong>bizarre</strong>, from Spanish <strong>bizarro</strong> (brave, spirited), from Basque <strong>bizar</strong> (beard). The meaning shifted dramatically from bravery to strangeness across languages.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bizarre</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Basque bizar", "b": "Beard" },
+          { "a": "Spanish bizarro", "b": "Brave or spirited" },
+          { "a": "French bizarre", "b": "Strange or unusual" },
+          { "a": "Meaning shifted from", "b": "Bravery to strangeness" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bizarre</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bizarre describes", "b": "Something very strange" },
+          { "a": "Spanish bizarro originally meant", "b": "Brave or spirited" },
+          { "a": "A bizarre coincidence is", "b": "Strikingly odd" },
+          { "a": "Basque bizar meant", "b": "Beard" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bizarre</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "It was a bizarre coincidence", "b": "That they met again there" },
+          { "a": "The whole situation felt", "b": "Faintly bizarre" },
+          { "a": "He told a bizarre story", "b": "About the missing cat" },
+          { "a": "The dream grew steadily", "b": "More bizarre by the minute" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "bizar", "rootLanguage": "Basque", "rootMeaning": "Beard", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Basque ", "highlight": false },
+        { "text": "bizar", "highlight": true },
+        { "text": " (beard), via Spanish bravery, into French strangeness.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bizar",
+      "correctAnswer": "Beard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gargoyle",
+    "pronunciation": "GAR-goyl",
+    "pos": "noun",
+    "definition": "A grotesque carved stone figure, typically on a building, functioning as a spout to channel rainwater away from the walls.",
+    "origin": "From French <strong>gargouille</strong> (throat, waterspout), imitating the gurgling sound water makes passing through the throat.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gargoyle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French gargouille", "b": "Throat or waterspout" },
+          { "a": "The word imitates", "b": "The gurgling sound of water" },
+          { "a": "Related word", "b": "Gargle" },
+          { "a": "Function on buildings", "b": "Channelling rainwater away" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gargoyle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gargoyle is", "b": "A carved stone waterspout figure" },
+          { "a": "Gargoyles are typically", "b": "Grotesque in appearance" },
+          { "a": "French gargouille meant", "b": "Throat" },
+          { "a": "Gargoyles protect walls by", "b": "Directing water away from stonework" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gargoyle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rain streamed", "b": "From the cathedral's gargoyles" },
+          { "a": "The gargoyle glared down", "b": "From the ancient roofline" },
+          { "a": "Stonemasons carved each gargoyle", "b": "With its own twisted grimace" },
+          { "a": "Tourists photographed", "b": "Every gargoyle on the facade" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gargouille", "rootLanguage": "French", "rootMeaning": "Throat or waterspout", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From French ", "highlight": false },
+        { "text": "gargouille", "highlight": true },
+        { "text": " (throat); named for the gurgle of water passing through.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gargouille",
+      "correctAnswer": "Throat or waterspout",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Goblin",
+    "pronunciation": "GOB-lin",
+    "pos": "noun",
+    "definition": "A mischievous, ugly, sprite-like creature of folklore, often depicted as malicious or troublesome.",
+    "origin": "From Old French <strong>gobelin</strong>, possibly related to Medieval Latin <strong>gobelinus</strong>, connected to a mischievous spirit said to haunt the town of Évreux in Normandy.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Goblin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French gobelin", "b": "The creature's name" },
+          { "a": "Medieval Latin gobelinus", "b": "A related possible source" },
+          { "a": "Associated with", "b": "A spirit haunting Évreux" },
+          { "a": "Évreux is located in", "b": "Normandy, France" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Goblin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A goblin is", "b": "A mischievous folklore creature" },
+          { "a": "Goblins are typically depicted as", "b": "Ugly and troublesome" },
+          { "a": "The word may trace to", "b": "A haunted French town" },
+          { "a": "Goblins appear widely in", "b": "European folklore and fantasy" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Goblin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The goblin cackled", "b": "From behind the market stall" },
+          { "a": "Children's stories often cast", "b": "Goblins as tricksters" },
+          { "a": "In the game, goblins guarded", "b": "The dungeon's treasure room" },
+          { "a": "The old tale warned of", "b": "Goblins in the deep forest" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "gobelin", "rootLanguage": "Old French", "rootMeaning": "The creature's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Old French ", "highlight": false },
+        { "text": "gobelin", "highlight": true },
+        { "text": ", possibly linked to a spirit haunting a Norman town.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "definition",
+      "sourceKind": "definition",
+      "sourceValue": "A mischievous, ugly sprite-like creature of European folklore.",
+      "correctAnswer": "A mischievous folklore creature",
+      "hint": "Think about the small, troublesome creature common to fairy tales.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vampire",
+    "pronunciation": "VAM-pyr",
+    "pos": "noun",
+    "definition": "A mythical undead creature that feeds on the blood of the living, often depicted with fangs and an aversion to sunlight.",
+    "origin": "From French <strong>vampire</strong>, from German <strong>Vampir</strong>, from Serbian <strong>vampir</strong>, of uncertain earlier Slavic origin. Popularised in Western Europe in the 18th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vampire</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Serbian vampir", "b": "The creature's Slavic name" },
+          { "a": "German Vampir", "b": "The intermediate form" },
+          { "a": "French vampire", "b": "The route into English" },
+          { "a": "Popularised in", "b": "18th-century Western Europe" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vampire</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A vampire is", "b": "An undead creature feeding on blood" },
+          { "a": "Vampires are traditionally shown with", "b": "Fangs and an aversion to sunlight" },
+          { "a": "The earlier origin is", "b": "Uncertain Slavic folklore" },
+          { "a": "A vampire bat feeds on", "b": "The blood of other animals" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vampire</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vampire recoiled", "b": "From the morning light" },
+          { "a": "Vampire novels have thrilled", "b": "Readers for two centuries" },
+          { "a": "She described her boss as", "b": "A vampire draining her energy" },
+          { "a": "The vampire bat sipped", "b": "Blood from the sleeping cow" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "vampir", "rootLanguage": "Serbian", "rootMeaning": "The creature's name", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Serbian ", "highlight": false },
+        { "text": "vampir", "highlight": true },
+        { "text": ", via German and French; a Slavic legend that conquered Europe.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vampir",
+      "correctAnswer": "The creature's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Brigade",
+    "pronunciation": "brih-GAYD",
+    "pos": "noun",
+    "definition": "A large body of troops, typically consisting of several battalions. Also used for any organised group working together.",
+    "origin": "From French <strong>brigade</strong>, from Italian <strong>brigata</strong> (troop, company), from <strong>brigare</strong> (to fight, to strive).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": { "id": "loan-french", "name": "From France", "packId": "loan-words" },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Brigade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian brigare", "b": "To fight or strive" },
+          { "a": "Italian brigata", "b": "Troop or company" },
+          { "a": "French brigade", "b": "The military unit's name" },
+          { "a": "A brigade consists of", "b": "Several battalions" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Brigade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A brigade is", "b": "A large body of troops" },
+          { "a": "A fire brigade is", "b": "An organised firefighting force" },
+          { "a": "Italian brigare meant", "b": "To fight or strive" },
+          { "a": "A kitchen brigade organises", "b": "Chefs into a working structure" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Brigade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The brigade advanced", "b": "At dawn across open ground" },
+          { "a": "The fire brigade arrived", "b": "Within minutes of the call" },
+          { "a": "The kitchen brigade worked", "b": "In near silence during service" },
+          { "a": "A volunteer brigade cleared", "b": "The flood debris overnight" }
+        ]
+      }
+    ],
+    "roots": [
+      { "rootText": "brigare", "rootLanguage": "Italian", "rootMeaning": "To fight or strive", "showInIntro": true }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Italian ", "highlight": false },
+        { "text": "brigare", "highlight": true },
+        { "text": " (to strive); any organised force working as one.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "brigare",
+      "correctAnswer": "To fight or strive",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]
