@@ -10,6 +10,8 @@ type GlassCardProps = {
   borderRadius?: number;
   style?: StyleProp<ViewStyle>;
   contentStyle?: StyleProp<ViewStyle>;
+  /** Overrides the shared cardBlurIntensity for callers that want a stronger/weaker glass effect. */
+  blurIntensity?: number;
 };
 
 /** index.html card: var(--card) + border + backdrop-filter: blur(10px) */
@@ -18,6 +20,7 @@ export function GlassCard({
   borderRadius = 18,
   style,
   contentStyle,
+  blurIntensity,
 }: GlassCardProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
@@ -45,7 +48,11 @@ export function GlassCard({
   return (
     <View style={[styles.shell, style]}>
       {Platform.OS !== 'web' ? (
-        <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={styles.blur} />
+        <BlurView
+          intensity={blurIntensity ?? cardBlurIntensity}
+          tint={isNight ? 'dark' : 'light'}
+          style={styles.blur}
+        />
       ) : null}
       <View style={[styles.inner, contentStyle]}>{children}</View>
     </View>

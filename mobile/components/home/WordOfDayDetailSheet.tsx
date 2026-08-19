@@ -19,20 +19,26 @@ function createStyles(colors: AppThemeColors) {
   return StyleSheet.create({
     overlay: {
       flex: 1,
-      backgroundColor: colors.overlay,
+      backgroundColor: 'rgba(8,6,14,0.82)',
       justifyContent: 'center',
       alignItems: 'center',
       paddingHorizontal: 20,
       ...(Platform.OS === 'web'
-        ? ({ backdropFilter: 'blur(14px)', WebkitBackdropFilter: 'blur(14px)' } as object)
+        ? ({ backdropFilter: 'blur(28px)', WebkitBackdropFilter: 'blur(28px)' } as object)
         : null),
     },
     sheet: {
       width: '100%',
       maxWidth: 390,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 20 },
+      shadowOpacity: 0.5,
+      shadowRadius: 40,
+      elevation: 24,
     },
     sheetCard: {
-      backgroundColor: colors.sheetBg,
+      borderWidth: 1,
+      borderColor: colors.glassCardBorder,
     },
     sheetContent: {
       paddingHorizontal: 20,
@@ -132,7 +138,7 @@ export function WordOfDayDetailSheet({
       <Pressable style={styles.overlay} onPress={onClose} accessible={false}>
         {Platform.OS !== 'web' ? (
           <BlurView
-            intensity={30}
+            intensity={85}
             tint={blend >= 0.5 ? 'dark' : 'light'}
             style={StyleSheet.absoluteFill}
           />
@@ -143,7 +149,12 @@ export function WordOfDayDetailSheet({
           accessible={false}
           accessibilityViewIsModal
         >
-          <GlassCard borderRadius={24} style={styles.sheetCard} contentStyle={styles.sheetContent}>
+          <GlassCard
+            borderRadius={24}
+            style={styles.sheetCard}
+            contentStyle={styles.sheetContent}
+            blurIntensity={60}
+          >
             <View style={styles.handle} />
             <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
             <Text style={styles.word}>{word}</Text>
