@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { isValidPassage, tokenizePassage } from '../lib/word-spotting';
+import { candidateTokens, isValidPassage, tokenizePassage } from '../lib/word-spotting';
 
 describe('word spotting', () => {
   it('marks the single occurrence of the target word as the target token', () => {
@@ -31,5 +31,39 @@ describe('word spotting', () => {
     expect(isValidPassage('The plan was lucid.', 'lucid')).toBe(true);
     expect(isValidPassage('No match here.', 'lucid')).toBe(false);
     expect(isValidPassage('Lucid, then lucid again.', 'lucid')).toBe(false);
+  });
+
+  it('candidateTokens drops grammatical filler and keeps real words plus the target', () => {
+    const tokens = tokenizePassage(
+      'She always did her best thinking during a quiet matutinal walk, before the street had woken up.',
+      'matutinal',
+    );
+    const candidates = candidateTokens(tokens).map((c) => c.token.text);
+    expect(candidates).toEqual([
+      'always',
+      'best',
+      'thinking',
+      'quiet',
+      'matutinal',
+      'walk',
+      'street',
+      'woken',
+    ]);
+    expect(candidates).not.toContain('She');
+    expect(candidates).not.toContain('the');
+  });
+
+  it('candidateTokens preserves the original token index for each candidate', () => {
+    const tokens = tokenizePassage('The plan was lucid.', 'lucid');
+    const candidates = candidateTokens(tokens);
+    for (const { token, index } of candidates) {
+      expect(tokens[index]).toBe(token);
+    }
+  });
+
+  it('candidateTokens always includes the target word', () => {
+    const tokens = tokenizePassage('It was lucid.', 'lucid');
+    const candidates = candidateTokens(tokens);
+    expect(candidates.some((c) => c.token.isTarget)).toBe(true);
   });
 });

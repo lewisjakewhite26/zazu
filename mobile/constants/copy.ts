@@ -41,6 +41,8 @@ export const copy = {
     tryAgain: 'Not quite. Try again.',
     hintClue: (definition: string) => `Hint: it means ${definition}`,
     hintReveal: "Here it is, glowing below.",
+    hintRevealScreenReader: (word: string) => `It's "${word}". Select it from the list below.`,
+    screenReaderPrompt: "Listen to the sentence, then select today's word from the list below.",
   },
   alarmPermissions: {
     bannerTitle: "Alarm can't wake a locked phone yet",

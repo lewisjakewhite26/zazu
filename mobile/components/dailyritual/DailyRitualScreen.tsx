@@ -14,7 +14,7 @@ import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
-import { tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
+import { candidateTokens, tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
 
 const ADVANCE_MS = 550;
@@ -37,12 +37,19 @@ export function DailyRitualScreen() {
   const [reward, setReward] = useState<{ coinsEarned: number; alreadyCompletedToday: boolean } | null>(
     null,
   );
+  const [screenReaderEnabled, setScreenReaderEnabled] = useState(false);
 
   useEffect(() => {
     if (!dailyRitualSession) {
       router.replace('/');
     }
   }, [dailyRitualSession, router]);
+
+  useEffect(() => {
+    AccessibilityInfo.isScreenReaderEnabled().then(setScreenReaderEnabled);
+    const sub = AccessibilityInfo.addEventListener('screenReaderChanged', setScreenReaderEnabled);
+    return () => sub.remove();
+  }, []);
 
   const mcqQuestions = dailyRitualSession?.mcqQuestions ?? [];
   const passageStep = dailyRitualSession?.passageStep ?? null;
@@ -55,6 +62,8 @@ export function DailyRitualScreen() {
     if (!passageStep) return [];
     return tokenizePassage(passageStep.passage, passageStep.targetWord);
   }, [passageStep]);
+
+  const passageCandidates = useMemo(() => candidateTokens(passageTokens), [passageTokens]);
 
   const finishRitual = useCallback(async () => {
     if (!dailyRitualSession || finishing) return;
@@ -190,6 +199,27 @@ export function DailyRitualScreen() {
         wordToken: { paddingVertical: 3 },
         wordTokenCorrect: { backgroundColor: colors.correct, borderRadius: 6 },
         wordTokenWrong: { backgroundColor: colors.wrong, borderRadius: 6 },
+        screenReaderPrompt: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.subtext,
+          marginBottom: spacing.md,
+        },
+        candidateList: {
+          gap: 8,
+        },
+        candidateOption: {
+          borderWidth: 1,
+          borderColor: colors.border,
+          borderRadius: 12,
+          paddingVertical: 12,
+          paddingHorizontal: 16,
+        },
+        candidateOptionText: {
+          fontFamily: fonts.sans,
+          fontSize: 15,
+          color: colors.text,
+        },
         savingRow: {
           flexDirection: 'row',
           alignItems: 'center',
@@ -331,7 +361,7 @@ export function DailyRitualScreen() {
               <Text style={styles.prompt}>{copy.dailyRitual.findPrompt}</Text>
               <Text style={styles.passageText}>
                 {passageTokens.map((token, index) => {
-                  if (!token.isWord) {
+                  if (!token.isWord || screenReaderEnabled) {
                     return <Text key={index}>{token.text}</Text>;
                   }
                   return (
@@ -351,6 +381,30 @@ export function DailyRitualScreen() {
                   );
                 })}
               </Text>
+
+              {screenReaderEnabled && !passageDone ? (
+                <>
+                  <Text style={styles.screenReaderPrompt}>{copy.morningTask.screenReaderPrompt}</Text>
+                  <View style={styles.candidateList}>
+                    {passageCandidates.map(({ token, index }) => (
+                      <Pressable
+                        key={index}
+                        onPress={() => handleTapPassageToken(index)}
+                        disabled={finishing}
+                        style={[
+                          styles.candidateOption,
+                          passageFoundIndex === index && styles.wordTokenCorrect,
+                          passageWrongIndex === index && styles.wordTokenWrong,
+                        ]}
+                        accessibilityRole="button"
+                        accessibilityLabel={token.text}
+                      >
+                        <Text style={styles.candidateOptionText}>{token.text}</Text>
+                      </Pressable>
+                    ))}
+                  </View>
+                </>
+              ) : null}
             </>
           ) : null}
 

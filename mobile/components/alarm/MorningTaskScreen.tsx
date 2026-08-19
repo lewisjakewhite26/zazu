@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { AccessibilityInfo, StyleSheet, Text, View } from 'react-native';
+import { AccessibilityInfo, Pressable, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -14,7 +14,7 @@ import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useSnooze } from '@/hooks/useSnooze';
-import { tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
+import { candidateTokens, tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
 
 const CORRECT_CONFIRM_MS = 500;
@@ -34,12 +34,19 @@ export function MorningTaskScreen() {
   const [showTryAgain, setShowTryAgain] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [wrongAttempts, setWrongAttempts] = useState(0);
+  const [screenReaderEnabled, setScreenReaderEnabled] = useState(false);
 
   useEffect(() => {
     if (!sessionWord) {
       router.replace('/');
     }
   }, [sessionWord, router]);
+
+  useEffect(() => {
+    AccessibilityInfo.isScreenReaderEnabled().then(setScreenReaderEnabled);
+    const sub = AccessibilityInfo.addEventListener('screenReaderChanged', setScreenReaderEnabled);
+    return () => sub.remove();
+  }, []);
 
   useEffect(() => {
     setDismissReady(false);
@@ -56,16 +63,21 @@ export function MorningTaskScreen() {
   }, [sessionWord]);
 
   const targetIndex = useMemo(() => tokens.findIndex((token) => token.isTarget), [tokens]);
+  const candidates = useMemo(() => candidateTokens(tokens), [tokens]);
   const showHintClue = wrongAttempts >= 1;
   const showHintReveal = wrongAttempts >= 2;
 
   useEffect(() => {
     if (wrongAttempts === 1 && sessionWord) {
       AccessibilityInfo.announceForAccessibility(copy.morningTask.hintClue(sessionWord.definition));
-    } else if (wrongAttempts === 2) {
-      AccessibilityInfo.announceForAccessibility(copy.morningTask.hintReveal);
+    } else if (wrongAttempts === 2 && sessionWord) {
+      AccessibilityInfo.announceForAccessibility(
+        screenReaderEnabled
+          ? copy.morningTask.hintRevealScreenReader(sessionWord.word)
+          : copy.morningTask.hintReveal,
+      );
     }
-  }, [wrongAttempts, sessionWord]);
+  }, [wrongAttempts, sessionWord, screenReaderEnabled]);
 
   const handleExitDemo = () => {
     clearFlow();
@@ -191,6 +203,28 @@ export function MorningTaskScreen() {
           marginTop: spacing.sm,
           textAlign: 'center',
         },
+        screenReaderPrompt: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.subtext,
+          marginTop: spacing.sm,
+          marginBottom: spacing.md,
+        },
+        candidateList: {
+          gap: 8,
+        },
+        candidateOption: {
+          borderWidth: 1,
+          borderColor: colors.border,
+          borderRadius: 12,
+          paddingVertical: 12,
+          paddingHorizontal: 16,
+        },
+        candidateOptionText: {
+          fontFamily: fonts.sans,
+          fontSize: 15,
+          color: colors.text,
+        },
         cta: {
           marginTop: spacing.xl,
         },
@@ -220,7 +254,7 @@ export function MorningTaskScreen() {
           <View style={styles.passageWrap}>
             <Text style={styles.passageText}>
               {tokens.map((token, index) => {
-                if (!token.isWord) {
+                if (!token.isWord || screenReaderEnabled) {
                   return <Text key={index}>{token.text}</Text>;
                 }
                 return (
@@ -243,9 +277,37 @@ export function MorningTaskScreen() {
             </Text>
           </View>
 
+          {screenReaderEnabled && !dismissReady ? (
+            <>
+              <Text style={styles.screenReaderPrompt}>{copy.morningTask.screenReaderPrompt}</Text>
+              <View style={styles.candidateList}>
+                {candidates.map(({ token, index }) => (
+                  <Pressable
+                    key={index}
+                    onPress={() => handleTapToken(index)}
+                    disabled={checking || submitting}
+                    style={[
+                      styles.candidateOption,
+                      correctIndex === index && styles.wordTokenCorrect,
+                      wrongIndex === index && styles.wordTokenWrong,
+                    ]}
+                    accessibilityRole="button"
+                    accessibilityLabel={token.text}
+                  >
+                    <Text style={styles.candidateOptionText}>{token.text}</Text>
+                  </Pressable>
+                ))}
+              </View>
+            </>
+          ) : null}
+
           {showTryAgain ? <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text> : null}
           {!dismissReady && showHintReveal ? (
-            <Text style={styles.hintClue}>{copy.morningTask.hintReveal}</Text>
+            <Text style={styles.hintClue}>
+              {screenReaderEnabled
+                ? copy.morningTask.hintRevealScreenReader(sessionWord.word)
+                : copy.morningTask.hintReveal}
+            </Text>
           ) : !dismissReady && showHintClue && sessionWord ? (
             <Text style={styles.hintClue}>{copy.morningTask.hintClue(sessionWord.definition)}</Text>
           ) : null}
