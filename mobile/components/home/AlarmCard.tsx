@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { TrashIcon } from 'phosphor-react-native';
+import { MoonIcon, SunIcon, TrashIcon } from 'phosphor-react-native';
 
 import { AnimatedToggle } from '@/components/ui/AnimatedToggle';
 import { GlassCard } from '@/components/ui/GlassCard';
@@ -20,6 +20,9 @@ export type AlarmCardProps = {
 export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
   const { colors } = useTheme();
   const { id, time, label, enabled } = alarm;
+  const hour = Number.parseInt(time.slice(0, 2), 10);
+  const isDaytime = hour >= 5 && hour < 18;
+  const TimeOfDayIcon = isDaytime ? SunIcon : MoonIcon;
 
   const styles = useMemo(
     () =>
@@ -46,10 +49,15 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
           ...typography.alarmTime,
           color: colors.text,
         },
+        metaRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 5,
+          marginTop: 3,
+        },
         meta: {
           ...typography.alarmMeta,
           color: colors.subtext,
-          marginTop: 3,
         },
         actions: {
           flexDirection: 'row',
@@ -68,7 +76,10 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
     >
       <View style={styles.info}>
         <Text style={styles.time}>{time}</Text>
-        <Text style={styles.meta}>{label}</Text>
+        <View style={styles.metaRow}>
+          <TimeOfDayIcon size={13} color={colors.subtext} />
+          <Text style={styles.meta}>{label}</Text>
+        </View>
       </View>
 
       <View style={styles.actions}>

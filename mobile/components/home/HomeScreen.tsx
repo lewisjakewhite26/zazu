@@ -1,7 +1,8 @@
 import { useCallback } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { PlusIcon } from 'phosphor-react-native';
 
 import { AlarmPermissionBanner } from '@/components/home/AlarmPermissionBanner';
 import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
@@ -9,11 +10,11 @@ import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
 import { showAppAlert } from '@/components/ui/AppAlert';
-import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { IconButton } from '@/components/ui/IconButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
-import { typography } from '@/constants/theme';
+import { fonts, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
@@ -114,13 +115,24 @@ export function HomeScreen() {
               { paddingBottom: floatingTabBarClearance(insets.bottom) },
             ]}
           >
-            <PrimaryButton label={copy.home.addAlarm} onPress={handleAddAlarm} style={styles.addAlarmBtn} />
-            <PrimaryButton
-              label={copy.home.tryTheAlarm}
-              variant="outline"
-              size="demo"
+            <IconButton
+              onPress={handleAddAlarm}
+              accessibilityLabel={copy.home.addAlarm}
+              variant="card"
+              style={styles.addAlarmFab}
+            >
+              <PlusIcon size={24} color={colors.text} />
+            </IconButton>
+            <Pressable
               onPress={handleDemoAlarm}
-            />
+              accessibilityRole="button"
+              accessibilityLabel={copy.home.tryTheAlarm}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+            >
+              <Text style={[styles.tryAlarmLink, { color: colors.subtext }]}>
+                {copy.home.tryTheAlarm}
+              </Text>
+            </Pressable>
           </View>
         </View>
       </SafeAreaView>
@@ -159,9 +171,16 @@ const styles = StyleSheet.create({
   footer: {
     width: '100%',
     paddingTop: spacing.sm,
+    alignItems: 'center',
     gap: spacing.sm,
   },
-  addAlarmBtn: {
-    marginBottom: 4,
+  addAlarmFab: {
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+  },
+  tryAlarmLink: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 14,
   },
 });

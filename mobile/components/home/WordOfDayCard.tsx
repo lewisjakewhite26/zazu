@@ -13,7 +13,7 @@ export type WordOfDayCardProps = WordOfDay & {
   loading?: boolean;
 };
 
-export function WordOfDayCard({ word, definition, loading = false }: WordOfDayCardProps) {
+export function WordOfDayCard({ word, pos, definition, loading = false }: WordOfDayCardProps) {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
 
@@ -35,23 +35,46 @@ export function WordOfDayCard({ word, definition, loading = false }: WordOfDayCa
           ...StyleSheet.absoluteFill,
         },
         cardInner: {
-          paddingVertical: 22,
-          paddingHorizontal: 22,
+          paddingVertical: 26,
+          paddingHorizontal: 24,
+          alignItems: 'center',
         },
         eyebrow: {
           ...typography.wotdEyebrow,
           textTransform: 'uppercase',
           color: colors.subtext,
           marginBottom: 8,
+          textAlign: 'center',
         },
         word: {
           fontFamily: fonts.serif,
-          fontSize: 42,
-          letterSpacing: -0.84,
+          fontSize: 38,
+          letterSpacing: -0.76,
           color: colors.text,
+          textAlign: 'center',
         },
         wordLoading: {
           opacity: 0.45,
+        },
+        posBadge: {
+          alignSelf: 'center',
+          backgroundColor: colors.posBadgeBg,
+          borderRadius: radii.pill,
+          paddingHorizontal: 10,
+          paddingVertical: 4,
+          marginTop: 10,
+          marginBottom: 14,
+        },
+        posText: {
+          ...typography.posBadge,
+          textTransform: 'uppercase',
+          color: colors.subtext,
+        },
+        definition: {
+          ...typography.wotdDef,
+          color: colors.text,
+          textAlign: 'center',
+          lineHeight: 24,
         },
         cardLoading: {
           minHeight: 100,
@@ -87,6 +110,10 @@ export function WordOfDayCard({ word, definition, loading = false }: WordOfDayCa
     >
       <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={styles.word}>{word}</Text>
+      <View style={styles.posBadge}>
+        <Text style={styles.posText}>{pos}</Text>
+      </View>
+      <Text style={styles.definition}>{definition}</Text>
     </View>
   );
 
