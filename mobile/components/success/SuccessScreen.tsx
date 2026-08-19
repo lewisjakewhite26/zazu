@@ -58,7 +58,7 @@ const coinRowStyles = StyleSheet.create({
 export function SuccessScreen() {
   const router = useRouter();
   const { colors, blend } = useTheme();
-  const { sessionWord, completionResult, clearFlow, startDailyRitual } = useAlarmFlow();
+  const { sessionWord, completionResult, isDemo, clearFlow, startDailyRitual } = useAlarmFlow();
   const { alarmWords, gymWords } = useWordLibrary();
   const isNight = blend >= 0.5;
 
@@ -263,6 +263,13 @@ export function SuccessScreen() {
 
   const handleDone = () => {
     clearFlow();
+    if (isDemo) {
+      // Demo previews only ever launch from Add Alarm now -- pop back to the
+      // existing screen instance (preserving its in-progress time/label/sound
+      // state) rather than replacing to a fresh one or dropping them at Home.
+      router.dismissTo('/add-alarm');
+      return;
+    }
     router.replace('/');
   };
 

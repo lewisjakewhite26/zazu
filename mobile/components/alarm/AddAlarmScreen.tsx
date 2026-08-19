@@ -14,7 +14,9 @@ import { copy } from '@/constants/copy';
 import { radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
+import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useAlarms } from '@/hooks/useAlarms';
+import { useWordLibrary } from '@/hooks/useWordLibrary';
 import {
   ALARM_SOUNDS,
   DEFAULT_ALARM_SOUND_ID,
@@ -27,6 +29,8 @@ export function AddAlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { addAlarm } = useAlarms();
+  const { startFlow } = useAlarmFlow();
+  const { alarmWordOfDay } = useWordLibrary();
   const [hour, setHour] = useState(7);
   const [minute, setMinute] = useState(30);
   const [label, setLabel] = useState('');
@@ -117,6 +121,9 @@ export function AddAlarmScreen() {
           fontSize: 15,
           color: colors.text,
         },
+        tryAlarmButton: {
+          marginTop: spacing.sm,
+        },
         saveButton: {
           marginTop: spacing.sm,
         },
@@ -130,6 +137,13 @@ export function AddAlarmScreen() {
     await addAlarm(time, label.trim() || copy.home.weekdaysPack, soundId);
     setSaving(false);
     router.back();
+  };
+
+  const handleTryAlarm = async () => {
+    if (!alarmWordOfDay) return;
+    if (previewingId) await stopAlarmSoundPreview(previewingId);
+    startFlow(alarmWordOfDay, { isDemo: true, soundId });
+    router.push('/alarm');
   };
 
   const handleTogglePreview = async (id: AlarmSoundId) => {
@@ -208,6 +222,14 @@ export function AddAlarmScreen() {
                   );
                 })}
               </View>
+
+              <PrimaryButton
+                label={copy.home.tryTheAlarm}
+                variant="outline"
+                onPress={() => void handleTryAlarm()}
+                disabled={!alarmWordOfDay}
+                style={styles.tryAlarmButton}
+              />
 
               <PrimaryButton
                 label={copy.addAlarm.save}

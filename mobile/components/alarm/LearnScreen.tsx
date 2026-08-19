@@ -63,7 +63,7 @@ export function LearnScreen() {
 
   const handleExitDemo = () => {
     clearFlow();
-    router.replace('/');
+    router.dismissTo('/add-alarm');
   };
 
   const screenStyles = useMemo(

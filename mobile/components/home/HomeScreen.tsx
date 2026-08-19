@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PlusIcon } from 'phosphor-react-native';
@@ -14,19 +14,17 @@ import { IconButton } from '@/components/ui/IconButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
-import { fonts, typography } from '@/constants/theme';
+import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
 import { useProgress } from '@/hooks/useProgress';
 import { useAlarms, type Alarm } from '@/hooks/useAlarms';
-import { useAlarmFlow } from '@/context/AlarmFlowContext';
 
 export function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { colors } = useTheme();
-  const { startFlow } = useAlarmFlow();
   const { loading: alarmsLoading, alarms, permissionStatus, toggleAlarm, deleteAlarm } = useAlarms();
   const { loading: progressLoading, streak, coins } = useProgress();
   const {
@@ -65,12 +63,6 @@ export function HomeScreen() {
   const handleAddAlarm = useCallback(() => {
     router.push('/add-alarm');
   }, [router]);
-
-  const handleDemoAlarm = useCallback(() => {
-    if (!alarmWordOfDay) return;
-    startFlow(alarmWordOfDay, { isDemo: true });
-    router.push('/alarm');
-  }, [startFlow, alarmWordOfDay, router]);
 
   return (
     <GradientBackground>
@@ -123,16 +115,6 @@ export function HomeScreen() {
             >
               <PlusIcon size={24} color={colors.text} />
             </IconButton>
-            <Pressable
-              onPress={handleDemoAlarm}
-              accessibilityRole="button"
-              accessibilityLabel={copy.home.tryTheAlarm}
-              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-            >
-              <Text style={[styles.tryAlarmLink, { color: colors.subtext }]}>
-                {copy.home.tryTheAlarm}
-              </Text>
-            </Pressable>
           </View>
         </View>
       </SafeAreaView>
@@ -172,15 +154,10 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingTop: spacing.sm,
     alignItems: 'center',
-    gap: spacing.sm,
   },
   addAlarmFab: {
     width: 56,
     height: 56,
     borderRadius: 28,
-  },
-  tryAlarmLink: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 14,
   },
 });

@@ -48,7 +48,7 @@ export function AlarmScreen() {
 
   const handleExitDemo = () => {
     clearFlow();
-    router.replace('/');
+    router.dismissTo('/add-alarm');
   };
 
   const handleSnooze = async () => {

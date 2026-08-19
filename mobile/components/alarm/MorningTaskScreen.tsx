@@ -81,7 +81,7 @@ export function MorningTaskScreen() {
 
   const handleExitDemo = () => {
     clearFlow();
-    router.replace('/');
+    router.dismissTo('/add-alarm');
   };
 
   const handleTapToken = (index: number) => {
