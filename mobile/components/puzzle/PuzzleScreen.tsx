@@ -9,7 +9,6 @@ import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
 import { PuzzleTile } from '@/components/puzzle/PuzzleTile';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
-import { useSubscription } from '@/context/SubscriptionContext';
 import { useProgress } from '@/hooks/useProgress';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
@@ -27,7 +26,6 @@ export function PuzzleScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { gymSessionWord, setGymCompletionResult, clearFlow } = useAlarmFlow();
-  const { isGold } = useSubscription();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
   const [tiles, setTiles] = useState<PuzzleTileState[]>([]);
@@ -64,8 +62,8 @@ export function PuzzleScreen() {
     AccessibilityInfo.announceForAccessibility(copy.puzzle.saving);
     const result = await completeGym(gymSessionWord.id);
     setGymCompletionResult(result);
-    router.replace(isGold ? '/gym-success' : '/ad');
-  }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router, isGold]);
+    router.replace('/gym-success');
+  }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router]);
 
   const advanceRound = useCallback(() => {
     if (!gymSessionWord) return;
