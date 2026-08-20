@@ -13,7 +13,7 @@ import { THEME_DARK, getThemeBlend, resolveThemePalette, type ThemePalette } fro
 import { colors as staticColors } from '@/constants/theme';
 
 /** 'auto' follows the real-time dawn/dusk blend; 'light'/'dark' is an explicit user override. */
-type ThemeOverride = 'light' | 'dark' | 'auto';
+export type ThemeOverride = 'light' | 'dark' | 'auto';
 
 const AUTO_TICK_MS = 60_000;
 const THEME_OVERRIDE_STORAGE_KEY = 'zazu:themeOverride';
@@ -27,6 +27,7 @@ type ThemeContextValue = {
   blend: number;
   override: ThemeOverride;
   toggleOverride: () => void;
+  setOverride: (next: ThemeOverride) => void;
 };
 
 const ThemeContext = createContext<ThemeContextValue | null>(null);
@@ -127,8 +128,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       blend,
       override,
       toggleOverride,
+      setOverride,
     }),
-    [colors, blend, override, toggleOverride],
+    [colors, blend, override, toggleOverride, setOverride],
   );
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
@@ -142,6 +144,7 @@ export function useTheme() {
       blend: 1,
       override: 'dark' as ThemeOverride,
       toggleOverride: () => {},
+      setOverride: () => {},
     };
   }
   return context;

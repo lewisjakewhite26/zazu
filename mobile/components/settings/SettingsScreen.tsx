@@ -1,8 +1,8 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { CaretRightIcon } from 'phosphor-react-native';
+import { CaretDownIcon, CaretRightIcon, CaretUpIcon, CheckIcon } from 'phosphor-react-native';
 
 import { Divider } from '@/components/ui/Divider';
 import { GlassCard } from '@/components/ui/GlassCard';
@@ -14,12 +14,17 @@ import { fonts, radii, typography } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAuth } from '@/context/AuthContext';
 import { useSubscription } from '@/context/SubscriptionContext';
-import { useTheme, type AppThemeColors } from '@/context/ThemeContext';
+import { useTheme, type AppThemeColors, type ThemeOverride } from '@/context/ThemeContext';
 
-const GOLD_BADGE_BG = 'rgba(201,150,58,0.16)';
+const THEME_OPTIONS: { value: ThemeOverride; label: string }[] = [
+  { value: 'auto', label: 'Auto (Dawn/Dusk)' },
+  { value: 'light', label: 'Light' },
+  { value: 'dark', label: 'Dark' },
+];
 
 type SettingsRowProps = {
   label: string;
+  hint?: string;
   value?: string;
   valueTone?: 'neutral' | 'gold';
   onPress?: () => void;
@@ -27,8 +32,8 @@ type SettingsRowProps = {
   colors: AppThemeColors;
 };
 
-/** A single tappable, opaque-backed settings row — never a floating label on the gradient. */
-function SettingsRow({ label, value, valueTone = 'neutral', onPress, showChevron, colors }: SettingsRowProps) {
+/** A single tappable, opaque-backed settings row — never a floating label on the gradient. Values render as plain text, not a filled pill, so a row never reads as a card nested inside a card. */
+function SettingsRow({ label, hint, value, valueTone = 'neutral', onPress, showChevron, colors }: SettingsRowProps) {
   const styles = useMemo(
     () =>
       StyleSheet.create({
@@ -44,26 +49,29 @@ function SettingsRow({ label, value, valueTone = 'neutral', onPress, showChevron
         pressed: {
           opacity: 0.6,
         },
+        left: {
+          flexShrink: 1,
+          gap: 2,
+        },
         label: {
           fontFamily: fonts.sansMedium,
           fontSize: 15,
           color: colors.text,
+        },
+        hint: {
+          fontFamily: fonts.sans,
+          fontSize: 12,
+          color: colors.subtext,
         },
         right: {
           flexDirection: 'row',
           alignItems: 'center',
           gap: 6,
         },
-        badge: {
-          borderRadius: radii.pill,
-          paddingHorizontal: 10,
-          paddingVertical: 4,
-          backgroundColor: valueTone === 'gold' ? GOLD_BADGE_BG : colors.border,
-        },
-        badgeText: {
+        valueText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
-          color: valueTone === 'gold' ? colors.gold : colors.text,
+          fontSize: 14,
+          color: valueTone === 'gold' ? colors.gold : colors.subtext,
         },
       }),
     [colors, valueTone],
@@ -71,13 +79,12 @@ function SettingsRow({ label, value, valueTone = 'neutral', onPress, showChevron
 
   const content = (
     <View style={styles.row}>
-      <Text style={styles.label}>{label}</Text>
+      <View style={styles.left}>
+        <Text style={styles.label}>{label}</Text>
+        {hint ? <Text style={styles.hint}>{hint}</Text> : null}
+      </View>
       <View style={styles.right}>
-        {value ? (
-          <View style={styles.badge}>
-            <Text style={styles.badgeText}>{value}</Text>
-          </View>
-        ) : null}
+        {value ? <Text style={styles.valueText}>{value}</Text> : null}
         {showChevron ? <CaretRightIcon size={16} color={colors.subtext} /> : null}
       </View>
     </View>
@@ -99,12 +106,12 @@ function SettingsRow({ label, value, valueTone = 'neutral', onPress, showChevron
 
 export function SettingsScreen() {
   const router = useRouter();
-  const { colors, override, toggleOverride } = useTheme();
+  const { colors, override, setOverride } = useTheme();
   const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy } = useAuth();
   const { isGold, grantDevGold } = useSubscription();
+  const [themePickerOpen, setThemePickerOpen] = useState(false);
 
-  const themeValueLabel =
-    override === 'auto' ? 'Auto (Dawn/Dusk)' : override === 'light' ? 'Light' : 'Dark';
+  const themeValueLabel = THEME_OPTIONS.find((option) => option.value === override)?.label ?? '';
 
   const styles = useMemo(
     () =>
@@ -118,9 +125,12 @@ export function SettingsScreen() {
         },
         body: {
           flex: 1,
-          justifyContent: 'center',
+          justifyContent: 'space-between',
           paddingHorizontal: spacing.lg,
+          paddingTop: spacing.xl,
           paddingBottom: spacing.xl,
+        },
+        sections: {
           gap: spacing.xl,
         },
         section: {
@@ -160,6 +170,59 @@ export function SettingsScreen() {
         footer: {
           gap: spacing.sm,
         },
+        themeRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          minHeight: MIN_TOUCH_TARGET,
+          paddingHorizontal: spacing.lg,
+          paddingVertical: 12,
+          gap: spacing.sm,
+        },
+        themeRowLeft: {
+          flexShrink: 1,
+          gap: 2,
+        },
+        themeRowRight: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 6,
+        },
+        label: {
+          fontFamily: fonts.sansMedium,
+          fontSize: 15,
+          color: colors.text,
+        },
+        hint: {
+          fontFamily: fonts.sans,
+          fontSize: 12,
+          color: colors.subtext,
+        },
+        valueText: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 14,
+          color: colors.subtext,
+        },
+        pressed: {
+          opacity: 0.6,
+        },
+        optionRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          minHeight: MIN_TOUCH_TARGET,
+          paddingHorizontal: spacing.lg,
+          paddingVertical: 12,
+        },
+        optionLabel: {
+          fontFamily: fonts.sans,
+          fontSize: 14,
+          color: colors.text,
+        },
+        optionLabelActive: {
+          fontFamily: fonts.sansSemiBold,
+          color: colors.gold,
+        },
       }),
     [colors],
   );
@@ -176,61 +239,106 @@ export function SettingsScreen() {
         </View>
 
         <View style={styles.body}>
-          <View style={styles.section}>
-            <Text style={styles.sectionLabel}>Account</Text>
-            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
-              <View style={styles.infoRow}>
-                {session && displayName ? (
-                  <Text style={styles.cardTitle}>{copy.settings.signedInAs(displayName)}</Text>
-                ) : (
+          <View style={styles.sections}>
+            <View style={styles.section}>
+              <Text style={styles.sectionLabel}>Account</Text>
+              <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+                <View style={styles.infoRow}>
+                  {session && displayName ? (
+                    <Text style={styles.cardTitle}>{copy.settings.signedInAs(displayName)}</Text>
+                  ) : (
+                    <>
+                      <Text style={styles.cardTitle}>{copy.settings.guestMode}</Text>
+                      <Text style={styles.cardSub}>{copy.settings.guestHint}</Text>
+                    </>
+                  )}
+                </View>
+              </GlassCard>
+            </View>
+
+            <View style={styles.section}>
+              <Text style={styles.sectionLabel}>Preferences</Text>
+              <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+                <Pressable
+                  onPress={() => setThemePickerOpen((open) => !open)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Theme: ${themeValueLabel}`}
+                  accessibilityState={{ expanded: themePickerOpen }}
+                  style={({ pressed }) => pressed && styles.pressed}
+                >
+                  <View style={styles.themeRow}>
+                    <View style={styles.themeRowLeft}>
+                      <Text style={styles.label}>Theme</Text>
+                      <Text style={styles.hint}>{copy.settings.themeToggleHint}</Text>
+                    </View>
+                    <View style={styles.themeRowRight}>
+                      <Text style={styles.valueText}>{themeValueLabel}</Text>
+                      {themePickerOpen ? (
+                        <CaretUpIcon size={16} color={colors.subtext} />
+                      ) : (
+                        <CaretDownIcon size={16} color={colors.subtext} />
+                      )}
+                    </View>
+                  </View>
+                </Pressable>
+
+                {themePickerOpen
+                  ? THEME_OPTIONS.map((option) => {
+                      const active = option.value === override;
+                      return (
+                        <View key={option.value}>
+                          <Divider style={styles.divider} />
+                          <Pressable
+                            onPress={() => {
+                              setOverride(option.value);
+                              setThemePickerOpen(false);
+                            }}
+                            accessibilityRole="button"
+                            accessibilityState={{ selected: active }}
+                            style={({ pressed }) => pressed && styles.pressed}
+                          >
+                            <View style={styles.optionRow}>
+                              <Text style={[styles.optionLabel, active && styles.optionLabelActive]}>
+                                {option.label}
+                              </Text>
+                              {active ? <CheckIcon size={16} color={colors.gold} /> : null}
+                            </View>
+                          </Pressable>
+                        </View>
+                      );
+                    })
+                  : null}
+              </GlassCard>
+            </View>
+
+            <View style={styles.section}>
+              <Text style={styles.sectionLabel}>Subscription</Text>
+              <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+                <SettingsRow
+                  label="Plan"
+                  value={isGold ? copy.settings.goldMember : copy.settings.freePlan}
+                  valueTone={isGold ? 'gold' : 'neutral'}
+                  colors={colors}
+                />
+                <Divider style={styles.divider} />
+                <SettingsRow
+                  label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
+                  onPress={() => router.push('/gold')}
+                  showChevron
+                  colors={colors}
+                />
+                {__DEV__ && session ? (
                   <>
-                    <Text style={styles.cardTitle}>{copy.settings.guestMode}</Text>
-                    <Text style={styles.cardSub}>{copy.settings.guestHint}</Text>
+                    <Divider style={styles.divider} />
+                    <SettingsRow
+                      label="Grant Gold (dev)"
+                      onPress={() => void grantDevGold()}
+                      colors={colors}
+                    />
                   </>
-                )}
-              </View>
-            </GlassCard>
-          </View>
-
-          <View style={styles.section}>
-            <Text style={styles.sectionLabel}>Preferences</Text>
-            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
-              <SettingsRow
-                label="Theme"
-                value={themeValueLabel}
-                onPress={toggleOverride}
-                colors={colors}
-              />
-            </GlassCard>
-          </View>
-
-          <View style={styles.section}>
-            <Text style={styles.sectionLabel}>Subscription</Text>
-            <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
-              <SettingsRow
-                label="Plan"
-                value={isGold ? copy.settings.goldMember : copy.settings.freePlan}
-                valueTone={isGold ? 'gold' : 'neutral'}
-                colors={colors}
-              />
-              <Divider style={styles.divider} />
-              <SettingsRow
-                label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
-                onPress={() => router.push('/gold')}
-                showChevron
-                colors={colors}
-              />
-              {__DEV__ && session ? (
-                <>
-                  <Divider style={styles.divider} />
-                  <SettingsRow
-                    label="Grant Gold (dev)"
-                    onPress={() => void grantDevGold()}
-                    colors={colors}
-                  />
-                </>
-              ) : null}
-            </GlassCard>
+                ) : null}
+              </GlassCard>
+            </View>
           </View>
 
           <View style={styles.footer}>
