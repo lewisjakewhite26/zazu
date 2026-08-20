@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { CalendarBlankIcon, CoinsIcon, FireIcon, GearIcon } from 'phosphor-react-native';
+import { CoinsIcon, FireIcon, GearIcon } from 'phosphor-react-native';
 
 import { IconButton } from '@/components/ui/IconButton';
 import { copy } from '@/constants/copy';
@@ -125,14 +125,6 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
           />
           <Text style={styles.coinValue}>{coinsLabel}</Text>
         </View>
-
-        <IconButton
-          variant="card"
-          onPress={() => router.push('/calendar')}
-          accessibilityLabel={copy.calendar.title}
-        >
-          <CalendarBlankIcon size={18} color={colors.text} />
-        </IconButton>
 
         <IconButton
           variant="card"

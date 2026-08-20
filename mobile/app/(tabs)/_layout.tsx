@@ -11,6 +11,7 @@ export default function TabLayout() {
     >
       <Tabs.Screen name="index" options={{ title: copy.home.tabHome }} />
       <Tabs.Screen name="gym" options={{ title: copy.home.tabGym }} />
+      <Tabs.Screen name="vocabulary" options={{ title: copy.home.tabVocabulary }} />
     </Tabs>
   );
 }

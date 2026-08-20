@@ -19,6 +19,7 @@ export const copy = {
     weekendsPack: 'Weekends · Words pack',
     tabHome: 'Home',
     tabGym: 'Word Gym',
+    tabVocabulary: 'Vocabulary',
   },
   alarm: {
     todaysWord: "Today's word",
@@ -201,7 +202,11 @@ export const copy = {
     deleteAlarm: (time: string) => `Delete alarm ${time}`,
   },
   calendar: {
-    title: 'Your words',
+    title: 'Vocabulary',
+    yourWordsSection: 'Your words',
+    wordPacksSection: 'Word packs',
+    wordPacksSub: 'Deeper vocabulary, unlocked with Zazu Gold.',
+    comingSoon: 'Coming soon',
     wordsLearned: (n: number) => `${n} word${n === 1 ? '' : 's'} learned`,
     streakDays: (n: number) => `${n} day${n === 1 ? '' : 's'}`,
     previewAs: 'Preview as:',
@@ -231,5 +236,16 @@ export const copy = {
     openGym: 'Open in Word Gym',
     sheetDone: 'Done',
     notCompleted: '–',
+    unlockMissedTitle: (word: string) => word,
+    unlockMissedMessage: (cost: number) => `Unlock this word for ${cost} coins?`,
+    unlockMissedConfirm: (cost: number) => `Unlock (${cost} coins)`,
+    unlockMissedCancel: 'Cancel',
+    insufficientCoinsTitle: 'Not enough coins',
+    insufficientCoinsMessage: (have: number, need: number) => `You have ${have}, need ${need}.`,
+  },
+  vocabulary: {
+    packWordCount: (n: number) => `${n} word${n === 1 ? '' : 's'}`,
+    openInGym: 'Open in Word Gym',
+    empty: 'No words in this pack yet.',
   },
 } as const;

@@ -1,6 +1,6 @@
 import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
-import { BarbellIcon, HouseIcon, type IconProps } from 'phosphor-react-native';
+import { BarbellIcon, BookOpenIcon, HouseIcon, type IconProps } from 'phosphor-react-native';
 import type { BottomTabBarProps } from 'expo-router/build/react-navigation/bottom-tabs';
 import type { ComponentType } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,6 +11,7 @@ import { useTheme } from '@/context/ThemeContext';
 const TAB_ICONS: Record<string, ComponentType<IconProps>> = {
   index: HouseIcon,
   gym: BarbellIcon,
+  vocabulary: BookOpenIcon,
 };
 
 /** Space to reserve above the floating tab bar (pill + padding; add safe-area separately). */

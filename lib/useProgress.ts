@@ -44,6 +44,13 @@ export type GymCompletionResult = {
   gymMastery: number;
 };
 
+/** Coins to spend unlocking a missed day's word (Vocabulary, free-tier catch-up). */
+export const MISSED_WORD_UNLOCK_COST = 25;
+
+export type UnlockMissedWordResult =
+  | { ok: true; totalCoins: number }
+  | { ok: false; reason: 'insufficient_coins' | 'already_completed' };
+
 type ProgressState = {
   streak: number;
   lastCompletedDate: string | null;
@@ -379,6 +386,45 @@ export function useProgress() {
     [applyProgress],
   );
 
+  /**
+   * Spends coins to mark a missed day's word done, for Vocabulary's free-tier
+   * catch-up flow. Deliberately not a call to completeWord() -- that also
+   * touches streak/lastCompletedDate, which this pragmatically skips (no
+   * streak repair, identical to an organic completion only in that
+   * learnedWordIds/alarmCompletedAt end up the same). Only writes the two
+   * fields Vocabulary already reads as "done."
+   */
+  const unlockMissedWord = useCallback(
+    async (wordId: string, cost: number): Promise<UnlockMissedWordResult> => {
+      const saved = await readProgress();
+      const existing = getWordProgress(saved, wordId);
+
+      if (saved.learnedWordIds.includes(wordId) || existing.alarmCompletedAt) {
+        return { ok: false, reason: 'already_completed' };
+      }
+      if (saved.coins < cost) {
+        return { ok: false, reason: 'insufficient_coins' };
+      }
+
+      const next: ProgressState = {
+        ...saved,
+        coins: saved.coins - cost,
+        learnedWordIds: [...saved.learnedWordIds, wordId],
+        wordProgress: upsertWordProgress(saved.wordProgress, {
+          ...existing,
+          wordId,
+          alarmCompletedAt: toIsoDateTime(),
+        }),
+      };
+
+      await writeProgress(next);
+      applyProgress(next);
+
+      return { ok: true, totalCoins: next.coins };
+    },
+    [applyProgress],
+  );
+
   /** Dev only. Sets last completed date without changing streak or coins. */
   const setLastCompletedDateDebug = useCallback(async (isoDate: string) => {
     const saved = await readProgress();
@@ -397,6 +443,7 @@ export function useProgress() {
     getGymMastery,
     recordMcqAnswer,
     completeGymModeSession,
+    unlockMissedWord,
     setLastCompletedDateDebug,
   };
 }
