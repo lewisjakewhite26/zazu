@@ -171,7 +171,6 @@ export const copy = {
     successCtaSub: "A few quick questions, just about today's word. No pressure, always free.",
     start: 'Try it',
     skip: 'Not now',
-    findPrompt: 'Find the word below',
     heading: 'Nicely done.',
     sub: 'One more small win before the day starts.',
     coinsEarned: 'Coins earned',

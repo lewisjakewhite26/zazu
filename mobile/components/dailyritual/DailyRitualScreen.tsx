@@ -14,7 +14,6 @@ import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
-import { candidateTokens, tokenizePassage, type PassageToken } from '../../../lib/word-spotting';
 import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
 
 const ADVANCE_MS = 550;
@@ -30,14 +29,10 @@ export function DailyRitualScreen() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [advanceReady, setAdvanceReady] = useState(false);
   const [showTryAgain, setShowTryAgain] = useState(false);
-  const [passageFoundIndex, setPassageFoundIndex] = useState<number | null>(null);
-  const [passageWrongIndex, setPassageWrongIndex] = useState<number | null>(null);
-  const [passageDone, setPassageDone] = useState(false);
   const [finishing, setFinishing] = useState(false);
   const [reward, setReward] = useState<{ coinsEarned: number; alreadyCompletedToday: boolean } | null>(
     null,
   );
-  const [screenReaderEnabled, setScreenReaderEnabled] = useState(false);
 
   useEffect(() => {
     if (!dailyRitualSession) {
@@ -45,25 +40,9 @@ export function DailyRitualScreen() {
     }
   }, [dailyRitualSession, router]);
 
-  useEffect(() => {
-    AccessibilityInfo.isScreenReaderEnabled().then(setScreenReaderEnabled);
-    const sub = AccessibilityInfo.addEventListener('screenReaderChanged', setScreenReaderEnabled);
-    return () => sub.remove();
-  }, []);
-
   const mcqQuestions = dailyRitualSession?.mcqQuestions ?? [];
-  const passageStep = dailyRitualSession?.passageStep ?? null;
-  const totalSteps = mcqQuestions.length + (passageStep ? 1 : 0);
-  const onMcqStep = stepIndex < mcqQuestions.length;
-  const onPassageStep = !onMcqStep && passageStep !== null && stepIndex === mcqQuestions.length;
-  const current = onMcqStep ? mcqQuestions[stepIndex] : null;
-
-  const passageTokens: PassageToken[] = useMemo(() => {
-    if (!passageStep) return [];
-    return tokenizePassage(passageStep.passage, passageStep.targetWord);
-  }, [passageStep]);
-
-  const passageCandidates = useMemo(() => candidateTokens(passageTokens), [passageTokens]);
+  const totalSteps = mcqQuestions.length;
+  const current = mcqQuestions[stepIndex] ?? null;
 
   const finishRitual = useCallback(async () => {
     if (!dailyRitualSession || finishing) return;
@@ -110,25 +89,6 @@ export function DailyRitualScreen() {
     setShowTryAgain(true);
     AccessibilityInfo.announceForAccessibility(copy.morningTask.tryAgain);
     setTimeout(() => setSelectedIndex(null), WRONG_CLEAR_MS);
-  };
-
-  const handleTapPassageToken = (index: number) => {
-    if (!passageStep || passageDone || finishing) return;
-    const token = passageTokens[index];
-    if (!token?.isWord) return;
-
-    if (token.isTarget) {
-      setPassageFoundIndex(index);
-      setPassageDone(true);
-      hapticCorrect();
-      AccessibilityInfo.announceForAccessibility('Correct.');
-      setTimeout(goNextStep, ADVANCE_MS);
-      return;
-    }
-
-    hapticWrong();
-    setPassageWrongIndex(index);
-    setTimeout(() => setPassageWrongIndex(null), WRONG_CLEAR_MS);
   };
 
   const styles = useMemo(
@@ -184,41 +144,6 @@ export function DailyRitualScreen() {
           color: colors.subtext,
           marginTop: spacing.md,
           textAlign: 'center',
-        },
-        prompt: {
-          ...typography.mtQuestion,
-          color: colors.text,
-          marginBottom: 20,
-        },
-        passageText: {
-          fontFamily: fonts.serif,
-          fontSize: 22,
-          lineHeight: 34,
-          color: colors.text,
-        },
-        wordToken: { paddingVertical: 3 },
-        wordTokenCorrect: { backgroundColor: colors.correct, borderRadius: 6 },
-        wordTokenWrong: { backgroundColor: colors.wrong, borderRadius: 6 },
-        screenReaderPrompt: {
-          fontFamily: fonts.sans,
-          fontSize: 13,
-          color: colors.subtext,
-          marginBottom: spacing.md,
-        },
-        candidateList: {
-          gap: 8,
-        },
-        candidateOption: {
-          borderWidth: 1,
-          borderColor: colors.border,
-          borderRadius: 12,
-          paddingVertical: 12,
-          paddingHorizontal: 16,
-        },
-        candidateOptionText: {
-          fontFamily: fonts.sans,
-          fontSize: 15,
-          color: colors.text,
         },
         savingRow: {
           flexDirection: 'row',
@@ -313,7 +238,7 @@ export function DailyRitualScreen() {
           <Text style={styles.eyebrow}>{copy.dailyRitual.eyebrow}</Text>
           <Text style={styles.progress}>{copy.gymModes.questionProgress(stepIndex + 1, totalSteps)}</Text>
 
-          {onMcqStep && current ? (
+          {current ? (
             <>
               <GlassCard borderRadius={16} contentStyle={styles.questionCard}>
                 <Text style={styles.question}>{current.question}</Text>
@@ -353,58 +278,6 @@ export function DailyRitualScreen() {
               </View>
 
               {showTryAgain ? <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text> : null}
-            </>
-          ) : null}
-
-          {onPassageStep && passageStep ? (
-            <>
-              <Text style={styles.prompt}>{copy.dailyRitual.findPrompt}</Text>
-              <Text style={styles.passageText}>
-                {passageTokens.map((token, index) => {
-                  if (!token.isWord || screenReaderEnabled) {
-                    return <Text key={index}>{token.text}</Text>;
-                  }
-                  return (
-                    <Text
-                      key={index}
-                      onPress={() => handleTapPassageToken(index)}
-                      style={[
-                        styles.wordToken,
-                        passageFoundIndex === index && styles.wordTokenCorrect,
-                        passageWrongIndex === index && styles.wordTokenWrong,
-                      ]}
-                      accessibilityRole="button"
-                      accessibilityLabel={`Word: ${token.text}`}
-                    >
-                      {token.text}
-                    </Text>
-                  );
-                })}
-              </Text>
-
-              {screenReaderEnabled && !passageDone ? (
-                <>
-                  <Text style={styles.screenReaderPrompt}>{copy.morningTask.screenReaderPrompt}</Text>
-                  <View style={styles.candidateList}>
-                    {passageCandidates.map(({ token, index }) => (
-                      <Pressable
-                        key={index}
-                        onPress={() => handleTapPassageToken(index)}
-                        disabled={finishing}
-                        style={[
-                          styles.candidateOption,
-                          passageFoundIndex === index && styles.wordTokenCorrect,
-                          passageWrongIndex === index && styles.wordTokenWrong,
-                        ]}
-                        accessibilityRole="button"
-                        accessibilityLabel={token.text}
-                      >
-                        <Text style={styles.candidateOptionText}>{token.text}</Text>
-                      </Pressable>
-                    ))}
-                  </View>
-                </>
-              ) : null}
             </>
           ) : null}
 

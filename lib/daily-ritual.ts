@@ -7,7 +7,6 @@
 import type { GymMcqQuestion } from './gym-modes';
 import { buildRootsDrillQuestions, buildUsageLabQuestions } from './gym-modes';
 import type { ZazuAlarmWord, ZazuGymWord } from './supabase';
-import { tokenizePassage } from './word-spotting';
 
 const DEFINITION_OPTION_COUNT = 3;
 
@@ -46,23 +45,18 @@ function buildDefinitionQuestion(
   };
 }
 
-export type DailyRitualPassageStep = {
-  passage: string;
-  targetWord: string;
-};
-
 export type DailyRitual = {
   mcqQuestions: GymMcqQuestion[];
-  /** Present only when the word has a pre-generated passage -- most words don't yet. */
-  passageStep: DailyRitualPassageStep | null;
 };
 
 /**
  * Builds today's ritual from whatever this word already has: a definition
  * question, a roots question and a usage question when the matching gym
- * word/rounds exist, and a tap-to-find passage step when one's been
- * generated for this word. Silently omits any step whose source data is
- * missing rather than failing -- a 2-3 question ritual is fine.
+ * word/rounds exist. Silently omits any step whose source data is missing
+ * rather than failing -- a 2-3 question ritual is fine. Deliberately no
+ * tap-to-find-the-word-in-a-passage step here: that mechanic belongs to the
+ * mandatory wake-up task (MorningTaskScreen) and would just repeat verbatim
+ * if it also ran here.
  */
 export function buildDailyRitual(
   alarmWord: ZazuAlarmWord,
@@ -83,11 +77,5 @@ export function buildDailyRitual(
     if (usageQuestion) mcqQuestions.push(usageQuestion);
   }
 
-  const passage = alarmWord.morningTask.passage;
-  const passageStep: DailyRitualPassageStep | null =
-    passage && tokenizePassage(passage, alarmWord.word).some((token) => token.isTarget)
-      ? { passage, targetWord: alarmWord.word }
-      : null;
-
-  return { mcqQuestions, passageStep };
+  return { mcqQuestions };
 }

@@ -78,45 +78,4 @@ describe('daily ritual', () => {
 
     expect(ritual.mcqQuestions.length).toBe(3);
   });
-
-  it('produces no passage step when the word has no passage', () => {
-    const today = makeAlarmWord('1');
-    const ritual = buildDailyRitual(today, [today], undefined, []);
-    expect(ritual.passageStep).toBeNull();
-  });
-
-  it('produces a passage step when a valid passage exists', () => {
-    const today = makeAlarmWord('1', {
-      word: 'Lucid',
-      morningTask: {
-        taskType: 'root',
-        sourceKind: 'root',
-        sourceValue: 'lucidus',
-        correctAnswer: 'Bright, shining',
-        hint: null,
-        passage: 'Her explanation was lucid enough for everyone to follow.',
-      },
-    });
-    const ritual = buildDailyRitual(today, [today], undefined, []);
-    expect(ritual.passageStep).toEqual({
-      passage: 'Her explanation was lucid enough for everyone to follow.',
-      targetWord: 'Lucid',
-    });
-  });
-
-  it('omits the passage step when the passage does not actually contain the word', () => {
-    const today = makeAlarmWord('1', {
-      word: 'Lucid',
-      morningTask: {
-        taskType: 'root',
-        sourceKind: 'root',
-        sourceValue: 'lucidus',
-        correctAnswer: 'Bright, shining',
-        hint: null,
-        passage: 'This sentence forgot to include the target word.',
-      },
-    });
-    const ritual = buildDailyRitual(today, [today], undefined, []);
-    expect(ritual.passageStep).toBeNull();
-  });
 });
