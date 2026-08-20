@@ -113,8 +113,8 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | `user_word_progress` table (alarm vs gym timestamps) | Done |
 | `user_entitlements` table + lockdown (`003`–`005`) | Done, **incompletely** — see #37 above |
 | Batch import script (`import-word-batch.mjs`) | Done |
-| **395 words** + morning tasks synced to Supabase | Done — count re-verified this round |
-| Mobile calendar screen (`/calendar`, free/Gold preview, word detail sheet) | Done — **but unreachable from UI, see #38** |
+| **393 words** (core bank) + morning tasks synced to Supabase, plus **210 pack words** (Games + Loan Words, no morning tasks by design) | Core count re-verified this round; two words (Enigma, Kowtow) moved from the core bank into the Loan Words pack 2026-08-21 to avoid a duplicate |
+| Mobile calendar screen | **Replaced 2026-08-21** by the "Vocabulary" tab (`/(tabs)/vocabulary`) — see #17 |
 | Gradual adaptive theme (30 min dusk/dawn, web + mobile) | Done |
 | **All mobile screens** prototype-aligned (alarm, gym, onboarding, settings, gold, ad) | Done |
 | Design system doc + full screenshot set | Done |
@@ -146,15 +146,15 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | # | Task | Status |
 |---|------|--------|
 | 16 | Rewarded-video ads (opt-in coin-earning, capped ~3/day) | **Spec locked 2026-08-09** — see "Coin Economy & Thematic Word Packs" below. Replaces the earlier "ad SDK / replace mock Huel card" framing: no static/banner ads, no forced ads on snooze — rewarded video only, and only as an optional way to earn coins faster. Not started. |
-| 17 | Thematic Word Packs (Gym-only, 30-day campaigns) + coin unlock | **Spec locked 2026-08-09** — see "Coin Economy & Thematic Word Packs" below. Supersedes the 2026-08-07 audit's "coin shop + thematic word packs" framing with a concrete structure (30-day paths, spaced retrieval, completion badge, unlock via spent coins or all-access pass). Content: several packs already drafted in `THEMATIC PACKS/` (Games, Loan Words — African/Americas/Classical/Curious/East Asian), not yet imported to Supabase or wired in. Not started. |
+| 17 | Thematic Word Packs (Gym-only) + missed-word coin unlock | **Built 2026-08-21** — see "Coin Economy & Thematic Word Packs" below for what actually shipped vs. the original 2026-08-09 spec (simpler than planned: no 30-day campaign/spaced-retrieval structure, packs are Gold-only rather than coin-unlockable). Games (30 words) + Loan Words (180 words, 6 subpacks) seeded live in Supabase. Verified on-device. |
 | 18 | PWA scheduled wake-up alarms | **Confirmed still not real** — `sw.js` has no `push`/`showNotification` handling; `enableNotifications()` only requests permission |
 | 19 | Night mode on mobile | Done — all screens use adaptive `useTheme()` |
-| 20 | Reach 100 words | Done (395) |
+| 20 | Reach 100 words | Done (393 core + 210 pack) |
 | 21 | Analytics + crash reporting | Not started |
 | 22 | Remove `ProgressDebugPanel` once streak logic verified on device | Dev only |
 | 26 | Spaced repetition in Word Gym (review queue, roots drill, usage lab) | **Done** — `lib/gym-modes.ts` built fresh (the old copy's version was unrecoverable, see audit below). Review queue reuses the existing 3-round puzzle flow (`startGymFlow` + `/puzzle`) against whichever learned word is most overdue, on a doubling spaced-repetition interval (`computeNextReview`, capped at 30 days, resets to 1 day on any wrong answer) now written by `completeGym` instead of the old hardcoded `nextReviewAt: null`. Roots Drill and Usage Lab are new MCQ modes (`/gym-mcq`, `GymMcqSessionScreen`) built entirely from data every word already has — the Etymology and Usage rounds used by the main puzzle — so no new content or Supabase schema was needed. Gated behind Gold, matching the rest of Word Gym. 19 Vitest tests in `tests/gym-modes.test.ts`. Verified visually end-to-end (real Supabase data, not mocked) via a throwaway Playwright script. |
 | 27 | Snooze | **Done** — see design spec below, now implemented exactly as specced: 8-minute reschedule (midpoint of the 5–10 min range), no coin bonus if used, capped at one per calendar day. Built fresh; the old copy's hook was an empty re-export, nothing to port. |
-| 28 | Scale word library to 365+ | Done (395 words) |
+| 28 | Scale word library to 365+ | Done (393 core words) |
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
 | 30 | Cloud progress sync via Supabase Auth | Scaffolded (`user_word_progress` exists); not confirmed wired end-to-end from mobile UI |
 | 46 | Word reroll (pick a different alarm word once/day) | Not started — new idea surfaced by old-copy audit, not previously tracked. Low priority |
@@ -177,25 +177,31 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 
 Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. **All four done.** Pack Shop (8 packs) and Word Reroll are backlog. Coin Shop and AppIcon fallback are not being pursued.
 
-### Coin Economy & Thematic Word Packs (#16, #17) — spec locked 2026-08-09, not yet built
+### Coin Economy & Thematic Word Packs (#16, #17) — built 2026-08-21
 
-**⚠️ User caution (2026-08-09):** flagged explicitly as needing "real careful thought" — a big, important job, not a quick follow-on to batch in with smaller UI fixes. Give this its own dedicated, deliberate design session (like #1's notifee migration) before writing any code against the spec below. See `POST_APP_TEST_ROADMAP.md` #8 for the same note.
+**Status: the Word Packs half is built and live. The rewarded-video-ads half of the earning loop is not.** Original spec locked 2026-08-09 with a "give this its own dedicated design session" caution attached (see `POST_APP_TEST_ROADMAP.md` #8) — that session happened, and the shipped design is deliberately simpler than the original spec in a few real ways, documented below rather than silently diverging.
 
-Supersedes the "Coin Shop: drop for now" / "Pack Shop: rewrite, data-first" verdicts above with a concrete design. Documentation only at this stage — see `PRODUCT.md` (Operating Context, Monetization) for the product-level statement; this is the build-facing breakdown.
+**What shipped:** Calendar was replaced by a "Vocabulary" tab (third bottom-nav tab, `mobile/components/vocabulary/VocabularyScreen.tsx`) with two zones:
+1. **Your words** — the old calendar history, reskinned word-forward. Missed days are blurred with a coin-unlock CTA (25 coins, `unlockMissedWord` in `lib/useProgress.ts`) — pragmatic on purpose: identical to an organic completion, no streak repair, no `completedVia` tracking.
+2. **Word packs** — a shelf (`lib/word-packs.ts`) of Literary (shipped earlier), Games (30 words), Loan Words (180 words, 6 subpacks), and 7 not-yet-written packs shown as "coming soon." Gold-gated, full stop — tapping a locked pack routes straight to `/gold` (fixing the old dead-end alert). Games/Loan Words reuse the core `words`/`word_rounds`/`word_pairs` schema (`pack_id`/`subpack_id` columns, migration `010_word_packs.sql`) rather than Literary's isolated-table approach, since their rounds are match-pairs only. Pack words never get a `word_morning_tasks` row (excluded from the alarm automatically) and seed with `gym_enabled = false` (excluded from the general Gym pool automatically) — zero changes needed to the existing alarm/gym views. Pack detail → word detail → "Open in Word Gym" reuses the existing `/puzzle` flow.
 
-**Universal Word of the Day (dependency, already done):** the earning loop and packs below both assume the alarm word is a single global, date-keyed value — true as of `POST_APP_TEST_ROADMAP.md` #3. No further work needed here, just noting the dependency is satisfied.
+**Where this diverges from the original 2026-08-09 spec, deliberately:**
+- **No 30-day campaign / spaced-retrieval structure.** Packs are a flat word list per pack, not daily levels with a completion badge. Simpler to build and ship; the original spec's "daily levels" cadence was never reconciled with the existing review-queue's doubling interval anyway.
+- **Single-gate, not double-gate.** The "Gold-then-coins double-gate vs. coins/pass alone" question is resolved as: **packs are Gold-only**, no separate coin/pass unlock layer for pack *content*. Coins kept their existing earning loop (alarm completion, no-snooze, streak, Gym sessions) but got a different, narrower job than originally planned — catching up on **missed daily alarm words**, not unlocking pack depth.
+- **Rewarded-video ads not built.** Still just the earning-loop half of the original spec; no ad SDK chosen. Tracked separately in `ROADMAP_SIMPLE.md`.
 
-**Earning loop:**
-- Coins earned via: completing the morning alarm/puzzle, not snoozing, keeping a streak alive, completing Word Gym sessions. This is the existing "coins" mechanic (`PRODUCT.md` Gamification), evolving into a real spendable currency rather than just a displayed number — staying "coins," not renamed.
-- Optional rewarded-video ads as an extra earn path, capped at ~3/day. No static/banner ads anywhere. No ads — forced or optional — inserted into the snooze flow.
+**Verified:** `tsc --noEmit` (root + mobile) and the full Vitest suite (103 tests) clean; migration 010 applied and 210 pack words seeded live in Supabase (confirmed via direct query — correct pack/subpack counts, all `gym_enabled = false`); on-device: bottom-nav tab, both Vocabulary zones, word detail sheet, and the Gold-upsell routing all confirmed working on a real device. **Not verified on-device:** the coin-unlock flow itself — the test session's Supabase word fetch was failing (falls back to 3 demo words, all already learned), so no "missed day" state existed to tap. See `ROADMAP_SIMPLE.md` for that open item.
 
-**Thematic Word Packs:**
-- Live inside Word Gym, separate from the daily alarm word/Word of the Day — a Gym-only track, not a competing "which word today" mechanic.
-- Content: thousands of curated words across themes (Science, Food, Geography, Games, Loan Words, etc.). `THEMATIC PACKS/` already has draft content for Games (30 words) and Loan Words (5 sub-packs: African, Americas, Classical, Curious, East Asian; 30 words each seen so far) — none imported into Supabase or wired into the app yet.
-- Structure: 30-day mini-campaigns per pack, with spaced retrieval built in (reuse/extend the existing spaced-repetition primitives in `lib/gym-modes.ts` rather than building a second system). Daily levels, a completion badge + bonus coins at the end of the 30 days.
-- Unlock model: free users get a preview; full 30-day-pack access costs either spent coins or an all-access pass. This sits alongside the existing Gold subscription (which still gates full calendar history + base Word Gym) rather than replacing it — two separate unlock axes (subscription for the core app depth, coins/pass for pack depth).
+**Open question raised 2026-08-21, needs a product decision before any code:** should Gold users be able to draw their morning alarm word from a Word Pack they've unlocked, rather than (or alongside) the shared global Word of the Day — or is "Word Gym only" the permanent design, as built?
 
-**Not yet scoped (needs follow-up before building):** exact coin costs per pack/pass, whether packs are Gold-subscriber-only *before* the coin/pass unlock even applies (i.e. is this a Gold-then-coins double-gate, or coins/pass alone sufficient for a free user?), the rewarded-video ad SDK choice, and the spaced-retrieval schedule shape for a 30-day path (daily levels imply a different cadence than the existing review-queue's doubling interval).
+As shipped, this is a hard *no* at the schema level: pack words never get a `word_morning_tasks` row (deliberate, see 1.2/step 3 of the original build plan), so `words_alarm_format`'s inner join on `word_morning_tasks` excludes them from `get_words_for_alarm` automatically. That exclusion wasn't an oversight — it's load-bearing. Opening it up is a real architecture decision, not a flag flip, because of what "Universal Word of the Day" (`POST_APP_TEST_ROADMAP.md` #3) actually fixed: the alarm word used to be resolved differently per screen depending on which caller passed real `learnedIds` vs. an empty array, so the alarm, Home, and Calendar could each show a *different* word to the same user on the same day. The fix was to make it one global, date-keyed value — same word, every user, every screen, computed live via `dayIndex % words.length`, never personalized. A Gold-user-specific pack-sourced alarm word reintroduces exactly the kind of per-user personalization that bug-fix eliminated, just scoped to a subset of users instead of everyone.
+
+Questions that need real answers before this gets built, not during:
+- Does the free global Word of the Day keep firing for a Gold user regardless (packs as an *additional* personal slot, e.g. a second daily notification), or does an unlocked pack *replace* their daily word entirely?
+- If it replaces: which pack, if a user has more than one unlocked? Chosen how — a setting, rotate through all of them, most-recently-unlocked?
+- Packs are currently flat word lists with no per-day structure (`display_order` exists but nothing consumes it as a rotation index) — what decides which pack word lands on which day, and does it stay stable across app restarts/timezones the way the core rotation does (`dateKeyToDayIndex`)?
+- Do streak/coins/Daily Ritual all work identically off a pack-sourced word, or does personalizing the word source mean rethinking parts of that pipeline too?
+- Interacts directly with the already-tracked "Word reroll" backlog item (`ROADMAP_SIMPLE.md`) — both are "let the user influence which word they get" asks; worth deciding together rather than as two separate features that quietly overlap.
 
 ### Literary Gym Round (#48) — done, live in Supabase
 
@@ -268,5 +274,6 @@ Revenue estimates: see [AUDIT.md](AUDIT.md). Current realistic revenue: **£0** 
 10. ~~Rebuild Gym Modes (#26)~~ — **done**, see #26.
 11. ~~Wire up the Literary pack + Literary Gym Round~~ — **done**, migration applied, 270 words live, RLS verified both ways, see #48.
 12. ~~Build Snooze (#27)~~ — **done**, see #27. Real-device notification re-fire still unverified (same gap as P1 #9).
+13. ~~Build Thematic Word Packs + missed-word coin unlock (#17)~~ — **done 2026-08-21**, see #17. Root-cause the persistent "could not load words from the cloud" fallback next — it's why the coin-unlock flow itself couldn't be exercised on-device this round.
 
 For copy and voice on any new UI text, see [writing-rules.md](writing-rules.md).
