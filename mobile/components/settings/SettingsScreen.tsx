@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { CaretRightIcon } from 'phosphor-react-native';
 
+import { Divider } from '@/components/ui/Divider';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
@@ -154,8 +155,6 @@ export function SettingsScreen() {
           color: colors.subtext,
         },
         divider: {
-          height: StyleSheet.hairlineWidth,
-          backgroundColor: colors.border,
           marginHorizontal: spacing.lg,
         },
         footer: {
@@ -214,7 +213,7 @@ export function SettingsScreen() {
                 valueTone={isGold ? 'gold' : 'neutral'}
                 colors={colors}
               />
-              <View style={styles.divider} />
+              <Divider style={styles.divider} />
               <SettingsRow
                 label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
                 onPress={() => router.push('/gold')}
@@ -223,7 +222,7 @@ export function SettingsScreen() {
               />
               {__DEV__ && session ? (
                 <>
-                  <View style={styles.divider} />
+                  <Divider style={styles.divider} />
                   <SettingsRow
                     label="Grant Gold (dev)"
                     onPress={() => void grantDevGold()}

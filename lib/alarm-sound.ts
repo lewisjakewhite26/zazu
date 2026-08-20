@@ -6,7 +6,7 @@ import { Asset } from 'expo-asset';
 /** Pulses while the alarm rings; loops from the start of the pattern until Vibration.cancel(). */
 const ALARM_VIBRATION_PATTERN = [0, 800, 400, 800];
 
-export type AlarmSoundId = 'chime' | 'susurrus' | 'mellifluous' | 'penumbra' | 'ephemeral';
+export type AlarmSoundId = 'susurrus' | 'mellifluous' | 'penumbra' | 'ephemeral';
 
 export type AlarmSoundOption = {
   id: AlarmSoundId;
@@ -16,14 +16,13 @@ export type AlarmSoundOption = {
 
 /** Every selectable alarm sound. Labels borrow real Zazu word-bank vocabulary — see writing-rules.md. */
 export const ALARM_SOUNDS: AlarmSoundOption[] = [
-  { id: 'chime', label: 'Chime', file: require('../mobile/assets/sounds/alarm_chime.wav') },
   { id: 'susurrus', label: 'Susurrus', file: require('../mobile/assets/sounds/susurrus.wav') },
   { id: 'mellifluous', label: 'Mellifluous', file: require('../mobile/assets/sounds/mellifluous.wav') },
   { id: 'penumbra', label: 'Penumbra', file: require('../mobile/assets/sounds/penumbra.wav') },
   { id: 'ephemeral', label: 'Ephemeral', file: require('../mobile/assets/sounds/ephemeral.wav') },
 ];
 
-export const DEFAULT_ALARM_SOUND_ID: AlarmSoundId = 'chime';
+export const DEFAULT_ALARM_SOUND_ID: AlarmSoundId = 'susurrus';
 
 export function isAlarmSoundId(value: unknown): value is AlarmSoundId {
   return typeof value === 'string' && ALARM_SOUNDS.some((sound) => sound.id === value);

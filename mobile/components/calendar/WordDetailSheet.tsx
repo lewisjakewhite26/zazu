@@ -13,6 +13,7 @@ import { BlurView } from 'expo-blur';
 import { BarbellIcon, CheckIcon, FireIcon, LockIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 
+import { Divider } from '@/components/ui/Divider';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
@@ -93,8 +94,6 @@ function createSheetStyles(colors: AppThemeColors) {
       marginBottom: 14,
     },
     divider: {
-      height: 0.5,
-      backgroundColor: colors.border,
       marginVertical: 14,
     },
     def: {
@@ -105,9 +104,6 @@ function createSheetStyles(colors: AppThemeColors) {
       marginBottom: 10,
     },
     etymBox: {
-      padding: 12,
-      backgroundColor: colors.sheetSecondary,
-      borderRadius: 12,
       marginBottom: 14,
     },
     etymText: {
@@ -121,9 +117,6 @@ function createSheetStyles(colors: AppThemeColors) {
       fontFamily: fonts.sansMedium,
     },
     taskBox: {
-      padding: 12,
-      backgroundColor: colors.sheetSecondary,
-      borderRadius: 12,
       marginBottom: 14,
     },
     taskLabel: {
@@ -163,8 +156,6 @@ function createSheetStyles(colors: AppThemeColors) {
       paddingVertical: 10,
       paddingHorizontal: 12,
       backgroundColor: colors.cardPeach,
-      borderWidth: 0.5,
-      borderColor: colors.cardPeachBorder,
       borderRadius: 12,
       marginBottom: 14,
     },
@@ -175,14 +166,15 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     statGrid: {
       flexDirection: 'row',
-      gap: 8,
-      marginBottom: 14,
+      alignItems: 'stretch',
     },
     statCard: {
       flex: 1,
-      backgroundColor: colors.sheetSecondary,
-      borderRadius: 12,
-      padding: 12,
+      paddingHorizontal: 8,
+    },
+    statDivider: {
+      width: StyleSheet.hairlineWidth,
+      backgroundColor: colors.border,
     },
     statLabel: {
       fontFamily: fonts.sans,
@@ -202,16 +194,13 @@ function createSheetStyles(colors: AppThemeColors) {
       marginTop: 2,
     },
     gymRow: {
-      borderRadius: 12,
       marginBottom: 16,
-      overflow: 'hidden',
     },
     gymInner: {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      padding: 12,
-      backgroundColor: colors.sheetSecondary,
+      paddingVertical: 12,
     },
     gymLeft: {
       flexDirection: 'row',
@@ -241,11 +230,7 @@ function createSheetStyles(colors: AppThemeColors) {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      padding: 12,
-      backgroundColor: colors.sheetSecondary,
-      borderWidth: 0.5,
-      borderColor: colors.border,
-      borderRadius: 12,
+      paddingVertical: 12,
       marginBottom: 16,
     },
     gymLockLeft: {
@@ -253,16 +238,6 @@ function createSheetStyles(colors: AppThemeColors) {
       alignItems: 'center',
       gap: 10,
       flex: 1,
-    },
-    gymLockIcon: {
-      width: 34,
-      height: 34,
-      borderRadius: 17,
-      backgroundColor: colors.card,
-      borderWidth: 0.5,
-      borderColor: colors.border,
-      alignItems: 'center',
-      justifyContent: 'center',
     },
     gymLockTitle: {
       fontFamily: fonts.sansMedium,
@@ -382,7 +357,7 @@ export function WordDetailSheet({
             <Text style={styles.pron}>
               {entry.word.pronunciation} · {entry.word.pos}
             </Text>
-            <View style={styles.divider} />
+            <Divider style={styles.divider} />
             <Text style={styles.def}>{entry.word.definition}</Text>
             <View style={styles.etymBox}>
               <IntroEtymologyText entry={entry} styles={styles} />
@@ -417,6 +392,7 @@ export function WordDetailSheet({
                 <Text style={styles.statVal}>{dismissLabel}</Text>
                 <Text style={styles.statSub}>{copy.calendar.alarmToDone}</Text>
               </View>
+              <View style={styles.statDivider} />
               <View style={styles.statCard}>
                 <Text style={styles.statLabel}>{copy.calendar.coinsEarned}</Text>
                 <Text style={styles.statVal}>{coinsLabel}</Text>
@@ -424,12 +400,12 @@ export function WordDetailSheet({
               </View>
             </View>
 
+            <Divider style={styles.divider} />
+
             {!isGold ? (
               <View style={styles.gymLock}>
                 <View style={styles.gymLockLeft}>
-                  <View style={styles.gymLockIcon}>
-                    <LockIcon size={16} color={colors.subtext} />
-                  </View>
+                  <LockIcon size={20} color={colors.subtext} />
                   <View>
                     <Text style={styles.gymLockTitle}>{copy.calendar.wordGym}</Text>
                     <Text style={styles.gymLockSub}>{copy.calendar.goldFeature}</Text>

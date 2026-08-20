@@ -3,10 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import { MoonIcon, SunIcon, TrashIcon } from 'phosphor-react-native';
 
 import { AnimatedToggle } from '@/components/ui/AnimatedToggle';
-import { GlassCard } from '@/components/ui/GlassCard';
 import { IconButton } from '@/components/ui/IconButton';
 import { copy } from '@/constants/copy';
-import { radii, typography } from '@/constants/theme';
+import { typography } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import type { Alarm } from '@/types/home';
@@ -27,19 +26,16 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        card: {
-          width: '100%',
-        },
-        cardOff: {
-          opacity: 0.38,
-        },
-        cardInner: {
+        row: {
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
           paddingVertical: 15,
           paddingHorizontal: 18,
           gap: spacing.sm,
+        },
+        rowOff: {
+          opacity: 0.38,
         },
         info: {
           flex: 1,
@@ -69,11 +65,7 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
   );
 
   return (
-    <GlassCard
-      borderRadius={radii.alarmCard}
-      style={[styles.card, !enabled && styles.cardOff]}
-      contentStyle={styles.cardInner}
-    >
+    <View style={[styles.row, !enabled && styles.rowOff]}>
       <View style={styles.info}>
         <Text style={styles.time}>{time}</Text>
         <View style={styles.metaRow}>
@@ -95,6 +87,6 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
           <TrashIcon size={18} color={colors.subtext} />
         </IconButton>
       </View>
-    </GlassCard>
+    </View>
   );
 }

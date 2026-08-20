@@ -2,7 +2,6 @@ import { useMemo, type ComponentType } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { LockIcon, CaretRightIcon, type IconProps } from 'phosphor-react-native';
 
-import { GlassCard } from '@/components/ui/GlassCard';
 import { fonts, radii } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
@@ -31,11 +30,7 @@ export function GymModeCard({
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        card: {
-          width: '100%',
-          marginBottom: spacing.md,
-        },
-        inner: {
+        row: {
           flexDirection: 'row',
           alignItems: 'center',
           padding: spacing.md,
@@ -98,7 +93,7 @@ export function GymModeCard({
       accessibilityLabel={accessibilityLabel}
       accessibilityState={{ disabled: locked || disabled }}
     >
-      <GlassCard borderRadius={radii.alarmCard} style={styles.card} contentStyle={styles.inner}>
+      <View style={styles.row}>
         <View style={styles.iconWrap}>
           {locked ? (
             <LockIcon size={22} color={colors.ink} />
@@ -118,7 +113,7 @@ export function GymModeCard({
           <Text style={styles.description}>{description}</Text>
         </View>
         <CaretRightIcon size={22} color={colors.subtext} />
-      </GlassCard>
+      </View>
     </Pressable>
   );
 }

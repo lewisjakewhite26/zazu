@@ -79,11 +79,6 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       alignItems: 'center',
       gap: 8,
       marginBottom: 20,
-      padding: 12,
-      backgroundColor: colors.sheetSecondary,
-      borderRadius: 12,
-      borderWidth: 0.5,
-      borderColor: colors.border,
     },
     toggleLabel: {
       flex: 1,
@@ -287,6 +282,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
       ...StyleSheet.absoluteFill,
       borderRadius: 14,
       overflow: 'hidden',
+      backgroundColor: cardScrim,
       zIndex: 2,
     },
     cardLockedIconWrap: {

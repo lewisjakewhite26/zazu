@@ -4,10 +4,12 @@ import {
   Pressable,
   StyleSheet,
   Text,
+  View,
   type PressableProps,
   type StyleProp,
   type ViewStyle,
 } from 'react-native';
+import { ArrowRightIcon } from 'phosphor-react-native';
 
 import { typography } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
@@ -88,6 +90,12 @@ export function PrimaryButton({
         label: {
           textAlign: 'center',
         },
+        wakeContent: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: spacing.xs,
+        },
         labelFilled: {
           ...typography.btnPrimary,
           color: colors.primaryButtonText,
@@ -126,11 +134,22 @@ export function PrimaryButton({
     >
       {loading ? (
         <ActivityIndicator color={isFilled ? colors.primaryButtonText : colors.text} />
+      ) : isWake ? (
+        <View style={styles.wakeContent}>
+          <Text style={[styles.label, styles.labelWake, labelColor ? { color: labelColor } : null]}>
+            {label}
+          </Text>
+          <ArrowRightIcon
+            size={18}
+            weight="bold"
+            color={labelColor ?? (isNight ? colors.wakeButtonTextNight : colors.primaryButtonText)}
+          />
+        </View>
       ) : (
         <Text
           style={[
             styles.label,
-            isWake ? styles.labelWake : isFilled ? styles.labelFilled : styles.labelOutline,
+            isFilled ? styles.labelFilled : styles.labelOutline,
             labelColor ? { color: labelColor } : null,
           ]}
         >

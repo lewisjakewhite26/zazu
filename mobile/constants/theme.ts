@@ -233,22 +233,34 @@ export const typography = {
   },
   alarmBigTime: {
     fontFamily: fonts.serif,
-    fontSize: 96,
-    letterSpacing: -4.8,
-    lineHeight: 96,
+    fontSize: 40,
+    letterSpacing: -0.8,
+    lineHeight: 44,
   },
   alarmLabel: {
     fontFamily: fonts.sansMedium,
-    fontSize: 13, // was 12 (.72rem)
-    letterSpacing: 1.68, // .14em
+    fontSize: 14, // was 12 (.72rem)
+    letterSpacing: 1.8, // .14em
   },
-  alarmTease: {
-    fontFamily: fonts.sans,
-    fontSize: 15, // was 14 (.9rem)
+  /** The daily rotating alarm greeting — sentence case, not the tracked-out eyebrow style, since message length varies widely. */
+  alarmGreeting: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 16,
+    letterSpacing: 0.1,
+  },
+  alarmWordEyebrow: {
+    fontFamily: fonts.sansSemiBold,
+    fontSize: 13,
+    letterSpacing: 1.6,
+  },
+  alarmWord: {
+    fontFamily: fonts.serif,
+    fontSize: 54,
+    letterSpacing: -1.08,
   },
   alarmSub: {
     fontFamily: fonts.sans,
-    fontSize: 13, // was 12 (.78rem)
+    fontSize: 16, // was 12 (.78rem)
     fontWeight: '300' as const,
   },
   btnWake: {

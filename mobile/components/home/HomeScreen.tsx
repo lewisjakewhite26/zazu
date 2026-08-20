@@ -10,11 +10,13 @@ import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
 import { AlarmCard } from '@/components/home/AlarmCard';
 import { showAppAlert } from '@/components/ui/AppAlert';
+import { Divider } from '@/components/ui/Divider';
+import { GlassCard } from '@/components/ui/GlassCard';
 import { IconButton } from '@/components/ui/IconButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
-import { typography } from '@/constants/theme';
+import { radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
@@ -88,17 +90,20 @@ export function HomeScreen() {
               {copy.home.yourAlarms}
             </Text>
 
-            <View style={styles.alarmList}>
-              {!alarmsLoading &&
-                alarms.map((alarm: Alarm) => (
-                  <AlarmCard
-                    key={alarm.id}
-                    alarm={alarm}
-                    onToggle={handleToggleAlarm}
-                    onDelete={handleDeleteAlarm}
-                  />
+            {!alarmsLoading && alarms.length > 0 ? (
+              <GlassCard borderRadius={radii.alarmCard} style={styles.alarmList}>
+                {alarms.map((alarm: Alarm, index: number) => (
+                  <View key={alarm.id}>
+                    {index > 0 ? <Divider /> : null}
+                    <AlarmCard
+                      alarm={alarm}
+                      onToggle={handleToggleAlarm}
+                      onDelete={handleDeleteAlarm}
+                    />
+                  </View>
                 ))}
-            </View>
+              </GlassCard>
+            ) : null}
           </ScrollView>
 
           <View
@@ -147,7 +152,6 @@ const styles = StyleSheet.create({
   },
   alarmList: {
     width: '100%',
-    gap: 10,
     marginBottom: 18,
   },
   footer: {

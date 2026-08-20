@@ -56,19 +56,12 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
         wordLoading: {
           opacity: 0.45,
         },
-        posBadge: {
-          alignSelf: 'center',
-          backgroundColor: colors.posBadgeBg,
-          borderRadius: radii.pill,
-          paddingHorizontal: 10,
-          paddingVertical: 4,
-          marginTop: 10,
-          marginBottom: 14,
-        },
         posText: {
           ...typography.posBadge,
-          textTransform: 'uppercase',
+          fontStyle: 'italic',
           color: colors.subtext,
+          marginTop: 6,
+          marginBottom: 14,
         },
         definition: {
           ...typography.wotdDef,
@@ -110,9 +103,7 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
     >
       <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={styles.word}>{word}</Text>
-      <View style={styles.posBadge}>
-        <Text style={styles.posText}>{pos}</Text>
-      </View>
+      <Text style={styles.posText}>{pos}</Text>
       <Text style={styles.definition}>{definition}</Text>
     </View>
   );

@@ -280,7 +280,14 @@
       "Bash(*)",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('c:/Users/lewis/zazu/.claude/settings.local.json','utf8'\\)\\); console.log\\('valid JSON'\\)\")",
       "Bash(timeout 180 bash -c 'until grep -q '\\\\''NotifeeHeadlessJS'\\\\'' <\\(tail -n +__CMDSUB_OUTPUT__ \"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/f30b3b8f-7ec8-462c-a692-ea824a93a29c/scratchpad/alarm-test-logcat-6.txt\"\\); do sleep 1; done')",
-      "Bash(LOG=\"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/f30b3b8f-7ec8-462c-a692-ea824a93a29c/scratchpad/alarm-test-logcat-6.txt\" *)"
+      "Bash(LOG=\"/c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/f30b3b8f-7ec8-462c-a692-ea824a93a29c/scratchpad/alarm-test-logcat-6.txt\" *)",
+      "Bash(export ANDROID_HOME=/c/Users/lewis/android-sdk)",
+      "Bash(export ANDROID_SDK_ROOT=/c/Users/lewis/android-sdk)",
+      "Bash(set -o pipefail)",
+      "Bash(tee /c/Users/lewis/AppData/Local/Temp/claude/c--Users-lewis-zazu/169dc2ce-0b93-486a-8bb2-1ed7cf223928/scratchpad/android-build12.log)",
+      "Bash(export MSYS_NO_PATHCONV=1)",
+      "Bash(adb shell *)",
+      "Bash(adb pull *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\lewis\\.claude\\projects\\c--Users-lewis-zazu\\memory",

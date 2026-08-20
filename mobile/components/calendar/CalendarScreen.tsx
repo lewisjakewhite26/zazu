@@ -82,8 +82,9 @@ function DayCard({ entry, isGold, onPress }: DayCardProps) {
               <View style={styles.cardLockedBlurWeb} pointerEvents="none" />
             ) : (
               <BlurView
-                intensity={22}
+                intensity={75}
                 tint={blend >= 0.5 ? 'dark' : 'light'}
+                blurMethod="dimezisBlurView"
                 style={styles.cardLockedBlurNative}
                 pointerEvents="none"
               />

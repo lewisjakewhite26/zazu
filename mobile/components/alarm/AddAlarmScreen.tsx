@@ -1,17 +1,17 @@
 import { useEffect, useMemo, useState } from 'react';
-import { KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { PauseIcon, PlayIcon } from 'phosphor-react-native';
+import { CheckIcon, PauseIcon, PlayIcon } from 'phosphor-react-native';
 
-import { GlassCard } from '@/components/ui/GlassCard';
+import { Divider } from '@/components/ui/Divider';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { TimeWheelPicker } from '@/components/alarm/TimeWheelPicker';
 import { copy } from '@/constants/copy';
-import { radii, typography } from '@/constants/theme';
+import { fonts, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
@@ -56,12 +56,13 @@ export function AddAlarmScreen() {
           flex: 1,
         },
         inner: {
-          flex: 1,
+          flexGrow: 1,
           width: '100%',
           maxWidth: CONTENT_MAX_WIDTH,
           alignSelf: 'center',
           paddingHorizontal: spacing.lg,
           paddingTop: spacing.lg,
+          paddingBottom: spacing.xl,
         },
         header: {
           marginBottom: spacing.lg,
@@ -80,46 +81,37 @@ export function AddAlarmScreen() {
         input: {
           ...typography.learnDef,
           color: colors.text,
-          backgroundColor: colors.card,
-          borderWidth: 1,
-          borderColor: colors.border,
-          borderRadius: 14,
-          paddingHorizontal: spacing.md,
+          borderBottomWidth: StyleSheet.hairlineWidth,
+          borderBottomColor: colors.border,
           paddingVertical: spacing.sm + 2,
-          marginBottom: spacing.md,
-        },
-        timeWheel: {
-          marginBottom: spacing.md,
-        },
-        card: {
           marginBottom: spacing.lg,
         },
-        cardInner: {
-          padding: spacing.lg,
+        timeWheel: {
+          marginBottom: spacing.lg,
         },
         soundList: {
-          gap: spacing.xs,
-          marginBottom: spacing.md,
+          marginBottom: spacing.lg,
         },
         soundRow: {
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
           minHeight: MIN_TOUCH_TARGET,
-          paddingHorizontal: spacing.md,
           paddingVertical: spacing.xs,
-          borderRadius: 14,
-          borderWidth: 1.5,
-          borderColor: colors.border,
         },
-        soundRowSelected: {
-          borderColor: colors.blush,
-          backgroundColor: 'rgba(240,160,188,0.1)',
+        soundLabelRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: spacing.xs,
         },
         soundLabel: {
           ...typography.learnDef,
           fontSize: 15,
           color: colors.text,
+        },
+        soundLabelSelected: {
+          fontFamily: fonts.sansSemiBold,
+          color: colors.blush,
         },
         tryAlarmButton: {
           marginTop: spacing.sm,
@@ -164,7 +156,12 @@ export function AddAlarmScreen() {
           behavior={Platform.OS === 'ios' ? 'padding' : undefined}
           style={styles.keyboard}
         >
-          <View style={styles.inner}>
+          <ScrollView
+            style={styles.keyboard}
+            contentContainerStyle={styles.inner}
+            keyboardShouldPersistTaps="handled"
+            showsVerticalScrollIndicator={false}
+          >
             <ScreenHeader
               style={styles.header}
               title={copy.addAlarm.title}
@@ -173,44 +170,48 @@ export function AddAlarmScreen() {
               backAccessibilityLabel={copy.addAlarm.cancel}
             />
 
-            <GlassCard borderRadius={radii.alarmCard} style={styles.card} contentStyle={styles.cardInner}>
-              <Text style={styles.fieldLabel}>{copy.addAlarm.timeLabel}</Text>
-              <TimeWheelPicker
-                hour={hour}
-                minute={minute}
-                onChangeHour={setHour}
-                onChangeMinute={setMinute}
-                style={styles.timeWheel}
-              />
+            <Text style={styles.fieldLabel}>{copy.addAlarm.timeLabel}</Text>
+            <TimeWheelPicker
+              hour={hour}
+              minute={minute}
+              onChangeHour={setHour}
+              onChangeMinute={setMinute}
+              style={styles.timeWheel}
+            />
 
-              <Text style={styles.fieldLabel}>{copy.addAlarm.labelLabel}</Text>
-              <TextInput
-                value={label}
-                onChangeText={setLabel}
-                placeholder={copy.addAlarm.labelPlaceholder}
-                placeholderTextColor={colors.subtext}
-                style={styles.input}
-              />
+            <Text style={styles.fieldLabel}>{copy.addAlarm.labelLabel}</Text>
+            <TextInput
+              value={label}
+              onChangeText={setLabel}
+              placeholder={copy.addAlarm.labelPlaceholder}
+              placeholderTextColor={colors.subtext}
+              style={styles.input}
+            />
 
-              <Text style={styles.fieldLabel}>{copy.addAlarm.soundLabel}</Text>
-              <View style={styles.soundList}>
-                {ALARM_SOUNDS.map((sound) => {
-                  const selected = sound.id === soundId;
-                  const previewing = previewingId === sound.id;
-                  return (
+            <Text style={styles.fieldLabel}>{copy.addAlarm.soundLabel}</Text>
+            <View style={styles.soundList}>
+              {ALARM_SOUNDS.map((sound, index) => {
+                const selected = sound.id === soundId;
+                const previewing = previewingId === sound.id;
+                return (
+                  <View key={sound.id}>
+                    {index > 0 ? <Divider /> : null}
                     <Pressable
-                      key={sound.id}
                       onPress={() => setSoundId(sound.id)}
                       accessibilityRole="radio"
                       accessibilityState={{ selected }}
                       accessibilityLabel={sound.label}
-                      style={[styles.soundRow, selected && styles.soundRowSelected]}
+                      style={styles.soundRow}
                     >
-                      <Text style={styles.soundLabel}>{sound.label}</Text>
+                      <View style={styles.soundLabelRow}>
+                        {selected ? <CheckIcon size={16} weight="bold" color={colors.blush} /> : null}
+                        <Text style={[styles.soundLabel, selected && styles.soundLabelSelected]}>
+                          {sound.label}
+                        </Text>
+                      </View>
                       <IconButton
                         onPress={() => void handleTogglePreview(sound.id)}
                         accessibilityLabel={copy.addAlarm.soundPreviewA11y(sound.label)}
-                        variant="card"
                       >
                         {previewing ? (
                           <PauseIcon size={16} color={colors.text} />
@@ -219,26 +220,26 @@ export function AddAlarmScreen() {
                         )}
                       </IconButton>
                     </Pressable>
-                  );
-                })}
-              </View>
+                  </View>
+                );
+              })}
+            </View>
 
-              <PrimaryButton
-                label={copy.home.tryTheAlarm}
-                variant="outline"
-                onPress={() => void handleTryAlarm()}
-                disabled={!alarmWordOfDay}
-                style={styles.tryAlarmButton}
-              />
+            <PrimaryButton
+              label={copy.home.tryTheAlarm}
+              variant="outline"
+              onPress={() => void handleTryAlarm()}
+              disabled={!alarmWordOfDay}
+              style={styles.tryAlarmButton}
+            />
 
-              <PrimaryButton
-                label={copy.addAlarm.save}
-                onPress={() => void handleSave()}
-                loading={saving}
-                style={styles.saveButton}
-              />
-            </GlassCard>
-          </View>
+            <PrimaryButton
+              label={copy.addAlarm.save}
+              onPress={() => void handleSave()}
+              loading={saving}
+              style={styles.saveButton}
+            />
+          </ScrollView>
         </KeyboardAvoidingView>
       </SafeAreaView>
     </GradientBackground>

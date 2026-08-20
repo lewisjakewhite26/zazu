@@ -11,6 +11,7 @@ import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HomeHeader } from '@/components/home/HomeHeader';
+import { Divider } from '@/components/ui/Divider';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { GymModeCard } from '@/components/gym/GymModeCard';
@@ -291,39 +292,44 @@ export function GymScreen() {
                 <Text style={styles.modesEyebrow}>{copy.gym.goldModesTitle}</Text>
                 <Text style={styles.modesSubtitle}>{copy.gym.goldModesSub}</Text>
 
-                <GymModeCard
-                  title={copy.gymModes.reviewTitle}
-                  description={
-                    reviewDueCount > 0 ? copy.gymModes.reviewDescription : copy.gymModes.reviewEmpty
-                  }
-                  icon={ArrowsClockwiseIcon}
-                  badgeLabel={reviewDueCount > 0 ? copy.gymModes.reviewBadge(reviewDueCount) : undefined}
-                  disabled={reviewDueCount === 0}
-                  onPress={handleReviewQueue}
-                />
-                <GymModeCard
-                  title={copy.gymModes.rootsTitle}
-                  description={canDrill ? copy.gymModes.rootsDescription : copy.gymModes.needLearnedWords}
-                  icon={TreeStructureIcon}
-                  disabled={!canDrill}
-                  onPress={handleRootsDrill}
-                />
-                <GymModeCard
-                  title={copy.gymModes.usageTitle}
-                  description={canDrill ? copy.gymModes.usageDescription : copy.gymModes.needLearnedWords}
-                  icon={QuotesIcon}
-                  disabled={!canDrill}
-                  onPress={handleUsageLab}
-                />
-                <GymModeCard
-                  title={copy.gymModes.literaryTitle}
-                  description={
-                    literaryWords.length > 0 ? copy.gymModes.literaryDescription : copy.gymModes.literaryEmpty
-                  }
-                  icon={BookOpenIcon}
-                  disabled={literaryWords.length === 0}
-                  onPress={handleLiteraryRound}
-                />
+                <GlassCard borderRadius={radii.alarmCard}>
+                  <GymModeCard
+                    title={copy.gymModes.reviewTitle}
+                    description={
+                      reviewDueCount > 0 ? copy.gymModes.reviewDescription : copy.gymModes.reviewEmpty
+                    }
+                    icon={ArrowsClockwiseIcon}
+                    badgeLabel={reviewDueCount > 0 ? copy.gymModes.reviewBadge(reviewDueCount) : undefined}
+                    disabled={reviewDueCount === 0}
+                    onPress={handleReviewQueue}
+                  />
+                  <Divider />
+                  <GymModeCard
+                    title={copy.gymModes.rootsTitle}
+                    description={canDrill ? copy.gymModes.rootsDescription : copy.gymModes.needLearnedWords}
+                    icon={TreeStructureIcon}
+                    disabled={!canDrill}
+                    onPress={handleRootsDrill}
+                  />
+                  <Divider />
+                  <GymModeCard
+                    title={copy.gymModes.usageTitle}
+                    description={canDrill ? copy.gymModes.usageDescription : copy.gymModes.needLearnedWords}
+                    icon={QuotesIcon}
+                    disabled={!canDrill}
+                    onPress={handleUsageLab}
+                  />
+                  <Divider />
+                  <GymModeCard
+                    title={copy.gymModes.literaryTitle}
+                    description={
+                      literaryWords.length > 0 ? copy.gymModes.literaryDescription : copy.gymModes.literaryEmpty
+                    }
+                    icon={BookOpenIcon}
+                    disabled={literaryWords.length === 0}
+                    onPress={handleLiteraryRound}
+                  />
+                </GlassCard>
               </View>
             ) : (
               <Pressable

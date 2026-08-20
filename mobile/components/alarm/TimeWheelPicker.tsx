@@ -141,10 +141,7 @@ export type TimeWheelPickerProps = {
 export function TimeWheelPicker({ hour, minute, onChangeHour, onChangeMinute, style }: TimeWheelPickerProps) {
   const { colors } = useTheme();
 
-  const containerStyle = useMemo(
-    () => [styles.container, { backgroundColor: colors.card, borderColor: colors.border }, style],
-    [colors, style],
-  );
+  const containerStyle = useMemo(() => [styles.container, style], [style]);
 
   const highlightStyle = useMemo(
     () => [styles.highlight, { backgroundColor: colors.overlay, borderColor: colors.border }],
@@ -173,8 +170,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     height: WHEEL_HEIGHT,
-    borderWidth: 1,
-    borderRadius: 14,
     overflow: 'hidden',
   },
   highlight: {
