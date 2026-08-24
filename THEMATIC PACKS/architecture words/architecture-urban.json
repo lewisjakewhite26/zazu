@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Esplanade",
+    "pronunciation": "ES-pluh-nahd",
+    "pos": "noun",
+    "definition": "A long, open, level stretch of paved or paved-and-planted ground, typically along a waterfront or in front of a large building, used for walking.",
+    "origin": "From French <strong>esplanade</strong>, from Italian spianata (a level, cleared space), from spianare (to level, flatten), ultimately from Latin planus (flat). Originally a military term for the flat, cleared ground in front of a fortress that gave defenders a clear line of fire, it softened by the 18th century into a civic word for a level walkway open to the sky.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Esplanade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian spianata", "b": "A level, cleared space" },
+          { "a": "Latin planus", "b": "Flat" },
+          { "a": "Originally named the cleared ground in front of a", "b": "Fortress, for a clear line of fire" },
+          { "a": "Softened into a civic word by the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Esplanade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An esplanade is a long, open, level stretch used for", "b": "Walking" },
+          { "a": "Esplanades are most often found along a", "b": "Waterfront" },
+          { "a": "Unlike a narrow footpath, an esplanade is", "b": "Broad and open" },
+          { "a": "An esplanade is rarely lined with heavy", "b": "Traffic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Esplanade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Families strolled along the seafront", "b": "Esplanade at sunset" },
+          { "a": "The city widened the harbourside", "b": "Esplanade for cyclists and walkers" },
+          { "a": "Vendors set up stalls along the", "b": "Esplanade during the festival" },
+          { "a": "The new museum opened onto a broad", "b": "Esplanade facing the river" }
+        ] }
+    ],
+    "roots": [ { "rootText": "planus", "rootLanguage": "Latin", "rootMeaning": "Flat, level", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "planus", "highlight": true }, { "text": " (flat); once the cleared ground before a fortress, now a civic walkway open to the sky.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "planus", "correctAnswer": "Flat, level", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Promenade",
+    "pronunciation": "prom-uh-NAHD",
+    "pos": "noun",
+    "definition": "A paved public walkway, especially one along a seafront or in a park, laid out for leisurely walking.",
+    "origin": "From French <strong>promenade</strong>, from se promener (to take a walk), from Latin prominare (to drive forward, from pro- 'forward' + minare 'to drive'). The word first described the act of strolling itself before settling, by the 17th century, on the paved walkway built for that leisurely stroll.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Promenade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French se promener", "b": "To take a walk" },
+          { "a": "Latin prominare", "b": "To drive forward" },
+          { "a": "Formed from pro- (forward) plus", "b": "Minare (to drive)" },
+          { "a": "Settled on the paved walkway sense by the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Promenade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A promenade is a paved walkway laid out for", "b": "Leisurely walking" },
+          { "a": "Promenades are especially common along a", "b": "Seafront" },
+          { "a": "As a verb, to promenade means to", "b": "Walk in a leisurely, public way" },
+          { "a": "A promenade concert takes its name from an audience free to", "b": "Stand and move about" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Promenade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Couples strolled along the seaside", "b": "Promenade" },
+          { "a": "The town's Victorian", "b": "Promenade was lined with lampposts" },
+          { "a": "On summer evenings, families would", "b": "Promenade along the pier" },
+          { "a": "The resort's main draw was its long", "b": "Promenade overlooking the bay" }
+        ] }
+    ],
+    "roots": [ { "rootText": "prominare", "rootLanguage": "Latin", "rootMeaning": "To drive forward", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "prominare", "highlight": true }, { "text": " (to drive forward); the leisurely stroll itself, then the paved walkway built for it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "prominare", "correctAnswer": "To drive forward", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Skyline",
+    "pronunciation": "SKY-lyn",
+    "pos": "noun",
+    "definition": "The outline formed by buildings, towers, and other structures of a city seen against the sky.",
+    "origin": "A plain English compound of <strong>sky</strong> + line, coined in the late 19th century as American cities began building skyscrapers tall enough to create a distinctive silhouette against the horizon. The word is a genuinely modern coinage, born with the tall building itself rather than inherited from an older language.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Skyline</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Skyline compounds", "b": "Sky + line" },
+          { "a": "Coined in the", "b": "Late 19th century" },
+          { "a": "Coincided with the rise of the", "b": "Skyscraper" },
+          { "a": "The word is essentially a", "b": "Modern English coinage, not inherited from an older tongue" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Skyline</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A skyline is the outline of a city's buildings against the", "b": "Sky" },
+          { "a": "A dramatic skyline usually depends on", "b": "Tall towers and skyscrapers" },
+          { "a": "A skyline is best appreciated from a", "b": "Distance" },
+          { "a": "A city's skyline can change as it", "b": "Builds and demolishes towers" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Skyline</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists photographed the city's glittering", "b": "Skyline at dusk" },
+          { "a": "A new tower reshaped the town's", "b": "Skyline" },
+          { "a": "From the ferry, the entire", "b": "Skyline came into view" },
+          { "a": "Preservationists fought to protect the historic", "b": "Skyline from tall new development" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sky + line", "rootLanguage": "English compound", "rootMeaning": "The outline of buildings against the sky", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "sky + line", "highlight": true }, { "text": "; a genuinely modern word, born with the skyscraper itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sky + line", "correctAnswer": "The outline of buildings against the sky", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Zoning",
+    "pronunciation": "ZOH-ning",
+    "pos": "noun",
+    "definition": "The system of dividing a city or region into designated areas that restrict how land in each area may be used, such as residential, commercial, or industrial.",
+    "origin": "From <strong>zone</strong>, from Latin zona (a girdle or belt), from Greek zone (belt). The word entered urban planning as a plain technical term in the early 20th century, most notably with New York City's 1916 Zoning Resolution, when planners began carving cities into designated 'belts' of permitted use.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Zoning</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek zone", "b": "Belt" },
+          { "a": "Latin zona", "b": "A girdle or belt" },
+          { "a": "Entered urban planning as a technical term in the", "b": "Early 20th century" },
+          { "a": "Landmark example: New York City's 1916", "b": "Zoning Resolution" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Zoning</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Zoning divides land into designated areas by permitted", "b": "Use" },
+          { "a": "Common zoning categories include residential, commercial, and", "b": "Industrial" },
+          { "a": "A zoning variance grants an exception to a", "b": "Zoning rule" },
+          { "a": "Strict single-use zoning can separate homes from", "b": "Shops and jobs" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Zoning</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The developer needed approval to change the site's", "b": "Zoning" },
+          { "a": "Local", "b": "Zoning laws barred factories from the neighborhood" },
+          { "a": "Residents attended the hearing on proposed", "b": "Zoning changes" },
+          { "a": "The city's outdated", "b": "Zoning map still listed the site as industrial" }
+        ] }
+    ],
+    "roots": [ { "rootText": "zona", "rootLanguage": "Latin", "rootMeaning": "A girdle or belt", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "zona", "highlight": true }, { "text": " (a belt); a city carved into belts of permitted use.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "zona", "correctAnswer": "A girdle or belt", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Urbanism",
+    "pronunciation": "UR-buh-niz-uhm",
+    "pos": "noun",
+    "definition": "The study and practice of designing and organizing cities, especially the way buildings, streets, and public spaces relate to one another.",
+    "origin": "From Latin <strong>urbs</strong> (city) + -ismus (a suffix forming a doctrine or practice). The Spanish engineer Ildefonso Cerdá coined the Spanish equivalent urbanización in the 1860s while planning Barcelona's expansion, and the English form urbanism followed in the early 20th century as a name for the discipline of city planning.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Urbanism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin urbs", "b": "City" },
+          { "a": "Suffix -ismus marks a", "b": "Doctrine or practice" },
+          { "a": "Coined in Spanish by engineer", "b": "Ildefonso Cerdá, in the 1860s" },
+          { "a": "The English form entered use in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Urbanism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Urbanism is the study and practice of designing", "b": "Cities" },
+          { "a": "Urbanism concerns how buildings, streets, and public spaces", "b": "Relate to one another" },
+          { "a": "New Urbanism is a movement favoring walkable, mixed-use", "b": "Neighborhoods" },
+          { "a": "An urbanist is a specialist in", "b": "City design and planning" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Urbanism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her thesis examined 20th-century", "b": "Urbanism in postwar Europe" },
+          { "a": "The conference gathered leading voices in", "b": "Sustainable urbanism" },
+          { "a": "Critics blamed poor", "b": "Urbanism for the district's car dependency" },
+          { "a": "The mayor championed a bold new vision of", "b": "Urbanism for the waterfront" }
+        ] }
+    ],
+    "roots": [ { "rootText": "urbs", "rootLanguage": "Latin", "rootMeaning": "City", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "urbs", "highlight": true }, { "text": " (city); the discipline of designing how a city's parts fit together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "urbs", "correctAnswer": "City", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gentrification",
+    "pronunciation": "jen-truh-fih-KAY-shuhn",
+    "pos": "noun",
+    "definition": "The process by which a working-class urban neighborhood is transformed by an influx of wealthier residents, often raising property values and displacing longtime residents.",
+    "origin": "Coined by the British sociologist <strong>Ruth Glass</strong> in 1964, from gentry (people of good social position, from Old French genterise) + -fication. Glass used the term to describe middle-class newcomers displacing working-class residents in London neighborhoods like Islington, a documented and precisely dated coinage rather than an ancient word.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gentrification</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Coined by sociologist", "b": "Ruth Glass, in 1964" },
+          { "a": "Built on the word", "b": "Gentry (people of good social position)" },
+          { "a": "Gentry traces to Old French", "b": "Genterise" },
+          { "a": "Glass first applied it to a London borough named", "b": "Islington" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gentrification</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gentrification transforms a working-class neighborhood through an influx of", "b": "Wealthier residents" },
+          { "a": "Gentrification often raises local", "b": "Property values" },
+          { "a": "A common criticism of gentrification is that it", "b": "Displaces longtime residents" },
+          { "a": "Gentrification is the opposite of", "b": "Urban decline or disinvestment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gentrification</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rising rents were widely blamed on", "b": "Gentrification" },
+          { "a": "The documentary traced decades of", "b": "Gentrification in the old harbor district" },
+          { "a": "Community groups organized to slow the pace of", "b": "Gentrification" },
+          { "a": "New coffee shops and lofts were early signs of", "b": "Gentrification" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gentry", "rootLanguage": "English (from Old French genterise)", "rootMeaning": "People of good social position", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Coined by sociologist ", "highlight": false }, { "text": "Ruth Glass", "highlight": true }, { "text": " in 1964, from gentry; wealthier newcomers reshaping a working-class neighborhood.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gentry", "correctAnswer": "People of good social position", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Boulevard",
+    "pronunciation": "BOOL-uh-vahrd",
+    "pos": "noun",
+    "definition": "A broad, tree-lined city street, often with a landscaped central strip, originally built along the line of demolished fortifications.",
+    "origin": "From French <strong>boulevard</strong>, from Middle Dutch bolwerc (bulwark, rampart). The word first named the flat top of a city's defensive rampart; when 17th- and 18th-century French cities demolished their old walls, the wide strips of land left behind were paved as broad avenues, carrying the fortification's name with them into peacetime.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Boulevard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch bolwerc", "b": "Bulwark, rampart" },
+          { "a": "Originally named the flat top of a city's", "b": "Defensive rampart" },
+          { "a": "French cities demolished old walls in the", "b": "17th and 18th centuries" },
+          { "a": "The cleared land was paved into broad", "b": "Avenues, keeping the old name" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Boulevard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A boulevard is a broad, tree-lined", "b": "City street" },
+          { "a": "Many boulevards feature a landscaped", "b": "Central strip" },
+          { "a": "Boulevards are typically grander than an ordinary", "b": "Side street" },
+          { "a": "Famous examples include the Champs-Élysées in", "b": "Paris" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Boulevard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Palm trees lined the sunlit", "b": "Boulevard" },
+          { "a": "Traffic crawled along the busy", "b": "Boulevard" },
+          { "a": "Planners proposed a grand new", "b": "Boulevard through the old quarter" },
+          { "a": "Cafés spilled onto the wide", "b": "Boulevard" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bolwerc", "rootLanguage": "Middle Dutch", "rootMeaning": "Bulwark, rampart", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "bolwerc", "highlight": true }, { "text": " (rampart); a fortress wall's flat top, later paved into a grand civic avenue.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bolwerc", "correctAnswer": "Bulwark, rampart", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Suburb",
+    "pronunciation": "SUHB-urb",
+    "pos": "noun",
+    "definition": "A residential district located on the outskirts of a city or large town, typically less densely built than the urban core.",
+    "origin": "From Latin <strong>suburbium</strong>, from sub- (below, near) + urbs (city). Ancient Romans already used the word for settlements just outside a city's walls, and English borrowed it directly in the 14th century for the districts lying beyond, but dependent on, the urban center.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Suburb</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sub-", "b": "Below, near" },
+          { "a": "Latin urbs", "b": "City" },
+          { "a": "Romans already used suburbium for settlements", "b": "Just outside a city's walls" },
+          { "a": "English borrowed the word directly in the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Suburb</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A suburb is a residential district on a city's", "b": "Outskirts" },
+          { "a": "Suburbs are typically less densely built than the", "b": "Urban core" },
+          { "a": "Suburbanization accelerated with the spread of the", "b": "Automobile" },
+          { "a": "A commuter suburb depends economically on the nearby", "b": "City" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Suburb</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The family moved to a quiet", "b": "Suburb outside town" },
+          { "a": "Commuters filled the morning trains from the", "b": "Suburbs" },
+          { "a": "New housing estates spread across the", "b": "Suburb's edge" },
+          { "a": "Postwar growth transformed the farmland into a sprawling", "b": "Suburb" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sub- + urbs", "rootLanguage": "Latin", "rootMeaning": "Near/below + city", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sub- + urbs", "highlight": true }, { "text": " (near + city); the settlements just outside the ancient walls.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sub- + urbs", "correctAnswer": "Near/below + city", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Metropolis",
+    "pronunciation": "muh-TROP-uh-lis",
+    "pos": "noun",
+    "definition": "A very large or capital city, especially one regarded as the chief city of a country or region.",
+    "origin": "From Greek <strong>meter</strong> (mother) + polis (city), literally 'mother city.' Ancient Greeks used it for the city that had founded a colony, the way a mother city stood behind its offspring settlements; English adopted it in the 16th century for any dominant, large city.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Metropolis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek meter", "b": "Mother" },
+          { "a": "Greek polis", "b": "City" },
+          { "a": "Literally, metropolis means", "b": "Mother city" },
+          { "a": "Originally named the city that founded a", "b": "Colony" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Metropolis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A metropolis is a very large or", "b": "Capital city" },
+          { "a": "A metropolis is often regarded as the chief city of a", "b": "Country or region" },
+          { "a": "'Metropolitan' describes the wider area around a", "b": "Metropolis" },
+          { "a": "A small town is the opposite of a", "b": "Metropolis" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Metropolis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The village of a century ago had grown into a sprawling", "b": "Metropolis" },
+          { "a": "Skyscrapers rose across the bustling", "b": "Metropolis" },
+          { "a": "She left her hometown for the noise of the", "b": "Metropolis" },
+          { "a": "The film depicted a futuristic", "b": "Metropolis of towers and traffic" }
+        ] }
+    ],
+    "roots": [ { "rootText": "meter + polis", "rootLanguage": "Greek", "rootMeaning": "Mother + city", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "meter + polis", "highlight": true }, { "text": " (mother city); the founding city standing behind its own colonies.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "meter + polis", "correctAnswer": "Mother + city", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sprawl",
+    "pronunciation": "sprawl",
+    "pos": "noun",
+    "definition": "The uncontrolled, low-density expansion of a city or town into surrounding undeveloped land.",
+    "origin": "From Old English <strong>spreawlian</strong> (to move the limbs convulsively, to sprawl), of obscure Germanic origin. The old sense of a body sprawling awkwardly across a surface was extended by mid-20th-century American planners and journalists to describe cities spreading loosely and haphazardly across the landscape, as in 'urban sprawl.'",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sprawl</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English spreawlian", "b": "To move the limbs convulsively" },
+          { "a": "Of obscure", "b": "Germanic origin" },
+          { "a": "Originally described a body sprawling", "b": "Awkwardly across a surface" },
+          { "a": "Applied to cities by mid-20th-century", "b": "American planners and journalists" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sprawl</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Urban sprawl is uncontrolled, low-density", "b": "Expansion of a city" },
+          { "a": "Sprawl typically consumes surrounding", "b": "Undeveloped land" },
+          { "a": "Sprawl is often criticized for increasing dependence on", "b": "Cars" },
+          { "a": "Compact, dense development is often proposed as a remedy for", "b": "Sprawl" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sprawl</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Critics warned that new highways would only encourage", "b": "Sprawl" },
+          { "a": "From the plane, the suburban", "b": "Sprawl stretched to the horizon" },
+          { "a": "Farmland gave way to decades of", "b": "Sprawl" },
+          { "a": "The plan aimed to contain further", "b": "Sprawl beyond the city limits" }
+        ] }
+    ],
+    "roots": [ { "rootText": "spreawlian", "rootLanguage": "Old English", "rootMeaning": "To move the limbs convulsively", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "spreawlian", "highlight": true }, { "text": " (to sprawl); a body's awkward stretch, later a city's loose, undirected spread.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "spreawlian", "correctAnswer": "To move the limbs convulsively", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Density",
+    "pronunciation": "DEN-sih-tee",
+    "pos": "noun",
+    "definition": "In urban planning, the number of people, homes, or buildings within a given area of land.",
+    "origin": "From Latin <strong>densus</strong> (thick, crowded, close-packed), via French densité. The general physical sense of closely packed matter entered English in the 16th century; planners later borrowed the same word for how tightly people and buildings are packed onto a given plot of urban land.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Density</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin densus", "b": "Thick, crowded, close-packed" },
+          { "a": "Reached English via French", "b": "Densité" },
+          { "a": "The general physical sense entered English in the", "b": "16th century" },
+          { "a": "Planners later applied the word to how tightly people are packed onto", "b": "Urban land" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Density</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Urban density measures people, homes, or buildings within a given", "b": "Area of land" },
+          { "a": "High-density housing typically means", "b": "More units on less land" },
+          { "a": "Low density is often associated with", "b": "Suburban sprawl" },
+          { "a": "Population density is usually expressed per square", "b": "Kilometre or mile" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Density</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The rezoning proposal would double the neighborhood's", "b": "Density" },
+          { "a": "Planners debated whether higher", "b": "Density would ease the housing shortage" },
+          { "a": "Downtown blocks reached a far greater", "b": "Density than the outer suburbs" },
+          { "a": "Residents opposed any increase in building", "b": "Density on their street" }
+        ] }
+    ],
+    "roots": [ { "rootText": "densus", "rootLanguage": "Latin", "rootMeaning": "Thick, crowded, close-packed", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "densus", "highlight": true }, { "text": " (crowded); how tightly people and buildings are packed onto a plot of land.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "densus", "correctAnswer": "Thick, crowded, close-packed", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Setback",
+    "pronunciation": "SET-bak",
+    "pos": "noun",
+    "definition": "The minimum required distance between a building and a property line, street, or another structure, set by zoning or building codes.",
+    "origin": "A plain English compound of <strong>set</strong> + back, drawn from the general sense of a structure literally set back from a boundary. American zoning codes adopted the term as technical planning vocabulary in the early 20th century, alongside the rise of formal zoning itself, to regulate how close a building could sit to the street or its neighbors.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Setback</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Setback compounds", "b": "Set + back" },
+          { "a": "Describes a building literally", "b": "Set back from a boundary" },
+          { "a": "Adopted as zoning vocabulary in the", "b": "Early 20th century" },
+          { "a": "Rose alongside the spread of formal", "b": "Zoning codes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Setback</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A setback is the minimum required distance from a", "b": "Property line or street" },
+          { "a": "Setback rules are typically set by", "b": "Zoning or building codes" },
+          { "a": "A front setback separates a building from the", "b": "Street" },
+          { "a": "Reducing a setback usually requires a", "b": "Variance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Setback</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The architect's plan violated the required", "b": "Setback" },
+          { "a": "Neighbors objected that the extension ignored the", "b": "Side setback" },
+          { "a": "City code mandated a five-metre", "b": "Setback from the road" },
+          { "a": "The developer applied for relief from the standard", "b": "Setback rule" }
+        ] }
+    ],
+    "roots": [ { "rootText": "set + back", "rootLanguage": "English compound", "rootMeaning": "A required distance a building must sit back from a boundary", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "set + back", "highlight": true }, { "text": "; the distance zoning code demands between a building and its boundary.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "set + back", "correctAnswer": "A required distance a building must sit back from a boundary", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Variance",
+    "pronunciation": "VAIR-ee-uhns",
+    "pos": "noun",
+    "definition": "In zoning law, an officially granted exception permitting a landowner to deviate from a specific zoning rule, such as height, setback, or use restrictions.",
+    "origin": "From Latin <strong>variantia</strong>, from variare (to vary, change), from varius (diverse, changing). The general sense of a difference or discrepancy is old, but American zoning boards adopted 'variance' as precise legal jargon in the early 20th century for a formally approved exception to an otherwise binding zoning rule.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Variance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin variare", "b": "To vary, change" },
+          { "a": "Latin varius", "b": "Diverse, changing" },
+          { "a": "The general sense of 'difference' is", "b": "Old, predating zoning" },
+          { "a": "Zoning boards adopted it as legal jargon in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Variance</strong> mean here? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In zoning, a variance is an officially granted", "b": "Exception to a zoning rule" },
+          { "a": "A variance might apply to height, use, or", "b": "Setback restrictions" },
+          { "a": "A property owner typically requests a variance from a local", "b": "Zoning board" },
+          { "a": "This zoning sense is distinct from the", "b": "Statistical measure of spread" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Variance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The homeowner applied for a", "b": "Variance to build closer to the property line" },
+          { "a": "The board denied the requested", "b": "Variance" },
+          { "a": "Without a", "b": "Variance, the addition would violate the height limit" },
+          { "a": "Neighbors packed the hearing to oppose the", "b": "Variance" }
+        ] }
+    ],
+    "roots": [ { "rootText": "variare", "rootLanguage": "Latin", "rootMeaning": "To vary, change", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "variare", "highlight": true }, { "text": " (to vary); a formally approved exception to a binding zoning rule.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "variare", "correctAnswer": "To vary, change", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Block",
+    "pronunciation": "blok",
+    "pos": "noun",
+    "definition": "A section of a city bounded on all sides by streets, forming the basic unit of an urban street grid.",
+    "origin": "From Middle Dutch <strong>blok</strong> (a tree trunk, a solid mass), likely of Germanic origin. English first used block for a solid chunk of wood or stone; by the 19th century, as gridded American cities laid out streets in regular rectangles, the same word for a solid mass came to name the built-up rectangle of land between them.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Block</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch blok", "b": "A tree trunk, a solid mass" },
+          { "a": "Likely of", "b": "Germanic origin" },
+          { "a": "First used in English for a solid chunk of", "b": "Wood or stone" },
+          { "a": "Applied to city rectangles by the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Block</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A city block is bounded on all sides by", "b": "Streets" },
+          { "a": "A block is the basic unit of a street", "b": "Grid" },
+          { "a": "'Walk two blocks' means to travel across", "b": "Two street-bounded sections" },
+          { "a": "A city block typically holds several", "b": "Buildings or lots" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Block</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bakery was just around the", "b": "Block" },
+          { "a": "Traffic backed up for an entire city", "b": "Block" },
+          { "a": "Developers proposed a tower on the vacant", "b": "Block" },
+          { "a": "She counted three", "b": "Blocks before reaching the station" }
+        ] }
+    ],
+    "roots": [ { "rootText": "blok", "rootLanguage": "Middle Dutch", "rootMeaning": "A tree trunk, a solid mass", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "blok", "highlight": true }, { "text": " (a solid mass); a solid chunk of wood, later a solid chunk of city between streets.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "blok", "correctAnswer": "A tree trunk, a solid mass", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Grid",
+    "pronunciation": "grid",
+    "pos": "noun",
+    "definition": "A city street pattern of straight streets crossing at right angles to form regular rectangular blocks.",
+    "origin": "A shortening of <strong>gridiron</strong>, from Middle English gredire (a cooking frame of parallel metal bars), itself altered from Old French graille under the influence of iron. Planners in the 19th century likened the crisscrossing bars of a cooking gridiron to a city's crossing streets, and the shortened form 'grid' stuck as the everyday planning term.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Grid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Grid is a shortening of", "b": "Gridiron" },
+          { "a": "Middle English gredire", "b": "A cooking frame of parallel metal bars" },
+          { "a": "Altered from Old French graille under the influence of", "b": "Iron" },
+          { "a": "19th-century planners compared crossing streets to a", "b": "Cooking gridiron's bars" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Grid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A street grid crosses at", "b": "Right angles" },
+          { "a": "A grid produces regular", "b": "Rectangular blocks" },
+          { "a": "Manhattan is famous for its rigid street", "b": "Grid" },
+          { "a": "A curving, irregular street pattern is the opposite of a", "b": "Grid" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Grid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Visitors found the city's numbered street", "b": "Grid easy to navigate" },
+          { "a": "The old town predated the modern street", "b": "Grid" },
+          { "a": "Planners laid the new district out on a strict", "b": "Grid" },
+          { "a": "Diagonal avenues cut across the rectangular", "b": "Grid" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gridiron", "rootLanguage": "Middle English", "rootMeaning": "A cooking frame of parallel bars", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Shortened from ", "highlight": false }, { "text": "gridiron", "highlight": true }, { "text": " (a cooking frame); crossing streets likened to the crisscrossing bars of a grill.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gridiron", "correctAnswer": "A cooking frame of parallel bars", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Corridor",
+    "pronunciation": "KOR-ih-dor",
+    "pos": "noun",
+    "definition": "A narrow strip of land, often along a transport route, that connects two places or channels growth and development along its length.",
+    "origin": "From French <strong>corridor</strong>, from Italian corridore (a running place, a gallery), from correre (to run), from Latin currere (to run). The word first named a running passage inside a building or fortress; 20th-century planners extended it to the long, narrow strips of land, such as a rail line or highway route, along which a city's growth or transit could run.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Corridor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian correre", "b": "To run" },
+          { "a": "Latin currere", "b": "To run" },
+          { "a": "Italian corridore originally meant a", "b": "Running place, a gallery" },
+          { "a": "Planners extended the sense to transit routes in the", "b": "20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Corridor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In planning, a corridor is a narrow strip of land often along a", "b": "Transport route" },
+          { "a": "A transit corridor channels growth along a", "b": "Rail line or highway" },
+          { "a": "In a building, a corridor is simply a", "b": "Hallway" },
+          { "a": "A wildlife corridor connects separated", "b": "Habitats" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Corridor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city rezoned land along the new rail", "b": "Corridor" },
+          { "a": "Planners proposed dense housing along the transit", "b": "Corridor" },
+          { "a": "Freight trucks clogged the industrial", "b": "Corridor" },
+          { "a": "The highway formed a busy commercial", "b": "Corridor between the two towns" }
+        ] }
+    ],
+    "roots": [ { "rootText": "currere", "rootLanguage": "Latin", "rootMeaning": "To run", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "currere", "highlight": true }, { "text": " (to run); a running passage, later a strip of land along which growth or transit runs.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "currere", "correctAnswer": "To run", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Precinct",
+    "pronunciation": "PREE-sinkt",
+    "pos": "noun",
+    "definition": "A distinct area within a city, either an administrative division or a zone reserved for a particular use, such as a pedestrian shopping precinct.",
+    "origin": "From Medieval Latin <strong>praecinctum</strong> (an enclosure), from Latin praecingere (to gird about), from prae- (before, around) + cingere (to encircle). The word first named the enclosed grounds around a cathedral or monastery; it later broadened to any bounded district, whether an electoral precinct or a car-free shopping precinct.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Precinct</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin praecingere", "b": "To gird about" },
+          { "a": "Formed from prae- (around) plus", "b": "Cingere (to encircle)" },
+          { "a": "Originally named the enclosed grounds around a", "b": "Cathedral or monastery" },
+          { "a": "Later broadened to any", "b": "Bounded district" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Precinct</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A precinct is a distinct area within a", "b": "City" },
+          { "a": "An electoral precinct is a division for", "b": "Voting" },
+          { "a": "A pedestrian precinct is reserved for", "b": "Foot traffic, not cars" },
+          { "a": "A police precinct is a district served by a local", "b": "Station" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Precinct</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The town centre became a car-free shopping", "b": "Precinct" },
+          { "a": "Voters lined up at their local", "b": "Precinct" },
+          { "a": "The cathedral's quiet", "b": "Precinct offered a rare patch of green" },
+          { "a": "Officers were assigned to the downtown", "b": "Precinct" }
+        ] }
+    ],
+    "roots": [ { "rootText": "praecingere", "rootLanguage": "Latin", "rootMeaning": "To gird about, encircle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "praecingere", "highlight": true }, { "text": " (to gird about); the enclosed ground around a cathedral, later any bounded district.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "praecingere", "correctAnswer": "To gird about, encircle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "District",
+    "pronunciation": "DIS-trikt",
+    "pos": "noun",
+    "definition": "An area of a city or region defined for administrative, geographic, or planning purposes, such as a historic district or financial district.",
+    "origin": "From Medieval Latin <strong>districtus</strong> (the territory over which a lord's authority extended), from distringere (to constrain, distrain), from dis- (apart) + stringere (to draw tight). Its original sense concerned a feudal lord's power to compel; only later did the word soften into a purely geographic term for a defined administrative area.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>District</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin distringere", "b": "To constrain, distrain" },
+          { "a": "Formed from dis- (apart) plus", "b": "Stringere (to draw tight)" },
+          { "a": "Medieval Latin districtus originally named a lord's", "b": "Territory of legal authority" },
+          { "a": "The word later softened into a purely", "b": "Geographic term" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>District</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A district is an area defined for administrative or", "b": "Planning purposes" },
+          { "a": "A financial district concentrates a city's", "b": "Banks and businesses" },
+          { "a": "A historic district is protected for its", "b": "Architectural or cultural heritage" },
+          { "a": "A school district is defined for", "b": "Education administration" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>District</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Skyscrapers clustered in the", "b": "Financial district" },
+          { "a": "Preservation rules protected the", "b": "Historic district" },
+          { "a": "The council rezoned part of the arts", "b": "District" },
+          { "a": "Commuters filled the trains into the business", "b": "District" }
+        ] }
+    ],
+    "roots": [ { "rootText": "distringere", "rootLanguage": "Latin", "rootMeaning": "To constrain, draw tight", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "distringere", "highlight": true }, { "text": " (to constrain); a lord's territory of authority, softened into a defined civic area.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "distringere", "correctAnswer": "To constrain, draw tight", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Quarter",
+    "pronunciation": "KWOR-tur",
+    "pos": "noun",
+    "definition": "A distinct district of a city, especially one traditionally associated with a particular group, trade, or character, such as the Latin Quarter.",
+    "origin": "From Latin <strong>quartarius</strong> (a fourth part), from quartus (fourth). Medieval European cities were often literally divided into four administrative quarters; over time the word kept its sense of 'a distinct part of a city' even as districts multiplied well beyond four.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Quarter</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin quartus", "b": "Fourth" },
+          { "a": "Latin quartarius", "b": "A fourth part" },
+          { "a": "Medieval cities were often literally divided into", "b": "Four administrative quarters" },
+          { "a": "The word kept its urban sense even after", "b": "Districts multiplied beyond four" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Quarter</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A city quarter is a distinct district, often tied to a particular", "b": "Group, trade, or character" },
+          { "a": "The Latin Quarter in Paris is known for its", "b": "Students and universities" },
+          { "a": "A merchant quarter historically clustered a city's", "b": "Traders and markets" },
+          { "a": "A quarter can also mean simply one", "b": "Fourth of a whole" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Quarter</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists wandered the cobbled streets of the old", "b": "Quarter" },
+          { "a": "Artists and galleries filled the creative", "b": "Quarter" },
+          { "a": "Lanterns lit the narrow lanes of the historic", "b": "Quarter" },
+          { "a": "The city's financial", "b": "Quarter hummed with early-morning traffic" }
+        ] }
+    ],
+    "roots": [ { "rootText": "quartus", "rootLanguage": "Latin", "rootMeaning": "Fourth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "quartus", "highlight": true }, { "text": " (fourth); a city once literally split into four parts, now any distinct district.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "quartus", "correctAnswer": "Fourth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Annex",
+    "pronunciation": "AN-eks",
+    "pos": "noun",
+    "definition": "A building or structure added to an existing one to provide extra space, or an area of land incorporated into an existing city or district.",
+    "origin": "From French <strong>annexe</strong>, from Latin annexus, the past participle of annectere (to bind or tie to), from ad- (to) + nectere (to bind, tie). The word entered English in the 15th century for something bound or attached to a larger whole, later applied to added buildings and to newly incorporated land bound to an existing city.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Annex</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin annectere", "b": "To bind or tie to" },
+          { "a": "Formed from ad- (to) plus", "b": "Nectere (to bind, tie)" },
+          { "a": "Entered English in the", "b": "15th century" },
+          { "a": "Originally described anything", "b": "Bound or attached to a larger whole" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Annex</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A building annex adds extra space to an", "b": "Existing structure" },
+          { "a": "As a verb, a city may annex nearby", "b": "Land or territory" },
+          { "a": "An annexed district becomes formally part of a", "b": "Larger city" },
+          { "a": "An annex is generally smaller than the", "b": "Main building" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Annex</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The library built an", "b": "Annex to house new archives" },
+          { "a": "The town voted to", "b": "Annex the adjoining farmland" },
+          { "a": "Students attended classes in the school's", "b": "Annex" },
+          { "a": "Residents of the newly annexed", "b": "Suburb gained city services" }
+        ] }
+    ],
+    "roots": [ { "rootText": "annectere", "rootLanguage": "Latin", "rootMeaning": "To bind or tie to", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "annectere", "highlight": true }, { "text": " (to bind to); a structure or a stretch of land tied onto a larger whole.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "annectere", "correctAnswer": "To bind or tie to", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Infill",
+    "pronunciation": "IN-fil",
+    "pos": "noun",
+    "definition": "New construction on vacant or underused land within an already built-up area, rather than on the undeveloped edge of a city.",
+    "origin": "A plain English compound of <strong>in</strong> + fill, describing material used to fill a gap. Urban planners adopted 'infill' as technical vocabulary in the mid-20th century for new development that fills the gaps left within an existing built-up area, an honest, literal name for an honest, literal practice.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Infill</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Infill compounds", "b": "In + fill" },
+          { "a": "Describes material used to", "b": "Fill a gap" },
+          { "a": "Adopted as planning vocabulary in the", "b": "Mid-20th century" },
+          { "a": "Names development that fills gaps within an", "b": "Already built-up area" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Infill</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Infill development occurs on vacant land within an already", "b": "Built-up area" },
+          { "a": "Infill is generally favored over building on the undeveloped", "b": "Edge of a city" },
+          { "a": "Infill housing can raise a neighborhood's", "b": "Density" },
+          { "a": "A greenfield site, unlike an infill site, is", "b": "Previously undeveloped" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Infill</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The empty lot was earmarked for", "b": "Infill housing" },
+          { "a": "City policy encouraged", "b": "Infill development over sprawl" },
+          { "a": "A row of townhouses filled the", "b": "Infill site" },
+          { "a": "Planners praised the project as a model of good", "b": "Infill" }
+        ] }
+    ],
+    "roots": [ { "rootText": "in + fill", "rootLanguage": "English compound", "rootMeaning": "New development that fills a gap in a built-up area", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "in + fill", "highlight": true }, { "text": "; new building squeezed into the gaps of an already built city.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "in + fill", "correctAnswer": "New development that fills a gap in a built-up area", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brownfield",
+    "pronunciation": "BROWN-feeld",
+    "pos": "noun",
+    "definition": "A tract of previously developed land, often formerly industrial, that is abandoned or underused and may be contaminated, targeted for redevelopment.",
+    "origin": "A plain English compound of <strong>brown</strong> + field, coined by American environmental and planning agencies in the late 1980s and early 1990s as a direct counterpart to 'greenfield.' The colour brown honestly evokes disturbed, often contaminated industrial soil rather than the untouched green of open land.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brownfield</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Brownfield compounds", "b": "Brown + field" },
+          { "a": "Coined by environmental and planning agencies in the", "b": "Late 1980s and early 1990s" },
+          { "a": "Formed as a direct counterpart to", "b": "Greenfield" },
+          { "a": "The colour brown evokes", "b": "Disturbed, often contaminated soil" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brownfield</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A brownfield is previously developed land, often formerly", "b": "Industrial" },
+          { "a": "Brownfield sites are frequently", "b": "Contaminated" },
+          { "a": "Brownfield redevelopment targets land that is", "b": "Abandoned or underused" },
+          { "a": "Cleaning up a brownfield before building is called", "b": "Remediation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brownfield</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old factory site was classified as a", "b": "Brownfield" },
+          { "a": "The city offered grants to clean up its", "b": "Brownfield sites" },
+          { "a": "Developers proposed apartments on the former", "b": "Brownfield" },
+          { "a": "Soil testing preceded any work on the", "b": "Brownfield" }
+        ] }
+    ],
+    "roots": [ { "rootText": "brown + field", "rootLanguage": "English compound", "rootMeaning": "Previously developed, often contaminated industrial land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "brown + field", "highlight": true }, { "text": "; disturbed industrial ground, honestly named for its color rather than its promise.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "brown + field", "correctAnswer": "Previously developed, often contaminated industrial land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Greenfield",
+    "pronunciation": "GREEN-feeld",
+    "pos": "noun",
+    "definition": "A tract of undeveloped land, typically farmland or open countryside, considered for new construction.",
+    "origin": "A plain English compound of <strong>green</strong> + field, in use since at least the mid-20th century for undeveloped, agricultural or open land. Planners later paired it with 'brownfield' as the natural opposite, the honest colour of untouched countryside set against the honest colour of disturbed industrial ground.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Greenfield</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greenfield compounds", "b": "Green + field" },
+          { "a": "In use since at least the", "b": "Mid-20th century" },
+          { "a": "Describes undeveloped, agricultural or", "b": "Open land" },
+          { "a": "Later paired with its natural opposite,", "b": "Brownfield" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Greenfield</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A greenfield site is typically farmland or", "b": "Open countryside" },
+          { "a": "Greenfield development contrasts with reusing land at a", "b": "Brownfield site" },
+          { "a": "Building on greenfield land often draws criticism for encouraging", "b": "Sprawl" },
+          { "a": "A greenfield project starts with essentially", "b": "No prior development" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Greenfield</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Campaigners fought to stop housing on the", "b": "Greenfield site" },
+          { "a": "The new stadium was built on former", "b": "Greenfield land" },
+          { "a": "Planners preferred infill over further", "b": "Greenfield development" },
+          { "a": "The company chose a rural", "b": "Greenfield location for the factory" }
+        ] }
+    ],
+    "roots": [ { "rootText": "green + field", "rootLanguage": "English compound", "rootMeaning": "Undeveloped farmland or open land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "green + field", "highlight": true }, { "text": "; untouched countryside, the natural counterpart to a brownfield site.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "green + field", "correctAnswer": "Undeveloped farmland or open land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pedestrian",
+    "pronunciation": "puh-DES-tree-uhn",
+    "pos": "noun",
+    "definition": "A person travelling on foot, especially in a street or urban area shared with vehicles.",
+    "origin": "From Latin <strong>pedester</strong> (going on foot, plain, prosaic), from pes, pedis (foot). English borrowed it in the 18th century first as an adjective meaning 'on foot' or, figuratively, 'dull and unimaginative,' and only later, in the 19th century, as a noun for a person walking, especially one navigating streets built for wheeled traffic.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pedestrian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin pes, pedis", "b": "Foot" },
+          { "a": "Latin pedester", "b": "Going on foot, plain, prosaic" },
+          { "a": "Entered English in the 18th century as an adjective meaning", "b": "On foot, or figuratively dull" },
+          { "a": "Became a noun for a person walking in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pedestrian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pedestrian is a person travelling on", "b": "Foot" },
+          { "a": "A pedestrian crossing lets walkers cross safely amid", "b": "Traffic" },
+          { "a": "A pedestrian zone excludes", "b": "Vehicles" },
+          { "a": "Used as an adjective, 'pedestrian' can also mean", "b": "Dull, unimaginative" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pedestrian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city added a raised", "b": "Pedestrian crossing outside the school" },
+          { "a": "Drivers were told to yield to", "b": "Pedestrians" },
+          { "a": "The old market street became a", "b": "Pedestrian-only zone" },
+          { "a": "Wider pavements made the route safer for", "b": "Pedestrians" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pes, pedis", "rootLanguage": "Latin", "rootMeaning": "Foot", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "pes, pedis", "highlight": true }, { "text": " (foot); a person on foot, navigating streets built for wheels.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pes, pedis", "correctAnswer": "Foot", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Thoroughfare",
+    "pronunciation": "THUR-oh-fair",
+    "pos": "noun",
+    "definition": "A main road or street open at both ends that allows through traffic to pass from one place to another.",
+    "origin": "A plain English compound of <strong>thorough</strong> (through) + fare (a going, a journey, from Old English faran, to travel), first recorded in the 14th century for a passage or road that could be travelled all the way through, as opposed to a dead end.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Thoroughfare</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Thoroughfare compounds", "b": "Thorough (through) + fare" },
+          { "a": "Old English faran", "b": "To travel" },
+          { "a": "First recorded in the", "b": "14th century" },
+          { "a": "Named a road that could be travelled", "b": "All the way through, unlike a dead end" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Thoroughfare</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A thoroughfare is a main road open at", "b": "Both ends" },
+          { "a": "A thoroughfare allows traffic to pass", "b": "Through, from one place to another" },
+          { "a": "'No thoroughfare' signs mean the road does not", "b": "Connect through" },
+          { "a": "A busy thoroughfare typically carries heavy", "b": "Traffic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Thoroughfare</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The avenue became the city's main", "b": "Thoroughfare" },
+          { "a": "Roadworks closed the busy", "b": "Thoroughfare for weeks" },
+          { "a": "A sign at the dead end read", "b": "No thoroughfare" },
+          { "a": "Delivery trucks rumbled along the", "b": "Thoroughfare all night" }
+        ] }
+    ],
+    "roots": [ { "rootText": "thorough + fare", "rootLanguage": "English compound", "rootMeaning": "Through + a going, a journey", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "thorough + fare", "highlight": true }, { "text": "; a road that can be travelled all the way through.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "thorough + fare", "correctAnswer": "Through + a going, a journey", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cul-de-sac",
+    "pronunciation": "KUHL-duh-sak",
+    "pos": "noun",
+    "definition": "A street closed at one end, providing access from only one direction, often used to reduce through traffic in residential areas.",
+    "origin": "A direct borrowing of French <strong>cul-de-sac</strong>, literally 'bottom of the sack' or 'bottom of the bag,' from cul (bottom) + de (of) + sac (sack, bag). Originally an anatomical term for a bodily pouch closed at one end, it was adopted into English street planning in the 19th century for a road with exactly the same shape, open at one end and sealed at the other.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cul-de-sac</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French cul", "b": "Bottom" },
+          { "a": "French sac", "b": "Sack, bag" },
+          { "a": "Literally, cul-de-sac means", "b": "Bottom of the sack" },
+          { "a": "Originally an anatomical term for a", "b": "Bodily pouch closed at one end" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cul-de-sac</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cul-de-sac is a street closed at", "b": "One end" },
+          { "a": "A cul-de-sac provides access from only", "b": "One direction" },
+          { "a": "Cul-de-sacs are often used to reduce", "b": "Through traffic" },
+          { "a": "A cul-de-sac is common in modern", "b": "Suburban residential design" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cul-de-sac</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Children played safely on the quiet", "b": "Cul-de-sac" },
+          { "a": "The new estate was built around a looping", "b": "Cul-de-sac" },
+          { "a": "Delivery drivers often got lost in the maze of", "b": "Cul-de-sacs" },
+          { "a": "Their house sat at the very end of the", "b": "Cul-de-sac" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cul-de-sac", "rootLanguage": "French", "rootMeaning": "Bottom of the sack/bag", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "cul-de-sac", "highlight": true }, { "text": " (bottom of the bag); a street sealed at one end, borrowed straight from anatomy.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cul-de-sac", "correctAnswer": "Bottom of the sack/bag", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Artery",
+    "pronunciation": "AHR-tuh-ree",
+    "pos": "noun",
+    "definition": "A major road that carries a large volume of through traffic, functioning as a primary route in a city's transport network.",
+    "origin": "From Latin <strong>arteria</strong>, from Greek arteria (windpipe, later a blood vessel), possibly related to Greek airein (to raise) or aer (air), reflecting the ancient belief that arteries carried air. City planners borrowed the anatomical image in the 19th century, comparing a network of major roads carrying traffic to the arteries carrying blood through a body.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Artery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek arteria", "b": "Windpipe, later a blood vessel" },
+          { "a": "Possibly related to Greek aer", "b": "Air" },
+          { "a": "Ancient belief held that arteries carried", "b": "Air, not blood" },
+          { "a": "Planners borrowed the anatomical image in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Artery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In transport planning, an artery is a major road carrying a large volume of", "b": "Through traffic" },
+          { "a": "An artery functions as a primary route in a city's", "b": "Transport network" },
+          { "a": "In anatomy, an artery carries blood away from the", "b": "Heart" },
+          { "a": "A blocked artery can bring traffic, or blood flow, to a", "b": "Standstill" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Artery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rush hour clogged the city's main", "b": "Artery" },
+          { "a": "The bridge served as a vital", "b": "Artery linking the two halves of the city" },
+          { "a": "Engineers widened the busy", "b": "Artery to ease congestion" },
+          { "a": "An accident brought the entire", "b": "Artery to a standstill" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arteria", "rootLanguage": "Greek", "rootMeaning": "Windpipe, blood vessel", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "arteria", "highlight": true }, { "text": " (blood vessel); a city's major roads compared to the vessels that carry blood through a body.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arteria", "correctAnswer": "Windpipe, blood vessel", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Townscape",
+    "pronunciation": "TOWN-skayp",
+    "pos": "noun",
+    "definition": "The overall visual character and layout of a town, formed by the arrangement of its buildings, streets, and open spaces.",
+    "origin": "A plain English compound of <strong>town</strong> + -scape (a view or scene, taken from landscape, ultimately from Old English sceppan, to shape). British planners and architects popularised 'townscape' in the mid-20th century, notably through the Architectural Review magazine, to describe a town's visual character the way 'landscape' describes open countryside.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Townscape</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Townscape compounds", "b": "Town + -scape" },
+          { "a": "The suffix -scape derives from", "b": "Landscape" },
+          { "a": "Ultimately traces to Old English", "b": "Sceppan (to shape)" },
+          { "a": "Popularised in the mid-20th century by the", "b": "Architectural Review magazine" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Townscape</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Townscape describes the overall visual character of a", "b": "Town" },
+          { "a": "Townscape is shaped by the arrangement of buildings, streets, and", "b": "Open spaces" },
+          { "a": "A harmonious townscape blends old and new", "b": "Architecture" },
+          { "a": "Just as landscape describes countryside, townscape describes a", "b": "Built environment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Townscape</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The new tower was criticised for clashing with the surrounding", "b": "Townscape" },
+          { "a": "Conservationists praised the village's unspoiled", "b": "Townscape" },
+          { "a": "Planners commissioned a study of the historic", "b": "Townscape" },
+          { "a": "Careful design preserved the character of the", "b": "Townscape" }
+        ] }
+    ],
+    "roots": [ { "rootText": "town + -scape", "rootLanguage": "English compound", "rootMeaning": "The visual character of a town, modeled on landscape", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "town + -scape", "highlight": true }, { "text": "; a town's visual character, framed the way landscape frames open countryside.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "town + -scape", "correctAnswer": "The visual character of a town, modeled on landscape", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Walkability",
+    "pronunciation": "WAW-kuh-BIL-ih-tee",
+    "pos": "noun",
+    "definition": "The extent to which an area is designed to make walking safe, convenient, and pleasant, typically judged by density, safety, and access to nearby amenities.",
+    "origin": "A recent English coinage combining <strong>walk</strong> + the suffix -ability (capable of being done, from Latin -abilis). Urban planners and public-health researchers popularised the term from the 1990s onward as cities began systematically measuring how easy a neighborhood is to navigate on foot, a modern portmanteau-style word for a modern planning priority.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Walkability</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Walkability combines", "b": "Walk + -ability" },
+          { "a": "The suffix -ability derives from Latin", "b": "-abilis (capable of being done)" },
+          { "a": "Popularised by planners and public-health researchers from the", "b": "1990s onward" },
+          { "a": "The word is a genuinely", "b": "Modern, recent coinage" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Walkability</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Walkability measures how safe, convenient, and pleasant an area is for", "b": "Walking" },
+          { "a": "Walkability is often judged by density, safety, and access to nearby", "b": "Amenities" },
+          { "a": "A high-walkability neighborhood typically has", "b": "Short blocks and mixed uses" },
+          { "a": "Car-dependent sprawl generally scores", "b": "Low on walkability" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Walkability</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Real estate listings now advertise a neighborhood's", "b": "Walkability score" },
+          { "a": "The redesign aimed to improve downtown", "b": "Walkability" },
+          { "a": "Researchers ranked cities by their overall", "b": "Walkability" },
+          { "a": "Wider pavements and shade trees boosted the street's", "b": "Walkability" }
+        ] }
+    ],
+    "roots": [ { "rootText": "-ability", "rootLanguage": "English (from Latin -abilis)", "rootMeaning": "Capable of being done", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A modern coinage from ", "highlight": false }, { "text": "walk + -ability", "highlight": true }, { "text": "; how safe and pleasant an area is to move through on foot.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "-ability", "correctAnswer": "Capable of being done", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Frontage",
+    "pronunciation": "FRUHN-tij",
+    "pos": "noun",
+    "definition": "The length of a building's or property's boundary that faces a street, waterfront, or other public space.",
+    "origin": "From <strong>front</strong>, from Old French front, from Latin frons, frontis (forehead, front), with the suffix -age (a measure or extent of) added in English in the 19th century. The word turned the body's forehead into a measurable strip of land, the part of a property that presents itself to the street.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-urban", "name": "Urban Design & Planning", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Frontage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin frons, frontis", "b": "Forehead, front" },
+          { "a": "Reached English via Old French", "b": "Front" },
+          { "a": "Suffix -age marks a", "b": "Measure or extent of" },
+          { "a": "The -age form was added in English in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Frontage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Frontage is the length of a property's boundary facing a", "b": "Street or public space" },
+          { "a": "A shop with wide frontage has more space for its", "b": "Windows and signage" },
+          { "a": "Waterfront frontage faces a", "b": "River, lake, or sea" },
+          { "a": "Frontage is usually measured in linear", "b": "Feet or metres" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Frontage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The corner lot offered valuable double", "b": "Frontage" },
+          { "a": "Rent was priced partly on the shop's street", "b": "Frontage" },
+          { "a": "The estate boasted generous river", "b": "Frontage" },
+          { "a": "Zoning required a minimum of ten metres of", "b": "Frontage" }
+        ] }
+    ],
+    "roots": [ { "rootText": "frons, frontis", "rootLanguage": "Latin", "rootMeaning": "Forehead, front", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "frons, frontis", "highlight": true }, { "text": " (forehead); the part of a property that presents its face to the street.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "frons, frontis", "correctAnswer": "Forehead, front", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

@@ -1,0 +1,3524 @@
+[
+  {
+    "word": "Atrium",
+    "pronunciation": "AY-tree-uhm",
+    "pos": "noun",
+    "definition": "An open central hall or courtyard, originally at the entrance of a Roman house and later adopted for the light-filled entrance space of a church or building.",
+    "origin": "From Latin <strong>atrium</strong>, the open, central reception hall of a Roman house, possibly from Etruscan ater (black), referring to walls blackened by smoke from the hearth beneath the roof opening. Early Christian builders borrowed the word for the open forecourt built before a basilica's doors.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Atrium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin atrium",
+            "b": "Open central hall"
+          },
+          {
+            "a": "Possibly from Etruscan ater",
+            "b": "Black"
+          },
+          {
+            "a": "Named for walls blackened by",
+            "b": "Hearth smoke"
+          },
+          {
+            "a": "Early Christians used it for a basilica's",
+            "b": "Open forecourt"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Atrium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An atrium sits at a building's",
+            "b": "Entrance or centre"
+          },
+          {
+            "a": "Roman atriums were open to the sky through a",
+            "b": "Central roof opening"
+          },
+          {
+            "a": "Modern office atriums are often filled with",
+            "b": "Natural light and plants"
+          },
+          {
+            "a": "An atrium is distinct from a hallway by being",
+            "b": "Open and central, not a passage"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Atrium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Sunlight poured into the hotel's glass-roofed",
+            "b": "Atrium"
+          },
+          {
+            "a": "Visitors gathered beneath the museum's soaring",
+            "b": "Atrium"
+          },
+          {
+            "a": "The Roman house was arranged around a central",
+            "b": "Atrium"
+          },
+          {
+            "a": "The new hospital wing features a plant-filled",
+            "b": "Atrium"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "atrium",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Open central hall",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "atrium",
+          "highlight": true
+        },
+        {
+          "text": ", the smoke-blackened central hall of a Roman house, later a church's open forecourt.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "atrium",
+      "correctAnswer": "Open central hall",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nave",
+    "pronunciation": "nayv",
+    "pos": "noun",
+    "definition": "The long central hall of a church, extending from the entrance to the altar, where the congregation sits or stands.",
+    "origin": "From Latin <strong>navis</strong> (ship), via Medieval Latin navis ecclesiae. Medieval builders likened the church's long, high central hall to an inverted ship's hull, and the image doubled as allegory: the Church as a vessel carrying the faithful safely through life.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nave</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin navis",
+            "b": "Ship"
+          },
+          {
+            "a": "The nave's timber roof resembled an",
+            "b": "Inverted ship's hull"
+          },
+          {
+            "a": "Medieval builders used the ship as an",
+            "b": "Allegory for the Church"
+          },
+          {
+            "a": "The Church was imagined as a vessel",
+            "b": "Carrying the faithful"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nave</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The nave runs from the entrance to the",
+            "b": "Altar or chancel"
+          },
+          {
+            "a": "The congregation gathers in the",
+            "b": "Nave"
+          },
+          {
+            "a": "The nave is usually flanked by",
+            "b": "Side aisles"
+          },
+          {
+            "a": "The nave is the tallest, most central part of a",
+            "b": "Church's floor plan"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nave</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Rows of wooden pews lined the",
+            "b": "Nave"
+          },
+          {
+            "a": "The bride walked slowly down the",
+            "b": "Nave"
+          },
+          {
+            "a": "Stone columns marched along both sides of the",
+            "b": "Nave"
+          },
+          {
+            "a": "Sunlight streamed through clerestory windows high above the",
+            "b": "Nave"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "navis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Ship",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "navis",
+          "highlight": true
+        },
+        {
+          "text": " (ship); the church hall shaped like an upturned hull, carrying the faithful within.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "navis",
+      "correctAnswer": "Ship",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cloister",
+    "pronunciation": "KLOY-stuhr",
+    "pos": "noun",
+    "definition": "A covered walkway with an open colonnade, running around the sides of a courtyard within a monastery or similar religious building.",
+    "origin": "From Latin <strong>claustrum</strong> (a bolt, bar, enclosed place), from claudere (to close, shut). Monks used the enclosed, covered walkway to move between chapel, dormitory, and refectory without leaving shelter, reinforcing their withdrawal from the outside world.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cloister</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin claustrum",
+            "b": "A bolt, bar, enclosed place"
+          },
+          {
+            "a": "From Latin claudere",
+            "b": "To close, shut"
+          },
+          {
+            "a": "Monks used it to move between buildings",
+            "b": "Without leaving shelter"
+          },
+          {
+            "a": "The word reinforced monastic",
+            "b": "Withdrawal from the world"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cloister</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A cloister runs along the sides of a",
+            "b": "Courtyard"
+          },
+          {
+            "a": "A cloister connects a monastery's chapel, dormitory, and",
+            "b": "Refectory"
+          },
+          {
+            "a": "A cloister is open on one side to a",
+            "b": "Colonnade or arcade"
+          },
+          {
+            "a": "To be \"cloistered\" figuratively means to be",
+            "b": "Shut away from the world"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cloister</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The monks walked in silence around the",
+            "b": "Cloister"
+          },
+          {
+            "a": "Ivy climbed the stone arches of the",
+            "b": "Cloister"
+          },
+          {
+            "a": "She lived a cloistered life, rarely leaving the",
+            "b": "Convent"
+          },
+          {
+            "a": "The abbey's garden lay at the centre of the",
+            "b": "Cloister"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "claudere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To close, shut",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "claudere",
+          "highlight": true
+        },
+        {
+          "text": " (to shut); a sheltered walk enclosing monks within their own world.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "claudere",
+      "correctAnswer": "To close, shut",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Arcade",
+    "pronunciation": "ahr-KAYD",
+    "pos": "noun",
+    "definition": "A series of arches supported by columns or piers, either freestanding or forming a covered passage lined with shops.",
+    "origin": "From French <strong>arcade</strong>, from Italian arcata, from Latin arcus (bow, arch). The word first described the repeating arches of Roman aqueducts and church interiors before it was extended, in the 18th century, to the covered shopping passages built beneath rows of arches.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Arcade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin arcus",
+            "b": "Bow, arch"
+          },
+          {
+            "a": "Reached English via Italian",
+            "b": "Arcata"
+          },
+          {
+            "a": "First described the arches of Roman",
+            "b": "Aqueducts and churches"
+          },
+          {
+            "a": "Extended in the 18th century to covered",
+            "b": "Shopping passages"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Arcade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An arcade is a series of",
+            "b": "Arches on columns"
+          },
+          {
+            "a": "A shopping arcade is typically",
+            "b": "Covered and lined with shops"
+          },
+          {
+            "a": "An arcade running along a church wall is called a",
+            "b": "Blind arcade"
+          },
+          {
+            "a": "An \"amusement arcade\" now means a hall of",
+            "b": "Coin-operated games"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Arcade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Shoppers strolled beneath the glass roof of the",
+            "b": "Victorian arcade"
+          },
+          {
+            "a": "A row of stone arches formed an",
+            "b": "Arcade along the cloister"
+          },
+          {
+            "a": "Teenagers spent their coins in the local",
+            "b": "Arcade"
+          },
+          {
+            "a": "The cathedral's lower wall was decorated with a blind",
+            "b": "Arcade"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "arcus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Bow, arch",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "arcus",
+          "highlight": true
+        },
+        {
+          "text": " (bow, arch), via Italian arcata; a rhythm of arches marching in a row.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "arcus",
+      "correctAnswer": "Bow, arch",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vestibule",
+    "pronunciation": "VES-ti-byool",
+    "pos": "noun",
+    "definition": "A small entrance hall or antechamber between a building's outer door and its interior rooms.",
+    "origin": "From Latin <strong>vestibulum</strong> (entrance court, forecourt), a word of disputed origin possibly linked to stare (to stand) with the prefix ve- (apart), describing the space one stands in before passing further inside. Roman houses used it as a formal threshold before the atrium.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vestibule</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin vestibulum",
+            "b": "Entrance court, forecourt"
+          },
+          {
+            "a": "Possibly linked to Latin stare",
+            "b": "To stand"
+          },
+          {
+            "a": "The prefix ve- suggests",
+            "b": "Apart, aside"
+          },
+          {
+            "a": "Roman houses placed it before the",
+            "b": "Atrium"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vestibule</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A vestibule sits between a building's outer door and its",
+            "b": "Interior rooms"
+          },
+          {
+            "a": "A vestibule is typically",
+            "b": "Small and transitional"
+          },
+          {
+            "a": "Church vestibules often hold",
+            "b": "Coat racks or notice boards"
+          },
+          {
+            "a": "A vestibule differs from a foyer mainly in its",
+            "b": "Smaller, more functional scale"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vestibule</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Guests shook off their umbrellas in the",
+            "b": "Vestibule"
+          },
+          {
+            "a": "The apartment building's narrow",
+            "b": "Vestibule led to the stairs"
+          },
+          {
+            "a": "Coats hung on hooks in the church",
+            "b": "Vestibule"
+          },
+          {
+            "a": "A draught crept through the unheated",
+            "b": "Vestibule"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "vestibulum",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Entrance court",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "vestibulum",
+          "highlight": true
+        },
+        {
+          "text": " (entrance court); the formal threshold you pause in before going further inside.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vestibulum",
+      "correctAnswer": "Entrance court",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Apse",
+    "pronunciation": "aps",
+    "pos": "noun",
+    "definition": "A semicircular or polygonal recess, usually vaulted, projecting from the east end of a church behind the altar.",
+    "origin": "From Latin <strong>apsis</strong>, from Greek hapsis (a fastening, a loop, an arch of a wheel), from haptein (to fasten). Roman basilicas used the curved apsis for a raised dais at one end, a form early churches adopted to frame the altar.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Apse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin apsis",
+            "b": "Arch, curved recess"
+          },
+          {
+            "a": "From Greek hapsis",
+            "b": "A loop, arch of a wheel"
+          },
+          {
+            "a": "From Greek haptein",
+            "b": "To fasten"
+          },
+          {
+            "a": "Roman basilicas used the apsis for a raised",
+            "b": "Dais"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Apse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An apse projects from a church's",
+            "b": "East end"
+          },
+          {
+            "a": "An apse sits directly behind the",
+            "b": "Altar"
+          },
+          {
+            "a": "An apse is usually",
+            "b": "Semicircular or polygonal"
+          },
+          {
+            "a": "An apse is typically topped by a",
+            "b": "Half-dome vault"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Apse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Golden mosaics glimmered inside the church's",
+            "b": "Apse"
+          },
+          {
+            "a": "The altar stood beneath the curved vault of the",
+            "b": "Apse"
+          },
+          {
+            "a": "Pilgrims circled the ambulatory behind the",
+            "b": "Apse"
+          },
+          {
+            "a": "Restorers uncovered a faded fresco in the",
+            "b": "Apse"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "haptein",
+        "rootLanguage": "Greek",
+        "rootMeaning": "To fasten",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "haptein",
+          "highlight": true
+        },
+        {
+          "text": " (to fasten), via Latin apsis; the curved recess that frames the altar.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "haptein",
+      "correctAnswer": "To fasten",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Transept",
+    "pronunciation": "TRAN-sept",
+    "pos": "noun",
+    "definition": "Either of the two transverse arms of a cross-shaped church, projecting at right angles from the nave.",
+    "origin": "From Medieval Latin <strong>transeptum</strong>, from Latin trans (across) + saeptum (enclosure, fence), from sepire (to fence in, enclose). The word describes the arm that cuts crosswise across the nave, giving the church its cruciform plan.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Transept</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin trans",
+            "b": "Across"
+          },
+          {
+            "a": "Latin saeptum",
+            "b": "Enclosure, fence"
+          },
+          {
+            "a": "From Latin sepire",
+            "b": "To fence in"
+          },
+          {
+            "a": "A transept cuts crosswise to form a",
+            "b": "Cruciform church plan"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Transept</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A transept projects at right angles from the",
+            "b": "Nave"
+          },
+          {
+            "a": "Two transepts together form a church's",
+            "b": "Cross shape"
+          },
+          {
+            "a": "Where nave and transept meet is called the",
+            "b": "Crossing"
+          },
+          {
+            "a": "A transept often has its own",
+            "b": "Rose window"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Transept</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A rose window filled the north",
+            "b": "Transept"
+          },
+          {
+            "a": "The choir procession turned into the south",
+            "b": "Transept"
+          },
+          {
+            "a": "Tombs of former bishops lined the",
+            "b": "Transept"
+          },
+          {
+            "a": "From above, the cathedral's nave and",
+            "b": "Transepts formed a cross"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "trans",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Across",
+        "showInIntro": true
+      },
+      {
+        "rootText": "saeptum",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Enclosure, fence",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "trans",
+          "highlight": true
+        },
+        {
+          "text": " (across) + saeptum (enclosure); the arm that cuts crosswise through the nave.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "saeptum",
+      "correctAnswer": "Enclosure, fence",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Choir",
+    "pronunciation": "KWY-uhr",
+    "pos": "noun",
+    "definition": "The part of a church, between the nave and the sanctuary, occupied by the singers and clergy during services; also, the group of singers itself.",
+    "origin": "From Latin <strong>chorus</strong>, from Greek khoros (a band of dancers and singers, a dance performed with song). The architectural sense emerged in medieval churches for the space reserved for chanting clergy, distinct from the congregation's nave.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Choir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin chorus",
+            "b": "A choral dance or band"
+          },
+          {
+            "a": "From Greek khoros",
+            "b": "Band of dancers and singers"
+          },
+          {
+            "a": "Medieval churches reserved the choir for",
+            "b": "Chanting clergy"
+          },
+          {
+            "a": "The choir sits between the nave and the",
+            "b": "Sanctuary"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Choir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The choir occupies the space between the nave and the",
+            "b": "Sanctuary"
+          },
+          {
+            "a": "Choir stalls face each other in rows for the",
+            "b": "Singers and clergy"
+          },
+          {
+            "a": "A cathedral choir is often screened off by a",
+            "b": "Rood screen"
+          },
+          {
+            "a": "\"Choir\" can also mean simply the group of",
+            "b": "Singers themselves"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Choir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Voices rose in harmony from the carved wooden",
+            "b": "Choir stalls"
+          },
+          {
+            "a": "The organist led the boys'",
+            "b": "Choir in evensong"
+          },
+          {
+            "a": "A screen separated the nave from the",
+            "b": "Choir"
+          },
+          {
+            "a": "Candlelight flickered across the empty",
+            "b": "Choir"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "khoros",
+        "rootLanguage": "Greek",
+        "rootMeaning": "Band of dancers and singers",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "khoros",
+          "highlight": true
+        },
+        {
+          "text": " (band of dancers and singers); the space reserved for chanting clergy near the altar.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khoros",
+      "correctAnswer": "Band of dancers and singers",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chancel",
+    "pronunciation": "CHAN-suhl",
+    "pos": "noun",
+    "definition": "The space near the altar, at the east end of a church, reserved for the clergy and choir and traditionally separated from the nave by a screen or rail.",
+    "origin": "From Old French <strong>chancel</strong>, from Latin cancelli (crossbars, lattice, railing), the diminutive of cancer (lattice, grating). The word originally named the lattice screen itself before it came to mean the enclosed space that screen protected.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chancel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin cancelli",
+            "b": "Crossbars, lattice, railing"
+          },
+          {
+            "a": "Cancelli is the diminutive of",
+            "b": "Cancer (lattice, grating)"
+          },
+          {
+            "a": "The word first named the",
+            "b": "Lattice screen itself"
+          },
+          {
+            "a": "Later it named the",
+            "b": "Enclosed space it protected"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chancel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The chancel is located at a church's",
+            "b": "East end, near the altar"
+          },
+          {
+            "a": "The chancel is reserved for",
+            "b": "Clergy and choir"
+          },
+          {
+            "a": "The chancel is traditionally separated from the nave by a",
+            "b": "Screen or rail"
+          },
+          {
+            "a": "\"Chancellor\" shares a root with chancel, both tracing back to a",
+            "b": "Lattice barrier"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chancel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The priest stepped up into the",
+            "b": "Chancel"
+          },
+          {
+            "a": "A carved oak rail marked the edge of the",
+            "b": "Chancel"
+          },
+          {
+            "a": "Stained glass lit the eastern",
+            "b": "Chancel window"
+          },
+          {
+            "a": "The wedding party gathered at the",
+            "b": "Chancel steps"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cancelli",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Crossbars, lattice, railing",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "cancelli",
+          "highlight": true
+        },
+        {
+          "text": " (lattice, railing); once the screen itself, now the sacred space it enclosed.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cancelli",
+      "correctAnswer": "Crossbars, lattice, railing",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Narthex",
+    "pronunciation": "NAHR-theks",
+    "pos": "noun",
+    "definition": "A covered porch or entrance hall at the west end of a church, forming a transitional space between the outside world and the nave.",
+    "origin": "From Greek <strong>narthex</strong> (giant fennel), a tall, hollow-stemmed plant whose long straight stalk gave its name, by visual metaphor, to the long, narrow entrance porch of Byzantine churches, traditionally reserved for penitents and the unbaptised.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Narthex</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek narthex",
+            "b": "Giant fennel"
+          },
+          {
+            "a": "The plant's stalk was",
+            "b": "Long, straight, and hollow"
+          },
+          {
+            "a": "The shape inspired a metaphor for a",
+            "b": "Narrow entrance porch"
+          },
+          {
+            "a": "Byzantine churches reserved the narthex for",
+            "b": "Penitents and the unbaptised"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Narthex</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The narthex sits at a church's",
+            "b": "West end, before the nave"
+          },
+          {
+            "a": "The narthex is a transitional space between the",
+            "b": "Outside world and the nave"
+          },
+          {
+            "a": "Historically the narthex was reserved for those",
+            "b": "Not yet baptised"
+          },
+          {
+            "a": "A narthex can be enclosed or",
+            "b": "Open like a porch"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Narthex</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Latecomers waited quietly in the",
+            "b": "Narthex"
+          },
+          {
+            "a": "Notice boards and candle stands filled the church's",
+            "b": "Narthex"
+          },
+          {
+            "a": "Mosaics of saints decorated the domed",
+            "b": "Narthex"
+          },
+          {
+            "a": "The choir gathered in the",
+            "b": "Narthex before processing in"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "narthex",
+        "rootLanguage": "Greek",
+        "rootMeaning": "Giant fennel",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "narthex",
+          "highlight": true
+        },
+        {
+          "text": " (giant fennel); its long hollow stalk lent its shape to a narrow entrance porch.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "narthex",
+      "correctAnswer": "Giant fennel",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Triforium",
+    "pronunciation": "try-FOR-ee-uhm",
+    "pos": "noun",
+    "definition": "A shallow arched gallery above the nave arcade and below the clerestory windows in a large church, often forming a passage within the thickness of the wall.",
+    "origin": "From Medieval Latin <strong>triforium</strong>, likely from tri- (three) + foris (door, opening), though the exact original meaning is debated; some scholars link it to a specific triple-arched gallery first built at Canterbury Cathedral in the 12th century, with the name later generalised to any such mid-level arcaded passage.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Triforium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin tri-",
+            "b": "Three"
+          },
+          {
+            "a": "Latin foris",
+            "b": "Door, opening"
+          },
+          {
+            "a": "Possibly named for a triple-arched gallery at",
+            "b": "Canterbury Cathedral"
+          },
+          {
+            "a": "The name later generalised to any",
+            "b": "Mid-level arcaded gallery"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Triforium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The triforium sits above the nave arcade and below the",
+            "b": "Clerestory"
+          },
+          {
+            "a": "The triforium often runs within the",
+            "b": "Thickness of the wall"
+          },
+          {
+            "a": "The triforium forms a shallow, arched",
+            "b": "Gallery or passage"
+          },
+          {
+            "a": "The triforium is one of three main levels of a great church's",
+            "b": "Interior elevation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Triforium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A narrow stair led up into the shadowy",
+            "b": "Triforium"
+          },
+          {
+            "a": "Masons carved delicate tracery into the",
+            "b": "Triforium arcade"
+          },
+          {
+            "a": "Restorers accessed the roof timbers through the",
+            "b": "Triforium passage"
+          },
+          {
+            "a": "Light barely reached the dim gallery of the",
+            "b": "Triforium"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "foris",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Door, opening",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "tri- + foris",
+          "highlight": true
+        },
+        {
+          "text": " (three openings); a shadowed gallery threaded through the wall above the arcade.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "foris",
+      "correctAnswer": "Door, opening",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ambulatory",
+    "pronunciation": "AM-byoo-luh-tor-ee",
+    "pos": "noun",
+    "definition": "A covered walking space, especially the aisle that curves around the apse or choir of a church, allowing pilgrims to process past the altar.",
+    "origin": "From Latin <strong>ambulare</strong> (to walk), via ambulatorius (movable, made for walking). Medieval church builders used the ambulatory to let processions and pilgrims circulate behind the high altar without disturbing the service taking place within it.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ambulatory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ambulare",
+            "b": "To walk"
+          },
+          {
+            "a": "Via Latin ambulatorius",
+            "b": "Movable, made for walking"
+          },
+          {
+            "a": "Builders used it for processions to",
+            "b": "Circulate behind the altar"
+          },
+          {
+            "a": "It let pilgrims pass without disturbing the",
+            "b": "Service"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ambulatory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An ambulatory curves around a church's",
+            "b": "Apse or choir"
+          },
+          {
+            "a": "An ambulatory allowed pilgrims to",
+            "b": "Process past relics or the altar"
+          },
+          {
+            "a": "A hospital \"ambulatory\" patient is one able to",
+            "b": "Walk unaided"
+          },
+          {
+            "a": "An ambulatory is a type of covered",
+            "b": "Aisle or walkway"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ambulatory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Pilgrims filed slowly through the",
+            "b": "Ambulatory"
+          },
+          {
+            "a": "Side chapels opened off the curving",
+            "b": "Ambulatory"
+          },
+          {
+            "a": "The relic shrine stood at the far end of the",
+            "b": "Ambulatory"
+          },
+          {
+            "a": "Tourists traced the apse along the quiet",
+            "b": "Ambulatory"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ambulare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To walk",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "ambulare",
+          "highlight": true
+        },
+        {
+          "text": " (to walk); a curving aisle that let pilgrims process behind the altar.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ambulare",
+      "correctAnswer": "To walk",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sacristy",
+    "pronunciation": "SAK-ri-stee",
+    "pos": "noun",
+    "definition": "A room in a church, usually near the altar, where sacred vessels, vestments, and other liturgical items are kept and clergy prepare for services.",
+    "origin": "From Medieval Latin <strong>sacristia</strong>, from sacer (sacred, holy). The room takes its name directly from its purpose: safeguarding the sacred objects and garments used in worship, distinct from the general storage of the vestry.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sacristy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Medieval Latin sacristia",
+            "b": "Room for sacred objects"
+          },
+          {
+            "a": "From Latin sacer",
+            "b": "Sacred, holy"
+          },
+          {
+            "a": "The sacristy safeguards",
+            "b": "Sacred vessels and vestments"
+          },
+          {
+            "a": "Clergy use the sacristy to",
+            "b": "Prepare for services"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sacristy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sacristy is usually located near the",
+            "b": "Altar"
+          },
+          {
+            "a": "A sacristy stores liturgical",
+            "b": "Vessels and vestments"
+          },
+          {
+            "a": "Clergy robe for the service inside the",
+            "b": "Sacristy"
+          },
+          {
+            "a": "A sacristy is related in meaning to the more general",
+            "b": "Vestry"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sacristy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The priest changed into his robes in the",
+            "b": "Sacristy"
+          },
+          {
+            "a": "Silver chalices gleamed on the shelves of the",
+            "b": "Sacristy"
+          },
+          {
+            "a": "A locked door led from the choir to the",
+            "b": "Sacristy"
+          },
+          {
+            "a": "Altar boys waited quietly inside the",
+            "b": "Sacristy"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sacer",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Sacred, holy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "sacer",
+          "highlight": true
+        },
+        {
+          "text": " (sacred); the room where holy vessels and vestments are kept safe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sacer",
+      "correctAnswer": "Sacred, holy",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Refectory",
+    "pronunciation": "ri-FEK-tuh-ree",
+    "pos": "noun",
+    "definition": "A large communal dining hall, especially in a monastery, college, or other institution.",
+    "origin": "From Latin <strong>reficere</strong> (to remake, restore, refresh), from re- (again) + facere (to make). The name reflects the room's purpose in monastic life: the place where the body was restored with food, just as the chapel restored the soul with prayer.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Refectory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin reficere",
+            "b": "To remake, restore, refresh"
+          },
+          {
+            "a": "Formed from re- + facere",
+            "b": "Again + to make"
+          },
+          {
+            "a": "The name reflects a monk's body being",
+            "b": "Restored with food"
+          },
+          {
+            "a": "This paralleled the chapel restoring the",
+            "b": "Soul with prayer"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Refectory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A refectory is a communal",
+            "b": "Dining hall"
+          },
+          {
+            "a": "Refectories are common in monasteries and",
+            "b": "Colleges"
+          },
+          {
+            "a": "Monks often ate in a refectory in",
+            "b": "Silence, while a monk read aloud"
+          },
+          {
+            "a": "A long \"refectory table\" describes a table shaped for",
+            "b": "Communal dining"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Refectory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Monks ate in silence in the",
+            "b": "Refectory"
+          },
+          {
+            "a": "Students queued for lunch in the college",
+            "b": "Refectory"
+          },
+          {
+            "a": "A reader recited scripture aloud from a pulpit in the",
+            "b": "Refectory"
+          },
+          {
+            "a": "Long oak tables filled the vaulted",
+            "b": "Refectory"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "reficere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To remake, restore",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "reficere",
+          "highlight": true
+        },
+        {
+          "text": " (to restore); the hall where the monastic body was refreshed with food.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "reficere",
+      "correctAnswer": "To remake, restore",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Courtyard",
+    "pronunciation": "KORT-yahrd",
+    "pos": "noun",
+    "definition": "An open space enclosed by walls or buildings, typically found within or adjoining a larger structure.",
+    "origin": "From Old French <strong>cort</strong> (enclosed yard, royal court), from Latin cohors/curtis (an enclosure, yard, cattle-pen), combined with English yard, from Old English geard (a fenced enclosure). Both halves of the compound independently meant \"an enclosed space,\" making courtyard a doubled emphasis on enclosure.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Courtyard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French cort",
+            "b": "Enclosed yard, royal court"
+          },
+          {
+            "a": "Latin cohors / curtis",
+            "b": "Enclosure, cattle-pen"
+          },
+          {
+            "a": "Old English geard",
+            "b": "Fenced enclosure"
+          },
+          {
+            "a": "Both halves of the word mean",
+            "b": "An enclosed space"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Courtyard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A courtyard is enclosed by",
+            "b": "Walls or buildings"
+          },
+          {
+            "a": "A courtyard is typically open to the",
+            "b": "Sky"
+          },
+          {
+            "a": "A \"royal court\" originally referred to a king's",
+            "b": "Enclosed residence and yard"
+          },
+          {
+            "a": "Courtyards often sit at the centre of",
+            "b": "A larger building complex"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Courtyard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Wisteria climbed the walls of the sunlit",
+            "b": "Courtyard"
+          },
+          {
+            "a": "Students crossed the college's cobbled",
+            "b": "Courtyard"
+          },
+          {
+            "a": "A stone fountain trickled at the centre of the",
+            "b": "Courtyard"
+          },
+          {
+            "a": "Market stalls filled the palace's outer",
+            "b": "Courtyard"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cohors",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Enclosure, yard",
+        "showInIntro": true
+      },
+      {
+        "rootText": "geard",
+        "rootLanguage": "Old English",
+        "rootMeaning": "Fenced enclosure",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "cohors",
+          "highlight": true
+        },
+        {
+          "text": " (enclosure) + Old English geard (yard); an enclosure doubly named for being enclosed.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cohors",
+      "correctAnswer": "Enclosure, yard",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Loggia",
+    "pronunciation": "LOH-juh",
+    "pos": "noun",
+    "definition": "A gallery or room, open on one or more sides, that is set into or attached to a building and roofed for shelter.",
+    "origin": "From Italian <strong>loggia</strong>, from a Germanic root related to Old High German laubja (shelter, arbour), itself connected to laub (leaf, foliage), evoking an open shelter of woven branches. Italian Renaissance architects formalised the loggia in stone as an open-sided gallery for shade and views.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Loggia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian loggia",
+            "b": "Open, roofed gallery"
+          },
+          {
+            "a": "From Germanic laubja",
+            "b": "Shelter, arbour"
+          },
+          {
+            "a": "Related to laub",
+            "b": "Leaf, foliage"
+          },
+          {
+            "a": "Renaissance architects formalised it in",
+            "b": "Stone, as an open gallery"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Loggia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A loggia is open on one or more",
+            "b": "Sides"
+          },
+          {
+            "a": "A loggia is always",
+            "b": "Roofed for shelter"
+          },
+          {
+            "a": "A loggia is often attached to a building's",
+            "b": "Facade"
+          },
+          {
+            "a": "A loggia is used to provide shade and a view of the",
+            "b": "Outdoors"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Loggia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They took their coffee in the shaded",
+            "b": "Loggia"
+          },
+          {
+            "a": "Frescoes decorated the vaulted ceiling of the",
+            "b": "Loggia"
+          },
+          {
+            "a": "The villa's upper",
+            "b": "Loggia overlooked the valley"
+          },
+          {
+            "a": "Arches opened the palace's ground-floor",
+            "b": "Loggia to the piazza"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "laubja",
+        "rootLanguage": "Germanic",
+        "rootMeaning": "Shelter, arbour",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Germanic ",
+          "highlight": false
+        },
+        {
+          "text": "laubja",
+          "highlight": true
+        },
+        {
+          "text": " (leafy shelter), via Italian loggia; an open gallery for shade and view.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "laubja",
+      "correctAnswer": "Shelter, arbour",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Foyer",
+    "pronunciation": "FOY-ay",
+    "pos": "noun",
+    "definition": "An entrance hall or lobby, especially of a theatre, hotel, or apartment building, where people gather before entering the main space.",
+    "origin": "From French <strong>foyer</strong> (hearth, fireplace, home), from Latin focarium, from focus (hearth). Nineteenth-century French theatres used the word for the warm entrance room where audiences gathered around a fire between acts, before it broadened to mean any grand entrance lobby.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Foyer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French foyer",
+            "b": "Hearth, fireplace, home"
+          },
+          {
+            "a": "From Latin focarium",
+            "b": "Fireplace"
+          },
+          {
+            "a": "From Latin focus",
+            "b": "Hearth"
+          },
+          {
+            "a": "French theatres used it for a warm room where audiences gathered around a",
+            "b": "Fire between acts"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Foyer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A foyer is an entrance hall found in a",
+            "b": "Theatre, hotel, or apartment building"
+          },
+          {
+            "a": "People gather in a foyer before entering the",
+            "b": "Main hall or auditorium"
+          },
+          {
+            "a": "A foyer is typically grander than a",
+            "b": "Vestibule"
+          },
+          {
+            "a": "The word foyer still carries an echo of",
+            "b": "Hearth and home"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Foyer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Theatregoers sipped wine in the",
+            "b": "Foyer during the interval"
+          },
+          {
+            "a": "A grand chandelier hung above the hotel",
+            "b": "Foyer"
+          },
+          {
+            "a": "Residents collected their post from the apartment building's",
+            "b": "Foyer"
+          },
+          {
+            "a": "Marble floors gleamed across the opera house",
+            "b": "Foyer"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "focus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Hearth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "focus",
+          "highlight": true
+        },
+        {
+          "text": " (hearth), via French foyer; once a fireside room, now any grand entrance hall.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "focus",
+      "correctAnswer": "Hearth",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Alcove",
+    "pronunciation": "AL-kohv",
+    "pos": "noun",
+    "definition": "A small recessed section of a room, set back from the main space, often used for a bed, seating, or display.",
+    "origin": "From French <strong>alcôve</strong>, from Spanish alcoba, from Arabic al-qubba (the vault, the dome), from qubba (dome, vaulted chamber). The word travelled from Moorish Spain's domed sleeping recesses into French and English as a general term for any small recessed space.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Alcove</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French alcôve",
+            "b": "Recessed space"
+          },
+          {
+            "a": "From Spanish alcoba",
+            "b": "Vaulted sleeping recess"
+          },
+          {
+            "a": "From Arabic al-qubba",
+            "b": "The vault, the dome"
+          },
+          {
+            "a": "The word originated in",
+            "b": "Moorish Spain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Alcove</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An alcove is a small",
+            "b": "Recessed section of a room"
+          },
+          {
+            "a": "An alcove is set back from the",
+            "b": "Main space"
+          },
+          {
+            "a": "An alcove is commonly used for a bed, shelving, or",
+            "b": "Display"
+          },
+          {
+            "a": "An alcove differs from a niche mainly in its",
+            "b": "Larger, room-like scale"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Alcove</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A statue of the saint stood in a shadowed",
+            "b": "Alcove"
+          },
+          {
+            "a": "They tucked a reading nook into the window",
+            "b": "Alcove"
+          },
+          {
+            "a": "Bookshelves lined a small",
+            "b": "Alcove off the study"
+          },
+          {
+            "a": "The child's bed fit snugly into the",
+            "b": "Alcove"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "al-qubba",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "The vault, the dome",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "al-qubba",
+          "highlight": true
+        },
+        {
+          "text": " (the vault), via Spanish alcoba; a domed sleeping recess turned into any small nook.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "al-qubba",
+      "correctAnswer": "The vault, the dome",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Aisle",
+    "pronunciation": "eyel",
+    "pos": "noun",
+    "definition": "A passage running alongside the nave of a church, separated from it by a row of columns or piers, or, more generally, any long narrow passage between rows of seats or shelves.",
+    "origin": "From Old French <strong>ele</strong> (wing), from Latin ala (wing). English spelling later merged with the unrelated word isle (from Latin insula, island) and with aisle's own Latin root, producing the modern spelling despite the word having nothing to do with islands.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Aisle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French ele",
+            "b": "Wing"
+          },
+          {
+            "a": "From Latin ala",
+            "b": "Wing"
+          },
+          {
+            "a": "The spelling later merged with the unrelated word",
+            "b": "Isle"
+          },
+          {
+            "a": "Isle actually comes from Latin",
+            "b": "Insula (island)"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Aisle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An aisle in a church runs alongside the",
+            "b": "Nave"
+          },
+          {
+            "a": "A church aisle is separated from the nave by a row of",
+            "b": "Columns or piers"
+          },
+          {
+            "a": "Outside churches, an aisle can run between rows of",
+            "b": "Seats or shelves"
+          },
+          {
+            "a": "The bride walked down the",
+            "b": "Aisle"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Aisle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Sunlight fell through windows along the church's north",
+            "b": "Aisle"
+          },
+          {
+            "a": "Shoppers pushed their trolleys down the supermarket",
+            "b": "Aisle"
+          },
+          {
+            "a": "Guests stood as she walked down the",
+            "b": "Aisle"
+          },
+          {
+            "a": "Tombs of old parishioners lined the side",
+            "b": "Aisle"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ala",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Wing",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "ala",
+          "highlight": true
+        },
+        {
+          "text": " (wing), via French ele; the side passage that wings a church's nave.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ala",
+      "correctAnswer": "Wing",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gallery",
+    "pronunciation": "GAL-uh-ree",
+    "pos": "noun",
+    "definition": "A raised, narrow platform or balcony projecting from an interior wall, used for seating, viewing, or circulation above the main floor.",
+    "origin": "From Medieval Latin <strong>galeria</strong>, a word of disputed origin possibly linked to Galilea (Galilee), since some medieval churches called their entrance porch a \"Galilee\" after the region Christ's disciples travelled through before reaching him, a name later extended to any long covered walkway or raised passage.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gallery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Medieval Latin galeria",
+            "b": "Long covered passage"
+          },
+          {
+            "a": "Possibly linked to",
+            "b": "Galilea (Galilee)"
+          },
+          {
+            "a": "Some churches named their entrance porch a",
+            "b": "Galilee"
+          },
+          {
+            "a": "The name extended to any raised",
+            "b": "Passage or balcony"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gallery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A gallery is a raised platform projecting from an interior",
+            "b": "Wall"
+          },
+          {
+            "a": "A church gallery is used for extra",
+            "b": "Seating"
+          },
+          {
+            "a": "An art gallery displays",
+            "b": "Paintings and sculpture"
+          },
+          {
+            "a": "A \"whispering gallery\" is famous for its unusual",
+            "b": "Acoustic effects"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gallery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Latecomers found seats up in the",
+            "b": "Gallery"
+          },
+          {
+            "a": "Visitors admired paintings in the museum's west",
+            "b": "Gallery"
+          },
+          {
+            "a": "Musicians played from a small",
+            "b": "Gallery above the hall"
+          },
+          {
+            "a": "A whisper carried clearly across the famous",
+            "b": "Whispering gallery"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "galeria",
+        "rootLanguage": "Medieval Latin",
+        "rootMeaning": "Long covered passage",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Medieval Latin ",
+          "highlight": false
+        },
+        {
+          "text": "galeria",
+          "highlight": true
+        },
+        {
+          "text": ", possibly linked to Galilee; a raised passage above the main floor.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "galeria",
+      "correctAnswer": "Long covered passage",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chapel",
+    "pronunciation": "CHAP-uhl",
+    "pos": "noun",
+    "definition": "A small place of worship, either a separate building or a room within a larger church, castle, or institution.",
+    "origin": "From Old French <strong>chapele</strong>, from Medieval Latin cappella (little cape), the diminutive of cappa (cape, cloak). The word originally named the shrine built to house the relic cloak of Saint Martin of Tours, and its keepers, called cappellani (chaplains), gave their name in turn to any small sanctuary.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chapel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin cappella",
+            "b": "Little cape"
+          },
+          {
+            "a": "Diminutive of Latin cappa",
+            "b": "Cape, cloak"
+          },
+          {
+            "a": "Originally named the shrine of",
+            "b": "St Martin of Tours's cloak"
+          },
+          {
+            "a": "Its keepers, cappellani, gave us the word",
+            "b": "Chaplain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chapel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A chapel can be a separate building or a room within a larger",
+            "b": "Church, castle, or institution"
+          },
+          {
+            "a": "A chapel is generally",
+            "b": "Smaller than a church"
+          },
+          {
+            "a": "A \"chaplain\" leads worship within a",
+            "b": "Chapel"
+          },
+          {
+            "a": "A private chapel might be built within a",
+            "b": "Castle or manor house"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chapel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Students filed into the college",
+            "b": "Chapel for evensong"
+          },
+          {
+            "a": "A small stone",
+            "b": "Chapel stood beside the castle walls"
+          },
+          {
+            "a": "The hospital's quiet",
+            "b": "Chapel offered a place for prayer"
+          },
+          {
+            "a": "Candles flickered before the altar of the roadside",
+            "b": "Chapel"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cappa",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Cape, cloak",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "cappa",
+          "highlight": true
+        },
+        {
+          "text": " (cloak); named for the shrine that housed St Martin's sacred cape.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cappa",
+      "correctAnswer": "Cape, cloak",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Crypt",
+    "pronunciation": "kript",
+    "pos": "noun",
+    "definition": "An underground vault or chamber beneath a church, traditionally used for burials or the storage of relics.",
+    "origin": "From Latin <strong>crypta</strong>, from Greek krypte (hidden, vaulted passage), from kryptein (to hide, conceal). Early Christians used underground crypts to bury the dead close to sacred relics, hidden beneath the church floor above.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Crypt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin crypta",
+            "b": "Hidden, vaulted passage"
+          },
+          {
+            "a": "From Greek krypte",
+            "b": "Hidden, vaulted passage"
+          },
+          {
+            "a": "From Greek kryptein",
+            "b": "To hide, conceal"
+          },
+          {
+            "a": "Early Christians buried the dead near sacred",
+            "b": "Relics, hidden below the floor"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Crypt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A crypt lies",
+            "b": "Underground, beneath a church"
+          },
+          {
+            "a": "A crypt is traditionally used for",
+            "b": "Burials or relics"
+          },
+          {
+            "a": "Cryptography shares its root with crypt, both built on",
+            "b": "Hidden, secret"
+          },
+          {
+            "a": "A crypt is usually reached by a",
+            "b": "Stairway from the nave or choir"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Crypt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Stone effigies of bishops lay in the",
+            "b": "Crypt"
+          },
+          {
+            "a": "A narrow stair descended into the cold",
+            "b": "Crypt"
+          },
+          {
+            "a": "The saint's relics were kept in a reliquary within the",
+            "b": "Crypt"
+          },
+          {
+            "a": "Archaeologists explored the Norman-era",
+            "b": "Crypt beneath the cathedral"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kryptein",
+        "rootLanguage": "Greek",
+        "rootMeaning": "To hide, conceal",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "kryptein",
+          "highlight": true
+        },
+        {
+          "text": " (to hide); a hidden vault where the dead rest beneath the church floor.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kryptein",
+      "correctAnswer": "To hide, conceal",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Belfry",
+    "pronunciation": "BEL-free",
+    "pos": "noun",
+    "definition": "A tower or chamber, usually part of a church, in which bells are hung.",
+    "origin": "From Old French <strong>berfrei</strong> (a movable siege tower), from a Germanic compound related to bergen (to protect) and frid (peace), originally naming a wooden watchtower with no connection to bells at all. The spelling later shifted under the influence of bell, and by the late Middle Ages the word had settled into its present meaning: the tower that houses a church's bells.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Belfry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French berfrei",
+            "b": "Movable siege tower"
+          },
+          {
+            "a": "Germanic bergen",
+            "b": "To protect"
+          },
+          {
+            "a": "Germanic frid",
+            "b": "Peace"
+          },
+          {
+            "a": "The spelling later shifted under influence of",
+            "b": "Bell"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Belfry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A belfry is a tower or chamber where",
+            "b": "Bells are hung"
+          },
+          {
+            "a": "A belfry is usually part of a",
+            "b": "Church"
+          },
+          {
+            "a": "\"Bats in the belfry\" is an idiom meaning someone is",
+            "b": "A little eccentric or mad"
+          },
+          {
+            "a": "Despite its name, belfry has no historic link to",
+            "b": "Bells"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Belfry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Pigeons roosted high up in the",
+            "b": "Belfry"
+          },
+          {
+            "a": "The ringer climbed the ladder into the",
+            "b": "Belfry"
+          },
+          {
+            "a": "Villagers joked that the old miser had bats in the",
+            "b": "Belfry"
+          },
+          {
+            "a": "Bronze bells swung slowly inside the stone",
+            "b": "Belfry"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bergfrid",
+        "rootLanguage": "Germanic",
+        "rootMeaning": "Protective watchtower",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Germanic ",
+          "highlight": false
+        },
+        {
+          "text": "bergfrid",
+          "highlight": true
+        },
+        {
+          "text": " (watchtower); originally had nothing to do with bells until the spelling shifted.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bergfrid",
+      "correctAnswer": "Protective watchtower",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Steeple",
+    "pronunciation": "STEE-puhl",
+    "pos": "noun",
+    "definition": "A tall ornamental tower on a church, typically topped by a spire, often containing the belfry.",
+    "origin": "From Old English <strong>stepel</strong>, related to steap (high, lofty), the same root that gives modern English steep. The word has described a church's tall tower since Anglo-Saxon times, long before spires became fashionable additions to their tops.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Steeple</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old English stepel",
+            "b": "Tall tower"
+          },
+          {
+            "a": "Related to Old English steap",
+            "b": "High, lofty"
+          },
+          {
+            "a": "Steap also gives modern English",
+            "b": "Steep"
+          },
+          {
+            "a": "The word predates the fashion for",
+            "b": "Adding spires to towers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Steeple</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A steeple is a tall tower typically found on a",
+            "b": "Church"
+          },
+          {
+            "a": "A steeple is often topped by a",
+            "b": "Spire"
+          },
+          {
+            "a": "A steeple frequently contains the",
+            "b": "Belfry"
+          },
+          {
+            "a": "\"Steeplechase\" originally meant a horse race with a distant",
+            "b": "Church steeple as the finish marker"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Steeple</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The village steeple could be seen for",
+            "b": "Miles across the fields"
+          },
+          {
+            "a": "A weathervane spun atop the tall",
+            "b": "Steeple"
+          },
+          {
+            "a": "Lightning once struck the wooden",
+            "b": "Steeple"
+          },
+          {
+            "a": "Riders galloped toward the distant",
+            "b": "Steeple in the steeplechase"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "steap",
+        "rootLanguage": "Old English",
+        "rootMeaning": "High, lofty",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old English ",
+          "highlight": false
+        },
+        {
+          "text": "steap",
+          "highlight": true
+        },
+        {
+          "text": " (high, lofty); the same root that gives us steep.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "steap",
+      "correctAnswer": "High, lofty",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lantern",
+    "pronunciation": "LAN-tuhrn",
+    "pos": "noun",
+    "definition": "In architecture, a small windowed turret or dome crowning a roof or larger dome, admitting light to the space below.",
+    "origin": "From Latin <strong>lanterna</strong>, from Greek lampter (torch, light), from lampein (to shine). Church builders extended the word from portable hand-lamps to describe the light-admitting turret they perched atop a dome, itself a kind of lamp built into the roof.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lantern</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin lanterna",
+            "b": "Lamp, portable light"
+          },
+          {
+            "a": "From Greek lampter",
+            "b": "Torch, light"
+          },
+          {
+            "a": "From Greek lampein",
+            "b": "To shine"
+          },
+          {
+            "a": "Architects extended the word from hand-lamps to a",
+            "b": "Light-admitting roof turret"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lantern</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An architectural lantern crowns a",
+            "b": "Roof or dome"
+          },
+          {
+            "a": "A lantern is windowed to admit",
+            "b": "Light to the space below"
+          },
+          {
+            "a": "St Paul's Cathedral's dome is topped by a famous",
+            "b": "Lantern"
+          },
+          {
+            "a": "A lantern differs from a skylight by also serving as a",
+            "b": "Decorative turret"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lantern</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Light streamed down through the dome's",
+            "b": "Lantern"
+          },
+          {
+            "a": "Visitors climbed the stairs to the base of the",
+            "b": "Lantern"
+          },
+          {
+            "a": "From below, sunbeams pierced the glazed",
+            "b": "Lantern"
+          },
+          {
+            "a": "Architects debated the height of the crossing",
+            "b": "Lantern"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "lampein",
+        "rootLanguage": "Greek",
+        "rootMeaning": "To shine",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "lampein",
+          "highlight": true
+        },
+        {
+          "text": " (to shine), via Latin lanterna; a windowed turret that lights the space below like a built-in lamp.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lampein",
+      "correctAnswer": "To shine",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Presbytery",
+    "pronunciation": "PREZ-bi-ter-ee",
+    "pos": "noun",
+    "definition": "The part of a church reserved for the officiating clergy, typically east of the choir and containing the high altar; also, a priest's residence.",
+    "origin": "From Greek <strong>presbyteros</strong> (elder, older man), via Latin presbyterium. The term first designated the body of church elders, then extended architecturally to the space where those elders, or priests, conducted the most sacred rites.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Presbytery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek presbyteros",
+            "b": "Elder, older man"
+          },
+          {
+            "a": "Reached English via Latin",
+            "b": "Presbyterium"
+          },
+          {
+            "a": "The term first named a body of",
+            "b": "Church elders"
+          },
+          {
+            "a": "It later named the space where they",
+            "b": "Conducted sacred rites"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Presbytery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The presbytery is reserved for the",
+            "b": "Officiating clergy"
+          },
+          {
+            "a": "The presbytery typically sits east of the",
+            "b": "Choir"
+          },
+          {
+            "a": "The presbytery contains the",
+            "b": "High altar"
+          },
+          {
+            "a": "\"Presbytery\" can also mean a",
+            "b": "Priest's residence"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Presbytery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bishop processed slowly into the",
+            "b": "Presbytery"
+          },
+          {
+            "a": "Candlesticks flanked the high altar in the",
+            "b": "Presbytery"
+          },
+          {
+            "a": "The parish priest lived next door in the",
+            "b": "Presbytery"
+          },
+          {
+            "a": "Only clergy were permitted to enter the",
+            "b": "Presbytery"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "presbyteros",
+        "rootLanguage": "Greek",
+        "rootMeaning": "Elder, older man",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "presbyteros",
+          "highlight": true
+        },
+        {
+          "text": " (elder); the space where the church's elders conducted its most sacred rites.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "presbyteros",
+      "correctAnswer": "Elder, older man",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Baptistery",
+    "pronunciation": "BAP-tis-tuh-ree",
+    "pos": "noun",
+    "definition": "A building or chamber, often separate from the main church, containing the font used for baptism.",
+    "origin": "From Greek <strong>baptistērion</strong>, from baptizein (to dip, immerse), from baptein (to dip). Early Christians baptised by full immersion, and their communities built freestanding, often octagonal, baptisteries to house the deep pool that the rite required.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Baptistery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek baptistērion",
+            "b": "Place for immersion"
+          },
+          {
+            "a": "From Greek baptizein",
+            "b": "To dip, immerse"
+          },
+          {
+            "a": "From Greek baptein",
+            "b": "To dip"
+          },
+          {
+            "a": "Early Christians baptised converts by",
+            "b": "Full immersion"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Baptistery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A baptistery contains the",
+            "b": "Font used for baptism"
+          },
+          {
+            "a": "A baptistery is often built",
+            "b": "Separate from the main church"
+          },
+          {
+            "a": "Many early baptisteries were shaped",
+            "b": "Octagonal"
+          },
+          {
+            "a": "The Florence Baptistery famously stands beside the city's",
+            "b": "Cathedral"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Baptistery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The infant was carried to the",
+            "b": "Baptistery"
+          },
+          {
+            "a": "Mosaics of Christ's baptism decorated the domed",
+            "b": "Baptistery"
+          },
+          {
+            "a": "Tourists admired the bronze doors of the famous",
+            "b": "Baptistery"
+          },
+          {
+            "a": "Water echoed softly around the marble",
+            "b": "Baptistery"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "baptizein",
+        "rootLanguage": "Greek",
+        "rootMeaning": "To dip, immerse",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Greek ",
+          "highlight": false
+        },
+        {
+          "text": "baptizein",
+          "highlight": true
+        },
+        {
+          "text": " (to immerse); a dedicated building for the pool where converts were baptised.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "baptizein",
+      "correctAnswer": "To dip, immerse",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Undercroft",
+    "pronunciation": "UHN-duhr-kroft",
+    "pos": "noun",
+    "definition": "A vaulted room, often underground or partly below ground level, beneath a larger building such as a church or hall.",
+    "origin": "From Middle English <strong>under</strong> + croft, from Old English croft (a small enclosed field or plot). Applied to architecture, \"under-croft\" originally meant the vaulted storage space beneath a building's main floor, echoing the enclosed, useful ground of a small field turned indoors.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Undercroft</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Middle English under + croft",
+            "b": "Below the enclosed plot"
+          },
+          {
+            "a": "Old English croft",
+            "b": "Small enclosed field"
+          },
+          {
+            "a": "Architecturally, undercroft meant a vaulted",
+            "b": "Storage space beneath the main floor"
+          },
+          {
+            "a": "The word echoes a small field's enclosed",
+            "b": "Ground, moved indoors"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Undercroft</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An undercroft is a vaulted room",
+            "b": "Beneath a larger building"
+          },
+          {
+            "a": "An undercroft is often located",
+            "b": "Underground or partly below ground"
+          },
+          {
+            "a": "An undercroft was historically used for",
+            "b": "Storage"
+          },
+          {
+            "a": "An undercroft differs from a crypt by not necessarily being used for",
+            "b": "Burials"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Undercroft</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Barrels of wine were stacked in the abbey's",
+            "b": "Undercroft"
+          },
+          {
+            "a": "A soup kitchen now operates in the church",
+            "b": "Undercroft"
+          },
+          {
+            "a": "Stone ribs vaulted the ceiling of the",
+            "b": "Undercroft"
+          },
+          {
+            "a": "Archaeologists uncovered a medieval",
+            "b": "Undercroft beneath the shop"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "croft",
+        "rootLanguage": "Old English",
+        "rootMeaning": "Small enclosed field",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old English ",
+          "highlight": false
+        },
+        {
+          "text": "croft",
+          "highlight": true
+        },
+        {
+          "text": " (small enclosed field); a vaulted, enclosed space beneath a building's main floor.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "croft",
+      "correctAnswer": "Small enclosed field",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mezzanine",
+    "pronunciation": "MEZ-uh-neen",
+    "pos": "noun",
+    "definition": "A low, intermediate storey between two main floors of a building, often overlooking the floor below.",
+    "origin": "From French <strong>mezzanine</strong>, from Italian mezzanino, from mezzano (middle), from Latin medianus (in the middle), from medius (middle). Italian Renaissance architects inserted these low \"middle\" floors between grander storeys to house servants' quarters or storage without disrupting the main facade's proportions.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mezzanine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French mezzanine",
+            "b": "Intermediate floor"
+          },
+          {
+            "a": "Italian mezzanino, from mezzano",
+            "b": "Middle"
+          },
+          {
+            "a": "From Latin medianus",
+            "b": "In the middle"
+          },
+          {
+            "a": "Renaissance architects used it to house",
+            "b": "Servants' quarters or storage"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mezzanine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A mezzanine is a low storey between two",
+            "b": "Main floors"
+          },
+          {
+            "a": "A mezzanine often overlooks the floor",
+            "b": "Below"
+          },
+          {
+            "a": "A theatre's mezzanine level sits between the",
+            "b": "Orchestra and balcony"
+          },
+          {
+            "a": "A mezzanine is typically",
+            "b": "Lower-ceilinged than the main floors"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mezzanine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Best seats in the house were on the",
+            "b": "Mezzanine level"
+          },
+          {
+            "a": "Office desks lined the open",
+            "b": "Mezzanine"
+          },
+          {
+            "a": "A glass railing overlooked the atrium from the",
+            "b": "Mezzanine"
+          },
+          {
+            "a": "The bookstore tucked a reading nook into its",
+            "b": "Mezzanine"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "medianus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "In the middle",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "medianus",
+          "highlight": true
+        },
+        {
+          "text": " (middle), via Italian mezzano; a low floor tucked between two grander storeys.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "medianus",
+      "correctAnswer": "In the middle",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Crossing",
+    "pronunciation": "KRAW-sing",
+    "pos": "noun",
+    "definition": "The central space in a cross-shaped church where the nave, transepts, and choir intersect, often marked by a tower or dome above.",
+    "origin": "From Old English <strong>cros</strong>, borrowed from Old Norse kross, ultimately from Latin crux (cross). The architectural crossing takes its name simply from being the point where a church's four arms literally cross, the geometric heart of the cruciform plan.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": {
+      "id": "architecture-interiors",
+      "name": "Sacred & Interior Spaces",
+      "packId": "architecture"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Crossing</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old English cros",
+            "b": "Cross"
+          },
+          {
+            "a": "Borrowed from Old Norse kross",
+            "b": "Cross"
+          },
+          {
+            "a": "Ultimately from Latin crux",
+            "b": "Cross"
+          },
+          {
+            "a": "The crossing is named for where a church's arms literally",
+            "b": "Cross"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Crossing</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The crossing is where the nave, transepts, and choir",
+            "b": "Intersect"
+          },
+          {
+            "a": "The crossing is the geometric centre of a",
+            "b": "Cruciform church plan"
+          },
+          {
+            "a": "The crossing is often marked above by a",
+            "b": "Tower or dome"
+          },
+          {
+            "a": "The crossing supports the greatest structural weight of a large",
+            "b": "Church"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Crossing</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Light poured down from the tower above the",
+            "b": "Crossing"
+          },
+          {
+            "a": "Four great piers held up the vault at the",
+            "b": "Crossing"
+          },
+          {
+            "a": "The choir processed to the centre of the",
+            "b": "Crossing"
+          },
+          {
+            "a": "Engineers reinforced the ancient stone piers of the",
+            "b": "Crossing"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "crux",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Cross",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "crux",
+          "highlight": true
+        },
+        {
+          "text": " (cross), via Old Norse kross; the geometric heart where a church's arms meet.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "crux",
+      "correctAnswer": "Cross",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

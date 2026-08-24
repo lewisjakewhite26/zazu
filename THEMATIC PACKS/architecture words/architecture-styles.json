@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Gothic",
+    "pronunciation": "GOTH-ik",
+    "pos": "adjective",
+    "definition": "A pointed-arch European style of the 12th to 16th centuries, marked by ribbed vaults, flying buttresses, and soaring stained-glass windows.",
+    "origin": "<strong>Gothic</strong> architecture began around 1140 at the Abbey of Saint-Denis near Paris, where Abbot Suger pioneered pointed arches and ribbed vaults to let stone walls dissolve into stained glass. The name itself came later and was an insult: Renaissance critics, admiring classical Rome, blamed the style's break from antiquity on the <strong>Goths</strong>, the Germanic tribes who had sacked Rome, dismissing the medieval style as barbaric. The label stuck long after its scornful origins were forgotten.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gothic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Abbey of Saint-Denis", "b": "Where Gothic architecture began, around 1140" },
+          { "a": "Abbot Suger", "b": "Cleric who pioneered pointed arches and ribbed vaults" },
+          { "a": "Name coined by", "b": "Renaissance critics scornful of medieval style" },
+          { "a": "Blamed on the", "b": "Goths, the Germanic tribe who sacked Rome" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gothic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gothic describes", "b": "A pointed-arch medieval European style" },
+          { "a": "Signature feature", "b": "Flying buttresses supporting soaring walls" },
+          { "a": "Also marked by", "b": "Ribbed vaults and vast stained-glass windows" },
+          { "a": "Famous example", "b": "Notre-Dame Cathedral, Paris" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gothic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cathedral's spire pierced the sky in classic", "b": "Gothic fashion" },
+          { "a": "Tourists admired the", "b": "Gothic tracery in the rose window" },
+          { "a": "The university's oldest quad was built in", "b": "Gothic Revival style" },
+          { "a": "Flying buttresses braced the", "b": "Gothic nave's soaring walls" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Goths", "rootLanguage": "Germanic tribe name (Renaissance Italian usage)", "rootMeaning": "Barbarian tribe blamed by Renaissance critics for abandoning Roman classicism", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named, as an insult, for the ", "highlight": false }, { "text": "Goths", "highlight": true }, { "text": ", the tribe Renaissance critics blamed for the fall of Roman classical style.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Goths", "correctAnswer": "Barbarian tribe blamed by Renaissance critics for abandoning Roman classicism", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brutalist",
+    "pronunciation": "BROO-tuh-list",
+    "pos": "adjective",
+    "definition": "Describing a mid-20th-century style of stark, monumental buildings left in raw, unfinished concrete.",
+    "origin": "<strong>Brutalist</strong> comes from the French <strong>béton brut</strong>, meaning raw concrete, a phrase architect Le Corbusier used to describe his unpolished, poured-concrete surfaces in the late 1940s. British critic Reyner Banham and architects Alison and Peter Smithson popularised the English term \"New Brutalism\" in the 1950s, applying it to a generation of blocky, honestly-built civic buildings. The name has nothing to do with brutality, though the style's severity earned it plenty of both admirers and detractors.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brutalist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French béton brut", "b": "Raw concrete" },
+          { "a": "Coined by", "b": "Le Corbusier, describing his poured-concrete surfaces" },
+          { "a": "Popularised as \"New Brutalism\" by", "b": "Reyner Banham and the Smithsons, 1950s" },
+          { "a": "Despite the name, unrelated to", "b": "Brutality or violence" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brutalist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Brutalist describes", "b": "Stark, monumental buildings in raw concrete" },
+          { "a": "Surfaces are typically left", "b": "Unfinished, showing the wood-grain of formwork" },
+          { "a": "Popular for", "b": "Civic buildings, universities, and housing blocks" },
+          { "a": "Peak era of the style", "b": "The 1950s through the 1970s" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brutalist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city library was a hulking", "b": "Brutalist landmark" },
+          { "a": "Preservationists fought to save the", "b": "Brutalist car park from demolition" },
+          { "a": "Its raw concrete facade marked it as", "b": "Unmistakably Brutalist" },
+          { "a": "Photographers flocked to the", "b": "Brutalist housing estate for its stark angles" }
+        ] }
+    ],
+    "roots": [ { "rootText": "béton brut", "rootLanguage": "French", "rootMeaning": "Raw concrete", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "béton brut", "highlight": true }, { "text": " (raw concrete), Le Corbusier's term for his unpolished, poured surfaces.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "béton brut", "correctAnswer": "Raw concrete", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Renaissance",
+    "pronunciation": "REN-uh-sahns",
+    "pos": "noun",
+    "definition": "A 15th- and 16th-century Italian style that revived the symmetry, proportion, and classical orders of ancient Greek and Roman architecture.",
+    "origin": "<strong>Renaissance</strong> derives from the French word for \"rebirth,\" from Latin <strong>nasci</strong>, to be born, describing the deliberate 15th-century Florentine revival of classical Roman forms after centuries of Gothic building. Architect Filippo Brunelleschi studied ancient Roman ruins before engineering the dome of Florence Cathedral in the 1420s, reintroducing domes, columns, and mathematical proportion. The word was later applied by 19th-century historians to the whole cultural rebirth the architecture exemplified.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Renaissance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French renaissance", "b": "Rebirth" },
+          { "a": "From Latin nasci", "b": "To be born" },
+          { "a": "Filippo Brunelleschi", "b": "Engineered the dome of Florence Cathedral, 1420s" },
+          { "a": "Revived forms from", "b": "Ancient Roman ruins" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Renaissance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Renaissance architecture is defined by", "b": "Symmetry, proportion, and classical orders" },
+          { "a": "Revived elements include", "b": "Domes, columns, and rounded arches" },
+          { "a": "Began in", "b": "15th-century Florence" },
+          { "a": "Landmark example", "b": "The dome of Florence Cathedral" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Renaissance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The villa's symmetrical facade reflected pure", "b": "Renaissance proportion" },
+          { "a": "Architecture students sketched the palazzo's", "b": "Renaissance colonnade" },
+          { "a": "The dome's engineering marked a triumph of", "b": "Renaissance ingenuity" },
+          { "a": "Guides pointed out the courtyard's", "b": "Renaissance arcades" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nasci", "rootLanguage": "Latin", "rootMeaning": "To be born", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "nasci", "highlight": true }, { "text": " (to be born), via French \"rebirth\"; Florence's deliberate revival of classical Rome.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nasci", "correctAnswer": "To be born", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neoclassical",
+    "pronunciation": "nee-oh-KLAS-ih-kul",
+    "pos": "adjective",
+    "definition": "Describing an 18th- and 19th-century style that revived the simplicity and grandeur of ancient Greek and Roman temples.",
+    "origin": "<strong>Neoclassical</strong> combines Greek <strong>neos</strong>, new, with <strong>classicus</strong>, Latin for \"of the highest class,\" originally describing top-ranking Roman citizens before the word came to mean anything of the first rank, including ancient art. The style surged after the mid-18th-century excavations of Pompeii and Herculaneum put fresh, accurate images of antiquity before European eyes, and architects like Robert Adam and Thomas Jefferson championed its calm, columned restraint as a deliberate reaction against Rococo excess.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neoclassical</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek neos", "b": "New" },
+          { "a": "Latin classicus", "b": "Of the highest class" },
+          { "a": "Fuelled by excavations at", "b": "Pompeii and Herculaneum" },
+          { "a": "Championed by architects like", "b": "Robert Adam and Thomas Jefferson" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neoclassical</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Neoclassical describes", "b": "A revival of ancient Greek and Roman temple forms" },
+          { "a": "Typical features", "b": "Columns, pediments, and restrained ornament" },
+          { "a": "Arose as a reaction against", "b": "The excesses of Rococo" },
+          { "a": "Common building type", "b": "Government buildings and grand civic monuments" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neoclassical</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bank's facade featured a row of", "b": "Neoclassical columns" },
+          { "a": "The state capitol was built in a stately", "b": "Neoclassical style" },
+          { "a": "A triangular pediment crowned the", "b": "Neoclassical entrance" },
+          { "a": "The museum's white marble front was pure", "b": "Neoclassical grandeur" }
+        ] }
+    ],
+    "roots": [ { "rootText": "classicus", "rootLanguage": "Latin", "rootMeaning": "Of the highest class", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "neos", "highlight": true }, { "text": " (new) + Latin classicus (highest class); antiquity revived after Pompeii's excavation.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "classicus", "correctAnswer": "Of the highest class", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Art Deco",
+    "pronunciation": "art DEK-oh",
+    "pos": "noun",
+    "definition": "A bold, geometric style of the 1920s and 1930s marked by zigzag ornament, symmetry, and luxurious materials.",
+    "origin": "<strong>Art Deco</strong> is a shortened form of the <strong>Exposition Internationale des Arts Décoratifs et Industriels Modernes</strong>, the 1925 Paris exhibition that showcased the sleek, geometric decorative style at its peak. The style itself had emerged slightly earlier, blending the angularity of Cubism, the exoticism of newly opened Egyptian tombs, and the machine-age optimism of the Jazz Age. The abbreviated name \"Art Deco\" only became standard decades later, popularised by a 1968 book on the style.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Art Deco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Exposition Internationale des Arts Décoratifs", "b": "1925 Paris exhibition that gave the style its name" },
+          { "a": "Influences included", "b": "Cubism and newly discovered Egyptian tombs" },
+          { "a": "Also reflected", "b": "Machine-age optimism of the Jazz Age" },
+          { "a": "\"Art Deco\" abbreviation popularised by", "b": "A 1968 book on the style" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Art Deco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Art Deco describes", "b": "A bold, geometric style of the 1920s and 1930s" },
+          { "a": "Typical motifs", "b": "Zigzags, sunbursts, and stepped forms" },
+          { "a": "Often paired with", "b": "Luxurious materials like chrome and lacquer" },
+          { "a": "Famous example", "b": "The Chrysler Building, New York" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Art Deco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The skyscraper's stepped crown was classic", "b": "Art Deco" },
+          { "a": "Miami's beachfront hotels are famous for their", "b": "Art Deco facades" },
+          { "a": "Chrome fixtures gave the lobby an", "b": "Art Deco sheen" },
+          { "a": "The cinema's sunburst motif screamed", "b": "Art Deco glamour" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Exposition Internationale des Arts Décoratifs", "rootLanguage": "French (1925 Paris exhibition)", "rootMeaning": "The exhibition whose name was later shortened to Art Deco", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Shortened from the ", "highlight": false }, { "text": "Exposition Internationale des Arts Décoratifs", "highlight": true }, { "text": ", the 1925 Paris fair that showcased the style.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Exposition Internationale des Arts Décoratifs", "correctAnswer": "The exhibition whose name was later shortened to Art Deco", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bauhaus",
+    "pronunciation": "BOW-hows",
+    "pos": "noun",
+    "definition": "A functionalist style descended from the German design school of the same name, stripping buildings to clean lines, flat roofs, and unornamented surfaces.",
+    "origin": "<strong>Bauhaus</strong> is a literal German compound of <strong>bauen</strong>, to build, and <strong>Haus</strong>, house, chosen by architect Walter Gropius as the name of the design school he founded in Weimar in 1919. The school taught that form should follow function and that fine art, craft, and industrial design belonged together, training students in steel, glass, and concrete construction free of applied ornament. Forced to close by the Nazis in 1933, its emigrating teachers carried its severe, rational aesthetic worldwide.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bauhaus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German bauen", "b": "To build" },
+          { "a": "German Haus", "b": "House" },
+          { "a": "Founded in Weimar by", "b": "Walter Gropius, in 1919" },
+          { "a": "Forced to close in 1933 by", "b": "The Nazi government" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bauhaus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bauhaus describes", "b": "A functionalist style of clean, unornamented lines" },
+          { "a": "Guiding principle", "b": "Form follows function" },
+          { "a": "Typical materials", "b": "Steel, glass, and reinforced concrete" },
+          { "a": "Spread worldwide through", "b": "Teachers emigrating after the school's closure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bauhaus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The apartment block's flat roof and glass corners were pure", "b": "Bauhaus" },
+          { "a": "Design students still study", "b": "Bauhaus furniture" },
+          { "a": "The building's stripped-down facade showed clear", "b": "Bauhaus influence" },
+          { "a": "Critics called the new campus a", "b": "Bauhaus-inspired box of glass and steel" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bauen", "rootLanguage": "German", "rootMeaning": "To build", "showInIntro": true }, { "rootText": "Haus", "rootLanguage": "German", "rootMeaning": "House", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From German ", "highlight": false }, { "text": "bauen", "highlight": true }, { "text": " (build) + Haus (house), the literal name Walter Gropius gave his 1919 design school.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bauen", "correctAnswer": "To build", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Palladian",
+    "pronunciation": "puh-LAY-dee-un",
+    "pos": "adjective",
+    "definition": "Describing a classical style based on strict symmetry and temple-fronted facades, derived from the work of a 16th-century Venetian architect.",
+    "origin": "<strong>Palladian</strong> is named after <strong>Andrea Palladio</strong> (1508–1580), a Venetian architect who designed villas and churches applying the mathematical proportions of ancient Roman temples to everyday buildings, and published his ideas in the widely translated <em>Four Books of Architecture</em>. English architects Inigo Jones and, a century later, Lord Burlington championed his symmetrical, porticoed designs, giving Britain and its colonies grand country houses built in his name. The triple window with an arched centre pane is still called a Palladian window.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Palladian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Andrea Palladio", "b": "Venetian architect, 1508–1580" },
+          { "a": "He published", "b": "The Four Books of Architecture" },
+          { "a": "Championed in England by", "b": "Inigo Jones and Lord Burlington" },
+          { "a": "Named after him", "b": "The triple Palladian window" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Palladian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Palladian describes", "b": "A classical style of strict symmetry" },
+          { "a": "Signature feature", "b": "A temple-fronted portico with columns" },
+          { "a": "Popular for", "b": "English and colonial country houses" },
+          { "a": "Based on", "b": "The proportions of ancient Roman temples" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Palladian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The manor's columned portico was textbook", "b": "Palladian" },
+          { "a": "Sunlight streamed through the", "b": "Palladian window above the stairs" },
+          { "a": "The estate's perfectly symmetrical wings reflected", "b": "Palladian proportion" },
+          { "a": "Lord Burlington's villa was a monument to", "b": "Palladian taste" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Andrea Palladio", "rootLanguage": "16th-century Venice", "rootMeaning": "Architect whose classical proportions defined the style", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Andrea Palladio", "highlight": true }, { "text": ", whose books of Roman-inspired proportion shaped English country houses.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Andrea Palladio", "correctAnswer": "Architect whose classical proportions defined the style", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Romanesque",
+    "pronunciation": "roh-muh-NESK",
+    "pos": "adjective",
+    "definition": "Describing an early medieval European style of thick walls, small windows, and rounded arches, preceding the Gothic.",
+    "origin": "<strong>Romanesque</strong> was coined in the early 19th century by antiquarians, including French scholar Charles de Gerville, who noticed the style's round arches and massive masonry echoed <strong>Roman</strong> construction, much as \"Romance\" languages had descended from Latin. The buildings themselves rose across 9th- to 12th-century Europe, with monasteries and pilgrimage churches favouring fortress-like walls and barrel vaults well before pointed Gothic arches took over. The name was a scholarly label applied centuries after the style's own builders had no such term for it.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Romanesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Coined by", "b": "19th-century antiquarian Charles de Gerville" },
+          { "a": "Echoed", "b": "Roman round arches and massive masonry" },
+          { "a": "Compared to how", "b": "Romance languages descended from Latin" },
+          { "a": "Buildings rose across", "b": "9th- to 12th-century Europe" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Romanesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Romanesque describes", "b": "An early medieval style with rounded arches" },
+          { "a": "Typical features", "b": "Thick walls and small windows" },
+          { "a": "Common building type", "b": "Monasteries and pilgrimage churches" },
+          { "a": "Preceded", "b": "Gothic architecture" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Romanesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The abbey's rounded arches marked it as", "b": "Romanesque" },
+          { "a": "Pilgrims once sheltered inside the", "b": "Romanesque church's thick stone walls" },
+          { "a": "The crypt's squat columns were classic", "b": "Romanesque design" },
+          { "a": "Historians dated the tower to the", "b": "Romanesque period" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Romanus", "rootLanguage": "Latin", "rootMeaning": "Of Rome", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "Romanus", "highlight": true }, { "text": " (of Rome); a 19th-century label for medieval round arches echoing Roman masonry.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Romanus", "correctAnswer": "Of Rome", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Byzantine",
+    "pronunciation": "BIZ-un-teen",
+    "pos": "adjective",
+    "definition": "Describing the domed, richly mosaicked architectural style of the Eastern Roman Empire, centred on Constantinople.",
+    "origin": "<strong>Byzantine</strong> takes its name from <strong>Byzantium</strong>, the ancient Greek city that Emperor Constantine refounded as his capital in 330 AD and renamed Constantinople, though later historians still called his empire \"Byzantine\" after the city's original name. Its architecture reached its height under Emperor Justinian, whose Hagia Sophia (537 AD) combined a vast dome with shimmering gold mosaics, fusing Roman engineering with Eastern splendour. The style spread with Orthodox Christianity across Eastern Europe, Russia, and the Mediterranean.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Byzantine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Byzantium", "b": "Ancient Greek city, later renamed Constantinople" },
+          { "a": "Refounded as capital in 330 AD by", "b": "Emperor Constantine" },
+          { "a": "Style reached its height under", "b": "Emperor Justinian" },
+          { "a": "His landmark building", "b": "Hagia Sophia, completed 537 AD" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Byzantine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Byzantine describes", "b": "The domed style of the Eastern Roman Empire" },
+          { "a": "Signature feature", "b": "Vast domes and gold mosaics" },
+          { "a": "Spread with", "b": "Orthodox Christianity across Eastern Europe" },
+          { "a": "Landmark example", "b": "Hagia Sophia, Istanbul" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Byzantine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Gold mosaics glittered beneath the church's", "b": "Byzantine dome" },
+          { "a": "The cathedral's onion-shaped cupolas showed clear", "b": "Byzantine influence" },
+          { "a": "Scholars traced the mosaic technique to", "b": "Byzantine craftsmen" },
+          { "a": "The basilica's interior blazed with", "b": "Byzantine gold" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Byzantium", "rootLanguage": "Ancient Greek city name", "rootMeaning": "City refounded by Constantine as capital of the Eastern Roman Empire", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Byzantium", "highlight": true }, { "text": ", the city Constantine remade as his capital, where domes met gold mosaics.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Byzantium", "correctAnswer": "City refounded by Constantine as capital of the Eastern Roman Empire", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Modernist",
+    "pronunciation": "MOD-er-nist",
+    "pos": "adjective",
+    "definition": "Describing early- to mid-20th-century architecture that rejected historical ornament in favour of function, new materials, and open plans.",
+    "origin": "<strong>Modernist</strong> derives from Late Latin <strong>modernus</strong>, meaning \"of today,\" a word architects seized on to declare a clean break from centuries of revival styles. American architect Louis Sullivan's dictum that \"form follows function\" set the tone in the 1890s, and Europeans like Le Corbusier and Mies van der Rohe carried it further, using steel frames and glass curtain walls to strip buildings to their structural essentials. The movement dominated institutional and commercial building for much of the 20th century.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Modernist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Late Latin modernus", "b": "Of today, current" },
+          { "a": "Coined the phrase \"form follows function\"", "b": "Louis Sullivan, in the 1890s" },
+          { "a": "European champions included", "b": "Le Corbusier and Mies van der Rohe" },
+          { "a": "Signature materials", "b": "Steel frames and glass curtain walls" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Modernist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Modernist describes", "b": "Architecture that rejects historical ornament" },
+          { "a": "Guiding idea", "b": "Form follows function" },
+          { "a": "Common features", "b": "Open plans and exposed structure" },
+          { "a": "Dominated", "b": "Much of 20th-century institutional building" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Modernist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The office tower's glass curtain wall was pure", "b": "Modernist expression" },
+          { "a": "The house's open floor plan reflected", "b": "Modernist principles" },
+          { "a": "Critics praised the museum's stripped-down", "b": "Modernist form" },
+          { "a": "Steel columns exposed inside the lobby signalled", "b": "Modernist honesty of structure" }
+        ] }
+    ],
+    "roots": [ { "rootText": "modernus", "rootLanguage": "Late Latin", "rootMeaning": "Of today, current", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Late Latin ", "highlight": false }, { "text": "modernus", "highlight": true }, { "text": " (of today); a deliberate break from ornament toward steel, glass, and function.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "modernus", "correctAnswer": "Of today, current", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Postmodern",
+    "pronunciation": "post-MOD-ern",
+    "pos": "adjective",
+    "definition": "Describing a late-20th-century style that reacted against modernist austerity by reintroducing colour, ornament, and playful historical reference.",
+    "origin": "<strong>Postmodern</strong> combines Latin <strong>post</strong>, after, with <strong>modernus</strong>, of today, signalling a deliberate move beyond the modernist movement it followed. Architect Robert Venturi's 1966 book challenged modernism's \"less is more\" with his own \"less is a bore,\" arguing for complexity, contradiction, and borrowed historical motifs. Buildings like Philip Johnson's AT&T Building in New York, topped with a giant Chippendale-style pediment, announced the new style's ironic embrace of the ornament modernism had discarded.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Postmodern</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin post", "b": "After" },
+          { "a": "Latin modernus", "b": "Of today" },
+          { "a": "Robert Venturi's 1966 counter to modernism", "b": "\"Less is a bore\"" },
+          { "a": "Icon of the style", "b": "Philip Johnson's AT&T Building, New York" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Postmodern</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Postmodern describes", "b": "A reaction against modernist austerity" },
+          { "a": "Reintroduced", "b": "Colour, ornament, and historical reference" },
+          { "a": "Often approached with", "b": "Irony and playfulness" },
+          { "a": "Emerged in the", "b": "Late 20th century" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Postmodern</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pastel columns and broken pediment marked it as", "b": "Postmodern" },
+          { "a": "Critics called the tower's playful crown", "b": "Postmodern irony" },
+          { "a": "The shopping mall's mix of classical columns and neon was distinctly", "b": "Postmodern" },
+          { "a": "Architecture students debated the merits of the", "b": "Postmodern movement" }
+        ] }
+    ],
+    "roots": [ { "rootText": "post", "rootLanguage": "Latin", "rootMeaning": "After", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "post", "highlight": true }, { "text": " (after) + modernus; a playful, ornamented reaction against modernist austerity.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "post", "correctAnswer": "After", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Beaux-Arts",
+    "pronunciation": "boh-ZAR",
+    "pos": "adjective",
+    "definition": "Describing a grand, classically ornamented style taught at a Parisian art school, favouring symmetry, sculpture, and elaborate facades.",
+    "origin": "<strong>Beaux-Arts</strong> is named for the <strong>École des Beaux-Arts</strong> in Paris, the state art school whose rigorous classical training shaped generations of 19th- and early-20th-century architects, including many Americans who studied there before returning home. Its curriculum stressed grand axial planning, sculpted ornament, and monumental staircases drawn from Renaissance and Baroque sources. The style produced landmark public buildings such as New York's Grand Central Terminal and the Paris Opéra.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Beaux-Arts</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "École des Beaux-Arts", "b": "Parisian state art school" },
+          { "a": "Trained many", "b": "American architects who returned home" },
+          { "a": "Curriculum stressed", "b": "Axial planning and sculpted ornament" },
+          { "a": "Drew heavily on", "b": "Renaissance and Baroque sources" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Beaux-Arts</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Beaux-Arts describes", "b": "A grand classical style with elaborate facades" },
+          { "a": "Signature feature", "b": "Monumental staircases and sculpted ornament" },
+          { "a": "Favoured for", "b": "Grand public buildings" },
+          { "a": "Landmark example", "b": "Grand Central Terminal, New York" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Beaux-Arts</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The station's grand hall was a showcase of", "b": "Beaux-Arts splendour" },
+          { "a": "Sculpted garlands framed the", "b": "Beaux-Arts entrance" },
+          { "a": "The courthouse's symmetrical facade followed", "b": "Beaux-Arts principles" },
+          { "a": "Marble staircases swept upward inside the", "b": "Beaux-Arts library" }
+        ] }
+    ],
+    "roots": [ { "rootText": "École des Beaux-Arts", "rootLanguage": "French (Paris art school)", "rootMeaning": "The Paris school whose classical training gave the style its name", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the ", "highlight": false }, { "text": "École des Beaux-Arts", "highlight": true }, { "text": ", the Paris school whose classical training produced grand, sculpted facades.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "École des Beaux-Arts", "correctAnswer": "The Paris school whose classical training gave the style its name", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Colonial",
+    "pronunciation": "kuh-LOH-nee-ul",
+    "pos": "adjective",
+    "definition": "Describing the building styles that European settlers adapted from their homelands to their overseas colonies, especially in North America.",
+    "origin": "<strong>Colonial</strong> comes from Latin <strong>colonia</strong>, a settlement or farm, from <strong>colere</strong>, to cultivate, describing the settlements themselves before the word extended to their architecture. English, Spanish, Dutch, and French settlers each brought their homeland's building habits to the Americas from the 17th century onward, adapting them to local materials and climate: symmetrical timber-framed houses in New England, thick-walled adobe missions in the Spanish Southwest, and steep gabled brick houses in New Amsterdam. \"Colonial\" today covers this whole family of transplanted, locally adapted styles.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Colonial</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin colonia", "b": "Settlement or farm" },
+          { "a": "From colere", "b": "To cultivate" },
+          { "a": "Settlers brought styles from", "b": "England, Spain, the Netherlands, and France" },
+          { "a": "Example in the Spanish Southwest", "b": "Thick-walled adobe mission buildings" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Colonial</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Colonial describes", "b": "Homeland styles adapted to overseas settlements" },
+          { "a": "New England example", "b": "Symmetrical timber-framed houses" },
+          { "a": "Adapted for", "b": "Local materials and climate" },
+          { "a": "Spans a period from", "b": "The 17th through 18th centuries" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Colonial</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The white clapboard house was classic New England", "b": "Colonial" },
+          { "a": "Thick adobe walls kept the old", "b": "Colonial mission cool" },
+          { "a": "Shutters flanked the symmetrical windows of the", "b": "Colonial farmhouse" },
+          { "a": "The town's historic district preserved rows of", "b": "Colonial brick homes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "colonia", "rootLanguage": "Latin", "rootMeaning": "Settlement or farm", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "colonia", "highlight": true }, { "text": " (settlement); homeland building habits carried overseas and adapted to new ground.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "colonia", "correctAnswer": "Settlement or farm", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Federal",
+    "pronunciation": "FED-er-ul",
+    "pos": "adjective",
+    "definition": "Describing an American neoclassical style of restrained ornament and geometric precision, popular in the decades after independence.",
+    "origin": "<strong>Federal</strong> takes its name from the <strong>federal</strong> period of the young United States, roughly 1780 to 1830, when the new nation forged its identity as a federation of states, from Latin <strong>foedus</strong>, a treaty or league. Architects like Charles Bulfinch translated the delicate neoclassicism of contemporary Britain into flat, restrained facades, fanlights over doorways, and slender columns, avoiding the heavier ornament of Georgian building. The style became an architectural expression of the new republic's own self-image.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Federal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin foedus", "b": "Treaty or league" },
+          { "a": "Named for the", "b": "Federal period of the United States, 1780–1830" },
+          { "a": "Key architect", "b": "Charles Bulfinch" },
+          { "a": "Translated neoclassicism from", "b": "Contemporary Britain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Federal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Federal describes", "b": "A restrained American neoclassical style" },
+          { "a": "Signature feature", "b": "A fanlight window over the front door" },
+          { "a": "Facades are typically", "b": "Flat and geometrically precise" },
+          { "a": "Lighter in ornament than", "b": "The earlier Georgian style" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Federal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A delicate fanlight crowned the", "b": "Federal doorway" },
+          { "a": "The row houses' flat brick fronts were classic", "b": "Federal style" },
+          { "a": "Slender columns framed the", "b": "Federal entrance" },
+          { "a": "The historic district preserved several", "b": "Federal-era mansions" }
+        ] }
+    ],
+    "roots": [ { "rootText": "foedus", "rootLanguage": "Latin", "rootMeaning": "Treaty or league", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "foedus", "highlight": true }, { "text": " (league); the young republic's own restrained take on British neoclassicism.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "foedus", "correctAnswer": "Treaty or league", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Georgian",
+    "pronunciation": "JOR-jun",
+    "pos": "adjective",
+    "definition": "Describing a symmetrical, classically proportioned British style from the reigns of the four King Georges, spanning roughly 1714 to 1830.",
+    "origin": "<strong>Georgian</strong> is named for <strong>King George</strong> I through IV of Great Britain, whose consecutive reigns from 1714 to 1830 spanned the era's dominant domestic style. Drawing on Palladian ideas of proportion, Georgian houses favoured symmetrical brick facades, sash windows evenly spaced across the front, and a centred doorway, often with a simple classical surround. The style became the template for genteel townhouses and terraces across Britain and its colonies, including much of colonial America.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Georgian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named for", "b": "Kings George I through IV of Great Britain" },
+          { "a": "Reigns spanned", "b": "1714 to 1830" },
+          { "a": "Drew on ideas from", "b": "Palladian proportion" },
+          { "a": "Spread to", "b": "Britain's colonies, including colonial America" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Georgian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Georgian describes", "b": "A symmetrical, classically proportioned British style" },
+          { "a": "Typical facade", "b": "Evenly spaced sash windows in brick" },
+          { "a": "Doorway usually featured", "b": "A centred position with a classical surround" },
+          { "a": "Common building type", "b": "Genteel townhouses and terraces" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Georgian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The square's terraced houses were uniformly", "b": "Georgian" },
+          { "a": "Sash windows lined the brick front of the", "b": "Georgian townhouse" },
+          { "a": "A fanlight brightened the hall of the", "b": "Georgian rectory" },
+          { "a": "The estate agent praised the property's", "b": "Georgian proportions" }
+        ] }
+    ],
+    "roots": [ { "rootText": "King George", "rootLanguage": "British monarchs, 1714–1830", "rootMeaning": "Four successive kings whose reigns named the era's dominant style", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the four ", "highlight": false }, { "text": "King George", "highlight": true }, { "text": "s whose reigns, 1714 to 1830, spanned Britain's era of symmetrical brick facades.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "King George", "correctAnswer": "Four successive kings whose reigns named the era's dominant style", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tudor",
+    "pronunciation": "TOO-der",
+    "pos": "adjective",
+    "definition": "Describing a style of steep gabled roofs and decorative half-timbering, named for an English royal dynasty and later revived as nostalgic domestic architecture.",
+    "origin": "<strong>Tudor</strong> is named for the <strong>Tudor</strong> dynasty that ruled England from 1485 to 1603, an era when timber-framed houses with exposed dark beams and steep, multiple gables were genuinely common building practice. The style fell out of use for centuries until a 19th- and early-20th-century \"Tudor Revival\" romanticised those half-timbered facades, tall brick chimneys, and diamond-paned windows for suburban houses that had little real connection to actual Tudor-era construction. Most buildings people call \"Tudor\" today are, in fact, this later revival.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tudor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tudor dynasty", "b": "English royal house, 1485–1603" },
+          { "a": "Genuine Tudor-era feature", "b": "Timber framing with exposed dark beams" },
+          { "a": "Later romanticised by", "b": "The 19th- and 20th-century Tudor Revival" },
+          { "a": "Most \"Tudor\" houses today are", "b": "Revival-era, not original Tudor construction" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tudor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tudor describes", "b": "Steep gables and decorative half-timbering" },
+          { "a": "Also features", "b": "Tall brick chimneys and diamond-paned windows" },
+          { "a": "Named for", "b": "An English royal dynasty" },
+          { "a": "Popular for", "b": "Suburban houses of the early 20th century" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tudor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Dark exposed beams crisscrossed the", "b": "Tudor facade" },
+          { "a": "The suburb was lined with mock-", "b": "Tudor homes" },
+          { "a": "Steep gables gave the cottage its", "b": "Tudor charm" },
+          { "a": "Diamond-paned windows completed the", "b": "Tudor Revival look" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Tudor dynasty", "rootLanguage": "English royal house, 1485–1603", "rootMeaning": "The royal family whose era's timber-framed houses gave the style its name", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the ", "highlight": false }, { "text": "Tudor dynasty", "highlight": true }, { "text": ", whose half-timbered houses were later romanticised in a 20th-century revival.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Tudor dynasty", "correctAnswer": "The royal family whose era's timber-framed houses gave the style its name", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Craftsman",
+    "pronunciation": "KRAFTS-mun",
+    "pos": "noun",
+    "definition": "An early-20th-century American style of low, wide bungalows built with simple, honestly exposed wood and handmade details.",
+    "origin": "<strong>Craftsman</strong> takes its name from <strong>The Craftsman</strong>, a magazine founded in 1901 by furniture maker Gustav Stickley to promote the ideals of the Arts and Crafts movement, which prized handmade simplicity over machine-made Victorian ornament. Stickley's magazine published house plans featuring low, deep-eaved bungalows with exposed rafter tails, tapered porch columns, and built-in wood cabinetry, and the term \"Craftsman\" attached itself to the resulting style. It became one of the most popular house forms across early-20th-century America.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Craftsman</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The Craftsman", "b": "Magazine founded in 1901 by Gustav Stickley" },
+          { "a": "Promoted the ideals of", "b": "The Arts and Crafts movement" },
+          { "a": "Valued", "b": "Handmade simplicity over machine ornament" },
+          { "a": "Published", "b": "House plans for low, deep-eaved bungalows" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Craftsman</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Craftsman describes", "b": "A low, wide bungalow with exposed wood" },
+          { "a": "Signature feature", "b": "Tapered porch columns and exposed rafter tails" },
+          { "a": "Interiors often included", "b": "Built-in wood cabinetry" },
+          { "a": "Peak popularity", "b": "Early-20th-century America" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Craftsman</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The porch's tapered columns marked it as a classic", "b": "Craftsman bungalow" },
+          { "a": "Exposed rafter tails lined the eaves of the", "b": "Craftsman house" },
+          { "a": "Built-in shelving filled the", "b": "Craftsman living room" },
+          { "a": "The neighbourhood was famous for its rows of", "b": "Craftsman bungalows" }
+        ] }
+    ],
+    "roots": [ { "rootText": "The Craftsman", "rootLanguage": "American magazine, founded 1901", "rootMeaning": "Gustav Stickley's magazine promoting handcrafted, simple design", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "The Craftsman", "highlight": true }, { "text": ", Gustav Stickley's magazine championing handmade simplicity over Victorian excess.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "The Craftsman", "correctAnswer": "Gustav Stickley's magazine promoting handcrafted, simple design", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Deconstructivist",
+    "pronunciation": "dee-kun-STRUK-tih-vist",
+    "pos": "adjective",
+    "definition": "Describing a late-20th-century style of fragmented, non-rectilinear forms that appear to defy conventional structural logic.",
+    "origin": "<strong>Deconstructivist</strong> borrows its name from <strong>deconstruction</strong>, the philosophical method of French thinker Jacques Derrida that questioned stable, fixed meaning in texts, a concept architects adapted to unsettle the fixed geometries of building itself. The label was cemented by the Museum of Modern Art's 1988 exhibition, curated by Philip Johnson and Mark Wigley, which grouped architects like Frank Gehry and Zaha Hadid under the term for their tilted walls, sharp angles, and seemingly collapsing forms. The style favoured visual instability over the calm boxes of earlier modernism.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Deconstructivist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Deconstruction", "b": "Jacques Derrida's philosophical method" },
+          { "a": "Questioned", "b": "Stable, fixed meaning" },
+          { "a": "Label cemented by", "b": "MoMA's 1988 exhibition" },
+          { "a": "Curated by", "b": "Philip Johnson and Mark Wigley" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Deconstructivist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Deconstructivist describes", "b": "Fragmented, non-rectilinear building forms" },
+          { "a": "Buildings appear to", "b": "Defy conventional structural logic" },
+          { "a": "Associated architects", "b": "Frank Gehry and Zaha Hadid" },
+          { "a": "Favours", "b": "Visual instability over calm modernist boxes" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Deconstructivist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The museum's twisted titanium panels were unmistakably", "b": "Deconstructivist" },
+          { "a": "Critics called the tilted glass facade a", "b": "Deconstructivist statement" },
+          { "a": "The concert hall's fractured, angular walls exemplified", "b": "Deconstructivist design" },
+          { "a": "Students debated whether the sculpture-like building was truly", "b": "Deconstructivist" }
+        ] }
+    ],
+    "roots": [ { "rootText": "deconstruction", "rootLanguage": "French philosophy (Jacques Derrida)", "rootMeaning": "Philosophical method of questioning fixed, stable structure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Borrowed from ", "highlight": false }, { "text": "deconstruction", "highlight": true }, { "text": ", Derrida's philosophy of unsettling fixed meaning, applied to unsettle fixed geometry.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "deconstruction", "correctAnswer": "Philosophical method of questioning fixed, stable structure", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Expressionist",
+    "pronunciation": "ik-SPRESH-uh-nist",
+    "pos": "adjective",
+    "definition": "Describing an early-20th-century style of sculptural, emotionally charged forms that treat a building almost like a work of expressive art.",
+    "origin": "<strong>Expressionist</strong> comes from Latin <strong>expressio</strong>, a pressing out, describing architecture that borrowed its name and its aims from the Expressionist art movement of early-20th-century Germany and the Netherlands, which prized raw emotion over realistic representation. Architect Erich Mendelsohn's Einstein Tower near Berlin (1921), with its flowing, almost organic curves poured in concrete, became the movement's best-known building, treating structure as sculpture meant to convey feeling rather than simply enclose space. The style flourished briefly before more austere modernism took hold.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Expressionist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin expressio", "b": "A pressing out" },
+          { "a": "Borrowed aims from", "b": "The Expressionist art movement" },
+          { "a": "Landmark building", "b": "Erich Mendelsohn's Einstein Tower, 1921" },
+          { "a": "Located near", "b": "Berlin, Germany" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Expressionist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Expressionist describes", "b": "Sculptural, emotionally charged building forms" },
+          { "a": "Prized", "b": "Raw emotion over realistic representation" },
+          { "a": "Often built in", "b": "Flowing, organic poured concrete" },
+          { "a": "Flourished before", "b": "Austere modernism took hold" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Expressionist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The observatory's flowing concrete curves were pure", "b": "Expressionist sculpture" },
+          { "a": "Critics called the church's jagged silhouette", "b": "Expressionist" },
+          { "a": "The tower seemed to swell and twist in true", "b": "Expressionist fashion" },
+          { "a": "Its emotive, almost organic form marked the building as", "b": "Expressionist" }
+        ] }
+    ],
+    "roots": [ { "rootText": "expressio", "rootLanguage": "Latin", "rootMeaning": "A pressing out", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "expressio", "highlight": true }, { "text": " (a pressing out); buildings treated as sculpture meant to convey raw feeling.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "expressio", "correctAnswer": "A pressing out", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Moorish",
+    "pronunciation": "MOOR-ish",
+    "pos": "adjective",
+    "definition": "Describing the Islamic architectural style of medieval Iberia, marked by horseshoe arches, intricate geometric tilework, and courtyard gardens.",
+    "origin": "<strong>Moorish</strong> derives from <strong>Mauri</strong>, the Latin name for the inhabitants of ancient Mauretania in northwest Africa, later applied broadly to the Muslim rulers of medieval Spain and Portugal, known as Al-Andalus. From the 8th to the 15th century, their architects developed horseshoe arches, honeycomb muqarnas vaulting, and dazzling geometric and calligraphic tilework, seen at their most refined in the Alhambra palace in Granada. The style later inspired 19th-century revival buildings across Europe and the Americas fascinated by its exotic ornament.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Moorish</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin Mauri", "b": "Inhabitants of ancient Mauretania, northwest Africa" },
+          { "a": "Applied to rulers of", "b": "Al-Andalus, medieval Spain and Portugal" },
+          { "a": "Flourished from the", "b": "8th to 15th century" },
+          { "a": "Finest surviving example", "b": "The Alhambra palace, Granada" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Moorish</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Moorish describes", "b": "Islamic architecture of medieval Iberia" },
+          { "a": "Signature feature", "b": "Horseshoe arches and geometric tilework" },
+          { "a": "Also features", "b": "Courtyard gardens and honeycomb vaulting" },
+          { "a": "Inspired", "b": "19th-century revival buildings in Europe and the Americas" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Moorish</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Geometric tiles covered every wall of the", "b": "Moorish palace" },
+          { "a": "The theatre's horseshoe arches evoked", "b": "Moorish Revival grandeur" },
+          { "a": "Water trickled through the courtyard of the", "b": "Moorish-style garden" },
+          { "a": "Honeycomb plasterwork adorned the ceiling in true", "b": "Moorish fashion" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Mauri", "rootLanguage": "Latin", "rootMeaning": "Inhabitants of ancient Mauretania, northwest Africa", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "Mauri", "highlight": true }, { "text": " (Mauretanians); the Islamic rulers of medieval Iberia and their horseshoe arches.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Mauri", "correctAnswer": "Inhabitants of ancient Mauretania, northwest Africa", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vernacular",
+    "pronunciation": "ver-NAK-yoo-ler",
+    "pos": "adjective",
+    "definition": "Describing ordinary buildings shaped by local materials, climate, and tradition rather than by a trained architect or formal style.",
+    "origin": "<strong>Vernacular</strong> descends from Latin <strong>vernaculus</strong>, domestic or native, itself from <strong>verna</strong>, a slave born within the household rather than bought from elsewhere, a root that also gave English \"vernacular\" language, the native tongue spoken at home. Applied to buildings, it describes the thatched cottages, timber longhouses, and mudbrick dwellings that ordinary builders raised using local know-how passed down through generations, without formal architectural training. Vernacular architecture is often the most direct record of a place's climate, materials, and daily life.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vernacular</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin vernaculus", "b": "Domestic, native" },
+          { "a": "From verna", "b": "A slave born within the household" },
+          { "a": "Same root gives", "b": "\"Vernacular\" language, the native tongue" },
+          { "a": "Applied to buildings raised by", "b": "Local builders without formal training" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vernacular</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vernacular describes", "b": "Ordinary buildings shaped by local tradition" },
+          { "a": "Shaped by", "b": "Local materials and climate" },
+          { "a": "Examples include", "b": "Thatched cottages and mudbrick dwellings" },
+          { "a": "Contrasts with", "b": "Buildings designed by trained architects" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vernacular</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The village's thatched roofs were classic", "b": "Vernacular building" },
+          { "a": "Researchers documented the region's disappearing", "b": "Vernacular architecture" },
+          { "a": "Thick mud walls kept the", "b": "Vernacular farmhouse cool" },
+          { "a": "The museum devoted a wing to", "b": "Vernacular tools and building techniques" }
+        ] }
+    ],
+    "roots": [ { "rootText": "verna", "rootLanguage": "Latin", "rootMeaning": "A slave born within the household; native, home-born", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "verna", "highlight": true }, { "text": " (home-born); buildings raised by local hands using local know-how, not formal training.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "verna", "correctAnswer": "A slave born within the household; native, home-born", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Minimalist",
+    "pronunciation": "MIN-ih-muh-list",
+    "pos": "adjective",
+    "definition": "Describing a late-20th-century style of extreme simplicity, reducing buildings to essential forms, plain surfaces, and few materials.",
+    "origin": "<strong>Minimalist</strong> comes from Latin <strong>minimus</strong>, smallest, borrowed from the Minimalism art movement of the 1960s, whose sculptors stripped their work to bare geometric forms. Architects such as John Pawson and Tadao Ando carried the same instinct into building, using plain concrete, glass, and light itself as the primary material, and stripping away decoration, texture, and colour until only essential form and space remained. The style rejects even the restrained ornament of modernism in favour of near-total reduction.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Minimalist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin minimus", "b": "Smallest" },
+          { "a": "Borrowed from", "b": "The 1960s Minimalism art movement" },
+          { "a": "Architects associated with the style", "b": "John Pawson and Tadao Ando" },
+          { "a": "Treats as a primary material", "b": "Light itself" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Minimalist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Minimalist describes", "b": "Buildings reduced to essential form" },
+          { "a": "Typical materials", "b": "Plain concrete, glass, and light" },
+          { "a": "Rejects", "b": "Decoration, texture, and colour" },
+          { "a": "Goes further than", "b": "The restrained ornament of modernism" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Minimalist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Bare concrete walls defined the", "b": "Minimalist chapel" },
+          { "a": "Sunlight fell through a single slit in the", "b": "Minimalist facade" },
+          { "a": "The gallery's stripped-back interior felt distinctly", "b": "Minimalist" },
+          { "a": "Every surface in the house followed a strict", "b": "Minimalist palette" }
+        ] }
+    ],
+    "roots": [ { "rootText": "minimus", "rootLanguage": "Latin", "rootMeaning": "Smallest", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "minimus", "highlight": true }, { "text": " (smallest); buildings stripped to bare form, plain material, and light.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "minimus", "correctAnswer": "Smallest", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rococo",
+    "pronunciation": "ruh-KOH-koh",
+    "pos": "adjective",
+    "definition": "Describing an 18th-century French style of light, ornate, asymmetrical decoration inspired by shells and natural curves.",
+    "origin": "<strong>Rococo</strong> blends French <strong>rocaille</strong>, the shell-and-pebble work used to decorate grottoes and fountains, with <strong>barocco</strong>, Baroque, and the word was originally coined by critics in the early 19th century as a mocking term for what they saw as frivolous, overwrought decoration. The style itself had flourished a century earlier in French interiors and Central European churches, replacing Baroque's heavier grandeur with pastel colours, curling shell-like ornament, and playful asymmetry. Like Gothic before it, an insult became the accepted name.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rococo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French rocaille", "b": "Shell-and-pebble grotto decoration" },
+          { "a": "Blended with", "b": "Barocco, Baroque" },
+          { "a": "Coined by", "b": "19th-century critics, as a mocking term" },
+          { "a": "Style itself flourished in", "b": "18th-century French interiors" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rococo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Rococo describes", "b": "Light, ornate, asymmetrical decoration" },
+          { "a": "Common motifs", "b": "Shell shapes and curling natural forms" },
+          { "a": "Colour palette", "b": "Pastel tones" },
+          { "a": "Replaced the heavier grandeur of", "b": "Baroque style" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rococo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Gilded shell motifs curled across the", "b": "Rococo ceiling" },
+          { "a": "The palace salon was dripping with", "b": "Rococo ornament" },
+          { "a": "Pastel plasterwork swirled through the", "b": "Rococo chapel" },
+          { "a": "Critics dismissed the design as needlessly", "b": "Rococo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rocaille", "rootLanguage": "French", "rootMeaning": "Shell-and-pebble grotto decoration", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "rocaille", "highlight": true }, { "text": " (shell-work); a once-mocking name for pastel curls of ornament that replaced Baroque grandeur.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rocaille", "correctAnswer": "Shell-and-pebble grotto decoration", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Classical",
+    "pronunciation": "KLAS-ih-kul",
+    "pos": "adjective",
+    "definition": "Describing the architecture of ancient Greece and Rome, built around the ordered system of columns known as the classical orders.",
+    "origin": "<strong>Classical</strong> comes from Latin <strong>classicus</strong>, describing citizens of the highest tax class in ancient Rome, a word that came to mean anything of the first rank, including the architecture of Greece and Rome itself. Greek builders developed the Doric, Ionic, and Corinthian orders, precise systems of column proportion and decoration, which Roman architects like Vitruvius codified and spread across their empire. Nearly every later revival style discussed in this pack, from Renaissance to Neoclassical to Federal, ultimately measures itself against this classical foundation.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Classical</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin classicus", "b": "Citizens of the highest tax class in Rome" },
+          { "a": "Greek builders developed", "b": "The Doric, Ionic, and Corinthian orders" },
+          { "a": "Codified and spread by", "b": "Roman architect Vitruvius" },
+          { "a": "Later revival styles measure themselves against", "b": "This classical foundation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Classical</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Classical describes", "b": "The architecture of ancient Greece and Rome" },
+          { "a": "Built around", "b": "The ordered system of column proportions" },
+          { "a": "The three main orders", "b": "Doric, Ionic, and Corinthian" },
+          { "a": "Landmark example", "b": "The Parthenon, Athens" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Classical</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Fluted columns supported the temple's", "b": "Classical pediment" },
+          { "a": "The courthouse borrowed its portico from", "b": "Classical Greek design" },
+          { "a": "Students sketched the ruins' surviving", "b": "Classical orders" },
+          { "a": "The library's grand steps evoked a", "b": "Classical temple" }
+        ] }
+    ],
+    "roots": [ { "rootText": "classicus", "rootLanguage": "Latin", "rootMeaning": "Of the highest class", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "classicus", "highlight": true }, { "text": " (highest class); the ordered Greek and Roman column systems every later revival measures itself against.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "classicus", "correctAnswer": "Of the highest class", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Futurist",
+    "pronunciation": "FYOO-chur-ist",
+    "pos": "adjective",
+    "definition": "Describing an early-20th-century Italian style that celebrated speed, machines, and modern industry through dynamic, forward-thrusting forms.",
+    "origin": "<strong>Futurist</strong> comes from Latin <strong>futurus</strong>, about to be, borrowed from the Futurism movement launched by Italian poet Filippo Tommaso Marinetti's 1909 manifesto, which glorified speed, technology, and the energy of modern machines while urging the destruction of museums and old traditions. Architect Antonio Sant'Elia translated this into visionary drawings of towering, engine-like cities bristling with elevators, bridges, and aircraft, though he died in the First World War before building any of it. Futurist ideas nonetheless influenced later modernist visions of the city of tomorrow.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Futurist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin futurus", "b": "About to be, future" },
+          { "a": "Launched by", "b": "Filippo Tommaso Marinetti's 1909 manifesto" },
+          { "a": "Glorified", "b": "Speed, technology, and modern machines" },
+          { "a": "Visionary architect of the movement", "b": "Antonio Sant'Elia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Futurist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Futurist describes", "b": "Dynamic forms celebrating speed and machines" },
+          { "a": "Envisioned cities filled with", "b": "Elevators, bridges, and aircraft" },
+          { "a": "Urged the destruction of", "b": "Museums and old traditions" },
+          { "a": "Influenced later", "b": "Modernist visions of the city of tomorrow" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Futurist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sant'Elia's sketches imagined a bristling", "b": "Futurist metropolis" },
+          { "a": "The exhibit displayed drawings of dynamic", "b": "Futurist skyscrapers" },
+          { "a": "Critics called the pavilion's sharp angles", "b": "Futurist in spirit" },
+          { "a": "The concept car's design nodded to early", "b": "Futurist ideals of speed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "futurus", "rootLanguage": "Latin", "rootMeaning": "About to be, future", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "futurus", "highlight": true }, { "text": " (future); a manifesto glorifying speed and machines, sketched into visionary, unbuilt cities.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "futurus", "correctAnswer": "About to be, future", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mannerist",
+    "pronunciation": "MAN-er-ist",
+    "pos": "adjective",
+    "definition": "Describing a late-Renaissance style that deliberately exaggerated and distorted classical proportion for tension and dramatic effect.",
+    "origin": "<strong>Mannerist</strong> derives from Italian <strong>maniera</strong>, meaning style or manner, a term contemporaries used approvingly to praise a sophisticated, self-conscious \"manner\" of design before later critics turned it into a label for the era's deliberate breaking of classical rules. Architects such as Giulio Romano, working in the wake of Renaissance masters like Raphael, stretched proportions, placed columns in structurally illogical positions, and created dramatic tension rather than the calm balance of earlier classicism. The style bridged the High Renaissance and the theatrical exuberance of the Baroque that followed.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mannerist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian maniera", "b": "Style or manner" },
+          { "a": "Originally used to", "b": "Praise a sophisticated design manner" },
+          { "a": "Key architect", "b": "Giulio Romano" },
+          { "a": "Bridged", "b": "The High Renaissance and the Baroque" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mannerist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mannerist describes", "b": "Deliberately exaggerated classical proportion" },
+          { "a": "Creates", "b": "Tension and dramatic effect" },
+          { "a": "Sometimes places", "b": "Columns in structurally illogical positions" },
+          { "a": "Contrasts with", "b": "The calm balance of earlier classicism" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mannerist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The palazzo's oddly stretched columns were pure", "b": "Mannerist tension" },
+          { "a": "Art historians debated whether the courtyard was", "b": "Mannerist or early Baroque" },
+          { "a": "The staircase's dramatic distortions marked it as", "b": "Mannerist design" },
+          { "a": "Giulio Romano's palace remains a landmark of", "b": "Mannerist architecture" }
+        ] }
+    ],
+    "roots": [ { "rootText": "maniera", "rootLanguage": "Italian", "rootMeaning": "Style or manner", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "maniera", "highlight": true }, { "text": " (manner); classical proportion deliberately stretched and distorted for dramatic tension.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "maniera", "correctAnswer": "Style or manner", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jacobean",
+    "pronunciation": "jak-uh-BEE-un",
+    "pos": "adjective",
+    "definition": "Describing an English style of the early 17th century, blending late Gothic and Renaissance detail in ornate strapwork, gables, and mullioned windows.",
+    "origin": "<strong>Jacobean</strong> is named for <strong>Jacobus</strong>, the Latin form of James, the reigning name of King James I of England, whose rule from 1603 to 1625 gave the era its label. Grand country houses of the period mixed lingering Gothic verticality with newly fashionable Renaissance classical detail, decorated with elaborate carved strapwork, large mullioned windows, and symmetrical gabled facades. The style marks a transitional moment between the earlier Elizabethan era and the fuller classicism that followed under later Stuart and Georgian rule.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jacobean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin Jacobus", "b": "James" },
+          { "a": "Named for", "b": "King James I of England" },
+          { "a": "His reign", "b": "1603 to 1625" },
+          { "a": "Blended", "b": "Gothic verticality with Renaissance classical detail" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jacobean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Jacobean describes", "b": "An early-17th-century transitional English style" },
+          { "a": "Signature ornament", "b": "Elaborate carved strapwork" },
+          { "a": "Typical windows", "b": "Large mullioned windows" },
+          { "a": "Followed", "b": "The earlier Elizabethan era" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jacobean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Carved strapwork decorated the hall's", "b": "Jacobean ceiling" },
+          { "a": "Rows of mullioned windows lit the", "b": "Jacobean manor" },
+          { "a": "The staircase's heavy carved oak was distinctly", "b": "Jacobean" },
+          { "a": "Historians dated the gabled wing to the", "b": "Jacobean period" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Jacobus", "rootLanguage": "Latin", "rootMeaning": "James, name of King James I of England", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "Jacobus", "highlight": true }, { "text": " (James); King James I's reign named a style blending Gothic and Renaissance detail.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Jacobus", "correctAnswer": "James, name of King James I of England", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Edwardian",
+    "pronunciation": "ed-WOR-dee-un",
+    "pos": "adjective",
+    "definition": "Describing a lighter, more classically restrained British style from the early 20th century, a reaction against Victorian heaviness.",
+    "origin": "<strong>Edwardian</strong> is named for <strong>King Edward VII</strong> of Britain, whose reign from 1901 to 1910 gave the short but influential era its name. Architects of the period reacted against the dark, densely ornamented Victorian houses that preceded them, favouring lighter brickwork, larger windows, generous gardens, and a renewed classical restraint influenced by the grander Beaux-Arts and Baroque revivals then fashionable. Edwardian houses remain prized today for their airy proportions and abundant natural light.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Edwardian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named for", "b": "King Edward VII of Britain" },
+          { "a": "His reign", "b": "1901 to 1910" },
+          { "a": "Reacted against", "b": "Dark, densely ornamented Victorian houses" },
+          { "a": "Influenced by", "b": "Beaux-Arts and Baroque revivals" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Edwardian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Edwardian describes", "b": "A lighter, classically restrained British style" },
+          { "a": "Typical features", "b": "Larger windows and lighter brickwork" },
+          { "a": "Also favoured", "b": "Generous gardens and airy proportions" },
+          { "a": "A reaction against", "b": "Victorian heaviness" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Edwardian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wide bay windows brightened the", "b": "Edwardian villa" },
+          { "a": "The estate agent praised the house's airy", "b": "Edwardian proportions" },
+          { "a": "Compared to its Victorian neighbours, the", "b": "Edwardian terrace felt spacious" },
+          { "a": "Restorers kept the original", "b": "Edwardian tiled porch" }
+        ] }
+    ],
+    "roots": [ { "rootText": "King Edward VII", "rootLanguage": "British monarch, reigned 1901–1910", "rootMeaning": "British king whose reign named the era's lighter style", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "King Edward VII", "highlight": true }, { "text": ", whose brief reign gave its name to a lighter reaction against Victorian heaviness.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "King Edward VII", "correctAnswer": "British king whose reign named the era's lighter style", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Churrigueresque",
+    "pronunciation": "choo-ree-guh-RESK",
+    "pos": "adjective",
+    "definition": "Describing an extravagantly ornate Spanish Baroque style of sculpted altarpiece-like facades, densely packed with carved detail.",
+    "origin": "<strong>Churrigueresque</strong> is named for <strong>José Benito de Churriguera</strong> (1665–1725) and his brothers, a family of Spanish architects and altar designers whose lavish, sculpture-crowded altarpieces inspired an entire architectural style applied to church facades across late-17th- and 18th-century Spain. The style piled twisted columns, deep relief carving, and swirling ornament onto entrances until stone seemed to froth like an altarpiece turned outward. Spanish colonizers carried the style to Mexico and elsewhere in Latin America, where it flourished with even greater exuberance.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Churrigueresque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "José Benito de Churriguera", "b": "Spanish architect and altar designer, 1665–1725" },
+          { "a": "Family profession", "b": "Designing lavish, sculpture-crowded altarpieces" },
+          { "a": "Applied to", "b": "Church facades across Spain" },
+          { "a": "Carried by colonizers to", "b": "Mexico and Latin America" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Churrigueresque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Churrigueresque describes", "b": "Extravagantly ornate Spanish Baroque facades" },
+          { "a": "Typical feature", "b": "Twisted columns and deep relief carving" },
+          { "a": "Effect resembles", "b": "An altarpiece turned outward onto the entrance" },
+          { "a": "Flourished with extra exuberance in", "b": "Colonial Latin America" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Churrigueresque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Carved saints and twisted columns crowded the", "b": "Churrigueresque facade" },
+          { "a": "The cathedral's entrance was smothered in", "b": "Churrigueresque ornament" },
+          { "a": "Visitors marvelled at the sheer density of the", "b": "Churrigueresque stonework" },
+          { "a": "The mission church's portal was a fine example of", "b": "Churrigueresque style" }
+        ] }
+    ],
+    "roots": [ { "rootText": "José Benito de Churriguera", "rootLanguage": "Spanish architect, 1665–1725", "rootMeaning": "Architect whose lavish altarpiece designs gave the style its name", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "José Benito de Churriguera", "highlight": true }, { "text": ", whose lavish altarpieces inspired facades carved as densely as an altar turned outward.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "José Benito de Churriguera", "correctAnswer": "Architect whose lavish altarpiece designs gave the style its name", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Queen Anne",
+    "pronunciation": "kween AN",
+    "pos": "noun",
+    "definition": "A Victorian-era revival style of asymmetrical facades, turrets, wraparound porches, and mixed materials, loosely and somewhat inaccurately named for an earlier British queen.",
+    "origin": "<strong>Queen Anne</strong> style is named for <strong>Anne</strong>, Queen of Great Britain from 1702 to 1714, though the flamboyant Victorian revival that bears her name, popularised in the 1870s by British architect Richard Norman Shaw, actually drew far more from later Flemish gables and Jacobean detail than from anything built during her own reign. The style crossed to America, where builders added asymmetrical turrets, wraparound porches, decorative shingles, and a riot of mixed materials, producing the elaborate \"painted lady\" houses associated with the late 19th century. The queen's name, in effect, was borrowed rather than earned.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-styles", "name": "Styles & Movements", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Queen Anne</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Queen Anne", "b": "Queen of Great Britain, reigned 1702–1714" },
+          { "a": "Revival popularised in the 1870s by", "b": "Richard Norman Shaw" },
+          { "a": "Drew more from", "b": "Flemish gables and Jacobean detail" },
+          { "a": "In America produced", "b": "Elaborate \"painted lady\" houses" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Queen Anne</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Queen Anne describes", "b": "An asymmetrical Victorian revival style" },
+          { "a": "Typical features", "b": "Turrets and wraparound porches" },
+          { "a": "Also marked by", "b": "Decorative shingles and mixed materials" },
+          { "a": "Despite its name, largely unrelated to", "b": "Actual buildings from Queen Anne's own reign" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Queen Anne</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A corner turret crowned the", "b": "Queen Anne house" },
+          { "a": "The wraparound porch was a hallmark of", "b": "Queen Anne design" },
+          { "a": "Fish-scale shingles decorated the gable of the", "b": "Queen Anne cottage" },
+          { "a": "Tourists photographed the block's colourful", "b": "Queen Anne \"painted ladies\"" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Queen Anne", "rootLanguage": "British monarch, reigned 1702–1714", "rootMeaning": "British queen whose name was borrowed, loosely, for a later Victorian revival style", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named, somewhat inaccurately, for ", "highlight": false }, { "text": "Queen Anne", "highlight": true }, { "text": ", though the Victorian revival owes more to Flemish and Jacobean detail than her own reign.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Queen Anne", "correctAnswer": "British queen whose name was borrowed, loosely, for a later Victorian revival style", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

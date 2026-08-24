@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Stucco",
+    "pronunciation": "STUK-oh",
+    "pos": "noun",
+    "definition": "A fine plaster or cement finish, textured or smoothed and applied to walls and ceilings, especially on the exterior of buildings.",
+    "origin": "From Italian <strong>stucco</strong>, itself borrowed from Old High German stukki (a crust, a piece, a fragment). Italian plasterers used the word for the fine, hard-setting finish they built up in thin crusted layers over walls and mouldings. English adopted the term directly in the 17th century along with the Italian technique itself.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stucco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian stucco", "b": "Borrowed directly into English" },
+          { "a": "Old High German stukki", "b": "A crust, a fragment" },
+          { "a": "Italian plasterers applied it in", "b": "Thin, hard-setting layers" },
+          { "a": "English adopted the word and technique in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stucco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Stucco is a type of", "b": "Plaster or cement finish" },
+          { "a": "Stucco is commonly applied to a building's", "b": "Exterior walls" },
+          { "a": "Stucco can be left smooth or worked into a", "b": "Textured finish" },
+          { "a": "A material similar to stucco used indoors is", "b": "Plaster" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stucco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The Spanish-style villa had walls of white", "b": "Stucco" },
+          { "a": "Cracks appeared in the old", "b": "Stucco facade" },
+          { "a": "Workers troweled a fresh coat of", "b": "Stucco onto the frame" },
+          { "a": "The Mediterranean town was known for its pink", "b": "Stucco buildings" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stukki", "rootLanguage": "Old High German", "rootMeaning": "A crust, a fragment", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old High German ", "highlight": false }, { "text": "stukki", "highlight": true }, { "text": " (a crust); a fine plaster built up in thin, hard-setting layers.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stukki", "correctAnswer": "A crust, a fragment", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mortar",
+    "pronunciation": "MOR-tuh",
+    "pos": "noun",
+    "definition": "A paste of cement, lime, sand, and water used to bind bricks or stones together and fill the joints between them.",
+    "origin": "From Old French mortier, from Latin <strong>mortarium</strong>, which named both a bowl for pounding and grinding, and the paste produced in it. The tool that mixed lime, sand, and water eventually lent its name to the substance itself, and separately to the bowl-shaped weapon that lobs shells, from the same root.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mortar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French mortier", "b": "Passed the Latin word into English" },
+          { "a": "Latin mortarium", "b": "A bowl for pounding and grinding" },
+          { "a": "The same root also names the", "b": "Weapon that lobs shells" },
+          { "a": "The paste took its name from the", "b": "Bowl used to mix it" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mortar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mortar binds together", "b": "Bricks or stones" },
+          { "a": "Mortar is made from cement, lime, sand, and", "b": "Water" },
+          { "a": "Mortar fills the", "b": "Joints between masonry units" },
+          { "a": "A crumbling wall often needs its", "b": "Mortar repointed" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mortar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bricklayer spread a fresh line of", "b": "Mortar" },
+          { "a": "Decades of rain had worn away the", "b": "Mortar between the bricks" },
+          { "a": "Restorers carefully repointed the crumbling", "b": "Mortar joints" },
+          { "a": "The wall's stones were set without any", "b": "Mortar at all" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mortarium", "rootLanguage": "Latin", "rootMeaning": "A pounding bowl; also the paste made in it", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "mortarium", "highlight": true }, { "text": " (a pounding bowl); the same word that named both a mixing bowl and the paste mixed within it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mortarium", "correctAnswer": "A pounding bowl; also the paste made in it", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cladding",
+    "pronunciation": "KLAD-ing",
+    "pos": "noun",
+    "definition": "A layer of material fixed to the exterior of a building to provide a weatherproof, insulating, or decorative skin.",
+    "origin": "From the verb <strong>clad</strong>, an old past-tense form of clothe, ultimately from Old Norse klæða (to clothe). Builders began speaking of 'cladding' a structure in the 20th century, treating an exterior weatherproof layer as a building's clothing.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cladding</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The verb clad", "b": "An old past form of clothe" },
+          { "a": "Ultimately from Old Norse", "b": "Klæða, to clothe" },
+          { "a": "Builders began using 'cladding' in the", "b": "20th century" },
+          { "a": "The metaphor treats a building's outer layer as its", "b": "Clothing" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cladding</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cladding is fixed to a building's", "b": "Exterior" },
+          { "a": "Cladding can be weatherproofing, insulating, or", "b": "Purely decorative" },
+          { "a": "Common cladding materials include timber, brick, and", "b": "Metal panels" },
+          { "a": "Faulty cladding has been linked to serious", "b": "Fire safety risks" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cladding</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tower was wrapped in aluminium", "b": "Cladding" },
+          { "a": "Inspectors flagged the flammable", "b": "Cladding for removal" },
+          { "a": "The renovated barn was finished in timber", "b": "Cladding" },
+          { "a": "Engineers tested the new panels'", "b": "Cladding performance" }
+        ] }
+    ],
+    "roots": [ { "rootText": "clad", "rootLanguage": "Old Norse (via Old English)", "rootMeaning": "To clothe", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "clad", "highlight": true }, { "text": ", an old form of clothe; a building's weatherproof outer skin, like clothing for its frame.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "clad", "correctAnswer": "To clothe", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lintel",
+    "pronunciation": "LIN-tuhl",
+    "pos": "noun",
+    "definition": "A horizontal beam of stone, wood, or steel spanning the top of a door or window opening to bear the weight above it.",
+    "origin": "From Old French lintel, from Vulgar Latin <strong>limitaris</strong> (belonging to a boundary or threshold), from Latin limen (threshold). The word travelled from marking the doorway's edge to naming the beam that spans it.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lintel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French lintel", "b": "Carried the word into English" },
+          { "a": "Vulgar Latin limitaris", "b": "Belonging to a boundary or threshold" },
+          { "a": "Latin limen", "b": "Threshold" },
+          { "a": "The word shifted from the doorway's edge to", "b": "The beam spanning it" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lintel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A lintel spans the top of a", "b": "Door or window opening" },
+          { "a": "A lintel bears the weight of the", "b": "Wall above the opening" },
+          { "a": "Lintels can be made of stone, wood, or", "b": "Steel" },
+          { "a": "Without a lintel, an opening's edges would", "b": "Collapse under the load above" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lintel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A carved stone", "b": "Lintel topped the temple doorway" },
+          { "a": "The old cottage had a sagging timber", "b": "Lintel" },
+          { "a": "Builders installed a steel", "b": "Lintel above the new window" },
+          { "a": "Cracks radiated out from the", "b": "Lintel over the front door" }
+        ] }
+    ],
+    "roots": [ { "rootText": "limen", "rootLanguage": "Latin", "rootMeaning": "Threshold", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "limen", "highlight": true }, { "text": " (threshold), via limitaris; the beam that bridges a doorway's edge.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "limen", "correctAnswer": "Threshold", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Keystone",
+    "pronunciation": "KEE-stohn",
+    "pos": "noun",
+    "definition": "The wedge-shaped stone at the centre of an arch that locks the other stones in place and bears their combined weight.",
+    "origin": "An English compound of <strong>key</strong> (Old English cæg, of obscure origin) and stone. Builders named it for the way it locks an arch together the way a key locks a door, and by the 18th century the word had already taken on its figurative sense of an essential, unifying element.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Keystone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English compound of key and", "b": "Stone" },
+          { "a": "Old English cæg", "b": "Of obscure origin" },
+          { "a": "Named for the way it locks together", "b": "An arch" },
+          { "a": "By the 18th century it had gained a figurative sense of", "b": "An essential, unifying element" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Keystone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A keystone sits at the", "b": "Centre of an arch" },
+          { "a": "A keystone locks the other stones by bearing their", "b": "Combined weight" },
+          { "a": "'The keystone of the argument' figuratively means its", "b": "Essential, load-bearing point" },
+          { "a": "Remove the keystone and an arch will", "b": "Collapse" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Keystone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Masons hoisted the carved", "b": "Keystone into place" },
+          { "a": "The treaty was called the", "b": "Keystone of the alliance" },
+          { "a": "Weathering had cracked the arch's", "b": "Keystone" },
+          { "a": "Her research became the", "b": "Keystone of the whole project" }
+        ] }
+    ],
+    "roots": [ { "rootText": "key", "rootLanguage": "Old English", "rootMeaning": "Cæg, a device that locks", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An English compound of ", "highlight": false }, { "text": "key", "highlight": true }, { "text": " and stone; the wedge that locks an arch together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "key", "correctAnswer": "Cæg, a device that locks", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Concrete",
+    "pronunciation": "KON-kreet",
+    "pos": "noun",
+    "definition": "A hard, strong building material made by mixing cement, water, and aggregate such as sand or gravel, which sets and hardens over time.",
+    "origin": "From Latin <strong>concretus</strong>, past participle of concrescere (to grow together), from com- (together) + crescere (to grow). The Romans used concretus for anything solidified from separate parts, and the modern building material inherited the name for the way loose aggregate and cement fuse into one solid mass.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Concrete</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin concretus", "b": "Grown together, solidified" },
+          { "a": "From com- (together) and", "b": "Crescere, to grow" },
+          { "a": "Romans used concretus for anything", "b": "Solidified from separate parts" },
+          { "a": "The modern material inherited the name for how aggregate and cement", "b": "Fuse into one mass" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Concrete</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Concrete is made from cement, water, and", "b": "Aggregate such as sand or gravel" },
+          { "a": "Concrete sets and hardens through a chemical process called", "b": "Curing" },
+          { "a": "Steel bars are added to concrete to improve its", "b": "Tensile strength" },
+          { "a": "'Concrete evidence' figuratively means something", "b": "Solid and specific, not vague" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Concrete</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Workers poured a slab of wet", "b": "Concrete" },
+          { "a": "The bridge's piers were cast from reinforced", "b": "Concrete" },
+          { "a": "She asked for a more", "b": "Concrete plan, not vague promises" },
+          { "a": "The brutalist building was built almost entirely from exposed", "b": "Concrete" }
+        ] }
+    ],
+    "roots": [ { "rootText": "concrescere", "rootLanguage": "Latin", "rootMeaning": "To grow together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "concrescere", "highlight": true }, { "text": " (to grow together); loose aggregate and cement fused into one solid mass.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "concrescere", "correctAnswer": "To grow together", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Masonry",
+    "pronunciation": "MAY-suhn-ree",
+    "pos": "noun",
+    "definition": "Stonework or brickwork constructed by fitting and binding individual units together, or the trade of building with such units.",
+    "origin": "From Old French maçonerie, from maçon (mason, stoneworker), a word of disputed Germanic origin, possibly from Frankish makjo (maker). The trade name for stone- and brickwork entered English in the 14th century alongside the guild of masons who practised it.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Masonry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French maçonerie", "b": "Passed the trade name into English" },
+          { "a": "From maçon", "b": "Mason, stoneworker" },
+          { "a": "Possibly from Frankish", "b": "Makjo, maker" },
+          { "a": "Entered English in the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Masonry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Masonry is stonework or brickwork built by", "b": "Fitting and binding individual units" },
+          { "a": "Masonry can also refer to the", "b": "Trade of building with such units" },
+          { "a": "Load-bearing masonry walls support the", "b": "Structure above them" },
+          { "a": "Unreinforced masonry is especially vulnerable to", "b": "Earthquake damage" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Masonry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old bridge showed superb 19th-century", "b": "Masonry" },
+          { "a": "He trained for years as a", "b": "Masonry apprentice" },
+          { "a": "Vines had crept over the crumbling", "b": "Masonry" },
+          { "a": "The cathedral's masonry took generations of skilled", "b": "Masons to complete" }
+        ] }
+    ],
+    "roots": [ { "rootText": "maçon", "rootLanguage": "Old French (Germanic origin)", "rootMeaning": "Stoneworker, maker", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "maçon", "highlight": true }, { "text": " (stoneworker); the craft, and its product, of building with stone and brick.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "maçon", "correctAnswer": "Stoneworker, maker", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Timber",
+    "pronunciation": "TIM-buh",
+    "pos": "noun",
+    "definition": "Wood that has been cut and prepared for use in building or carpentry.",
+    "origin": "From Old English <strong>timber</strong> (building, structure, building material), from Proto-Germanic timran, related to Old High German zimbar (room, building). The word originally named the act of building itself before narrowing to the wood used for it.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Timber</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English timber", "b": "Building, building material" },
+          { "a": "Proto-Germanic timran", "b": "Related to building or a structure" },
+          { "a": "Cognate with Old High German zimbar, meaning", "b": "Room, building" },
+          { "a": "The word originally named", "b": "The act of building itself" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Timber</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Timber is wood that has been", "b": "Cut and prepared for building" },
+          { "a": "'Timber!' is the traditional shout warning that a", "b": "Tree is about to fall" },
+          { "a": "A timber-framed house has its structure built from", "b": "Wooden beams" },
+          { "a": "Softwood timber such as pine is common in", "b": "Construction framing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Timber</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The barn was raised from sturdy oak", "b": "Timber" },
+          { "a": "The lumberjack shouted", "b": "Timber as the tree fell" },
+          { "a": "Reclaimed", "b": "Timber gave the floor its warm colour" },
+          { "a": "The old ship's hull was built of seasoned", "b": "Timber" }
+        ] }
+    ],
+    "roots": [ { "rootText": "zimbar / timran", "rootLanguage": "Germanic", "rootMeaning": "To build; a building", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Germanic ", "highlight": false }, { "text": "timran", "highlight": true }, { "text": " (to build); the word once meant building itself before it meant the wood used for it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "zimbar / timran", "correctAnswer": "To build; a building", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Marble",
+    "pronunciation": "MAR-buhl",
+    "pos": "noun",
+    "definition": "A hard, crystalline metamorphic rock formed from limestone, prized for building and sculpture for its ability to take a high polish.",
+    "origin": "From Old French marbre, from Latin marmor, from Greek <strong>marmaros</strong> (marble, gleaming stone), related to marmairein (to sparkle, gleam). The Greeks named the rock for its shining, polished surface, a quality still prized in the stone today.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Marble</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French marbre", "b": "Carried the word into English" },
+          { "a": "Latin marmor", "b": "From the same Greek root" },
+          { "a": "Greek marmaros", "b": "Gleaming stone" },
+          { "a": "Related to marmairein, meaning", "b": "To sparkle, gleam" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Marble</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Marble is a metamorphic rock formed from", "b": "Limestone" },
+          { "a": "Marble is prized in building and sculpture for its", "b": "Ability to take a high polish" },
+          { "a": "Michelangelo's David was carved from", "b": "Carrara marble" },
+          { "a": "Small glass or clay spheres used in a children's game are also called", "b": "Marbles" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Marble</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lobby floor was laid with polished", "b": "Marble" },
+          { "a": "The sculptor chipped away at a block of", "b": "White marble" },
+          { "a": "The children rolled coloured", "b": "Marbles across the floor" },
+          { "a": "Veins of grey ran through the pale", "b": "Marble countertop" }
+        ] }
+    ],
+    "roots": [ { "rootText": "marmaros", "rootLanguage": "Greek", "rootMeaning": "Gleaming stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "marmaros", "highlight": true }, { "text": " (gleaming stone); a rock named for its ability to shine when polished.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "marmaros", "correctAnswer": "Gleaming stone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Travertine",
+    "pronunciation": "TRAV-uh-teen",
+    "pos": "noun",
+    "definition": "A pale, banded limestone deposited by mineral springs, long quarried near Rome and widely used for flooring and facades.",
+    "origin": "From Italian travertino, an alteration of the earlier tiburtino, from Latin lapis <strong>Tiburtinus</strong> (stone of Tibur). Tibur was the ancient name of Tivoli, the town near Rome whose mineral springs deposited the pale, banded stone that built much of the Roman Colosseum.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Travertine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian travertino", "b": "An alteration of the earlier tiburtino" },
+          { "a": "Latin lapis Tiburtinus means", "b": "Stone of Tibur" },
+          { "a": "Tibur was the ancient name of the town now called", "b": "Tivoli" },
+          { "a": "Its springs deposited the stone used to build the", "b": "Roman Colosseum" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Travertine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Travertine is a pale, banded form of", "b": "Limestone" },
+          { "a": "Travertine is deposited naturally by", "b": "Mineral springs" },
+          { "a": "Travertine is widely used today for", "b": "Flooring and facades" },
+          { "a": "The Colosseum's outer walls were built largely from", "b": "Travertine" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Travertine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bathroom floor was tiled in honed", "b": "Travertine" },
+          { "a": "Ancient quarries near Tivoli still supply", "b": "Travertine" },
+          { "a": "The villa's facade was clad in warm-toned", "b": "Travertine" },
+          { "a": "Mineral springs slowly built up thick layers of", "b": "Travertine" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Tiburtinus", "rootLanguage": "Latin", "rootMeaning": "Of Tibur (Tivoli)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "Tiburtinus", "highlight": true }, { "text": " (of Tibur); a banded limestone named for the town, now Tivoli, whose springs deposited it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Tiburtinus", "correctAnswer": "Of Tibur (Tivoli)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Granite",
+    "pronunciation": "GRAN-it",
+    "pos": "noun",
+    "definition": "A hard, coarse-grained igneous rock composed mainly of quartz and feldspar, valued in construction for its durability and grainy texture.",
+    "origin": "From Italian granito (grained), from Latin <strong>granum</strong> (grain, seed). The name describes the rock's visibly speckled, grainy texture, formed from interlocking crystals of quartz, feldspar, and mica.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Granite</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian granito", "b": "Grained" },
+          { "a": "Latin granum", "b": "Grain, seed" },
+          { "a": "The name describes the rock's", "b": "Speckled, grainy texture" },
+          { "a": "That texture comes from interlocking crystals of quartz, feldspar, and", "b": "Mica" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Granite</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Granite is a hard, coarse-grained rock of", "b": "Igneous origin" },
+          { "a": "Granite is valued in construction for its", "b": "Durability" },
+          { "a": "Kitchen worktops are often cut from polished", "b": "Granite" },
+          { "a": "'A face of granite' figuratively describes someone", "b": "Hard and unyielding" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Granite</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The countertop was cut from speckled grey", "b": "Granite" },
+          { "a": "The mountain's peak was bare", "b": "Granite" },
+          { "a": "His expression remained as hard as", "b": "Granite" },
+          { "a": "Quarry workers cut huge blocks of", "b": "Granite from the hillside" }
+        ] }
+    ],
+    "roots": [ { "rootText": "granum", "rootLanguage": "Latin", "rootMeaning": "Grain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "granum", "highlight": true }, { "text": " (grain); a rock named for its visibly grainy, crystalline texture.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "granum", "correctAnswer": "Grain", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Slate",
+    "pronunciation": "slayt",
+    "pos": "noun",
+    "definition": "A fine-grained metamorphic rock that splits easily into thin, smooth layers, traditionally used for roofing and flooring.",
+    "origin": "From Old French esclate, related to esclater (to split, shatter), traced to a Germanic root meaning to split or tear, the same root that gives English <strong>slit</strong>. The name captures the rock's defining property: it cleaves cleanly into thin, flat sheets.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Slate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French esclate", "b": "A split piece, splinter" },
+          { "a": "Related to esclater, meaning", "b": "To split, shatter" },
+          { "a": "Traced to a Germanic root shared with English", "b": "Slit" },
+          { "a": "The name captures the rock's ability to", "b": "Cleave into thin, flat sheets" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Slate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Slate is a fine-grained rock that splits into", "b": "Thin, smooth layers" },
+          { "a": "Slate has traditionally been used for", "b": "Roofing and flooring" },
+          { "a": "'A clean slate' figuratively means a fresh", "b": "Start, free of past record" },
+          { "a": "A list of candidates for election is also called a", "b": "Slate" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Slate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Grey", "b": "Slate tiles covered the cottage roof" },
+          { "a": "After the scandal, he hoped for a clean", "b": "Slate" },
+          { "a": "The party announced its", "b": "Slate of candidates" },
+          { "a": "Rain drummed steadily on the", "b": "Slate roof" }
+        ] }
+    ],
+    "roots": [ { "rootText": "slaitan", "rootLanguage": "Germanic (via Old French esclater)", "rootMeaning": "To split, tear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From a Germanic root ", "highlight": false }, { "text": "slaitan", "highlight": true }, { "text": " (to split); a rock named for the way it cleaves into thin, flat sheets.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "slaitan", "correctAnswer": "To split, tear", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Terracotta",
+    "pronunciation": "te-ruh-KOT-uh",
+    "pos": "noun",
+    "definition": "Unglazed, fired clay of a brownish-orange colour, used for roof tiles, pottery, and decorative building ornament.",
+    "origin": "From Italian <strong>terra cotta</strong>, literally 'baked earth,' from Latin terra (earth) and cocta, the feminine past participle of coquere (to cook). Renaissance sculptors and builders adopted the Italian phrase directly for the fired reddish-brown clay used in tiles, pipes, and ornament.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Terracotta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian terra cotta means", "b": "Baked earth" },
+          { "a": "Latin terra", "b": "Earth" },
+          { "a": "Latin cocta", "b": "Cooked, baked" },
+          { "a": "Renaissance builders adopted the Italian phrase for", "b": "Fired reddish-brown clay" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Terracotta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Terracotta is clay that has been", "b": "Fired but left unglazed" },
+          { "a": "Terracotta is typically a", "b": "Brownish-orange colour" },
+          { "a": "Terracotta is commonly used for roof tiles and", "b": "Decorative ornament" },
+          { "a": "China's famous buried army of clay soldiers is called the", "b": "Terracotta Army" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Terracotta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The courtyard was paved with warm", "b": "Terracotta tiles" },
+          { "a": "Tourists filed past rows of the", "b": "Terracotta Army" },
+          { "a": "Herbs grew in simple", "b": "Terracotta pots" },
+          { "a": "The villa's roof was covered in curved", "b": "Terracotta tiles" }
+        ] }
+    ],
+    "roots": [ { "rootText": "terra cotta", "rootLanguage": "Italian (from Latin)", "rootMeaning": "Baked earth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "terra cotta", "highlight": true }, { "text": ", literally 'baked earth'; fired clay used for tile, pipe, and ornament.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "terra cotta", "correctAnswer": "Baked earth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Glass",
+    "pronunciation": "glahs",
+    "pos": "noun",
+    "definition": "A hard, brittle, transparent material made by fusing sand with other minerals at high temperature, used for windows and facades.",
+    "origin": "From Old English <strong>glæs</strong>, from Proto-Germanic glasan, ultimately from a prehistoric root meaning to shine or glow, shared with Latin glaesum (amber). Amber and glass were linked in early speech by their common quality of gleaming translucence.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Glass</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English glæs", "b": "Passed directly into modern English" },
+          { "a": "Proto-Germanic glasan", "b": "Traces to a root meaning to shine or glow" },
+          { "a": "Related to Latin glaesum, meaning", "b": "Amber" },
+          { "a": "Amber and glass were linked by their shared", "b": "Gleaming translucence" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Glass</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Glass is made by fusing sand with other minerals at", "b": "High temperature" },
+          { "a": "Glass is prized in architecture for being both hard and", "b": "Transparent" },
+          { "a": "Curtain-wall skyscrapers use glass for their entire", "b": "Facade" },
+          { "a": "'Looking through rose-tinted glass' figuratively means viewing something", "b": "Too favourably" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Glass</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sunlight poured through the wall of", "b": "Glass" },
+          { "a": "The skyscraper's facade was sheathed entirely in", "b": "Glass" },
+          { "a": "He viewed the whole affair through rose-tinted", "b": "Glass" },
+          { "a": "The storm shattered every pane of", "b": "Glass in the greenhouse" }
+        ] }
+    ],
+    "roots": [ { "rootText": "glæs", "rootLanguage": "Old English", "rootMeaning": "To shine, glow (shared root with amber)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "glæs", "highlight": true }, { "text": ", from a root meaning to shine; a material named for its gleaming translucence.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "glæs", "correctAnswer": "To shine, glow (shared root with amber)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Steel",
+    "pronunciation": "steel",
+    "pos": "noun",
+    "definition": "A strong, hard alloy of iron and carbon, widely used to frame and reinforce modern buildings.",
+    "origin": "From Old English <strong>stiele</strong>, from Proto-Germanic stakhlijan, built on a root meaning to stand firm or be rigid. The name has always pointed to the metal's defining virtue over plain iron: greater hardness and strength.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Steel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English stiele", "b": "Passed into modern English as steel" },
+          { "a": "Proto-Germanic stakhlijan", "b": "Built on a root meaning firm, rigid" },
+          { "a": "The name always pointed to the metal's", "b": "Greater hardness than plain iron" },
+          { "a": "Steel is made by alloying iron with", "b": "Carbon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Steel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Steel is an alloy of iron and", "b": "Carbon" },
+          { "a": "Steel is widely used to frame and", "b": "Reinforce modern buildings" },
+          { "a": "'Nerves of steel' figuratively describes someone", "b": "Calm and unshakeable under pressure" },
+          { "a": "Stainless steel resists", "b": "Corrosion and rust" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Steel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The skyscraper's frame was built from", "b": "Structural steel" },
+          { "a": "The surgeon kept", "b": "Nerves of steel throughout the operation" },
+          { "a": "Workers welded the", "b": "Steel beams into place" },
+          { "a": "The bridge's cables were spun from high-tensile", "b": "Steel" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stakhlijan", "rootLanguage": "Germanic", "rootMeaning": "To stand firm, be rigid", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Germanic ", "highlight": false }, { "text": "stakhlijan", "highlight": true }, { "text": ", a root meaning to stand firm; named for the metal's hardness over plain iron.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stakhlijan", "correctAnswer": "To stand firm, be rigid", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Iron",
+    "pronunciation": "EYE-uhn",
+    "pos": "noun",
+    "definition": "A strong, heavy metallic element, widely used since antiquity for tools, structural fittings, and decorative ironwork.",
+    "origin": "From Old English <strong>iren</strong>, from Proto-Germanic isarnan, likely borrowed from Celtic *isarnon, possibly ultimately meaning 'holy metal' for the reverence early ironworking commanded. The word displaced the older Germanic term for the metal as ironworking spread across northern Europe in the Iron Age.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Iron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English iren", "b": "Passed into modern English as iron" },
+          { "a": "Proto-Germanic isarnan", "b": "Likely borrowed from a Celtic word" },
+          { "a": "The Celtic root possibly meant", "b": "Holy metal" },
+          { "a": "The word spread as ironworking took hold during the", "b": "Iron Age" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Iron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Iron is a strong, heavy metallic", "b": "Element" },
+          { "a": "Iron has been used since antiquity for tools and", "b": "Structural fittings" },
+          { "a": "'Rule with an iron fist' figuratively means to govern", "b": "Harshly and without flexibility" },
+          { "a": "Left exposed to moisture, iron will", "b": "Rust" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Iron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gate was forged from ornate wrought", "b": "Iron" },
+          { "a": "The general ruled the province with an", "b": "Iron fist" },
+          { "a": "Rust had eaten away at the old", "b": "Iron railings" },
+          { "a": "Blacksmiths hammered the glowing bar of", "b": "Iron on the anvil" }
+        ] }
+    ],
+    "roots": [ { "rootText": "isarnan", "rootLanguage": "Proto-Germanic (from Celtic)", "rootMeaning": "Possibly 'holy metal'", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Germanic ", "highlight": false }, { "text": "isarnan", "highlight": true }, { "text": ", likely borrowed from Celtic, possibly meaning 'holy metal.'", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "isarnan", "correctAnswer": "Possibly 'holy metal'", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brick",
+    "pronunciation": "brik",
+    "pos": "noun",
+    "definition": "A small rectangular block of fired or sun-dried clay, used as a standard building unit for walls.",
+    "origin": "From Middle English brik, from Old French brique, from Middle Dutch <strong>bricke</strong> (a tile, a fragment), related to breken (to break). The word likely began as a term for a broken-off piece before settling on the shaped, fired block builders still use.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brick</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French brique", "b": "Carried the word into Middle English" },
+          { "a": "Middle Dutch bricke", "b": "A tile, a fragment" },
+          { "a": "Related to breken, meaning", "b": "To break" },
+          { "a": "The word likely began as a term for", "b": "A broken-off piece" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brick</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A brick is a small rectangular block of", "b": "Fired or sun-dried clay" },
+          { "a": "Bricks are laid as a standard unit for building", "b": "Walls" },
+          { "a": "'Drop like a brick' figuratively means to fall", "b": "Suddenly and heavily" },
+          { "a": "A wall's brick pattern of overlapping rows is called its", "b": "Bond" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brick</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old warehouse was built from red", "b": "Brick" },
+          { "a": "News of the closure hit the workers like a", "b": "Ton of bricks" },
+          { "a": "Masons laid each", "b": "Brick in a neat, overlapping bond" },
+          { "a": "The fireplace was framed in exposed", "b": "Brick" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bricke", "rootLanguage": "Middle Dutch", "rootMeaning": "A tile, a fragment", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "bricke", "highlight": true }, { "text": " (a tile), related to breken, to break; once a broken-off fragment, now a shaped building block.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bricke", "correctAnswer": "A tile, a fragment", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stone",
+    "pronunciation": "stohn",
+    "pos": "noun",
+    "definition": "Hard mineral rock, quarried or gathered, used since antiquity as a durable material for building and paving.",
+    "origin": "From Old English <strong>stan</strong>, from Proto-Germanic stainaz, tracing to a Proto-Indo-European root meaning to condense or grow hard. It is one of the oldest surviving words in English, describing humanity's oldest building material.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English stan", "b": "Passed directly into modern English" },
+          { "a": "Proto-Germanic stainaz", "b": "An ancient native Germanic word" },
+          { "a": "Traces to a Proto-Indo-European root meaning", "b": "To condense, grow hard" },
+          { "a": "It is one of English's", "b": "Oldest surviving words" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Stone is hard mineral rock, quarried or", "b": "Gathered" },
+          { "a": "Stone has been used since antiquity for building and", "b": "Paving" },
+          { "a": "A kidney stone is a hard", "b": "Mineral deposit in the body" },
+          { "a": "'Leave no stone unturned' figuratively means to search", "b": "Exhaustively" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The castle walls were built from massive blocks of", "b": "Stone" },
+          { "a": "Detectives promised to leave no", "b": "Stone unturned" },
+          { "a": "The path was paved with flat", "b": "Stone slabs" },
+          { "a": "He was diagnosed with a painful kidney", "b": "Stone" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stainaz", "rootLanguage": "Proto-Germanic", "rootMeaning": "To condense, grow hard", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Germanic ", "highlight": false }, { "text": "stainaz", "highlight": true }, { "text": ", tracing to a root meaning to condense or harden; one of English's oldest words.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stainaz", "correctAnswer": "To condense, grow hard", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Plaster",
+    "pronunciation": "PLAH-stuh",
+    "pos": "noun",
+    "definition": "A soft mixture of lime or gypsum, sand, and water that hardens into a smooth solid coating for walls and ceilings.",
+    "origin": "From Old English plaster, from Latin plastrum, a shortening of <strong>emplastrum</strong>, from Greek emplassein (to daub on, smear over). The word first named a medicinal salve spread on wounds before builders borrowed it for the smooth, spreadable coating applied to walls.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Plaster</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin plastrum", "b": "A shortening of emplastrum" },
+          { "a": "Greek emplastron", "b": "Something applied, a salve" },
+          { "a": "From emplassein, meaning", "b": "To daub over, smear on" },
+          { "a": "The word first named a", "b": "Medicinal wound salve" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Plaster</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Plaster hardens into a smooth solid coating for", "b": "Walls and ceilings" },
+          { "a": "Plaster is typically made from lime or gypsum, sand, and", "b": "Water" },
+          { "a": "A 'plaster cast' immobilises a", "b": "Broken bone" },
+          { "a": "A small adhesive bandage is also called a", "b": "Plaster" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Plaster</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Workers smoothed a fresh coat of", "b": "Plaster over the wall" },
+          { "a": "His broken arm was set in a", "b": "Plaster cast" },
+          { "a": "She pressed a small", "b": "Plaster over the cut" },
+          { "a": "Cracks spread across the ceiling's old", "b": "Plaster" }
+        ] }
+    ],
+    "roots": [ { "rootText": "emplastron", "rootLanguage": "Greek", "rootMeaning": "Something daubed on, a salve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "emplastron", "highlight": true }, { "text": " (something daubed on); once a medicinal salve, later a smooth coating for walls.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "emplastron", "correctAnswer": "Something daubed on, a salve", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gravel",
+    "pronunciation": "GRAV-uhl",
+    "pos": "noun",
+    "definition": "Loose, small rounded fragments of rock, used as an aggregate in concrete or as a surface for paths and drives.",
+    "origin": "From Old French gravele, a diminutive of grave (sand, seashore), a word probably borrowed from Gaulish or another Celtic language of pre-Roman France. It entered English in the 13th century for loose stony debris found along riverbeds and shores.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gravel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French gravele", "b": "A diminutive of grave" },
+          { "a": "Old French grave", "b": "Sand, seashore" },
+          { "a": "Probably borrowed from", "b": "Gaulish or another Celtic language" },
+          { "a": "Entered English in the", "b": "13th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gravel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gravel consists of loose, small, rounded fragments of", "b": "Rock" },
+          { "a": "Gravel is often used as an aggregate in", "b": "Concrete" },
+          { "a": "Gravel is also used to surface", "b": "Paths and drives" },
+          { "a": "'To gravel someone' informally means to leave them", "b": "Confused or stuck for an answer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gravel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tyres crunched over the", "b": "Gravel driveway" },
+          { "a": "The path was topped with fine white", "b": "Gravel" },
+          { "a": "Workers mixed sand and", "b": "Gravel into the concrete batch" },
+          { "a": "A truckload of", "b": "Gravel was dumped by the gate" }
+        ] }
+    ],
+    "roots": [ { "rootText": "grave", "rootLanguage": "Old French (Celtic origin)", "rootMeaning": "Sand, seashore", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "grave", "highlight": true }, { "text": " (sand, seashore), a word likely borrowed from Celtic; loose stony debris found along riverbeds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "grave", "correctAnswer": "Sand, seashore", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Asphalt",
+    "pronunciation": "ASS-falt",
+    "pos": "noun",
+    "definition": "A sticky black mixture of bitumen and aggregate used to surface roads and roofs.",
+    "origin": "From Greek <strong>asphaltos</strong> (bitumen), which the Greeks explained as a- (not) + sphallein (to cause to fall or fail), describing the substance as unshakeable or secure, since ancient builders prized bitumen as a binding cement that would not give way. The word reached English via Latin and French, keeping its ancient sense of a tenacious, binding black mineral pitch.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Asphalt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek asphaltos", "b": "Bitumen" },
+          { "a": "Built from a- (not) and", "b": "Sphallein, to cause to fall" },
+          { "a": "Ancient builders prized bitumen as a", "b": "Binding cement that would not give way" },
+          { "a": "The word reached English via", "b": "Latin and French" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Asphalt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Asphalt is a sticky black mixture of bitumen and", "b": "Aggregate" },
+          { "a": "Asphalt is used to surface", "b": "Roads and roofs" },
+          { "a": "Ancient Babylonians used natural asphalt to", "b": "Waterproof buildings and boats" },
+          { "a": "'Hit the asphalt' informally means to", "b": "Start working hard, get moving" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Asphalt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Crews laid fresh", "b": "Asphalt over the potholed road" },
+          { "a": "Heat shimmered off the black", "b": "Asphalt" },
+          { "a": "The roofers sealed the flat roof with", "b": "Asphalt" },
+          { "a": "Skateboarders carved across the smooth", "b": "Asphalt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "asphaltos", "rootLanguage": "Greek", "rootMeaning": "Bitumen, secure/unshakeable", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "asphaltos", "highlight": true }, { "text": " (bitumen); named for how firmly it binds, from a- (not) + sphallein (to fail).", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "asphaltos", "correctAnswer": "Bitumen, secure/unshakeable", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Copper",
+    "pronunciation": "KOP-uh",
+    "pos": "noun",
+    "definition": "A reddish, highly malleable metal valued in building for roofing, gutters, and decorative fittings, and for its resistance to corrosion.",
+    "origin": "From Old English coper, from Late Latin cuprum, a contraction of aes <strong>Cyprium</strong>, literally 'metal of Cyprus.' Rome drew much of its copper supply from mines on the island of Cyprus, and the ore's source became the metal's lasting name.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Copper</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English coper", "b": "Passed into modern English as copper" },
+          { "a": "Late Latin cuprum", "b": "A contraction of aes Cyprium" },
+          { "a": "Aes Cyprium literally means", "b": "Metal of Cyprus" },
+          { "a": "Rome drew much of its copper supply from", "b": "Mines on Cyprus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Copper</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Copper is a reddish, highly", "b": "Malleable metal" },
+          { "a": "Copper is valued in building for roofing and", "b": "Resistance to corrosion" },
+          { "a": "Aged copper develops a green surface layer called", "b": "Patina" },
+          { "a": "'A copper' is also British slang for a", "b": "Police officer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Copper</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cathedral's dome was clad in weathered", "b": "Copper" },
+          { "a": "Green patina streaked the old", "b": "Copper roof" },
+          { "a": "Electricians ran fresh", "b": "Copper wiring through the walls" },
+          { "a": "A local", "b": "Copper patrolled the market square" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Cyprium", "rootLanguage": "Latin", "rootMeaning": "Of Cyprus", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin aes ", "highlight": false }, { "text": "Cyprium", "highlight": true }, { "text": " ('metal of Cyprus'); named for the island that supplied much of Rome's copper.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Cyprium", "correctAnswer": "Of Cyprus", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bronze",
+    "pronunciation": "bronz",
+    "pos": "noun",
+    "definition": "A hard, durable alloy of copper and tin, used since antiquity for statues, fittings, and decorative architectural elements.",
+    "origin": "From French bronze, from Italian bronzo, whose origin is debated but is often traced to Persian <strong>birinj</strong> (brass), possibly carried west through Byzantine Greek trade routes. The alloy of copper and tin the word names predates its own etymology by thousands of years, first cast by Bronze Age smiths millennia before the word itself is recorded.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bronze</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French bronze", "b": "Carried the word into English" },
+          { "a": "Italian bronzo", "b": "Origin genuinely disputed by scholars" },
+          { "a": "Often traced to Persian birinj, meaning", "b": "Brass" },
+          { "a": "The alloy itself predates the word by", "b": "Thousands of years" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bronze</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bronze is a hard, durable alloy of copper and", "b": "Tin" },
+          { "a": "Bronze has been cast since antiquity for statues and", "b": "Fittings" },
+          { "a": "A third-place medal is traditionally made of", "b": "Bronze" },
+          { "a": "The 'Bronze Age' precedes the", "b": "Iron Age" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bronze</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The square was dominated by a", "b": "Bronze statue" },
+          { "a": "She stood proudly on the podium with her", "b": "Bronze medal" },
+          { "a": "Archaeologists dated the sword to the", "b": "Bronze Age" },
+          { "a": "Sunlight caught the door's ornate", "b": "Bronze handles" }
+        ] }
+    ],
+    "roots": [ { "rootText": "birinj", "rootLanguage": "Persian (disputed)", "rootMeaning": "Brass", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian bronzo, possibly from Persian ", "highlight": false }, { "text": "birinj", "highlight": true }, { "text": " (brass); an alloy far older than its own uncertain name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "birinj", "correctAnswer": "Brass", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Limestone",
+    "pronunciation": "LYME-stohn",
+    "pos": "noun",
+    "definition": "A sedimentary rock composed mainly of calcium carbonate, quarried extensively for building stone and as a raw material for cement and lime.",
+    "origin": "An English compound of <strong>lime</strong> and stone. Lime traces to Old English lim (a sticky, adhesive substance, birdlime), from a Germanic root related to loam, describing the sticky quicklime that could be burned out of the rock and used as mortar and cement.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Limestone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English compound of lime and", "b": "Stone" },
+          { "a": "Old English lim", "b": "A sticky, adhesive substance" },
+          { "a": "Related to the Germanic root behind", "b": "Loam" },
+          { "a": "Quicklime was traditionally burned out of the rock for use as", "b": "Mortar and cement" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Limestone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Limestone is a sedimentary rock composed mainly of", "b": "Calcium carbonate" },
+          { "a": "Limestone is a raw material for making", "b": "Cement and lime" },
+          { "a": "Limestone caves are often shaped by", "b": "Slowly dissolving groundwater" },
+          { "a": "Fossils are commonly preserved within", "b": "Limestone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Limestone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cathedral's facade was carved from pale", "b": "Limestone" },
+          { "a": "Rainwater had slowly dissolved the", "b": "Limestone into caves" },
+          { "a": "Quarry workers cut huge blocks of", "b": "Limestone from the hillside" },
+          { "a": "The cliff face was studded with ancient", "b": "Limestone fossils" }
+        ] }
+    ],
+    "roots": [ { "rootText": "lim", "rootLanguage": "Old English", "rootMeaning": "A sticky, adhesive substance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "lim", "highlight": true }, { "text": " (a sticky substance); the rock that yields quicklime, once burned out for mortar and cement.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "lim", "correctAnswer": "A sticky, adhesive substance", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sandstone",
+    "pronunciation": "SAND-stohn",
+    "pos": "noun",
+    "definition": "A sedimentary rock formed from compacted sand grains, valued in building for its workability and warm colour.",
+    "origin": "An English compound of sand and stone, both native Old English words with no borrowed roots. The name is entirely descriptive: <strong>stone</strong> formed by the compaction and cementing of grains of sand over geological time.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sandstone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English compound of sand and", "b": "Stone" },
+          { "a": "Both are native", "b": "Old English words" },
+          { "a": "The name is entirely", "b": "Descriptive, not borrowed" },
+          { "a": "Describes rock formed from compacted grains of", "b": "Sand" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sandstone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sandstone forms from the compaction of", "b": "Sand grains over geological time" },
+          { "a": "Sandstone is valued in building for its warm colour and", "b": "Workability" },
+          { "a": "Many famous canyons were carved from layers of", "b": "Sandstone" },
+          { "a": "'Brownstone' rowhouses take their name from a variety of reddish-brown", "b": "Sandstone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sandstone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The desert cliffs glowed red at sunset,", "b": "Layers of ancient sandstone" },
+          { "a": "Masons shaped the soft, warm-toned", "b": "Sandstone into blocks" },
+          { "a": "Wind and water had carved the", "b": "Sandstone into strange arches" },
+          { "a": "Rows of elegant", "b": "Sandstone townhouses lined the street" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sand + stone", "rootLanguage": "Old English", "rootMeaning": "Stone formed from compacted sand", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An English compound of ", "highlight": false }, { "text": "sand + stone", "highlight": true }, { "text": "; rock formed as grains of sand compact and cement together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sand + stone", "correctAnswer": "Stone formed from compacted sand", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rubble",
+    "pronunciation": "RUB-uhl",
+    "pos": "noun",
+    "definition": "Rough fragments of broken stone or masonry, used as fill or as coarse building material, or left behind by demolition.",
+    "origin": "From Middle English robel or rubel, a word of uncertain origin likely related to rubbish and to Anglo-French <strong>robe</strong> in the sense of plundered or discarded stuff. By the 14th century it named the rough broken stone left over from quarrying or demolition.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rubble</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle English robel or rubel", "b": "Of genuinely uncertain origin" },
+          { "a": "Possibly related to Anglo-French robe, meaning", "b": "Plundered or discarded stuff" },
+          { "a": "Also linked to the English word", "b": "Rubbish" },
+          { "a": "By the 14th century it named", "b": "Broken stone from quarrying or demolition" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rubble</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Rubble consists of rough fragments of", "b": "Broken stone or masonry" },
+          { "a": "Rubble can be used as", "b": "Fill or coarse building material" },
+          { "a": "After an earthquake, rescuers search through", "b": "Rubble for survivors" },
+          { "a": "A wall built from unshaped, irregular stone is called", "b": "Rubble masonry" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rubble</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The demolished factory left a heap of", "b": "Rubble" },
+          { "a": "Rescue crews dug through the", "b": "Rubble for survivors" },
+          { "a": "The garden wall was built from rough", "b": "Rubble masonry" },
+          { "a": "Dust still rose from the pile of", "b": "Rubble" }
+        ] }
+    ],
+    "roots": [ { "rootText": "robel", "rootLanguage": "Middle English (uncertain origin)", "rootMeaning": "Broken fragments, possibly related to rubbish", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle English ", "highlight": false }, { "text": "robel", "highlight": true }, { "text": ", of uncertain origin, likely related to rubbish; the rough leftovers of broken stone.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "robel", "correctAnswer": "Broken fragments, possibly related to rubbish", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Grout",
+    "pronunciation": "growt",
+    "pos": "noun",
+    "definition": "A thin fluid mortar poured into masonry joints or gaps between tiles to fill and seal them.",
+    "origin": "From Old English <strong>grut</strong> (coarse meal, groats), related to grit. The word originally described a coarse porridge or gruel before builders borrowed it, by the 17th century, for a thin, pourable mortar that could be worked into fine gaps and joints.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Grout</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English grut", "b": "Coarse meal, groats" },
+          { "a": "Related to the English word", "b": "Grit" },
+          { "a": "Originally described a coarse", "b": "Porridge or gruel" },
+          { "a": "By the 17th century builders had borrowed it for", "b": "A thin, pourable mortar" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Grout</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Grout is a thin fluid mortar poured into", "b": "Masonry joints or tile gaps" },
+          { "a": "Grout is used to", "b": "Fill and seal gaps between tiles" },
+          { "a": "Grout can discolour over time and needs periodic", "b": "Cleaning or resealing" },
+          { "a": "Unlike thicker mortar, grout is mixed to be", "b": "Thin and pourable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Grout</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tiler smoothed white", "b": "Grout into the gaps" },
+          { "a": "Years of use had left the bathroom", "b": "Grout stained grey" },
+          { "a": "She scrubbed the mouldy", "b": "Grout between the tiles" },
+          { "a": "Fresh", "b": "Grout was pressed carefully into every tile joint" }
+        ] }
+    ],
+    "roots": [ { "rootText": "grut", "rootLanguage": "Old English", "rootMeaning": "Coarse meal, groats", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "grut", "highlight": true }, { "text": " (coarse meal); once a porridge grain, later a thin, pourable mortar.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "grut", "correctAnswer": "Coarse meal, groats", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cement",
+    "pronunciation": "si-MENT",
+    "pos": "noun",
+    "definition": "A fine grey powder made by heating limestone and clay, which sets hard when mixed with water and forms the binding agent in concrete and mortar.",
+    "origin": "From Old French ciment, from Latin <strong>caementum</strong> (rough or unhewn quarry stone, chippings), from caedere (to cut). Roman builders used caementum for the rubble and stone chips bound into their concrete, and the name migrated over centuries from the stone fragments themselves to the fine binding powder that holds them together.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cement</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French ciment", "b": "Carried the word into English" },
+          { "a": "Latin caementum", "b": "Rough or unhewn quarry stone" },
+          { "a": "From caedere, meaning", "b": "To cut" },
+          { "a": "The name migrated from stone chippings to", "b": "The fine powder that binds them" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cement</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cement is a fine grey powder made by heating", "b": "Limestone and clay" },
+          { "a": "Cement sets hard when mixed with", "b": "Water" },
+          { "a": "Cement is the binding agent in both", "b": "Concrete and mortar" },
+          { "a": "'To cement a relationship' figuratively means to make it", "b": "Firm and lasting" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cement</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Bags of grey", "b": "Cement were stacked by the mixer" },
+          { "a": "The handshake seemed to", "b": "Cement their new partnership" },
+          { "a": "Workers mixed", "b": "Cement with sand and gravel" },
+          { "a": "Dust from the", "b": "Cement plant coated the nearby rooftops" }
+        ] }
+    ],
+    "roots": [ { "rootText": "caementum", "rootLanguage": "Latin", "rootMeaning": "Rough quarry stone, chippings", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "caementum", "highlight": true }, { "text": " (rough quarry stone); the name moved from rubble chips to the fine powder that binds them.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "caementum", "correctAnswer": "Rough quarry stone, chippings", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rebar",
+    "pronunciation": "REE-bar",
+    "pos": "noun",
+    "definition": "Steel bar embedded in concrete to reinforce it and resist tension.",
+    "origin": "A 20th-century American coinage, a clipped compound of <strong>reinforcing</strong> + bar. It is one of the few words in this pack with no ancient root at all, born directly in the language of the construction trade to name steel rod embedded in concrete.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rebar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A clipped compound of", "b": "Reinforcing + bar" },
+          { "a": "Coined in the", "b": "20th century" },
+          { "a": "Born directly in the language of the", "b": "Construction trade" },
+          { "a": "One of the few words in this pack with", "b": "No ancient root at all" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rebar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Rebar is steel bar embedded in", "b": "Concrete" },
+          { "a": "Rebar reinforces concrete by resisting", "b": "Tension" },
+          { "a": "Concrete alone is strong under compression but weak under", "b": "Tension" },
+          { "a": "Rebar is typically ridged to help it", "b": "Grip the surrounding concrete" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rebar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Workers tied lengths of", "b": "Rebar into a steel grid" },
+          { "a": "Rusted", "b": "Rebar poked through the crumbling slab" },
+          { "a": "The foundation was reinforced with a cage of", "b": "Rebar" },
+          { "a": "Inspectors checked the spacing of the", "b": "Rebar before the pour" }
+        ] }
+    ],
+    "roots": [ { "rootText": "reinforcing bar", "rootLanguage": "English compound", "rootMeaning": "Steel bar that reinforces concrete", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A 20th-century clipped compound of ", "highlight": false }, { "text": "reinforcing bar", "highlight": true }, { "text": "; steel embedded in concrete to resist tension.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "reinforcing bar", "correctAnswer": "Steel bar that reinforces concrete", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Aggregate",
+    "pronunciation": "AG-ri-guht",
+    "pos": "noun",
+    "definition": "Sand, gravel, crushed stone, or similar coarse material mixed with cement and water to form concrete or mortar.",
+    "origin": "From Latin <strong>aggregatus</strong>, past participle of aggregare (to add to a flock), from ad- (to) + grex (flock, herd). The Latin verb described gathering scattered things into one group, a sense modern builders inherited for the loose sand, gravel, and stone gathered together to bind into concrete.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-materials", "name": "Materials", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Aggregate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin aggregatus", "b": "Past participle of aggregare" },
+          { "a": "Aggregare comes from ad- (to) and", "b": "Grex, flock or herd" },
+          { "a": "The Latin verb described gathering scattered things into", "b": "One group" },
+          { "a": "Builders inherited the sense for sand, gravel, and stone gathered to", "b": "Bind into concrete" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Aggregate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Aggregate is coarse material such as sand, gravel, or", "b": "Crushed stone" },
+          { "a": "Aggregate is mixed with cement and water to form", "b": "Concrete or mortar" },
+          { "a": "In statistics, an 'aggregate' figure is one", "b": "Combined total" },
+          { "a": "Recycled aggregate can be made from crushed", "b": "Demolition rubble" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Aggregate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Trucks delivered loads of crushed stone", "b": "Aggregate" },
+          { "a": "The report gave the", "b": "Aggregate score for the season" },
+          { "a": "The concrete mix combined cement, water, and", "b": "Aggregate" },
+          { "a": "The quarry supplied", "b": "Aggregate for the new motorway" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aggregare", "rootLanguage": "Latin", "rootMeaning": "To add to a flock", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aggregare", "highlight": true }, { "text": " (to add to a flock); scattered sand, gravel, and stone gathered into one binding mass.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aggregare", "correctAnswer": "To add to a flock", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

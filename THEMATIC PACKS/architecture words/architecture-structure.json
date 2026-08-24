@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Cantilever",
+    "pronunciation": "KAN-tuh-lee-ver",
+    "pos": "noun",
+    "definition": "A rigid structural element, such as a beam or slab, that projects horizontally into space and is supported at only one end.",
+    "origin": "The origin of <strong>cantilever</strong> is genuinely uncertain; it appears in English builders' usage around the 1660s with no confirmed source. Some etymologists link it to <strong>cant</strong> (an edge or corner) plus lever, while others suspect a lost dialect word for a wooden bracket. Unlike most architectural terms with tidy Latin or Greek roots, this one has resisted a confident explanation for centuries.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cantilever</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "First recorded in English", "b": "Around the 1660s" },
+          { "a": "Possibly linked to cant, meaning", "b": "An edge or corner" },
+          { "a": "The second part resembles the word", "b": "Lever" },
+          { "a": "Its true source is considered", "b": "Genuinely uncertain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cantilever</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cantilever is supported at", "b": "Only one end" },
+          { "a": "A cantilever projects", "b": "Horizontally into open space" },
+          { "a": "Cantilevers rely on internal", "b": "Bending resistance rather than a second support" },
+          { "a": "Famous cantilevered structures include diving", "b": "Boards and balconies" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cantilever</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The architect designed a dramatic", "b": "Cantilevered roof over the terrace" },
+          { "a": "Engineers checked the bridge's", "b": "Cantilever arm for stress fractures" },
+          { "a": "The house's upper floor seemed to", "b": "Cantilever out over the hillside" },
+          { "a": "A cantilever crane can lift loads without a", "b": "Supporting leg beneath the load" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cant", "rootLanguage": "Uncertain (English, 17th c.)", "rootMeaning": "An edge or corner (disputed)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Origin uncertain, possibly from ", "highlight": false }, { "text": "cant", "highlight": true }, { "text": " (an edge) + lever; a beam holding itself out into empty air.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cant", "correctAnswer": "An edge or corner (disputed)", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Facade",
+    "pronunciation": "fuh-SAHD",
+    "pos": "noun",
+    "definition": "The principal exterior face of a building, especially its front; figuratively, an outward appearance that conceals the true nature of something.",
+    "origin": "From French <strong>façade</strong>, borrowed from Italian facciata, itself from faccia (face), which traces to Latin facies (form, appearance, face). Architects and writers alike adopted the word into English by the 17th century for a building's carefully composed front.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Facade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French façade, from Italian", "b": "Facciata" },
+          { "a": "Italian faccia means", "b": "Face" },
+          { "a": "Ultimately from Latin facies, meaning", "b": "Form, appearance, face" },
+          { "a": "Entered English by the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Facade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A facade is a building's", "b": "Principal exterior face" },
+          { "a": "The main facade usually faces the", "b": "Street or public entrance" },
+          { "a": "Figuratively, a facade is a false outward", "b": "Appearance concealing the truth" },
+          { "a": "'A facade of calm' means hiding", "b": "Inner distress or panic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Facade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Restorers cleaned centuries of soot from the", "b": "Cathedral's stone facade" },
+          { "a": "Behind his cheerful", "b": "Facade, he was deeply anxious" },
+          { "a": "The developer preserved the historic", "b": "Facade while gutting the interior" },
+          { "a": "Floodlights illuminated the palace's", "b": "Ornate facade at night" }
+        ] }
+    ],
+    "roots": [ { "rootText": "facies", "rootLanguage": "Latin", "rootMeaning": "Form, appearance, face", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "facies", "highlight": true }, { "text": " (face), via Italian facciata; the carefully composed face a building shows the street.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "facies", "correctAnswer": "Form, appearance, face", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rotunda",
+    "pronunciation": "roh-TUHN-duh",
+    "pos": "noun",
+    "definition": "A round building or hall, especially one capped with a dome.",
+    "origin": "From Italian <strong>rotonda</strong>, feminine of rotondo (round), which descends from Latin rotundus (round, wheel-shaped), itself built on rota (wheel). The word entered English in the 18th century as architects across Europe revived circular, domed halls modelled on the Pantheon in Rome.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rotunda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian rotonda means", "b": "Round" },
+          { "a": "From Latin rotundus, meaning", "b": "Round, wheel-shaped" },
+          { "a": "Built on the Latin root rota, meaning", "b": "Wheel" },
+          { "a": "Entered English in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rotunda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rotunda is a building or hall that is", "b": "Round in plan" },
+          { "a": "Rotundas are typically capped with a", "b": "Dome" },
+          { "a": "Rome's Pantheon is a famous ancient", "b": "Rotunda" },
+          { "a": "Many state capitol buildings feature a central", "b": "Rotunda" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rotunda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Visitors gathered beneath the museum's grand", "b": "Rotunda" },
+          { "a": "The senator's casket lay in state in the Capitol", "b": "Rotunda" },
+          { "a": "Sunlight poured through the oculus of the", "b": "Domed rotunda" },
+          { "a": "The university's library is famous for its columned", "b": "Rotunda" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rotundus", "rootLanguage": "Latin", "rootMeaning": "Round, wheel-shaped", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "rotundus", "highlight": true }, { "text": " (round); a circular hall built to echo the perfect geometry of a wheel.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rotundus", "correctAnswer": "Round, wheel-shaped", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cornice",
+    "pronunciation": "KOR-nis",
+    "pos": "noun",
+    "definition": "A horizontal decorative moulding that projects along the top of a wall or building, or beneath a roofline.",
+    "origin": "From French corniche, borrowed from Italian <strong>cornice</strong>, most likely traced back to Latin coronis (a curved or finishing line), from Greek korone (something curved, a wreath). By the Renaissance, architects used it for the crowning band that finishes off a classical entablature.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cornice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian cornice, likely from Latin", "b": "Coronis" },
+          { "a": "Latin coronis means", "b": "A curved or finishing line" },
+          { "a": "Traced further to Greek korone, meaning", "b": "Something curved, a wreath" },
+          { "a": "Renaissance architects used it for the", "b": "Crowning band atop an entablature" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cornice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cornice projects along the top of a", "b": "Wall or building" },
+          { "a": "A cornice is the topmost part of a classical", "b": "Entablature" },
+          { "a": "Interior cornices often run along the join between", "b": "Wall and ceiling" },
+          { "a": "In mountaineering, a snow cornice overhangs a", "b": "Ridge or cliff edge" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cornice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Plasterers restored the ornate", "b": "Cornice around the ballroom ceiling" },
+          { "a": "Pigeons nested along the building's stone", "b": "Cornice" },
+          { "a": "Climbers avoided the unstable snow", "b": "Cornice near the summit" },
+          { "a": "A dentil pattern ran beneath the temple's", "b": "Marble cornice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "coronis", "rootLanguage": "Latin", "rootMeaning": "A curved or finishing line", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "coronis", "highlight": true }, { "text": " (a finishing line); the crowning ledge that caps a wall or entablature.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "coronis", "correctAnswer": "A curved or finishing line", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Colonnade",
+    "pronunciation": "kol-uh-NAYD",
+    "pos": "noun",
+    "definition": "A row of evenly spaced columns, typically supporting a roof, entablature, or arcade.",
+    "origin": "From French colonnade, borrowed from Italian colonnato, formed from <strong>colonna</strong> (column), which descends from Latin columna (pillar). French architects popularised the term in the 17th century for the grand ranked columns fronting palaces and churches.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Colonnade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian colonnato, from colonna, meaning", "b": "Column" },
+          { "a": "Ultimately from Latin columna, meaning", "b": "Pillar" },
+          { "a": "Popularised in French architecture in the", "b": "17th century" },
+          { "a": "Used for the grand ranked columns fronting", "b": "Palaces and churches" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Colonnade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A colonnade is a row of evenly spaced", "b": "Columns" },
+          { "a": "A colonnade often supports a roof or", "b": "Entablature" },
+          { "a": "St Peter's Square is famous for its curving", "b": "Colonnade" },
+          { "a": "A colonnade differs from a single freestanding", "b": "Column" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Colonnade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists strolled beneath the shaded", "b": "Colonnade" },
+          { "a": "The museum's entrance is framed by a grand", "b": "Colonnade" },
+          { "a": "Rain kept pedestrians walking under the", "b": "Covered colonnade" },
+          { "a": "The palace courtyard was enclosed by a marble", "b": "Colonnade" }
+        ] }
+    ],
+    "roots": [ { "rootText": "columna", "rootLanguage": "Latin", "rootMeaning": "Pillar", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "columna", "highlight": true }, { "text": " (pillar); a marching rank of columns holding up roof or entablature.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "columna", "correctAnswer": "Pillar", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Truss",
+    "pronunciation": "truhs",
+    "pos": "noun",
+    "definition": "A rigid framework of triangulated beams or bars, used to span a distance and support a roof, bridge, or floor.",
+    "origin": "From Old French <strong>trousse</strong> (a bundle, package), from trousser (to bundle up, pack tightly together). The word first meant a bundle bound tightly with rope, and by the 16th century it was applied to a tightly braced framework of timber built to bear a load.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Truss</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French trousse means", "b": "A bundle, package" },
+          { "a": "From trousser, meaning", "b": "To bundle up, pack tightly" },
+          { "a": "Originally described a bundle bound with", "b": "Rope" },
+          { "a": "Applied to braced timber frameworks by the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Truss</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A truss is built from", "b": "Triangulated beams or bars" },
+          { "a": "A truss is used to span a distance and support a", "b": "Roof, bridge, or floor" },
+          { "a": "Triangles make a truss rigid because they resist", "b": "Changing shape under load" },
+          { "a": "As a verb, to truss a bird means to", "b": "Bind its legs and wings tightly" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Truss</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Cranes lifted the steel roof", "b": "Truss into place" },
+          { "a": "The old barn's timber", "b": "Truss had begun to sag" },
+          { "a": "Engineers calculated the load each", "b": "Truss member could bear" },
+          { "a": "The railway bridge used a riveted iron", "b": "Truss design" }
+        ] }
+    ],
+    "roots": [ { "rootText": "trousser", "rootLanguage": "Old French", "rootMeaning": "To bundle up, pack tightly", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "trousser", "highlight": true }, { "text": " (to bundle tightly); braced timbers bound together to bear a load.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "trousser", "correctAnswer": "To bundle up, pack tightly", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Architrave",
+    "pronunciation": "AR-ki-trayv",
+    "pos": "noun",
+    "definition": "The lowest of the three main parts of a classical entablature, formed by the main beam resting directly on the capitals of columns.",
+    "origin": "From Italian architrave, combining Greek <strong>arkhi-</strong> (chief) with Latin trabs (beam). Renaissance architects revived the term for the principal load-bearing beam of the classical orders, the structural member the whole entablature rests upon.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Architrave</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek arkhi- means", "b": "Chief" },
+          { "a": "Latin trabs means", "b": "Beam" },
+          { "a": "Revived by architects of the", "b": "Renaissance" },
+          { "a": "Names the principal beam of the classical", "b": "Orders" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Architrave</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The architrave is the lowest part of a classical", "b": "Entablature" },
+          { "a": "The architrave rests directly on the", "b": "Capitals of columns" },
+          { "a": "Above the architrave sit the frieze and the", "b": "Cornice" },
+          { "a": "In modern usage, an architrave can also frame a", "b": "Doorway or window" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Architrave</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Carvers inscribed the temple's dedication along the", "b": "Marble architrave" },
+          { "a": "The carpenter fitted a decorative wooden", "b": "Architrave around the door" },
+          { "a": "Weathering had cracked the stone", "b": "Architrave over the portico" },
+          { "a": "Scholars dated the ruin by the style of its", "b": "Carved architrave" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arkhi-", "rootLanguage": "Greek", "rootMeaning": "Chief", "showInIntro": true }, { "rootText": "trabs", "rootLanguage": "Latin", "rootMeaning": "Beam", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "arkhi-", "highlight": true }, { "text": " (chief) + Latin trabs (beam); the master beam an entablature rests upon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arkhi-", "correctAnswer": "Chief", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Buttress",
+    "pronunciation": "BUHT-ris",
+    "pos": "noun",
+    "definition": "A projecting structure of masonry or brickwork built against a wall to provide additional support and resist outward thrust.",
+    "origin": "From Old French (ars)bouterez, the plural of arc-boutant, built on <strong>bouter</strong> (to push, thrust, strike against). Medieval masons used the word for the sloped stone piers that pushed back against the outward thrust of a heavy vaulted roof.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Buttress</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French bouter means", "b": "To push, thrust" },
+          { "a": "Related to the French term", "b": "Arc-boutant" },
+          { "a": "Used by medieval masons for", "b": "Sloped stone piers" },
+          { "a": "Buttresses push back against a roof's outward", "b": "Thrust" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Buttress</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A buttress is built against a wall to provide", "b": "Additional support" },
+          { "a": "A flying buttress is set apart from the wall and connected by an", "b": "Arch" },
+          { "a": "Buttresses are common in Gothic", "b": "Cathedrals" },
+          { "a": "As a verb, to buttress an argument means to", "b": "Strengthen or reinforce it" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Buttress</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Flying buttresses arched gracefully out from the", "b": "Cathedral's clerestory walls" },
+          { "a": "Engineers added a concrete", "b": "Buttress to shore up the retaining wall" },
+          { "a": "New evidence helped", "b": "Buttress the prosecution's case" },
+          { "a": "Ivy climbed the ancient stone", "b": "Buttresses of the abbey" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bouter", "rootLanguage": "Old French", "rootMeaning": "To push, thrust", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "bouter", "highlight": true }, { "text": " (to push); stone piers pushing back against a wall's outward thrust.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bouter", "correctAnswer": "To push, thrust", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pilaster",
+    "pronunciation": "pi-LAS-ter",
+    "pos": "noun",
+    "definition": "A shallow rectangular column that projects only slightly from a wall, used decoratively to echo the rhythm of freestanding columns.",
+    "origin": "From French pilastre, from Italian pilastro, built on <strong>pila</strong> (Latin for pillar, pier). Renaissance builders used pilasters to add the visual rhythm of a colonnade to a wall without the expense or bulk of true freestanding columns.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pilaster</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian pilastro is built on pila, meaning", "b": "Pillar, pier" },
+          { "a": "Reached English via", "b": "French pilastre" },
+          { "a": "Used by builders of the", "b": "Renaissance" },
+          { "a": "Added the rhythm of a colonnade without the expense of true", "b": "Freestanding columns" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pilaster</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pilaster projects only slightly from a", "b": "Wall" },
+          { "a": "Unlike a column, a pilaster is mostly", "b": "Decorative rather than load-bearing" },
+          { "a": "A pilaster typically has its own base and", "b": "Capital" },
+          { "a": "Pilasters are used to echo the rhythm of a", "b": "Colonnade" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pilaster</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Fluted pilasters flanked the mansion's", "b": "Front door" },
+          { "a": "The plasterer restored the damaged", "b": "Pilaster capitals" },
+          { "a": "A row of shallow pilasters broke up the blank", "b": "Brick facade" },
+          { "a": "Each bay of the church was framed by a pair of", "b": "Stone pilasters" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pila", "rootLanguage": "Latin", "rootMeaning": "Pillar, pier", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "pila", "highlight": true }, { "text": " (pillar); a flattened column that echoes a colonnade against a wall.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pila", "correctAnswer": "Pillar, pier", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pediment",
+    "pronunciation": "PED-uh-muhnt",
+    "pos": "noun",
+    "definition": "A triangular gable, typically found above a portico or entrance, formed by the sloping sides of a low-pitched roof and the horizontal cornice beneath.",
+    "origin": "The origin of <strong>pediment</strong> is genuinely obscure. It appears in 16th-century English builders' usage, and most etymologists treat it as a corruption of the older, now-obsolete word periment, itself possibly garbled from pyramid or pyramident under the influence of that shape. No confirmed root exists.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pediment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "First appears in English builders' usage in the", "b": "16th century" },
+          { "a": "Likely a corruption of the obsolete word", "b": "Periment" },
+          { "a": "Periment may itself be a garbling of", "b": "Pyramid" },
+          { "a": "Its true root is considered", "b": "Genuinely obscure" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pediment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pediment is shaped like a", "b": "Triangular gable" },
+          { "a": "A pediment typically sits above a", "b": "Portico or entrance" },
+          { "a": "A pediment is framed below by the horizontal", "b": "Cornice" },
+          { "a": "Ancient Greek pediments were often filled with carved", "b": "Sculpture" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pediment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A carved eagle crowned the courthouse's", "b": "Pediment" },
+          { "a": "The Parthenon's shattered", "b": "Pediment sculptures now sit in a museum" },
+          { "a": "A broken pediment framed the mansion's grand", "b": "Front doorway" },
+          { "a": "Stonemasons restored the crumbling triangular", "b": "Pediment" }
+        ] }
+    ],
+    "roots": [ { "rootText": "periment", "rootLanguage": "Obsolete English (uncertain)", "rootMeaning": "Unknown, possibly garbled from 'pyramid'", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Obscure origin, likely a corruption of the obsolete ", "highlight": false }, { "text": "periment", "highlight": true }, { "text": "; a triangular gable crowning a portico.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "periment", "correctAnswer": "Unknown, possibly garbled from 'pyramid'", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Frieze",
+    "pronunciation": "freez",
+    "pos": "noun",
+    "definition": "A broad horizontal band of sculpted or painted decoration, running along the middle section of a classical entablature or along the upper wall of a room.",
+    "origin": "From Middle French frise, perhaps from Medieval Latin frisium, an alteration of Late Latin <strong>phrygium</strong> (Phrygian work), recalling the elaborate embroidered ornament associated with ancient Phrygia. By the 16th century the word had settled on the decorated horizontal band of a classical entablature.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Frieze</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle French frise, perhaps from", "b": "Medieval Latin frisium" },
+          { "a": "Traced to Late Latin phrygium, meaning", "b": "Phrygian work" },
+          { "a": "Phrygium recalls the embroidery of ancient", "b": "Phrygia" },
+          { "a": "Settled on its architectural sense by the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Frieze</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A frieze is a broad horizontal band of", "b": "Sculpted or painted decoration" },
+          { "a": "In a classical entablature, the frieze sits between the", "b": "Architrave and cornice" },
+          { "a": "The Parthenon frieze famously depicts a", "b": "Religious procession" },
+          { "a": "An interior frieze often runs along the top of a", "b": "Room's wall" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Frieze</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Archaeologists pieced together fragments of the temple's", "b": "Marble frieze" },
+          { "a": "A hand-painted", "b": "Frieze of vines circled the nursery walls" },
+          { "a": "The sculpted", "b": "Frieze depicted a mythological battle" },
+          { "a": "Restorers cleaned centuries of grime from the", "b": "Carved stone frieze" }
+        ] }
+    ],
+    "roots": [ { "rootText": "phrygium", "rootLanguage": "Late Latin", "rootMeaning": "Phrygian work (elaborate embroidery)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Late Latin ", "highlight": false }, { "text": "phrygium", "highlight": true }, { "text": " (Phrygian work); a decorated band recalling ancient embroidered ornament.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "phrygium", "correctAnswer": "Phrygian work (elaborate embroidery)", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Entablature",
+    "pronunciation": "en-TAB-luh-cher",
+    "pos": "noun",
+    "definition": "In classical architecture, the horizontal superstructure of mouldings and bands carried by columns, made up of the architrave, frieze, and cornice.",
+    "origin": "From Italian intavolatura, from intavolare (to board over, to lay on a table), built on <strong>tavola</strong> (table, board), from Latin tabula. Renaissance architects pictured the whole horizontal assembly above the columns as a great table-like structure laid across their capitals.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Entablature</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian intavolare means", "b": "To board over, lay on a table" },
+          { "a": "Built on tavola, meaning", "b": "Table, board" },
+          { "a": "Tavola traces to Latin", "b": "Tabula" },
+          { "a": "Pictured the structure above columns as a great", "b": "Table-like assembly" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Entablature</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An entablature is carried by", "b": "Columns" },
+          { "a": "An entablature is made up of the architrave, frieze, and", "b": "Cornice" },
+          { "a": "The style of an entablature reveals which classical", "b": "Order was used" },
+          { "a": "An entablature sits directly above the column's", "b": "Capital" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Entablature</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The temple's Doric", "b": "Entablature was plain and unadorned" },
+          { "a": "Scaffolding surrounded the crumbling", "b": "Entablature during restoration" },
+          { "a": "Students sketched the proportions of the classical", "b": "Entablature" },
+          { "a": "Carved triglyphs decorated the", "b": "Entablature's frieze" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tabula", "rootLanguage": "Latin", "rootMeaning": "Table, board", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tabula", "highlight": true }, { "text": " (table), via Italian intavolatura; the great table-like band laid across a colonnade.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tabula", "correctAnswer": "Table, board", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Spandrel",
+    "pronunciation": "SPAN-druhl",
+    "pos": "noun",
+    "definition": "The roughly triangular space between the curve of an arch and the rectangular framework surrounding it, or between two adjacent arches.",
+    "origin": "From Anglo-French spaundrell, a diminutive form related to Old French espandre (to expand, spread out), from Latin <strong>expandere</strong> (to spread out). Medieval masons used it for the leftover wedge of wall that spread out to fill the corners around an arch.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Spandrel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-French spaundrell relates to", "b": "Old French espandre" },
+          { "a": "Espandre means", "b": "To expand, spread out" },
+          { "a": "Traced to Latin expandere, meaning", "b": "To spread out" },
+          { "a": "Used by medieval masons for the wall filling the", "b": "Corners around an arch" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Spandrel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A spandrel is a roughly", "b": "Triangular space" },
+          { "a": "A spandrel forms between the curve of an arch and its", "b": "Rectangular framework" },
+          { "a": "Spandrels can also appear between two adjacent", "b": "Arches" },
+          { "a": "In biology, a spandrel refers to an incidental trait rather than a direct", "b": "Adaptation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Spandrel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sculptors carved winged figures into the bridge's", "b": "Spandrels" },
+          { "a": "Mosaic tiles filled the small", "b": "Spandrel above the archway" },
+          { "a": "The engineer calculated the load on each", "b": "Spandrel panel" },
+          { "a": "Stained glass filled the", "b": "Spandrels between the nave's arches" }
+        ] }
+    ],
+    "roots": [ { "rootText": "expandere", "rootLanguage": "Latin", "rootMeaning": "To spread out", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "expandere", "highlight": true }, { "text": " (to spread out); the leftover wedge of wall filling the corner beside an arch.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "expandere", "correctAnswer": "To spread out", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vault",
+    "pronunciation": "vawlt",
+    "pos": "noun",
+    "definition": "An arched masonry ceiling or roof structure, typically formed by extending or intersecting one or more arches.",
+    "origin": "From Old French voute, from Vulgar Latin volvita, a form related to Latin <strong>volvere</strong> (to turn, roll). The image is of a curved surface as if rolled into shape, and by the 14th century English builders used it for any arched stone ceiling spanning a space.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vault</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French voute, from Vulgar Latin", "b": "Volvita" },
+          { "a": "Related to Latin volvere, meaning", "b": "To turn, roll" },
+          { "a": "The image is of a surface as if", "b": "Rolled into curved shape" },
+          { "a": "Entered English building terms by the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vault</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A vault is an arched", "b": "Masonry ceiling or roof" },
+          { "a": "A vault is typically formed by extending or intersecting one or more", "b": "Arches" },
+          { "a": "A bank vault takes its name from its", "b": "Reinforced, arch-strengthened chamber" },
+          { "a": "As a verb, to vault means to", "b": "Leap over something in one motion" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vault</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Candlelight flickered across the cathedral's ribbed", "b": "Stone vault" },
+          { "a": "The gymnast prepared to", "b": "Vault over the horse" },
+          { "a": "Thieves tunnelled beneath the bank's steel", "b": "Vault" },
+          { "a": "Masons built a barrel", "b": "Vault to span the crypt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "volvere", "rootLanguage": "Latin", "rootMeaning": "To turn, roll", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "volvere", "highlight": true }, { "text": " (to roll); a stone ceiling curved as if rolled into shape.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "volvere", "correctAnswer": "To turn, roll", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dome",
+    "pronunciation": "dohm",
+    "pos": "noun",
+    "definition": "A rounded, hemispherical roof or ceiling, typically built above a circular or polygonal base.",
+    "origin": "From French dôme, borrowed from Italian <strong>duomo</strong> (cathedral), which itself comes from Latin domus (house). Many great Italian cathedrals were crowned with a rounded roof, so the word for the building's dominant feature slowly became the word for the shape itself.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dome</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French dôme, from Italian duomo, meaning", "b": "Cathedral" },
+          { "a": "Duomo comes from Latin", "b": "Domus" },
+          { "a": "Latin domus means", "b": "House" },
+          { "a": "The word shifted from naming a building to naming its", "b": "Rounded roof shape" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dome</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dome is a rounded,", "b": "Hemispherical roof or ceiling" },
+          { "a": "A dome typically sits above a circular or", "b": "Polygonal base" },
+          { "a": "Florence's cathedral dome was engineered by", "b": "Filippo Brunelleschi" },
+          { "a": "'Dome' can informally refer to a person's", "b": "Bald head" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dome</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists climbed the stairs inside the cathedral's", "b": "Dome" },
+          { "a": "The observatory's retractable", "b": "Dome opened to the night sky" },
+          { "a": "Engineers designed a geodesic", "b": "Dome for the greenhouse" },
+          { "a": "Sunset painted the golden", "b": "Dome of the mosque" }
+        ] }
+    ],
+    "roots": [ { "rootText": "domus", "rootLanguage": "Latin", "rootMeaning": "House", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "domus", "highlight": true }, { "text": " (house), via Italian duomo (cathedral); a great house's crowning rounded roof.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "domus", "correctAnswer": "House", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pylon",
+    "pronunciation": "PY-lon",
+    "pos": "noun",
+    "definition": "A tall, tapering structure marking an entrance or gateway, or, more generally, a tower used to support cables or mark a route.",
+    "origin": "From Greek <strong>pylon</strong>, from pyle (gate). Ancient Egyptian temples were fronted by monumental tapering gateway towers, and 19th-century archaeologists borrowed the Greek word to describe them; the term later extended to steel electricity towers with a similarly tapering silhouette.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pylon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pylon, from pyle, meaning", "b": "Gate" },
+          { "a": "Applied to the monumental gateways of ancient", "b": "Egyptian temples" },
+          { "a": "Borrowed for archaeology in the", "b": "19th century" },
+          { "a": "Later extended to describe steel", "b": "Electricity towers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pylon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pylon is a tall, tapering structure marking an", "b": "Entrance or gateway" },
+          { "a": "In modern usage, a pylon often supports overhead", "b": "Power cables" },
+          { "a": "Traffic pylons are small cones used to mark a", "b": "Route or hazard" },
+          { "a": "Egyptian temple pylons flanked a central", "b": "Gateway" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pylon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hieroglyphs covered the temple's massive", "b": "Stone pylon" },
+          { "a": "The storm knocked down an electricity", "b": "Pylon" },
+          { "a": "Orange traffic", "b": "Pylons marked the roadworks" },
+          { "a": "The suspension bridge's cables ran up to a tall steel", "b": "Pylon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pyle", "rootLanguage": "Greek", "rootMeaning": "Gate", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "pyle", "highlight": true }, { "text": " (gate); a monumental tapering tower marking an entrance.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pyle", "correctAnswer": "Gate", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Clerestory",
+    "pronunciation": "KLEER-stor-ee",
+    "pos": "noun",
+    "definition": "An upper section of wall containing windows, rising above the surrounding roofline to admit light directly into the space below.",
+    "origin": "A genuine Old and Middle English compound of <strong>clere</strong> (clear) and story (a level or storey of a building), literally the 'clear storey' rising clean above the lower roofs that flank it. Medieval church builders used clerestory windows to flood the nave with light unobstructed by the aisles' lower roofs.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Clerestory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle English clere means", "b": "Clear" },
+          { "a": "Story, in this compound, means a", "b": "Level or storey of a building" },
+          { "a": "Literally translates as the", "b": "Clear storey" },
+          { "a": "Used by medieval builders to flood a nave with", "b": "Unobstructed light" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Clerestory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A clerestory is an upper section of wall containing", "b": "Windows" },
+          { "a": "A clerestory rises above the surrounding", "b": "Roofline" },
+          { "a": "A clerestory admits light directly into the", "b": "Space below" },
+          { "a": "In a Gothic cathedral, the clerestory sits above the", "b": "Triforium and arcade" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Clerestory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sunlight streamed through the nave's row of", "b": "Clerestory windows" },
+          { "a": "The architect added a", "b": "Clerestory to brighten the dim warehouse conversion" },
+          { "a": "Scaffolding reached up to the cathedral's", "b": "Clerestory level" },
+          { "a": "Stained glass filled every", "b": "Clerestory window along the aisle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "clere", "rootLanguage": "Middle English", "rootMeaning": "Clear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle English ", "highlight": false }, { "text": "clere", "highlight": true }, { "text": " + story; a 'clear storey' of windows rising above the lower roofs.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "clere", "correctAnswer": "Clear", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fenestration",
+    "pronunciation": "fen-uh-STRAY-shuhn",
+    "pos": "noun",
+    "definition": "The arrangement, proportion, and design of windows and doors on the exterior of a building.",
+    "origin": "From Latin <strong>fenestra</strong> (window), with the suffix -ation forming the noun of arrangement. English architects adopted the term in the 19th century to describe how the pattern of windows across a facade shapes both its light and its appearance.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fenestration</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fenestra means", "b": "Window" },
+          { "a": "The suffix -ation forms a noun of", "b": "Arrangement" },
+          { "a": "Adopted by architects in the", "b": "19th century" },
+          { "a": "Describes the pattern of windows across a", "b": "Facade" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fenestration</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fenestration refers to the arrangement of", "b": "Windows and doors" },
+          { "a": "Fenestration shapes both light and a building's", "b": "Appearance" },
+          { "a": "Symmetrical fenestration is a hallmark of", "b": "Classical and Georgian facades" },
+          { "a": "Poor fenestration can leave interior rooms feeling", "b": "Dark or cramped" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fenestration</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The renovation preserved the townhouse's original", "b": "Fenestration pattern" },
+          { "a": "Architects debated the ideal", "b": "Fenestration for the new library" },
+          { "a": "Symmetrical", "b": "Fenestration gave the manor a formal, balanced look" },
+          { "a": "The survey noted the building's irregular", "b": "Fenestration" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fenestra", "rootLanguage": "Latin", "rootMeaning": "Window", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fenestra", "highlight": true }, { "text": " (window); the pattern of windows that shapes a facade's light and look.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fenestra", "correctAnswer": "Window", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Parapet",
+    "pronunciation": "PAR-uh-pit",
+    "pos": "noun",
+    "definition": "A low protective wall or railing along the edge of a roof, balcony, bridge, or terrace.",
+    "origin": "From Italian parapetto, combining <strong>parare</strong> (to shield, defend) with petto (chest), from Latin pectus. Originally a military term for a wall built breast-high to protect soldiers on a rampart, it later described any low guarding wall at a roof or bridge edge.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Parapet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian parare means", "b": "To shield, defend" },
+          { "a": "Italian petto means", "b": "Chest" },
+          { "a": "Petto traces to Latin", "b": "Pectus" },
+          { "a": "Originally a military term for a wall built", "b": "Breast-high to protect soldiers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Parapet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A parapet is a low protective wall along the edge of a", "b": "Roof, balcony, or bridge" },
+          { "a": "A castle parapet historically protected", "b": "Defenders on the ramparts" },
+          { "a": "A flat-roofed building often hides its roof behind a", "b": "Parapet wall" },
+          { "a": "A parapet on a bridge prevents pedestrians from", "b": "Falling over the edge" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Parapet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Soldiers crouched behind the trench's earthen", "b": "Parapet" },
+          { "a": "Tourists leaned against the bridge's stone", "b": "Parapet" },
+          { "a": "The flat roof was hidden behind a decorative", "b": "Parapet" },
+          { "a": "Ivy crept along the crumbling castle", "b": "Parapet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "parare", "rootLanguage": "Italian", "rootMeaning": "To shield, defend", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "parare", "highlight": true }, { "text": " (to shield) + petto (chest); a wall built breast-high to guard those behind it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "parare", "correctAnswer": "To shield, defend", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Balustrade",
+    "pronunciation": "BAL-uh-strayd",
+    "pos": "noun",
+    "definition": "A railing formed by a row of short decorative posts, called balusters, topped by a horizontal rail, used along a staircase, balcony, or terrace.",
+    "origin": "From French balustrade, from Italian balaustrata, from balaustro (baluster), which traces to Latin balaustium and Greek <strong>balaustion</strong> (pomegranate flower). Renaissance builders named the post for its curved profile, thought to resemble the swelling calyx of a pomegranate blossom.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Balustrade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French balustrade, from Italian", "b": "Balaustrata" },
+          { "a": "Traces to Greek balaustion, meaning", "b": "Pomegranate flower" },
+          { "a": "Named for a post's resemblance to a pomegranate's", "b": "Swelling calyx" },
+          { "a": "The individual posts are called", "b": "Balusters" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Balustrade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A balustrade is a row of short posts topped by a", "b": "Horizontal rail" },
+          { "a": "Balustrades are common along a staircase or", "b": "Balcony" },
+          { "a": "Each individual post in a balustrade is called a", "b": "Baluster" },
+          { "a": "A balustrade functions both decoratively and as a", "b": "Safety railing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Balustrade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Guests descended the sweeping marble staircase's", "b": "Balustrade" },
+          { "a": "Stonemasons carved each post of the terrace", "b": "Balustrade by hand" },
+          { "a": "The roof was ringed by a decorative stone", "b": "Balustrade" },
+          { "a": "She rested her hand on the polished wooden", "b": "Balustrade" }
+        ] }
+    ],
+    "roots": [ { "rootText": "balaustion", "rootLanguage": "Greek", "rootMeaning": "Pomegranate flower", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "balaustion", "highlight": true }, { "text": " (pomegranate flower); railing posts shaped like a blossom's swelling calyx.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "balaustion", "correctAnswer": "Pomegranate flower", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Coffer",
+    "pronunciation": "KOF-er",
+    "pos": "noun",
+    "definition": "A recessed decorative panel, typically square or polygonal, set into a ceiling or vault, often used in repeating rows.",
+    "origin": "From Old French cofre (chest, box), from Latin cophinus (basket), from Greek <strong>kophinos</strong> (basket, hamper). The word first meant a strongbox for valuables, and architects later borrowed it for the sunken box-like panels used to lighten and decorate a ceiling.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Coffer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French cofre means", "b": "Chest, box" },
+          { "a": "Traces to Latin cophinus, meaning", "b": "Basket" },
+          { "a": "Ultimately from Greek kophinos, meaning", "b": "Basket, hamper" },
+          { "a": "First meant a strongbox for", "b": "Valuables" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Coffer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In architecture, a coffer is a recessed panel set into a", "b": "Ceiling or vault" },
+          { "a": "Coffers are typically arranged in repeating", "b": "Rows" },
+          { "a": "Coffered ceilings help to reduce a structure's", "b": "Weight" },
+          { "a": "'The nation's coffers' figuratively refers to its", "b": "Financial reserves" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Coffer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Gilded rosettes decorated each square", "b": "Coffer in the ceiling" },
+          { "a": "The Pantheon's dome is famous for its concentric rings of", "b": "Coffers" },
+          { "a": "War had emptied the kingdom's", "b": "Coffers" },
+          { "a": "Architects used deep", "b": "Coffers to lighten the concrete slab" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kophinos", "rootLanguage": "Greek", "rootMeaning": "Basket, hamper", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kophinos", "highlight": true }, { "text": " (basket); a sunken panel that lightens and decorates a ceiling.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kophinos", "correctAnswer": "Basket, hamper", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Corbel",
+    "pronunciation": "KOR-buhl",
+    "pos": "noun",
+    "definition": "A projecting block, often of stone, jutting out from a wall to support a weight above it, such as a beam, cornice, or upper storey.",
+    "origin": "From Old French corbel, a diminutive of corp (crow, raven), from Latin <strong>corvus</strong> (raven). Medieval masons named the bracket for its resemblance to a bird's beak or head jutting forward from the wall.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Corbel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French corbel is a diminutive of corp, meaning", "b": "Crow, raven" },
+          { "a": "Traces to Latin corvus, meaning", "b": "Raven" },
+          { "a": "Named for its resemblance to a bird's", "b": "Beak or head" },
+          { "a": "Used by masons of the", "b": "Medieval period" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Corbel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A corbel is a projecting block that", "b": "Juts out from a wall" },
+          { "a": "A corbel supports a weight above it, such as a", "b": "Beam or cornice" },
+          { "a": "Stacked corbels can be used to build a stepped", "b": "Corbelled arch or dome" },
+          { "a": "A corbel is typically made of", "b": "Stone or timber" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Corbel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The upper timber floor rested on stone", "b": "Corbels set into the wall" },
+          { "a": "Carved faces decorated each", "b": "Corbel along the nave" },
+          { "a": "The ancient tomb's roof was built as a", "b": "Corbelled vault" },
+          { "a": "Masons chiselled a new", "b": "Corbel to replace the crumbling one" }
+        ] }
+    ],
+    "roots": [ { "rootText": "corvus", "rootLanguage": "Latin", "rootMeaning": "Raven", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "corvus", "highlight": true }, { "text": " (raven); a stone bracket named for its beak-like jut from the wall.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "corvus", "correctAnswer": "Raven", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cupola",
+    "pronunciation": "KYOO-puh-luh",
+    "pos": "noun",
+    "definition": "A small, dome-shaped structure, typically crowning a roof or larger dome, often used to admit light or provide a lookout.",
+    "origin": "From Italian cupola, from Late Latin <strong>cupula</strong>, a diminutive of Latin cupa (cask, tub). The word literally means a 'little cask' or 'little tub', a fitting image for its small, rounded, upturned shape sitting atop a roof.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cupola</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian cupola, from Late Latin", "b": "Cupula" },
+          { "a": "Cupula is a diminutive of Latin cupa, meaning", "b": "Cask, tub" },
+          { "a": "The word literally means a", "b": "Little cask or little tub" },
+          { "a": "The name fits its small, rounded, upturned", "b": "Shape" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cupola</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cupola is a small, dome-shaped structure typically crowning a", "b": "Roof or larger dome" },
+          { "a": "A cupola is often used to admit", "b": "Light" },
+          { "a": "A cupola can also serve as a", "b": "Lookout point" },
+          { "a": "Many American courthouses and barns feature a small roof", "b": "Cupola" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cupola</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A weathervane spun atop the barn's small", "b": "Cupola" },
+          { "a": "Light poured through the glazed", "b": "Cupola above the stairwell" },
+          { "a": "The courthouse dome was topped by a slender", "b": "Cupola" },
+          { "a": "Astronauts viewed Earth through the space station's", "b": "Cupola module" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cupa", "rootLanguage": "Latin", "rootMeaning": "Cask, tub", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cupa", "highlight": true }, { "text": " (cask); literally a 'little tub' crowning a roof.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cupa", "correctAnswer": "Cask, tub", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lattice",
+    "pronunciation": "LAT-is",
+    "pos": "noun",
+    "definition": "An open framework made of crossed strips of wood, metal, or other material, arranged with regular gaps between them.",
+    "origin": "From Old French lattis, from <strong>latte</strong> (a lath, a thin strip of wood), itself of Germanic origin. Builders used thin crossed laths to make screens, fences, and trellises long before the word settled into its modern decorative and structural sense.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lattice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French lattis, from latte, meaning", "b": "A lath, a thin strip of wood" },
+          { "a": "Latte is of", "b": "Germanic origin" },
+          { "a": "Builders used crossed laths to make", "b": "Screens, fences, and trellises" },
+          { "a": "The word later settled into its modern", "b": "Decorative and structural sense" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lattice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A lattice is an open framework of", "b": "Crossed strips" },
+          { "a": "A lattice has regular", "b": "Gaps between its strips" },
+          { "a": "A lattice window is set with strips arranged in a", "b": "Diamond or grid pattern" },
+          { "a": "In crystallography, a lattice describes the repeating arrangement of", "b": "Atoms in a crystal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lattice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Roses climbed the garden's wooden", "b": "Lattice trellis" },
+          { "a": "Sunlight filtered through the mosque's carved stone", "b": "Lattice screen" },
+          { "a": "The bridge's steel supports formed a crossed", "b": "Lattice pattern" },
+          { "a": "Diamond-shaped panes filled the cottage's", "b": "Lattice window" }
+        ] }
+    ],
+    "roots": [ { "rootText": "latte", "rootLanguage": "Germanic (via Old French)", "rootMeaning": "A lath, a thin strip of wood", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "latte", "highlight": true }, { "text": " (a lath); thin strips crossed to form an open framework.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "latte", "correctAnswer": "A lath, a thin strip of wood", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Scaffold",
+    "pronunciation": "SKAF-uhld",
+    "pos": "noun",
+    "definition": "A temporary framework of poles or metal tubing, erected alongside a building to support workers and materials during construction or repair.",
+    "origin": "From Old French (e)schafaut, from Vulgar Latin <strong>catafalicum</strong>, related to catafalque, itself likely built from Greek kata- (down) plus a word for a siege engine or platform. The same root gave rise to platforms for both construction work and, grimly, public execution.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Scaffold</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French eschafaut, from Vulgar Latin", "b": "Catafalicum" },
+          { "a": "Related to the word", "b": "Catafalque" },
+          { "a": "Likely built partly from Greek kata-, meaning", "b": "Down" },
+          { "a": "The same root also produced platforms for public", "b": "Execution" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Scaffold</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A scaffold is a temporary framework erected alongside a", "b": "Building" },
+          { "a": "A scaffold supports workers and materials during", "b": "Construction or repair" },
+          { "a": "Historically, a scaffold could also mean a raised platform for", "b": "Public execution" },
+          { "a": "In biology, a scaffold can refer to a supporting structure for growing", "b": "Tissue or cells" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Scaffold</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Workers climbed the tubular steel", "b": "Scaffold surrounding the tower" },
+          { "a": "The restoration crew wrapped the cathedral in", "b": "Scaffolding for two years" },
+          { "a": "A gust of wind rattled the loose", "b": "Scaffold boards" },
+          { "a": "Historians described the condemned man led up to the", "b": "Scaffold" }
+        ] }
+    ],
+    "roots": [ { "rootText": "catafalicum", "rootLanguage": "Vulgar Latin", "rootMeaning": "A raised platform or structure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Vulgar Latin ", "highlight": false }, { "text": "catafalicum", "highlight": true }, { "text": " (a raised platform); a temporary framework built up alongside a wall.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "catafalicum", "correctAnswer": "A raised platform or structure", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rafter",
+    "pronunciation": "RAF-ter",
+    "pos": "noun",
+    "definition": "One of a series of sloped structural beams that support a roof, running from the ridge down to the eaves.",
+    "origin": "From Old English <strong>ræfter</strong>, a native Germanic word related to Old Norse raptr (log, beam) and Old High German rafo. The word has described the sloping timber skeleton beneath a roof's covering since the earliest recorded English.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rafter</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English ræfter is a native", "b": "Germanic word" },
+          { "a": "Related to Old Norse raptr, meaning", "b": "Log, beam" },
+          { "a": "Also related to Old High German", "b": "Rafo" },
+          { "a": "Has described roof timbers since the earliest recorded", "b": "English" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rafter</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rafter is a sloped beam that supports a", "b": "Roof" },
+          { "a": "Rafters run from the ridge down to the", "b": "Eaves" },
+          { "a": "'To the rafters' figuratively describes a room", "b": "Packed completely full" },
+          { "a": "Rafters are typically spaced at regular", "b": "Intervals" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rafter</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Carpenters hoisted each timber", "b": "Rafter into place" },
+          { "a": "Bats roosted among the barn's exposed", "b": "Rafters" },
+          { "a": "The concert hall was packed to the", "b": "Rafters" },
+          { "a": "Sunlight slanted through gaps in the old", "b": "Roof rafters" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ræfter", "rootLanguage": "Old English", "rootMeaning": "Beam, rafter", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "ræfter", "highlight": true }, { "text": "; the sloping timber skeleton running beneath a roof's covering.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ræfter", "correctAnswer": "Beam, rafter", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Joist",
+    "pronunciation": "joyst",
+    "pos": "noun",
+    "definition": "A horizontal structural beam, usually one of a parallel series, used to support a floor or ceiling.",
+    "origin": "From Old French giste (a resting place, a bed), from <strong>gesir</strong> (to lie), from Latin jacere (to lie down). The beam took its name from the way it 'lies' horizontally across a span, resting between walls or larger beams to carry the floor above.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Joist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French giste means", "b": "A resting place, a bed" },
+          { "a": "From gesir, meaning", "b": "To lie" },
+          { "a": "Traces to Latin jacere, meaning", "b": "To lie down" },
+          { "a": "Named for the way it 'lies' horizontally across a", "b": "Span" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Joist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A joist is a horizontal beam used to support a", "b": "Floor or ceiling" },
+          { "a": "Joists are usually installed as a parallel", "b": "Series" },
+          { "a": "Joists typically rest between", "b": "Walls or larger beams" },
+          { "a": "Floorboards are nailed directly onto the", "b": "Joists" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Joist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The inspector checked the basement's exposed", "b": "Floor joists" },
+          { "a": "Termites had weakened several of the old", "b": "Wooden joists" },
+          { "a": "Electricians ran cable through holes drilled in the", "b": "Joists" },
+          { "a": "Builders spaced the steel", "b": "Joists sixteen inches apart" }
+        ] }
+    ],
+    "roots": [ { "rootText": "jacere", "rootLanguage": "Latin", "rootMeaning": "To lie down", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "jacere", "highlight": true }, { "text": " (to lie down); a beam that 'lies' horizontally to carry a floor.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "jacere", "correctAnswer": "To lie down", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Beam",
+    "pronunciation": "beem",
+    "pos": "noun",
+    "definition": "A long, rigid piece of timber, steel, or concrete used as a horizontal structural support, typically spanning between two points and bearing a load.",
+    "origin": "From Old English <strong>beam</strong>, which originally meant a living tree or a piece of timber, a sense shared with its Germanic relatives such as German Baum (tree). Over time the word narrowed from the whole tree to the milled length of wood used to bridge a structural span.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Beam</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English beam originally meant a", "b": "Living tree or piece of timber" },
+          { "a": "Shares its root with German", "b": "Baum" },
+          { "a": "German Baum means", "b": "Tree" },
+          { "a": "The word narrowed from a whole tree to a", "b": "Milled length of structural wood" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Beam</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A beam is a long, rigid horizontal structural", "b": "Support" },
+          { "a": "A beam typically spans between two points and bears a", "b": "Load" },
+          { "a": "A beam of light describes a narrow, directed", "b": "Ray" },
+          { "a": "'A beaming smile' figuratively describes one that is", "b": "Radiant, full of joy" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Beam</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A steel", "b": "Beam spanned the warehouse's open floor" },
+          { "a": "The old cottage had exposed oak", "b": "Ceiling beams" },
+          { "a": "A single", "b": "Beam of sunlight cut through the fog" },
+          { "a": "Engineers tested how much weight the concrete", "b": "Beam could bear" }
+        ] }
+    ],
+    "roots": [ { "rootText": "beam", "rootLanguage": "Old English", "rootMeaning": "A living tree, a piece of timber", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "beam", "highlight": true }, { "text": " (tree, timber); a milled length of tree bridging a structural span.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "beam", "correctAnswer": "A living tree, a piece of timber", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Column",
+    "pronunciation": "KOL-uhm",
+    "pos": "noun",
+    "definition": "A vertical structural support, typically cylindrical, consisting of a base, shaft, and capital, used to bear a load or stand freely as a monument.",
+    "origin": "From Latin <strong>columna</strong> (pillar, post), related to columen (summit, top) and celsus (high, lofty). The word travelled largely unchanged from classical antiquity into English, still naming the same upright, load-bearing support the Greeks and Romans built their temples upon.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Column</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin columna means", "b": "Pillar, post" },
+          { "a": "Related to Latin columen, meaning", "b": "Summit, top" },
+          { "a": "Also related to Latin celsus, meaning", "b": "High, lofty" },
+          { "a": "The word travelled largely unchanged from", "b": "Classical antiquity into English" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Column</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A column consists of a base, shaft, and", "b": "Capital" },
+          { "a": "A column can bear a load or stand freely as a", "b": "Monument" },
+          { "a": "In a newspaper, a column refers to a vertical block of", "b": "Text" },
+          { "a": "A 'column of smoke' describes smoke rising in a", "b": "Tall, narrow shape" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Column</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Marble", "b": "Columns lined the temple's portico" },
+          { "a": "A weekly opinion", "b": "Column ran in the newspaper" },
+          { "a": "Nelson's monument rises as a single stone", "b": "Column" },
+          { "a": "Smoke rose from the fire in a thick, dark", "b": "Column" }
+        ] }
+    ],
+    "roots": [ { "rootText": "columna", "rootLanguage": "Latin", "rootMeaning": "Pillar, post", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "columna", "highlight": true }, { "text": " (pillar); an upright support carried almost unchanged from antiquity.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "columna", "correctAnswer": "Pillar, post", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Capital",
+    "pronunciation": "KAP-i-tuhl",
+    "pos": "noun",
+    "definition": "The distinct, often decorated head of a column or pilaster, forming the transition between the shaft below and the load it carries above.",
+    "origin": "From Latin <strong>capitellum</strong> (little head), a diminutive of caput (head). Builders across the classical world carved the capital as the crowning 'head' of a column, its shape and ornament announcing which architectural order the building followed.",
+    "tier": "premium",
+    "packId": "architecture",
+    "subpack": { "id": "architecture-structure", "name": "Structure & Ornament", "packId": "architecture" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Capital</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin capitellum means", "b": "Little head" },
+          { "a": "Capitellum is a diminutive of caput, meaning", "b": "Head" },
+          { "a": "Builders carved it as the crowning", "b": "'Head' of a column" },
+          { "a": "Its shape announced which architectural", "b": "Order was used" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Capital</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A capital forms the transition between a column's shaft and the", "b": "Load above" },
+          { "a": "A Corinthian capital is carved with stylised", "b": "Acanthus leaves" },
+          { "a": "A capital city is the seat of a country's", "b": "Government" },
+          { "a": "A capital letter appears at the", "b": "Start of a sentence or name" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Capital</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Carvers finished the last acanthus-leaf", "b": "Capital atop the column" },
+          { "a": "Archaeologists dated the ruin by the style of its", "b": "Column capitals" },
+          { "a": "Paris serves as the", "b": "Capital of France" },
+          { "a": "Remember to start the sentence with a", "b": "Capital letter" }
+        ] }
+    ],
+    "roots": [ { "rootText": "caput", "rootLanguage": "Latin", "rootMeaning": "Head", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "caput", "highlight": true }, { "text": " (head), via capitellum (little head); the carved 'head' crowning a column's shaft.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "caput", "correctAnswer": "Head", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]
