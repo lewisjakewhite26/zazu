@@ -60,6 +60,16 @@ const SOURCES = [
   resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-mountains.json'),
   resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-terrain.json'),
   resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-coastal.json'),
+  resolve(root, 'THEMATIC PACKS', 'music words', 'music-classical.json'),
+  resolve(root, 'THEMATIC PACKS', 'music words', 'music-instruments.json'),
+  resolve(root, 'THEMATIC PACKS', 'music words', 'music-jazz.json'),
+  resolve(root, 'THEMATIC PACKS', 'music words', 'music-vocal.json'),
+  resolve(root, 'THEMATIC PACKS', 'music words', 'music-performance.json'),
+  resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-materials.json'),
+  resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-interiors.json'),
+  resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-structure.json'),
+  resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-styles.json'),
+  resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-urban.json'),
 ];
 
 function requireEnv(name) {

@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Timbre",
+    "pronunciation": "TAM-buh",
+    "pos": "noun",
+    "definition": "The distinctive quality or colour of a musical sound that distinguishes it from other sounds of the same pitch and loudness.",
+    "origin": "From French <strong>timbre</strong>, originally meaning a small bell struck by a hammer in a clock, from medieval Latin tympanum (drum), from Greek tympanon. The sense shifted from the bell's characteristic ring to the character of any musical tone by the 19th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Timbre</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French timbre", "b": "A small bell struck by a hammer" },
+          { "a": "Medieval Latin tympanum", "b": "Drum" },
+          { "a": "Ultimately from Greek", "b": "Tympanon" },
+          { "a": "Sense shifted to musical tone quality by the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Timbre</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Timbre distinguishes sounds of the same", "b": "Pitch and loudness" },
+          { "a": "A violin and a flute playing the same note differ in", "b": "Timbre" },
+          { "a": "Timbre is sometimes called a sound's", "b": "Tone colour" },
+          { "a": "A singer's distinctive timbre helps listeners", "b": "Recognise their voice" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Timbre</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cello's warm", "b": "Timbre filled the hall" },
+          { "a": "Producers layer synths to create a richer", "b": "Timbre" },
+          { "a": "His voice had a rough, smoky", "b": "Timbre" },
+          { "a": "The oboe's reedy", "b": "Timbre cuts through an orchestra" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tympanon", "rootLanguage": "Greek", "rootMeaning": "Drum", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "tympanon", "highlight": true }, { "text": " (drum), via a bell's ring to a sound's own distinctive colour.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tympanon", "correctAnswer": "Drum", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Octave",
+    "pronunciation": "OK-tiv",
+    "pos": "noun",
+    "definition": "The interval between one musical pitch and another with double or half its frequency, or the eight-note span that bridges them.",
+    "origin": "From Latin <strong>octavus</strong> (eighth), from octo (eight). The term entered music theory through medieval plainchant, where the eighth note of a scale sounded like a return to the first, an octave higher.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Octave</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin octavus", "b": "Eighth" },
+          { "a": "Latin octo", "b": "Eight" },
+          { "a": "Entered music theory through", "b": "Medieval plainchant" },
+          { "a": "The eighth note sounded like a return to the", "b": "First, an octave higher" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Octave</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An octave spans", "b": "Eight notes of a scale" },
+          { "a": "Notes an octave apart have frequencies related by a factor of", "b": "Two" },
+          { "a": "A singer with a wide range can span several", "b": "Octaves" },
+          { "a": "On a piano, middle C to the next C is one", "b": "Octave" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Octave</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her voice leapt a full", "b": "Octave on the final note" },
+          { "a": "The bassist tuned his instrument an", "b": "Octave below the guitar" },
+          { "a": "He played the melody doubled an", "b": "Octave higher" },
+          { "a": "The choir split into parts an", "b": "Octave apart" }
+        ] }
+    ],
+    "roots": [ { "rootText": "octo", "rootLanguage": "Latin", "rootMeaning": "Eight", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "octo", "highlight": true }, { "text": " (eight); the eighth note of a scale that echoes the first.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "octo", "correctAnswer": "Eight", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Acoustic",
+    "pronunciation": "uh-KOO-stik",
+    "pos": "adjective",
+    "definition": "Relating to sound or the sense of hearing, or, of an instrument, producing sound without electronic amplification.",
+    "origin": "From Greek <strong>akoustikos</strong> (of hearing), from akouein (to hear). French physicist Joseph Sauveur popularised the word in the early 18th century to name the science of sound.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Acoustic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek akoustikos", "b": "Of hearing" },
+          { "a": "Greek akouein", "b": "To hear" },
+          { "a": "Popularised by", "b": "Joseph Sauveur" },
+          { "a": "Sauveur named the science of sound in the", "b": "Early 18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Acoustic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An acoustic guitar makes sound without", "b": "Electronic amplification" },
+          { "a": "A concert hall's acoustics describe how it", "b": "Carries and shapes sound" },
+          { "a": "The opposite of an acoustic set is an", "b": "Electric or plugged-in set" },
+          { "a": "Acoustic engineers study how sound", "b": "Travels and reflects" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Acoustic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She performed a stripped-back", "b": "Acoustic version of the song" },
+          { "a": "Engineers praised the concert hall's", "b": "Acoustic design" },
+          { "a": "He switched from electric to", "b": "Acoustic guitar for the ballad" },
+          { "a": "The cave's natural", "b": "Acoustic made every whisper carry" }
+        ] }
+    ],
+    "roots": [ { "rootText": "akouein", "rootLanguage": "Greek", "rootMeaning": "To hear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "akouein", "highlight": true }, { "text": " (to hear); sound as the ear receives it, unplugged.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "akouein", "correctAnswer": "To hear", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Resonance",
+    "pronunciation": "REZ-uh-nuhns",
+    "pos": "noun",
+    "definition": "The reinforcement or prolongation of a sound by vibration in sympathy with a nearby source, or a quality of emotional depth.",
+    "origin": "From Latin <strong>resonare</strong> (to resound), from re- (again) + sonare (to sound). Instrument makers used the word from the 16th century for the way a hollow body amplifies a vibrating string.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Resonance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin resonare", "b": "To resound" },
+          { "a": "Latin re-", "b": "Again" },
+          { "a": "Latin sonare", "b": "To sound" },
+          { "a": "Instrument makers used the word from the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Resonance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Resonance reinforces sound through", "b": "Sympathetic vibration" },
+          { "a": "A guitar's hollow body gives its strings", "b": "Resonance" },
+          { "a": "'The speech had emotional resonance' means it deeply", "b": "Moved people" },
+          { "a": "A wine glass can shatter from vocal", "b": "Resonance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Resonance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The concert hall was prized for its rich", "b": "Resonance" },
+          { "a": "The singer's low notes had a deep", "b": "Chest resonance" },
+          { "a": "Her argument found unexpected", "b": "Resonance with the audience" },
+          { "a": "The cello's body was built to maximise", "b": "Resonance" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sonare", "rootLanguage": "Latin", "rootMeaning": "To sound", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sonare", "highlight": true }, { "text": " (to sound), with re- (again); a vibration that answers and swells another.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sonare", "correctAnswer": "To sound", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Harmony",
+    "pronunciation": "HAR-muh-nee",
+    "pos": "noun",
+    "definition": "The combination of simultaneously sounded musical notes to produce a pleasing chord or texture; figuratively, a state of agreement.",
+    "origin": "From Greek <strong>harmonia</strong> (joint, agreement, concord of sounds), from harmos (a fitting together). The Pythagoreans first linked the word to the mathematical ratios that made musical intervals sound pleasant together.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Harmony</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek harmonia", "b": "Joint, agreement, concord of sounds" },
+          { "a": "Greek harmos", "b": "A fitting together" },
+          { "a": "First linked to music by the", "b": "Pythagoreans" },
+          { "a": "The Pythagoreans studied musical", "b": "Ratios and intervals" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Harmony</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Harmony combines notes sounded", "b": "Simultaneously" },
+          { "a": "A pleasing combination of notes forms a", "b": "Chord" },
+          { "a": "Singing 'in harmony' means blending voices at", "b": "Different pitches" },
+          { "a": "Figuratively, two people 'in harmony' are in", "b": "Agreement" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Harmony</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The backing singers added a rich", "b": "Vocal harmony" },
+          { "a": "The two nations finally lived in", "b": "Harmony" },
+          { "a": "The chord progression relied on close", "b": "Harmony" },
+          { "a": "The garden's design achieved a quiet", "b": "Harmony with nature" }
+        ] }
+    ],
+    "roots": [ { "rootText": "harmos", "rootLanguage": "Greek", "rootMeaning": "A fitting together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "harmos", "highlight": true }, { "text": " (a fitting together); notes joined so closely they sound like one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "harmos", "correctAnswer": "A fitting together", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Melody",
+    "pronunciation": "MEL-uh-dee",
+    "pos": "noun",
+    "definition": "A sequence of single musical notes arranged in a pleasing, memorable succession that forms the tune of a piece.",
+    "origin": "From Greek <strong>meloidia</strong> (choral song, singing), from melos (song, tune) + aeidein (to sing). The word passed through Latin and French before settling into English by the 14th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Melody</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek meloidia", "b": "Choral song, singing" },
+          { "a": "Greek melos", "b": "Song, tune" },
+          { "a": "Greek aeidein", "b": "To sing" },
+          { "a": "Settled into English by the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Melody</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A melody is a sequence of", "b": "Single notes in succession" },
+          { "a": "Unlike harmony, melody is heard", "b": "One note at a time" },
+          { "a": "The main melody of a song is often called the", "b": "Tune" },
+          { "a": "A catchy melody is easy to", "b": "Remember and hum" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Melody</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The flute carried the main", "b": "Melody" },
+          { "a": "He hummed a half-remembered", "b": "Melody" },
+          { "a": "The songwriter built the chorus around a simple", "b": "Melody" },
+          { "a": "Birdsong drifted through the trees like a natural", "b": "Melody" }
+        ] }
+    ],
+    "roots": [ { "rootText": "melos", "rootLanguage": "Greek", "rootMeaning": "Song, tune", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "melos", "highlight": true }, { "text": " (song) + aeidein (to sing); the singable line that carries a piece.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "melos", "correctAnswer": "Song, tune", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Symphony",
+    "pronunciation": "SIM-fuh-nee",
+    "pos": "noun",
+    "definition": "An elaborate musical composition for full orchestra, typically in several movements; figuratively, a harmonious combination of elements.",
+    "origin": "From Greek <strong>symphonia</strong> (concord of sound, unison), from syn- (together) + phone (sound, voice). The term first meant simply 'sounding together' before narrowing, by the 18th century, to a specific large-scale orchestral form.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Symphony</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek symphonia", "b": "Concord of sound, unison" },
+          { "a": "Greek syn-", "b": "Together" },
+          { "a": "Greek phone", "b": "Sound, voice" },
+          { "a": "Narrowed to its modern orchestral sense by the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Symphony</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A symphony is written for a full", "b": "Orchestra" },
+          { "a": "A symphony is typically organised into several", "b": "Movements" },
+          { "a": "Beethoven's Ninth is one of the most famous", "b": "Symphonies" },
+          { "a": "'A symphony of colour' figuratively describes a", "b": "Harmonious combination" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Symphony</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra premiered a new", "b": "Symphony" },
+          { "a": "Autumn painted the hillside in a", "b": "Symphony of colour" },
+          { "a": "The composer worked for years on his fifth", "b": "Symphony" },
+          { "a": "The city's skyline at dusk was a", "b": "Symphony of light" }
+        ] }
+    ],
+    "roots": [ { "rootText": "phone", "rootLanguage": "Greek", "rootMeaning": "Sound, voice", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek syn- (together) + ", "highlight": false }, { "text": "phone", "highlight": true }, { "text": " (sound); many voices sounding as one grand whole.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "phone", "correctAnswer": "Sound, voice", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Orchestra",
+    "pronunciation": "OR-kes-truh",
+    "pos": "noun",
+    "definition": "A large group of instrumentalists who together perform classical music, typically combining strings, woodwind, brass, and percussion.",
+    "origin": "From Greek <strong>orkhestra</strong> (the space in front of the stage where the chorus danced), from orkheisthai (to dance). Renaissance Italians revived the word for the area where musicians sat, and it later came to mean the musicians themselves.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Orchestra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek orkhestra", "b": "The space where the chorus danced" },
+          { "a": "Greek orkheisthai", "b": "To dance" },
+          { "a": "Revived by", "b": "Renaissance Italians" },
+          { "a": "Originally named the area where", "b": "Musicians sat" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Orchestra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An orchestra typically combines strings, woodwind, brass, and", "b": "Percussion" },
+          { "a": "An orchestra is led by a", "b": "Conductor" },
+          { "a": "'Orchestra seats' in a theatre refer to seats near the", "b": "Stage" },
+          { "a": "To 'orchestrate' figuratively means to", "b": "Carefully organise" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Orchestra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The conductor raised her baton to cue the", "b": "Orchestra" },
+          { "a": "They bought tickets in the front", "b": "Orchestra section" },
+          { "a": "The film score was performed by a full", "b": "Symphony orchestra" },
+          { "a": "The strings tuned quietly before the", "b": "Orchestra began" }
+        ] }
+    ],
+    "roots": [ { "rootText": "orkheisthai", "rootLanguage": "Greek", "rootMeaning": "To dance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "orkheisthai", "highlight": true }, { "text": " (to dance); once the dancing-floor before the stage, now the musicians themselves.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "orkheisthai", "correctAnswer": "To dance", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chord",
+    "pronunciation": "kord",
+    "pos": "noun",
+    "definition": "A group of three or more musical notes sounded together to form a harmonic unit.",
+    "origin": "A shortening of <strong>accord</strong>, from Old French acord (agreement), ultimately from Latin ad- (to) + cor (heart). The spelling was reshaped in the 16th century by association with Greek khorde (string of a musical instrument, gut).",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chord</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A shortening of", "b": "Accord" },
+          { "a": "Old French acord", "b": "Agreement" },
+          { "a": "Latin cor", "b": "Heart" },
+          { "a": "Spelling reshaped by association with Greek khorde, meaning", "b": "String of an instrument" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chord</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chord is formed by", "b": "Three or more notes sounded together" },
+          { "a": "A major chord is often described as sounding", "b": "Bright or happy" },
+          { "a": "A guitarist strums several strings at once to play a", "b": "Chord" },
+          { "a": "'To strike a chord' figuratively means to", "b": "Evoke a strong feeling" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chord</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He strummed the opening", "b": "Chord" },
+          { "a": "The speech struck an emotional", "b": "Chord with the audience" },
+          { "a": "The pianist practised switching between", "b": "Chord shapes" },
+          { "a": "The song ended on a sustained minor", "b": "Chord" }
+        ] }
+    ],
+    "roots": [ { "rootText": "khorde", "rootLanguage": "Greek", "rootMeaning": "String of an instrument, gut", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Reshaped from accord by association with Greek ", "highlight": false }, { "text": "khorde", "highlight": true }, { "text": " (string); several notes plucked into one sound.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "khorde", "correctAnswer": "String of an instrument, gut", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Violin",
+    "pronunciation": "vy-uh-LIN",
+    "pos": "noun",
+    "definition": "A four-stringed bowed instrument, the smallest and highest-pitched member of the string family, held under the chin.",
+    "origin": "From Italian <strong>violino</strong>, a diminutive of viola, itself from medieval Latin vitula (stringed instrument). Italian luthiers in Cremona standardised the instrument's modern form in the 16th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Violin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian violino", "b": "A little viola" },
+          { "a": "Diminutive of", "b": "Viola" },
+          { "a": "Medieval Latin vitula", "b": "Stringed instrument" },
+          { "a": "Standardised in the 16th century by luthiers in", "b": "Cremona" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Violin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A violin has", "b": "Four strings" },
+          { "a": "The violin is the smallest and highest-pitched of the", "b": "String family" },
+          { "a": "A violin is played while held under the", "b": "Chin" },
+          { "a": "The leader of an orchestra's violin section is called the", "b": "Concertmaster" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Violin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She has played the", "b": "Violin since childhood" },
+          { "a": "The soloist tuned her", "b": "Violin before the concert" },
+          { "a": "A haunting", "b": "Violin melody opened the film" },
+          { "a": "The luthier spent months carving a new", "b": "Violin" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vitula", "rootLanguage": "Latin", "rootMeaning": "Stringed instrument", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vitula", "highlight": true }, { "text": " (stringed instrument), via Italian violino, 'little viola'.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vitula", "correctAnswer": "Stringed instrument", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Zither",
+    "pronunciation": "ZITH-uh",
+    "pos": "noun",
+    "definition": "A flat, stringed instrument played by plucking or strumming strings stretched across a wooden soundboard, laid flat rather than held.",
+    "origin": "From German <strong>Zither</strong>, from Latin cithara, from Greek kithara (a lyre-like instrument). The kithara of ancient Greece gave its name to a whole family of European stringed instruments, including the guitar.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Zither</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Zither", "b": "From Latin cithara" },
+          { "a": "Latin cithara", "b": "From Greek kithara" },
+          { "a": "Greek kithara", "b": "A lyre-like instrument" },
+          { "a": "Kithara also gave its name to the", "b": "Guitar" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Zither</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A zither's strings stretch across a", "b": "Wooden soundboard" },
+          { "a": "Unlike a violin, a zither is played", "b": "Laid flat" },
+          { "a": "Zithers are played by", "b": "Plucking or strumming" },
+          { "a": "The zither is closely associated with folk music of", "b": "Central Europe" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Zither</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The film's theme was famously played on a", "b": "Zither" },
+          { "a": "She plucked a gentle folk tune on the", "b": "Zither" },
+          { "a": "The Alpine ensemble featured accordion and", "b": "Zither" },
+          { "a": "He laid the", "b": "Zither flat across his lap" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kithara", "rootLanguage": "Greek", "rootMeaning": "A lyre-like instrument", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kithara", "highlight": true }, { "text": " (a lyre), via Latin cithara and German Zither.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kithara", "correctAnswer": "A lyre-like instrument", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Harp",
+    "pronunciation": "harp",
+    "pos": "noun",
+    "definition": "A large, triangular stringed instrument played by plucking vertically strung strings with the fingers.",
+    "origin": "From Old English <strong>hearpe</strong>, a native Germanic word related to Old Norse harpa. The instrument's shape and name spread widely across medieval Europe, appearing in Anglo-Saxon poetry centuries before standard musical notation existed.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Harp</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English hearpe", "b": "A native Germanic word for harp" },
+          { "a": "Related to Old Norse", "b": "Harpa" },
+          { "a": "The harp appears in", "b": "Anglo-Saxon poetry" },
+          { "a": "This predates standard", "b": "Musical notation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Harp</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A harp's strings are strung", "b": "Vertically" },
+          { "a": "A harpist plays by", "b": "Plucking with the fingers" },
+          { "a": "'To harp on' something figuratively means to", "b": "Repeat it tediously" },
+          { "a": "The harp is a national symbol of", "b": "Ireland" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Harp</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra's soloist glided her fingers across the", "b": "Harp" },
+          { "a": "He kept harping on about the same old", "b": "Complaint" },
+          { "a": "The angel in the painting held a golden", "b": "Harp" },
+          { "a": "A cascading", "b": "Harp glissando opened the piece" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hearpe", "rootLanguage": "Old English", "rootMeaning": "Harp", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "hearpe", "highlight": true }, { "text": "; a native word for an instrument sung about since Anglo-Saxon times.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hearpe", "correctAnswer": "Harp", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Trumpet",
+    "pronunciation": "TRUM-pit",
+    "pos": "noun",
+    "definition": "A brass instrument with a flared bell and three valves, played by buzzing the lips against a cup-shaped mouthpiece.",
+    "origin": "From Old French <strong>trompette</strong>, a diminutive of trompe (horn), likely of Germanic origin echoing the instrument's own blaring sound. Trumpets have signalled armies and courts since antiquity, long before the word itself existed.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Trumpet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French trompette", "b": "A little horn" },
+          { "a": "Diminutive of", "b": "Trompe (horn)" },
+          { "a": "Likely of", "b": "Germanic origin" },
+          { "a": "Possibly echoes the instrument's own", "b": "Blaring sound" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Trumpet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A trumpet is played by buzzing the lips against a", "b": "Cup-shaped mouthpiece" },
+          { "a": "A trumpet's pitch is changed using its", "b": "Three valves" },
+          { "a": "'To trumpet' something figuratively means to", "b": "Announce it loudly" },
+          { "a": "An elephant's loud call is also called a", "b": "Trumpet" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Trumpet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A bright fanfare of", "b": "Trumpets opened the ceremony" },
+          { "a": "The company loudly", "b": "Trumpeted its new record profits" },
+          { "a": "The jazz soloist improvised on his", "b": "Trumpet" },
+          { "a": "The elephant let out a piercing", "b": "Trumpet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "trompe", "rootLanguage": "Old French", "rootMeaning": "Horn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "trompe", "highlight": true }, { "text": " (horn); a name that echoes its own bright, blaring call.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "trompe", "correctAnswer": "Horn", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Clarinet",
+    "pronunciation": "kla-ruh-NET",
+    "pos": "noun",
+    "definition": "A single-reed woodwind instrument with a cylindrical body, known for its wide range and smooth, clear tone.",
+    "origin": "From French <strong>clarinette</strong>, a diminutive of clarine (a small bell), related to Latin clarus (clear, bright). It was named in the early 18th century for the clear, trumpet-like brightness of its highest register.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Clarinet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French clarinette", "b": "A little clarine (small bell)" },
+          { "a": "Related to Latin clarus", "b": "Clear, bright" },
+          { "a": "Named in the", "b": "Early 18th century" },
+          { "a": "Named for the brightness of its highest", "b": "Register" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Clarinet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A clarinet uses a", "b": "Single reed" },
+          { "a": "A clarinet has a", "b": "Cylindrical body" },
+          { "a": "The clarinet is prized for its", "b": "Wide range and clear tone" },
+          { "a": "Clarinets are grouped within the", "b": "Woodwind family" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Clarinet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A swooping", "b": "Clarinet glissando opens Rhapsody in Blue" },
+          { "a": "She swapped her flute for the", "b": "Clarinet in the school band" },
+          { "a": "The klezmer band's lead melody rang out on", "b": "Clarinet" },
+          { "a": "He carefully moistened the", "b": "Clarinet reed before playing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "clarus", "rootLanguage": "Latin", "rootMeaning": "Clear, bright", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "clarus", "highlight": true }, { "text": " (clear); named for the bright, bell-like clarity of its top notes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "clarus", "correctAnswer": "Clear, bright", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Percussion",
+    "pronunciation": "puh-KUSH-uhn",
+    "pos": "noun",
+    "definition": "Instruments played by striking, shaking, or scraping, such as drums, cymbals, and xylophones, that form the rhythmic backbone of an ensemble.",
+    "origin": "From Latin <strong>percussio</strong> (a striking), from percutere (to strike through), from per- (through) + quatere (to shake). The word entered musical use in the 18th century to classify instruments struck to produce sound.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Percussion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin percussio", "b": "A striking" },
+          { "a": "Latin percutere", "b": "To strike through" },
+          { "a": "Latin quatere", "b": "To shake" },
+          { "a": "Entered musical classification in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Percussion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Percussion instruments are played by striking, shaking, or", "b": "Scraping" },
+          { "a": "Drums and cymbals belong to the", "b": "Percussion family" },
+          { "a": "Percussion typically provides an ensemble's", "b": "Rhythmic backbone" },
+          { "a": "In medicine, 'percussion' means tapping the body to", "b": "Diagnose by sound" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Percussion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The marching band's", "b": "Percussion section thundered past" },
+          { "a": "She studied classical", "b": "Percussion at conservatory" },
+          { "a": "The producer layered hand claps as extra", "b": "Percussion" },
+          { "a": "A single sharp drum hit added dramatic", "b": "Percussion" }
+        ] }
+    ],
+    "roots": [ { "rootText": "quatere", "rootLanguage": "Latin", "rootMeaning": "To shake", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin per- (through) + ", "highlight": false }, { "text": "quatere", "highlight": true }, { "text": " (to shake); sound made by striking or shaking rather than blowing or bowing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "quatere", "correctAnswer": "To shake", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Flute",
+    "pronunciation": "floot",
+    "pos": "noun",
+    "definition": "A high-pitched woodwind instrument played by blowing air across an opening, traditionally held horizontally.",
+    "origin": "From Old French <strong>flaute</strong>, of uncertain origin, possibly influenced by flaüster (to whistle) or Latin flare (to blow). The instrument itself is among the oldest known, with bone flutes surviving from prehistoric times.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Flute</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French flaute", "b": "Of uncertain origin" },
+          { "a": "Possibly influenced by flaüster", "b": "To whistle" },
+          { "a": "Possibly related to Latin flare", "b": "To blow" },
+          { "a": "Bone flutes survive from", "b": "Prehistoric times" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Flute</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A flute is played by blowing air across an", "b": "Opening" },
+          { "a": "The modern orchestral flute is held", "b": "Horizontally" },
+          { "a": "A tall, narrow champagne glass is also called a", "b": "Flute" },
+          { "a": "The flute is one of the highest-pitched", "b": "Woodwinds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Flute</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A bright", "b": "Flute solo opened the symphony" },
+          { "a": "The waiter poured champagne into a crystal", "b": "Flute" },
+          { "a": "Panpipes are an ancient relative of the", "b": "Flute" },
+          { "a": "She practised scales daily on her", "b": "Flute" }
+        ] }
+    ],
+    "roots": [ { "rootText": "flare", "rootLanguage": "Latin", "rootMeaning": "To blow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Latin ", "highlight": false }, { "text": "flare", "highlight": true }, { "text": " (to blow); breath shaped into sound across a bone or wooden tube.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "flare", "correctAnswer": "To blow", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cello",
+    "pronunciation": "CHEL-oh",
+    "pos": "noun",
+    "definition": "A large bowed string instrument, tuned an octave below the viola, played upright between the knees while seated.",
+    "origin": "A shortening of Italian <strong>violoncello</strong>, a diminutive of violone (a large viol, itself an augmentative of viola). Confusingly, the -cello ending signals 'small,' though the cello is far larger than a violin.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cello</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A shortening of Italian", "b": "Violoncello" },
+          { "a": "Diminutive of", "b": "Violone (a large viol)" },
+          { "a": "Violone is an augmentative of", "b": "Viola" },
+          { "a": "The -cello ending oddly signals", "b": "Small" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cello</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cello is tuned an octave below the", "b": "Viola" },
+          { "a": "A cellist plays the instrument", "b": "Upright, between the knees" },
+          { "a": "A cello is much larger than a", "b": "Violin" },
+          { "a": "The cello is prized for its warm, low", "b": "Register" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cello</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The soloist drew a long, mournful note from the", "b": "Cello" },
+          { "a": "She rested the", "b": "Cello's spike against the floor" },
+          { "a": "Bach's suites for solo", "b": "Cello are widely studied" },
+          { "a": "The quartet's low harmonies rested on the", "b": "Cello" }
+        ] }
+    ],
+    "roots": [ { "rootText": "violone", "rootLanguage": "Italian", "rootMeaning": "A large viol", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "violone", "highlight": true }, { "text": " (large viol); its own name a diminutive, oddly, of something bigger.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "violone", "correctAnswer": "A large viol", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Banjo",
+    "pronunciation": "BAN-joh",
+    "pos": "noun",
+    "definition": "A stringed instrument with a thin membrane stretched over a circular frame, plucked or strummed, central to American folk and bluegrass music.",
+    "origin": "Likely from Kimbundu <strong>mbanza</strong> or a related West African term for a gourd-bodied stringed instrument, brought to the Americas by enslaved Africans in the 17th century and adapted using local materials into the modern banjo.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Banjo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Likely from Kimbundu", "b": "Mbanza" },
+          { "a": "Mbanza named a", "b": "Gourd-bodied stringed instrument" },
+          { "a": "Brought to the Americas by", "b": "Enslaved Africans" },
+          { "a": "Arrived in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Banjo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A banjo has a thin membrane stretched over a", "b": "Circular frame" },
+          { "a": "A banjo is played by", "b": "Plucking or strumming" },
+          { "a": "The banjo is central to American folk and", "b": "Bluegrass music" },
+          { "a": "The banjo's body was adapted from an African", "b": "Gourd instrument" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Banjo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A fast bluegrass riff rang out on the", "b": "Banjo" },
+          { "a": "He picked a lively tune on his old", "b": "Banjo" },
+          { "a": "The string band featured fiddle and", "b": "Banjo" },
+          { "a": "Its bright, percussive twang made the", "b": "Banjo instantly recognisable" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mbanza", "rootLanguage": "Kimbundu", "rootMeaning": "Gourd-bodied stringed instrument", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Likely from Kimbundu ", "highlight": false }, { "text": "mbanza", "highlight": true }, { "text": "; a West African instrument reshaped into an American folk icon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mbanza", "correctAnswer": "Gourd-bodied stringed instrument", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mandolin",
+    "pronunciation": "man-duh-LIN",
+    "pos": "noun",
+    "definition": "A small, pear-shaped stringed instrument with paired strings, played with a plectrum and known for its bright, chiming tone.",
+    "origin": "From Italian <strong>mandolino</strong>, a diminutive of mandola, itself derived from mandora and ultimately from Greek pandoura (a three-stringed lute). Neapolitan makers refined the instrument's paired-string design in the 18th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mandolin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian mandolino", "b": "A little mandola" },
+          { "a": "Derived from mandora, ultimately from Greek", "b": "Pandoura" },
+          { "a": "Pandoura named a", "b": "Three-stringed lute" },
+          { "a": "Paired-string design refined by makers in", "b": "Naples" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mandolin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mandolin's strings are arranged in", "b": "Pairs" },
+          { "a": "A mandolin is played with a", "b": "Plectrum" },
+          { "a": "A mandolin's body shape is", "b": "Pear-shaped" },
+          { "a": "In the kitchen, a 'mandolin' is a tool for", "b": "Slicing vegetables thinly" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mandolin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A bright, tremolo-heavy", "b": "Mandolin line ran through the folk song" },
+          { "a": "He tuned each pair of strings on his", "b": "Mandolin" },
+          { "a": "The bluegrass trio featured banjo, guitar, and", "b": "Mandolin" },
+          { "a": "The chef used a", "b": "Mandolin to slice the potatoes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pandoura", "rootLanguage": "Greek", "rootMeaning": "A three-stringed lute", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "pandoura", "highlight": true }, { "text": " (a lute), via mandora and Italian mandolino, 'little mandola'.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pandoura", "correctAnswer": "A three-stringed lute", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oboe",
+    "pronunciation": "OH-boh",
+    "pos": "noun",
+    "definition": "A slender, double-reed woodwind instrument with a penetrating, nasal tone, traditionally used to tune the orchestra.",
+    "origin": "From French <strong>hautbois</strong> (loud wood), from haut (high, loud) + bois (wood), Italianised as oboe in the 18th century. The name described the instrument's piercing volume compared to quieter contemporaries.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oboe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French hautbois", "b": "Loud wood" },
+          { "a": "French haut", "b": "High, loud" },
+          { "a": "French bois", "b": "Wood" },
+          { "a": "Italianised as oboe in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oboe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An oboe uses a", "b": "Double reed" },
+          { "a": "The oboe has a penetrating, nasal", "b": "Tone" },
+          { "a": "Orchestras traditionally tune to the oboe's", "b": "A note" },
+          { "a": "An oboist must carefully shape their own", "b": "Reeds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oboe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The concertmaster waited for the", "b": "Oboe's tuning note" },
+          { "a": "A plaintive", "b": "Oboe solo opened the second movement" },
+          { "a": "She sanded the cane down to make a new", "b": "Oboe reed" },
+          { "a": "The duck in Peter and the Wolf is played by an", "b": "Oboe" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hautbois", "rootLanguage": "French", "rootMeaning": "Loud wood", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "hautbois", "highlight": true }, { "text": " (loud wood); named for a piercing volume that still cuts through an orchestra.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hautbois", "correctAnswer": "Loud wood", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tuba",
+    "pronunciation": "TYOO-buh",
+    "pos": "noun",
+    "definition": "The largest and lowest-pitched brass instrument, played through a wide, forward-facing bell and used to anchor an ensemble's bass line.",
+    "origin": "From Latin <strong>tuba</strong> (trumpet, war-horn), a straight bronze instrument used to signal Roman legions. The modern valved instrument borrowed the ancient name in the 19th century when it was invented in Prussia.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tuba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin tuba", "b": "Trumpet, war-horn" },
+          { "a": "Used to signal", "b": "Roman legions" },
+          { "a": "The modern instrument was invented in the", "b": "19th century" },
+          { "a": "First built in", "b": "Prussia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tuba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The tuba is the", "b": "Largest and lowest brass instrument" },
+          { "a": "The tuba's sound projects from a wide, forward-facing", "b": "Bell" },
+          { "a": "In an ensemble, the tuba typically anchors the", "b": "Bass line" },
+          { "a": "A tuba player must have strong", "b": "Breath support" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tuba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The marching band's lowest notes rumbled from the", "b": "Tuba" },
+          { "a": "He hoisted the heavy", "b": "Tuba onto his shoulder" },
+          { "a": "The oom-pah rhythm relied on the", "b": "Tuba" },
+          { "a": "A deep", "b": "Tuba note underpinned the fanfare" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tuba", "rootLanguage": "Latin", "rootMeaning": "Trumpet, war-horn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tuba", "highlight": true }, { "text": " (war-horn); an ancient Roman name given to a new 19th-century bass giant.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tuba", "correctAnswer": "Trumpet, war-horn", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cymbal",
+    "pronunciation": "SIM-buhl",
+    "pos": "noun",
+    "definition": "A round, flat brass percussion plate that produces a bright, crashing or shimmering sound when struck or clashed together.",
+    "origin": "From Latin <strong>cymbalum</strong>, from Greek kymbalon, from kymbe (cup, bowl, boat), describing the instrument's shallow, bowl-like shape. Paired cymbals appear in depictions of music from ancient Mesopotamia onward.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cymbal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kymbalon", "b": "From kymbe" },
+          { "a": "Greek kymbe", "b": "Cup, bowl, boat" },
+          { "a": "Describes the instrument's", "b": "Shallow, bowl-like shape" },
+          { "a": "Paired cymbals appear from", "b": "Ancient Mesopotamia onward" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cymbal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cymbal is a round, flat", "b": "Brass plate" },
+          { "a": "A cymbal is struck or clashed to make a", "b": "Crashing or shimmering sound" },
+          { "a": "A drum kit typically includes a hi-hat, crash, and", "b": "Ride cymbal" },
+          { "a": "Marching bands often use pairs of hand-held", "b": "Cymbals" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cymbal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The drummer punctuated the joke with a", "b": "Cymbal crash" },
+          { "a": "A shimmering", "b": "Cymbal roll built the tension" },
+          { "a": "The percussionist clashed a pair of", "b": "Hand cymbals" },
+          { "a": "The song ended with one final", "b": "Cymbal hit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kymbe", "rootLanguage": "Greek", "rootMeaning": "Cup, bowl, boat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kymbe", "highlight": true }, { "text": " (bowl); named for the shallow, cup-like curve of the metal plate.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kymbe", "correctAnswer": "Cup, bowl, boat", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fiddle",
+    "pronunciation": "FID-uhl",
+    "pos": "noun",
+    "definition": "A colloquial name for the violin, especially as used in folk, country, and traditional dance music.",
+    "origin": "From Old English <strong>fithele</strong>, related to medieval Latin vitula and ultimately sharing a root with 'violin.' The word survived as the everyday folk term while 'violin' became the formal name for classical performance.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fiddle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English fithele", "b": "An early stringed instrument" },
+          { "a": "Related to medieval Latin", "b": "Vitula" },
+          { "a": "Shares a root with the word", "b": "Violin" },
+          { "a": "'Violin' became the term used for", "b": "Formal classical performance" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fiddle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fiddle is the same instrument as a", "b": "Violin" },
+          { "a": "Fiddle is the term typically used in", "b": "Folk and country music" },
+          { "a": "'To fiddle with something' means to", "b": "Fidget or tinker aimlessly" },
+          { "a": "'Fit as a fiddle' is an idiom meaning", "b": "In excellent health" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fiddle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The barn dance came alive with a lively", "b": "Fiddle tune" },
+          { "a": "He kept fiddling nervously with his", "b": "Car keys" },
+          { "a": "After his recovery he was", "b": "Fit as a fiddle" },
+          { "a": "The bluegrass band's fastest player took up the", "b": "Fiddle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fithele", "rootLanguage": "Old English", "rootMeaning": "An early stringed instrument", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "fithele", "highlight": true }, { "text": "; the same instrument as the violin, kept close to the fireside.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fithele", "correctAnswer": "An early stringed instrument", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bugle",
+    "pronunciation": "BYOO-guhl",
+    "pos": "noun",
+    "definition": "A simple brass instrument without valves, used chiefly for military signals such as reveille and the last post.",
+    "origin": "From Old French <strong>bugle</strong> (wild ox, buffalo horn), from Latin buculus (young bullock). Early bugles were literally hollowed animal horns before being remade in brass, keeping their ancient name for a wild ox.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bugle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French bugle", "b": "Wild ox, buffalo horn" },
+          { "a": "Latin buculus", "b": "Young bullock" },
+          { "a": "Early bugles were literally", "b": "Hollowed animal horns" },
+          { "a": "Later remade in", "b": "Brass" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bugle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bugle, unlike a trumpet, has no", "b": "Valves" },
+          { "a": "The bugle is chiefly used for", "b": "Military signals" },
+          { "a": "'The Last Post' is a famous bugle call played at", "b": "Remembrance ceremonies" },
+          { "a": "'Reveille' is a bugle call that signals", "b": "Wake-up time" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bugle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "At dawn, the camp stirred to the sound of the", "b": "Bugle" },
+          { "a": "A lone", "b": "Bugle played the Last Post" },
+          { "a": "The soldier practised his", "b": "Bugle calls each morning" },
+          { "a": "The cavalry charge was signalled by a", "b": "Bugle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "buculus", "rootLanguage": "Latin", "rootMeaning": "Young bullock", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "buculus", "highlight": true }, { "text": " (young bullock); once a hollowed ox horn, later reborn in brass.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "buculus", "correctAnswer": "Young bullock", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Harmonica",
+    "pronunciation": "har-MON-i-kuh",
+    "pos": "noun",
+    "definition": "A small, handheld wind instrument played by blowing and drawing air through a row of metal reeds set into a rectangular case.",
+    "origin": "From Latin <strong>harmonicus</strong> (harmonious), from Greek harmonikos, related to harmonia. Benjamin Franklin used the name earlier for his glass armonica, but by the 19th century it was applied to the new free-reed mouth instrument invented in Germany.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Harmonica</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin harmonicus", "b": "Harmonious" },
+          { "a": "Greek harmonikos", "b": "Related to harmonia" },
+          { "a": "Benjamin Franklin first applied the name to his", "b": "Glass armonica" },
+          { "a": "By the 19th century it named a free-reed instrument invented in", "b": "Germany" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Harmonica</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A harmonica is played by blowing and", "b": "Drawing air" },
+          { "a": "A harmonica's sound comes from a row of", "b": "Metal reeds" },
+          { "a": "The harmonica is also known informally as a", "b": "Mouth organ" },
+          { "a": "The harmonica is closely associated with", "b": "Blues music" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Harmonica</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A wailing", "b": "Harmonica solo opened the blues track" },
+          { "a": "He kept a", "b": "Harmonica in his jacket pocket" },
+          { "a": "The busker played guitar and", "b": "Harmonica at once" },
+          { "a": "She bent the notes on her", "b": "Harmonica for a bluesy effect" }
+        ] }
+    ],
+    "roots": [ { "rootText": "harmonikos", "rootLanguage": "Greek", "rootMeaning": "Harmonious", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "harmonikos", "highlight": true }, { "text": " (harmonious); a pocket-sized reed instrument named for pleasing sound.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "harmonikos", "correctAnswer": "Harmonious", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Synthesizer",
+    "pronunciation": "SIN-thuh-sy-zuh",
+    "pos": "noun",
+    "definition": "An electronic instrument that generates and shapes sound waves electronically to produce a vast range of tones and effects.",
+    "origin": "From Greek <strong>synthesis</strong> (a putting together), from syn- (together) + tithenai (to place). Engineers coined 'synthesizer' in the mid-20th century for machines that electronically combined and shaped waveforms into new sounds.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Synthesizer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek synthesis", "b": "A putting together" },
+          { "a": "Greek syn-", "b": "Together" },
+          { "a": "Greek tithenai", "b": "To place" },
+          { "a": "Coined by engineers in the", "b": "Mid-20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Synthesizer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A synthesizer generates sound", "b": "Electronically" },
+          { "a": "Synthesizers can shape sound waves into a vast range of", "b": "Tones and effects" },
+          { "a": "Early synthesizers were pioneered by inventors such as", "b": "Robert Moog" },
+          { "a": "Synthesizers became central to genres such as", "b": "Electronic and pop music" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Synthesizer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The producer layered a warm pad from the", "b": "Synthesizer" },
+          { "a": "The band's sound relied heavily on vintage", "b": "Synthesizers" },
+          { "a": "She twisted the knobs on the", "b": "Synthesizer to sculpt the tone" },
+          { "a": "The film score used an eerie", "b": "Synthesizer drone" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tithenai", "rootLanguage": "Greek", "rootMeaning": "To place", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek syn- (together) + ", "highlight": false }, { "text": "tithenai", "highlight": true }, { "text": " (to place); waveforms placed together to build entirely new sounds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tithenai", "correctAnswer": "To place", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Amplifier",
+    "pronunciation": "AM-pli-fy-uh",
+    "pos": "noun",
+    "definition": "An electronic device that increases the strength of an audio signal, used to make an instrument or voice louder through a speaker.",
+    "origin": "From Latin <strong>amplificare</strong> (to enlarge), from amplus (large, spacious) + facere (to make). The verb existed in English for centuries before electrical engineers applied 'amplifier' to signal-boosting devices in the early 20th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Amplifier</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin amplificare", "b": "To enlarge" },
+          { "a": "Latin amplus", "b": "Large, spacious" },
+          { "a": "Latin facere", "b": "To make" },
+          { "a": "Applied to signal-boosting devices in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Amplifier</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An amplifier increases the strength of an", "b": "Audio signal" },
+          { "a": "Guitarists plug their instrument into an", "b": "Amplifier" },
+          { "a": "An amplifier drives sound out through a", "b": "Speaker" },
+          { "a": "'To amplify' figuratively can mean to", "b": "Make more noticeable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Amplifier</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He cranked up the", "b": "Amplifier before the solo" },
+          { "a": "The stage was lined with towering", "b": "Amplifiers" },
+          { "a": "Feedback squealed from the overdriven", "b": "Amplifier" },
+          { "a": "The campaign aimed to", "b": "Amplify unheard voices" }
+        ] }
+    ],
+    "roots": [ { "rootText": "amplus", "rootLanguage": "Latin", "rootMeaning": "Large, spacious", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "amplus", "highlight": true }, { "text": " (large) + facere (to make); a device built to make a quiet signal large.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "amplus", "correctAnswer": "Large, spacious", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Microphone",
+    "pronunciation": "MY-kruh-fohn",
+    "pos": "noun",
+    "definition": "A device that converts sound waves into an electrical signal, used to capture voice or instruments for amplification or recording.",
+    "origin": "From Greek <strong>mikros</strong> (small) + phone (sound, voice). Coined in the 1820s for an acoustic device to amplify faint sounds, the word was later repurposed for the electrical instrument invented in the 1870s.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Microphone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek mikros", "b": "Small" },
+          { "a": "Greek phone", "b": "Sound, voice" },
+          { "a": "Coined in the", "b": "1820s" },
+          { "a": "Repurposed for the electrical instrument invented in the", "b": "1870s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Microphone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A microphone converts sound waves into an", "b": "Electrical signal" },
+          { "a": "Microphones are used to capture voice or instruments for", "b": "Amplification or recording" },
+          { "a": "A singer holds a microphone close for a", "b": "Warmer, fuller sound" },
+          { "a": "'Microphone' is often shortened informally to", "b": "Mic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Microphone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The singer stepped up to the", "b": "Microphone" },
+          { "a": "Feedback squealed through the", "b": "Microphone" },
+          { "a": "The engineer positioned a", "b": "Microphone in front of the amp" },
+          { "a": "The comedian tapped the", "b": "Microphone to test it" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mikros", "rootLanguage": "Greek", "rootMeaning": "Small", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "mikros", "highlight": true }, { "text": " (small) + phone (sound); a device built to catch the smallest, faintest voice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mikros", "correctAnswer": "Small", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Xylophone",
+    "pronunciation": "ZY-luh-fohn",
+    "pos": "noun",
+    "definition": "A percussion instrument made of a graduated row of wooden bars struck with mallets to produce bright, resonant tones.",
+    "origin": "From Greek <strong>xylon</strong> (wood) + phone (sound). The compound was coined in the 19th century in Western Europe to name an instrument whose wooden-bar design had existed for centuries in Africa and Southeast Asia.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Xylophone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek xylon", "b": "Wood" },
+          { "a": "Greek phone", "b": "Sound" },
+          { "a": "Coined in the", "b": "19th century" },
+          { "a": "The wooden-bar design existed for centuries in", "b": "Africa and Southeast Asia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Xylophone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A xylophone is made of a graduated row of", "b": "Wooden bars" },
+          { "a": "A xylophone is played by striking the bars with", "b": "Mallets" },
+          { "a": "Compared to a marimba, a xylophone has a", "b": "Brighter, sharper tone" },
+          { "a": "Each bar of a xylophone is tuned to a specific", "b": "Pitch" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Xylophone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The child tapped out a simple tune on the", "b": "Xylophone" },
+          { "a": "A playful", "b": "Xylophone riff opened the cartoon score" },
+          { "a": "The percussionist ran the mallets swiftly across the", "b": "Xylophone" },
+          { "a": "The music teacher handed each pupil a small", "b": "Xylophone" }
+        ] }
+    ],
+    "roots": [ { "rootText": "xylon", "rootLanguage": "Greek", "rootMeaning": "Wood", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "xylon", "highlight": true }, { "text": " (wood) + phone (sound); bright tones struck straight from tuned wooden bars.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "xylon", "correctAnswer": "Wood", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tremolo",
+    "pronunciation": "TREM-uh-loh",
+    "pos": "noun",
+    "definition": "A rapid, trembling repetition of a single note or alternation between two notes, used to create a shimmering or wavering effect.",
+    "origin": "From Italian <strong>tremolo</strong> (trembling), from Latin tremulus (shaking, quivering), from tremere (to tremble). Composers adopted the Italian term into musical notation in the 17th century to mark this quivering effect.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-instruments", "name": "Music Theory & Instruments", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tremolo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian tremolo", "b": "Trembling" },
+          { "a": "Latin tremulus", "b": "Shaking, quivering" },
+          { "a": "Latin tremere", "b": "To tremble" },
+          { "a": "Adopted into musical notation in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tremolo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tremolo is a rapid, trembling repetition of a", "b": "Single note" },
+          { "a": "A tremolo can also alternate rapidly between", "b": "Two notes" },
+          { "a": "Tremolo is used to create a shimmering or", "b": "Wavering effect" },
+          { "a": "A guitar's tremolo arm lets a player bend a note's", "b": "Pitch" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tremolo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The mandolinist picked a fast", "b": "Tremolo on the sustained note" },
+          { "a": "The strings played an eerie", "b": "Tremolo passage" },
+          { "a": "He pushed the guitar's", "b": "Tremolo bar to bend the note" },
+          { "a": "Her voice carried a slight, nervous", "b": "Tremolo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tremere", "rootLanguage": "Latin", "rootMeaning": "To tremble", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tremere", "highlight": true }, { "text": " (to tremble); a note shivered rapidly to create a shimmering effect.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tremere", "correctAnswer": "To tremble", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

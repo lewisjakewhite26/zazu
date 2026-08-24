@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Jazz",
+    "pronunciation": "jaz",
+    "pos": "noun",
+    "definition": "A musical genre originating in African American communities in the early 20th century, characterized by improvisation, syncopation, and expressive rhythm.",
+    "origin": "Of disputed origin. The word first surfaces in West Coast sportswriting around 1912-13 as slang for energy or pep, possibly drawing on <strong>jasm</strong>, an older American slang term for spirit and vigor. It was only applied to the new Chicago and New Orleans music by the mid-1910s, and no single coiner or source has ever been confirmed.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jazz</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The word's true origin is", "b": "Disputed, never confirmed" },
+          { "a": "Possibly linked to slang", "b": "Jasm (energy, pep)" },
+          { "a": "First appeared in print in", "b": "West Coast sportswriting, 1912-13" },
+          { "a": "Applied to the new music by", "b": "The mid-1910s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jazz</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Jazz originated among", "b": "African American communities" },
+          { "a": "A defining feature of jazz is", "b": "Improvisation" },
+          { "a": "Jazz rhythm relies heavily on", "b": "Syncopation" },
+          { "a": "'To jazz something up' means to make it", "b": "Livelier or more exciting" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jazz</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The trumpeter's solo defined the sound of", "b": "Jazz" },
+          { "a": "They spent the evening at a smoky", "b": "Jazz club" },
+          { "a": "The festival lineup leaned heavily on", "b": "Jazz and blues" },
+          { "a": "He tried to", "b": "Jazz up the dull presentation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "jasm", "rootLanguage": "American slang (disputed)", "rootMeaning": "Energy, pep, spirit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Of disputed origin, possibly from ", "highlight": false }, { "text": "jasm", "highlight": true }, { "text": " (slang for energy, pep); first heard in baseball slang before naming a new music.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "jasm", "correctAnswer": "Energy, pep, spirit", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Blues",
+    "pronunciation": "blooz",
+    "pos": "noun",
+    "definition": "A genre of music rooted in African American traditions, marked by expressive, often melancholy melodies and a characteristic chord progression.",
+    "origin": "From the 18th-century English idiom <strong>blue devils</strong>, describing a fit of melancholy or low spirits, later shortened to simply 'the blues.' W.C. Handy's 1912 composition 'Memphis Blues' helped fix the term as the name of a distinct African American musical form built on mournful, expressive tonality.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Blues</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English idiom blue devils", "b": "A fit of melancholy" },
+          { "a": "The idiom was later", "b": "Shortened to 'the blues'" },
+          { "a": "W.C. Handy's 1912 piece was called", "b": "Memphis Blues" },
+          { "a": "Handy's work helped fix the term for", "b": "An African American musical form" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Blues</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Blues music is built on a characteristic", "b": "Chord progression" },
+          { "a": "'To have the blues' means to feel", "b": "Sad or low" },
+          { "a": "Blues lyrics often express", "b": "Longing and hardship" },
+          { "a": "Blues is a major root of", "b": "Jazz and rock and roll" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Blues</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The guitarist bent every note with real", "b": "Blues feeling" },
+          { "a": "After the loss, the team had a bad case of", "b": "The blues" },
+          { "a": "The delta region is considered the birthplace of the", "b": "Blues" },
+          { "a": "She recorded an album of slow, aching", "b": "Blues numbers" }
+        ] }
+    ],
+    "roots": [ { "rootText": "blue devils", "rootLanguage": "English idiom", "rootMeaning": "Melancholy, low spirits", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From the English idiom ", "highlight": false }, { "text": "blue devils", "highlight": true }, { "text": " (melancholy); a mournful mood turned into a whole musical form.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "blue devils", "correctAnswer": "Melancholy, low spirits", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Riff",
+    "pronunciation": "rif",
+    "pos": "noun",
+    "definition": "A short, repeated musical phrase, often used as a foundation for improvisation.",
+    "origin": "A 1930s jazz musicians' shortening of <strong>refrain</strong>, from Old French refraindre (to repeat, break back), ultimately from Latin refringere (to break up). A riff distills a melody down to its catchiest repeating fragment, a hook the rest of the band can build around.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Riff</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Shortened in the 1930s from", "b": "Refrain" },
+          { "a": "Old French refraindre", "b": "To repeat, break back" },
+          { "a": "Ultimately from Latin", "b": "Refringere (to break up)" },
+          { "a": "Distills a melody into its", "b": "Catchiest repeating fragment" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Riff</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A riff is a short, repeated", "b": "Musical phrase" },
+          { "a": "Riffs often serve as a foundation for", "b": "Improvisation" },
+          { "a": "'To riff on an idea' means to", "b": "Improvise variations on it" },
+          { "a": "A memorable riff often becomes a song's", "b": "Hook" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Riff</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The saxophonist repeated a driving", "b": "Riff" },
+          { "a": "The comedian began to", "b": "Riff on the audience's questions" },
+          { "a": "The whole tune was built around a single guitar", "b": "Riff" },
+          { "a": "Her essay was really just a clever", "b": "Riff on an old proverb" }
+        ] }
+    ],
+    "roots": [ { "rootText": "refrain", "rootLanguage": "English (shortened)", "rootMeaning": "A repeated phrase or chorus", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A shortening of ", "highlight": false }, { "text": "refrain", "highlight": true }, { "text": "; a melody broken down to its catchiest repeating fragment.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "refrain", "correctAnswer": "A repeated phrase or chorus", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Improvise",
+    "pronunciation": "IM-pruh-vyz",
+    "pos": "verb",
+    "definition": "To compose, perform, or create something on the spot, without prior preparation.",
+    "origin": "From Latin <strong>improvisus</strong> (unforeseen), from in- (not) + provisus (foreseen, provided), the past participle of providere (to foresee). The word passed through Italian improvvisare before entering English in the 18th century, describing anything made up on the spot rather than planned in advance.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Improvise</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin improvisus", "b": "Unforeseen" },
+          { "a": "Latin in- + provisus", "b": "Not + foreseen" },
+          { "a": "Provisus comes from", "b": "Providere (to foresee)" },
+          { "a": "Passed into English via", "b": "Italian improvvisare" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Improvise</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To improvise is to create something", "b": "On the spot, without preparation" },
+          { "a": "Jazz musicians improvise around a", "b": "Set of chord changes" },
+          { "a": "The opposite of improvising is", "b": "Rehearsing or planning ahead" },
+          { "a": "Actors who improvise scenes perform", "b": "Unscripted dialogue" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Improvise</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "With no music stand in sight, she chose to", "b": "Improvise the whole solo" },
+          { "a": "When the recipe called for an ingredient he lacked, he had to", "b": "Improvise" },
+          { "a": "The band is known for its ability to", "b": "Improvise for twenty minutes at a stretch" },
+          { "a": "Caught without a speech, the mayor had to", "b": "Improvise remarks" }
+        ] }
+    ],
+    "roots": [ { "rootText": "improvisus", "rootLanguage": "Latin", "rootMeaning": "Unforeseen, not provided for", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "improvisus", "highlight": true }, { "text": " (unforeseen); creating something in the moment, unplanned.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "improvisus", "correctAnswer": "Unforeseen, not provided for", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Syncopation",
+    "pronunciation": "sin-kuh-PAY-shuhn",
+    "pos": "noun",
+    "definition": "A rhythmic technique that shifts the musical accent onto a normally unstressed beat.",
+    "origin": "From Latin syncopare, from Greek <strong>synkope</strong> (a cutting off, a cutting short), from syn- (together) + koptein (to cut). In music, syncopation 'cuts off' the beat where the listener expects it, throwing the accent onto an off-beat moment instead.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Syncopation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek synkope", "b": "A cutting off, a cutting short" },
+          { "a": "Greek syn-", "b": "Together" },
+          { "a": "Greek koptein", "b": "To cut" },
+          { "a": "Reached English via Latin", "b": "Syncopare" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Syncopation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Syncopation shifts the accent onto a normally", "b": "Unstressed beat" },
+          { "a": "Ragtime and jazz both rely heavily on", "b": "Syncopation" },
+          { "a": "Without syncopation, a rhythm feels more", "b": "Even and predictable" },
+          { "a": "A syncopated rhythm can make music feel", "b": "Off-balance and exciting" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Syncopation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pianist's left hand held steady while the right added", "b": "Syncopation" },
+          { "a": "Critics praised the tune's playful", "b": "Syncopation" },
+          { "a": "Students practiced clapping basic patterns of", "b": "Syncopation" },
+          { "a": "The drummer accented the off-beats with sharp", "b": "Syncopation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "synkope", "rootLanguage": "Greek", "rootMeaning": "A cutting off, a cutting short", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "synkope", "highlight": true }, { "text": " (a cutting off); the beat interrupted right where you expect it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "synkope", "correctAnswer": "A cutting off, a cutting short", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bebop",
+    "pronunciation": "BEE-bop",
+    "pos": "noun",
+    "definition": "A fast, harmonically complex style of jazz that emerged in the 1940s, emphasizing virtuosic improvisation.",
+    "origin": "Of uncertain, likely imitative origin. Musicians in the 1940s are said to have scatted the style's characteristic two-note phrase as '<strong>be-bop</strong>' or 'rebop,' and the nonsense syllables stuck as the genre's name. No single coiner is documented, and early citations for 'rebop' alongside 'bebop' make any tidy origin story unreliable.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bebop</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The word's origin is", "b": "Uncertain, likely imitative" },
+          { "a": "Musicians scatted the style's two-note phrase as", "b": "Be-bop or rebop" },
+          { "a": "No single coiner of the term is", "b": "Documented" },
+          { "a": "Early citations for the rival form", "b": "Rebop complicate the story" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bebop</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bebop emerged as a style in the", "b": "1940s" },
+          { "a": "Bebop is known for its", "b": "Fast tempos and complex harmony" },
+          { "a": "Bebop emphasizes", "b": "Virtuosic improvisation" },
+          { "a": "Charlie Parker and Dizzy Gillespie were pioneers of", "b": "Bebop" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bebop</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The saxophonist tore through a blistering", "b": "Bebop solo" },
+          { "a": "The club specialized in classic", "b": "Bebop from the 1940s and '50s" },
+          { "a": "Younger players still study the harmonic language of", "b": "Bebop" },
+          { "a": "Critics called the new record a return to", "b": "Bebop's roots" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bebop / rebop", "rootLanguage": "Imitative (disputed)", "rootMeaning": "Nonsense syllables echoing a two-note musical phrase", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Of uncertain, likely imitative origin, from ", "highlight": false }, { "text": "bebop / rebop", "highlight": true }, { "text": "; nonsense syllables scatted to the style's signature two-note phrase.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bebop / rebop", "correctAnswer": "Nonsense syllables echoing a two-note musical phrase", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Scat",
+    "pronunciation": "skat",
+    "pos": "noun",
+    "definition": "A style of jazz vocal improvisation using nonsense syllables in place of lyrics.",
+    "origin": "Of uncertain origin. Popular legend credits Louis Armstrong with inventing <strong>scat</strong> singing in 1926 after dropping his lyric sheet mid-recording and filling in with nonsense syllables, but similar wordless vocalizing predates that record, and the word may simply echo the improvised sounds it names rather than trace to any single source.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Scat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The word's origin is", "b": "Uncertain" },
+          { "a": "Legend credits its invention to", "b": "Louis Armstrong in 1926" },
+          { "a": "The legend says Armstrong dropped his", "b": "Lyric sheet mid-recording" },
+          { "a": "But wordless vocalizing like it", "b": "Predates that recording" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Scat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Scat singing replaces lyrics with", "b": "Nonsense syllables" },
+          { "a": "Scat is a form of vocal", "b": "Improvisation" },
+          { "a": "A scat singer often imitates the sound of an", "b": "Instrument" },
+          { "a": "Ella Fitzgerald was famous for her", "b": "Scat solos" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Scat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Midway through the tune, she broke into a playful", "b": "Scat solo" },
+          { "a": "The vocalist traded fast", "b": "Scat phrases with the trumpeter" },
+          { "a": "He can imitate a trumpet perfectly when he", "b": "Scats" },
+          { "a": "The workshop taught beginners the basics of", "b": "Scat singing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "scat", "rootLanguage": "Uncertain origin", "rootMeaning": "Nonsense vocal syllables", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Of uncertain origin; a style built from ", "highlight": true }, { "text": "nonsense syllables", "highlight": false }, { "text": " sung in place of lyrics.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "scat", "correctAnswer": "Nonsense vocal syllables", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Swing",
+    "pronunciation": "swing",
+    "pos": "noun",
+    "definition": "A style of jazz with a strong, danceable rhythmic drive, dominant in American popular music of the 1930s and '40s; also, the rhythmic quality itself.",
+    "origin": "From Old English <strong>swingan</strong> (to rush, fling, or beat), a native Germanic word for vigorous back-and-forth motion. Musicians of the 1930s applied it to a propulsive, buoyant style of jazz built for dancing, and by extension to the entire big-band era it came to dominate.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Swing</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English swingan", "b": "To rush, fling, or beat" },
+          { "a": "Swingan is a native", "b": "Germanic word" },
+          { "a": "Musicians applied it to jazz in the", "b": "1930s" },
+          { "a": "It came to describe a whole", "b": "Big-band era" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Swing</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Swing music has a strong, danceable", "b": "Rhythmic drive" },
+          { "a": "Swing dominated American popular music in the", "b": "1930s and '40s" },
+          { "a": "'To swing' rhythmically means to play with a", "b": "Loose, lilting groove" },
+          { "a": "'A mood swing' figuratively describes a sudden", "b": "Change of state" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Swing</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dance floor filled the moment the band began to", "b": "Swing" },
+          { "a": "Couples twirled to a lively", "b": "Swing tune" },
+          { "a": "Critics said the rhythm section simply didn't", "b": "Swing" },
+          { "a": "Big-band leaders like Benny Goodman defined the", "b": "Swing era" }
+        ] }
+    ],
+    "roots": [ { "rootText": "swingan", "rootLanguage": "Old English", "rootMeaning": "To rush, fling, whip", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "swingan", "highlight": true }, { "text": " (to rush, fling); vigorous motion turned into a whole dance-band era.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "swingan", "correctAnswer": "To rush, fling, whip", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Groove",
+    "pronunciation": "groov",
+    "pos": "noun",
+    "definition": "A steady, satisfying rhythmic pattern that a piece of music settles into.",
+    "origin": "From Middle Dutch <strong>groeve</strong> (a furrow or pit), part of a family of Germanic words for a dug channel. The musical sense grew from the literal groove cut into a phonograph record: staying 'in the groove' meant the needle tracked true, and by the 1930s the phrase had become slang for a steady, satisfying rhythm.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Groove</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch groeve", "b": "A furrow or pit" },
+          { "a": "Refers literally to the channel cut in", "b": "A phonograph record" },
+          { "a": "'In the groove' originally meant the needle", "b": "Tracked true" },
+          { "a": "Became rhythm slang by the", "b": "1930s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Groove</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A groove is a steady, satisfying", "b": "Rhythmic pattern" },
+          { "a": "The bassist and drummer lock in to create the", "b": "Groove" },
+          { "a": "'To be in a groove' means to be", "b": "Performing consistently well" },
+          { "a": "'Stuck in a groove' figuratively means stuck in a", "b": "Routine or habit" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Groove</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bass line locked into a deep, hypnotic", "b": "Groove" },
+          { "a": "Once the band found its", "b": "Groove, the crowd started dancing" },
+          { "a": "After the injury, the pitcher slowly got back into his", "b": "Groove" },
+          { "a": "The funk track was built on one relentless", "b": "Groove" }
+        ] }
+    ],
+    "roots": [ { "rootText": "groeve", "rootLanguage": "Middle Dutch", "rootMeaning": "A furrow, ditch, pit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "groeve", "highlight": true }, { "text": " (a furrow); the record's channel became rhythm you can settle into.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "groeve", "correctAnswer": "A furrow, ditch, pit", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ragtime",
+    "pronunciation": "RAG-tym",
+    "pos": "noun",
+    "definition": "An early style of American piano music marked by a syncopated melody over a steady, marching bass.",
+    "origin": "A compound of <strong>ragged</strong> and time, coined in 1890s America to describe the music's off-kilter, syncopated rhythm, which sounded 'ragged' against the steady beat beneath it. Scott Joplin's published rags, including 'Maple Leaf Rag' (1899), helped fix both the genre and its name by the turn of the 20th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ragtime</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of ragged and", "b": "Time" },
+          { "a": "Coined in", "b": "1890s America" },
+          { "a": "Named for a rhythm that sounded", "b": "Ragged against a steady beat" },
+          { "a": "Scott Joplin's 1899 hit was called", "b": "Maple Leaf Rag" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ragtime</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ragtime pairs a syncopated melody with a steady", "b": "Marching bass" },
+          { "a": "Ragtime is primarily written for", "b": "Solo piano" },
+          { "a": "Ragtime flourished around the turn of the", "b": "20th century" },
+          { "a": "Ragtime is considered an important precursor to", "b": "Jazz" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ragtime</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pianist's left hand kept a steady march beneath a bouncing", "b": "Ragtime melody" },
+          { "a": "The silent film was scored with lively", "b": "Ragtime piano" },
+          { "a": "He collected sheet music from the golden age of", "b": "Ragtime" },
+          { "a": "The novel takes its title and mood from the era of", "b": "Ragtime" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ragged + time", "rootLanguage": "American English compound", "rootMeaning": "Syncopated, off-beat rhythm", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "ragged + time", "highlight": true }, { "text": "; a melody that sounds torn loose from its steady marching bass.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ragged + time", "correctAnswer": "Syncopated, off-beat rhythm", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Boogie",
+    "pronunciation": "BOO-gee",
+    "pos": "noun",
+    "definition": "A lively dance, party, or driving rhythmic style of blues piano; also, to dance energetically.",
+    "origin": "Of uncertain origin, first recorded in African American vernacular in the early 20th century for a rowdy dance or house party. Some scholars propose a link to a West African word carried through the diaspora, others to English dialect '<strong>bogey</strong>'; no source is conclusive, though by the 1920s the word named both a good time and, soon after, the driving piano style that fuelled it.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Boogie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The word's origin is", "b": "Uncertain" },
+          { "a": "First recorded in", "b": "Early 20th-century African American vernacular" },
+          { "a": "One proposed link is to English dialect", "b": "Bogey" },
+          { "a": "By the 1920s it named both a good time and a", "b": "Driving piano style" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Boogie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "As a noun, a boogie is a lively", "b": "Dance or party" },
+          { "a": "As a verb, to boogie means to", "b": "Dance energetically" },
+          { "a": "In music, boogie describes a driving", "b": "Blues piano style" },
+          { "a": "'Boogie-woogie' is a reduplicated", "b": "Form of the same word" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Boogie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The whole family got up to", "b": "Boogie on the living room floor" },
+          { "a": "Friday night meant a house party, or a", "b": "Boogie" },
+          { "a": "The pianist thundered out a driving", "b": "Boogie bass line" },
+          { "a": "\"Let's", "b": "Boogie,\" she said, pulling him onto the floor" }
+        ] }
+    ],
+    "roots": [ { "rootText": "boogie", "rootLanguage": "Uncertain origin (African American vernacular)", "rootMeaning": "A lively dance or party", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Of uncertain origin; ", "highlight": true }, { "text": "a lively dance or party", "highlight": false }, { "text": " first named in African American vernacular of the early 1900s.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "boogie", "correctAnswer": "A lively dance or party", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jive",
+    "pronunciation": "jyv",
+    "pos": "noun",
+    "definition": "The fast-talking slang of jazz culture, or a lively style of swing music and dance associated with it.",
+    "origin": "Of debated origin. Some linguists propose a link to the Wolof word <strong>jev</strong> (to talk disparagingly, to mislead), possibly carried into English through the African diaspora, though the connection is not universally accepted. By the 1920s-30s, jive named both the fast-talking slang of Harlem jazz culture and the swing music and dance that went with it.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jive</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "The word's origin is", "b": "Debated" },
+          { "a": "A proposed link is to Wolof", "b": "Jev (to talk disparagingly)" },
+          { "a": "This possible route runs through the", "b": "African diaspora" },
+          { "a": "By the 1920s-30s it named Harlem slang and a style of", "b": "Swing music and dance" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jive</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Jive originally described a fast-talking", "b": "Jazz-era slang" },
+          { "a": "As a dance style, jive is fast and", "b": "Energetic swing dancing" },
+          { "a": "'Don't give me that jive' means don't give me", "b": "Nonsense or deceptive talk" },
+          { "a": "'Jive talk' was closely associated with", "b": "Harlem jazz culture" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jive</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dancers kicked up their heels in a fast", "b": "Jive" },
+          { "a": "He waved off the excuse as pure", "b": "Jive" },
+          { "a": "The DJ's between-song patter was full of old", "b": "Jive slang" },
+          { "a": "Competitors spun and flipped through the closing", "b": "Jive round" }
+        ] }
+    ],
+    "roots": [ { "rootText": "jev", "rootLanguage": "Wolof (proposed)", "rootMeaning": "To talk disparagingly, to mislead", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Wolof ", "highlight": false }, { "text": "jev", "highlight": true }, { "text": " (to talk disparagingly); fast talk and a fast dance sharing one name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "jev", "correctAnswer": "To talk disparagingly, to mislead", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gospel",
+    "pronunciation": "GOS-puhl",
+    "pos": "noun",
+    "definition": "A genre of religious music rooted in African American Christian worship, marked by fervent vocal expression.",
+    "origin": "From Old English <strong>godspel</strong>, a compound of god (good) + spel (news, story), itself a calque translating Greek euangelion (good news). The music genre took the name in the early 20th century for its message of spiritual good news, growing out of hymn, blues, and spiritual traditions in African American churches.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gospel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English godspel", "b": "Good news" },
+          { "a": "Old English god + spel", "b": "Good + news, story" },
+          { "a": "It translates Greek", "b": "Euangelion" },
+          { "a": "The music genre took the name in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gospel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gospel music is rooted in", "b": "African American Christian worship" },
+          { "a": "Gospel grew out of hymn, blues, and", "b": "Spiritual traditions" },
+          { "a": "Gospel singing is known for its", "b": "Fervent vocal expression" },
+          { "a": "'The gospel truth' means something", "b": "Absolutely true" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gospel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir's voices soared through a rousing", "b": "Gospel hymn" },
+          { "a": "Sunday service ended with a burst of", "b": "Gospel singing" },
+          { "a": "The singer's early training was in her church's", "b": "Gospel choir" },
+          { "a": "He treated the coach's advice as", "b": "Gospel" }
+        ] }
+    ],
+    "roots": [ { "rootText": "godspel", "rootLanguage": "Old English", "rootMeaning": "Good news", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "godspel", "highlight": true }, { "text": " (good news); worship music built to carry that news with full voice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "godspel", "correctAnswer": "Good news", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Croon",
+    "pronunciation": "kroon",
+    "pos": "verb",
+    "definition": "To sing in a soft, low, sentimental voice.",
+    "origin": "From Middle Dutch or Middle Low German <strong>kronen</strong> (to lament, groan), which entered Scots and northern English dialect as a word for a low, murmuring song. Microphone technology of the 1920s-30s let singers drop their volume to an intimate murmur, giving rise to the 'crooner' style made famous by Bing Crosby and his peers.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Croon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch/Low German kronen", "b": "To lament, groan" },
+          { "a": "Entered Scots and northern English as", "b": "A word for a low, murmuring song" },
+          { "a": "The 'crooner' style depended on new", "b": "Microphone technology" },
+          { "a": "Made famous in the 1930s by", "b": "Bing Crosby and his peers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Croon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To croon is to sing in a soft, low,", "b": "Sentimental voice" },
+          { "a": "Crooning relies on singing close to a", "b": "Microphone" },
+          { "a": "A crooner typically sings", "b": "Romantic ballads" },
+          { "a": "Crooning contrasts with a", "b": "Loud, belted vocal style" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Croon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The singer leaned into the mic to", "b": "Croon a slow love song" },
+          { "a": "Old radio recordings captured him", "b": "Crooning softly over strings" },
+          { "a": "Grandpa still likes to", "b": "Croon along to old records" },
+          { "a": "The lullaby was more", "b": "Croon than performance" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kronen", "rootLanguage": "Middle Dutch/Low German", "rootMeaning": "To lament, to mourn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "kronen", "highlight": true }, { "text": " (to lament); a mournful murmur turned into an intimate singing style.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kronen", "correctAnswer": "To lament, to mourn", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dixieland",
+    "pronunciation": "DIK-see-land",
+    "pos": "noun",
+    "definition": "An early style of jazz that originated in New Orleans, marked by collective improvisation among the front-line instruments.",
+    "origin": "From <strong>Dixie</strong>, a nickname for the American South whose own origin is debated — theories point to the Mason-Dixon line or to ten-dollar notes issued by a Louisiana bank marked with the French dix (ten). The Original Dixieland Jass Band's 1917 recordings popularized 'Dixieland' as the name for early New Orleans-style jazz.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dixieland</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Dixie is a nickname for", "b": "The American South" },
+          { "a": "One theory traces it to the", "b": "Mason-Dixon line" },
+          { "a": "Another theory points to Louisiana notes marked with French", "b": "Dix (ten)" },
+          { "a": "The name was popularized by a 1917 band called", "b": "The Original Dixieland Jass Band" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dixieland</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Dixieland jazz originated in", "b": "New Orleans" },
+          { "a": "Dixieland is marked by collective improvisation among", "b": "The front-line instruments" },
+          { "a": "Dixieland is considered one of the earliest styles of", "b": "Jazz" },
+          { "a": "A typical Dixieland front line includes trumpet, clarinet, and", "b": "Trombone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dixieland</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The street parade marched to a lively", "b": "Dixieland tune" },
+          { "a": "Tourists filled the club to hear classic", "b": "Dixieland jazz" },
+          { "a": "The trombone slid through a joyful", "b": "Dixieland break" },
+          { "a": "The festival closed with a rousing", "b": "Dixieland send-off" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Dixie", "rootLanguage": "American English (disputed)", "rootMeaning": "The American South", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Dixie", "highlight": true }, { "text": " (the American South, origin debated); New Orleans jazz named for its homeland.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Dixie", "correctAnswer": "The American South", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bop",
+    "pronunciation": "bop",
+    "pos": "noun",
+    "definition": "A fast, harmonically adventurous style of jazz, short for bebop.",
+    "origin": "A 1940s shortening of <strong>bebop</strong> itself, whose own imitative syllables echoed the style's characteristic two-note phrase. Musicians clipped the longer word for convenience, and 'bop' became an equally common name for the fast, harmonically adventurous jazz pioneered by Charlie Parker and Dizzy Gillespie.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bop</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A 1940s shortening of", "b": "Bebop" },
+          { "a": "Bebop's syllables echoed a", "b": "Two-note musical phrase" },
+          { "a": "Musicians clipped the word for", "b": "Convenience" },
+          { "a": "Pioneered by", "b": "Charlie Parker and Dizzy Gillespie" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bop</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bop is short for the style called", "b": "Bebop" },
+          { "a": "Bop is known for its fast tempos and adventurous", "b": "Harmony" },
+          { "a": "'To bop along' informally means to", "b": "Move casually to a beat" },
+          { "a": "A 'bop on the head' is a playful", "b": "Light tap or hit" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bop</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The trio launched into a fiery", "b": "Bop tune" },
+          { "a": "She nodded her head and started to", "b": "Bop along to the radio" },
+          { "a": "Fans of hard", "b": "Bop packed the small club" },
+          { "a": "He gave his little brother a friendly", "b": "Bop on the shoulder" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bebop (shortened)", "rootLanguage": "Imitative", "rootMeaning": "Nonsense syllable echoing the style's phrasing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A shortening of ", "highlight": false }, { "text": "bebop", "highlight": true }, { "text": "; the same imitative two-note phrase, clipped down for speed.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bebop (shortened)", "correctAnswer": "Nonsense syllable echoing the style's phrasing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bluegrass",
+    "pronunciation": "BLOO-grass",
+    "pos": "noun",
+    "definition": "A genre of American string-band music marked by fast tempos, close vocal harmony, and virtuosic instrumental breaks.",
+    "origin": "Named after Bill Monroe's band, the <strong>Blue Grass Boys</strong>, itself named for Kentucky, the 'Bluegrass State,' nicknamed for a grass species that can take on a bluish tinge in bloom. As Monroe's high, close-harmony string-band sound crystallized in the late 1940s, fans and fellow musicians began calling the whole genre bluegrass after his band.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bluegrass</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after Bill Monroe's band, the", "b": "Blue Grass Boys" },
+          { "a": "That band was named for", "b": "Kentucky, the Bluegrass State" },
+          { "a": "Kentucky's nickname comes from a grass with a", "b": "Bluish tinge in bloom" },
+          { "a": "Monroe's sound crystallized in the", "b": "Late 1940s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bluegrass</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bluegrass features close vocal", "b": "Harmony" },
+          { "a": "Bluegrass instrumentals showcase virtuosic", "b": "Solo breaks" },
+          { "a": "A typical bluegrass band centers on", "b": "Acoustic string instruments" },
+          { "a": "Bluegrass grew out of older", "b": "Appalachian string-band traditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bluegrass</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fiddler tore through a blistering", "b": "Bluegrass solo" },
+          { "a": "The festival stage was packed for the weekend's", "b": "Bluegrass acts" },
+          { "a": "The banjo player picked out a classic", "b": "Bluegrass riff" },
+          { "a": "Their harmonies were pure, old-time", "b": "Bluegrass" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Blue Grass State", "rootLanguage": "American English", "rootMeaning": "Kentucky, nicknamed for its blue-tinted grass", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for Kentucky, the ", "highlight": false }, { "text": "Blue Grass State", "highlight": true }, { "text": ", via Bill Monroe's band the Blue Grass Boys.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Blue Grass State", "correctAnswer": "Kentucky, nicknamed for its blue-tinted grass", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stride",
+    "pronunciation": "stryd",
+    "pos": "noun",
+    "definition": "A style of jazz piano in which the left hand alternates between a low bass note and a mid-range chord.",
+    "origin": "From Old English <strong>stridan</strong> (to walk with long steps), a native word for a wide, confident gait. Harlem pianists of the 1920s applied it to a piano style whose left hand 'strides' back and forth between low bass notes and mid-range chords, propelling the tune forward while the right hand improvises freely.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stride</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English stridan", "b": "To walk with long steps" },
+          { "a": "Stridan describes a wide, confident", "b": "Gait" },
+          { "a": "Applied to piano playing by Harlem pianists in the", "b": "1920s" },
+          { "a": "Named for how the left hand", "b": "Alternates bass note and chord" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stride</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In stride piano, the left hand alternates a bass note with a", "b": "Mid-range chord" },
+          { "a": "While the left hand strides, the right hand often", "b": "Improvises freely" },
+          { "a": "Fats Waller and James P. Johnson were masters of", "b": "Stride piano" },
+          { "a": "'To hit one's stride' figuratively means to reach a", "b": "Confident, steady rhythm" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stride</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "His left hand bounced steadily through a classic", "b": "Stride pattern" },
+          { "a": "The rent-party pianist showed off his", "b": "Stride technique" },
+          { "a": "The soloist finally hit her", "b": "Stride midway through the set" },
+          { "a": "The style descended directly from", "b": "Harlem stride piano" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stridan", "rootLanguage": "Old English", "rootMeaning": "To walk with long steps", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "stridan", "highlight": true }, { "text": " (to walk with long steps); a left hand striding between bass and chord.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stridan", "correctAnswer": "To walk with long steps", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Torch",
+    "pronunciation": "torch",
+    "pos": "noun",
+    "definition": "As in 'torch song,' a slow, sentimental ballad about unrequited or lost love.",
+    "origin": "From the American slang expression to <strong>carry a torch</strong> for someone, comparing enduring, unrequited love to a burning flame carried onward. By the late 1920s, 'torch song' named the melancholy popular ballads that gave voice to exactly that kind of longing, and the singers who performed them became known as torch singers.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Torch</strong> (as in torch song) come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "From the expression to", "b": "Carry a torch for someone" },
+          { "a": "The expression compares longing to a", "b": "Burning flame carried onward" },
+          { "a": "'Torch song' entered use by the", "b": "Late 1920s" },
+          { "a": "Performers of these songs became known as", "b": "Torch singers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Torch</strong> (as in torch song) mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A torch song is typically about", "b": "Unrequited or lost love" },
+          { "a": "Torch songs tend to be", "b": "Slow and sentimental" },
+          { "a": "'To carry a torch for someone' means to still", "b": "Love them despite no longer being together" },
+          { "a": "Torch singing became especially popular in", "b": "Nightclubs of the 1930s" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Torch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The singer closed the set with a heartbreaking", "b": "Torch song" },
+          { "a": "Years after the breakup, he still seemed to", "b": "Carry a torch for her" },
+          { "a": "The nightclub was famous for its late-night", "b": "Torch singers" },
+          { "a": "Her aching vocal made the ballad a true", "b": "Torch song" }
+        ] }
+    ],
+    "roots": [ { "rootText": "carry a torch", "rootLanguage": "American slang", "rootMeaning": "To nurse an enduring, unrequited passion", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "carry a torch", "highlight": true }, { "text": " (nurse an unrequited passion); a sentimental ballad about a flame that won't go out.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "carry a torch", "correctAnswer": "To nurse an enduring, unrequited passion", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vocalese",
+    "pronunciation": "voh-kuh-LEEZ",
+    "pos": "noun",
+    "definition": "A vocal jazz style in which lyrics are set to a note-for-note recreation of a recorded instrumental improvisation.",
+    "origin": "Coined by jazz critic Leonard Feather in the 1950s, blending <strong>vocal</strong> with the suffix -ese (as in journalese or legalese, denoting a particular style or jargon). Vocalese names the demanding technique of writing original lyrics to fit a recorded instrumental solo, note for note, so the words trace the exact shape of the improvisation.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vocalese</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Coined in the 1950s by critic", "b": "Leonard Feather" },
+          { "a": "Blends vocal with the suffix", "b": "-ese" },
+          { "a": "The suffix -ese also appears in", "b": "Journalese, legalese" },
+          { "a": "Names lyrics written to match a", "b": "Recorded instrumental solo" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vocalese</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vocalese sets lyrics to a", "b": "Note-for-note instrumental improvisation" },
+          { "a": "Vocalese differs from scat because it uses", "b": "Actual words, not nonsense syllables" },
+          { "a": "Vocalese requires a singer to match", "b": "Every note of a recorded solo" },
+          { "a": "Jon Hendricks was a celebrated master of", "b": "Vocalese" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vocalese</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The trio sang lyrics that matched, note for note, a classic", "b": "Vocalese arrangement" },
+          { "a": "She wrote original words to a famous saxophone solo, a technique known as", "b": "Vocalese" },
+          { "a": "The vocal group built its whole repertoire on", "b": "Vocalese" },
+          { "a": "Critics praised the album's ambitious", "b": "Vocalese reworking of an old recording" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vocal + -ese", "rootLanguage": "English coinage", "rootMeaning": "Manner or style of the voice", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A coinage blending ", "highlight": false }, { "text": "vocal + -ese", "highlight": true }, { "text": "; words fitted note for note to a recorded solo.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vocal + -ese", "correctAnswer": "Manner or style of the voice", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Wail",
+    "pronunciation": "wayl",
+    "pos": "verb",
+    "definition": "To sing or play an instrument with intense, expressive passion; also, a long, mournful cry.",
+    "origin": "From Old Norse <strong>vaela</strong> (to lament, to cry out in grief), a word for mournful vocal distress. Bebop-era musicians of the mid-20th century stretched the old meaning into praise: to 'wail' on an instrument came to mean playing with such passion and skill that the sound itself seemed to cry out.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Wail</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse vaela", "b": "To lament, to cry out in grief" },
+          { "a": "Vaela described a", "b": "Mournful vocal distress" },
+          { "a": "Bebop-era musicians stretched the meaning in the", "b": "Mid-20th century" },
+          { "a": "'To wail' on an instrument came to mean playing with", "b": "Passion and skill" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Wail</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In jazz slang, to wail means to play with", "b": "Intense, expressive passion" },
+          { "a": "In its older sense, a wail is a", "b": "Long, mournful cry" },
+          { "a": "'That cat can really wail' is a compliment about a musician's", "b": "Skill and feeling" },
+          { "a": "A siren's wail describes a", "b": "Rising, mournful sound" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Wail</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The saxophonist closed his eyes and began to", "b": "Wail" },
+          { "a": "Fans shouted for the guitarist to", "b": "Really wail on the solo" },
+          { "a": "A siren began to", "b": "Wail in the distance" },
+          { "a": "The mourners let out a low", "b": "Wail" }
+        ] }
+    ],
+    "roots": [ { "rootText": "væla", "rootLanguage": "Old Norse", "rootMeaning": "To lament, to cry out", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "væla", "highlight": true }, { "text": " (to lament); grief turned into a compliment for a red-hot solo.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "væla", "correctAnswer": "To lament, to cry out", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Shuffle",
+    "pronunciation": "SHUF-uhl",
+    "pos": "noun",
+    "definition": "A swung rhythm built on unevenly divided beats, common in blues and jazz.",
+    "origin": "From Middle Low German <strong>schuffeln</strong> (to walk with a dragging gait), a word for an uneven, scraping footstep. Blues and jazz musicians borrowed the image for a rhythm built on swung, unevenly divided beats that seem to drag and catch, much like a shuffling walk.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Shuffle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Low German schuffeln", "b": "To walk with a dragging gait" },
+          { "a": "Schuffeln described an uneven, scraping", "b": "Footstep" },
+          { "a": "Blues and jazz musicians borrowed the image for a", "b": "Rhythm" },
+          { "a": "The shuffle rhythm seems to drag and", "b": "Catch, like a shuffling walk" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Shuffle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A shuffle rhythm divides the beat", "b": "Unevenly" },
+          { "a": "Shuffle is especially common in", "b": "Blues and jazz" },
+          { "a": "A card shuffle mixes cards into a", "b": "Random order" },
+          { "a": "To shuffle one's feet also means to walk", "b": "Slowly, dragging the feet" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Shuffle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The drummer settled into a laid-back", "b": "Shuffle beat" },
+          { "a": "The old bluesman's guitar had a distinctive", "b": "Shuffle groove" },
+          { "a": "He set his playlist to", "b": "Shuffle" },
+          { "a": "Tired from the long walk, they began to", "b": "Shuffle toward home" }
+        ] }
+    ],
+    "roots": [ { "rootText": "schuffeln", "rootLanguage": "Middle Low German", "rootMeaning": "To walk with dragging feet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Low German ", "highlight": false }, { "text": "schuffeln", "highlight": true }, { "text": " (to drag the feet); a beat that drags and catches like an uneven walk.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "schuffeln", "correctAnswer": "To walk with dragging feet", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lindy",
+    "pronunciation": "LIN-dee",
+    "pos": "noun",
+    "definition": "Short for the Lindy Hop, an energetic swing dance developed in Harlem in the 1920s.",
+    "origin": "Short for the <strong>Lindy Hop</strong>, coined in Harlem in 1928 in tribute to aviator Charles Lindbergh's celebrated 1927 solo transatlantic flight, popularly called his 'hop' across the ocean. Dancer 'Shorty' George Snowden reportedly gave the new swing-era dance its name when a reporter asked what he was doing on the floor.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lindy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Short for the", "b": "Lindy Hop" },
+          { "a": "Named in tribute to aviator", "b": "Charles Lindbergh" },
+          { "a": "Lindbergh's 1927 flight was popularly called his", "b": "Hop across the ocean" },
+          { "a": "The dance is said to have been named by", "b": "'Shorty' George Snowden" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lindy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Lindy Hop developed in", "b": "Harlem in the 1920s" },
+          { "a": "The Lindy is danced to", "b": "Swing music" },
+          { "a": "The Lindy Hop is known for its", "b": "Athletic, improvised moves" },
+          { "a": "The Lindy is considered a forerunner of later", "b": "Swing dance styles" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lindy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dance hall filled with couples doing the", "b": "Lindy Hop" },
+          { "a": "Instructors taught beginners the basic steps of the", "b": "Lindy" },
+          { "a": "The band's fast tempo was perfect for", "b": "Lindy dancing" },
+          { "a": "Vintage swing clubs still teach the", "b": "Lindy Hop today" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Lindbergh's hop", "rootLanguage": "American English", "rootMeaning": "Charles Lindbergh's 1927 transatlantic flight", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Lindbergh's hop", "highlight": true }, { "text": " across the Atlantic; a Harlem dance craze named for a headline.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Lindbergh's hop", "correctAnswer": "Charles Lindbergh's 1927 transatlantic flight", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Foxtrot",
+    "pronunciation": "FOKS-trot",
+    "pos": "noun",
+    "definition": "A smooth ballroom dance in duple time, alternating slow and quick steps.",
+    "origin": "Named after <strong>Harry Fox</strong>, a vaudeville performer whose trotting, syncopated dance steps in a 1914 Ziegfeld production caught the public's eye. 'Fox's trot' was soon shortened to foxtrot, and the smooth ballroom dance it named became one of the most popular social dances of the 20th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Foxtrot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after vaudeville performer", "b": "Harry Fox" },
+          { "a": "Fox debuted his trotting steps in a", "b": "1914 Ziegfeld production" },
+          { "a": "The phrase 'Fox's trot' was shortened to", "b": "Foxtrot" },
+          { "a": "It became one of the most popular social dances of the", "b": "20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Foxtrot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The foxtrot is danced in", "b": "Duple time" },
+          { "a": "The foxtrot alternates slow steps with", "b": "Quick steps" },
+          { "a": "The foxtrot is considered a", "b": "Smooth ballroom dance" },
+          { "a": "In the NATO phonetic alphabet, 'Foxtrot' also stands for the letter", "b": "F" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Foxtrot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bride and groom opened the reception with a graceful", "b": "Foxtrot" },
+          { "a": "The ballroom class spent the evening practicing the", "b": "Foxtrot" },
+          { "a": "The big band eased into a smooth", "b": "Foxtrot tempo" },
+          { "a": "The pilot radioed back using the callsign", "b": "Foxtrot" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Fox's trot", "rootLanguage": "American English", "rootMeaning": "Vaudeville performer Harry Fox's trotting dance step", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Fox's trot", "highlight": true }, { "text": "; a vaudeville performer's step turned into a ballroom standard.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Fox's trot", "correctAnswer": "Vaudeville performer Harry Fox's trotting dance step", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Waltz",
+    "pronunciation": "wawlts",
+    "pos": "noun",
+    "definition": "A ballroom dance in triple time, performed with sweeping turns; also, the music written for it.",
+    "origin": "From German <strong>walzen</strong> (to roll, turn, revolve), related to Old High German walzan. The word entered English in the late 18th century as the whirling three-quarter-time dance spread outward from Vienna's ballrooms, at first considered shockingly close-contact for polite society.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Waltz</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German walzen", "b": "To roll, turn, revolve" },
+          { "a": "Related to Old High German", "b": "Walzan" },
+          { "a": "Entered English in the", "b": "Late 18th century" },
+          { "a": "Spread outward from ballrooms in", "b": "Vienna" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Waltz</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The waltz is danced in", "b": "Triple time" },
+          { "a": "The waltz is known for its sweeping", "b": "Turns" },
+          { "a": "'To waltz in' informally means to enter somewhere", "b": "Casually and confidently" },
+          { "a": "When the waltz first appeared, polite society considered it", "b": "Shockingly close" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Waltz</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra struck up a sweeping", "b": "Waltz" },
+          { "a": "The couple twirled gracefully through the", "b": "Waltz" },
+          { "a": "He simply", "b": "Waltzed into the meeting late, unbothered" },
+          { "a": "The wedding's first dance was a slow", "b": "Waltz" }
+        ] }
+    ],
+    "roots": [ { "rootText": "walzen", "rootLanguage": "German", "rootMeaning": "To roll, to turn, to revolve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From German ", "highlight": false }, { "text": "walzen", "highlight": true }, { "text": " (to turn); a whirling dance that spread outward from Vienna's ballrooms.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "walzen", "correctAnswer": "To roll, to turn, to revolve", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rumba",
+    "pronunciation": "RUM-buh",
+    "pos": "noun",
+    "definition": "A Cuban dance and musical style marked by syncopated rhythms and close partner movement.",
+    "origin": "From Cuban Spanish <strong>rumbo</strong>, likely meaning a spree, party, or course taken, itself possibly rooted in Spanish nautical language for a ship's heading. The rumba grew out of Afro-Cuban dance and drumming traditions, and by the early 20th century it named both a popular social dance and its accompanying music.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rumba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Cuban Spanish rumbo", "b": "A spree, party, course taken" },
+          { "a": "Rumbo may root in Spanish nautical language for", "b": "A ship's heading" },
+          { "a": "The rumba grew out of", "b": "Afro-Cuban dance and drumming traditions" },
+          { "a": "By the early 20th century it named a popular", "b": "Social dance and its music" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rumba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The rumba features syncopated rhythms and close", "b": "Partner movement" },
+          { "a": "The rumba is one of the core", "b": "Latin ballroom dances" },
+          { "a": "Rumba rhythm patterns strongly influenced later", "b": "Latin popular music" },
+          { "a": "The rumba's roots trace to", "b": "Cuba" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rumba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The band launched into a slinky", "b": "Rumba" },
+          { "a": "Competitors scored highest in the", "b": "Rumba round" },
+          { "a": "Their hips moved in time to the", "b": "Rumba beat" },
+          { "a": "The instructor demonstrated the basic", "b": "Rumba step" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rumbo", "rootLanguage": "Cuban Spanish", "rootMeaning": "A spree, a party, a course or direction", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Cuban Spanish ", "highlight": false }, { "text": "rumbo", "highlight": true }, { "text": " (a spree, a course); an Afro-Cuban dance built on syncopated rhythm.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rumbo", "correctAnswer": "A spree, a party, a course or direction", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mambo",
+    "pronunciation": "MAM-boh",
+    "pos": "noun",
+    "definition": "A fast Cuban dance and musical style with roots in Afro-Cuban rhythm, popularized by mid-20th-century big bands.",
+    "origin": "Likely traces to <strong>mambu</strong>, a Kikongo word for words or matters, carried into Cuban Spanish through Afro-Cuban religious vocabulary, where a related term also named a Haitian vodou priestess. Cuban bandleaders, most famously Pérez Prado, forged the dance and its driving big-band sound in the 1930s and '40s.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mambo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Likely traces to Kikongo", "b": "Mambu (words, matters)" },
+          { "a": "Carried into Cuban Spanish through", "b": "Afro-Cuban religious vocabulary" },
+          { "a": "A related term also named a Haitian", "b": "Vodou priestess" },
+          { "a": "The dance's sound was forged in the 1930s and '40s by", "b": "Pérez Prado and fellow bandleaders" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mambo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The mambo is a fast dance rooted in", "b": "Afro-Cuban rhythm" },
+          { "a": "The mambo was popularized by", "b": "Mid-20th-century big bands" },
+          { "a": "The mambo helped give rise to", "b": "Salsa music" },
+          { "a": "Mambo music features prominent", "b": "Brass and percussion" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mambo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The horn section blared out a punchy", "b": "Mambo riff" },
+          { "a": "Dancers spun wildly through the club's", "b": "Mambo number" },
+          { "a": "The record climbed the charts on the strength of its", "b": "Mambo beat" },
+          { "a": "He taught his students the classic", "b": "Mambo step" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mambu", "rootLanguage": "Kikongo (proposed)", "rootMeaning": "Words, matters, affairs", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Likely from Kikongo ", "highlight": false }, { "text": "mambu", "highlight": true }, { "text": " (words, matters); an Afro-Cuban root behind a mid-century dance craze.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mambu", "correctAnswer": "Words, matters, affairs", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Habanera",
+    "pronunciation": "hah-buh-NAIR-uh",
+    "pos": "noun",
+    "definition": "A slow, syncopated Cuban song and dance style that spread to Europe in the 19th century.",
+    "origin": "From Spanish <strong>Habana</strong> (Havana), with the adjectival ending -era meaning 'of' or 'from.' The habanera names a slow, elegantly syncopated Cuban song and dance style that travelled to Spain in the 19th century and later influenced tango and classical works, including Bizet's opera Carmen.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Habanera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish Habana", "b": "Havana" },
+          { "a": "The ending -era means", "b": "Of, from" },
+          { "a": "The style travelled to Spain in the", "b": "19th century" },
+          { "a": "It later influenced tango and Bizet's opera", "b": "Carmen" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Habanera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The habanera is a slow, syncopated", "b": "Cuban song and dance style" },
+          { "a": "The habanera is considered a forerunner of the", "b": "Tango" },
+          { "a": "The habanera rhythm is instantly recognizable in", "b": "Bizet's Carmen" },
+          { "a": "The habanera spread internationally through", "b": "19th-century salon music" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Habanera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The soprano opened the act with the famous", "b": "Habanera aria" },
+          { "a": "The composer borrowed the lilting rhythm of the", "b": "Habanera" },
+          { "a": "Salon pianists across Europe learned to play the", "b": "Habanera" },
+          { "a": "The dance's slow sway echoed the classic", "b": "Habanera style" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Habana", "rootLanguage": "Spanish", "rootMeaning": "Havana, the capital of Cuba", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "Habana", "highlight": true }, { "text": " (Havana); a slow Cuban rhythm that crossed the Atlantic into European music.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Habana", "correctAnswer": "Havana, the capital of Cuba", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Charleston",
+    "pronunciation": "CHAHRL-stuhn",
+    "pos": "noun",
+    "definition": "A fast, energetic dance from the 1920s marked by twisting steps and swiveling knees.",
+    "origin": "Named for the city of <strong>Charleston, South Carolina</strong>, itself named for England's King Charles II. The fast, knee-swiveling dance craze took the city's name after James P. Johnson's 1923 song 'The Charleston' introduced it to Broadway, and it went on to define the exuberant dance floors of the Jazz Age.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Charleston</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named for the city of", "b": "Charleston, South Carolina" },
+          { "a": "The city itself was named for England's", "b": "King Charles II" },
+          { "a": "The dance craze followed a 1923 song called", "b": "The Charleston" },
+          { "a": "That song was written by", "b": "James P. Johnson" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Charleston</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Charleston is known for its twisting steps and swiveling", "b": "Knees" },
+          { "a": "The Charleston is a fast, energetic", "b": "Dance" },
+          { "a": "The dance defined the exuberant floors of the", "b": "Jazz Age" },
+          { "a": "The Charleston was introduced to Broadway in", "b": "1923" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Charleston</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Flappers kicked up their heels doing the", "b": "Charleston" },
+          { "a": "The dance instructor demonstrated the classic", "b": "Charleston kick" },
+          { "a": "The party theme called for 1920s dresses and the", "b": "Charleston" },
+          { "a": "The band's tempo was made for dancing the", "b": "Charleston" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Charleston, South Carolina", "rootLanguage": "American English", "rootMeaning": "A port city named for King Charles II", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Charleston, South Carolina", "highlight": true }, { "text": "; a knee-swiveling dance craze that defined the Jazz Age.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Charleston, South Carolina", "correctAnswer": "A port city named for King Charles II", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Boogie-woogie",
+    "pronunciation": "BOO-gee-WOO-gee",
+    "pos": "noun",
+    "definition": "A driving style of blues piano built on a repeating eight-to-the-bar bass pattern.",
+    "origin": "A reduplication of <strong>boogie</strong> itself, whose own origin remains uncertain, likely rooted in African American vernacular of the early 20th century. The doubled name became fixed with Pinetop Smith's 1928 recording 'Pine Top's Boogie Woogie,' which cemented the term for the driving, eight-to-the-bar blues piano style for good.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-jazz", "name": "Jazz, Blues & Dance", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Boogie-woogie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A reduplication of", "b": "Boogie" },
+          { "a": "Boogie's own origin remains", "b": "Uncertain" },
+          { "a": "Likely rooted in", "b": "Early 20th-century African American vernacular" },
+          { "a": "The name was fixed by Pinetop Smith's 1928 recording", "b": "Pine Top's Boogie Woogie" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Boogie-woogie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Boogie-woogie is built on a repeating", "b": "Eight-to-the-bar bass pattern" },
+          { "a": "Boogie-woogie is a driving style of", "b": "Blues piano" },
+          { "a": "The left hand in boogie-woogie plays a steady", "b": "Rolling bass figure" },
+          { "a": "Boogie-woogie strongly influenced later", "b": "Rock and roll piano" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Boogie-woogie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "His left hand rolled through a relentless", "b": "Boogie-woogie bass line" },
+          { "a": "The rent party roared to a night of", "b": "Boogie-woogie piano" },
+          { "a": "The pianist's eight-to-the-bar left hand was pure", "b": "Boogie-woogie" },
+          { "a": "Early rock and roll owed a huge debt to", "b": "Boogie-woogie" }
+        ] }
+    ],
+    "roots": [ { "rootText": "boogie (reduplicated)", "rootLanguage": "Uncertain origin (African American vernacular)", "rootMeaning": "A lively, rhythmic dance or party, doubled for emphasis", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A reduplication of ", "highlight": false }, { "text": "boogie", "highlight": true }, { "text": " (origin uncertain); a rolling eight-to-the-bar bass line that never lets up.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "boogie (reduplicated)", "correctAnswer": "A lively, rhythmic dance or party, doubled for emphasis", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

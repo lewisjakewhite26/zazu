@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Encore",
+    "pronunciation": "ON-kor",
+    "pos": "noun",
+    "definition": "A repeated or additional performance given in response to an audience's demand for more, usually at the end of a show.",
+    "origin": "From French <strong>encore</strong> (again, still), used since the 18th century by English audiences shouting for performers to repeat a piece. Curiously, the French themselves do not use \"encore\" this way, calling instead for a \"bis.\"",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Encore</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French encore", "b": "Again, still" },
+          { "a": "Adopted by English audiences in the", "b": "18th century" },
+          { "a": "Shouted to demand", "b": "A repeated performance" },
+          { "a": "The French themselves call for an", "b": "Encore using the word \"bis\"" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Encore</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An encore is given in response to the audience's", "b": "Demand for more" },
+          { "a": "Encores usually happen", "b": "At the end of a show" },
+          { "a": "A synonym for encore performance is", "b": "Repeat performance" },
+          { "a": "An artist who refuses to return for one gives", "b": "No encore" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Encore</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crowd chanted for an", "b": "Encore" },
+          { "a": "She returned to the stage to play one final", "b": "Encore" },
+          { "a": "The band saved their biggest hit for the", "b": "Encore" },
+          { "a": "After three curtain calls, they granted an", "b": "Encore" }
+        ] }
+    ],
+    "roots": [ { "rootText": "encore", "rootLanguage": "French", "rootMeaning": "Again, still", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "encore", "highlight": true }, { "text": " (again); the audience's cry for one more song.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "encore", "correctAnswer": "Again, still", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Debut",
+    "pronunciation": "DAY-byoo",
+    "pos": "noun",
+    "definition": "A person's first public appearance or performance, or the first presentation of a new work.",
+    "origin": "From French <strong>debut</strong>, from debuter (to make the first stroke), from but (a goal or target, as in billiards or archery). The word entered English theatrical vocabulary in the 18th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Debut</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French debuter", "b": "To make the first stroke" },
+          { "a": "French but", "b": "A goal or target" },
+          { "a": "Originally used in games like", "b": "Billiards or archery" },
+          { "a": "Entered English theatre vocabulary in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Debut</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A debut is someone's first", "b": "Public appearance" },
+          { "a": "A debut album is a musician's", "b": "First released record" },
+          { "a": "To \"make one's debut\" means to", "b": "Appear publicly for the first time" },
+          { "a": "The opposite of a debut is a", "b": "Farewell performance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Debut</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The soprano made her operatic", "b": "Debut at nineteen" },
+          { "a": "Critics praised the young violinist's", "b": "Concert debut" },
+          { "a": "The band's debut album topped the", "b": "Charts" },
+          { "a": "He was nervous before his", "b": "Broadway debut" }
+        ] }
+    ],
+    "roots": [ { "rootText": "but", "rootLanguage": "French", "rootMeaning": "A goal or target", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French debuter, from ", "highlight": false }, { "text": "but", "highlight": true }, { "text": " (a target); the first strike toward the goal, the first performance.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "but", "correctAnswer": "A goal or target", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Repertoire",
+    "pronunciation": "REP-uh-twahr",
+    "pos": "noun",
+    "definition": "The complete range of works or skills that a performer, group, or company is prepared to present.",
+    "origin": "From French <strong>repertoire</strong>, from late Latin repertorium (an inventory, list of things found), from reperire (to find, discover). Theatre companies adopted the word for their stock of ready-to-perform plays.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Repertoire</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin repertorium", "b": "An inventory, list of things found" },
+          { "a": "Latin reperire", "b": "To find, discover" },
+          { "a": "Reached English via", "b": "French repertoire" },
+          { "a": "Theatre companies used it for their stock of", "b": "Ready-to-perform plays" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Repertoire</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A repertoire is a performer's complete range of", "b": "Prepared works or skills" },
+          { "a": "A pianist's repertoire might include works from several", "b": "Musical periods" },
+          { "a": "A chef's repertoire refers figuratively to their", "b": "Range of dishes" },
+          { "a": "A narrow repertoire is the opposite of a", "b": "Broad, varied one" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Repertoire</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra expanded its", "b": "Repertoire with new commissions" },
+          { "a": "Her vocal", "b": "Repertoire spanned opera and jazz" },
+          { "a": "The comedian's", "b": "Repertoire of jokes never grew stale" },
+          { "a": "The company toured with a classic", "b": "Repertoire of ballets" }
+        ] }
+    ],
+    "roots": [ { "rootText": "reperire", "rootLanguage": "Latin", "rootMeaning": "To find, discover", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "reperire", "highlight": true }, { "text": " (to find); the ready stock of works a performer can call upon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "reperire", "correctAnswer": "To find, discover", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Audition",
+    "pronunciation": "aw-DISH-uhn",
+    "pos": "noun",
+    "definition": "A short performance given by a performer to demonstrate their suitability for a role, ensemble, or job.",
+    "origin": "From Latin <strong>auditio</strong> (a hearing), from audire (to hear). Originally meaning simply the act of listening, the word narrowed in the early 20th century to describe a trial hearing of a performer's talent.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Audition</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin auditio", "b": "A hearing" },
+          { "a": "Latin audire", "b": "To hear" },
+          { "a": "Originally meant simply", "b": "The act of listening" },
+          { "a": "Narrowed to its modern sense in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Audition</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An audition tests a performer's", "b": "Suitability for a role" },
+          { "a": "Actors audition for casting", "b": "Directors" },
+          { "a": "A callback follows a successful", "b": "First audition" },
+          { "a": "The opposite of auditioning is being cast", "b": "Without one" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Audition</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hundreds of dancers lined up for the", "b": "Audition" },
+          { "a": "She nailed her", "b": "Audition monologue" },
+          { "a": "The orchestra held blind auditions behind a", "b": "Screen" },
+          { "a": "He was nervous walking into the", "b": "Audition room" }
+        ] }
+    ],
+    "roots": [ { "rootText": "audire", "rootLanguage": "Latin", "rootMeaning": "To hear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "audire", "highlight": true }, { "text": " (to hear); a trial hearing to judge a performer's talent.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "audire", "correctAnswer": "To hear", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Recital",
+    "pronunciation": "ri-SY-tuhl",
+    "pos": "noun",
+    "definition": "A performance of music or poetry given by a soloist or small group, typically for a formal or public audience.",
+    "origin": "From Latin <strong>recitare</strong> (to read aloud, recite), from re- (again) + citare (to summon, call). By the 19th century, the word had settled into its musical sense for a formal solo performance.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Recital</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin recitare", "b": "To read aloud, recite" },
+          { "a": "Latin re-", "b": "Again" },
+          { "a": "Latin citare", "b": "To summon, call" },
+          { "a": "Settled into its musical sense by the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Recital</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A recital is typically given by a", "b": "Soloist or small group" },
+          { "a": "A piano recital is usually performed for a", "b": "Formal or public audience" },
+          { "a": "A recital can feature music or", "b": "Poetry" },
+          { "a": "A group performance of a full ensemble is less often called a", "b": "Recital" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Recital</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The students gave their end-of-year", "b": "Piano recital" },
+          { "a": "She played Chopin at her graduation", "b": "Recital" },
+          { "a": "The poet gave an evening", "b": "Recital of his verse" },
+          { "a": "Tickets to the violinist's", "b": "Recital sold out" }
+        ] }
+    ],
+    "roots": [ { "rootText": "citare", "rootLanguage": "Latin", "rootMeaning": "To summon, call", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "citare", "highlight": true }, { "text": " (to summon); a formal calling forth of music or verse.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "citare", "correctAnswer": "To summon, call", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ovation",
+    "pronunciation": "oh-VAY-shuhn",
+    "pos": "noun",
+    "definition": "An enthusiastic burst of applause, especially one given standing, in tribute to a performer.",
+    "origin": "From Latin <strong>ovatio</strong>, a minor triumph granted to Roman generals for a lesser victory, celebrated with cheering rather than the full pomp of a triumph. From ovare (to rejoice, exult).",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ovation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ovatio", "b": "A minor Roman triumph" },
+          { "a": "Latin ovare", "b": "To rejoice, exult" },
+          { "a": "Granted to generals for a", "b": "Lesser victory" },
+          { "a": "Celebrated with", "b": "Cheering, not a full triumph" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ovation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ovation is a burst of", "b": "Enthusiastic applause" },
+          { "a": "A standing ovation involves the audience", "b": "Rising to their feet" },
+          { "a": "An ovation is given in tribute to a", "b": "Performer" },
+          { "a": "A lukewarm response is the opposite of an", "b": "Ovation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ovation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The final note brought the crowd to a", "b": "Standing ovation" },
+          { "a": "The soloist bowed to a thunderous", "b": "Ovation" },
+          { "a": "Critics said the show earned a well-deserved", "b": "Ovation" },
+          { "a": "Ten minutes of applause became a lasting", "b": "Ovation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ovare", "rootLanguage": "Latin", "rootMeaning": "To rejoice, exult", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ovare", "highlight": true }, { "text": " (to rejoice); once a lesser Roman triumph, now the crowd's roar of approval.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ovare", "correctAnswer": "To rejoice, exult", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Curtain",
+    "pronunciation": "KUR-tuhn",
+    "pos": "noun",
+    "definition": "The hanging screen that separates a stage from the audience, or figuratively, the beginning or end of a theatrical event.",
+    "origin": "From Old French <strong>cortine</strong>, from late Latin cortina (a round vessel, later a hanging), possibly linked to cohors (an enclosure, courtyard). The theatrical sense of a stage-dividing cloth developed by the 17th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Curtain</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French cortine", "b": "A hanging screen" },
+          { "a": "Late Latin cortina", "b": "A round vessel, later a hanging" },
+          { "a": "Possibly linked to Latin cohors", "b": "An enclosure, courtyard" },
+          { "a": "Theatrical sense developed by the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Curtain</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A curtain separates the stage from the", "b": "Audience" },
+          { "a": "\"Curtain up\" signals the", "b": "Start of a show" },
+          { "a": "\"Curtain call\" refers to performers returning to", "b": "Take their bows" },
+          { "a": "\"It's curtains\" figuratively means", "b": "The end, disaster" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Curtain</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lights dimmed as the", "b": "Curtain rose" },
+          { "a": "Latecomers waited until after", "b": "Curtain" },
+          { "a": "The actors lined up for the final", "b": "Curtain call" },
+          { "a": "A dropped prop nearly ruined the", "b": "Curtain call" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cortina", "rootLanguage": "Latin", "rootMeaning": "A round vessel, later a hanging", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cortina", "highlight": true }, { "text": " (a hanging); the great cloth that divides performer from audience.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cortina", "correctAnswer": "A round vessel, later a hanging", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Backstage",
+    "pronunciation": "BAK-stayj",
+    "pos": "adjective / adverb",
+    "definition": "Behind or relating to the area of a theatre not visible to the audience, where performers prepare and technical work happens.",
+    "origin": "A compound of <strong>back</strong> and stage, formed in English in the 19th century to describe the hidden working areas behind a theatre's performance space, as opposed to what the audience could see out front.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Backstage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of", "b": "Back and stage" },
+          { "a": "Formed in English in the", "b": "19th century" },
+          { "a": "Described the hidden", "b": "Working areas behind the stage" },
+          { "a": "Contrasted with what the audience saw", "b": "Out front" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Backstage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Backstage is not visible to the", "b": "Audience" },
+          { "a": "Performers prepare backstage before making their", "b": "Entrance" },
+          { "a": "\"Backstage pass\" grants access to areas", "b": "Off-limits to the public" },
+          { "a": "The opposite of backstage is", "b": "Onstage, in front of the audience" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Backstage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Crew members rushed", "b": "Backstage during the scene change" },
+          { "a": "Fans hoped for a", "b": "Backstage pass" },
+          { "a": "The singer paced nervously", "b": "Backstage" },
+          { "a": "Costume changes happened quickly", "b": "Backstage" }
+        ] }
+    ],
+    "roots": [ { "rootText": "back + stage", "rootLanguage": "English compound", "rootMeaning": "The hidden working area behind a stage", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "back + stage", "highlight": true }, { "text": "; the hidden world just out of the audience's sight.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "back + stage", "correctAnswer": "The hidden working area behind a stage", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Conservatory",
+    "pronunciation": "kuhn-SUR-vuh-tor-ee",
+    "pos": "noun",
+    "definition": "A school specialising in the training of musicians, actors, or dancers.",
+    "origin": "From Italian <strong>conservatorio</strong>, from Latin conservare (to preserve). The earliest conservatories were 16th-century Venetian orphanages that taught music to preserve and support abandoned children, later evolving into elite music schools.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Conservatory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin conservare", "b": "To preserve" },
+          { "a": "Reached English via Italian", "b": "Conservatorio" },
+          { "a": "The earliest conservatories were 16th-century", "b": "Venetian orphanages" },
+          { "a": "They originally taught music to", "b": "Support abandoned children" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Conservatory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A conservatory trains", "b": "Musicians, actors, or dancers" },
+          { "a": "Students who attend one are called", "b": "Conservatory students" },
+          { "a": "A conservatory differs from a general university by its focus on", "b": "Performing arts training" },
+          { "a": "A conservatory can also mean a glass-roofed room, unrelated in this pack to", "b": "Music training" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Conservatory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She trained at a prestigious music", "b": "Conservatory" },
+          { "a": "The conservatory accepted only a handful of", "b": "Applicants each year" },
+          { "a": "His conservatory training showed in his flawless", "b": "Technique" },
+          { "a": "The young cellist auditioned for the", "b": "Conservatory" }
+        ] }
+    ],
+    "roots": [ { "rootText": "conservare", "rootLanguage": "Latin", "rootMeaning": "To preserve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "conservare", "highlight": true }, { "text": " (to preserve); Venetian orphanages that preserved children's futures through music.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "conservare", "correctAnswer": "To preserve", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Conductor",
+    "pronunciation": "kuhn-DUK-tuh",
+    "pos": "noun",
+    "definition": "A person who directs the performance of an orchestra or choir, typically using a baton and expressive gestures.",
+    "origin": "From Latin <strong>conducere</strong> (to lead together), from com- (together) + ducere (to lead). The word entered musical use in the early 19th century as orchestras grew too large to be led from a single instrument.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Conductor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin conducere", "b": "To lead together" },
+          { "a": "Latin com-", "b": "Together" },
+          { "a": "Latin ducere", "b": "To lead" },
+          { "a": "Entered musical use in the", "b": "Early 19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Conductor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A conductor directs the performance of an", "b": "Orchestra or choir" },
+          { "a": "A conductor typically uses a", "b": "Baton and expressive gestures" },
+          { "a": "A conductor sets the tempo and", "b": "Interpretive shape of a piece" },
+          { "a": "Outside music, a conductor can also mean something that", "b": "Carries electricity or heat" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Conductor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra fell silent as the", "b": "Conductor raised his baton" },
+          { "a": "She became the first woman to", "b": "Conduct the philharmonic" },
+          { "a": "The guest conductor drew a thunderous performance from the", "b": "Ensemble" },
+          { "a": "The choir watched the", "b": "Conductor's every gesture" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ducere", "rootLanguage": "Latin", "rootMeaning": "To lead", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ducere", "highlight": true }, { "text": " (to lead), + com- (together); the one who leads many musicians as one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ducere", "correctAnswer": "To lead", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ensemble",
+    "pronunciation": "on-SOM-buhl",
+    "pos": "noun",
+    "definition": "A group of musicians, actors, or dancers who perform together, or the coordinated effect of their combined performance.",
+    "origin": "From French <strong>ensemble</strong> (together), from Latin insimul (at the same time), from in- + simul (together, at once). The word entered English musical vocabulary in the 18th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ensemble</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French ensemble", "b": "Together" },
+          { "a": "Latin insimul", "b": "At the same time" },
+          { "a": "Latin simul", "b": "Together, at once" },
+          { "a": "Entered English musical vocabulary in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ensemble</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ensemble is a group who perform", "b": "Together" },
+          { "a": "\"Ensemble playing\" describes musicians' skill at", "b": "Blending as one unit" },
+          { "a": "A string quartet is one example of a musical", "b": "Ensemble" },
+          { "a": "Outside music, an ensemble can also mean a coordinated", "b": "Outfit" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ensemble</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chamber", "b": "Ensemble rehearsed for weeks" },
+          { "a": "Critics praised the tight", "b": "Ensemble playing" },
+          { "a": "A jazz", "b": "Ensemble filled the small club" },
+          { "a": "The musical's finale featured the full", "b": "Ensemble cast" }
+        ] }
+    ],
+    "roots": [ { "rootText": "simul", "rootLanguage": "Latin", "rootMeaning": "Together, at once", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "simul", "highlight": true }, { "text": " (together); many performers sounding and moving as one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "simul", "correctAnswer": "Together, at once", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Soloist",
+    "pronunciation": "SOH-loh-ist",
+    "pos": "noun",
+    "definition": "A performer who plays or sings a piece alone, or takes the leading solo part within a larger group.",
+    "origin": "From Italian <strong>solo</strong> (alone), from Latin solus (alone, sole), with the English suffix -ist (one who does) added in the 19th century to name the individual performer.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Soloist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian solo", "b": "Alone" },
+          { "a": "Latin solus", "b": "Alone, sole" },
+          { "a": "English suffix -ist means", "b": "One who does" },
+          { "a": "The suffix was added in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Soloist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A soloist performs a piece", "b": "Alone" },
+          { "a": "Within an orchestra, a soloist takes the leading", "b": "Solo part" },
+          { "a": "A concerto typically features a", "b": "Soloist and orchestra" },
+          { "a": "The opposite of playing as a soloist is playing in an", "b": "Ensemble" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Soloist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The young pianist debuted as", "b": "Guest soloist" },
+          { "a": "The orchestra welcomed a celebrated violin", "b": "Soloist" },
+          { "a": "As lead soloist, she carried the entire", "b": "Aria" },
+          { "a": "He trained for years to become a professional", "b": "Soloist" }
+        ] }
+    ],
+    "roots": [ { "rootText": "solus", "rootLanguage": "Latin", "rootMeaning": "Alone, sole", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "solus", "highlight": true }, { "text": " (alone); the performer who steps forward to play unaccompanied.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "solus", "correctAnswer": "Alone, sole", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Matinee",
+    "pronunciation": "MAT-i-nay",
+    "pos": "noun",
+    "definition": "A performance of a play, concert, or film held in the daytime, typically the afternoon, rather than in the evening.",
+    "origin": "From French <strong>matinee</strong>, from matin (morning), from Latin matutinus (of the morning), related to Matuta, the Roman goddess of dawn. The word was repurposed in the 19th century for daytime theatre performances.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Matinee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French matin", "b": "Morning" },
+          { "a": "Latin matutinus", "b": "Of the morning" },
+          { "a": "Related to Matuta, the Roman goddess of", "b": "Dawn" },
+          { "a": "Repurposed for daytime shows in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Matinee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A matinee is held in the", "b": "Daytime, typically afternoon" },
+          { "a": "Matinees are common on", "b": "Weekend afternoons" },
+          { "a": "A \"matinee idol\" was a star popular with", "b": "Daytime audiences" },
+          { "a": "The opposite of a matinee is an", "b": "Evening performance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Matinee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The theatre offered a discounted", "b": "Matinee ticket" },
+          { "a": "They caught the Saturday", "b": "Matinee" },
+          { "a": "The understudy went on for the", "b": "Matinee performance" },
+          { "a": "Older audiences preferred the quieter", "b": "Matinee show" }
+        ] }
+    ],
+    "roots": [ { "rootText": "matin", "rootLanguage": "French", "rootMeaning": "Morning", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "matin", "highlight": true }, { "text": " (morning); a daytime show borrowing its name from the dawn.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "matin", "correctAnswer": "Morning", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Premiere",
+    "pronunciation": "PREM-ee-air",
+    "pos": "noun",
+    "definition": "The first public performance or showing of a play, film, or musical work.",
+    "origin": "From French <strong>premiere</strong> (first), the feminine form of premier, from Latin primarius (of the first rank), from primus (first). The word entered English theatrical use in the 19th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Premiere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French premiere", "b": "First" },
+          { "a": "Latin primarius", "b": "Of the first rank" },
+          { "a": "Latin primus", "b": "First" },
+          { "a": "Entered English theatrical use in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Premiere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A premiere is the", "b": "First public performance" },
+          { "a": "A world premiere is a work's very first", "b": "Performance anywhere" },
+          { "a": "As a verb, to premiere means to", "b": "Perform or show for the first time" },
+          { "a": "A revival is different from a", "b": "Premiere" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Premiere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The composer attended his symphony's", "b": "Premiere" },
+          { "a": "Critics packed the theatre for opening night's", "b": "Premiere" },
+          { "a": "The film held its glittering", "b": "World premiere" },
+          { "a": "The opera house announced the season's", "b": "Premiere production" }
+        ] }
+    ],
+    "roots": [ { "rootText": "primus", "rootLanguage": "Latin", "rootMeaning": "First", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "primus", "highlight": true }, { "text": " (first); the very first time an audience meets a new work.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "primus", "correctAnswer": "First", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Recitative",
+    "pronunciation": "res-i-tuh-TEEV",
+    "pos": "noun",
+    "definition": "A style of vocal delivery in opera and oratorio that imitates the rhythms and inflections of speech, used to advance the plot between arias.",
+    "origin": "From Italian <strong>recitativo</strong>, from recitare (to recite), from Latin recitare (to read aloud). Italian opera composers developed the style around 1600 to let sung dialogue move the story forward.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Recitative</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian recitativo", "b": "Recited, spoken in song" },
+          { "a": "Italian recitare", "b": "To recite" },
+          { "a": "Latin recitare", "b": "To read aloud" },
+          { "a": "Developed by Italian opera composers around", "b": "1600" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Recitative</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Recitative imitates the rhythms of", "b": "Ordinary speech" },
+          { "a": "Recitative is used in opera to advance the", "b": "Plot between arias" },
+          { "a": "Unlike an aria, recitative is less about", "b": "Melody, more about narration" },
+          { "a": "Recitative is common in opera and", "b": "Oratorio" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Recitative</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tenor delivered the news in a rapid", "b": "Recitative" },
+          { "a": "Mozart's operas alternate between arias and", "b": "Recitative" },
+          { "a": "The conductor kept the", "b": "Recitative moving briskly" },
+          { "a": "Between songs, the plot unfolded through", "b": "Sung recitative" }
+        ] }
+    ],
+    "roots": [ { "rootText": "recitare", "rootLanguage": "Latin", "rootMeaning": "To read aloud", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "recitare", "highlight": true }, { "text": " (to read aloud); speech-like singing that carries an opera's story forward.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "recitare", "correctAnswer": "To read aloud", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Choreography",
+    "pronunciation": "kor-ee-OG-ruh-fee",
+    "pos": "noun",
+    "definition": "The art of designing and arranging sequences of dance movements, or the sequence itself as composed for a performance.",
+    "origin": "From Greek <strong>khoreia</strong> (dance, choral dance) + graphein (to write). The term was first coined in French in 1700 by dance master Raoul-Auger Feuillet to describe the newly invented system for writing dance steps down.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Choreography</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek khoreia", "b": "Dance, choral dance" },
+          { "a": "Greek graphein", "b": "To write" },
+          { "a": "Coined in French in 1700 by", "b": "Raoul-Auger Feuillet" },
+          { "a": "Originally described a system for", "b": "Writing dance steps down" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Choreography</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Choreography is the art of arranging", "b": "Dance movements" },
+          { "a": "A choreographer is the person who", "b": "Designs the dance sequence" },
+          { "a": "Choreography can also describe the careful arrangement of", "b": "Any complex coordinated action" },
+          { "a": "Improvised movement is the opposite of set", "b": "Choreography" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Choreography</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dancers rehearsed the complex", "b": "Choreography for weeks" },
+          { "a": "Critics praised the ballet's inventive", "b": "Choreography" },
+          { "a": "The music video's tightly synced", "b": "Choreography went viral" },
+          { "a": "The stunt team's fight scene relied on precise", "b": "Choreography" }
+        ] }
+    ],
+    "roots": [ { "rootText": "khoreia", "rootLanguage": "Greek", "rootMeaning": "Dance, choral dance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "khoreia", "highlight": true }, { "text": " (dance) + graphein (to write); dance steps once literally written down on paper.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "khoreia", "correctAnswer": "Dance, choral dance", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Intermission",
+    "pronunciation": "in-tuh-MISH-uhn",
+    "pos": "noun",
+    "definition": "A short break between the parts of a performance, allowing the audience to rest, socialise, or refresh.",
+    "origin": "From Latin <strong>intermissio</strong> (an interruption, pause), from inter- (between) + mittere (to send, let go). The word entered English theatrical use to describe the pause between acts of a play or concert.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Intermission</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin intermissio", "b": "An interruption, pause" },
+          { "a": "Latin inter-", "b": "Between" },
+          { "a": "Latin mittere", "b": "To send, let go" },
+          { "a": "Used in English theatre for the", "b": "Pause between acts" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Intermission</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An intermission is a short break between the", "b": "Parts of a performance" },
+          { "a": "During intermission, audiences often", "b": "Socialise or refresh" },
+          { "a": "In British theatre, the equivalent term is", "b": "Interval" },
+          { "a": "A play performed straight through has", "b": "No intermission" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Intermission</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lobby filled with chatter during", "b": "Intermission" },
+          { "a": "They grabbed drinks at the bar during the", "b": "Intermission" },
+          { "a": "The three-hour opera included a single", "b": "Intermission" },
+          { "a": "Lights flickered to signal the end of", "b": "Intermission" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mittere", "rootLanguage": "Latin", "rootMeaning": "To send, let go", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "mittere", "highlight": true }, { "text": " (to let go), + inter- (between); the pause that falls between the acts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mittere", "correctAnswer": "To send, let go", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Philharmonic",
+    "pronunciation": "fil-har-MON-ik",
+    "pos": "adjective / noun",
+    "definition": "Devoted to or loving music, especially in the name of an orchestra or musical society; also used as a noun for such an orchestra.",
+    "origin": "From Greek <strong>philos</strong> (loving) + harmonia (harmony, agreement of sounds). The term arose in late 18th-century Europe as music societies adopted it to declare their devotion to music, distinguishing themselves from earlier court orchestras.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Philharmonic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek philos", "b": "Loving" },
+          { "a": "Greek harmonia", "b": "Harmony, agreement of sounds" },
+          { "a": "Term arose in", "b": "Late 18th-century Europe" },
+          { "a": "Music societies used it to declare their", "b": "Devotion to music" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Philharmonic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Philharmonic literally means", "b": "Loving harmony" },
+          { "a": "A philharmonic orchestra is often a", "b": "Major civic orchestra" },
+          { "a": "Many cities have a", "b": "Philharmonic society" },
+          { "a": "The word distinguishes an orchestra from an earlier", "b": "Royal court orchestra" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Philharmonic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The New York", "b": "Philharmonic performed Beethoven" },
+          { "a": "Tickets to the", "b": "Philharmonic sold out fast" },
+          { "a": "She joined the city's", "b": "Philharmonic as first violin" },
+          { "a": "The philharmonic's new season opens with a", "b": "World premiere" }
+        ] }
+    ],
+    "roots": [ { "rootText": "philos", "rootLanguage": "Greek", "rootMeaning": "Loving", "showInIntro": true }, { "rootText": "harmonia", "rootLanguage": "Greek", "rootMeaning": "Harmony, agreement of sounds", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "philos", "highlight": true }, { "text": " (loving) + harmonia (harmony); an orchestra's declaration of devotion to music.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "philos", "correctAnswer": "Loving", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Balladeer",
+    "pronunciation": "bal-uh-DEER",
+    "pos": "noun",
+    "definition": "A singer, especially of ballads or folk songs, who performs narrative or sentimental songs.",
+    "origin": "From <strong>ballad</strong>, from Old French balade, from Old Provencal balada (a dance song), from balar (to dance), ultimately from Late Latin ballare (to dance). The -eer suffix (one who does) was added in the 20th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Balladeer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Provencal balada", "b": "A dance song" },
+          { "a": "Old Provencal balar", "b": "To dance" },
+          { "a": "Late Latin ballare", "b": "To dance" },
+          { "a": "The -eer suffix was added in the", "b": "20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Balladeer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A balladeer performs", "b": "Ballads or folk songs" },
+          { "a": "Ballads are typically", "b": "Narrative or sentimental songs" },
+          { "a": "A balladeer often accompanies themselves on", "b": "Guitar" },
+          { "a": "A synonym for balladeer is a", "b": "Folk singer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Balladeer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The travelling", "b": "Balladeer sang of lost love" },
+          { "a": "A lone", "b": "Balladeer strummed by the fire" },
+          { "a": "The old balladeer's voice cracked on the final", "b": "Verse" },
+          { "a": "Fans packed the coffeehouse to hear the local", "b": "Balladeer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ballare", "rootLanguage": "Latin", "rootMeaning": "To dance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Late Latin ", "highlight": false }, { "text": "ballare", "highlight": true }, { "text": " (to dance); a singer of songs once sung to accompany dancing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ballare", "correctAnswer": "To dance", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Limelight",
+    "pronunciation": "LYM-lyt",
+    "pos": "noun",
+    "definition": "The intense focus of public attention, especially on a performer; originally, the bright stage lighting used in 19th-century theatres.",
+    "origin": "From <strong>lime</strong> (calcium oxide) + light. Invented in the 1820s, limelight worked by heating a block of lime until it glowed intensely white, becoming the standard stage spotlight of Victorian theatres before electric lighting replaced it.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Limelight</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Lime refers to", "b": "Calcium oxide" },
+          { "a": "Invented in the", "b": "1820s" },
+          { "a": "Limelight worked by heating a block of lime until it", "b": "Glowed intensely white" },
+          { "a": "It was the standard stage spotlight before", "b": "Electric lighting" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Limelight</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Limelight now figuratively means the focus of", "b": "Public attention" },
+          { "a": "\"To be in the limelight\" means to be", "b": "Publicly noticed or famous" },
+          { "a": "Originally, limelight was a type of", "b": "Bright stage lighting" },
+          { "a": "Someone who avoids attention shuns the", "b": "Limelight" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Limelight</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The young actress basked in the", "b": "Limelight" },
+          { "a": "After years of obscurity, the band stepped into the", "b": "Limelight" },
+          { "a": "He preferred to work quietly, away from the", "b": "Limelight" },
+          { "a": "The scandal thrust the family into an unwelcome", "b": "Limelight" }
+        ] }
+    ],
+    "roots": [ { "rootText": "lime", "rootLanguage": "English", "rootMeaning": "Calcium oxide", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "lime", "highlight": true }, { "text": " (calcium oxide) + light; a burning block of lime that once lit the Victorian stage.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "lime", "correctAnswer": "Calcium oxide", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Playbill",
+    "pronunciation": "PLAY-bil",
+    "pos": "noun",
+    "definition": "A printed programme or poster listing the cast, creative team, and details of a theatrical performance.",
+    "origin": "A compound of <strong>play</strong> and bill (a printed notice or list), formed in the 18th century when theatres began posting and distributing printed announcements advertising a production's cast and performers.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Playbill</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of", "b": "Play and bill" },
+          { "a": "Bill originally meant a", "b": "Printed notice or list" },
+          { "a": "Formed in the", "b": "18th century" },
+          { "a": "Theatres used it to advertise a production's", "b": "Cast and performers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Playbill</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A playbill lists a show's", "b": "Cast and creative team" },
+          { "a": "Audiences receive a playbill upon", "b": "Entering the theatre" },
+          { "a": "A playbill often includes biographies of the", "b": "Performers" },
+          { "a": "Collectors sometimes keep old", "b": "Playbills as souvenirs" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Playbill</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She flipped through the", "b": "Playbill before the lights dimmed" },
+          { "a": "His name appeared for the first time on a Broadway", "b": "Playbill" },
+          { "a": "The usher handed out a", "b": "Playbill at the door" },
+          { "a": "He kept every", "b": "Playbill from shows he'd seen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bill", "rootLanguage": "English", "rootMeaning": "A printed notice or list", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From play + ", "highlight": false }, { "text": "bill", "highlight": true }, { "text": " (a printed notice); the programme that names every player in the show.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bill", "correctAnswer": "A printed notice or list", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cabaret",
+    "pronunciation": "KAB-uh-ray",
+    "pos": "noun",
+    "definition": "Entertainment consisting of music, song, dance, or comedy performed in a nightclub or restaurant while the audience eats or drinks.",
+    "origin": "From French <strong>cabaret</strong>, originally meaning a tavern or small drinking establishment, from Old Picard camberete (little room). By the late 19th century, Parisian venues had transformed the word into a name for a night of intimate stage entertainment.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cabaret</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French cabaret originally meant", "b": "A tavern, small drinking establishment" },
+          { "a": "Old Picard camberete", "b": "Little room" },
+          { "a": "Transformed into its modern sense in", "b": "Late 19th-century Paris" },
+          { "a": "Parisian venues gave the word its meaning of", "b": "Intimate stage entertainment" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cabaret</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cabaret combines music, song, dance, or", "b": "Comedy" },
+          { "a": "Cabaret is typically performed in a", "b": "Nightclub or restaurant" },
+          { "a": "Audiences at a cabaret usually", "b": "Eat or drink during the show" },
+          { "a": "The Broadway musical Cabaret is set in", "b": "1930s Berlin" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cabaret</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They spent the evening at a smoky", "b": "Cabaret club" },
+          { "a": "The singer performed her sultry", "b": "Cabaret act" },
+          { "a": "The dinner theatre billed itself as a", "b": "Cabaret experience" },
+          { "a": "Feathers and sequins defined the", "b": "Cabaret costume" }
+        ] }
+    ],
+    "roots": [ { "rootText": "camberete", "rootLanguage": "Old Picard", "rootMeaning": "Little room", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Picard ", "highlight": false }, { "text": "camberete", "highlight": true }, { "text": " (little room); a humble tavern that became a home for intimate stage acts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "camberete", "correctAnswer": "Little room", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Revue",
+    "pronunciation": "ri-VYOO",
+    "pos": "noun",
+    "definition": "A theatrical show made up of a loosely connected series of songs, sketches, and dances, often satirising current events.",
+    "origin": "From French <strong>revue</strong> (a review, survey), from revoir (to see again), from Latin revidere (to look back at). French theatre adopted the word in the 19th century for shows that reviewed the year's events in song and sketch.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Revue</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French revue", "b": "A review, survey" },
+          { "a": "French revoir", "b": "To see again" },
+          { "a": "Latin revidere", "b": "To look back at" },
+          { "a": "Adopted by French theatre in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Revue</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A revue is made up of loosely connected", "b": "Songs, sketches, and dances" },
+          { "a": "Revues often satirise", "b": "Current events" },
+          { "a": "Unlike a book musical, a revue has no single", "b": "Continuous plot" },
+          { "a": "A revue traditionally reviewed the events of the", "b": "Past year" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Revue</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The satirical", "b": "Revue mocked the year's politicians" },
+          { "a": "Students staged a comedy", "b": "Revue every spring" },
+          { "a": "The cabaret's variety", "b": "Revue changed acts nightly" },
+          { "a": "Critics called the new", "b": "Revue sharp and topical" }
+        ] }
+    ],
+    "roots": [ { "rootText": "revidere", "rootLanguage": "Latin", "rootMeaning": "To look back at", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "revidere", "highlight": true }, { "text": " (to look back at); a show that looks back at the year in song and sketch.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "revidere", "correctAnswer": "To look back at", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vaudeville",
+    "pronunciation": "VOHD-vil",
+    "pos": "noun",
+    "definition": "A genre of theatrical entertainment popular from the 1880s to the 1930s, made up of a varied bill of unrelated acts such as comedy, song, and juggling.",
+    "origin": "From French <strong>vau-de-vire</strong>, named after the Vau (or Val) de Vire, a valley in Normandy famed for the satirical drinking songs composed there in the 15th century. The term later drifted, through vaudevire and voix de ville (voice of the town), into vaudeville.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vaudeville</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after the Vau de Vire, a", "b": "Valley in Normandy" },
+          { "a": "The valley was famed for its", "b": "Satirical drinking songs" },
+          { "a": "Those songs date to the", "b": "15th century" },
+          { "a": "The term drifted through an alteration meaning", "b": "Voice of the town (voix de ville)" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vaudeville</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vaudeville was popular from the 1880s to the", "b": "1930s" },
+          { "a": "A vaudeville bill mixed unrelated acts such as", "b": "Comedy, song, and juggling" },
+          { "a": "Vaudeville theatres eventually declined with the rise of", "b": "Cinema and radio" },
+          { "a": "A vaudeville performer typically appeared for only a few", "b": "Minutes per act" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vaudeville</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old comedian got his start in", "b": "Vaudeville" },
+          { "a": "The theatre once hosted touring", "b": "Vaudeville acts" },
+          { "a": "Juggling, singing, and slapstick shared a single", "b": "Vaudeville bill" },
+          { "a": "Film eventually drew audiences away from", "b": "Vaudeville" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Vau-de-Vire", "rootLanguage": "French place name", "rootMeaning": "A valley in Normandy famed for satirical songs", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Vau-de-Vire", "highlight": true }, { "text": ", a Norman valley whose satirical songs gave variety theatre its name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Vau-de-Vire", "correctAnswer": "A valley in Normandy famed for satirical songs", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Troupe",
+    "pronunciation": "troop",
+    "pos": "noun",
+    "definition": "A group of performers, such as actors, dancers, or acrobats, who work and tour together.",
+    "origin": "From French <strong>troupe</strong> (a group, band), from Old French trope, likely from Late Latin troppus (a flock, herd), possibly of Germanic origin. The word entered English theatrical use in the 19th century to describe touring performing companies.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Troupe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French troupe", "b": "A group, band" },
+          { "a": "Late Latin troppus", "b": "A flock, herd" },
+          { "a": "Troppus was possibly of", "b": "Germanic origin" },
+          { "a": "Entered English theatrical use in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Troupe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A troupe is a group of performers who", "b": "Work and tour together" },
+          { "a": "A member of a troupe is called a", "b": "Trouper" },
+          { "a": "\"Being a real trouper\" figuratively praises someone's", "b": "Dedication despite hardship" },
+          { "a": "A troupe can include actors, dancers, or", "b": "Acrobats" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Troupe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The travelling", "b": "Troupe arrived at dawn" },
+          { "a": "A circus", "b": "Troupe pitched its tent in the square" },
+          { "a": "She joined a small theatre", "b": "Troupe after graduating" },
+          { "a": "Despite the flu, the whole cast was a real", "b": "Troupe" }
+        ] }
+    ],
+    "roots": [ { "rootText": "troppus", "rootLanguage": "Latin", "rootMeaning": "A flock, herd", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Late Latin ", "highlight": false }, { "text": "troppus", "highlight": true }, { "text": " (a flock, herd); performers travelling and working together as one company.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "troppus", "correctAnswer": "A flock, herd", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Busker",
+    "pronunciation": "BUS-kuh",
+    "pos": "noun",
+    "definition": "A street performer who plays music, sings, or performs for voluntary donations from passers-by.",
+    "origin": "From <strong>busk</strong>, from Spanish buscar (to seek), possibly via French busquer. English sailors and travelling entertainers picked up the word in the 19th century for wandering the streets in search of an audience and a living.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Busker</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish buscar", "b": "To seek" },
+          { "a": "Possibly reached English via", "b": "French busquer" },
+          { "a": "Picked up by English sailors and entertainers in the", "b": "19th century" },
+          { "a": "Originally described wandering the streets in search of", "b": "An audience and a living" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Busker</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A busker performs in", "b": "The street" },
+          { "a": "Buskers rely on voluntary", "b": "Donations from passers-by" },
+          { "a": "To busk means to", "b": "Perform in a public place for tips" },
+          { "a": "Subway stations are a common spot for", "b": "Buskers" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Busker</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A lone", "b": "Busker played guitar on the corner" },
+          { "a": "Crowds gathered around the street", "b": "Busker" },
+          { "a": "She dropped a coin into the", "b": "Busker's open case" },
+          { "a": "The city issued permits for licensed", "b": "Buskers" }
+        ] }
+    ],
+    "roots": [ { "rootText": "buscar", "rootLanguage": "Spanish", "rootMeaning": "To seek", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "buscar", "highlight": true }, { "text": " (to seek); a performer seeking an audience wherever the street leads.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "buscar", "correctAnswer": "To seek", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Proscenium",
+    "pronunciation": "proh-SEE-nee-uhm",
+    "pos": "noun",
+    "definition": "The arch or frame at the front of a traditional stage that separates the performance area from the auditorium.",
+    "origin": "From Greek <strong>proskenion</strong>, from pro- (in front of) + skene (tent, stage building). Ancient Greek theatres used the skene as a backdrop building, with the proskenion as the raised platform in front of it where actors performed.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Proscenium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pro-", "b": "In front of" },
+          { "a": "Greek skene", "b": "Tent, stage building" },
+          { "a": "In ancient Greek theatre, the skene was a", "b": "Backdrop building" },
+          { "a": "The proskenion was the platform where", "b": "Actors performed" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Proscenium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A proscenium separates the stage from the", "b": "Auditorium" },
+          { "a": "A \"proscenium arch\" is the frame surrounding the", "b": "Stage opening" },
+          { "a": "A proscenium theatre presents the action to the audience through a", "b": "Single frontal frame" },
+          { "a": "A theatre-in-the-round has no", "b": "Proscenium" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Proscenium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Gold leaf decorated the ornate", "b": "Proscenium arch" },
+          { "a": "The set design filled the entire", "b": "Proscenium opening" },
+          { "a": "Actors stepped forward through the", "b": "Proscenium" },
+          { "a": "The old opera house's", "b": "Proscenium framed every scene" }
+        ] }
+    ],
+    "roots": [ { "rootText": "skene", "rootLanguage": "Greek", "rootMeaning": "Tent, stage building", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek pro- (in front of) + ", "highlight": false }, { "text": "skene", "highlight": true }, { "text": " (stage building); the frame that opens onto the world of the play.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "skene", "correctAnswer": "Tent, stage building", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vibrato",
+    "pronunciation": "vi-BRAH-toh",
+    "pos": "noun",
+    "definition": "A slight, rapid fluctuation of pitch used by singers and instrumentalists to add warmth and expressiveness to a sustained note.",
+    "origin": "From Italian <strong>vibrato</strong> (vibrated), the past participle of vibrare (to vibrate), from Latin vibrare (to shake, brandish). Musicians adopted the Italian musical term into English in the 19th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vibrato</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian vibrato", "b": "Vibrated" },
+          { "a": "Italian vibrare", "b": "To vibrate" },
+          { "a": "Latin vibrare", "b": "To shake, brandish" },
+          { "a": "Adopted into English musical use in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vibrato</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vibrato is a rapid fluctuation of", "b": "Pitch" },
+          { "a": "Vibrato adds warmth and", "b": "Expressiveness to a note" },
+          { "a": "Violinists produce vibrato by rocking a finger on the", "b": "String" },
+          { "a": "A perfectly flat, unwavering tone has", "b": "No vibrato" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vibrato</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The singer's voice swelled with rich", "b": "Vibrato" },
+          { "a": "The violinist added a subtle", "b": "Vibrato to the long note" },
+          { "a": "Her heavy", "b": "Vibrato gave the aria emotional weight" },
+          { "a": "The choir director asked for a leaner tone with less", "b": "Vibrato" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vibrare", "rootLanguage": "Latin", "rootMeaning": "To shake, brandish", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vibrare", "highlight": true }, { "text": " (to shake); the trembling warmth added to a sustained note.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vibrare", "correctAnswer": "To shake, brandish", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Coloratura",
+    "pronunciation": "kuhl-uh-ruh-TOOR-uh",
+    "pos": "noun",
+    "definition": "Elaborate, ornamental vocal melody featuring rapid runs, trills, and leaps, or a soprano who specialises in singing it.",
+    "origin": "From Italian <strong>coloratura</strong> (coloring), from colorare (to color), from Latin color (color). The term was borrowed into German and then English in the 18th century to describe brilliantly ornamented operatic singing.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Coloratura</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian coloratura", "b": "Coloring" },
+          { "a": "Italian colorare", "b": "To color" },
+          { "a": "Latin color", "b": "Color" },
+          { "a": "Borrowed into English in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Coloratura</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Coloratura features rapid runs, trills, and", "b": "Leaps" },
+          { "a": "A coloratura soprano specialises in singing", "b": "Highly ornamented melody" },
+          { "a": "Coloratura passages showcase a singer's vocal", "b": "Agility" },
+          { "a": "A simple, unadorned melodic line has", "b": "Little coloratura" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Coloratura</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The aria demanded dazzling", "b": "Coloratura" },
+          { "a": "She trained for years to master", "b": "Coloratura technique" },
+          { "a": "The composer wrote a fiendishly difficult", "b": "Coloratura passage" },
+          { "a": "Audiences gasped at her flawless", "b": "Coloratura runs" }
+        ] }
+    ],
+    "roots": [ { "rootText": "color", "rootLanguage": "Latin", "rootMeaning": "Color", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "color", "highlight": true }, { "text": " (color); vocal melody dressed in brilliant, ornamental color.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "color", "correctAnswer": "Color", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Operetta",
+    "pronunciation": "op-uh-RET-uh",
+    "pos": "noun",
+    "definition": "A short, light opera featuring spoken dialogue, comic plots, and tuneful songs, less grand and serious than full opera.",
+    "origin": "From Italian <strong>operetta</strong>, the diminutive of opera (a musical drama), meaning literally \"little work.\" The genre flourished in mid-19th-century Paris and Vienna as a lighter, comic alternative to grand opera.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-performance", "name": "Performance & Stage", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Operetta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian operetta", "b": "Little work" },
+          { "a": "Operetta is the diminutive of", "b": "Opera" },
+          { "a": "Opera itself means a", "b": "Musical drama, a work" },
+          { "a": "The genre flourished in mid-19th-century", "b": "Paris and Vienna" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Operetta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An operetta features spoken dialogue and", "b": "Tuneful songs" },
+          { "a": "Operetta plots are typically", "b": "Comic" },
+          { "a": "Operetta is lighter and less serious than", "b": "Grand opera" },
+          { "a": "Gilbert and Sullivan were famous for their comic", "b": "Operettas" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Operetta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The company staged a lighthearted", "b": "Operetta" },
+          { "a": "Audiences laughed through the comic", "b": "Operetta" },
+          { "a": "She sang the lead in a Viennese", "b": "Operetta" },
+          { "a": "The operetta's catchy tunes had audiences", "b": "Humming along" }
+        ] }
+    ],
+    "roots": [ { "rootText": "opera", "rootLanguage": "Italian", "rootMeaning": "A musical drama, a work", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "opera", "highlight": true }, { "text": " (a work), diminutive -etta; literally a \"little work\" of comic musical theatre.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "opera", "correctAnswer": "A musical drama, a work", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

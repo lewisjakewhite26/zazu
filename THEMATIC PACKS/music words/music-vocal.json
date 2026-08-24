@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Ballad",
+    "pronunciation": "BAL-uhd",
+    "pos": "noun",
+    "definition": "A narrative poem or song, traditionally passed down orally, that tells a story in short stanzas with a simple rhyme scheme.",
+    "origin": "From Old French <strong>balade</strong>, from Old Provençal balada (a dance song), from balar (to dance), ultimately from Late Latin ballare (to dance). Medieval troubadours sang ballads to accompany dancing before the form later broke away from dance entirely to become a purely narrative song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ballad</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Provençal balada", "b": "A dance song" },
+          { "a": "Old Provençal balar", "b": "To dance" },
+          { "a": "Ultimately from Late Latin", "b": "Ballare (to dance)" },
+          { "a": "Troubadours sang ballads to accompany", "b": "Dancing" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ballad</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ballad tells a story in", "b": "Short stanzas with simple rhyme" },
+          { "a": "Ballads were traditionally passed down", "b": "Orally, from singer to singer" },
+          { "a": "A modern 'power ballad' is typically a", "b": "Slow, emotional love song" },
+          { "a": "Unlike a lyric poem, a ballad centres on", "b": "Narrative, a story being told" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ballad</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The busker performed a mournful", "b": "Ballad about a shipwreck" },
+          { "a": "The band's biggest hit was a soaring", "b": "Power ballad" },
+          { "a": "Folklorists collected centuries-old", "b": "Border ballads" },
+          { "a": "He wrote a ballad recounting the", "b": "Outlaw's final days" }
+        ] }
+    ],
+    "roots": [ { "rootText": "balar", "rootLanguage": "Old Provençal", "rootMeaning": "To dance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Provençal ", "highlight": false }, { "text": "balar", "highlight": true }, { "text": " (to dance); a song once inseparable from the dancer's steps.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "balar", "correctAnswer": "To dance", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chorus",
+    "pronunciation": "KOR-uhs",
+    "pos": "noun",
+    "definition": "The recurring section of a song that carries its main melody and message, repeated between verses; also, a group of singers performing together.",
+    "origin": "From Latin <strong>chorus</strong>, from Greek khoros (a band of dancers and singers). In ancient Greek drama, the chorus was a group who sang and danced between scenes, commenting on the action; the sense narrowed over centuries to the repeated refrain of a song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chorus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek khoros", "b": "Band of dancers and singers" },
+          { "a": "Reached English via", "b": "Latin chorus" },
+          { "a": "In Greek drama, the chorus", "b": "Commented on the action between scenes" },
+          { "a": "The sense later narrowed to a song's", "b": "Repeated refrain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chorus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chorus carries a song's", "b": "Main melody and message" },
+          { "a": "A chorus is repeated between", "b": "Verses" },
+          { "a": "A choir's singers can also be called a", "b": "Chorus" },
+          { "a": "'In chorus' means speaking or singing", "b": "All together, at once" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chorus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crowd sang along to the", "b": "Chorus" },
+          { "a": "The whole classroom answered in", "b": "Chorus" },
+          { "a": "She hummed the catchy", "b": "Chorus for days" },
+          { "a": "The opera's finale brought in the full", "b": "Chorus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "khoros", "rootLanguage": "Greek", "rootMeaning": "Band of dancers and singers", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "khoros", "highlight": true }, { "text": " (band of dancers and singers); once a crowd on stage, now the part everyone sings along to.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "khoros", "correctAnswer": "Band of dancers and singers", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Downbeat",
+    "pronunciation": "DOWN-beet",
+    "pos": "noun",
+    "definition": "The first and typically most strongly accented beat of a musical measure, marked by the downward stroke of a conductor's baton.",
+    "origin": "An English compound of <strong>down</strong> and beat, formed in 19th-century musical terminology to describe the downward motion a conductor makes to mark the accented first beat of each bar.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Downbeat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of", "b": "Down and beat" },
+          { "a": "Formed in", "b": "19th-century musical terminology" },
+          { "a": "Marked by a conductor's", "b": "Downward stroke of the baton" },
+          { "a": "Names the beat that is", "b": "Most strongly accented" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Downbeat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The downbeat falls on the", "b": "First beat of the measure" },
+          { "a": "Opposite the downbeat is the", "b": "Upbeat" },
+          { "a": "Musicians count in to find the", "b": "Downbeat" },
+          { "a": "'On the downbeat' figuratively can mean", "b": "Right on time, in sync" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Downbeat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The drummer counted off to the", "b": "Downbeat" },
+          { "a": "Everyone clapped exactly on the", "b": "Downbeat" },
+          { "a": "The conductor's arm snapped down for the", "b": "Downbeat" },
+          { "a": "The band came in tight on the", "b": "First downbeat" }
+        ] }
+    ],
+    "roots": [ { "rootText": "down + beat", "rootLanguage": "English compound", "rootMeaning": "The accented first beat of a bar", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An English compound of ", "highlight": false }, { "text": "down + beat", "highlight": true }, { "text": "; the conductor's baton falls, and the bar begins.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "down + beat", "correctAnswer": "The accented first beat of a bar", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hymn",
+    "pronunciation": "him",
+    "pos": "noun",
+    "definition": "A religious song of praise, traditionally sung in worship to honour a god or divine figure.",
+    "origin": "From Greek <strong>hymnos</strong> (a song of praise for gods or heroes), via Latin hymnus and Old French ymne. Ancient Greek poets used hymnoi to celebrate deities, and early Christians adapted the word for songs of worship sung in church.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hymn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek hymnos", "b": "Song of praise" },
+          { "a": "Reached English via", "b": "Latin hymnus" },
+          { "a": "Ancient Greek poets sang hymnoi to", "b": "Gods and heroes" },
+          { "a": "Early Christians adapted the word for", "b": "Songs of worship" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hymn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hymn is traditionally sung to", "b": "Honour a god or divine figure" },
+          { "a": "Hymns are commonly sung during", "b": "Church services" },
+          { "a": "A hymnal is a book of", "b": "Hymns" },
+          { "a": "Amazing Grace is a famous", "b": "Christian hymn" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hymn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The congregation rose to sing the closing", "b": "Hymn" },
+          { "a": "The organist played the opening", "b": "Hymn" },
+          { "a": "Soldiers sang a solemn", "b": "Hymn before battle" },
+          { "a": "The choir rehearsed a new", "b": "Hymn for Sunday" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hymnos", "rootLanguage": "Greek", "rootMeaning": "Song of praise", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "hymnos", "highlight": true }, { "text": " (song of praise); once sung for gods and heroes alike, now for worship.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hymnos", "correctAnswer": "Song of praise", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lullaby",
+    "pronunciation": "LUL-uh-by",
+    "pos": "noun",
+    "definition": "A soft, soothing song sung to help a child fall asleep.",
+    "origin": "From English <strong>lull</strong> (to soothe by gentle sound or motion) combined with a nursery-rhyme refrain resembling 'bye', appearing in English by the 16th century. Its exact coinage is folk in origin, born from the repeated hushing syllables mothers sang rather than any single written source.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lullaby</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English lull", "b": "To soothe by gentle sound or motion" },
+          { "a": "Combined with a nursery refrain resembling", "b": "Bye" },
+          { "a": "First appeared in English by the", "b": "16th century" },
+          { "a": "Its coinage is", "b": "Folk in origin, from hushing syllables" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lullaby</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A lullaby is sung to help a child", "b": "Fall asleep" },
+          { "a": "Lullabies are typically", "b": "Soft and soothing" },
+          { "a": "Brahms composed a famous", "b": "Lullaby" },
+          { "a": "Many lullabies use a gentle, repetitive", "b": "Rocking rhythm" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lullaby</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She hummed a soft", "b": "Lullaby to the baby" },
+          { "a": "The nanny sang the same", "b": "Lullaby every night" },
+          { "a": "The music box played a tinny", "b": "Lullaby" },
+          { "a": "His grandmother's old", "b": "Lullaby still calmed him" }
+        ] }
+    ],
+    "roots": [ { "rootText": "lull", "rootLanguage": "English", "rootMeaning": "To soothe by gentle sound", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "lull", "highlight": true }, { "text": " (to soothe); a hushed refrain sung to carry a child to sleep.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "lull", "correctAnswer": "To soothe by gentle sound", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Anthem",
+    "pronunciation": "AN-thuhm",
+    "pos": "noun",
+    "definition": "A rousing song of loyalty or celebration, especially one formally adopted to represent a nation or cause.",
+    "origin": "From Old English <strong>antefn</strong>, from Late Latin antiphona, from Greek antiphona (sung in response), anti- (against, in return) + phone (voice, sound). It originally named a piece sung antiphonally, with two choirs answering each other, before broadening to any rousing, unifying song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Anthem</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English antefn", "b": "From Late Latin antiphona" },
+          { "a": "Greek anti-", "b": "Against, in return" },
+          { "a": "Greek phone", "b": "Voice, sound" },
+          { "a": "Originally named a piece sung", "b": "Antiphonally, by two answering choirs" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Anthem</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A national anthem represents a", "b": "Country" },
+          { "a": "An anthem is typically a song of", "b": "Loyalty or celebration" },
+          { "a": "A sports team's fans might adopt a", "b": "Rousing anthem" },
+          { "a": "'Anthemic' describes music that feels", "b": "Grand and unifying" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Anthem</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The stadium stood for the national", "b": "Anthem" },
+          { "a": "Fans belted out the club's", "b": "Anthem" },
+          { "a": "The band's breakout single became a generational", "b": "Anthem" },
+          { "a": "The Olympic ceremony opened with the host country's", "b": "Anthem" }
+        ] }
+    ],
+    "roots": [ { "rootText": "antiphona", "rootLanguage": "Greek", "rootMeaning": "Sung in response", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "antiphona", "highlight": true }, { "text": " (sung in response); once two choirs answering each other, now one voice raised together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "antiphona", "correctAnswer": "Sung in response", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Carol",
+    "pronunciation": "KA-ruhl",
+    "pos": "noun",
+    "definition": "A joyful song, especially one traditionally sung at Christmas.",
+    "origin": "From Old French <strong>carole</strong> (a ring dance performed with singing), possibly from Latin choraula (a dance accompanied by flute), from Greek choraules. Carols began as festive dance-songs for any season before becoming linked specifically to Christmas celebrations by the late medieval period.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Carol</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French carole", "b": "A ring dance with singing" },
+          { "a": "Possibly from Latin", "b": "Choraula (a dance to the flute)" },
+          { "a": "Ultimately traces to Greek", "b": "Choraules" },
+          { "a": "Became linked to Christmas by the", "b": "Late medieval period" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Carol</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A carol is especially associated with", "b": "Christmas" },
+          { "a": "Carols were originally sung to accompany", "b": "Dancing" },
+          { "a": "Carol singers going door to door are called", "b": "Carollers" },
+          { "a": "Silent Night is one of the most famous", "b": "Christmas carols" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Carol</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir went door to door", "b": "Carolling" },
+          { "a": "Children sang a", "b": "Carol on the doorstep" },
+          { "a": "The town square hosted a", "b": "Carol service" },
+          { "a": "She hummed her favourite", "b": "Christmas carol" }
+        ] }
+    ],
+    "roots": [ { "rootText": "carole", "rootLanguage": "Old French", "rootMeaning": "A ring dance with singing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "carole", "highlight": true }, { "text": " (a ring dance with singing); once danced at any festival, now sung mostly at Christmas.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "carole", "correctAnswer": "A ring dance with singing", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dirge",
+    "pronunciation": "durj",
+    "pos": "noun",
+    "definition": "A slow, mournful song or hymn expressing grief, especially for the dead.",
+    "origin": "From Latin <strong>dirige</strong> (direct thou), the opening word of a Latin antiphon sung in the medieval funeral service — 'Dirige, Domine, in conspectu tuo viam meam' (Direct, O Lord, my way in your sight). The Latin imperative was clipped into the English noun for any funeral song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dirge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin dirige", "b": "Direct thou" },
+          { "a": "Opened a Latin antiphon sung at", "b": "Medieval funeral services" },
+          { "a": "The full phrase meant", "b": "Direct, O Lord, my way" },
+          { "a": "The imperative was clipped into", "b": "The English noun dirge" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dirge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dirge expresses", "b": "Grief, especially for the dead" },
+          { "a": "A dirge is typically", "b": "Slow and mournful" },
+          { "a": "Unlike an upbeat anthem, a dirge suits a", "b": "Funeral" },
+          { "a": "'The team's play was a dirge' figuratively means it was", "b": "Dull and lifeless" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dirge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bagpipes played a slow", "b": "Dirge at the graveside" },
+          { "a": "Critics called the album's closing track a", "b": "Dirge" },
+          { "a": "Mourners walked behind the coffin to a", "b": "Dirge" },
+          { "a": "The match dragged on like a tuneless", "b": "Dirge" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dirige", "rootLanguage": "Latin", "rootMeaning": "Direct thou", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "dirige", "highlight": true }, { "text": " (direct thou); the opening word of a funeral antiphon, worn down into a word for mourning itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dirige", "correctAnswer": "Direct thou", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Refrain",
+    "pronunciation": "ri-FRAYN",
+    "pos": "noun",
+    "definition": "A phrase or line repeated at intervals throughout a song or poem, especially at the end of each verse.",
+    "origin": "From Old French <strong>refraindre</strong> (to repeat, to break off), from Latin refringere (to break up), re- (back) + frangere (to break). The repeated line was seen as 'breaking' the flow of new verses to return to something familiar.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Refrain</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French refraindre", "b": "To repeat, to break off" },
+          { "a": "Latin refringere", "b": "To break up" },
+          { "a": "Latin re-", "b": "Back" },
+          { "a": "Latin frangere", "b": "To break" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Refrain</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A refrain repeats at", "b": "Intervals throughout a song" },
+          { "a": "A refrain often appears at the end of each", "b": "Verse" },
+          { "a": "Unlike a full chorus, a refrain can be as short as", "b": "A single repeated line" },
+          { "a": "'Her constant refrain' figuratively means her frequently repeated", "b": "Complaint or statement" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Refrain</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Each verse ended with the same", "b": "Refrain" },
+          { "a": "The crowd joined in on the", "b": "Refrain" },
+          { "a": "'We shall overcome' became the song's defining", "b": "Refrain" },
+          { "a": "His mother's refrain was always", "b": "Finish your homework first" }
+        ] }
+    ],
+    "roots": [ { "rootText": "refringere", "rootLanguage": "Latin", "rootMeaning": "To break up", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "refringere", "highlight": true }, { "text": " (to break up); the line that breaks the verse to bring back something familiar.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "refringere", "correctAnswer": "To break up", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stanza",
+    "pronunciation": "STAN-zuh",
+    "pos": "noun",
+    "definition": "A group of lines forming a unit within a poem or song, typically set off from other groups by a space.",
+    "origin": "From Italian <strong>stanza</strong> (a stopping place, a room), from Vulgar Latin stantia, from Latin stare (to stand). Italian poets pictured each stanza as a room within the larger house of the poem, a place where the verse pauses to stand.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stanza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian stanza", "b": "A stopping place, a room" },
+          { "a": "From Vulgar Latin", "b": "Stantia" },
+          { "a": "Ultimately from Latin stare", "b": "To stand" },
+          { "a": "Italian poets pictured each stanza as a", "b": "Room within the poem" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stanza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A stanza is a group of lines within a", "b": "Poem or song" },
+          { "a": "Stanzas are typically set off by", "b": "A space between them" },
+          { "a": "A four-line stanza is called a", "b": "Quatrain" },
+          { "a": "Unlike a chorus, a stanza's wording usually", "b": "Changes each time" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stanza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The poet revised the opening", "b": "Stanza" },
+          { "a": "Each stanza of the ballad told a new", "b": "Part of the story" },
+          { "a": "She memorised the final", "b": "Stanza for recital" },
+          { "a": "The song's second", "b": "Stanza introduced a new character" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stare", "rootLanguage": "Latin", "rootMeaning": "To stand", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "stare", "highlight": true }, { "text": " (to stand), via Italian stanza (room); each verse-block a room within the poem's house.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stare", "correctAnswer": "To stand", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ditty",
+    "pronunciation": "DIT-ee",
+    "pos": "noun",
+    "definition": "A short, simple song or catchy tune, often light or humorous in tone.",
+    "origin": "From Middle English <strong>dite</strong> (a literary composition, a saying), from Old French dit (something said), from Latin dictare (to dictate, compose). The word originally covered any composed text before narrowing to mean a short, unassuming song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ditty</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle English dite", "b": "A literary composition, a saying" },
+          { "a": "Old French dit", "b": "Something said" },
+          { "a": "Latin dictare", "b": "To dictate, compose" },
+          { "a": "The word originally covered any", "b": "Composed text" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ditty</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ditty is typically", "b": "Short, simple, and catchy" },
+          { "a": "A ditty's tone is often", "b": "Light or humorous" },
+          { "a": "Unlike a formal anthem, a ditty feels", "b": "Casual and unassuming" },
+          { "a": "Children often make up silly", "b": "Ditties while playing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ditty</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He whistled a cheerful little", "b": "Ditty" },
+          { "a": "The jingle was just a silly", "b": "Advertising ditty" },
+          { "a": "She strummed a quick", "b": "Ditty on the ukulele" },
+          { "a": "The sailors made up a comic", "b": "Ditty about the captain" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dictare", "rootLanguage": "Latin", "rootMeaning": "To dictate, compose", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "dictare", "highlight": true }, { "text": " (to dictate, compose); once any composed text, now a small, catchy song.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dictare", "correctAnswer": "To dictate, compose", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jingle",
+    "pronunciation": "JING-guhl",
+    "pos": "noun",
+    "definition": "A short, catchy tune or verse, especially one used in advertising to make a product memorable.",
+    "origin": "English, of imitative origin, first echoing the light ringing sound of small bells or coins from the 16th century. In the 20th century, radio and television advertisers borrowed the word for short, catchy musical slogans designed to 'jingle' in a listener's memory.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jingle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English jingle", "b": "Of imitative, echoic origin" },
+          { "a": "First described the sound of", "b": "Small bells or coins" },
+          { "a": "In use since the", "b": "16th century" },
+          { "a": "20th-century advertisers borrowed it for", "b": "Catchy musical slogans" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jingle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A jingle is used in", "b": "Advertising, to make a product memorable" },
+          { "a": "A jingle is typically", "b": "Short and catchy" },
+          { "a": "Jingle Bells takes its title from the sound of", "b": "Sleigh bells" },
+          { "a": "A memorable jingle can get", "b": "Stuck in your head" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jingle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cereal brand's", "b": "Jingle played every morning" },
+          { "a": "He couldn't stop humming the", "b": "Jingle from the commercial" },
+          { "a": "The ad agency pitched a new", "b": "Jingle for the campaign" },
+          { "a": "Sleigh bells rang out a festive", "b": "Jingle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "jingle", "rootLanguage": "English (imitative)", "rootMeaning": "A light ringing sound", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "English, imitative in origin: ", "highlight": false }, { "text": "jingle", "highlight": true }, { "text": " once meant a light ringing sound, now a tune that rings in your head.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "jingle", "correctAnswer": "A light ringing sound", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Serenade",
+    "pronunciation": "se-ruh-NAYD",
+    "pos": "noun",
+    "definition": "A song of love performed, especially outdoors at night, for someone as a romantic tribute.",
+    "origin": "From Italian <strong>serenata</strong>, from sereno (clear, calm, serene, as of night air), from Latin serenus (clear, calm). The word carries an old folk association with 'sera' (evening) as well, since serenades were traditionally sung beneath a lover's window as night fell.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Serenade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian serenata", "b": "From sereno (clear, calm)" },
+          { "a": "Ultimately from Latin serenus", "b": "Clear, calm, serene" },
+          { "a": "Carries a folk association with", "b": "Sera (evening)" },
+          { "a": "Traditionally sung beneath a lover's", "b": "Window, at night" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Serenade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A serenade is performed as a", "b": "Romantic tribute" },
+          { "a": "A serenade is traditionally sung", "b": "Outdoors, at night" },
+          { "a": "In opera, a famous serenade is sung beneath a", "b": "Balcony" },
+          { "a": "To 'serenade' someone means to sing", "b": "Romantically, in their honour" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Serenade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He stood beneath her window and sang a", "b": "Serenade" },
+          { "a": "The guitarist offered a quiet", "b": "Serenade at dinner" },
+          { "a": "Mozart composed a famous evening", "b": "Serenade" },
+          { "a": "The street musician serenaded", "b": "Passersby with his violin" }
+        ] }
+    ],
+    "roots": [ { "rootText": "serenus", "rootLanguage": "Latin", "rootMeaning": "Clear, calm", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "serenus", "highlight": true }, { "text": " (clear, calm), via Italian serenata; a song offered beneath a window on a still, calm night.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "serenus", "correctAnswer": "Clear, calm", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Folk",
+    "pronunciation": "fohk",
+    "pos": "noun",
+    "definition": "Traditional music passed down orally within a community, along with the broader culture and songs of ordinary people.",
+    "origin": "From Old English <strong>folc</strong> (common people, nation, tribe), a native Germanic word. In the 19th century, German scholars coined Volkslied (folk song) to describe music passed down among common people, and English speakers adopted 'folk' as a musical label from this movement.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Folk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English folc", "b": "Common people, nation, tribe" },
+          { "a": "A native", "b": "Germanic word" },
+          { "a": "19th-century German scholars coined", "b": "Volkslied (folk song)" },
+          { "a": "English adopted 'folk' as a musical label from", "b": "This scholarly movement" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Folk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Folk music is passed down", "b": "Orally, within a community" },
+          { "a": "Folk music traditionally belongs to", "b": "Ordinary people, not composers" },
+          { "a": "A folk tale is a traditional story shared among", "b": "The common people" },
+          { "a": "The 1960s folk revival brought artists like", "b": "Bob Dylan to prominence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Folk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her grandmother taught her old", "b": "Folk songs" },
+          { "a": "The festival celebrated regional", "b": "Folk music" },
+          { "a": "He collected stories from local", "b": "Folklore" },
+          { "a": "The band blended rock with traditional", "b": "Folk melodies" }
+        ] }
+    ],
+    "roots": [ { "rootText": "folc", "rootLanguage": "Old English", "rootMeaning": "Common people, nation", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "folc", "highlight": true }, { "text": " (common people); music that belongs to everyone, passed hand to hand.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "folc", "correctAnswer": "Common people, nation", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Spiritual",
+    "pronunciation": "SPEER-i-choo-uhl",
+    "pos": "noun",
+    "definition": "A religious folk song, especially one originating among enslaved African Americans in the southern United States.",
+    "origin": "From Latin <strong>spiritus</strong> (breath, spirit), from spirare (to breathe), via Latin spiritualis. As a musical noun, 'spiritual' emerged in 19th-century America to describe the deeply expressive religious songs created and sung by enslaved African Americans, blending biblical themes with African musical traditions.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Spiritual</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin spiritus", "b": "Breath, spirit" },
+          { "a": "From the verb spirare", "b": "To breathe" },
+          { "a": "As a musical noun, emerged in", "b": "19th-century America" },
+          { "a": "Created and sung by", "b": "Enslaved African Americans" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Spiritual</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A spiritual is a", "b": "Religious folk song" },
+          { "a": "Spirituals blend biblical themes with", "b": "African musical traditions" },
+          { "a": "Swing Low, Sweet Chariot is a famous", "b": "Spiritual" },
+          { "a": "Spirituals often carried hidden messages of", "b": "Hope and resistance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Spiritual</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir opened with a soulful", "b": "Spiritual" },
+          { "a": "She researched the history of the American", "b": "Spiritual" },
+          { "a": "The gospel singer's voice soared through the", "b": "Spiritual" },
+          { "a": "Historians traced the roots of jazz back to the", "b": "Spiritual" }
+        ] }
+    ],
+    "roots": [ { "rootText": "spiritus", "rootLanguage": "Latin", "rootMeaning": "Breath, spirit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "spiritus", "highlight": true }, { "text": " (breath, spirit); songs of faith and endurance born in 19th-century America.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "spiritus", "correctAnswer": "Breath, spirit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Melisma",
+    "pronunciation": "muh-LIZ-muh",
+    "pos": "noun",
+    "definition": "The technique of singing a single syllable of text while moving through several different musical notes.",
+    "origin": "From Greek <strong>melisma</strong> (song, melody, an air), related to melos (song, melody) and melizein (to sing, to make melody). Ancient Greek and later Byzantine chant traditions used flowing, ornamental melodic lines over single syllables, giving the term its musical sense.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Melisma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek melisma", "b": "Song, melody, an air" },
+          { "a": "Related to Greek melos", "b": "Song, melody" },
+          { "a": "Also related to melizein", "b": "To sing, to make melody" },
+          { "a": "Used in ancient Greek and", "b": "Byzantine chant traditions" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Melisma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Melisma stretches a single syllable across", "b": "Several different notes" },
+          { "a": "Melisma is common in", "b": "Gospel and R&B vocal styles" },
+          { "a": "Gregorian chant makes heavy use of", "b": "Melisma" },
+          { "a": "The opposite of melisma, one note per syllable, is called", "b": "Syllabic singing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Melisma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The singer's dramatic", "b": "Melisma drew applause" },
+          { "a": "Critics felt the ballad's melisma was", "b": "Overdone" },
+          { "a": "The choir director taught proper", "b": "Melismatic phrasing" },
+          { "a": "Her rendition of the anthem featured a soaring", "b": "Melisma on the final note" }
+        ] }
+    ],
+    "roots": [ { "rootText": "melos", "rootLanguage": "Greek", "rootMeaning": "Song, melody", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "melos", "highlight": true }, { "text": " (song, melody); a single syllable stretched across a flowing run of notes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "melos", "correctAnswer": "Song, melody", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lyric",
+    "pronunciation": "LIR-ik",
+    "pos": "noun",
+    "definition": "The words of a song, or a short poem expressing personal emotion, traditionally meant to be sung.",
+    "origin": "From Greek <strong>lyrikos</strong> (of the lyre), from lyra (lyre), the stringed instrument used to accompany poetry in ancient Greece. Poems meant to be sung to the lyre's accompaniment became known as 'lyric' poetry, and the sense later extended to the words of any song.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lyric</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek lyrikos", "b": "Of the lyre" },
+          { "a": "Greek lyra", "b": "Lyre, a stringed instrument" },
+          { "a": "Ancient Greek poems sung to the lyre became known as", "b": "Lyric poetry" },
+          { "a": "The sense later extended to", "b": "The words of any song" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lyric</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Lyrics are the", "b": "Words of a song" },
+          { "a": "A lyric poem traditionally expresses", "b": "Personal emotion" },
+          { "a": "A songwriter who focuses on words is called a", "b": "Lyricist" },
+          { "a": "Unlike a narrative ballad, a pure lyric poem need not tell a", "b": "Story" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lyric</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She scribbled new", "b": "Lyrics in her notebook" },
+          { "a": "The song's opening", "b": "Lyric set the mood" },
+          { "a": "Fans debated the meaning of the", "b": "Cryptic lyric" },
+          { "a": "He printed the album's", "b": "Lyrics inside the sleeve" }
+        ] }
+    ],
+    "roots": [ { "rootText": "lyra", "rootLanguage": "Greek", "rootMeaning": "Lyre", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "lyra", "highlight": true }, { "text": " (lyre); words once sung to strings, now simply a song's words.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "lyra", "correctAnswer": "Lyre", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Verse",
+    "pronunciation": "vurs",
+    "pos": "noun",
+    "definition": "A single section of a song or poem, often one of several with a shared metrical or rhyme pattern, distinct from the chorus.",
+    "origin": "From Latin <strong>versus</strong> (a turning, a line, a furrow), from vertere (to turn). The word pictured a line of writing as a furrow ploughed across a field, with the writer 'turning' back to begin the next line, as a plough turns at a field's edge.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Verse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin versus", "b": "A turning, a line, a furrow" },
+          { "a": "From the verb vertere", "b": "To turn" },
+          { "a": "Pictured a line of writing as a", "b": "Furrow ploughed across a field" },
+          { "a": "The writer 'turned' back like a", "b": "Plough at the field's edge" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Verse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A verse is distinct from the song's", "b": "Chorus" },
+          { "a": "A song often has several verses sharing a", "b": "Metrical or rhyme pattern" },
+          { "a": "In the Bible, a verse is a numbered", "b": "Line or sentence" },
+          { "a": "'To wax lyrical in verse' means to write in", "b": "Poetic form" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Verse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The rapper's second", "b": "Verse referenced his hometown" },
+          { "a": "She quoted a verse from her favourite", "b": "Hymn" },
+          { "a": "The songwriter reworked the opening", "b": "Verse" },
+          { "a": "He memorised a verse from", "b": "Scripture" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vertere", "rootLanguage": "Latin", "rootMeaning": "To turn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vertere", "highlight": true }, { "text": " (to turn); a line of song pictured as a furrow, turning back to start the next.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vertere", "correctAnswer": "To turn", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Crescendo",
+    "pronunciation": "kruh-SHEN-doh",
+    "pos": "noun",
+    "definition": "A gradual increase in the loudness or intensity of music, or the peak of intensity such an increase reaches.",
+    "origin": "From Italian <strong>crescendo</strong> (growing), the present participle of crescere (to grow), from Latin crescere. Italian composers began marking scores with 'crescendo' in the 18th century to instruct performers to swell gradually in volume.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Crescendo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian crescendo", "b": "Growing" },
+          { "a": "Present participle of crescere", "b": "To grow" },
+          { "a": "Ultimately from Latin", "b": "Crescere" },
+          { "a": "18th-century composers used it to mark a", "b": "Gradual swell in volume" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Crescendo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A crescendo describes a gradual increase in", "b": "Loudness or intensity" },
+          { "a": "The opposite of a crescendo is a", "b": "Decrescendo, or diminuendo" },
+          { "a": "A symphony's climax often arrives with a", "b": "Crescendo" },
+          { "a": "'Tensions built to a crescendo' uses the word", "b": "Figuratively, for rising intensity" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Crescendo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra swelled into a thunderous", "b": "Crescendo" },
+          { "a": "The applause rose to a deafening", "b": "Crescendo" },
+          { "a": "The film's score built slowly to a", "b": "Crescendo" },
+          { "a": "Public anger reached a", "b": "Crescendo before the vote" }
+        ] }
+    ],
+    "roots": [ { "rootText": "crescere", "rootLanguage": "Latin", "rootMeaning": "To grow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "crescere", "highlight": true }, { "text": " (to grow), via Italian crescendo; a swell of sound building toward its peak.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "crescere", "correctAnswer": "To grow", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hook",
+    "pronunciation": "hook",
+    "pos": "noun",
+    "definition": "A short, catchy musical phrase or lyric designed to seize the listener's attention and stick in memory.",
+    "origin": "From Old English <strong>hoc</strong> (a hook, an angled implement), a native Germanic word for a curved device used to catch or hold. Mid-20th-century music-industry writers borrowed the image metaphorically: a 'hook' is the musical phrase that catches, and holds, a listener's ear.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hook</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English hoc", "b": "A hook, a curved catching device" },
+          { "a": "A native", "b": "Germanic word" },
+          { "a": "Mid-20th-century music writers borrowed the image", "b": "Metaphorically" },
+          { "a": "A musical hook is meant to", "b": "Catch and hold the listener's ear" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hook</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hook is designed to seize the listener's", "b": "Attention" },
+          { "a": "A hook is typically", "b": "Short and catchy" },
+          { "a": "A song's hook is often found in its", "b": "Chorus or opening riff" },
+          { "a": "Producers say a hit needs a strong", "b": "Hook" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hook</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chorus's catchy", "b": "Hook got stuck in her head" },
+          { "a": "The producer said the track needed a bigger", "b": "Hook" },
+          { "a": "That guitar riff is the song's real", "b": "Hook" },
+          { "a": "Radio stations loved the song's instant", "b": "Hook" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hoc", "rootLanguage": "Old English", "rootMeaning": "A hook, curved catching device", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "hoc", "highlight": true }, { "text": " (a hook); the musical phrase built to catch, and hold, your ear.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hoc", "correctAnswer": "A hook, curved catching device", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Remix",
+    "pronunciation": "REE-miks",
+    "pos": "noun",
+    "definition": "An alternative version of a recorded song created by rearranging, adding, or removing elements of the original tracks.",
+    "origin": "An English compound of <strong>re-</strong> (again) and mix, coined in the 1970s within Jamaican dub and New York disco recording studios, where engineers began releasing altered versions of existing tracks with different balances, effects, or added sections.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Remix</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of", "b": "Re- (again) and mix" },
+          { "a": "Coined in the", "b": "1970s" },
+          { "a": "First used in", "b": "Jamaican dub and New York disco studios" },
+          { "a": "Engineers released altered versions with different", "b": "Balances, effects, or added sections" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Remix</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A remix rearranges the", "b": "Original recorded tracks" },
+          { "a": "A DJ remix is often made for", "b": "Dance floors" },
+          { "a": "Unlike a cover, a remix reuses the", "b": "Original recording itself" },
+          { "a": "A 'remix album' collects several", "b": "Alternate versions of songs" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Remix</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The DJ dropped an unexpected", "b": "Remix" },
+          { "a": "Fans debated whether the", "b": "Remix improved the original" },
+          { "a": "The label released a club-ready", "b": "Remix" },
+          { "a": "He downloaded every official", "b": "Remix of the single" }
+        ] }
+    ],
+    "roots": [ { "rootText": "re- + mix", "rootLanguage": "English compound", "rootMeaning": "To mix again", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An English compound of ", "highlight": false }, { "text": "re- + mix", "highlight": true }, { "text": "; coined in 1970s studio culture for a track rebuilt from its own parts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "re- + mix", "correctAnswer": "To mix again", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Canon",
+    "pronunciation": "KAN-uhn",
+    "pos": "noun",
+    "definition": "A musical composition in which a melody introduced by one voice is imitated in strict succession by other voices.",
+    "origin": "From Greek <strong>kanon</strong> (a rule, a standard, a measuring rod), via Latin canon. Medieval musicians adopted the word for a strict compositional 'rule' governing how a melody must be echoed by later voices, giving the form its name.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Canon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kanon", "b": "A rule, a standard, a measuring rod" },
+          { "a": "Reached English via", "b": "Latin canon" },
+          { "a": "Medieval musicians used it for a strict", "b": "Compositional rule" },
+          { "a": "The rule governs how a melody is", "b": "Echoed by later voices" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Canon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In a canon, a melody is imitated in", "b": "Strict succession by other voices" },
+          { "a": "Pachelbel's Canon is a famous example of the", "b": "Musical form" },
+          { "a": "A round is a simple type of", "b": "Canon" },
+          { "a": "Outside music, a 'literary canon' means an accepted body of", "b": "Important works" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Canon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir rehearsed a four-part", "b": "Canon" },
+          { "a": "Wedding guests recognised Pachelbel's famous", "b": "Canon" },
+          { "a": "The composer wrote a complex", "b": "Canon for strings" },
+          { "a": "Students sang the melody as a simple", "b": "Canon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kanon", "rootLanguage": "Greek", "rootMeaning": "Rule, standard, measuring rod", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kanon", "highlight": true }, { "text": " (rule, standard); a melody bound by strict rule to echo itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kanon", "correctAnswer": "Rule, standard, measuring rod", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Round",
+    "pronunciation": "rownd",
+    "pos": "noun",
+    "definition": "A simple song sung in canon, in which each singer or group begins the same melody at a different time, overlapping continuously.",
+    "origin": "From Old French <strong>reont</strong>, from Latin rotundus (round, wheel-shaped), from rota (wheel). The musical sense arose because the melody circles endlessly back to its own beginning, like a wheel, as each new voice enters in turn.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Round</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French reont", "b": "From Latin rotundus" },
+          { "a": "Latin rotundus", "b": "Round, wheel-shaped" },
+          { "a": "Ultimately from Latin rota", "b": "Wheel" },
+          { "a": "The musical sense arose because the melody", "b": "Circles endlessly back to its start" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Round</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In a round, each singer begins the melody at a", "b": "Different time" },
+          { "a": "A round's voices continuously", "b": "Overlap" },
+          { "a": "Row, Row, Row Your Boat is a well-known", "b": "Round" },
+          { "a": "A round is a simple, playful type of", "b": "Canon" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Round</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The campers sang a cheerful", "b": "Round around the fire" },
+          { "a": "The music teacher split the class into groups for a", "b": "Round" },
+          { "a": "Four voices layered into a tidy", "b": "Round" },
+          { "a": "They ended the lesson singing a", "b": "Simple round" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rota", "rootLanguage": "Latin", "rootMeaning": "Wheel", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "rota", "highlight": true }, { "text": " (wheel); a melody that circles back on itself as each new voice joins.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rota", "correctAnswer": "Wheel", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Glee",
+    "pronunciation": "glee",
+    "pos": "noun",
+    "definition": "An unaccompanied part-song for three or more solo voices, popular in 18th-century England; more broadly, great delight or joy.",
+    "origin": "From Old English <strong>gleo</strong> (entertainment, mirth, music), a Germanic word related to Old Norse terms for merriment. In 18th-century England the word narrowed to a specific musical genre — the unaccompanied part-song — performed at gentlemen's 'glee clubs' before broadening back to mean simple delight.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Glee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English gleo", "b": "Entertainment, mirth, music" },
+          { "a": "A Germanic word related to", "b": "Old Norse terms for merriment" },
+          { "a": "In 18th-century England, narrowed to a", "b": "Specific unaccompanied part-song" },
+          { "a": "Performed at gentlemen's", "b": "Glee clubs" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Glee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A glee is written for", "b": "Three or more solo voices" },
+          { "a": "A glee is traditionally sung", "b": "Unaccompanied" },
+          { "a": "More broadly, 'glee' simply means", "b": "Great delight or joy" },
+          { "a": "A 'glee club' is a group formed to", "b": "Sing part-songs together" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Glee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The university's", "b": "Glee club performed at graduation" },
+          { "a": "She clapped her hands with", "b": "Glee" },
+          { "a": "The choir revived an old 18th-century", "b": "Glee" },
+          { "a": "The children squealed with", "b": "Glee at the surprise" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gleo", "rootLanguage": "Old English", "rootMeaning": "Entertainment, mirth, music", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "gleo", "highlight": true }, { "text": " (mirth, music); once a specific singing club's part-song, now pure delight.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gleo", "correctAnswer": "Entertainment, mirth, music", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Shanty",
+    "pronunciation": "SHAN-tee",
+    "pos": "noun",
+    "definition": "A rhythmic work song traditionally sung by sailors to coordinate labour aboard ship, often in a call-and-response pattern.",
+    "origin": "Its origin is genuinely uncertain: most scholars link <strong>shanty</strong> to French chanter (to sing), perhaps via chantez (sing!), shouted by a lead singer to cue the crew's response, though some etymologists doubt this tidy story and note no firm documentary proof connects the two words before the 19th century.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Shanty</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Possibly from French chanter", "b": "To sing" },
+          { "a": "Possibly via the imperative", "b": "Chantez (sing!)" },
+          { "a": "Used by a lead singer to cue the", "b": "Crew's response" },
+          { "a": "Scholars note the word's true origin is", "b": "Genuinely uncertain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Shanty</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A shanty coordinated", "b": "Labour aboard ship" },
+          { "a": "A shanty is typically sung in", "b": "Call-and-response" },
+          { "a": "Sailors used shanties to keep", "b": "Rhythm while hauling ropes" },
+          { "a": "'What Shall We Do with the Drunken Sailor' is a famous", "b": "Sea shanty" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Shanty</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crew hauled the ropes to a rousing", "b": "Shanty" },
+          { "a": "A folk group revived old sea", "b": "Shanties" },
+          { "a": "The captain led the men in a", "b": "Work shanty" },
+          { "a": "Tourists sang along to a", "b": "Shanty at the harbour pub" }
+        ] }
+    ],
+    "roots": [ { "rootText": "chanter", "rootLanguage": "French (disputed)", "rootMeaning": "To sing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from French ", "highlight": false }, { "text": "chanter", "highlight": true }, { "text": " (to sing) — though scholars disagree, and the true origin remains uncertain.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "chanter", "correctAnswer": "To sing", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Elegy",
+    "pronunciation": "EL-uh-jee",
+    "pos": "noun",
+    "definition": "A song or poem of serious reflection, typically mourning the dead.",
+    "origin": "From Greek <strong>elegeia</strong> (elegiac verse), from elegos (a song of mourning, a lament), a word possibly borrowed from a Phrygian term for a flute-accompanied dirge. The elegeia originally named a metrical form used for many subjects, love included, before the sense narrowed to mourning.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Elegy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek elegeia", "b": "Elegiac verse" },
+          { "a": "From Greek elegos", "b": "A song of mourning, a lament" },
+          { "a": "Possibly borrowed from a", "b": "Phrygian word for flute-song" },
+          { "a": "Originally named a metrical form used for", "b": "Many subjects, including love" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Elegy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An elegy typically mourns the", "b": "Dead" },
+          { "a": "An elegy is marked by serious", "b": "Reflection" },
+          { "a": "Gray's 'Elegy Written in a Country Churchyard' is a famous English", "b": "Poem of mourning" },
+          { "a": "Unlike a dirge sung at a funeral, an elegy is usually", "b": "Read or written, not performed" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Elegy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The poet composed an", "b": "Elegy for his late friend" },
+          { "a": "The composer's final symphony became an", "b": "Elegy for a lost era" },
+          { "a": "She read an", "b": "Elegy at the memorial" },
+          { "a": "Critics called the novel an", "b": "Elegy for a vanished way of life" }
+        ] }
+    ],
+    "roots": [ { "rootText": "elegos", "rootLanguage": "Greek", "rootMeaning": "Song of mourning, lament", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "elegos", "highlight": true }, { "text": " (song of mourning); once a metre for any subject, now reserved for grief.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "elegos", "correctAnswer": "Song of mourning, lament", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Motet",
+    "pronunciation": "moh-TET",
+    "pos": "noun",
+    "definition": "A short piece of sacred choral music, typically unaccompanied and sung in multiple independent vocal parts.",
+    "origin": "From Old French <strong>motet</strong>, a diminutive of mot (a word), from Latin muttum (a grunt, a word uttered). Medieval composers coined the term because a motet was created by adding new text — new 'words' — to a melodic line that had previously been sung wordlessly.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Motet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French motet", "b": "A diminutive of mot" },
+          { "a": "Old French mot", "b": "A word" },
+          { "a": "Ultimately from Latin", "b": "Muttum (a grunt, a word)" },
+          { "a": "Named because it added new words to a", "b": "Previously wordless melodic line" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Motet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A motet is typically", "b": "Unaccompanied and sacred" },
+          { "a": "A motet is sung in", "b": "Multiple independent vocal parts" },
+          { "a": "Motets flourished during the", "b": "Medieval and Renaissance periods" },
+          { "a": "Unlike a hymn, a motet often has", "b": "Independent, interweaving voice parts" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Motet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir performed a Renaissance", "b": "Motet" },
+          { "a": "The composer wrote a six-voice", "b": "Motet for Easter" },
+          { "a": "Bach's motets remain staples of", "b": "Choral repertoire" },
+          { "a": "The cathedral choir rehearsed a Latin", "b": "Motet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mot", "rootLanguage": "Old French", "rootMeaning": "A word", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "mot", "highlight": true }, { "text": " (a word); named for the new words added to a once-wordless melody.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mot", "correctAnswer": "A word", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Warble",
+    "pronunciation": "WOR-buhl",
+    "pos": "verb",
+    "definition": "To sing with a trilling, quavering tone, especially in the manner of a songbird.",
+    "origin": "From Old North French <strong>werbler</strong> (to sing with trills), of Germanic origin, related to Old High German wirbil (a whirl, a whirlwind). The word pictures the voice spinning and turning rapidly, much as a bird's song twists through quick, fluttering notes.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Warble</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old North French werbler", "b": "To sing with trills" },
+          { "a": "Of", "b": "Germanic origin" },
+          { "a": "Related to Old High German wirbil", "b": "A whirl, a whirlwind" },
+          { "a": "Pictures the voice", "b": "Spinning and turning rapidly" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Warble</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To warble is to sing with a", "b": "Trilling, quavering tone" },
+          { "a": "Warbling is especially associated with", "b": "Songbirds" },
+          { "a": "A warbler is also the name of a family of", "b": "Small songbirds" },
+          { "a": "A singer who warbles unsteadily may sound", "b": "Wobbly or overly ornamented" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Warble</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A thrush warbled from the", "b": "Treetop" },
+          { "a": "The soprano warbled through the", "b": "High final note" },
+          { "a": "Birds warbled in the garden at", "b": "Dawn" },
+          { "a": "His nervous voice warbled through the", "b": "First verse" }
+        ] }
+    ],
+    "roots": [ { "rootText": "werbler", "rootLanguage": "Old North French", "rootMeaning": "To sing with trills", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old North French ", "highlight": false }, { "text": "werbler", "highlight": true }, { "text": " (to sing with trills); a voice whirling like a bird's fluttering song.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "werbler", "correctAnswer": "To sing with trills", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Trill",
+    "pronunciation": "tril",
+    "pos": "noun",
+    "definition": "A rapid alternation between two adjacent musical notes, used as a vocal or instrumental ornament.",
+    "origin": "From Italian <strong>trillo</strong>, of imitative origin, its very sound echoing the rapid, oscillating effect it names. The word entered English in the early 17th century through Italian vocal and instrumental music treatises.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Trill</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian trillo", "b": "A rapid alternation of notes" },
+          { "a": "The word is of", "b": "Imitative, echoic origin" },
+          { "a": "Entered English in the", "b": "Early 17th century" },
+          { "a": "Arrived through Italian", "b": "Vocal and instrumental music treatises" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Trill</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A trill alternates rapidly between", "b": "Two adjacent notes" },
+          { "a": "A trill is used as a musical", "b": "Ornament" },
+          { "a": "Birdsong is often described as a natural", "b": "Trill" },
+          { "a": "In phonetics, a 'trilled r' means the tongue", "b": "Vibrates rapidly" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Trill</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The flautist added a delicate", "b": "Trill" },
+          { "a": "A bird's morning", "b": "Trill echoed through the yard" },
+          { "a": "The pianist's fingers rippled through a fast", "b": "Trill" },
+          { "a": "Her Spanish rolled r came out as a smooth", "b": "Trill" }
+        ] }
+    ],
+    "roots": [ { "rootText": "trillo", "rootLanguage": "Italian", "rootMeaning": "A rapid alternation of notes", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "trillo", "highlight": true }, { "text": ", an imitative word whose very sound mimics the rapid, oscillating note it names.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "trillo", "correctAnswer": "A rapid alternation of notes", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arpeggio",
+    "pronunciation": "ar-PEJ-ee-oh",
+    "pos": "noun",
+    "definition": "The notes of a chord played in quick succession, one after another, rather than simultaneously.",
+    "origin": "From Italian <strong>arpeggio</strong>, from arpeggiare (to play on a harp), from arpa (harp), a word of Germanic origin. The technique took its name because plucking a harp's strings naturally produces notes one after another rather than all at once.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-vocal", "name": "Song & Vocal Forms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arpeggio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian arpeggio", "b": "From arpeggiare (to play on a harp)" },
+          { "a": "Italian arpa", "b": "Harp" },
+          { "a": "Arpa is of", "b": "Germanic origin" },
+          { "a": "Named because a harp's strings sound", "b": "One after another, not at once" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arpeggio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An arpeggio plays a chord's notes", "b": "In quick succession, not simultaneously" },
+          { "a": "Arpeggios are common in", "b": "Piano and guitar exercises" },
+          { "a": "The opposite of an arpeggio is a", "b": "Simultaneously struck chord" },
+          { "a": "Broken chords are another name for", "b": "Arpeggios" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arpeggio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pianist practised rising", "b": "Arpeggios" },
+          { "a": "The guitarist picked a gentle", "b": "Arpeggio" },
+          { "a": "Her fingers rippled through a fast", "b": "Arpeggio" },
+          { "a": "The etude was built entirely from", "b": "Broken-chord arpeggios" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arpa", "rootLanguage": "Italian", "rootMeaning": "Harp", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "arpa", "highlight": true }, { "text": " (harp); notes plucked one after another, just as a harpist's fingers move.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arpa", "correctAnswer": "Harp", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

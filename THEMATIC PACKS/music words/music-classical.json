@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Allegro",
+    "pronunciation": "uh-LAY-groh",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played in a brisk, lively, and cheerful manner.",
+    "origin": "From Italian <strong>allegro</strong> (cheerful, merry, lively), from Latin alacer (brisk, eager, lively). Composers began stamping the word atop scores in the 17th century as shorthand for a fast, spirited pace.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Allegro</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian allegro", "b": "Cheerful, merry, lively" },
+          { "a": "Latin alacer", "b": "Brisk, eager, lively" },
+          { "a": "Composers began marking scores with it in the", "b": "17th century" },
+          { "a": "Used as shorthand for a", "b": "Fast, spirited pace" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Allegro</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Allegro directs a piece to be played", "b": "Brisk, lively, and cheerful" },
+          { "a": "Allegro sits faster on the tempo scale than", "b": "Andante" },
+          { "a": "An allegro movement often opens a", "b": "Symphony or sonata" },
+          { "a": "The near-opposite of allegro is", "b": "Largo" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Allegro</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The conductor set a brisk", "b": "Allegro" },
+          { "a": "The symphony's first movement is marked", "b": "Allegro con brio" },
+          { "a": "The pianist raced through the", "b": "Allegro finale" },
+          { "a": "Critics praised the orchestra's crisp", "b": "Allegro passages" }
+        ] }
+    ],
+    "roots": [ { "rootText": "allegro", "rootLanguage": "Italian", "rootMeaning": "Cheerful, merry, lively", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "allegro", "highlight": true }, { "text": " (cheerful, lively); a brisk, spirited pace stamped atop the score.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "allegro", "correctAnswer": "Cheerful, merry, lively", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Adagio",
+    "pronunciation": "uh-DAH-jee-oh",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played slowly and at ease.",
+    "origin": "From Italian <strong>ad agio</strong> (at ease, at leisure), fused from ad (to, at) and agio (ease, comfort). The phrase became a single musical term by the 17th century, instructing performers to take their time.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Adagio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian ad", "b": "To, at" },
+          { "a": "Italian agio", "b": "Ease, comfort" },
+          { "a": "Fused into a single term by the", "b": "17th century" },
+          { "a": "Instructs performers to", "b": "Take their time" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Adagio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Adagio directs a piece to be played", "b": "Slowly and at ease" },
+          { "a": "An adagio movement often forms the", "b": "Second movement of a symphony" },
+          { "a": "Adagio is slower than", "b": "Andante" },
+          { "a": "A ballet's adagio section features slow, controlled", "b": "Lifts and turns" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Adagio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The strings swelled through the mournful", "b": "Adagio" },
+          { "a": "Barber's famous", "b": "Adagio for Strings" },
+          { "a": "The dancers performed a slow", "b": "Adagio duet" },
+          { "a": "The second movement is marked", "b": "Adagio cantabile" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ad agio", "rootLanguage": "Italian", "rootMeaning": "At ease, at leisure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "ad agio", "highlight": true }, { "text": " (at ease); music that is told, gently, to take its time.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ad agio", "correctAnswer": "At ease, at leisure", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Andante",
+    "pronunciation": "ahn-DAHN-tay",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played at a moderate, walking pace.",
+    "origin": "From Italian <strong>andante</strong>, the present participle of andare (to go, to walk). The term entered musical notation in the 18th century, comparing the tempo to the steady rhythm of an unhurried walk.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Andante</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian andare", "b": "To go, to walk" },
+          { "a": "Andante is the present participle meaning", "b": "Walking" },
+          { "a": "Entered musical notation in the", "b": "18th century" },
+          { "a": "Compares tempo to the rhythm of an", "b": "Unhurried walk" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Andante</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Andante directs a piece to be played at a", "b": "Moderate, walking pace" },
+          { "a": "Andante sits between", "b": "Adagio and moderato" },
+          { "a": "An andante is faster than", "b": "Adagio" },
+          { "a": "Andante often names the", "b": "Slow, lyrical movement of a work" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Andante</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The theme returned in the graceful", "b": "Andante" },
+          { "a": "Mozart marked the movement", "b": "Andante grazioso" },
+          { "a": "The oboe carried the melody through the", "b": "Andante section" },
+          { "a": "The symphony's second movement unfolds at an", "b": "Andante pace" }
+        ] }
+    ],
+    "roots": [ { "rootText": "andare", "rootLanguage": "Italian", "rootMeaning": "To go, to walk", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "andare", "highlight": true }, { "text": " (to walk); a tempo paced like an unhurried stroll.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "andare", "correctAnswer": "To go, to walk", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Aria",
+    "pronunciation": "AH-ree-uh",
+    "pos": "noun",
+    "definition": "An elaborate, self-contained melody for solo voice, typically found within an opera, oratorio, or cantata.",
+    "origin": "From Italian <strong>aria</strong> (air, tune), ultimately from Latin aer (air). By the 17th century, opera composers used the word for the melodic solo passages that stood apart from the plainer sung dialogue of recitative.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Aria</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian aria", "b": "Air, tune" },
+          { "a": "Ultimately from Latin", "b": "Aer (air)" },
+          { "a": "Used by opera composers from the", "b": "17th century" },
+          { "a": "Distinguished melodic solos from plainer", "b": "Recitative dialogue" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Aria</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An aria is a self-contained melody for", "b": "Solo voice" },
+          { "a": "Arias appear inside operas, oratorios, and", "b": "Cantatas" },
+          { "a": "Unlike recitative, an aria is more", "b": "Melodic and expressive" },
+          { "a": "A da capo aria returns to its", "b": "Opening section" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Aria</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The soprano brought the house down with her", "b": "Showstopping aria" },
+          { "a": "The tenor rehearsed his famous", "b": "Aria from the second act" },
+          { "a": "Composers built entire acts around a single", "b": "Aria" },
+          { "a": "The audience wept during the heroine's final", "b": "Aria" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aer", "rootLanguage": "Latin", "rootMeaning": "Air", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aer", "highlight": true }, { "text": " (air), via Italian aria (tune); a melody sung out on its own.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aer", "correctAnswer": "Air", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cadenza",
+    "pronunciation": "kuh-DEN-zuh",
+    "pos": "noun",
+    "definition": "A virtuosic, often improvised solo passage performed near the end of a movement, showcasing the soloist's technical skill.",
+    "origin": "From Italian <strong>cadenza</strong> (cadence, a falling), from Latin cadere (to fall). Originally marking the closing cadence of a phrase, the term grew, by the 18th-century concerto, into a showcase moment where the orchestra fell silent.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cadenza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian cadenza", "b": "Cadence, a falling" },
+          { "a": "Latin cadere", "b": "To fall" },
+          { "a": "Originally marked the closing", "b": "Cadence of a phrase" },
+          { "a": "Grew into a showcase moment by the", "b": "18th-century concerto" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cadenza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cadenza showcases a soloist's", "b": "Technical skill" },
+          { "a": "During a cadenza, the orchestra typically", "b": "Falls silent" },
+          { "a": "Cadenzas were traditionally often", "b": "Improvised" },
+          { "a": "A cadenza usually appears near the", "b": "End of a movement" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cadenza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The violinist dazzled the hall with an unaccompanied", "b": "Cadenza" },
+          { "a": "Beethoven wrote out his own", "b": "Cadenza for the concerto" },
+          { "a": "The pianist improvised a daring", "b": "Cadenza" },
+          { "a": "Applause erupted the moment the", "b": "Cadenza ended" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cadere", "rootLanguage": "Latin", "rootMeaning": "To fall", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cadere", "highlight": true }, { "text": " (to fall); a soloist's flourish at the phrase's closing fall.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cadere", "correctAnswer": "To fall", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cantata",
+    "pronunciation": "kuhn-TAH-tuh",
+    "pos": "noun",
+    "definition": "A vocal composition for one or more singers with instrumental accompaniment, typically in several movements.",
+    "origin": "From Italian <strong>cantata</strong>, the feminine past participle of cantare (to sing), from Latin cantare. Coined in the early 17th century to distinguish sung pieces (cantata) from purely instrumental ones (sonata, 'sounded').",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cantata</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian cantare", "b": "To sing" },
+          { "a": "Cantata is the past participle meaning", "b": "Sung" },
+          { "a": "Coined in the early", "b": "17th century" },
+          { "a": "Distinguished sung works from instrumental", "b": "Sonatas" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cantata</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cantata is written for", "b": "Singers with instrumental accompaniment" },
+          { "a": "A cantata is typically organised into", "b": "Several movements" },
+          { "a": "Bach composed cantatas for the weekly", "b": "Lutheran church service" },
+          { "a": "Unlike an opera, a cantata is usually performed", "b": "Without staging or costumes" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cantata</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir rehearsed Bach's", "b": "Easter cantata" },
+          { "a": "The composer wrote a", "b": "Wedding cantata" },
+          { "a": "The church choir performed a", "b": "Christmas cantata" },
+          { "a": "Critics called the new work a modern", "b": "Secular cantata" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cantare", "rootLanguage": "Latin", "rootMeaning": "To sing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cantare", "highlight": true }, { "text": " (to sing); a sung work set apart from the merely 'sounded.'", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cantare", "correctAnswer": "To sing", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Coda",
+    "pronunciation": "KOH-duh",
+    "pos": "noun",
+    "definition": "A concluding passage that brings a musical movement or piece to a formal close.",
+    "origin": "From Italian <strong>coda</strong> (tail), from Latin cauda (tail). Composers adopted the word for the closing section appended after the main structure of a piece, like a tail trailing behind its body.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Coda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian coda", "b": "Tail" },
+          { "a": "Latin cauda", "b": "Tail" },
+          { "a": "Describes music appended", "b": "After the main structure" },
+          { "a": "Compared to a", "b": "Tail trailing behind a body" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Coda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A coda brings a piece to a formal", "b": "Close" },
+          { "a": "A coda typically follows the", "b": "Final main section" },
+          { "a": "In a sonata form movement, the coda comes after the", "b": "Recapitulation" },
+          { "a": "'A fitting coda to her career' figuratively means a", "b": "Final closing chapter" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Coda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The symphony ended with a triumphant", "b": "Coda" },
+          { "a": "Beethoven extended the finale with a lengthy", "b": "Coda" },
+          { "a": "Her retirement speech felt like a quiet", "b": "Coda to a long career" },
+          { "a": "The score marked the final bars simply", "b": "Coda" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cauda", "rootLanguage": "Latin", "rootMeaning": "Tail", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cauda", "highlight": true }, { "text": " (tail); the closing passage trailing behind a piece's main body.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cauda", "correctAnswer": "Tail", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Concerto",
+    "pronunciation": "kuhn-CHAIR-toh",
+    "pos": "noun",
+    "definition": "A musical composition, usually in three movements, in which one or more solo instruments are set against a full orchestra.",
+    "origin": "From Italian <strong>concerto</strong>, from concertare (to harmonize, or to contend), tracing to Latin concertare (to dispute, to contest). The form crystallised in the late 17th century as a musical contest between soloist and ensemble.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Concerto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian concertare", "b": "To harmonize, to contend" },
+          { "a": "Latin concertare", "b": "To dispute, to contest" },
+          { "a": "The form crystallised in the", "b": "Late 17th century" },
+          { "a": "Framed as a musical contest between", "b": "Soloist and ensemble" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Concerto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A concerto sets solo instruments against", "b": "A full orchestra" },
+          { "a": "A concerto is usually structured in", "b": "Three movements" },
+          { "a": "A concerto grosso features a small group of", "b": "Soloists rather than one" },
+          { "a": "Concertos often include a virtuosic solo", "b": "Cadenza" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Concerto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pianist debuted Rachmaninoff's second", "b": "Concerto" },
+          { "a": "Vivaldi composed hundreds of violin", "b": "Concertos" },
+          { "a": "The orchestra opened the season with a cello", "b": "Concerto" },
+          { "a": "She performed the concerto's demanding solo", "b": "Cadenza from memory" }
+        ] }
+    ],
+    "roots": [ { "rootText": "concertare", "rootLanguage": "Latin", "rootMeaning": "To dispute, to contest", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "concertare", "highlight": true }, { "text": " (to contest); a friendly musical contest of soloist against orchestra.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "concertare", "correctAnswer": "To dispute, to contest", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dolce",
+    "pronunciation": "DOHL-chay",
+    "pos": "adjective",
+    "definition": "A performance direction instructing a passage to be played sweetly and gently.",
+    "origin": "From Italian <strong>dolce</strong> (sweet), from Latin dulcis (sweet). Composers began writing the word into scores to ask performers for a soft, tender tone rather than a literal change of tempo or volume.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dolce</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian dolce", "b": "Sweet" },
+          { "a": "Latin dulcis", "b": "Sweet" },
+          { "a": "Written into scores to request a", "b": "Soft, tender tone" },
+          { "a": "Not a change of tempo but of", "b": "Character" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dolce</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Dolce instructs a passage to be played", "b": "Sweetly and gently" },
+          { "a": "Dolce is a direction of", "b": "Character, not tempo or volume" },
+          { "a": "Dolce often pairs with the dynamic marking", "b": "Piano" },
+          { "a": "A dolce melody often features smooth", "b": "Legato phrasing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dolce</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The flute entered marked", "b": "Dolce" },
+          { "a": "The second theme is played", "b": "Dolce e cantabile" },
+          { "a": "The pianist softened her touch for the", "b": "Dolce passage" },
+          { "a": "The lullaby's opening bars read simply", "b": "Dolce" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dulcis", "rootLanguage": "Latin", "rootMeaning": "Sweet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "dulcis", "highlight": true }, { "text": " (sweet); a request for tenderness written straight into the score.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dulcis", "correctAnswer": "Sweet", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Falsetto",
+    "pronunciation": "fawl-SET-oh",
+    "pos": "noun",
+    "definition": "A high-pitched vocal register used by a singer, especially a male singer, above their natural range.",
+    "origin": "From Italian <strong>falsetto</strong>, a diminutive of falso (false), from Latin falsus (false, deceptive). The term captured the sense of a 'false' voice, one produced above a singer's ordinary chest register.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Falsetto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian falsetto", "b": "Diminutive of falso (false)" },
+          { "a": "Latin falsus", "b": "False, deceptive" },
+          { "a": "Captured the sense of a", "b": "'False' voice" },
+          { "a": "Refers to singing above the ordinary", "b": "Chest register" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Falsetto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Falsetto is a vocal register used", "b": "Above the natural range" },
+          { "a": "Falsetto is most associated with", "b": "Male singers" },
+          { "a": "Countertenors rely heavily on", "b": "Falsetto technique" },
+          { "a": "Falsetto sounds lighter and thinner than the", "b": "Chest voice" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Falsetto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The countertenor soared into a piercing", "b": "Falsetto" },
+          { "a": "He cracked a joke in a comic", "b": "Falsetto voice" },
+          { "a": "The choirboy's high notes relied on", "b": "Falsetto" },
+          { "a": "The tenor shifted smoothly into", "b": "Falsetto for the final phrase" }
+        ] }
+    ],
+    "roots": [ { "rootText": "falsus", "rootLanguage": "Latin", "rootMeaning": "False, deceptive", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "falsus", "highlight": true }, { "text": " (false); a voice pitched above its owner's natural register.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "falsus", "correctAnswer": "False, deceptive", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Forte",
+    "pronunciation": "FOR-tay",
+    "pos": "adverb",
+    "definition": "A dynamic marking directing a passage to be played loudly.",
+    "origin": "From Italian <strong>forte</strong> (strong, loud), from Latin fortis (strong, powerful). By the 17th century, composers used the word as the standard direction for a full, powerful volume, opposite of piano.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Forte</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian forte", "b": "Strong, loud" },
+          { "a": "Latin fortis", "b": "Strong, powerful" },
+          { "a": "Became a standard direction by the", "b": "17th century" },
+          { "a": "Forte is the dynamic opposite of", "b": "Piano" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Forte</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Forte directs a passage to be played", "b": "Loudly" },
+          { "a": "In notation, forte is abbreviated", "b": "F" },
+          { "a": "Fortissimo is louder still than", "b": "Forte" },
+          { "a": "'Singing is her forte' figuratively means it is her", "b": "Strong point" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Forte</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The brass section entered", "b": "Forte" },
+          { "a": "The score marked the climax", "b": "Forte" },
+          { "a": "Improvisation was never his", "b": "Forte" },
+          { "a": "The choir's sudden shift to", "b": "Forte startled the audience" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fortis", "rootLanguage": "Latin", "rootMeaning": "Strong, powerful", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fortis", "highlight": true }, { "text": " (strong); the direction to play with full, powerful volume.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fortis", "correctAnswer": "Strong, powerful", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Largo",
+    "pronunciation": "LAHR-goh",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played very slowly and broadly.",
+    "origin": "From Italian <strong>largo</strong> (broad, wide), from Latin largus (abundant, generous, broad). Composers adopted it for the slowest common tempo, evoking a broad, unhurried spaciousness in the music.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Largo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian largo", "b": "Broad, wide" },
+          { "a": "Latin largus", "b": "Abundant, generous, broad" },
+          { "a": "Used for the", "b": "Slowest common tempo" },
+          { "a": "Evokes a broad, unhurried", "b": "Spaciousness" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Largo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Largo directs a piece to be played", "b": "Very slowly and broadly" },
+          { "a": "Largo is slower than", "b": "Adagio" },
+          { "a": "Handel's famous 'Largo' actually comes from an", "b": "Aria marked larghetto" },
+          { "a": "The near-opposite of largo is", "b": "Allegro" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Largo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The organ intoned a stately", "b": "Largo" },
+          { "a": "The symphony opens with a solemn", "b": "Largo introduction" },
+          { "a": "Dvorak's New World Symphony contains a famous", "b": "Largo movement" },
+          { "a": "The strings sustained the broad, spacious", "b": "Largo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "largus", "rootLanguage": "Latin", "rootMeaning": "Abundant, generous, broad", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "largus", "highlight": true }, { "text": " (broad); the slowest, most spacious pace in music.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "largus", "correctAnswer": "Abundant, generous, broad", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Legato",
+    "pronunciation": "luh-GAH-toh",
+    "pos": "adjective",
+    "definition": "A performance direction instructing notes to be played smoothly and connected, without any audible break between them.",
+    "origin": "From Italian <strong>legato</strong> (bound, tied), the past participle of legare (to bind, to tie), from Latin ligare (to bind). The term describes phrases played as if each note were physically tied to the next.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Legato</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian legato", "b": "Bound, tied" },
+          { "a": "Italian legare", "b": "To bind, to tie" },
+          { "a": "Latin ligare", "b": "To bind" },
+          { "a": "Describes notes played as if", "b": "Physically tied together" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Legato</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Legato instructs notes to be played", "b": "Smoothly and connected" },
+          { "a": "The opposite of legato is", "b": "Staccato" },
+          { "a": "Legato phrases are marked in notation with a", "b": "Curved slur line" },
+          { "a": "String players achieve legato by keeping the", "b": "Bow moving continuously" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Legato</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cellist drew a long, singing", "b": "Legato line" },
+          { "a": "The passage demanded smooth", "b": "Legato phrasing" },
+          { "a": "Her fingers glided across the keys in perfect", "b": "Legato" },
+          { "a": "The conductor asked the strings for a more", "b": "Legato sound" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ligare", "rootLanguage": "Latin", "rootMeaning": "To bind, to tie", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ligare", "highlight": true }, { "text": " (to bind); notes played as though tied one to the next.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ligare", "correctAnswer": "To bind, to tie", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Libretto",
+    "pronunciation": "li-BRET-oh",
+    "pos": "noun",
+    "definition": "The text or words of an opera, oratorio, or other extended vocal work.",
+    "origin": "From Italian <strong>libretto</strong>, a diminutive of libro (book), from Latin liber (book). The word originally named the small printed booklet audiences carried into the opera house to follow the sung words.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Libretto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian libretto", "b": "Diminutive of libro (book)" },
+          { "a": "Latin liber", "b": "Book" },
+          { "a": "Originally named a small printed", "b": "Booklet" },
+          { "a": "Audiences carried it into the", "b": "Opera house" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Libretto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A libretto is the", "b": "Text or words of a vocal work" },
+          { "a": "A librettist is the person who writes the", "b": "Libretto" },
+          { "a": "Da Ponte wrote librettos for", "b": "Mozart's operas" },
+          { "a": "A libretto is distinct from the work's", "b": "Musical score" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Libretto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The composer collaborated closely with the writer of the", "b": "Libretto" },
+          { "a": "Audience members followed along in the printed", "b": "Libretto" },
+          { "a": "Critics praised the opera's witty", "b": "Libretto" },
+          { "a": "The new production used a translated", "b": "English libretto" }
+        ] }
+    ],
+    "roots": [ { "rootText": "liber", "rootLanguage": "Latin", "rootMeaning": "Book", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "liber", "highlight": true }, { "text": " (book); once literally the little book of an opera's words.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "liber", "correctAnswer": "Book", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Madrigal",
+    "pronunciation": "MAD-ri-guhl",
+    "pos": "noun",
+    "definition": "A secular vocal composition for several voices, typically unaccompanied, that flourished in the Renaissance.",
+    "origin": "From Italian <strong>madrigale</strong>, likely from medieval Latin matricale (in the mother tongue), reflecting a vernacular song sung in everyday Italian rather than formal Latin. The form flourished across 16th-century Italy and England.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Madrigal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian madrigale", "b": "Likely from medieval Latin matricale" },
+          { "a": "Matricale meant", "b": "In the mother tongue" },
+          { "a": "Reflected song sung in", "b": "Everyday, vernacular Italian" },
+          { "a": "The form flourished in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Madrigal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A madrigal is a secular composition for", "b": "Several voices" },
+          { "a": "Madrigals are typically performed", "b": "Unaccompanied" },
+          { "a": "The madrigal form flourished during the", "b": "Renaissance" },
+          { "a": "Madrigals were popular in both Italy and", "b": "England" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Madrigal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vocal ensemble specialised in Renaissance", "b": "Madrigals" },
+          { "a": "Students formed a small", "b": "Madrigal choir" },
+          { "a": "Thomas Morley composed dozens of English", "b": "Madrigals" },
+          { "a": "The singers gathered for an evening of", "b": "Madrigal singing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "matricale", "rootLanguage": "Latin", "rootMeaning": "In the mother tongue", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "matricale", "highlight": true }, { "text": " (mother tongue); a song of everyday speech, not formal Latin.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "matricale", "correctAnswer": "In the mother tongue", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fortissimo",
+    "pronunciation": "for-TISS-i-moh",
+    "pos": "adverb",
+    "definition": "A dynamic marking directing a passage to be played very loudly, louder than forte.",
+    "origin": "From Italian <strong>fortissimo</strong>, the superlative form of forte (loud, strong), from Latin fortis (strong). Composers added the superlative suffix -issimo to push the dynamic beyond ordinary loudness.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fortissimo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian fortissimo", "b": "Superlative of forte" },
+          { "a": "Latin fortis", "b": "Strong" },
+          { "a": "The suffix -issimo means", "b": "Most, very" },
+          { "a": "Pushes the dynamic beyond ordinary", "b": "Loudness" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fortissimo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fortissimo directs a passage to be played", "b": "Very loudly" },
+          { "a": "In notation, fortissimo is abbreviated", "b": "FF" },
+          { "a": "Fortissimo is louder than plain", "b": "Forte" },
+          { "a": "Even louder still is triple forte, marked", "b": "FFF" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fortissimo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The timpani crashed in at", "b": "Fortissimo" },
+          { "a": "The full orchestra hit a thunderous", "b": "Fortissimo chord" },
+          { "a": "The finale builds to a blazing", "b": "Fortissimo" },
+          { "a": "The choir's climactic", "b": "Fortissimo shook the hall" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fortis", "rootLanguage": "Latin", "rootMeaning": "Strong", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fortis", "highlight": true }, { "text": " (strong), superlative form; as loud as the music can roar.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fortis", "correctAnswer": "Strong", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mezzo",
+    "pronunciation": "MET-soh",
+    "pos": "adjective",
+    "definition": "A term meaning 'half' or 'middle', used to modify dynamics and voice types, as in mezzo-forte or mezzo-soprano.",
+    "origin": "From Italian <strong>mezzo</strong> (half, middle), from Latin medius (middle). Composers and singers use it to mark a midpoint, whether a moderate volume between piano and forte, or a voice range between soprano and contralto.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mezzo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian mezzo", "b": "Half, middle" },
+          { "a": "Latin medius", "b": "Middle" },
+          { "a": "Marks a midpoint volume between", "b": "Piano and forte" },
+          { "a": "Also marks a voice range between", "b": "Soprano and contralto" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mezzo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mezzo means", "b": "Half or middle" },
+          { "a": "Mezzo-forte is louder than piano but softer than", "b": "Forte" },
+          { "a": "A mezzo-soprano sings", "b": "Lower than a soprano" },
+          { "a": "Mezzo-piano is slightly louder than plain", "b": "Piano" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mezzo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The passage is marked", "b": "Mezzo-forte" },
+          { "a": "She trained for years as a", "b": "Mezzo-soprano" },
+          { "a": "The conductor asked for a gentler", "b": "Mezzo-piano" },
+          { "a": "The role was written for a rich", "b": "Mezzo voice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "medius", "rootLanguage": "Latin", "rootMeaning": "Middle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "medius", "highlight": true }, { "text": " (middle); the comfortable midpoint between two extremes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "medius", "correctAnswer": "Middle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Opus",
+    "pronunciation": "OH-puhs",
+    "pos": "noun",
+    "definition": "A numbered musical work, or set of works, by a composer, used to catalogue their output in order.",
+    "origin": "From Latin <strong>opus</strong> (a work, labour), simply the Latin word for a piece of work. Publishers began numbering composers' pieces 'opus 1, opus 2' in the 17th century to track their output chronologically.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Opus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin opus", "b": "A work, labour" },
+          { "a": "Publishers began numbering pieces in the", "b": "17th century" },
+          { "a": "Used to track a composer's output", "b": "Chronologically" },
+          { "a": "Plural form in Latin is", "b": "Opera" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Opus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An opus is a", "b": "Numbered musical work" },
+          { "a": "Opus numbers help catalogue a composer's", "b": "Output in order" },
+          { "a": "'Magnum opus' figuratively describes an artist's", "b": "Greatest work" },
+          { "a": "Beethoven's Fifth Symphony carries the number", "b": "Opus 67" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Opus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Chopin's nocturnes were published as", "b": "Opus 9" },
+          { "a": "Critics called the symphony her", "b": "Magnum opus" },
+          { "a": "The programme listed the piece as", "b": "Opus 27, No. 2" },
+          { "a": "It was the composer's final completed", "b": "Opus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "opus", "rootLanguage": "Latin", "rootMeaning": "A work, labour", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "opus", "highlight": true }, { "text": " (a work); a piece numbered into a composer's lifelong catalogue.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "opus", "correctAnswer": "A work, labour", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oratorio",
+    "pronunciation": "or-uh-TOR-ee-oh",
+    "pos": "noun",
+    "definition": "A large-scale musical work for orchestra, choir, and soloists, usually on a religious theme, performed without staging, scenery, or costumes.",
+    "origin": "From Italian <strong>oratorio</strong>, named after the Oratory of St Philip Neri in Rome, from Latin oratorium (a place of prayer), from orare (to pray). Devotional musical dramas performed there in the 16th century gave the genre its name.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oratorio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after the", "b": "Oratory of St Philip Neri in Rome" },
+          { "a": "Latin oratorium", "b": "A place of prayer" },
+          { "a": "Latin orare", "b": "To pray" },
+          { "a": "Devotional musical dramas were performed there in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oratorio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An oratorio is written for orchestra, choir, and", "b": "Soloists" },
+          { "a": "An oratorio is usually performed without", "b": "Staging, scenery, or costumes" },
+          { "a": "Oratorios are typically based on a", "b": "Religious theme" },
+          { "a": "Handel's most famous oratorio is", "b": "Messiah" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oratorio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The choir performed Handel's", "b": "Oratorio in full" },
+          { "a": "Haydn composed a celebrated", "b": "Oratorio about creation" },
+          { "a": "Unlike an opera, the singers in an", "b": "Oratorio wear no costumes" },
+          { "a": "The concert hall hosted an Easter", "b": "Oratorio" }
+        ] }
+    ],
+    "roots": [ { "rootText": "orare", "rootLanguage": "Latin", "rootMeaning": "To pray", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "orare", "highlight": true }, { "text": " (to pray); a sacred drama in music, born in a Roman prayer hall.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "orare", "correctAnswer": "To pray", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Piano",
+    "pronunciation": "pee-AN-oh",
+    "pos": "adverb",
+    "definition": "A dynamic marking directing a passage to be played softly; also, short for pianoforte, the keyboard instrument.",
+    "origin": "From Italian <strong>piano</strong> (soft, quiet, flat), from Latin planus (flat, level, smooth). The instrument's full name, pianoforte ('soft-loud'), celebrated its 18th-century ability to play both quiet and loud, unlike the harpsichord.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Piano</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian piano", "b": "Soft, quiet, flat" },
+          { "a": "Latin planus", "b": "Flat, level, smooth" },
+          { "a": "Pianoforte means", "b": "Soft-loud" },
+          { "a": "Celebrated the instrument's ability to play both", "b": "Quiet and loud" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Piano</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Piano directs a passage to be played", "b": "Softly" },
+          { "a": "In notation, piano is abbreviated", "b": "P" },
+          { "a": "Piano is the dynamic opposite of", "b": "Forte" },
+          { "a": "Pianissimo is even quieter than", "b": "Piano" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Piano</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The strings faded to a delicate", "b": "Piano" },
+          { "a": "She practised scales on the family", "b": "Piano" },
+          { "a": "The opening bars are marked", "b": "Piano throughout" },
+          { "a": "The soloist began the concerto softly, marked", "b": "Piano" }
+        ] }
+    ],
+    "roots": [ { "rootText": "planus", "rootLanguage": "Latin", "rootMeaning": "Flat, level, smooth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "planus", "highlight": true }, { "text": " (flat, smooth); a gentle, level volume, and the instrument that could play it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "planus", "correctAnswer": "Flat, level, smooth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Prestissimo",
+    "pronunciation": "pres-TISS-i-moh",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played extremely fast, faster than presto.",
+    "origin": "From Italian <strong>prestissimo</strong>, the superlative of presto (quick), from Latin praesto (ready, at hand). Composers used the superlative suffix -issimo to push the already-fast presto to its extreme limit.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Prestissimo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian prestissimo", "b": "Superlative of presto (quick)" },
+          { "a": "Latin praesto", "b": "Ready, at hand" },
+          { "a": "The suffix -issimo means", "b": "Most, very" },
+          { "a": "Pushes presto to its", "b": "Extreme limit" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Prestissimo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Prestissimo directs a piece to be played", "b": "Extremely fast" },
+          { "a": "Prestissimo is faster than plain", "b": "Presto" },
+          { "a": "Prestissimo ranks among the", "b": "Fastest tempo markings" },
+          { "a": "A prestissimo finale often closes a work with", "b": "Breathless energy" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Prestissimo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The finale hurtled to a close marked", "b": "Prestissimo" },
+          { "a": "The violinist's fingers blurred through the", "b": "Prestissimo passage" },
+          { "a": "The score demanded a breakneck", "b": "Prestissimo tempo" },
+          { "a": "Audiences gasped at the", "b": "Prestissimo coda" }
+        ] }
+    ],
+    "roots": [ { "rootText": "praesto", "rootLanguage": "Latin", "rootMeaning": "Ready, at hand", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "praesto", "highlight": true }, { "text": " (ready, at hand); the fastest possible pace, pushed past presto itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "praesto", "correctAnswer": "Ready, at hand", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Soprano",
+    "pronunciation": "suh-PRAH-noh",
+    "pos": "noun",
+    "definition": "The highest type of singing voice, typically sung by women or boys, or the highest part in a vocal or instrumental ensemble.",
+    "origin": "From Italian <strong>soprano</strong>, from sopra (above), from Latin supra (above, over). The name marked the voice that soared above all the other vocal lines in a choral or operatic texture.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Soprano</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian sopra", "b": "Above" },
+          { "a": "Latin supra", "b": "Above, over" },
+          { "a": "Named for the voice that soared", "b": "Above other vocal lines" },
+          { "a": "Refers to a texture that is", "b": "Choral or operatic" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Soprano</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A soprano sings the", "b": "Highest vocal part" },
+          { "a": "The soprano voice is typically found in", "b": "Women or boys" },
+          { "a": "A coloratura soprano specialises in", "b": "Rapid, ornate runs" },
+          { "a": "In an ensemble, the soprano line usually carries the", "b": "Main melody" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Soprano</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lead role calls for a powerful", "b": "Soprano" },
+          { "a": "She trained for years to become a", "b": "Coloratura soprano" },
+          { "a": "The choir needed more voices in the", "b": "Soprano section" },
+          { "a": "His high tenor was sometimes mistaken for a", "b": "Soprano" }
+        ] }
+    ],
+    "roots": [ { "rootText": "supra", "rootLanguage": "Latin", "rootMeaning": "Above, over", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "supra", "highlight": true }, { "text": " (above); the voice line that soars above all the rest.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "supra", "correctAnswer": "Above, over", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Staccato",
+    "pronunciation": "stuh-KAH-toh",
+    "pos": "adjective",
+    "definition": "A performance direction instructing notes to be played short and detached, with a clear silence between each one.",
+    "origin": "From Italian <strong>staccato</strong>, the past participle of staccare (to detach), a shortening of distaccare (to detach), from Latin de- + attaccare. It describes notes deliberately cut short rather than allowed to ring or connect.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Staccato</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian staccato", "b": "Past participle of staccare (to detach)" },
+          { "a": "Staccare shortened from", "b": "Distaccare (to detach)" },
+          { "a": "Distaccare traces to Latin", "b": "De- + attaccare" },
+          { "a": "Describes notes deliberately", "b": "Cut short" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Staccato</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Staccato instructs notes to be played", "b": "Short and detached" },
+          { "a": "The opposite of staccato is", "b": "Legato" },
+          { "a": "Staccato notes are marked in notation with a", "b": "Dot above or below" },
+          { "a": "'A staccato delivery' figuratively describes speech that is", "b": "Abrupt and clipped" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Staccato</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The pianist snapped through the", "b": "Staccato passage" },
+          { "a": "The violins played crisp", "b": "Staccato notes" },
+          { "a": "The interviewer fired off", "b": "Staccato questions" },
+          { "a": "Rain hammered the roof in a", "b": "Staccato rhythm" }
+        ] }
+    ],
+    "roots": [ { "rootText": "staccare", "rootLanguage": "Italian", "rootMeaning": "To detach", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "staccare", "highlight": true }, { "text": " (to detach); notes clipped short, each one cut cleanly from the next.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "staccare", "correctAnswer": "To detach", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tempo",
+    "pronunciation": "TEM-poh",
+    "pos": "noun",
+    "definition": "The speed or pace at which a piece of music is played.",
+    "origin": "From Italian <strong>tempo</strong> (time), from Latin tempus (time). Composers adopted it as the technical term for a piece's rate of speed, distinct from its rhythm or metre.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tempo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian tempo", "b": "Time" },
+          { "a": "Latin tempus", "b": "Time" },
+          { "a": "Adopted as the technical term for a piece's", "b": "Rate of speed" },
+          { "a": "Distinct in meaning from a piece's", "b": "Rhythm or metre" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tempo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tempo refers to a piece's", "b": "Speed or pace" },
+          { "a": "A metronome measures tempo in", "b": "Beats per minute" },
+          { "a": "'A change of tempo' figuratively means a change of", "b": "Pace or rhythm in general" },
+          { "a": "A rubato passage allows the tempo to", "b": "Flex flexibly, speeding and slowing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tempo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The conductor set a brisk", "b": "Tempo" },
+          { "a": "The band struggled to keep a steady", "b": "Tempo" },
+          { "a": "The negotiations proceeded at a slow", "b": "Tempo" },
+          { "a": "The metronome ticked out the", "b": "Correct tempo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tempus", "rootLanguage": "Latin", "rootMeaning": "Time", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tempus", "highlight": true }, { "text": " (time); the pace at which a piece of music moves through time.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tempus", "correctAnswer": "Time", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tenor",
+    "pronunciation": "TEN-uh",
+    "pos": "noun",
+    "definition": "The highest common type of adult male singing voice, or the part written for it.",
+    "origin": "From Latin <strong>tenor</strong> (a holding, a continuous course), from tenere (to hold). In medieval polyphony the tenor voice literally 'held' the fixed melody, or cantus firmus, while other voices sang around it.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tenor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin tenor", "b": "A holding, a continuous course" },
+          { "a": "Latin tenere", "b": "To hold" },
+          { "a": "In medieval polyphony, this voice 'held' the", "b": "Fixed melody (cantus firmus)" },
+          { "a": "Other voices sang", "b": "Around the held melody" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tenor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tenor sings the highest common", "b": "Adult male voice" },
+          { "a": "The tenor sits above the", "b": "Baritone and bass" },
+          { "a": "'The tenor of the meeting' figuratively means its general", "b": "Tone or direction" },
+          { "a": "Many leading opera roles are written for the", "b": "Tenor voice" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tenor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The role of the hero was written for a", "b": "Tenor" },
+          { "a": "The choir needed another", "b": "Tenor voice" },
+          { "a": "She sensed the anxious", "b": "Tenor of the discussion" },
+          { "a": "His warm", "b": "Tenor filled the concert hall" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tenere", "rootLanguage": "Latin", "rootMeaning": "To hold", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tenere", "highlight": true }, { "text": " (to hold); the voice that once held the melody steady beneath the rest.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tenere", "correctAnswer": "To hold", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Impresario",
+    "pronunciation": "im-pruh-SAH-ree-oh",
+    "pos": "noun",
+    "definition": "A person who organizes and manages public entertainment events, especially operas and concerts.",
+    "origin": "From Italian <strong>impresario</strong>, from impresa (an undertaking, enterprise), from imprendere (to undertake), from Latin in- + prehendere (to seize, grasp). The word originally named the manager who financed and staged 17th-century Italian opera productions.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Impresario</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian impresa", "b": "An undertaking, enterprise" },
+          { "a": "Italian imprendere", "b": "To undertake" },
+          { "a": "Latin prehendere", "b": "To seize, grasp" },
+          { "a": "Originally named the manager who staged", "b": "17th-century Italian opera" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Impresario</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An impresario organizes and manages", "b": "Public entertainment events" },
+          { "a": "Impresarios are especially linked to", "b": "Operas and concerts" },
+          { "a": "An impresario typically handles the", "b": "Financing and staging of a production" },
+          { "a": "A synonym for impresario is a", "b": "Producer or promoter" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Impresario</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The famed", "b": "Impresario booked the world's finest singers" },
+          { "a": "A young", "b": "Impresario launched the touring festival" },
+          { "a": "The circus was the vision of a legendary", "b": "Impresario" },
+          { "a": "He built his fortune as an opera", "b": "Impresario" }
+        ] }
+    ],
+    "roots": [ { "rootText": "imprendere", "rootLanguage": "Italian", "rootMeaning": "To undertake", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "imprendere", "highlight": true }, { "text": " (to undertake); the figure who takes on the risk of staging a show.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "imprendere", "correctAnswer": "To undertake", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vivace",
+    "pronunciation": "vee-VAH-chay",
+    "pos": "adjective",
+    "definition": "A tempo marking directing a piece or passage to be played in a fast, lively, and vivacious manner.",
+    "origin": "From Italian <strong>vivace</strong> (lively, vivacious), from Latin vivax (lively, long-lived), from vivere (to live). Composers used it to mark a tempo brimming with energetic, spirited life, often faster even than allegro.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vivace</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian vivace", "b": "Lively, vivacious" },
+          { "a": "Latin vivax", "b": "Lively, long-lived" },
+          { "a": "Latin vivere", "b": "To live" },
+          { "a": "Marks a tempo brimming with", "b": "Energetic, spirited life" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vivace</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vivace directs a piece to be played", "b": "Fast, lively, and vivacious" },
+          { "a": "Vivace is often faster than", "b": "Allegro" },
+          { "a": "A vivace movement usually feels", "b": "Bright and energetic" },
+          { "a": "Allegro vivace combines cheerfulness with", "b": "Extra liveliness" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vivace</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The finale sparkled with a spirited", "b": "Vivace" },
+          { "a": "The score marked the last movement", "b": "Allegro vivace" },
+          { "a": "The dancers matched the music's", "b": "Vivace energy" },
+          { "a": "The quartet launched into a bright", "b": "Vivace section" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vivax", "rootLanguage": "Latin", "rootMeaning": "Lively, long-lived", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vivax", "highlight": true }, { "text": " (lively); music played with bright, energetic life.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vivax", "correctAnswer": "Lively, long-lived", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nocturne",
+    "pronunciation": "NOK-turn",
+    "pos": "noun",
+    "definition": "A short, lyrical instrumental composition, especially for piano, evoking the mood of night.",
+    "origin": "From French <strong>nocturne</strong> (nocturnal), from Latin nocturnus (of the night), from nox (night). Irish composer John Field pioneered the form around 1812, and Frédéric Chopin later perfected its dreamy, night-inspired style.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nocturne</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French nocturne", "b": "Nocturnal" },
+          { "a": "Latin nocturnus", "b": "Of the night" },
+          { "a": "Latin nox", "b": "Night" },
+          { "a": "Pioneered around 1812 by", "b": "John Field" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nocturne</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A nocturne is a short, lyrical piece, especially for", "b": "Piano" },
+          { "a": "A nocturne evokes the mood of", "b": "Night" },
+          { "a": "Chopin composed twenty-one famous", "b": "Nocturnes" },
+          { "a": "Nocturnes typically feature a flowing melody over an", "b": "Arpeggiated accompaniment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nocturne</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She performed Chopin's most famous", "b": "Nocturne" },
+          { "a": "The pianist closed the recital with a dreamy", "b": "Nocturne" },
+          { "a": "The painter titled the moody canvas a", "b": "Nocturne" },
+          { "a": "The composer wrote a set of piano", "b": "Nocturnes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nox", "rootLanguage": "Latin", "rootMeaning": "Night", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "nox", "highlight": true }, { "text": " (night); a dreamy piano piece born of the night's quiet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nox", "correctAnswer": "Night", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chorale",
+    "pronunciation": "kuh-RAHL",
+    "pos": "noun",
+    "definition": "A simple, hymn-like melody, especially one associated with the German Protestant church, or a harmonised setting of such a tune.",
+    "origin": "From German <strong>Choral</strong> (Choralgesang, choral song), from medieval Latin cantus choralis (song of the choir), from Latin chorus (a choir, a dance). Martin Luther championed congregational chorales in the 16th century so worshippers themselves could sing.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chorale</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Choral", "b": "Choralgesang, choral song" },
+          { "a": "Medieval Latin cantus choralis", "b": "Song of the choir" },
+          { "a": "Latin chorus", "b": "A choir, a dance" },
+          { "a": "Championed in the 16th century by", "b": "Martin Luther" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chorale</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chorale is a simple, hymn-like", "b": "Melody" },
+          { "a": "Chorales are especially associated with the", "b": "German Protestant church" },
+          { "a": "Bach harmonised many chorales for", "b": "Four-part choir" },
+          { "a": "Luther wanted chorales so that worshippers could", "b": "Sing along themselves" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chorale</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The congregation rose to sing the closing", "b": "Chorale" },
+          { "a": "Bach based the cantata on a familiar", "b": "Chorale melody" },
+          { "a": "The organist improvised on a well-known", "b": "Chorale tune" },
+          { "a": "The brass ensemble opened with a solemn", "b": "Chorale" }
+        ] }
+    ],
+    "roots": [ { "rootText": "chorus", "rootLanguage": "Latin", "rootMeaning": "A choir, a dance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "chorus", "highlight": true }, { "text": " (a choir); a hymn tune simple enough for the whole congregation to sing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "chorus", "correctAnswer": "A choir, a dance", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Overture",
+    "pronunciation": "OH-vuh-tyoor",
+    "pos": "noun",
+    "definition": "An orchestral piece that introduces an opera, oratorio, or other large work, or a standalone concert piece in a similar style.",
+    "origin": "From French <strong>ouverture</strong> (opening), from ouvrir (to open), from Latin aperire (to open). By the 17th century, composers wrote an instrumental overture to open the audience's ears before the curtain rose.",
+    "tier": "premium",
+    "packId": "music",
+    "subpack": { "id": "music-classical", "name": "Classical Forms & Terms", "packId": "music" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Overture</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French ouverture", "b": "Opening" },
+          { "a": "French ouvrir", "b": "To open" },
+          { "a": "Latin aperire", "b": "To open" },
+          { "a": "Composers wrote it by the 17th century to open the", "b": "Audience's ears before the curtain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Overture</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An overture introduces an", "b": "Opera, oratorio, or large work" },
+          { "a": "An overture is typically performed by the", "b": "Orchestra alone" },
+          { "a": "Some overtures preview the work's main", "b": "Musical themes" },
+          { "a": "'A peace overture' figuratively means an opening", "b": "Gesture or proposal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Overture</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The curtain rose after a rousing", "b": "Overture" },
+          { "a": "The orchestra opened the evening with the", "b": "Overture" },
+          { "a": "Diplomats welcomed the country's peace", "b": "Overture" },
+          { "a": "Rossini's overtures are often performed as", "b": "Standalone concert pieces" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aperire", "rootLanguage": "Latin", "rootMeaning": "To open", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aperire", "highlight": true }, { "text": " (to open); the orchestral opening that raises the curtain on a larger work.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aperire", "correctAnswer": "To open", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

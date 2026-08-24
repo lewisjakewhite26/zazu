@@ -45,8 +45,8 @@ export const WORD_PACKS: WordPack[] = [
     id: 'architecture',
     title: 'Architecture',
     description: 'The vocabulary of buildings and the people who design them.',
-    wordCount: 0,
-    status: 'coming_soon',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {
@@ -77,8 +77,8 @@ export const WORD_PACKS: WordPack[] = [
     id: 'music',
     title: 'Music',
     description: 'From tempo to timbre.',
-    wordCount: 0,
-    status: 'coming_soon',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {
