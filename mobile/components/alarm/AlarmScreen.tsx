@@ -1,7 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { Animated, Easing, Image, StyleSheet, Text, View } from 'react-native';
-import MaskedView from '@react-native-masked-view/masked-view';
-import { LinearGradient } from 'expo-linear-gradient';
+import { useEffect, useMemo, useState } from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -10,16 +8,17 @@ import { AlarmOrbs } from '@/components/ui/AlarmOrbs';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { ShimmerText } from '@/components/ui/ShimmerText';
 import { copy } from '@/constants/copy';
 import { typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useAlarmSound } from '@/hooks/useAlarmSound';
-import { useSnooze, SNOOZE_MINUTES, SNOOZE_MIN_MINUTES, SNOOZE_MAX_MINUTES } from '@/hooks/useSnooze';
+import { useSnooze } from '@/hooks/useSnooze';
 import { alarmGreetingForDate } from '../../../lib/alarm-greeting';
 import { scheduleSnoozeNotification } from '../../../lib/alarm-notifications';
-import { SnoozeSlider } from './SnoozeSlider';
+import { HoldToSnooze } from './HoldToSnooze';
 
 function formatClock(date: Date): string {
   const hours = String(date.getHours()).padStart(2, '0');
@@ -27,36 +26,19 @@ function formatClock(date: Date): string {
   return `${hours}:${minutes}`;
 }
 
-const SHIMMER_BAND_WIDTH = 90;
-const SHIMMER_BAND_HEIGHT = 70;
-
 export function AlarmScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const { sessionWord, isDemo, soundId, alarmId, clearFlow } = useAlarmFlow();
-  const { canSnooze, recordSnooze } = useSnooze();
+  const { recordSnooze, snoozeMinutes } = useSnooze();
   const [clock, setClock] = useState(formatClock(new Date()));
   const [snoozing, setSnoozing] = useState(false);
-  const [snoozeMinutes, setSnoozeMinutes] = useState(SNOOZE_MINUTES);
-  const [labelWidth, setLabelWidth] = useState(0);
-  const shimmerAnim = useRef(new Animated.Value(0)).current;
   const greeting = useMemo(() => alarmGreetingForDate(), []);
 
   useEffect(() => {
     const timer = setInterval(() => setClock(formatClock(new Date())), 10000);
     return () => clearInterval(timer);
   }, []);
-
-  useEffect(() => {
-    if (!labelWidth) return;
-    Animated.timing(shimmerAnim, {
-      toValue: 1,
-      duration: 2600,
-      delay: 500,
-      easing: Easing.inOut(Easing.sin),
-      useNativeDriver: true,
-    }).start();
-  }, [labelWidth, shimmerAnim]);
 
   useEffect(() => {
     if (!sessionWord) {
@@ -71,12 +53,17 @@ export function AlarmScreen() {
     router.dismissTo('/add-alarm');
   };
 
+  // Long enough to see the ring's own bounce + ripple + checkmark play out
+  // (and read "Snoozing N minutes…") before the screen changes underneath it.
+  const SNOOZE_CONFIRM_DISPLAY_MS = 1400;
+
   const handleSnooze = async () => {
     if (!alarmId || snoozing) return;
     setSnoozing(true);
     try {
       await scheduleSnoozeNotification(alarmId, snoozeMinutes);
       await recordSnooze();
+      await new Promise((resolve) => setTimeout(resolve, SNOOZE_CONFIRM_DISPLAY_MS));
       clearFlow();
       router.replace('/');
     } finally {
@@ -127,12 +114,6 @@ export function AlarmScreen() {
           ...typography.alarmGreeting,
           color: colors.subtext,
         },
-        shimmerBand: {
-          position: 'absolute',
-          top: -SHIMMER_BAND_HEIGHT / 3,
-          height: SHIMMER_BAND_HEIGHT,
-          width: SHIMMER_BAND_WIDTH,
-        },
         time: {
           ...typography.alarmBigTime,
           color: colors.text,
@@ -166,19 +147,8 @@ export function AlarmScreen() {
         cta: {
           maxWidth: 320,
         },
-        snoozeSlider: {
-          maxWidth: 320,
+        snoozeControl: {
           marginTop: spacing.md,
-        },
-        snoozeCta: {
-          maxWidth: 320,
-          marginTop: spacing.sm,
-        },
-        snoozeUsed: {
-          ...typography.alarmSub,
-          color: colors.subtext,
-          marginBottom: 0,
-          marginTop: spacing.sm,
         },
       }),
     [colors],
@@ -210,42 +180,8 @@ export function AlarmScreen() {
               resizeMode="contain"
               accessibilityIgnoresInvertColors
             />
-            <View
-              style={styles.labelWrap}
-              onLayout={(event) => setLabelWidth(event.nativeEvent.layout.width)}
-            >
-              <Text style={styles.label}>{greeting}</Text>
-              {labelWidth > 0 ? (
-                <MaskedView
-                  pointerEvents="none"
-                  style={StyleSheet.absoluteFill}
-                  maskElement={<Text style={styles.label}>{greeting}</Text>}
-                >
-                  <Animated.View
-                    style={[
-                      styles.shimmerBand,
-                      {
-                        transform: [
-                          {
-                            translateX: shimmerAnim.interpolate({
-                              inputRange: [0, 1],
-                              outputRange: [-SHIMMER_BAND_WIDTH, labelWidth + SHIMMER_BAND_WIDTH],
-                            }),
-                          },
-                          { rotate: '20deg' },
-                        ],
-                      },
-                    ]}
-                  >
-                    <LinearGradient
-                      colors={['transparent', 'rgba(255,255,255,0.9)', 'transparent']}
-                      start={{ x: 0, y: 0 }}
-                      end={{ x: 1, y: 0 }}
-                      style={StyleSheet.absoluteFill}
-                    />
-                  </Animated.View>
-                </MaskedView>
-              ) : null}
+            <View style={styles.labelWrap}>
+              <ShimmerText style={styles.label}>{greeting}</ShimmerText>
             </View>
             <Text style={styles.time}>{clock}</Text>
           </View>
@@ -268,28 +204,12 @@ export function AlarmScreen() {
               style={styles.cta}
             />
             {showSnooze ? (
-              canSnooze ? (
-                <>
-                  <SnoozeSlider
-                    value={snoozeMinutes}
-                    min={SNOOZE_MIN_MINUTES}
-                    max={SNOOZE_MAX_MINUTES}
-                    onChange={setSnoozeMinutes}
-                    disabled={snoozing}
-                    style={styles.snoozeSlider}
-                  />
-                  <PrimaryButton
-                    label={copy.alarm.snoozeCta(snoozeMinutes)}
-                    variant="outline"
-                    onPress={handleSnooze}
-                    disabled={snoozing}
-                    loading={snoozing}
-                    style={styles.snoozeCta}
-                  />
-                </>
-              ) : (
-                <Text style={styles.snoozeUsed}>{copy.alarm.snoozeUsed}</Text>
-              )
+              <HoldToSnooze
+                minutes={snoozeMinutes}
+                onConfirm={handleSnooze}
+                disabled={snoozing}
+                style={styles.snoozeControl}
+              />
             ) : null}
           </View>
         </View>

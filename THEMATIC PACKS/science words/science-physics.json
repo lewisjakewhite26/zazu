@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Laser",
+    "pronunciation": "LAY-zuh",
+    "pos": "noun",
+    "definition": "A device that produces an intense, narrow beam of coherent light through the stimulated emission of radiation.",
+    "origin": "An acronym coined in 1959 for <strong>Light Amplification by Stimulated Emission of Radiation</strong>, following the pattern of the earlier microwave device called a maser.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Laser</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "L stands for", "b": "Light" },
+          { "a": "The acronym was coined in", "b": "1959" },
+          { "a": "Full phrase: Light Amplification by Stimulated Emission of", "b": "Radiation" },
+          { "a": "Laser followed the naming pattern of the earlier", "b": "Maser" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Laser</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A laser produces a narrow beam of", "b": "Coherent light" },
+          { "a": "Laser surgery uses focused light to", "b": "Cut or seal tissue precisely" },
+          { "a": "Barcode scanners use a", "b": "Low-power laser" },
+          { "a": "'Laser focus' figuratively describes", "b": "Intense, undistracted concentration" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Laser</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The surgeon used a precise", "b": "Laser to correct her eyesight" },
+          { "a": "The cat chased the red dot from a", "b": "Laser pointer" },
+          { "a": "The presentation is a great deal more", "b": "Laser-focused than the last one" },
+          { "a": "The checkout scanner beeped as the", "b": "Laser read the barcode" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Light Amplification by Stimulated Emission of Radiation", "rootLanguage": "English acronym", "rootMeaning": "The full technical phrase behind the word", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An acronym for ", "highlight": false }, { "text": "Light Amplification by Stimulated Emission of Radiation", "highlight": true }, { "text": ", coined in 1959.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Light Amplification by Stimulated Emission of Radiation", "correctAnswer": "The full technical phrase behind the word", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Quark",
+    "pronunciation": "KWORK",
+    "pos": "noun",
+    "definition": "An elementary subatomic particle that combines to form protons, neutrons, and other hadrons.",
+    "origin": "Coined in 1964 by physicist Murray Gell-Mann, who borrowed the nonsense word <strong>quark</strong> from a line in James Joyce's novel Finnegans Wake, \"Three quarks for Muster Mark,\" to name his newly proposed particle.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Quark</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Coined in 1964 by", "b": "Murray Gell-Mann" },
+          { "a": "Borrowed the word from", "b": "James Joyce's Finnegans Wake" },
+          { "a": "The famous line reads", "b": "\"Three quarks for Muster Mark\"" },
+          { "a": "In the novel, the word was originally", "b": "Nonsense" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Quark</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Quarks combine to form", "b": "Protons and neutrons" },
+          { "a": "Quarks are considered", "b": "Elementary particles" },
+          { "a": "There are six types, or 'flavours', of", "b": "Quark" },
+          { "a": "Quarks cannot be observed in", "b": "Isolation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Quark</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The physics lecture explained how three", "b": "Quarks make up a proton" },
+          { "a": "The particle accelerator was built to study", "b": "Quarks and other subatomic particles" },
+          { "a": "Physicists named the six flavours of", "b": "Quark with playful terms" },
+          { "a": "The textbook diagram illustrated a proton's three bound", "b": "Quarks" }
+        ] }
+    ],
+    "roots": [ { "rootText": "quark", "rootLanguage": "Coined (from Finnegans Wake)", "rootMeaning": "A nonsense word borrowed from literature", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Borrowed from James Joyce's ", "highlight": false }, { "text": "\"Three quarks for Muster Mark\"", "highlight": true }, { "text": "; literature naming the smallest known particle.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "quark", "correctAnswer": "A nonsense word borrowed from literature", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Entropy",
+    "pronunciation": "EN-truh-pee",
+    "pos": "noun",
+    "definition": "A measure of the disorder or randomness in a system; in physics, a quantity that tends to increase over time in an isolated system.",
+    "origin": "Coined in 1865 by German physicist Rudolf Clausius from Greek <strong>en</strong> (in) + trope (transformation), deliberately modelled on the word energy to name this related but distinct thermodynamic quantity.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Entropy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek en", "b": "In" },
+          { "a": "Greek trope", "b": "Transformation" },
+          { "a": "Coined in 1865 by", "b": "Rudolf Clausius" },
+          { "a": "Deliberately modelled on the word", "b": "Energy" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Entropy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Entropy measures a system's", "b": "Disorder or randomness" },
+          { "a": "The second law of thermodynamics states entropy tends to", "b": "Increase over time" },
+          { "a": "A tidy room left alone will eventually", "b": "Become messy, as entropy rises" },
+          { "a": "In information theory, entropy measures", "b": "Uncertainty in a message" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Entropy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The professor explained why", "b": "Entropy always increases in a closed system" },
+          { "a": "The office slowly succumbed to", "b": "Entropy without regular tidying" },
+          { "a": "Physicists describe the heat death of the universe as maximum", "b": "Entropy" },
+          { "a": "The team's organisation dissolved into", "b": "Entropy after the deadline passed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "en trope", "rootLanguage": "Greek", "rootMeaning": "In transformation", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "en trope", "highlight": true }, { "text": " (in transformation); modelled on \"energy\" to name disorder's steady rise.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "en trope", "correctAnswer": "In transformation", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Volt",
+    "pronunciation": "vohlt",
+    "pos": "noun",
+    "definition": "The SI unit of electric potential difference, or voltage.",
+    "origin": "Named in 1881 by an international congress of electricians after Italian physicist <strong>Alessandro Volta</strong>, who invented the first chemical battery, the voltaic pile, in 1800.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Volt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Alessandro Volta" },
+          { "a": "Volta invented the first", "b": "Chemical battery, in 1800" },
+          { "a": "This device was called the", "b": "Voltaic pile" },
+          { "a": "The unit was named in", "b": "1881" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Volt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A volt measures electric", "b": "Potential difference" },
+          { "a": "A standard UK household socket supplies about", "b": "230 volts" },
+          { "a": "A typical AA battery supplies", "b": "1.5 volts" },
+          { "a": "Voltage is often compared to water", "b": "Pressure in a pipe" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Volt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The label warned against exceeding", "b": "12 volts" },
+          { "a": "He accidentally touched the wire and felt a jolt of", "b": "240 volts" },
+          { "a": "The electric car's battery pack runs at several hundred", "b": "Volts" },
+          { "a": "The multimeter read a steady", "b": "9 volts" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Alessandro Volta", "rootLanguage": "Italian (eponym)", "rootMeaning": "Inventor of the first battery", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Alessandro Volta", "highlight": true }, { "text": ", who built the first working battery.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Alessandro Volta", "correctAnswer": "Inventor of the first battery", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ampere",
+    "pronunciation": "AM-peer",
+    "pos": "noun",
+    "definition": "The SI unit of electric current.",
+    "origin": "Named in 1881 after French physicist <strong>André-Marie Ampère</strong>, who in the 1820s established the mathematical foundations of electromagnetism, the field now known as electrodynamics.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ampere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "André-Marie Ampère" },
+          { "a": "Ampère worked in the", "b": "1820s" },
+          { "a": "He established the foundations of", "b": "Electromagnetism" },
+          { "a": "The unit was formally named in", "b": "1881" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ampere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ampere measures electric", "b": "Current" },
+          { "a": "A household fuse is often rated in", "b": "Amps" },
+          { "a": "Amps are informally shortened to", "b": "Amps" },
+          { "a": "A phone charger typically draws around", "b": "1 to 2 amps" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ampere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The circuit was protected by a", "b": "13-amp fuse" },
+          { "a": "The electrician measured the current at", "b": "Five amps" },
+          { "a": "Overloading the socket drew too many", "b": "Amps" },
+          { "a": "The charging cable is rated up to", "b": "Three amps" }
+        ] }
+    ],
+    "roots": [ { "rootText": "André-Marie Ampère", "rootLanguage": "French (eponym)", "rootMeaning": "Founder of electromagnetism's mathematics", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "André-Marie Ampère", "highlight": true }, { "text": ", pioneer of electromagnetic theory.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "André-Marie Ampère", "correctAnswer": "Founder of electromagnetism's mathematics", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ohm",
+    "pronunciation": "ohm",
+    "pos": "noun",
+    "definition": "The SI unit of electrical resistance.",
+    "origin": "Named after German physicist <strong>Georg Simon Ohm</strong>, who in 1827 published the mathematical law relating voltage, current, and resistance now known as Ohm's law.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ohm</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Georg Simon Ohm" },
+          { "a": "Ohm published his famous law in", "b": "1827" },
+          { "a": "Ohm's law relates voltage, current, and", "b": "Resistance" },
+          { "a": "Ohm was a", "b": "German physicist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ohm</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ohm measures electrical", "b": "Resistance" },
+          { "a": "The ohm symbol is the Greek letter", "b": "Omega" },
+          { "a": "A resistor's value is measured in", "b": "Ohms" },
+          { "a": "Higher resistance in ohms means", "b": "Less current flows for a given voltage" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ohm</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The resistor was labelled", "b": "220 ohms" },
+          { "a": "He used a multimeter to check the", "b": "Resistance in ohms" },
+          { "a": "The speaker cable was rated at", "b": "Eight ohms" },
+          { "a": "Electronics students memorised", "b": "Ohm's law early on" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Georg Simon Ohm", "rootLanguage": "German (eponym)", "rootMeaning": "Discoverer of the law relating current and resistance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Georg Simon Ohm", "highlight": true }, { "text": ", who linked voltage, current, and resistance.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Georg Simon Ohm", "correctAnswer": "Discoverer of the law relating current and resistance", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Joule",
+    "pronunciation": "jool",
+    "pos": "noun",
+    "definition": "The SI unit of energy or work.",
+    "origin": "Named after English physicist <strong>James Prescott Joule</strong>, who in the 1840s experimentally demonstrated the mechanical equivalent of heat, showing that heat and energy could be converted into one another.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Joule</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "James Prescott Joule" },
+          { "a": "Joule worked in the", "b": "1840s" },
+          { "a": "He demonstrated the mechanical equivalent of", "b": "Heat" },
+          { "a": "Joule was an", "b": "English physicist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Joule</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A joule measures", "b": "Energy or work" },
+          { "a": "A calorie on a food label converts to", "b": "About 4.2 joules" },
+          { "a": "One watt equals one joule per", "b": "Second" },
+          { "a": "Lifting an apple one metre takes roughly one", "b": "Joule" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Joule</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The nutrition label listed the energy in", "b": "Kilojoules" },
+          { "a": "The physics problem asked how many", "b": "Joules the spring stored" },
+          { "a": "The laser pulse delivered a tiny fraction of a", "b": "Joule" },
+          { "a": "Engineers calculated the crash energy in", "b": "Joules" }
+        ] }
+    ],
+    "roots": [ { "rootText": "James Prescott Joule", "rootLanguage": "English (eponym)", "rootMeaning": "Discoverer of the mechanical equivalent of heat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "James Prescott Joule", "highlight": true }, { "text": ", who proved heat and energy convert into each other.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "James Prescott Joule", "correctAnswer": "Discoverer of the mechanical equivalent of heat", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Watt",
+    "pronunciation": "wot",
+    "pos": "noun",
+    "definition": "The SI unit of power, equal to one joule per second.",
+    "origin": "Named in 1882 after Scottish engineer <strong>James Watt</strong>, whose improvements to the steam engine in the 1760s and 1770s made him a byword for mechanical power.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Watt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "James Watt" },
+          { "a": "Watt improved the", "b": "Steam engine" },
+          { "a": "His key improvements came in the", "b": "1760s and 1770s" },
+          { "a": "The unit was formally named in", "b": "1882" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Watt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A watt equals one joule per", "b": "Second" },
+          { "a": "A watt measures", "b": "Power" },
+          { "a": "A typical LED bulb might use around", "b": "Ten watts" },
+          { "a": "'Horsepower' was a unit Watt introduced to compare", "b": "Engines to actual horses" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Watt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The kettle was rated at", "b": "3000 watts" },
+          { "a": "The solar panel generates up to", "b": "400 watts" },
+          { "a": "The stereo's amplifier pushed out", "b": "100 watts per channel" },
+          { "a": "She swapped the old bulb for a low-", "b": "Watt LED" }
+        ] }
+    ],
+    "roots": [ { "rootText": "James Watt", "rootLanguage": "Scottish (eponym)", "rootMeaning": "Engineer who transformed the steam engine", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "James Watt", "highlight": true }, { "text": ", whose steam engines redefined mechanical power.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "James Watt", "correctAnswer": "Engineer who transformed the steam engine", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Newton",
+    "pronunciation": "NYOO-tuhn",
+    "pos": "noun",
+    "definition": "The SI unit of force, defined as the force needed to accelerate a one-kilogram mass by one metre per second squared.",
+    "origin": "Named in 1948 after English physicist <strong>Isaac Newton</strong>, whose 1687 laws of motion and universal gravitation, published in the Principia Mathematica, laid the foundations of classical mechanics.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Newton</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Isaac Newton" },
+          { "a": "Newton's laws were published in", "b": "1687" },
+          { "a": "His book was titled", "b": "Principia Mathematica" },
+          { "a": "The unit was formally named in", "b": "1948" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Newton</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A newton measures", "b": "Force" },
+          { "a": "One newton accelerates one kilogram by one metre per second", "b": "Squared" },
+          { "a": "A medium apple weighs roughly one", "b": "Newton" },
+          { "a": "Newton's laws of motion describe how objects", "b": "Move and interact with forces" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Newton</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The engineer calculated the thrust in", "b": "Newtons" },
+          { "a": "The rocket engine produced millions of", "b": "Newtons of thrust" },
+          { "a": "The physics problem asked for the force in", "b": "Newtons" },
+          { "a": "The spring scale measured the weight in", "b": "Newtons" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Isaac Newton", "rootLanguage": "English (eponym)", "rootMeaning": "Founder of classical mechanics", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Isaac Newton", "highlight": true }, { "text": ", whose laws of motion still underpin engineering today.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Isaac Newton", "correctAnswer": "Founder of classical mechanics", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fahrenheit",
+    "pronunciation": "FA-ruhn-hyt",
+    "pos": "noun",
+    "definition": "A temperature scale on which water freezes at 32 degrees and boils at 212 degrees under standard atmospheric pressure.",
+    "origin": "Named after German physicist <strong>Daniel Gabriel Fahrenheit</strong>, who invented the mercury thermometer in 1714 and proposed his temperature scale shortly afterward.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fahrenheit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Daniel Gabriel Fahrenheit" },
+          { "a": "Fahrenheit invented the mercury thermometer in", "b": "1714" },
+          { "a": "Fahrenheit was a", "b": "German physicist" },
+          { "a": "He proposed his scale", "b": "Shortly after inventing the thermometer" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fahrenheit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "On the Fahrenheit scale, water freezes at", "b": "32 degrees" },
+          { "a": "On the Fahrenheit scale, water boils at", "b": "212 degrees" },
+          { "a": "Fahrenheit remains in everyday use mainly in the", "b": "United States" },
+          { "a": "Normal human body temperature is roughly", "b": "98.6 degrees Fahrenheit" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fahrenheit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The American weather app showed", "b": "78 degrees Fahrenheit" },
+          { "a": "The oven was preheated to", "b": "350 degrees Fahrenheit" },
+          { "a": "He converted the reading from Celsius to", "b": "Fahrenheit" },
+          { "a": "The recipe listed the temperature in", "b": "Fahrenheit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Daniel Gabriel Fahrenheit", "rootLanguage": "German (eponym)", "rootMeaning": "Inventor of the mercury thermometer", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Daniel Gabriel Fahrenheit", "highlight": true }, { "text": ", inventor of the mercury thermometer.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Daniel Gabriel Fahrenheit", "correctAnswer": "Inventor of the mercury thermometer", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Celsius",
+    "pronunciation": "SEL-see-uhs",
+    "pos": "noun",
+    "definition": "A temperature scale on which water freezes at 0 degrees and boils at 100 degrees under standard atmospheric pressure.",
+    "origin": "Named after Swedish astronomer <strong>Anders Celsius</strong>, who proposed the scale in 1742, though his original version was inverted, with 0 as boiling and 100 as freezing, before being reversed after his death.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Celsius</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Anders Celsius" },
+          { "a": "Celsius proposed the scale in", "b": "1742" },
+          { "a": "Celsius was a", "b": "Swedish astronomer" },
+          { "a": "His original scale was", "b": "Inverted, later reversed after his death" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Celsius</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "On the Celsius scale, water freezes at", "b": "0 degrees" },
+          { "a": "On the Celsius scale, water boils at", "b": "100 degrees" },
+          { "a": "Celsius is the standard scale used in", "b": "Most of the world" },
+          { "a": "Celsius was formerly known as", "b": "Centigrade" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Celsius</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The forecast predicted a high of", "b": "22 degrees Celsius" },
+          { "a": "The freezer was set to minus", "b": "18 degrees Celsius" },
+          { "a": "The scientist recorded the reaction temperature in", "b": "Celsius" },
+          { "a": "She checked the thermostat, set to", "b": "20 degrees Celsius" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Anders Celsius", "rootLanguage": "Swedish (eponym)", "rootMeaning": "Astronomer who proposed the 0–100 temperature scale", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Anders Celsius", "highlight": true }, { "text": ", whose original scale was later flipped upside down.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Anders Celsius", "correctAnswer": "Astronomer who proposed the 0–100 temperature scale", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Kelvin",
+    "pronunciation": "KEL-vin",
+    "pos": "noun",
+    "definition": "The SI unit of thermodynamic temperature, beginning at absolute zero, the theoretical point at which all molecular motion stops.",
+    "origin": "Named after Irish-Scottish physicist <strong>William Thomson, 1st Baron Kelvin</strong>, who in 1848 proposed an absolute temperature scale starting at absolute zero, taking his title from the River Kelvin near his university.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Kelvin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "William Thomson, Lord Kelvin" },
+          { "a": "Thomson proposed the scale in", "b": "1848" },
+          { "a": "His title came from the", "b": "River Kelvin near his university" },
+          { "a": "The scale begins at", "b": "Absolute zero" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Kelvin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Zero kelvin marks the point where", "b": "All molecular motion stops" },
+          { "a": "The kelvin scale is used mainly in", "b": "Scientific contexts" },
+          { "a": "A kelvin degree is the same size as one degree in", "b": "Celsius" },
+          { "a": "Camera and lighting colour temperatures are also measured in", "b": "Kelvin" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Kelvin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lab cooled the sample to nearly", "b": "Zero kelvin" },
+          { "a": "The photographer adjusted the white balance to", "b": "5600 kelvin" },
+          { "a": "The physics exam required converting Celsius to", "b": "Kelvin" },
+          { "a": "Deep space hovers at just a few", "b": "Kelvin above absolute zero" }
+        ] }
+    ],
+    "roots": [ { "rootText": "William Thomson, Lord Kelvin", "rootLanguage": "Irish-Scottish (eponym)", "rootMeaning": "Physicist who proposed the absolute temperature scale", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Lord Kelvin", "highlight": true }, { "text": ", whose title came from a river near his university.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "William Thomson, Lord Kelvin", "correctAnswer": "Physicist who proposed the absolute temperature scale", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Asteroid",
+    "pronunciation": "AS-tuh-royd",
+    "pos": "noun",
+    "definition": "A small rocky body orbiting the sun, too small to be classified as a planet, most commonly found in the asteroid belt.",
+    "origin": "Coined in 1802 by astronomer William Herschel from Greek <strong>aster</strong> (star) + -oeides (resembling), because through the telescopes of the time these bodies appeared as faint, star-like points of light.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Asteroid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek aster", "b": "Star" },
+          { "a": "Greek -oeides", "b": "Resembling" },
+          { "a": "Coined in 1802 by", "b": "William Herschel" },
+          { "a": "Named because they looked like", "b": "Faint, star-like points" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Asteroid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Most asteroids orbit the sun within the", "b": "Asteroid belt" },
+          { "a": "An asteroid is too small to be classified as a", "b": "Planet" },
+          { "a": "Scientists believe an asteroid impact contributed to the", "b": "Extinction of the dinosaurs" },
+          { "a": "Space agencies track asteroids that could", "b": "Pass close to Earth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Asteroid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The spacecraft was sent to sample a distant", "b": "Asteroid" },
+          { "a": "Astronomers spotted an", "b": "Asteroid passing near Earth's orbit" },
+          { "a": "The mining company hoped to extract metals from an", "b": "Asteroid" },
+          { "a": "The film's plot revolved around deflecting an incoming", "b": "Asteroid" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aster", "rootLanguage": "Greek", "rootMeaning": "Star", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "aster", "highlight": true }, { "text": " (star); named for how they resembled tiny stars through early telescopes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aster", "correctAnswer": "Star", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Comet",
+    "pronunciation": "KOM-it",
+    "pos": "noun",
+    "definition": "A celestial body of ice, dust, and rock that develops a glowing tail as it approaches the sun.",
+    "origin": "From Greek <strong>kometes</strong> (long-haired), from kome (hair of the head), since ancient observers thought a comet's streaming tail resembled long, flowing hair trailing behind it.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Comet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kometes", "b": "Long-haired" },
+          { "a": "Greek kome", "b": "Hair of the head" },
+          { "a": "Ancient observers thought the tail resembled", "b": "Flowing hair" },
+          { "a": "The comparison inspired the word's", "b": "Original meaning" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Comet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A comet is made of", "b": "Ice, dust, and rock" },
+          { "a": "A comet's glowing tail forms as it nears the", "b": "Sun" },
+          { "a": "Halley's Comet returns roughly every", "b": "Seventy-six years" },
+          { "a": "A comet's tail always points", "b": "Away from the sun" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Comet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Skywatchers gathered to see the rare", "b": "Comet pass overhead" },
+          { "a": "Astronomers traced the", "b": "Comet's long, icy orbit" },
+          { "a": "The night sky briefly lit up as the", "b": "Comet's tail stretched behind it" },
+          { "a": "Ancient cultures often saw a", "b": "Comet as an omen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kome", "rootLanguage": "Greek", "rootMeaning": "Hair of the head", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kome", "highlight": true }, { "text": " (hair); its glowing tail once looked like flowing hair against the sky.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kome", "correctAnswer": "Hair of the head", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Orbit",
+    "pronunciation": "OR-bit",
+    "pos": "noun / verb",
+    "definition": "The curved path of a celestial body or spacecraft around another under the influence of gravity; to travel along such a path.",
+    "origin": "From Latin <strong>orbita</strong> (wheel track, course), from orbis (circle, ring). The word entered astronomy in the 17th century as Kepler and others described the paths planets trace around the sun.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Orbit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin orbita", "b": "Wheel track, course" },
+          { "a": "Latin orbis", "b": "Circle, ring" },
+          { "a": "Entered astronomy in the", "b": "17th century" },
+          { "a": "Used to describe paths traced by", "b": "Planets around the sun" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Orbit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An orbit is shaped by the force of", "b": "Gravity" },
+          { "a": "Satellites are launched to", "b": "Orbit the Earth" },
+          { "a": "'Within her orbit' figuratively means within her", "b": "Sphere of influence" },
+          { "a": "The moon completes one orbit of Earth roughly every", "b": "Month" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Orbit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The rocket successfully placed the satellite into", "b": "Orbit" },
+          { "a": "Mars takes nearly two Earth years to complete its", "b": "Orbit around the sun" },
+          { "a": "Young researchers often drift into the", "b": "Orbit of a famous mentor" },
+          { "a": "Mission control confirmed the spacecraft had reached a stable", "b": "Orbit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "orbis", "rootLanguage": "Latin", "rootMeaning": "Circle, ring", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "orbis", "highlight": true }, { "text": " (circle); the endless circular path traced by planets and satellites.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "orbis", "correctAnswer": "Circle, ring", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Satellite",
+    "pronunciation": "SAT-uh-lyt",
+    "pos": "noun",
+    "definition": "A natural or artificial body orbiting a planet or other larger body.",
+    "origin": "From Latin <strong>satelles</strong> (attendant, bodyguard), describing a person who accompanies and serves a powerful figure. Astronomers borrowed the word in the 17th century for moons that seemed to accompany their planet.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Satellite</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin satelles", "b": "Attendant, bodyguard" },
+          { "a": "Originally described a person who", "b": "Accompanied a powerful figure" },
+          { "a": "Astronomers borrowed the word in the", "b": "17th century" },
+          { "a": "Applied first to", "b": "Moons accompanying their planet" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Satellite</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A satellite can be either", "b": "Natural or artificial" },
+          { "a": "The moon is Earth's natural", "b": "Satellite" },
+          { "a": "GPS relies on a network of orbiting", "b": "Satellites" },
+          { "a": "A 'satellite town' figuratively is a smaller town", "b": "Dependent on a nearby city" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Satellite</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The rocket launched a communications", "b": "Satellite into orbit" },
+          { "a": "Weather forecasters relied on", "b": "Satellite images" },
+          { "a": "Households across the country installed", "b": "Satellite dishes" },
+          { "a": "The commuter town grew as a", "b": "Satellite of the capital" }
+        ] }
+    ],
+    "roots": [ { "rootText": "satelles", "rootLanguage": "Latin", "rootMeaning": "Attendant, bodyguard", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "satelles", "highlight": true }, { "text": " (attendant); a body that faithfully accompanies its planet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "satelles", "correctAnswer": "Attendant, bodyguard", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Spectrum",
+    "pronunciation": "SPEK-truhm",
+    "pos": "noun",
+    "definition": "The band of colours produced when light is dispersed by a prism or other means; more broadly, a range or continuum of related qualities.",
+    "origin": "From Latin <strong>spectrum</strong> (appearance, image), from specere (to look). Isaac Newton first used the word in this scientific sense in 1671 after splitting sunlight into its component colours with a prism.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Spectrum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin spectrum", "b": "Appearance, image" },
+          { "a": "Latin specere", "b": "To look" },
+          { "a": "First used in this sense in 1671 by", "b": "Isaac Newton" },
+          { "a": "Newton split sunlight using a", "b": "Prism" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Spectrum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rainbow displays the visible", "b": "Spectrum of light" },
+          { "a": "The electromagnetic spectrum ranges from radio waves to", "b": "Gamma rays" },
+          { "a": "'Across the political spectrum' figuratively means", "b": "Covering all shades of opinion" },
+          { "a": "Autism spectrum describes a", "b": "Range of related conditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Spectrum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The prism split sunlight into a full", "b": "Spectrum of colours" },
+          { "a": "Astronomers examined the star's light", "b": "Spectrum to identify its elements" },
+          { "a": "The debate drew opinions from across the political", "b": "Spectrum" },
+          { "a": "The radio operator scanned the frequency", "b": "Spectrum" }
+        ] }
+    ],
+    "roots": [ { "rootText": "specere", "rootLanguage": "Latin", "rootMeaning": "To look", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "specere", "highlight": true }, { "text": " (to look); Newton's prism-split rainbow gave the word its scientific life.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "specere", "correctAnswer": "To look", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Photon",
+    "pronunciation": "FOH-ton",
+    "pos": "noun",
+    "definition": "A particle representing a quantum of light or other electromagnetic radiation, having no mass and travelling at the speed of light.",
+    "origin": "Coined in 1926 by American chemist Gilbert Lewis from Greek <strong>phos</strong> (light), matching the naming pattern of other particles such as the electron and proton.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Photon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek phos", "b": "Light" },
+          { "a": "Coined in 1926 by", "b": "Gilbert Lewis" },
+          { "a": "Lewis matched the naming pattern of", "b": "Electron and proton" },
+          { "a": "Lewis was an", "b": "American chemist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Photon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A photon is a quantum of", "b": "Light" },
+          { "a": "A photon has no", "b": "Mass" },
+          { "a": "Photons always travel at the", "b": "Speed of light" },
+          { "a": "Solar panels convert photons into", "b": "Electricity" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Photon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The solar cell absorbed a stream of", "b": "Photons" },
+          { "a": "Physicists fired individual", "b": "Photons through the double slit" },
+          { "a": "The camera sensor counts incoming", "b": "Photons to form an image" },
+          { "a": "Quantum computers may one day use", "b": "Photons to carry information" }
+        ] }
+    ],
+    "roots": [ { "rootText": "phos", "rootLanguage": "Greek", "rootMeaning": "Light", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "phos", "highlight": true }, { "text": " (light); the massless particle that carries every ray of it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "phos", "correctAnswer": "Light", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Electron",
+    "pronunciation": "i-LEK-tron",
+    "pos": "noun",
+    "definition": "A stable subatomic particle with a negative electric charge, found in all atoms and responsible for chemical bonding and electric current.",
+    "origin": "Coined in 1891 by Irish physicist George Johnstone Stoney from Greek <strong>elektron</strong> (amber), the substance the ancient Greeks discovered produced a static charge when rubbed with cloth.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Electron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek elektron", "b": "Amber" },
+          { "a": "Coined in 1891 by", "b": "George Johnstone Stoney" },
+          { "a": "Ancient Greeks found amber produced a charge when", "b": "Rubbed with cloth" },
+          { "a": "This effect is the origin of the word", "b": "Electricity" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Electron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An electron carries a", "b": "Negative electric charge" },
+          { "a": "Electrons orbit the", "b": "Nucleus of an atom" },
+          { "a": "The flow of electrons through a wire is called", "b": "Electric current" },
+          { "a": "Chemical bonds form through the sharing of", "b": "Electrons" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Electron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The diagram showed", "b": "Electrons orbiting the nucleus" },
+          { "a": "An electron microscope revealed details far smaller than", "b": "Light microscopes could show" },
+          { "a": "Current flows as", "b": "Electrons move through the circuit" },
+          { "a": "The chemistry teacher explained how atoms share", "b": "Electrons to bond" }
+        ] }
+    ],
+    "roots": [ { "rootText": "elektron", "rootLanguage": "Greek", "rootMeaning": "Amber", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "elektron", "highlight": true }, { "text": " (amber); the ancient static-charged stone that gave electricity its name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "elektron", "correctAnswer": "Amber", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Proton",
+    "pronunciation": "PROH-ton",
+    "pos": "noun",
+    "definition": "A stable subatomic particle with a positive electric charge, found in the nucleus of every atom.",
+    "origin": "Coined in 1920 by New Zealand physicist Ernest Rutherford from Greek <strong>proton</strong> (first), the neuter of protos, naming what he believed to be a fundamental building block of all matter.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Proton</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek proton", "b": "First" },
+          { "a": "Coined in 1920 by", "b": "Ernest Rutherford" },
+          { "a": "Rutherford was a", "b": "New Zealand physicist" },
+          { "a": "He believed it was a fundamental building block of", "b": "All matter" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Proton</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A proton carries a", "b": "Positive electric charge" },
+          { "a": "Protons are found in the atomic", "b": "Nucleus" },
+          { "a": "The number of protons defines an element's", "b": "Atomic number" },
+          { "a": "Protons are bound together in the nucleus alongside", "b": "Neutrons" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Proton</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The particle accelerator smashed together beams of", "b": "Protons" },
+          { "a": "Hydrogen's nucleus consists of a single", "b": "Proton" },
+          { "a": "Proton therapy is used to treat certain", "b": "Cancers" },
+          { "a": "The chemistry class counted the atom's", "b": "Protons and electrons" }
+        ] }
+    ],
+    "roots": [ { "rootText": "proton", "rootLanguage": "Greek", "rootMeaning": "First", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "proton", "highlight": true }, { "text": " (first); named by Rutherford for what he saw as matter's fundamental piece.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "proton", "correctAnswer": "First", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neutron",
+    "pronunciation": "NYOO-tron",
+    "pos": "noun",
+    "definition": "A subatomic particle with no electric charge, found alongside protons in the nucleus of most atoms.",
+    "origin": "Coined in 1932 by English physicist James Chadwick, who discovered the particle, from <strong>neutral</strong> + -on, the standard particle-naming suffix, reflecting its lack of any electric charge.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neutron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "From neutral +", "b": "-on" },
+          { "a": "Discovered and named in 1932 by", "b": "James Chadwick" },
+          { "a": "Chadwick was an", "b": "English physicist" },
+          { "a": "Named for its lack of any", "b": "Electric charge" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neutron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A neutron carries", "b": "No electric charge" },
+          { "a": "Neutrons sit alongside protons in the", "b": "Nucleus" },
+          { "a": "Isotopes of an element differ in their number of", "b": "Neutrons" },
+          { "a": "A neutron star is an extremely dense collapsed", "b": "Stellar remnant" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neutron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Nuclear reactors control the reaction by absorbing spare", "b": "Neutrons" },
+          { "a": "The isotope had one extra", "b": "Neutron in its nucleus" },
+          { "a": "Astronomers detected the collision of two", "b": "Neutron stars" },
+          { "a": "The lecture explained how a", "b": "Neutron can split a uranium atom" }
+        ] }
+    ],
+    "roots": [ { "rootText": "neutral + -on", "rootLanguage": "English", "rootMeaning": "Chargeless particle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "neutral + -on", "highlight": true }, { "text": "; the particle with no charge at all, discovered by Chadwick.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "neutral + -on", "correctAnswer": "Chargeless particle", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gravity",
+    "pronunciation": "GRAV-i-tee",
+    "pos": "noun",
+    "definition": "The force that attracts any two objects with mass toward each other, responsible for weight and the motion of celestial bodies.",
+    "origin": "From Latin <strong>gravitas</strong> (weight, heaviness), from gravis (heavy). Isaac Newton formalised the modern scientific concept in 1687 with his law of universal gravitation.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gravity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin gravitas", "b": "Weight, heaviness" },
+          { "a": "Latin gravis", "b": "Heavy" },
+          { "a": "Formalised scientifically in 1687 by", "b": "Isaac Newton" },
+          { "a": "Newton's law was called the law of", "b": "Universal gravitation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gravity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gravity attracts any two objects with", "b": "Mass" },
+          { "a": "On the Moon, gravity is roughly", "b": "One-sixth of Earth's" },
+          { "a": "'The gravity of the situation' figuratively means its", "b": "Seriousness" },
+          { "a": "Gravity keeps planets in", "b": "Orbit around the sun" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gravity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The apple fell to the ground, pulled by", "b": "Gravity" },
+          { "a": "Astronauts float freely due to", "b": "Reduced gravity in orbit" },
+          { "a": "The judge understood the full", "b": "Gravity of the crime" },
+          { "a": "Engineers calculated the spacecraft's escape from Earth's", "b": "Gravity" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gravitas", "rootLanguage": "Latin", "rootMeaning": "Weight, heaviness", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "gravitas", "highlight": true }, { "text": " (weight); the invisible pull that gives everything its heaviness.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gravitas", "correctAnswer": "Weight, heaviness", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Inertia",
+    "pronunciation": "in-UR-shuh",
+    "pos": "noun",
+    "definition": "The tendency of an object to resist a change in its state of motion or rest unless acted upon by an external force.",
+    "origin": "From Latin <strong>iners</strong> (unskilled, idle), from in- (not) + ars (skill). Johannes Kepler first applied the word to physics in 1613 to describe a body's natural resistance to being moved.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Inertia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin iners", "b": "Unskilled, idle" },
+          { "a": "Latin in- + ars", "b": "Not skill" },
+          { "a": "First applied to physics in 1613 by", "b": "Johannes Kepler" },
+          { "a": "Described a body's natural resistance to being", "b": "Moved" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Inertia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Inertia resists a change in an object's state of", "b": "Motion or rest" },
+          { "a": "A seatbelt protects against your body's", "b": "Inertia during a sudden stop" },
+          { "a": "'Bureaucratic inertia' figuratively describes resistance to", "b": "Change within an organisation" },
+          { "a": "Newton's first law is also called the law of", "b": "Inertia" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Inertia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The sudden braking threw passengers forward due to", "b": "Inertia" },
+          { "a": "The heavy flywheel's inertia kept the engine running", "b": "Smoothly" },
+          { "a": "Years of company inertia made it slow to", "b": "Adopt new technology" },
+          { "a": "Only a strong push could overcome the crate's", "b": "Inertia" }
+        ] }
+    ],
+    "roots": [ { "rootText": "iners", "rootLanguage": "Latin", "rootMeaning": "Unskilled, idle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "iners", "highlight": true }, { "text": " (idle); an object's stubborn preference to keep doing whatever it was already doing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "iners", "correctAnswer": "Unskilled, idle", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dynamo",
+    "pronunciation": "DY-nuh-moh",
+    "pos": "noun",
+    "definition": "A machine that converts mechanical energy into electrical energy; figuratively, an extremely energetic and productive person.",
+    "origin": "Shortened from French <strong>machine dynamo-électrique</strong> (dynamo-electric machine), from Greek dynamis (power). Belgian engineer Zénobe Gramme built the first practical version in 1871.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dynamo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek dynamis", "b": "Power" },
+          { "a": "Shortened from French", "b": "Machine dynamo-électrique" },
+          { "a": "First practical version built in 1871 by", "b": "Zénobe Gramme" },
+          { "a": "Gramme was a", "b": "Belgian engineer" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dynamo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dynamo converts mechanical energy into", "b": "Electrical energy" },
+          { "a": "A bicycle dynamo powers a", "b": "Small headlamp" },
+          { "a": "Figuratively, calling someone a dynamo means they are", "b": "Extremely energetic" },
+          { "a": "A dynamo works using the principle of", "b": "Electromagnetic induction" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dynamo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old bicycle's headlamp was powered by a", "b": "Dynamo" },
+          { "a": "She was a real", "b": "Dynamo, organising the whole festival alone" },
+          { "a": "Engineers restored the vintage hydroelectric", "b": "Dynamo" },
+          { "a": "The team's new midfielder was a tireless", "b": "Dynamo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dynamis", "rootLanguage": "Greek", "rootMeaning": "Power", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "dynamis", "highlight": true }, { "text": " (power); a machine, or a person, that generates energy nonstop.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dynamis", "correctAnswer": "Power", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Radar",
+    "pronunciation": "RAY-dar",
+    "pos": "noun",
+    "definition": "A system that uses radio waves to detect the position, speed, and direction of objects such as aircraft and ships.",
+    "origin": "An acronym coined by the US Navy in 1940 for <strong>Radio Detection And Ranging</strong>, developed and refined rapidly during the Second World War for detecting enemy aircraft.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Radar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "R and A stand for", "b": "Radio detection" },
+          { "a": "The full acronym is", "b": "Radio Detection And Ranging" },
+          { "a": "Coined in 1940 by the", "b": "US Navy" },
+          { "a": "Rapidly developed during the", "b": "Second World War" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Radar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Radar detects objects using", "b": "Radio waves" },
+          { "a": "Police use radar to measure a vehicle's", "b": "Speed" },
+          { "a": "Air traffic controllers track planes using", "b": "Radar" },
+          { "a": "'On my radar' figuratively means something I am", "b": "Aware of and watching" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Radar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The driver was caught speeding by a", "b": "Radar camera" },
+          { "a": "Air traffic control tracked the plane on", "b": "Radar" },
+          { "a": "The stealth aircraft was designed to avoid", "b": "Radar detection" },
+          { "a": "The rising star had suddenly appeared on everyone's", "b": "Radar" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Radio Detection And Ranging", "rootLanguage": "English acronym", "rootMeaning": "The full technical phrase behind the word", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An acronym for ", "highlight": false }, { "text": "Radio Detection And Ranging", "highlight": true }, { "text": "; born from wartime aircraft detection.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Radio Detection And Ranging", "correctAnswer": "The full technical phrase behind the word", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sonar",
+    "pronunciation": "SOH-nar",
+    "pos": "noun",
+    "definition": "A system that uses sound waves to detect and locate objects underwater.",
+    "origin": "An acronym coined by the US Navy in 1942 for <strong>SOund Navigation And Ranging</strong>, modelled directly on the wording of the newly coined radar, its radio-based counterpart.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sonar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "SO stands for", "b": "Sound" },
+          { "a": "The full acronym is", "b": "SOund Navigation And Ranging" },
+          { "a": "Coined in 1942 by the", "b": "US Navy" },
+          { "a": "Modelled directly on the wording of", "b": "Radar" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sonar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sonar detects objects using", "b": "Sound waves" },
+          { "a": "Submarines rely on sonar to navigate", "b": "Underwater" },
+          { "a": "Fishing boats use sonar to locate", "b": "Shoals of fish" },
+          { "a": "Bats use a natural form of sonar called", "b": "Echolocation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sonar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The submarine crew monitored the", "b": "Sonar for approaching vessels" },
+          { "a": "The fishing trawler's", "b": "Sonar pinpointed a large shoal" },
+          { "a": "Researchers mapped the seabed using", "b": "Sonar" },
+          { "a": "A faint ping echoed back on the", "b": "Sonar display" }
+        ] }
+    ],
+    "roots": [ { "rootText": "SOund Navigation And Ranging", "rootLanguage": "English acronym", "rootMeaning": "The full technical phrase behind the word", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An acronym for ", "highlight": false }, { "text": "SOund Navigation And Ranging", "highlight": true }, { "text": "; radar's underwater cousin.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "SOund Navigation And Ranging", "correctAnswer": "The full technical phrase behind the word", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hologram",
+    "pronunciation": "HOL-uh-gram",
+    "pos": "noun",
+    "definition": "A three-dimensional image formed by the interference of light beams, typically produced using a laser.",
+    "origin": "From Greek <strong>holos</strong> (whole) + gramma (something written), coined in 1949 by Hungarian-British physicist Dennis Gabor to describe an image recording the whole light wave, not just its intensity.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hologram</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek holos", "b": "Whole" },
+          { "a": "Greek gramma", "b": "Something written" },
+          { "a": "Coined in 1949 by", "b": "Dennis Gabor" },
+          { "a": "Named because it records the", "b": "Whole light wave, not just intensity" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hologram</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hologram is formed by the interference of", "b": "Light beams" },
+          { "a": "Holograms are typically produced using a", "b": "Laser" },
+          { "a": "Bank notes often include a", "b": "Security hologram" },
+          { "a": "A hologram appears", "b": "Three-dimensional" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hologram</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The concert used a", "b": "Hologram of the late performer" },
+          { "a": "The banknote's foil strip contained a tiny", "b": "Hologram" },
+          { "a": "The museum's exhibit displayed a floating", "b": "Hologram" },
+          { "a": "Researchers are working on true 3D", "b": "Hologram displays" }
+        ] }
+    ],
+    "roots": [ { "rootText": "holos", "rootLanguage": "Greek", "rootMeaning": "Whole", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "holos", "highlight": true }, { "text": " (whole); an image that captures the entire light wave, not just its brightness.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "holos", "correctAnswer": "Whole", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Atom",
+    "pronunciation": "AT-uhm",
+    "pos": "noun",
+    "definition": "The smallest unit of a chemical element that retains its chemical properties, consisting of a nucleus surrounded by electrons.",
+    "origin": "From Greek <strong>atomos</strong> (indivisible), from a- (not) + temnein (to cut). The philosopher Democritus proposed around 400 BC that matter was made of tiny, uncuttable particles, a theory not confirmed for over two thousand years.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Atom</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek atomos", "b": "Indivisible" },
+          { "a": "Greek temnein", "b": "To cut" },
+          { "a": "First proposed around 400 BC by", "b": "Democritus" },
+          { "a": "The theory was confirmed", "b": "Over two thousand years later" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Atom</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An atom consists of a nucleus surrounded by", "b": "Electrons" },
+          { "a": "Ironically, atoms can be split into", "b": "Smaller particles" },
+          { "a": "Every chemical element is defined by its", "b": "Number of protons in the atom" },
+          { "a": "'Not an atom of truth' figuratively means", "b": "None at all" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Atom</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chemistry diagram showed a single", "b": "Hydrogen atom" },
+          { "a": "Splitting the", "b": "Atom unleashed enormous energy" },
+          { "a": "The microscope revealed individual", "b": "Atoms on the surface" },
+          { "a": "She insisted there wasn't an", "b": "Atom of truth in the rumour" }
+        ] }
+    ],
+    "roots": [ { "rootText": "atomos", "rootLanguage": "Greek", "rootMeaning": "Indivisible", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "atomos", "highlight": true }, { "text": " (indivisible); a name that outlived the discovery it wasn't quite true.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "atomos", "correctAnswer": "Indivisible", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Molecule",
+    "pronunciation": "MOL-uh-kyool",
+    "pos": "noun",
+    "definition": "A group of two or more atoms bonded together, forming the smallest unit of a chemical compound that retains its properties.",
+    "origin": "From French <strong>molécule</strong>, from modern Latin molecula, a diminutive of moles (mass, bulk), literally meaning \"a small mass.\" The word entered scientific use in the 18th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Molecule</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin moles", "b": "Mass, bulk" },
+          { "a": "Molecula literally means", "b": "A small mass" },
+          { "a": "Reached English via", "b": "French molécule" },
+          { "a": "Entered scientific use in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Molecule</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A molecule is made of two or more bonded", "b": "Atoms" },
+          { "a": "Water's molecule is written as", "b": "H2O" },
+          { "a": "A molecule is the smallest unit of a", "b": "Chemical compound" },
+          { "a": "DNA is an example of a very large", "b": "Molecule" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Molecule</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chemist studied how a single", "b": "Molecule bonds with another" },
+          { "a": "Each water", "b": "Molecule contains two hydrogen atoms" },
+          { "a": "The lab modelled the drug's", "b": "Molecule in three dimensions" },
+          { "a": "Scientists detected a new organic", "b": "Molecule in the meteorite" }
+        ] }
+    ],
+    "roots": [ { "rootText": "moles", "rootLanguage": "Latin", "rootMeaning": "Mass, bulk", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "moles", "highlight": true }, { "text": " (mass); literally, \"a small mass\" of bonded atoms.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "moles", "correctAnswer": "Mass, bulk", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Magnet",
+    "pronunciation": "MAG-nit",
+    "pos": "noun",
+    "definition": "An object that produces a magnetic field, attracting materials such as iron; figuratively, a person or thing that strongly attracts.",
+    "origin": "From Greek <strong>Magnes lithos</strong> (\"stone of Magnesia\"), named for a region in ancient Greece where naturally magnetic lodestone was first found and recorded.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-physics", "name": "Physics & Astronomy", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Magnet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek Magnes lithos", "b": "Stone of Magnesia" },
+          { "a": "Magnesia was a", "b": "Region of ancient Greece" },
+          { "a": "Naturally magnetic rock was called", "b": "Lodestone" },
+          { "a": "Lodestone was first recorded there in the", "b": "Ancient world" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Magnet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A magnet produces a", "b": "Magnetic field" },
+          { "a": "A magnet attracts materials such as", "b": "Iron" },
+          { "a": "'A tourist magnet' figuratively describes a place that", "b": "Strongly attracts visitors" },
+          { "a": "Fridge magnets use their attraction to hold", "b": "Notes to the metal door" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Magnet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The scrapyard crane used a giant", "b": "Magnet to lift the cars" },
+          { "a": "The seaside town became a", "b": "Magnet for summer tourists" },
+          { "a": "She stuck the photo to the fridge with a", "b": "Magnet" },
+          { "a": "MRI scanners rely on an incredibly powerful", "b": "Magnet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Magnes lithos", "rootLanguage": "Greek", "rootMeaning": "Stone of Magnesia", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "Magnes lithos", "highlight": true }, { "text": " (\"stone of Magnesia\"); named after the region where lodestone was first found.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Magnes lithos", "correctAnswer": "Stone of Magnesia", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

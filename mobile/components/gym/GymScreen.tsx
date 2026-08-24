@@ -17,6 +17,7 @@ import { GradientBackground } from '@/components/ui/GradientBackground';
 import { GymModeCard } from '@/components/gym/GymModeCard';
 import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
 import { fonts, radii, typography } from '@/constants/theme';
@@ -94,12 +95,6 @@ export function GymScreen() {
           color: colors.subtext,
           marginBottom: spacing.lg,
           textAlign: 'center',
-        },
-        loading: {
-          fontFamily: fonts.sans,
-          fontSize: 15,
-          color: colors.subtext,
-          marginTop: spacing.xl,
         },
         wordCard: {
           width: '100%',
@@ -263,7 +258,19 @@ export function GymScreen() {
             <Text style={styles.subtitle}>{copy.gym.subtitle}</Text>
 
             {loading || !word ? (
-              <Text style={styles.loading}>{copy.home.wordOfDayLoading}</Text>
+              <GlassCard
+                borderRadius={radii.wotd}
+                style={styles.wordCard}
+                contentStyle={styles.wordCardInner}
+              >
+                <View accessibilityRole="progressbar" accessibilityLabel={copy.home.wordOfDayLoading}>
+                  <Skeleton width={90} height={11} style={{ marginBottom: spacing.sm }} />
+                  <Skeleton width={160} height={32} style={{ marginBottom: spacing.xs }} />
+                  <Skeleton width={110} height={13} style={{ marginBottom: spacing.md }} />
+                  <Skeleton width="92%" height={15} style={{ marginBottom: 8 }} />
+                  <Skeleton width="68%" height={15} style={{ marginBottom: spacing.sm }} />
+                </View>
+              </GlassCard>
             ) : (
               <GlassCard borderRadius={radii.wotd} style={styles.wordCard} contentStyle={styles.wordCardInner}>
                 <Text style={styles.wordLabel}>{copy.gym.todaysWord}</Text>

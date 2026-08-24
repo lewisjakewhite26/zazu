@@ -231,7 +231,14 @@ export function useProgress() {
 
         const saved = await readProgress();
         const newStreak = nextStreak(saved.streak, saved.lastCompletedDate, today);
-        const earned = coinsBreakdown(newStreak, noSnooze).total;
+        // Multiple alarms can all fire the same global word-of-the-day on the
+        // same date -- without this, completing each one separately would
+        // farm the puzzle/no-snooze/streak coin rewards repeatedly.
+        const alreadyCompletedToday = saved.lastCompletedDate === today;
+        const breakdown = alreadyCompletedToday
+          ? { puzzle: 0, noSnooze: 0, streakBonus: 0, total: 0 }
+          : coinsBreakdown(newStreak, noSnooze);
+        const earned = breakdown.total;
         const newLearned = saved.learnedWordIds.includes(wordId)
           ? saved.learnedWordIds
           : [...saved.learnedWordIds, wordId];
@@ -261,7 +268,7 @@ export function useProgress() {
           streak: next.streak,
           coinsEarned: earned,
           totalCoins: next.coins,
-          breakdown: coinsBreakdown(newStreak, noSnooze),
+          breakdown,
         };
       } finally {
         console.timeEnd('[Zazu] completeWord');

@@ -1,0 +1,3629 @@
+[
+  {
+    "word": "Husband",
+    "pronunciation": "HUZ-bund",
+    "pos": "noun",
+    "definition": "A man in relation to his spouse in a marriage.",
+    "origin": "From Old Norse <strong>húsbóndi</strong>, from <strong>hús</strong> (house) + <strong>bóndi</strong> (dweller, freeholder). Originally meant simply \"master of a house,\" with no reference to marriage at all.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Husband</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse hús",
+            "b": "House"
+          },
+          {
+            "a": "Old Norse bóndi",
+            "b": "Dweller, freeholder"
+          },
+          {
+            "a": "Original sense",
+            "b": "Master of a house"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Norse settlers in Britain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Husband</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A husband is",
+            "b": "A man in a marriage"
+          },
+          {
+            "a": "The word once meant",
+            "b": "Householder, with no marital sense"
+          },
+          {
+            "a": "Husband can also mean",
+            "b": "To manage resources carefully"
+          },
+          {
+            "a": "Related word",
+            "b": "Husbandry (careful farming)"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Husband</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Her husband",
+            "b": "Cooked dinner every Friday"
+          },
+          {
+            "a": "They introduced him as",
+            "b": "My husband of ten years"
+          },
+          {
+            "a": "Farmers husband their land by",
+            "b": "Rotating crops each season"
+          },
+          {
+            "a": "The estate was left to",
+            "b": "Her husband and children"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bóndi",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Dweller, freeholder",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse hús (house) + ",
+          "highlight": false
+        },
+        {
+          "text": "bóndi",
+          "highlight": true
+        },
+        {
+          "text": " (dweller); originally just \"master of a house.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bóndi",
+      "correctAnswer": "Dweller, freeholder",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ugly",
+    "pronunciation": "UHG-lee",
+    "pos": "adjective",
+    "definition": "Unpleasant or repulsive in appearance.",
+    "origin": "From Old Norse <strong>uggligr</strong>, meaning fearsome or dreadful, from <strong>uggr</strong> (fear, dread). The sense softened over centuries from \"frightening\" to simply \"unattractive.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ugly</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse uggr",
+            "b": "Fear, dread"
+          },
+          {
+            "a": "Old Norse uggligr",
+            "b": "Fearsome, dreadful"
+          },
+          {
+            "a": "Meaning shift",
+            "b": "Frightening became merely unattractive"
+          },
+          {
+            "a": "Entered English",
+            "b": "Via Norse settlement of Britain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ugly</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ugly describes",
+            "b": "Something unpleasant to look at"
+          },
+          {
+            "a": "The word once meant",
+            "b": "Frightening or dreadful"
+          },
+          {
+            "a": "An ugly situation is",
+            "b": "Unpleasant or hostile"
+          },
+          {
+            "a": "Antonym",
+            "b": "Beautiful"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ugly</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The renovation left",
+            "b": "An ugly scar on the facade"
+          },
+          {
+            "a": "The argument turned",
+            "b": "Ugly within minutes"
+          },
+          {
+            "a": "He winced at the",
+            "b": "Ugly weather forecast"
+          },
+          {
+            "a": "She refused to hide",
+            "b": "The ugly truth"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "uggr",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Fear, dread",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse uggligr, built on ",
+          "highlight": false
+        },
+        {
+          "text": "uggr",
+          "highlight": true
+        },
+        {
+          "text": " (fear); once meant \"dreadful,\" softened to \"unattractive.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "uggr",
+      "correctAnswer": "Fear, dread",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Skill",
+    "pronunciation": "SKIL",
+    "pos": "noun",
+    "definition": "The ability to do something well, gained through practice.",
+    "origin": "From Old Norse <strong>skil</strong>, meaning distinction or discernment, related to the verb <strong>skilja</strong> (to separate, distinguish). To have skill was originally to have good judgement.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Skill</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse skil",
+            "b": "Distinction, discernment"
+          },
+          {
+            "a": "Old Norse skilja",
+            "b": "To separate, distinguish"
+          },
+          {
+            "a": "Original sense",
+            "b": "Good judgement"
+          },
+          {
+            "a": "Modern sense",
+            "b": "Practised ability"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Skill</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A skill is",
+            "b": "A practised ability"
+          },
+          {
+            "a": "Skilled work requires",
+            "b": "Training and practice"
+          },
+          {
+            "a": "The word once meant",
+            "b": "Discernment or good sense"
+          },
+          {
+            "a": "Unskilled means",
+            "b": "Lacking trained ability"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Skill</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Years of practice honed",
+            "b": "Her carpentry skills"
+          },
+          {
+            "a": "The negotiation demanded",
+            "b": "Considerable diplomatic skill"
+          },
+          {
+            "a": "He learned the skill of",
+            "b": "Staying calm under pressure"
+          },
+          {
+            "a": "The chef's knife skills",
+            "b": "Impressed the whole kitchen"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "skil",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Distinction, discernment",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "skil",
+          "highlight": true
+        },
+        {
+          "text": " (distinction), tied to skilja \"to distinguish\"; skill began as good judgement.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "skil",
+      "correctAnswer": "Distinction, discernment",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Window",
+    "pronunciation": "WIN-doh",
+    "pos": "noun",
+    "definition": "An opening in a wall or roof, fitted with glass, that admits light and air.",
+    "origin": "From Old Norse <strong>vindauga</strong>, literally \"wind eye,\" from <strong>vindr</strong> (wind) + <strong>auga</strong> (eye). Early houses had unglazed openings that simply let the wind in.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Window</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse vindr",
+            "b": "Wind"
+          },
+          {
+            "a": "Old Norse auga",
+            "b": "Eye"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Wind eye"
+          },
+          {
+            "a": "Early windows were",
+            "b": "Unglazed openings for air"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Window</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A window is",
+            "b": "A glazed opening in a wall"
+          },
+          {
+            "a": "A window can also mean",
+            "b": "A limited period of opportunity"
+          },
+          {
+            "a": "Window shopping means",
+            "b": "Looking without buying"
+          },
+          {
+            "a": "Literal translation of the root",
+            "b": "Wind eye"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Window</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She opened the",
+            "b": "Window to let in fresh air"
+          },
+          {
+            "a": "There is only a narrow",
+            "b": "Window to submit the application"
+          },
+          {
+            "a": "The cat watched birds from",
+            "b": "The kitchen window"
+          },
+          {
+            "a": "They spent the afternoon",
+            "b": "Window shopping downtown"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "vindauga",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Wind eye",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "vindauga",
+          "highlight": true
+        },
+        {
+          "text": ", literally \"wind eye\"; the earliest windows were just holes for air.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vindauga",
+      "correctAnswer": "Wind eye",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Berserk",
+    "pronunciation": "ber-SURK",
+    "pos": "adjective",
+    "definition": "Out of control with anger or excitement; wild and frenzied.",
+    "origin": "From Old Norse <strong>berserkr</strong>, an elite warrior said to fight in a trance-like fury, possibly from <strong>ber</strong> (bear) + <strong>serkr</strong> (shirt) — a \"bear-shirt\" wearer.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Berserk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse ber",
+            "b": "Bear"
+          },
+          {
+            "a": "Old Norse serkr",
+            "b": "Shirt"
+          },
+          {
+            "a": "Berserkr described",
+            "b": "An elite frenzied warrior"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th-century antiquarian writing"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Berserk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To go berserk is to",
+            "b": "Lose control in a frenzy"
+          },
+          {
+            "a": "Berserkers were",
+            "b": "Fierce Norse warriors"
+          },
+          {
+            "a": "The word suggests",
+            "b": "Wild, uncontrolled fury"
+          },
+          {
+            "a": "Modern use is often",
+            "b": "Informal, describing sudden rage"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Berserk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The crowd went",
+            "b": "Berserk when the goal was scored"
+          },
+          {
+            "a": "He went berserk after",
+            "b": "Discovering the broken window"
+          },
+          {
+            "a": "The dog went berserk at",
+            "b": "The sound of the doorbell"
+          },
+          {
+            "a": "Fans went berserk over",
+            "b": "The surprise reunion tour"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "berserkr",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Bear-shirt warrior",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "berserkr",
+          "highlight": true
+        },
+        {
+          "text": ", possibly \"bear-shirt,\" a warrior who fought in a frenzied trance.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "berserkr",
+      "correctAnswer": "Bear-shirt warrior",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Slaughter",
+    "pronunciation": "SLAW-ter",
+    "pos": "noun",
+    "definition": "The killing of animals for food, or a brutal, indiscriminate killing.",
+    "origin": "From Old Norse <strong>slátr</strong>, meaning butcher's meat, related to <strong>slá</strong> (to strike, to slay). It entered English alongside native \"slay,\" which shares the same ancient root.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Slaughter</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse slátr",
+            "b": "Butcher's meat"
+          },
+          {
+            "a": "Old Norse slá",
+            "b": "To strike, to slay"
+          },
+          {
+            "a": "Related English word",
+            "b": "Slay"
+          },
+          {
+            "a": "Modern use",
+            "b": "Killing for food or in war"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Slaughter</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Slaughter refers to",
+            "b": "Killing animals for meat"
+          },
+          {
+            "a": "A slaughterhouse is",
+            "b": "Where livestock are processed"
+          },
+          {
+            "a": "Figuratively, slaughter means",
+            "b": "A brutal, one-sided defeat"
+          },
+          {
+            "a": "A slaughter of innocents means",
+            "b": "A massacre of the defenceless"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Slaughter</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The lambs were sent to",
+            "b": "Slaughter in early autumn"
+          },
+          {
+            "a": "The match was a",
+            "b": "Slaughter, ending nine goals to nil"
+          },
+          {
+            "a": "Historians documented",
+            "b": "The slaughter at the battlefield"
+          },
+          {
+            "a": "Regulations govern how animals",
+            "b": "Are treated before slaughter"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "slátr",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Butcher's meat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "slátr",
+          "highlight": true
+        },
+        {
+          "text": " (butcher's meat), tied to slá \"to strike\"; cousin to English \"slay.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "slátr",
+      "correctAnswer": "Butcher's meat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sleuth",
+    "pronunciation": "SLOOTH",
+    "pos": "noun",
+    "definition": "A detective, especially one who investigates with persistence and skill.",
+    "origin": "From Old Norse <strong>slóð</strong>, meaning a track or trail. Middle English \"sleuth-hound\" was a bloodhound that tracked scent; \"sleuth\" alone later came to mean the tracker himself.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sleuth</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse slóð",
+            "b": "Track, trail"
+          },
+          {
+            "a": "Sleuth-hound",
+            "b": "A scent-tracking bloodhound"
+          },
+          {
+            "a": "Meaning shift",
+            "b": "From the dog to the detective"
+          },
+          {
+            "a": "Modern use",
+            "b": "Amateur or professional investigator"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sleuth</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sleuth is",
+            "b": "A detective or investigator"
+          },
+          {
+            "a": "To sleuth means to",
+            "b": "Investigate closely"
+          },
+          {
+            "a": "A sleuth-hound was",
+            "b": "A tracking bloodhound"
+          },
+          {
+            "a": "Amateur sleuth describes",
+            "b": "A hobbyist detective"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sleuth</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The amateur sleuth",
+            "b": "Pieced together the missing clues"
+          },
+          {
+            "a": "She sleuthed her way through",
+            "b": "Old newspaper archives"
+          },
+          {
+            "a": "The novel follows a",
+            "b": "Retired detective turned sleuth"
+          },
+          {
+            "a": "Online sleuths quickly",
+            "b": "Identified the location in the photo"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "slóð",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Track, trail",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "slóð",
+          "highlight": true
+        },
+        {
+          "text": " (track); a sleuth-hound followed trails, and \"sleuth\" later meant the tracker.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "slóð",
+      "correctAnswer": "Track, trail",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Troll",
+    "pronunciation": "TROHL",
+    "pos": "noun",
+    "definition": "In folklore, a monstrous or grotesque being; online, a person who deliberately provokes others.",
+    "origin": "From Old Norse <strong>troll</strong>, a supernatural being of Scandinavian myth living in mountains or under bridges. The internet sense, \"one who provokes for amusement,\" emerged separately in 1990s online slang.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Troll</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse troll",
+            "b": "Supernatural being, monster"
+          },
+          {
+            "a": "Folklore habitat",
+            "b": "Mountains, forests, and bridges"
+          },
+          {
+            "a": "Internet sense",
+            "b": "Coined independently in 1990s slang"
+          },
+          {
+            "a": "Modern folklore icon",
+            "b": "Popularised by fantasy fiction"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Troll</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A troll in folklore is",
+            "b": "A monstrous mythical being"
+          },
+          {
+            "a": "An internet troll",
+            "b": "Provokes others for amusement"
+          },
+          {
+            "a": "To troll someone means to",
+            "b": "Deliberately wind them up online"
+          },
+          {
+            "a": "Troll fishing means",
+            "b": "Trailing bait behind a moving boat"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Troll</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "In the story, a",
+            "b": "Troll guarded the bridge"
+          },
+          {
+            "a": "The comment section filled with",
+            "b": "Trolls arguing in circles"
+          },
+          {
+            "a": "He was banned for",
+            "b": "Trolling other users"
+          },
+          {
+            "a": "The children loved the tale of",
+            "b": "The troll under the bridge"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "troll",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Supernatural being, monster",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "troll",
+          "highlight": true
+        },
+        {
+          "text": ", a monster of Scandinavian myth; the online sense arose separately in 1990s slang.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "troll",
+      "correctAnswer": "Supernatural being, monster",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fjord",
+    "pronunciation": "fee-YORD",
+    "pos": "noun",
+    "definition": "A long, narrow inlet of the sea between steep cliffs, formed by glacial erosion.",
+    "origin": "From Norwegian <strong>fjord</strong>, related to Old Norse <strong>fjǫrðr</strong> (a place to cross over, an inlet). Norway's coastline is famously carved into thousands of these glacial channels.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fjord</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse fjǫrðr",
+            "b": "A place to cross, an inlet"
+          },
+          {
+            "a": "Formed by",
+            "b": "Glacial erosion of valleys"
+          },
+          {
+            "a": "Most famous examples",
+            "b": "Norway's western coastline"
+          },
+          {
+            "a": "Related word",
+            "b": "Ford (a shallow river crossing)"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fjord</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A fjord is",
+            "b": "A narrow glacial sea inlet"
+          },
+          {
+            "a": "Fjords are flanked by",
+            "b": "Steep cliffs or mountains"
+          },
+          {
+            "a": "Fjords formed during",
+            "b": "The last ice age"
+          },
+          {
+            "a": "Famous for fjords",
+            "b": "Norway and New Zealand"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fjord</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cruise ship sailed",
+            "b": "Deep into the fjord"
+          },
+          {
+            "a": "Cliffs rose sheer on",
+            "b": "Both sides of the fjord"
+          },
+          {
+            "a": "Fishing villages line",
+            "b": "The edges of the fjord"
+          },
+          {
+            "a": "Glaciers carved",
+            "b": "The fjord over millennia"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "fjǫrðr",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "A place to cross, an inlet",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Norwegian fjord, from Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "fjǫrðr",
+          "highlight": true
+        },
+        {
+          "text": " (a place to cross); Norway's coast is carved with thousands.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "fjǫrðr",
+      "correctAnswer": "A place to cross, an inlet",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ski",
+    "pronunciation": "SKEE",
+    "pos": "noun",
+    "definition": "A long, narrow strip fastened to the foot for gliding over snow.",
+    "origin": "From Norwegian <strong>ski</strong>, from Old Norse <strong>skíð</strong>, meaning a split piece of wood, a stick of firewood, or a snowshoe. Skiing was Scandinavian transport centuries before it became sport.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ski</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse skíð",
+            "b": "Split piece of wood"
+          },
+          {
+            "a": "Norwegian ski",
+            "b": "Modern spelling adopted directly"
+          },
+          {
+            "a": "Original use",
+            "b": "Winter transport across snow"
+          },
+          {
+            "a": "Became a sport",
+            "b": "19th-century Norway"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ski</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A ski is",
+            "b": "A gliding strip worn on the foot"
+          },
+          {
+            "a": "To ski means to",
+            "b": "Travel over snow on skis"
+          },
+          {
+            "a": "Cross-country skiing emphasises",
+            "b": "Endurance over flat terrain"
+          },
+          {
+            "a": "Downhill skiing emphasises",
+            "b": "Speed down a slope"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ski</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She waxed her",
+            "b": "Skis before the race"
+          },
+          {
+            "a": "They spent the week",
+            "b": "Skiing in the Alps"
+          },
+          {
+            "a": "He fell twice while",
+            "b": "Learning to ski"
+          },
+          {
+            "a": "The resort groomed",
+            "b": "Fresh trails for skiing"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "skíð",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Split piece of wood",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Norwegian ski, from Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "skíð",
+          "highlight": true
+        },
+        {
+          "text": "; Scandinavian transport for centuries before it was a sport.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "skíð",
+      "correctAnswer": "Split piece of wood",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Slalom",
+    "pronunciation": "SLAH-lom",
+    "pos": "noun",
+    "definition": "A skiing or canoeing race down a winding course marked by gates or obstacles.",
+    "origin": "From Norwegian dialect <strong>slalåm</strong>, from <strong>sla</strong> (sloping) + <strong>låm</strong> (track, trail). It named a sloping ski trail before becoming the name of the competitive event.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Slalom</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Norwegian sla",
+            "b": "Sloping"
+          },
+          {
+            "a": "Norwegian låm",
+            "b": "Track, trail"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A sloping ski trail"
+          },
+          {
+            "a": "Became a sport term",
+            "b": "Early 20th-century Norway"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Slalom</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A slalom is",
+            "b": "A winding race through gates"
+          },
+          {
+            "a": "Slalom skiing tests",
+            "b": "Agility and quick turns"
+          },
+          {
+            "a": "Giant slalom uses",
+            "b": "Wider-spaced gates than slalom"
+          },
+          {
+            "a": "Slalom can also apply to",
+            "b": "Canoeing or driving courses"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Slalom</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The skier carved through",
+            "b": "Each slalom gate cleanly"
+          },
+          {
+            "a": "She won gold in",
+            "b": "The women's slalom"
+          },
+          {
+            "a": "The kayaker navigated",
+            "b": "The slalom course downstream"
+          },
+          {
+            "a": "Cones marked out",
+            "b": "A makeshift slalom in the car park"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "låm",
+        "rootLanguage": "Norwegian",
+        "rootMeaning": "Track, trail",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Norwegian slalåm: sla (sloping) + ",
+          "highlight": false
+        },
+        {
+          "text": "låm",
+          "highlight": true
+        },
+        {
+          "text": " (track); once just the name of a sloping ski trail.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "låm",
+      "correctAnswer": "Track, trail",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Narwhal",
+    "pronunciation": "NAR-wal",
+    "pos": "noun",
+    "definition": "An Arctic whale, the male of which has a long, spiralled tusk.",
+    "origin": "From Danish <strong>narhval</strong>, from Old Norse <strong>nár</strong> (corpse) + <strong>hvalr</strong> (whale) — a \"corpse whale,\" likely for its mottled grey skin resembling a drowned sailor.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Narwhal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse nár",
+            "b": "Corpse"
+          },
+          {
+            "a": "Old Norse hvalr",
+            "b": "Whale"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Corpse whale"
+          },
+          {
+            "a": "Named for",
+            "b": "Mottled grey skin"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Narwhal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A narwhal is",
+            "b": "An Arctic whale with a spiral tusk"
+          },
+          {
+            "a": "The narwhal tusk is",
+            "b": "An elongated canine tooth"
+          },
+          {
+            "a": "Narwhals are sometimes called",
+            "b": "The unicorns of the sea"
+          },
+          {
+            "a": "Narwhals live mainly in",
+            "b": "Arctic waters"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Narwhal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The documentary filmed",
+            "b": "A pod of narwhals surfacing"
+          },
+          {
+            "a": "Medieval traders sold",
+            "b": "Narwhal tusks as unicorn horns"
+          },
+          {
+            "a": "The narwhal's tusk can grow",
+            "b": "Up to three metres long"
+          },
+          {
+            "a": "Researchers tagged the",
+            "b": "Narwhal to track its migration"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "nár",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "Corpse",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "nár",
+          "highlight": true
+        },
+        {
+          "text": " (corpse) + hvalr (whale); named for skin resembling a drowned body.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nár",
+      "correctAnswer": "Corpse",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Smorgasbord",
+    "pronunciation": "SHMOR-gus-bord",
+    "pos": "noun",
+    "definition": "A buffet meal offering a wide variety of dishes; loosely, any varied assortment.",
+    "origin": "From Swedish <strong>smörgåsbord</strong>, from <strong>smörgås</strong> (open sandwich, literally \"butter goose\") + <strong>bord</strong> (table). A traditional spread of many small dishes served together.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Smorgasbord</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Swedish smörgås",
+            "b": "Open sandwich"
+          },
+          {
+            "a": "Swedish bord",
+            "b": "Table"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Sandwich table"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century, via Swedish cuisine"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Smorgasbord</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A smorgasbord is",
+            "b": "A buffet of varied dishes"
+          },
+          {
+            "a": "Figuratively, a smorgasbord means",
+            "b": "A wide, varied assortment"
+          },
+          {
+            "a": "Traditional smorgasbord includes",
+            "b": "Cold fish, meats, and cheeses"
+          },
+          {
+            "a": "The word describes",
+            "b": "Abundance and variety"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Smorgasbord</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The hotel breakfast offered",
+            "b": "A smorgasbord of pastries"
+          },
+          {
+            "a": "The festival was",
+            "b": "A smorgasbord of live music"
+          },
+          {
+            "a": "Guests helped themselves to",
+            "b": "The smorgasbord of appetisers"
+          },
+          {
+            "a": "The course covers",
+            "b": "A smorgasbord of programming topics"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bord",
+        "rootLanguage": "Swedish",
+        "rootMeaning": "Table",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Swedish smörgåsbord: smörgås (open sandwich) + ",
+          "highlight": false
+        },
+        {
+          "text": "bord",
+          "highlight": true
+        },
+        {
+          "text": " (table); a traditional spread of many small dishes.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bord",
+      "correctAnswer": "Table",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hygge",
+    "pronunciation": "HOO-guh",
+    "pos": "noun",
+    "definition": "A quality of cosiness and comfortable contentment, especially associated with Danish life.",
+    "origin": "From Danish <strong>hygge</strong>, ultimately from Old Norse <strong>hygga</strong> (to comfort, to think). It has no exact English equivalent, describing warmth, candlelight, and togetherness.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hygge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse hygga",
+            "b": "To comfort, to think"
+          },
+          {
+            "a": "Danish hygge",
+            "b": "Cosy contentment"
+          },
+          {
+            "a": "No exact equivalent in",
+            "b": "English"
+          },
+          {
+            "a": "Popularised globally in",
+            "b": "The 2010s lifestyle trend"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hygge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hygge describes",
+            "b": "Cosy, contented comfort"
+          },
+          {
+            "a": "Hygge is often linked to",
+            "b": "Candles, blankets, and warm drinks"
+          },
+          {
+            "a": "The feeling centres on",
+            "b": "Togetherness and simple pleasures"
+          },
+          {
+            "a": "Danish culture treats hygge as",
+            "b": "A national value"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hygge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They lit candles for",
+            "b": "A proper night of hygge"
+          },
+          {
+            "a": "The cabin's wool blankets and fire",
+            "b": "Radiated pure hygge"
+          },
+          {
+            "a": "Sunday mornings with coffee felt",
+            "b": "Wonderfully hygge"
+          },
+          {
+            "a": "The café was styled around",
+            "b": "Danish hygge aesthetics"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "hygga",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "To comfort, to think",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Danish hygge, ultimately from Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "hygga",
+          "highlight": true
+        },
+        {
+          "text": " (to comfort); describes warmth, candlelight, and togetherness.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hygga",
+      "correctAnswer": "To comfort, to think",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sauna",
+    "pronunciation": "SOW-nuh",
+    "pos": "noun",
+    "definition": "A small room heated to a high temperature, used for steam bathing and relaxation.",
+    "origin": "From Finnish <strong>sauna</strong>, of ancient and uncertain origin, possibly related to a word for a pit dwelling. Saunas have been central to Finnish daily life for over a thousand years.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sauna</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Finnish sauna",
+            "b": "Bathhouse, heated room"
+          },
+          {
+            "a": "Possible root sense",
+            "b": "Pit dwelling"
+          },
+          {
+            "a": "Age of the tradition",
+            "b": "Over a thousand years"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sauna</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sauna is",
+            "b": "A room heated for steam bathing"
+          },
+          {
+            "a": "Traditional saunas were heated by",
+            "b": "Wood-burning stoves"
+          },
+          {
+            "a": "A sauna session promotes",
+            "b": "Relaxation and sweating"
+          },
+          {
+            "a": "Finland has more saunas than",
+            "b": "Cars, per capita"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sauna</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "After skiing, they warmed up in",
+            "b": "The lakeside sauna"
+          },
+          {
+            "a": "He finished each workout with",
+            "b": "Fifteen minutes in the sauna"
+          },
+          {
+            "a": "Steam hissed as water hit",
+            "b": "The sauna's hot stones"
+          },
+          {
+            "a": "The spa's newest amenity is",
+            "b": "A cedar-panelled sauna"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sauna",
+        "rootLanguage": "Finnish",
+        "rootMeaning": "Bathhouse, heated room",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Finnish ",
+          "highlight": false
+        },
+        {
+          "text": "sauna",
+          "highlight": true
+        },
+        {
+          "text": ", of ancient origin; central to Finnish life for over a thousand years.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sauna",
+      "correctAnswer": "Bathhouse, heated room",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ombudsman",
+    "pronunciation": "OM-budz-man",
+    "pos": "noun",
+    "definition": "An official appointed to investigate individuals' complaints against maladministration.",
+    "origin": "From Swedish <strong>ombudsman</strong>, from <strong>ombud</strong> (representative, proxy) + <strong>man</strong> (man). Sweden created the office in 1809 to hold government agencies accountable to citizens.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ombudsman</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Swedish ombud",
+            "b": "Representative, proxy"
+          },
+          {
+            "a": "Swedish man",
+            "b": "Man"
+          },
+          {
+            "a": "Office created in",
+            "b": "1809, Sweden"
+          },
+          {
+            "a": "Purpose",
+            "b": "Hold agencies accountable to citizens"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ombudsman</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An ombudsman is",
+            "b": "An independent complaints official"
+          },
+          {
+            "a": "Ombudsmen typically investigate",
+            "b": "Maladministration or unfair treatment"
+          },
+          {
+            "a": "Many countries adopted the role in",
+            "b": "The 20th century"
+          },
+          {
+            "a": "An ombudsman acts as",
+            "b": "A go-between for citizens and institutions"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ombudsman</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She filed a complaint with",
+            "b": "The banking ombudsman"
+          },
+          {
+            "a": "The ombudsman ruled that",
+            "b": "The company had acted unfairly"
+          },
+          {
+            "a": "Universities now employ",
+            "b": "A student ombudsman"
+          },
+          {
+            "a": "The ombudsman's report criticised",
+            "b": "The council's handling of the case"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ombud",
+        "rootLanguage": "Swedish",
+        "rootMeaning": "Representative, proxy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Swedish ",
+          "highlight": false
+        },
+        {
+          "text": "ombud",
+          "highlight": true
+        },
+        {
+          "text": " (representative) + man; the office was created in Sweden in 1809.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ombud",
+      "correctAnswer": "Representative, proxy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cookie",
+    "pronunciation": "KUUK-ee",
+    "pos": "noun",
+    "definition": "A small, sweet baked treat; also, a small file storing data from a website.",
+    "origin": "From Dutch <strong>koekje</strong>, meaning \"little cake,\" a diminutive of <strong>koek</strong> (cake). Dutch settlers carried the word to America, where it replaced \"biscuit\" for the sweet snack.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cookie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch koek",
+            "b": "Cake"
+          },
+          {
+            "a": "Dutch koekje",
+            "b": "Little cake"
+          },
+          {
+            "a": "Brought to America by",
+            "b": "Dutch settlers"
+          },
+          {
+            "a": "Computing sense coined",
+            "b": "1990s, for web browser data"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cookie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A cookie is",
+            "b": "A small sweet baked treat"
+          },
+          {
+            "a": "A web cookie stores",
+            "b": "Data about a site visit"
+          },
+          {
+            "a": "A tough cookie means",
+            "b": "A resilient person"
+          },
+          {
+            "a": "That's the way the cookie crumbles means",
+            "b": "That's just how things turned out"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cookie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She baked a batch of",
+            "b": "Chocolate chip cookies"
+          },
+          {
+            "a": "The website asked her to",
+            "b": "Accept cookies"
+          },
+          {
+            "a": "He's a tough",
+            "b": "Cookie who never backs down"
+          },
+          {
+            "a": "The jar of cookies was",
+            "b": "Empty by lunchtime"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "koek",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Cake",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch koekje, \"little cake,\" from ",
+          "highlight": false
+        },
+        {
+          "text": "koek",
+          "highlight": true
+        },
+        {
+          "text": " (cake); carried to America by Dutch settlers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "koek",
+      "correctAnswer": "Cake",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boss",
+    "pronunciation": "BOSS",
+    "pos": "noun",
+    "definition": "A person who employs or supervises others.",
+    "origin": "From Dutch <strong>baas</strong>, meaning master or foreman. American English adopted it in the 1600s, partly to avoid the word \"master,\" which carried the taint of slavery.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boss</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch baas",
+            "b": "Master, foreman"
+          },
+          {
+            "a": "Adopted into English",
+            "b": "1600s American colonies"
+          },
+          {
+            "a": "Reason for adoption",
+            "b": "Avoided the loaded word \"master\""
+          },
+          {
+            "a": "Modern extended sense",
+            "b": "Excellent, impressive (slang)"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boss</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A boss is",
+            "b": "An employer or supervisor"
+          },
+          {
+            "a": "To boss someone means to",
+            "b": "Order them around"
+          },
+          {
+            "a": "As slang, boss can mean",
+            "b": "Excellent or impressive"
+          },
+          {
+            "a": "A crime boss is",
+            "b": "The leader of a criminal organisation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boss</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She asked her",
+            "b": "Boss for the afternoon off"
+          },
+          {
+            "a": "He stopped bossing",
+            "b": "His younger siblings around"
+          },
+          {
+            "a": "The new sneakers looked",
+            "b": "Pretty boss"
+          },
+          {
+            "a": "The union confronted",
+            "b": "The factory boss"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "baas",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Master, foreman",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "baas",
+          "highlight": true
+        },
+        {
+          "text": " (master); American English favoured it partly to avoid the word \"master.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "baas",
+      "correctAnswer": "Master, foreman",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Yacht",
+    "pronunciation": "YOT",
+    "pos": "noun",
+    "definition": "A medium-sized sailing or motor vessel used for pleasure cruising or racing.",
+    "origin": "From Dutch <strong>jacht</strong>, short for <strong>jachtschip</strong> (\"hunting ship\"), a fast, light vessel originally used to pursue pirates and smugglers along the coast.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Yacht</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch jacht",
+            "b": "Hunt, chase"
+          },
+          {
+            "a": "Dutch jachtschip",
+            "b": "Hunting ship"
+          },
+          {
+            "a": "Original purpose",
+            "b": "Chasing pirates and smugglers"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, via King Charles II"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Yacht</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A yacht is",
+            "b": "A pleasure or racing vessel"
+          },
+          {
+            "a": "Yachting refers to",
+            "b": "The sport or leisure of sailing"
+          },
+          {
+            "a": "A superyacht is",
+            "b": "A very large private yacht"
+          },
+          {
+            "a": "Yacht clubs organise",
+            "b": "Sailing races and social events"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Yacht</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The billionaire moored his",
+            "b": "Yacht in the harbour"
+          },
+          {
+            "a": "They chartered a",
+            "b": "Yacht for the weekend"
+          },
+          {
+            "a": "Racing yachts sliced through",
+            "b": "The choppy water"
+          },
+          {
+            "a": "The marina was full of",
+            "b": "Gleaming white yachts"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "jacht",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Hunt, chase",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "jacht",
+          "highlight": true
+        },
+        {
+          "text": " (hunt), short for jachtschip \"hunting ship\"; once used to chase pirates.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "jacht",
+      "correctAnswer": "Hunt, chase",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Brandy",
+    "pronunciation": "BRAN-dee",
+    "pos": "noun",
+    "definition": "A strong spirit distilled from wine or fermented fruit juice.",
+    "origin": "From Dutch <strong>brandewijn</strong>, meaning \"burnt wine,\" from <strong>branden</strong> (to burn, distil) + <strong>wijn</strong> (wine). Distillation was seen as a way of \"burning\" the wine to concentrate it.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Brandy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch branden",
+            "b": "To burn, distil"
+          },
+          {
+            "a": "Dutch wijn",
+            "b": "Wine"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Burnt wine"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, shortened from \"brandwine\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Brandy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Brandy is",
+            "b": "A spirit distilled from wine"
+          },
+          {
+            "a": "Cognac is",
+            "b": "A type of French brandy"
+          },
+          {
+            "a": "Brandy is often served",
+            "b": "After dinner in a warmed glass"
+          },
+          {
+            "a": "Fruit brandy is distilled from",
+            "b": "Fermented fruit rather than grapes"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Brandy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He poured a small glass of",
+            "b": "Brandy after dinner"
+          },
+          {
+            "a": "The cake was soaked in",
+            "b": "Brandy and dried fruit"
+          },
+          {
+            "a": "She warmed the",
+            "b": "Brandy glass in her palm"
+          },
+          {
+            "a": "The recipe called for",
+            "b": "A splash of cherry brandy"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "branden",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "To burn, distil",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch brandewijn, \"burnt wine\": ",
+          "highlight": false
+        },
+        {
+          "text": "branden",
+          "highlight": true
+        },
+        {
+          "text": " (to burn) + wijn (wine); distilling was seen as \"burning.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "branden",
+      "correctAnswer": "To burn, distil",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sleigh",
+    "pronunciation": "SLAY",
+    "pos": "noun",
+    "definition": "A vehicle on runners for travelling over snow or ice, typically pulled by horses.",
+    "origin": "From Dutch <strong>slee</strong>, a shortened form of <strong>slede</strong> (sledge). Dutch settlers in colonial New York brought both the vehicle and the word into American English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sleigh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch slede",
+            "b": "Sledge"
+          },
+          {
+            "a": "Dutch slee",
+            "b": "Shortened form"
+          },
+          {
+            "a": "Brought to America by",
+            "b": "Dutch settlers in New York"
+          },
+          {
+            "a": "Cultural association",
+            "b": "Christmas and winter travel"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sleigh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sleigh is",
+            "b": "A runner vehicle for snow"
+          },
+          {
+            "a": "Sleighs are traditionally pulled by",
+            "b": "Horses or reindeer"
+          },
+          {
+            "a": "A sleigh bell is",
+            "b": "A small bell worn on harnesses"
+          },
+          {
+            "a": "Sleigh differs from sledge in",
+            "b": "Being larger and passenger-carrying"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sleigh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The family took a",
+            "b": "Sleigh ride through the snowy woods"
+          },
+          {
+            "a": "Bells jingled on",
+            "b": "The harness of the sleigh"
+          },
+          {
+            "a": "Santa's sleigh is pulled by",
+            "b": "Eight reindeer"
+          },
+          {
+            "a": "They wrapped in blankets for",
+            "b": "The open sleigh"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "slede",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Sledge",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch slee, short for ",
+          "highlight": false
+        },
+        {
+          "text": "slede",
+          "highlight": true
+        },
+        {
+          "text": " (sledge); brought to America by Dutch settlers in New York.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "slede",
+      "correctAnswer": "Sledge",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Yankee",
+    "pronunciation": "YANG-kee",
+    "pos": "noun",
+    "definition": "A person from the United States, especially the northern states, particularly New England.",
+    "origin": "Likely from Dutch <strong>Janke</strong>, a diminutive of the name Jan (John), used as a nickname for Dutch settlers and later applied to New Englanders by the Dutch of New Amsterdam.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Yankee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch Jan",
+            "b": "John"
+          },
+          {
+            "a": "Dutch Janke",
+            "b": "Little John (a nickname)"
+          },
+          {
+            "a": "First applied to",
+            "b": "Dutch settlers, then New Englanders"
+          },
+          {
+            "a": "Later broadened to mean",
+            "b": "Any American, especially from the North"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Yankee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A Yankee is",
+            "b": "A person from the northern US"
+          },
+          {
+            "a": "Outside the US, Yankee can mean",
+            "b": "Any American"
+          },
+          {
+            "a": "Yankee Doodle is",
+            "b": "A patriotic American song"
+          },
+          {
+            "a": "The New York Yankees are",
+            "b": "A baseball team named for the term"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Yankee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Southerners once teased northerners as",
+            "b": "Yankees"
+          },
+          {
+            "a": "The tourists were unmistakably",
+            "b": "Yankees abroad"
+          },
+          {
+            "a": "The war pitted Yankees against",
+            "b": "Confederates"
+          },
+          {
+            "a": "He grew up in a",
+            "b": "Small Yankee fishing town"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Janke",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Little John (a nickname)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Likely from Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "Janke",
+          "highlight": true
+        },
+        {
+          "text": ", a nickname for \"John\"; New Amsterdam Dutch applied it to New Englanders.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Janke",
+      "correctAnswer": "Little John (a nickname)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Knapsack",
+    "pronunciation": "NAP-sak",
+    "pos": "noun",
+    "definition": "A bag carried on the back, used for carrying supplies.",
+    "origin": "From Dutch <strong>knapzak</strong>, from <strong>knappen</strong> (to eat, to bite) + <strong>zak</strong> (sack, bag) — literally a \"food sack\" for provisions carried on a journey.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Knapsack</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch knappen",
+            "b": "To eat, to bite"
+          },
+          {
+            "a": "Dutch zak",
+            "b": "Sack, bag"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Food sack"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, via soldiers and travellers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Knapsack</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A knapsack is",
+            "b": "A bag carried on the back"
+          },
+          {
+            "a": "Knapsacks were traditionally used by",
+            "b": "Soldiers and hikers"
+          },
+          {
+            "a": "A knapsack differs from a rucksack in",
+            "b": "Being smaller and simpler"
+          },
+          {
+            "a": "Modern equivalent",
+            "b": "A backpack"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Knapsack</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He packed sandwiches into",
+            "b": "His knapsack"
+          },
+          {
+            "a": "The scout adjusted",
+            "b": "Her knapsack straps"
+          },
+          {
+            "a": "The soldier marched with",
+            "b": "A heavy knapsack"
+          },
+          {
+            "a": "They set off with only",
+            "b": "A knapsack of essentials"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "zak",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Sack, bag",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch knapzak: knappen (to eat) + ",
+          "highlight": false
+        },
+        {
+          "text": "zak",
+          "highlight": true
+        },
+        {
+          "text": " (sack); literally a \"food sack\" for a journey.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "zak",
+      "correctAnswer": "Sack, bag",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Skate",
+    "pronunciation": "SKAYT",
+    "pos": "verb",
+    "definition": "To glide smoothly over ice or a hard surface on skates.",
+    "origin": "From Dutch <strong>schaats</strong>, from Old French <strong>eschasse</strong> (stilt), referring to the raised blade attached to the boot. The Dutch popularised ice skating as recreation across Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Skate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch schaats",
+            "b": "Stilt, skate blade"
+          },
+          {
+            "a": "Ultimate source",
+            "b": "Old French eschasse (stilt)"
+          },
+          {
+            "a": "Popularised by",
+            "b": "The Dutch, on frozen canals"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Skate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To skate means to",
+            "b": "Glide on ice or wheels"
+          },
+          {
+            "a": "A skateboard adapted the word for",
+            "b": "A wheeled board sport"
+          },
+          {
+            "a": "To skate over something means to",
+            "b": "Deal with it superficially"
+          },
+          {
+            "a": "Figure skating combines",
+            "b": "Skating with artistic performance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Skate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The children learned to",
+            "b": "Skate on the frozen pond"
+          },
+          {
+            "a": "She skated gracefully across",
+            "b": "The rink"
+          },
+          {
+            "a": "He tried to skate over",
+            "b": "The awkward question"
+          },
+          {
+            "a": "Skateboarders gathered at",
+            "b": "The new skate park"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "schaats",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Stilt, skate blade",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "schaats",
+          "highlight": true
+        },
+        {
+          "text": ", from Old French \"stilt\"; the Dutch popularised ice skating across Europe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "schaats",
+      "correctAnswer": "Stilt, skate blade",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Smuggle",
+    "pronunciation": "SMUHG-uhl",
+    "pos": "verb",
+    "definition": "To move goods illegally into or out of a country, or to convey something secretly.",
+    "origin": "From Low German or Dutch <strong>smukkelen</strong>/<strong>smokkelen</strong>, meaning to sneak or move secretly, related to the idea of slipping something out of sight.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Smuggle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch smokkelen",
+            "b": "To sneak, move secretly"
+          },
+          {
+            "a": "Related to",
+            "b": "Low German seafaring slang"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, via coastal trade"
+          },
+          {
+            "a": "Associated crime",
+            "b": "Illegal import or export of goods"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Smuggle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To smuggle means to",
+            "b": "Move goods illegally"
+          },
+          {
+            "a": "A smuggler is",
+            "b": "Someone who trades illicit goods"
+          },
+          {
+            "a": "Smuggling often evades",
+            "b": "Customs duties or bans"
+          },
+          {
+            "a": "Figuratively, to smuggle something in means to",
+            "b": "Sneak it in unnoticed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Smuggle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Customs officers caught them trying to",
+            "b": "Smuggle contraband across the border"
+          },
+          {
+            "a": "She smuggled a note",
+            "b": "Into his coat pocket"
+          },
+          {
+            "a": "The gang was accused of",
+            "b": "Smuggling stolen art"
+          },
+          {
+            "a": "He tried to smuggle",
+            "b": "Snacks into the cinema"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "smokkelen",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "To sneak, move secretly",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "smokkelen",
+          "highlight": true
+        },
+        {
+          "text": " (to sneak); entered English via Low German trading contacts in the 1600s.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "smokkelen",
+      "correctAnswer": "To sneak, move secretly",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sloop",
+    "pronunciation": "SLOOP",
+    "pos": "noun",
+    "definition": "A sailing boat with a single mast and a mainsail and jib.",
+    "origin": "From Dutch <strong>sloep</strong>, meaning a small sailing vessel, itself possibly related to a verb meaning \"to glide.\" Sloops were common working boats in Dutch and colonial American waters.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sloop</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch sloep",
+            "b": "Small sailing vessel"
+          },
+          {
+            "a": "Possible root sense",
+            "b": "To glide"
+          },
+          {
+            "a": "Common in",
+            "b": "Dutch and colonial American waters"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sloop</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sloop is",
+            "b": "A single-masted sailing boat"
+          },
+          {
+            "a": "A sloop carries",
+            "b": "A mainsail and a jib"
+          },
+          {
+            "a": "Sloops were historically used for",
+            "b": "Coastal trade and fishing"
+          },
+          {
+            "a": "Sloop-of-war described",
+            "b": "A small warship"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sloop</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The sloop tacked smoothly against",
+            "b": "The evening breeze"
+          },
+          {
+            "a": "He learned to sail on",
+            "b": "An old wooden sloop"
+          },
+          {
+            "a": "The harbour was full of",
+            "b": "Small sloops and dinghies"
+          },
+          {
+            "a": "Pirates once favoured",
+            "b": "The fast, shallow-draft sloop"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sloep",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Small sailing vessel",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "sloep",
+          "highlight": true
+        },
+        {
+          "text": " (small sailing vessel); a common working boat in colonial American waters.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sloep",
+      "correctAnswer": "Small sailing vessel",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Walrus",
+    "pronunciation": "WAWL-rus",
+    "pos": "noun",
+    "definition": "A large Arctic marine mammal with long tusks and a bristly moustache.",
+    "origin": "From Dutch <strong>walrus</strong>, likely a reworking of an earlier Scandinavian compound meaning \"whale-horse,\" from words for \"whale\" and \"horse\" swapped in order by folk etymology.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Walrus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch walrus",
+            "b": "Whale-horse"
+          },
+          {
+            "a": "Likely source",
+            "b": "Old Norse \"hross-hvalr\" reversed"
+          },
+          {
+            "a": "Named for",
+            "b": "Its bulk and tusks"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, via Dutch whalers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Walrus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A walrus is",
+            "b": "A tusked Arctic marine mammal"
+          },
+          {
+            "a": "Walruses are known for",
+            "b": "Long ivory tusks"
+          },
+          {
+            "a": "A walrus moustache describes",
+            "b": "A thick, drooping moustache"
+          },
+          {
+            "a": "Walruses live mostly in",
+            "b": "Arctic coastal waters"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Walrus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A colony of",
+            "b": "Walruses basked on the ice floe"
+          },
+          {
+            "a": "His bushy moustache earned him",
+            "b": "The nickname \"the walrus\""
+          },
+          {
+            "a": "The walrus used its tusks to",
+            "b": "Haul itself onto the ice"
+          },
+          {
+            "a": "Nature documentaries filmed",
+            "b": "The walrus diving for clams"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "walrus",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Whale-horse",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "walrus",
+          "highlight": true
+        },
+        {
+          "text": ", likely a reshaping of a Norse \"whale-horse\" compound.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "walrus",
+      "correctAnswer": "Whale-horse",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Maelstrom",
+    "pronunciation": "MAYL-strom",
+    "pos": "noun",
+    "definition": "A powerful whirlpool, or a situation of great confusion and turmoil.",
+    "origin": "From Dutch <strong>maalstroom</strong>, from <strong>malen</strong> (to grind, to whirl) + <strong>stroom</strong> (stream). Originally named a specific whirlpool off the Norwegian coast.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Maelstrom</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch malen",
+            "b": "To grind, to whirl"
+          },
+          {
+            "a": "Dutch stroom",
+            "b": "Stream"
+          },
+          {
+            "a": "Originally named",
+            "b": "A whirlpool off Norway"
+          },
+          {
+            "a": "Figurative sense",
+            "b": "Chaos or turmoil"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Maelstrom</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A maelstrom is",
+            "b": "A powerful whirlpool"
+          },
+          {
+            "a": "Figuratively, a maelstrom means",
+            "b": "Overwhelming confusion or chaos"
+          },
+          {
+            "a": "The original maelstrom lay off",
+            "b": "The Norwegian coast"
+          },
+          {
+            "a": "Writers use maelstrom to describe",
+            "b": "Turbulent emotions or events"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Maelstrom</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The ship was pulled toward",
+            "b": "The roaring maelstrom"
+          },
+          {
+            "a": "The scandal plunged the office into",
+            "b": "A maelstrom of accusations"
+          },
+          {
+            "a": "She felt swept into",
+            "b": "A maelstrom of grief"
+          },
+          {
+            "a": "The market fell into",
+            "b": "A maelstrom of panic selling"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "stroom",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Stream",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch maalstroom: malen (to grind) + ",
+          "highlight": false
+        },
+        {
+          "text": "stroom",
+          "highlight": true
+        },
+        {
+          "text": " (stream); first named a whirlpool off Norway.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "stroom",
+      "correctAnswer": "Stream",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Iceberg",
+    "pronunciation": "EYES-berg",
+    "pos": "noun",
+    "definition": "A large mass of ice floating in the sea, broken off from a glacier or ice sheet.",
+    "origin": "From Dutch <strong>ijsberg</strong>, literally \"ice mountain,\" from <strong>ijs</strong> (ice) + <strong>berg</strong> (mountain). English borrowed the term directly from Dutch and Scandinavian whalers.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Iceberg</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch ijs",
+            "b": "Ice"
+          },
+          {
+            "a": "Dutch berg",
+            "b": "Mountain"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Ice mountain"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Dutch and Scandinavian whalers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Iceberg</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An iceberg is",
+            "b": "A floating mass of glacial ice"
+          },
+          {
+            "a": "\"Tip of the iceberg\" means",
+            "b": "A small visible part of a bigger problem"
+          },
+          {
+            "a": "Most of an iceberg lies",
+            "b": "Below the waterline"
+          },
+          {
+            "a": "Icebergs form when",
+            "b": "Glaciers calve into the sea"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Iceberg</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The Titanic struck",
+            "b": "An iceberg in the North Atlantic"
+          },
+          {
+            "a": "The scandal was just",
+            "b": "The tip of the iceberg"
+          },
+          {
+            "a": "Researchers tracked",
+            "b": "The drifting iceberg by satellite"
+          },
+          {
+            "a": "Sunlight turned",
+            "b": "The iceberg a pale blue"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "berg",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Mountain",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ijsberg, \"ice mountain\": ijs (ice) + ",
+          "highlight": false
+        },
+        {
+          "text": "berg",
+          "highlight": true
+        },
+        {
+          "text": " (mountain), from Dutch and Scandinavian whalers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "berg",
+      "correctAnswer": "Mountain",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Coleslaw",
+    "pronunciation": "KOHL-slaw",
+    "pos": "noun",
+    "definition": "A salad of finely shredded raw cabbage, typically dressed with mayonnaise.",
+    "origin": "From Dutch <strong>koolsla</strong>, from <strong>kool</strong> (cabbage) + <strong>sla</strong> (salad). Dutch colonists brought the dish to New York, where it was later re-spelled to resemble \"cold slaw.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Coleslaw</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch kool",
+            "b": "Cabbage"
+          },
+          {
+            "a": "Dutch sla",
+            "b": "Salad"
+          },
+          {
+            "a": "Brought to America by",
+            "b": "Dutch colonists in New York"
+          },
+          {
+            "a": "Later folk-spelled as",
+            "b": "\"Cold slaw\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Coleslaw</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Coleslaw is",
+            "b": "A shredded cabbage salad"
+          },
+          {
+            "a": "Coleslaw is typically dressed with",
+            "b": "Mayonnaise or vinegar"
+          },
+          {
+            "a": "It is commonly served alongside",
+            "b": "Barbecue and fried food"
+          },
+          {
+            "a": "The name is unrelated to",
+            "b": "Being served cold"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Coleslaw</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The barbecue platter came with",
+            "b": "A side of coleslaw"
+          },
+          {
+            "a": "She shredded cabbage and carrot for",
+            "b": "Homemade coleslaw"
+          },
+          {
+            "a": "The sandwich was topped with",
+            "b": "A scoop of coleslaw"
+          },
+          {
+            "a": "His recipe swaps mayonnaise for",
+            "b": "A tangy vinegar coleslaw dressing"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kool",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Cabbage",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch koolsla: ",
+          "highlight": false
+        },
+        {
+          "text": "kool",
+          "highlight": true
+        },
+        {
+          "text": " (cabbage) + sla (salad); brought to New York by Dutch colonists.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kool",
+      "correctAnswer": "Cabbage",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Waffle",
+    "pronunciation": "WOF-uhl",
+    "pos": "noun",
+    "definition": "A crisp batter cake with a grid pattern; also, to speak or write vaguely without committing to a view.",
+    "origin": "From Dutch <strong>wafel</strong>, related to <strong>wafer</strong>. The verb sense, \"to talk evasively,\" developed separately in English from an older word meaning \"to yelp\" or \"flap about.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-nordic",
+      "name": "From Northern Europe",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Waffle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch wafel",
+            "b": "Wafer, thin cake"
+          },
+          {
+            "a": "Related English word",
+            "b": "Wafer"
+          },
+          {
+            "a": "The verb \"waffle\" comes from",
+            "b": "A separate word meaning \"to yelp\""
+          },
+          {
+            "a": "Brought to America by",
+            "b": "Dutch settlers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Waffle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A waffle is",
+            "b": "A gridded batter cake"
+          },
+          {
+            "a": "To waffle means to",
+            "b": "Speak vaguely, avoiding commitment"
+          },
+          {
+            "a": "A waffle iron",
+            "b": "Presses the batter into its pattern"
+          },
+          {
+            "a": "A politician who waffles",
+            "b": "Avoids giving a clear answer"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Waffle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Breakfast was hot",
+            "b": "Waffles with maple syrup"
+          },
+          {
+            "a": "He waffled instead of",
+            "b": "Giving a straight answer"
+          },
+          {
+            "a": "She poured batter into",
+            "b": "The waffle iron"
+          },
+          {
+            "a": "The minister waffled when asked about",
+            "b": "The delayed report"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "wafel",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Wafer, thin cake",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "wafel",
+          "highlight": true
+        },
+        {
+          "text": ", related to \"wafer\"; the \"vague talk\" sense grew separately in English.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "wafel",
+      "correctAnswer": "Wafer, thin cake",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

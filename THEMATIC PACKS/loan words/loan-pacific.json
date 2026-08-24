@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Kangaroo",
+    "pronunciation": "kang-guh-ROO",
+    "pos": "noun",
+    "definition": "A large hopping marsupial native to Australia, with strong hind legs and a long tail.",
+    "origin": "From Guugu Yimithirr <strong>gangurru</strong>, the name for a specific type of large grey kangaroo. Captain Cook's crew recorded the word in 1770 near the Endeavour River.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kangaroo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Guugu Yimithirr gangurru",
+            "b": "Large grey kangaroo"
+          },
+          {
+            "a": "Recorded by",
+            "b": "Captain Cook's crew"
+          },
+          {
+            "a": "Year recorded",
+            "b": "1770"
+          },
+          {
+            "a": "Location",
+            "b": "Near the Endeavour River, Australia"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kangaroo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A kangaroo is",
+            "b": "A large hopping Australian marsupial"
+          },
+          {
+            "a": "A kangaroo court describes",
+            "b": "An unfair, sham trial"
+          },
+          {
+            "a": "Kangaroos carry young in",
+            "b": "A pouch"
+          },
+          {
+            "a": "The word comes from",
+            "b": "An Aboriginal Australian language"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kangaroo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A mob of",
+            "b": "Kangaroos grazed at dusk"
+          },
+          {
+            "a": "The joey peeked out of",
+            "b": "Its mother's pouch"
+          },
+          {
+            "a": "Critics called the hearing",
+            "b": "A kangaroo court"
+          },
+          {
+            "a": "The kangaroo bounded across",
+            "b": "The open plain"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gangurru",
+        "rootLanguage": "Guugu Yimithirr",
+        "rootMeaning": "Large grey kangaroo",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Guugu Yimithirr ",
+          "highlight": false
+        },
+        {
+          "text": "gangurru",
+          "highlight": true
+        },
+        {
+          "text": ", recorded by Captain Cook's crew in 1770 near the Endeavour River.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gangurru",
+      "correctAnswer": "Large grey kangaroo",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kiwi",
+    "pronunciation": "KEE-wee",
+    "pos": "noun",
+    "definition": "A flightless New Zealand bird; informally, a New Zealander; also, a fuzzy-skinned green fruit.",
+    "origin": "From Māori <strong>kiwi</strong>, imitating the bird's shrill nocturnal call. The fruit was later renamed \"kiwifruit\" for marketing, and New Zealanders themselves adopted the bird's name as a nickname.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kiwi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori kiwi",
+            "b": "Flightless bird (imitative of its call)"
+          },
+          {
+            "a": "Word origin",
+            "b": "Mimics the bird's cry"
+          },
+          {
+            "a": "Later applied to",
+            "b": "New Zealanders themselves"
+          },
+          {
+            "a": "Fruit renamed",
+            "b": "Kiwifruit, for marketing"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kiwi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A kiwi is",
+            "b": "A flightless New Zealand bird"
+          },
+          {
+            "a": "\"Kiwi\" informally means",
+            "b": "A New Zealander"
+          },
+          {
+            "a": "Kiwifruit has",
+            "b": "Fuzzy brown skin and green flesh"
+          },
+          {
+            "a": "The bird's name imitates",
+            "b": "Its distinctive call"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kiwi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The nocturnal",
+            "b": "Kiwi is New Zealand's national bird"
+          },
+          {
+            "a": "She proudly called herself a",
+            "b": "Kiwi"
+          },
+          {
+            "a": "He sliced a",
+            "b": "Kiwi over the fruit salad"
+          },
+          {
+            "a": "The rare bird's numbers are",
+            "b": "Closely monitored by conservationists"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kiwi",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Flightless bird (imitative of its call)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "kiwi",
+          "highlight": true
+        },
+        {
+          "text": ", imitating the bird's shrill nocturnal call.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kiwi",
+      "correctAnswer": "Flightless bird (imitative of its call)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Aloha",
+    "pronunciation": "uh-LOH-hah",
+    "pos": "interjection",
+    "definition": "A Hawaiian greeting or farewell, also conveying love, affection, and peace.",
+    "origin": "From Hawaiian <strong>aloha</strong>, from <strong>alo</strong> (presence, face) + <strong>hā</strong> (breath) — literally \"the presence of breath,\" a shared breath of life and love.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Aloha</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hawaiian alo",
+            "b": "Presence, face"
+          },
+          {
+            "a": "Hawaiian hā",
+            "b": "Breath"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "The presence of breath"
+          },
+          {
+            "a": "Conveys",
+            "b": "Love, peace, and greeting"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Aloha</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Aloha means",
+            "b": "Hello, goodbye, or love"
+          },
+          {
+            "a": "The aloha spirit conveys",
+            "b": "Warmth and welcome"
+          },
+          {
+            "a": "The word's literal meaning is",
+            "b": "The presence of breath"
+          },
+          {
+            "a": "Aloha is used both for",
+            "b": "Greetings and farewells"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Aloha</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She greeted every guest with a warm",
+            "b": "Aloha"
+          },
+          {
+            "a": "\"Aloha,\" he said, waving as",
+            "b": "The ferry departed"
+          },
+          {
+            "a": "The lei symbolised",
+            "b": "The spirit of aloha"
+          },
+          {
+            "a": "Locals wished the visitors",
+            "b": "Aloha as they left"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "hā",
+        "rootLanguage": "Hawaiian",
+        "rootMeaning": "Breath",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hawaiian aloha: alo (presence) + ",
+          "highlight": false
+        },
+        {
+          "text": "hā",
+          "highlight": true
+        },
+        {
+          "text": " (breath); literally \"the presence of breath,\" shared life and love.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hā",
+      "correctAnswer": "Breath",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hula",
+    "pronunciation": "HOO-luh",
+    "pos": "noun",
+    "definition": "A traditional Hawaiian dance accompanied by chant or song, telling a story through movement.",
+    "origin": "From Hawaiian <strong>hula</strong>, of ancient origin, historically a sacred practice preserving genealogy, mythology, and history through gesture and rhythm.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hula</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hawaiian hula",
+            "b": "Traditional storytelling dance"
+          },
+          {
+            "a": "Historic role",
+            "b": "Preserving genealogy and mythology"
+          },
+          {
+            "a": "Performed with",
+            "b": "Chant or song"
+          },
+          {
+            "a": "Considered",
+            "b": "A sacred cultural practice"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hula</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hula is",
+            "b": "A traditional Hawaiian storytelling dance"
+          },
+          {
+            "a": "Hula dancers use gesture to",
+            "b": "Convey narrative and meaning"
+          },
+          {
+            "a": "Hula is traditionally accompanied by",
+            "b": "Chant or song"
+          },
+          {
+            "a": "Hula historically preserved",
+            "b": "Genealogy and mythology"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hula</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Dancers performed a graceful",
+            "b": "Hula"
+          },
+          {
+            "a": "She learned",
+            "b": "Hula as a child from her grandmother"
+          },
+          {
+            "a": "The festival featured traditional",
+            "b": "Hula performances"
+          },
+          {
+            "a": "Each movement of the",
+            "b": "Hula told part of the story"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "hula",
+        "rootLanguage": "Hawaiian",
+        "rootMeaning": "Traditional storytelling dance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hawaiian ",
+          "highlight": false
+        },
+        {
+          "text": "hula",
+          "highlight": true
+        },
+        {
+          "text": ", of ancient origin, historically sacred and used to preserve genealogy and history.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hula",
+      "correctAnswer": "Traditional storytelling dance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wiki",
+    "pronunciation": "WIK-ee",
+    "pos": "noun",
+    "definition": "A website that allows collaborative editing of its content by users.",
+    "origin": "From Hawaiian <strong>wiki wiki</strong>, meaning quick or fast. Programmer Ward Cunningham chose the term in 1995, recalling a \"wiki wiki\" airport shuttle bus in Honolulu.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wiki</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hawaiian wiki",
+            "b": "Quick, fast"
+          },
+          {
+            "a": "Coined by",
+            "b": "Programmer Ward Cunningham"
+          },
+          {
+            "a": "Year coined",
+            "b": "1995"
+          },
+          {
+            "a": "Inspired by",
+            "b": "A \"wiki wiki\" airport shuttle in Honolulu"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wiki</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A wiki is",
+            "b": "A collaboratively editable website"
+          },
+          {
+            "a": "Wikipedia is",
+            "b": "The best-known example of a wiki"
+          },
+          {
+            "a": "The word's root means",
+            "b": "Quick, fast"
+          },
+          {
+            "a": "Wikis allow users to",
+            "b": "Edit pages directly"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wiki</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The team documented processes on",
+            "b": "An internal wiki"
+          },
+          {
+            "a": "She looked up the topic on",
+            "b": "A wiki"
+          },
+          {
+            "a": "Anyone could edit",
+            "b": "The open wiki page"
+          },
+          {
+            "a": "The company built a",
+            "b": "Wiki for onboarding new staff"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "wiki",
+        "rootLanguage": "Hawaiian",
+        "rootMeaning": "Quick, fast",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hawaiian ",
+          "highlight": false
+        },
+        {
+          "text": "wiki",
+          "highlight": true
+        },
+        {
+          "text": " wiki, \"quick\"; Ward Cunningham named the first wiki in 1995 after a fast Honolulu shuttle bus.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "wiki",
+      "correctAnswer": "Quick, fast",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Taboo",
+    "pronunciation": "tuh-BOO",
+    "pos": "noun",
+    "definition": "A social or cultural prohibition against a particular action, word, or subject.",
+    "origin": "From Tongan <strong>tapu</strong>, meaning forbidden or sacred. Captain Cook recorded the word in 1777, describing Polynesian restrictions on things considered sacred or dangerous.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Taboo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Tongan tapu",
+            "b": "Forbidden, sacred"
+          },
+          {
+            "a": "Recorded by",
+            "b": "Captain Cook, 1777"
+          },
+          {
+            "a": "Described",
+            "b": "Polynesian sacred restrictions"
+          },
+          {
+            "a": "Related Māori word",
+            "b": "Tapu"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Taboo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A taboo is",
+            "b": "A social prohibition"
+          },
+          {
+            "a": "Taboo subjects are often",
+            "b": "Avoided in polite conversation"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Something sacred or forbidden"
+          },
+          {
+            "a": "To break a taboo means to",
+            "b": "Violate a strong social norm"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Taboo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Money remained a",
+            "b": "Taboo subject at dinner"
+          },
+          {
+            "a": "The novel confronted several",
+            "b": "Cultural taboos"
+          },
+          {
+            "a": "In many cultures, certain foods are",
+            "b": "Taboo"
+          },
+          {
+            "a": "She broke the family",
+            "b": "Taboo by asking directly"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tapu",
+        "rootLanguage": "Tongan",
+        "rootMeaning": "Forbidden, sacred",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Tongan ",
+          "highlight": false
+        },
+        {
+          "text": "tapu",
+          "highlight": true
+        },
+        {
+          "text": "; Captain Cook recorded the word in 1777 describing Polynesian restrictions.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tapu",
+      "correctAnswer": "Forbidden, sacred",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boomerang",
+    "pronunciation": "BOO-muh-rang",
+    "pos": "noun",
+    "definition": "A curved throwing implement that can be made to return to the thrower.",
+    "origin": "From Dharug <strong>bumarin</strong> or a related term, an Aboriginal Australian language of the Sydney region. Returning boomerangs were a specialised hunting tool developed by Indigenous Australians.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boomerang</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug bumarin",
+            "b": "Boomerang"
+          },
+          {
+            "a": "Language region",
+            "b": "Sydney, Australia"
+          },
+          {
+            "a": "Developed by",
+            "b": "Indigenous Australians"
+          },
+          {
+            "a": "Original purpose",
+            "b": "A specialised hunting tool"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boomerang</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A boomerang is",
+            "b": "A curved implement that can return"
+          },
+          {
+            "a": "A boomerang effect describes",
+            "b": "An action backfiring on its originator"
+          },
+          {
+            "a": "Returning boomerangs were developed for",
+            "b": "Hunting"
+          },
+          {
+            "a": "The word comes from",
+            "b": "An Aboriginal Australian language"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boomerang</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He practised throwing",
+            "b": "The boomerang in the park"
+          },
+          {
+            "a": "The policy had a",
+            "b": "Boomerang effect on public opinion"
+          },
+          {
+            "a": "The boomerang spun and",
+            "b": "Returned to her hand"
+          },
+          {
+            "a": "Museum displays showed traditional",
+            "b": "Boomerang carving techniques"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bumarin",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Boomerang",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "bumarin",
+          "highlight": true
+        },
+        {
+          "text": ", an Aboriginal Australian language of the Sydney region.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bumarin",
+      "correctAnswer": "Boomerang",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Billabong",
+    "pronunciation": "BIL-uh-bong",
+    "pos": "noun",
+    "definition": "A stagnant pool or backwater left behind after a river changes course.",
+    "origin": "From Wiradjuri <strong>bilabang</strong>, from <strong>bila</strong> (river) + a word suggesting \"dead\" or \"no current.\" It named the cut-off waterholes common along Australian rivers.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Billabong</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Wiradjuri bila",
+            "b": "River"
+          },
+          {
+            "a": "Wiradjuri bilabang",
+            "b": "Billabong"
+          },
+          {
+            "a": "Describes",
+            "b": "A cut-off river waterhole"
+          },
+          {
+            "a": "Popularised by",
+            "b": "The song \"Waltzing Matilda\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Billabong</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A billabong is",
+            "b": "A stagnant backwater pool"
+          },
+          {
+            "a": "Billabongs form when",
+            "b": "A river changes course"
+          },
+          {
+            "a": "Billabongs are common in",
+            "b": "The Australian outback"
+          },
+          {
+            "a": "The word is famous from",
+            "b": "The song \"Waltzing Matilda\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Billabong</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Kangaroos gathered to drink at",
+            "b": "The billabong"
+          },
+          {
+            "a": "The song describes a swagman camped by",
+            "b": "A billabong"
+          },
+          {
+            "a": "Birds nested along the edge of",
+            "b": "The quiet billabong"
+          },
+          {
+            "a": "The billabong dried up during",
+            "b": "The long drought"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bila",
+        "rootLanguage": "Wiradjuri",
+        "rootMeaning": "River",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Wiradjuri bilabang, from ",
+          "highlight": false
+        },
+        {
+          "text": "bila",
+          "highlight": true
+        },
+        {
+          "text": " (river) + a word for \"no current\"; named cut-off waterholes along Australian rivers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bila",
+      "correctAnswer": "River",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kookaburra",
+    "pronunciation": "KUUK-uh-bur-uh",
+    "pos": "noun",
+    "definition": "A large Australian kingfisher known for its distinctive laughing call.",
+    "origin": "From Wiradjuri <strong>guuguubarra</strong>, imitating the bird's loud, cackling call. Its laugh-like song is one of the most recognisable sounds of the Australian bush.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kookaburra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Wiradjuri guuguubarra",
+            "b": "Kookaburra (imitative of its call)"
+          },
+          {
+            "a": "Word origin",
+            "b": "Mimics the bird's laughing cry"
+          },
+          {
+            "a": "Known for",
+            "b": "Its distinctive cackling song"
+          },
+          {
+            "a": "Habitat",
+            "b": "The Australian bush"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kookaburra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A kookaburra is",
+            "b": "A large laughing Australian kingfisher"
+          },
+          {
+            "a": "The kookaburra's call sounds like",
+            "b": "Human laughter"
+          },
+          {
+            "a": "Kookaburras primarily eat",
+            "b": "Insects, reptiles, and small animals"
+          },
+          {
+            "a": "The word imitates",
+            "b": "The bird's own call"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kookaburra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "At dawn, a",
+            "b": "Kookaburra's laugh echoed through the trees"
+          },
+          {
+            "a": "Children sang the old song about",
+            "b": "The kookaburra"
+          },
+          {
+            "a": "The kookaburra swooped down to",
+            "b": "Snatch a lizard"
+          },
+          {
+            "a": "Campers were woken by",
+            "b": "A chorus of kookaburras"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "guuguubarra",
+        "rootLanguage": "Wiradjuri",
+        "rootMeaning": "Kookaburra (imitative of its call)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Wiradjuri ",
+          "highlight": false
+        },
+        {
+          "text": "guuguubarra",
+          "highlight": true
+        },
+        {
+          "text": ", imitating the bird's loud, cackling call — one of the bush's most recognisable sounds.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "guuguubarra",
+      "correctAnswer": "Kookaburra (imitative of its call)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Koala",
+    "pronunciation": "koh-AH-luh",
+    "pos": "noun",
+    "definition": "A tree-dwelling Australian marsupial with grey fur, known for eating eucalyptus leaves.",
+    "origin": "From Dharug <strong>gula</strong>, possibly meaning \"no drink,\" reflecting the old belief that koalas obtained all their moisture from eucalyptus leaves without needing to drink.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Koala</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug gula",
+            "b": "No drink (possibly)"
+          },
+          {
+            "a": "Old belief",
+            "b": "Koalas never needed to drink"
+          },
+          {
+            "a": "Diet consists mainly of",
+            "b": "Eucalyptus leaves"
+          },
+          {
+            "a": "Habitat",
+            "b": "Eastern Australian forests"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Koala</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A koala is",
+            "b": "A tree-dwelling Australian marsupial"
+          },
+          {
+            "a": "Koalas primarily eat",
+            "b": "Eucalyptus leaves"
+          },
+          {
+            "a": "Koalas are not",
+            "b": "Bears, despite the common nickname"
+          },
+          {
+            "a": "The word possibly meant",
+            "b": "\"No drink\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Koala</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A sleepy",
+            "b": "Koala clung to the branch"
+          },
+          {
+            "a": "Tourists lined up to hold",
+            "b": "A koala at the sanctuary"
+          },
+          {
+            "a": "The koala spent most of the day",
+            "b": "Sleeping in the eucalyptus tree"
+          },
+          {
+            "a": "Bushfires threatened the region's",
+            "b": "Koala population"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gula",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "No drink (possibly)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "gula",
+          "highlight": true
+        },
+        {
+          "text": ", possibly \"no drink\" — koalas were believed to need no water beyond their leaves.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gula",
+      "correctAnswer": "No drink (possibly)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wombat",
+    "pronunciation": "WOM-bat",
+    "pos": "noun",
+    "definition": "A short-legged, burrowing Australian marsupial with a stocky body.",
+    "origin": "From Dharug <strong>wambad</strong>, the name for this ground-dwelling marsupial. Wombats are known for digging extensive burrow systems and producing distinctively cube-shaped droppings.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wombat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug wambad",
+            "b": "Wombat"
+          },
+          {
+            "a": "Known for",
+            "b": "Digging extensive burrow systems"
+          },
+          {
+            "a": "Unusual trait",
+            "b": "Cube-shaped droppings"
+          },
+          {
+            "a": "Habitat",
+            "b": "Southeastern Australia"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wombat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A wombat is",
+            "b": "A stocky burrowing marsupial"
+          },
+          {
+            "a": "Wombats are known for",
+            "b": "Digging extensive tunnel systems"
+          },
+          {
+            "a": "A wombat's droppings are unusually",
+            "b": "Cube-shaped"
+          },
+          {
+            "a": "Wombats are mostly",
+            "b": "Nocturnal grazers"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wombat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The",
+            "b": "Wombat waddled back to its burrow"
+          },
+          {
+            "a": "Rangers marvelled at the",
+            "b": "Wombat's tunnel network"
+          },
+          {
+            "a": "A wombat trundled across",
+            "b": "The dusty track"
+          },
+          {
+            "a": "The sanctuary rescued an orphaned",
+            "b": "Wombat joey"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "wambad",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Wombat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "wambad",
+          "highlight": true
+        },
+        {
+          "text": "; wombats dig extensive burrows and are known for their cube-shaped droppings.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "wambad",
+      "correctAnswer": "Wombat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dingo",
+    "pronunciation": "DING-goh",
+    "pos": "noun",
+    "definition": "A wild dog native to Australia, believed to have arrived with early seafarers.",
+    "origin": "From Dharug <strong>dingu</strong>, the name for this wild dog. Dingoes are thought to have arrived in Australia with seafaring traders several thousand years ago.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dingo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug dingu",
+            "b": "Wild dog"
+          },
+          {
+            "a": "Believed to have arrived",
+            "b": "With early seafaring traders"
+          },
+          {
+            "a": "Timeframe",
+            "b": "Several thousand years ago"
+          },
+          {
+            "a": "Status today",
+            "b": "A protected native species"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dingo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A dingo is",
+            "b": "A wild Australian dog"
+          },
+          {
+            "a": "Dingoes typically hunt",
+            "b": "In small packs"
+          },
+          {
+            "a": "Dingoes are believed to have arrived via",
+            "b": "Early seafaring traders"
+          },
+          {
+            "a": "The Dingo Fence protects",
+            "b": "Livestock from dingo attacks"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dingo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A lone",
+            "b": "Dingo trotted along the dune"
+          },
+          {
+            "a": "Rangers tracked the movements of",
+            "b": "The local dingo pack"
+          },
+          {
+            "a": "Campers were warned about",
+            "b": "Dingoes on the island"
+          },
+          {
+            "a": "The dingo howled at",
+            "b": "The rising moon"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "dingu",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Wild dog",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "dingu",
+          "highlight": true
+        },
+        {
+          "text": "; dingoes are thought to have arrived with seafaring traders thousands of years ago.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dingu",
+      "correctAnswer": "Wild dog",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Didgeridoo",
+    "pronunciation": "dij-uh-ree-DOO",
+    "pos": "noun",
+    "definition": "A long wooden wind instrument traditionally played by Indigenous Australians, producing a deep drone.",
+    "origin": "The word <strong>didgeridoo</strong> is likely an onomatopoeic English coinage imitating the instrument's droning sound, though it has also been linked to Irish phrases. The instrument itself dates back over a thousand years in Arnhem Land.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Didgeridoo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Likely origin",
+            "b": "Imitates the instrument's drone"
+          },
+          {
+            "a": "Also linked to",
+            "b": "Irish phrases, by some theories"
+          },
+          {
+            "a": "Instrument dates back",
+            "b": "Over a thousand years"
+          },
+          {
+            "a": "Traditional region",
+            "b": "Arnhem Land, northern Australia"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Didgeridoo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A didgeridoo is",
+            "b": "A long wooden drone instrument"
+          },
+          {
+            "a": "The didgeridoo is played using",
+            "b": "Circular breathing"
+          },
+          {
+            "a": "The instrument originates from",
+            "b": "Indigenous Australian culture"
+          },
+          {
+            "a": "Traditional didgeridoos are made from",
+            "b": "Termite-hollowed eucalyptus branches"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Didgeridoo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The deep hum of",
+            "b": "The didgeridoo filled the clearing"
+          },
+          {
+            "a": "He practised circular breathing to play",
+            "b": "The didgeridoo"
+          },
+          {
+            "a": "The ceremony opened with",
+            "b": "A didgeridoo performance"
+          },
+          {
+            "a": "Tourists bought a small",
+            "b": "Didgeridoo as a souvenir"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "didgeridoo",
+        "rootLanguage": "English (imitative)",
+        "rootMeaning": "Imitates the instrument's drone",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Likely an English coinage imitating the drone of the ",
+          "highlight": false
+        },
+        {
+          "text": "didgeridoo",
+          "highlight": true
+        },
+        {
+          "text": " itself, an instrument dating back over a thousand years in Arnhem Land.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "didgeridoo",
+      "correctAnswer": "Imitates the instrument's drone",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wallaby",
+    "pronunciation": "WOL-uh-bee",
+    "pos": "noun",
+    "definition": "A small to medium-sized marsupial similar to but smaller than a kangaroo.",
+    "origin": "From Dharug <strong>walabi</strong>, the name for this smaller hopping marsupial. Wallabies are found across Australia and New Guinea in a wide range of habitats.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wallaby</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug walabi",
+            "b": "Wallaby"
+          },
+          {
+            "a": "Related to",
+            "b": "The kangaroo, but smaller"
+          },
+          {
+            "a": "Found in",
+            "b": "Australia and New Guinea"
+          },
+          {
+            "a": "Habitat range",
+            "b": "Forests, scrub, and rocky terrain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wallaby</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A wallaby is",
+            "b": "A small hopping marsupial"
+          },
+          {
+            "a": "Wallabies differ from kangaroos in",
+            "b": "Being smaller"
+          },
+          {
+            "a": "Rock wallabies live among",
+            "b": "Cliffs and boulders"
+          },
+          {
+            "a": "Wallabies are found in",
+            "b": "Australia and New Guinea"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wallaby</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A young",
+            "b": "Wallaby hopped alongside its mother"
+          },
+          {
+            "a": "Hikers spotted a rock",
+            "b": "Wallaby on the cliff"
+          },
+          {
+            "a": "The sanctuary bred",
+            "b": "Endangered wallabies"
+          },
+          {
+            "a": "Wallabies grazed quietly at",
+            "b": "The forest edge"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "walabi",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Wallaby",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "walabi",
+          "highlight": true
+        },
+        {
+          "text": "; wallabies are found across Australia and New Guinea in varied habitats.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "walabi",
+      "correctAnswer": "Wallaby",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tattoo",
+    "pronunciation": "ta-TOO",
+    "pos": "noun",
+    "definition": "A design made by inserting ink into the skin.",
+    "origin": "From Samoan/Tahitian <strong>tatau</strong>, meaning to mark or strike, describing the traditional method of tapping ink under the skin. Captain Cook's voyages introduced the word and practice to Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tattoo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Samoan tatau",
+            "b": "To mark, to strike"
+          },
+          {
+            "a": "Traditional method",
+            "b": "Tapping ink beneath the skin"
+          },
+          {
+            "a": "Introduced to Europe by",
+            "b": "Captain Cook's voyages"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tattoo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A tattoo is",
+            "b": "A permanent ink design on skin"
+          },
+          {
+            "a": "Traditional Polynesian tattooing used",
+            "b": "A tapping technique"
+          },
+          {
+            "a": "To tattoo means to",
+            "b": "Mark the skin permanently with ink"
+          },
+          {
+            "a": "A separate \"tattoo\" also means",
+            "b": "A military drum or bugle signal"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tattoo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He got a small",
+            "b": "Tattoo of a compass"
+          },
+          {
+            "a": "The artist carefully inked",
+            "b": "Her new tattoo"
+          },
+          {
+            "a": "The sailor's arm was covered in",
+            "b": "Faded tattoos"
+          },
+          {
+            "a": "Traditional Samoan tattoo artists still practise",
+            "b": "The tapping technique"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tatau",
+        "rootLanguage": "Samoan",
+        "rootMeaning": "To mark, to strike",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Samoan/Tahitian ",
+          "highlight": false
+        },
+        {
+          "text": "tatau",
+          "highlight": true
+        },
+        {
+          "text": "; Captain Cook's voyages introduced the word and practice to Europe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tatau",
+      "correctAnswer": "To mark, to strike",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ukulele",
+    "pronunciation": "yoo-kuh-LAY-lee",
+    "pos": "noun",
+    "definition": "A small four-stringed guitar-like instrument, associated with Hawaiian music.",
+    "origin": "From Hawaiian <strong>ukulele</strong>, literally \"jumping flea,\" from <strong>uku</strong> (flea) + <strong>lele</strong> (to jump), likely describing the quick finger movements of a player.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ukulele</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hawaiian uku",
+            "b": "Flea"
+          },
+          {
+            "a": "Hawaiian lele",
+            "b": "To jump"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Jumping flea"
+          },
+          {
+            "a": "Describes",
+            "b": "A player's quick finger movements"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ukulele</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A ukulele is",
+            "b": "A small four-stringed instrument"
+          },
+          {
+            "a": "The ukulele is closely associated with",
+            "b": "Hawaiian music"
+          },
+          {
+            "a": "The word literally translates as",
+            "b": "Jumping flea"
+          },
+          {
+            "a": "The ukulele was adapted from",
+            "b": "A Portuguese instrument, the machete"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ukulele</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She strummed a cheerful tune on",
+            "b": "Her ukulele"
+          },
+          {
+            "a": "The beach party featured someone playing",
+            "b": "A ukulele"
+          },
+          {
+            "a": "He learned three chords on",
+            "b": "The ukulele"
+          },
+          {
+            "a": "The song's gentle melody was carried by",
+            "b": "A ukulele"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "lele",
+        "rootLanguage": "Hawaiian",
+        "rootMeaning": "To jump",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hawaiian ukulele, \"jumping flea\": uku (flea) + ",
+          "highlight": false
+        },
+        {
+          "text": "lele",
+          "highlight": true
+        },
+        {
+          "text": " (to jump), describing a player's quick finger movements.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lele",
+      "correctAnswer": "To jump",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Haka",
+    "pronunciation": "HAH-kah",
+    "pos": "noun",
+    "definition": "A ceremonial Māori dance involving forceful movements, chanting, and rhythmic stamping.",
+    "origin": "From Māori <strong>haka</strong>, a traditional posture dance performed for ceremonial occasions, challenges, or celebrations, famously performed by New Zealand's national rugby team before matches.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Haka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori haka",
+            "b": "Ceremonial posture dance"
+          },
+          {
+            "a": "Performed for",
+            "b": "Ceremonies, challenges, and celebrations"
+          },
+          {
+            "a": "Famous performers",
+            "b": "New Zealand's national rugby team"
+          },
+          {
+            "a": "Involves",
+            "b": "Chanting and rhythmic stamping"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Haka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A haka is",
+            "b": "A ceremonial Māori posture dance"
+          },
+          {
+            "a": "The haka is performed before",
+            "b": "Rugby matches and formal occasions"
+          },
+          {
+            "a": "The haka involves",
+            "b": "Forceful movement and chanting"
+          },
+          {
+            "a": "The haka can express",
+            "b": "Challenge, welcome, or celebration"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Haka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The All Blacks performed",
+            "b": "A thunderous haka before kickoff"
+          },
+          {
+            "a": "The wedding opened with a traditional",
+            "b": "Haka of welcome"
+          },
+          {
+            "a": "Players stamped their feet during",
+            "b": "The haka"
+          },
+          {
+            "a": "The school assembly ended with",
+            "b": "A rousing haka"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "haka",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Ceremonial posture dance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "haka",
+          "highlight": true
+        },
+        {
+          "text": ", a ceremonial posture dance, famously performed by New Zealand's rugby team before matches.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "haka",
+      "correctAnswer": "Ceremonial posture dance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mana",
+    "pronunciation": "MAH-nuh",
+    "pos": "noun",
+    "definition": "Spiritual power, prestige, or authority, especially in Polynesian cultures.",
+    "origin": "From Māori/Polynesian <strong>mana</strong>, a supernatural force believed to inhabit people, places, and objects, granting influence, authority, and respect.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mana</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori mana",
+            "b": "Spiritual power, prestige"
+          },
+          {
+            "a": "Believed to inhabit",
+            "b": "People, places, and objects"
+          },
+          {
+            "a": "Grants",
+            "b": "Influence and respect"
+          },
+          {
+            "a": "Central to",
+            "b": "Polynesian belief systems"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mana</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mana is",
+            "b": "Spiritual power or prestige"
+          },
+          {
+            "a": "A person with great mana commands",
+            "b": "Respect and authority"
+          },
+          {
+            "a": "Mana can be gained or lost through",
+            "b": "One's actions"
+          },
+          {
+            "a": "Video games borrowed \"mana\" to mean",
+            "b": "A pool of magical energy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mana</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The elder was respected for",
+            "b": "His great mana"
+          },
+          {
+            "a": "The chief's actions enhanced",
+            "b": "The tribe's mana"
+          },
+          {
+            "a": "Losing the case cost him",
+            "b": "Considerable mana"
+          },
+          {
+            "a": "The ceremony honoured the",
+            "b": "Mana of the ancestors"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "mana",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Spiritual power, prestige",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori/Polynesian ",
+          "highlight": false
+        },
+        {
+          "text": "mana",
+          "highlight": true
+        },
+        {
+          "text": ", a supernatural force granting influence, authority, and respect.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mana",
+      "correctAnswer": "Spiritual power, prestige",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Budgerigar",
+    "pronunciation": "BUJ-uh-ree-gar",
+    "pos": "noun",
+    "definition": "A small parakeet native to Australia, popular as a caged pet, often called a budgie.",
+    "origin": "From an Aboriginal Australian language, possibly Kamilaroi <strong>gijirrigaa</strong>. The small green parrots travel in vast, noisy flocks across the Australian outback.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Budgerigar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Kamilaroi gijirrigaa",
+            "b": "Budgerigar"
+          },
+          {
+            "a": "Also known as",
+            "b": "A budgie"
+          },
+          {
+            "a": "Travel in",
+            "b": "Vast, noisy flocks"
+          },
+          {
+            "a": "Native habitat",
+            "b": "The Australian outback"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Budgerigar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A budgerigar is",
+            "b": "A small Australian parakeet"
+          },
+          {
+            "a": "The common short name is",
+            "b": "Budgie"
+          },
+          {
+            "a": "Wild budgerigars form",
+            "b": "Enormous nomadic flocks"
+          },
+          {
+            "a": "Budgerigars are popular as",
+            "b": "Caged pets worldwide"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Budgerigar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She kept a pet",
+            "b": "Budgerigar in a cage by the window"
+          },
+          {
+            "a": "A huge flock of wild",
+            "b": "Budgerigars swept across the plain"
+          },
+          {
+            "a": "The budgie learned to",
+            "b": "Mimic a few words"
+          },
+          {
+            "a": "Breeders showed prize",
+            "b": "Budgerigars at the fair"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gijirrigaa",
+        "rootLanguage": "Kamilaroi",
+        "rootMeaning": "Budgerigar",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Possibly from Kamilaroi ",
+          "highlight": false
+        },
+        {
+          "text": "gijirrigaa",
+          "highlight": true
+        },
+        {
+          "text": "; the small green parrots travel in vast, noisy flocks across the outback.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gijirrigaa",
+      "correctAnswer": "Budgerigar",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Corroboree",
+    "pronunciation": "kuh-ROB-uh-ree",
+    "pos": "noun",
+    "definition": "A ceremonial gathering of Indigenous Australians involving dance, music, and often body paint.",
+    "origin": "From Dharug <strong>garabari</strong>, a name for a ceremonial dance gathering. Corroborees vary widely by region, marking events from initiation to storytelling.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Corroboree</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug garabari",
+            "b": "Ceremonial dance gathering"
+          },
+          {
+            "a": "Varies by",
+            "b": "Region and occasion"
+          },
+          {
+            "a": "Marks events such as",
+            "b": "Initiation and storytelling"
+          },
+          {
+            "a": "Involves",
+            "b": "Dance, music, and body paint"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Corroboree</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A corroboree is",
+            "b": "A ceremonial Indigenous Australian gathering"
+          },
+          {
+            "a": "Corroborees typically feature",
+            "b": "Dance, chanting, and body paint"
+          },
+          {
+            "a": "Corroborees can mark",
+            "b": "Important cultural events"
+          },
+          {
+            "a": "The word comes from",
+            "b": "An Aboriginal Australian language"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Corroboree</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The community gathered for",
+            "b": "A traditional corroboree"
+          },
+          {
+            "a": "Firelight lit the dancers at",
+            "b": "The corroboree"
+          },
+          {
+            "a": "Elders led the younger generation through",
+            "b": "The corroboree"
+          },
+          {
+            "a": "The corroboree told the story of",
+            "b": "The ancestral spirits"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "garabari",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Ceremonial dance gathering",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "garabari",
+          "highlight": true
+        },
+        {
+          "text": "; corroborees vary by region, marking events from initiation to storytelling.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "garabari",
+      "correctAnswer": "Ceremonial dance gathering",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Woomera",
+    "pronunciation": "WUUM-uh-ruh",
+    "pos": "noun",
+    "definition": "A wooden device used by Indigenous Australians to launch a spear with greater force and distance.",
+    "origin": "From Dharug <strong>wamira</strong>, the name for this spear-throwing tool, which uses leverage to dramatically increase the range and speed of a thrown spear.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Woomera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dharug wamira",
+            "b": "Spear-thrower"
+          },
+          {
+            "a": "Function",
+            "b": "Increases range and force of a thrown spear"
+          },
+          {
+            "a": "Principle used",
+            "b": "Leverage"
+          },
+          {
+            "a": "Used traditionally for",
+            "b": "Hunting"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Woomera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A woomera is",
+            "b": "A traditional spear-throwing device"
+          },
+          {
+            "a": "The woomera increases",
+            "b": "A spear's speed and range"
+          },
+          {
+            "a": "Woomera also names",
+            "b": "A town in South Australia"
+          },
+          {
+            "a": "The device works using",
+            "b": "Simple mechanical leverage"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Woomera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The hunter launched his spear using",
+            "b": "A woomera"
+          },
+          {
+            "a": "Museum displays showed traditional",
+            "b": "Woomera craftsmanship"
+          },
+          {
+            "a": "With the woomera, the spear flew",
+            "b": "Twice as far"
+          },
+          {
+            "a": "He demonstrated how to grip",
+            "b": "The woomera correctly"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "wamira",
+        "rootLanguage": "Dharug",
+        "rootMeaning": "Spear-thrower",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dharug ",
+          "highlight": false
+        },
+        {
+          "text": "wamira",
+          "highlight": true
+        },
+        {
+          "text": "; the tool uses leverage to dramatically increase a spear's range and speed.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "wamira",
+      "correctAnswer": "Spear-thrower",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Galah",
+    "pronunciation": "guh-LAH",
+    "pos": "noun",
+    "definition": "A pink and grey Australian cockatoo; informally, a foolish or silly person.",
+    "origin": "From Yuwaalaraay <strong>gilaa</strong>, the name for this common pink-breasted cockatoo, later adopted as slang for someone acting foolishly, likened to the bird's noisy antics.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Galah</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Yuwaalaraay gilaa",
+            "b": "Pink and grey cockatoo"
+          },
+          {
+            "a": "Slang sense",
+            "b": "A foolish or silly person"
+          },
+          {
+            "a": "Comparison drawn to",
+            "b": "The bird's noisy antics"
+          },
+          {
+            "a": "Common habitat",
+            "b": "Across Australia"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Galah</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A galah is",
+            "b": "A pink and grey Australian cockatoo"
+          },
+          {
+            "a": "Informally, a galah is",
+            "b": "A foolish person"
+          },
+          {
+            "a": "Galahs are known for",
+            "b": "Their raucous calls"
+          },
+          {
+            "a": "\"Acting like a galah\" means",
+            "b": "Behaving foolishly"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Galah</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A flock of",
+            "b": "Galahs screeched overhead"
+          },
+          {
+            "a": "\"Don't be a galah,\"",
+            "b": "She laughed"
+          },
+          {
+            "a": "The galah perched on",
+            "b": "The fence post"
+          },
+          {
+            "a": "He felt like a right",
+            "b": "Galah after tripping on stage"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gilaa",
+        "rootLanguage": "Yuwaalaraay",
+        "rootMeaning": "Pink and grey cockatoo",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yuwaalaraay ",
+          "highlight": false
+        },
+        {
+          "text": "gilaa",
+          "highlight": true
+        },
+        {
+          "text": "; later adopted as slang for a fool, likened to the bird's noisy antics.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gilaa",
+      "correctAnswer": "Pink and grey cockatoo",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Yakka",
+    "pronunciation": "YAK-uh",
+    "pos": "noun",
+    "definition": "Hard work, especially physical labour.",
+    "origin": "From Yagara <strong>yaga</strong>, meaning work, an Aboriginal Australian language of the Brisbane region. It entered Australian English slang in the 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Yakka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Yagara yaga",
+            "b": "Work"
+          },
+          {
+            "a": "Language region",
+            "b": "Brisbane, Australia"
+          },
+          {
+            "a": "Entered English slang",
+            "b": "19th century"
+          },
+          {
+            "a": "Common phrase",
+            "b": "\"Hard yakka\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Yakka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Yakka means",
+            "b": "Hard physical work"
+          },
+          {
+            "a": "\"Hard yakka\" describes",
+            "b": "Tough, laborious effort"
+          },
+          {
+            "a": "The word is used mainly in",
+            "b": "Australian English"
+          },
+          {
+            "a": "The word derives from",
+            "b": "An Aboriginal Australian language"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Yakka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Clearing the field was",
+            "b": "Hard yakka"
+          },
+          {
+            "a": "After a day of",
+            "b": "Yakka, he collapsed on the porch"
+          },
+          {
+            "a": "Building the fence took some serious",
+            "b": "Yakka"
+          },
+          {
+            "a": "They put in solid",
+            "b": "Yakka before the harvest"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "yaga",
+        "rootLanguage": "Yagara",
+        "rootMeaning": "Work",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yagara ",
+          "highlight": false
+        },
+        {
+          "text": "yaga",
+          "highlight": true
+        },
+        {
+          "text": " (work), an Aboriginal Australian language of the Brisbane region.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "yaga",
+      "correctAnswer": "Work",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Moa",
+    "pronunciation": "MOH-uh",
+    "pos": "noun",
+    "definition": "An extinct giant flightless bird native to New Zealand, hunted to extinction by early settlers.",
+    "origin": "From Māori <strong>moa</strong>, the name for these enormous flightless birds, some standing over three metres tall, which vanished within a few centuries of human arrival.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Moa</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori moa",
+            "b": "Giant extinct flightless bird"
+          },
+          {
+            "a": "Height",
+            "b": "Some over three metres tall"
+          },
+          {
+            "a": "Went extinct",
+            "b": "Within centuries of human arrival"
+          },
+          {
+            "a": "Native to",
+            "b": "New Zealand"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Moa</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The moa was",
+            "b": "A giant extinct flightless bird"
+          },
+          {
+            "a": "The moa went extinct due to",
+            "b": "Overhunting by early settlers"
+          },
+          {
+            "a": "The moa was native to",
+            "b": "New Zealand"
+          },
+          {
+            "a": "Some moa species stood",
+            "b": "Over three metres tall"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Moa</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Fossils revealed the size of",
+            "b": "The extinct moa"
+          },
+          {
+            "a": "Museum exhibits reconstructed",
+            "b": "A towering moa skeleton"
+          },
+          {
+            "a": "Māori legend still tells stories of",
+            "b": "The mighty moa"
+          },
+          {
+            "a": "Scientists studied moa bones to understand",
+            "b": "Its extinction"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "moa",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Giant extinct flightless bird",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "moa",
+          "highlight": true
+        },
+        {
+          "text": "; some stood over three metres tall, vanishing within centuries of human arrival.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "moa",
+      "correctAnswer": "Giant extinct flightless bird",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kakapo",
+    "pronunciation": "KAH-kuh-poh",
+    "pos": "noun",
+    "definition": "A large, flightless, nocturnal parrot native to New Zealand, now critically endangered.",
+    "origin": "From Māori <strong>kākāpō</strong>, from <strong>kākā</strong> (parrot) + <strong>pō</strong> (night) — literally \"night parrot,\" describing its nocturnal habits.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kakapo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori kākā",
+            "b": "Parrot"
+          },
+          {
+            "a": "Māori pō",
+            "b": "Night"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Night parrot"
+          },
+          {
+            "a": "Conservation status",
+            "b": "Critically endangered"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kakapo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A kakapo is",
+            "b": "A flightless nocturnal New Zealand parrot"
+          },
+          {
+            "a": "The word literally means",
+            "b": "Night parrot"
+          },
+          {
+            "a": "The kakapo's conservation status is",
+            "b": "Critically endangered"
+          },
+          {
+            "a": "Unlike most parrots, the kakapo is",
+            "b": "Flightless"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kakapo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Conservationists tracked every remaining",
+            "b": "Kakapo"
+          },
+          {
+            "a": "The kakapo emerged at night to",
+            "b": "Forage for food"
+          },
+          {
+            "a": "Fewer than 300",
+            "b": "Kakapo remain in the wild"
+          },
+          {
+            "a": "Rangers moved the birds to",
+            "b": "A predator-free island"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pō",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Night",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori kākāpō: kākā (parrot) + ",
+          "highlight": false
+        },
+        {
+          "text": "pō",
+          "highlight": true
+        },
+        {
+          "text": " (night); literally \"night parrot,\" for its nocturnal habits.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pō",
+      "correctAnswer": "Night",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tuatara",
+    "pronunciation": "too-uh-TAH-ruh",
+    "pos": "noun",
+    "definition": "A rare reptile native to New Zealand, the last surviving member of an ancient lineage.",
+    "origin": "From Māori <strong>tuatara</strong>, from <strong>tua</strong> (back) + <strong>ara</strong> (spines), describing the row of spines running down its back.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tuatara</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori tua",
+            "b": "Back"
+          },
+          {
+            "a": "Māori ara",
+            "b": "Spines"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Back spines"
+          },
+          {
+            "a": "Significance",
+            "b": "The last of an ancient reptile lineage"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tuatara</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A tuatara is",
+            "b": "A rare ancient New Zealand reptile"
+          },
+          {
+            "a": "The tuatara is notable for",
+            "b": "Its slow metabolism and long life"
+          },
+          {
+            "a": "The word describes",
+            "b": "The spines along its back"
+          },
+          {
+            "a": "The tuatara can live for",
+            "b": "Over a hundred years"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tuatara</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The reserve protected the last wild",
+            "b": "Tuataras"
+          },
+          {
+            "a": "Scientists study the",
+            "b": "Tuatara for its ancient lineage"
+          },
+          {
+            "a": "The tuatara basked motionless on",
+            "b": "A sunlit rock"
+          },
+          {
+            "a": "Conservationists celebrated the birth of",
+            "b": "A rare tuatara hatchling"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ara",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Spines",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori tuatara: tua (back) + ",
+          "highlight": false
+        },
+        {
+          "text": "ara",
+          "highlight": true
+        },
+        {
+          "text": " (spines), describing the row of spines along its back.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ara",
+      "correctAnswer": "Spines",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hui",
+    "pronunciation": "HOO-ee",
+    "pos": "noun",
+    "definition": "A Māori social gathering or meeting, often for discussion or a specific purpose.",
+    "origin": "From Māori <strong>hui</strong>, meaning to gather or assemble. Traditionally held at a marae, a hui brings a community together to discuss matters of shared importance.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hui</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori hui",
+            "b": "To gather, assemble"
+          },
+          {
+            "a": "Traditionally held at",
+            "b": "A marae (meeting ground)"
+          },
+          {
+            "a": "Purpose",
+            "b": "Community discussion"
+          },
+          {
+            "a": "Modern use",
+            "b": "Any formal meeting"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hui</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A hui is",
+            "b": "A Māori gathering or meeting"
+          },
+          {
+            "a": "Hui are traditionally held at",
+            "b": "A marae"
+          },
+          {
+            "a": "A hui brings people together to",
+            "b": "Discuss shared concerns"
+          },
+          {
+            "a": "The word literally means",
+            "b": "To gather"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hui</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tribe called a",
+            "b": "Hui to discuss the proposal"
+          },
+          {
+            "a": "Elders opened",
+            "b": "The hui with a formal welcome"
+          },
+          {
+            "a": "Everyone was invited to attend",
+            "b": "The community hui"
+          },
+          {
+            "a": "Decisions were reached collectively at",
+            "b": "The hui"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "hui",
+        "rootLanguage": "Māori",
+        "rootMeaning": "To gather, assemble",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "hui",
+          "highlight": true
+        },
+        {
+          "text": ", \"to gather\"; traditionally held at a marae to discuss shared community matters.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hui",
+      "correctAnswer": "To gather, assemble",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tui",
+    "pronunciation": "TOO-ee",
+    "pos": "noun",
+    "definition": "A New Zealand songbird with glossy dark feathers and a distinctive white throat tuft.",
+    "origin": "From Māori <strong>tūī</strong>, the name for this native honeyeater, prized for its complex, melodic song and its ability to mimic other sounds.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tui</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori tūī",
+            "b": "New Zealand songbird"
+          },
+          {
+            "a": "Known for",
+            "b": "Its complex, melodic song"
+          },
+          {
+            "a": "Notable ability",
+            "b": "Mimicking other sounds"
+          },
+          {
+            "a": "Appearance",
+            "b": "Glossy feathers with a white throat tuft"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tui</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A tui is",
+            "b": "A native New Zealand songbird"
+          },
+          {
+            "a": "The tui is known for",
+            "b": "Its complex, varied song"
+          },
+          {
+            "a": "The tui feeds mainly on",
+            "b": "Nectar"
+          },
+          {
+            "a": "The tui can mimic",
+            "b": "Other birds and even human speech"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tui</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A",
+            "b": "Tui sang from the flowering tree"
+          },
+          {
+            "a": "The garden was alive with the call of",
+            "b": "A tui"
+          },
+          {
+            "a": "She recognised the bird instantly as",
+            "b": "A tui"
+          },
+          {
+            "a": "The tui darted between blossoms, sipping",
+            "b": "Nectar"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tūī",
+        "rootLanguage": "Māori",
+        "rootMeaning": "New Zealand songbird",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "tūī",
+          "highlight": true
+        },
+        {
+          "text": ", prized for its complex song and its ability to mimic other sounds.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tūī",
+      "correctAnswer": "New Zealand songbird",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Paua",
+    "pronunciation": "POW-uh",
+    "pos": "noun",
+    "definition": "A New Zealand shellfish (abalone) prized for its iridescent shell and edible flesh.",
+    "origin": "From Māori <strong>pāua</strong>, the name for this large sea snail, whose shell's brilliant blue-green iridescence has long been used in traditional carving and jewellery.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Paua</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Māori pāua",
+            "b": "Abalone shellfish"
+          },
+          {
+            "a": "Shell prized for",
+            "b": "Iridescent blue-green colour"
+          },
+          {
+            "a": "Traditional use",
+            "b": "Carving and jewellery"
+          },
+          {
+            "a": "Also valued as",
+            "b": "A food source"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Paua</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Paua is",
+            "b": "A New Zealand abalone shellfish"
+          },
+          {
+            "a": "The paua shell is prized for",
+            "b": "Its iridescent colour"
+          },
+          {
+            "a": "Paua shell is traditionally used in",
+            "b": "Jewellery and carving"
+          },
+          {
+            "a": "Paua flesh is eaten as",
+            "b": "A seafood delicacy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Paua</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wore earrings made from",
+            "b": "Polished paua shell"
+          },
+          {
+            "a": "Divers collected fresh",
+            "b": "Paua from the rocks"
+          },
+          {
+            "a": "The carving's eyes were inlaid with",
+            "b": "Paua shell"
+          },
+          {
+            "a": "The restaurant served",
+            "b": "Paua fritters as a specialty"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pāua",
+        "rootLanguage": "Māori",
+        "rootMeaning": "Abalone shellfish",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Māori ",
+          "highlight": false
+        },
+        {
+          "text": "pāua",
+          "highlight": true
+        },
+        {
+          "text": "; its brilliant blue-green shell has long been used in traditional carving and jewellery.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pāua",
+      "correctAnswer": "Abalone shellfish",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Quoll",
+    "pronunciation": "KWOL",
+    "pos": "noun",
+    "definition": "A small carnivorous spotted marsupial native to Australia and New Guinea.",
+    "origin": "From Guugu Yimithirr <strong>dhigul</strong>, recorded by Captain Cook's naturalist Joseph Banks in 1770 for this cat-sized spotted predator.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-pacific",
+      "name": "From the Pacific",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Quoll</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Guugu Yimithirr dhigul",
+            "b": "Spotted marsupial predator"
+          },
+          {
+            "a": "Recorded by",
+            "b": "Naturalist Joseph Banks"
+          },
+          {
+            "a": "Year recorded",
+            "b": "1770"
+          },
+          {
+            "a": "Native to",
+            "b": "Australia and New Guinea"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Quoll</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A quoll is",
+            "b": "A small spotted carnivorous marsupial"
+          },
+          {
+            "a": "Quolls are found in",
+            "b": "Australia and New Guinea"
+          },
+          {
+            "a": "Quolls are known for",
+            "b": "Their spotted coat"
+          },
+          {
+            "a": "The word was recorded by",
+            "b": "Joseph Banks in 1770"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Quoll</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A spotted",
+            "b": "Quoll hunted small mammals at night"
+          },
+          {
+            "a": "Conservationists work to protect",
+            "b": "Endangered quoll populations"
+          },
+          {
+            "a": "The quoll darted through",
+            "b": "The undergrowth"
+          },
+          {
+            "a": "Researchers fitted a tracking collar to",
+            "b": "The wild quoll"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "dhigul",
+        "rootLanguage": "Guugu Yimithirr",
+        "rootMeaning": "Spotted marsupial predator",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Guugu Yimithirr ",
+          "highlight": false
+        },
+        {
+          "text": "dhigul",
+          "highlight": true
+        },
+        {
+          "text": ", recorded by naturalist Joseph Banks in 1770.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dhigul",
+      "correctAnswer": "Spotted marsupial predator",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

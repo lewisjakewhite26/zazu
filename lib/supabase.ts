@@ -61,22 +61,21 @@ type GymRow = {
   gym_rounds: WordRound[] | null;
 };
 
-function readEnv(name: string): string | undefined {
-  const env =
-    typeof process !== 'undefined' && process.env ? process.env : undefined;
-  if (!env) return undefined;
-  return env[name];
-}
-
 function getSupabaseConfig() {
+  // Deliberately static `process.env.X` member expressions, not a dynamic
+  // lookup keyed by a runtime string -- Expo/Metro's env-var inlining (and
+  // Vite's for web) only replaces literal expressions it can find via static
+  // analysis of the source. A dynamic `env[name]` helper is invisible to that
+  // pass, so on native (no real runtime process.env) every lookup silently
+  // resolved to undefined and the app permanently fell back to demo data.
   const url =
-    readEnv('VITE_SUPABASE_URL') ??
-    readEnv('EXPO_PUBLIC_SUPABASE_URL') ??
-    readEnv('SUPABASE_URL');
+    process.env.VITE_SUPABASE_URL ??
+    process.env.EXPO_PUBLIC_SUPABASE_URL ??
+    process.env.SUPABASE_URL;
   const anonKey =
-    readEnv('VITE_SUPABASE_ANON_KEY') ??
-    readEnv('EXPO_PUBLIC_SUPABASE_ANON_KEY') ??
-    readEnv('SUPABASE_ANON_KEY');
+    process.env.VITE_SUPABASE_ANON_KEY ??
+    process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ??
+    process.env.SUPABASE_ANON_KEY;
 
   return { url, anonKey };
 }

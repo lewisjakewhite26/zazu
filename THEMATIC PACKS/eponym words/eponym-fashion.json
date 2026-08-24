@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Cardigan",
+    "pronunciation": "KAR-dih-gun",
+    "pos": "noun",
+    "definition": "A knitted sweater or jacket that opens down the front, typically fastened with buttons.",
+    "origin": "<strong>Cardigan</strong> is named after James Brudenell, 7th Earl of Cardigan (1797–1868), the British cavalry officer who led the disastrous Charge of the Light Brigade in the Crimean War. Officers of the era favoured knitted wool waistcoats under their uniforms for warmth in the Crimean winter, and the style was named for the earl, whether or not he ever wore one himself.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cardigan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Earl of Cardigan",
+            "b": "British cavalry officer, 1797–1868"
+          },
+          {
+            "a": "Famous for leading",
+            "b": "The Charge of the Light Brigade, 1854"
+          },
+          {
+            "a": "War setting",
+            "b": "The Crimean War"
+          },
+          {
+            "a": "Garment named for",
+            "b": "A knitted, button-front wool waistcoat"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cardigan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cardigan describes",
+            "b": "A button-front knitted sweater"
+          },
+          {
+            "a": "Typically worn",
+            "b": "Open over a shirt or blouse"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "Opens down the front, unlike a pullover"
+          },
+          {
+            "a": "Popular fabric",
+            "b": "Wool or cotton knit"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cardigan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She threw on a",
+            "b": "Cardigan against the evening chill"
+          },
+          {
+            "a": "He kept a spare",
+            "b": "Cardigan draped on his office chair"
+          },
+          {
+            "a": "The uniform included a wool",
+            "b": "Cardigan for cold mornings"
+          },
+          {
+            "a": "Grandma always wore a",
+            "b": "Cardigan over her dress"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Earl of Cardigan",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "Cavalry officer who led the Charge of the Light Brigade",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Earl of Cardigan",
+          "highlight": true
+        },
+        {
+          "text": ", whose Crimean War officers wore knitted wool waistcoats for warmth.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Earl of Cardigan",
+      "correctAnswer": "Cavalry officer who led the Charge of the Light Brigade",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wellington",
+    "pronunciation": "WEL-ing-tun",
+    "pos": "noun",
+    "definition": "A knee-high, waterproof rubber or leather boot.",
+    "origin": "<strong>Wellington</strong> boots are named after Arthur Wellesley, 1st Duke of Wellington (1769–1852), the British general who defeated Napoleon at Waterloo. He asked his shoemaker to modify the traditional Hessian boot into a sturdier, close-fitting leather boot suitable for both the battlefield and evening wear, and fashionable men soon copied his style, calling it after him.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wellington</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Duke of Wellington",
+            "b": "British general, 1769–1852"
+          },
+          {
+            "a": "Famous for defeating",
+            "b": "Napoleon at the Battle of Waterloo, 1815"
+          },
+          {
+            "a": "He commissioned",
+            "b": "A modified leather boot from his shoemaker"
+          },
+          {
+            "a": "Boot later remade in",
+            "b": "Waterproof rubber"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wellington</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Wellington describes",
+            "b": "A knee-high waterproof boot"
+          },
+          {
+            "a": "Modern wellingtons are typically",
+            "b": "Made of rubber"
+          },
+          {
+            "a": "Worn for",
+            "b": "Rain, mud, and farm work"
+          },
+          {
+            "a": "Originally made from",
+            "b": "Leather, for military use"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wellington</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She pulled on her",
+            "b": "Wellingtons before the muddy walk"
+          },
+          {
+            "a": "The farmer never left the barn without his",
+            "b": "Wellingtons"
+          },
+          {
+            "a": "Puddles were no match for his",
+            "b": "Bright yellow wellingtons"
+          },
+          {
+            "a": "Festival-goers packed",
+            "b": "Wellingtons for the rainy forecast"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Duke of Wellington",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "General who defeated Napoleon at Waterloo",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Duke of Wellington",
+          "highlight": true
+        },
+        {
+          "text": ", whose sturdier leather boot design became a fashionable, then practical, staple.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Duke of Wellington",
+      "correctAnswer": "General who defeated Napoleon at Waterloo",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bloomers",
+    "pronunciation": "BLOO-murz",
+    "pos": "noun",
+    "definition": "Loose, wide trousers gathered at the knee or ankle, originally worn by women as an alternative to restrictive skirts.",
+    "origin": "<strong>Bloomers</strong> are named after Amelia Bloomer (1818–1894), the American women's rights campaigner who promoted, though did not invent, a loose trouser-and-tunic outfit as a healthier, more practical alternative to the corsets and heavy skirts of the 1850s. She publicised the style in her newspaper <em>The Lily</em>, and despite considerable public mockery, her name stuck to the garment permanently.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bloomers</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Amelia Bloomer",
+            "b": "American women's rights campaigner, 1818–1894"
+          },
+          {
+            "a": "She promoted the style in",
+            "b": "Her newspaper, The Lily"
+          },
+          {
+            "a": "The garment offered",
+            "b": "An alternative to corsets and heavy skirts"
+          },
+          {
+            "a": "Public reaction at the time",
+            "b": "Widespread mockery and ridicule"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bloomers</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bloomers describes",
+            "b": "Loose trousers gathered at the knee or ankle"
+          },
+          {
+            "a": "Originally worn as",
+            "b": "A practical alternative to skirts"
+          },
+          {
+            "a": "Associated movement",
+            "b": "Early women's dress reform"
+          },
+          {
+            "a": "Later became",
+            "b": "A general term for loose women's underwear too"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bloomers</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cyclist wore practical",
+            "b": "Bloomers for freedom of movement"
+          },
+          {
+            "a": "Victorian reformers championed",
+            "b": "Bloomers over restrictive skirts"
+          },
+          {
+            "a": "The costume drama featured actresses in",
+            "b": "Period bloomers"
+          },
+          {
+            "a": "She was mocked in the press for wearing",
+            "b": "Bloomers in public"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Amelia Bloomer",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Campaigner who popularised practical trousers for women",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Amelia Bloomer",
+          "highlight": true
+        },
+        {
+          "text": ", whose newspaper championed loose trousers as freedom from the corset.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Amelia Bloomer",
+      "correctAnswer": "Campaigner who popularised practical trousers for women",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Leotard",
+    "pronunciation": "LEE-uh-tard",
+    "pos": "noun",
+    "definition": "A tight-fitting, one-piece garment covering the torso, worn for dance, gymnastics, or exercise.",
+    "origin": "<strong>Leotard</strong> is named after Jules Léotard (1838–1870), the French acrobat who invented the flying trapeze act and performed in a snug, one-piece knitted garment that let audiences see every muscle in motion. He even wrote a maxim urging fellow performers to design their own such costume, and after his death the garment was named in his honour.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Leotard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jules Léotard",
+            "b": "French acrobat, 1838–1870"
+          },
+          {
+            "a": "His invention",
+            "b": "The flying trapeze act"
+          },
+          {
+            "a": "His costume",
+            "b": "A snug, one-piece knitted garment"
+          },
+          {
+            "a": "Garment named after him",
+            "b": "Following his death, in 1886"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Leotard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Leotard describes",
+            "b": "A tight one-piece garment for the torso"
+          },
+          {
+            "a": "Commonly worn for",
+            "b": "Dance, gymnastics, or exercise"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "Stretchy fabric, full coverage of the torso"
+          },
+          {
+            "a": "Origin discipline",
+            "b": "Trapeze and circus performance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Leotard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The gymnast adjusted her",
+            "b": "Leotard before the routine"
+          },
+          {
+            "a": "Dance class required a plain black",
+            "b": "Leotard"
+          },
+          {
+            "a": "The circus performer swung by in a sequinned",
+            "b": "Leotard"
+          },
+          {
+            "a": "She practised ballet in a snug",
+            "b": "Leotard and tights"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jules Léotard",
+        "rootLanguage": "19th-century France",
+        "rootMeaning": "Acrobat who invented the flying trapeze",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Jules Léotard",
+          "highlight": true
+        },
+        {
+          "text": ", whose snug trapeze costume let audiences watch every muscle at work.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jules Léotard",
+      "correctAnswer": "Acrobat who invented the flying trapeze",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sideburns",
+    "pronunciation": "SYDE-burnz",
+    "pos": "noun",
+    "definition": "Strips of hair grown down the sides of a man's face in front of the ears.",
+    "origin": "<strong>Sideburns</strong> is a rearrangement of \"burnsides,\" named after Ambrose Burnside (1824–1881), the American Civil War general famous for his distinctive facial hair, thick side whiskers connected to a moustache, with a clean-shaven chin. Over time the compound word flipped from burnsides to sideburns, keeping his name attached to any hair grown down the sides of the face.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sideburns</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ambrose Burnside",
+            "b": "American Civil War general, 1824–1881"
+          },
+          {
+            "a": "His signature look",
+            "b": "Thick side whiskers joined to a moustache"
+          },
+          {
+            "a": "Original term",
+            "b": "\"Burnsides,\" after his surname"
+          },
+          {
+            "a": "Word later rearranged to",
+            "b": "Sideburns"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sideburns</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Sideburns describes",
+            "b": "Hair grown down the sides of the face"
+          },
+          {
+            "a": "Typically grown",
+            "b": "In front of the ears, down to the jaw"
+          },
+          {
+            "a": "Popular in decades such as",
+            "b": "The 1970s and Victorian era"
+          },
+          {
+            "a": "Named after a reversal of",
+            "b": "A general's surname"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sideburns</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The rock star sported long",
+            "b": "Sideburns down to his jaw"
+          },
+          {
+            "a": "He trimmed his",
+            "b": "Sideburns before the interview"
+          },
+          {
+            "a": "The barber shaped his",
+            "b": "Sideburns into a neat line"
+          },
+          {
+            "a": "Old photographs showed her grandfather's bushy",
+            "b": "Sideburns"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ambrose Burnside",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Civil War general known for his distinctive facial hair",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, in reversed form, for ",
+          "highlight": false
+        },
+        {
+          "text": "Ambrose Burnside",
+          "highlight": true
+        },
+        {
+          "text": ", whose side whiskers turned \"burnsides\" into \"sideburns.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ambrose Burnside",
+      "correctAnswer": "Civil War general known for his distinctive facial hair",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tweed",
+    "pronunciation": "TWEED",
+    "pos": "noun",
+    "definition": "A rough, woollen fabric, typically woven in flecked or checked patterns, used for outdoor and country clothing.",
+    "origin": "<strong>Tweed</strong> is often told as an eponym of the River Tweed, which runs along the Scottish Borders where the coarse woollen cloth was traditionally woven, but the more common account of the name is a happy accident: a London merchant misread \"tweel,\" the Scots word for twill weave, on an invoice, and rebranded the fabric after the river out of pure error. Whichever version is true, the place name stuck to the cloth.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tweed</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "River Tweed",
+            "b": "River in the Scottish Borders"
+          },
+          {
+            "a": "Original Scots word",
+            "b": "\"Tweel,\" meaning twill weave"
+          },
+          {
+            "a": "Popular story",
+            "b": "A merchant misread \"tweel\" as \"Tweed\""
+          },
+          {
+            "a": "Fabric now named for",
+            "b": "The river, whether by error or design"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tweed</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Tweed describes",
+            "b": "A rough, flecked woollen fabric"
+          },
+          {
+            "a": "Traditionally used for",
+            "b": "Country jackets and outdoor wear"
+          },
+          {
+            "a": "Weaving region",
+            "b": "The Scottish Borders"
+          },
+          {
+            "a": "Typical pattern",
+            "b": "Herringbone or check"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tweed</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The professor wore a",
+            "b": "Tweed jacket with elbow patches"
+          },
+          {
+            "a": "He hunted grouse in a full",
+            "b": "Tweed suit"
+          },
+          {
+            "a": "The estate's gamekeeper favoured heavy",
+            "b": "Tweed"
+          },
+          {
+            "a": "Her coat was cut from soft grey",
+            "b": "Tweed"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "River Tweed",
+        "rootLanguage": "Scottish Borders",
+        "rootMeaning": "River associated with traditional woollen weaving",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, by legend, for the ",
+          "highlight": false
+        },
+        {
+          "text": "River Tweed",
+          "highlight": true
+        },
+        {
+          "text": ", after a merchant's misreading of the Scots word for twill turned \"tweel\" into \"Tweed.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "River Tweed",
+      "correctAnswer": "River associated with traditional woollen weaving",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Raglan",
+    "pronunciation": "RAG-lun",
+    "pos": "adjective",
+    "definition": "Describing a sleeve that extends in one piece to the collar, without a shoulder seam.",
+    "origin": "<strong>Raglan</strong> is named after FitzRoy Somerset, 1st Baron Raglan (1788–1855), the British field marshal who lost an arm at the Battle of Waterloo and later commanded British forces in the Crimean War. His tailor designed a coat with sleeves cut in one continuous piece to the collar, easier to put on with limited mobility, and the style has carried his name ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Raglan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Baron Raglan",
+            "b": "British field marshal, 1788–1855"
+          },
+          {
+            "a": "He lost an arm at",
+            "b": "The Battle of Waterloo"
+          },
+          {
+            "a": "Commanded British forces in",
+            "b": "The Crimean War"
+          },
+          {
+            "a": "His tailor designed",
+            "b": "A coat sleeve cut to the collar in one piece"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Raglan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Raglan describes",
+            "b": "A sleeve without a shoulder seam"
+          },
+          {
+            "a": "The sleeve extends",
+            "b": "In one piece up to the collar"
+          },
+          {
+            "a": "Common on garments such as",
+            "b": "Baseball shirts and sweaters"
+          },
+          {
+            "a": "Design benefit",
+            "b": "Greater freedom of shoulder movement"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Raglan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The pitcher wore a classic",
+            "b": "Raglan-sleeve baseball shirt"
+          },
+          {
+            "a": "She sewed a",
+            "b": "Raglan sleeve into the child's jumper"
+          },
+          {
+            "a": "The pattern called for",
+            "b": "Raglan sleeves for easy movement"
+          },
+          {
+            "a": "His coat had the distinctive",
+            "b": "Raglan cut across the shoulders"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Baron Raglan",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "Field marshal whose tailored coat design bears his name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Baron Raglan",
+          "highlight": true
+        },
+        {
+          "text": ", whose one-armed convenience gave tailoring a sleeve cut in a single piece to the collar.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Baron Raglan",
+      "correctAnswer": "Field marshal whose tailored coat design bears his name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Balaclava",
+    "pronunciation": "bal-uh-KLAH-vuh",
+    "pos": "noun",
+    "definition": "A close-fitting knitted covering for the head and neck, leaving only the face or eyes exposed.",
+    "origin": "<strong>Balaclava</strong> takes its name from the Battle of Balaclava (1854) during the Crimean War, fought near the Ukrainian port town of the same name, where British troops suffered brutally cold conditions and were sent knitted woollen head coverings from home for warmth. The place name attached itself to the garment rather than to any single person, but it belongs to the same family of Crimean War eponyms as the cardigan and the raglan.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Balaclava</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Battle of Balaclava",
+            "b": "Crimean War battle, 1854"
+          },
+          {
+            "a": "Location",
+            "b": "Port town in Crimea, Ukraine"
+          },
+          {
+            "a": "Troops received",
+            "b": "Knitted woollen head coverings for warmth"
+          },
+          {
+            "a": "Garment named for",
+            "b": "The battle site itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Balaclava</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Balaclava describes",
+            "b": "A knitted covering for the head and neck"
+          },
+          {
+            "a": "Typically leaves exposed",
+            "b": "Only the face or eyes"
+          },
+          {
+            "a": "Worn for",
+            "b": "Cold weather or concealment"
+          },
+          {
+            "a": "Same war family as",
+            "b": "Cardigan and raglan"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Balaclava</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The skier pulled on a",
+            "b": "Balaclava against the biting wind"
+          },
+          {
+            "a": "Soldiers in the trenches wore knitted",
+            "b": "Balaclavas"
+          },
+          {
+            "a": "The motorcyclist tucked a",
+            "b": "Balaclava under his helmet"
+          },
+          {
+            "a": "Under the streetlight the figure in a",
+            "b": "Balaclava looked sinister"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Battle of Balaclava",
+        "rootLanguage": "19th-century Crimea",
+        "rootMeaning": "Crimean War battle site that gave its name to woollen head coverings",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Battle of Balaclava",
+          "highlight": true
+        },
+        {
+          "text": ", where knitted head coverings sent to keep troops warm carried the battlefield's name home.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Battle of Balaclava",
+      "correctAnswer": "Crimean War battle site that gave its name to woollen head coverings",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fedora",
+    "pronunciation": "fih-DOR-uh",
+    "pos": "noun",
+    "definition": "A soft felt hat with a wide brim and a crown creased lengthwise.",
+    "origin": "<strong>Fedora</strong> takes its name from <em>Fédora</em>, an 1882 play by Victorien Sardou in which actress Sarah Bernhardt played a Russian princess wearing a soft, indented felt hat previously more associated with women's fashion. The style crossed over to men's wear within a few decades and became a defining hat of early twentieth-century menswear, still bearing the name of Sardou's fictional princess.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fedora</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Fédora",
+            "b": "Play by Victorien Sardou, 1882"
+          },
+          {
+            "a": "Lead role played by",
+            "b": "Sarah Bernhardt, as a Russian princess"
+          },
+          {
+            "a": "She wore",
+            "b": "A soft, indented felt hat onstage"
+          },
+          {
+            "a": "Style later became",
+            "b": "A staple of men's fashion"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fedora</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Fedora describes",
+            "b": "A soft felt hat with a lengthwise crease"
+          },
+          {
+            "a": "Typical feature",
+            "b": "A wide brim, often turned up at the sides"
+          },
+          {
+            "a": "Popular era for the style",
+            "b": "Early to mid-20th century"
+          },
+          {
+            "a": "Named for",
+            "b": "A fictional princess in a stage play"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fedora</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The detective wore a battered",
+            "b": "Fedora and trench coat"
+          },
+          {
+            "a": "He tipped his",
+            "b": "Fedora to greet her"
+          },
+          {
+            "a": "The jazz singer performed in a sharp grey",
+            "b": "Fedora"
+          },
+          {
+            "a": "Old film noir stars are rarely seen without a",
+            "b": "Fedora"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Fédora",
+        "rootLanguage": "19th-century France (play title)",
+        "rootMeaning": "Sardou play whose heroine's hat became a fashion staple",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Fédora",
+          "highlight": true
+        },
+        {
+          "text": ", the fictional princess of Sardou's 1882 play, whose stage hat became a menswear icon.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Fédora",
+      "correctAnswer": "Sardou play whose heroine's hat became a fashion staple",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Macintosh",
+    "pronunciation": "MAK-in-tosh",
+    "pos": "noun",
+    "definition": "A waterproof raincoat, originally made from rubberised fabric.",
+    "origin": "<strong>Macintosh</strong> is named after Charles Macintosh (1766–1843), the Scottish chemist who in 1823 patented a process for bonding two layers of fabric together with dissolved rubber, creating the first practical waterproof cloth. His name became attached to the raincoats made from it, and the shortened \"mac\" remains everyday British slang for any raincoat at all.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Macintosh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Macintosh",
+            "b": "Scottish chemist, 1766–1843"
+          },
+          {
+            "a": "His invention",
+            "b": "A rubberised waterproof fabric, patented 1823"
+          },
+          {
+            "a": "Process involved",
+            "b": "Bonding two fabric layers with dissolved rubber"
+          },
+          {
+            "a": "Word shortened to",
+            "b": "\"Mac,\" British slang for any raincoat"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Macintosh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Macintosh describes",
+            "b": "A waterproof raincoat"
+          },
+          {
+            "a": "Originally made from",
+            "b": "Rubberised fabric"
+          },
+          {
+            "a": "Common shortened form",
+            "b": "\"Mac\""
+          },
+          {
+            "a": "Named after",
+            "b": "A chemist, not a place"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Macintosh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She grabbed her",
+            "b": "Macintosh before stepping into the rain"
+          },
+          {
+            "a": "The detective's trench-style",
+            "b": "Macintosh kept him dry"
+          },
+          {
+            "a": "He left his",
+            "b": "Mac hanging by the door"
+          },
+          {
+            "a": "Rain lashed against her yellow",
+            "b": "Macintosh"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Macintosh",
+        "rootLanguage": "18th–19th-century Scotland",
+        "rootMeaning": "Chemist who invented rubberised waterproof fabric",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Macintosh",
+          "highlight": true
+        },
+        {
+          "text": ", whose rubber-bonded fabric gave English its raincoat, and its \"mac.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Macintosh",
+      "correctAnswer": "Chemist who invented rubberised waterproof fabric",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bikini",
+    "pronunciation": "bih-KEE-nee",
+    "pos": "noun",
+    "definition": "A women's two-piece swimsuit consisting of a top and briefs, notable for its minimal coverage.",
+    "origin": "<strong>Bikini</strong> is named after Bikini Atoll in the Marshall Islands, where the United States tested nuclear weapons starting in 1946. French designer Louis Réard launched his scandalously small two-piece swimsuit just days after one such test in 1946, deliberately naming it for the atoll in the hope its impact would prove equally explosive on the beaches of the world.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bikini</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Bikini Atoll",
+            "b": "Marshall Islands, site of US nuclear testing"
+          },
+          {
+            "a": "Testing began",
+            "b": "1946"
+          },
+          {
+            "a": "Designer",
+            "b": "Louis Réard, French fashion designer"
+          },
+          {
+            "a": "His intent",
+            "b": "To name the swimsuit for an \"explosive\" debut"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bikini</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bikini describes",
+            "b": "A minimal two-piece women's swimsuit"
+          },
+          {
+            "a": "Consists of",
+            "b": "A top and separate briefs"
+          },
+          {
+            "a": "Debuted in",
+            "b": "1946, Paris"
+          },
+          {
+            "a": "Named after",
+            "b": "A Pacific atoll, not a designer"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bikini</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She packed a bright red",
+            "b": "Bikini for the beach holiday"
+          },
+          {
+            "a": "The fashion show closed with a striped",
+            "b": "Bikini"
+          },
+          {
+            "a": "He set up the beach umbrella while she changed into her",
+            "b": "Bikini"
+          },
+          {
+            "a": "The swimsuit shop displayed dozens of",
+            "b": "Bikini styles"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Bikini Atoll",
+        "rootLanguage": "Marshall Islands",
+        "rootMeaning": "Pacific atoll where nuclear tests inspired the swimsuit's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Bikini Atoll",
+          "highlight": true
+        },
+        {
+          "text": ", the Pacific test site whose nuclear headlines a designer hoped his tiny swimsuit would rival.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Bikini Atoll",
+      "correctAnswer": "Pacific atoll where nuclear tests inspired the swimsuit's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Camisole",
+    "pronunciation": "KAM-ih-sole",
+    "pos": "noun",
+    "definition": "A women's sleeveless undergarment or light top, typically held up by thin shoulder straps.",
+    "origin": "<strong>Camisole</strong> is not named after a person, but its history is worth knowing alongside its neighbours: it descends from the French <em>camisole</em>, itself from Provençal <em>camisola</em>, a light shirt, ultimately from Late Latin <em>camisia</em> (shirt or nightgown). It began as a loose undergarment for both sexes before narrowing, by the twentieth century, into the strappy women's garment known today.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Camisole</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French camisole",
+            "b": "Light shirt or undergarment"
+          },
+          {
+            "a": "From Provençal",
+            "b": "Camisola, a light shirt"
+          },
+          {
+            "a": "Ultimately from Latin",
+            "b": "Camisia, meaning shirt or nightgown"
+          },
+          {
+            "a": "Modern sense narrowed to",
+            "b": "A strappy women's undergarment"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Camisole</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Camisole describes",
+            "b": "A sleeveless undergarment or light top"
+          },
+          {
+            "a": "Typically held up by",
+            "b": "Thin shoulder straps"
+          },
+          {
+            "a": "Worn under",
+            "b": "Blouses or as sleepwear"
+          },
+          {
+            "a": "Word traces back to",
+            "b": "Latin for shirt"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Camisole</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wore a silk",
+            "b": "Camisole under her blazer"
+          },
+          {
+            "a": "The lingerie set included a matching",
+            "b": "Camisole"
+          },
+          {
+            "a": "On hot nights she slept in just a",
+            "b": "Camisole"
+          },
+          {
+            "a": "The lace",
+            "b": "Camisole peeked out from her open collar"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "camisia",
+        "rootLanguage": "Late Latin",
+        "rootMeaning": "Shirt or nightgown",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "camisia",
+          "highlight": true
+        },
+        {
+          "text": " (shirt), by way of French, into the strappy garment worn today.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "camisia",
+      "correctAnswer": "Shirt or nightgown",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Garibaldi",
+    "pronunciation": "gar-ih-BAWL-dee",
+    "pos": "noun",
+    "definition": "A loose-fitting red blouse or shirt for women, or a biscuit filled with a layer of currants.",
+    "origin": "<strong>Garibaldi</strong> is named after Giuseppe Garibaldi (1807–1882), the Italian general famed for uniting Italy while leading his volunteer soldiers, known as the Redshirts, in loose red military tunics. His visit to England in 1864 sparked such enthusiasm that manufacturers rushed out red blouses and even a currant biscuit named in his honour, both riding the wave of \"Garibaldi fever.\"",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Garibaldi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Giuseppe Garibaldi",
+            "b": "Italian general and unifier of Italy, 1807–1882"
+          },
+          {
+            "a": "His soldiers were known as",
+            "b": "The Redshirts"
+          },
+          {
+            "a": "His 1864 visit to England sparked",
+            "b": "A wave of \"Garibaldi fever\""
+          },
+          {
+            "a": "Named after him",
+            "b": "A red blouse and a currant biscuit"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Garibaldi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Garibaldi describes",
+            "b": "A loose red blouse, or a currant biscuit"
+          },
+          {
+            "a": "The blouse style echoed",
+            "b": "A military redshirt tunic"
+          },
+          {
+            "a": "The biscuit is filled with",
+            "b": "A layer of currants"
+          },
+          {
+            "a": "Named after",
+            "b": "A 19th-century Italian general"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Garibaldi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wore a bright red",
+            "b": "Garibaldi blouse to the parade"
+          },
+          {
+            "a": "Tea time included a plate of",
+            "b": "Garibaldi biscuits"
+          },
+          {
+            "a": "The shop sold biscuits called",
+            "b": "Garibaldis, packed with currants"
+          },
+          {
+            "a": "His fans copied the general's look with a red",
+            "b": "Garibaldi shirt"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Giuseppe Garibaldi",
+        "rootLanguage": "19th-century Italy",
+        "rootMeaning": "General who led the Redshirts to unite Italy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Giuseppe Garibaldi",
+          "highlight": true
+        },
+        {
+          "text": ", whose red-shirted soldiers sparked a fashion craze that even reached the biscuit tin.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Giuseppe Garibaldi",
+      "correctAnswer": "General who led the Redshirts to unite Italy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ascot",
+    "pronunciation": "AS-kut",
+    "pos": "noun",
+    "definition": "A wide necktie, often patterned, tied in a loose knot with the ends laid flat, one over the other.",
+    "origin": "<strong>Ascot</strong> takes its name from Ascot Racecourse in Berkshire, England, home to the Royal Ascot meeting since 1711, where fashionable racegoers adopted a broad, elegantly knotted tie as formal daytime dress. The necktie style took the racecourse's name with it wherever it travelled, long after most wearers had never set foot at the track.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ascot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ascot Racecourse",
+            "b": "Berkshire, England, established 1711"
+          },
+          {
+            "a": "Royal Ascot",
+            "b": "Prestigious annual race meeting"
+          },
+          {
+            "a": "Racegoers wore",
+            "b": "A broad, formally knotted daytime tie"
+          },
+          {
+            "a": "Tie style named after",
+            "b": "The racecourse itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ascot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ascot describes",
+            "b": "A wide, loosely knotted formal necktie"
+          },
+          {
+            "a": "Typically worn with",
+            "b": "Morning dress or formal daywear"
+          },
+          {
+            "a": "Named after",
+            "b": "A British racecourse"
+          },
+          {
+            "a": "Distinct from",
+            "b": "A standard narrow necktie"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ascot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He completed his morning suit with an",
+            "b": "Ascot tie"
+          },
+          {
+            "a": "The gentleman at the races wore an",
+            "b": "Ascot and top hat"
+          },
+          {
+            "a": "Her costume for the period drama included an",
+            "b": "Ascot"
+          },
+          {
+            "a": "Wedding guests were asked to wear an",
+            "b": "Ascot for the formal reception"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ascot Racecourse",
+        "rootLanguage": "18th-century England",
+        "rootMeaning": "Berkshire racecourse whose formal dress code named the tie",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ascot Racecourse",
+          "highlight": true
+        },
+        {
+          "text": ", where formal daytime dress at the Royal meeting gave its name to a broad, elegantly knotted tie.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ascot Racecourse",
+      "correctAnswer": "Berkshire racecourse whose formal dress code named the tie",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Derby",
+    "pronunciation": "DAR-bee",
+    "pos": "noun",
+    "definition": "A stiff felt hat with a rounded crown and narrow brim, known in Britain as a bowler.",
+    "origin": "<strong>Derby</strong>, in American English, names the hat that the British call a bowler, and both trace to Edward Smith-Stanley, 12th Earl of Derby (1799–1869), founder of the Derby horse race at Epsom in 1780. The hat became strongly associated with racegoers at the event and, once exported to America, took the earl's title rather than the hatmaker Bowler's surname as its name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Derby</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Earl of Derby",
+            "b": "Founder of the Epsom Derby horse race, 1780"
+          },
+          {
+            "a": "The hat style became linked to",
+            "b": "Racegoers at the Derby"
+          },
+          {
+            "a": "British name for the hat",
+            "b": "Bowler, after the hatmaker"
+          },
+          {
+            "a": "American name for the hat",
+            "b": "Derby, after the earl's title"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Derby</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Derby describes",
+            "b": "A stiff felt hat with a rounded crown"
+          },
+          {
+            "a": "British equivalent name",
+            "b": "Bowler hat"
+          },
+          {
+            "a": "Associated with",
+            "b": "Formal or old-fashioned businessmen's attire"
+          },
+          {
+            "a": "Named after",
+            "b": "A horse-racing earl"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Derby</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The banker wore a black",
+            "b": "Derby hat to the office"
+          },
+          {
+            "a": "Old cartoons often show villains in a",
+            "b": "Derby and monocle"
+          },
+          {
+            "a": "He tipped his",
+            "b": "Derby politely at the door"
+          },
+          {
+            "a": "The comedian's costume included a battered",
+            "b": "Derby hat"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Earl of Derby",
+        "rootLanguage": "18th–19th-century England",
+        "rootMeaning": "Founder of the Epsom Derby horse race",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Earl of Derby",
+          "highlight": true
+        },
+        {
+          "text": ", whose famous horse race lent its title to a hat the British call a bowler.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Earl of Derby",
+      "correctAnswer": "Founder of the Epsom Derby horse race",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Homburg",
+    "pronunciation": "HOM-burg",
+    "pos": "noun",
+    "definition": "A formal felt hat with a stiff curled brim and a lengthwise crease in the crown.",
+    "origin": "<strong>Homburg</strong> is named after Bad Homburg, a German spa town where Britain's future King Edward VII holidayed in the 1880s and admired the felt hats worn by local hunters. He brought several back to England, and the style, adopted by fashionable men across Europe, kept the name of the town where a prince first spotted it.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Homburg</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Bad Homburg",
+            "b": "German spa town"
+          },
+          {
+            "a": "Visited in the 1880s by",
+            "b": "The future King Edward VII"
+          },
+          {
+            "a": "He admired",
+            "b": "Felt hats worn by local hunters"
+          },
+          {
+            "a": "Hat style named after",
+            "b": "The town itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Homburg</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Homburg describes",
+            "b": "A formal felt hat with a curled brim"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "A lengthwise crease along the crown"
+          },
+          {
+            "a": "Popularised by",
+            "b": "European royalty and statesmen"
+          },
+          {
+            "a": "Named after",
+            "b": "A German spa town"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Homburg</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The diplomat arrived in a grey",
+            "b": "Homburg"
+          },
+          {
+            "a": "Old newsreels show statesmen in dark",
+            "b": "Homburgs"
+          },
+          {
+            "a": "He chose a",
+            "b": "Homburg to complete his formal winter coat"
+          },
+          {
+            "a": "The tailor recommended a",
+            "b": "Homburg for the state dinner"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Bad Homburg",
+        "rootLanguage": "19th-century Germany",
+        "rootMeaning": "Spa town where a future king admired local hunters' hats",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Bad Homburg",
+          "highlight": true
+        },
+        {
+          "text": ", the German spa town whose hunting hats caught a prince's eye and travelled home with him.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Bad Homburg",
+      "correctAnswer": "Spa town where a future king admired local hunters' hats",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Duffel",
+    "pronunciation": "DUF-ul",
+    "pos": "noun",
+    "definition": "A coarse, heavy woollen cloth, or a large cylindrical bag or coat made from it.",
+    "origin": "<strong>Duffel</strong> takes its name from Duffel, a small town near Antwerp in Belgium, long known for producing a thick, coarse woollen cloth. The fabric gave its name first to duffel coats, toggled overcoats worn by sailors and later students, and then to duffel bags, cylindrical carriers originally made of the same sturdy material.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Duffel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Duffel",
+            "b": "Town near Antwerp, Belgium"
+          },
+          {
+            "a": "Known for producing",
+            "b": "A thick, coarse woollen cloth"
+          },
+          {
+            "a": "Cloth first named",
+            "b": "Duffel coats, worn by sailors"
+          },
+          {
+            "a": "Later applied to",
+            "b": "Duffel bags, made of sturdy material"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Duffel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Duffel describes",
+            "b": "A coarse wool cloth, coat, or bag"
+          },
+          {
+            "a": "A duffel coat typically has",
+            "b": "Toggle fastenings"
+          },
+          {
+            "a": "A duffel bag is",
+            "b": "A large cylindrical carrier"
+          },
+          {
+            "a": "Named after",
+            "b": "A Belgian town"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Duffel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He buttoned up his toggled",
+            "b": "Duffel coat for the cold walk"
+          },
+          {
+            "a": "She packed the gym clothes into her",
+            "b": "Duffel bag"
+          },
+          {
+            "a": "The sailor slung his",
+            "b": "Duffel over one shoulder"
+          },
+          {
+            "a": "Schoolchildren in the 1960s wore navy",
+            "b": "Duffel coats"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Duffel",
+        "rootLanguage": "Belgium",
+        "rootMeaning": "Town famous for its thick woollen cloth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Duffel",
+          "highlight": true
+        },
+        {
+          "text": ", the Belgian town whose coarse wool gave its name to both a coat and a bag.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Duffel",
+      "correctAnswer": "Town famous for its thick woollen cloth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Plimsoll",
+    "pronunciation": "PLIM-sul",
+    "pos": "noun",
+    "definition": "A light canvas shoe with a rubber sole, typically worn for sport or casual wear.",
+    "origin": "<strong>Plimsoll</strong> shoes are named, indirectly, after Samuel Plimsoll (1824–1898), the British politician who campaigned for the Plimsoll line, a mark painted on ships' hulls to prevent dangerous overloading. The rubber strip sealing a canvas shoe's sole to its upper reminded people of that waterline mark, and the nickname for the shoe stuck.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Plimsoll</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Samuel Plimsoll",
+            "b": "British politician, 1824–1898"
+          },
+          {
+            "a": "His campaign led to",
+            "b": "The Plimsoll line, marking safe ship loading"
+          },
+          {
+            "a": "The line resembled",
+            "b": "The rubber strip on a canvas shoe's sole"
+          },
+          {
+            "a": "Shoe nicknamed",
+            "b": "After the resemblance to the waterline mark"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Plimsoll</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Plimsoll describes",
+            "b": "A light canvas shoe with a rubber sole"
+          },
+          {
+            "a": "Also known in the US as",
+            "b": "A sneaker or tennis shoe"
+          },
+          {
+            "a": "Named after",
+            "b": "A safety mark on ships, not a shoemaker"
+          },
+          {
+            "a": "Common use",
+            "b": "School sport or casual summer wear"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Plimsoll</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The children changed into",
+            "b": "Plimsolls for PE class"
+          },
+          {
+            "a": "He wore canvas",
+            "b": "Plimsolls all summer long"
+          },
+          {
+            "a": "The gym kit list required black",
+            "b": "Plimsolls"
+          },
+          {
+            "a": "Her feet were bare inside worn",
+            "b": "Plimsolls"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Samuel Plimsoll",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "Politician whose ship safety line inspired the shoe's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, by resemblance, for ",
+          "highlight": false
+        },
+        {
+          "text": "Samuel Plimsoll",
+          "highlight": true
+        },
+        {
+          "text": ", whose ship-safety waterline mark looked just like the rubber strip on a canvas shoe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Samuel Plimsoll",
+      "correctAnswer": "Politician whose ship safety line inspired the shoe's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stetson",
+    "pronunciation": "STET-sun",
+    "pos": "noun",
+    "definition": "A broad-brimmed felt hat, especially the style traditionally worn by cowboys.",
+    "origin": "<strong>Stetson</strong> is named after John B. Stetson (1830–1906), the American hatmaker who, while recovering from tuberculosis in the West, designed a durable, waterproof felt hat with a wide brim suited to sun, rain, and dust. His \"Boss of the Plains\" hat became so associated with the American cowboy that his company name became a generic word for the style itself.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stetson</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "John B. Stetson",
+            "b": "American hatmaker, 1830–1906"
+          },
+          {
+            "a": "His signature hat",
+            "b": "\"Boss of the Plains,\" durable and wide-brimmed"
+          },
+          {
+            "a": "Designed for",
+            "b": "Sun, rain, and dust of the American West"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Any broad-brimmed cowboy-style felt hat"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stetson</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Stetson describes",
+            "b": "A broad-brimmed felt cowboy hat"
+          },
+          {
+            "a": "Traditionally worn by",
+            "b": "Ranchers and cowboys"
+          },
+          {
+            "a": "Named after",
+            "b": "The company's founding hatmaker"
+          },
+          {
+            "a": "Key qualities",
+            "b": "Durable, weatherproof felt"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stetson</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The rancher pulled his",
+            "b": "Stetson low against the sun"
+          },
+          {
+            "a": "She bought a genuine",
+            "b": "Stetson at the rodeo"
+          },
+          {
+            "a": "His silhouette in a wide",
+            "b": "Stetson was unmistakable"
+          },
+          {
+            "a": "The country singer never performs without his",
+            "b": "Stetson"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "John B. Stetson",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Hatmaker who designed the iconic wide-brimmed cowboy hat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "John B. Stetson",
+          "highlight": true
+        },
+        {
+          "text": ", whose durable \"Boss of the Plains\" hat became the defining shape of the American West.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "John B. Stetson",
+      "correctAnswer": "Hatmaker who designed the iconic wide-brimmed cowboy hat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Trilby",
+    "pronunciation": "TRIL-bee",
+    "pos": "noun",
+    "definition": "A soft felt hat with a narrow brim and an indented crown, similar to but smaller-brimmed than a fedora.",
+    "origin": "<strong>Trilby</strong> is named after the title character of George du Maurier's 1894 novel <em>Trilby</em>, about a young artist's model in Paris hypnotised by the sinister Svengali. When the novel was staged in London, a soft felt hat worn in the production became so fashionable among theatregoers that it took the heroine's name, long outliving the novel's own popularity.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Trilby</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Trilby",
+            "b": "Novel by George du Maurier, 1894"
+          },
+          {
+            "a": "Title character",
+            "b": "A young artist's model in Paris"
+          },
+          {
+            "a": "Stage adaptation featured",
+            "b": "A soft felt hat worn in the production"
+          },
+          {
+            "a": "Hat named after",
+            "b": "The novel's heroine"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Trilby</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Trilby describes",
+            "b": "A soft felt hat with a narrow brim"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "An indented, pinched crown"
+          },
+          {
+            "a": "Compared to a fedora, it has",
+            "b": "A narrower brim"
+          },
+          {
+            "a": "Named after",
+            "b": "A fictional novel heroine"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Trilby</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He wore a jaunty",
+            "b": "Trilby with his tweed coat"
+          },
+          {
+            "a": "The musician's signature look included a",
+            "b": "Trilby hat"
+          },
+          {
+            "a": "She spotted a vintage",
+            "b": "Trilby at the market stall"
+          },
+          {
+            "a": "His narrow-brimmed",
+            "b": "Trilby suited the retro outfit"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Trilby",
+        "rootLanguage": "19th-century England (novel title)",
+        "rootMeaning": "Du Maurier's heroine, whose stage hat gave the style its name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Trilby",
+          "highlight": true
+        },
+        {
+          "text": ", the hypnotised heroine of du Maurier's novel, whose stage hat outlasted the story that made it famous.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Trilby",
+      "correctAnswer": "Du Maurier's heroine, whose stage hat gave the style its name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Panama",
+    "pronunciation": "PAN-uh-mah",
+    "pos": "noun",
+    "definition": "A lightweight straw hat with a wide brim, traditionally woven from the leaves of the toquilla palm.",
+    "origin": "<strong>Panama</strong> hats are, confusingly, not from Panama at all, but from Ecuador, where weavers have made them from toquilla straw since the seventeenth century. They earned their misleading name because they were shipped through the Isthmus of Panama en route to global markets, and their fame was cemented when workers building the Panama Canal, and later President Theodore Roosevelt himself, were photographed wearing them.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Panama</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "True origin",
+            "b": "Ecuador, woven from toquilla palm straw"
+          },
+          {
+            "a": "Shipped through",
+            "b": "The Isthmus of Panama, to global markets"
+          },
+          {
+            "a": "Fame boosted by",
+            "b": "Photos of Panama Canal workers wearing them"
+          },
+          {
+            "a": "Name stuck despite",
+            "b": "Having nothing to do with Panama itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Panama</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Panama describes",
+            "b": "A lightweight woven straw hat"
+          },
+          {
+            "a": "Actually made in",
+            "b": "Ecuador, not Panama"
+          },
+          {
+            "a": "Traditional material",
+            "b": "Toquilla palm leaves"
+          },
+          {
+            "a": "Famous wearer",
+            "b": "Theodore Roosevelt, at the Panama Canal"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Panama</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He wore a crisp white",
+            "b": "Panama hat on the cruise"
+          },
+          {
+            "a": "The tourist shop sold genuine woven",
+            "b": "Panamas"
+          },
+          {
+            "a": "She shaded her eyes under a wide",
+            "b": "Panama brim"
+          },
+          {
+            "a": "His summer wardrobe always included a",
+            "b": "Panama hat"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Isthmus of Panama",
+        "rootLanguage": "Central America (shipping route)",
+        "rootMeaning": "Trade route that misleadingly named an Ecuadorian hat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Isthmus of Panama",
+          "highlight": true
+        },
+        {
+          "text": ", the shipping route that gave an Ecuadorian straw hat a name from a country it never came from.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Isthmus of Panama",
+      "correctAnswer": "Trade route that misleadingly named an Ecuadorian hat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mackinaw",
+    "pronunciation": "MAK-ih-naw",
+    "pos": "noun",
+    "definition": "A short, heavy plaid wool coat or jacket, traditionally worn for outdoor winter work.",
+    "origin": "<strong>Mackinaw</strong> takes its name from the Straits of Mackinac in Michigan, a key fur-trading crossroads in the early 1800s where thick woollen blankets and coats, well suited to brutal Great Lakes winters, were traded and issued to soldiers and voyageurs. The heavy plaid jacket that developed from those blankets kept the strait's name, spelled slightly differently, as it spread across North America.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mackinaw</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Straits of Mackinac",
+            "b": "Michigan, USA, fur-trading crossroads"
+          },
+          {
+            "a": "Era of use",
+            "b": "Early 1800s"
+          },
+          {
+            "a": "Traded item",
+            "b": "Thick woollen blankets and coats"
+          },
+          {
+            "a": "Garment named after",
+            "b": "The strait, spelled Mackinaw"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mackinaw</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mackinaw describes",
+            "b": "A short, heavy plaid wool coat"
+          },
+          {
+            "a": "Traditionally worn for",
+            "b": "Outdoor winter work"
+          },
+          {
+            "a": "Common pattern",
+            "b": "Bold plaid or checked wool"
+          },
+          {
+            "a": "Named after",
+            "b": "A strait in Michigan"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mackinaw</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The logger buttoned up his",
+            "b": "Mackinaw against the cold"
+          },
+          {
+            "a": "He chopped wood in a red plaid",
+            "b": "Mackinaw"
+          },
+          {
+            "a": "The outdoor shop stocked heavy wool",
+            "b": "Mackinaws"
+          },
+          {
+            "a": "Her grandfather's old",
+            "b": "Mackinaw still hung in the cabin"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Straits of Mackinac",
+        "rootLanguage": "Michigan, USA",
+        "rootMeaning": "Fur-trading crossroads that named a heavy winter coat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Straits of Mackinac",
+          "highlight": true
+        },
+        {
+          "text": ", the fur-trading crossroads whose winter blankets became a heavy plaid coat.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Straits of Mackinac",
+      "correctAnswer": "Fur-trading crossroads that named a heavy winter coat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cravat",
+    "pronunciation": "kruh-VAT",
+    "pos": "noun",
+    "definition": "A band of fabric worn round the neck and tucked inside an open-necked shirt, an ancestor of the modern necktie.",
+    "origin": "<strong>Cravat</strong> derives from the French <em>cravate</em>, itself adapted from \"Croate,\" meaning a Croat, after Croatian mercenary soldiers serving in France during the Thirty Years' War were noticed wearing knotted linen scarves at the neck. French fashion of the 1630s copied the striking look, and the garment kept the nationality's name even as it evolved into today's necktie.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cravat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French cravate",
+            "b": "From \"Croate,\" meaning a Croat"
+          },
+          {
+            "a": "Worn by",
+            "b": "Croatian mercenary soldiers in France"
+          },
+          {
+            "a": "War setting",
+            "b": "The Thirty Years' War, 1630s"
+          },
+          {
+            "a": "French fashion later",
+            "b": "Adopted and refined the knotted neck scarf"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cravat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cravat describes",
+            "b": "A neck scarf tucked into an open shirt"
+          },
+          {
+            "a": "Considered an ancestor of",
+            "b": "The modern necktie"
+          },
+          {
+            "a": "Named after",
+            "b": "A nationality, the Croats"
+          },
+          {
+            "a": "Popular era",
+            "b": "17th-century French court fashion"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cravat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He fastened a silk",
+            "b": "Cravat at his throat"
+          },
+          {
+            "a": "The period drama's costumes featured elaborate",
+            "b": "Cravats"
+          },
+          {
+            "a": "She tied his",
+            "b": "Cravat before the formal portrait"
+          },
+          {
+            "a": "The dandy was known for his flamboyant",
+            "b": "Cravat knots"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Croate",
+        "rootLanguage": "17th-century French, from \"Croat\"",
+        "rootMeaning": "A Croatian soldier, whose neck scarf inspired the cravat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Croatian",
+          "highlight": true
+        },
+        {
+          "text": " mercenaries, whose knotted neck scarves caught the eye of French fashion and gave the necktie its ancestor.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Croate",
+      "correctAnswer": "A Croatian soldier, whose neck scarf inspired the cravat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nehru",
+    "pronunciation": "NAY-roo",
+    "pos": "adjective",
+    "definition": "Describing a collarless or stand-up-collared jacket, similar to a traditional Indian tunic.",
+    "origin": "<strong>Nehru</strong> jackets are named after Jawaharlal Nehru (1889–1964), India's first prime minister, who favoured a knee-length coat with a short, stand-up collar known in India as an achkan or sherwani. Western fashion in the 1960s, swept up in enthusiasm for global style, adapted and shortened the look into the \"Nehru jacket,\" attaching his name to a garment style with a much older Indian history.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nehru</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jawaharlal Nehru",
+            "b": "First Prime Minister of India, 1889–1964"
+          },
+          {
+            "a": "He favoured",
+            "b": "A knee-length coat with a stand-up collar"
+          },
+          {
+            "a": "Traditional Indian name for the garment",
+            "b": "Achkan or sherwani"
+          },
+          {
+            "a": "Western fashion in the 1960s",
+            "b": "Adapted it as the \"Nehru jacket\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nehru</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nehru describes",
+            "b": "A collarless, stand-up-collared jacket"
+          },
+          {
+            "a": "Style resembles",
+            "b": "A traditional Indian tunic"
+          },
+          {
+            "a": "Popularised in the West during",
+            "b": "The 1960s"
+          },
+          {
+            "a": "Named after",
+            "b": "India's first prime minister"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nehru</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The groom wore a formal",
+            "b": "Nehru jacket for the ceremony"
+          },
+          {
+            "a": "The 1960s pop band all sported",
+            "b": "Nehru jackets"
+          },
+          {
+            "a": "His tailor cut a modern take on the",
+            "b": "Nehru collar"
+          },
+          {
+            "a": "She admired the clean lines of his",
+            "b": "Nehru-style coat"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jawaharlal Nehru",
+        "rootLanguage": "20th-century India",
+        "rootMeaning": "First Prime Minister of India, known for his stand-up-collar coat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Jawaharlal Nehru",
+          "highlight": true
+        },
+        {
+          "text": ", whose stand-up-collared coat was adapted by Western fashion into a jacket bearing his name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jawaharlal Nehru",
+      "correctAnswer": "First Prime Minister of India, known for his stand-up-collar coat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mao",
+    "pronunciation": "MOW",
+    "pos": "adjective",
+    "definition": "Describing a plain, high-collared, buttoned tunic suit associated with mid-20th-century Chinese leadership.",
+    "origin": "<strong>Mao</strong> suit is named after Mao Zedong (1893–1976), founding leader of the People's Republic of China, who popularised a plain, high-collared tunic as a symbol of revolutionary equality between officials and ordinary citizens. Though the garment predates him, originating with Sun Yat-sen, Mao's decades of near-constant public wear fixed his name to it in the Western imagination.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mao</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Mao Zedong",
+            "b": "Founding leader of the People's Republic of China"
+          },
+          {
+            "a": "He wore",
+            "b": "A plain, high-collared buttoned tunic"
+          },
+          {
+            "a": "Garment originally introduced by",
+            "b": "Sun Yat-sen, earlier Chinese leader"
+          },
+          {
+            "a": "Style symbolised",
+            "b": "Revolutionary equality among citizens"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mao</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mao describes",
+            "b": "A plain, high-collared tunic suit"
+          },
+          {
+            "a": "Symbolic meaning",
+            "b": "Political and social equality"
+          },
+          {
+            "a": "Predecessor style credited to",
+            "b": "Sun Yat-sen"
+          },
+          {
+            "a": "Named after",
+            "b": "China's mid-20th-century leader"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mao</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The exhibit displayed an original",
+            "b": "Mao suit from the 1960s"
+          },
+          {
+            "a": "Fashion designers later reinterpreted the",
+            "b": "Mao collar"
+          },
+          {
+            "a": "Officials at the parade wore matching",
+            "b": "Mao suits"
+          },
+          {
+            "a": "The film's costume department researched authentic",
+            "b": "Mao-era tunics"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Mao Zedong",
+        "rootLanguage": "20th-century China",
+        "rootMeaning": "Revolutionary leader whose plain tunic became a political symbol",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Mao Zedong",
+          "highlight": true
+        },
+        {
+          "text": ", whose plain, high-collared tunic became shorthand in the West for revolutionary China.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Mao Zedong",
+      "correctAnswer": "Revolutionary leader whose plain tunic became a political symbol",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Poncho",
+    "pronunciation": "PON-choh",
+    "pos": "noun",
+    "definition": "A simple cloak made from a single piece of fabric with a hole for the head, worn over the shoulders.",
+    "origin": "<strong>Poncho</strong> is not a personal name but a Spanish borrowing from Mapudungun, the language of the Mapuche people of central Chile and Argentina, whose word <em>pontho</em> or <em>pontro</em> described a woven woollen blanket worn as an outer garment. Spanish colonisers adopted both the garment and the word, and it spread through the Americas and eventually the world.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Poncho</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Mapudungun pontho",
+            "b": "Word for a woven woollen blanket-garment"
+          },
+          {
+            "a": "Spoken by",
+            "b": "The Mapuche people, Chile and Argentina"
+          },
+          {
+            "a": "Adopted into",
+            "b": "Spanish, then English"
+          },
+          {
+            "a": "Garment spread through",
+            "b": "Colonisation and later global fashion"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Poncho</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Poncho describes",
+            "b": "A cloak with a head-hole, worn over the shoulders"
+          },
+          {
+            "a": "Traditional material",
+            "b": "Woven wool"
+          },
+          {
+            "a": "Region of origin",
+            "b": "Central Chile and Argentina"
+          },
+          {
+            "a": "Modern versions often made from",
+            "b": "Waterproof fabric"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Poncho</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wrapped herself in a colourful woven",
+            "b": "Poncho"
+          },
+          {
+            "a": "The hikers pulled on plastic",
+            "b": "Ponchos as the rain began"
+          },
+          {
+            "a": "His grandfather's traditional",
+            "b": "Poncho was hand-woven wool"
+          },
+          {
+            "a": "Festival-goers bought disposable",
+            "b": "Ponchos at the gate"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pontho",
+        "rootLanguage": "Mapudungun (Mapuche)",
+        "rootMeaning": "Woven woollen blanket worn as an outer garment",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Mapudungun ",
+          "highlight": false
+        },
+        {
+          "text": "pontho",
+          "highlight": true
+        },
+        {
+          "text": ", the Mapuche word for a woven blanket-cloak, adopted into Spanish and then English.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pontho",
+      "correctAnswer": "Woven woollen blanket worn as an outer garment",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Galosh",
+    "pronunciation": "guh-LOSH",
+    "pos": "noun",
+    "definition": "A waterproof overshoe worn to protect regular footwear from mud, rain, or snow.",
+    "origin": "<strong>Galosh</strong> is not a personal eponym but has a disputed and colourful place-name history: many etymologists trace it to Gaulish or Latin <em>gallica</em>, a type of shoe worn in Roman Gaul, while others connect it to the French <em>Galoche</em>. Whatever its exact path, the word had settled into English by the fourteenth century as a term for protective outer footwear, long before rubber overshoes made the word truly practical.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Galosh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin gallica",
+            "b": "A shoe style worn in Roman Gaul"
+          },
+          {
+            "a": "Possible French link",
+            "b": "Galoche"
+          },
+          {
+            "a": "Entered English by",
+            "b": "The 14th century"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A rubber overshoe worn over regular shoes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Galosh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Galosh describes",
+            "b": "A waterproof overshoe"
+          },
+          {
+            "a": "Worn to protect",
+            "b": "Regular shoes from mud or snow"
+          },
+          {
+            "a": "Typically made from",
+            "b": "Rubber"
+          },
+          {
+            "a": "Word dates back to",
+            "b": "The 14th century"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Galosh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He pulled",
+            "b": "Galoshes over his dress shoes for the walk"
+          },
+          {
+            "a": "She kept a pair of",
+            "b": "Galoshes by the back door"
+          },
+          {
+            "a": "The slushy streets called for sturdy",
+            "b": "Galoshes"
+          },
+          {
+            "a": "His polished shoes stayed dry inside rubber",
+            "b": "Galoshes"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gallica",
+        "rootLanguage": "Latin (Roman Gaul)",
+        "rootMeaning": "A style of shoe worn in Roman Gaul",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced to Latin ",
+          "highlight": false
+        },
+        {
+          "text": "gallica",
+          "highlight": true
+        },
+        {
+          "text": ", a Gaulish shoe style, centuries before rubber turned the word into a rainy-day essential.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gallica",
+      "correctAnswer": "A style of shoe worn in Roman Gaul",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tam",
+    "pronunciation": "TAM",
+    "pos": "noun",
+    "definition": "A round, flat woollen cap of Scottish origin, gathered into a band at the forehead, short for tam-o'-shanter.",
+    "origin": "<strong>Tam</strong> is short for tam-o'-shanter, named after the title character of Robert Burns's 1790 narrative poem <em>Tam o' Shanter</em>, an ordinary farmer who, riding home drunk one night, stumbles upon a witches' dance and barely escapes with his life. The soft, round Scottish bonnet Burns's hero would have worn took his name, later shortened simply to \"tam.\"",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tam</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Tam o' Shanter",
+            "b": "Poem by Robert Burns, 1790"
+          },
+          {
+            "a": "Title character",
+            "b": "A farmer who flees a witches' dance"
+          },
+          {
+            "a": "Bonnet named for",
+            "b": "Burns's fictional hero"
+          },
+          {
+            "a": "Word later shortened to",
+            "b": "\"Tam\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tam</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Tam describes",
+            "b": "A round, flat Scottish woollen cap"
+          },
+          {
+            "a": "Full original name",
+            "b": "Tam-o'-shanter"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "Gathered into a band at the forehead"
+          },
+          {
+            "a": "Named after",
+            "b": "A character in a Robert Burns poem"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tam</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bagpiper wore a traditional",
+            "b": "Tam with his kilt"
+          },
+          {
+            "a": "She knitted a colourful",
+            "b": "Tam for winter"
+          },
+          {
+            "a": "His grandfather's old wool",
+            "b": "Tam still smelled of peat smoke"
+          },
+          {
+            "a": "The Highland dancers all wore matching",
+            "b": "Tams"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Tam o' Shanter",
+        "rootLanguage": "18th-century Scotland (poem)",
+        "rootMeaning": "Burns's drunken farmer hero, whose bonnet gave the cap its name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Short for ",
+          "highlight": false
+        },
+        {
+          "text": "Tam o' Shanter",
+          "highlight": true
+        },
+        {
+          "text": ", Robert Burns's hapless farmer, whose Scottish bonnet lent its name to a whole style of cap.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Tam o' Shanter",
+      "correctAnswer": "Burns's drunken farmer hero, whose bonnet gave the cap its name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Spats",
+    "pronunciation": "SPATS",
+    "pos": "noun",
+    "definition": "Short cloth or leather coverings worn over the ankle and instep of a shoe, historically as a mark of formal dress.",
+    "origin": "<strong>Spats</strong> is a shortening of \"spatterdashes,\" a name that describes exactly what the garment did: it dashed away, or blocked, the spatter of mud and rain from the lower leg and shoe. Not tied to any one person, the word instead grew from function into fashion, eventually becoming a symbol of Edwardian gentlemanly polish rather than a practical need.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Spats</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spatterdashes",
+            "b": "Original, longer form of the word"
+          },
+          {
+            "a": "Function of the word",
+            "b": "Dashing away spatters of mud and rain"
+          },
+          {
+            "a": "Word later shortened to",
+            "b": "\"Spats\""
+          },
+          {
+            "a": "Later became",
+            "b": "A symbol of formal Edwardian dress"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Spats</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Spats describes",
+            "b": "Short coverings over the ankle and shoe instep"
+          },
+          {
+            "a": "Originally intended to",
+            "b": "Protect against mud and rain splashes"
+          },
+          {
+            "a": "Later associated with",
+            "b": "Formal, dapper dress"
+          },
+          {
+            "a": "Word shortened from",
+            "b": "Spatterdashes"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Spats</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The dandy completed his outfit with white",
+            "b": "Spats"
+          },
+          {
+            "a": "Old gangster films show villains in pinstripe suits and",
+            "b": "Spats"
+          },
+          {
+            "a": "He wore",
+            "b": "Spats to keep his polished shoes clean"
+          },
+          {
+            "a": "The magician's costume included classic black-and-white",
+            "b": "Spats"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "spatterdashes",
+        "rootLanguage": "17th-century English",
+        "rootMeaning": "Coverings that dashed away mud and rain splatter",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Shortened from ",
+          "highlight": false
+        },
+        {
+          "text": "spatterdashes",
+          "highlight": true
+        },
+        {
+          "text": ", a name describing exactly what the garment did, before fashion took over from function.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "spatterdashes",
+      "correctAnswer": "Coverings that dashed away mud and rain splatter",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bespoke",
+    "pronunciation": "bih-SPOKE",
+    "pos": "adjective",
+    "definition": "Made to order for an individual customer, especially a tailored garment, rather than mass-produced.",
+    "origin": "<strong>Bespoke</strong> is not named after a person or place, but its story belongs alongside these garments as a rare eponym-adjacent term: it comes from the old verb \"to bespeak,\" meaning to speak for or arrange something in advance. From the seventeenth century, Savile Row tailors used it to mean cloth that a customer had already \"spoken for\" before it was cut, and the term became the definitive word for custom-made tailoring.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-fashion",
+      "name": "Fashion",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bespoke</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old verb bespeak",
+            "b": "To speak for, or arrange in advance"
+          },
+          {
+            "a": "Savile Row tailors used it from",
+            "b": "The 17th century"
+          },
+          {
+            "a": "Meaning at the time",
+            "b": "Cloth already \"spoken for\" before cutting"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Anything custom-made to order"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bespoke</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bespoke describes",
+            "b": "Made to order for an individual"
+          },
+          {
+            "a": "Contrast with",
+            "b": "Off-the-rack or mass-produced"
+          },
+          {
+            "a": "Traditionally applied to",
+            "b": "Tailored suits"
+          },
+          {
+            "a": "Comes from",
+            "b": "The verb \"to bespeak\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bespoke</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He had a",
+            "b": "Bespoke suit made on Savile Row"
+          },
+          {
+            "a": "The software was a",
+            "b": "Bespoke solution for the client"
+          },
+          {
+            "a": "She commissioned a",
+            "b": "Bespoke wedding dress"
+          },
+          {
+            "a": "The tailor measured him for a",
+            "b": "Bespoke jacket"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bespeak",
+        "rootLanguage": "Old English/Middle English",
+        "rootMeaning": "To speak for or arrange something in advance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From the old verb ",
+          "highlight": false
+        },
+        {
+          "text": "bespeak",
+          "highlight": true
+        },
+        {
+          "text": ", meaning to speak for something in advance, giving Savile Row its word for custom tailoring.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bespeak",
+      "correctAnswer": "To speak for or arrange something in advance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

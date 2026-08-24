@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Cobalt",
+    "pronunciation": "KOH-bawlt",
+    "pos": "noun",
+    "definition": "A hard, silvery-white metallic element used in alloys, batteries, and blue pigments.",
+    "origin": "From German <strong>Kobold</strong> (goblin, evil spirit). Medieval German miners blamed the metal's toxic, arsenic-laden ores and the way it spoiled silver smelting on mischievous goblins living in the rock.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cobalt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Kobold", "b": "Goblin, evil spirit" },
+          { "a": "Miners blamed goblins for", "b": "Ores that spoiled silver smelting" },
+          { "a": "The ore was often", "b": "Laced with toxic arsenic" },
+          { "a": "Word entered chemistry via", "b": "German mining tradition" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cobalt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cobalt is a", "b": "Hard, silvery-white metal" },
+          { "a": "Cobalt salts produce a deep", "b": "Blue pigment" },
+          { "a": "Cobalt is a key ingredient in", "b": "Rechargeable batteries" },
+          { "a": "Cobalt's atomic number is", "b": "27" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cobalt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vase was glazed a striking", "b": "Cobalt blue" },
+          { "a": "Electric car batteries rely heavily on", "b": "Cobalt" },
+          { "a": "Miners in the region extract", "b": "Cobalt ore by hand" },
+          { "a": "The alloy's strength comes from added", "b": "Cobalt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Kobold", "rootLanguage": "German", "rootMeaning": "Goblin, evil spirit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From German ", "highlight": false }, { "text": "Kobold", "highlight": true }, { "text": " (goblin); blamed by miners for ruining silver ore.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Kobold", "correctAnswer": "Goblin, evil spirit", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nickel",
+    "pronunciation": "NIK-uhl",
+    "pos": "noun",
+    "definition": "A hard, silvery-white metallic element resistant to corrosion, widely used in alloys and coinage.",
+    "origin": "From Swedish <strong>kopparnickel</strong> (\"false copper\" or \"devil's copper\"), a nickname German and Swedish miners gave the ore because it resembled copper ore but yielded no copper, as if bewitched by Nickel, a mischievous sprite.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nickel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Swedish kopparnickel", "b": "False copper" },
+          { "a": "The ore resembled", "b": "Copper ore, but yielded none" },
+          { "a": "Miners blamed the trickery on", "b": "Nickel, a mischievous sprite" },
+          { "a": "Element isolated in 1751 by", "b": "Axel Fredrik Cronstedt" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nickel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Nickel resists", "b": "Corrosion" },
+          { "a": "Nickel is widely used to make", "b": "Coins and alloys" },
+          { "a": "In American slang, a nickel is a", "b": "Five-cent coin" },
+          { "a": "Stainless steel contains both chromium and", "b": "Nickel" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nickel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He dug through his pockets for a spare", "b": "Nickel" },
+          { "a": "The cutlery was plated with", "b": "Nickel to resist rust" },
+          { "a": "Some people develop a skin allergy to", "b": "Nickel jewellery" },
+          { "a": "The battery's cathode is made from", "b": "Nickel and cobalt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kopparnickel", "rootLanguage": "Swedish/German", "rootMeaning": "False copper", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Swedish ", "highlight": false }, { "text": "kopparnickel", "highlight": true }, { "text": " (\"false copper\"); an ore that tricked miners looking for copper.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kopparnickel", "correctAnswer": "False copper", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Helium",
+    "pronunciation": "HEE-lee-uhm",
+    "pos": "noun",
+    "definition": "A light, colourless, inert gas, the second most abundant element in the universe.",
+    "origin": "From Greek <strong>helios</strong> (sun). Astronomers Pierre Janssen and Norman Lockyer detected its spectral signature in sunlight during a solar eclipse in 1868, decades before it was found on Earth.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Helium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek helios", "b": "Sun" },
+          { "a": "Detected during a solar eclipse in", "b": "1868" },
+          { "a": "First spotted by", "b": "Janssen and Lockyer" },
+          { "a": "Found on Earth", "b": "Decades after its discovery in sunlight" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Helium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Helium is", "b": "A light, inert gas" },
+          { "a": "Helium is famous for filling", "b": "Party balloons" },
+          { "a": "Breathing helium makes your voice sound", "b": "Higher-pitched" },
+          { "a": "Helium is the second most abundant element in", "b": "The universe" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Helium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The children giggled after inhaling", "b": "Helium from a balloon" },
+          { "a": "MRI scanners are cooled using liquid", "b": "Helium" },
+          { "a": "The parade float floated on giant", "b": "Helium balloons" },
+          { "a": "Deep-sea divers sometimes breathe a", "b": "Helium gas mixture" }
+        ] }
+    ],
+    "roots": [ { "rootText": "helios", "rootLanguage": "Greek", "rootMeaning": "Sun", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "helios", "highlight": true }, { "text": " (sun); found in sunlight before it was found on Earth.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "helios", "correctAnswer": "Sun", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neon",
+    "pronunciation": "NEE-on",
+    "pos": "noun",
+    "definition": "A colourless, inert gas that glows reddish-orange when electrified, widely used in illuminated signs.",
+    "origin": "From Greek <strong>neon</strong> (new thing), the neuter form of neos (new). British chemists William Ramsay and Morris Travers named it in 1898 after isolating it from liquid air.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek neon", "b": "New thing" },
+          { "a": "From Greek neos, meaning", "b": "New" },
+          { "a": "Discovered in 1898 by", "b": "Ramsay and Travers" },
+          { "a": "Isolated from", "b": "Liquid air" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Neon glows when", "b": "Electrified" },
+          { "a": "Neon glows a distinctive", "b": "Reddish-orange" },
+          { "a": "Neon is chemically", "b": "Inert" },
+          { "a": "'Neon colours' describes hues that are", "b": "Vividly bright" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The diner's window glowed with a", "b": "Neon sign" },
+          { "a": "She painted her nails a bright", "b": "Neon pink" },
+          { "a": "The city's nightlife district was lit by", "b": "Neon signs" },
+          { "a": "Runners wore high-visibility", "b": "Neon jackets" }
+        ] }
+    ],
+    "roots": [ { "rootText": "neon", "rootLanguage": "Greek", "rootMeaning": "New thing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "neon", "highlight": true }, { "text": " (new thing); a freshly isolated gas that lit up the world's signage.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "neon", "correctAnswer": "New thing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Argon",
+    "pronunciation": "AR-gon",
+    "pos": "noun",
+    "definition": "A colourless, odourless, inert gas that makes up nearly one per cent of Earth's atmosphere.",
+    "origin": "From Greek <strong>argon</strong> (idle, inactive), the neuter of argos, coined in 1894 by Lord Rayleigh and William Ramsay after they found it refused to react with anything they tried.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Argon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek argon", "b": "Idle, inactive" },
+          { "a": "Named in 1894 by", "b": "Rayleigh and Ramsay" },
+          { "a": "Named for its refusal to", "b": "React with other elements" },
+          { "a": "Was the first", "b": "Noble gas discovered" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Argon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Argon makes up nearly one per cent of", "b": "Earth's atmosphere" },
+          { "a": "Argon is used to fill", "b": "Light bulbs and double-glazed windows" },
+          { "a": "Welders use argon to", "b": "Shield metal from oxygen" },
+          { "a": "Argon belongs to the group of", "b": "Noble gases" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Argon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The window's gap was filled with insulating", "b": "Argon gas" },
+          { "a": "The welder used a shield of", "b": "Argon to prevent oxidation" },
+          { "a": "Wine bottles are sometimes topped with", "b": "Argon to preserve freshness" },
+          { "a": "The bulb's filament sat inside a tube of", "b": "Argon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "argon", "rootLanguage": "Greek", "rootMeaning": "Idle, inactive", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "argon", "highlight": true }, { "text": " (idle); named because it wouldn't react with anything.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "argon", "correctAnswer": "Idle, inactive", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Krypton",
+    "pronunciation": "KRIP-ton",
+    "pos": "noun",
+    "definition": "A colourless, inert gas present in trace amounts in the atmosphere, used in certain types of lighting.",
+    "origin": "From Greek <strong>kryptos</strong> (hidden). William Ramsay and Morris Travers named it in 1898 because it had remained undetected, hidden within liquid air, until they isolated it.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Krypton</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kryptos", "b": "Hidden" },
+          { "a": "Named in 1898 by", "b": "Ramsay and Travers" },
+          { "a": "Named because it had remained", "b": "Undetected within liquid air" },
+          { "a": "Later borrowed as the name of", "b": "Superman's fictional home planet" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Krypton</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Krypton is present in trace amounts in", "b": "The atmosphere" },
+          { "a": "Krypton is used in some", "b": "High-performance light bulbs" },
+          { "a": "Krypton is chemically", "b": "Inert" },
+          { "a": "Krypton is a", "b": "Noble gas" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Krypton</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The camera flash used a tube filled with", "b": "Krypton gas" },
+          { "a": "Comic fans know Krypton as", "b": "Superman's home planet" },
+          { "a": "The insulated window used a mix of argon and", "b": "Krypton" },
+          { "a": "Scientists measure the metre using", "b": "Krypton's light wavelength historically" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kryptos", "rootLanguage": "Greek", "rootMeaning": "Hidden", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kryptos", "highlight": true }, { "text": " (hidden); a gas that stayed concealed in the air until 1898.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kryptos", "correctAnswer": "Hidden", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sodium",
+    "pronunciation": "SOH-dee-uhm",
+    "pos": "noun",
+    "definition": "A soft, highly reactive silvery-white metal, essential to biological function and found combined with chlorine as table salt.",
+    "origin": "From English <strong>soda</strong>, ultimately from Arabic suwwad (a saltwort plant burned to make soda ash). Humphry Davy isolated the metal in 1807 by electrolysing caustic soda, naming it after its source.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sodium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English soda, from Arabic suwwad", "b": "A saltwort plant burned for soda ash" },
+          { "a": "Isolated in 1807 by", "b": "Humphry Davy" },
+          { "a": "Davy isolated it by electrolysing", "b": "Caustic soda" },
+          { "a": "Chemical symbol Na comes from", "b": "Latin natrium" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sodium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sodium combined with chlorine forms", "b": "Table salt" },
+          { "a": "Sodium is essential for", "b": "Nerve and muscle function" },
+          { "a": "Sodium reacts violently with", "b": "Water" },
+          { "a": "Too much sodium in the diet can raise", "b": "Blood pressure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sodium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The label warned of a high", "b": "Sodium content" },
+          { "a": "Dropped into water, the", "b": "Sodium fizzed and burst into flame" },
+          { "a": "Streetlights once glowed orange from", "b": "Sodium vapour lamps" },
+          { "a": "The doctor advised cutting back on", "b": "Sodium in his diet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "soda", "rootLanguage": "English/Arabic", "rootMeaning": "Saltwort plant used for soda ash", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "soda", "highlight": true }, { "text": " (Arabic suwwad); named for the alkaline compound Davy extracted it from.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "soda", "correctAnswer": "Saltwort plant used for soda ash", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Potassium",
+    "pronunciation": "puh-TAS-ee-uhm",
+    "pos": "noun",
+    "definition": "A soft, silvery-white reactive metal essential for nerve function, found in foods such as bananas and potatoes.",
+    "origin": "From English <strong>potash</strong> (pot ash), the residue left when wood ashes were leached in a pot to make alkali. Humphry Davy isolated the element from potash in 1807.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Potassium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English potash", "b": "Pot ash" },
+          { "a": "Potash was made by leaching", "b": "Wood ashes in a pot" },
+          { "a": "Isolated in 1807 by", "b": "Humphry Davy" },
+          { "a": "Chemical symbol K comes from", "b": "Latin kalium" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Potassium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Potassium is essential for", "b": "Nerve and muscle function" },
+          { "a": "Bananas are famous for their high", "b": "Potassium content" },
+          { "a": "Potassium reacts vigorously with", "b": "Water" },
+          { "a": "Fertilisers often supply crops with", "b": "Potassium" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Potassium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The nutritionist recommended more foods rich in", "b": "Potassium" },
+          { "a": "The chemistry teacher dropped a sliver of", "b": "Potassium into water" },
+          { "a": "Low potassium levels can cause", "b": "Muscle cramps" },
+          { "a": "Farmers spread fertiliser rich in", "b": "Potassium" }
+        ] }
+    ],
+    "roots": [ { "rootText": "potash", "rootLanguage": "English", "rootMeaning": "Pot ash", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "potash", "highlight": true }, { "text": " (pot ash); named for the alkali once leached from wood ash.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "potash", "correctAnswer": "Pot ash", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chlorine",
+    "pronunciation": "KLOR-een",
+    "pos": "noun",
+    "definition": "A greenish-yellow, toxic gas used as a disinfectant and in the manufacture of many chemicals.",
+    "origin": "From Greek <strong>khloros</strong> (pale green), named in 1810 by Humphry Davy for the gas's distinctive colour, after earlier chemists had mistaken it for a compound rather than an element.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chlorine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek khloros", "b": "Pale green" },
+          { "a": "Named in 1810 by", "b": "Humphry Davy" },
+          { "a": "Named for the gas's", "b": "Distinctive colour" },
+          { "a": "Earlier chemists mistakenly thought it was a", "b": "Compound, not an element" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chlorine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chlorine is used to", "b": "Disinfect water" },
+          { "a": "Chlorine gas is", "b": "Toxic" },
+          { "a": "Combined with sodium, chlorine forms", "b": "Table salt" },
+          { "a": "Chlorine was used as a", "b": "Chemical weapon in the First World War" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chlorine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The swimming pool reeked of", "b": "Chlorine" },
+          { "a": "Municipal water is treated with", "b": "Chlorine to kill bacteria" },
+          { "a": "Bleach's active ingredient is a compound of", "b": "Chlorine" },
+          { "a": "The lab technician wore gloves while handling", "b": "Chlorine solution" }
+        ] }
+    ],
+    "roots": [ { "rootText": "khloros", "rootLanguage": "Greek", "rootMeaning": "Pale green", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "khloros", "highlight": true }, { "text": " (pale green); named for the gas's colour by Humphry Davy.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "khloros", "correctAnswer": "Pale green", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fluorine",
+    "pronunciation": "FLOR-een",
+    "pos": "noun",
+    "definition": "A pale yellow, extremely reactive gas, the most reactive of all chemical elements.",
+    "origin": "From Latin <strong>fluere</strong> (to flow), via the mineral fluorspar, used since the 16th century as a flux to help ores flow more easily when smelted. French chemist Henri Moissan finally isolated the element in 1886.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fluorine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fluere", "b": "To flow" },
+          { "a": "Named via the mineral", "b": "Fluorspar" },
+          { "a": "Fluorspar was used since the 16th century as a", "b": "Flux in smelting" },
+          { "a": "Finally isolated in 1886 by", "b": "Henri Moissan" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fluorine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fluorine is the most", "b": "Reactive of all elements" },
+          { "a": "A compound of fluorine is added to", "b": "Toothpaste and drinking water" },
+          { "a": "Fluorine gas is coloured", "b": "Pale yellow" },
+          { "a": "Non-stick cookware coatings contain", "b": "Fluorine compounds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fluorine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dentist recommended toothpaste containing", "b": "Fluorine compounds" },
+          { "a": "Because it reacts with almost anything, isolating pure", "b": "Fluorine took decades" },
+          { "a": "The refrigerant gas was based on", "b": "Fluorine chemistry" },
+          { "a": "Some water supplies are treated with", "b": "Fluorine compounds" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fluere", "rootLanguage": "Latin", "rootMeaning": "To flow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fluere", "highlight": true }, { "text": " (to flow); named after fluorspar, once used to help molten ore flow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fluere", "correctAnswer": "To flow", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oxygen",
+    "pronunciation": "OK-si-juhn",
+    "pos": "noun",
+    "definition": "A colourless, odourless gas essential for respiration in most living things, making up about a fifth of Earth's atmosphere.",
+    "origin": "Coined in 1777 by French chemist Antoine Lavoisier from Greek <strong>oxys</strong> (sharp, acid) + -genes (producing), because he mistakenly believed the gas was a necessary ingredient of all acids.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oxygen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek oxys", "b": "Sharp, acid" },
+          { "a": "Greek -genes", "b": "Producing" },
+          { "a": "Coined in 1777 by", "b": "Antoine Lavoisier" },
+          { "a": "Lavoisier mistakenly believed it was needed to form", "b": "All acids" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oxygen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Oxygen makes up about a fifth of", "b": "Earth's atmosphere" },
+          { "a": "Most living things need oxygen for", "b": "Respiration" },
+          { "a": "Plants release oxygen during", "b": "Photosynthesis" },
+          { "a": "Hospital patients may be given extra", "b": "Oxygen" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oxygen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The climbers carried tanks of", "b": "Oxygen for the summit push" },
+          { "a": "Divers monitor their remaining", "b": "Oxygen supply" },
+          { "a": "The plant needs light, water, and releases", "b": "Oxygen" },
+          { "a": "The patient was placed on", "b": "Oxygen support" }
+        ] }
+    ],
+    "roots": [ { "rootText": "oxys genes", "rootLanguage": "Greek", "rootMeaning": "Acid-producing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "oxys genes", "highlight": true }, { "text": " (\"acid-producing\"); a mistaken theory that stuck as the name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "oxys genes", "correctAnswer": "Acid-producing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hydrogen",
+    "pronunciation": "HY-druh-juhn",
+    "pos": "noun",
+    "definition": "A colourless, odourless, highly flammable gas, the lightest and most abundant element in the universe.",
+    "origin": "Coined in 1783 by French chemist Antoine Lavoisier from Greek <strong>hydor</strong> (water) + -genes (producing), because burning the gas produces water as its only by-product.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hydrogen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek hydor", "b": "Water" },
+          { "a": "Greek -genes", "b": "Producing" },
+          { "a": "Coined in 1783 by", "b": "Antoine Lavoisier" },
+          { "a": "Named because burning it produces", "b": "Water" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hydrogen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Hydrogen is the lightest and most abundant element in", "b": "The universe" },
+          { "a": "Hydrogen fuel cells produce electricity and", "b": "Water" },
+          { "a": "Stars are powered by fusing", "b": "Hydrogen into helium" },
+          { "a": "Hydrogen gas is highly", "b": "Flammable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hydrogen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The concept car ran on a", "b": "Hydrogen fuel cell" },
+          { "a": "The Hindenburg disaster was fuelled by", "b": "Highly flammable hydrogen gas" },
+          { "a": "At the sun's core, hydrogen atoms fuse into", "b": "Helium" },
+          { "a": "Engineers are racing to build a", "b": "Hydrogen-powered economy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hydor genes", "rootLanguage": "Greek", "rootMeaning": "Water-producing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "hydor genes", "highlight": true }, { "text": " (\"water-producing\"); named for what it makes when burned.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hydor genes", "correctAnswer": "Water-producing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nitrogen",
+    "pronunciation": "NY-truh-juhn",
+    "pos": "noun",
+    "definition": "A colourless, odourless, largely unreactive gas making up about four-fifths of Earth's atmosphere.",
+    "origin": "Coined in 1790 from French <strong>nitre</strong> (saltpetre) + -genes (producing), since the gas was first identified as a component of nitric acid and its salts.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nitrogen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French nitre", "b": "Saltpetre" },
+          { "a": "Greek -genes", "b": "Producing" },
+          { "a": "Coined in", "b": "1790" },
+          { "a": "First identified as a component of", "b": "Nitric acid" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nitrogen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Nitrogen makes up about four-fifths of", "b": "Earth's atmosphere" },
+          { "a": "Nitrogen is a key ingredient in", "b": "Fertilisers" },
+          { "a": "Liquid nitrogen is used to", "b": "Freeze things rapidly" },
+          { "a": "Nitrogen is essential to build", "b": "Proteins and DNA" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nitrogen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The farmer spread fertiliser rich in", "b": "Nitrogen" },
+          { "a": "The scientist plunged the sample into liquid", "b": "Nitrogen" },
+          { "a": "Racing tyres are sometimes filled with", "b": "Nitrogen instead of air" },
+          { "a": "Bacteria in root nodules fix atmospheric", "b": "Nitrogen for the plant" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nitre genes", "rootLanguage": "French/Greek", "rootMeaning": "Saltpetre-producing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "nitre", "highlight": true }, { "text": " + Greek -genes; named for its link to saltpetre and nitric acid.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nitre genes", "correctAnswer": "Saltpetre-producing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Silicon",
+    "pronunciation": "SIL-i-kuhn",
+    "pos": "noun",
+    "definition": "A hard, brittle, semi-metallic element used to make glass, ceramics, and semiconductors.",
+    "origin": "From Latin <strong>silex</strong> (flint, hard stone). Swedish chemist Jöns Jacob Berzelius isolated the element in 1824, and English chemist Thomas Thomson later gave it the name silicon, modelled on carbon.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Silicon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin silex", "b": "Flint, hard stone" },
+          { "a": "Isolated in 1824 by", "b": "Jöns Jacob Berzelius" },
+          { "a": "Named by", "b": "Thomas Thomson" },
+          { "a": "Name was modelled on the element", "b": "Carbon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Silicon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Silicon is used to make", "b": "Glass and semiconductors" },
+          { "a": "Silicon Valley is named for the material used in", "b": "Computer chips" },
+          { "a": "Silicon is the second most abundant element in", "b": "Earth's crust" },
+          { "a": "Solar panels are commonly made from", "b": "Silicon" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Silicon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chip's circuits were etched onto a wafer of", "b": "Silicon" },
+          { "a": "Sand is mostly composed of", "b": "Silicon dioxide" },
+          { "a": "The startup hoped to make it big in", "b": "Silicon Valley" },
+          { "a": "Solar cells convert sunlight to electricity using", "b": "Silicon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "silex", "rootLanguage": "Latin", "rootMeaning": "Flint, hard stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "silex", "highlight": true }, { "text": " (flint); the element behind glass, sand, and computer chips.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "silex", "correctAnswer": "Flint, hard stone", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Platinum",
+    "pronunciation": "PLAT-i-nuhm",
+    "pos": "noun",
+    "definition": "A dense, precious, silvery-white metal prized for its resistance to corrosion and used in jewellery and catalytic converters.",
+    "origin": "From Spanish <strong>platina</strong> (little silver), a diminutive of plata (silver), coined by Spanish colonists in South America who initially dismissed the unfamiliar metal as an inferior, worthless form of silver.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Platinum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish platina", "b": "Little silver" },
+          { "a": "From Spanish plata, meaning", "b": "Silver" },
+          { "a": "Coined by", "b": "Spanish colonists in South America" },
+          { "a": "Colonists initially dismissed it as", "b": "Worthless, inferior silver" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Platinum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Platinum resists", "b": "Corrosion" },
+          { "a": "Catalytic converters use platinum to", "b": "Reduce vehicle emissions" },
+          { "a": "'Platinum' as a record award means", "b": "One million sales" },
+          { "a": "Platinum is prized in jewellery for its", "b": "Rarity and lustre" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Platinum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The engagement ring was set in", "b": "Platinum" },
+          { "a": "The album quickly went", "b": "Platinum" },
+          { "a": "The car's exhaust system relies on a", "b": "Platinum catalytic converter" },
+          { "a": "Investors watched the price of", "b": "Platinum rise" }
+        ] }
+    ],
+    "roots": [ { "rootText": "platina", "rootLanguage": "Spanish", "rootMeaning": "Little silver", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "platina", "highlight": true }, { "text": " (little silver); once dismissed as an inferior metal.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "platina", "correctAnswer": "Little silver", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tungsten",
+    "pronunciation": "TUNG-stuhn",
+    "pos": "noun",
+    "definition": "A very hard, dense grey metal with the highest melting point of any element, used in light bulb filaments and cutting tools.",
+    "origin": "From Swedish <strong>tung sten</strong> (heavy stone), a name given to the dense mineral scheelite. Spanish brothers Juan José and Fausto Elhuyar isolated the element itself in 1783.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tungsten</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Swedish tung sten", "b": "Heavy stone" },
+          { "a": "Originally named for the mineral", "b": "Scheelite" },
+          { "a": "Isolated in 1783 by", "b": "The Elhuyar brothers" },
+          { "a": "Chemical symbol W comes from", "b": "Wolfram" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tungsten</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tungsten has the highest melting point of", "b": "Any element" },
+          { "a": "Traditional light bulbs used a tungsten", "b": "Filament" },
+          { "a": "Tungsten's extreme hardness suits it to", "b": "Cutting and drilling tools" },
+          { "a": "Tungsten is prized for jewellery rings due to its", "b": "Scratch resistance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tungsten</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old bulb's glowing wire was made of", "b": "Tungsten" },
+          { "a": "The drill bit was tipped with", "b": "Tungsten carbide" },
+          { "a": "He chose a scratch-proof", "b": "Tungsten wedding ring" },
+          { "a": "Rocket nozzles are sometimes lined with", "b": "Tungsten alloy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tung sten", "rootLanguage": "Swedish", "rootMeaning": "Heavy stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Swedish ", "highlight": false }, { "text": "tung sten", "highlight": true }, { "text": " (heavy stone); the densest, hardest metal named for its weight.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tung sten", "correctAnswer": "Heavy stone", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Uranium",
+    "pronunciation": "yoo-RAY-nee-uhm",
+    "pos": "noun",
+    "definition": "A dense, radioactive metallic element used as fuel in nuclear reactors and in nuclear weapons.",
+    "origin": "Named in 1789 by German chemist Martin Heinrich Klaproth after the planet <strong>Uranus</strong>, discovered only eight years earlier, itself named for the Greek sky god Ouranos.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Uranium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after the planet", "b": "Uranus" },
+          { "a": "Uranus was discovered", "b": "Eight years before, in 1781" },
+          { "a": "Named in 1789 by", "b": "Martin Heinrich Klaproth" },
+          { "a": "Uranus itself was named for", "b": "Ouranos, the Greek sky god" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Uranium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Uranium is used as fuel in", "b": "Nuclear reactors" },
+          { "a": "Uranium is naturally", "b": "Radioactive" },
+          { "a": "Enriched uranium can be used in", "b": "Nuclear weapons" },
+          { "a": "Uranium was central to the wartime", "b": "Manhattan Project" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Uranium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The power plant's reactor was fuelled with", "b": "Enriched uranium" },
+          { "a": "Inspectors monitored the country's", "b": "Uranium enrichment programme" },
+          { "a": "Geologists surveyed the region for", "b": "Uranium deposits" },
+          { "a": "The mineral glowed faintly, a sign of", "b": "Trace uranium" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Uranus", "rootLanguage": "Greek (via planet name)", "rootMeaning": "Sky god", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after the planet ", "highlight": false }, { "text": "Uranus", "highlight": true }, { "text": ", itself named for the Greek sky god.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Uranus", "correctAnswer": "Sky god", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Radium",
+    "pronunciation": "RAY-dee-uhm",
+    "pos": "noun",
+    "definition": "A rare, highly radioactive metallic element that glows faintly in the dark.",
+    "origin": "From Latin <strong>radius</strong> (ray, beam), reflecting the intense rays of radioactivity the element emits. Marie and Pierre Curie discovered it in 1898 and named it for this glowing property.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Radium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin radius", "b": "Ray, beam" },
+          { "a": "Discovered in 1898 by", "b": "Marie and Pierre Curie" },
+          { "a": "Named for its", "b": "Rays of radioactivity" },
+          { "a": "The Curies discovered it while studying", "b": "Pitchblende ore" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Radium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Radium is highly", "b": "Radioactive" },
+          { "a": "Radium was once used to paint", "b": "Glow-in-the-dark watch dials" },
+          { "a": "Handling radium proved dangerously", "b": "Toxic" },
+          { "a": "Radium's radioactivity was measured on the", "b": "Curie scale" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Radium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old watch's hands were painted with", "b": "Radium" },
+          { "a": "The factory workers who painted with", "b": "Radium later fell gravely ill" },
+          { "a": "Marie Curie's notebooks are still", "b": "Radioactive from radium exposure" },
+          { "a": "Early researchers were unaware of the dangers of", "b": "Radium" }
+        ] }
+    ],
+    "roots": [ { "rootText": "radius", "rootLanguage": "Latin", "rootMeaning": "Ray, beam", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "radius", "highlight": true }, { "text": " (ray); named by the Curies for the glowing rays it emits.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "radius", "correctAnswer": "Ray, beam", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nylon",
+    "pronunciation": "NY-lon",
+    "pos": "noun",
+    "definition": "A strong, lightweight synthetic polymer used to make fabric, rope, and moulded plastic parts.",
+    "origin": "An invented trade name with no true etymological root, created in 1938 by the DuPont company for the first fully synthetic fibre, developed by chemist <strong>Wallace Carothers</strong> and his team.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nylon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Developed by chemist", "b": "Wallace Carothers" },
+          { "a": "Trade name created in", "b": "1938" },
+          { "a": "Created by the company", "b": "DuPont" },
+          { "a": "The name itself was", "b": "Invented, with no true root" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nylon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Nylon is a", "b": "Synthetic polymer" },
+          { "a": "Nylon stockings replaced fragile", "b": "Silk stockings" },
+          { "a": "Climbing ropes are commonly made of", "b": "Nylon" },
+          { "a": "Nylon was the first fully", "b": "Synthetic fibre" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nylon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She pulled on a pair of", "b": "Nylon tights" },
+          { "a": "The tent was made from lightweight", "b": "Nylon fabric" },
+          { "a": "The climber trusted his life to a", "b": "Nylon rope" },
+          { "a": "The toothbrush bristles were made of", "b": "Nylon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Wallace Carothers", "rootLanguage": "Coined trade name", "rootMeaning": "Inventor of the first synthetic fibre", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "An invented trade name from DuPont, credited to chemist ", "highlight": false }, { "text": "Wallace Carothers", "highlight": true }, { "text": "; no true linguistic root.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Wallace Carothers", "correctAnswer": "Inventor of the first synthetic fibre", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Polyester",
+    "pronunciation": "pol-ee-ES-tuh",
+    "pos": "noun",
+    "definition": "A synthetic fabric or resin made from polymerised esters, valued for its durability and resistance to wrinkling.",
+    "origin": "From Greek <strong>poly</strong> (many) + ester, a class of compounds itself named from German Essigäther (vinegar ether). British chemists Whinfield and Dickson first synthesised the fibre in 1941.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Polyester</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek poly", "b": "Many" },
+          { "a": "Ester derives from German", "b": "Essigäther (vinegar ether)" },
+          { "a": "First synthesised in 1941 by", "b": "Whinfield and Dickson" },
+          { "a": "Poly signals a molecule made of", "b": "Many repeating units" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Polyester</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Polyester is valued for its resistance to", "b": "Wrinkling" },
+          { "a": "Many bottles are made from a form of", "b": "Polyester called PET" },
+          { "a": "Polyester is a", "b": "Synthetic material" },
+          { "a": "Sportswear often blends polyester with", "b": "Other fibres for comfort" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Polyester</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cheap suit was made of shiny", "b": "Polyester" },
+          { "a": "The recycled bottle became a", "b": "Polyester fleece jacket" },
+          { "a": "Wedding gowns sometimes mix silk with", "b": "Polyester" },
+          { "a": "The sail was cut from tough", "b": "Polyester fabric" }
+        ] }
+    ],
+    "roots": [ { "rootText": "poly", "rootLanguage": "Greek", "rootMeaning": "Many", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "poly", "highlight": true }, { "text": " (many) + ester; many linked ester units forming one durable fibre.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "poly", "correctAnswer": "Many", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Plastic",
+    "pronunciation": "PLAS-tik",
+    "pos": "noun / adjective",
+    "definition": "A synthetic material made from polymers that can be moulded into shape; capable of being moulded or shaped.",
+    "origin": "From Greek <strong>plastikos</strong> (able to be moulded), from plassein (to mould). The word first described anything mouldable before becoming the standard name for synthetic polymer materials in the 20th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Plastic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek plastikos", "b": "Able to be moulded" },
+          { "a": "Greek plassein", "b": "To mould" },
+          { "a": "Originally described anything", "b": "Mouldable in shape" },
+          { "a": "Became the name for synthetic polymers in the", "b": "20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Plastic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Plastic is made from", "b": "Polymers" },
+          { "a": "Plastic can be moulded when", "b": "Heated" },
+          { "a": "Plastic pollution is a major concern for", "b": "The oceans" },
+          { "a": "'Plastic surgery' takes its name from", "b": "The idea of reshaping tissue" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Plastic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The supermarket phased out single-use", "b": "Plastic bags" },
+          { "a": "The toy was moulded from cheap", "b": "Plastic" },
+          { "a": "Volunteers cleared tons of", "b": "Plastic waste from the beach" },
+          { "a": "The factory injects molten", "b": "Plastic into moulds" }
+        ] }
+    ],
+    "roots": [ { "rootText": "plastikos", "rootLanguage": "Greek", "rootMeaning": "Able to be moulded", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "plastikos", "highlight": true }, { "text": " (able to be moulded); any shapeable substance, now mostly synthetic polymers.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "plastikos", "correctAnswer": "Able to be moulded", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ether",
+    "pronunciation": "EE-thuh",
+    "pos": "noun",
+    "definition": "A class of highly volatile, flammable organic compounds; historically, a substance used as an early anaesthetic, and in older physics, a hypothetical medium filling space.",
+    "origin": "From Greek <strong>aither</strong> (upper, purer air breathed by the gods), from aithein (to burn, blaze). The word named the bright sky before chemists borrowed it for a volatile, easily vaporised liquid.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ether</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek aither", "b": "Upper, purer air" },
+          { "a": "Greek aithein", "b": "To burn, blaze" },
+          { "a": "In myth, aither was breathed by", "b": "The gods" },
+          { "a": "Chemists borrowed the word for a", "b": "Volatile, vaporising liquid" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ether</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ether was historically used as an", "b": "Anaesthetic" },
+          { "a": "Ether is highly", "b": "Flammable and volatile" },
+          { "a": "19th-century physicists once believed light travelled through the", "b": "Luminiferous ether" },
+          { "a": "'Ethereal' figuratively describes something", "b": "Delicate and otherworldly" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ether</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The surgeon used", "b": "Ether to put the patient under" },
+          { "a": "The lab bottle of", "b": "Ether had to be kept away from flames" },
+          { "a": "Michelson and Morley set out to detect the", "b": "Ether, and famously failed" },
+          { "a": "Her voice seemed to drift in from the", "b": "Ether" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aither", "rootLanguage": "Greek", "rootMeaning": "Upper, purer air", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "aither", "highlight": true }, { "text": " (the pure upper air of the gods); later, a vaporous chemical compound.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aither", "correctAnswer": "Upper, purer air", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chloroform",
+    "pronunciation": "KLOR-uh-form",
+    "pos": "noun",
+    "definition": "A colourless, sweet-smelling volatile liquid historically used as an anaesthetic, now mainly used as an industrial solvent.",
+    "origin": "From <strong>chlorine</strong> + formyl, reflecting its chemical composition as a chlorinated derivative of formic acid. Scottish physician James Young Simpson popularised its use as an anaesthetic in 1847.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chloroform</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chloro- refers to", "b": "Chlorine" },
+          { "a": "-form refers to", "b": "Formic acid" },
+          { "a": "Popularised as an anaesthetic in 1847 by", "b": "James Young Simpson" },
+          { "a": "Simpson was a", "b": "Scottish physician" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chloroform</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chloroform was historically used as an", "b": "Anaesthetic" },
+          { "a": "Chloroform is now mainly used as an", "b": "Industrial solvent" },
+          { "a": "Chloroform has a distinctive", "b": "Sweet smell" },
+          { "a": "In old films, villains use chloroform to induce", "b": "Unconsciousness" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chloroform</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "In the film, the kidnapper used a rag soaked in", "b": "Chloroform" },
+          { "a": "Victorian surgeons administered", "b": "Chloroform before operating" },
+          { "a": "The lab stored the volatile", "b": "Chloroform in a sealed cabinet" },
+          { "a": "Queen Victoria famously used", "b": "Chloroform during childbirth" }
+        ] }
+    ],
+    "roots": [ { "rootText": "chlorine + formyl", "rootLanguage": "English (chemical compound)", "rootMeaning": "Chlorinated form of formic acid", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "chlorine + formyl", "highlight": true }, { "text": "; named for its chemical relation to formic acid.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "chlorine + formyl", "correctAnswer": "Chlorinated form of formic acid", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Catalyst",
+    "pronunciation": "KAT-uh-list",
+    "pos": "noun",
+    "definition": "A substance that increases the rate of a chemical reaction without itself being consumed; also, a person or event that provokes significant change.",
+    "origin": "From Greek <strong>katalysis</strong> (dissolution), from kata (down) + lyein (to loosen). Swedish chemist Jöns Jacob Berzelius adopted the term in 1836 to describe substances that trigger reactions.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Catalyst</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kata", "b": "Down" },
+          { "a": "Greek lyein", "b": "To loosen" },
+          { "a": "Katalysis literally means", "b": "Dissolution" },
+          { "a": "Adopted in 1836 by", "b": "Jöns Jacob Berzelius" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Catalyst</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A catalyst speeds up a reaction without being", "b": "Consumed itself" },
+          { "a": "A car's catalytic converter reduces", "b": "Harmful exhaust emissions" },
+          { "a": "Figuratively, a catalyst is a person or event that sparks", "b": "Significant change" },
+          { "a": "Enzymes act as biological", "b": "Catalysts" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Catalyst</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chemist added a", "b": "Catalyst to speed the reaction" },
+          { "a": "The scandal became the", "b": "Catalyst for reform" },
+          { "a": "Her mentor's advice was the", "b": "Catalyst for her career change" },
+          { "a": "The engine relies on a", "b": "Catalyst to clean the exhaust" }
+        ] }
+    ],
+    "roots": [ { "rootText": "katalysis", "rootLanguage": "Greek", "rootMeaning": "Dissolution", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "katalysis", "highlight": true }, { "text": " (dissolution, loosening); a substance that unlocks a reaction.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "katalysis", "correctAnswer": "Dissolution", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Polymer",
+    "pronunciation": "POL-i-muh",
+    "pos": "noun",
+    "definition": "A large molecule composed of many repeated smaller units, or monomers, bonded together in a chain.",
+    "origin": "From Greek <strong>poly</strong> (many) + meros (part), coined in 1833 by Swedish chemist Jöns Jacob Berzelius to name compounds built from repeating molecular units.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Polymer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek poly", "b": "Many" },
+          { "a": "Greek meros", "b": "Part" },
+          { "a": "Coined in 1833 by", "b": "Jöns Jacob Berzelius" },
+          { "a": "Names compounds built from repeating", "b": "Molecular units" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Polymer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A polymer is made of repeating smaller units called", "b": "Monomers" },
+          { "a": "Rubber, plastic, and DNA are all examples of", "b": "Polymers" },
+          { "a": "Joining monomers together is called", "b": "Polymerisation" },
+          { "a": "Natural polymers include", "b": "Cellulose and silk" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Polymer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The banknote was printed on a durable", "b": "Polymer note" },
+          { "a": "Chemists engineered a new", "b": "Polymer for the coating" },
+          { "a": "DNA is technically a natural", "b": "Polymer" },
+          { "a": "The bumper was moulded from a tough", "b": "Polymer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "poly meros", "rootLanguage": "Greek", "rootMeaning": "Many parts", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "poly meros", "highlight": true }, { "text": " (many parts); countless small units linked into one long chain.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "poly meros", "correctAnswer": "Many parts", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Isotope",
+    "pronunciation": "EYE-suh-tohp",
+    "pos": "noun",
+    "definition": "One of two or more forms of an element that have the same number of protons but different numbers of neutrons.",
+    "origin": "Coined in 1913 by Scottish chemist Margaret Todd from Greek <strong>isos</strong> (equal) + topos (place), because these variant atoms occupy the same place on the periodic table.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Isotope</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek isos", "b": "Equal" },
+          { "a": "Greek topos", "b": "Place" },
+          { "a": "Coined in 1913 by", "b": "Margaret Todd" },
+          { "a": "Named because they share the same", "b": "Place on the periodic table" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Isotope</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Isotopes of an element share the same number of", "b": "Protons" },
+          { "a": "Isotopes differ in the number of", "b": "Neutrons" },
+          { "a": "Carbon-14 is a radioactive isotope used in", "b": "Dating ancient remains" },
+          { "a": "An unstable isotope is described as", "b": "Radioactive" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Isotope</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Archaeologists dated the bone using a radioactive", "b": "Isotope" },
+          { "a": "The hospital scan relied on a medical", "b": "Isotope tracer" },
+          { "a": "Reactor fuel is enriched with a specific", "b": "Isotope of uranium" },
+          { "a": "The geologist measured ratios of oxygen", "b": "Isotopes in the ice core" }
+        ] }
+    ],
+    "roots": [ { "rootText": "isos topos", "rootLanguage": "Greek", "rootMeaning": "Equal place", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "isos topos", "highlight": true }, { "text": " (equal place); variants of an element sharing one spot on the table.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "isos topos", "correctAnswer": "Equal place", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Alloy",
+    "pronunciation": "AL-oy",
+    "pos": "noun",
+    "definition": "A metal made by combining two or more metallic elements, or a metal with another element, to enhance its properties.",
+    "origin": "From Old French <strong>aloi</strong>, from aloier (to combine), ultimately from Latin alligare (to bind together). The word entered English in the 16th century for the practice of mixing metals.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Alloy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French aloi", "b": "A binding or mixture" },
+          { "a": "From aloier, meaning", "b": "To combine" },
+          { "a": "Ultimately from Latin alligare", "b": "To bind together" },
+          { "a": "Entered English in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Alloy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An alloy combines two or more", "b": "Metals" },
+          { "a": "Bronze is an alloy of copper and", "b": "Tin" },
+          { "a": "Steel is an alloy of iron and", "b": "Carbon" },
+          { "a": "Alloying often improves a metal's", "b": "Strength or resistance to corrosion" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Alloy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bike frame was built from a lightweight", "b": "Aluminium alloy" },
+          { "a": "The jeweller melted gold and copper into an", "b": "Alloy" },
+          { "a": "The wheels were finished in polished", "b": "Alloy" },
+          { "a": "Engineers developed a new heat-resistant", "b": "Alloy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "alligare", "rootLanguage": "Latin", "rootMeaning": "To bind together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "alligare", "highlight": true }, { "text": " (to bind together); two or more metals fused into one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "alligare", "correctAnswer": "To bind together", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Galvanize",
+    "pronunciation": "GAL-vuh-nyz",
+    "pos": "verb",
+    "definition": "To coat iron or steel with a protective layer of zinc; figuratively, to shock or excite someone into action.",
+    "origin": "Named after Italian scientist <strong>Luigi Galvani</strong>, who in the 1780s discovered that electrical current could make a dead frog's leg twitch, a phenomenon that became known as galvanism.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Galvanize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Luigi Galvani" },
+          { "a": "In the 1780s Galvani discovered", "b": "Electricity making a frog's leg twitch" },
+          { "a": "The phenomenon became known as", "b": "Galvanism" },
+          { "a": "The zinc-coating sense arose because", "b": "An electric process applies the coating" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Galvanize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Galvanized steel is coated with", "b": "Zinc" },
+          { "a": "Galvanizing protects metal from", "b": "Rust and corrosion" },
+          { "a": "To galvanize someone figuratively means to", "b": "Spur them into sudden action" },
+          { "a": "A galvanized bucket is typically used for its", "b": "Rust resistance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Galvanize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The roof was made of", "b": "Galvanized steel sheeting" },
+          { "a": "The speech seemed to", "b": "Galvanize the whole crowd" },
+          { "a": "Fear of losing galvanized the team into a", "b": "Late comeback" },
+          { "a": "The farmer carried water in a", "b": "Galvanized pail" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Luigi Galvani", "rootLanguage": "Italian (eponym)", "rootMeaning": "Scientist who discovered bioelectricity", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Luigi Galvani", "highlight": true }, { "text": ", whose electrified frog's leg gave us both a metal treatment and a metaphor.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Luigi Galvani", "correctAnswer": "Scientist who discovered bioelectricity", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Benzene",
+    "pronunciation": "BEN-zeen",
+    "pos": "noun",
+    "definition": "A colourless, highly flammable liquid hydrocarbon with a ring-shaped molecule, used as a solvent and in making other chemicals.",
+    "origin": "From <strong>benzoin</strong>, a fragrant resin from Southeast Asian trees whose name traces to Arabic luban jawi (frankincense of Java). Chemist August Kekulé famously deduced benzene's ring structure in 1865, reportedly after dreaming of a snake biting its tail.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Benzene</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named from the resin", "b": "Benzoin" },
+          { "a": "Benzoin traces to Arabic", "b": "Luban jawi (frankincense of Java)" },
+          { "a": "Its ring structure was deduced in 1865 by", "b": "August Kekulé" },
+          { "a": "Kekulé's insight reportedly came from a dream of a", "b": "Snake biting its own tail" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Benzene</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Benzene's molecule is shaped like a", "b": "Ring" },
+          { "a": "Benzene is used as an industrial", "b": "Solvent" },
+          { "a": "Benzene is naturally present in", "b": "Crude oil" },
+          { "a": "Long-term exposure to benzene is linked to", "b": "Cancer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Benzene</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The factory used", "b": "Benzene as an industrial solvent" },
+          { "a": "Regulators set strict limits on", "b": "Benzene emissions" },
+          { "a": "The chemist sketched the hexagonal ring of", "b": "Benzene on the board" },
+          { "a": "Petrol naturally contains traces of", "b": "Benzene" }
+        ] }
+    ],
+    "roots": [ { "rootText": "luban jawi", "rootLanguage": "Arabic", "rootMeaning": "Frankincense of Java", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "luban jawi", "highlight": true }, { "text": " (frankincense of Java), via the resin benzoin; a fragrant origin for a modern solvent.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "luban jawi", "correctAnswer": "Frankincense of Java", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Distillation",
+    "pronunciation": "dis-ti-LAY-shuhn",
+    "pos": "noun",
+    "definition": "The process of purifying a liquid, or separating a mixture, by heating it to vapour and then condensing it back to liquid form.",
+    "origin": "From Latin <strong>distillare</strong> (to drip down), from de- (down) + stillare (to drip). Ancient alchemists used the technique to extract essences, giving the word its long association with refinement.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-chemistry", "name": "Chemistry & Elements", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Distillation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin distillare", "b": "To drip down" },
+          { "a": "Latin de-", "b": "Down" },
+          { "a": "Latin stillare", "b": "To drip" },
+          { "a": "The technique was pioneered by", "b": "Ancient alchemists" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Distillation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Distillation separates a mixture by", "b": "Heating to vapour and condensing" },
+          { "a": "Whisky is produced through repeated", "b": "Distillation" },
+          { "a": "Crude oil is refined using fractional", "b": "Distillation" },
+          { "a": "'A distillation of ideas' figuratively means their", "b": "Concentrated essence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Distillation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The refinery relies on fractional", "b": "Distillation to separate crude oil" },
+          { "a": "The whisky underwent a second round of", "b": "Distillation" },
+          { "a": "Desalination plants use", "b": "Distillation to purify seawater" },
+          { "a": "The essay was a masterful", "b": "Distillation of a complex argument" }
+        ] }
+    ],
+    "roots": [ { "rootText": "distillare", "rootLanguage": "Latin", "rootMeaning": "To drip down", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "distillare", "highlight": true }, { "text": " (to drip down); purifying a liquid drop by drop.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "distillare", "correctAnswer": "To drip down", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

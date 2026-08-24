@@ -1,10 +1,11 @@
-import { useCallback } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useCallback, useEffect, useState } from 'react';
+import { AppState, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PlusIcon } from 'phosphor-react-native';
 
 import { AlarmPermissionBanner } from '@/components/home/AlarmPermissionBanner';
+import { AlarmPermissionModal } from '@/components/home/AlarmPermissionModal';
 import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { WordOfDayCard } from '@/components/home/WordOfDayCard';
@@ -28,6 +29,17 @@ export function HomeScreen() {
   const insets = useSafeAreaInsets();
   const { colors } = useTheme();
   const { loading: alarmsLoading, alarms, permissionStatus, toggleAlarm, deleteAlarm } = useAlarms();
+  // Re-arms on every foreground return (not just first cold start), so the
+  // popup always fires again if permissions are still missing -- dismissing
+  // it only silences it for the current foreground session, not for good.
+  const [permissionModalVisible, setPermissionModalVisible] = useState(true);
+
+  useEffect(() => {
+    const subscription = AppState.addEventListener('change', (state) => {
+      if (state === 'active') setPermissionModalVisible(true);
+    });
+    return () => subscription.remove();
+  }, []);
   const { loading: progressLoading, streak, coins } = useProgress();
   const {
     loading: wordsLoading,
@@ -123,6 +135,12 @@ export function HomeScreen() {
           </View>
         </View>
       </SafeAreaView>
+
+      <AlarmPermissionModal
+        visible={!alarmsLoading && permissionModalVisible}
+        status={permissionStatus}
+        onDismiss={() => setPermissionModalVisible(false)}
+      />
     </GradientBackground>
   );
 }

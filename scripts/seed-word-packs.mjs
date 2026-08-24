@@ -38,6 +38,23 @@ const SOURCES = [
   resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-curious.json'),
   resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-east-asian.json'),
   resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-french.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-nordic.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-german-yiddish.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-italian.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-spanish.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-middle-eastern.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-south-asian.json'),
+  resolve(root, 'THEMATIC PACKS', 'loan words', 'loan-pacific.json'),
+  resolve(root, 'THEMATIC PACKS', 'eponym words', 'eponym-literary.json'),
+  resolve(root, 'THEMATIC PACKS', 'eponym words', 'eponym-fashion.json'),
+  resolve(root, 'THEMATIC PACKS', 'eponym words', 'eponym-food.json'),
+  resolve(root, 'THEMATIC PACKS', 'eponym words', 'eponym-politics.json'),
+  resolve(root, 'THEMATIC PACKS', 'eponym words', 'eponym-invention.json'),
+  resolve(root, 'THEMATIC PACKS', 'science words', 'science-biology.json'),
+  resolve(root, 'THEMATIC PACKS', 'science words', 'science-chemistry.json'),
+  resolve(root, 'THEMATIC PACKS', 'science words', 'science-earth.json'),
+  resolve(root, 'THEMATIC PACKS', 'science words', 'science-physics.json'),
+  resolve(root, 'THEMATIC PACKS', 'science words', 'science-computing.json'),
 ];
 
 function requireEnv(name) {

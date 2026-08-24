@@ -42,7 +42,7 @@ const coinRowStyles = StyleSheet.create({
   },
   label: {
     fontFamily: fonts.sans,
-    fontSize: 13,
+    fontSize: 15,
   },
   amountRow: {
     flexDirection: 'row',
@@ -51,7 +51,7 @@ const coinRowStyles = StyleSheet.create({
   },
   amount: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 13,
+    fontSize: 15,
   },
 });
 
@@ -175,12 +175,12 @@ export function SuccessScreen() {
         },
         streakText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 13,
+          fontSize: 15,
           color: colors.text,
         },
         streakSub: {
           fontFamily: fonts.sans,
-          fontSize: 11,
+          fontSize: 13,
           color: colors.subtext,
         },
         coinsCard: {
@@ -206,7 +206,7 @@ export function SuccessScreen() {
         },
         totalLabel: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 13,
+          fontSize: 17,
           color: colors.text,
         },
         totalAmountRow: {
@@ -216,7 +216,7 @@ export function SuccessScreen() {
         },
         totalAmount: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 13,
+          fontSize: 17,
           color: colors.gold,
         },
         doneBtn: {

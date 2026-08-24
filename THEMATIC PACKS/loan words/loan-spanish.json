@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Embargo",
+    "pronunciation": "em-BAR-goh",
+    "pos": "noun",
+    "definition": "An official ban on trade or other commercial activity with a particular country.",
+    "origin": "From Spanish <strong>embargo</strong>, from <strong>embargar</strong> (to seize, restrain), from Latin <strong>im-</strong> (in) + <strong>barra</strong> (bar). It named a legal restraint before becoming a trade sanction.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Embargo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin barra",
+            "b": "Bar"
+          },
+          {
+            "a": "Spanish embargar",
+            "b": "To seize, restrain"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A legal restraint or seizure"
+          },
+          {
+            "a": "Modern meaning",
+            "b": "A trade sanction"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Embargo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An embargo is",
+            "b": "An official ban on trade"
+          },
+          {
+            "a": "Governments impose embargoes to",
+            "b": "Pressure another country politically"
+          },
+          {
+            "a": "An arms embargo restricts",
+            "b": "The sale of weapons"
+          },
+          {
+            "a": "To lift an embargo means to",
+            "b": "End the trade restriction"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Embargo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The UN voted to impose",
+            "b": "An arms embargo"
+          },
+          {
+            "a": "The trade embargo crippled",
+            "b": "The country's economy"
+          },
+          {
+            "a": "Journalists were asked to honour",
+            "b": "The news embargo until Monday"
+          },
+          {
+            "a": "Decades later, the embargo was",
+            "b": "Finally lifted"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "barra",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Bar",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish embargo, from embargar, from Latin im- (in) + ",
+          "highlight": false
+        },
+        {
+          "text": "barra",
+          "highlight": true
+        },
+        {
+          "text": " (bar); a legal restraint before it meant a trade sanction.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "barra",
+      "correctAnswer": "Bar",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Guerrilla",
+    "pronunciation": "guh-RIL-uh",
+    "pos": "noun",
+    "definition": "A member of an irregular armed force fighting a stronger force through ambush and sabotage.",
+    "origin": "From Spanish <strong>guerrilla</strong>, diminutive of <strong>guerra</strong> (war) — literally \"little war.\" Coined during Spanish resistance to Napoleon's occupation in the early 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guerrilla</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish guerra",
+            "b": "War"
+          },
+          {
+            "a": "Spanish guerrilla",
+            "b": "Little war"
+          },
+          {
+            "a": "Coined during",
+            "b": "Resistance to Napoleon's occupation"
+          },
+          {
+            "a": "Era",
+            "b": "Early 19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guerrilla</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A guerrilla is",
+            "b": "An irregular fighter using ambush tactics"
+          },
+          {
+            "a": "Guerrilla warfare relies on",
+            "b": "Mobility and surprise"
+          },
+          {
+            "a": "Guerrilla marketing describes",
+            "b": "Unconventional, low-cost promotion"
+          },
+          {
+            "a": "The word literally means",
+            "b": "\"Little war\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guerrilla</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The rebels waged a",
+            "b": "Guerrilla campaign in the mountains"
+          },
+          {
+            "a": "The startup relied on",
+            "b": "Guerrilla marketing tactics"
+          },
+          {
+            "a": "Guerrilla fighters ambushed",
+            "b": "The supply convoy"
+          },
+          {
+            "a": "The documentary followed former",
+            "b": "Guerrilla fighters after the war"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "guerra",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "War",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish guerrilla, \"little war,\" from ",
+          "highlight": false
+        },
+        {
+          "text": "guerra",
+          "highlight": true
+        },
+        {
+          "text": "; coined during Spanish resistance to Napoleon.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "guerra",
+      "correctAnswer": "War",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vigilante",
+    "pronunciation": "vij-uh-LAN-tee",
+    "pos": "noun",
+    "definition": "A person who takes law enforcement into their own hands without legal authority.",
+    "origin": "From Spanish <strong>vigilante</strong>, meaning watchman or vigilant, from Latin <strong>vigilare</strong> (to keep watch). It named informal citizen justice groups in the American West before broadening.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vigilante</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin vigilare",
+            "b": "To keep watch"
+          },
+          {
+            "a": "Spanish vigilante",
+            "b": "Watchman, vigilant"
+          },
+          {
+            "a": "Historic use",
+            "b": "Citizen justice groups in the American West"
+          },
+          {
+            "a": "Modern usage",
+            "b": "Anyone acting outside legal authority"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vigilante</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A vigilante is",
+            "b": "A person enforcing justice without authority"
+          },
+          {
+            "a": "Vigilante justice is often criticised for",
+            "b": "Bypassing due process"
+          },
+          {
+            "a": "Comic-book heroes are often",
+            "b": "Fictional vigilantes"
+          },
+          {
+            "a": "The word derives from",
+            "b": "A Latin word for watchfulness"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vigilante</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Frustrated residents formed a",
+            "b": "Vigilante patrol"
+          },
+          {
+            "a": "The film's hero is a masked",
+            "b": "Vigilante"
+          },
+          {
+            "a": "Police warned against",
+            "b": "Vigilante justice"
+          },
+          {
+            "a": "The town's history includes tales of",
+            "b": "19th-century vigilantes"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "vigilare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To keep watch",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish vigilante, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "vigilare",
+          "highlight": true
+        },
+        {
+          "text": " (to keep watch); named informal citizen justice groups in the American West.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vigilare",
+      "correctAnswer": "To keep watch",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Patio",
+    "pronunciation": "PAT-ee-oh",
+    "pos": "noun",
+    "definition": "A paved outdoor area adjoining a house, used for dining or relaxing.",
+    "origin": "From Spanish <strong>patio</strong>, meaning courtyard, possibly from Old Provençal <strong>pati</strong> (untilled land). Spanish colonial architecture spread the enclosed inner courtyard across the Americas.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Patio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish patio",
+            "b": "Courtyard"
+          },
+          {
+            "a": "Possible source",
+            "b": "Old Provençal pati (untilled land)"
+          },
+          {
+            "a": "Spread by",
+            "b": "Spanish colonial architecture"
+          },
+          {
+            "a": "Modern use",
+            "b": "A paved outdoor dining area"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Patio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A patio is",
+            "b": "A paved outdoor area by a house"
+          },
+          {
+            "a": "Patios are commonly used for",
+            "b": "Dining and relaxing outdoors"
+          },
+          {
+            "a": "A patio originally described",
+            "b": "An enclosed inner courtyard"
+          },
+          {
+            "a": "Patio furniture is designed for",
+            "b": "Outdoor use"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Patio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They grilled dinner on",
+            "b": "The back patio"
+          },
+          {
+            "a": "Fairy lights lined",
+            "b": "The restaurant's patio"
+          },
+          {
+            "a": "She potted herbs along",
+            "b": "The patio wall"
+          },
+          {
+            "a": "Guests spilled out onto",
+            "b": "The sunny patio"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "patio",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Courtyard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "patio",
+          "highlight": true
+        },
+        {
+          "text": " (courtyard); Spanish colonial architecture spread the enclosed courtyard across the Americas.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "patio",
+      "correctAnswer": "Courtyard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Canyon",
+    "pronunciation": "KAN-yun",
+    "pos": "noun",
+    "definition": "A deep gorge, typically carved by a river, between cliffs or mountains.",
+    "origin": "From Spanish <strong>cañón</strong>, meaning tube or pipe, from <strong>caña</strong> (cane, reed). Spanish explorers applied it to the deep, narrow gorges of the American Southwest.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Canyon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish caña",
+            "b": "Cane, reed"
+          },
+          {
+            "a": "Spanish cañón",
+            "b": "Tube, pipe"
+          },
+          {
+            "a": "Applied by",
+            "b": "Spanish explorers"
+          },
+          {
+            "a": "Famous example",
+            "b": "The Grand Canyon"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Canyon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A canyon is",
+            "b": "A deep river-carved gorge"
+          },
+          {
+            "a": "Canyons are typically found in",
+            "b": "Arid, mountainous regions"
+          },
+          {
+            "a": "The Grand Canyon was carved by",
+            "b": "The Colorado River"
+          },
+          {
+            "a": "A canyon differs from a valley in",
+            "b": "Having steeper, narrower walls"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Canyon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Hikers descended into",
+            "b": "The rocky canyon"
+          },
+          {
+            "a": "The river carved",
+            "b": "A deep canyon over millennia"
+          },
+          {
+            "a": "They camped at the rim of",
+            "b": "The canyon"
+          },
+          {
+            "a": "Sunset lit",
+            "b": "The canyon walls red"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "caña",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Cane, reed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish cañón (tube), from ",
+          "highlight": false
+        },
+        {
+          "text": "caña",
+          "highlight": true
+        },
+        {
+          "text": " (cane); applied by explorers to the gorges of the American Southwest.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "caña",
+      "correctAnswer": "Cane, reed",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cigar",
+    "pronunciation": "si-GAR",
+    "pos": "noun",
+    "definition": "A roll of tobacco leaves, rolled for smoking.",
+    "origin": "From Spanish <strong>cigarro</strong>, possibly from Mayan <strong>sicar</strong> (to smoke tobacco), or related to Spanish <strong>cigarra</strong> (cicada), for its shape. Cuba became famous for cigar production.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cigar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish cigarro",
+            "b": "Rolled tobacco"
+          },
+          {
+            "a": "Possible source",
+            "b": "Mayan sicar (to smoke)"
+          },
+          {
+            "a": "Alternative theory",
+            "b": "Cigarra (cicada), for its shape"
+          },
+          {
+            "a": "Famous producer",
+            "b": "Cuba"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cigar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A cigar is",
+            "b": "A rolled tobacco leaf smoke"
+          },
+          {
+            "a": "A cigar differs from a cigarette in",
+            "b": "Being pure rolled tobacco leaf"
+          },
+          {
+            "a": "A cigar box was often used to",
+            "b": "Store keepsakes"
+          },
+          {
+            "a": "Cuban cigars are famed for",
+            "b": "Their quality and craftsmanship"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cigar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He celebrated the birth with",
+            "b": "A box of cigars"
+          },
+          {
+            "a": "Smoke from",
+            "b": "His cigar drifted across the porch"
+          },
+          {
+            "a": "The lounge specialised in",
+            "b": "Fine cigars and whisky"
+          },
+          {
+            "a": "She kept old photos in an",
+            "b": "Empty cigar box"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cigarro",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Rolled tobacco",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "cigarro",
+          "highlight": true
+        },
+        {
+          "text": ", possibly from Mayan sicar (to smoke tobacco); Cuba became famous for its production.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cigarro",
+      "correctAnswer": "Rolled tobacco",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bonanza",
+    "pronunciation": "buh-NAN-zuh",
+    "pos": "noun",
+    "definition": "A situation that creates a sudden increase in wealth, good fortune, or opportunity.",
+    "origin": "From Spanish <strong>bonanza</strong>, meaning fair weather or prosperity, from Latin <strong>bonus</strong> (good). It entered American English during 19th-century mining rushes for a rich vein of ore.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bonanza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin bonus",
+            "b": "Good"
+          },
+          {
+            "a": "Spanish bonanza",
+            "b": "Fair weather, prosperity"
+          },
+          {
+            "a": "Mining sense",
+            "b": "A rich vein of ore"
+          },
+          {
+            "a": "Era of adoption",
+            "b": "19th-century American mining rushes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bonanza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bonanza is",
+            "b": "A sudden windfall of fortune"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Fair weather at sea"
+          },
+          {
+            "a": "In mining, a bonanza meant",
+            "b": "A rich ore deposit"
+          },
+          {
+            "a": "A box-office bonanza describes",
+            "b": "An unexpectedly huge hit"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bonanza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The oil discovery was",
+            "b": "An economic bonanza for the region"
+          },
+          {
+            "a": "Ticket sales became a",
+            "b": "Box-office bonanza"
+          },
+          {
+            "a": "Prospectors struck",
+            "b": "A silver bonanza"
+          },
+          {
+            "a": "The sale was a",
+            "b": "Bonanza for bargain hunters"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bonus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Good",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish bonanza (prosperity), from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "bonus",
+          "highlight": true
+        },
+        {
+          "text": "; entered American English during 19th-century mining rushes.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bonus",
+      "correctAnswer": "Good",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bravado",
+    "pronunciation": "bruh-VAH-doh",
+    "pos": "noun",
+    "definition": "A bold, swaggering display of confidence, often to mask fear or uncertainty.",
+    "origin": "From Spanish <strong>bravada</strong>, from <strong>bravo</strong> (brave, bold), possibly influenced by Italian <strong>bravata</strong>. It described theatrical boasting rather than genuine courage.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bravado</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish bravo",
+            "b": "Brave, bold"
+          },
+          {
+            "a": "Spanish bravada",
+            "b": "Boastfulness"
+          },
+          {
+            "a": "Possible influence",
+            "b": "Italian bravata"
+          },
+          {
+            "a": "Implies",
+            "b": "Confidence masking fear"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bravado</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bravado is",
+            "b": "A swaggering show of confidence"
+          },
+          {
+            "a": "Bravado often masks",
+            "b": "Underlying fear or doubt"
+          },
+          {
+            "a": "A show of bravado is",
+            "b": "More performance than substance"
+          },
+          {
+            "a": "The related word \"bravo\" means",
+            "b": "Brave, or an exclamation of praise"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bravado</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His bravado",
+            "b": "Faded once the interview began"
+          },
+          {
+            "a": "She spoke with false",
+            "b": "Bravado before the exam"
+          },
+          {
+            "a": "The teenager's bravado",
+            "b": "Masked genuine nerves"
+          },
+          {
+            "a": "Despite his bravado, he",
+            "b": "Quietly asked for help"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bravo",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Brave, bold",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish bravada, from ",
+          "highlight": false
+        },
+        {
+          "text": "bravo",
+          "highlight": true
+        },
+        {
+          "text": " (brave); described theatrical boasting rather than genuine courage.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bravo",
+      "correctAnswer": "Brave, bold",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Aficionado",
+    "pronunciation": "uh-fish-uh-NAH-doh",
+    "pos": "noun",
+    "definition": "A person who is deeply knowledgeable and enthusiastic about a particular activity or subject.",
+    "origin": "From Spanish <strong>aficionado</strong>, meaning fond of, from <strong>afición</strong> (affection, fondness), from Latin <strong>affectio</strong>. Originally described devoted followers of bullfighting.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Aficionado</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish afición",
+            "b": "Affection, fondness"
+          },
+          {
+            "a": "Spanish aficionado",
+            "b": "Fond of"
+          },
+          {
+            "a": "Original subject",
+            "b": "Bullfighting enthusiasts"
+          },
+          {
+            "a": "Modern use",
+            "b": "Any devoted enthusiast"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Aficionado</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An aficionado is",
+            "b": "A knowledgeable enthusiast"
+          },
+          {
+            "a": "A wine aficionado",
+            "b": "Deeply understands and enjoys wine"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Bullfighting fans"
+          },
+          {
+            "a": "An aficionado differs from a beginner in",
+            "b": "Depth of expertise"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Aficionado</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He was a true",
+            "b": "Jazz aficionado"
+          },
+          {
+            "a": "The coffee aficionado",
+            "b": "Could name the bean's origin by taste"
+          },
+          {
+            "a": "Film aficionados debated",
+            "b": "The director's best work"
+          },
+          {
+            "a": "She became a keen",
+            "b": "Aficionado of Spanish cinema"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "afición",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Affection, fondness",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish aficionado, from ",
+          "highlight": false
+        },
+        {
+          "text": "afición",
+          "highlight": true
+        },
+        {
+          "text": " (fondness); originally described devoted followers of bullfighting.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "afición",
+      "correctAnswer": "Affection, fondness",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stampede",
+    "pronunciation": "stam-PEED",
+    "pos": "noun",
+    "definition": "A sudden panicked rush of a group of animals or people.",
+    "origin": "From Mexican Spanish <strong>estampida</strong>, from <strong>estampar</strong> (to stamp, trample), of Germanic origin. It described panicked herds of cattle on the American frontier.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stampede</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish estampar",
+            "b": "To stamp, trample"
+          },
+          {
+            "a": "Spanish estampida",
+            "b": "Stampede"
+          },
+          {
+            "a": "Original context",
+            "b": "Panicked cattle herds"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th-century American frontier"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stampede</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A stampede is",
+            "b": "A sudden panicked rush"
+          },
+          {
+            "a": "Stampedes historically involved",
+            "b": "Herds of cattle or bison"
+          },
+          {
+            "a": "A shopping stampede describes",
+            "b": "A chaotic rush of customers"
+          },
+          {
+            "a": "To stampede means to",
+            "b": "Rush in panic, or cause others to"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stampede</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A loud noise triggered",
+            "b": "A stampede among the cattle"
+          },
+          {
+            "a": "Shoppers stampeded toward",
+            "b": "The doors on sale day"
+          },
+          {
+            "a": "The concert crowd nearly caused",
+            "b": "A stampede"
+          },
+          {
+            "a": "Cowboys worked to control",
+            "b": "The stampede"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "estampar",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "To stamp, trample",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Mexican Spanish estampida, from ",
+          "highlight": false
+        },
+        {
+          "text": "estampar",
+          "highlight": true
+        },
+        {
+          "text": "; described panicked cattle herds on the American frontier.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "estampar",
+      "correctAnswer": "To stamp, trample",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lasso",
+    "pronunciation": "LAS-oh",
+    "pos": "noun",
+    "definition": "A rope with a running noose, used to catch cattle or horses.",
+    "origin": "From Spanish <strong>lazo</strong>, meaning knot or snare, from Latin <strong>laqueus</strong> (noose, snare). Ranch hands across the Americas relied on it for herding livestock.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lasso</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin laqueus",
+            "b": "Noose, snare"
+          },
+          {
+            "a": "Spanish lazo",
+            "b": "Knot, snare"
+          },
+          {
+            "a": "Used for",
+            "b": "Catching cattle and horses"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th-century American ranching"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lasso</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A lasso is",
+            "b": "A rope with a running noose"
+          },
+          {
+            "a": "To lasso means to",
+            "b": "Catch with a lasso"
+          },
+          {
+            "a": "Rodeo performers show off",
+            "b": "Lasso tricks"
+          },
+          {
+            "a": "A lasso is essential for",
+            "b": "Herding cattle"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lasso</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cowboy swung his",
+            "b": "Lasso overhead"
+          },
+          {
+            "a": "She lassoed the calf in",
+            "b": "One smooth motion"
+          },
+          {
+            "a": "Rodeo riders competed in",
+            "b": "A lasso contest"
+          },
+          {
+            "a": "He practised his lasso throw for",
+            "b": "Weeks before the show"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "laqueus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Noose, snare",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish lazo, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "laqueus",
+          "highlight": true
+        },
+        {
+          "text": " (noose); ranch hands across the Americas relied on it for herding.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "laqueus",
+      "correctAnswer": "Noose, snare",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rodeo",
+    "pronunciation": "ROH-dee-oh",
+    "pos": "noun",
+    "definition": "A public event or contest featuring cattle-herding skills, such as riding and roping.",
+    "origin": "From Spanish <strong>rodeo</strong>, meaning a round-up, from <strong>rodear</strong> (to go round), from <strong>rueda</strong> (wheel). It named cattle round-ups before becoming a competitive sport.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rodeo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish rodear",
+            "b": "To go round"
+          },
+          {
+            "a": "Spanish rodeo",
+            "b": "Round-up"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A cattle round-up"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A competitive riding and roping event"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rodeo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A rodeo is",
+            "b": "A cattle-herding skills contest"
+          },
+          {
+            "a": "Rodeo events include",
+            "b": "Bull riding and calf roping"
+          },
+          {
+            "a": "The word originally meant",
+            "b": "A cattle round-up"
+          },
+          {
+            "a": "Rodeo Drive is",
+            "b": "A famous street in Beverly Hills"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rodeo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cowboy competed in",
+            "b": "The county rodeo"
+          },
+          {
+            "a": "Crowds cheered at",
+            "b": "The rodeo arena"
+          },
+          {
+            "a": "She grew up around",
+            "b": "Rodeo culture in Texas"
+          },
+          {
+            "a": "The rider held on for",
+            "b": "Eight seconds at the rodeo"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "rodear",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "To go round",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish rodeo (round-up), from ",
+          "highlight": false
+        },
+        {
+          "text": "rodear",
+          "highlight": true
+        },
+        {
+          "text": " (to go round); named cattle round-ups before becoming a sport.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "rodear",
+      "correctAnswer": "To go round",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ranch",
+    "pronunciation": "RANCH",
+    "pos": "noun",
+    "definition": "A large farm, especially in the Americas, used for raising livestock.",
+    "origin": "From Mexican Spanish <strong>rancho</strong>, meaning a small farm or group of huts, from <strong>ranchear</strong> (to lodge together). It entered American English through cattle-raising culture in the Southwest.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ranch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish rancho",
+            "b": "Small farm, group of huts"
+          },
+          {
+            "a": "Spanish ranchear",
+            "b": "To lodge together"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Cattle-raising culture in the Southwest"
+          },
+          {
+            "a": "Modern extended sense",
+            "b": "A single-storey house style"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ranch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A ranch is",
+            "b": "A large livestock farm"
+          },
+          {
+            "a": "A ranch house is",
+            "b": "A single-storey home style"
+          },
+          {
+            "a": "A rancher is",
+            "b": "A person who runs a ranch"
+          },
+          {
+            "a": "Ranch dressing was named for",
+            "b": "Its origin at an American ranch"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ranch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They spent summers working on",
+            "b": "Her grandfather's ranch"
+          },
+          {
+            "a": "Cattle grazed across",
+            "b": "The sprawling ranch"
+          },
+          {
+            "a": "The salad came with",
+            "b": "Ranch dressing on the side"
+          },
+          {
+            "a": "The family built a",
+            "b": "Ranch-style house outside town"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "rancho",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Small farm, group of huts",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Mexican Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "rancho",
+          "highlight": true
+        },
+        {
+          "text": "; entered American English through cattle-raising culture in the Southwest.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "rancho",
+      "correctAnswer": "Small farm, group of huts",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bronco",
+    "pronunciation": "BRONG-koh",
+    "pos": "noun",
+    "definition": "An untamed or partially tamed horse, especially one used in rodeo bronc riding.",
+    "origin": "From Mexican Spanish <strong>bronco</strong>, meaning rough or wild, from Vulgar Latin <strong>broncus</strong>, meaning coarse or rude. It named unbroken ranch horses.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bronco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish bronco",
+            "b": "Rough, wild"
+          },
+          {
+            "a": "Named",
+            "b": "Unbroken ranch horses"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th-century American West"
+          },
+          {
+            "a": "Now names",
+            "b": "A rodeo bronc-riding event"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bronco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bronco is",
+            "b": "An untamed or wild horse"
+          },
+          {
+            "a": "Bronc riding tests",
+            "b": "A rider's ability to stay mounted"
+          },
+          {
+            "a": "To break a bronco means to",
+            "b": "Tame it for riding"
+          },
+          {
+            "a": "The Denver Broncos took their name from",
+            "b": "The wild horse"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bronco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cowboy struggled to break",
+            "b": "The wild bronco"
+          },
+          {
+            "a": "Crowds watched the rider stay on",
+            "b": "The bucking bronco"
+          },
+          {
+            "a": "The ranch hand trained",
+            "b": "Young broncos"
+          },
+          {
+            "a": "The bronco reared and",
+            "b": "Threw its rider"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bronco",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Rough, wild",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Mexican Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "bronco",
+          "highlight": true
+        },
+        {
+          "text": " (rough, wild); named unbroken ranch horses.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bronco",
+      "correctAnswer": "Rough, wild",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Macho",
+    "pronunciation": "MAH-choh",
+    "pos": "adjective",
+    "definition": "Displaying exaggerated or aggressive masculinity.",
+    "origin": "From Spanish <strong>macho</strong>, meaning male, from Latin <strong>masculus</strong> (masculine). It entered English in the mid-20th century, often carrying a critical or mocking tone.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Macho</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin masculus",
+            "b": "Masculine"
+          },
+          {
+            "a": "Spanish macho",
+            "b": "Male"
+          },
+          {
+            "a": "Entered English",
+            "b": "Mid-20th century"
+          },
+          {
+            "a": "Tone in English",
+            "b": "Often critical or mocking"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Macho</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Macho describes",
+            "b": "Exaggerated aggressive masculinity"
+          },
+          {
+            "a": "Machismo is",
+            "b": "The related noun for this attitude"
+          },
+          {
+            "a": "In Spanish, macho simply means",
+            "b": "Male"
+          },
+          {
+            "a": "The English usage often implies",
+            "b": "Bravado over substance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Macho</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He dropped the",
+            "b": "Macho act once alone"
+          },
+          {
+            "a": "The film mocked",
+            "b": "Macho action heroes"
+          },
+          {
+            "a": "She called out his",
+            "b": "Macho posturing"
+          },
+          {
+            "a": "The gym had a reputation for",
+            "b": "Macho culture"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "masculus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Masculine",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish macho (male), from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "masculus",
+          "highlight": true
+        },
+        {
+          "text": "; entered English in the mid-20th century, often with a critical tone.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "masculus",
+      "correctAnswer": "Masculine",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Renegade",
+    "pronunciation": "REN-uh-gayd",
+    "pos": "noun",
+    "definition": "A person who deserts a cause or group and joins the opposing side, or one who rebels against convention.",
+    "origin": "From Spanish <strong>renegado</strong>, from <strong>renegar</strong> (to deny), from Latin <strong>re-</strong> (again) + <strong>negare</strong> (to deny). Originally described a Christian who converted to Islam.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Renegade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin negare",
+            "b": "To deny"
+          },
+          {
+            "a": "Spanish renegar",
+            "b": "To deny, to abandon"
+          },
+          {
+            "a": "Spanish renegado",
+            "b": "Renegade"
+          },
+          {
+            "a": "Original historical sense",
+            "b": "A religious convert or defector"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Renegade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A renegade is",
+            "b": "Someone who deserts a cause"
+          },
+          {
+            "a": "A renegade can also mean",
+            "b": "A rebel against convention"
+          },
+          {
+            "a": "The word originally described",
+            "b": "A religious defector"
+          },
+          {
+            "a": "Renegade is often used as",
+            "b": "An adjective for rebellious behaviour"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Renegade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The general was branded a",
+            "b": "Renegade for defying orders"
+          },
+          {
+            "a": "The film follows a",
+            "b": "Renegade cop"
+          },
+          {
+            "a": "She built her career as a",
+            "b": "Renegade fashion designer"
+          },
+          {
+            "a": "The renegade faction split from",
+            "b": "The main party"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "negare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To deny",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish renegado, from Latin re- (again) + ",
+          "highlight": false
+        },
+        {
+          "text": "negare",
+          "highlight": true
+        },
+        {
+          "text": " (to deny); originally described a Christian convert to Islam.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "negare",
+      "correctAnswer": "To deny",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Corral",
+    "pronunciation": "kuh-RAL",
+    "pos": "noun",
+    "definition": "A pen or enclosure for livestock, especially horses or cattle.",
+    "origin": "From Spanish <strong>corral</strong>, meaning enclosure or yard, possibly from Vulgar Latin <strong>currale</strong>, related to <strong>currus</strong> (cart, wagon circle). Ranches used corrals for handling stock.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Corral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish corral",
+            "b": "Enclosure, yard"
+          },
+          {
+            "a": "Possible root",
+            "b": "Latin currus (cart, wagon)"
+          },
+          {
+            "a": "Evoked image",
+            "b": "A circle of wagons"
+          },
+          {
+            "a": "Used for",
+            "b": "Handling livestock on ranches"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Corral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A corral is",
+            "b": "A livestock pen or enclosure"
+          },
+          {
+            "a": "To corral means to",
+            "b": "Gather into an enclosure"
+          },
+          {
+            "a": "Figuratively, to corral people means to",
+            "b": "Round them up or organise them"
+          },
+          {
+            "a": "Corrals are common features of",
+            "b": "Ranches and stables"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Corral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The horses were driven into",
+            "b": "The corral"
+          },
+          {
+            "a": "She tried to corral",
+            "b": "The excited children for the photo"
+          },
+          {
+            "a": "Ranch hands mended",
+            "b": "The corral fence"
+          },
+          {
+            "a": "The organiser corralled",
+            "b": "Volunteers for the event"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "corral",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Enclosure, yard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "corral",
+          "highlight": true
+        },
+        {
+          "text": ", possibly from Latin currus (cart), evoking a circle of wagons.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "corral",
+      "correctAnswer": "Enclosure, yard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sombrero",
+    "pronunciation": "som-BRAIR-oh",
+    "pos": "noun",
+    "definition": "A broad-brimmed straw or felt hat, traditionally worn in Mexico and the American Southwest.",
+    "origin": "From Spanish <strong>sombrero</strong>, from <strong>sombra</strong> (shade), from Latin <strong>umbra</strong> (shadow). It named any broad-brimmed hat before becoming associated specifically with Mexican dress.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sombrero</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish sombra",
+            "b": "Shade"
+          },
+          {
+            "a": "Latin umbra",
+            "b": "Shadow"
+          },
+          {
+            "a": "Spanish sombrero",
+            "b": "Broad-brimmed hat"
+          },
+          {
+            "a": "Now associated with",
+            "b": "Mexican traditional dress"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sombrero</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sombrero is",
+            "b": "A broad-brimmed hat"
+          },
+          {
+            "a": "The wide brim provides",
+            "b": "Shade from the sun"
+          },
+          {
+            "a": "Sombreros are strongly associated with",
+            "b": "Mexican culture"
+          },
+          {
+            "a": "The word's root ultimately means",
+            "b": "Shadow"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sombrero</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He wore a straw",
+            "b": "Sombrero to the festival"
+          },
+          {
+            "a": "The mariachi band wore matching",
+            "b": "Sombreros"
+          },
+          {
+            "a": "She bought a colourful",
+            "b": "Sombrero as a souvenir"
+          },
+          {
+            "a": "The wide brim of the",
+            "b": "Sombrero kept off the midday sun"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sombra",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Shade",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish sombrero, from ",
+          "highlight": false
+        },
+        {
+          "text": "sombra",
+          "highlight": true
+        },
+        {
+          "text": " (shade); named any broad-brimmed hat before its Mexican association.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sombra",
+      "correctAnswer": "Shade",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mosquito",
+    "pronunciation": "muh-SKEE-toh",
+    "pos": "noun",
+    "definition": "A small flying insect, the female of which bites to feed on blood.",
+    "origin": "From Spanish <strong>mosquito</strong>, diminutive of <strong>mosca</strong> (fly), from Latin <strong>musca</strong>. Spanish and Portuguese sailors spread the term through their contact with the tropics.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mosquito</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin musca",
+            "b": "Fly"
+          },
+          {
+            "a": "Spanish mosca",
+            "b": "Fly"
+          },
+          {
+            "a": "Spanish mosquito",
+            "b": "Little fly"
+          },
+          {
+            "a": "Spread by",
+            "b": "Spanish and Portuguese sailors"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mosquito</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A mosquito is",
+            "b": "A small biting flying insect"
+          },
+          {
+            "a": "Female mosquitoes bite to",
+            "b": "Feed on blood"
+          },
+          {
+            "a": "Mosquitoes can transmit diseases such as",
+            "b": "Malaria and dengue"
+          },
+          {
+            "a": "A mosquito net protects against",
+            "b": "Bites while sleeping"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mosquito</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She slapped away a",
+            "b": "Buzzing mosquito"
+          },
+          {
+            "a": "They slept under",
+            "b": "A mosquito net"
+          },
+          {
+            "a": "The swamp was thick with",
+            "b": "Mosquitoes at dusk"
+          },
+          {
+            "a": "He applied repellent to avoid",
+            "b": "Mosquito bites"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "musca",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Fly",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish mosquito, \"little fly,\" from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "musca",
+          "highlight": true
+        },
+        {
+          "text": "; spread by Spanish and Portuguese sailors in the tropics.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "musca",
+      "correctAnswer": "Fly",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Flamingo",
+    "pronunciation": "fluh-MING-goh",
+    "pos": "noun",
+    "definition": "A large wading bird with pink or reddish plumage and a long curved neck.",
+    "origin": "From Spanish or Portuguese <strong>flamengo</strong>, meaning flame-coloured, from Latin <strong>flamma</strong> (flame). The bird's vivid plumage inspired the fiery name.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Flamingo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin flamma",
+            "b": "Flame"
+          },
+          {
+            "a": "Spanish flamengo",
+            "b": "Flame-coloured"
+          },
+          {
+            "a": "Named for",
+            "b": "The bird's vivid pink plumage"
+          },
+          {
+            "a": "Entered English",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Flamingo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A flamingo is",
+            "b": "A pink wading bird"
+          },
+          {
+            "a": "Flamingos get their colour from",
+            "b": "Pigments in their diet"
+          },
+          {
+            "a": "Flamingos are known for",
+            "b": "Standing on one leg"
+          },
+          {
+            "a": "The word's root means",
+            "b": "Flame"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Flamingo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A flock of",
+            "b": "Flamingos waded in the shallows"
+          },
+          {
+            "a": "The zoo's newest exhibit featured",
+            "b": "Chilean flamingos"
+          },
+          {
+            "a": "Plastic",
+            "b": "Flamingos decorated the lawn"
+          },
+          {
+            "a": "The lake turned pink with",
+            "b": "Thousands of flamingos"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "flamma",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Flame",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish/Portuguese flamengo, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "flamma",
+          "highlight": true
+        },
+        {
+          "text": " (flame); named for the bird's vivid, fiery plumage.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "flamma",
+      "correctAnswer": "Flame",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mustang",
+    "pronunciation": "MUS-tang",
+    "pos": "noun",
+    "definition": "A small, hardy wild horse of the American plains, descended from Spanish stock.",
+    "origin": "From Spanish <strong>mustengo</strong> or <strong>mesteño</strong>, meaning stray or ownerless animal, from <strong>mesta</strong>, an association of livestock owners. Descendants of Spanish horses ran wild across the plains.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mustang</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish mesteño",
+            "b": "Stray, ownerless"
+          },
+          {
+            "a": "Related word",
+            "b": "Mesta (livestock owners' association)"
+          },
+          {
+            "a": "Origin of the horses",
+            "b": "Escaped or released Spanish stock"
+          },
+          {
+            "a": "Range",
+            "b": "The American plains"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mustang</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A mustang is",
+            "b": "A wild American horse"
+          },
+          {
+            "a": "Mustangs descend from",
+            "b": "Horses brought by Spanish colonists"
+          },
+          {
+            "a": "Wild mustangs roam mainly in",
+            "b": "The western United States"
+          },
+          {
+            "a": "The Ford Mustang was named for",
+            "b": "The wild horse's spirit"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mustang</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A herd of",
+            "b": "Mustangs galloped across the plain"
+          },
+          {
+            "a": "Conservationists work to protect",
+            "b": "Wild mustang populations"
+          },
+          {
+            "a": "He tamed his first",
+            "b": "Mustang as a teenager"
+          },
+          {
+            "a": "The car was named after",
+            "b": "The wild mustang"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "mesteño",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Stray, ownerless",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "mesteño",
+          "highlight": true
+        },
+        {
+          "text": ", \"stray\"; descendants of Spanish horses ran wild across the American plains.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mesteño",
+      "correctAnswer": "Stray, ownerless",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tango",
+    "pronunciation": "TANG-goh",
+    "pos": "noun",
+    "definition": "A dramatic partnered dance originating in Buenos Aires, with sharp, staccato steps.",
+    "origin": "From Spanish <strong>tango</strong>, of disputed origin, possibly from an Afro-Argentine drum term or Spanish <strong>tañer</strong> (to play an instrument). It emerged in the working-class ports of Buenos Aires.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tango</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish tango",
+            "b": "Argentine partnered dance"
+          },
+          {
+            "a": "Possible source",
+            "b": "An Afro-Argentine drum term"
+          },
+          {
+            "a": "Alternative theory",
+            "b": "Tañer (to play an instrument)"
+          },
+          {
+            "a": "Birthplace",
+            "b": "Buenos Aires"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tango</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The tango is",
+            "b": "A dramatic Argentine partnered dance"
+          },
+          {
+            "a": "\"It takes two to tango\" means",
+            "b": "Both parties share responsibility"
+          },
+          {
+            "a": "Tango music is typically played on",
+            "b": "The bandoneón"
+          },
+          {
+            "a": "The dance emerged among",
+            "b": "Working-class communities in Buenos Aires"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tango</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The couple danced a passionate",
+            "b": "Tango"
+          },
+          {
+            "a": "She took lessons to learn",
+            "b": "The tango"
+          },
+          {
+            "a": "Well, it takes two to",
+            "b": "Tango, as they say"
+          },
+          {
+            "a": "The film's finale features",
+            "b": "A dramatic tango scene"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tango",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Argentine partnered dance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "tango",
+          "highlight": true
+        },
+        {
+          "text": ", of disputed origin; it emerged in the working-class ports of Buenos Aires.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tango",
+      "correctAnswer": "Argentine partnered dance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Flamenco",
+    "pronunciation": "fluh-MENG-koh",
+    "pos": "noun",
+    "definition": "A passionate style of Spanish music and dance, associated with Andalusia and Romani culture.",
+    "origin": "From Spanish <strong>flamenco</strong>, meaning \"Flemish,\" of debated origin — possibly a comparison of dramatic style to Flemish courtiers, or a folk link to \"flame.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Flamenco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish flamenco",
+            "b": "Flemish"
+          },
+          {
+            "a": "One theory",
+            "b": "Compared dramatic style to Flemish courtiers"
+          },
+          {
+            "a": "Associated region",
+            "b": "Andalusia, southern Spain"
+          },
+          {
+            "a": "Associated culture",
+            "b": "Spanish Romani communities"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Flamenco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Flamenco is",
+            "b": "A passionate Spanish music and dance style"
+          },
+          {
+            "a": "Flamenco combines",
+            "b": "Singing, guitar, and dance"
+          },
+          {
+            "a": "Flamenco is closely associated with",
+            "b": "Andalusia and Romani culture"
+          },
+          {
+            "a": "A flamenco dancer's footwork is called",
+            "b": "Zapateado"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Flamenco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tablao hosted a live",
+            "b": "Flamenco performance"
+          },
+          {
+            "a": "Her heels clicked in",
+            "b": "Sharp flamenco rhythm"
+          },
+          {
+            "a": "The guitarist accompanied the",
+            "b": "Flamenco singer"
+          },
+          {
+            "a": "They travelled to Seville to see",
+            "b": "Authentic flamenco"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "flamenco",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Flemish",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish ",
+          "highlight": false
+        },
+        {
+          "text": "flamenco",
+          "highlight": true
+        },
+        {
+          "text": ", \"Flemish,\" of debated origin — possibly comparing dramatic style to Flemish courtiers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "flamenco",
+      "correctAnswer": "Flemish",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Adobe",
+    "pronunciation": "uh-DOH-bee",
+    "pos": "noun",
+    "definition": "Sun-dried brick made of clay and straw, or a building constructed from it.",
+    "origin": "From Spanish <strong>adobe</strong>, from Arabic <strong>al-ṭūb</strong> (the brick), ultimately from Egyptian <strong>ḏbt</strong>. The building material spread through Moorish Spain and then Spanish colonial architecture.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Adobe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic al-ṭūb",
+            "b": "The brick"
+          },
+          {
+            "a": "Spanish adobe",
+            "b": "Sun-dried brick"
+          },
+          {
+            "a": "Spread through",
+            "b": "Moorish Spain, then the Americas"
+          },
+          {
+            "a": "Ultimate root",
+            "b": "Ancient Egyptian ḏbt"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Adobe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Adobe is",
+            "b": "Sun-dried clay and straw brick"
+          },
+          {
+            "a": "Adobe architecture is common in",
+            "b": "Arid, hot climates"
+          },
+          {
+            "a": "The material insulates well against",
+            "b": "Heat and cold"
+          },
+          {
+            "a": "Adobe buildings are typical of",
+            "b": "The American Southwest"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Adobe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The old mission was built from",
+            "b": "Thick adobe walls"
+          },
+          {
+            "a": "Workers shaped and dried",
+            "b": "Adobe bricks in the sun"
+          },
+          {
+            "a": "The village's houses were made of",
+            "b": "Traditional adobe"
+          },
+          {
+            "a": "Adobe kept the interior cool during",
+            "b": "The desert afternoon"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "al-ṭūb",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "The brick",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish adobe, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "al-ṭūb",
+          "highlight": true
+        },
+        {
+          "text": " (the brick); spread through Moorish Spain and colonial architecture.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "al-ṭūb",
+      "correctAnswer": "The brick",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Breeze",
+    "pronunciation": "BREEZ",
+    "pos": "noun",
+    "definition": "A gentle wind.",
+    "origin": "Possibly from Spanish <strong>briza</strong> or Portuguese <strong>brisa</strong>, an early term for a northeast wind at sea. Sailors carried the word into English through Atlantic trade routes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Breeze</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish brisa",
+            "b": "Northeast sea wind"
+          },
+          {
+            "a": "Carried by",
+            "b": "Sailors on Atlantic trade routes"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A specific ocean wind"
+          },
+          {
+            "a": "Modern meaning",
+            "b": "Any gentle wind"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Breeze</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A breeze is",
+            "b": "A gentle wind"
+          },
+          {
+            "a": "\"A breeze\" figuratively means",
+            "b": "Something easy to do"
+          },
+          {
+            "a": "To breeze through something means to",
+            "b": "Complete it easily"
+          },
+          {
+            "a": "A sea breeze blows from",
+            "b": "The ocean toward land"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Breeze</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A cool",
+            "b": "Breeze drifted through the window"
+          },
+          {
+            "a": "The exam turned out to be",
+            "b": "A breeze"
+          },
+          {
+            "a": "She breezed through",
+            "b": "The interview questions"
+          },
+          {
+            "a": "Palm leaves rustled in",
+            "b": "The evening breeze"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "brisa",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "Northeast sea wind",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Possibly from Spanish/Portuguese ",
+          "highlight": false
+        },
+        {
+          "text": "brisa",
+          "highlight": true
+        },
+        {
+          "text": ", a northeast sea wind; sailors carried the word via Atlantic trade routes.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "brisa",
+      "correctAnswer": "Northeast sea wind",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cargo",
+    "pronunciation": "KAR-goh",
+    "pos": "noun",
+    "definition": "Goods carried by a ship, aircraft, or other vehicle.",
+    "origin": "From Spanish <strong>cargo</strong>, meaning load or burden, from <strong>cargar</strong> (to load), from Latin <strong>carricare</strong>. English adopted it directly for shipborne freight.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cargo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Spanish cargar",
+            "b": "To load"
+          },
+          {
+            "a": "Spanish cargo",
+            "b": "Load, burden"
+          },
+          {
+            "a": "Ultimate root",
+            "b": "Latin carricare (to load a cart)"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century, via maritime trade"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cargo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cargo is",
+            "b": "Goods carried by a vehicle"
+          },
+          {
+            "a": "A cargo ship carries",
+            "b": "Freight rather than passengers"
+          },
+          {
+            "a": "Cargo pants have",
+            "b": "Large pockets for carrying items"
+          },
+          {
+            "a": "Cargo differs from luggage in",
+            "b": "Referring to commercial freight"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cargo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The ship unloaded its",
+            "b": "Cargo at the port"
+          },
+          {
+            "a": "Workers inspected the",
+            "b": "Cargo containers"
+          },
+          {
+            "a": "He wore practical",
+            "b": "Cargo trousers on the hike"
+          },
+          {
+            "a": "The plane carried mostly",
+            "b": "Industrial cargo"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cargar",
+        "rootLanguage": "Spanish",
+        "rootMeaning": "To load",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish cargo (load), from ",
+          "highlight": false
+        },
+        {
+          "text": "cargar",
+          "highlight": true
+        },
+        {
+          "text": " (to load), from Latin carricare; adopted directly for shipborne freight.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cargar",
+      "correctAnswer": "To load",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pronto",
+    "pronunciation": "PRON-toh",
+    "pos": "adverb",
+    "definition": "Quickly, promptly, without delay.",
+    "origin": "From Spanish <strong>pronto</strong>, meaning quickly or ready, from Latin <strong>promptus</strong> (ready, prompt). It entered informal American English through the Southwest and frontier slang.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pronto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin promptus",
+            "b": "Ready, prompt"
+          },
+          {
+            "a": "Spanish pronto",
+            "b": "Quickly, ready"
+          },
+          {
+            "a": "Entered English via",
+            "b": "American frontier slang"
+          },
+          {
+            "a": "Register",
+            "b": "Informal"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pronto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pronto means",
+            "b": "Quickly, without delay"
+          },
+          {
+            "a": "\"Get here pronto\" means",
+            "b": "Come immediately"
+          },
+          {
+            "a": "The word is used mostly in",
+            "b": "Informal speech"
+          },
+          {
+            "a": "Its Latin root relates to",
+            "b": "\"Prompt\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pronto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The manager wanted the report",
+            "b": "Finished, pronto"
+          },
+          {
+            "a": "He fixed the leak",
+            "b": "Pronto"
+          },
+          {
+            "a": "She told the courier to deliver it",
+            "b": "Pronto"
+          },
+          {
+            "a": "They cleared the mess up",
+            "b": "Pronto, before guests arrived"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "promptus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Ready, prompt",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish pronto, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "promptus",
+          "highlight": true
+        },
+        {
+          "text": " (ready); entered informal American English through frontier slang.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "promptus",
+      "correctAnswer": "Ready, prompt",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Plaza",
+    "pronunciation": "PLAH-zuh",
+    "pos": "noun",
+    "definition": "A public square or open space in a town or city.",
+    "origin": "From Spanish <strong>plaza</strong>, from Latin <strong>platea</strong> (broad street, courtyard), the same root that gave Italian \"piazza\" and French \"place.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Plaza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin platea",
+            "b": "Broad street, courtyard"
+          },
+          {
+            "a": "Spanish plaza",
+            "b": "Public square"
+          },
+          {
+            "a": "Related word (Italian)",
+            "b": "Piazza"
+          },
+          {
+            "a": "Related word (French)",
+            "b": "Place"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Plaza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A plaza is",
+            "b": "A public square in a town"
+          },
+          {
+            "a": "A shopping plaza is",
+            "b": "A retail complex around open space"
+          },
+          {
+            "a": "Spanish colonial towns were planned around",
+            "b": "A central plaza"
+          },
+          {
+            "a": "A plaza often features",
+            "b": "A fountain or monument"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Plaza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Vendors set up stalls in",
+            "b": "The town plaza"
+          },
+          {
+            "a": "They met for coffee at",
+            "b": "The corner of the plaza"
+          },
+          {
+            "a": "The parade wound through",
+            "b": "The main plaza"
+          },
+          {
+            "a": "Office workers ate lunch on",
+            "b": "Benches in the plaza"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "platea",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Broad street, courtyard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish plaza, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "platea",
+          "highlight": true
+        },
+        {
+          "text": "; the same root gave Italian \"piazza\" and French \"place.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "platea",
+      "correctAnswer": "Broad street, courtyard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Siesta",
+    "pronunciation": "see-ES-tuh",
+    "pos": "noun",
+    "definition": "A short rest or nap taken after lunch, especially in hot countries.",
+    "origin": "From Spanish <strong>siesta</strong>, from Latin <strong>sexta</strong> (hora) — \"the sixth hour,\" counting from dawn, roughly midday, when the heat made rest sensible.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Siesta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin sexta",
+            "b": "Sixth (hour)"
+          },
+          {
+            "a": "Counted from",
+            "b": "Dawn"
+          },
+          {
+            "a": "Roughly corresponds to",
+            "b": "Midday"
+          },
+          {
+            "a": "Reason for the rest",
+            "b": "Avoiding the midday heat"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Siesta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A siesta is",
+            "b": "A short after-lunch rest"
+          },
+          {
+            "a": "Siestas are traditional in",
+            "b": "Hot, southern climates"
+          },
+          {
+            "a": "The word's root refers to",
+            "b": "The sixth hour of the day"
+          },
+          {
+            "a": "Shops in siesta cultures often",
+            "b": "Close in the early afternoon"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Siesta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The village fell silent during",
+            "b": "The afternoon siesta"
+          },
+          {
+            "a": "She took a short",
+            "b": "Siesta after lunch"
+          },
+          {
+            "a": "Shops closed for",
+            "b": "Siesta between two and five"
+          },
+          {
+            "a": "The heat made everyone crave",
+            "b": "A siesta"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sexta",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Sixth (hour)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish siesta, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "sexta",
+          "highlight": true
+        },
+        {
+          "text": " (hora), \"the sixth hour\" from dawn — roughly midday.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sexta",
+      "correctAnswer": "Sixth (hour)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fiesta",
+    "pronunciation": "fee-ES-tuh",
+    "pos": "noun",
+    "definition": "A festival, celebration, or party, especially one with music and dancing.",
+    "origin": "From Spanish <strong>fiesta</strong>, meaning festival or holiday, from Latin <strong>festa</strong> (feast). Spanish and Latin American towns hold fiestas to mark saints' days and civic anniversaries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-spanish",
+      "name": "From Spain",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fiesta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin festa",
+            "b": "Feast"
+          },
+          {
+            "a": "Spanish fiesta",
+            "b": "Festival, holiday"
+          },
+          {
+            "a": "Common occasions",
+            "b": "Saints' days, civic anniversaries"
+          },
+          {
+            "a": "Related English word",
+            "b": "Festive"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fiesta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A fiesta is",
+            "b": "A lively festival or celebration"
+          },
+          {
+            "a": "Fiestas typically feature",
+            "b": "Music, dancing, and food"
+          },
+          {
+            "a": "Many fiestas mark",
+            "b": "A saint's day or local tradition"
+          },
+          {
+            "a": "The word shares a root with",
+            "b": "\"Festive\" and \"feast\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fiesta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The whole town gathered for",
+            "b": "The annual fiesta"
+          },
+          {
+            "a": "Fireworks lit up the sky during",
+            "b": "The fiesta"
+          },
+          {
+            "a": "Children danced through the streets at",
+            "b": "The fiesta"
+          },
+          {
+            "a": "They planned a birthday",
+            "b": "Fiesta with a mariachi band"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "festa",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Feast",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Spanish fiesta, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "festa",
+          "highlight": true
+        },
+        {
+          "text": " (feast); towns hold fiestas to mark saints' days and anniversaries.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "festa",
+      "correctAnswer": "Feast",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

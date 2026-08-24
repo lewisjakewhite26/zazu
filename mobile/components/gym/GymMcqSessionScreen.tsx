@@ -1,20 +1,19 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Animated, Easing, Pressable, StyleSheet, Text, View } from 'react-native';
+import { CheckIcon, XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { copy } from '@/constants/copy';
-import { typography } from '@/constants/theme';
-import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { radii, typography } from '@/constants/theme';
+import { CONTENT_MAX_WIDTH, MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useProgress } from '@/hooks/useProgress';
 import type { GymMcqQuestion } from '../../../lib/gym-modes';
-import { hapticCorrect, hapticWrong } from '../../../lib/feedback';
-
-const CORRECT_ADVANCE_MS = 500;
+import { hapticCorrect, hapticSelect, hapticWrong } from '../../../lib/feedback';
 
 type GymMcqSessionScreenProps = {
   modeLabel: string;
@@ -28,8 +27,7 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
 
   const [questionIndex, setQuestionIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [advanceReady, setAdvanceReady] = useState(false);
-  const [hintShown, setHintShown] = useState(false);
+  const [checked, setChecked] = useState(false);
   const [sessionWordIds, setSessionWordIds] = useState<string[]>([]);
   const [finishing, setFinishing] = useState(false);
 
@@ -54,11 +52,10 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
       (_, index) => optionShakes.current[index] ?? new Animated.Value(0),
     );
     setSelectedIndex(null);
-    setAdvanceReady(false);
-    setHintShown(false);
+    setChecked(false);
   }, [current?.wordId, current?.question]);
 
-  const isCorrect = selectedIndex !== null && current && selectedIndex === current.correctIndex;
+  const isCorrect = checked && selectedIndex !== null && current && selectedIndex === current.correctIndex;
 
   const finishSession = useCallback(async () => {
     if (finishing) return;
@@ -110,27 +107,43 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
   };
 
   const handleSelect = (index: number) => {
-    if (!current || advanceReady || finishing) return;
+    if (!current || checked || finishing) return;
+    if (index !== selectedIndex) hapticSelect();
+    setSelectedIndex(index);
+  };
 
-    if (index === current.correctIndex) {
-      setSelectedIndex(index);
+  const handleCheck = () => {
+    if (!current || selectedIndex === null || checked || finishing) return;
+    setChecked(true);
+
+    if (selectedIndex === current.correctIndex) {
       hapticCorrect();
-      runCorrectPop(index);
+      runCorrectPop(selectedIndex);
       void recordMcqAnswer(current.wordId, true);
       setSessionWordIds((ids) => (ids.includes(current.wordId) ? ids : [...ids, current.wordId]));
-      setTimeout(() => {
-        setAdvanceReady(true);
-        setTimeout(goNextQuestion, CORRECT_ADVANCE_MS);
-      }, CORRECT_ADVANCE_MS);
       return;
     }
 
     hapticWrong();
-    setSelectedIndex(index);
-    setHintShown(true);
-    runWrongShake(index);
+    runWrongShake(selectedIndex);
     void recordMcqAnswer(current.wordId, false);
-    setTimeout(() => setSelectedIndex(null), 700);
+  };
+
+  const handleRetry = () => {
+    setSelectedIndex(null);
+    setChecked(false);
+  };
+
+  const handlePrimaryAction = () => {
+    if (!checked) {
+      handleCheck();
+      return;
+    }
+    if (isCorrect) {
+      goNextQuestion();
+      return;
+    }
+    handleRetry();
   };
 
   const styles = useMemo(
@@ -178,29 +191,72 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
           ...typography.mtQuestion,
           color: colors.text,
         },
-        options: { gap: 14 },
+        options: {
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          gap: 12,
+        },
+        optionSlot: {
+          flexBasis: '47%',
+          flexGrow: 1,
+        },
         option: {
-          borderWidth: 1,
-          borderRadius: 24,
-          paddingHorizontal: 20,
+          width: '100%',
+          minHeight: MIN_TOUCH_TARGET,
+          borderWidth: 1.5,
+          borderRadius: 16,
+          paddingHorizontal: 16,
           paddingVertical: 16,
+          justifyContent: 'center',
         },
         optionText: {
           ...typography.mtOption,
+          fontSize: 15,
+          lineHeight: 21,
+        },
+        spacer: {
+          flex: 1,
+          minHeight: spacing.lg,
+        },
+        footer: {
+          borderRadius: radii.alarmCard,
+          borderWidth: 1,
+          padding: spacing.md,
+          marginBottom: spacing.md,
+        },
+        feedbackRow: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 8,
+          marginBottom: spacing.xs,
+        },
+        feedbackBadge: {
+          width: 22,
+          height: 22,
+          borderRadius: 11,
+          alignItems: 'center',
+          justifyContent: 'center',
+        },
+        feedbackText: {
+          fontFamily: typography.btnPrimary.fontFamily,
+          fontSize: 14,
         },
         hint: {
           fontFamily: typography.btnDemo.fontFamily,
           fontSize: 13,
-          lineHeight: 20,
+          lineHeight: 19,
           color: colors.subtext,
-          marginTop: 14,
+          marginBottom: spacing.sm,
         },
-        tryAgain: {
-          fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 14,
-          color: colors.subtext,
-          marginTop: spacing.md,
-          textAlign: 'center',
+        actionBtn: {
+          minHeight: MIN_TOUCH_TARGET,
+          borderRadius: radii.pill,
+          alignItems: 'center',
+          justifyContent: 'center',
+          paddingVertical: 14,
+        },
+        actionBtnText: {
+          ...typography.btnPrimary,
         },
       }),
     [colors],
@@ -209,6 +265,34 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
   if (!gymSession || !current) return null;
 
   const progressLabel = copy.gymModes.questionProgress(questionIndex + 1, questions.length);
+
+  const footerBg = !checked
+    ? 'transparent'
+    : isCorrect
+      ? 'rgba(168,216,176,0.16)'
+      : 'rgba(232,97,122,0.12)';
+  const footerBorder = !checked ? colors.border : isCorrect ? colors.correct : colors.wrong;
+
+  const actionLabel = !checked
+    ? copy.gymModes.checkCta
+    : isCorrect
+      ? copy.gymModes.nextCta
+      : copy.gymModes.retryCta;
+  const actionDisabled = !checked && selectedIndex === null;
+  const actionBg = !checked
+    ? selectedIndex === null
+      ? colors.border
+      : colors.primaryButtonBg
+    : isCorrect
+      ? colors.correct
+      : colors.wrong;
+  const actionTextColor = !checked
+    ? selectedIndex === null
+      ? colors.subtext
+      : colors.primaryButtonText
+    : isCorrect
+      ? colors.ink
+      : '#ffffff';
 
   return (
     <GradientBackground>
@@ -239,32 +323,38 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
               let borderColor = colors.border;
               let textColor = colors.text;
 
-              if (selectedIndex !== null) {
+              if (checked) {
                 if (index === current.correctIndex && isCorrect) {
                   backgroundColor = 'rgba(168,216,176,0.35)';
                   borderColor = colors.correct;
                 } else if (index === selectedIndex && !isCorrect) {
                   backgroundColor = 'rgba(232,97,122,0.15)';
                   borderColor = colors.wrong;
-                } else if (!isCorrect) {
+                } else {
                   textColor = colors.subtext;
                 }
+              } else if (index === selectedIndex) {
+                backgroundColor = 'rgba(200,180,232,0.22)';
+                borderColor = colors.lavender;
               }
 
               return (
                 <Animated.View
                   key={`${current.wordId}-${option}`}
-                  style={{ transform: [{ scale }, { translateX: shake }] }}
+                  style={[
+                    styles.optionSlot,
+                    { transform: [{ scale }, { translateX: shake }] },
+                  ]}
                 >
                   <Pressable
                     onPress={() => handleSelect(index)}
-                    disabled={advanceReady || finishing}
+                    disabled={checked || finishing}
                     style={[styles.option, { backgroundColor, borderColor }]}
                     accessibilityRole="button"
                     accessibilityLabel={option}
                     accessibilityState={{
                       selected: selectedIndex === index,
-                      disabled: advanceReady || finishing,
+                      disabled: checked || finishing,
                     }}
                   >
                     <Text style={[styles.optionText, { color: textColor }]}>{option}</Text>
@@ -274,13 +364,50 @@ export function GymMcqSessionScreen({ modeLabel }: GymMcqSessionScreenProps) {
             })}
           </View>
 
-          {hintShown && selectedIndex !== null && !isCorrect ? (
-            <Text style={styles.hint}>{copy.gymModes.mcqHint(current.word)}</Text>
-          ) : null}
+          <View style={styles.spacer} />
 
-          {selectedIndex !== null && !isCorrect ? (
-            <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text>
-          ) : null}
+          <View style={[styles.footer, { backgroundColor: footerBg, borderColor: footerBorder }]}>
+            {checked ? (
+              <>
+                <View style={styles.feedbackRow}>
+                  <View
+                    style={[
+                      styles.feedbackBadge,
+                      { backgroundColor: isCorrect ? colors.correct : colors.wrong },
+                    ]}
+                  >
+                    {isCorrect ? (
+                      <CheckIcon size={13} weight="bold" color={colors.ink} />
+                    ) : (
+                      <XIcon size={13} weight="bold" color="#ffffff" />
+                    )}
+                  </View>
+                  <Text
+                    style={[
+                      styles.feedbackText,
+                      { color: isCorrect ? colors.correctIcon : colors.wrong },
+                    ]}
+                  >
+                    {isCorrect ? copy.gymModes.correctFeedback : copy.gymModes.wrongFeedback}
+                  </Text>
+                </View>
+                {!isCorrect ? (
+                  <Text style={styles.hint}>{copy.gymModes.mcqHint(current.word)}</Text>
+                ) : null}
+              </>
+            ) : null}
+
+            <Pressable
+              onPress={handlePrimaryAction}
+              disabled={actionDisabled || finishing}
+              style={[styles.actionBtn, { backgroundColor: actionBg }]}
+              accessibilityRole="button"
+              accessibilityLabel={actionLabel}
+              accessibilityState={{ disabled: actionDisabled || finishing }}
+            >
+              <Text style={[styles.actionBtnText, { color: actionTextColor }]}>{actionLabel}</Text>
+            </Pressable>
+          </View>
         </View>
       </SafeAreaView>
     </GradientBackground>

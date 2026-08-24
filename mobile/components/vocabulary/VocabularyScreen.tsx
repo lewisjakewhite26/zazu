@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  ActivityIndicator,
   Platform,
   Pressable,
   ScrollView,
@@ -19,9 +18,10 @@ import { WordDetailSheet } from '@/components/calendar/WordDetailSheet';
 import { showAppAlert } from '@/components/ui/AppAlert';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { GradientBackground } from '@/components/ui/GradientBackground';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { HomeHeader } from '@/components/home/HomeHeader';
 import { copy } from '@/constants/copy';
-import { fonts, typography } from '@/constants/theme';
+import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useSubscription } from '@/context/SubscriptionContext';
@@ -235,9 +235,14 @@ function createLocalStyles(colors: AppThemeColors) {
       alignItems: 'center',
       justifyContent: 'center',
     },
-    loadingWrap: {
-      paddingVertical: 48,
-      alignItems: 'center',
+    skeletonHero: {
+      width: '100%',
+      borderRadius: radii.cardMd,
+      backgroundColor: colors.card,
+      borderWidth: 1,
+      borderColor: colors.border,
+      padding: spacing.lg,
+      marginBottom: spacing.lg,
     },
   });
 }
@@ -452,8 +457,15 @@ export function VocabularyScreen() {
           ) : null}
 
           {loading ? (
-            <View style={localStyles.loadingWrap}>
-              <ActivityIndicator color={colors.text} />
+            <View accessibilityRole="progressbar" accessibilityLabel={copy.home.wordOfDayLoading}>
+              <Skeleton width={130} height={11} style={{ marginBottom: 8 }} />
+              <Skeleton width={180} height={13} style={{ marginBottom: spacing.lg }} />
+              <Skeleton width={70} height={11} style={{ marginBottom: 10 }} />
+              <View style={localStyles.skeletonHero}>
+                <Skeleton width={54} height={11} style={{ marginBottom: 10 }} />
+                <Skeleton width={150} height={30} style={{ marginBottom: 8 }} />
+                <Skeleton width={110} height={12} />
+              </View>
             </View>
           ) : (
             <>

@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Atmosphere",
+    "pronunciation": "AT-muhs-feer",
+    "pos": "noun",
+    "definition": "The layer of gases surrounding a planet, held in place by gravity; figuratively, the pervading mood or tone of a place.",
+    "origin": "From Greek <strong>atmos</strong> (vapour, steam) + sphaira (sphere), coined in the 17th century by scientists describing the sphere of air surrounding the Earth.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Atmosphere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek atmos", "b": "Vapour, steam" },
+          { "a": "Greek sphaira", "b": "Sphere" },
+          { "a": "Coined in the", "b": "17th century" },
+          { "a": "Described the sphere of", "b": "Air surrounding the Earth" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Atmosphere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The atmosphere is held in place by", "b": "Gravity" },
+          { "a": "The atmosphere protects Earth from", "b": "Harmful solar radiation" },
+          { "a": "Figuratively, an atmosphere is a place's", "b": "Pervading mood or tone" },
+          { "a": "The thin upper atmosphere is called the", "b": "Stratosphere" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Atmosphere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The meteor burned up entering Earth's", "b": "Atmosphere" },
+          { "a": "Candlelight gave the restaurant a cosy", "b": "Atmosphere" },
+          { "a": "Scientists study Mars's thin", "b": "Atmosphere" },
+          { "a": "The stadium buzzed with electric", "b": "Atmosphere" }
+        ] }
+    ],
+    "roots": [ { "rootText": "atmos", "rootLanguage": "Greek", "rootMeaning": "Vapour, steam", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "atmos", "highlight": true }, { "text": " (vapour) + sphaira (sphere); the vast sphere of air wrapped around a planet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "atmos", "correctAnswer": "Vapour, steam", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ozone",
+    "pronunciation": "OH-zohn",
+    "pos": "noun",
+    "definition": "A pale blue, sharp-smelling gas whose molecule contains three oxygen atoms; a layer of it in the upper atmosphere absorbs harmful ultraviolet radiation.",
+    "origin": "From Greek <strong>ozein</strong> (to smell), coined in 1840 by German chemist Christian Friedrich Schönbein after noticing the sharp odour it produced near electrical sparks.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ozone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek ozein", "b": "To smell" },
+          { "a": "Coined in 1840 by", "b": "Christian Friedrich Schönbein" },
+          { "a": "Schönbein noticed the smell near", "b": "Electrical sparks" },
+          { "a": "Named for its sharp", "b": "Odour" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ozone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ozone molecule contains three", "b": "Oxygen atoms" },
+          { "a": "The ozone layer absorbs harmful", "b": "Ultraviolet radiation" },
+          { "a": "At ground level, ozone acts as a harmful", "b": "Pollutant" },
+          { "a": "CFCs were found to deplete the", "b": "Ozone layer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ozone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "After the storm, the air had a sharp scent of", "b": "Ozone" },
+          { "a": "Scientists tracked the shrinking hole in the", "b": "Ozone layer" },
+          { "a": "The city issued a warning about ground-level", "b": "Ozone pollution" },
+          { "a": "The treaty phased out chemicals that harm the", "b": "Ozone layer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ozein", "rootLanguage": "Greek", "rootMeaning": "To smell", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "ozein", "highlight": true }, { "text": " (to smell); named for its sharp odour near electrical sparks.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ozein", "correctAnswer": "To smell", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tectonic",
+    "pronunciation": "tek-TON-ik",
+    "pos": "adjective",
+    "definition": "Relating to the structure of the Earth's crust and the large-scale processes that shape it, especially the movement of tectonic plates.",
+    "origin": "From Greek <strong>tekton</strong> (builder, carpenter), via Latin tectonicus. Geologists adopted the word in the 19th century to describe the Earth's crust as if it were built from great structural pieces.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tectonic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek tekton", "b": "Builder, carpenter" },
+          { "a": "Reached English via", "b": "Latin tectonicus" },
+          { "a": "Adopted by geologists in the", "b": "19th century" },
+          { "a": "Describes the crust as if", "b": "Built from structural pieces" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tectonic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tectonic plates make up the Earth's", "b": "Crust" },
+          { "a": "Tectonic plate movement causes", "b": "Earthquakes and volcanoes" },
+          { "a": "The theory of plate tectonics explains", "b": "Continental drift" },
+          { "a": "'A tectonic shift' figuratively describes", "b": "A massive, fundamental change" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tectonic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The valley formed along a", "b": "Tectonic fault line" },
+          { "a": "Analysts called it a", "b": "Tectonic shift in the industry" },
+          { "a": "Two tectonic plates collided to raise the", "b": "Himalayas" },
+          { "a": "Seismologists monitor movement along", "b": "Tectonic boundaries" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tekton", "rootLanguage": "Greek", "rootMeaning": "Builder, carpenter", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "tekton", "highlight": true }, { "text": " (builder); the Earth's crust as a great construction of moving plates.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tekton", "correctAnswer": "Builder, carpenter", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Meteorology",
+    "pronunciation": "mee-tee-uh-ROL-uh-jee",
+    "pos": "noun",
+    "definition": "The scientific study of the atmosphere and weather processes, especially for forecasting.",
+    "origin": "From Greek <strong>meteoros</strong> (lofty, in the sky) + -logia (study of). Aristotle used the term meteorologica around 340 BC in a treatise covering weather and other atmospheric phenomena.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Meteorology</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek meteoros", "b": "Lofty, in the sky" },
+          { "a": "Greek -logia", "b": "Study of" },
+          { "a": "First used by", "b": "Aristotle" },
+          { "a": "Aristotle's treatise dated to around", "b": "340 BC" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Meteorology</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Meteorology studies", "b": "The atmosphere and weather" },
+          { "a": "A meteorologist's forecasts rely on", "b": "Satellite and radar data" },
+          { "a": "Meteorology helps predict", "b": "Storms and weather patterns" },
+          { "a": "Despite the name, meteorology is not primarily about", "b": "Meteors" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Meteorology</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She studied", "b": "Meteorology at university" },
+          { "a": "The national weather service employs teams of", "b": "Meteorology experts" },
+          { "a": "Advances in meteorology have improved", "b": "Storm warnings" },
+          { "a": "The pilot checked the latest", "b": "Meteorology reports before takeoff" }
+        ] }
+    ],
+    "roots": [ { "rootText": "meteoros", "rootLanguage": "Greek", "rootMeaning": "Lofty, in the sky", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "meteoros", "highlight": true }, { "text": " (lofty); Aristotle's ancient study of everything happening in the sky.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "meteoros", "correctAnswer": "Lofty, in the sky", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Climate",
+    "pronunciation": "KLY-mit",
+    "pos": "noun",
+    "definition": "The weather conditions typical of a region over a long period; figuratively, a prevailing set of attitudes or conditions.",
+    "origin": "From Greek <strong>klima</strong> (slope, zone), from klinein (to slope), referring to the ancient idea that a region's weather depended on the angle at which the sun's rays struck the sloping Earth.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Climate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek klima", "b": "Slope, zone" },
+          { "a": "Greek klinein", "b": "To slope" },
+          { "a": "Ancient idea: weather depended on the angle of", "b": "The sun's rays on the sloping Earth" },
+          { "a": "Greeks divided the world into climatic", "b": "Zones by latitude" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Climate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Climate describes weather patterns over", "b": "A long period" },
+          { "a": "Unlike weather, climate is measured over", "b": "Decades, not days" },
+          { "a": "'Political climate' figuratively means the prevailing", "b": "Mood or conditions" },
+          { "a": "Rising global temperatures are the focus of", "b": "Climate change" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Climate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The region has a warm, dry", "b": "Mediterranean climate" },
+          { "a": "Delegates gathered for the annual", "b": "Climate summit" },
+          { "a": "The new manager tried to improve the office's", "b": "Working climate" },
+          { "a": "Scientists warn of a shifting global", "b": "Climate" }
+        ] }
+    ],
+    "roots": [ { "rootText": "klima", "rootLanguage": "Greek", "rootMeaning": "Slope, zone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "klima", "highlight": true }, { "text": " (slope); the ancient belief that the sun's slanting rays shaped a region's weather.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "klima", "correctAnswer": "Slope, zone", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Glacier",
+    "pronunciation": "GLASS-ee-uh",
+    "pos": "noun",
+    "definition": "A slow-moving mass of ice formed by the compaction of snow over many years, found in mountains or polar regions.",
+    "origin": "From French <strong>glacier</strong>, from glace (ice), ultimately from Latin glacies (ice). The word entered English in the 18th century through accounts of Alpine ice formations.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Glacier</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French glace", "b": "Ice" },
+          { "a": "Latin glacies", "b": "Ice" },
+          { "a": "Entered English via accounts of the", "b": "Alps" },
+          { "a": "Entered English in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Glacier</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A glacier forms from the compaction of", "b": "Snow over many years" },
+          { "a": "Glaciers are found in mountains and", "b": "Polar regions" },
+          { "a": "Glaciers move", "b": "Very slowly, downhill" },
+          { "a": "Melting glaciers contribute to rising", "b": "Sea levels" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Glacier</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hikers trekked across a vast", "b": "Glacier" },
+          { "a": "Scientists measured how quickly the", "b": "Glacier was retreating" },
+          { "a": "The valley below was carved out by an ancient", "b": "Glacier" },
+          { "a": "The negotiations moved at a", "b": "Glacier's pace" }
+        ] }
+    ],
+    "roots": [ { "rootText": "glacies", "rootLanguage": "Latin", "rootMeaning": "Ice", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "glacies", "highlight": true }, { "text": " (ice), via French glacier; a river of ice moving at its own pace.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "glacies", "correctAnswer": "Ice", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Erosion",
+    "pronunciation": "i-ROH-zhuhn",
+    "pos": "noun",
+    "definition": "The gradual wearing away of rock, soil, or land by the action of wind, water, or ice.",
+    "origin": "From Latin <strong>erodere</strong> (to gnaw away), from e- (out) + rodere (to gnaw). Geologists adopted the word in the 18th century for the slow gnawing effect of natural forces on landscape.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Erosion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin erodere", "b": "To gnaw away" },
+          { "a": "Latin e-", "b": "Out" },
+          { "a": "Latin rodere", "b": "To gnaw" },
+          { "a": "Adopted by geologists in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Erosion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Erosion wears away rock and soil through", "b": "Wind, water, or ice" },
+          { "a": "Coastal erosion gradually removes", "b": "Cliffs and beaches" },
+          { "a": "Tree roots help prevent soil", "b": "Erosion" },
+          { "a": "'Erosion of trust' figuratively means its", "b": "Gradual loss" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Erosion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Decades of wind and rain caused severe", "b": "Erosion of the cliff face" },
+          { "a": "Farmers planted hedgerows to reduce soil", "b": "Erosion" },
+          { "a": "Years of scandal led to the", "b": "Erosion of public trust" },
+          { "a": "The river slowly carved the canyon through", "b": "Erosion" }
+        ] }
+    ],
+    "roots": [ { "rootText": "erodere", "rootLanguage": "Latin", "rootMeaning": "To gnaw away", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "erodere", "highlight": true }, { "text": " (to gnaw away); nature's slow, patient chewing of the land.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "erodere", "correctAnswer": "To gnaw away", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fossil",
+    "pronunciation": "FOS-uhl",
+    "pos": "noun",
+    "definition": "The preserved remains or trace of a prehistoric organism, embedded and hardened within rock.",
+    "origin": "From Latin <strong>fossilis</strong> (dug up), from fodere (to dig). The word originally described anything unearthed from the ground before narrowing, by the 18th century, to the preserved remains of ancient life.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fossil</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fossilis", "b": "Dug up" },
+          { "a": "Latin fodere", "b": "To dig" },
+          { "a": "Originally described anything", "b": "Unearthed from the ground" },
+          { "a": "Narrowed to its modern sense by the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fossil</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fossil is the preserved remains of a", "b": "Prehistoric organism" },
+          { "a": "Fossils are typically found embedded in", "b": "Rock" },
+          { "a": "Coal and oil are known as", "b": "Fossil fuels" },
+          { "a": "'An old fossil' informally describes someone very", "b": "Outdated or old-fashioned" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fossil</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The excavation team uncovered a dinosaur", "b": "Fossil" },
+          { "a": "Countries are aiming to reduce reliance on", "b": "Fossil fuels" },
+          { "a": "The museum displayed an ancient trilobite", "b": "Fossil" },
+          { "a": "He jokingly called the old typewriter a", "b": "Fossil" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fossilis", "rootLanguage": "Latin", "rootMeaning": "Dug up", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fossilis", "highlight": true }, { "text": " (dug up); once anything unearthed, now ancient life turned to stone.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fossilis", "correctAnswer": "Dug up", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Geology",
+    "pronunciation": "jee-OL-uh-jee",
+    "pos": "noun",
+    "definition": "The scientific study of the Earth's physical structure, substance, history, and the processes that shape it.",
+    "origin": "From Greek <strong>ge</strong> (earth) + -logia (study of), a term formalised in the late 18th century as the study of rocks and the Earth's history developed into its own scientific discipline.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Geology</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek ge", "b": "Earth" },
+          { "a": "Greek -logia", "b": "Study of" },
+          { "a": "Formalised as a discipline in the", "b": "Late 18th century" },
+          { "a": "Studies the Earth's", "b": "Structure and history" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Geology</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Geology studies the Earth's", "b": "Physical structure and history" },
+          { "a": "A geologist examines", "b": "Rocks and minerals" },
+          { "a": "Geology explains how mountains and canyons", "b": "Formed over time" },
+          { "a": "'The geology of an argument' figuratively refers to its", "b": "Underlying structure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Geology</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She majored in", "b": "Geology at university" },
+          { "a": "The survey mapped the region's", "b": "Geology" },
+          { "a": "The mining company hired experts in", "b": "Geology" },
+          { "a": "The canyon's layered walls revealed millions of years of", "b": "Geology" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ge", "rootLanguage": "Greek", "rootMeaning": "Earth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "ge", "highlight": true }, { "text": " (earth) + -logia (study of); reading the story written in rock.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ge", "correctAnswer": "Earth", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mineral",
+    "pronunciation": "MIN-uh-ruhl",
+    "pos": "noun",
+    "definition": "A naturally occurring, inorganic solid with a definite chemical composition and crystal structure.",
+    "origin": "From medieval Latin <strong>minerale</strong>, from minera (a mine, ore), tracing to a Celtic root associated with digging or ore-bearing rock. The word entered English via French in the 15th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mineral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Medieval Latin minera", "b": "A mine, ore" },
+          { "a": "Ultimately traces to a", "b": "Celtic root for digging" },
+          { "a": "Entered English via", "b": "French" },
+          { "a": "Entered English in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mineral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mineral is naturally occurring and", "b": "Inorganic" },
+          { "a": "Every mineral has a definite", "b": "Chemical composition and crystal structure" },
+          { "a": "The body needs dietary minerals such as", "b": "Calcium and iron" },
+          { "a": "Rocks are typically made of several different", "b": "Minerals" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mineral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The geologist identified the", "b": "Mineral as quartz" },
+          { "a": "The doctor recommended a", "b": "Mineral supplement" },
+          { "a": "They sipped bottles of sparkling", "b": "Mineral water" },
+          { "a": "The cave walls glittered with veins of", "b": "Mineral deposits" }
+        ] }
+    ],
+    "roots": [ { "rootText": "minera", "rootLanguage": "Latin", "rootMeaning": "A mine, ore", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "minera", "highlight": true }, { "text": " (a mine); a solid substance drawn from the Earth's rock.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "minera", "correctAnswer": "A mine, ore", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Crystal",
+    "pronunciation": "KRIS-tuhl",
+    "pos": "noun",
+    "definition": "A solid substance whose atoms are arranged in a highly ordered, repeating pattern, often forming flat faces and sharp edges.",
+    "origin": "From Greek <strong>krystallos</strong> (ice), from kryos (frost). The Greeks believed quartz crystal was water frozen so intensely by the gods that it could never melt again.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Crystal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek krystallos", "b": "Ice" },
+          { "a": "Greek kryos", "b": "Frost" },
+          { "a": "The Greeks believed quartz was", "b": "Water frozen permanently by the gods" },
+          { "a": "This belief explains crystal's link to", "b": "Ice and clarity" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Crystal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A crystal's atoms form a", "b": "Highly ordered, repeating pattern" },
+          { "a": "Crystals often have flat faces and", "b": "Sharp edges" },
+          { "a": "Table salt forms tiny cube-shaped", "b": "Crystals" },
+          { "a": "'Crystal clear' figuratively means", "b": "Perfectly obvious" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Crystal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Frost formed delicate", "b": "Crystal patterns on the window" },
+          { "a": "The geode was lined with purple", "b": "Amethyst crystals" },
+          { "a": "Her instructions were", "b": "Crystal clear" },
+          { "a": "The wedding gift included fine", "b": "Crystal glassware" }
+        ] }
+    ],
+    "roots": [ { "rootText": "krystallos", "rootLanguage": "Greek", "rootMeaning": "Ice", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "krystallos", "highlight": true }, { "text": " (ice); once thought to be water frozen forever by the gods.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "krystallos", "correctAnswer": "Ice", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Magma",
+    "pronunciation": "MAG-muh",
+    "pos": "noun",
+    "definition": "Molten or semi-molten rock found beneath the Earth's surface, which becomes lava when it erupts above ground.",
+    "origin": "From Greek <strong>magma</strong> (thick unguent, paste), from massein (to knead). Geologists adopted the word in the 19th century for the thick, pliable molten rock deep within the Earth.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Magma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek magma", "b": "Thick unguent, paste" },
+          { "a": "Greek massein", "b": "To knead" },
+          { "a": "Adopted by geologists in the", "b": "19th century" },
+          { "a": "Named for its", "b": "Thick, pliable texture" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Magma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Magma is found", "b": "Beneath the Earth's surface" },
+          { "a": "Magma becomes lava once it", "b": "Erupts above ground" },
+          { "a": "Magma chambers feed", "b": "Volcanoes" },
+          { "a": "Magma is", "b": "Molten or semi-molten rock" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Magma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Deep beneath the volcano, a chamber of", "b": "Magma slowly built pressure" },
+          { "a": "Seismic activity suggested rising", "b": "Magma" },
+          { "a": "Once it reached the surface, the", "b": "Magma became flowing lava" },
+          { "a": "Geologists drilled to sample the", "b": "Magma reservoir" }
+        ] }
+    ],
+    "roots": [ { "rootText": "magma", "rootLanguage": "Greek", "rootMeaning": "Thick unguent, paste", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "magma", "highlight": true }, { "text": " (thick paste); molten rock kneaded deep beneath our feet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "magma", "correctAnswer": "Thick unguent, paste", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lava",
+    "pronunciation": "LAH-vuh",
+    "pos": "noun",
+    "definition": "Molten rock that has erupted from a volcano onto the Earth's surface, or the solid rock formed when it cools.",
+    "origin": "From Italian <strong>lava</strong>, likely from Latin labes (a fall, slide), influenced by lavare (to wash), first used by Neapolitans to describe the molten flows and sudden floods that poured down Mount Vesuvius.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lava</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian lava", "b": "A flow or slide" },
+          { "a": "Likely from Latin labes", "b": "A fall, slide" },
+          { "a": "Influenced by Latin lavare", "b": "To wash" },
+          { "a": "First used by Neapolitans for flows down", "b": "Mount Vesuvius" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lava</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Lava is molten rock that has", "b": "Erupted onto the surface" },
+          { "a": "Once magma reaches the surface, it is called", "b": "Lava" },
+          { "a": "Cooled lava can form", "b": "New solid rock" },
+          { "a": "'Lava lamp' takes its name from the flowing motion of", "b": "Molten wax inside" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lava</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Glowing rivers of", "b": "Lava crept toward the village" },
+          { "a": "The children played a game of", "b": "The floor is lava" },
+          { "a": "The island itself was built from cooled", "b": "Lava flows" },
+          { "a": "Tourists watched the volcano spew", "b": "Molten lava" }
+        ] }
+    ],
+    "roots": [ { "rootText": "labes", "rootLanguage": "Latin", "rootMeaning": "A fall, slide", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "labes", "highlight": true }, { "text": " (a slide); named by Neapolitans for the flows down Vesuvius.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "labes", "correctAnswer": "A fall, slide", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Avalanche",
+    "pronunciation": "AV-uh-lansh",
+    "pos": "noun",
+    "definition": "A large mass of snow, ice, and rock that suddenly slides down a mountainside.",
+    "origin": "From French <strong>avalanche</strong>, an alteration of avaler (to descend), from a val (to the valley). Alpine communities used the word for the sudden, terrifying snow-slides that swept down their mountains.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Avalanche</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French avaler", "b": "To descend" },
+          { "a": "From a val", "b": "To the valley" },
+          { "a": "Used by communities in the", "b": "Alps" },
+          { "a": "Described sudden slides of", "b": "Snow down the mountainside" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Avalanche</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An avalanche is a mass of", "b": "Snow, ice, and rock" },
+          { "a": "Avalanches can be triggered by", "b": "Loud noises or skiers' movement" },
+          { "a": "'An avalanche of complaints' figuratively means", "b": "A sudden overwhelming number" },
+          { "a": "Ski resorts use controlled blasts to", "b": "Trigger avalanches safely" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Avalanche</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The skiers triggered a small", "b": "Avalanche" },
+          { "a": "After the announcement, the company faced an", "b": "Avalanche of criticism" },
+          { "a": "Rescue teams searched for survivors buried by the", "b": "Avalanche" },
+          { "a": "Warning signs marked the", "b": "Avalanche-prone slope" }
+        ] }
+    ],
+    "roots": [ { "rootText": "avaler", "rootLanguage": "French", "rootMeaning": "To descend", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "avaler", "highlight": true }, { "text": " (to descend); the sudden rush of snow down to the valley.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "avaler", "correctAnswer": "To descend", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Permafrost",
+    "pronunciation": "PUR-muh-frost",
+    "pos": "noun",
+    "definition": "A thick layer of soil that remains frozen throughout the year, found mostly in Arctic and sub-Arctic regions.",
+    "origin": "A blend of <strong>permanent</strong> and frost, coined in 1943 by American geologist Siemon William Muller to describe ground that never fully thaws even in summer.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Permafrost</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A blend of", "b": "Permanent and frost" },
+          { "a": "Coined in 1943 by", "b": "Siemon William Muller" },
+          { "a": "Muller was an", "b": "American geologist" },
+          { "a": "Describes ground that never fully", "b": "Thaws, even in summer" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Permafrost</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Permafrost stays frozen", "b": "Throughout the year" },
+          { "a": "Permafrost is found mostly in", "b": "Arctic and sub-Arctic regions" },
+          { "a": "Thawing permafrost can release trapped", "b": "Greenhouse gases" },
+          { "a": "Buildings on permafrost need special", "b": "Foundations" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Permafrost</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Scientists warned that thawing", "b": "Permafrost could release ancient methane" },
+          { "a": "Engineers designed pipelines to avoid disturbing the", "b": "Permafrost" },
+          { "a": "The village's roads buckled as the", "b": "Permafrost beneath them melted" },
+          { "a": "Researchers drilled deep into the", "b": "Permafrost to study ancient ice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "permanent + frost", "rootLanguage": "English blend", "rootMeaning": "Ground that never fully thaws", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "permanent + frost", "highlight": true }, { "text": "; ground that keeps its winter chill all year round.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "permanent + frost", "correctAnswer": "Ground that never fully thaws", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Biosphere",
+    "pronunciation": "BY-oh-sfeer",
+    "pos": "noun",
+    "definition": "The zone of the Earth's surface, atmosphere, and oceans occupied by living organisms.",
+    "origin": "From Greek <strong>bios</strong> (life) + sphaira (sphere), introduced in 1875 by Austrian geologist Eduard Suess to describe the thin shell of life wrapping the planet.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Biosphere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek bios", "b": "Life" },
+          { "a": "Greek sphaira", "b": "Sphere" },
+          { "a": "Introduced in 1875 by", "b": "Eduard Suess" },
+          { "a": "Suess was an", "b": "Austrian geologist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Biosphere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The biosphere is the zone occupied by", "b": "Living organisms" },
+          { "a": "The biosphere spans the surface, atmosphere, and", "b": "Oceans" },
+          { "a": "Biosphere 2 was an experimental", "b": "Sealed ecological research facility" },
+          { "a": "The biosphere is a thin shell compared to the", "b": "Whole planet" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Biosphere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The documentary explored the fragility of Earth's", "b": "Biosphere" },
+          { "a": "Deforestation threatens the health of the", "b": "Biosphere" },
+          { "a": "Researchers lived for months inside the sealed", "b": "Biosphere 2 dome" },
+          { "a": "The reserve was designated a UNESCO", "b": "Biosphere reserve" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bios", "rootLanguage": "Greek", "rootMeaning": "Life", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "bios", "highlight": true }, { "text": " (life) + sphaira (sphere); the thin, living shell wrapped around the planet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bios", "correctAnswer": "Life", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stratosphere",
+    "pronunciation": "STRAT-uh-sfeer",
+    "pos": "noun",
+    "definition": "The layer of Earth's atmosphere above the troposphere, containing the ozone layer, extending roughly ten to fifty kilometres above the surface.",
+    "origin": "From Latin <strong>stratum</strong> (layer, something spread out) + sphere, coined in 1908 by French meteorologist Léon Teisserenc de Bort after balloon flights revealed a distinct, stable upper layer of air.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stratosphere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin stratum", "b": "Layer, something spread out" },
+          { "a": "Coined in 1908 by", "b": "Léon Teisserenc de Bort" },
+          { "a": "Discovered through", "b": "Balloon flights" },
+          { "a": "Named for its distinct, stable", "b": "Upper layer of air" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stratosphere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The stratosphere sits above the", "b": "Troposphere" },
+          { "a": "The stratosphere contains the", "b": "Ozone layer" },
+          { "a": "'Prices went into the stratosphere' figuratively means they became", "b": "Extremely high" },
+          { "a": "Commercial jets cruise near the edge of the", "b": "Stratosphere" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stratosphere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The skydiver leapt from the edge of the", "b": "Stratosphere" },
+          { "a": "Ticket prices for the final soared into the", "b": "Stratosphere" },
+          { "a": "The weather balloon drifted up into the", "b": "Stratosphere" },
+          { "a": "Researchers study how pollution affects the", "b": "Stratosphere" }
+        ] }
+    ],
+    "roots": [ { "rootText": "stratum", "rootLanguage": "Latin", "rootMeaning": "Layer, something spread out", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "stratum", "highlight": true }, { "text": " (layer); a calm, stable layer discovered high above the clouds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "stratum", "correctAnswer": "Layer, something spread out", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sediment",
+    "pronunciation": "SED-i-muhnt",
+    "pos": "noun",
+    "definition": "Solid material such as sand, silt, or clay that settles at the bottom of a liquid, often carried and deposited by water, wind, or ice.",
+    "origin": "From Latin <strong>sedimentum</strong> (a settling), from sedere (to sit, settle). The word was adopted into English geology in the 17th century for material that settles out of water.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sediment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sedimentum", "b": "A settling" },
+          { "a": "Latin sedere", "b": "To sit, settle" },
+          { "a": "Adopted into English geology in the", "b": "17th century" },
+          { "a": "Describes material that", "b": "Settles out of water" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sediment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sediment can be made of", "b": "Sand, silt, or clay" },
+          { "a": "Sediment is often carried by", "b": "Water, wind, or ice" },
+          { "a": "Layers of sediment compress over time into", "b": "Sedimentary rock" },
+          { "a": "Wine left in the bottle can develop a", "b": "Sediment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sediment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The river deposited a fresh layer of", "b": "Sediment on the floodplain" },
+          { "a": "Divers noted a cloud of stirred-up", "b": "Sediment" },
+          { "a": "The old bottle of port had left a", "b": "Gritty sediment" },
+          { "a": "Geologists studied ancient", "b": "Sediment layers in the cliff" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sedere", "rootLanguage": "Latin", "rootMeaning": "To sit, settle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sedere", "highlight": true }, { "text": " (to sit, settle); particles slowly settling to the bottom.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sedere", "correctAnswer": "To sit, settle", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Humidity",
+    "pronunciation": "hyoo-MID-i-tee",
+    "pos": "noun",
+    "definition": "The amount of water vapour present in the air.",
+    "origin": "From Latin <strong>humidus</strong> (moist, wet), from humere (to be moist). The word entered English in the 15th century, long before it became a standard meteorological measurement.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Humidity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin humidus", "b": "Moist, wet" },
+          { "a": "Latin humere", "b": "To be moist" },
+          { "a": "Entered English in the", "b": "15th century" },
+          { "a": "Became a standard meteorological term much", "b": "Later" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Humidity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Humidity measures the amount of", "b": "Water vapour in the air" },
+          { "a": "High humidity can make heat feel", "b": "More oppressive" },
+          { "a": "Relative humidity compares vapour present to", "b": "The maximum air can hold" },
+          { "a": "Dehumidifiers are used to", "b": "Reduce indoor humidity" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Humidity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The forecast warned of high", "b": "Humidity and heat" },
+          { "a": "Her hair frizzed instantly in the", "b": "Tropical humidity" },
+          { "a": "The greenhouse maintained careful control of", "b": "Temperature and humidity" },
+          { "a": "The museum's archives were kept at low", "b": "Humidity to protect the documents" }
+        ] }
+    ],
+    "roots": [ { "rootText": "humidus", "rootLanguage": "Latin", "rootMeaning": "Moist, wet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "humidus", "highlight": true }, { "text": " (moist); the invisible dampness carried in the air itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "humidus", "correctAnswer": "Moist, wet", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Drought",
+    "pronunciation": "drowt",
+    "pos": "noun",
+    "definition": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+    "origin": "From Old English <strong>drugath</strong>, related to dryge (dry), a native Germanic word that has described dry spells in English since before the Norman Conquest.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Drought</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English drugath", "b": "Dryness" },
+          { "a": "Related to Old English dryge, meaning", "b": "Dry" },
+          { "a": "Drought is a", "b": "Native Germanic word" },
+          { "a": "In use since before the", "b": "Norman Conquest" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Drought</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A drought is a prolonged period of", "b": "Abnormally low rainfall" },
+          { "a": "Droughts can lead to", "b": "Crop failure and water shortages" },
+          { "a": "Reservoirs run low during a", "b": "Drought" },
+          { "a": "'A drought of good news' figuratively means a long", "b": "Absence of it" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Drought</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The region declared a state of", "b": "Emergency due to the drought" },
+          { "a": "Farmers watched their crops wither during the", "b": "Drought" },
+          { "a": "After a long scoring drought, the striker finally", "b": "Found the net" },
+          { "a": "Reservoir levels fell sharply during the", "b": "Summer drought" }
+        ] }
+    ],
+    "roots": [ { "rootText": "drugath", "rootLanguage": "Old English", "rootMeaning": "Dryness", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "drugath", "highlight": true }, { "text": " (dryness); a plainly Germanic word for a spell with no rain.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "drugath", "correctAnswer": "Dryness", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Monsoon",
+    "pronunciation": "mon-SOON",
+    "pos": "noun",
+    "definition": "A seasonal wind system, especially in South Asia, that brings heavy rainfall in summer.",
+    "origin": "From Arabic <strong>mawsim</strong> (season), via Portuguese monção. Arab sailors used the term for the seasonal winds that dictated the timing of their trading voyages across the Indian Ocean.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Monsoon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic mawsim", "b": "Season" },
+          { "a": "Reached English via", "b": "Portuguese monção" },
+          { "a": "Used by Arab sailors to time", "b": "Trading voyages" },
+          { "a": "Voyages crossed the", "b": "Indian Ocean" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Monsoon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A monsoon is a seasonal", "b": "Wind system" },
+          { "a": "The monsoon brings heavy rainfall to", "b": "South Asia in summer" },
+          { "a": "Monsoon winds reverse direction with the", "b": "Seasons" },
+          { "a": "Farmers in the region depend on the", "b": "Monsoon for irrigation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Monsoon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Villagers eagerly awaited the arrival of the", "b": "Monsoon" },
+          { "a": "Streets flooded within hours of the", "b": "Monsoon rains" },
+          { "a": "Farmers plan the planting season around the", "b": "Monsoon" },
+          { "a": "Tourists avoided travelling during", "b": "Monsoon season" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mawsim", "rootLanguage": "Arabic", "rootMeaning": "Season", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "mawsim", "highlight": true }, { "text": " (season); the wind that told sailors exactly when to set sail.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mawsim", "correctAnswer": "Season", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cyclone",
+    "pronunciation": "SY-klohn",
+    "pos": "noun",
+    "definition": "A large-scale system of winds rotating around a centre of low atmospheric pressure, often bringing violent storms.",
+    "origin": "Coined in 1848 by British meteorologist Henry Piddington from Greek <strong>kyklon</strong> (moving in a circle), the present participle of kykloun, to describe the circular motion of the storms he studied in the Indian Ocean.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cyclone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kyklon", "b": "Moving in a circle" },
+          { "a": "Coined in 1848 by", "b": "Henry Piddington" },
+          { "a": "Piddington studied storms in the", "b": "Indian Ocean" },
+          { "a": "Named for the storms'", "b": "Circular motion" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cyclone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cyclone rotates around a centre of", "b": "Low atmospheric pressure" },
+          { "a": "In the Atlantic, a cyclone is usually called a", "b": "Hurricane" },
+          { "a": "In the Pacific, the same storm is called a", "b": "Typhoon" },
+          { "a": "Cyclones can bring", "b": "Violent winds and flooding" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cyclone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Coastal towns braced for the incoming", "b": "Cyclone" },
+          { "a": "Satellite images showed the", "b": "Cyclone's swirling eye" },
+          { "a": "Emergency crews evacuated residents ahead of the", "b": "Cyclone" },
+          { "a": "The vacuum cleaner used a", "b": "Cyclone-style spinning filter" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kyklon", "rootLanguage": "Greek", "rootMeaning": "Moving in a circle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kyklon", "highlight": true }, { "text": " (moving in a circle); named for the storm's spinning shape.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kyklon", "correctAnswer": "Moving in a circle", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tornado",
+    "pronunciation": "tor-NAY-doh",
+    "pos": "noun",
+    "definition": "A violently rotating column of air extending from a thunderstorm to the ground, capable of extreme destruction.",
+    "origin": "From Spanish <strong>tronada</strong> (thunderstorm), from tronar (to thunder), later reshaped in English under the influence of Spanish tornar (to turn), reflecting the storm's spinning motion.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tornado</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish tronada", "b": "Thunderstorm" },
+          { "a": "Spanish tronar", "b": "To thunder" },
+          { "a": "Later reshaped by Spanish tornar, meaning", "b": "To turn" },
+          { "a": "The reshaping reflects the storm's", "b": "Spinning motion" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tornado</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tornado is a rotating column of", "b": "Air" },
+          { "a": "A tornado extends from a thunderstorm down to the", "b": "Ground" },
+          { "a": "Tornado Alley is a region of the", "b": "United States prone to twisters" },
+          { "a": "'She's a tornado' figuratively describes someone", "b": "Wildly energetic and chaotic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tornado</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sirens wailed to warn of an approaching", "b": "Tornado" },
+          { "a": "The storm chaser filmed the", "b": "Tornado from a safe distance" },
+          { "a": "The town's shelters filled quickly during the", "b": "Tornado warning" },
+          { "a": "She burst through the door like a", "b": "Tornado" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tronada", "rootLanguage": "Spanish", "rootMeaning": "Thunderstorm", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "tronada", "highlight": true }, { "text": " (thunderstorm); reshaped by \"tornar\" (to turn) for its violent spin.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tronada", "correctAnswer": "Thunderstorm", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Earthquake",
+    "pronunciation": "URTH-kwayk",
+    "pos": "noun",
+    "definition": "A sudden violent shaking of the ground, caused by movement within the Earth's crust.",
+    "origin": "A native English compound of <strong>earth</strong> + quake, from Old English cwacian (to shake, tremble), in use since the medieval period to describe the ground's sudden trembling.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Earthquake</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of earth and", "b": "Quake" },
+          { "a": "Old English cwacian", "b": "To shake, tremble" },
+          { "a": "In use since the", "b": "Medieval period" },
+          { "a": "A native", "b": "English compound word" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Earthquake</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An earthquake is caused by movement within the", "b": "Earth's crust" },
+          { "a": "Earthquake strength is measured on the", "b": "Richter or moment magnitude scale" },
+          { "a": "The point underground where an earthquake starts is the", "b": "Focus" },
+          { "a": "'A political earthquake' figuratively describes a", "b": "Massive, shocking upheaval" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Earthquake</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city was devastated by a powerful", "b": "Earthquake" },
+          { "a": "Engineers designed the tower to withstand an", "b": "Earthquake" },
+          { "a": "The election result was described as a political", "b": "Earthquake" },
+          { "a": "Rescue teams rushed to the site of the", "b": "Earthquake" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cwacian", "rootLanguage": "Old English", "rootMeaning": "To shake, tremble", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "cwacian", "highlight": true }, { "text": " (to shake); a plain compound naming exactly what happens.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cwacian", "correctAnswer": "To shake, tremble", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Barometric",
+    "pronunciation": "ba-ruh-MET-rik",
+    "pos": "adjective",
+    "definition": "Relating to atmospheric pressure, as measured by a barometer.",
+    "origin": "From Greek <strong>baros</strong> (weight) + metron (measure), coined after Italian physicist Evangelista Torricelli invented the barometer in 1643 to measure the weight, or pressure, of the air.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Barometric</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek baros", "b": "Weight" },
+          { "a": "Greek metron", "b": "Measure" },
+          { "a": "The barometer was invented in 1643 by", "b": "Evangelista Torricelli" },
+          { "a": "Torricelli set out to measure the", "b": "Weight of the air" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Barometric</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Barometric pressure describes the weight of the", "b": "Atmosphere" },
+          { "a": "Falling barometric pressure often signals", "b": "Approaching bad weather" },
+          { "a": "A barometer measures", "b": "Atmospheric pressure" },
+          { "a": "Hurricanes are ranked partly by their central", "b": "Barometric pressure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Barometric</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The forecaster noted a sharp drop in", "b": "Barometric pressure" },
+          { "a": "The old sailor could predict storms from the", "b": "Barometric reading" },
+          { "a": "The hiking watch included a", "b": "Barometric altimeter" },
+          { "a": "Meteorologists tracked the storm's falling", "b": "Barometric pressure" }
+        ] }
+    ],
+    "roots": [ { "rootText": "baros", "rootLanguage": "Greek", "rootMeaning": "Weight", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "baros", "highlight": true }, { "text": " (weight) + metron (measure); literally, measuring the weight of the sky.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "baros", "correctAnswer": "Weight", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Seismic",
+    "pronunciation": "SYZE-mik",
+    "pos": "adjective",
+    "definition": "Relating to earthquakes or other vibrations of the Earth.",
+    "origin": "From Greek <strong>seismos</strong> (earthquake, shaking), from seiein (to shake). The word entered scientific English in the mid-19th century as the study of earthquakes formalised into seismology.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Seismic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek seismos", "b": "Earthquake, shaking" },
+          { "a": "Greek seiein", "b": "To shake" },
+          { "a": "Entered scientific English in the", "b": "Mid-19th century" },
+          { "a": "Coincided with the rise of", "b": "Seismology" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Seismic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Seismic activity refers to", "b": "Earthquake-related vibrations" },
+          { "a": "A seismograph records", "b": "Seismic waves" },
+          { "a": "'A seismic shift' figuratively describes a", "b": "Massive, transformative change" },
+          { "a": "Geologists use seismic surveys to search for", "b": "Oil and gas deposits" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Seismic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The building was reinforced to withstand", "b": "Seismic activity" },
+          { "a": "Analysts called the merger a", "b": "Seismic shift for the industry" },
+          { "a": "Sensors recorded a small", "b": "Seismic tremor overnight" },
+          { "a": "Oil companies conducted a", "b": "Seismic survey of the seabed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "seismos", "rootLanguage": "Greek", "rootMeaning": "Earthquake, shaking", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "seismos", "highlight": true }, { "text": " (shaking); the root behind every seismograph and seismic shift.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "seismos", "correctAnswer": "Earthquake, shaking", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tremor",
+    "pronunciation": "TREM-uh",
+    "pos": "noun",
+    "definition": "A slight shaking or vibration, especially a small earthquake, or an involuntary trembling of the body.",
+    "origin": "From Latin <strong>tremor</strong> (a shaking, trembling), from tremere (to tremble). The word entered English in the 14th century for bodily shaking before also being applied to the ground.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tremor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin tremor", "b": "A shaking, trembling" },
+          { "a": "Latin tremere", "b": "To tremble" },
+          { "a": "Entered English in the", "b": "14th century" },
+          { "a": "Originally applied to", "b": "Bodily shaking" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tremor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tremor can describe a small", "b": "Earthquake" },
+          { "a": "A tremor can also describe an involuntary shaking of the", "b": "Body" },
+          { "a": "Parkinson's disease often causes a hand", "b": "Tremor" },
+          { "a": "'A tremor of doubt' figuratively means a slight", "b": "Flicker of uncertainty" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tremor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A minor", "b": "Tremor rattled the windows overnight" },
+          { "a": "The old man's hand had a slight", "b": "Tremor" },
+          { "a": "A faint tremor of doubt crossed her", "b": "Face" },
+          { "a": "Seismologists recorded several small", "b": "Tremors before the main quake" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tremere", "rootLanguage": "Latin", "rootMeaning": "To tremble", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tremere", "highlight": true }, { "text": " (to tremble); a small shake, whether in the ground or the hand.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tremere", "correctAnswer": "To tremble", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Geothermal",
+    "pronunciation": "jee-oh-THUR-muhl",
+    "pos": "adjective",
+    "definition": "Relating to the heat within the Earth, especially as a source of energy.",
+    "origin": "From Greek <strong>ge</strong> (earth) + therme (heat), a term that came into use in the late 19th and early 20th centuries as engineers began harnessing underground heat for power.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Geothermal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek ge", "b": "Earth" },
+          { "a": "Greek therme", "b": "Heat" },
+          { "a": "Came into use as engineers began harnessing", "b": "Underground heat for power" },
+          { "a": "This happened in the", "b": "Late 19th and early 20th centuries" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Geothermal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Geothermal energy is harnessed from", "b": "Heat within the Earth" },
+          { "a": "Iceland relies heavily on", "b": "Geothermal power" },
+          { "a": "Geothermal heat comes from radioactive decay and", "b": "The Earth's molten core" },
+          { "a": "A geothermal spa uses naturally heated", "b": "Water" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Geothermal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The island generates most of its power from", "b": "Geothermal plants" },
+          { "a": "Tourists soaked in the naturally warm", "b": "Geothermal pools" },
+          { "a": "Engineers drilled deep to tap into", "b": "Geothermal heat" },
+          { "a": "The new housing estate installed", "b": "Geothermal heating" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ge therme", "rootLanguage": "Greek", "rootMeaning": "Earth heat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "ge therme", "highlight": true }, { "text": " (earth heat); tapping the planet's own inner warmth.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ge therme", "correctAnswer": "Earth heat", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Topography",
+    "pronunciation": "tuh-POG-ruh-fee",
+    "pos": "noun",
+    "definition": "The detailed physical features of an area of land, including its shape, elevation, and natural formations.",
+    "origin": "From Greek <strong>topos</strong> (place) + graphein (to write, describe), a term used since the 16th century for the detailed written or mapped description of a place's surface features.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Topography</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek topos", "b": "Place" },
+          { "a": "Greek graphein", "b": "To write, describe" },
+          { "a": "In use since the", "b": "16th century" },
+          { "a": "Originally described a", "b": "Written account of a place" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Topography</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Topography describes an area's", "b": "Physical features and elevation" },
+          { "a": "A topographic map shows", "b": "Contour lines of elevation" },
+          { "a": "Mountainous topography makes roads", "b": "Difficult to build" },
+          { "a": "'The topography of an argument' figuratively describes its", "b": "Overall shape and structure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Topography</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hikers studied the region's rugged", "b": "Topography" },
+          { "a": "The surveyor mapped the site's", "b": "Topography before construction began" },
+          { "a": "The drone captured detailed images of the", "b": "Coastal topography" },
+          { "a": "The battle plan accounted for the area's", "b": "Difficult topography" }
+        ] }
+    ],
+    "roots": [ { "rootText": "topos graphein", "rootLanguage": "Greek", "rootMeaning": "Place-writing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "topos graphein", "highlight": true }, { "text": " (\"place-writing\"); mapping the exact shape of the land.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "topos graphein", "correctAnswer": "Place-writing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Latitude",
+    "pronunciation": "LAT-i-tyood",
+    "pos": "noun",
+    "definition": "The angular distance of a place north or south of the Earth's equator, measured in degrees; figuratively, freedom to act within limits.",
+    "origin": "From Latin <strong>latitudo</strong> (breadth, width), from latus (broad). The word was applied to geography from the medieval idea of measuring the Earth's \"breadth\" north and south of the equator.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-earth", "name": "Earth & Atmosphere", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Latitude</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin latitudo", "b": "Breadth, width" },
+          { "a": "Latin latus", "b": "Broad" },
+          { "a": "Applied to geography to measure the Earth's", "b": "Breadth north and south of the equator" },
+          { "a": "This usage dates to the", "b": "Medieval period" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Latitude</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Latitude measures distance", "b": "North or south of the equator" },
+          { "a": "Latitude is measured in", "b": "Degrees" },
+          { "a": "'Give me some latitude' figuratively means give me", "b": "Freedom to act" },
+          { "a": "Latitude is combined with longitude to", "b": "Pinpoint any location" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Latitude</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ship's captain checked their exact", "b": "Latitude and longitude" },
+          { "a": "The manager gave her considerable", "b": "Latitude to make decisions" },
+          { "a": "The plant thrives at low", "b": "Latitudes near the equator" },
+          { "a": "The navigator plotted a course by", "b": "Latitude" }
+        ] }
+    ],
+    "roots": [ { "rootText": "latitudo", "rootLanguage": "Latin", "rootMeaning": "Breadth, width", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "latitudo", "highlight": true }, { "text": " (breadth); the Earth's north-south \"width\" measured in degrees.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "latitudo", "correctAnswer": "Breadth, width", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

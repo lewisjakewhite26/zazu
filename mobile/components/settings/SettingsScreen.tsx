@@ -15,6 +15,8 @@ import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAuth } from '@/context/AuthContext';
 import { useSubscription } from '@/context/SubscriptionContext';
 import { useTheme, type AppThemeColors, type ThemeOverride } from '@/context/ThemeContext';
+import { useSnooze, SNOOZE_MIN_MINUTES, SNOOZE_MAX_MINUTES } from '@/hooks/useSnooze';
+import { SnoozeDurationSlider } from '@/components/settings/SnoozeDurationSlider';
 
 const THEME_OPTIONS: { value: ThemeOverride; label: string }[] = [
   { value: 'auto', label: 'Auto (Dawn/Dusk)' },
@@ -60,7 +62,7 @@ function SettingsRow({ label, hint, value, valueTone = 'neutral', onPress, showC
         },
         hint: {
           fontFamily: fonts.sans,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.subtext,
         },
         right: {
@@ -109,6 +111,7 @@ export function SettingsScreen() {
   const { colors, override, setOverride } = useTheme();
   const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy } = useAuth();
   const { isGold, grantDevGold } = useSubscription();
+  const { snoozeMinutes, setSnoozeMinutes } = useSnooze();
   const [themePickerOpen, setThemePickerOpen] = useState(false);
 
   const themeValueLabel = THEME_OPTIONS.find((option) => option.value === override)?.label ?? '';
@@ -160,8 +163,8 @@ export function SettingsScreen() {
         },
         cardSub: {
           fontFamily: fonts.sans,
-          fontSize: 13,
-          lineHeight: 19,
+          fontSize: 15,
+          lineHeight: 21,
           color: colors.subtext,
         },
         divider: {
@@ -195,7 +198,7 @@ export function SettingsScreen() {
         },
         hint: {
           fontFamily: fonts.sans,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.subtext,
         },
         valueText: {
@@ -222,6 +225,16 @@ export function SettingsScreen() {
         optionLabelActive: {
           fontFamily: fonts.sansSemiBold,
           color: colors.gold,
+        },
+        snoozeLabelRow: {
+          paddingHorizontal: spacing.lg,
+          paddingTop: 12,
+          gap: 2,
+        },
+        snoozeSliderRow: {
+          paddingHorizontal: spacing.lg,
+          paddingTop: 6,
+          paddingBottom: 12,
         },
       }),
     [colors],
@@ -308,6 +321,21 @@ export function SettingsScreen() {
                       );
                     })
                   : null}
+
+                <Divider style={styles.divider} />
+
+                <View style={styles.snoozeLabelRow}>
+                  <Text style={styles.label}>Snooze duration</Text>
+                  <Text style={styles.hint}>How long "Hold to snooze" defers the alarm by.</Text>
+                </View>
+                <View style={styles.snoozeSliderRow}>
+                  <SnoozeDurationSlider
+                    value={snoozeMinutes}
+                    min={SNOOZE_MIN_MINUTES}
+                    max={SNOOZE_MAX_MINUTES}
+                    onChange={(next) => void setSnoozeMinutes(next)}
+                  />
+                </View>
               </GlassCard>
             </View>
 

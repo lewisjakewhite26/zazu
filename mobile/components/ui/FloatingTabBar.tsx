@@ -1,11 +1,12 @@
-import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Animated, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { BarbellIcon, BookOpenIcon, HouseIcon, type IconProps } from 'phosphor-react-native';
 import type { BottomTabBarProps } from 'expo-router/build/react-navigation/bottom-tabs';
 import type { ComponentType } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { cardBlurIntensity } from '@/constants/theme';
+import { cardBlurIntensity, colors as staticColors } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
 
 const TAB_ICONS: Record<string, ComponentType<IconProps>> = {
@@ -22,10 +23,25 @@ export function floatingTabBarClearance(bottomInset: number): number {
 }
 
 /** index.html .app-tab-bar — centred floating pill with blush active state */
+const PILL_PADDING = 4;
+
 export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
   const insets = useSafeAreaInsets();
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
+
+  const [pillWidth, setPillWidth] = useState(0);
+  const tabWidth = pillWidth > 0 ? (pillWidth - PILL_PADDING * 2) / state.routes.length : 0;
+  const indicatorX = useRef(new Animated.Value(state.index)).current;
+
+  useEffect(() => {
+    Animated.spring(indicatorX, {
+      toValue: state.index,
+      useNativeDriver: true,
+      friction: 9,
+      tension: 60,
+    }).start();
+  }, [indicatorX, state.index]);
 
   return (
     <View
@@ -33,6 +49,7 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
       pointerEvents="box-none"
     >
       <View
+        onLayout={(event) => setPillWidth(event.nativeEvent.layout.width)}
         style={[
           styles.pill,
           {
@@ -49,6 +66,27 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
           />
         ) : null}
         <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.card }]} />
+
+        {tabWidth > 0 ? (
+          <Animated.View
+            pointerEvents="none"
+            style={[
+              styles.indicator,
+              {
+                width: tabWidth,
+                backgroundColor: isNight ? colors.wakeButtonBgNight : colors.ink,
+                transform: [
+                  {
+                    translateX: indicatorX.interpolate({
+                      inputRange: [0, Math.max(1, state.routes.length - 1)],
+                      outputRange: [0, tabWidth * Math.max(1, state.routes.length - 1)],
+                    }),
+                  },
+                ],
+              },
+            ]}
+          />
+        ) : null}
 
         {state.routes.map((route, index) => {
           const { options } = descriptors[route.key];
@@ -73,12 +111,7 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
             <Pressable
               key={route.key}
               onPress={onPress}
-              style={[
-                styles.tab,
-                isFocused && {
-                  backgroundColor: isNight ? colors.wakeButtonBgNight : colors.ink,
-                },
-              ]}
+              style={styles.tab}
               accessibilityRole="tab"
               accessibilityState={isFocused ? { selected: true } : {}}
             >
@@ -123,10 +156,17 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     overflow: 'hidden',
     padding: 4,
-    shadowColor: '#1a1225',
+    shadowColor: staticColors.ink,
     shadowOffset: { width: 0, height: 4 },
     shadowRadius: 14,
     elevation: 8,
+  },
+  indicator: {
+    position: 'absolute',
+    top: 4,
+    bottom: 4,
+    left: 4,
+    borderRadius: 100,
   },
   tab: {
     flex: 1,

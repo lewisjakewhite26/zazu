@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Bazaar",
+    "pronunciation": "buh-ZAR",
+    "pos": "noun",
+    "definition": "A market, especially one selling a variety of goods in the Middle East or South Asia.",
+    "origin": "From Persian <strong>bāzār</strong>, meaning market. The word spread through trade routes into Arabic, Turkish, and eventually European languages via centuries of commerce along the Silk Road.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bazaar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian bāzār",
+            "b": "Market"
+          },
+          {
+            "a": "Spread via",
+            "b": "Silk Road trade routes"
+          },
+          {
+            "a": "Adopted into",
+            "b": "Arabic and Turkish"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bazaar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bazaar is",
+            "b": "A market selling varied goods"
+          },
+          {
+            "a": "A charity bazaar is",
+            "b": "A fundraising sale of donated items"
+          },
+          {
+            "a": "Bazaars are traditionally",
+            "b": "Covered and densely packed with stalls"
+          },
+          {
+            "a": "The Grand Bazaar is famous in",
+            "b": "Istanbul"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bazaar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They haggled over prices in",
+            "b": "The crowded bazaar"
+          },
+          {
+            "a": "Spices and silks filled",
+            "b": "The old bazaar"
+          },
+          {
+            "a": "The school held a",
+            "b": "Christmas bazaar for charity"
+          },
+          {
+            "a": "Merchants called out from",
+            "b": "Their bazaar stalls"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bāzār",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Market",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Persian ",
+          "highlight": false
+        },
+        {
+          "text": "bāzār",
+          "highlight": true
+        },
+        {
+          "text": " (market); spread along Silk Road trade routes into Arabic, Turkish, and Europe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bāzār",
+      "correctAnswer": "Market",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kiosk",
+    "pronunciation": "KEE-osk",
+    "pos": "noun",
+    "definition": "A small booth or stall used to sell goods or provide information.",
+    "origin": "From Turkish <strong>köşk</strong>, meaning pavilion, from Persian <strong>kūshk</strong> (palace, pavilion). It named an ornamental open pavilion in gardens before shrinking to a small commercial stall.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kiosk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian kūshk",
+            "b": "Palace, pavilion"
+          },
+          {
+            "a": "Turkish köşk",
+            "b": "Pavilion"
+          },
+          {
+            "a": "Original use",
+            "b": "An ornamental garden pavilion"
+          },
+          {
+            "a": "Modern use",
+            "b": "A small commercial stall"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kiosk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A kiosk is",
+            "b": "A small stall or booth"
+          },
+          {
+            "a": "Kiosks commonly sell",
+            "b": "Newspapers, snacks, or tickets"
+          },
+          {
+            "a": "A self-service kiosk lets customers",
+            "b": "Order without staff assistance"
+          },
+          {
+            "a": "The word originally described",
+            "b": "An ornamental garden pavilion"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kiosk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She bought a magazine at",
+            "b": "The station kiosk"
+          },
+          {
+            "a": "The airport added self-check-in",
+            "b": "Kiosks"
+          },
+          {
+            "a": "A small",
+            "b": "Kiosk sold ice cream by the beach"
+          },
+          {
+            "a": "He grabbed coffee from",
+            "b": "A street kiosk"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kūshk",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Palace, pavilion",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Turkish köşk, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "kūshk",
+          "highlight": true
+        },
+        {
+          "text": "; named a garden pavilion before shrinking to a small stall.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kūshk",
+      "correctAnswer": "Palace, pavilion",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Turban",
+    "pronunciation": "TUR-bun",
+    "pos": "noun",
+    "definition": "A head covering formed by winding a long cloth around the head.",
+    "origin": "From Persian <strong>dulband</strong>, via Turkish <strong>tülbent</strong>, entering English through French and Italian. Worn across the Middle East and South Asia for both religious and practical reasons.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Turban</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian dulband",
+            "b": "Turban cloth"
+          },
+          {
+            "a": "Turkish tülbent",
+            "b": "Turban"
+          },
+          {
+            "a": "Entered English via",
+            "b": "French and Italian"
+          },
+          {
+            "a": "Worn across",
+            "b": "The Middle East and South Asia"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Turban</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A turban is",
+            "b": "A head covering of wound cloth"
+          },
+          {
+            "a": "Turbans are worn for",
+            "b": "Religious, cultural, or practical reasons"
+          },
+          {
+            "a": "Sikh turbans are known as",
+            "b": "Dastar"
+          },
+          {
+            "a": "A turban differs across cultures in",
+            "b": "Style and significance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Turban</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He carefully wound",
+            "b": "His turban each morning"
+          },
+          {
+            "a": "The elder wore a bright saffron",
+            "b": "Turban"
+          },
+          {
+            "a": "The painting depicted a sultan in",
+            "b": "An ornate turban"
+          },
+          {
+            "a": "Her turban was decorated with",
+            "b": "A small jewelled pin"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "dulband",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Turban cloth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Persian ",
+          "highlight": false
+        },
+        {
+          "text": "dulband",
+          "highlight": true
+        },
+        {
+          "text": ", via Turkish tülbent; worn across the Middle East and South Asia.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dulband",
+      "correctAnswer": "Turban cloth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Check",
+    "pronunciation": "CHEK",
+    "pos": "noun",
+    "definition": "A move in chess that threatens the opposing king, or an examination to verify something.",
+    "origin": "From Old French <strong>eschec</strong>, from Persian <strong>shāh</strong> (king), the call made in chess when the king is attacked. The many modern senses of \"check\" all trace back to this warning cry.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Check</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian shāh",
+            "b": "King"
+          },
+          {
+            "a": "Old French eschec",
+            "b": "Check (chess warning)"
+          },
+          {
+            "a": "Chess sense",
+            "b": "Threatening the king"
+          },
+          {
+            "a": "Modern senses derive from",
+            "b": "The idea of stopping or verifying"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Check</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "In chess, check means",
+            "b": "The king is under direct threat"
+          },
+          {
+            "a": "To check something means to",
+            "b": "Verify or examine it"
+          },
+          {
+            "a": "Checkmate comes from",
+            "b": "Persian \"shāh māt,\" the king is helpless"
+          },
+          {
+            "a": "A checked pattern refers to",
+            "b": "A grid of alternating squares"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Check</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The grandmaster called",
+            "b": "Check after just twelve moves"
+          },
+          {
+            "a": "She asked him to",
+            "b": "Check the figures again"
+          },
+          {
+            "a": "Security carried out a routine",
+            "b": "Check of the building"
+          },
+          {
+            "a": "He wore a",
+            "b": "Blue-and-white checked shirt"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "shāh",
+        "rootLanguage": "Persian",
+        "rootMeaning": "King",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French eschec, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "shāh",
+          "highlight": true
+        },
+        {
+          "text": " (king); the chess warning cry behind the word's many modern senses.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "shāh",
+      "correctAnswer": "King",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lemon",
+    "pronunciation": "LEM-un",
+    "pos": "noun",
+    "definition": "A yellow citrus fruit with sour juice.",
+    "origin": "From Old French <strong>limon</strong>, from Arabic <strong>laymūn</strong>, from Persian <strong>līmūn</strong>. Citrus fruit and word alike travelled west along medieval trade routes into Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lemon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic laymūn",
+            "b": "Lemon, citrus fruit"
+          },
+          {
+            "a": "Persian līmūn",
+            "b": "Lemon"
+          },
+          {
+            "a": "Old French limon",
+            "b": "Lemon"
+          },
+          {
+            "a": "Travelled via",
+            "b": "Medieval trade routes into Europe"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lemon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A lemon is",
+            "b": "A sour yellow citrus fruit"
+          },
+          {
+            "a": "Slang, a \"lemon\" describes",
+            "b": "A faulty product, especially a car"
+          },
+          {
+            "a": "Lemon zest is used to",
+            "b": "Add flavour in cooking"
+          },
+          {
+            "a": "\"When life gives you lemons\" means",
+            "b": "Make the best of a bad situation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lemon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She squeezed fresh",
+            "b": "Lemon into her tea"
+          },
+          {
+            "a": "The car turned out to be",
+            "b": "A total lemon"
+          },
+          {
+            "a": "The recipe called for",
+            "b": "Lemon zest and juice"
+          },
+          {
+            "a": "He grew a",
+            "b": "Lemon tree on the balcony"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "laymūn",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Lemon, citrus fruit",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French limon, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "laymūn",
+          "highlight": true
+        },
+        {
+          "text": ", from Persian līmūn; fruit and word travelled west along medieval trade routes.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "laymūn",
+      "correctAnswer": "Lemon, citrus fruit",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Caravan",
+    "pronunciation": "KA-ruh-van",
+    "pos": "noun",
+    "definition": "A group of travellers journeying together, or a vehicle equipped for living in.",
+    "origin": "From Persian <strong>kārwān</strong>, meaning a group of desert travellers. Merchants crossing the Silk Road journeyed in caravans for safety, resting at caravanserais along the way.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Caravan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian kārwān",
+            "b": "Group of travellers"
+          },
+          {
+            "a": "Travelled for",
+            "b": "Safety in numbers"
+          },
+          {
+            "a": "Rested at",
+            "b": "Caravanserais along trade routes"
+          },
+          {
+            "a": "Entered English",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Caravan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A caravan is",
+            "b": "A group travelling together"
+          },
+          {
+            "a": "In British English, a caravan is also",
+            "b": "A towable living vehicle"
+          },
+          {
+            "a": "A caravanserai was",
+            "b": "A roadside inn for travelling merchants"
+          },
+          {
+            "a": "Caravans historically crossed",
+            "b": "Deserts and trade routes"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Caravan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The merchants' camel",
+            "b": "Caravan crossed the desert"
+          },
+          {
+            "a": "They towed a",
+            "b": "Caravan to the coast for the holiday"
+          },
+          {
+            "a": "The refugee caravan travelled for",
+            "b": "Weeks on foot"
+          },
+          {
+            "a": "Traders rested overnight at",
+            "b": "The caravanserai"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kārwān",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Group of travellers",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Persian ",
+          "highlight": false
+        },
+        {
+          "text": "kārwān",
+          "highlight": true
+        },
+        {
+          "text": "; Silk Road merchants journeyed for safety, resting at caravanserais along the way.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kārwān",
+      "correctAnswer": "Group of travellers",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lilac",
+    "pronunciation": "LY-luk",
+    "pos": "noun",
+    "definition": "A shrub with fragrant, pale purple flowers, or the pale purple colour itself.",
+    "origin": "From French <strong>lilac</strong>, from Arabic <strong>līlak</strong>, from Persian <strong>nīlak</strong> (bluish), from <strong>nīl</strong> (indigo). The colour name eventually gave its name to the flower.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lilac</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian nīlak",
+            "b": "Bluish"
+          },
+          {
+            "a": "Persian nīl",
+            "b": "Indigo"
+          },
+          {
+            "a": "Arabic līlak",
+            "b": "Lilac colour"
+          },
+          {
+            "a": "Entered English via",
+            "b": "French"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lilac</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Lilac is",
+            "b": "A pale purple flowering shrub"
+          },
+          {
+            "a": "As a colour, lilac describes",
+            "b": "A soft, pale purple"
+          },
+          {
+            "a": "Lilac blooms are known for",
+            "b": "Their strong fragrance"
+          },
+          {
+            "a": "The colour name derives from",
+            "b": "A Persian word for \"bluish\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lilac</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The garden smelled of",
+            "b": "Blooming lilac"
+          },
+          {
+            "a": "She painted the nursery a soft",
+            "b": "Lilac"
+          },
+          {
+            "a": "Bees swarmed around",
+            "b": "The lilac bushes"
+          },
+          {
+            "a": "The dress was a pale shade of",
+            "b": "Lilac"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "nīlak",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Bluish",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From French lilac, from Arabic līlak, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "nīlak",
+          "highlight": true
+        },
+        {
+          "text": " (bluish), from nīl (indigo).",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nīlak",
+      "correctAnswer": "Bluish",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hazard",
+    "pronunciation": "HAZ-urd",
+    "pos": "noun",
+    "definition": "A danger or risk; a source of potential harm.",
+    "origin": "From Old French <strong>hasard</strong>, from Arabic <strong>az-zahr</strong> (the dice), from Persian <strong>zār</strong>. Originally a dice game of chance, later broadening to mean risk or danger generally.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hazard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic az-zahr",
+            "b": "The dice"
+          },
+          {
+            "a": "Old French hasard",
+            "b": "Game of chance"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A dice game"
+          },
+          {
+            "a": "Modern meaning",
+            "b": "A danger or risk"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hazard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A hazard is",
+            "b": "A source of potential harm"
+          },
+          {
+            "a": "To hazard a guess means to",
+            "b": "Risk offering an opinion"
+          },
+          {
+            "a": "A workplace hazard is",
+            "b": "A danger to employee safety"
+          },
+          {
+            "a": "The word originally named",
+            "b": "A dice game"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hazard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The wet floor was a",
+            "b": "Slip hazard"
+          },
+          {
+            "a": "He hazarded a guess at",
+            "b": "The correct answer"
+          },
+          {
+            "a": "Inspectors identified several",
+            "b": "Fire hazards"
+          },
+          {
+            "a": "Ice on the road created",
+            "b": "A serious hazard"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "az-zahr",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "The dice",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French hasard, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "az-zahr",
+          "highlight": true
+        },
+        {
+          "text": " (the dice); originally a game of chance, later meaning risk generally.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "az-zahr",
+      "correctAnswer": "The dice",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sugar",
+    "pronunciation": "SHUUG-ur",
+    "pos": "noun",
+    "definition": "A sweet crystalline substance obtained from plants such as sugar cane or beet.",
+    "origin": "From Old French <strong>sucre</strong>, from Arabic <strong>sukkar</strong>, from Persian <strong>shakar</strong>, ultimately from Sanskrit <strong>śarkarā</strong> (gravel, sugar). The trade route spans three continents.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sugar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit śarkarā",
+            "b": "Gravel, sugar"
+          },
+          {
+            "a": "Persian shakar",
+            "b": "Sugar"
+          },
+          {
+            "a": "Arabic sukkar",
+            "b": "Sugar"
+          },
+          {
+            "a": "Old French sucre",
+            "b": "Sugar"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sugar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Sugar is",
+            "b": "A sweet crystalline substance"
+          },
+          {
+            "a": "Sugar is refined from",
+            "b": "Sugar cane or sugar beet"
+          },
+          {
+            "a": "\"Sugar\" as a term of endearment means",
+            "b": "Dear, sweetheart"
+          },
+          {
+            "a": "The word's journey passed through",
+            "b": "Sanskrit, Persian, Arabic, and French"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sugar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She stirred a spoonful of",
+            "b": "Sugar into her tea"
+          },
+          {
+            "a": "He called his daughter",
+            "b": "\"Sugar\""
+          },
+          {
+            "a": "The recipe needed less",
+            "b": "Sugar than expected"
+          },
+          {
+            "a": "Fields of sugar cane stretched",
+            "b": "Toward the horizon"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "śarkarā",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Gravel, sugar",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French sucre, Arabic sukkar, Persian shakar, ultimately Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "śarkarā",
+          "highlight": true
+        },
+        {
+          "text": " (gravel, sugar) — a trade route across three continents.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "śarkarā",
+      "correctAnswer": "Gravel, sugar",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cotton",
+    "pronunciation": "KOT-un",
+    "pos": "noun",
+    "definition": "A soft fibre from the seed pods of the cotton plant, used to make fabric.",
+    "origin": "From Old French <strong>coton</strong>, from Arabic <strong>quṭn</strong>, meaning cotton. The fibre and its name spread through Mediterranean trade during the medieval period.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cotton</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic quṭn",
+            "b": "Cotton"
+          },
+          {
+            "a": "Old French coton",
+            "b": "Cotton"
+          },
+          {
+            "a": "Spread via",
+            "b": "Medieval Mediterranean trade"
+          },
+          {
+            "a": "Entered English",
+            "b": "14th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cotton</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cotton is",
+            "b": "A soft plant fibre used for fabric"
+          },
+          {
+            "a": "\"Cotton on to\" something means to",
+            "b": "Begin to understand it"
+          },
+          {
+            "a": "Cotton is grown mainly in",
+            "b": "Warm climates"
+          },
+          {
+            "a": "Raw cotton is picked from",
+            "b": "The plant's seed pods"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cotton</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The shirt was made from",
+            "b": "Soft cotton"
+          },
+          {
+            "a": "It took her a moment to",
+            "b": "Cotton on to the joke"
+          },
+          {
+            "a": "Fields of",
+            "b": "Cotton stretched for miles"
+          },
+          {
+            "a": "The mill processed raw",
+            "b": "Cotton into thread"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "quṭn",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Cotton",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French coton, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "quṭn",
+          "highlight": true
+        },
+        {
+          "text": "; fibre and name spread through medieval Mediterranean trade.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "quṭn",
+      "correctAnswer": "Cotton",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Saffron",
+    "pronunciation": "SAF-run",
+    "pos": "noun",
+    "definition": "A deep orange-yellow spice made from crocus stigmas, used in cooking and dyeing.",
+    "origin": "From Old French <strong>safran</strong>, from Arabic <strong>za'farān</strong>. It remains one of the most expensive spices by weight, requiring thousands of hand-picked flowers per ounce.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Saffron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic za'farān",
+            "b": "Saffron"
+          },
+          {
+            "a": "Old French safran",
+            "b": "Saffron"
+          },
+          {
+            "a": "Made from",
+            "b": "Crocus flower stigmas"
+          },
+          {
+            "a": "Known for",
+            "b": "Being extremely costly by weight"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Saffron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Saffron is",
+            "b": "A spice from crocus stigmas"
+          },
+          {
+            "a": "Saffron gives dishes a",
+            "b": "Golden colour and distinct flavour"
+          },
+          {
+            "a": "Harvesting saffron requires",
+            "b": "Painstaking hand-picking"
+          },
+          {
+            "a": "Saffron is also used to",
+            "b": "Dye fabric a warm yellow"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Saffron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The paella was coloured with",
+            "b": "A pinch of saffron"
+          },
+          {
+            "a": "She steeped",
+            "b": "Saffron threads in warm milk"
+          },
+          {
+            "a": "The monk's robes were dyed",
+            "b": "Saffron"
+          },
+          {
+            "a": "A small jar of",
+            "b": "Saffron cost more than the rest of the shop"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "za'farān",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Saffron",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French safran, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "za'farān",
+          "highlight": true
+        },
+        {
+          "text": "; still one of the most expensive spices by weight.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "za'farān",
+      "correctAnswer": "Saffron",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sherbet",
+    "pronunciation": "SHUR-but",
+    "pos": "noun",
+    "definition": "A frozen fruit-flavoured dessert, or a fizzy flavoured powder or drink.",
+    "origin": "From Turkish <strong>şerbet</strong>, from Arabic <strong>sharbah</strong> (a drink), from <strong>shariba</strong> (to drink). Originally a chilled, sweetened fruit drink popular across the Ottoman world.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sherbet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic sharbah",
+            "b": "A drink"
+          },
+          {
+            "a": "Arabic shariba",
+            "b": "To drink"
+          },
+          {
+            "a": "Turkish şerbet",
+            "b": "Sherbet"
+          },
+          {
+            "a": "Popular across",
+            "b": "The Ottoman world"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sherbet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Sherbet is",
+            "b": "A frozen or fizzy fruit treat"
+          },
+          {
+            "a": "In British English, sherbet often means",
+            "b": "A fizzy flavoured powder"
+          },
+          {
+            "a": "Sherbet is related to",
+            "b": "Sorbet, a similar frozen dessert"
+          },
+          {
+            "a": "Originally, sherbet was",
+            "b": "A cold sweetened fruit drink"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sherbet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The children dipped lollipops into",
+            "b": "A bag of sherbet"
+          },
+          {
+            "a": "She served lemon",
+            "b": "Sherbet after dinner"
+          },
+          {
+            "a": "The sweet shop sold fizzy",
+            "b": "Sherbet lemons"
+          },
+          {
+            "a": "Ottoman guests were offered chilled",
+            "b": "Sherbet drinks"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sharbah",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "A drink",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Turkish şerbet, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "sharbah",
+          "highlight": true
+        },
+        {
+          "text": " (a drink); originally a chilled sweetened fruit drink of the Ottoman world.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sharbah",
+      "correctAnswer": "A drink",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Taffeta",
+    "pronunciation": "TAF-uh-tuh",
+    "pos": "noun",
+    "definition": "A crisp, smooth fabric, typically of silk, used for formal clothing.",
+    "origin": "From Persian <strong>tāftah</strong>, meaning twisted or woven, from <strong>tāftan</strong> (to twist, to weave). The luxurious fabric travelled to Europe along Silk Road trade routes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Taffeta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian tāftan",
+            "b": "To twist, to weave"
+          },
+          {
+            "a": "Persian tāftah",
+            "b": "Twisted, woven"
+          },
+          {
+            "a": "Travelled via",
+            "b": "Silk Road trade routes"
+          },
+          {
+            "a": "Entered English",
+            "b": "14th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Taffeta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Taffeta is",
+            "b": "A crisp, smooth formal fabric"
+          },
+          {
+            "a": "Taffeta is often used for",
+            "b": "Ball gowns and formal wear"
+          },
+          {
+            "a": "The fabric is known for its",
+            "b": "Distinctive rustling sound"
+          },
+          {
+            "a": "Taffeta is traditionally woven from",
+            "b": "Silk"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Taffeta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bridesmaids wore matching",
+            "b": "Taffeta dresses"
+          },
+          {
+            "a": "Her skirt rustled with each",
+            "b": "Step of taffeta"
+          },
+          {
+            "a": "The designer chose",
+            "b": "Deep red taffeta for the gown"
+          },
+          {
+            "a": "Layers of",
+            "b": "Taffeta gave the dress its shape"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tāftan",
+        "rootLanguage": "Persian",
+        "rootMeaning": "To twist, to weave",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Persian tāftah, from ",
+          "highlight": false
+        },
+        {
+          "text": "tāftan",
+          "highlight": true
+        },
+        {
+          "text": " (to twist, weave); the fabric travelled to Europe via Silk Road trade.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tāftan",
+      "correctAnswer": "To twist, to weave",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Khaki",
+    "pronunciation": "KAH-kee",
+    "pos": "adjective",
+    "definition": "A dull yellowish-brown colour, especially of military uniforms.",
+    "origin": "From Urdu <strong>khākī</strong>, meaning dust-coloured, from Persian <strong>khāk</strong> (dust). British colonial troops in India adopted the practical dust-toned fabric for camouflage.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Khaki</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian khāk",
+            "b": "Dust"
+          },
+          {
+            "a": "Urdu khākī",
+            "b": "Dust-coloured"
+          },
+          {
+            "a": "Adopted by",
+            "b": "British colonial troops in India"
+          },
+          {
+            "a": "Purpose",
+            "b": "Camouflage in dusty terrain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Khaki</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Khaki describes",
+            "b": "A dull yellowish-brown colour"
+          },
+          {
+            "a": "Khaki became standard for",
+            "b": "Military uniforms"
+          },
+          {
+            "a": "Khaki trousers are also called",
+            "b": "Chinos, in casual wear"
+          },
+          {
+            "a": "The word's root literally means",
+            "b": "Dust"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Khaki</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He wore a pair of",
+            "b": "Khaki trousers"
+          },
+          {
+            "a": "The soldiers' uniforms were",
+            "b": "Standard khaki"
+          },
+          {
+            "a": "She chose a",
+            "b": "Khaki jacket for the safari"
+          },
+          {
+            "a": "The walls were painted a muted",
+            "b": "Khaki"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "khāk",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Dust",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Urdu khākī, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "khāk",
+          "highlight": true
+        },
+        {
+          "text": " (dust); adopted by British colonial troops in India for camouflage.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khāk",
+      "correctAnswer": "Dust",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Paradise",
+    "pronunciation": "PA-ruh-dyse",
+    "pos": "noun",
+    "definition": "An idyllic place or state; heaven.",
+    "origin": "From Old Persian <strong>pairidaēza</strong>, meaning walled garden or enclosure, from <strong>pairi</strong> (around) + <strong>diz</strong> (to wall, to form). Passed through Greek into Latin and Old French.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Paradise</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Persian pairidaēza",
+            "b": "Walled garden"
+          },
+          {
+            "a": "Passed through",
+            "b": "Greek and Latin"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Old French"
+          },
+          {
+            "a": "Later meaning",
+            "b": "Heaven, or an idyllic place"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Paradise</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Paradise is",
+            "b": "An idyllic place, or heaven"
+          },
+          {
+            "a": "The word originally described",
+            "b": "A walled royal garden"
+          },
+          {
+            "a": "A tropical paradise means",
+            "b": "A beautiful, idyllic location"
+          },
+          {
+            "a": "Paradise appears in scripture as",
+            "b": "The garden of Eden"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Paradise</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The beach felt like",
+            "b": "Paradise"
+          },
+          {
+            "a": "They honeymooned on a",
+            "b": "Tropical paradise island"
+          },
+          {
+            "a": "The ancient king kept a walled",
+            "b": "Paradise garden"
+          },
+          {
+            "a": "For book lovers, the shop was",
+            "b": "Absolute paradise"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pairidaēza",
+        "rootLanguage": "Old Persian",
+        "rootMeaning": "Walled garden",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Persian ",
+          "highlight": false
+        },
+        {
+          "text": "pairidaēza",
+          "highlight": true
+        },
+        {
+          "text": " (walled garden), passing through Greek, Latin, and Old French into English.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pairidaēza",
+      "correctAnswer": "Walled garden",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pistachio",
+    "pronunciation": "pi-STASH-ee-oh",
+    "pos": "noun",
+    "definition": "A green edible nut from a small tree native to Central Asia and the Middle East.",
+    "origin": "From Italian <strong>pistacchio</strong>, from Latin <strong>pistacium</strong>, from Greek <strong>pistakion</strong>, ultimately from Persian <strong>pista</strong>. The nut has been cultivated across the region for millennia.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pistachio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian pista",
+            "b": "Pistachio nut"
+          },
+          {
+            "a": "Greek pistakion",
+            "b": "Pistachio"
+          },
+          {
+            "a": "Latin pistacium",
+            "b": "Pistachio"
+          },
+          {
+            "a": "Cultivated in",
+            "b": "Central Asia and the Middle East"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pistachio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A pistachio is",
+            "b": "A green edible nut"
+          },
+          {
+            "a": "Pistachio is also",
+            "b": "A pale green colour and flavour"
+          },
+          {
+            "a": "Pistachios grow on",
+            "b": "A small tree native to the region"
+          },
+          {
+            "a": "Pistachio ice cream gets its colour from",
+            "b": "The nut itself"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pistachio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She sprinkled crushed",
+            "b": "Pistachios over the dessert"
+          },
+          {
+            "a": "He ordered a scoop of",
+            "b": "Pistachio ice cream"
+          },
+          {
+            "a": "The baklava was layered with",
+            "b": "Chopped pistachios"
+          },
+          {
+            "a": "They snacked on roasted",
+            "b": "Pistachios"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pista",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Pistachio nut",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian pistacchio, Latin pistacium, Greek pistakion, ultimately Persian ",
+          "highlight": false
+        },
+        {
+          "text": "pista",
+          "highlight": true
+        },
+        {
+          "text": "; cultivated across the region for millennia.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pista",
+      "correctAnswer": "Pistachio nut",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Azure",
+    "pronunciation": "AZH-ur",
+    "pos": "adjective",
+    "definition": "A bright blue colour, like a clear sky.",
+    "origin": "From Old French <strong>azur</strong>, from Arabic <strong>al-lāzaward</strong>, from Persian <strong>lāžward</strong>, the name of a mine that produced lapis lazuli, the deep blue gemstone.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Azure</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian lāžward",
+            "b": "Lapis lazuli mine"
+          },
+          {
+            "a": "Arabic al-lāzaward",
+            "b": "Lapis lazuli"
+          },
+          {
+            "a": "Old French azur",
+            "b": "Azure, blue"
+          },
+          {
+            "a": "Named after",
+            "b": "A gemstone mining region"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Azure</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Azure describes",
+            "b": "A bright sky blue"
+          },
+          {
+            "a": "The word derives from",
+            "b": "A gemstone-mining region"
+          },
+          {
+            "a": "Lapis lazuli is",
+            "b": "A deep blue semi-precious stone"
+          },
+          {
+            "a": "Azure is often used to describe",
+            "b": "Clear skies or seas"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Azure</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The water glowed",
+            "b": "Azure under the midday sun"
+          },
+          {
+            "a": "Not a cloud marked the",
+            "b": "Azure sky"
+          },
+          {
+            "a": "The mosaic used chips of",
+            "b": "Azure tile"
+          },
+          {
+            "a": "Her eyes were a striking",
+            "b": "Azure"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "lāžward",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Lapis lazuli mine",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French azur, Arabic al-lāzaward, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "lāžward",
+          "highlight": true
+        },
+        {
+          "text": ", a mine that produced the deep blue gemstone lapis lazuli.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lāžward",
+      "correctAnswer": "Lapis lazuli mine",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jasmine",
+    "pronunciation": "JAZ-min",
+    "pos": "noun",
+    "definition": "A shrub or vine with intensely fragrant white or yellow flowers.",
+    "origin": "From French <strong>jasmin</strong>, from Arabic <strong>yāsamīn</strong>, from Persian <strong>yāsaman</strong>. The flower has been cultivated for its scent across Persia and the Middle East for centuries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jasmine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian yāsaman",
+            "b": "Jasmine flower"
+          },
+          {
+            "a": "Arabic yāsamīn",
+            "b": "Jasmine"
+          },
+          {
+            "a": "French jasmin",
+            "b": "Jasmine"
+          },
+          {
+            "a": "Cultivated for",
+            "b": "Its intense fragrance"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jasmine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Jasmine is",
+            "b": "A fragrant flowering shrub"
+          },
+          {
+            "a": "Jasmine tea is scented with",
+            "b": "Jasmine blossoms"
+          },
+          {
+            "a": "Jasmine flowers typically bloom",
+            "b": "At night or dusk"
+          },
+          {
+            "a": "Jasmine is prized in perfumery for",
+            "b": "Its rich floral scent"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jasmine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The garden was heavy with",
+            "b": "The scent of jasmine"
+          },
+          {
+            "a": "She sipped a cup of",
+            "b": "Jasmine tea"
+          },
+          {
+            "a": "Jasmine vines climbed",
+            "b": "The garden trellis"
+          },
+          {
+            "a": "The perfume was built around",
+            "b": "Notes of jasmine"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "yāsaman",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Jasmine flower",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From French jasmin, Arabic yāsamīn, from Persian ",
+          "highlight": false
+        },
+        {
+          "text": "yāsaman",
+          "highlight": true
+        },
+        {
+          "text": "; cultivated for its scent across Persia for centuries.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "yāsaman",
+      "correctAnswer": "Jasmine flower",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Musk",
+    "pronunciation": "MUSK",
+    "pos": "noun",
+    "definition": "A strong-smelling substance used in perfumery, originally from a gland of the musk deer.",
+    "origin": "From Late Latin <strong>muscus</strong>, from Persian <strong>mushk</strong>, from Sanskrit <strong>muṣka</strong> (testicle), referring to the shape of the deer's scent gland.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Musk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit muṣka",
+            "b": "Testicle"
+          },
+          {
+            "a": "Persian mushk",
+            "b": "Musk"
+          },
+          {
+            "a": "Late Latin muscus",
+            "b": "Musk"
+          },
+          {
+            "a": "Named for",
+            "b": "The shape of the musk deer's gland"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Musk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Musk is",
+            "b": "A strong-smelling perfumery substance"
+          },
+          {
+            "a": "Musk was traditionally sourced from",
+            "b": "The musk deer"
+          },
+          {
+            "a": "Modern musk fragrances are usually",
+            "b": "Synthetic"
+          },
+          {
+            "a": "Musk is prized for",
+            "b": "Its warm, long-lasting scent"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Musk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cologne had a deep",
+            "b": "Musk base note"
+          },
+          {
+            "a": "Hunters once prized the deer for",
+            "b": "Its musk gland"
+          },
+          {
+            "a": "The candle was scented with",
+            "b": "Amber and musk"
+          },
+          {
+            "a": "A faint smell of",
+            "b": "Musk lingered in the shop"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "muṣka",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Testicle",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Late Latin muscus, Persian mushk, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "muṣka",
+          "highlight": true
+        },
+        {
+          "text": " (testicle), referring to the shape of the deer's scent gland.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "muṣka",
+      "correctAnswer": "Testicle",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Algebra",
+    "pronunciation": "AL-juh-bruh",
+    "pos": "noun",
+    "definition": "A branch of mathematics using symbols and letters to represent numbers and quantities in formulae.",
+    "origin": "From Arabic <strong>al-jabr</strong>, meaning \"the reunion of broken parts,\" from the title of a 9th-century mathematical treatise by al-Khwarizmi.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Algebra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic al-jabr",
+            "b": "The reunion of broken parts"
+          },
+          {
+            "a": "Named for",
+            "b": "A treatise by al-Khwarizmi"
+          },
+          {
+            "a": "Century of the treatise",
+            "b": "9th century"
+          },
+          {
+            "a": "Entered English",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Algebra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Algebra is",
+            "b": "A branch of mathematics using symbols"
+          },
+          {
+            "a": "Algebra uses letters to represent",
+            "b": "Unknown quantities"
+          },
+          {
+            "a": "The word's literal meaning is",
+            "b": "\"Reunion of broken parts\""
+          },
+          {
+            "a": "Algebra was systematised by",
+            "b": "The mathematician al-Khwarizmi"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Algebra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She struggled with",
+            "b": "Algebra homework"
+          },
+          {
+            "a": "The teacher explained",
+            "b": "Basic algebra equations"
+          },
+          {
+            "a": "He solved the",
+            "b": "Algebra problem quickly"
+          },
+          {
+            "a": "Algebra underpins much of",
+            "b": "Modern engineering"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "al-jabr",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "The reunion of broken parts",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "al-jabr",
+          "highlight": true
+        },
+        {
+          "text": ", from the title of al-Khwarizmi's 9th-century mathematical treatise.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "al-jabr",
+      "correctAnswer": "The reunion of broken parts",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Alcohol",
+    "pronunciation": "AL-kuh-hol",
+    "pos": "noun",
+    "definition": "A colourless volatile liquid produced by fermentation, found in intoxicating drinks.",
+    "origin": "From Arabic <strong>al-kuḥl</strong>, meaning fine powder of antimony used as eyeliner. The meaning shifted through alchemy to any refined essence, then specifically to distilled spirit.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Alcohol</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic al-kuḥl",
+            "b": "Fine powder (kohl eyeliner)"
+          },
+          {
+            "a": "Intermediate sense",
+            "b": "Any refined essence, via alchemy"
+          },
+          {
+            "a": "Modern sense",
+            "b": "Distilled intoxicating spirit"
+          },
+          {
+            "a": "Entered English",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Alcohol</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Alcohol is",
+            "b": "A liquid produced by fermentation"
+          },
+          {
+            "a": "Alcohol is found in",
+            "b": "Beer, wine, and spirits"
+          },
+          {
+            "a": "The word originally referred to",
+            "b": "A fine cosmetic powder"
+          },
+          {
+            "a": "Rubbing alcohol is used for",
+            "b": "Cleaning and disinfecting"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Alcohol</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The doctor advised avoiding",
+            "b": "Alcohol during treatment"
+          },
+          {
+            "a": "The cocktail had a strong",
+            "b": "Alcohol content"
+          },
+          {
+            "a": "She cleaned the wound with",
+            "b": "Rubbing alcohol"
+          },
+          {
+            "a": "The bar was licensed to sell",
+            "b": "Alcohol until midnight"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "al-kuḥl",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Fine powder (kohl eyeliner)",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "al-kuḥl",
+          "highlight": true
+        },
+        {
+          "text": "; meaning shifted through alchemy to \"refined essence,\" then to distilled spirit.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "al-kuḥl",
+      "correctAnswer": "Fine powder (kohl eyeliner)",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sofa",
+    "pronunciation": "SOH-fuh",
+    "pos": "noun",
+    "definition": "A long upholstered seat for more than one person.",
+    "origin": "From Arabic <strong>ṣuffah</strong>, meaning a raised platform or bench covered with cushions. It entered European languages via Turkish and eventually described any long padded seat.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sofa</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic ṣuffah",
+            "b": "Raised cushioned platform"
+          },
+          {
+            "a": "Entered Europe via",
+            "b": "Turkish"
+          },
+          {
+            "a": "Original use",
+            "b": "A raised bench with cushions"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sofa</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sofa is",
+            "b": "A long upholstered seat"
+          },
+          {
+            "a": "A sofa bed can",
+            "b": "Convert into a bed"
+          },
+          {
+            "a": "A sofa is a synonym for",
+            "b": "A couch or settee"
+          },
+          {
+            "a": "The word originally described",
+            "b": "A raised cushioned platform"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sofa</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They lounged on",
+            "b": "The living room sofa"
+          },
+          {
+            "a": "The cat curled up on",
+            "b": "The sofa cushions"
+          },
+          {
+            "a": "Guests could sleep on",
+            "b": "The pull-out sofa bed"
+          },
+          {
+            "a": "They picked out a new",
+            "b": "Leather sofa"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ṣuffah",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Raised cushioned platform",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "ṣuffah",
+          "highlight": true
+        },
+        {
+          "text": "; entered European languages via Turkish, describing any long padded seat.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ṣuffah",
+      "correctAnswer": "Raised cushioned platform",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Admiral",
+    "pronunciation": "AD-muh-rul",
+    "pos": "noun",
+    "definition": "A high-ranking naval officer, commander of a fleet.",
+    "origin": "From Arabic <strong>amīr al-baḥr</strong> (\"commander of the sea\"), shortened to <strong>amīr</strong> (commander) as it passed through medieval Latin and French, gaining the \"ad-\" spelling by association with Latin.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Admiral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic amīr",
+            "b": "Commander"
+          },
+          {
+            "a": "Arabic amīr al-baḥr",
+            "b": "Commander of the sea"
+          },
+          {
+            "a": "Passed through",
+            "b": "Medieval Latin and French"
+          },
+          {
+            "a": "Spelling shifted by",
+            "b": "Association with Latin \"admirabilis\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Admiral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An admiral is",
+            "b": "A high-ranking naval commander"
+          },
+          {
+            "a": "The rank oversees",
+            "b": "A fleet of ships"
+          },
+          {
+            "a": "The word's root means",
+            "b": "\"Commander\" in Arabic"
+          },
+          {
+            "a": "A related English word is",
+            "b": "Emir"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Admiral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The",
+            "b": "Admiral commanded the entire fleet"
+          },
+          {
+            "a": "She was promoted to",
+            "b": "Rear admiral"
+          },
+          {
+            "a": "The admiral boarded",
+            "b": "His flagship"
+          },
+          {
+            "a": "The navy honoured the retiring",
+            "b": "Admiral"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "amīr",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Commander",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic amīr al-baḥr, \"commander of the sea,\" shortened to ",
+          "highlight": false
+        },
+        {
+          "text": "amīr",
+          "highlight": true
+        },
+        {
+          "text": " as it passed through Latin and French.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "amīr",
+      "correctAnswer": "Commander",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Soda",
+    "pronunciation": "SOH-duh",
+    "pos": "noun",
+    "definition": "A carbonated soft drink, or sodium bicarbonate and related compounds.",
+    "origin": "From Italian <strong>soda</strong>, from Arabic <strong>suwwād</strong>, a plant burned to produce soda ash used in glassmaking and soap. The name later attached to carbonated water.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Soda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic suwwād",
+            "b": "Soda-producing plant"
+          },
+          {
+            "a": "Italian soda",
+            "b": "Soda"
+          },
+          {
+            "a": "Original use",
+            "b": "Glassmaking and soap production"
+          },
+          {
+            "a": "Later sense",
+            "b": "Carbonated water and drinks"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Soda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Soda commonly refers to",
+            "b": "A carbonated soft drink"
+          },
+          {
+            "a": "Baking soda is",
+            "b": "Sodium bicarbonate"
+          },
+          {
+            "a": "Soda water is",
+            "b": "Carbonated water"
+          },
+          {
+            "a": "The word originally named",
+            "b": "A plant used for soda ash"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Soda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She poured a glass of",
+            "b": "Fizzy soda"
+          },
+          {
+            "a": "The recipe called for a pinch of",
+            "b": "Baking soda"
+          },
+          {
+            "a": "He mixed whisky with",
+            "b": "Soda water"
+          },
+          {
+            "a": "The diner served",
+            "b": "Ice-cold soda floats"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "suwwād",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Soda-producing plant",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian soda, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "suwwād",
+          "highlight": true
+        },
+        {
+          "text": ", a plant burned to produce soda ash for glassmaking and soap.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "suwwād",
+      "correctAnswer": "Soda-producing plant",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Syrup",
+    "pronunciation": "SI-rup",
+    "pos": "noun",
+    "definition": "A thick, sweet liquid, often made by dissolving sugar in water.",
+    "origin": "From Old French <strong>sirop</strong>, from Arabic <strong>sharāb</strong> (a drink), from <strong>shariba</strong> (to drink). The same root also produced \"sherbet\" and \"sorbet.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Syrup</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic sharāb",
+            "b": "A drink"
+          },
+          {
+            "a": "Old French sirop",
+            "b": "Syrup"
+          },
+          {
+            "a": "Related word",
+            "b": "Sherbet"
+          },
+          {
+            "a": "Also related to",
+            "b": "Sorbet"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Syrup</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Syrup is",
+            "b": "A thick sweet liquid"
+          },
+          {
+            "a": "Maple syrup is made by",
+            "b": "Boiling down tree sap"
+          },
+          {
+            "a": "Cough syrup is",
+            "b": "A medicinal sweetened liquid"
+          },
+          {
+            "a": "Syrup shares a root with",
+            "b": "Sherbet"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Syrup</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She drizzled maple",
+            "b": "Syrup over the pancakes"
+          },
+          {
+            "a": "He took a spoonful of",
+            "b": "Cough syrup"
+          },
+          {
+            "a": "The peaches were canned in",
+            "b": "Light syrup"
+          },
+          {
+            "a": "Golden syrup sweetened",
+            "b": "The pudding"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sharāb",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "A drink",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French sirop, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "sharāb",
+          "highlight": true
+        },
+        {
+          "text": " (a drink); the same root gave us \"sherbet\" and \"sorbet.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sharāb",
+      "correctAnswer": "A drink",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Arsenal",
+    "pronunciation": "AR-suh-nul",
+    "pos": "noun",
+    "definition": "A collection of weapons, or a place where weapons and ammunition are made or stored.",
+    "origin": "From Italian <strong>arsenale</strong>, from Arabic <strong>dār aṣ-ṣinā'ah</strong> (\"house of manufacture\"), originally referring to the naval dockyard and shipyard of Venice.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Arsenal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic dār aṣ-ṣinā'ah",
+            "b": "House of manufacture"
+          },
+          {
+            "a": "Italian arsenale",
+            "b": "Arsenal, dockyard"
+          },
+          {
+            "a": "Original use",
+            "b": "The Venetian naval shipyard"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A weapons store or collection"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Arsenal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An arsenal is",
+            "b": "A store of weapons"
+          },
+          {
+            "a": "Figuratively, an arsenal means",
+            "b": "A collection of tools or resources"
+          },
+          {
+            "a": "The word originally named",
+            "b": "The Venetian naval shipyard"
+          },
+          {
+            "a": "A nuclear arsenal refers to",
+            "b": "A country's stock of nuclear weapons"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Arsenal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The museum displayed a medieval",
+            "b": "Arsenal of weapons"
+          },
+          {
+            "a": "The chef had a full",
+            "b": "Arsenal of kitchen tools"
+          },
+          {
+            "a": "Inspectors catalogued the country's",
+            "b": "Nuclear arsenal"
+          },
+          {
+            "a": "The debater drew on a wide",
+            "b": "Arsenal of facts"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "dār aṣ-ṣinā'ah",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "House of manufacture",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian arsenale, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "dār aṣ-ṣinā'ah",
+          "highlight": true
+        },
+        {
+          "text": ", originally the naval dockyard and shipyard of Venice.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dār aṣ-ṣinā'ah",
+      "correctAnswer": "House of manufacture",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cipher",
+    "pronunciation": "SY-fur",
+    "pos": "noun",
+    "definition": "A secret or disguised way of writing; a code, or the symbol for zero.",
+    "origin": "From Arabic <strong>ṣifr</strong>, meaning zero or empty. The concept of zero was so unfamiliar to medieval Europeans that \"cipher\" also came to mean a mysterious or coded message.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cipher</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic ṣifr",
+            "b": "Zero, empty"
+          },
+          {
+            "a": "Entered Europe via",
+            "b": "Medieval Latin, as \"zero\" arrived"
+          },
+          {
+            "a": "Secondary sense",
+            "b": "A secret code"
+          },
+          {
+            "a": "Related word",
+            "b": "Zero"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cipher</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A cipher is",
+            "b": "A code or disguised writing system"
+          },
+          {
+            "a": "A cipher can also mean",
+            "b": "The numeral zero"
+          },
+          {
+            "a": "To decipher means to",
+            "b": "Decode a hidden message"
+          },
+          {
+            "a": "A cipher can also describe",
+            "b": "A person of no real influence"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cipher</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Spies communicated using",
+            "b": "A secret cipher"
+          },
+          {
+            "a": "The code-breakers worked to",
+            "b": "Crack the enemy cipher"
+          },
+          {
+            "a": "He felt like a mere",
+            "b": "Cipher in the huge organisation"
+          },
+          {
+            "a": "The manuscript was written in",
+            "b": "An ancient cipher"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ṣifr",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Zero, empty",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "ṣifr",
+          "highlight": true
+        },
+        {
+          "text": "; zero was so unfamiliar to medieval Europe that the word also came to mean a secret code.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ṣifr",
+      "correctAnswer": "Zero, empty",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Algorithm",
+    "pronunciation": "AL-guh-rith-um",
+    "pos": "noun",
+    "definition": "A precise set of rules or steps for solving a problem, especially in computing.",
+    "origin": "From the name <strong>al-Khwārizmī</strong>, the 9th-century Persian mathematician whose treatises on arithmetic, once translated into Latin, gave rise to the word.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Algorithm</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "al-Khwārizmī",
+            "b": "The mathematician's name"
+          },
+          {
+            "a": "Century",
+            "b": "9th century"
+          },
+          {
+            "a": "Field",
+            "b": "Arithmetic and mathematics"
+          },
+          {
+            "a": "Related word",
+            "b": "Algebra"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Algorithm</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An algorithm is",
+            "b": "A precise problem-solving procedure"
+          },
+          {
+            "a": "Algorithms are central to",
+            "b": "Computer programming"
+          },
+          {
+            "a": "The word honours",
+            "b": "A 9th-century Persian mathematician"
+          },
+          {
+            "a": "A recipe can be thought of as",
+            "b": "A simple everyday algorithm"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Algorithm</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The app's recommendation",
+            "b": "Algorithm learned her preferences"
+          },
+          {
+            "a": "Engineers optimised the sorting",
+            "b": "Algorithm"
+          },
+          {
+            "a": "Social media algorithms decide",
+            "b": "What content users see"
+          },
+          {
+            "a": "She wrote an",
+            "b": "Algorithm to sort the data"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "al-Khwārizmī",
+        "rootLanguage": "Persian",
+        "rootMeaning": "The mathematician's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From the name of ",
+          "highlight": false
+        },
+        {
+          "text": "al-Khwārizmī",
+          "highlight": true
+        },
+        {
+          "text": ", the 9th-century Persian mathematician whose treatises gave rise to the word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "al-Khwārizmī",
+      "correctAnswer": "The mathematician's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zero",
+    "pronunciation": "ZEER-oh",
+    "pos": "noun",
+    "definition": "The numerical symbol representing nothing; the starting point of a scale.",
+    "origin": "From Italian <strong>zero</strong>, from Arabic <strong>ṣifr</strong> (empty, cipher), which translated an earlier Sanskrit term for the concept of nought developed in Indian mathematics.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zero</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic ṣifr",
+            "b": "Empty, nought"
+          },
+          {
+            "a": "Italian zero",
+            "b": "Zero"
+          },
+          {
+            "a": "Concept originated in",
+            "b": "Indian mathematics"
+          },
+          {
+            "a": "Related English word",
+            "b": "Cipher"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zero</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Zero is",
+            "b": "The symbol for nothing"
+          },
+          {
+            "a": "Zero marks",
+            "b": "The starting point of a scale"
+          },
+          {
+            "a": "\"Zero in on\" something means to",
+            "b": "Focus precisely on it"
+          },
+          {
+            "a": "The concept of zero originated in",
+            "b": "Ancient Indian mathematics"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zero</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The thermometer dropped to",
+            "b": "Zero overnight"
+          },
+          {
+            "a": "Investigators zeroed in on",
+            "b": "A single suspect"
+          },
+          {
+            "a": "The countdown reached",
+            "b": "Zero"
+          },
+          {
+            "a": "She started the project from",
+            "b": "Zero"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ṣifr",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Empty, nought",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian zero, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "ṣifr",
+          "highlight": true
+        },
+        {
+          "text": ", translating an earlier Sanskrit concept of nought from Indian mathematics.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ṣifr",
+      "correctAnswer": "Empty, nought",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Caviar",
+    "pronunciation": "KAV-ee-ar",
+    "pos": "noun",
+    "definition": "The salted roe of sturgeon or other large fish, eaten as a delicacy.",
+    "origin": "From Turkish <strong>havyar</strong>, possibly from Persian <strong>khāviyār</strong>, from <strong>khāya</strong> (egg). Caviar from the Caspian Sea has been prized as a luxury food for centuries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-middle-eastern",
+      "name": "From the Middle East",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Caviar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian khāya",
+            "b": "Egg"
+          },
+          {
+            "a": "Persian khāviyār",
+            "b": "Caviar"
+          },
+          {
+            "a": "Turkish havyar",
+            "b": "Caviar"
+          },
+          {
+            "a": "Prized source",
+            "b": "The Caspian Sea"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Caviar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Caviar is",
+            "b": "Salted fish roe, eaten as a delicacy"
+          },
+          {
+            "a": "The finest caviar comes from",
+            "b": "Sturgeon"
+          },
+          {
+            "a": "Caviar is traditionally served with",
+            "b": "Blinis and crème fraîche"
+          },
+          {
+            "a": "The word's root literally means",
+            "b": "Egg"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Caviar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The banquet featured",
+            "b": "A tin of fine caviar"
+          },
+          {
+            "a": "She spread a spoonful of",
+            "b": "Caviar on the blini"
+          },
+          {
+            "a": "Sturgeon farming supplies most modern",
+            "b": "Caviar"
+          },
+          {
+            "a": "The dish was garnished with",
+            "b": "A dab of caviar"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "khāya",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Egg",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Turkish havyar, possibly from Persian khāviyār, from ",
+          "highlight": false
+        },
+        {
+          "text": "khāya",
+          "highlight": true
+        },
+        {
+          "text": " (egg); Caspian caviar has been prized as a luxury for centuries.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khāya",
+      "correctAnswer": "Egg",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

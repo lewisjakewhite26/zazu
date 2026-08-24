@@ -1,0 +1,3278 @@
+[
+  {
+    "word": "Chauvinism",
+    "pronunciation": "SHOH-vin-iz-um",
+    "pos": "noun",
+    "definition": "Excessive or blind devotion to one's own group, especially aggressive patriotism, or prejudiced belief in the superiority of one's own sex.",
+    "origin": "<strong>Chauvinism</strong> is named after Nicolas Chauvin, a soldier said to have served under Napoleon with such fanatical, unquestioning loyalty, even after the empire's defeat, that his name became a stock joke in French vaudeville theatre for blind excessive patriotism. Historians now doubt he was a real person at all, but the satirical stage character's name outlived the uncertainty and entered everyday language.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chauvinism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Nicolas Chauvin",
+            "b": "Soldier said to have served under Napoleon"
+          },
+          {
+            "a": "His trait",
+            "b": "Fanatical, unquestioning loyalty and patriotism"
+          },
+          {
+            "a": "Became a stock figure in",
+            "b": "French vaudeville theatre"
+          },
+          {
+            "a": "Historians now believe",
+            "b": "He may never have existed at all"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chauvinism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Chauvinism describes",
+            "b": "Excessive, blind devotion to one's own group"
+          },
+          {
+            "a": "Common modern use",
+            "b": "\"Male chauvinism,\" prejudiced belief in sex superiority"
+          },
+          {
+            "a": "Originally referred to",
+            "b": "Aggressive, blind patriotism"
+          },
+          {
+            "a": "Named after",
+            "b": "A possibly fictional French soldier"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chauvinism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Critics accused the speech of naked",
+            "b": "Chauvinism"
+          },
+          {
+            "a": "His dismissive remarks about her work reeked of",
+            "b": "Chauvinism"
+          },
+          {
+            "a": "The play satirised the soldier's blind",
+            "b": "Chauvinism"
+          },
+          {
+            "a": "She called out the office's casual",
+            "b": "Chauvinism"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Nicolas Chauvin",
+        "rootLanguage": "Napoleonic France (possibly legendary)",
+        "rootMeaning": "Soldier whose fanatical loyalty became a byword for blind devotion",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Nicolas Chauvin",
+          "highlight": true
+        },
+        {
+          "text": ", a possibly fictional soldier whose fanatical loyalty to Napoleon became a stage joke, then a permanent word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Nicolas Chauvin",
+      "correctAnswer": "Soldier whose fanatical loyalty became a byword for blind devotion",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Quisling",
+    "pronunciation": "KWIZ-ling",
+    "pos": "noun",
+    "definition": "A traitor who collaborates with an occupying enemy force, especially by serving as a puppet ruler.",
+    "origin": "<strong>Quisling</strong> is named after Vidkun Quisling (1887–1945), the Norwegian politician who seized power with Nazi German backing after their 1940 invasion of Norway and ruled as a collaborationist head of state. His name became a byword for treasonous collaboration almost instantly, coined by British newspapers within days of his coup, and he was executed for treason after the war.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Quisling</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Vidkun Quisling",
+            "b": "Norwegian politician, 1887–1945"
+          },
+          {
+            "a": "Seized power with backing from",
+            "b": "Nazi Germany, after 1940 invasion"
+          },
+          {
+            "a": "Word coined by",
+            "b": "British newspapers, within days of his coup"
+          },
+          {
+            "a": "His fate",
+            "b": "Executed for treason after the war"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Quisling</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Quisling describes",
+            "b": "A traitor who collaborates with an occupier"
+          },
+          {
+            "a": "Especially applies to",
+            "b": "A puppet ruler installed by an enemy"
+          },
+          {
+            "a": "Named after",
+            "b": "A Norwegian collaborationist leader"
+          },
+          {
+            "a": "Word entered use",
+            "b": "Almost immediately, in wartime newspapers"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Quisling</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The occupied government was dismissed as a nest of",
+            "b": "Quislings"
+          },
+          {
+            "a": "History remembers him as a",
+            "b": "Quisling who sold out his country"
+          },
+          {
+            "a": "The resistance targeted known",
+            "b": "Quislings for retribution"
+          },
+          {
+            "a": "Critics branded the puppet regime a",
+            "b": "Quisling government"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vidkun Quisling",
+        "rootLanguage": "20th-century Norway",
+        "rootMeaning": "Collaborationist leader installed by Nazi Germany",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Vidkun Quisling",
+          "highlight": true
+        },
+        {
+          "text": ", the Norwegian puppet leader whose name became a wartime byword for treasonous collaboration almost overnight.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vidkun Quisling",
+      "correctAnswer": "Collaborationist leader installed by Nazi Germany",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Luddite",
+    "pronunciation": "LUD-yte",
+    "pos": "noun",
+    "definition": "A person opposed to new technology or technological change, especially one that threatens jobs.",
+    "origin": "<strong>Luddite</strong> is named after Ned Ludd, a probably legendary English weaver said to have smashed two knitting frames in a fit of rage in 1779. His name was later invoked by the actual Luddites, textile workers who between 1811 and 1816 destroyed mechanised looms and mills they blamed for destroying their livelihoods, signing their threatening letters as followers of the mythical \"General Ludd.\"",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Luddite</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ned Ludd",
+            "b": "Probably legendary English weaver"
+          },
+          {
+            "a": "Said to have",
+            "b": "Smashed two knitting frames in 1779"
+          },
+          {
+            "a": "Real Luddites active",
+            "b": "1811 to 1816"
+          },
+          {
+            "a": "They destroyed",
+            "b": "Mechanised looms they blamed for lost jobs"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Luddite</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Luddite describes",
+            "b": "Someone opposed to new technology"
+          },
+          {
+            "a": "Original Luddites protested",
+            "b": "Mechanised looms replacing skilled workers"
+          },
+          {
+            "a": "Named after",
+            "b": "A probably legendary weaver"
+          },
+          {
+            "a": "Modern use is often",
+            "b": "Mildly self-deprecating or dismissive"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Luddite</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He joked that he was a total",
+            "b": "Luddite about smartphones"
+          },
+          {
+            "a": "The union was accused of",
+            "b": "Luddite resistance to automation"
+          },
+          {
+            "a": "She refused every new app, calling herself a proud",
+            "b": "Luddite"
+          },
+          {
+            "a": "Critics dismissed the protest as",
+            "b": "Luddite fear of progress"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ned Ludd",
+        "rootLanguage": "18th–19th-century England (possibly legendary)",
+        "rootMeaning": "Weaver whose frame-smashing gave the machine-breakers their name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ned Ludd",
+          "highlight": true
+        },
+        {
+          "text": ", the probably legendary weaver whose frame-smashing inspired real textile workers to sign their protests as \"General Ludd.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ned Ludd",
+      "correctAnswer": "Weaver whose frame-smashing gave the machine-breakers their name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Machiavellian",
+    "pronunciation": "mak-ee-uh-VEL-ee-un",
+    "pos": "adjective",
+    "definition": "Cunning, unscrupulous, and willing to use deception to gain or hold power.",
+    "origin": "<strong>Machiavellian</strong> is named after Niccolò Machiavelli (1469–1527), the Florentine diplomat and writer whose treatise <em>The Prince</em> (1532) coolly advised rulers that maintaining power sometimes required cruelty, deceit, and the abandonment of conventional morality. Though scholars debate whether Machiavelli was describing political reality rather than endorsing it, his name became permanently attached to ruthless political scheming.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Machiavellian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Niccolò Machiavelli",
+            "b": "Florentine diplomat and writer, 1469–1527"
+          },
+          {
+            "a": "His treatise",
+            "b": "The Prince, published 1532"
+          },
+          {
+            "a": "Advised rulers that power sometimes requires",
+            "b": "Cruelty and deceit"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Cunning, unscrupulous political scheming"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Machiavellian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Machiavellian describes",
+            "b": "Cunning, ruthless pursuit of power"
+          },
+          {
+            "a": "A Machiavellian scheme typically involves",
+            "b": "Deception and manipulation"
+          },
+          {
+            "a": "The word derives from",
+            "b": "A 16th-century political treatise"
+          },
+          {
+            "a": "Debate continues over whether Machiavelli was",
+            "b": "Describing or endorsing such tactics"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Machiavellian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The boardroom coup was a",
+            "b": "Machiavellian power grab"
+          },
+          {
+            "a": "Critics called the campaign strategy",
+            "b": "Ruthlessly Machiavellian"
+          },
+          {
+            "a": "She admired his",
+            "b": "Machiavellian skill at office politics"
+          },
+          {
+            "a": "The novel's villain was a classic",
+            "b": "Machiavellian schemer"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Niccolò Machiavelli",
+        "rootLanguage": "15th–16th-century Florence",
+        "rootMeaning": "Political theorist of ruthless statecraft",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Niccolò Machiavelli",
+          "highlight": true
+        },
+        {
+          "text": ", whose cool-eyed advice to rulers in The Prince gave English its word for ruthless political scheming.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Niccolò Machiavelli",
+      "correctAnswer": "Political theorist of ruthless statecraft",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Draconian",
+    "pronunciation": "druh-KOH-nee-un",
+    "pos": "adjective",
+    "definition": "Excessively harsh and severe, especially describing laws or punishments.",
+    "origin": "<strong>Draconian</strong> is named after Draco, an Athenian lawgiver of the seventh century BC who codified the city's first written laws, famous for prescribing death as the penalty for even minor offences like stealing a cabbage. When asked why his punishments were so severe, he reportedly said small crimes deserved death and he simply had no harsher penalty for large ones, and his name has meant merciless severity ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Draconian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Draco",
+            "b": "Athenian lawgiver, 7th century BC"
+          },
+          {
+            "a": "His achievement",
+            "b": "Codified Athens' first written laws"
+          },
+          {
+            "a": "Famous for prescribing",
+            "b": "Death for even minor offences"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Excessively harsh laws or punishment"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Draconian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Draconian describes",
+            "b": "Excessively harsh laws or measures"
+          },
+          {
+            "a": "Named after",
+            "b": "An ancient Athenian lawgiver"
+          },
+          {
+            "a": "His code was notorious for",
+            "b": "Severe, disproportionate punishments"
+          },
+          {
+            "a": "Modern usage applies to",
+            "b": "Any overly strict rule or crackdown"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Draconian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The new curfew struck residents as",
+            "b": "Draconian"
+          },
+          {
+            "a": "Critics called the sentencing guidelines",
+            "b": "Draconian"
+          },
+          {
+            "a": "The school imposed",
+            "b": "Draconian rules on mobile phones"
+          },
+          {
+            "a": "Protesters marched against the",
+            "b": "Draconian new legislation"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Draco",
+        "rootLanguage": "Ancient Athens, 7th century BC",
+        "rootMeaning": "Lawgiver whose harsh legal code prescribed death for minor crimes",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Draco",
+          "highlight": true
+        },
+        {
+          "text": ", the Athenian lawgiver whose death penalty for petty theft gave English its word for merciless severity.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Draco",
+      "correctAnswer": "Lawgiver whose harsh legal code prescribed death for minor crimes",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Spartan",
+    "pronunciation": "SPAR-tun",
+    "pos": "adjective",
+    "definition": "Simple, austere, and lacking in comfort or luxury, marked by rigorous self-discipline.",
+    "origin": "<strong>Spartan</strong> refers to the ancient Greek city-state of Sparta, whose citizens were raised from childhood under a famously brutal military regime called the <em>agoge</em>, training boys to endure hunger, cold, and pain without complaint in order to produce Greece's most feared soldiers. Their reputation for eschewing comfort in favour of discipline gave the place name a permanent second life as an adjective for stark simplicity.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Spartan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sparta",
+            "b": "Ancient Greek city-state"
+          },
+          {
+            "a": "Training regime called",
+            "b": "The agoge, from early childhood"
+          },
+          {
+            "a": "Regime designed to produce",
+            "b": "Greece's most feared soldiers"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Austere simplicity and self-discipline"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Spartan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Spartan describes",
+            "b": "Austere, simple, disciplined living"
+          },
+          {
+            "a": "Named after",
+            "b": "An ancient Greek city-state"
+          },
+          {
+            "a": "Spartan citizens were trained under",
+            "b": "A brutal military regime"
+          },
+          {
+            "a": "Modern use often applies to",
+            "b": "A minimal, comfort-free lifestyle or room"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Spartan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The monk's cell was famously",
+            "b": "Spartan"
+          },
+          {
+            "a": "He kept his training regime deliberately",
+            "b": "Spartan"
+          },
+          {
+            "a": "The hostel room offered only",
+            "b": "Spartan furnishings"
+          },
+          {
+            "a": "Her diet during training was almost",
+            "b": "Spartan in its simplicity"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Sparta",
+        "rootLanguage": "Ancient Greece",
+        "rootMeaning": "City-state famed for austere military discipline",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Sparta",
+          "highlight": true
+        },
+        {
+          "text": ", the ancient city-state whose brutal training regime gave English its word for stark, disciplined simplicity.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Sparta",
+      "correctAnswer": "City-state famed for austere military discipline",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gerrymander",
+    "pronunciation": "JER-ee-man-dur",
+    "pos": "verb",
+    "definition": "To manipulate the boundaries of an electoral district to favour one party or group.",
+    "origin": "<strong>Gerrymander</strong> blends the surname of Elbridge Gerry (1744–1814), Governor of Massachusetts, with \"salamander.\" In 1812 Gerry signed off on a state senate district so oddly shaped to benefit his party that a newspaper cartoonist drew it with a head, wings, and claws, dubbing the creature a \"Gerry-mander,\" and the word for the practice of drawing self-serving district lines has carried his name ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gerrymander</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Elbridge Gerry",
+            "b": "Governor of Massachusetts, 1744–1814"
+          },
+          {
+            "a": "In 1812 he signed off on",
+            "b": "An oddly shaped, party-favouring district"
+          },
+          {
+            "a": "A cartoonist compared its shape to",
+            "b": "A salamander"
+          },
+          {
+            "a": "Blended term coined",
+            "b": "\"Gerry-mander\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gerrymander</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Gerrymander describes",
+            "b": "Manipulating electoral district boundaries"
+          },
+          {
+            "a": "Purpose of the tactic",
+            "b": "To favour one political party or group"
+          },
+          {
+            "a": "Word blends",
+            "b": "A governor's surname with \"salamander\""
+          },
+          {
+            "a": "First applied to",
+            "b": "An oddly shaped Massachusetts district"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gerrymander</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The map was widely criticised as a blatant",
+            "b": "Gerrymander"
+          },
+          {
+            "a": "Reformers pushed to end",
+            "b": "Gerrymandering of state districts"
+          },
+          {
+            "a": "Courts struck down the",
+            "b": "Gerrymandered voting map"
+          },
+          {
+            "a": "Critics accused the party of trying to",
+            "b": "Gerrymander the new boundaries"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Elbridge Gerry",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Governor whose oddly shaped voting district was compared to a salamander",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named after ",
+          "highlight": false
+        },
+        {
+          "text": "Elbridge Gerry",
+          "highlight": true
+        },
+        {
+          "text": ", whose salamander-shaped voting district gave English its word for rigging electoral boundaries.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Elbridge Gerry",
+      "correctAnswer": "Governor whose oddly shaped voting district was compared to a salamander",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shrapnel",
+    "pronunciation": "SHRAP-nul",
+    "pos": "noun",
+    "definition": "Fragments scattered by an exploding bomb, shell, or mine.",
+    "origin": "<strong>Shrapnel</strong> is named after Henry Shrapnel (1761–1842), a British artillery officer who in 1784 invented an exploding artillery shell packed with musket balls designed to burst in the air and shower enemy troops with deadly fragments before impact. His \"spherical case shot,\" officially renamed shrapnel shell in his honour in 1852, made his surname synonymous with battlefield fragmentation ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shrapnel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Henry Shrapnel",
+            "b": "British artillery officer, 1761–1842"
+          },
+          {
+            "a": "Invented in",
+            "b": "1784"
+          },
+          {
+            "a": "His invention",
+            "b": "An exploding shell packed with musket balls"
+          },
+          {
+            "a": "Officially named after him in",
+            "b": "1852"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shrapnel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Shrapnel describes",
+            "b": "Fragments scattered by an explosion"
+          },
+          {
+            "a": "Originally referred to",
+            "b": "A specific type of exploding artillery shell"
+          },
+          {
+            "a": "Named after",
+            "b": "A British artillery officer"
+          },
+          {
+            "a": "Modern use",
+            "b": "Any explosive fragment debris"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shrapnel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Doctors removed",
+            "b": "Shrapnel from the soldier's leg"
+          },
+          {
+            "a": "The blast left the wall pitted with",
+            "b": "Shrapnel"
+          },
+          {
+            "a": "He still carried a piece of",
+            "b": "Shrapnel from the war"
+          },
+          {
+            "a": "The bomb disposal team cleared the",
+            "b": "Shrapnel-strewn street"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Henry Shrapnel",
+        "rootLanguage": "18th–19th-century Britain",
+        "rootMeaning": "Artillery officer who invented the exploding fragmentation shell",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Henry Shrapnel",
+          "highlight": true
+        },
+        {
+          "text": ", the artillery officer whose fragmenting shell design gave battlefields, and English, a permanent new word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Henry Shrapnel",
+      "correctAnswer": "Artillery officer who invented the exploding fragmentation shell",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Guillotine",
+    "pronunciation": "GIL-uh-teen",
+    "pos": "noun",
+    "definition": "A device for beheading, consisting of a heavy angled blade that drops between two upright posts.",
+    "origin": "<strong>Guillotine</strong> is named after Joseph-Ignace Guillotin (1738–1814), a French physician who in 1789 proposed the device not to increase suffering but to reduce it, arguing that a swift mechanical blade was more humane and egalitarian than the varied, often botched execution methods that had favoured nobles with a cleaner death. Guillotin never built the machine himself, and his descendants were reportedly so distressed by the association that they petitioned, unsuccessfully, to change their surname.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guillotine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Joseph-Ignace Guillotin",
+            "b": "French physician, 1738–1814"
+          },
+          {
+            "a": "He proposed the device in",
+            "b": "1789"
+          },
+          {
+            "a": "His argument was",
+            "b": "A swift, equal death was more humane"
+          },
+          {
+            "a": "His family later",
+            "b": "Petitioned unsuccessfully to change their name"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guillotine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Guillotine describes",
+            "b": "A device for beheading with a dropping blade"
+          },
+          {
+            "a": "Named after",
+            "b": "A physician who proposed it as more humane"
+          },
+          {
+            "a": "Associated historical era",
+            "b": "The French Revolution"
+          },
+          {
+            "a": "Guillotin himself",
+            "b": "Never built or used the device"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guillotine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The revolutionary square was dominated by the",
+            "b": "Guillotine"
+          },
+          {
+            "a": "Historians debated the true purpose of the",
+            "b": "Guillotine"
+          },
+          {
+            "a": "The museum displayed a replica",
+            "b": "Guillotine blade"
+          },
+          {
+            "a": "Crowds gathered to watch the",
+            "b": "Guillotine fall"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Joseph-Ignace Guillotin",
+        "rootLanguage": "18th-century France",
+        "rootMeaning": "Physician who proposed the device as a more humane execution method",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Joseph-Ignace Guillotin",
+          "highlight": true
+        },
+        {
+          "text": ", the physician who proposed the device as a merciful, equal death, only for his own family to try to shed his name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Joseph-Ignace Guillotin",
+      "correctAnswer": "Physician who proposed the device as a more humane execution method",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Molotov",
+    "pronunciation": "MOL-uh-tof",
+    "pos": "noun",
+    "definition": "A crude improvised bomb made of a bottle filled with flammable liquid and a burning rag or fuse.",
+    "origin": "<strong>Molotov cocktail</strong> is named, mockingly, after Vyacheslav Molotov (1890–1986), the Soviet foreign minister whose radio broadcasts during the 1939-40 Winter War denied Soviet bombing of Finland, claiming instead that planes were dropping food to starving Finns. Finnish soldiers sarcastically dubbed the incendiary bombs raining down \"Molotov bread baskets,\" and the crude glass bombs they improvised in return to fight Soviet tanks became \"Molotov cocktails,\" a drink to go with the bread.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Molotov</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Vyacheslav Molotov",
+            "b": "Soviet foreign minister, 1890–1986"
+          },
+          {
+            "a": "Context",
+            "b": "The 1939-40 Winter War, Soviet invasion of Finland"
+          },
+          {
+            "a": "Molotov denied bombing, calling it",
+            "b": "Delivering \"bread\" to starving Finns"
+          },
+          {
+            "a": "Finns named their improvised bombs",
+            "b": "\"Cocktails\" to go with his \"bread baskets\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Molotov</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Molotov cocktail describes",
+            "b": "A crude improvised firebomb"
+          },
+          {
+            "a": "Named, sarcastically, after",
+            "b": "A Soviet foreign minister"
+          },
+          {
+            "a": "Coined during",
+            "b": "The Winter War between Finland and the USSR"
+          },
+          {
+            "a": "Typically made from",
+            "b": "A bottle, flammable liquid, and a rag fuse"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Molotov</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Protesters hurled a",
+            "b": "Molotov cocktail at the barricade"
+          },
+          {
+            "a": "The old newsreel showed soldiers preparing",
+            "b": "Molotov cocktails"
+          },
+          {
+            "a": "Police reported several",
+            "b": "Molotov cocktails thrown during the riot"
+          },
+          {
+            "a": "Finnish defenders improvised",
+            "b": "Molotov cocktails against Soviet tanks"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vyacheslav Molotov",
+        "rootLanguage": "20th-century Soviet Union",
+        "rootMeaning": "Foreign minister mocked by Finns who named their firebombs after him",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, mockingly, for ",
+          "highlight": false
+        },
+        {
+          "text": "Vyacheslav Molotov",
+          "highlight": true
+        },
+        {
+          "text": ", the Soviet minister whose denials during the Winter War gave Finnish soldiers a sarcastic name for their improvised firebombs.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vyacheslav Molotov",
+      "correctAnswer": "Foreign minister mocked by Finns who named their firebombs after him",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "McCarthyism",
+    "pronunciation": "muh-KAR-thee-iz-um",
+    "pos": "noun",
+    "definition": "The practice of making unsubstantiated accusations of disloyalty or subversion, especially through public hearings and blacklisting.",
+    "origin": "<strong>McCarthyism</strong> is named after Joseph McCarthy (1908–1957), the US senator who in 1950 claimed to hold a list of communists working inside the State Department and spent years leading sweeping, often baseless investigations that ruined careers and reputations on flimsy or fabricated evidence. His name became permanently attached to the wider climate of fear and reckless accusation that swept America during the early Cold War.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>McCarthyism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Joseph McCarthy",
+            "b": "US senator, 1908–1957"
+          },
+          {
+            "a": "His claim in 1950",
+            "b": "Held a list of communists in the State Department"
+          },
+          {
+            "a": "His tactics involved",
+            "b": "Sweeping, often baseless accusations"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Reckless accusation and political witch-hunts"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>McCarthyism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "McCarthyism describes",
+            "b": "Unsubstantiated accusations of disloyalty"
+          },
+          {
+            "a": "Historical context",
+            "b": "The early Cold War, 1950s USA"
+          },
+          {
+            "a": "Common tactic associated with it",
+            "b": "Public hearings and blacklisting"
+          },
+          {
+            "a": "Named after",
+            "b": "A US senator"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>McCarthyism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Critics accused the committee of",
+            "b": "McCarthyism"
+          },
+          {
+            "a": "The blacklist was later condemned as pure",
+            "b": "McCarthyism"
+          },
+          {
+            "a": "Historians study the era of",
+            "b": "McCarthyism and its lasting damage"
+          },
+          {
+            "a": "She warned against a new wave of",
+            "b": "McCarthyism in politics"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Joseph McCarthy",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Senator whose baseless accusations defined a climate of fear",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Joseph McCarthy",
+          "highlight": true
+        },
+        {
+          "text": ", the senator whose baseless communist-hunting hearings gave English a word for reckless political accusation.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Joseph McCarthy",
+      "correctAnswer": "Senator whose baseless accusations defined a climate of fear",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stalinist",
+    "pronunciation": "STAH-lin-ist",
+    "pos": "adjective",
+    "definition": "Relating to the ruthless, totalitarian methods of rule associated with Joseph Stalin, especially purges and absolute state control.",
+    "origin": "<strong>Stalinist</strong> is named after Joseph Stalin (1878–1953), who led the Soviet Union from the late 1920s until his death, consolidating power through forced collectivisation, mass deportations, and the Great Purge, in which hundreds of thousands were executed and millions more sent to labour camps on fabricated charges. His name became the standard for absolute, terror-based totalitarian control.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stalinist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Joseph Stalin",
+            "b": "Soviet leader, ruled late 1920s–1953"
+          },
+          {
+            "a": "His methods included",
+            "b": "Forced collectivisation and mass deportations"
+          },
+          {
+            "a": "Key period",
+            "b": "The Great Purge, mass executions on fabricated charges"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Totalitarian, terror-based rule"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stalinist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Stalinist describes",
+            "b": "Ruthless, totalitarian rule and purges"
+          },
+          {
+            "a": "Named after",
+            "b": "The Soviet leader Joseph Stalin"
+          },
+          {
+            "a": "Associated tactic",
+            "b": "Forced collectivisation and labour camps"
+          },
+          {
+            "a": "The Great Purge involved",
+            "b": "Executions on fabricated charges"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stalinist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Historians described the regime's tactics as",
+            "b": "Stalinist"
+          },
+          {
+            "a": "The show trial was condemned as",
+            "b": "A Stalinist relic"
+          },
+          {
+            "a": "Critics called the crackdown",
+            "b": "Stalinist in its ruthlessness"
+          },
+          {
+            "a": "The novel depicted life under",
+            "b": "Stalinist surveillance"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Joseph Stalin",
+        "rootLanguage": "20th-century Soviet Union",
+        "rootMeaning": "Soviet leader known for terror-based totalitarian rule",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Joseph Stalin",
+          "highlight": true
+        },
+        {
+          "text": ", whose purges and forced collectivisation gave English its word for absolute, terror-based control.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Joseph Stalin",
+      "correctAnswer": "Soviet leader known for terror-based totalitarian rule",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lynch",
+    "pronunciation": "LINCH",
+    "pos": "verb",
+    "definition": "To execute someone, typically by hanging, without a lawful trial, usually by a mob.",
+    "origin": "<strong>Lynch</strong> is generally traced to Charles Lynch (1736–1796), a Virginia planter and justice of the peace who during the American Revolution led an informal court that punished suspected Loyalists without legal authority, dispensing whippings and property seizure rather than executions himself. The term hardened into its modern, deadlier meaning of mob killing only in the following century, but it kept his name attached throughout.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lynch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Lynch",
+            "b": "Virginia planter and justice of the peace, 1736–1796"
+          },
+          {
+            "a": "Active during",
+            "b": "The American Revolution"
+          },
+          {
+            "a": "His informal court dispensed",
+            "b": "Whippings and property seizure, without legal authority"
+          },
+          {
+            "a": "Word later hardened to mean",
+            "b": "Mob killing, in the following century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lynch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Lynch describes",
+            "b": "Mob execution without a lawful trial"
+          },
+          {
+            "a": "Traced to",
+            "b": "An informal Revolutionary-era Virginia court"
+          },
+          {
+            "a": "Original meaning was milder, involving",
+            "b": "Extralegal punishment, not killing"
+          },
+          {
+            "a": "Modern meaning refers to",
+            "b": "Deadly mob violence"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lynch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Historians documented the brutal history of",
+            "b": "Lynching in the American South"
+          },
+          {
+            "a": "The mob threatened to",
+            "b": "Lynch the accused man"
+          },
+          {
+            "a": "The museum exhibit confronted the era of",
+            "b": "Lynch law"
+          },
+          {
+            "a": "Activists fought for decades to make",
+            "b": "Lynching a federal crime"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Lynch",
+        "rootLanguage": "18th-century Virginia, USA",
+        "rootMeaning": "Justice of the peace whose extralegal court gave the word its start",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced to ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Lynch",
+          "highlight": true
+        },
+        {
+          "text": ", the Revolutionary-era Virginia justice whose informal, lawless court gave English a word that later hardened into something far darker.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Lynch",
+      "correctAnswer": "Justice of the peace whose extralegal court gave the word its start",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Marxist",
+    "pronunciation": "MARK-sist",
+    "pos": "adjective",
+    "definition": "Relating to the political and economic theories of Karl Marx, especially the analysis of history through class struggle and the call for a classless society.",
+    "origin": "<strong>Marxist</strong> is named after Karl Marx (1818–1883), the German philosopher and economist who, with Friedrich Engels, argued in works like <em>The Communist Manifesto</em> (1848) and <em>Das Kapital</em> that history is driven by class conflict between owners of capital and workers, and predicted this struggle would eventually produce a classless, communist society. His theories, refined and reinterpreted for over a century, shaped revolutions and governments across the twentieth century.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Marxist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Karl Marx",
+            "b": "German philosopher and economist, 1818–1883"
+          },
+          {
+            "a": "Co-author with",
+            "b": "Friedrich Engels"
+          },
+          {
+            "a": "Key works",
+            "b": "The Communist Manifesto and Das Kapital"
+          },
+          {
+            "a": "Central theory",
+            "b": "History as a struggle between classes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Marxist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Marxist describes",
+            "b": "Theories of class struggle and classless society"
+          },
+          {
+            "a": "Named after",
+            "b": "A 19th-century German philosopher"
+          },
+          {
+            "a": "Key co-author",
+            "b": "Friedrich Engels"
+          },
+          {
+            "a": "Central prediction",
+            "b": "The eventual rise of a classless society"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Marxist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The professor taught a",
+            "b": "Marxist reading of the novel"
+          },
+          {
+            "a": "He identified as a committed",
+            "b": "Marxist economist"
+          },
+          {
+            "a": "The revolution drew heavily on",
+            "b": "Marxist theory"
+          },
+          {
+            "a": "Critics dismissed the policy as",
+            "b": "Crudely Marxist"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Karl Marx",
+        "rootLanguage": "19th-century Germany",
+        "rootMeaning": "Philosopher and economist of class struggle theory",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Karl Marx",
+          "highlight": true
+        },
+        {
+          "text": ", whose theory of history as class struggle gave English a word that shaped a century of revolutions.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Karl Marx",
+      "correctAnswer": "Philosopher and economist of class struggle theory",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Thatcherism",
+    "pronunciation": "THACH-ur-iz-um",
+    "pos": "noun",
+    "definition": "A set of free-market economic policies emphasising privatisation, deregulation, and reduced trade union power, after Margaret Thatcher.",
+    "origin": "<strong>Thatcherism</strong> is named after Margaret Thatcher (1925–2013), the British prime minister from 1979 to 1990, whose government privatised state industries, curbed trade union power, and championed free markets and individual enterprise over state planning. Her supporters and critics alike coined the term while she was still in office, cementing her name to an entire economic and political philosophy.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Thatcherism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Margaret Thatcher",
+            "b": "British Prime Minister, 1979–1990"
+          },
+          {
+            "a": "Her policies included",
+            "b": "Privatisation and deregulation"
+          },
+          {
+            "a": "She also curbed",
+            "b": "The power of trade unions"
+          },
+          {
+            "a": "Term coined",
+            "b": "While she was still in office"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Thatcherism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Thatcherism describes",
+            "b": "Free-market, deregulatory economic policy"
+          },
+          {
+            "a": "Named after",
+            "b": "A British prime minister"
+          },
+          {
+            "a": "Key policy area",
+            "b": "Privatisation of state industries"
+          },
+          {
+            "a": "Political stance emphasised",
+            "b": "Individual enterprise over state planning"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Thatcherism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Historians debate the lasting impact of",
+            "b": "Thatcherism"
+          },
+          {
+            "a": "The policy was widely seen as classic",
+            "b": "Thatcherism"
+          },
+          {
+            "a": "Critics blamed",
+            "b": "Thatcherism for the decline of the industry"
+          },
+          {
+            "a": "Supporters credited",
+            "b": "Thatcherism with reviving the economy"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Margaret Thatcher",
+        "rootLanguage": "20th-century Britain",
+        "rootMeaning": "Prime Minister whose free-market policies defined an era",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Margaret Thatcher",
+          "highlight": true
+        },
+        {
+          "text": ", whose privatisation and free-market reforms gave British politics an entire \"-ism\" of its own.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Margaret Thatcher",
+      "correctAnswer": "Prime Minister whose free-market policies defined an era",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Reaganomics",
+    "pronunciation": "ray-guh-NOM-iks",
+    "pos": "noun",
+    "definition": "An economic policy combining tax cuts, reduced government spending, and deregulation, associated with US President Ronald Reagan.",
+    "origin": "<strong>Reaganomics</strong> blends \"Reagan\" with \"economics,\" named after Ronald Reagan (1911–2004), US President from 1981 to 1989, whose administration pursued sweeping income tax cuts, reduced business regulation, and lower government spending on domestic programmes, based on the idea that benefits would eventually \"trickle down\" from investors and businesses to ordinary workers. The blended term appeared in the press almost as soon as the policies were announced.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Reaganomics</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ronald Reagan",
+            "b": "US President, 1981–1989"
+          },
+          {
+            "a": "His policies included",
+            "b": "Sweeping tax cuts and deregulation"
+          },
+          {
+            "a": "Underlying theory",
+            "b": "Wealth would \"trickle down\" to workers"
+          },
+          {
+            "a": "Blended term formed from",
+            "b": "\"Reagan\" and \"economics\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Reaganomics</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Reaganomics describes",
+            "b": "Tax cuts, deregulation, and reduced spending"
+          },
+          {
+            "a": "Named after",
+            "b": "A US president"
+          },
+          {
+            "a": "Central theory",
+            "b": "The \"trickle-down\" effect"
+          },
+          {
+            "a": "Word blends",
+            "b": "A surname with \"economics\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Reaganomics</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Economists still debate the legacy of",
+            "b": "Reaganomics"
+          },
+          {
+            "a": "The tax plan echoed classic",
+            "b": "Reaganomics"
+          },
+          {
+            "a": "Critics blamed",
+            "b": "Reaganomics for widening inequality"
+          },
+          {
+            "a": "Supporters credited",
+            "b": "Reaganomics with reviving business investment"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ronald Reagan",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "President whose tax-cutting policies defined an economic era",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ronald Reagan",
+          "highlight": true
+        },
+        {
+          "text": ", whose sweeping tax cuts and deregulation gave American economics a blended name of its own.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ronald Reagan",
+      "correctAnswer": "President whose tax-cutting policies defined an economic era",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Calvinism",
+    "pronunciation": "KAL-vin-iz-um",
+    "pos": "noun",
+    "definition": "A branch of Protestant theology emphasising the sovereignty of God, predestination, and human depravity, after John Calvin.",
+    "origin": "<strong>Calvinism</strong> is named after John Calvin (1509–1564), the French theologian who led the Protestant Reformation in Geneva and taught that God has already determined, before birth, who is destined for salvation and who is not, a doctrine known as predestination. His rigorous, disciplined theology shaped entire Protestant traditions across Europe and North America and gave English an adjective for stern moral severity.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Calvinism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "John Calvin",
+            "b": "French theologian, 1509–1564"
+          },
+          {
+            "a": "Led the Reformation in",
+            "b": "Geneva"
+          },
+          {
+            "a": "Central doctrine",
+            "b": "Predestination, salvation decided before birth"
+          },
+          {
+            "a": "Word now also describes",
+            "b": "Stern, disciplined moral severity"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Calvinism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Calvinism describes",
+            "b": "A branch of Protestant theology"
+          },
+          {
+            "a": "Central doctrine is",
+            "b": "Predestination"
+          },
+          {
+            "a": "Named after",
+            "b": "A French Reformation theologian"
+          },
+          {
+            "a": "Associated trait, in general use",
+            "b": "Strict moral discipline"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Calvinism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The town's founders were shaped by strict",
+            "b": "Calvinism"
+          },
+          {
+            "a": "His guilt over resting felt almost",
+            "b": "Calvinist"
+          },
+          {
+            "a": "The seminary still teaches classical",
+            "b": "Calvinism"
+          },
+          {
+            "a": "Historians trace the region's work ethic to",
+            "b": "Calvinist roots"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "John Calvin",
+        "rootLanguage": "16th-century France/Switzerland",
+        "rootMeaning": "Reformation theologian who taught predestination",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "John Calvin",
+          "highlight": true
+        },
+        {
+          "text": ", the Reformation theologian whose doctrine of predestination shaped both a church and a byword for stern discipline.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "John Calvin",
+      "correctAnswer": "Reformation theologian who taught predestination",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Utopian",
+    "pronunciation": "yoo-TOH-pee-un",
+    "pos": "adjective",
+    "definition": "Idealistic, imagining a perfect society; impractically visionary.",
+    "origin": "<strong>Utopian</strong> derives from <em>Utopia</em>, the 1516 book by English statesman Thomas More (1478–1535), who coined the word from Greek <em>ou</em> (not) and <em>topos</em> (place) to describe a fictional island with a perfectly ordered society, a punning title meaning \"no-place.\" More's invented word for an imaginary ideal state became the standard term for any visionary, perhaps impossibly perfect, plan.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Utopian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Thomas More",
+            "b": "English statesman, 1478–1535"
+          },
+          {
+            "a": "His book",
+            "b": "Utopia, published 1516"
+          },
+          {
+            "a": "Word coined from Greek",
+            "b": "Ou (not) + topos (place)"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "\"No-place\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Utopian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Utopian describes",
+            "b": "An idealistic, perfect but impractical vision"
+          },
+          {
+            "a": "Coined by",
+            "b": "Thomas More, in a 1516 book"
+          },
+          {
+            "a": "Literal Greek meaning",
+            "b": "\"No-place\""
+          },
+          {
+            "a": "Opposite term",
+            "b": "Dystopian"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Utopian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Critics dismissed the plan as",
+            "b": "Hopelessly utopian"
+          },
+          {
+            "a": "The commune was founded on",
+            "b": "Utopian ideals"
+          },
+          {
+            "a": "Her vision of a perfect city felt",
+            "b": "Utopian"
+          },
+          {
+            "a": "The novel imagined a",
+            "b": "Utopian future society"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Utopia",
+        "rootLanguage": "Greek, coined by Thomas More (1516)",
+        "rootMeaning": "\"No-place,\" an imagined perfect society",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From ",
+          "highlight": false
+        },
+        {
+          "text": "Utopia",
+          "highlight": true
+        },
+        {
+          "text": ", Thomas More's punning Greek coinage meaning \"no-place,\" for an island of perfect, and perhaps impossible, order.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Utopia",
+      "correctAnswer": "\"No-place,\" an imagined perfect society",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gargantuan",
+    "pronunciation": "gar-GAN-choo-un",
+    "pos": "adjective",
+    "definition": "Enormous in size; gigantic.",
+    "origin": "<strong>Gargantuan</strong> is named after Gargantua, the giant king created by French writer François Rabelais in his 1534 comic novel, a figure whose appetite and body were as vast as his adventures, famously drinking the milk of over seventeen thousand cows as an infant. The giant's sheer scale gave English an adjective for anything of truly overwhelming size.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gargantuan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Gargantua",
+            "b": "Fictional giant king, François Rabelais, 1534"
+          },
+          {
+            "a": "Author",
+            "b": "François Rabelais, French writer"
+          },
+          {
+            "a": "Famous detail",
+            "b": "Drank the milk of over 17,000 cows as an infant"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Anything of enormous, overwhelming size"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gargantuan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Gargantuan describes",
+            "b": "Enormous, gigantic size"
+          },
+          {
+            "a": "Named after",
+            "b": "A fictional giant king"
+          },
+          {
+            "a": "Created by",
+            "b": "François Rabelais, in a comic novel"
+          },
+          {
+            "a": "Related word",
+            "b": "Rabelaisian, from the same author"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gargantuan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The feast included a",
+            "b": "Gargantuan roast for fifty guests"
+          },
+          {
+            "a": "The construction project was a",
+            "b": "Gargantuan undertaking"
+          },
+          {
+            "a": "He devoured a",
+            "b": "Gargantuan portion of pasta"
+          },
+          {
+            "a": "The new stadium was truly",
+            "b": "Gargantuan in scale"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Gargantua",
+        "rootLanguage": "16th-century France (novel)",
+        "rootMeaning": "Rabelais's giant king of vast size and appetite",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Gargantua",
+          "highlight": true
+        },
+        {
+          "text": ", Rabelais's giant king of impossible appetite, whose sheer scale gave English its word for the truly enormous.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Gargantua",
+      "correctAnswer": "Rabelais's giant king of vast size and appetite",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lilliputian",
+    "pronunciation": "lil-ih-PYOO-shun",
+    "pos": "adjective",
+    "definition": "Extremely small in size or importance; trivial or petty.",
+    "origin": "<strong>Lilliputian</strong> is named after Lilliput, the fictional island in Jonathan Swift's 1726 satire <em>Gulliver's Travels</em>, whose tiny inhabitants stand only about six inches tall yet wage wars and fierce political disputes over matters as trivial as which end of a boiled egg to crack open. Swift used the tiny islanders to mock the pettiness of real political and religious quarrels, and their name became shorthand both for smallness and for small-minded triviality.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lilliputian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Lilliput",
+            "b": "Fictional island, Gulliver's Travels, 1726"
+          },
+          {
+            "a": "Author",
+            "b": "Jonathan Swift"
+          },
+          {
+            "a": "Inhabitants stand",
+            "b": "About six inches tall"
+          },
+          {
+            "a": "They wage wars over",
+            "b": "Trivial matters, satirising real disputes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lilliputian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Lilliputian describes",
+            "b": "Extremely small size, or petty triviality"
+          },
+          {
+            "a": "Named after",
+            "b": "A fictional island of tiny people"
+          },
+          {
+            "a": "Created by",
+            "b": "Jonathan Swift, as satire"
+          },
+          {
+            "a": "Related word by the same author",
+            "b": "Swiftian"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lilliputian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The dollhouse furniture was almost",
+            "b": "Lilliputian in scale"
+          },
+          {
+            "a": "Critics called the office feud a",
+            "b": "Lilliputian squabble"
+          },
+          {
+            "a": "The model city featured",
+            "b": "Lilliputian streets and buildings"
+          },
+          {
+            "a": "Their argument over the seating chart seemed",
+            "b": "Lilliputian in hindsight"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Lilliput",
+        "rootLanguage": "18th-century England (novel)",
+        "rootMeaning": "Swift's fictional island of six-inch-tall inhabitants",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Lilliput",
+          "highlight": true
+        },
+        {
+          "text": ", Swift's island of tiny, quarrelsome inhabitants, satirising real disputes as pettily small.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Lilliput",
+      "correctAnswer": "Swift's fictional island of six-inch-tall inhabitants",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jacobin",
+    "pronunciation": "JAK-uh-bin",
+    "pos": "noun",
+    "definition": "A radical revolutionary, especially one associated with extreme or violent political change.",
+    "origin": "<strong>Jacobin</strong> is named after the Jacobin Club, the most influential political faction of the French Revolution, which took its name from the former Dominican monastery of Saint-Jacques in Paris where the group first met. Under Maximilien Robespierre, the Jacobins drove the Revolution's most radical phase, including the Reign of Terror, and their name became a lasting label for uncompromising revolutionary zeal.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jacobin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jacobin Club",
+            "b": "Political faction of the French Revolution"
+          },
+          {
+            "a": "Named after",
+            "b": "The former monastery of Saint-Jacques, Paris"
+          },
+          {
+            "a": "Led during its radical phase by",
+            "b": "Maximilien Robespierre"
+          },
+          {
+            "a": "Associated with",
+            "b": "The Reign of Terror"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jacobin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Jacobin describes",
+            "b": "A radical, uncompromising revolutionary"
+          },
+          {
+            "a": "Named after",
+            "b": "A former Dominican monastery in Paris"
+          },
+          {
+            "a": "Historical context",
+            "b": "The French Revolution"
+          },
+          {
+            "a": "Associated leader",
+            "b": "Maximilien Robespierre"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jacobin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Historians studied the rise of the",
+            "b": "Jacobin faction"
+          },
+          {
+            "a": "Critics branded the reformer a modern",
+            "b": "Jacobin"
+          },
+          {
+            "a": "The pamphlet called for",
+            "b": "Jacobin-style radical change"
+          },
+          {
+            "a": "Moderates feared the movement was turning",
+            "b": "Jacobin"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Saint-Jacques monastery",
+        "rootLanguage": "18th-century France (Paris)",
+        "rootMeaning": "Former Dominican monastery where the radical revolutionary club first met",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the monastery of ",
+          "highlight": false
+        },
+        {
+          "text": "Saint-Jacques",
+          "highlight": true
+        },
+        {
+          "text": " in Paris, where the French Revolution's most radical political faction first gathered.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Saint-Jacques monastery",
+      "correctAnswer": "Former Dominican monastery where the radical revolutionary club first met",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bolshevik",
+    "pronunciation": "BOL-shuh-vik",
+    "pos": "noun",
+    "definition": "A member of the majority faction of the Russian Social Democratic party that seized power in the 1917 revolution, or, loosely, a radical communist.",
+    "origin": "<strong>Bolshevik</strong> comes from the Russian word <em>bolshinstvo</em>, meaning \"majority,\" after Vladimir Lenin's faction won a party vote in 1903 and took the name for themselves, even though they were not always the actual majority within the wider party. The Bolsheviks went on to seize power in the October Revolution of 1917, and their chosen name for a narrow procedural win became a word for revolutionary communism itself.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bolshevik</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Russian bolshinstvo",
+            "b": "Meaning \"majority\""
+          },
+          {
+            "a": "Faction led by",
+            "b": "Vladimir Lenin"
+          },
+          {
+            "a": "Won a party vote in",
+            "b": "1903"
+          },
+          {
+            "a": "Seized power in",
+            "b": "The October Revolution, 1917"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bolshevik</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bolshevik describes",
+            "b": "A member of Lenin's revolutionary faction"
+          },
+          {
+            "a": "Word literally means",
+            "b": "Majority, in Russian"
+          },
+          {
+            "a": "Seized power in",
+            "b": "1917"
+          },
+          {
+            "a": "Loosely used today to mean",
+            "b": "A radical communist"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bolshevik</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Historians traced the rise of the",
+            "b": "Bolsheviks to 1917"
+          },
+          {
+            "a": "The exiled aristocrats fled the",
+            "b": "Bolshevik revolution"
+          },
+          {
+            "a": "The museum exhibit covered early",
+            "b": "Bolshevik propaganda"
+          },
+          {
+            "a": "Critics dismissively called the union radicals",
+            "b": "Bolsheviks"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bolshinstvo",
+        "rootLanguage": "Russian",
+        "rootMeaning": "Majority, the name Lenin's faction claimed after a party vote",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Russian ",
+          "highlight": false
+        },
+        {
+          "text": "bolshinstvo",
+          "highlight": true
+        },
+        {
+          "text": " (majority), the name a revolutionary faction claimed after a narrow party vote, then carried into world history.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bolshinstvo",
+      "correctAnswer": "Majority, the name Lenin's faction claimed after a party vote",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nabob",
+    "pronunciation": "NAY-bob",
+    "pos": "noun",
+    "definition": "A person of great wealth or power, especially one who has made a fortune abroad.",
+    "origin": "<strong>Nabob</strong> derives from the Urdu and Hindi <em>nawab</em>, itself from Arabic, a title for a Muslim provincial governor under the Mughal Empire in India. British East India Company employees who returned home in the eighteenth century having amassed enormous personal fortunes were sarcastically nicknamed \"nabobs\" by their countrymen, mocking their sudden wealth and pretensions to aristocratic power.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nabob</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Urdu/Hindi nawab",
+            "b": "Title for a Mughal provincial governor"
+          },
+          {
+            "a": "Ultimately from",
+            "b": "Arabic"
+          },
+          {
+            "a": "Applied sarcastically to",
+            "b": "British East India Company employees"
+          },
+          {
+            "a": "Mocked their",
+            "b": "Sudden fortunes and aristocratic pretensions"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nabob</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nabob describes",
+            "b": "A person of great, often newly made, wealth"
+          },
+          {
+            "a": "Originally a title for",
+            "b": "A Mughal provincial governor"
+          },
+          {
+            "a": "Applied mockingly to",
+            "b": "Returning British colonial fortune-seekers"
+          },
+          {
+            "a": "Modern use is often",
+            "b": "Ironic or dismissive"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nabob</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tabloid mocked the tech",
+            "b": "Nabob's lavish new yacht"
+          },
+          {
+            "a": "He returned from the colonies a wealthy",
+            "b": "Nabob"
+          },
+          {
+            "a": "Critics sneered at the media",
+            "b": "Nabobs of Wall Street"
+          },
+          {
+            "a": "The satirist skewered the pretensions of the new",
+            "b": "Nabobs"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "nawab",
+        "rootLanguage": "Urdu/Hindi, from Arabic",
+        "rootMeaning": "Title for a Mughal provincial governor",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From ",
+          "highlight": false
+        },
+        {
+          "text": "nawab",
+          "highlight": true
+        },
+        {
+          "text": ", a Mughal governor's title, borrowed sarcastically for British fortune-hunters who returned home suddenly, suspiciously rich.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nawab",
+      "correctAnswer": "Title for a Mughal provincial governor",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hooligan",
+    "pronunciation": "HOO-lih-gun",
+    "pos": "noun",
+    "definition": "A violent, unruly troublemaker, especially one involved in gang or crowd violence.",
+    "origin": "<strong>Hooligan</strong> is widely believed to derive from Hooligan, the surname of a rowdy, possibly fictional Irish family, or a specific unruly individual, in 1890s London, popularised through a music hall song and newspaper crime reports about their disorderly, often drunken behaviour. The name spread rapidly through the press to describe any violent street rowdy, well before its later, specific association with football crowd violence.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hooligan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hooligan",
+            "b": "Surname of a rowdy family or individual, 1890s London"
+          },
+          {
+            "a": "Popularised through",
+            "b": "A music hall song and crime reports"
+          },
+          {
+            "a": "Behaviour associated with them",
+            "b": "Disorderly, often drunken violence"
+          },
+          {
+            "a": "Word later specifically applied to",
+            "b": "Football crowd violence"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hooligan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hooligan describes",
+            "b": "A violent, unruly troublemaker"
+          },
+          {
+            "a": "Traced to",
+            "b": "A rowdy London surname of the 1890s"
+          },
+          {
+            "a": "Modern specific use",
+            "b": "Football-related crowd violence"
+          },
+          {
+            "a": "General use describes",
+            "b": "Any disorderly, aggressive troublemaker"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hooligan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Police arrested several",
+            "b": "Hooligans after the match"
+          },
+          {
+            "a": "The neighbours complained about the",
+            "b": "Hooligans smashing windows"
+          },
+          {
+            "a": "The stadium banned known",
+            "b": "Hooligans from future games"
+          },
+          {
+            "a": "Newspapers blamed a gang of",
+            "b": "Hooligans for the unrest"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Hooligan",
+        "rootLanguage": "1890s London",
+        "rootMeaning": "Surname of a rowdy family, popularised by song and crime reports",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced to ",
+          "highlight": false
+        },
+        {
+          "text": "Hooligan",
+          "highlight": true
+        },
+        {
+          "text": ", the surname of a rowdy 1890s London family whose disorderly reputation, spread by song and headline, became a word for any violent troublemaker.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Hooligan",
+      "correctAnswer": "Surname of a rowdy family, popularised by song and crime reports",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mercator",
+    "pronunciation": "mur-KAY-tur",
+    "pos": "adjective",
+    "definition": "Describing a map projection that represents lines of constant compass direction as straight lines, widely used for navigation.",
+    "origin": "<strong>Mercator</strong> projection is named after Gerardus Mercator (1512–1594), the Flemish cartographer who in 1569 devised a way to project the curved surface of the globe onto a flat rectangle so that any straight line drawn on the map corresponded to a constant compass bearing, an enormous aid to sailors. The projection's well-known drawback, distorting the size of regions far from the equator, still bears his name today.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mercator</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Gerardus Mercator",
+            "b": "Flemish cartographer, 1512–1594"
+          },
+          {
+            "a": "Devised the projection in",
+            "b": "1569"
+          },
+          {
+            "a": "Its key advantage",
+            "b": "Straight lines show constant compass bearings"
+          },
+          {
+            "a": "Its known flaw",
+            "b": "Distorts the size of regions far from the equator"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mercator</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mercator describes",
+            "b": "A map projection used for navigation"
+          },
+          {
+            "a": "Named after",
+            "b": "A Flemish cartographer"
+          },
+          {
+            "a": "Key benefit for sailors",
+            "b": "Straight-line compass bearings"
+          },
+          {
+            "a": "Well-known criticism",
+            "b": "Distorts relative land sizes"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mercator</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The classroom wall displayed a classic",
+            "b": "Mercator map"
+          },
+          {
+            "a": "Navigators for centuries relied on the",
+            "b": "Mercator projection"
+          },
+          {
+            "a": "Critics noted how the",
+            "b": "Mercator projection exaggerates Greenland's size"
+          },
+          {
+            "a": "The ship's charts used a",
+            "b": "Mercator grid"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Gerardus Mercator",
+        "rootLanguage": "16th-century Flanders",
+        "rootMeaning": "Cartographer who devised the navigational map projection",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Gerardus Mercator",
+          "highlight": true
+        },
+        {
+          "text": ", the Flemish cartographer whose 1569 projection gave sailors straight compass lines, at the cost of true proportion.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Gerardus Mercator",
+      "correctAnswer": "Cartographer who devised the navigational map projection",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Trotskyist",
+    "pronunciation": "TROT-skee-ist",
+    "pos": "adjective",
+    "definition": "Relating to the Marxist theories of Leon Trotsky, especially permanent worldwide revolution rather than socialism in a single nation.",
+    "origin": "<strong>Trotskyist</strong> is named after Leon Trotsky (1879–1940), a leading figure of the Russian Revolution alongside Lenin, who after Stalin rose to power argued for \"permanent revolution\" spreading communism worldwide, rather than Stalin's policy of building \"socialism in one country\" first. Exiled and eventually assassinated by a Stalinist agent in Mexico with an ice axe, Trotsky's name lived on as shorthand for this rival, internationalist strand of Marxism.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Trotskyist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Leon Trotsky",
+            "b": "Russian revolutionary leader, 1879–1940"
+          },
+          {
+            "a": "His theory",
+            "b": "Permanent, worldwide revolution"
+          },
+          {
+            "a": "Rival to",
+            "b": "Stalin's \"socialism in one country\""
+          },
+          {
+            "a": "His fate",
+            "b": "Exiled, then assassinated in Mexico, 1940"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Trotskyist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Trotskyist describes",
+            "b": "The theory of permanent worldwide revolution"
+          },
+          {
+            "a": "Named after",
+            "b": "A Russian revolutionary leader"
+          },
+          {
+            "a": "Rival theory came from",
+            "b": "Joseph Stalin"
+          },
+          {
+            "a": "Trotsky was ultimately",
+            "b": "Assassinated in exile"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Trotskyist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The splinter party identified as strictly",
+            "b": "Trotskyist"
+          },
+          {
+            "a": "Historians studied the rivalry between Stalinist and",
+            "b": "Trotskyist factions"
+          },
+          {
+            "a": "The pamphlet argued a",
+            "b": "Trotskyist case for global revolution"
+          },
+          {
+            "a": "He was expelled from the party for",
+            "b": "Trotskyist sympathies"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Leon Trotsky",
+        "rootLanguage": "20th-century Russia/USSR",
+        "rootMeaning": "Revolutionary leader who championed permanent worldwide revolution",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Leon Trotsky",
+          "highlight": true
+        },
+        {
+          "text": ", the exiled revolutionary whose theory of permanent worldwide revolution rivalled Stalin's, right up to his assassination.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Leon Trotsky",
+      "correctAnswer": "Revolutionary leader who championed permanent worldwide revolution",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bogeyman",
+    "pronunciation": "BOH-gee-man",
+    "pos": "noun",
+    "definition": "An imaginary evil figure used to frighten children, or a person or thing that is a source of fear or blame.",
+    "origin": "<strong>Bogeyman</strong> most likely traces to \"bogey\" or \"bogle,\" old English and Scots words for a goblin or spectre, themselves possibly connected to \"Boggart,\" a household spirit of English and Welsh folklore, or even distantly to Bonaparte, whom some claim was invoked to frighten British children with the threat of \"Boney\" coming to get them. The exact ancestor is disputed, but the word settled into a generic name for any invented figure of dread used to enforce obedience or explain misfortune.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bogeyman</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Bogey / bogle",
+            "b": "Old English and Scots words for a goblin or spectre"
+          },
+          {
+            "a": "Possibly connected to",
+            "b": "Boggart, a household spirit in folklore"
+          },
+          {
+            "a": "Disputed link to",
+            "b": "Napoleon Bonaparte, invoked as \"Boney\""
+          },
+          {
+            "a": "Word now describes",
+            "b": "Any invented figure of dread or blame"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bogeyman</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bogeyman describes",
+            "b": "An imaginary evil figure used to frighten"
+          },
+          {
+            "a": "Traditionally invoked to",
+            "b": "Scare children into obedience"
+          },
+          {
+            "a": "Modern figurative use",
+            "b": "A convenient scapegoat or source of fear"
+          },
+          {
+            "a": "Possible root word",
+            "b": "Bogey or bogle, meaning goblin"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bogeyman</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The politician was cast as the campaign's",
+            "b": "Bogeyman"
+          },
+          {
+            "a": "Parents once warned children about the",
+            "b": "Bogeyman under the bed"
+          },
+          {
+            "a": "The industry became the media's favourite",
+            "b": "Bogeyman"
+          },
+          {
+            "a": "He was treated as the office's convenient",
+            "b": "Bogeyman for every failure"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bogey / bogle",
+        "rootLanguage": "Old English/Scots",
+        "rootMeaning": "A goblin or spectre used to frighten",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced to ",
+          "highlight": false
+        },
+        {
+          "text": "bogey",
+          "highlight": true
+        },
+        {
+          "text": " or bogle, old words for a goblin, that grew into a name for any invented figure of dread.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bogey / bogle",
+      "correctAnswer": "A goblin or spectre used to frighten",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Miranda",
+    "pronunciation": "muh-RAN-duh",
+    "pos": "adjective",
+    "definition": "Relating to the legal requirement that a person be informed of their rights to silence and legal counsel upon arrest.",
+    "origin": "<strong>Miranda</strong> rights are named after Ernesto Miranda, a man arrested in Phoenix, Arizona in 1963 and convicted based on a confession he gave without being told he had the right to remain silent or to a lawyer. His case reached the US Supreme Court, which ruled in 1966 that such warnings must be given before any police interrogation, and \"reading someone their Miranda rights\" has been standard procedure ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-politics",
+      "name": "Politics & Ideology",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Miranda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ernesto Miranda",
+            "b": "Man arrested in Phoenix, Arizona, 1963"
+          },
+          {
+            "a": "His confession was given without",
+            "b": "Knowledge of his right to silence or counsel"
+          },
+          {
+            "a": "Case decided by",
+            "b": "The US Supreme Court, 1966"
+          },
+          {
+            "a": "Ruling required",
+            "b": "Warnings before any police interrogation"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Miranda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Miranda describes",
+            "b": "The right to silence and counsel upon arrest"
+          },
+          {
+            "a": "Named after",
+            "b": "The defendant in a 1966 Supreme Court case"
+          },
+          {
+            "a": "\"Miranda rights\" must be read",
+            "b": "Before police interrogation"
+          },
+          {
+            "a": "Legal basis is",
+            "b": "A US Supreme Court ruling"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Miranda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The officer read the suspect his",
+            "b": "Miranda rights"
+          },
+          {
+            "a": "The case was dismissed after police failed to give a",
+            "b": "Miranda warning"
+          },
+          {
+            "a": "Every crime drama includes the familiar",
+            "b": "Miranda recitation"
+          },
+          {
+            "a": "The defence argued the confession violated his",
+            "b": "Miranda protections"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ernesto Miranda",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Defendant whose Supreme Court case established the right-to-silence warning",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ernesto Miranda",
+          "highlight": true
+        },
+        {
+          "text": ", whose 1966 Supreme Court case made it standard procedure to warn suspects of their rights before questioning.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ernesto Miranda",
+      "correctAnswer": "Defendant whose Supreme Court case established the right-to-silence warning",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

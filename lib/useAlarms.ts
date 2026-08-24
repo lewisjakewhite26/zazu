@@ -5,6 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { DEFAULT_ALARMS, type Alarm } from './alarm';
 import {
+  cancelAlarmNotification,
   getAlarmPermissionStatus,
   requestNotificationPermissions,
   syncAlarmNotifications,
@@ -93,10 +94,18 @@ export function useAlarms() {
 
   // Exact-alarm and battery-optimization grants happen in system Settings,
   // outside any in-app callback -- foreground is the only moment we can
-  // notice the user came back having fixed (or revoked) them.
+  // notice the user came back having fixed (or revoked) them. Notifications
+  // gets the same "always ask again if missing" treatment, but via the OS's
+  // own dialog rather than a custom one -- requestNotificationPermissions()
+  // is a no-op silently returning the current status once permanently denied,
+  // so this is safe to call on every foreground.
   useEffect(() => {
     const subscription = AppState.addEventListener('change', (state) => {
-      if (state === 'active') void refreshPermissionStatus();
+      if (state !== 'active') return;
+      void (async () => {
+        await requestNotificationPermissions();
+        await refreshPermissionStatus();
+      })();
     });
     return () => subscription.remove();
   }, [refreshPermissionStatus]);
@@ -127,6 +136,12 @@ export function useAlarms() {
   const deleteAlarm = useCallback(
     async (id: string) => {
       const next = alarms.filter((alarm) => alarm.id !== id);
+      // syncAlarmNotifications only touches IDs still present in `next`, so
+      // the deleted alarm's own daily-repeating trigger (and any pending
+      // snooze, which is a separate trigger id) would otherwise never be
+      // cancelled and would keep firing on the device indefinitely.
+      await cancelAlarmNotification(id);
+      await cancelAlarmNotification(`${id}-snooze`);
       await persistAlarms(next);
     },
     [alarms, persistAlarms],

@@ -36,8 +36,8 @@ export const WORD_PACKS: WordPack[] = [
   {
     id: 'loan-words',
     title: 'Loan Words',
-    description: 'Borrowed from African, American, classical, East Asian, and French roots.',
-    wordCount: 180,
+    description: 'Borrowed from African, American, classical, East Asian, French, Nordic, German, Yiddish, Italian, Spanish, Middle Eastern, South Asian, and Pacific roots.',
+    wordCount: 391,
     status: 'available',
     kind: 'standard',
   },
@@ -52,9 +52,9 @@ export const WORD_PACKS: WordPack[] = [
   {
     id: 'eponym',
     title: 'Eponyms',
-    description: 'Words named after real people.',
-    wordCount: 0,
-    status: 'coming_soon',
+    description: 'Words named after real people, from Kafkaesque to Zipper.',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {
@@ -92,9 +92,9 @@ export const WORD_PACKS: WordPack[] = [
   {
     id: 'science',
     title: 'Science',
-    description: 'Precise language for a precise subject.',
-    wordCount: 0,
-    status: 'coming_soon',
+    description: 'From cells to circuits — biology, chemistry, earth, physics, and computing.',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
 ];

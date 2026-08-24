@@ -3,7 +3,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { copy } from '@/constants/copy';
 import { cardBlurIntensity, fonts, radii, typography } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
@@ -53,9 +53,6 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
           color: colors.text,
           textAlign: 'center',
         },
-        wordLoading: {
-          opacity: 0.45,
-        },
         posText: {
           ...typography.posBadge,
           fontStyle: 'italic',
@@ -71,29 +68,35 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
         },
         cardLoading: {
           minHeight: 100,
-        },
-        loadingRow: {
-          flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
-          marginTop: 12,
         },
-        loadingText: {
-          ...typography.wotdDef,
-          color: colors.subtext,
+        skeletonEyebrow: {
+          marginBottom: 10,
+        },
+        skeletonWord: {
+          marginBottom: 12,
+        },
+        skeletonPos: {
+          marginBottom: 16,
+        },
+        skeletonDefLine: {
+          marginBottom: 8,
         },
       }),
     [colors],
   );
 
   const cardBody = loading ? (
-    <View style={[styles.cardInner, styles.cardLoading]} accessibilityRole="progressbar">
-      <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
-      <Text style={[styles.word, styles.wordLoading]}>{copy.home.wordOfDayLoading}</Text>
-      <View style={styles.loadingRow}>
-        <LoadingSpinner size={16} />
-        <Text style={styles.loadingText}>{copy.home.wordOfDayLoading}</Text>
-      </View>
+    <View
+      style={[styles.cardInner, styles.cardLoading]}
+      accessibilityRole="progressbar"
+      accessibilityLabel={copy.home.wordOfDayLoading}
+    >
+      <Skeleton width={90} height={11} style={styles.skeletonEyebrow} />
+      <Skeleton width={170} height={34} style={styles.skeletonWord} />
+      <Skeleton width={70} height={11} style={styles.skeletonPos} />
+      <Skeleton width="88%" height={15} style={styles.skeletonDefLine} />
+      <Skeleton width="65%" height={15} />
     </View>
   ) : (
     <View

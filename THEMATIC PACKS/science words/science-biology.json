@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Hormone",
+    "pronunciation": "HOR-mohn",
+    "pos": "noun",
+    "definition": "A chemical messenger produced by a gland or tissue that travels in the blood and regulates the activity of cells or organs elsewhere in the body.",
+    "origin": "Coined in 1905 by English physiologist Ernest Starling from Greek <strong>hormon</strong> (\"setting in motion\"), the present participle of horman (to urge on), to describe the newly discovered chemical secretin that triggers digestion.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hormone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek hormon", "b": "Setting in motion" },
+          { "a": "Coined in 1905 by", "b": "Ernest Starling" },
+          { "a": "First named hormone", "b": "Secretin" },
+          { "a": "From horman, meaning", "b": "To urge on" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hormone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hormone is", "b": "A chemical messenger in the blood" },
+          { "a": "Hormones are produced by", "b": "Glands and certain tissues" },
+          { "a": "Hormones regulate", "b": "Distant cells and organs" },
+          { "a": "The study of hormones is", "b": "Endocrinology" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hormone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Teenage mood swings are often blamed on", "b": "Fluctuating hormones" },
+          { "a": "The thyroid gland releases a hormone", "b": "That controls metabolism" },
+          { "a": "Stress triggers a surge of the hormone", "b": "Cortisol" },
+          { "a": "Doctors ran tests to check her", "b": "Hormone levels" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hormon", "rootLanguage": "Greek", "rootMeaning": "Setting in motion", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "hormon", "highlight": true }, { "text": " (\"setting in motion\"); a chemical messenger that stirs the body to act.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hormon", "correctAnswer": "Setting in motion", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vaccine",
+    "pronunciation": "vak-SEEN",
+    "pos": "noun",
+    "definition": "A substance used to stimulate immunity to a disease, typically prepared from a weakened or inactivated form of the disease-causing agent.",
+    "origin": "From Latin <strong>vacca</strong> (cow). Edward Jenner coined the term in the 1790s after showing that matter from cowpox sores could protect against smallpox; Louis Pasteur later broadened the word to cover any protective inoculation.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vaccine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin vacca", "b": "Cow" },
+          { "a": "Coined in the 1790s by", "b": "Edward Jenner" },
+          { "a": "Jenner used matter from", "b": "Cowpox sores" },
+          { "a": "Term broadened by", "b": "Louis Pasteur" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vaccine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A vaccine stimulates", "b": "Immunity to a disease" },
+          { "a": "Many vaccines contain", "b": "A weakened or inactive agent" },
+          { "a": "Administering a vaccine is called", "b": "Vaccination" },
+          { "a": "Vaccines work by training", "b": "The immune system" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vaccine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The clinic offered a free", "b": "Flu vaccine" },
+          { "a": "Researchers raced to develop a", "b": "Vaccine for the new virus" },
+          { "a": "Before travelling abroad, she got a", "b": "Yellow fever vaccine" },
+          { "a": "Childhood vaccines protect against", "b": "Measles and other diseases" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vacca", "rootLanguage": "Latin", "rootMeaning": "Cow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vacca", "highlight": true }, { "text": " (cow); named for Jenner's cowpox experiments.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vacca", "correctAnswer": "Cow", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chromosome",
+    "pronunciation": "KROH-muh-sohm",
+    "pos": "noun",
+    "definition": "A thread-like structure of nucleic acid and protein found in the nucleus of most living cells, carrying genetic information in the form of genes.",
+    "origin": "Coined in 1888 by German anatomist Heinrich Wilhelm Waldeyer from Greek <strong>khroma</strong> (colour) and soma (body), because the structures stained vividly with dye and became visible under the microscope.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chromosome</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek khroma", "b": "Colour" },
+          { "a": "Greek soma", "b": "Body" },
+          { "a": "Coined in 1888 by", "b": "Heinrich Wilhelm Waldeyer" },
+          { "a": "Named for their tendency to", "b": "Stain vividly with dye" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chromosome</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chromosome carries", "b": "Genetic information" },
+          { "a": "Chromosomes are found in", "b": "The nucleus of a cell" },
+          { "a": "Humans typically have", "b": "Forty-six chromosomes" },
+          { "a": "Chromosomes are made of", "b": "DNA and protein" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chromosome</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The test screened the embryo's", "b": "Chromosomes for abnormalities" },
+          { "a": "An extra copy of chromosome 21 causes", "b": "Down syndrome" },
+          { "a": "Under the microscope, the stained", "b": "Chromosomes lined up in pairs" },
+          { "a": "The Y chromosome determines", "b": "Biological sex in mammals" }
+        ] }
+    ],
+    "roots": [ { "rootText": "khroma", "rootLanguage": "Greek", "rootMeaning": "Colour", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "khroma", "highlight": true }, { "text": " (colour) + soma (body); named for how vividly they stained under the microscope.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "khroma", "correctAnswer": "Colour", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Adrenaline",
+    "pronunciation": "uh-DREN-uh-lin",
+    "pos": "noun",
+    "definition": "A hormone secreted by the adrenal glands in response to stress or fear, increasing heart rate and blood flow to the muscles.",
+    "origin": "From Latin <strong>ad</strong> (near) + renes (kidneys), reflecting the adrenal glands' position atop the kidneys. The hormone was first isolated in 1901 by Japanese chemist Jokichi Takamine, who patented it under this name.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Adrenaline</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ad", "b": "Near" },
+          { "a": "Latin renes", "b": "Kidneys" },
+          { "a": "Isolated in 1901 by", "b": "Jokichi Takamine" },
+          { "a": "Named for the glands'", "b": "Position atop the kidneys" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Adrenaline</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Adrenaline is released by", "b": "The adrenal glands" },
+          { "a": "Adrenaline is triggered by", "b": "Stress or fear" },
+          { "a": "Adrenaline increases", "b": "Heart rate and blood flow" },
+          { "a": "The 'fight or flight' response is driven by", "b": "Adrenaline" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Adrenaline</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A rush of adrenaline helped her", "b": "Lift the fallen branch" },
+          { "a": "Paramedics injected", "b": "Adrenaline to restart his heart" },
+          { "a": "Bungee jumpers chase the", "b": "Adrenaline rush" },
+          { "a": "His hands shook, still full of", "b": "Post-match adrenaline" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ad renes", "rootLanguage": "Latin", "rootMeaning": "Near the kidneys", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ad renes", "highlight": true }, { "text": " (near the kidneys); named for where the hormone-producing glands sit.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ad renes", "correctAnswer": "Near the kidneys", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Insulin",
+    "pronunciation": "IN-suh-lin",
+    "pos": "noun",
+    "definition": "A hormone produced by the pancreas that regulates the level of glucose in the blood.",
+    "origin": "From Latin <strong>insula</strong> (island), naming the pancreatic islets of Langerhans, the clusters of cells where the hormone is made. It was isolated in 1921 by Frederick Banting and Charles Best in Toronto.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Insulin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin insula", "b": "Island" },
+          { "a": "Named for the pancreatic", "b": "Islets of Langerhans" },
+          { "a": "Isolated in 1921 in Toronto by", "b": "Banting and Best" },
+          { "a": "Produced by the", "b": "Pancreas" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Insulin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Insulin regulates", "b": "Blood glucose levels" },
+          { "a": "Insulin lets cells", "b": "Absorb sugar for energy" },
+          { "a": "Type 1 diabetes results from", "b": "A lack of insulin" },
+          { "a": "Insulin was the first hormone to be", "b": "Mass-produced as a drug" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Insulin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She checked her blood sugar before an", "b": "Insulin injection" },
+          { "a": "The pancreas releases insulin after", "b": "A meal" },
+          { "a": "Without regular insulin, glucose builds up in", "b": "The bloodstream" },
+          { "a": "The discovery of insulin transformed", "b": "The treatment of diabetes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "insula", "rootLanguage": "Latin", "rootMeaning": "Island", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "insula", "highlight": true }, { "text": " (island); named for the pancreatic islets that produce it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "insula", "correctAnswer": "Island", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Penicillin",
+    "pronunciation": "pen-uh-SIL-in",
+    "pos": "noun",
+    "definition": "An antibiotic derived from Penicillium mould, used to treat infections caused by susceptible bacteria.",
+    "origin": "Named from the mould genus <strong>Penicillium</strong>, itself from Latin penicillus (little brush), describing its brush-shaped spore-bearing structures. Alexander Fleming discovered its antibacterial effect by accident in 1928.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Penicillin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin penicillus", "b": "Little brush" },
+          { "a": "Named after the mould genus", "b": "Penicillium" },
+          { "a": "Discovered by accident in 1928 by", "b": "Alexander Fleming" },
+          { "a": "Named for the mould's", "b": "Brush-shaped spore structures" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Penicillin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Penicillin is a type of", "b": "Antibiotic" },
+          { "a": "Penicillin is derived from", "b": "Penicillium mould" },
+          { "a": "Penicillin treats infections caused by", "b": "Susceptible bacteria" },
+          { "a": "Some people have an allergy to", "b": "Penicillin" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Penicillin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The doctor prescribed a course of", "b": "Penicillin for the infection" },
+          { "a": "Fleming noticed the mould had killed", "b": "The surrounding bacteria" },
+          { "a": "Before checking his chart, she asked about a", "b": "Penicillin allergy" },
+          { "a": "Mass production of penicillin during the war saved", "b": "Countless soldiers' lives" }
+        ] }
+    ],
+    "roots": [ { "rootText": "penicillus", "rootLanguage": "Latin", "rootMeaning": "Little brush", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "penicillus", "highlight": true }, { "text": " (little brush); named for the mould's brush-like spore structures.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "penicillus", "correctAnswer": "Little brush", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Antibiotic",
+    "pronunciation": "an-ti-by-OT-ik",
+    "pos": "noun",
+    "definition": "A medicine that inhibits the growth of, or destroys, bacteria.",
+    "origin": "From Greek <strong>anti</strong> (against) + bios (life). The word was first used in this modern sense by Ukrainian-American microbiologist Selman Waksman in 1942 to describe compounds produced by microbes that kill other microbes.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Antibiotic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek anti", "b": "Against" },
+          { "a": "Greek bios", "b": "Life" },
+          { "a": "Coined in this sense in 1942 by", "b": "Selman Waksman" },
+          { "a": "Waksman described compounds that", "b": "Kill other microbes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Antibiotic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An antibiotic inhibits", "b": "Bacterial growth" },
+          { "a": "Antibiotics are ineffective against", "b": "Viruses" },
+          { "a": "Overuse of antibiotics leads to", "b": "Resistant bacteria" },
+          { "a": "A full course of antibiotics should be", "b": "Completed as prescribed" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Antibiotic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vet prescribed a broad-spectrum", "b": "Antibiotic for the wound" },
+          { "a": "She finished the whole course of", "b": "Antibiotics, as advised" },
+          { "a": "Farmers are cutting back on", "b": "Antibiotic use in livestock" },
+          { "a": "Scientists warn of a coming", "b": "Antibiotic-resistance crisis" }
+        ] }
+    ],
+    "roots": [ { "rootText": "anti bios", "rootLanguage": "Greek", "rootMeaning": "Against life", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "anti bios", "highlight": true }, { "text": " (\"against life\"); a substance made by one microbe to kill another.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "anti bios", "correctAnswer": "Against life", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bacteria",
+    "pronunciation": "bak-TEER-ee-uh",
+    "pos": "noun (plural)",
+    "definition": "Single-celled microorganisms without a nucleus, found in nearly every habitat on Earth; some cause disease while others are essential to health and ecosystems.",
+    "origin": "From Greek <strong>bakterion</strong> (little staff or rod), coined by German scientist Christian Gottfried Ehrenberg in 1828 to describe the rod-shaped microorganisms he observed through the microscope.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bacteria</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek bakterion", "b": "Little staff or rod" },
+          { "a": "Coined in 1828 by", "b": "Christian Gottfried Ehrenberg" },
+          { "a": "Named for their", "b": "Rod-like shape under the microscope" },
+          { "a": "Singular form is", "b": "Bacterium" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bacteria</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bacteria are", "b": "Single-celled microorganisms" },
+          { "a": "Unlike animal cells, bacteria lack a", "b": "Nucleus" },
+          { "a": "Gut bacteria help with", "b": "Digestion" },
+          { "a": "Harmful bacteria can cause", "b": "Infection" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bacteria</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Leaving the chicken out overnight let", "b": "Bacteria multiply" },
+          { "a": "Yoghurt is made using live", "b": "Bacterial cultures" },
+          { "a": "The lab identified the", "b": "Bacteria causing the outbreak" },
+          { "a": "Hand sanitiser kills most", "b": "Surface bacteria" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bakterion", "rootLanguage": "Greek", "rootMeaning": "Little staff or rod", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "bakterion", "highlight": true }, { "text": " (little staff); named for their rod-like shape under early microscopes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bakterion", "correctAnswer": "Little staff or rod", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Embryo",
+    "pronunciation": "EM-bree-oh",
+    "pos": "noun",
+    "definition": "An unborn or unhatched offspring in the earliest stages of development, before it becomes recognisably formed.",
+    "origin": "From Greek <strong>embryon</strong>, from en (in) + bryein (to swell or grow), describing the swelling growth of new life within the womb before it is born.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Embryo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek en", "b": "In" },
+          { "a": "Greek bryein", "b": "To swell or grow" },
+          { "a": "Greek embryon literally means", "b": "That which grows within" },
+          { "a": "Describes new life", "b": "Developing in the womb" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Embryo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An embryo is", "b": "An organism in its earliest development" },
+          { "a": "In humans, the embryonic stage lasts until", "b": "About week eight" },
+          { "a": "After that stage it is called a", "b": "Foetus" },
+          { "a": "'In embryo' figuratively means", "b": "In an early, undeveloped form" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Embryo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The scan showed the developing", "b": "Embryo clearly" },
+          { "a": "The clinic froze several", "b": "Embryos for later use" },
+          { "a": "His business plan was still", "b": "An embryo of an idea" },
+          { "a": "Biologists study the chick", "b": "Embryo inside the egg" }
+        ] }
+    ],
+    "roots": [ { "rootText": "embryon", "rootLanguage": "Greek", "rootMeaning": "That which grows within", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "embryon", "highlight": true }, { "text": " (\"that which grows within\"); new life swelling inside the womb.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "embryon", "correctAnswer": "That which grows within", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Clone",
+    "pronunciation": "klohn",
+    "pos": "noun / verb",
+    "definition": "An organism or cell genetically identical to its parent, produced by asexual or artificial reproduction; to produce such a genetically identical copy.",
+    "origin": "From Greek <strong>klon</strong> (twig or slip used for propagating plants). Botanists adopted the word for plants grown from cuttings before geneticist J. B. S. Haldane extended it to animals in a 1963 lecture.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Clone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek klon", "b": "Twig or slip" },
+          { "a": "First used for", "b": "Plants grown from cuttings" },
+          { "a": "Extended to animals in 1963 by", "b": "J. B. S. Haldane" },
+          { "a": "Klon was used for propagating", "b": "Garden plants" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Clone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A clone is genetically", "b": "Identical to its source" },
+          { "a": "Dolly the sheep was the first cloned", "b": "Mammal" },
+          { "a": "To clone software means to", "b": "Copy it exactly" },
+          { "a": "Identical twins are natural", "b": "Clones of each other" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Clone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Scientists successfully cloned", "b": "The endangered species" },
+          { "a": "The rival gadget was dismissed as a cheap", "b": "Clone of the original" },
+          { "a": "Gardeners often propagate roses by", "b": "Cloning cuttings" },
+          { "a": "He joked that his little brother was", "b": "His clone" }
+        ] }
+    ],
+    "roots": [ { "rootText": "klon", "rootLanguage": "Greek", "rootMeaning": "Twig or slip", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "klon", "highlight": true }, { "text": " (twig, slip); once a gardener's word, now a geneticist's.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "klon", "correctAnswer": "Twig or slip", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Protein",
+    "pronunciation": "PROH-teen",
+    "pos": "noun",
+    "definition": "A large molecule made of chains of amino acids, essential to the structure and function of every living cell.",
+    "origin": "Coined in 1838 by Swedish chemist Jöns Jacob Berzelius from Greek <strong>proteios</strong> (primary), from protos (first), after Dutch chemist Gerardus Mulder suggested these molecules were the fundamental substance of all life.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Protein</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek protos", "b": "First" },
+          { "a": "Greek proteios means", "b": "Primary" },
+          { "a": "Coined in 1838 by", "b": "Jöns Jacob Berzelius" },
+          { "a": "Named on the suggestion of", "b": "Gerardus Mulder" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Protein</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A protein is made of chains of", "b": "Amino acids" },
+          { "a": "Proteins are essential to", "b": "Cell structure and function" },
+          { "a": "Muscle is built largely from", "b": "Protein" },
+          { "a": "Enzymes and antibodies are types of", "b": "Protein" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Protein</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Athletes are told to eat plenty of", "b": "Protein after training" },
+          { "a": "Beans and lentils are a good source of", "b": "Plant protein" },
+          { "a": "The lab isolated a novel", "b": "Protein linked to the disease" },
+          { "a": "Eggs are prized for their", "b": "High protein content" }
+        ] }
+    ],
+    "roots": [ { "rootText": "protos", "rootLanguage": "Greek", "rootMeaning": "First", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "protos", "highlight": true }, { "text": " (first); once thought the primary substance of all living matter.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "protos", "correctAnswer": "First", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Enzyme",
+    "pronunciation": "EN-zym",
+    "pos": "noun",
+    "definition": "A protein that acts as a catalyst, speeding up a specific chemical reaction within a living organism.",
+    "origin": "Coined in 1878 by German physiologist Wilhelm Kühne from Greek <strong>en</strong> (in) + zyme (leaven, yeast), naming the active substance found within yeast that drives fermentation.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Enzyme</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek en", "b": "In" },
+          { "a": "Greek zyme", "b": "Leaven, yeast" },
+          { "a": "Coined in 1878 by", "b": "Wilhelm Kühne" },
+          { "a": "Named for the active substance", "b": "Within fermenting yeast" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Enzyme</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An enzyme acts as a", "b": "Biological catalyst" },
+          { "a": "Enzymes speed up", "b": "Specific chemical reactions" },
+          { "a": "Digestive enzymes break down", "b": "Food into nutrients" },
+          { "a": "Enzymes are not used up by", "b": "The reactions they enable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Enzyme</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Biological washing powders contain", "b": "Stain-digesting enzymes" },
+          { "a": "Lactose intolerance is caused by a missing", "b": "Enzyme" },
+          { "a": "The brewer relies on an", "b": "Enzyme to convert starch to sugar" },
+          { "a": "Cheese-making depends on the enzyme", "b": "Rennet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "en zyme", "rootLanguage": "Greek", "rootMeaning": "In yeast", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "en zyme", "highlight": true }, { "text": " (\"in yeast\"); named for the active agent that drives fermentation.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "en zyme", "correctAnswer": "In yeast", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fungus",
+    "pronunciation": "FUNG-guhs",
+    "pos": "noun",
+    "definition": "An organism such as a mould, yeast, or mushroom that reproduces by spores and feeds on organic matter rather than by photosynthesis.",
+    "origin": "A direct borrowing of Latin <strong>fungus</strong> (mushroom), a word of uncertain origin possibly linked to Greek sphongos (sponge), describing the spongy texture of many fungal growths.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fungus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fungus", "b": "Mushroom" },
+          { "a": "Possibly linked to Greek sphongos", "b": "Sponge" },
+          { "a": "Describes the", "b": "Spongy texture of fungal growth" },
+          { "a": "Plural form is", "b": "Fungi" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fungus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fungi reproduce by", "b": "Spores" },
+          { "a": "Unlike plants, fungi cannot", "b": "Photosynthesise" },
+          { "a": "Yeast and mould are both", "b": "Types of fungus" },
+          { "a": "A fungal infection of the skin is called", "b": "Ringworm or athlete's foot" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fungus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A strange orange", "b": "Fungus grew on the log" },
+          { "a": "Damp bathrooms often develop", "b": "Fungus around the tiles" },
+          { "a": "Mushrooms are the fruiting body of a", "b": "Fungus" },
+          { "a": "The gardener treated the roses for", "b": "Fungal blight" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fungus", "rootLanguage": "Latin", "rootMeaning": "Mushroom", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fungus", "highlight": true }, { "text": " (mushroom); a word borrowed directly and largely unchanged.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fungus", "correctAnswer": "Mushroom", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Parasite",
+    "pronunciation": "PA-ruh-syt",
+    "pos": "noun",
+    "definition": "An organism that lives in or on another organism, drawing nutrients from it, typically to the host's detriment.",
+    "origin": "From Greek <strong>parasitos</strong> (one who eats at another's table), from para (beside) + sitos (food, grain). It originally described a flattering dinner guest before the biological sense emerged in the 17th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Parasite</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek para", "b": "Beside" },
+          { "a": "Greek sitos", "b": "Food, grain" },
+          { "a": "Parasitos originally meant", "b": "One who eats at another's table" },
+          { "a": "Biological sense emerged in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Parasite</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A parasite lives", "b": "In or on another organism" },
+          { "a": "A parasite's host is usually", "b": "Harmed by the relationship" },
+          { "a": "Tapeworms are a classic example of a", "b": "Parasite" },
+          { "a": "Calling a person a parasite is", "b": "An insult meaning they exploit others" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Parasite</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vet found evidence of an intestinal", "b": "Parasite" },
+          { "a": "Mistletoe is a plant", "b": "Parasite on trees" },
+          { "a": "He was branded a", "b": "Parasite for never paying his share" },
+          { "a": "Mosquitoes can carry the malaria", "b": "Parasite" }
+        ] }
+    ],
+    "roots": [ { "rootText": "parasitos", "rootLanguage": "Greek", "rootMeaning": "One who eats beside another", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "parasitos", "highlight": true }, { "text": " (\"one who eats at another's table\"); once a flatterer, now an exploiter.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "parasitos", "correctAnswer": "One who eats beside another", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Symbiosis",
+    "pronunciation": "sim-bee-OH-sis",
+    "pos": "noun",
+    "definition": "A close, long-term biological interaction between two different species, which may benefit both, one, or neither.",
+    "origin": "Coined in 1877 by German botanist Albert Bernhard Frank from Greek <strong>syn</strong> (together) + bios (life), literally \"living together,\" to describe lichen as a partnership of fungus and alga.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Symbiosis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek syn", "b": "Together" },
+          { "a": "Greek bios", "b": "Life" },
+          { "a": "Coined in 1877 by", "b": "Albert Bernhard Frank" },
+          { "a": "First applied to describe", "b": "Lichen as fungus and alga together" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Symbiosis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Symbiosis is a close relationship between", "b": "Two different species" },
+          { "a": "When both species benefit, it is called", "b": "Mutualism" },
+          { "a": "Clownfish and sea anemones show", "b": "Symbiosis" },
+          { "a": "Symbiosis can also describe", "b": "Any mutually dependent relationship" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Symbiosis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The oxpecker bird and the rhino live in", "b": "Symbiosis" },
+          { "a": "The two departments worked in", "b": "A kind of creative symbiosis" },
+          { "a": "Gut bacteria exist in symbiosis with", "b": "Their human host" },
+          { "a": "The documentary explored the", "b": "Symbiosis between coral and algae" }
+        ] }
+    ],
+    "roots": [ { "rootText": "symbiosis", "rootLanguage": "Greek", "rootMeaning": "Living together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "symbiosis", "highlight": true }, { "text": " (living together); coined for lichen's fungus-and-alga partnership.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "symbiosis", "correctAnswer": "Living together", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Anatomy",
+    "pronunciation": "uh-NAT-uh-mee",
+    "pos": "noun",
+    "definition": "The branch of science concerned with the bodily structure of living organisms; the structure itself.",
+    "origin": "From Greek <strong>anatome</strong> (dissection), from ana (up) + temnein (to cut), reflecting the ancient practice of cutting open bodies to study their internal structure.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Anatomy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek ana", "b": "Up" },
+          { "a": "Greek temnein", "b": "To cut" },
+          { "a": "Anatome literally means", "b": "Dissection" },
+          { "a": "Reflects the ancient practice of", "b": "Cutting open bodies to study them" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Anatomy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Anatomy is the study of", "b": "Bodily structure" },
+          { "a": "Medical students dissect cadavers to learn", "b": "Human anatomy" },
+          { "a": "'The anatomy of a scandal' figuratively means", "b": "Its underlying structure" },
+          { "a": "Comparative anatomy compares structures across", "b": "Different species" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Anatomy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The textbook diagram showed the", "b": "Anatomy of the heart" },
+          { "a": "The article dissected the", "b": "Anatomy of the financial crash" },
+          { "a": "First-year students study", "b": "Human anatomy in the lab" },
+          { "a": "The sculptor studied equine", "b": "Anatomy for accuracy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "anatome", "rootLanguage": "Greek", "rootMeaning": "Cutting up", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "anatome", "highlight": true }, { "text": " (dissection); the study of structure by cutting things open.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "anatome", "correctAnswer": "Cutting up", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sterile",
+    "pronunciation": "STER-ryl",
+    "pos": "adjective",
+    "definition": "Free from bacteria or other living microorganisms; also, unable to produce offspring or, of land, unable to sustain crops.",
+    "origin": "From Latin <strong>sterilis</strong> (barren, unfruitful), a word long applied to infertile land and animals before the medical sense of being completely free of germs developed in the 19th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sterile</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sterilis", "b": "Barren, unfruitful" },
+          { "a": "Originally applied to", "b": "Infertile land and animals" },
+          { "a": "Medical sense (germ-free) arose in the", "b": "19th century" },
+          { "a": "Related noun form is", "b": "Sterility" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sterile</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sterile environment is free of", "b": "Bacteria and microorganisms" },
+          { "a": "Surgeons operate in", "b": "Sterile conditions" },
+          { "a": "A sterile animal cannot", "b": "Reproduce" },
+          { "a": "Sterile land cannot support", "b": "Crops" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sterile</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The nurse unwrapped a", "b": "Sterile needle" },
+          { "a": "The office felt cold and", "b": "Sterile" },
+          { "a": "Hybrid mules are usually", "b": "Sterile" },
+          { "a": "The lab must remain completely", "b": "Sterile at all times" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sterilis", "rootLanguage": "Latin", "rootMeaning": "Barren", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sterilis", "highlight": true }, { "text": " (barren); once about failed harvests, now about germ-free rooms.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sterilis", "correctAnswer": "Barren", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Organic",
+    "pronunciation": "or-GAN-ik",
+    "pos": "adjective",
+    "definition": "Relating to or derived from living matter; in chemistry, relating to compounds containing carbon; also, grown or produced without synthetic fertilisers or pesticides.",
+    "origin": "From Greek <strong>organon</strong> (tool, instrument, or organ of the body), via Latin organicus. The word originally described bodily organs before the chemical sense of carbon-based compounds arose in the 19th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Organic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek organon", "b": "Tool, instrument, bodily organ" },
+          { "a": "Reached English via", "b": "Latin organicus" },
+          { "a": "Originally described", "b": "The organs of the body" },
+          { "a": "Chemical sense arose in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Organic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Organic chemistry studies compounds containing", "b": "Carbon" },
+          { "a": "Organic farming avoids", "b": "Synthetic fertilisers and pesticides" },
+          { "a": "'Organic growth' in business means growth from", "b": "Internal expansion, not acquisitions" },
+          { "a": "Something organic is derived from", "b": "Living matter" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Organic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She only buys", "b": "Organic vegetables" },
+          { "a": "The startup preferred slow,", "b": "Organic growth" },
+          { "a": "The compost pile turns waste into", "b": "Rich organic matter" },
+          { "a": "The band's chemistry felt", "b": "Completely organic" }
+        ] }
+    ],
+    "roots": [ { "rootText": "organon", "rootLanguage": "Greek", "rootMeaning": "Instrument, bodily organ", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "organon", "highlight": true }, { "text": " (instrument, organ); from body parts to carbon chemistry.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "organon", "correctAnswer": "Instrument, bodily organ", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Genome",
+    "pronunciation": "JEE-nohm",
+    "pos": "noun",
+    "definition": "The complete set of genetic material present in an organism.",
+    "origin": "Coined in 1920 by German botanist Hans Winkler, who blended <strong>gene</strong> with the ending of chromosome, naming the full complement of hereditary material carried in a single set of chromosomes.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Genome</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blend of gene and", "b": "Chromosome" },
+          { "a": "Coined in 1920 by", "b": "Hans Winkler" },
+          { "a": "Winkler was a", "b": "German botanist" },
+          { "a": "Names the full set of", "b": "Hereditary material" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Genome</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A genome is the complete set of", "b": "Genetic material in an organism" },
+          { "a": "The Human Genome Project mapped", "b": "All human DNA" },
+          { "a": "Every cell in the body contains a copy of the", "b": "Genome" },
+          { "a": "Comparing genomes across species reveals", "b": "Evolutionary relationships" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Genome</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Researchers finally sequenced the", "b": "Entire genome" },
+          { "a": "The company offers to map your", "b": "Personal genome for a fee" },
+          { "a": "Scientists compared the virus's", "b": "Genome to earlier strains" },
+          { "a": "The wheat genome is unusually", "b": "Large and complex" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gene + -ome", "rootLanguage": "German blend", "rootMeaning": "The complete set of genes", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A German blend of ", "highlight": false }, { "text": "gene + -ome", "highlight": true }, { "text": " (\"chromosome\" ending); the whole genetic set in one word.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gene + -ome", "correctAnswer": "The complete set of genes", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mitosis",
+    "pronunciation": "my-TOH-sis",
+    "pos": "noun",
+    "definition": "The process of ordinary cell division that produces two genetically identical daughter cells.",
+    "origin": "Coined in 1882 by German anatomist Walther Flemming from Greek <strong>mitos</strong> (thread), describing the thread-like chromosomes he observed becoming visible during division.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mitosis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek mitos", "b": "Thread" },
+          { "a": "Coined in 1882 by", "b": "Walther Flemming" },
+          { "a": "Named for the thread-like", "b": "Chromosomes visible during division" },
+          { "a": "Flemming was a", "b": "German anatomist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mitosis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mitosis produces two", "b": "Genetically identical cells" },
+          { "a": "Mitosis is a form of", "b": "Ordinary cell division" },
+          { "a": "Growth and tissue repair rely on", "b": "Mitosis" },
+          { "a": "Mitosis differs from meiosis in that it does not", "b": "Halve the chromosome number" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mitosis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Under the microscope, students watched a cell", "b": "Undergo mitosis" },
+          { "a": "Cancer involves cells that", "b": "Divide by mitosis uncontrollably" },
+          { "a": "A skin wound heals as new cells form through", "b": "Mitosis" },
+          { "a": "The textbook diagram labelled each stage of", "b": "Mitosis" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mitos", "rootLanguage": "Greek", "rootMeaning": "Thread", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "mitos", "highlight": true }, { "text": " (thread); named for the thread-like chromosomes seen dividing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mitos", "correctAnswer": "Thread", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Meiosis",
+    "pronunciation": "my-OH-sis",
+    "pos": "noun",
+    "definition": "A type of cell division that produces reproductive cells carrying half the usual number of chromosomes.",
+    "origin": "Coined in 1905 by biologists John Bretland Farmer and John Edward Moore from Greek <strong>meiosis</strong> (diminution), from meioun (to lessen), reflecting the halving of chromosome number that occurs.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Meiosis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek meioun", "b": "To lessen" },
+          { "a": "Greek meiosis means", "b": "Diminution" },
+          { "a": "Coined in 1905 by", "b": "Farmer and Moore" },
+          { "a": "Named for the", "b": "Halving of chromosome number" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Meiosis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Meiosis produces", "b": "Reproductive cells (gametes)" },
+          { "a": "Meiosis halves the number of", "b": "Chromosomes" },
+          { "a": "Meiosis occurs during the formation of", "b": "Eggs and sperm" },
+          { "a": "Unlike mitosis, meiosis creates cells that are", "b": "Genetically varied" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Meiosis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The biology exam asked students to explain", "b": "Meiosis in detail" },
+          { "a": "Errors during meiosis can lead to", "b": "Chromosomal disorders" },
+          { "a": "Sperm cells are the end result of", "b": "Meiosis in the testes" },
+          { "a": "The diagram compared mitosis and", "b": "Meiosis side by side" }
+        ] }
+    ],
+    "roots": [ { "rootText": "meioun", "rootLanguage": "Greek", "rootMeaning": "To lessen", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "meioun", "highlight": true }, { "text": " (to lessen); named for halving the chromosome count.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "meioun", "correctAnswer": "To lessen", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neuron",
+    "pronunciation": "NYOO-ron",
+    "pos": "noun",
+    "definition": "A specialised cell that transmits nerve impulses; the basic functional unit of the nervous system.",
+    "origin": "From Greek <strong>neuron</strong> (sinew, tendon, or nerve), adopted directly into anatomy; the modern cellular sense of a single nerve cell was fixed by German anatomist Heinrich Wilhelm Waldeyer in 1891.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neuron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek neuron", "b": "Sinew, tendon, or nerve" },
+          { "a": "Modern cellular sense fixed in 1891 by", "b": "Heinrich Wilhelm Waldeyer" },
+          { "a": "Waldeyer was a", "b": "German anatomist" },
+          { "a": "Neuron names a single", "b": "Nerve cell" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neuron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A neuron transmits", "b": "Nerve impulses" },
+          { "a": "Neurons connect to each other at", "b": "Synapses" },
+          { "a": "The brain contains billions of", "b": "Neurons" },
+          { "a": "Neurons carry signals as", "b": "Electrical impulses" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neuron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The scan lit up as", "b": "Neurons fired in the visual cortex" },
+          { "a": "Damage to motor neurons can cause", "b": "Loss of muscle control" },
+          { "a": "The AI model was loosely inspired by", "b": "Biological neurons" },
+          { "a": "Learning a new skill strengthens", "b": "Neuron connections" }
+        ] }
+    ],
+    "roots": [ { "rootText": "neuron", "rootLanguage": "Greek", "rootMeaning": "Sinew, nerve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "neuron", "highlight": true }, { "text": " (sinew, nerve); the ancient word for cord narrowed to the nerve cell.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "neuron", "correctAnswer": "Sinew, nerve", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Synapse",
+    "pronunciation": "SY-naps",
+    "pos": "noun",
+    "definition": "A junction between two nerve cells across which nerve impulses pass by means of a neurotransmitter.",
+    "origin": "Coined in 1897 by English physiologist Charles Sherrington from Greek <strong>synapsis</strong> (conjunction), from syn (together) + haptein (to fasten), naming the point where one neuron connects to another.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Synapse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek syn", "b": "Together" },
+          { "a": "Greek haptein", "b": "To fasten" },
+          { "a": "Coined in 1897 by", "b": "Charles Sherrington" },
+          { "a": "Synapsis literally means", "b": "A fastening together" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Synapse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A synapse is a junction between", "b": "Two nerve cells" },
+          { "a": "Signals cross a synapse using", "b": "Neurotransmitters" },
+          { "a": "The tiny gap in a synapse is called the", "b": "Synaptic cleft" },
+          { "a": "Repeated use can strengthen a", "b": "Synapse" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Synapse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The neurotransmitter crossed the", "b": "Synapse in milliseconds" },
+          { "a": "Practising the piece daily builds new", "b": "Synapses" },
+          { "a": "The drug interferes with signalling at the", "b": "Synapse" },
+          { "a": "She joked that her tired brain's", "b": "Synapses weren't firing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "synapsis", "rootLanguage": "Greek", "rootMeaning": "A fastening together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "synapsis", "highlight": true }, { "text": " (a fastening together); coined by Sherrington for the neuron's junction point.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "synapsis", "correctAnswer": "A fastening together", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Antibody",
+    "pronunciation": "AN-ti-bod-ee",
+    "pos": "noun",
+    "definition": "A protein produced by the immune system to identify and neutralise foreign substances such as bacteria and viruses.",
+    "origin": "A calque of German <strong>Antikörper</strong> (literally \"against-body\"), a term coined in the 1890s to describe the protective substances Paul Ehrlich showed the immune system generates in response to invaders.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Antibody</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Antikörper literally means", "b": "Against-body" },
+          { "a": "English antibody is a", "b": "Calque of the German term" },
+          { "a": "Associated with the 1890s work of", "b": "Paul Ehrlich" },
+          { "a": "Named for a substance made", "b": "Against a foreign invader" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Antibody</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Antibodies are produced by", "b": "The immune system" },
+          { "a": "Antibodies neutralise", "b": "Bacteria and viruses" },
+          { "a": "Vaccines work by prompting the body to make", "b": "Antibodies" },
+          { "a": "A blood test can detect", "b": "Antibodies from a past infection" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Antibody</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The test confirmed she had developed", "b": "Antibodies against the virus" },
+          { "a": "Newborns inherit some", "b": "Antibodies from their mother" },
+          { "a": "Researchers engineered a lab-made", "b": "Antibody as a treatment" },
+          { "a": "Her immune system produced", "b": "Antibodies within days" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Antikörper", "rootLanguage": "German", "rootMeaning": "Against-body", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A calque of German ", "highlight": false }, { "text": "Antikörper", "highlight": true }, { "text": " (\"against-body\"); the immune system's answer to an invader.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Antikörper", "correctAnswer": "Against-body", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Toxin",
+    "pronunciation": "TOK-sin",
+    "pos": "noun",
+    "definition": "A poisonous substance produced within living cells or organisms, especially bacteria, capable of causing disease.",
+    "origin": "From Greek <strong>toxikon</strong> (poison for arrows), from toxon (bow), since ancient warriors smeared poison onto arrowheads. The narrower biochemical sense of a biologically produced poison was fixed in the 1880s.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Toxin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek toxikon", "b": "Arrow poison" },
+          { "a": "Greek toxon", "b": "Bow" },
+          { "a": "Ancient warriors smeared poison on", "b": "Arrowheads" },
+          { "a": "Biochemical sense fixed in the", "b": "1880s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Toxin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A toxin is produced by", "b": "A living organism" },
+          { "a": "Snake venom contains various", "b": "Toxins" },
+          { "a": "The liver's job includes filtering", "b": "Toxins from the blood" },
+          { "a": "Botulinum toxin is used medically as", "b": "Botox" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Toxin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The mushroom contained a deadly", "b": "Toxin" },
+          { "a": "The wellness blog promised to flush out", "b": "Toxins" },
+          { "a": "The spill released industrial", "b": "Toxins into the river" },
+          { "a": "Certain bacteria release a", "b": "Toxin that causes food poisoning" }
+        ] }
+    ],
+    "roots": [ { "rootText": "toxikon", "rootLanguage": "Greek", "rootMeaning": "Arrow poison", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "toxikon", "highlight": true }, { "text": " (arrow poison); the ancient weapon coating narrowed to any biological poison.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "toxikon", "correctAnswer": "Arrow poison", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Species",
+    "pronunciation": "SPEE-sheez",
+    "pos": "noun",
+    "definition": "A group of organisms capable of interbreeding, ranked below genus and regarded as the basic unit of biological classification.",
+    "origin": "From Latin <strong>species</strong> (a sight, appearance, or kind), from specere (to look). Carl Linnaeus adopted the term in the 18th century as the base rank of his system for classifying living things.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Species</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin species", "b": "Appearance, kind" },
+          { "a": "Latin specere", "b": "To look" },
+          { "a": "Adopted in the 18th century by", "b": "Carl Linnaeus" },
+          { "a": "Linnaeus used it as the base of his", "b": "Classification system" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Species</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A species is defined by the ability to", "b": "Interbreed" },
+          { "a": "Species sits below the rank of", "b": "Genus" },
+          { "a": "A species at risk of dying out is", "b": "Endangered" },
+          { "a": "A newly discovered organism may be a", "b": "New species" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Species</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The island is home to a rare", "b": "Species of tortoise" },
+          { "a": "Conservationists fought to save the", "b": "Endangered species" },
+          { "a": "Researchers described the", "b": "Species for the first time" },
+          { "a": "Humans are, biologically, a single", "b": "Species" }
+        ] }
+    ],
+    "roots": [ { "rootText": "species", "rootLanguage": "Latin", "rootMeaning": "Appearance, kind", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "species", "highlight": true }, { "text": " (appearance, kind); Linnaeus's basic unit of classification.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "species", "correctAnswer": "Appearance, kind", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ecosystem",
+    "pronunciation": "EE-koh-sis-tuhm",
+    "pos": "noun",
+    "definition": "A biological community of interacting organisms together with their physical environment.",
+    "origin": "Coined in 1935 by British ecologist Arthur Tansley from Greek <strong>oikos</strong> (house, habitat) + system, to treat living things and their surroundings as a single interacting whole.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ecosystem</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek oikos", "b": "House, habitat" },
+          { "a": "Coined in 1935 by", "b": "Arthur Tansley" },
+          { "a": "Tansley was a", "b": "British ecologist" },
+          { "a": "Treats organisms and environment as a", "b": "Single interacting whole" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ecosystem</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ecosystem includes both", "b": "Organisms and their environment" },
+          { "a": "A coral reef is an example of an", "b": "Ecosystem" },
+          { "a": "Removing one species can disrupt the whole", "b": "Ecosystem" },
+          { "a": "'Business ecosystem' figuratively means", "b": "An interconnected network of companies" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ecosystem</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Deforestation threatens the rainforest", "b": "Ecosystem" },
+          { "a": "The app has built a thriving", "b": "Developer ecosystem" },
+          { "a": "Wolves reintroduced to the park changed the entire", "b": "Ecosystem" },
+          { "a": "Marine biologists studied the", "b": "Ecosystem around the reef" }
+        ] }
+    ],
+    "roots": [ { "rootText": "oikos", "rootLanguage": "Greek", "rootMeaning": "House, habitat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "oikos", "highlight": true }, { "text": " (house, habitat); living things and their surroundings treated as one system.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "oikos", "correctAnswer": "House, habitat", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Evolution",
+    "pronunciation": "ee-vuh-LOO-shuhn",
+    "pos": "noun",
+    "definition": "The process by which species of organisms change over successive generations through variation, inheritance, and natural selection.",
+    "origin": "From Latin <strong>evolutio</strong> (an unrolling, as of a scroll), from evolvere (to unroll). Charles Darwin's 1859 On the Origin of Species gave the word its modern biological sense of gradual, generational change.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Evolution</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin evolvere", "b": "To unroll" },
+          { "a": "Latin evolutio literally means", "b": "An unrolling, as of a scroll" },
+          { "a": "Modern biological sense fixed by", "b": "Charles Darwin, 1859" },
+          { "a": "Darwin's book was titled", "b": "On the Origin of Species" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Evolution</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Evolution occurs over", "b": "Successive generations" },
+          { "a": "The engine of evolution is", "b": "Natural selection" },
+          { "a": "Evolution requires genetic", "b": "Variation" },
+          { "a": "'The evolution of an idea' figuratively means its", "b": "Gradual development over time" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Evolution</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Darwin's finches became a textbook case of", "b": "Evolution" },
+          { "a": "The company traced the", "b": "Evolution of its logo over decades" },
+          { "a": "Antibiotic resistance is a striking example of", "b": "Evolution in action" },
+          { "a": "The museum exhibit charted human", "b": "Evolution" }
+        ] }
+    ],
+    "roots": [ { "rootText": "evolvere", "rootLanguage": "Latin", "rootMeaning": "To unroll", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "evolvere", "highlight": true }, { "text": " (to unroll); Darwin unrolled the word into its modern biological sense.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "evolvere", "correctAnswer": "To unroll", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pathogen",
+    "pronunciation": "PATH-uh-juhn",
+    "pos": "noun",
+    "definition": "A bacterium, virus, or other microorganism that can cause disease.",
+    "origin": "From Greek <strong>pathos</strong> (suffering, disease) + -genes (producing), a term coined in the mid-19th century to name any biological agent that generates illness in its host.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pathogen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pathos", "b": "Suffering, disease" },
+          { "a": "Greek -genes", "b": "Producing" },
+          { "a": "Coined in the", "b": "Mid-19th century" },
+          { "a": "Names any agent that", "b": "Generates illness in a host" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pathogen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pathogen causes", "b": "Disease" },
+          { "a": "Viruses, bacteria, and fungi can all be", "b": "Pathogens" },
+          { "a": "The study of disease-causing organisms is", "b": "Pathology" },
+          { "a": "Handwashing helps stop the spread of", "b": "Pathogens" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pathogen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Lab technicians identified the", "b": "Pathogen behind the outbreak" },
+          { "a": "The filter is designed to trap airborne", "b": "Pathogens" },
+          { "a": "Contaminated water can carry dangerous", "b": "Pathogens" },
+          { "a": "The vaccine targets a specific", "b": "Pathogen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pathos genes", "rootLanguage": "Greek", "rootMeaning": "Disease-producing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "pathos genes", "highlight": true }, { "text": " (\"disease-producing\"); any agent that makes a host sick.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pathos genes", "correctAnswer": "Disease-producing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cell",
+    "pronunciation": "sel",
+    "pos": "noun",
+    "definition": "The smallest structural and functional unit of an organism, typically microscopic and consisting of cytoplasm enclosed within a membrane.",
+    "origin": "From Latin <strong>cella</strong> (small room). English scientist Robert Hooke applied the word in 1665 to the tiny box-like compartments he saw in cork under a microscope, which reminded him of monks' cells.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-biology", "name": "Biology & Medicine", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cell</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin cella", "b": "Small room" },
+          { "a": "Applied in 1665 by", "b": "Robert Hooke" },
+          { "a": "Hooke observed compartments in", "b": "Cork under a microscope" },
+          { "a": "The compartments reminded him of", "b": "Monks' cells" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cell</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cell is the smallest unit of", "b": "Living structure and function" },
+          { "a": "A cell is enclosed by a", "b": "Membrane" },
+          { "a": "A prison cell shares its name with", "b": "A monk's small room" },
+          { "a": "A battery cell stores", "b": "Electrical charge" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cell</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Under the microscope, students counted", "b": "Cells on the slide" },
+          { "a": "The prisoner was led back to his", "b": "Cell" },
+          { "a": "Red blood cells carry", "b": "Oxygen through the body" },
+          { "a": "The battery pack contains several", "b": "Individual cells" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cella", "rootLanguage": "Latin", "rootMeaning": "Small room", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cella", "highlight": true }, { "text": " (small room); Hooke's cork compartments looked like monks' cells.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cella", "correctAnswer": "Small room", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

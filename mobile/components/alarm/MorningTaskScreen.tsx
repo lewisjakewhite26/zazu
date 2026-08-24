@@ -9,7 +9,7 @@ import { IconButton } from '@/components/ui/IconButton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { fonts, typography } from '@/constants/theme';
-import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { CONTENT_MAX_WIDTH, MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useProgress } from '@/hooks/useProgress';
@@ -64,13 +64,10 @@ export function MorningTaskScreen() {
 
   const targetIndex = useMemo(() => tokens.findIndex((token) => token.isTarget), [tokens]);
   const candidates = useMemo(() => candidateTokens(tokens), [tokens]);
-  const showHintClue = wrongAttempts >= 1;
   const showHintReveal = wrongAttempts >= 2;
 
   useEffect(() => {
-    if (wrongAttempts === 1 && sessionWord) {
-      AccessibilityInfo.announceForAccessibility(copy.morningTask.hintClue(sessionWord.definition));
-    } else if (wrongAttempts === 2 && sessionWord) {
+    if (wrongAttempts === 2 && sessionWord) {
       AccessibilityInfo.announceForAccessibility(
         screenReaderEnabled
           ? copy.morningTask.hintRevealScreenReader(sessionWord.word)
@@ -158,24 +155,21 @@ export function MorningTaskScreen() {
           marginBottom: 10,
         },
         prompt: {
-          ...typography.mtQuestion,
-          color: colors.text,
-          marginBottom: 8,
+          fontFamily: fonts.sansMedium,
+          fontSize: 15,
+          color: colors.subtext,
+          marginTop: spacing.lg,
+          marginBottom: spacing.sm,
         },
         passageWrap: {
-          marginBottom: spacing.xl,
+          marginTop: spacing.md,
+          marginBottom: spacing.lg,
         },
         passageText: {
           fontFamily: fonts.serif,
-          fontSize: 24,
-          lineHeight: 38,
+          fontSize: 28,
+          lineHeight: 42,
           color: colors.text,
-        },
-        wordToken: {
-          // Larger touch target than the glyphs alone need -- deliberately
-          // generous, since precise taps are the wrong thing to demand right
-          // after waking (see ALARM_DEBUG_SESSION notes on sleep inertia).
-          paddingVertical: 4,
         },
         wordTokenCorrect: {
           backgroundColor: colors.correct,
@@ -191,42 +185,47 @@ export function MorningTaskScreen() {
         },
         tryAgain: {
           fontFamily: fonts.sans,
-          fontSize: 14,
+          fontSize: 15,
           color: colors.subtext,
           marginTop: spacing.md,
           textAlign: 'center',
         },
         hintClue: {
           fontFamily: fonts.sans,
-          fontSize: 14,
+          fontSize: 16,
           color: colors.subtext,
           marginTop: spacing.sm,
-          textAlign: 'center',
-        },
-        screenReaderPrompt: {
-          fontFamily: fonts.sans,
-          fontSize: 13,
-          color: colors.subtext,
-          marginTop: spacing.sm,
-          marginBottom: spacing.md,
         },
         candidateList: {
-          gap: 8,
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          gap: 12,
+          marginTop: spacing.sm,
         },
         candidateOption: {
+          minHeight: MIN_TOUCH_TARGET,
+          alignItems: 'center',
+          justifyContent: 'center',
           borderWidth: 1,
           borderColor: colors.border,
-          borderRadius: 12,
-          paddingVertical: 12,
-          paddingHorizontal: 16,
+          borderRadius: 14,
+          paddingVertical: 14,
+          paddingHorizontal: 20,
         },
         candidateOptionText: {
           fontFamily: fonts.sans,
-          fontSize: 15,
+          fontSize: 18,
           color: colors.text,
         },
+        spacerTop: {
+          flex: 0.5,
+        },
+        spacerBottom: {
+          flex: 1,
+          minHeight: spacing.xl,
+        },
         cta: {
-          marginTop: spacing.xl,
+          marginBottom: spacing.md,
         },
       }),
     [colors],
@@ -248,58 +247,39 @@ export function MorningTaskScreen() {
           </IconButton>
         ) : null}
         <View style={styles.inner}>
+          <View style={styles.spacerTop} />
+
           <Text style={styles.eyebrow}>{copy.morningTask.eyebrow}</Text>
-          <Text style={styles.prompt}>{copy.morningTask.findPrompt}</Text>
 
           <View style={styles.passageWrap}>
-            <Text style={styles.passageText}>
-              {tokens.map((token, index) => {
-                if (!token.isWord || screenReaderEnabled) {
-                  return <Text key={index}>{token.text}</Text>;
-                }
-                return (
-                  <Text
-                    key={index}
-                    onPress={() => handleTapToken(index)}
-                    style={[
-                      styles.wordToken,
-                      showHintReveal && index === targetIndex && styles.wordTokenHint,
-                      correctIndex === index && styles.wordTokenCorrect,
-                      wrongIndex === index && styles.wordTokenWrong,
-                    ]}
-                    accessibilityRole="button"
-                    accessibilityLabel={`Word: ${token.text}`}
-                  >
-                    {token.text}
-                  </Text>
-                );
-              })}
-            </Text>
+            <Text style={styles.passageText}>{sessionWord.morningTask.passage}</Text>
           </View>
 
-          {screenReaderEnabled && !dismissReady ? (
-            <>
-              <Text style={styles.screenReaderPrompt}>{copy.morningTask.screenReaderPrompt}</Text>
-              <View style={styles.candidateList}>
-                {candidates.map(({ token, index }) => (
-                  <Pressable
-                    key={index}
-                    onPress={() => handleTapToken(index)}
-                    disabled={checking || submitting}
-                    style={[
-                      styles.candidateOption,
-                      correctIndex === index && styles.wordTokenCorrect,
-                      wrongIndex === index && styles.wordTokenWrong,
-                    ]}
-                    accessibilityRole="button"
-                    accessibilityLabel={token.text}
-                  >
-                    <Text style={styles.candidateOptionText}>{token.text}</Text>
-                  </Pressable>
-                ))}
-              </View>
-            </>
+          {!dismissReady && sessionWord ? (
+            <Text style={styles.hintClue}>{copy.morningTask.hintClue(sessionWord.definition)}</Text>
           ) : null}
+
+          <Text style={styles.prompt}>{copy.morningTask.findPrompt}</Text>
+
+          <View style={styles.candidateList}>
+            {candidates.map(({ token, index }) => (
+              <Pressable
+                key={index}
+                onPress={() => handleTapToken(index)}
+                disabled={checking || submitting || dismissReady}
+                style={[
+                  styles.candidateOption,
+                  showHintReveal && index === targetIndex && styles.wordTokenHint,
+                  correctIndex === index && styles.wordTokenCorrect,
+                  wrongIndex === index && styles.wordTokenWrong,
+                ]}
+                accessibilityRole="button"
+                accessibilityLabel={token.text}
+              >
+                <Text style={styles.candidateOptionText}>{token.text}</Text>
+              </Pressable>
+            ))}
+          </View>
 
           {showTryAgain ? <Text style={styles.tryAgain}>{copy.morningTask.tryAgain}</Text> : null}
           {!dismissReady && showHintReveal ? (
@@ -308,9 +288,9 @@ export function MorningTaskScreen() {
                 ? copy.morningTask.hintRevealScreenReader(sessionWord.word)
                 : copy.morningTask.hintReveal}
             </Text>
-          ) : !dismissReady && showHintClue && sessionWord ? (
-            <Text style={styles.hintClue}>{copy.morningTask.hintClue(sessionWord.definition)}</Text>
           ) : null}
+
+          <View style={styles.spacerBottom} />
 
           {dismissReady ? (
             <PrimaryButton

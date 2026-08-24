@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Piazza",
+    "pronunciation": "pee-AT-suh",
+    "pos": "noun",
+    "definition": "A public square or marketplace in an Italian town or city.",
+    "origin": "From Italian <strong>piazza</strong>, from Latin <strong>platea</strong> (broad street, courtyard). Italian town life has long centred on the piazza as a hub for markets, festivals, and gathering.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Piazza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin platea",
+            "b": "Broad street, courtyard"
+          },
+          {
+            "a": "Italian piazza",
+            "b": "Public square"
+          },
+          {
+            "a": "Function in Italian towns",
+            "b": "Markets, festivals, gathering"
+          },
+          {
+            "a": "Entered English",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Piazza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A piazza is",
+            "b": "An Italian public square"
+          },
+          {
+            "a": "Piazzas typically feature",
+            "b": "A fountain or statue at the centre"
+          },
+          {
+            "a": "Cafes around a piazza serve",
+            "b": "Outdoor seating for visitors"
+          },
+          {
+            "a": "The related Spanish word is",
+            "b": "Plaza"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Piazza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Tourists gathered in",
+            "b": "The sunlit piazza"
+          },
+          {
+            "a": "The wedding party posed on",
+            "b": "The steps of the piazza"
+          },
+          {
+            "a": "Pigeons scattered across",
+            "b": "The empty piazza"
+          },
+          {
+            "a": "They sipped espresso at",
+            "b": "A cafe in the piazza"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "platea",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Broad street, courtyard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian piazza, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "platea",
+          "highlight": true
+        },
+        {
+          "text": " (broad street); Italian town life centres on the piazza.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "platea",
+      "correctAnswer": "Broad street, courtyard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fiasco",
+    "pronunciation": "fee-AS-koh",
+    "pos": "noun",
+    "definition": "A complete and embarrassing failure.",
+    "origin": "From Italian <strong>fiasco</strong>, literally \"bottle,\" from theatrical slang <strong>far fiasco</strong> (to make a bottle), meaning to fail in performance. The exact reasoning behind the phrase remains debated.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fiasco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian fiasco",
+            "b": "Bottle"
+          },
+          {
+            "a": "Theatrical phrase",
+            "b": "Far fiasco (to make a bottle)"
+          },
+          {
+            "a": "Original meaning",
+            "b": "To fail in performance"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fiasco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A fiasco is",
+            "b": "A complete, embarrassing failure"
+          },
+          {
+            "a": "A fiasco usually involves",
+            "b": "Public humiliation"
+          },
+          {
+            "a": "The word originated in",
+            "b": "Italian theatre slang"
+          },
+          {
+            "a": "A synonym for fiasco is",
+            "b": "Disaster"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fiasco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The product launch was",
+            "b": "A total fiasco"
+          },
+          {
+            "a": "The wedding turned into",
+            "b": "A logistical fiasco"
+          },
+          {
+            "a": "Reporters called the debate",
+            "b": "A political fiasco"
+          },
+          {
+            "a": "The camping trip became",
+            "b": "A rain-soaked fiasco"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "fiasco",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Bottle",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian ",
+          "highlight": false
+        },
+        {
+          "text": "fiasco",
+          "highlight": true
+        },
+        {
+          "text": " (bottle), from theatrical slang \"far fiasco,\" to fail on stage.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "fiasco",
+      "correctAnswer": "Bottle",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Studio",
+    "pronunciation": "STYOO-dee-oh",
+    "pos": "noun",
+    "definition": "A room or building where an artist works, or a company producing film, music, or broadcasts.",
+    "origin": "From Italian <strong>studio</strong>, meaning study or zeal, from Latin <strong>studium</strong> (eagerness, application to learning). It named an artist's workroom before extending to film and music production.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Studio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin studium",
+            "b": "Eagerness, application to learning"
+          },
+          {
+            "a": "Italian studio",
+            "b": "Study, workroom"
+          },
+          {
+            "a": "Original sense",
+            "b": "An artist's workroom"
+          },
+          {
+            "a": "Extended sense",
+            "b": "A film or music production company"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Studio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A studio is",
+            "b": "A room for artistic work"
+          },
+          {
+            "a": "A film studio is",
+            "b": "A company producing movies"
+          },
+          {
+            "a": "A studio apartment is",
+            "b": "A small one-room flat"
+          },
+          {
+            "a": "A recording studio is used for",
+            "b": "Producing music or audio"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Studio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The painter worked late in",
+            "b": "Her cluttered studio"
+          },
+          {
+            "a": "The film was made by",
+            "b": "A major Hollywood studio"
+          },
+          {
+            "a": "He rented a small",
+            "b": "Studio flat downtown"
+          },
+          {
+            "a": "The band spent weeks in",
+            "b": "The recording studio"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "studium",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Eagerness, application to learning",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian studio, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "studium",
+          "highlight": true
+        },
+        {
+          "text": " (eagerness); named an artist's workroom before meaning a production company.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "studium",
+      "correctAnswer": "Eagerness, application to learning",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Diva",
+    "pronunciation": "DEE-vuh",
+    "pos": "noun",
+    "definition": "A celebrated female singer, or a person, especially a woman, who is temperamental and demanding.",
+    "origin": "From Italian <strong>diva</strong>, meaning goddess, from Latin <strong>diva</strong>, feminine of <strong>divus</strong> (divine, god). Originally reserved for great opera singers before broadening to informal use.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Diva</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin divus",
+            "b": "Divine, god"
+          },
+          {
+            "a": "Italian diva",
+            "b": "Goddess"
+          },
+          {
+            "a": "Original use",
+            "b": "Celebrated opera singers"
+          },
+          {
+            "a": "Modern informal sense",
+            "b": "A demanding, temperamental person"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Diva</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A diva is",
+            "b": "A celebrated, often temperamental performer"
+          },
+          {
+            "a": "Diva behaviour describes",
+            "b": "Demanding or dramatic conduct"
+          },
+          {
+            "a": "The word originally honoured",
+            "b": "Great opera singers"
+          },
+          {
+            "a": "A related Latin word is",
+            "b": "Divine"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Diva</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The soprano was hailed as",
+            "b": "The reigning diva of the opera house"
+          },
+          {
+            "a": "He accused his colleague of acting like",
+            "b": "A diva"
+          },
+          {
+            "a": "The pop star's diva demands",
+            "b": "Made headlines"
+          },
+          {
+            "a": "She refused to be treated as",
+            "b": "A diva backstage"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "divus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Divine, god",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian diva (goddess), from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "divus",
+          "highlight": true
+        },
+        {
+          "text": " (divine); originally reserved for great opera singers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "divus",
+      "correctAnswer": "Divine, god",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stiletto",
+    "pronunciation": "sti-LET-oh",
+    "pos": "noun",
+    "definition": "A shoe with a long, thin, high heel; also, a short dagger with a narrow blade.",
+    "origin": "From Italian <strong>stiletto</strong>, diminutive of <strong>stilo</strong> (dagger), from Latin <strong>stilus</strong> (pointed writing tool). The narrow heel was named for its resemblance to the slender blade.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stiletto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin stilus",
+            "b": "Pointed writing tool"
+          },
+          {
+            "a": "Italian stilo",
+            "b": "Dagger"
+          },
+          {
+            "a": "Italian stiletto",
+            "b": "Little dagger"
+          },
+          {
+            "a": "Shoe sense coined",
+            "b": "1950s, for the narrow heel"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stiletto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A stiletto heel is",
+            "b": "A long, thin high heel"
+          },
+          {
+            "a": "A stiletto knife is",
+            "b": "A short dagger with a narrow blade"
+          },
+          {
+            "a": "The shoe was named for",
+            "b": "Resembling the blade"
+          },
+          {
+            "a": "Stiletto heels became popular in",
+            "b": "The 1950s"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stiletto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wobbled slightly in",
+            "b": "Her new stilettos"
+          },
+          {
+            "a": "The assassin concealed",
+            "b": "A stiletto in his sleeve"
+          },
+          {
+            "a": "The red carpet was full of",
+            "b": "Towering stilettos"
+          },
+          {
+            "a": "Cobblestones are treacherous in",
+            "b": "Stiletto heels"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "stilus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Pointed writing tool",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian stiletto, \"little dagger,\" from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "stilus",
+          "highlight": true
+        },
+        {
+          "text": "; the heel is named for resembling the slender blade.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "stilus",
+      "correctAnswer": "Pointed writing tool",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Maestro",
+    "pronunciation": "MY-stroh",
+    "pos": "noun",
+    "definition": "A distinguished conductor, composer, or performer, especially in classical music.",
+    "origin": "From Italian <strong>maestro</strong>, meaning master or teacher, from Latin <strong>magister</strong> (master, chief). It honoured great musical masters before broadening to any acknowledged expert.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Maestro</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin magister",
+            "b": "Master, chief"
+          },
+          {
+            "a": "Italian maestro",
+            "b": "Master, teacher"
+          },
+          {
+            "a": "Original use",
+            "b": "Classical musicians and conductors"
+          },
+          {
+            "a": "Broadened sense",
+            "b": "Any acknowledged expert"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Maestro</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A maestro is",
+            "b": "A distinguished conductor or musician"
+          },
+          {
+            "a": "The title is used as a form of",
+            "b": "Address and respect"
+          },
+          {
+            "a": "Maestro can also describe",
+            "b": "An expert in any craft"
+          },
+          {
+            "a": "A related word is",
+            "b": "Magisterial"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Maestro</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The orchestra fell silent as",
+            "b": "The maestro raised his baton"
+          },
+          {
+            "a": "Critics praised the",
+            "b": "Young maestro's interpretation"
+          },
+          {
+            "a": "They called the chef a culinary",
+            "b": "Maestro"
+          },
+          {
+            "a": "The maestro rehearsed the symphony",
+            "b": "Late into the night"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "magister",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Master, chief",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian maestro, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "magister",
+          "highlight": true
+        },
+        {
+          "text": " (master); honoured great musicians before broadening to any expert.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "magister",
+      "correctAnswer": "Master, chief",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Paparazzi",
+    "pronunciation": "pap-uh-RAT-see",
+    "pos": "noun",
+    "definition": "Freelance photographers who pursue celebrities to take candid photographs.",
+    "origin": "From Italian <strong>Paparazzo</strong>, the surname of a photographer character in Federico Fellini's 1960 film <em>La Dolce Vita</em>, which came to represent the aggressive celebrity photographer.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Paparazzi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Paparazzo",
+            "b": "Character name in La Dolce Vita"
+          },
+          {
+            "a": "Film director",
+            "b": "Federico Fellini"
+          },
+          {
+            "a": "Film released",
+            "b": "1960"
+          },
+          {
+            "a": "Modern plural",
+            "b": "Paparazzi"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Paparazzi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Paparazzi are",
+            "b": "Photographers who pursue celebrities"
+          },
+          {
+            "a": "Paparazzi photography is often",
+            "b": "Candid and unsolicited"
+          },
+          {
+            "a": "The term originated in",
+            "b": "A Fellini film character"
+          },
+          {
+            "a": "Celebrities often criticise paparazzi for",
+            "b": "Invading their privacy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Paparazzi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The actress was mobbed by",
+            "b": "Paparazzi outside the restaurant"
+          },
+          {
+            "a": "Flashbulbs from",
+            "b": "Paparazzi lit up the red carpet"
+          },
+          {
+            "a": "The couple hid from",
+            "b": "Paparazzi during their honeymoon"
+          },
+          {
+            "a": "Security guards blocked",
+            "b": "The waiting paparazzi"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Paparazzo",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Character name in La Dolce Vita",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From ",
+          "highlight": false
+        },
+        {
+          "text": "Paparazzo",
+          "highlight": true
+        },
+        {
+          "text": ", a photographer character in Fellini's 1960 film La Dolce Vita.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Paparazzo",
+      "correctAnswer": "Character name in La Dolce Vita",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Graffiti",
+    "pronunciation": "gruh-FEE-tee",
+    "pos": "noun",
+    "definition": "Writing or drawings scribbled or sprayed on a wall or surface, often illicitly.",
+    "origin": "From Italian <strong>graffiti</strong>, plural of <strong>graffito</strong> (a scratch), from Greek <strong>graphein</strong> (to write, to scratch). Ancient wall scratchings in Pompeii inspired the modern term.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Graffiti</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek graphein",
+            "b": "To write, to scratch"
+          },
+          {
+            "a": "Italian graffito",
+            "b": "A scratch"
+          },
+          {
+            "a": "Inspired by",
+            "b": "Ancient wall scratchings in Pompeii"
+          },
+          {
+            "a": "Modern form",
+            "b": "Spray-painted street art"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Graffiti</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Graffiti is",
+            "b": "Writing or images on a surface"
+          },
+          {
+            "a": "Graffiti is often applied",
+            "b": "Illicitly, without permission"
+          },
+          {
+            "a": "Some graffiti is celebrated as",
+            "b": "Street art"
+          },
+          {
+            "a": "The singular form is",
+            "b": "Graffito"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Graffiti</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The alley wall was covered in",
+            "b": "Colourful graffiti"
+          },
+          {
+            "a": "City crews painted over",
+            "b": "The graffiti overnight"
+          },
+          {
+            "a": "The artist's graffiti later hung in",
+            "b": "A gallery"
+          },
+          {
+            "a": "Ancient graffiti was found scratched into",
+            "b": "The Pompeii walls"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "graphein",
+        "rootLanguage": "Greek",
+        "rootMeaning": "To write, to scratch",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian graffiti (scratches), from Greek ",
+          "highlight": false
+        },
+        {
+          "text": "graphein",
+          "highlight": true
+        },
+        {
+          "text": "; named after ancient wall scratchings in Pompeii.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "graphein",
+      "correctAnswer": "To write, to scratch",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Opera",
+    "pronunciation": "OP-ruh",
+    "pos": "noun",
+    "definition": "A dramatic work set to music, combining singing, orchestra, and staging.",
+    "origin": "From Italian <strong>opera</strong>, meaning \"a work,\" from Latin <strong>opera</strong>, plural of <strong>opus</strong> (work). Opera as an art form emerged in late 16th-century Florence.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Opera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin opus",
+            "b": "Work"
+          },
+          {
+            "a": "Italian opera",
+            "b": "A work"
+          },
+          {
+            "a": "Art form emerged in",
+            "b": "Late-16th-century Florence"
+          },
+          {
+            "a": "Combines",
+            "b": "Singing, orchestra, and staging"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Opera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Opera is",
+            "b": "A staged musical drama"
+          },
+          {
+            "a": "A soap opera borrowed the name for",
+            "b": "A melodramatic serial"
+          },
+          {
+            "a": "An opera house is",
+            "b": "A theatre built for opera"
+          },
+          {
+            "a": "Famous opera composers include",
+            "b": "Verdi and Puccini"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Opera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They dressed formally for",
+            "b": "A night at the opera"
+          },
+          {
+            "a": "The soprano's aria brought",
+            "b": "The opera to its climax"
+          },
+          {
+            "a": "He had never seen",
+            "b": "A live opera before"
+          },
+          {
+            "a": "The plot was pure",
+            "b": "Soap opera drama"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "opus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Work",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian opera (\"a work\"), from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "opus",
+          "highlight": true
+        },
+        {
+          "text": "; the art form emerged in late-16th-century Florence.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "opus",
+      "correctAnswer": "Work",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Balcony",
+    "pronunciation": "BAL-kuh-nee",
+    "pos": "noun",
+    "definition": "A platform enclosed by a railing, projecting from the wall of a building.",
+    "origin": "From Italian <strong>balcone</strong>, meaning scaffold or platform, from a Germanic root meaning \"beam.\" It entered English in the 17th century as balconies became fashionable architecture.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Balcony</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian balcone",
+            "b": "Scaffold, platform"
+          },
+          {
+            "a": "Ultimate root",
+            "b": "Germanic word for \"beam\""
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          },
+          {
+            "a": "Became fashionable in",
+            "b": "European residential architecture"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Balcony</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A balcony is",
+            "b": "A railed platform on a building"
+          },
+          {
+            "a": "A theatre balcony is",
+            "b": "An upper seating tier"
+          },
+          {
+            "a": "A balcony scene is famously used in",
+            "b": "Romeo and Juliet"
+          },
+          {
+            "a": "Balconies commonly overlook",
+            "b": "A street or garden"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Balcony</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She watered the plants on",
+            "b": "Her tiny balcony"
+          },
+          {
+            "a": "They booked seats in",
+            "b": "The theatre balcony"
+          },
+          {
+            "a": "He leaned over",
+            "b": "The balcony railing"
+          },
+          {
+            "a": "The apartment's balcony faced",
+            "b": "The harbour"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "balcone",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Scaffold, platform",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian ",
+          "highlight": false
+        },
+        {
+          "text": "balcone",
+          "highlight": true
+        },
+        {
+          "text": " (scaffold), from a Germanic root for \"beam\"; fashionable in 17th-century architecture.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "balcone",
+      "correctAnswer": "Scaffold, platform",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Umbrella",
+    "pronunciation": "um-BREL-uh",
+    "pos": "noun",
+    "definition": "A folding device of fabric on a frame, used as protection against rain or sun.",
+    "origin": "From Italian <strong>ombrella</strong>, diminutive of <strong>ombra</strong> (shade), from Latin <strong>umbra</strong> (shadow). It first shielded from sun before becoming rain protection.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Umbrella</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin umbra",
+            "b": "Shadow"
+          },
+          {
+            "a": "Italian ombra",
+            "b": "Shade"
+          },
+          {
+            "a": "Italian ombrella",
+            "b": "Little shade"
+          },
+          {
+            "a": "Original use",
+            "b": "Protection from the sun"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Umbrella</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An umbrella is",
+            "b": "A folding device against rain or sun"
+          },
+          {
+            "a": "An umbrella term means",
+            "b": "A broad category covering many things"
+          },
+          {
+            "a": "An umbrella organisation",
+            "b": "Oversees several smaller groups"
+          },
+          {
+            "a": "The word originally protected against",
+            "b": "The sun, not rain"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Umbrella</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She opened her",
+            "b": "Umbrella as the rain began"
+          },
+          {
+            "a": "The policy falls under",
+            "b": "The umbrella of workplace safety"
+          },
+          {
+            "a": "Wind turned",
+            "b": "His umbrella inside out"
+          },
+          {
+            "a": "The charity acts as",
+            "b": "An umbrella for smaller nonprofits"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "umbra",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Shadow",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian ombrella, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "umbra",
+          "highlight": true
+        },
+        {
+          "text": " (shadow); first a sunshade before it protected against rain.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "umbra",
+      "correctAnswer": "Shadow",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Casino",
+    "pronunciation": "kuh-SEE-noh",
+    "pos": "noun",
+    "definition": "A public building or room for gambling.",
+    "origin": "From Italian <strong>casino</strong>, diminutive of <strong>casa</strong> (house), originally a small country house or summerhouse used for social gatherings, cards, and dancing.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Casino</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian casa",
+            "b": "House"
+          },
+          {
+            "a": "Italian casino",
+            "b": "Little house"
+          },
+          {
+            "a": "Original use",
+            "b": "A country house for social gatherings"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A gambling establishment"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Casino</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A casino is",
+            "b": "A venue for gambling"
+          },
+          {
+            "a": "Casinos typically offer",
+            "b": "Card games, slots, and roulette"
+          },
+          {
+            "a": "The word originally meant",
+            "b": "A small social house"
+          },
+          {
+            "a": "Famous casino cities include",
+            "b": "Monte Carlo and Las Vegas"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Casino</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They spent the evening at",
+            "b": "The casino roulette table"
+          },
+          {
+            "a": "Lights blazed across",
+            "b": "The casino floor"
+          },
+          {
+            "a": "He lost his winnings back to",
+            "b": "The casino"
+          },
+          {
+            "a": "The film was set in",
+            "b": "A glamorous seaside casino"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "casa",
+        "rootLanguage": "Italian",
+        "rootMeaning": "House",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian casino, \"little house,\" from ",
+          "highlight": false
+        },
+        {
+          "text": "casa",
+          "highlight": true
+        },
+        {
+          "text": "; originally a country summerhouse for cards and dancing.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "casa",
+      "correctAnswer": "House",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lagoon",
+    "pronunciation": "luh-GOON",
+    "pos": "noun",
+    "definition": "A shallow stretch of water separated from a larger sea by a sandbank or reef.",
+    "origin": "From Italian <strong>laguna</strong>, from Latin <strong>lacuna</strong> (pool, gap), related to <strong>lacus</strong> (lake). It first described the shallow waters around Venice.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lagoon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin lacuna",
+            "b": "Pool, gap"
+          },
+          {
+            "a": "Italian laguna",
+            "b": "Lagoon"
+          },
+          {
+            "a": "First described",
+            "b": "The waters around Venice"
+          },
+          {
+            "a": "Related Latin word",
+            "b": "Lacus (lake)"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lagoon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A lagoon is",
+            "b": "A shallow body of water near a coast"
+          },
+          {
+            "a": "Lagoons are separated from the sea by",
+            "b": "A sandbank or reef"
+          },
+          {
+            "a": "A coral atoll encloses",
+            "b": "A central lagoon"
+          },
+          {
+            "a": "Venice was built around",
+            "b": "A famous lagoon"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lagoon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Turquoise water filled",
+            "b": "The coral lagoon"
+          },
+          {
+            "a": "Flamingos waded through",
+            "b": "The shallow lagoon"
+          },
+          {
+            "a": "They kayaked across",
+            "b": "The calm lagoon"
+          },
+          {
+            "a": "The resort overlooked",
+            "b": "A private lagoon"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "lacuna",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Pool, gap",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian laguna, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "lacuna",
+          "highlight": true
+        },
+        {
+          "text": " (pool); first described the shallow waters around Venice.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lacuna",
+      "correctAnswer": "Pool, gap",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Volcano",
+    "pronunciation": "vol-KAY-noh",
+    "pos": "noun",
+    "definition": "A mountain or opening from which molten rock, ash, and gas erupt.",
+    "origin": "From Italian <strong>vulcano</strong>, named after <strong>Vulcano</strong>, a volcanic island near Sicily, itself named for <strong>Vulcan</strong>, the Roman god of fire and forge.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Volcano</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Vulcan",
+            "b": "Roman god of fire"
+          },
+          {
+            "a": "Vulcano",
+            "b": "Volcanic island near Sicily"
+          },
+          {
+            "a": "Italian vulcano",
+            "b": "Volcano"
+          },
+          {
+            "a": "Belief of the ancients",
+            "b": "The island was Vulcan's forge"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Volcano</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A volcano is",
+            "b": "An opening that erupts molten rock"
+          },
+          {
+            "a": "A dormant volcano is",
+            "b": "Currently inactive but not extinct"
+          },
+          {
+            "a": "Lava is",
+            "b": "Molten rock once it reaches the surface"
+          },
+          {
+            "a": "The word honours",
+            "b": "The Roman god of fire"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Volcano</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Ash rained down after",
+            "b": "The volcano erupted"
+          },
+          {
+            "a": "Scientists monitored the",
+            "b": "Dormant volcano closely"
+          },
+          {
+            "a": "Lava flowed slowly from",
+            "b": "The volcano's crater"
+          },
+          {
+            "a": "The island was formed by",
+            "b": "An underwater volcano"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vulcan",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Roman god of fire",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian vulcano, named after the island of Vulcano, for ",
+          "highlight": false
+        },
+        {
+          "text": "Vulcan",
+          "highlight": true
+        },
+        {
+          "text": ", the Roman god of fire.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vulcan",
+      "correctAnswer": "Roman god of fire",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sonata",
+    "pronunciation": "suh-NAH-tuh",
+    "pos": "noun",
+    "definition": "A musical composition for one or two instruments, typically in several movements.",
+    "origin": "From Italian <strong>sonata</strong>, feminine past participle of <strong>sonare</strong> (to sound, to play an instrument), from Latin <strong>sonare</strong>. It distinguished instrumental pieces from sung <em>cantata</em> works.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sonata</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin sonare",
+            "b": "To sound, to play"
+          },
+          {
+            "a": "Italian sonata",
+            "b": "Sounded (piece)"
+          },
+          {
+            "a": "Contrasted with",
+            "b": "Cantata (a sung piece)"
+          },
+          {
+            "a": "Form standardised in",
+            "b": "The Classical era"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sonata</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sonata is",
+            "b": "An instrumental piece in movements"
+          },
+          {
+            "a": "Sonatas are typically written for",
+            "b": "One or two instruments"
+          },
+          {
+            "a": "A famous sonata form composer is",
+            "b": "Beethoven"
+          },
+          {
+            "a": "Sonata form structures",
+            "b": "Exposition, development, and recapitulation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sonata</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She performed a",
+            "b": "Piano sonata by Chopin"
+          },
+          {
+            "a": "The violinist opened with",
+            "b": "A Bach sonata"
+          },
+          {
+            "a": "He composed his first",
+            "b": "Sonata at nineteen"
+          },
+          {
+            "a": "The recital ended with",
+            "b": "A stirring final sonata"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sonare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To sound, to play",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian sonata, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "sonare",
+          "highlight": true
+        },
+        {
+          "text": " (to sound); distinguished instrumental pieces from sung cantatas.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sonare",
+      "correctAnswer": "To sound, to play",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Gondola",
+    "pronunciation": "GON-duh-luh",
+    "pos": "noun",
+    "definition": "A long, narrow boat used on the canals of Venice, propelled by a single oar.",
+    "origin": "From Italian <strong>gondola</strong>, of uncertain origin, possibly from a Venetian dialect word. Gondolas have been Venice's signature vessel since at least the 11th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Gondola</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian gondola",
+            "b": "Venetian canal boat"
+          },
+          {
+            "a": "Possible source",
+            "b": "A Venetian dialect word"
+          },
+          {
+            "a": "In use since",
+            "b": "At least the 11th century"
+          },
+          {
+            "a": "Extended sense",
+            "b": "A cable-car or lift compartment"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Gondola</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A gondola is",
+            "b": "A narrow Venetian canal boat"
+          },
+          {
+            "a": "A gondolier is",
+            "b": "The person who rows a gondola"
+          },
+          {
+            "a": "A ski gondola refers to",
+            "b": "An enclosed cable-car compartment"
+          },
+          {
+            "a": "Gondolas are propelled by",
+            "b": "A single oar"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Gondola</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They drifted along the canal in",
+            "b": "A gondola"
+          },
+          {
+            "a": "The gondolier sang as he steered",
+            "b": "The gondola"
+          },
+          {
+            "a": "Skiers boarded",
+            "b": "The mountain gondola"
+          },
+          {
+            "a": "Photographs showed rows of",
+            "b": "Gondolas moored near St Mark's"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "gondola",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Venetian canal boat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian ",
+          "highlight": false
+        },
+        {
+          "text": "gondola",
+          "highlight": true
+        },
+        {
+          "text": ", of uncertain origin; Venice's signature vessel since at least the 11th century.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "gondola",
+      "correctAnswer": "Venetian canal boat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ghetto",
+    "pronunciation": "GET-oh",
+    "pos": "noun",
+    "definition": "A part of a city occupied by a minority group, often due to social, legal, or economic pressure.",
+    "origin": "From Italian <strong>ghetto</strong>, possibly from the Venetian foundry district <strong>Geto</strong> where the city's Jewish quarter was established in 1516, one of the earliest enforced Jewish quarters in Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ghetto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Geto",
+            "b": "Venetian foundry district"
+          },
+          {
+            "a": "Established in",
+            "b": "Venice, 1516"
+          },
+          {
+            "a": "Original meaning",
+            "b": "An enforced Jewish quarter"
+          },
+          {
+            "a": "Modern broader sense",
+            "b": "A segregated urban area"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ghetto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A ghetto is",
+            "b": "An area occupied by a marginalised group"
+          },
+          {
+            "a": "The term historically referred to",
+            "b": "Enforced Jewish quarters"
+          },
+          {
+            "a": "Modern usage often describes",
+            "b": "Impoverished urban neighbourhoods"
+          },
+          {
+            "a": "The word carries",
+            "b": "A history of exclusion"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ghetto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The novel is set in",
+            "b": "The Warsaw ghetto during the war"
+          },
+          {
+            "a": "Historians documented life in",
+            "b": "The 16th-century Venetian ghetto"
+          },
+          {
+            "a": "The museum exhibit traced",
+            "b": "The history of the ghetto"
+          },
+          {
+            "a": "He grew up in",
+            "b": "A working-class ghetto neighbourhood"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Geto",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Venetian foundry district",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Possibly from ",
+          "highlight": false
+        },
+        {
+          "text": "Geto",
+          "highlight": true
+        },
+        {
+          "text": ", the Venetian foundry district where a Jewish quarter was enforced in 1516.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Geto",
+      "correctAnswer": "Venetian foundry district",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Quarantine",
+    "pronunciation": "KWOR-un-teen",
+    "pos": "noun",
+    "definition": "A period of isolation imposed to prevent the spread of disease.",
+    "origin": "From Italian <strong>quaranta giorni</strong> (\"forty days\"), the period ships suspected of carrying plague had to wait offshore before docking at Venetian ports in the 14th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Quarantine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian quaranta",
+            "b": "Forty"
+          },
+          {
+            "a": "Italian giorni",
+            "b": "Days"
+          },
+          {
+            "a": "Original practice",
+            "b": "Ships waited forty days offshore"
+          },
+          {
+            "a": "First enforced in",
+            "b": "14th-century Venice"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Quarantine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Quarantine is",
+            "b": "Isolation to prevent disease spread"
+          },
+          {
+            "a": "Quarantine originally lasted",
+            "b": "Forty days"
+          },
+          {
+            "a": "Modern quarantines apply to",
+            "b": "People, animals, or goods"
+          },
+          {
+            "a": "The practice began in",
+            "b": "Medieval Venice"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Quarantine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The crew was placed in",
+            "b": "Quarantine before docking"
+          },
+          {
+            "a": "Health officials ordered",
+            "b": "A two-week quarantine"
+          },
+          {
+            "a": "The imported plants were held in",
+            "b": "Agricultural quarantine"
+          },
+          {
+            "a": "She spent the outbreak in",
+            "b": "Strict quarantine at home"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "quaranta",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Forty",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian ",
+          "highlight": false
+        },
+        {
+          "text": "quaranta",
+          "highlight": true
+        },
+        {
+          "text": " giorni, \"forty days\"; the wait imposed on plague-suspect ships at Venetian ports.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "quaranta",
+      "correctAnswer": "Forty",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Malaria",
+    "pronunciation": "muh-LAIR-ee-uh",
+    "pos": "noun",
+    "definition": "A disease caused by parasites transmitted through mosquito bites, causing fever and chills.",
+    "origin": "From Italian <strong>mal'aria</strong>, meaning \"bad air,\" from <strong>mala</strong> (bad) + <strong>aria</strong> (air). The disease was long blamed on foul air rising from swamps, not mosquitoes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Malaria</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian mala",
+            "b": "Bad"
+          },
+          {
+            "a": "Italian aria",
+            "b": "Air"
+          },
+          {
+            "a": "Old belief",
+            "b": "Disease came from foul swamp air"
+          },
+          {
+            "a": "True cause discovered",
+            "b": "19th century, mosquito-borne parasites"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Malaria</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Malaria is",
+            "b": "A mosquito-borne parasitic disease"
+          },
+          {
+            "a": "Malaria causes",
+            "b": "Fever and chills"
+          },
+          {
+            "a": "Malaria is most common in",
+            "b": "Tropical and subtropical regions"
+          },
+          {
+            "a": "The name reflects",
+            "b": "The old belief in bad air"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Malaria</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Travellers to the region were advised to take",
+            "b": "Malaria tablets"
+          },
+          {
+            "a": "The clinic treated dozens of",
+            "b": "Malaria cases each week"
+          },
+          {
+            "a": "Mosquito nets help prevent",
+            "b": "Malaria transmission"
+          },
+          {
+            "a": "He contracted",
+            "b": "Malaria during his fieldwork abroad"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "aria",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Air",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian mala (bad) + ",
+          "highlight": false
+        },
+        {
+          "text": "aria",
+          "highlight": true
+        },
+        {
+          "text": " (air) — mal'aria, \"bad air\"; long blamed on swamp air, not mosquitoes.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "aria",
+      "correctAnswer": "Air",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Influenza",
+    "pronunciation": "in-floo-EN-zuh",
+    "pos": "noun",
+    "definition": "A contagious viral infection causing fever, aches, and respiratory symptoms.",
+    "origin": "From Italian <strong>influenza</strong>, meaning \"influence,\" from the belief that outbreaks were caused by the influence of the stars or cold weather, from Latin <strong>influentia</strong>.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Influenza</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin influentia",
+            "b": "Influence"
+          },
+          {
+            "a": "Italian influenza",
+            "b": "Influence"
+          },
+          {
+            "a": "Old belief",
+            "b": "Outbreaks caused by stars or cold weather"
+          },
+          {
+            "a": "Shortened English form",
+            "b": "Flu"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Influenza</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Influenza is",
+            "b": "A contagious viral respiratory illness"
+          },
+          {
+            "a": "Influenza symptoms include",
+            "b": "Fever and body aches"
+          },
+          {
+            "a": "The common short form is",
+            "b": "Flu"
+          },
+          {
+            "a": "Influenza differs from a cold in",
+            "b": "Severity and onset speed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Influenza</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The clinic offered free",
+            "b": "Influenza vaccinations"
+          },
+          {
+            "a": "She stayed home with",
+            "b": "A bad case of influenza"
+          },
+          {
+            "a": "The 1918 outbreak of",
+            "b": "Influenza killed millions"
+          },
+          {
+            "a": "Hospitals braced for",
+            "b": "The winter influenza season"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "influentia",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Influence",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian influenza, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "influentia",
+          "highlight": true
+        },
+        {
+          "text": "; outbreaks were once blamed on the influence of stars or cold.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "influentia",
+      "correctAnswer": "Influence",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vendetta",
+    "pronunciation": "ven-DET-uh",
+    "pos": "noun",
+    "definition": "A prolonged, bitter quarrel or feud, especially one pursued for revenge.",
+    "origin": "From Italian <strong>vendetta</strong>, meaning revenge, from Latin <strong>vindicta</strong> (vengeance). Originally a Corsican and Sicilian custom of blood feuds between families.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vendetta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin vindicta",
+            "b": "Vengeance"
+          },
+          {
+            "a": "Italian vendetta",
+            "b": "Revenge"
+          },
+          {
+            "a": "Original custom",
+            "b": "Corsican and Sicilian blood feuds"
+          },
+          {
+            "a": "Modern sense",
+            "b": "Any prolonged, bitter grudge"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vendetta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A vendetta is",
+            "b": "A prolonged bitter feud for revenge"
+          },
+          {
+            "a": "Vendettas were traditionally",
+            "b": "Feuds between families"
+          },
+          {
+            "a": "A personal vendetta means",
+            "b": "A private grudge against someone"
+          },
+          {
+            "a": "The word derives from",
+            "b": "Latin for vengeance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vendetta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He seemed to have",
+            "b": "A personal vendetta against his editor"
+          },
+          {
+            "a": "The families' vendetta lasted",
+            "b": "Three generations"
+          },
+          {
+            "a": "She denied pursuing",
+            "b": "A vendetta against her rival"
+          },
+          {
+            "a": "The film dramatised",
+            "b": "A Sicilian vendetta"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "vindicta",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Vengeance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian vendetta, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "vindicta",
+          "highlight": true
+        },
+        {
+          "text": "; originally a Corsican and Sicilian custom of blood feuds.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "vindicta",
+      "correctAnswer": "Vengeance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Virtuoso",
+    "pronunciation": "vur-choo-OH-soh",
+    "pos": "noun",
+    "definition": "A person highly skilled in a particular art, especially music.",
+    "origin": "From Italian <strong>virtuoso</strong>, meaning skilled, learned, from Latin <strong>virtus</strong> (excellence, skill, virtue). It first described scholars before narrowing to gifted musicians.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Virtuoso</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin virtus",
+            "b": "Excellence, skill"
+          },
+          {
+            "a": "Italian virtuoso",
+            "b": "Skilled, learned"
+          },
+          {
+            "a": "Original sense",
+            "b": "A learned scholar"
+          },
+          {
+            "a": "Narrowed sense",
+            "b": "A gifted musician or performer"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Virtuoso</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A virtuoso is",
+            "b": "A person of exceptional artistic skill"
+          },
+          {
+            "a": "Virtuoso playing demonstrates",
+            "b": "Technical brilliance"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Learned scholars generally"
+          },
+          {
+            "a": "A virtuoso performance is",
+            "b": "Dazzling and highly skilled"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Virtuoso</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The young pianist was hailed as",
+            "b": "A virtuoso"
+          },
+          {
+            "a": "Critics praised his",
+            "b": "Virtuoso guitar solo"
+          },
+          {
+            "a": "She gave a virtuoso display of",
+            "b": "Legal argument"
+          },
+          {
+            "a": "The orchestra featured a visiting",
+            "b": "Violin virtuoso"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "virtus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Excellence, skill",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian virtuoso, from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "virtus",
+          "highlight": true
+        },
+        {
+          "text": "; first described learned scholars before narrowing to gifted musicians.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "virtus",
+      "correctAnswer": "Excellence, skill",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Torso",
+    "pronunciation": "TOR-soh",
+    "pos": "noun",
+    "definition": "The trunk of the human body, excluding the head and limbs.",
+    "origin": "From Italian <strong>torso</strong>, meaning stalk or stump, from Latin <strong>thyrsus</strong>, from Greek <strong>thyrsos</strong> (a stalk or stem). Originally described a broken, limbless statue.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Torso</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Greek thyrsos",
+            "b": "A stalk or stem"
+          },
+          {
+            "a": "Italian torso",
+            "b": "Stalk, stump"
+          },
+          {
+            "a": "Original sense",
+            "b": "A limbless statue fragment"
+          },
+          {
+            "a": "Modern sense",
+            "b": "The human trunk"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Torso</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The torso is",
+            "b": "The trunk of the body"
+          },
+          {
+            "a": "A torso excludes",
+            "b": "The head, arms, and legs"
+          },
+          {
+            "a": "A sculpted torso originally described",
+            "b": "A damaged ancient statue"
+          },
+          {
+            "a": "Artists study the torso for",
+            "b": "Anatomical drawing"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Torso</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He twisted his",
+            "b": "Torso to reach the shelf"
+          },
+          {
+            "a": "The sculpture depicted only",
+            "b": "A weathered marble torso"
+          },
+          {
+            "a": "The tattoo covered",
+            "b": "Her entire torso"
+          },
+          {
+            "a": "The trainer focused on",
+            "b": "Torso strength exercises"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "thyrsos",
+        "rootLanguage": "Greek",
+        "rootMeaning": "A stalk or stem",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian torso (stump), from Greek ",
+          "highlight": false
+        },
+        {
+          "text": "thyrsos",
+          "highlight": true
+        },
+        {
+          "text": "; originally described a broken, limbless statue.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "thyrsos",
+      "correctAnswer": "A stalk or stem",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Manifesto",
+    "pronunciation": "man-i-FES-toh",
+    "pos": "noun",
+    "definition": "A public declaration of policy, intentions, or beliefs, especially political.",
+    "origin": "From Italian <strong>manifesto</strong>, meaning clear or evident, from Latin <strong>manifestus</strong> (obvious, palpable), literally \"struck by hand,\" from <strong>manus</strong> (hand).",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Manifesto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin manus",
+            "b": "Hand"
+          },
+          {
+            "a": "Latin manifestus",
+            "b": "Obvious, palpable"
+          },
+          {
+            "a": "Italian manifesto",
+            "b": "Clear, evident"
+          },
+          {
+            "a": "Political sense established",
+            "b": "17th century onward"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Manifesto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A manifesto is",
+            "b": "A public statement of beliefs or policy"
+          },
+          {
+            "a": "Political parties publish manifestos before",
+            "b": "Elections"
+          },
+          {
+            "a": "The Communist Manifesto is",
+            "b": "A famous political text"
+          },
+          {
+            "a": "A manifesto declares",
+            "b": "Intentions openly and publicly"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Manifesto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The party unveiled its",
+            "b": "Election manifesto"
+          },
+          {
+            "a": "The artist wrote a",
+            "b": "Manifesto defending abstract art"
+          },
+          {
+            "a": "Critics dissected every line of",
+            "b": "The controversial manifesto"
+          },
+          {
+            "a": "The group's founding manifesto called for",
+            "b": "Sweeping reform"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "manus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Hand",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian manifesto, from Latin manifestus, literally \"struck by ",
+          "highlight": false
+        },
+        {
+          "text": "manus",
+          "highlight": true
+        },
+        {
+          "text": "\" (hand), meaning obvious.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "manus",
+      "correctAnswer": "Hand",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sonnet",
+    "pronunciation": "SON-it",
+    "pos": "noun",
+    "definition": "A poem of fourteen lines, typically in iambic pentameter with a fixed rhyme scheme.",
+    "origin": "From Italian <strong>sonetto</strong>, diminutive of <strong>suono</strong> (sound), from Latin <strong>sonus</strong>. Perfected by Petrarch in the 14th century, later adapted into English by Shakespeare.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sonnet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin sonus",
+            "b": "Sound"
+          },
+          {
+            "a": "Italian sonetto",
+            "b": "Little sound"
+          },
+          {
+            "a": "Perfected by",
+            "b": "Petrarch, 14th century"
+          },
+          {
+            "a": "Adapted into English by",
+            "b": "Shakespeare"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sonnet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sonnet is",
+            "b": "A fourteen-line poem with fixed rhyme"
+          },
+          {
+            "a": "A Shakespearean sonnet ends with",
+            "b": "A rhyming couplet"
+          },
+          {
+            "a": "A Petrarchan sonnet divides into",
+            "b": "An octave and a sestet"
+          },
+          {
+            "a": "Sonnets typically use",
+            "b": "Iambic pentameter"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sonnet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She memorised",
+            "b": "A Shakespearean sonnet for class"
+          },
+          {
+            "a": "He wrote a sonnet to",
+            "b": "Mark their anniversary"
+          },
+          {
+            "a": "The professor analysed",
+            "b": "The sonnet's rhyme scheme"
+          },
+          {
+            "a": "Petrarch's sonnets inspired",
+            "b": "Generations of poets"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sonus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Sound",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian sonetto, \"little sound,\" from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "sonus",
+          "highlight": true
+        },
+        {
+          "text": "; perfected by Petrarch, later adapted by Shakespeare.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sonus",
+      "correctAnswer": "Sound",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Incognito",
+    "pronunciation": "in-kog-NEE-toh",
+    "pos": "adverb",
+    "definition": "With one's identity concealed, under a false or unrevealed name.",
+    "origin": "From Italian <strong>incognito</strong>, meaning unknown, from Latin <strong>incognitus</strong>, from <strong>in-</strong> (not) + <strong>cognitus</strong> (known). Used since the 17th century for travellers hiding their identity.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Incognito</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin cognitus",
+            "b": "Known"
+          },
+          {
+            "a": "Latin in-",
+            "b": "Not"
+          },
+          {
+            "a": "Italian incognito",
+            "b": "Unknown"
+          },
+          {
+            "a": "Historic use",
+            "b": "Nobles travelling under false identity"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Incognito</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Incognito means",
+            "b": "With identity concealed"
+          },
+          {
+            "a": "To travel incognito is to",
+            "b": "Hide who you are"
+          },
+          {
+            "a": "The word's root means",
+            "b": "\"Not known\""
+          },
+          {
+            "a": "Celebrities go incognito to",
+            "b": "Avoid recognition in public"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Incognito</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The prince toured the city",
+            "b": "Incognito"
+          },
+          {
+            "a": "She wore sunglasses to stay",
+            "b": "Incognito at the airport"
+          },
+          {
+            "a": "He checked into the hotel",
+            "b": "Incognito, under an alias"
+          },
+          {
+            "a": "The critic reviewed the restaurant",
+            "b": "Incognito"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cognitus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Known",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian incognito, from Latin in- (not) + ",
+          "highlight": false
+        },
+        {
+          "text": "cognitus",
+          "highlight": true
+        },
+        {
+          "text": " (known); used since the 1600s for travellers hiding their identity.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cognitus",
+      "correctAnswer": "Known",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Inferno",
+    "pronunciation": "in-FUR-noh",
+    "pos": "noun",
+    "definition": "A large, fierce fire; hell, especially as depicted in literature.",
+    "origin": "From Italian <strong>inferno</strong>, meaning hell, from Latin <strong>infernus</strong> (of the lower regions), from <strong>infra</strong> (below). Popularised by Dante's <em>Inferno</em>, the first part of his <em>Divine Comedy</em>.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Inferno</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin infra",
+            "b": "Below"
+          },
+          {
+            "a": "Latin infernus",
+            "b": "Of the lower regions"
+          },
+          {
+            "a": "Italian inferno",
+            "b": "Hell"
+          },
+          {
+            "a": "Popularised by",
+            "b": "Dante's Divine Comedy"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Inferno</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An inferno is",
+            "b": "A large, fierce fire, or hell"
+          },
+          {
+            "a": "Dante's Inferno depicts",
+            "b": "A journey through nine circles of hell"
+          },
+          {
+            "a": "A raging inferno describes",
+            "b": "An uncontrollable blaze"
+          },
+          {
+            "a": "The word's root means",
+            "b": "\"Below\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Inferno</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Firefighters battled",
+            "b": "The blazing inferno"
+          },
+          {
+            "a": "The warehouse became",
+            "b": "An inferno within minutes"
+          },
+          {
+            "a": "Dante's poem describes",
+            "b": "A descent into the inferno"
+          },
+          {
+            "a": "Smoke poured from",
+            "b": "The raging inferno"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "infra",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Below",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian inferno, from Latin infernus, from ",
+          "highlight": false
+        },
+        {
+          "text": "infra",
+          "highlight": true
+        },
+        {
+          "text": " (below); popularised by Dante's Inferno.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "infra",
+      "correctAnswer": "Below",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mafia",
+    "pronunciation": "MAH-fee-uh",
+    "pos": "noun",
+    "definition": "An organised crime network, originally Sicilian, or any tightly knit group exercising covert influence.",
+    "origin": "From Italian <strong>mafia</strong>, a Sicilian dialect word possibly meaning boldness or bravado. It named the secretive Sicilian criminal network before broadening to describe any powerful clique.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mafia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sicilian mafia",
+            "b": "Boldness, bravado"
+          },
+          {
+            "a": "Named the network in",
+            "b": "19th-century Sicily"
+          },
+          {
+            "a": "Entered international use",
+            "b": "Late 19th century"
+          },
+          {
+            "a": "Broadened sense",
+            "b": "Any powerful, secretive clique"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mafia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "The Mafia is",
+            "b": "An organised Sicilian crime network"
+          },
+          {
+            "a": "Lowercase \"mafia\" can describe",
+            "b": "Any clique with covert influence"
+          },
+          {
+            "a": "Mafia families are organised around",
+            "b": "Loyalty and hierarchy"
+          },
+          {
+            "a": "Popular films about the Mafia include",
+            "b": "The Godfather trilogy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mafia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Prosecutors linked the businessman to",
+            "b": "The mafia"
+          },
+          {
+            "a": "The documentary traced the rise of",
+            "b": "The Sicilian mafia"
+          },
+          {
+            "a": "Colleagues joked about",
+            "b": "The office coffee mafia"
+          },
+          {
+            "a": "The film dramatised",
+            "b": "A mafia family's downfall"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "mafia",
+        "rootLanguage": "Sicilian",
+        "rootMeaning": "Boldness, bravado",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sicilian dialect ",
+          "highlight": false
+        },
+        {
+          "text": "mafia",
+          "highlight": true
+        },
+        {
+          "text": ", possibly \"boldness\"; named the secretive Sicilian criminal network.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mafia",
+      "correctAnswer": "Boldness, bravado",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Replica",
+    "pronunciation": "REP-li-kuh",
+    "pos": "noun",
+    "definition": "An exact copy or close reproduction of an object.",
+    "origin": "From Italian <strong>replica</strong>, meaning reply or repetition, from <strong>replicare</strong> (to repeat), from Latin <strong>re-</strong> (again) + <strong>plicare</strong> (to fold). Originally described an artist's own repeated copy.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Replica</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin plicare",
+            "b": "To fold"
+          },
+          {
+            "a": "Latin re-",
+            "b": "Again"
+          },
+          {
+            "a": "Italian replicare",
+            "b": "To repeat"
+          },
+          {
+            "a": "Original art sense",
+            "b": "The artist's own repeated copy"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Replica</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A replica is",
+            "b": "An exact copy of an object"
+          },
+          {
+            "a": "A replica differs from a forgery in",
+            "b": "Being openly acknowledged as a copy"
+          },
+          {
+            "a": "Museums often display",
+            "b": "Replicas of fragile originals"
+          },
+          {
+            "a": "The word originally meant",
+            "b": "An artist's own repeated work"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Replica</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The museum displayed",
+            "b": "A replica of the ancient vase"
+          },
+          {
+            "a": "He built a scale",
+            "b": "Replica of the ship"
+          },
+          {
+            "a": "The costume department made a",
+            "b": "Replica of the original gown"
+          },
+          {
+            "a": "Tourists bought a",
+            "b": "Replica sword as a souvenir"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "plicare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To fold",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian replica, from Latin re- (again) + ",
+          "highlight": false
+        },
+        {
+          "text": "plicare",
+          "highlight": true
+        },
+        {
+          "text": " (fold); originally an artist's own repeated copy.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "plicare",
+      "correctAnswer": "To fold",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fresco",
+    "pronunciation": "FRES-koh",
+    "pos": "noun",
+    "definition": "A painting done on freshly laid wet plaster, so the pigment binds as the plaster dries.",
+    "origin": "From Italian <strong>affresco</strong>, from <strong>fresco</strong> (fresh), describing the technique of painting onto wet plaster. Michelangelo's Sistine Chapel ceiling is among the most famous frescoes.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-italian",
+      "name": "From Italy",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fresco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Italian fresco",
+            "b": "Fresh"
+          },
+          {
+            "a": "Italian affresco",
+            "b": "Painted on fresh plaster"
+          },
+          {
+            "a": "Technique requires",
+            "b": "Wet plaster as the painting surface"
+          },
+          {
+            "a": "Most famous example",
+            "b": "The Sistine Chapel ceiling"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fresco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A fresco is",
+            "b": "A painting on wet plaster"
+          },
+          {
+            "a": "Fresco painting requires",
+            "b": "Working quickly before plaster dries"
+          },
+          {
+            "a": "Michelangelo painted his famous frescoes in",
+            "b": "The Sistine Chapel"
+          },
+          {
+            "a": "The technique preserves colour by",
+            "b": "Binding pigment into the plaster"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fresco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Visitors craned their necks to see",
+            "b": "The ceiling fresco"
+          },
+          {
+            "a": "Restorers carefully cleaned",
+            "b": "The centuries-old fresco"
+          },
+          {
+            "a": "The chapel walls were covered in",
+            "b": "Vivid frescoes"
+          },
+          {
+            "a": "Art students studied the technique of",
+            "b": "Fresco painting"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "fresco",
+        "rootLanguage": "Italian",
+        "rootMeaning": "Fresh",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Italian affresco, from ",
+          "highlight": false
+        },
+        {
+          "text": "fresco",
+          "highlight": true
+        },
+        {
+          "text": " (fresh); painted onto wet plaster, as in Michelangelo's Sistine Chapel ceiling.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "fresco",
+      "correctAnswer": "Fresh",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

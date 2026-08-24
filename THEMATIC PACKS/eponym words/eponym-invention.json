@@ -1,0 +1,3629 @@
+[
+  {
+    "word": "Sadism",
+    "pronunciation": "SAY-diz-um",
+    "pos": "noun",
+    "definition": "The deriving of pleasure, especially sexual pleasure, from inflicting pain or humiliation on others.",
+    "origin": "<strong>Sadism</strong> is named after the Marquis de Sade (1740–1814), a French aristocrat and writer whose novels, including <em>Justine</em>, graphically depicted cruelty and violence intertwined with sexual pleasure, and whose own life included repeated imprisonment for violent and criminal conduct. Psychiatrist Richard von Krafft-Ebing coined the clinical term in 1886, permanently attaching the marquis's name to the psychological condition his writing had scandalously explored.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sadism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Marquis de Sade",
+            "b": "French aristocrat and writer, 1740–1814"
+          },
+          {
+            "a": "His novels depicted",
+            "b": "Cruelty intertwined with sexual pleasure"
+          },
+          {
+            "a": "He was repeatedly",
+            "b": "Imprisoned for violent conduct"
+          },
+          {
+            "a": "Clinical term coined by",
+            "b": "Richard von Krafft-Ebing, 1886"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sadism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Sadism describes",
+            "b": "Deriving pleasure from inflicting pain"
+          },
+          {
+            "a": "Named after",
+            "b": "A French aristocrat and writer"
+          },
+          {
+            "a": "Term coined by",
+            "b": "A 19th-century psychiatrist"
+          },
+          {
+            "a": "Related opposite term",
+            "b": "Masochism"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sadism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Critics accused the film of gratuitous",
+            "b": "Sadism"
+          },
+          {
+            "a": "The therapist studied patterns of",
+            "b": "Sadism in his clinical work"
+          },
+          {
+            "a": "The villain's cruelty bordered on outright",
+            "b": "Sadism"
+          },
+          {
+            "a": "His enjoyment of others' failures hinted at mild",
+            "b": "Sadism"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Marquis de Sade",
+        "rootLanguage": "18th-century France",
+        "rootMeaning": "Writer whose violent, scandalous novels gave the condition its name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Marquis de Sade",
+          "highlight": true
+        },
+        {
+          "text": ", whose scandalous novels of cruelty and pleasure gave a 19th-century psychiatrist a permanent clinical term.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Marquis de Sade",
+      "correctAnswer": "Writer whose violent, scandalous novels gave the condition its name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Braille",
+    "pronunciation": "BRAYL",
+    "pos": "noun",
+    "definition": "A system of raised dots that can be read by touch, used by blind and visually impaired people.",
+    "origin": "<strong>Braille</strong> is named after Louis Braille (1809–1852), a French student who lost his sight at the age of three after an accident with an awl in his father's workshop. At fifteen, while a pupil at the Royal Institute for Blind Youth in Paris, he adapted a cumbersome military code for reading in the dark into a compact six-dot system his fellow students could read with a single fingertip.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Braille</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Louis Braille",
+            "b": "French student, 1809–1852"
+          },
+          {
+            "a": "Lost his sight at age",
+            "b": "Three, in a workshop accident"
+          },
+          {
+            "a": "Developed the system at age",
+            "b": "Fifteen, at a school for the blind"
+          },
+          {
+            "a": "Adapted from",
+            "b": "A military night-reading code"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Braille</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Braille describes",
+            "b": "A system of raised dots read by touch"
+          },
+          {
+            "a": "Invented by",
+            "b": "A blind French teenager"
+          },
+          {
+            "a": "Based on",
+            "b": "A cumbersome military code, simplified"
+          },
+          {
+            "a": "Used for",
+            "b": "Reading and writing by blind people"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Braille</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The lift buttons were labelled in",
+            "b": "Braille"
+          },
+          {
+            "a": "She learned to read",
+            "b": "Braille as a child"
+          },
+          {
+            "a": "The library stocked books printed in",
+            "b": "Braille"
+          },
+          {
+            "a": "His fingertips moved swiftly across the",
+            "b": "Braille page"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Louis Braille",
+        "rootLanguage": "19th-century France",
+        "rootMeaning": "Blind teenager who invented the raised-dot reading system",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Louis Braille",
+          "highlight": true
+        },
+        {
+          "text": ", who, blinded as a child, adapted a military code into the reading system that still bears his name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Louis Braille",
+      "correctAnswer": "Blind teenager who invented the raised-dot reading system",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Petri",
+    "pronunciation": "PEE-tree",
+    "pos": "adjective",
+    "definition": "Describing a shallow, flat, lidded glass or plastic dish used to culture cells or microorganisms in a laboratory.",
+    "origin": "<strong>Petri</strong> dish is named after Julius Richard Petri (1852–1921), a German bacteriologist who in 1887, while serving as an assistant to Robert Koch, designed the shallow, covered dish still used in labs today to grow bacterial cultures without contamination. His simple, elegant design proved so effective that it has changed remarkably little in over a century of use.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Petri</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Julius Richard Petri",
+            "b": "German bacteriologist, 1852–1921"
+          },
+          {
+            "a": "Designed the dish in",
+            "b": "1887"
+          },
+          {
+            "a": "Worked as an assistant to",
+            "b": "Robert Koch"
+          },
+          {
+            "a": "Purpose of the design",
+            "b": "Growing bacterial cultures without contamination"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Petri</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Petri dish describes",
+            "b": "A shallow, lidded dish for culturing microorganisms"
+          },
+          {
+            "a": "Named after",
+            "b": "A German bacteriologist"
+          },
+          {
+            "a": "Invented while working for",
+            "b": "Robert Koch"
+          },
+          {
+            "a": "Design has remained",
+            "b": "Largely unchanged for over a century"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Petri</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The scientist inoculated a fresh",
+            "b": "Petri dish with the sample"
+          },
+          {
+            "a": "Rows of",
+            "b": "Petri dishes lined the laboratory bench"
+          },
+          {
+            "a": "Students grew bacteria in a",
+            "b": "Petri dish for the experiment"
+          },
+          {
+            "a": "The mould had spread across the entire",
+            "b": "Petri dish"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Julius Richard Petri",
+        "rootLanguage": "19th-century Germany",
+        "rootMeaning": "Bacteriologist who designed the standard laboratory culture dish",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Julius Richard Petri",
+          "highlight": true
+        },
+        {
+          "text": ", whose simple, elegant lab dish design has barely changed in over a century of use.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Julius Richard Petri",
+      "correctAnswer": "Bacteriologist who designed the standard laboratory culture dish",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Guppy",
+    "pronunciation": "GUP-ee",
+    "pos": "noun",
+    "definition": "A small, brightly coloured freshwater fish popular in home aquariums.",
+    "origin": "<strong>Guppy</strong> is named after Robert John Lechmere Guppy (1836–1916), a British-born naturalist working in Trinidad who in 1866 sent specimens of the small, colourful fish to the British Museum, where scientists formally classified and named the species in his honour. The tiny fish, prolific breeders that are famously easy to keep, became one of the most popular aquarium fish in the world.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guppy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Robert John Lechmere Guppy",
+            "b": "British-born naturalist, 1836–1916"
+          },
+          {
+            "a": "Worked in",
+            "b": "Trinidad"
+          },
+          {
+            "a": "Sent specimens to",
+            "b": "The British Museum, in 1866"
+          },
+          {
+            "a": "Fish named in his honour by",
+            "b": "Museum scientists"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guppy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Guppy describes",
+            "b": "A small, colourful freshwater aquarium fish"
+          },
+          {
+            "a": "Named after",
+            "b": "A naturalist working in Trinidad"
+          },
+          {
+            "a": "Known for being",
+            "b": "Prolific breeders"
+          },
+          {
+            "a": "Popular use",
+            "b": "Home aquariums"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guppy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tank was full of darting",
+            "b": "Guppies"
+          },
+          {
+            "a": "She bought a pair of colourful",
+            "b": "Guppies from the pet shop"
+          },
+          {
+            "a": "The classroom aquarium housed several",
+            "b": "Guppies"
+          },
+          {
+            "a": "Within weeks the",
+            "b": "Guppies had multiplied rapidly"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Robert John Lechmere Guppy",
+        "rootLanguage": "19th-century Britain/Trinidad",
+        "rootMeaning": "Naturalist who sent the fish specimens to the British Museum",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Robert John Lechmere Guppy",
+          "highlight": true
+        },
+        {
+          "text": ", the naturalist whose Trinidad fish specimens earned a permanent place in home aquariums worldwide.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Robert John Lechmere Guppy",
+      "correctAnswer": "Naturalist who sent the fish specimens to the British Museum",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mesmerize",
+    "pronunciation": "MEZ-muh-ryze",
+    "pos": "verb",
+    "definition": "To hold someone's attention completely, as if by magic or hypnosis; to hypnotise.",
+    "origin": "<strong>Mesmerize</strong> is named after Franz Anton Mesmer (1734–1815), a German physician who developed a theory of \"animal magnetism,\" claiming an invisible fluid connected all living things and could be manipulated to cure illness. His dramatic healing sessions in Paris, though later debunked by a royal commission that included Benjamin Franklin, left behind a word for a hypnotic, spellbinding hold over someone's attention.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mesmerize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Franz Anton Mesmer",
+            "b": "German physician, 1734–1815"
+          },
+          {
+            "a": "His theory",
+            "b": "\"Animal magnetism,\" an invisible healing fluid"
+          },
+          {
+            "a": "Investigated and debunked by",
+            "b": "A royal commission including Benjamin Franklin"
+          },
+          {
+            "a": "Word now means",
+            "b": "To hold someone spellbound"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mesmerize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mesmerize describes",
+            "b": "To hold complete, spellbound attention"
+          },
+          {
+            "a": "Named after",
+            "b": "A German physician"
+          },
+          {
+            "a": "His theory was called",
+            "b": "Animal magnetism"
+          },
+          {
+            "a": "His methods were later",
+            "b": "Debunked by scientific investigation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mesmerize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The dancer's performance",
+            "b": "Mesmerized the entire audience"
+          },
+          {
+            "a": "She was",
+            "b": "Mesmerized by the flickering flames"
+          },
+          {
+            "a": "His storytelling could",
+            "b": "Mesmerize a room full of children"
+          },
+          {
+            "a": "The magic trick left the crowd",
+            "b": "Mesmerized"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Franz Anton Mesmer",
+        "rootLanguage": "18th-century Germany/France",
+        "rootMeaning": "Physician whose theory of animal magnetism gave English its word for spellbinding attention",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Franz Anton Mesmer",
+          "highlight": true
+        },
+        {
+          "text": ", whose debunked theory of animal magnetism still left English with a word for being utterly spellbound.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Franz Anton Mesmer",
+      "correctAnswer": "Physician whose theory of animal magnetism gave English its word for spellbinding attention",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pasteurize",
+    "pronunciation": "PAS-chuh-ryze",
+    "pos": "verb",
+    "definition": "To heat a liquid, especially milk, to a specific temperature for a set time in order to kill harmful bacteria.",
+    "origin": "<strong>Pasteurize</strong> is named after Louis Pasteur (1822–1895), the French chemist and microbiologist whose experiments in the 1860s proved that heating wine and beer to a specific temperature killed the microorganisms that caused spoilage, without ruining the flavour. The technique, later adapted to milk to prevent the spread of diseases like tuberculosis, transformed food safety and public health worldwide, all under his name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pasteurize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Louis Pasteur",
+            "b": "French chemist and microbiologist, 1822–1895"
+          },
+          {
+            "a": "His experiments in the 1860s proved",
+            "b": "Heat kills spoilage-causing microorganisms"
+          },
+          {
+            "a": "First applied to",
+            "b": "Wine and beer"
+          },
+          {
+            "a": "Later adapted to",
+            "b": "Milk, preventing diseases like tuberculosis"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pasteurize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pasteurize describes",
+            "b": "Heating a liquid to kill harmful bacteria"
+          },
+          {
+            "a": "Named after",
+            "b": "A French chemist and microbiologist"
+          },
+          {
+            "a": "First tested on",
+            "b": "Wine and beer"
+          },
+          {
+            "a": "Now most associated with",
+            "b": "Milk safety"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pasteurize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The dairy plant",
+            "b": "Pasteurized every batch of milk"
+          },
+          {
+            "a": "Unlike raw milk, this carton is",
+            "b": "Pasteurized for safety"
+          },
+          {
+            "a": "The brewery used a gentle process to",
+            "b": "Pasteurize the beer"
+          },
+          {
+            "a": "Regulations require dairies to",
+            "b": "Pasteurize before bottling"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Louis Pasteur",
+        "rootLanguage": "19th-century France",
+        "rootMeaning": "Chemist who discovered heat treatment to kill spoilage microorganisms",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Louis Pasteur",
+          "highlight": true
+        },
+        {
+          "text": ", whose discovery that heat kills spoilage microbes transformed food safety worldwide.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Louis Pasteur",
+      "correctAnswer": "Chemist who discovered heat treatment to kill spoilage microorganisms",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nicotine",
+    "pronunciation": "NIK-uh-teen",
+    "pos": "noun",
+    "definition": "An addictive chemical compound found in tobacco plants.",
+    "origin": "<strong>Nicotine</strong> is named after Jean Nicot (c.1530–1600), the French diplomat serving as ambassador to Portugal who in 1560 sent tobacco seeds and leaves to the French court, promoting the plant as a medicinal cure for headaches and other ailments. Botanists later named both the tobacco genus, <em>Nicotiana</em>, and the addictive compound within it after the diplomat who first popularised it in France.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nicotine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jean Nicot",
+            "b": "French diplomat, c.1530–1600"
+          },
+          {
+            "a": "Served as ambassador to",
+            "b": "Portugal"
+          },
+          {
+            "a": "Sent tobacco seeds to France in",
+            "b": "1560"
+          },
+          {
+            "a": "Promoted tobacco as",
+            "b": "A medicinal cure for headaches"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nicotine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nicotine describes",
+            "b": "An addictive compound found in tobacco"
+          },
+          {
+            "a": "Named after",
+            "b": "A French diplomat"
+          },
+          {
+            "a": "He first promoted tobacco as",
+            "b": "A medicine"
+          },
+          {
+            "a": "Related genus name",
+            "b": "Nicotiana"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nicotine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The patch delivers a steady dose of",
+            "b": "Nicotine"
+          },
+          {
+            "a": "She struggled to quit due to",
+            "b": "Nicotine withdrawal"
+          },
+          {
+            "a": "The gum offered a lower-dose alternative to",
+            "b": "Nicotine cravings"
+          },
+          {
+            "a": "Cigarette smoke contains",
+            "b": "Nicotine and thousands of other chemicals"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jean Nicot",
+        "rootLanguage": "16th-century France",
+        "rootMeaning": "Diplomat who introduced tobacco to the French court",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Jean Nicot",
+          "highlight": true
+        },
+        {
+          "text": ", the diplomat who introduced tobacco to France as a supposed headache cure.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jean Nicot",
+      "correctAnswer": "Diplomat who introduced tobacco to the French court",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mausoleum",
+    "pronunciation": "maw-suh-LEE-um",
+    "pos": "noun",
+    "definition": "A large, stately tomb, especially a grand freestanding building constructed to house the remains of the dead.",
+    "origin": "<strong>Mausoleum</strong> is named after Mausolus, a satrap who ruled Caria in western Anatolia in the fourth century BC, whose grieving widow Artemisia commissioned an enormous marble tomb at Halicarnassus after his death in 353 BC. So spectacular was the structure, ranked among the Seven Wonders of the Ancient World, that his name became the generic word for any grand tomb built ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mausoleum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Mausolus",
+            "b": "Satrap of Caria, western Anatolia, 4th century BC"
+          },
+          {
+            "a": "His tomb commissioned by",
+            "b": "His widow, Artemisia"
+          },
+          {
+            "a": "Location",
+            "b": "Halicarnassus"
+          },
+          {
+            "a": "Ranked among",
+            "b": "The Seven Wonders of the Ancient World"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mausoleum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mausoleum describes",
+            "b": "A grand, freestanding tomb"
+          },
+          {
+            "a": "Named after",
+            "b": "An ancient ruler of Caria"
+          },
+          {
+            "a": "Original tomb was one of",
+            "b": "The Seven Wonders of the Ancient World"
+          },
+          {
+            "a": "Commissioned by",
+            "b": "His grieving widow"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mausoleum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The wealthy family built an elaborate",
+            "b": "Mausoleum in the cemetery"
+          },
+          {
+            "a": "Tourists photographed the marble",
+            "b": "Mausoleum"
+          },
+          {
+            "a": "The ancient ruler was buried in a grand",
+            "b": "Mausoleum"
+          },
+          {
+            "a": "The cemetery's oldest structure was a crumbling",
+            "b": "Mausoleum"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Mausolus",
+        "rootLanguage": "Ancient Caria, 4th century BC",
+        "rootMeaning": "Ruler whose spectacular tomb became one of the Seven Wonders",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Mausolus",
+          "highlight": true
+        },
+        {
+          "text": ", the ancient ruler whose widow built him a tomb so spectacular it ranked among the Seven Wonders of the World.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Mausolus",
+      "correctAnswer": "Ruler whose spectacular tomb became one of the Seven Wonders",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pullman",
+    "pronunciation": "PULL-mun",
+    "pos": "noun",
+    "definition": "A luxurious railway sleeping or dining carriage, or a style of long, narrow apartment.",
+    "origin": "<strong>Pullman</strong> is named after George Pullman (1831–1897), the American industrialist who in 1865 designed a luxurious railway sleeping car with plush seating that converted into beds, transforming long-distance train travel from an ordeal into an experience of comfort. His company built an entire model industrial town for its workers near Chicago, also called Pullman, and his surname became attached to both the railcars and, later, a narrow style of apartment.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pullman</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "George Pullman",
+            "b": "American industrialist, 1831–1897"
+          },
+          {
+            "a": "Designed the luxury railway car in",
+            "b": "1865"
+          },
+          {
+            "a": "Innovation",
+            "b": "Seating that converted into sleeping berths"
+          },
+          {
+            "a": "Also built",
+            "b": "A model industrial town near Chicago"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pullman</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pullman describes",
+            "b": "A luxurious railway sleeping or dining car"
+          },
+          {
+            "a": "Named after",
+            "b": "An American industrialist"
+          },
+          {
+            "a": "Also describes",
+            "b": "A long, narrow style of apartment"
+          },
+          {
+            "a": "Innovation was",
+            "b": "Beds that folded from passenger seating"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pullman</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They booked a berth on the",
+            "b": "Pullman car for the overnight journey"
+          },
+          {
+            "a": "The old train still had an original",
+            "b": "Pullman dining car"
+          },
+          {
+            "a": "Her first apartment was a cramped",
+            "b": "Pullman-style flat"
+          },
+          {
+            "a": "Vintage travel posters advertised the luxury of the",
+            "b": "Pullman"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "George Pullman",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Industrialist who designed the luxury railway sleeping car",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "George Pullman",
+          "highlight": true
+        },
+        {
+          "text": ", whose luxury sleeping cars turned long train journeys into something to look forward to.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "George Pullman",
+      "correctAnswer": "Industrialist who designed the luxury railway sleeping car",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Taser",
+    "pronunciation": "TAY-zur",
+    "pos": "noun",
+    "definition": "A handheld electroshock weapon that fires darts delivering an incapacitating electric charge.",
+    "origin": "<strong>Taser</strong> is an acronym coined by its inventor, Jack Cover, an American physicist who developed the weapon in the early 1970s and named it \"Thomas A. Swift's Electric Rifle,\" after the fictional boy inventor Tom Swift, hero of a series of adventure novels Cover had loved as a child. He added the \"A\" purely to make the acronym pronounceable, turning a favourite childhood character into a piece of modern law-enforcement equipment.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Taser</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jack Cover",
+            "b": "American physicist, invented the weapon in the 1970s"
+          },
+          {
+            "a": "Acronym stands for",
+            "b": "\"Thomas A. Swift's Electric Rifle\""
+          },
+          {
+            "a": "Named after",
+            "b": "Tom Swift, fictional boy inventor"
+          },
+          {
+            "a": "Extra \"A\" added for",
+            "b": "A pronounceable acronym"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Taser</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Taser describes",
+            "b": "A handheld electroshock weapon"
+          },
+          {
+            "a": "Word is an",
+            "b": "Acronym"
+          },
+          {
+            "a": "Named after",
+            "b": "A fictional adventure-novel hero"
+          },
+          {
+            "a": "Invented by",
+            "b": "An American physicist"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Taser</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The officer drew his",
+            "b": "Taser rather than a firearm"
+          },
+          {
+            "a": "Police departments trained recruits on",
+            "b": "Taser use"
+          },
+          {
+            "a": "The suspect was subdued with a",
+            "b": "Taser"
+          },
+          {
+            "a": "Critics debated the safety of",
+            "b": "Taser deployment"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Tom Swift",
+        "rootLanguage": "20th-century USA (fictional character)",
+        "rootMeaning": "Boy inventor hero whose name inspired the weapon's acronym",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, as an acronym, after ",
+          "highlight": false
+        },
+        {
+          "text": "Tom Swift",
+          "highlight": true
+        },
+        {
+          "text": ", the fictional boy inventor its creator had loved reading about as a child.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Tom Swift",
+      "correctAnswer": "Boy inventor hero whose name inspired the weapon's acronym",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ponzi",
+    "pronunciation": "PON-zee",
+    "pos": "adjective",
+    "definition": "Describing a fraudulent investment scheme that pays returns to earlier investors using the capital of new investors, rather than profit.",
+    "origin": "<strong>Ponzi</strong> scheme is named after Charles Ponzi (1882–1949), an Italian immigrant to the United States who in 1920 promised investors extraordinary returns from trading international postal reply coupons, but was actually just paying old investors with money from new ones. His scheme collapsed within months, defrauding thousands, but the pattern he ran, though not the one he invented, has carried his name ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ponzi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Ponzi",
+            "b": "Italian immigrant to the USA, 1882–1949"
+          },
+          {
+            "a": "Ran his scheme starting in",
+            "b": "1920"
+          },
+          {
+            "a": "Claimed to profit from",
+            "b": "International postal reply coupons"
+          },
+          {
+            "a": "Actual method",
+            "b": "Paying old investors with new investors' money"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ponzi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ponzi scheme describes",
+            "b": "A fraud paying old investors with new money"
+          },
+          {
+            "a": "Named after",
+            "b": "An Italian-American con artist"
+          },
+          {
+            "a": "The scheme eventually",
+            "b": "Collapses when new investment dries up"
+          },
+          {
+            "a": "Related, larger-scale term",
+            "b": "Pyramid scheme"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ponzi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Investigators exposed the fund as a",
+            "b": "Ponzi scheme"
+          },
+          {
+            "a": "Investors lost their savings in the",
+            "b": "Ponzi fraud"
+          },
+          {
+            "a": "Regulators warned about the classic signs of a",
+            "b": "Ponzi scheme"
+          },
+          {
+            "a": "The fraudster ran a",
+            "b": "Ponzi operation for over a decade"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Ponzi",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Fraudster whose investment scheme paid old investors with new money",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Ponzi",
+          "highlight": true
+        },
+        {
+          "text": ", whose postal-coupon fraud collapsed within months but left his name on every scheme built the same way since.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Ponzi",
+      "correctAnswer": "Fraudster whose investment scheme paid old investors with new money",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hoover",
+    "pronunciation": "HOO-vur",
+    "pos": "noun",
+    "definition": "A vacuum cleaner, or, as a verb, to clean using one; used generically in British English regardless of brand.",
+    "origin": "<strong>Hoover</strong> is named after William Henry Hoover (1849–1932), the American businessman who bought the patent for an early electric vacuum cleaner from its actual inventor, James Murray Spangler, in 1908 and built the company that turned it into a household name. The Hoover Company's dominance of the British market was so total that its name became the everyday generic word for any vacuum cleaner, and even the verb for using one.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hoover</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "William Henry Hoover",
+            "b": "American businessman, 1849–1932"
+          },
+          {
+            "a": "Bought the patent from",
+            "b": "James Murray Spangler, the actual inventor"
+          },
+          {
+            "a": "Purchase made in",
+            "b": "1908"
+          },
+          {
+            "a": "Company's dominance led to",
+            "b": "The name becoming generic for any vacuum"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hoover</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hoover describes",
+            "b": "A vacuum cleaner, or the act of vacuuming"
+          },
+          {
+            "a": "Named after",
+            "b": "The businessman who commercialised the invention"
+          },
+          {
+            "a": "Actual inventor was",
+            "b": "James Murray Spangler"
+          },
+          {
+            "a": "Used generically in",
+            "b": "British English"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hoover</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She got out the",
+            "b": "Hoover to clean the carpet"
+          },
+          {
+            "a": "He promised to",
+            "b": "Hoover the living room before guests arrived"
+          },
+          {
+            "a": "The",
+            "b": "Hoover bag needed emptying again"
+          },
+          {
+            "a": "Even rival brands were casually called a",
+            "b": "Hoover"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "William Henry Hoover",
+        "rootLanguage": "19th–20th-century USA",
+        "rootMeaning": "Businessman whose company made the vacuum cleaner a household name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "William Henry Hoover",
+          "highlight": true
+        },
+        {
+          "text": ", whose company's dominance turned his surname into the everyday British word for any vacuum cleaner.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "William Henry Hoover",
+      "correctAnswer": "Businessman whose company made the vacuum cleaner a household name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Diesel",
+    "pronunciation": "DEE-zul",
+    "pos": "noun",
+    "definition": "A heavy petroleum-derived fuel oil, or an engine that ignites fuel through compression rather than a spark.",
+    "origin": "<strong>Diesel</strong> is named after Rudolf Diesel (1858–1913), the German inventor who patented a new type of internal combustion engine in 1893 that ignited fuel through the heat of highly compressed air alone, without needing a spark plug, making it far more efficient than existing engines. Diesel disappeared mysteriously from a cross-Channel ferry in 1913, his death never fully explained, but his engine design and its fuel still carry his name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Diesel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Rudolf Diesel",
+            "b": "German inventor, 1858–1913"
+          },
+          {
+            "a": "Patented the engine in",
+            "b": "1893"
+          },
+          {
+            "a": "Key innovation",
+            "b": "Ignition through compressed air, no spark plug"
+          },
+          {
+            "a": "His death",
+            "b": "A mysterious disappearance from a ferry, 1913"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Diesel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Diesel describes",
+            "b": "A compression-ignition engine, or its fuel"
+          },
+          {
+            "a": "Named after",
+            "b": "A German inventor"
+          },
+          {
+            "a": "Key advantage of the design",
+            "b": "Greater fuel efficiency"
+          },
+          {
+            "a": "His disappearance in 1913 was",
+            "b": "Never fully explained"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Diesel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The truck ran on",
+            "b": "Diesel fuel"
+          },
+          {
+            "a": "She filled the tank at the",
+            "b": "Diesel pump"
+          },
+          {
+            "a": "The old tractor had a reliable",
+            "b": "Diesel engine"
+          },
+          {
+            "a": "Prices at the pump for",
+            "b": "Diesel had risen sharply"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Rudolf Diesel",
+        "rootLanguage": "19th–20th-century Germany",
+        "rootMeaning": "Inventor of the compression-ignition engine",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Rudolf Diesel",
+          "highlight": true
+        },
+        {
+          "text": ", whose spark-free compression engine outlived the mystery of his own disappearance at sea.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Rudolf Diesel",
+      "correctAnswer": "Inventor of the compression-ignition engine",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Saxophone",
+    "pronunciation": "SAK-suh-fohn",
+    "pos": "noun",
+    "definition": "A brass wind instrument with a single reed, played with keys, common in jazz and military bands.",
+    "origin": "<strong>Saxophone</strong> is named after Adolphe Sax (1814–1894), the Belgian instrument maker who patented the instrument in 1846, hoping to combine the projecting power of brass instruments with the agile, expressive tone of woodwinds for use in military and orchestral bands. Sax was famously accident-prone in his youth, surviving falls, poisonings, and burns, before going on to design an instrument now central to jazz.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Saxophone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Adolphe Sax",
+            "b": "Belgian instrument maker, 1814–1894"
+          },
+          {
+            "a": "Patented the instrument in",
+            "b": "1846"
+          },
+          {
+            "a": "His goal",
+            "b": "Combine brass power with woodwind expressiveness"
+          },
+          {
+            "a": "Intended for",
+            "b": "Military and orchestral bands"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Saxophone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Saxophone describes",
+            "b": "A single-reed brass instrument played with keys"
+          },
+          {
+            "a": "Named after",
+            "b": "A Belgian instrument maker"
+          },
+          {
+            "a": "Originally designed for",
+            "b": "Military bands"
+          },
+          {
+            "a": "Now central to",
+            "b": "Jazz music"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Saxophone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The jazz club's soloist played a smoky",
+            "b": "Saxophone"
+          },
+          {
+            "a": "He practised scales on his",
+            "b": "Saxophone every morning"
+          },
+          {
+            "a": "The marching band's brass section included a",
+            "b": "Saxophone line"
+          },
+          {
+            "a": "She bought her first",
+            "b": "Saxophone at the age of twelve"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Adolphe Sax",
+        "rootLanguage": "19th-century Belgium",
+        "rootMeaning": "Instrument maker who patented the saxophone",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Adolphe Sax",
+          "highlight": true
+        },
+        {
+          "text": ", the accident-prone Belgian instrument maker whose invention became central to jazz.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Adolphe Sax",
+      "correctAnswer": "Instrument maker who patented the saxophone",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Derrick",
+    "pronunciation": "DER-ik",
+    "pos": "noun",
+    "definition": "A tall framework or crane used for lifting heavy loads, or the tower structure above an oil well.",
+    "origin": "<strong>Derrick</strong> is named after Thomas Derrick, an English executioner active in London in the early 1600s who devised a gallows system using a beam, pulley, and rope to hang multiple prisoners more efficiently than a simple noosed rope. The mechanical hoisting apparatus of his gallows lent its name first to any similar lifting device, and eventually to the towering rigs used over oil wells.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Derrick</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Thomas Derrick",
+            "b": "English executioner, active early 1600s"
+          },
+          {
+            "a": "His invention",
+            "b": "A gallows using a beam, pulley, and rope"
+          },
+          {
+            "a": "Purpose",
+            "b": "To hang multiple prisoners more efficiently"
+          },
+          {
+            "a": "Word later applied to",
+            "b": "Any lifting crane, then oil-well towers"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Derrick</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Derrick describes",
+            "b": "A lifting crane, or an oil-well tower"
+          },
+          {
+            "a": "Named after",
+            "b": "An English executioner"
+          },
+          {
+            "a": "Original device was",
+            "b": "A gallows with a pulley system"
+          },
+          {
+            "a": "Modern use is mostly in",
+            "b": "The oil industry"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Derrick</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The oil field bristled with towering",
+            "b": "Derricks"
+          },
+          {
+            "a": "Workers hoisted the beam using the site's",
+            "b": "Derrick"
+          },
+          {
+            "a": "The drilling rig's",
+            "b": "Derrick loomed over the desert"
+          },
+          {
+            "a": "Cranes and",
+            "b": "Derricks lined the construction site"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Thomas Derrick",
+        "rootLanguage": "17th-century England",
+        "rootMeaning": "Executioner whose pulley-based gallows lent its name to lifting cranes",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Thomas Derrick",
+          "highlight": true
+        },
+        {
+          "text": ", the executioner whose grim pulley system for hanging prisoners lent its mechanism, and name, to the modern lifting crane.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Thomas Derrick",
+      "correctAnswer": "Executioner whose pulley-based gallows lent its name to lifting cranes",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stent",
+    "pronunciation": "STENT",
+    "pos": "noun",
+    "definition": "A small mesh tube inserted into a blood vessel or duct to keep it open.",
+    "origin": "<strong>Stent</strong> is named after Charles Thomas Stent (1807–1885), an English dentist who developed a mouldable compound used to take dental impressions, later adapted by surgeons as a scaffold to hold skin grafts and body tissue in place while healing. The word migrated from dentistry into vascular surgery over the twentieth century, eventually settling on the small mesh tubes used to prop open arteries today.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stent</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Thomas Stent",
+            "b": "English dentist, 1807–1885"
+          },
+          {
+            "a": "His invention",
+            "b": "A mouldable compound for dental impressions"
+          },
+          {
+            "a": "Later adapted by surgeons as",
+            "b": "A scaffold for healing tissue"
+          },
+          {
+            "a": "Word eventually settled on",
+            "b": "Mesh tubes propping open arteries"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stent</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Stent describes",
+            "b": "A mesh tube keeping a vessel or duct open"
+          },
+          {
+            "a": "Named after",
+            "b": "An English dentist"
+          },
+          {
+            "a": "Original invention was for",
+            "b": "Dental impressions"
+          },
+          {
+            "a": "Modern use is mainly in",
+            "b": "Cardiac and vascular surgery"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stent</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The surgeon inserted a",
+            "b": "Stent to clear the blocked artery"
+          },
+          {
+            "a": "After the heart attack, doctors fitted a",
+            "b": "Stent"
+          },
+          {
+            "a": "The procedure to place a",
+            "b": "Stent took under an hour"
+          },
+          {
+            "a": "He recovered well after the",
+            "b": "Stent surgery"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Thomas Stent",
+        "rootLanguage": "19th-century England",
+        "rootMeaning": "Dentist whose moulding compound evolved into the surgical device",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Thomas Stent",
+          "highlight": true
+        },
+        {
+          "text": ", the dentist whose moulding compound for dental impressions eventually gave heart surgery its life-saving mesh tube.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Thomas Stent",
+      "correctAnswer": "Dentist whose moulding compound evolved into the surgical device",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zeppelin",
+    "pronunciation": "ZEP-uh-lin",
+    "pos": "noun",
+    "definition": "A large, cigar-shaped rigid airship with an internal metal frame, used for early aviation and passenger travel.",
+    "origin": "<strong>Zeppelin</strong> is named after Ferdinand von Zeppelin (1838–1917), a German count and former cavalry officer who, after observing hot air balloons during the American Civil War, devoted himself to designing a rigid, steerable airship framed with an internal metal skeleton. His first successful flight in 1900 launched an aviation industry, and for decades these giant airships carried his name across the skies of Europe and beyond.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zeppelin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ferdinand von Zeppelin",
+            "b": "German count and former cavalry officer, 1838–1917"
+          },
+          {
+            "a": "Inspired by observing balloons during",
+            "b": "The American Civil War"
+          },
+          {
+            "a": "His design featured",
+            "b": "A rigid internal metal skeleton"
+          },
+          {
+            "a": "First successful flight in",
+            "b": "1900"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zeppelin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Zeppelin describes",
+            "b": "A large, rigid, cigar-shaped airship"
+          },
+          {
+            "a": "Named after",
+            "b": "A German count"
+          },
+          {
+            "a": "Distinguishing feature",
+            "b": "An internal metal frame"
+          },
+          {
+            "a": "First flew in",
+            "b": "1900"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zeppelin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Crowds gathered to watch the",
+            "b": "Zeppelin drift overhead"
+          },
+          {
+            "a": "The museum displayed photographs of vintage",
+            "b": "Zeppelins"
+          },
+          {
+            "a": "Early transatlantic passengers travelled aboard a",
+            "b": "Zeppelin"
+          },
+          {
+            "a": "The airship's frame was modelled on the classic",
+            "b": "Zeppelin design"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ferdinand von Zeppelin",
+        "rootLanguage": "19th–20th-century Germany",
+        "rootMeaning": "Count who pioneered the rigid airship",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ferdinand von Zeppelin",
+          "highlight": true
+        },
+        {
+          "text": ", the German count whose rigid, cigar-shaped airships once ruled the early skies of aviation.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ferdinand von Zeppelin",
+      "correctAnswer": "Count who pioneered the rigid airship",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bunsen",
+    "pronunciation": "BUN-sun",
+    "pos": "noun",
+    "definition": "A small laboratory gas burner producing a hot, controllable flame, used for heating and sterilisation.",
+    "origin": "<strong>Bunsen burner</strong> is named after Robert Bunsen (1811–1899), the German chemist who worked with laboratory technician Peter Desaga to refine an existing burner design in 1855, mixing gas with air before combustion to produce a cleaner, hotter, and less smoky flame than earlier versions. Bunsen went on to use his improved burner for pioneering work in flame spectroscopy, discovering two new chemical elements in the process.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bunsen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Robert Bunsen",
+            "b": "German chemist, 1811–1899"
+          },
+          {
+            "a": "Refined the burner with",
+            "b": "Laboratory technician Peter Desaga, 1855"
+          },
+          {
+            "a": "Key improvement",
+            "b": "Mixing gas with air before combustion"
+          },
+          {
+            "a": "Bunsen used it for",
+            "b": "Pioneering flame spectroscopy"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bunsen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bunsen burner describes",
+            "b": "A laboratory gas burner with a hot, clean flame"
+          },
+          {
+            "a": "Named after",
+            "b": "A German chemist"
+          },
+          {
+            "a": "Co-developed with",
+            "b": "Technician Peter Desaga"
+          },
+          {
+            "a": "Used for",
+            "b": "Heating, sterilising, and spectroscopy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bunsen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The chemistry class lit their",
+            "b": "Bunsen burners for the experiment"
+          },
+          {
+            "a": "She adjusted the flame on the",
+            "b": "Bunsen burner"
+          },
+          {
+            "a": "The lab table held a row of",
+            "b": "Bunsen burners"
+          },
+          {
+            "a": "He heated the test tube carefully over the",
+            "b": "Bunsen flame"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Robert Bunsen",
+        "rootLanguage": "19th-century Germany",
+        "rootMeaning": "Chemist who refined the laboratory gas burner",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Robert Bunsen",
+          "highlight": true
+        },
+        {
+          "text": ", the chemist whose refined gas burner became the standard flame of every school laboratory.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Robert Bunsen",
+      "correctAnswer": "Chemist who refined the laboratory gas burner",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Geiger",
+    "pronunciation": "GY-gur",
+    "pos": "adjective",
+    "definition": "Describing a device that detects and measures ionising radiation, producing an audible clicking sound.",
+    "origin": "<strong>Geiger</strong> counter is named after Hans Geiger (1882–1945), the German physicist who in 1908, working with Ernest Rutherford, developed a device to detect and count individual particles of radiation. He later refined it in 1928 with his student Walther Müller into the practical, portable instrument still known today, sometimes more fully, as the Geiger-Müller counter.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Geiger</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hans Geiger",
+            "b": "German physicist, 1882–1945"
+          },
+          {
+            "a": "First developed the device in",
+            "b": "1908, with Ernest Rutherford"
+          },
+          {
+            "a": "Refined it in 1928 with",
+            "b": "His student Walther Müller"
+          },
+          {
+            "a": "Fuller name of the device",
+            "b": "Geiger-Müller counter"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Geiger</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Geiger counter describes",
+            "b": "A device that detects ionising radiation"
+          },
+          {
+            "a": "Named after",
+            "b": "A German physicist"
+          },
+          {
+            "a": "Signature output",
+            "b": "An audible clicking sound"
+          },
+          {
+            "a": "Full technical name",
+            "b": "Geiger-Müller counter"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Geiger</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The scientist swept the site with a",
+            "b": "Geiger counter"
+          },
+          {
+            "a": "The device clicked loudly, a classic",
+            "b": "Geiger reading spike"
+          },
+          {
+            "a": "Inspectors checked the reactor site with a",
+            "b": "Geiger counter"
+          },
+          {
+            "a": "She carried a portable",
+            "b": "Geiger counter into the old mine"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Hans Geiger",
+        "rootLanguage": "20th-century Germany",
+        "rootMeaning": "Physicist who invented the radiation detection device",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Hans Geiger",
+          "highlight": true
+        },
+        {
+          "text": ", whose radiation-counting device, refined with his student Müller, still clicks in laboratories today.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Hans Geiger",
+      "correctAnswer": "Physicist who invented the radiation detection device",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Richter",
+    "pronunciation": "RIK-tur",
+    "pos": "adjective",
+    "definition": "Describing the logarithmic scale used to express the magnitude of an earthquake.",
+    "origin": "<strong>Richter</strong> scale is named after Charles Francis Richter (1900–1985), the American seismologist who in 1935, working with Beno Gutenberg at Caltech, developed a mathematical scale to compare the size of earthquakes based on the amplitude of seismic waves recorded on a seismograph. Though modern seismology now generally favours other magnitude scales for large quakes, Richter's name remains the one most familiar to the public.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Richter</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Francis Richter",
+            "b": "American seismologist, 1900–1985"
+          },
+          {
+            "a": "Developed the scale in",
+            "b": "1935, at Caltech"
+          },
+          {
+            "a": "Worked alongside",
+            "b": "Beno Gutenberg"
+          },
+          {
+            "a": "Scale measures",
+            "b": "Earthquake magnitude via seismic wave amplitude"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Richter</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Richter scale describes",
+            "b": "A logarithmic measure of earthquake magnitude"
+          },
+          {
+            "a": "Named after",
+            "b": "An American seismologist"
+          },
+          {
+            "a": "Developed at",
+            "b": "Caltech, in 1935"
+          },
+          {
+            "a": "Scale type is",
+            "b": "Logarithmic, not linear"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Richter</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The quake registered 6.2 on the",
+            "b": "Richter scale"
+          },
+          {
+            "a": "Seismologists compared the tremor to earlier events using the",
+            "b": "Richter scale"
+          },
+          {
+            "a": "News reports gave the magnitude on the",
+            "b": "Richter scale"
+          },
+          {
+            "a": "A small aftershock barely registered on the",
+            "b": "Richter scale"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Francis Richter",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Seismologist who developed the earthquake magnitude scale",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Francis Richter",
+          "highlight": true
+        },
+        {
+          "text": ", the seismologist whose 1935 magnitude scale became the public's standard measure of an earthquake's power.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Francis Richter",
+      "correctAnswer": "Seismologist who developed the earthquake magnitude scale",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nobel",
+    "pronunciation": "noh-BEL",
+    "pos": "adjective",
+    "definition": "Relating to the international prizes awarded annually for outstanding achievement in fields including science, literature, and peace.",
+    "origin": "<strong>Nobel</strong> Prize is named after Alfred Nobel (1833–1896), the Swedish chemist and engineer who invented dynamite and grew immensely wealthy from explosives manufacturing. When a premature obituary mistakenly published after his brother's death condemned him as a \"merchant of death,\" Nobel was so troubled by the prospect of that legacy that he rewrote his will to fund annual prizes rewarding humanity's greatest benefactors instead.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nobel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Alfred Nobel",
+            "b": "Swedish chemist and engineer, 1833–1896"
+          },
+          {
+            "a": "His invention",
+            "b": "Dynamite"
+          },
+          {
+            "a": "A premature obituary called him",
+            "b": "\"A merchant of death\""
+          },
+          {
+            "a": "His response",
+            "b": "Rewrote his will to fund the prizes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nobel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nobel Prize describes",
+            "b": "Annual international awards for great achievement"
+          },
+          {
+            "a": "Named after",
+            "b": "The inventor of dynamite"
+          },
+          {
+            "a": "Prompted by",
+            "b": "A mistaken, damning obituary"
+          },
+          {
+            "a": "Awarded in fields including",
+            "b": "Science, literature, and peace"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nobel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The physicist was awarded a",
+            "b": "Nobel Prize for her discovery"
+          },
+          {
+            "a": "He dreamed of one day winning the",
+            "b": "Nobel Prize in literature"
+          },
+          {
+            "a": "The committee announced this year's",
+            "b": "Nobel laureates"
+          },
+          {
+            "a": "Her research was later recognised with a",
+            "b": "Nobel Prize"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Alfred Nobel",
+        "rootLanguage": "19th-century Sweden",
+        "rootMeaning": "Inventor of dynamite who funded the prizes to redeem his legacy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Alfred Nobel",
+          "highlight": true
+        },
+        {
+          "text": ", whose mistaken obituary as a \"merchant of death\" pushed him to fund prizes celebrating humanity's greatest benefactors instead.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Alfred Nobel",
+      "correctAnswer": "Inventor of dynamite who funded the prizes to redeem his legacy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fibonacci",
+    "pronunciation": "fee-boh-NAH-chee",
+    "pos": "adjective",
+    "definition": "Describing a sequence of numbers in which each number is the sum of the two preceding ones, found widely in nature.",
+    "origin": "<strong>Fibonacci</strong> sequence is named after Leonardo of Pisa (c.1170–1250), known by the nickname Fibonacci, an Italian mathematician who introduced the sequence to Western Europe in his 1202 book <em>Liber Abaci</em> as a solution to a hypothetical problem about breeding rabbits. He also championed the Hindu-Arabic numeral system, including the use of zero, over Roman numerals, transforming European mathematics far beyond the sequence that carries his name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fibonacci</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Fibonacci (Leonardo of Pisa)",
+            "b": "Italian mathematician, c.1170–1250"
+          },
+          {
+            "a": "Introduced the sequence in",
+            "b": "Liber Abaci, 1202"
+          },
+          {
+            "a": "Original context",
+            "b": "A hypothetical problem about breeding rabbits"
+          },
+          {
+            "a": "Also championed",
+            "b": "Hindu-Arabic numerals over Roman numerals"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fibonacci</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Fibonacci sequence describes",
+            "b": "Numbers each the sum of the two before it"
+          },
+          {
+            "a": "Named after",
+            "b": "An Italian mathematician"
+          },
+          {
+            "a": "First introduced in",
+            "b": "A 1202 mathematics book"
+          },
+          {
+            "a": "Found widely in",
+            "b": "Patterns in nature, such as spirals"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fibonacci</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The sunflower's seed spiral followed a",
+            "b": "Fibonacci pattern"
+          },
+          {
+            "a": "Students memorised the first ten terms of the",
+            "b": "Fibonacci sequence"
+          },
+          {
+            "a": "The nautilus shell's curve echoed the",
+            "b": "Fibonacci spiral"
+          },
+          {
+            "a": "Her thesis explored",
+            "b": "Fibonacci numbers in architecture"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Fibonacci (Leonardo of Pisa)",
+        "rootLanguage": "13th-century Italy",
+        "rootMeaning": "Mathematician who introduced the sequence to Western Europe",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Fibonacci",
+          "highlight": true
+        },
+        {
+          "text": ", the medieval Italian mathematician whose rabbit-breeding puzzle revealed a pattern found throughout the natural world.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Fibonacci (Leonardo of Pisa)",
+      "correctAnswer": "Mathematician who introduced the sequence to Western Europe",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Teetotal",
+    "pronunciation": "tee-TOH-tul",
+    "pos": "adjective",
+    "definition": "Abstaining completely from alcoholic drink.",
+    "origin": "<strong>Teetotal</strong> is not a personal name but is often linked to a real moment: in an 1833 temperance speech in Preston, England, a working man named Richard \"Dicky\" Turner reportedly stammered that only \"t-total\" abstinence, not just moderation, would do, emphasising the \"T\" for total. Whether or not the anecdote is entirely accurate, the emphatic doubling of the \"T\" sound stuck, giving the temperance movement a distinctive word for complete abstinence from alcohol.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Teetotal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Richard \"Dicky\" Turner",
+            "b": "Working man credited with the phrase, Preston, 1833"
+          },
+          {
+            "a": "Context",
+            "b": "A temperance movement speech"
+          },
+          {
+            "a": "His stammered phrase",
+            "b": "\"T-total\" abstinence, emphasising total"
+          },
+          {
+            "a": "Word entered use",
+            "b": "Within the growing temperance movement"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Teetotal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Teetotal describes",
+            "b": "Complete abstinence from alcohol"
+          },
+          {
+            "a": "Popularised during",
+            "b": "The 19th-century temperance movement"
+          },
+          {
+            "a": "Possibly coined by",
+            "b": "A stammering speaker emphasising \"total\""
+          },
+          {
+            "a": "Related noun",
+            "b": "A teetotaller"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Teetotal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He's been",
+            "b": "Teetotal since his twenties"
+          },
+          {
+            "a": "She ordered a mocktail, being strictly",
+            "b": "Teetotal"
+          },
+          {
+            "a": "The wedding offered a fully",
+            "b": "Teetotal reception"
+          },
+          {
+            "a": "His",
+            "b": "Teetotal lifestyle surprised his old drinking friends"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Richard \"Dicky\" Turner",
+        "rootLanguage": "19th-century England",
+        "rootMeaning": "Temperance speaker credited with coining the emphatic \"t-total\"",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced to ",
+          "highlight": false
+        },
+        {
+          "text": "Richard \"Dicky\" Turner",
+          "highlight": true
+        },
+        {
+          "text": ", whose stammered emphasis on \"t-total\" abstinence gave the temperance movement its lasting word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Richard \"Dicky\" Turner",
+      "correctAnswer": "Temperance speaker credited with coining the emphatic \"t-total\"",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jeep",
+    "pronunciation": "JEEP",
+    "pos": "noun",
+    "definition": "A small, sturdy four-wheel-drive vehicle, originally developed for military use.",
+    "origin": "<strong>Jeep</strong> most likely derives from \"GP,\" a US Army abbreviation for \"general purpose\" vehicle, though the exact origin is debated, and some trace it instead to Eugene the Jeep, a mysterious, all-capable creature in the 1930s Popeye comic strip, whose can-do reputation made soldiers apply his name to their versatile new vehicle. The rugged military vehicle built for the Second World War kept the nickname permanently, and Jeep later became a registered trademark.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jeep</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "US Army abbreviation \"GP\"",
+            "b": "\"General purpose\" vehicle"
+          },
+          {
+            "a": "Alternative theory",
+            "b": "Eugene the Jeep, a 1930s Popeye comic character"
+          },
+          {
+            "a": "Popeye's Jeep was known for",
+            "b": "Solving any problem, seemingly all-capable"
+          },
+          {
+            "a": "Vehicle built for",
+            "b": "The Second World War"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jeep</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Jeep describes",
+            "b": "A sturdy, four-wheel-drive vehicle"
+          },
+          {
+            "a": "Likely derived from",
+            "b": "\"GP,\" general purpose"
+          },
+          {
+            "a": "Alternative link to",
+            "b": "A comic strip character"
+          },
+          {
+            "a": "Originally developed for",
+            "b": "Military use"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jeep</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They drove the old",
+            "b": "Jeep along the dirt trail"
+          },
+          {
+            "a": "The safari guide navigated the reserve in a battered",
+            "b": "Jeep"
+          },
+          {
+            "a": "Soldiers in the war relied on the versatile",
+            "b": "Jeep"
+          },
+          {
+            "a": "He restored a vintage military",
+            "b": "Jeep as a hobby"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "GP (general purpose)",
+        "rootLanguage": "20th-century US Army abbreviation",
+        "rootMeaning": "Military designation, possibly blended with a comic-strip character's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Traced, in one story, to ",
+          "highlight": false
+        },
+        {
+          "text": "Eugene the Jeep",
+          "highlight": true
+        },
+        {
+          "text": ", a can-do comic strip character, and in another, more simply, to the Army abbreviation \"GP\" for general purpose.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "GP (general purpose)",
+      "correctAnswer": "Military designation, possibly blended with a comic-strip character's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kodak",
+    "pronunciation": "KOH-dak",
+    "pos": "noun",
+    "definition": "A brand name, used generically, for an inexpensive, easy-to-use camera.",
+    "origin": "<strong>Kodak</strong> is not named after a person at all, but was deliberately invented from nothing by George Eastman (1854–1932), founder of the Eastman Kodak Company, who wanted a short, strong, easily pronounced word starting and ending with his favourite letter, \"K,\" with no meaning in any language to trip up trademark disputes. The resulting invented brand name became so dominant in consumer photography that it entered everyday speech as shorthand for any simple snapshot camera.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kodak</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "George Eastman",
+            "b": "Founder of the Eastman Kodak Company, 1854–1932"
+          },
+          {
+            "a": "His goal for the name",
+            "b": "Short, strong, starting and ending with \"K\""
+          },
+          {
+            "a": "Deliberately chosen to have",
+            "b": "No meaning in any language"
+          },
+          {
+            "a": "Word later became",
+            "b": "Generic for any simple camera"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kodak</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Kodak describes",
+            "b": "An easy-to-use camera, used generically"
+          },
+          {
+            "a": "Invented, rather than derived, by",
+            "b": "George Eastman"
+          },
+          {
+            "a": "Reason for the name",
+            "b": "A strong, meaningless, trademarkable word"
+          },
+          {
+            "a": "Notably, unlike others here",
+            "b": "Not named after a real person"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kodak</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She snapped a photo on her old",
+            "b": "Kodak"
+          },
+          {
+            "a": "The family album was full of faded",
+            "b": "Kodak prints"
+          },
+          {
+            "a": "He collected vintage",
+            "b": "Kodak cameras"
+          },
+          {
+            "a": "Tourists once relied on disposable",
+            "b": "Kodak cameras for holiday snaps"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "George Eastman",
+        "rootLanguage": "19th–20th-century USA",
+        "rootMeaning": "Founder who invented the meaningless brand name from scratch",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Coined by ",
+          "highlight": false
+        },
+        {
+          "text": "George Eastman",
+          "highlight": true
+        },
+        {
+          "text": ", who wanted a name with no meaning at all in any language, just a strong, memorable sound.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "George Eastman",
+      "correctAnswer": "Founder who invented the meaningless brand name from scratch",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Frisbee",
+    "pronunciation": "FRIZ-bee",
+    "pos": "noun",
+    "definition": "A concave plastic disc thrown between players as a game or sport.",
+    "origin": "<strong>Frisbee</strong> is named after the Frisbie Pie Company of Bridgeport, Connecticut, whose empty metal pie tins, stamped with the bakery's name, were tossed by nearby college students for fun in the early twentieth century. When Walter Morrison later developed a plastic version of the flying disc in the 1950s, the toy company Wham-O bought his design, altered the spelling, and named it Frisbee in honour of the pie tins that started the game.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Frisbee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Frisbie Pie Company",
+            "b": "Bakery in Bridgeport, Connecticut"
+          },
+          {
+            "a": "Students tossed the bakery's",
+            "b": "Empty metal pie tins, for fun"
+          },
+          {
+            "a": "Plastic version developed by",
+            "b": "Walter Morrison, in the 1950s"
+          },
+          {
+            "a": "Sold and renamed by",
+            "b": "Toy company Wham-O"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Frisbee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Frisbee describes",
+            "b": "A concave plastic disc thrown as a game"
+          },
+          {
+            "a": "Named after",
+            "b": "A pie company, not a person directly"
+          },
+          {
+            "a": "Plastic version created by",
+            "b": "Walter Morrison"
+          },
+          {
+            "a": "Sold under the trademark of",
+            "b": "Wham-O"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Frisbee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The dog leapt to catch the",
+            "b": "Frisbee mid-air"
+          },
+          {
+            "a": "They spent the afternoon in the park tossing a",
+            "b": "Frisbee"
+          },
+          {
+            "a": "She joined a competitive",
+            "b": "Frisbee league"
+          },
+          {
+            "a": "The beach was full of families throwing a",
+            "b": "Frisbee"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Frisbie Pie Company",
+        "rootLanguage": "20th-century USA (Connecticut)",
+        "rootMeaning": "Bakery whose pie tins inspired the flying disc game",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Frisbie Pie Company",
+          "highlight": true
+        },
+        {
+          "text": ", whose empty pie tins, tossed for fun by college students, inspired a toy company's plastic disc decades later.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Frisbie Pie Company",
+      "correctAnswer": "Bakery whose pie tins inspired the flying disc game",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Linoleum",
+    "pronunciation": "lih-NOH-lee-um",
+    "pos": "noun",
+    "definition": "A durable floor covering made from a hardened mixture of linseed oil, cork dust, and other materials on a canvas backing.",
+    "origin": "<strong>Linoleum</strong> is not a personal eponym but a deliberate scientific coinage by its 1863 inventor, Frederick Walton, from Latin <em>linum</em> (flax, the source of linseed oil) and <em>oleum</em> (oil). Walton patented the durable, affordable flooring material and built an entire industry around it, though the word itself, rather than his name, is what survived into everyday use, eventually shortened informally to \"lino.\"",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Linoleum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin linum",
+            "b": "Flax, the source of linseed oil"
+          },
+          {
+            "a": "Latin oleum",
+            "b": "Oil"
+          },
+          {
+            "a": "Coined by",
+            "b": "Frederick Walton, patented 1863"
+          },
+          {
+            "a": "Word later shortened, informally, to",
+            "b": "\"Lino\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Linoleum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Linoleum describes",
+            "b": "A durable floor covering from linseed oil and cork"
+          },
+          {
+            "a": "Word built from",
+            "b": "Latin for \"flax\" and \"oil\""
+          },
+          {
+            "a": "Patented by",
+            "b": "Frederick Walton, in 1863"
+          },
+          {
+            "a": "Common shortened form",
+            "b": "\"Lino\""
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Linoleum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The kitchen floor was covered in checkered",
+            "b": "Linoleum"
+          },
+          {
+            "a": "She scrubbed the old",
+            "b": "Lino until it shone"
+          },
+          {
+            "a": "The classroom had worn",
+            "b": "Linoleum tiles"
+          },
+          {
+            "a": "Workers rolled out fresh sheets of",
+            "b": "Linoleum"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "linum + oleum",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Flax + oil, describing the flooring's linseed oil base",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Coined from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "linum and oleum",
+          "highlight": true
+        },
+        {
+          "text": " (flax and oil), for the durable, linseed-based flooring patented in 1863.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "linum + oleum",
+      "correctAnswer": "Flax + oil, describing the flooring's linseed oil base",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vaseline",
+    "pronunciation": "VAS-uh-leen",
+    "pos": "noun",
+    "definition": "A trademark for a soft, translucent petroleum jelly used as a skin moisturiser and protectant.",
+    "origin": "<strong>Vaseline</strong> is a deliberately coined brand name invented in 1872 by Robert Chesebrough, an American chemist who had noticed oil rig workers using a waxy residue that formed on drilling equipment to heal cuts and burns. He refined the substance into petroleum jelly and built the word from German <em>Wasser</em> (water) and Greek <em>elaion</em> (olive oil), producing a brand name so successful it became genericised for petroleum jelly of any make.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vaseline</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Robert Chesebrough",
+            "b": "American chemist, coined the name in 1872"
+          },
+          {
+            "a": "Inspired by",
+            "b": "Oil rig workers healing cuts with drilling residue"
+          },
+          {
+            "a": "Word built from German",
+            "b": "Wasser (water)"
+          },
+          {
+            "a": "And Greek",
+            "b": "Elaion (olive oil)"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vaseline</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Vaseline describes",
+            "b": "A brand of petroleum jelly"
+          },
+          {
+            "a": "Word blends",
+            "b": "German for water and Greek for olive oil"
+          },
+          {
+            "a": "Invented by",
+            "b": "An American chemist"
+          },
+          {
+            "a": "Inspired by",
+            "b": "Oil rig workers' folk remedy"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vaseline</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She dabbed",
+            "b": "Vaseline on her chapped lips"
+          },
+          {
+            "a": "He kept a small tub of",
+            "b": "Vaseline in his gym bag"
+          },
+          {
+            "a": "The nurse applied",
+            "b": "Vaseline to soothe the burn"
+          },
+          {
+            "a": "Her grandmother swore by",
+            "b": "Vaseline for dry skin"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Wasser + elaion",
+        "rootLanguage": "German and Greek",
+        "rootMeaning": "Water + olive oil, blended into the invented brand name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Coined from German ",
+          "highlight": false
+        },
+        {
+          "text": "Wasser",
+          "highlight": true
+        },
+        {
+          "text": " (water) and Greek elaion (olive oil), for a petroleum jelly first noticed healing cuts on oil rig equipment.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Wasser + elaion",
+      "correctAnswer": "Water + olive oil, blended into the invented brand name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jacuzzi",
+    "pronunciation": "juh-KOO-zee",
+    "pos": "noun",
+    "definition": "A trademark for a bath or pool fitted with underwater jets that massage the body with swirling water.",
+    "origin": "<strong>Jacuzzi</strong> is named after the Jacuzzi family, Italian immigrants to California who ran a machine shop making aircraft propellers and irrigation pumps. In 1956, brother Candido Jacuzzi designed a portable underwater pump to ease the pain of his young son's arthritis by giving him hydrotherapy at home, and the family later adapted the invention into the built-in whirlpool bath that carries their surname worldwide.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jacuzzi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jacuzzi family",
+            "b": "Italian immigrants to California"
+          },
+          {
+            "a": "Original business",
+            "b": "Aircraft propellers and irrigation pumps"
+          },
+          {
+            "a": "Candido Jacuzzi designed a pump in",
+            "b": "1956"
+          },
+          {
+            "a": "Purpose",
+            "b": "Home hydrotherapy for his son's arthritis"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jacuzzi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Jacuzzi describes",
+            "b": "A whirlpool bath with underwater jets"
+          },
+          {
+            "a": "Named after",
+            "b": "An Italian-American immigrant family"
+          },
+          {
+            "a": "Original invention aimed to treat",
+            "b": "Arthritis, via hydrotherapy"
+          },
+          {
+            "a": "Family business before that",
+            "b": "Aircraft propellers and pumps"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jacuzzi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They relaxed in the hotel's outdoor",
+            "b": "Jacuzzi"
+          },
+          {
+            "a": "The spa package included time in the",
+            "b": "Jacuzzi"
+          },
+          {
+            "a": "He installed a",
+            "b": "Jacuzzi on the back deck"
+          },
+          {
+            "a": "Steam rose from the bubbling",
+            "b": "Jacuzzi"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jacuzzi family",
+        "rootLanguage": "20th-century Italy/USA",
+        "rootMeaning": "Immigrant family whose hydrotherapy pump became the whirlpool bath",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Jacuzzi family",
+          "highlight": true
+        },
+        {
+          "text": ", whose pump for a son's arthritis therapy became a whirlpool bath found around the world.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jacuzzi family",
+      "correctAnswer": "Immigrant family whose hydrotherapy pump became the whirlpool bath",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Formica",
+    "pronunciation": "for-MY-kuh",
+    "pos": "noun",
+    "definition": "A trademark for a hard, durable, heat-resistant laminate used for kitchen worktops and furniture surfaces.",
+    "origin": "<strong>Formica</strong> was invented in 1912 by Daniel O'Conor and Herbert Faber, American engineers who developed a laminate to replace mica, a natural mineral then used as electrical insulation, coining the brand name to mean literally \"for mica,\" its intended substitute. The material later proved ideal for durable, easy-to-clean kitchen surfaces, and the brand name became a generic word for laminate worktops in general.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Formica</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Daniel O'Conor and Herbert Faber",
+            "b": "American engineers, invented the laminate in 1912"
+          },
+          {
+            "a": "Original purpose",
+            "b": "A substitute for mica, an electrical insulator"
+          },
+          {
+            "a": "Brand name meaning",
+            "b": "Literally \"for mica\""
+          },
+          {
+            "a": "Later became famous for",
+            "b": "Durable kitchen worktops"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Formica</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Formica describes",
+            "b": "A durable laminate for worktops and furniture"
+          },
+          {
+            "a": "Brand name literally means",
+            "b": "\"For mica\""
+          },
+          {
+            "a": "Invented in",
+            "b": "1912"
+          },
+          {
+            "a": "Original use was as",
+            "b": "An electrical insulator substitute"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Formica</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The diner's tables had classic checkered",
+            "b": "Formica tops"
+          },
+          {
+            "a": "She wiped down the",
+            "b": "Formica countertop after cooking"
+          },
+          {
+            "a": "The retro kitchen featured bright yellow",
+            "b": "Formica"
+          },
+          {
+            "a": "They replaced the worn",
+            "b": "Formica with granite"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "for + mica",
+        "rootLanguage": "English, coined 1912",
+        "rootMeaning": "Literally \"for mica,\" describing the laminate's original purpose",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Coined to mean ",
+          "highlight": false
+        },
+        {
+          "text": "\"for mica\"",
+          "highlight": true
+        },
+        {
+          "text": ", naming a laminate invented to replace the mineral in electrical insulation, long before it topped a single kitchen counter.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "for + mica",
+      "correctAnswer": "Literally \"for mica,\" describing the laminate's original purpose",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zipper",
+    "pronunciation": "ZIP-ur",
+    "pos": "noun",
+    "definition": "A fastening device consisting of two rows of interlocking teeth closed or opened by a sliding tab.",
+    "origin": "<strong>Zipper</strong> takes its name not from an inventor but from a 1923 marketing decision: the B.F. Goodrich Company used an improved sliding fastener, based on earlier designs by Whitcomb Judson and Gideon Sundback, on a new line of rubber boots, and named the boots \"Zippers\" for the brisk \"zip\" sound the fastener made when pulled. The catchy sound-word for the boots soon transferred to the fastener itself, and it stuck permanently.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-invention",
+      "name": "Science & Invention",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zipper</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "B.F. Goodrich Company",
+            "b": "American company, marketed the fastener in 1923"
+          },
+          {
+            "a": "Fastener based on designs by",
+            "b": "Whitcomb Judson and Gideon Sundback"
+          },
+          {
+            "a": "Named for the",
+            "b": "Brisk \"zip\" sound it made"
+          },
+          {
+            "a": "Originally described",
+            "b": "A line of rubber boots, before the fastener itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zipper</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Zipper describes",
+            "b": "A sliding, interlocking fastening device"
+          },
+          {
+            "a": "Named for",
+            "b": "The \"zip\" sound it makes"
+          },
+          {
+            "a": "First applied to",
+            "b": "A line of rubber boots"
+          },
+          {
+            "a": "Earlier designers included",
+            "b": "Whitcomb Judson and Gideon Sundback"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zipper</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He tugged the",
+            "b": "Zipper up on his jacket"
+          },
+          {
+            "a": "The suitcase",
+            "b": "Zipper jammed halfway"
+          },
+          {
+            "a": "She replaced the broken",
+            "b": "Zipper on her dress"
+          },
+          {
+            "a": "The tent's door closed with a sturdy",
+            "b": "Zipper"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "zip",
+        "rootLanguage": "English, coined 1923 (B.F. Goodrich)",
+        "rootMeaning": "The brisk sound the fastener made, first applied to a line of boots",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "\"zip\"",
+          "highlight": true
+        },
+        {
+          "text": " sound the fastener made, first used to market a line of rubber boots before the name jumped to the fastener itself.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "zip",
+      "correctAnswer": "The brisk sound the fastener made, first applied to a line of boots",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

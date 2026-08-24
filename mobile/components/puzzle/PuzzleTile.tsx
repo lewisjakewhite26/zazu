@@ -43,7 +43,7 @@ export function PuzzleTile({ tile, onPress }: PuzzleTileProps) {
           fontFamily: typography.puzzleWordMain.fontFamily,
           fontStyle: 'italic',
           fontSize: 14,
-          color: isNight ? '#d0c0e8' : colors.subtext,
+          color: isNight ? colors.lavender : colors.subtext,
         },
         textB: {
           fontFamily: typography.mtOption.fontFamily,

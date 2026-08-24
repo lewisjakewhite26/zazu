@@ -1,0 +1,3629 @@
+[
+  {
+    "word": "Freudian",
+    "pronunciation": "FROY-dee-un",
+    "pos": "adjective",
+    "definition": "Relating to the theories of Sigmund Freud, especially the idea that unconscious desires shape behaviour and slip out in unguarded moments.",
+    "origin": "<strong>Freudian</strong> honours Sigmund Freud (1856–1939), the Austrian neurologist who founded psychoanalysis and argued that dreams, jokes, and verbal slips reveal repressed unconscious thoughts. His surname became an adjective within his own lifetime, most famously in \"Freudian slip\" for a mistake that betrays a hidden feeling.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Freudian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sigmund Freud",
+            "b": "Austrian founder of psychoanalysis"
+          },
+          {
+            "a": "Worked in",
+            "b": "Vienna, late 1800s to 1930s"
+          },
+          {
+            "a": "His key idea",
+            "b": "The unconscious mind shapes behaviour"
+          },
+          {
+            "a": "Term entered English",
+            "b": "Within his own lifetime"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Freudian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Freudian describes",
+            "b": "Ideas rooted in psychoanalysis"
+          },
+          {
+            "a": "A Freudian slip is",
+            "b": "A mistake that reveals a hidden thought"
+          },
+          {
+            "a": "Freudian analysis studies",
+            "b": "Dreams and unconscious desires"
+          },
+          {
+            "a": "Related term",
+            "b": "Psychoanalytic"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Freudian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Calling his boss \"mum\" was a classic",
+            "b": "Freudian slip"
+          },
+          {
+            "a": "The therapist offered a",
+            "b": "Freudian interpretation of the dream"
+          },
+          {
+            "a": "Critics gave the film a",
+            "b": "Freudian reading of the family drama"
+          },
+          {
+            "a": "She rolled her eyes at his",
+            "b": "Freudian obsession with childhood"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Sigmund Freud",
+        "rootLanguage": "19th–20th-century Austria",
+        "rootMeaning": "Founder of psychoanalysis",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Sigmund Freud",
+          "highlight": true
+        },
+        {
+          "text": ", whose theory of the unconscious mind gave English a word for the slip that says more than we meant.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Sigmund Freud",
+      "correctAnswer": "Founder of psychoanalysis",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kafkaesque",
+    "pronunciation": "kahf-kuh-ESK",
+    "pos": "adjective",
+    "definition": "Marked by a nightmarish, illogical complexity, especially oppressive bureaucracy that seems senseless and impossible to escape.",
+    "origin": "<strong>Kafkaesque</strong> is named after Franz Kafka (1883–1924), a German-speaking Jewish writer from Prague whose novels <em>The Trial</em> and <em>The Castle</em> depict ordinary men trapped by faceless, incomprehensible authorities. He died largely unpublished, but his surreal vision of bureaucratic dread became so recognisable that critics needed his name as shorthand for it.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kafkaesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Franz Kafka",
+            "b": "Prague-born novelist, 1883–1924"
+          },
+          {
+            "a": "His novel The Trial",
+            "b": "A man arrested for an unnamed crime"
+          },
+          {
+            "a": "Recurring theme",
+            "b": "Faceless, illogical bureaucracy"
+          },
+          {
+            "a": "Word coined",
+            "b": "By critics after his death"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kafkaesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Kafkaesque describes",
+            "b": "Nightmarish, illogical bureaucracy"
+          },
+          {
+            "a": "A Kafkaesque situation feels",
+            "b": "Impossible to escape or explain"
+          },
+          {
+            "a": "Common setting",
+            "b": "Courts, offices, and official forms"
+          },
+          {
+            "a": "Synonym",
+            "b": "Absurdly oppressive"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kafkaesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Getting the visa renewed became a",
+            "b": "Kafkaesque ordeal of forms and queues"
+          },
+          {
+            "a": "The novel describes a",
+            "b": "Kafkaesque trial with no clear charge"
+          },
+          {
+            "a": "He called the tax office a",
+            "b": "Kafkaesque maze of contradictory rules"
+          },
+          {
+            "a": "Losing the appeal felt",
+            "b": "Kafkaesque, punished for a crime unnamed"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Franz Kafka",
+        "rootLanguage": "Early 20th-century Prague",
+        "rootMeaning": "Novelist of bureaucratic nightmares",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Franz Kafka",
+          "highlight": true
+        },
+        {
+          "text": ", whose faceless courts and endless corridors gave English its word for bureaucracy gone nightmarish.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Franz Kafka",
+      "correctAnswer": "Novelist of bureaucratic nightmares",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rubenesque",
+    "pronunciation": "roo-buh-NESK",
+    "pos": "adjective",
+    "definition": "Having a full, rounded figure of the kind celebrated in classical paintings; pleasingly plump.",
+    "origin": "<strong>Rubenesque</strong> comes from Peter Paul Rubens (1577–1640), the Flemish Baroque painter whose canvases overflow with fleshy, full-bodied nudes and goddesses. In an age that often prized slenderness, his name became the polite, admiring word for a voluptuous figure, treating his aesthetic as a standard of beauty rather than an exception to it.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rubenesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Peter Paul Rubens",
+            "b": "Flemish Baroque painter, 1577–1640"
+          },
+          {
+            "a": "His paintings featured",
+            "b": "Full-figured nudes and goddesses"
+          },
+          {
+            "a": "Style called",
+            "b": "Baroque, rich and dynamic"
+          },
+          {
+            "a": "Word now means",
+            "b": "Pleasingly full-figured"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rubenesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Rubenesque describes",
+            "b": "A full, rounded figure"
+          },
+          {
+            "a": "The word carries",
+            "b": "An admiring, painterly tone"
+          },
+          {
+            "a": "Contrast with",
+            "b": "A slender or angular build"
+          },
+          {
+            "a": "Comes from",
+            "b": "A painter's name, not a body type"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rubenesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The gallery was full of",
+            "b": "Rubenesque nudes draped in silk"
+          },
+          {
+            "a": "She wore the dress with",
+            "b": "Rubenesque confidence"
+          },
+          {
+            "a": "Critics praised the sculptor's",
+            "b": "Rubenesque, generous curves"
+          },
+          {
+            "a": "His grandmother had a",
+            "b": "Rubenesque warmth about her"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Peter Paul Rubens",
+        "rootLanguage": "17th-century Flanders",
+        "rootMeaning": "Baroque painter of full-figured nudes",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Peter Paul Rubens",
+          "highlight": true
+        },
+        {
+          "text": ", whose lush, full-bodied nudes turned his surname into a compliment.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Peter Paul Rubens",
+      "correctAnswer": "Baroque painter of full-figured nudes",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Platonic",
+    "pronunciation": "pluh-TON-ik",
+    "pos": "adjective",
+    "definition": "Describing a close relationship that is affectionate but not sexual or romantic.",
+    "origin": "<strong>Platonic</strong> derives from Plato (c.428–348 BC), the Athenian philosopher whose dialogue <em>Symposium</em> explored love as a ladder rising from physical attraction toward pure appreciation of beauty and truth. Renaissance scholars later coined \"Platonic love\" for this ideal of affection stripped of physical desire, and the everyday sense of a non-romantic friendship followed.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Platonic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Plato",
+            "b": "Athenian philosopher, c.428–348 BC"
+          },
+          {
+            "a": "His dialogue Symposium",
+            "b": "Discusses love as a path to truth"
+          },
+          {
+            "a": "Renaissance scholars coined",
+            "b": "\"Platonic love\" for non-physical affection"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A close but non-romantic bond"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Platonic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Platonic describes",
+            "b": "Affection without romance or sex"
+          },
+          {
+            "a": "A platonic friend is",
+            "b": "Someone you love without desire"
+          },
+          {
+            "a": "Platonic ideal means",
+            "b": "A perfect, abstract form of something"
+          },
+          {
+            "a": "Opposite of",
+            "b": "A romantic relationship"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Platonic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They insisted their friendship was",
+            "b": "Strictly platonic"
+          },
+          {
+            "a": "He admired her in a",
+            "b": "Purely platonic way"
+          },
+          {
+            "a": "The philosopher described beauty as a",
+            "b": "Platonic ideal"
+          },
+          {
+            "a": "After the breakup they stayed",
+            "b": "Platonic friends"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Plato",
+        "rootLanguage": "Classical Greece",
+        "rootMeaning": "Athenian philosopher of ideal forms",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Plato",
+          "highlight": true
+        },
+        {
+          "text": ", whose vision of love rising above the physical gave English a word for affection without desire.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Plato",
+      "correctAnswer": "Athenian philosopher of ideal forms",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Socratic",
+    "pronunciation": "suh-KRAT-ik",
+    "pos": "adjective",
+    "definition": "Relating to a method of teaching through asking probing questions rather than giving direct answers.",
+    "origin": "<strong>Socratic</strong> honours Socrates (c.470–399 BC), the Athenian philosopher who left no writings of his own but appears in Plato's dialogues relentlessly questioning fellow citizens until their assumptions collapsed. This technique, now called the Socratic method, still shapes how law schools and seminar rooms teach by interrogation rather than lecture.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Socratic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Socrates",
+            "b": "Athenian philosopher, c.470–399 BC"
+          },
+          {
+            "a": "His technique",
+            "b": "Teaching through probing questions"
+          },
+          {
+            "a": "Recorded by",
+            "b": "His student Plato, in dialogues"
+          },
+          {
+            "a": "He was executed for",
+            "b": "Corrupting the youth of Athens"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Socratic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Socratic describes",
+            "b": "Teaching by questioning, not lecturing"
+          },
+          {
+            "a": "The Socratic method uses",
+            "b": "A chain of guided questions"
+          },
+          {
+            "a": "Goal of the method",
+            "b": "To expose contradictions in belief"
+          },
+          {
+            "a": "Common setting today",
+            "b": "Law school seminars"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Socratic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The professor used the",
+            "b": "Socratic method to dismantle the argument"
+          },
+          {
+            "a": "Instead of answering, she asked a",
+            "b": "Socratic question in return"
+          },
+          {
+            "a": "Law students dread the",
+            "b": "Socratic grilling on day one"
+          },
+          {
+            "a": "He led the class through a",
+            "b": "Socratic dialogue on justice"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Socrates",
+        "rootLanguage": "Classical Greece",
+        "rootMeaning": "Athenian philosopher who taught by questioning",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Socrates",
+          "highlight": true
+        },
+        {
+          "text": ", whose habit of questioning everything gave his name to a whole method of teaching.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Socrates",
+      "correctAnswer": "Athenian philosopher who taught by questioning",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dickensian",
+    "pronunciation": "dik-EN-zee-un",
+    "pos": "adjective",
+    "definition": "Reminiscent of the novels of Charles Dickens, especially squalid poverty, colourful eccentric characters, or a quaint Victorian atmosphere.",
+    "origin": "<strong>Dickensian</strong> comes from Charles Dickens (1812–1870), the English novelist whose own childhood poverty, including a spell working in a boot-blacking factory while his father sat in debtors' prison, fed a lifetime of fiction about London's slums and its wealthy indifference. His vivid, sprawling world of orphans, misers, and fog-bound streets became so distinctive that his name alone now conjures it.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dickensian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charles Dickens",
+            "b": "English novelist, 1812–1870"
+          },
+          {
+            "a": "His childhood",
+            "b": "Worked in a factory; father in debtors' prison"
+          },
+          {
+            "a": "His novels featured",
+            "b": "Slums, orphans, and social injustice"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Squalor or quaint Victorian scenes"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dickensian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Dickensian describes",
+            "b": "Scenes of poverty or Victorian atmosphere"
+          },
+          {
+            "a": "A Dickensian character is often",
+            "b": "Eccentric, comic, or downtrodden"
+          },
+          {
+            "a": "Dickensian settings feature",
+            "b": "Fog, workhouses, and cobbled streets"
+          },
+          {
+            "a": "The word can also mean",
+            "b": "Vividly detailed and sprawling"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dickensian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The slum housing was described as",
+            "b": "Dickensian in its squalor"
+          },
+          {
+            "a": "With his top hat and cane he looked",
+            "b": "Positively Dickensian"
+          },
+          {
+            "a": "The orphanage scene felt",
+            "b": "Straight out of a Dickensian novel"
+          },
+          {
+            "a": "Critics called the sprawling cast",
+            "b": "Dickensian in scope"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charles Dickens",
+        "rootLanguage": "19th-century England",
+        "rootMeaning": "Novelist of Victorian poverty and injustice",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charles Dickens",
+          "highlight": true
+        },
+        {
+          "text": ", whose foggy streets and workhouse orphans gave English its word for Victorian squalor.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charles Dickens",
+      "correctAnswer": "Novelist of Victorian poverty and injustice",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Orwellian",
+    "pronunciation": "or-WEL-ee-un",
+    "pos": "adjective",
+    "definition": "Relating to a state of oppressive control, surveillance, and propaganda that destroys individual freedom and truth.",
+    "origin": "<strong>Orwellian</strong> is named after George Orwell (1903–1950), the pen name of Eric Blair, the English writer whose novel <em>Nineteen Eighty-Four</em> (1949) imagined a totalitarian state ruled by Big Brother, constant surveillance, and a government that rewrote history and language to control thought. The word entered political vocabulary almost immediately and has only grown more common as real surveillance technology has caught up with his fiction.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Orwellian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "George Orwell",
+            "b": "Pen name of Eric Blair, 1903–1950"
+          },
+          {
+            "a": "His novel",
+            "b": "Nineteen Eighty-Four, published 1949"
+          },
+          {
+            "a": "It imagined",
+            "b": "A state of total surveillance and propaganda"
+          },
+          {
+            "a": "Word now warns of",
+            "b": "Government control over truth and thought"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Orwellian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Orwellian describes",
+            "b": "Oppressive surveillance and propaganda"
+          },
+          {
+            "a": "An Orwellian government controls",
+            "b": "Language, history, and truth"
+          },
+          {
+            "a": "Related term from the novel",
+            "b": "Big Brother, Newspeak, doublethink"
+          },
+          {
+            "a": "The word is used as a",
+            "b": "Warning against creeping authoritarianism"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Orwellian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Critics called the new surveillance law",
+            "b": "Orwellian overreach"
+          },
+          {
+            "a": "Rewriting the history textbooks felt",
+            "b": "Distinctly Orwellian"
+          },
+          {
+            "a": "The slogan \"war is peace\" is a classic",
+            "b": "Orwellian contradiction"
+          },
+          {
+            "a": "Cameras on every corner struck her as",
+            "b": "Orwellian"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "George Orwell",
+        "rootLanguage": "20th-century England",
+        "rootMeaning": "Novelist who imagined a totalitarian surveillance state",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "George Orwell",
+          "highlight": true
+        },
+        {
+          "text": ", whose vision of Big Brother gave English its word for surveillance and propaganda run amok.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "George Orwell",
+      "correctAnswer": "Novelist who imagined a totalitarian surveillance state",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Elizabethan",
+    "pronunciation": "ih-liz-uh-BEE-thun",
+    "pos": "adjective",
+    "definition": "Relating to the reign of Queen Elizabeth I of England, especially its literature, architecture, and fashion.",
+    "origin": "<strong>Elizabethan</strong> refers to Elizabeth I (1533–1603), who ruled England from 1558 until her death and presided over an era of naval expansion, religious settlement, and extraordinary literary flowering that produced Shakespeare and Marlowe. Historians use her name to label the whole cultural period, much as later monarchs would lend their names to Victorian or Edwardian.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Elizabethan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Elizabeth I",
+            "b": "Queen of England, reigned 1558–1603"
+          },
+          {
+            "a": "Her era produced",
+            "b": "Shakespeare, Marlowe, and naval expansion"
+          },
+          {
+            "a": "Word describes",
+            "b": "The culture and style of her reign"
+          },
+          {
+            "a": "Pattern repeated later with",
+            "b": "Victorian and Edwardian"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Elizabethan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Elizabethan describes",
+            "b": "England under Elizabeth I, 1558–1603"
+          },
+          {
+            "a": "Elizabethan theatre means",
+            "b": "Playhouses like the Globe"
+          },
+          {
+            "a": "Elizabethan collars are",
+            "b": "Stiff, ruffled neckwear"
+          },
+          {
+            "a": "The period followed",
+            "b": "The Tudor dynasty's consolidation of power"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Elizabethan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The play was performed in an",
+            "b": "Elizabethan-style playhouse"
+          },
+          {
+            "a": "She wore an",
+            "b": "Elizabethan ruff for the costume ball"
+          },
+          {
+            "a": "The manor house has",
+            "b": "Elizabethan timber framing"
+          },
+          {
+            "a": "Scholars study the",
+            "b": "Elizabethan sonnet tradition"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Elizabeth I",
+        "rootLanguage": "16th-century England",
+        "rootMeaning": "Queen whose reign defined an era of literature and expansion",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Elizabeth I",
+          "highlight": true
+        },
+        {
+          "text": ", whose reign gave its name to an entire golden age of English drama and exploration.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Elizabeth I",
+      "correctAnswer": "Queen whose reign defined an era of literature and expansion",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Victorian",
+    "pronunciation": "vik-TOR-ee-un",
+    "pos": "adjective",
+    "definition": "Relating to the reign of Queen Victoria, especially its strict moral values, ornate style, or industrial-era social conditions.",
+    "origin": "<strong>Victorian</strong> refers to Queen Victoria (1819–1901), who reigned over Britain for sixty-three years, a period of industrial expansion, imperial growth, and strict public morality alongside grinding urban poverty. Her name became shorthand both for prudish respectability and for the dense, ornamented architecture and design the era produced.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Victorian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Queen Victoria",
+            "b": "Reigned Britain 1837–1901"
+          },
+          {
+            "a": "Her era saw",
+            "b": "Industrial growth and imperial expansion"
+          },
+          {
+            "a": "Also known for",
+            "b": "Strict public morality and modesty"
+          },
+          {
+            "a": "Word now describes",
+            "b": "That style, morality, or period generally"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Victorian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Victorian describes",
+            "b": "Britain under Queen Victoria, 1837–1901"
+          },
+          {
+            "a": "Victorian values often mean",
+            "b": "Strict, prudish moral standards"
+          },
+          {
+            "a": "Victorian architecture features",
+            "b": "Ornate brickwork and gothic detail"
+          },
+          {
+            "a": "The era also brought",
+            "b": "Factories, railways, and urban slums"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Victorian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His attitude to divorce seemed almost",
+            "b": "Victorian"
+          },
+          {
+            "a": "The terrace houses are classic",
+            "b": "Victorian brick"
+          },
+          {
+            "a": "She found the school's rules",
+            "b": "Victorian in their strictness"
+          },
+          {
+            "a": "The museum recreated a",
+            "b": "Victorian parlour room"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Queen Victoria",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "Monarch whose long reign defined an era of industry and morality",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Queen Victoria",
+          "highlight": true
+        },
+        {
+          "text": ", whose sixty-three-year reign gave its name to an age of factories, empire, and strict propriety.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Queen Victoria",
+      "correctAnswer": "Monarch whose long reign defined an era of industry and morality",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Spoonerism",
+    "pronunciation": "SPOO-nuh-riz-um",
+    "pos": "noun",
+    "definition": "An error in speech in which the initial sounds of two or more words are accidentally swapped, often to comic effect.",
+    "origin": "<strong>Spoonerism</strong> is named after Reverend William Archibald Spooner (1844–1930), an Oxford don and warden of New College notorious for transposing the opening sounds of words, supposedly announcing a hymn as \"The Kinquering Congs Their Titles Take\" instead of \"The Conquering Kings.\" Most of the famous examples were likely invented by students who found his real slips funny enough to embellish.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Spoonerism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "William Archibald Spooner",
+            "b": "Oxford don, 1844–1930"
+          },
+          {
+            "a": "His famous quirk",
+            "b": "Swapping the initial sounds of words"
+          },
+          {
+            "a": "Example attributed to him",
+            "b": "\"Kinquering Congs\" for \"Conquering Kings\""
+          },
+          {
+            "a": "Many examples were",
+            "b": "Later invented or exaggerated by students"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Spoonerism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Spoonerism describes",
+            "b": "Swapped initial sounds in speech"
+          },
+          {
+            "a": "Classic example",
+            "b": "\"Well-boiled icicle\" for \"well-oiled bicycle\""
+          },
+          {
+            "a": "The effect is usually",
+            "b": "Accidental and comic"
+          },
+          {
+            "a": "Related term",
+            "b": "A verbal slip or malapropism"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Spoonerism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The nervous best man produced a",
+            "b": "Spoonerism that had guests laughing"
+          },
+          {
+            "a": "\"Belly jeans\" for \"jelly beans\" is a",
+            "b": "Classic Spoonerism"
+          },
+          {
+            "a": "His stammer sometimes slipped into",
+            "b": "Unintentional Spoonerisms"
+          },
+          {
+            "a": "Comedians use",
+            "b": "Spoonerisms as a reliable punchline"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "William Archibald Spooner",
+        "rootLanguage": "19th–20th-century England",
+        "rootMeaning": "Oxford don famous for transposed word-sounds",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Reverend William Spooner",
+          "highlight": true
+        },
+        {
+          "text": ", whose tangled tongue at Oxford gave English a word for swapped syllables.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "William Archibald Spooner",
+      "correctAnswer": "Oxford don famous for transposed word-sounds",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bowdlerize",
+    "pronunciation": "BOWD-luh-ryze",
+    "pos": "verb",
+    "definition": "To remove material considered indecent or offensive from a text, typically in a prudish or excessive way.",
+    "origin": "<strong>Bowdlerize</strong> comes from Thomas Bowdler (1754–1825), an English physician who in 1818 published <em>The Family Shakespeare</em>, an edition of the plays with oaths, sexual references, and anything else he deemed unfit for women and children quietly cut or rewritten. Though his sister Henrietta likely did much of the actual editing, his name became attached to the whole enterprise of moralistic censorship.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bowdlerize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Thomas Bowdler",
+            "b": "English physician, 1754–1825"
+          },
+          {
+            "a": "His publication",
+            "b": "The Family Shakespeare, 1818"
+          },
+          {
+            "a": "He removed",
+            "b": "Oaths and sexual references from the plays"
+          },
+          {
+            "a": "Word now means",
+            "b": "To censor prudishly"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bowdlerize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bowdlerize means",
+            "b": "To remove offensive content from a text"
+          },
+          {
+            "a": "A bowdlerized version is often",
+            "b": "Sanitised for a general audience"
+          },
+          {
+            "a": "The tone of the word is",
+            "b": "Critical of excessive prudishness"
+          },
+          {
+            "a": "Often applied to",
+            "b": "Classic literature or old films"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bowdlerize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The school edition had been",
+            "b": "Bowdlerized of any violence"
+          },
+          {
+            "a": "Critics accused the studio of trying to",
+            "b": "Bowdlerize the classic novel"
+          },
+          {
+            "a": "The original lyrics were later",
+            "b": "Bowdlerized for radio play"
+          },
+          {
+            "a": "He refused to",
+            "b": "Bowdlerize his memoir for squeamish readers"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Thomas Bowdler",
+        "rootLanguage": "18th–19th-century England",
+        "rootMeaning": "Physician who published a censored Shakespeare",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Thomas Bowdler",
+          "highlight": true
+        },
+        {
+          "text": ", whose sanitised Shakespeare turned his surname into a verb for prudish censorship.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Thomas Bowdler",
+      "correctAnswer": "Physician who published a censored Shakespeare",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rorschach",
+    "pronunciation": "ROR-shahk",
+    "pos": "adjective",
+    "definition": "Relating to an ambiguous image or situation onto which different people project very different meanings, after the inkblot personality test.",
+    "origin": "<strong>Rorschach</strong> is named after Hermann Rorschach (1884–1922), a Swiss psychiatrist who in 1921 published a set of ten symmetrical inkblots designed so that a patient's free interpretation of the shapes might reveal hidden aspects of personality. The test outlived its scientific reputation to become a byword for anything whose meaning depends entirely on the eye of the beholder.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rorschach</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hermann Rorschach",
+            "b": "Swiss psychiatrist, 1884–1922"
+          },
+          {
+            "a": "His creation",
+            "b": "A set of ten symmetrical inkblots, 1921"
+          },
+          {
+            "a": "Purpose of the test",
+            "b": "To reveal personality via interpretation"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Anything read differently by different people"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rorschach</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Rorschach describes",
+            "b": "Something interpreted differently by everyone"
+          },
+          {
+            "a": "The original inkblot test measured",
+            "b": "Perception and personality"
+          },
+          {
+            "a": "A \"Rorschach test\" issue is one where",
+            "b": "Reactions reveal the viewer's own views"
+          },
+          {
+            "a": "Synonym in this sense",
+            "b": "A projection screen for opinion"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rorschach</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The abstract painting became a",
+            "b": "Rorschach test for the critics"
+          },
+          {
+            "a": "His policy speech was a",
+            "b": "Rorschach blot, everyone saw what they wanted"
+          },
+          {
+            "a": "The ambiguous ending worked as a",
+            "b": "Rorschach for the audience's fears"
+          },
+          {
+            "a": "Reactions to the ad were a perfect",
+            "b": "Rorschach of political divides"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Hermann Rorschach",
+        "rootLanguage": "20th-century Switzerland",
+        "rootMeaning": "Psychiatrist who devised the inkblot personality test",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Hermann Rorschach",
+          "highlight": true
+        },
+        {
+          "text": ", whose inkblots gave English a word for anything that reveals more about the viewer than itself.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Hermann Rorschach",
+      "correctAnswer": "Psychiatrist who devised the inkblot personality test",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Daliesque",
+    "pronunciation": "dah-lee-ESK",
+    "pos": "adjective",
+    "definition": "Resembling the bizarre, dreamlike, and melting imagery characteristic of Salvador Dalí's surrealist art.",
+    "origin": "<strong>Daliesque</strong> is named after Salvador Dalí (1904–1989), the Spanish surrealist painter famous for melting clocks, spindly-legged elephants, and impossible dreamscapes rendered with photographic precision. His flamboyant public persona, complete with a waxed, upturned moustache, made his name as recognisable as his paintings, and both fused into an adjective for reality gone dreamlike and strange.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Daliesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Salvador Dalí",
+            "b": "Spanish surrealist painter, 1904–1989"
+          },
+          {
+            "a": "Famous image",
+            "b": "Melting clocks in The Persistence of Memory"
+          },
+          {
+            "a": "His movement",
+            "b": "Surrealism, painting the world of dreams"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Bizarre, dreamlike, melting imagery"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Daliesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Daliesque describes",
+            "b": "Dreamlike, surreal, and bizarre imagery"
+          },
+          {
+            "a": "Common Daliesque motif",
+            "b": "Melting or distorted objects"
+          },
+          {
+            "a": "The style pairs",
+            "b": "Precise technique with impossible content"
+          },
+          {
+            "a": "Related movement",
+            "b": "Surrealism"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Daliesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The clocks drooped off the wall in a",
+            "b": "Daliesque nightmare"
+          },
+          {
+            "a": "The film's dream sequence was pure",
+            "b": "Daliesque strangeness"
+          },
+          {
+            "a": "Critics called the sculpture garden",
+            "b": "Daliesque in its impossible forms"
+          },
+          {
+            "a": "Her fever dream felt",
+            "b": "Distinctly Daliesque"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Salvador Dalí",
+        "rootLanguage": "20th-century Spain",
+        "rootMeaning": "Surrealist painter of melting, dreamlike imagery",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Salvador Dalí",
+          "highlight": true
+        },
+        {
+          "text": ", whose melting clocks and impossible dreamscapes gave English a word for reality gone surreal.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Salvador Dalí",
+      "correctAnswer": "Surrealist painter of melting, dreamlike imagery",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wagnerian",
+    "pronunciation": "vahg-NEER-ee-un",
+    "pos": "adjective",
+    "definition": "Grandiose and epic in scale, especially in music or drama; resembling the sweeping ambition of Wagner's operas.",
+    "origin": "<strong>Wagnerian</strong> comes from Richard Wagner (1813–1883), the German composer whose four-opera cycle <em>Der Ring des Nibelungen</em> runs some fifteen hours and demands a purpose-built theatre, giant orchestras, and singers trained to project over them. His name became a byword for any artistic ambition on a similarly monumental, all-consuming scale.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wagnerian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Richard Wagner",
+            "b": "German composer, 1813–1883"
+          },
+          {
+            "a": "His masterwork",
+            "b": "Der Ring des Nibelungen, a four-opera cycle"
+          },
+          {
+            "a": "Scale of the work",
+            "b": "About fifteen hours, huge orchestras"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Anything grandiose and epic in scale"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wagnerian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Wagnerian describes",
+            "b": "Grandiose, sweeping, epic ambition"
+          },
+          {
+            "a": "A Wagnerian score is",
+            "b": "Massive in orchestration and length"
+          },
+          {
+            "a": "The word is often applied to",
+            "b": "Opera, film scores, and drama"
+          },
+          {
+            "a": "Contrast with",
+            "b": "Something modest or understated"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wagnerian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The battle scene had a",
+            "b": "Wagnerian score behind it"
+          },
+          {
+            "a": "His plan for the company was almost",
+            "b": "Wagnerian in its ambition"
+          },
+          {
+            "a": "The finale built to a",
+            "b": "Wagnerian climax of brass and choir"
+          },
+          {
+            "a": "Critics called the trilogy",
+            "b": "Wagnerian in scope"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Richard Wagner",
+        "rootLanguage": "19th-century Germany",
+        "rootMeaning": "Composer of vast, epic-scale operas",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Richard Wagner",
+          "highlight": true
+        },
+        {
+          "text": ", whose fifteen-hour opera cycle gave English a word for artistic ambition on a monumental scale.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Richard Wagner",
+      "correctAnswer": "Composer of vast, epic-scale operas",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Byronic",
+    "pronunciation": "by-RON-ik",
+    "pos": "adjective",
+    "definition": "Describing a brooding, rebellious, and romantically melancholic hero, often charismatic but tormented by a dark past.",
+    "origin": "<strong>Byronic</strong> is named after Lord Byron (1788–1824), the English Romantic poet whose scandalous love affairs, self-imposed exile, and death fighting for Greek independence made him as famous as his verse. His narrative poems introduced a brooding, defiant antihero so distinctive that critics still call any charismatic, tormented rebel a \"Byronic hero.\"",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Byronic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Lord Byron",
+            "b": "English Romantic poet, 1788–1824"
+          },
+          {
+            "a": "His reputation",
+            "b": "Scandalous, exiled, \"mad, bad, and dangerous to know\""
+          },
+          {
+            "a": "Died",
+            "b": "Fighting for Greek independence, 1824"
+          },
+          {
+            "a": "His literary legacy",
+            "b": "The brooding, rebellious antihero"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Byronic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Byronic describes",
+            "b": "A brooding, tormented, rebellious hero"
+          },
+          {
+            "a": "A Byronic hero is often",
+            "b": "Charismatic but haunted by a dark past"
+          },
+          {
+            "a": "The archetype influenced",
+            "b": "Later Gothic and romantic fiction"
+          },
+          {
+            "a": "Related trait",
+            "b": "Defiance of social convention"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Byronic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The novel's love interest was a classic",
+            "b": "Byronic hero"
+          },
+          {
+            "a": "With his windswept hair he looked",
+            "b": "Distinctly Byronic"
+          },
+          {
+            "a": "Critics traced the character's brooding charm to",
+            "b": "The Byronic tradition"
+          },
+          {
+            "a": "His scandalous past only added to his",
+            "b": "Byronic appeal"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Lord Byron",
+        "rootLanguage": "19th-century England",
+        "rootMeaning": "Romantic poet who inspired the brooding antihero archetype",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Lord Byron",
+          "highlight": true
+        },
+        {
+          "text": ", whose scandalous life and brooding verse gave English its word for the charismatic, tormented rebel.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Lord Byron",
+      "correctAnswer": "Romantic poet who inspired the brooding antihero archetype",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Proustian",
+    "pronunciation": "PROO-stee-un",
+    "pos": "adjective",
+    "definition": "Relating to a vivid, involuntary memory triggered by a sensory experience, especially taste or smell.",
+    "origin": "<strong>Proustian</strong> is named after Marcel Proust (1871–1922), the French novelist whose seven-volume <em>In Search of Lost Time</em> opens with the narrator tasting a madeleine cake dipped in tea and being flooded with a childhood memory he thought lost. That single scene was so influential that \"involuntary memory\" is now often simply called a Proustian moment.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Proustian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Marcel Proust",
+            "b": "French novelist, 1871–1922"
+          },
+          {
+            "a": "His masterwork",
+            "b": "In Search of Lost Time, seven volumes"
+          },
+          {
+            "a": "Famous scene",
+            "b": "A madeleine cake triggers a childhood memory"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Involuntary, vivid sensory memory"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Proustian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Proustian describes",
+            "b": "A vivid memory triggered by a sense"
+          },
+          {
+            "a": "A \"Proustian moment\" often involves",
+            "b": "Smell or taste"
+          },
+          {
+            "a": "The memory is typically",
+            "b": "Sudden and involuntary"
+          },
+          {
+            "a": "Named for a scene involving",
+            "b": "A madeleine dipped in tea"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Proustian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The smell of chalk dust gave her a",
+            "b": "Proustian rush of school memories"
+          },
+          {
+            "a": "One bite of the pie was a",
+            "b": "Proustian trip back to childhood"
+          },
+          {
+            "a": "The old song triggered a",
+            "b": "Proustian flood of memory"
+          },
+          {
+            "a": "Critics called the opening chapter a",
+            "b": "Proustian meditation on memory"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Marcel Proust",
+        "rootLanguage": "19th–20th-century France",
+        "rootMeaning": "Novelist of involuntary, sense-triggered memory",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Marcel Proust",
+          "highlight": true
+        },
+        {
+          "text": ", whose tea-soaked madeleine gave English its word for memory that ambushes you through the senses.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Marcel Proust",
+      "correctAnswer": "Novelist of involuntary, sense-triggered memory",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rabelaisian",
+    "pronunciation": "rab-uh-LAY-zee-un",
+    "pos": "adjective",
+    "definition": "Marked by coarse, exuberant humour and an earthy, unrestrained delight in bodily excess.",
+    "origin": "<strong>Rabelaisian</strong> comes from François Rabelais (c.1494–1553), a French monk-turned-physician-turned-writer whose comic giants Gargantua and Pantagruel eat, drink, and joke their way through wildly bawdy adventures full of scatological humour and appetite. His riotous, uncensored style gave literature a lasting word for humour too gleefully vulgar to be called merely rude.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rabelaisian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "François Rabelais",
+            "b": "French writer, c.1494–1553"
+          },
+          {
+            "a": "His creations",
+            "b": "The giants Gargantua and Pantagruel"
+          },
+          {
+            "a": "Their stories featured",
+            "b": "Bawdy, scatological, riotous humour"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Coarse, exuberant, earthy comedy"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rabelaisian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Rabelaisian describes",
+            "b": "Coarse, riotous, bodily humour"
+          },
+          {
+            "a": "The tone is typically",
+            "b": "Gleeful rather than mean-spirited"
+          },
+          {
+            "a": "Common in the humour",
+            "b": "Feasting, drinking, and bawdy jokes"
+          },
+          {
+            "a": "Related figure",
+            "b": "Gargantua, his giant hero"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rabelaisian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The wedding toast turned into a",
+            "b": "Rabelaisian roast of the groom"
+          },
+          {
+            "a": "The novel's feast scenes were pure",
+            "b": "Rabelaisian excess"
+          },
+          {
+            "a": "His jokes at the pub were",
+            "b": "Rabelaisian at best"
+          },
+          {
+            "a": "Critics called the comedy",
+            "b": "Rabelaisian in its gleeful vulgarity"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "François Rabelais",
+        "rootLanguage": "16th-century France",
+        "rootMeaning": "Writer of bawdy, exuberant comic giants",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "François Rabelais",
+          "highlight": true
+        },
+        {
+          "text": ", whose feasting giants gave English its word for humour too gleefully coarse to be merely rude.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "François Rabelais",
+      "correctAnswer": "Writer of bawdy, exuberant comic giants",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Homeric",
+    "pronunciation": "hoh-MER-ik",
+    "pos": "adjective",
+    "definition": "Epic in scale and heroism; resembling the grand, larger-than-life narratives attributed to Homer.",
+    "origin": "<strong>Homeric</strong> is named after Homer, the semi-legendary poet credited with composing the <em>Iliad</em> and the <em>Odyssey</em> around the eighth century BC, foundational epics of Greek warfare and homecoming that shaped Western literature for millennia. Whether Homer was one person or a tradition of oral poets remains disputed, but his name endures as the standard for any struggle of truly epic proportions.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Homeric</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Homer",
+            "b": "Ancient Greek epic poet, c.8th century BC"
+          },
+          {
+            "a": "His works",
+            "b": "The Iliad and the Odyssey"
+          },
+          {
+            "a": "Subject matter",
+            "b": "The Trojan War and its long aftermath"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Anything epic in scale or heroism"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Homeric</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Homeric describes",
+            "b": "Grand, epic, larger-than-life events"
+          },
+          {
+            "a": "A Homeric journey resembles",
+            "b": "Odysseus's ten-year voyage home"
+          },
+          {
+            "a": "A Homeric battle suggests",
+            "b": "Heroic, mythic-scale combat"
+          },
+          {
+            "a": "The word evokes",
+            "b": "Ancient Greek epic poetry"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Homeric</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His commute home became a",
+            "b": "Homeric ordeal of delays"
+          },
+          {
+            "a": "The two armies clashed in",
+            "b": "Homeric fashion across the plain"
+          },
+          {
+            "a": "Critics called the war memoir",
+            "b": "Homeric in its sweep"
+          },
+          {
+            "a": "Their rivalry had become",
+            "b": "Homeric in its retelling"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Homer",
+        "rootLanguage": "Ancient Greece, c.8th century BC",
+        "rootMeaning": "Epic poet of the Iliad and Odyssey",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Homer",
+          "highlight": true
+        },
+        {
+          "text": ", whose ancient epics gave English its word for a struggle of truly heroic, larger-than-life scale.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Homer",
+      "correctAnswer": "Epic poet of the Iliad and Odyssey",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chaplinesque",
+    "pronunciation": "CHAP-lin-esk",
+    "pos": "adjective",
+    "definition": "Resembling the comic style of Charlie Chaplin, blending slapstick physical comedy with underlying pathos and sympathy for the underdog.",
+    "origin": "<strong>Chaplinesque</strong> is named after Charlie Chaplin (1889–1977), the English actor and director whose silent-film character \"the Tramp,\" with his bowler hat, cane, and toothbrush moustache, wandered through poverty and slapstick mishaps with unfailing dignity and heart. Chaplin's gift for wringing tenderness out of comedy gave his name to any performance that pairs laughter with genuine pathos.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chaplinesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Charlie Chaplin",
+            "b": "English actor and director, 1889–1977"
+          },
+          {
+            "a": "His famous character",
+            "b": "The Tramp, in bowler hat and cane"
+          },
+          {
+            "a": "His films combined",
+            "b": "Slapstick comedy with real pathos"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Comedy that also moves you"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chaplinesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Chaplinesque describes",
+            "b": "Physical comedy laced with pathos"
+          },
+          {
+            "a": "A Chaplinesque scene often features",
+            "b": "A sympathetic underdog"
+          },
+          {
+            "a": "The tone balances",
+            "b": "Slapstick with genuine feeling"
+          },
+          {
+            "a": "Named for a character called",
+            "b": "The Tramp"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chaplinesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The clown's stumble was oddly",
+            "b": "Chaplinesque in its sadness"
+          },
+          {
+            "a": "Critics praised the film's",
+            "b": "Chaplinesque blend of comedy and heart"
+          },
+          {
+            "a": "His silent shuffle down the street felt",
+            "b": "Chaplinesque"
+          },
+          {
+            "a": "The mime's routine was pure",
+            "b": "Chaplinesque pathos"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Charlie Chaplin",
+        "rootLanguage": "20th-century England/USA",
+        "rootMeaning": "Silent-film comedian blending slapstick with pathos",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Charlie Chaplin",
+          "highlight": true
+        },
+        {
+          "text": ", whose shuffling Tramp gave English its word for comedy that quietly breaks your heart.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Charlie Chaplin",
+      "correctAnswer": "Silent-film comedian blending slapstick with pathos",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Faustian",
+    "pronunciation": "FOW-stee-un",
+    "pos": "adjective",
+    "definition": "Describing a bargain in which someone sacrifices moral principle or their soul for power, knowledge, or material gain.",
+    "origin": "<strong>Faustian</strong> derives from Faust, a legendary German scholar, dramatised most famously by Christopher Marlowe and later Johann Wolfgang von Goethe, who trades his soul to the devil Mephistopheles in exchange for unlimited knowledge and worldly pleasure. The legend likely grew from a real, disreputable German alchemist named Johann Georg Faust, but it is the fictional bargain that gave the world its enduring shorthand for a deal too costly to be worth winning.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Faustian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Faust",
+            "b": "Legendary scholar in German folklore"
+          },
+          {
+            "a": "His bargain",
+            "b": "Sells his soul to the devil for knowledge and power"
+          },
+          {
+            "a": "Dramatised by",
+            "b": "Marlowe and later Goethe"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Any deal that trades morality for gain"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Faustian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Faustian describes",
+            "b": "A bargain sacrificing morals for gain"
+          },
+          {
+            "a": "A Faustian pact typically involves",
+            "b": "The devil, or a devil-like figure"
+          },
+          {
+            "a": "The tone of the word is",
+            "b": "Warning, often tragic"
+          },
+          {
+            "a": "Related figure",
+            "b": "Mephistopheles, the tempter"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Faustian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Taking the bribe was a",
+            "b": "Faustian bargain he'd regret"
+          },
+          {
+            "a": "Critics called the merger a",
+            "b": "Faustian deal with a rival"
+          },
+          {
+            "a": "The scientist faced a",
+            "b": "Faustian choice between fame and ethics"
+          },
+          {
+            "a": "Selling the company felt like a",
+            "b": "Faustian trade of principle for profit"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Faust",
+        "rootLanguage": "German legend, 16th century onward",
+        "rootMeaning": "Scholar who traded his soul for knowledge and power",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Faust",
+          "highlight": true
+        },
+        {
+          "text": ", the legendary scholar whose bargain with the devil gave English its word for a deal too costly to win.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Faust",
+      "correctAnswer": "Scholar who traded his soul for knowledge and power",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Petrarchan",
+    "pronunciation": "puh-TRAR-kun",
+    "pos": "adjective",
+    "definition": "Relating to a sonnet form of an eight-line octave and six-line sestet, or to an idealised, unattainable love in poetry.",
+    "origin": "<strong>Petrarchan</strong> honours Francesco Petrarca, known in English as Petrarch (1304–1374), the Italian poet whose sonnets to a woman named Laura, whom he reportedly saw only from afar and never courted, fixed the pattern of adoring a beloved as a distant, almost divine ideal. His fourteen-line sonnet structure, octave and sestet, spread across Europe and still bears his name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Petrarchan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Petrarch (Francesco Petrarca)",
+            "b": "Italian poet, 1304–1374"
+          },
+          {
+            "a": "His muse",
+            "b": "Laura, an idealised, unattainable love"
+          },
+          {
+            "a": "His sonnet form",
+            "b": "An eight-line octave and six-line sestet"
+          },
+          {
+            "a": "Word now describes",
+            "b": "That sonnet form or idealised love"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Petrarchan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Petrarchan describes",
+            "b": "An idealised, unattainable love, or a sonnet form"
+          },
+          {
+            "a": "A Petrarchan sonnet has",
+            "b": "Fourteen lines split octave and sestet"
+          },
+          {
+            "a": "Contrast with",
+            "b": "The Shakespearean sonnet's three quatrains and couplet"
+          },
+          {
+            "a": "The idealised love is often",
+            "b": "Admired from a distance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Petrarchan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His poem followed the strict",
+            "b": "Petrarchan sonnet structure"
+          },
+          {
+            "a": "She was the subject of his",
+            "b": "Petrarchan devotion, adored from afar"
+          },
+          {
+            "a": "The professor compared it to a",
+            "b": "Petrarchan love poem"
+          },
+          {
+            "a": "Critics noted the",
+            "b": "Petrarchan influence in his early verse"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Petrarch (Francesco Petrarca)",
+        "rootLanguage": "14th-century Italy",
+        "rootMeaning": "Poet who fixed the sonnet form and idealised distant love",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Petrarch",
+          "highlight": true
+        },
+        {
+          "text": ", whose sonnets to a woman he adored from afar gave English both a verse form and a name for unattainable love.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Petrarch (Francesco Petrarca)",
+      "correctAnswer": "Poet who fixed the sonnet form and idealised distant love",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dorian",
+    "pronunciation": "DOR-ee-un",
+    "pos": "adjective",
+    "definition": "Retaining a youthful, unspoiled appearance while one's true corruption or age is hidden elsewhere.",
+    "origin": "<strong>Dorian</strong>, in this sense, refers to Dorian Gray, the title character of Oscar Wilde's 1890 novel <em>The Picture of Dorian Gray</em>, who remains eternally young and beautiful while a portrait locked in his attic absorbs every mark of his ageing and moral decay. Wilde's fable of vanity gave the language a word for anyone whose surface stays flawless while the true cost of their life is hidden away.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dorian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dorian Gray",
+            "b": "Fictional character, Oscar Wilde, 1890"
+          },
+          {
+            "a": "His bargain",
+            "b": "Eternal youth; his portrait ages and corrupts instead"
+          },
+          {
+            "a": "Author",
+            "b": "Oscar Wilde, Irish playwright and novelist"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Hidden corruption behind an unspoiled surface"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dorian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Dorian describes",
+            "b": "A youthful surface hiding true corruption"
+          },
+          {
+            "a": "In the novel, the portrait",
+            "b": "Ages and decays in his place"
+          },
+          {
+            "a": "The theme of the story is",
+            "b": "Vanity and moral consequence"
+          },
+          {
+            "a": "The word is used of",
+            "b": "People who never seem to age or answer for their past"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dorian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "At sixty he still looked twenty, almost",
+            "b": "Dorian in his defiance of age"
+          },
+          {
+            "a": "Critics called the tycoon a",
+            "b": "Dorian figure, flawless in public, ruinous in private"
+          },
+          {
+            "a": "Her unchanging beauty seemed",
+            "b": "Uncannily Dorian"
+          },
+          {
+            "a": "The novel plays on the",
+            "b": "Dorian idea of a hidden, decaying self"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Dorian Gray",
+        "rootLanguage": "Fictional, Oscar Wilde (1890)",
+        "rootMeaning": "Character who stays young while his portrait bears his corruption",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Dorian Gray",
+          "highlight": true
+        },
+        {
+          "text": ", Oscar Wilde's fictional dandy, whose ageless face and rotting portrait gave English a word for corruption hidden behind a flawless surface.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Dorian Gray",
+      "correctAnswer": "Character who stays young while his portrait bears his corruption",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shakespearean",
+    "pronunciation": "shayk-SPEER-ee-un",
+    "pos": "adjective",
+    "definition": "Relating to William Shakespeare or his works, especially their grandeur, tragedy, or mastery of language.",
+    "origin": "<strong>Shakespearean</strong> is named after William Shakespeare (1564–1616), the English playwright and poet whose thirty-nine plays and 154 sonnets shaped the language so thoroughly that scholars credit him with coining or popularising well over a thousand English words. His name now describes not just his own work but any drama that reaches similar heights of tragedy, wit, or command of language.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shakespearean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "William Shakespeare",
+            "b": "English playwright and poet, 1564–1616"
+          },
+          {
+            "a": "His output",
+            "b": "Thirty-nine plays and 154 sonnets"
+          },
+          {
+            "a": "His influence on English",
+            "b": "Coined or popularised over a thousand words"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Tragedy or drama of comparable grandeur"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shakespearean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Shakespearean describes",
+            "b": "Work matching Shakespeare's style or grandeur"
+          },
+          {
+            "a": "A Shakespearean sonnet has",
+            "b": "Three quatrains and a closing couplet"
+          },
+          {
+            "a": "A Shakespearean tragedy typically ends in",
+            "b": "The downfall of the hero"
+          },
+          {
+            "a": "The word can also mean",
+            "b": "Simply relating to Shakespeare's own work"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shakespearean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The family feud played out like a",
+            "b": "Shakespearean tragedy"
+          },
+          {
+            "a": "She wrote her poem in strict",
+            "b": "Shakespearean sonnet form"
+          },
+          {
+            "a": "His betrayal by his closest friend felt",
+            "b": "Shakespearean in its cruelty"
+          },
+          {
+            "a": "The actor trained for years in",
+            "b": "Shakespearean theatre"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "William Shakespeare",
+        "rootLanguage": "16th–17th-century England",
+        "rootMeaning": "Playwright and poet who reshaped the English language",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "William Shakespeare",
+          "highlight": true
+        },
+        {
+          "text": ", whose plays and sonnets gave English its standard for tragedy, wit, and command of language.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "William Shakespeare",
+      "correctAnswer": "Playwright and poet who reshaped the English language",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Miltonic",
+    "pronunciation": "mil-TON-ik",
+    "pos": "adjective",
+    "definition": "Grand, elevated, and solemn in style, resembling the epic verse of John Milton.",
+    "origin": "<strong>Miltonic</strong> comes from John Milton (1608–1674), the English poet who, blind and politically disgraced after the fall of England's republic, dictated <em>Paradise Lost</em> (1667), a twelve-book epic in blank verse retelling the fall of Adam and Eve on a cosmic scale. His weighty, Latinate style, full of long sentences and grand invocation, gave later writers a word for poetry that reaches for the sublime.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Miltonic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "John Milton",
+            "b": "English poet, 1608–1674"
+          },
+          {
+            "a": "His masterwork",
+            "b": "Paradise Lost, published 1667"
+          },
+          {
+            "a": "Written while",
+            "b": "Blind and dictating to assistants"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Grand, elevated, epic poetic style"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Miltonic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Miltonic describes",
+            "b": "Grand, solemn, elevated verse"
+          },
+          {
+            "a": "Miltonic blank verse is",
+            "b": "Unrhymed, in iambic pentameter"
+          },
+          {
+            "a": "The tone typically evokes",
+            "b": "Cosmic, biblical scale"
+          },
+          {
+            "a": "Named for the author of",
+            "b": "Paradise Lost"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Miltonic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The eulogy rose to something almost",
+            "b": "Miltonic in its grandeur"
+          },
+          {
+            "a": "Critics called the poem's scale",
+            "b": "Miltonic"
+          },
+          {
+            "a": "His sentences unfurled in",
+            "b": "Miltonic length and weight"
+          },
+          {
+            "a": "The professor lectured on",
+            "b": "Miltonic influence in later epics"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "John Milton",
+        "rootLanguage": "17th-century England",
+        "rootMeaning": "Poet of the epic Paradise Lost",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "John Milton",
+          "highlight": true
+        },
+        {
+          "text": ", whose blind dictation of Paradise Lost gave English a word for verse reaching for the sublime.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "John Milton",
+      "correctAnswer": "Poet of the epic Paradise Lost",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Swiftian",
+    "pronunciation": "SWIF-tee-un",
+    "pos": "adjective",
+    "definition": "Marked by biting, ingenious satire, especially of the kind that exposes folly through savage irony.",
+    "origin": "<strong>Swiftian</strong> is named after Jonathan Swift (1667–1745), the Anglo-Irish satirist whose <em>Gulliver's Travels</em> mocked human vanity through tiny Lilliputians and giant Brobdingnagians, and whose essay <em>A Modest Proposal</em> (1729) coolly suggested the Irish poor sell their children as food for the rich, a savage irony aimed at British indifference to famine. His name now marks satire sharp enough to unsettle as much as amuse.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Swiftian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jonathan Swift",
+            "b": "Anglo-Irish satirist, 1667–1745"
+          },
+          {
+            "a": "His novel",
+            "b": "Gulliver's Travels, 1726"
+          },
+          {
+            "a": "His essay",
+            "b": "A Modest Proposal, 1729, savage irony on famine"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Biting, ingenious satire"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Swiftian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Swiftian describes",
+            "b": "Biting, savage satire"
+          },
+          {
+            "a": "A Swiftian proposal is often",
+            "b": "Ironic and deliberately shocking"
+          },
+          {
+            "a": "The technique typically exposes",
+            "b": "Hypocrisy or indifference through absurdity"
+          },
+          {
+            "a": "Named for the author of",
+            "b": "Gulliver's Travels"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Swiftian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The columnist's tax proposal was pure",
+            "b": "Swiftian irony"
+          },
+          {
+            "a": "Critics called the satire",
+            "b": "Swiftian in its savagery"
+          },
+          {
+            "a": "His essay on bureaucracy read like a",
+            "b": "Swiftian modest proposal"
+          },
+          {
+            "a": "The comedian's routine took a",
+            "b": "Swiftian turn into dark irony"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jonathan Swift",
+        "rootLanguage": "17th–18th-century Ireland/England",
+        "rootMeaning": "Satirist known for savage, ironic wit",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Jonathan Swift",
+          "highlight": true
+        },
+        {
+          "text": ", whose savage irony in A Modest Proposal gave English its word for satire sharp enough to sting.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jonathan Swift",
+      "correctAnswer": "Satirist known for savage, ironic wit",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hitchcockian",
+    "pronunciation": "hich-KOK-ee-un",
+    "pos": "adjective",
+    "definition": "Resembling the suspenseful, ominous style of Alfred Hitchcock's films, blending everyday settings with mounting dread.",
+    "origin": "<strong>Hitchcockian</strong> is named after Alfred Hitchcock (1899–1980), the English film director whose thrillers, including <em>Psycho</em>, <em>Vertigo</em>, and <em>Rear Window</em>, built suspense by placing ordinary people in mounting danger while withholding key information from both characters and audience. His mastery of dread through camera work and pacing was so distinctive that his name became the standard description of the genre he perfected.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hitchcockian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Alfred Hitchcock",
+            "b": "English film director, 1899–1980"
+          },
+          {
+            "a": "Famous films",
+            "b": "Psycho, Vertigo, Rear Window"
+          },
+          {
+            "a": "His technique",
+            "b": "Building suspense through withheld information"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Ominous, suspenseful, thriller-like tension"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hitchcockian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hitchcockian describes",
+            "b": "Suspense in an ordinary, everyday setting"
+          },
+          {
+            "a": "A Hitchcockian twist often involves",
+            "b": "A shocking reveal late in the story"
+          },
+          {
+            "a": "The mood is typically",
+            "b": "Ominous, tense, and controlled"
+          },
+          {
+            "a": "Named for the director of",
+            "b": "Psycho and Vertigo"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hitchcockian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The stranger watching from across the street felt",
+            "b": "Hitchcockian"
+          },
+          {
+            "a": "The film built",
+            "b": "Hitchcockian tension scene by scene"
+          },
+          {
+            "a": "Critics called the twist ending",
+            "b": "Pure Hitchcockian misdirection"
+          },
+          {
+            "a": "The score alone gave the scene a",
+            "b": "Hitchcockian sense of dread"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Alfred Hitchcock",
+        "rootLanguage": "20th-century England/USA",
+        "rootMeaning": "Director who mastered suspense in everyday settings",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Alfred Hitchcock",
+          "highlight": true
+        },
+        {
+          "text": ", whose mastery of dread and misdirection gave English a word for suspense built from the ordinary.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Alfred Hitchcock",
+      "correctAnswer": "Director who mastered suspense in everyday settings",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hemingwayesque",
+    "pronunciation": "HEM-ing-way-esk",
+    "pos": "adjective",
+    "definition": "Written in short, plain, unadorned sentences that convey deep feeling through restraint rather than description.",
+    "origin": "<strong>Hemingwayesque</strong> is named after Ernest Hemingway (1899–1961), the American writer whose early training as a journalist shaped a famously spare prose style, short declarative sentences, minimal adjectives, and dialogue doing the emotional work that other novelists left to description. He called this the \"iceberg theory,\" the idea that most of a story's meaning should stay submerged beneath a plain surface.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hemingwayesque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ernest Hemingway",
+            "b": "American writer, 1899–1961"
+          },
+          {
+            "a": "His background",
+            "b": "Trained as a journalist before novels"
+          },
+          {
+            "a": "His theory of style",
+            "b": "The \"iceberg theory,\" most meaning left unsaid"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Terse, plain, understated prose"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hemingwayesque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Hemingwayesque describes",
+            "b": "Short, plain, unadorned prose"
+          },
+          {
+            "a": "The style favours",
+            "b": "Declarative sentences over description"
+          },
+          {
+            "a": "Emotion is conveyed through",
+            "b": "Restraint, not explanation"
+          },
+          {
+            "a": "Coined from the author of",
+            "b": "The Old Man and the Sea"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hemingwayesque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "His short story was",
+            "b": "Hemingwayesque in its bare simplicity"
+          },
+          {
+            "a": "The professor praised her",
+            "b": "Hemingwayesque economy of language"
+          },
+          {
+            "a": "The dialogue felt",
+            "b": "Terse and Hemingwayesque"
+          },
+          {
+            "a": "Critics called the memoir's prose",
+            "b": "Starkly Hemingwayesque"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ernest Hemingway",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Writer known for spare, understated prose",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ernest Hemingway",
+          "highlight": true
+        },
+        {
+          "text": ", whose spare, iceberg-theory prose gave English a word for meaning conveyed through restraint.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ernest Hemingway",
+      "correctAnswer": "Writer known for spare, understated prose",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Joycean",
+    "pronunciation": "JOY-see-un",
+    "pos": "adjective",
+    "definition": "Relating to a dense, experimental prose style marked by stream-of-consciousness narration and inventive wordplay.",
+    "origin": "<strong>Joycean</strong> is named after James Joyce (1882–1941), the Irish writer whose novel <em>Ulysses</em> (1922) tracks a single Dublin day through the unfiltered, associative flow of its characters' thoughts, and whose final work, <em>Finnegans Wake</em>, dissolves English into layered puns and invented words. His radical reshaping of what a novel could do gave critics a permanent word for fiction that mimics the mind's own chaotic flow.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Joycean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "James Joyce",
+            "b": "Irish writer, 1882–1941"
+          },
+          {
+            "a": "His novel",
+            "b": "Ulysses, 1922, set over a single Dublin day"
+          },
+          {
+            "a": "His technique",
+            "b": "Stream-of-consciousness narration"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Dense, experimental, wordplay-heavy prose"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Joycean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Joycean describes",
+            "b": "Stream-of-consciousness, experimental prose"
+          },
+          {
+            "a": "Stream-of-consciousness aims to mimic",
+            "b": "The unfiltered flow of thought"
+          },
+          {
+            "a": "Joyce's final novel was",
+            "b": "Finnegans Wake, full of invented words"
+          },
+          {
+            "a": "The style is often called",
+            "b": "Dense and demanding"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Joycean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The novel's final chapter was pure",
+            "b": "Joycean stream of consciousness"
+          },
+          {
+            "a": "Critics called his wordplay",
+            "b": "Joycean in its inventiveness"
+          },
+          {
+            "a": "The professor's lecture traced",
+            "b": "Joycean influence on modern fiction"
+          },
+          {
+            "a": "Her diary entries read like a",
+            "b": "Joycean tumble of half-formed thoughts"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "James Joyce",
+        "rootLanguage": "19th–20th-century Ireland",
+        "rootMeaning": "Writer of stream-of-consciousness fiction",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "James Joyce",
+          "highlight": true
+        },
+        {
+          "text": ", whose single Dublin day in Ulysses gave English a word for prose that mimics the mind's own flow.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "James Joyce",
+      "correctAnswer": "Writer of stream-of-consciousness fiction",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Borgesian",
+    "pronunciation": "bor-HAY-see-un",
+    "pos": "adjective",
+    "definition": "Relating to labyrinthine, metaphysical puzzles involving infinite libraries, mirrors, or impossible recursive structures.",
+    "origin": "<strong>Borgesian</strong> is named after Jorge Luis Borges (1899–1986), the Argentine writer whose short stories, gathered in <em>Ficciones</em> and <em>The Aleph</em>, imagined libraries containing every possible book, maps as large as the territories they depict, and labyrinths built from time itself rather than corridors. Though he never wrote a novel, his brief, dizzying fictions were so conceptually radical that his name now describes any puzzle of infinite, self-referential complexity.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Borgesian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jorge Luis Borges",
+            "b": "Argentine writer, 1899–1986"
+          },
+          {
+            "a": "His collections",
+            "b": "Ficciones and The Aleph"
+          },
+          {
+            "a": "Recurring images",
+            "b": "Infinite libraries, mirrors, labyrinths"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Metaphysical, recursive, labyrinthine puzzles"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Borgesian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Borgesian describes",
+            "b": "Labyrinthine, infinite, self-referential puzzles"
+          },
+          {
+            "a": "A Borgesian library contains",
+            "b": "Every possible combination of text"
+          },
+          {
+            "a": "The style typically favours",
+            "b": "Short fiction over the novel"
+          },
+          {
+            "a": "Common theme",
+            "b": "Infinity, time, and identity"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Borgesian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The internet's endless links felt",
+            "b": "Borgesian in their infinite branching"
+          },
+          {
+            "a": "Critics called the puzzle box",
+            "b": "Borgesian in its recursive design"
+          },
+          {
+            "a": "The archive's endless corridors were",
+            "b": "Genuinely Borgesian"
+          },
+          {
+            "a": "The philosopher raised a suitably",
+            "b": "Borgesian paradox about infinite maps"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jorge Luis Borges",
+        "rootLanguage": "20th-century Argentina",
+        "rootMeaning": "Writer of infinite libraries and recursive puzzles",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Jorge Luis Borges",
+          "highlight": true
+        },
+        {
+          "text": ", whose infinite libraries and mirrored labyrinths gave English a word for recursive, metaphysical puzzles.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jorge Luis Borges",
+      "correctAnswer": "Writer of infinite libraries and recursive puzzles",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tennysonian",
+    "pronunciation": "ten-uh-SOH-nee-un",
+    "pos": "adjective",
+    "definition": "Marked by melodious, richly musical verse and a wistful, elegiac tone, resembling the poetry of Tennyson.",
+    "origin": "<strong>Tennysonian</strong> is named after Alfred, Lord Tennyson (1809–1892), Poet Laureate of Britain for over forty years, whose elegy <em>In Memoriam A.H.H.</em>, mourning a friend who died young, and whose musical narrative poems like <em>The Lady of Shalott</em> combined technical precision with deep melancholy. His command of sound and metre made his name the standard for verse that is both beautifully musical and quietly sorrowful.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tennysonian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Alfred, Lord Tennyson",
+            "b": "British Poet Laureate, 1809–1892"
+          },
+          {
+            "a": "His major elegy",
+            "b": "In Memoriam A.H.H., mourning a friend"
+          },
+          {
+            "a": "His narrative poems",
+            "b": "The Lady of Shalott, among others"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Melodious, wistful, elegiac verse"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tennysonian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Tennysonian describes",
+            "b": "Musical, elegiac, richly wistful verse"
+          },
+          {
+            "a": "Tennyson served as",
+            "b": "Poet Laureate for over forty years"
+          },
+          {
+            "a": "The tone often carries",
+            "b": "Melancholy and quiet mourning"
+          },
+          {
+            "a": "Related work",
+            "b": "In Memoriam A.H.H."
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tennysonian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The eulogy had a",
+            "b": "Tennysonian grace and sorrow"
+          },
+          {
+            "a": "Critics called her verse",
+            "b": "Tennysonian in its musicality"
+          },
+          {
+            "a": "The poem's wistful rhythm felt",
+            "b": "Distinctly Tennysonian"
+          },
+          {
+            "a": "His elegy for the soldier echoed",
+            "b": "Tennysonian mourning"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Alfred, Lord Tennyson",
+        "rootLanguage": "19th-century Britain",
+        "rootMeaning": "Poet Laureate known for musical, elegiac verse",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Alfred, Lord Tennyson",
+          "highlight": true
+        },
+        {
+          "text": ", whose musical elegies gave English a word for verse both beautiful and quietly sorrowful.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Alfred, Lord Tennyson",
+      "correctAnswer": "Poet Laureate known for musical, elegiac verse",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Falstaffian",
+    "pronunciation": "fal-STAF-ee-un",
+    "pos": "adjective",
+    "definition": "Jovial, boastful, and corpulent, with a hearty appetite for food, drink, and mischief.",
+    "origin": "<strong>Falstaffian</strong> is named after Sir John Falstaff, the fat, cowardly, endlessly witty knight who appears in Shakespeare's <em>Henry IV</em> plays and <em>The Merry Wives of Windsor</em>, boasting of battles he fled and debts he never intends to pay while remaining, against all logic, one of the stage's most beloved characters. Though entirely fictional, Falstaff's outsized appetite for life gave English its word for a certain kind of loveable, roguish excess.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-literary",
+      "name": "Literary & Cultural",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Falstaffian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sir John Falstaff",
+            "b": "Fictional character, Shakespeare's Henry IV plays"
+          },
+          {
+            "a": "His traits",
+            "b": "Fat, boastful, cowardly, but immensely charming"
+          },
+          {
+            "a": "Also appears in",
+            "b": "The Merry Wives of Windsor"
+          },
+          {
+            "a": "Word now describes",
+            "b": "Jovial, boastful, corpulent excess"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Falstaffian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Falstaffian describes",
+            "b": "Jovial, corpulent, boastful excess"
+          },
+          {
+            "a": "A Falstaffian figure typically loves",
+            "b": "Food, drink, and roguish mischief"
+          },
+          {
+            "a": "Despite his flaws, Falstaff is",
+            "b": "One of Shakespeare's most beloved characters"
+          },
+          {
+            "a": "The tone of the word is",
+            "b": "Fond rather than harshly critical"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Falstaffian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The innkeeper was a",
+            "b": "Falstaffian figure, loud and lovable"
+          },
+          {
+            "a": "He held court at the bar with",
+            "b": "Falstaffian charm"
+          },
+          {
+            "a": "Critics called the actor's performance",
+            "b": "Gloriously Falstaffian"
+          },
+          {
+            "a": "His stories of past glories grew ever more",
+            "b": "Falstaffian with each retelling"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Sir John Falstaff",
+        "rootLanguage": "Fictional, Shakespeare (c.1597)",
+        "rootMeaning": "Boastful, jovial, corpulent knight",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Sir John Falstaff",
+          "highlight": true
+        },
+        {
+          "text": ", Shakespeare's roguish, boastful knight, whose outsized appetite for life gave English a word for jovial excess.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Sir John Falstaff",
+      "correctAnswer": "Boastful, jovial, corpulent knight",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

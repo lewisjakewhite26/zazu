@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Guru",
+    "pronunciation": "GOO-roo",
+    "pos": "noun",
+    "definition": "A spiritual teacher or leader in Hinduism or Sikhism; broadly, an influential expert.",
+    "origin": "From Sanskrit <strong>guru</strong>, meaning teacher or venerable one, literally \"heavy, weighty,\" implying moral and spiritual weight. It entered English through 20th-century interest in Indian philosophy.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guru</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit guru",
+            "b": "Heavy, weighty; teacher"
+          },
+          {
+            "a": "Implied sense",
+            "b": "Moral and spiritual weight"
+          },
+          {
+            "a": "Entered English via",
+            "b": "20th-century interest in Indian philosophy"
+          },
+          {
+            "a": "Traditional role",
+            "b": "A spiritual teacher"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guru</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A guru is",
+            "b": "A spiritual teacher or leader"
+          },
+          {
+            "a": "Informally, a guru is",
+            "b": "A recognised expert"
+          },
+          {
+            "a": "The word literally means",
+            "b": "Heavy, or weighty"
+          },
+          {
+            "a": "A tech guru is someone",
+            "b": "Highly skilled with technology"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guru</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She studied meditation under",
+            "b": "A respected guru"
+          },
+          {
+            "a": "He became known as the office",
+            "b": "Marketing guru"
+          },
+          {
+            "a": "Followers travelled far to hear",
+            "b": "The guru speak"
+          },
+          {
+            "a": "The guru taught them to",
+            "b": "Sit in stillness each morning"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "guru",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Heavy, weighty; teacher",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "guru",
+          "highlight": true
+        },
+        {
+          "text": ", literally \"heavy, weighty,\" implying moral and spiritual weight.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "guru",
+      "correctAnswer": "Heavy, weighty; teacher",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Karma",
+    "pronunciation": "KAR-muh",
+    "pos": "noun",
+    "definition": "The principle that a person's actions determine their future fate, in this life or the next.",
+    "origin": "From Sanskrit <strong>karma</strong>, meaning action or deed, from <strong>kṛ</strong> (to do, to make). Central to Hindu and Buddhist philosophy, it entered Western pop culture in the 20th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Karma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit kṛ",
+            "b": "To do, to make"
+          },
+          {
+            "a": "Sanskrit karma",
+            "b": "Action, deed"
+          },
+          {
+            "a": "Central to",
+            "b": "Hindu and Buddhist philosophy"
+          },
+          {
+            "a": "Entered Western culture",
+            "b": "20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Karma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Karma is",
+            "b": "The principle that actions shape one's fate"
+          },
+          {
+            "a": "\"What goes around comes around\" reflects",
+            "b": "The idea of karma"
+          },
+          {
+            "a": "Karma is central to",
+            "b": "Hindu and Buddhist thought"
+          },
+          {
+            "a": "The word literally means",
+            "b": "Action, deed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Karma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She shrugged and said it was just",
+            "b": "Karma"
+          },
+          {
+            "a": "He believed good deeds created good",
+            "b": "Karma"
+          },
+          {
+            "a": "His downfall felt like",
+            "b": "Karma for years of dishonesty"
+          },
+          {
+            "a": "They discussed karma and",
+            "b": "Rebirth in the philosophy class"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "kṛ",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "To do, to make",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit karma, from ",
+          "highlight": false
+        },
+        {
+          "text": "kṛ",
+          "highlight": true
+        },
+        {
+          "text": " (to do); central to Hindu and Buddhist philosophy.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "kṛ",
+      "correctAnswer": "To do, to make",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Avatar",
+    "pronunciation": "AV-uh-tar",
+    "pos": "noun",
+    "definition": "A manifestation of a deity in bodily form; a digital representation of a person or character.",
+    "origin": "From Sanskrit <strong>avatāra</strong>, meaning descent, from <strong>ava</strong> (down) + <strong>tṛ</strong> (to cross). In Hindu belief, a god's deliberate descent to earth in physical form.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Avatar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit avatāra",
+            "b": "Descent"
+          },
+          {
+            "a": "Sanskrit ava",
+            "b": "Down"
+          },
+          {
+            "a": "Sanskrit tṛ",
+            "b": "To cross"
+          },
+          {
+            "a": "Hindu belief",
+            "b": "A deity's deliberate descent to earth"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Avatar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "In Hinduism, an avatar is",
+            "b": "A deity's earthly manifestation"
+          },
+          {
+            "a": "Online, an avatar is",
+            "b": "A digital representation of a user"
+          },
+          {
+            "a": "The word literally means",
+            "b": "Descent"
+          },
+          {
+            "a": "Krishna is considered an avatar of",
+            "b": "The god Vishnu"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Avatar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She customised her gaming",
+            "b": "Avatar"
+          },
+          {
+            "a": "The temple depicted an",
+            "b": "Avatar of Vishnu"
+          },
+          {
+            "a": "He chose a cartoon fox as his",
+            "b": "Online avatar"
+          },
+          {
+            "a": "Hindu texts describe ten",
+            "b": "Avatars of the god Vishnu"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "avatāra",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Descent",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "avatāra",
+          "highlight": true
+        },
+        {
+          "text": " (descent): ava (down) + tṛ (to cross); a god's descent to earth in physical form.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "avatāra",
+      "correctAnswer": "Descent",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bungalow",
+    "pronunciation": "BUNG-guh-loh",
+    "pos": "noun",
+    "definition": "A low house with a single storey, or few upper rooms.",
+    "origin": "From Hindi <strong>baṅglā</strong>, meaning \"in the Bengali style,\" describing a low, single-storey house typical of Bengal. British colonial officials adopted the design and word.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bungalow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi baṅglā",
+            "b": "In the Bengali style"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A low house typical of Bengal"
+          },
+          {
+            "a": "Adopted by",
+            "b": "British colonial officials"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bungalow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bungalow is",
+            "b": "A single-storey house"
+          },
+          {
+            "a": "Bungalows are popular for",
+            "b": "Accessibility, having no stairs"
+          },
+          {
+            "a": "The word originally described",
+            "b": "A regional Bengali house style"
+          },
+          {
+            "a": "Bungalows became fashionable in",
+            "b": "Britain and America in the 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bungalow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They downsized to a small",
+            "b": "Bungalow by the coast"
+          },
+          {
+            "a": "The retired couple bought a",
+            "b": "Cosy bungalow"
+          },
+          {
+            "a": "Every house on the street was",
+            "b": "A single-storey bungalow"
+          },
+          {
+            "a": "The bungalow's wide veranda faced",
+            "b": "The garden"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "baṅglā",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "In the Bengali style",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "baṅglā",
+          "highlight": true
+        },
+        {
+          "text": ", \"in the Bengali style\"; British colonial officials adopted the design and word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "baṅglā",
+      "correctAnswer": "In the Bengali style",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pyjamas",
+    "pronunciation": "puh-JAH-muz",
+    "pos": "noun",
+    "definition": "Loose garments for sleeping, consisting of a top and trousers.",
+    "origin": "From Hindi/Urdu <strong>pājāma</strong>, from Persian <strong>pāy</strong> (leg) + <strong>jāma</strong> (garment). Originally loose trousers, adopted by British colonials and reimagined as sleepwear.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pyjamas</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian pāy",
+            "b": "Leg"
+          },
+          {
+            "a": "Persian jāma",
+            "b": "Garment"
+          },
+          {
+            "a": "Hindi/Urdu pājāma",
+            "b": "Leg garment"
+          },
+          {
+            "a": "Reimagined by",
+            "b": "British colonials, as sleepwear"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pyjamas</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pyjamas are",
+            "b": "Loose garments for sleeping"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Loose trousers, not sleepwear"
+          },
+          {
+            "a": "American English spells the word",
+            "b": "Pajamas"
+          },
+          {
+            "a": "Pyjamas typically include",
+            "b": "A top and trousers"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pyjamas</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She changed into her",
+            "b": "Flannel pyjamas"
+          },
+          {
+            "a": "He shuffled downstairs in",
+            "b": "His pyjamas"
+          },
+          {
+            "a": "The children wore matching",
+            "b": "Christmas pyjamas"
+          },
+          {
+            "a": "They spent the rainy day in",
+            "b": "Pyjamas watching films"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "jāma",
+        "rootLanguage": "Persian",
+        "rootMeaning": "Garment",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi/Urdu pājāma, from Persian pāy (leg) + ",
+          "highlight": false
+        },
+        {
+          "text": "jāma",
+          "highlight": true
+        },
+        {
+          "text": " (garment); loose trousers reimagined by the British as sleepwear.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "jāma",
+      "correctAnswer": "Garment",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chutney",
+    "pronunciation": "CHUT-nee",
+    "pos": "noun",
+    "definition": "A spiced condiment made from fruit, vinegar, and sugar, or fresh herbs and spices.",
+    "origin": "From Hindi <strong>caṭnī</strong>, from <strong>caṭnā</strong> (to lick, to taste). British colonists in India developed a taste for the condiment and brought recipes home.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chutney</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi caṭnā",
+            "b": "To lick, to taste"
+          },
+          {
+            "a": "Hindi caṭnī",
+            "b": "Chutney"
+          },
+          {
+            "a": "Popularised by",
+            "b": "British colonists in India"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chutney</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Chutney is",
+            "b": "A spiced fruit or herb condiment"
+          },
+          {
+            "a": "Mango chutney pairs well with",
+            "b": "Curries and cheeses"
+          },
+          {
+            "a": "Fresh chutneys are often made from",
+            "b": "Coriander or mint"
+          },
+          {
+            "a": "Chutney can range from",
+            "b": "Sweet to fiery hot"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chutney</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She served the samosas with",
+            "b": "Mint chutney"
+          },
+          {
+            "a": "A jar of mango",
+            "b": "Chutney sat on the table"
+          },
+          {
+            "a": "The cheese board included",
+            "b": "A spoonful of chutney"
+          },
+          {
+            "a": "He spread",
+            "b": "Tomato chutney on his sandwich"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "caṭnā",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "To lick, to taste",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi caṭnī, from ",
+          "highlight": false
+        },
+        {
+          "text": "caṭnā",
+          "highlight": true
+        },
+        {
+          "text": " (to lick); British colonists in India brought recipes home.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "caṭnā",
+      "correctAnswer": "To lick, to taste",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shampoo",
+    "pronunciation": "sham-POO",
+    "pos": "noun",
+    "definition": "A liquid preparation used to wash the hair.",
+    "origin": "From Hindi <strong>cāmpo</strong>, imperative of <strong>cāmpnā</strong> (to press, to massage). It originally referred to a full head and body massage before narrowing to hair-washing products.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shampoo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi cāmpnā",
+            "b": "To press, to massage"
+          },
+          {
+            "a": "Hindi cāmpo",
+            "b": "Massage! (imperative)"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A full head-and-body massage"
+          },
+          {
+            "a": "Narrowed sense",
+            "b": "A hair-washing product"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shampoo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Shampoo is",
+            "b": "A liquid for washing hair"
+          },
+          {
+            "a": "To shampoo also means to",
+            "b": "Wash with shampoo"
+          },
+          {
+            "a": "The word originally described",
+            "b": "A relaxing massage"
+          },
+          {
+            "a": "Carpet shampoo is used to",
+            "b": "Deep-clean carpets"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shampoo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She lathered",
+            "b": "Shampoo into her hair"
+          },
+          {
+            "a": "He switched to a gentler",
+            "b": "Shampoo"
+          },
+          {
+            "a": "The salon offered a scalp massage with",
+            "b": "Every shampoo"
+          },
+          {
+            "a": "They rented a machine to",
+            "b": "Shampoo the carpets"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cāmpnā",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "To press, to massage",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi cāmpo, from ",
+          "highlight": false
+        },
+        {
+          "text": "cāmpnā",
+          "highlight": true
+        },
+        {
+          "text": " (to press, massage); originally a full head-and-body massage, not hair-washing.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cāmpnā",
+      "correctAnswer": "To press, to massage",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Juggernaut",
+    "pronunciation": "JUG-ur-nawt",
+    "pos": "noun",
+    "definition": "A huge, powerful force or institution that crushes anything in its path.",
+    "origin": "From Hindi <strong>Jagannāth</strong>, \"Lord of the World,\" a title of Krishna, whose massive temple cart was mistakenly believed by early European visitors to crush worshippers beneath it.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Juggernaut</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi Jagannāth",
+            "b": "Lord of the World"
+          },
+          {
+            "a": "Refers to",
+            "b": "A title of the god Krishna"
+          },
+          {
+            "a": "Associated with",
+            "b": "A massive temple festival cart"
+          },
+          {
+            "a": "Legend held",
+            "b": "Worshippers were crushed beneath it"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Juggernaut</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A juggernaut is",
+            "b": "An unstoppable, crushing force"
+          },
+          {
+            "a": "The word originated from",
+            "b": "A title of the god Krishna"
+          },
+          {
+            "a": "A juggernaut can describe",
+            "b": "A powerful company or trend"
+          },
+          {
+            "a": "The image evokes",
+            "b": "Something massive and unstoppable"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Juggernaut</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The company grew into",
+            "b": "A retail juggernaut"
+          },
+          {
+            "a": "The team steamrolled opponents like",
+            "b": "An unstoppable juggernaut"
+          },
+          {
+            "a": "Nothing could slow the",
+            "b": "Political juggernaut"
+          },
+          {
+            "a": "The film became a box-office",
+            "b": "Juggernaut"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jagannāth",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Lord of the World",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "Jagannāth",
+          "highlight": true
+        },
+        {
+          "text": ", \"Lord of the World\"; a title of Krishna, whose massive temple cart gave rise to the legend.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jagannāth",
+      "correctAnswer": "Lord of the World",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Veranda",
+    "pronunciation": "vuh-RAN-duh",
+    "pos": "noun",
+    "definition": "A roofed platform along the outside of a house, at ground level.",
+    "origin": "From Hindi <strong>varaṇḍā</strong>, possibly from Portuguese <strong>varanda</strong> (balcony, railing), itself possibly of Indian origin. The exact direction of borrowing remains debated by etymologists.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Veranda</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi varaṇḍā",
+            "b": "Veranda, railing"
+          },
+          {
+            "a": "Possible link",
+            "b": "Portuguese varanda (balcony)"
+          },
+          {
+            "a": "Debated by",
+            "b": "Etymologists over direction of borrowing"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Veranda</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A veranda is",
+            "b": "A roofed outdoor platform"
+          },
+          {
+            "a": "Verandas typically run along",
+            "b": "The outside of a house"
+          },
+          {
+            "a": "A veranda differs from a balcony in",
+            "b": "Being at ground level"
+          },
+          {
+            "a": "Verandas are common in",
+            "b": "Warm-climate architecture"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Veranda</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They sipped tea on",
+            "b": "The shaded veranda"
+          },
+          {
+            "a": "The old plantation house had a wide",
+            "b": "Veranda"
+          },
+          {
+            "a": "Rain drummed on",
+            "b": "The tin veranda roof"
+          },
+          {
+            "a": "Rocking chairs lined",
+            "b": "The front veranda"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "varaṇḍā",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Veranda, railing",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "varaṇḍā",
+          "highlight": true
+        },
+        {
+          "text": ", possibly via Portuguese varanda; the exact direction of borrowing is debated.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "varaṇḍā",
+      "correctAnswer": "Veranda, railing",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Thug",
+    "pronunciation": "THUG",
+    "pos": "noun",
+    "definition": "A violent criminal or ruffian.",
+    "origin": "From Hindi <strong>ṭhag</strong>, meaning swindler or thief. The word originally named a cult of professional stranglers and robbers in India, suppressed by British colonial authorities in the 19th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Thug</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi ṭhag",
+            "b": "Swindler, thief"
+          },
+          {
+            "a": "Original meaning",
+            "b": "A member of a cult of robbers"
+          },
+          {
+            "a": "Suppressed by",
+            "b": "British colonial authorities"
+          },
+          {
+            "a": "Era of suppression",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Thug</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A thug is",
+            "b": "A violent criminal or ruffian"
+          },
+          {
+            "a": "Thuggish behaviour describes",
+            "b": "Aggressive, brutish conduct"
+          },
+          {
+            "a": "The word originally referred to",
+            "b": "A specific cult of robbers"
+          },
+          {
+            "a": "The related word \"thuggery\" means",
+            "b": "Violent criminal behaviour"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Thug</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Police arrested the",
+            "b": "Thugs responsible for the attack"
+          },
+          {
+            "a": "The neighbourhood was once plagued by",
+            "b": "Local thugs"
+          },
+          {
+            "a": "He was roughed up by",
+            "b": "A group of thugs"
+          },
+          {
+            "a": "The film portrayed the gang as mindless",
+            "b": "Thugs"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ṭhag",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Swindler, thief",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "ṭhag",
+          "highlight": true
+        },
+        {
+          "text": "; originally named a cult of professional robbers suppressed by British authorities.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ṭhag",
+      "correctAnswer": "Swindler, thief",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dinghy",
+    "pronunciation": "DING-ee",
+    "pos": "noun",
+    "definition": "A small open boat, often inflatable, used for short trips or as a ship's tender.",
+    "origin": "From Hindi/Bengali <strong>ḍiṅgī</strong>, a small river boat. British sailors adopted the word for any small auxiliary boat carried aboard a larger ship.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dinghy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi ḍiṅgī",
+            "b": "Small river boat"
+          },
+          {
+            "a": "Adopted by",
+            "b": "British sailors"
+          },
+          {
+            "a": "Modern sense",
+            "b": "A small auxiliary boat"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dinghy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A dinghy is",
+            "b": "A small open boat"
+          },
+          {
+            "a": "A dinghy often serves as",
+            "b": "A ship's tender"
+          },
+          {
+            "a": "Sailing dinghies are used for",
+            "b": "Racing and recreation"
+          },
+          {
+            "a": "Inflatable dinghies are common as",
+            "b": "Emergency lifeboats"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dinghy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They rowed the",
+            "b": "Dinghy back to shore"
+          },
+          {
+            "a": "The yacht towed a small",
+            "b": "Dinghy"
+          },
+          {
+            "a": "Children learned to sail in",
+            "b": "A small dinghy"
+          },
+          {
+            "a": "The dinghy bobbed beside",
+            "b": "The anchored ship"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ḍiṅgī",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Small river boat",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi/Bengali ",
+          "highlight": false
+        },
+        {
+          "text": "ḍiṅgī",
+          "highlight": true
+        },
+        {
+          "text": ", a small river boat; British sailors adopted it for a ship's tender.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ḍiṅgī",
+      "correctAnswer": "Small river boat",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pundit",
+    "pronunciation": "PUN-dit",
+    "pos": "noun",
+    "definition": "An expert commentator, especially in politics, sports, or media.",
+    "origin": "From Hindi <strong>paṇḍit</strong>, from Sanskrit <strong>paṇḍita</strong> (learned, scholar). Originally a title for a Hindu scholar versed in Sanskrit law and philosophy.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pundit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit paṇḍita",
+            "b": "Learned, scholar"
+          },
+          {
+            "a": "Hindi paṇḍit",
+            "b": "Scholar, priest"
+          },
+          {
+            "a": "Original use",
+            "b": "A Hindu scholar of law and philosophy"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pundit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A pundit is",
+            "b": "An expert commentator"
+          },
+          {
+            "a": "Political pundits appear frequently on",
+            "b": "News broadcasts"
+          },
+          {
+            "a": "The word originally referred to",
+            "b": "A learned Hindu scholar"
+          },
+          {
+            "a": "Sports pundits analyse",
+            "b": "Games and player performance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pundit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The election results surprised",
+            "b": "Every pundit"
+          },
+          {
+            "a": "A panel of",
+            "b": "Political pundits debated the policy"
+          },
+          {
+            "a": "The football pundit predicted",
+            "b": "A narrow victory"
+          },
+          {
+            "a": "Media pundits speculated about",
+            "b": "The company's future"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "paṇḍita",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Learned, scholar",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi paṇḍit, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "paṇḍita",
+          "highlight": true
+        },
+        {
+          "text": "; originally a title for a scholar versed in Sanskrit law.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "paṇḍita",
+      "correctAnswer": "Learned, scholar",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dungarees",
+    "pronunciation": "dung-guh-REEZ",
+    "pos": "noun",
+    "definition": "Trousers with a bib and shoulder straps, made of sturdy fabric.",
+    "origin": "From Hindi <strong>ḍuṅgrī</strong>, a coarse, cheap cotton cloth originally made near Mumbai. The fabric name transferred to garments made from it.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dungarees</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi ḍuṅgrī",
+            "b": "Coarse cotton cloth"
+          },
+          {
+            "a": "Made near",
+            "b": "Mumbai (Bombay)"
+          },
+          {
+            "a": "Name transferred to",
+            "b": "Garments made from the cloth"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dungarees</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Dungarees are",
+            "b": "Bibbed trousers with shoulder straps"
+          },
+          {
+            "a": "Dungarees are traditionally made from",
+            "b": "Sturdy cotton or denim"
+          },
+          {
+            "a": "The American equivalent term is",
+            "b": "Overalls"
+          },
+          {
+            "a": "The word originally referred to",
+            "b": "The cheap cotton fabric itself"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dungarees</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The farmer wore faded",
+            "b": "Dungarees"
+          },
+          {
+            "a": "The toddler looked adorable in",
+            "b": "Denim dungarees"
+          },
+          {
+            "a": "She painted the fence in",
+            "b": "Old paint-splattered dungarees"
+          },
+          {
+            "a": "Workers on the site wore",
+            "b": "Sturdy dungarees"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ḍuṅgrī",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Coarse cotton cloth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "ḍuṅgrī",
+          "highlight": true
+        },
+        {
+          "text": ", a coarse cheap cotton cloth originally made near Mumbai.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ḍuṅgrī",
+      "correctAnswer": "Coarse cotton cloth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Loot",
+    "pronunciation": "LOOT",
+    "pos": "noun",
+    "definition": "Goods stolen or taken by force, especially in war or a raid.",
+    "origin": "From Hindi <strong>lūṭ</strong>, meaning plunder, from Sanskrit <strong>loptra</strong> (booty, spoils). British soldiers in India adopted the word to describe plunder taken in conflict.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Loot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi lūṭ",
+            "b": "Plunder"
+          },
+          {
+            "a": "Sanskrit loptra",
+            "b": "Booty, spoils"
+          },
+          {
+            "a": "Adopted by",
+            "b": "British soldiers in India"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Loot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Loot is",
+            "b": "Goods stolen by force"
+          },
+          {
+            "a": "To loot means to",
+            "b": "Steal, especially during chaos"
+          },
+          {
+            "a": "A looter is",
+            "b": "Someone who steals amid disorder"
+          },
+          {
+            "a": "Video game \"loot\" refers to",
+            "b": "Items collected during play"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Loot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Soldiers divided the",
+            "b": "Captured loot"
+          },
+          {
+            "a": "Rioters began to",
+            "b": "Loot shops along the street"
+          },
+          {
+            "a": "Police recovered most of the stolen",
+            "b": "Loot"
+          },
+          {
+            "a": "Players competed for the best",
+            "b": "In-game loot"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "lūṭ",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Plunder",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "lūṭ",
+          "highlight": true
+        },
+        {
+          "text": " (plunder), from Sanskrit loptra; British soldiers in India adopted the word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "lūṭ",
+      "correctAnswer": "Plunder",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bandana",
+    "pronunciation": "ban-DAN-uh",
+    "pos": "noun",
+    "definition": "A large patterned handkerchief, worn on the head or around the neck.",
+    "origin": "From Hindi <strong>bāndhnū</strong>, referring to a tie-dyeing technique, from <strong>bāndhnā</strong> (to tie). The dyeing method produced the distinctive patterned cloth.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bandana</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi bāndhnā",
+            "b": "To tie"
+          },
+          {
+            "a": "Hindi bāndhnū",
+            "b": "A tie-dyeing technique"
+          },
+          {
+            "a": "Named for",
+            "b": "The dyeing method used"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bandana</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bandana is",
+            "b": "A large patterned handkerchief"
+          },
+          {
+            "a": "Bandanas are commonly worn",
+            "b": "On the head or around the neck"
+          },
+          {
+            "a": "The word derives from",
+            "b": "A tie-dyeing technique"
+          },
+          {
+            "a": "Bandanas are often used for",
+            "b": "Fashion or practical sun protection"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bandana</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He tied a red",
+            "b": "Bandana around his neck"
+          },
+          {
+            "a": "The biker wore a black",
+            "b": "Bandana"
+          },
+          {
+            "a": "She used a",
+            "b": "Bandana to keep her hair back"
+          },
+          {
+            "a": "The cowboy pulled up his",
+            "b": "Bandana against the dust"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bāndhnā",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "To tie",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi bāndhnū, from ",
+          "highlight": false
+        },
+        {
+          "text": "bāndhnā",
+          "highlight": true
+        },
+        {
+          "text": " (to tie); named for the tie-dyeing technique that produced the patterned cloth.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bāndhnā",
+      "correctAnswer": "To tie",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cashmere",
+    "pronunciation": "KASH-meer",
+    "pos": "noun",
+    "definition": "Fine, soft wool from the undercoat of Kashmir goats.",
+    "origin": "Named after <strong>Kashmir</strong>, the Himalayan region where the wool was traditionally spun into fine shawls, prized across Europe from the 18th century onward.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cashmere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Kashmir",
+            "b": "Himalayan region"
+          },
+          {
+            "a": "Traditional product",
+            "b": "Fine woven shawls"
+          },
+          {
+            "a": "Prized in Europe from",
+            "b": "The 18th century onward"
+          },
+          {
+            "a": "Source of the wool",
+            "b": "The undercoat of mountain goats"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cashmere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cashmere is",
+            "b": "Fine soft wool from mountain goats"
+          },
+          {
+            "a": "Cashmere is prized for its",
+            "b": "Softness and warmth"
+          },
+          {
+            "a": "A single goat yields only",
+            "b": "A small amount of usable wool"
+          },
+          {
+            "a": "The wool is named after",
+            "b": "The Kashmir region"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cashmere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wrapped herself in a",
+            "b": "Soft cashmere scarf"
+          },
+          {
+            "a": "The jumper was made of pure",
+            "b": "Cashmere"
+          },
+          {
+            "a": "He gifted her a",
+            "b": "Cashmere sweater"
+          },
+          {
+            "a": "The coat's lining was lined with",
+            "b": "Cashmere"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Kashmir",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Himalayan region",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named after ",
+          "highlight": false
+        },
+        {
+          "text": "Kashmir",
+          "highlight": true
+        },
+        {
+          "text": ", the Himalayan region traditionally famed for its fine woven shawls.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Kashmir",
+      "correctAnswer": "Himalayan region",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jungle",
+    "pronunciation": "JUNG-guhl",
+    "pos": "noun",
+    "definition": "Dense tropical forest, tangled with vegetation.",
+    "origin": "From Hindi <strong>jaṅgal</strong>, from Sanskrit <strong>jāṅgala</strong> (arid, wasteland). Its meaning shifted from dry uncultivated land to dense tropical forest as British colonists misapplied the term.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jungle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit jāṅgala",
+            "b": "Arid, wasteland"
+          },
+          {
+            "a": "Hindi jaṅgal",
+            "b": "Forest, wild land"
+          },
+          {
+            "a": "Meaning shift caused by",
+            "b": "British colonists' misapplication"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jungle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A jungle is",
+            "b": "Dense tropical forest"
+          },
+          {
+            "a": "\"It's a jungle out there\" means",
+            "b": "A situation is chaotic or competitive"
+          },
+          {
+            "a": "The word originally meant",
+            "b": "Arid, uncultivated land"
+          },
+          {
+            "a": "The concrete jungle refers to",
+            "b": "A crowded, harsh city"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jungle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Explorers hacked through",
+            "b": "The dense jungle"
+          },
+          {
+            "a": "Monkeys called from deep in",
+            "b": "The jungle canopy"
+          },
+          {
+            "a": "The office felt like",
+            "b": "A corporate jungle"
+          },
+          {
+            "a": "They filmed the documentary in",
+            "b": "The Amazon jungle"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "jāṅgala",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Arid, wasteland",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi jaṅgal, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "jāṅgala",
+          "highlight": true
+        },
+        {
+          "text": "; meaning shifted from dry wasteland to dense tropical forest.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "jāṅgala",
+      "correctAnswer": "Arid, wasteland",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Punch",
+    "pronunciation": "PUNCH",
+    "pos": "noun",
+    "definition": "A drink made from a mixture of fruit juices, spices, and sometimes alcohol.",
+    "origin": "Possibly from Hindi <strong>pāñc</strong>, meaning five, from Sanskrit <strong>pañca</strong>, referring to the drink's traditional five ingredients: spirit, water, lemon, sugar, and spice.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Punch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit pañca",
+            "b": "Five"
+          },
+          {
+            "a": "Hindi pāñc",
+            "b": "Five"
+          },
+          {
+            "a": "Traditional ingredients",
+            "b": "Spirit, water, lemon, sugar, spice"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Punch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Punch is",
+            "b": "A mixed fruit and spice drink"
+          },
+          {
+            "a": "A punch bowl is used to",
+            "b": "Serve punch at parties"
+          },
+          {
+            "a": "The word may derive from",
+            "b": "A word meaning \"five\""
+          },
+          {
+            "a": "Note: this \"punch\" is unrelated to",
+            "b": "The verb meaning to strike"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Punch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They ladled",
+            "b": "Fruit punch into cups"
+          },
+          {
+            "a": "The party featured a large bowl of",
+            "b": "Spiced punch"
+          },
+          {
+            "a": "She mixed rum into",
+            "b": "The tropical punch"
+          },
+          {
+            "a": "Guests helped themselves to",
+            "b": "Cold punch on the terrace"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pañca",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Five",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Possibly from Hindi pāñc, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "pañca",
+          "highlight": true
+        },
+        {
+          "text": " (five), for the drink's traditional five ingredients.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pañca",
+      "correctAnswer": "Five",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Yoga",
+    "pronunciation": "YOH-guh",
+    "pos": "noun",
+    "definition": "A spiritual and physical discipline involving postures, breathing, and meditation.",
+    "origin": "From Sanskrit <strong>yoga</strong>, meaning union or yoking, from <strong>yuj</strong> (to join). It describes the union of body, mind, and spirit sought through practice.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Yoga</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit yuj",
+            "b": "To join, to yoke"
+          },
+          {
+            "a": "Sanskrit yoga",
+            "b": "Union"
+          },
+          {
+            "a": "Describes",
+            "b": "The union of body, mind, and spirit"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Yoga</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Yoga is",
+            "b": "A physical and spiritual discipline"
+          },
+          {
+            "a": "Yoga combines",
+            "b": "Postures, breathing, and meditation"
+          },
+          {
+            "a": "The word's root means",
+            "b": "Union, or to join"
+          },
+          {
+            "a": "A yoga instructor teaches",
+            "b": "Poses called asanas"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Yoga</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She attended",
+            "b": "Yoga class every morning"
+          },
+          {
+            "a": "The retreat combined",
+            "b": "Yoga with quiet meditation"
+          },
+          {
+            "a": "He rolled out his mat for",
+            "b": "An evening yoga session"
+          },
+          {
+            "a": "The studio offered beginner",
+            "b": "Yoga workshops"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "yuj",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "To join, to yoke",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit yoga, from ",
+          "highlight": false
+        },
+        {
+          "text": "yuj",
+          "highlight": true
+        },
+        {
+          "text": " (to join); describes the union of body, mind, and spirit.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "yuj",
+      "correctAnswer": "To join, to yoke",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nirvana",
+    "pronunciation": "nir-VAH-nuh",
+    "pos": "noun",
+    "definition": "In Buddhism, a state of perfect peace and freedom from suffering; broadly, a place of ideal bliss.",
+    "origin": "From Sanskrit <strong>nirvāṇa</strong>, literally \"blowing out,\" from <strong>nir-</strong> (out) + <strong>vā</strong> (to blow), like extinguishing a flame — the extinguishing of craving and suffering.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nirvana</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit nirvāṇa",
+            "b": "Blowing out"
+          },
+          {
+            "a": "Sanskrit nir-",
+            "b": "Out"
+          },
+          {
+            "a": "Sanskrit vā",
+            "b": "To blow"
+          },
+          {
+            "a": "Buddhist meaning",
+            "b": "Extinguishing craving and suffering"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nirvana</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nirvana is",
+            "b": "A state of perfect peace beyond suffering"
+          },
+          {
+            "a": "The word literally means",
+            "b": "\"Blowing out,\" like a flame"
+          },
+          {
+            "a": "In Buddhism, nirvana is",
+            "b": "The goal of spiritual practice"
+          },
+          {
+            "a": "Informally, nirvana can describe",
+            "b": "Any state of blissful escape"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nirvana</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The monk described his path toward",
+            "b": "Nirvana"
+          },
+          {
+            "a": "For her, a quiet beach was",
+            "b": "Pure nirvana"
+          },
+          {
+            "a": "Buddhist teachings centre on reaching",
+            "b": "Nirvana"
+          },
+          {
+            "a": "The spa promised an afternoon of",
+            "b": "Complete nirvana"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "nirvāṇa",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Blowing out",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "nirvāṇa",
+          "highlight": true
+        },
+        {
+          "text": ", literally \"blowing out\" — like extinguishing a flame of craving and suffering.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "nirvāṇa",
+      "correctAnswer": "Blowing out",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mantra",
+    "pronunciation": "MAN-truh",
+    "pos": "noun",
+    "definition": "A word or phrase repeated during meditation, or a frequently repeated statement.",
+    "origin": "From Sanskrit <strong>mantra</strong>, meaning sacred utterance, from <strong>man</strong> (to think) + the instrumental suffix <strong>-tra</strong> (tool). Literally, \"an instrument of thought.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mantra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit man",
+            "b": "To think"
+          },
+          {
+            "a": "Sanskrit -tra",
+            "b": "Tool, instrument"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "An instrument of thought"
+          },
+          {
+            "a": "Traditional use",
+            "b": "A sacred utterance in meditation"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mantra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A mantra is",
+            "b": "A repeated word or phrase in meditation"
+          },
+          {
+            "a": "Informally, a mantra is",
+            "b": "A frequently repeated guiding statement"
+          },
+          {
+            "a": "The word literally means",
+            "b": "An instrument of thought"
+          },
+          {
+            "a": "Mantras are central to",
+            "b": "Hindu and Buddhist meditation practice"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mantra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She repeated her",
+            "b": "Calming mantra during the flight"
+          },
+          {
+            "a": "\"Work hard, stay humble\" became",
+            "b": "His personal mantra"
+          },
+          {
+            "a": "The teacher chanted a sacred",
+            "b": "Mantra"
+          },
+          {
+            "a": "The team adopted a simple",
+            "b": "Mantra for the season"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "man",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "To think",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Sanskrit mantra, from ",
+          "highlight": false
+        },
+        {
+          "text": "man",
+          "highlight": true
+        },
+        {
+          "text": " (to think) + -tra (tool); literally an \"instrument of thought.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "man",
+      "correctAnswer": "To think",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sari",
+    "pronunciation": "SAH-ree",
+    "pos": "noun",
+    "definition": "A garment consisting of a length of fabric draped around the body, traditionally worn by women in South Asia.",
+    "origin": "From Hindi <strong>sāṛī</strong>, from Sanskrit <strong>śāṭī</strong>, meaning strip of cloth. The single length of fabric can be draped in dozens of regional styles.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sari</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit śāṭī",
+            "b": "Strip of cloth"
+          },
+          {
+            "a": "Hindi sāṛī",
+            "b": "Sari"
+          },
+          {
+            "a": "Draping styles number",
+            "b": "Dozens across South Asia"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sari</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sari is",
+            "b": "A draped length of fabric worn as a garment"
+          },
+          {
+            "a": "Saris are traditionally worn by",
+            "b": "Women in South Asia"
+          },
+          {
+            "a": "Saris are typically paired with",
+            "b": "A blouse and underskirt"
+          },
+          {
+            "a": "Regional styles of sari draping include",
+            "b": "The Nivi and Bengali styles"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sari</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She wore a silk",
+            "b": "Sari for the wedding"
+          },
+          {
+            "a": "The bride's red",
+            "b": "Sari was embroidered with gold"
+          },
+          {
+            "a": "Her grandmother taught her to",
+            "b": "Drape a sari"
+          },
+          {
+            "a": "The market sold colourful",
+            "b": "Cotton saris"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "śāṭī",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Strip of cloth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi sāṛī, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "śāṭī",
+          "highlight": true
+        },
+        {
+          "text": "; the single length of fabric can be draped in dozens of regional styles.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "śāṭī",
+      "correctAnswer": "Strip of cloth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cot",
+    "pronunciation": "KOT",
+    "pos": "noun",
+    "definition": "A small bed with high sides for a baby or young child.",
+    "origin": "From Hindi <strong>khāṭ</strong>, meaning bedstead. British colonists brought the lightweight frame bed design and its name into English.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi khāṭ",
+            "b": "Bedstead"
+          },
+          {
+            "a": "Brought to English by",
+            "b": "British colonists"
+          },
+          {
+            "a": "Original design",
+            "b": "A lightweight frame bed"
+          },
+          {
+            "a": "Entered English",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A cot is",
+            "b": "A small high-sided bed for a baby"
+          },
+          {
+            "a": "In American English, a cot is",
+            "b": "A simple portable bed"
+          },
+          {
+            "a": "A cot mattress is designed for",
+            "b": "Infants"
+          },
+          {
+            "a": "A camp cot is used for",
+            "b": "Sleeping outdoors"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They gently laid the baby in",
+            "b": "Her cot"
+          },
+          {
+            "a": "The nursery was furnished with",
+            "b": "A white wooden cot"
+          },
+          {
+            "a": "The soldier slept on a narrow",
+            "b": "Camp cot"
+          },
+          {
+            "a": "They folded up",
+            "b": "The spare cot after the guests left"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "khāṭ",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Bedstead",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "khāṭ",
+          "highlight": true
+        },
+        {
+          "text": " (bedstead); British colonists brought the lightweight frame bed and its name into English.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khāṭ",
+      "correctAnswer": "Bedstead",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sitar",
+    "pronunciation": "si-TAR",
+    "pos": "noun",
+    "definition": "A long-necked stringed instrument used in Indian classical music.",
+    "origin": "From Persian/Urdu <strong>sitār</strong>, from Persian <strong>sih</strong> (three) + <strong>tār</strong> (string), describing an early three-stringed version of the instrument.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sitar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Persian tār",
+            "b": "String"
+          },
+          {
+            "a": "Persian sih",
+            "b": "Three"
+          },
+          {
+            "a": "Original design",
+            "b": "A three-stringed instrument"
+          },
+          {
+            "a": "Modern sitar has",
+            "b": "Many more strings"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sitar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sitar is",
+            "b": "A long-necked stringed instrument"
+          },
+          {
+            "a": "The sitar is central to",
+            "b": "Indian classical music"
+          },
+          {
+            "a": "Famous sitar player",
+            "b": "Ravi Shankar"
+          },
+          {
+            "a": "The word's root means",
+            "b": "Three strings"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sitar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The musician tuned his",
+            "b": "Sitar before the concert"
+          },
+          {
+            "a": "The film's soundtrack featured",
+            "b": "A haunting sitar melody"
+          },
+          {
+            "a": "She studied",
+            "b": "Sitar for over a decade"
+          },
+          {
+            "a": "Ravi Shankar popularised",
+            "b": "The sitar in the West"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tār",
+        "rootLanguage": "Persian",
+        "rootMeaning": "String",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Persian sih (three) + ",
+          "highlight": false
+        },
+        {
+          "text": "tār",
+          "highlight": true
+        },
+        {
+          "text": " (string), describing an early three-stringed version of the instrument.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tār",
+      "correctAnswer": "String",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tabla",
+    "pronunciation": "TUB-luh",
+    "pos": "noun",
+    "definition": "A pair of small hand drums used in Indian classical music.",
+    "origin": "From Hindi/Urdu <strong>tablā</strong>, from Arabic <strong>ṭabl</strong> (drum). The paired drums, each a different pitch, are central to North Indian classical performance.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tabla</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Arabic ṭabl",
+            "b": "Drum"
+          },
+          {
+            "a": "Hindi/Urdu tablā",
+            "b": "Tabla"
+          },
+          {
+            "a": "Consists of",
+            "b": "A pair of drums of different pitch"
+          },
+          {
+            "a": "Central to",
+            "b": "North Indian classical music"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tabla</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A tabla is",
+            "b": "A pair of small hand drums"
+          },
+          {
+            "a": "Tabla players use",
+            "b": "Their fingers and palms"
+          },
+          {
+            "a": "The tabla accompanies",
+            "b": "Sitar and vocal performances"
+          },
+          {
+            "a": "The word derives from",
+            "b": "An Arabic word for drum"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tabla</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The percussionist kept rhythm on",
+            "b": "The tabla"
+          },
+          {
+            "a": "Fingers danced rapidly across",
+            "b": "The tabla skins"
+          },
+          {
+            "a": "The concert opened with a",
+            "b": "Tabla solo"
+          },
+          {
+            "a": "He studied tabla with",
+            "b": "A master drummer in Delhi"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ṭabl",
+        "rootLanguage": "Arabic",
+        "rootMeaning": "Drum",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi/Urdu tablā, from Arabic ",
+          "highlight": false
+        },
+        {
+          "text": "ṭabl",
+          "highlight": true
+        },
+        {
+          "text": " (drum); central to North Indian classical performance.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ṭabl",
+      "correctAnswer": "Drum",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Jodhpurs",
+    "pronunciation": "JOD-purz",
+    "pos": "noun",
+    "definition": "Trousers, close-fitting from knee to ankle, worn for horse riding.",
+    "origin": "Named after <strong>Jodhpur</strong>, a city in Rajasthan, India, where the distinctive riding trousers were traditionally worn and later adopted by British polo players.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Jodhpurs</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Jodhpur",
+            "b": "City in Rajasthan"
+          },
+          {
+            "a": "Traditional wearers",
+            "b": "Local horsemen"
+          },
+          {
+            "a": "Adopted by",
+            "b": "British polo players"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Jodhpurs</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Jodhpurs are",
+            "b": "Fitted riding trousers"
+          },
+          {
+            "a": "Jodhpurs are worn for",
+            "b": "Horse riding"
+          },
+          {
+            "a": "The trousers are named after",
+            "b": "A city in India"
+          },
+          {
+            "a": "Jodhpurs are typically paired with",
+            "b": "Riding boots"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Jodhpurs</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She pulled on her",
+            "b": "Riding jodhpurs"
+          },
+          {
+            "a": "The instructor wore tan",
+            "b": "Jodhpurs and tall boots"
+          },
+          {
+            "a": "His jodhpurs were tailored for",
+            "b": "The polo match"
+          },
+          {
+            "a": "The stable required riders to wear",
+            "b": "Proper jodhpurs"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jodhpur",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "City in Rajasthan",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named after ",
+          "highlight": false
+        },
+        {
+          "text": "Jodhpur",
+          "highlight": true
+        },
+        {
+          "text": ", a city in Rajasthan, India, where the riding trousers were traditionally worn.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jodhpur",
+      "correctAnswer": "City in Rajasthan",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bangle",
+    "pronunciation": "BANG-guhl",
+    "pos": "noun",
+    "definition": "A rigid bracelet or anklet, typically worn in a set.",
+    "origin": "From Hindi <strong>baṅglī</strong>, meaning a coloured glass bracelet, related to bangle-making traditions of northern India.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bangle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi baṅglī",
+            "b": "Coloured glass bracelet"
+          },
+          {
+            "a": "Tradition rooted in",
+            "b": "Northern India"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          },
+          {
+            "a": "Typically worn",
+            "b": "In sets, on the wrist"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bangle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bangle is",
+            "b": "A rigid bracelet or anklet"
+          },
+          {
+            "a": "Bangles are traditionally worn",
+            "b": "In matching sets"
+          },
+          {
+            "a": "Bangles are often made of",
+            "b": "Glass, metal, or plastic"
+          },
+          {
+            "a": "Bangles jingle when",
+            "b": "The wearer moves their arm"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bangle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Her wrist was stacked with",
+            "b": "Colourful bangles"
+          },
+          {
+            "a": "The bangles jingled as",
+            "b": "She danced"
+          },
+          {
+            "a": "She bought a set of",
+            "b": "Glass bangles at the market"
+          },
+          {
+            "a": "Gold bangles glinted on",
+            "b": "The bride's arm"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "baṅglī",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Coloured glass bracelet",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi ",
+          "highlight": false
+        },
+        {
+          "text": "baṅglī",
+          "highlight": true
+        },
+        {
+          "text": ", a coloured glass bracelet, tied to bangle-making traditions of northern India.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "baṅglī",
+      "correctAnswer": "Coloured glass bracelet",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pukka",
+    "pronunciation": "PUK-uh",
+    "pos": "adjective",
+    "definition": "Genuine, authentic, or of high quality.",
+    "origin": "From Hindi <strong>pakkā</strong>, meaning cooked, ripe, or solid, from Sanskrit <strong>pakva</strong> (ripened). British colonial usage extended it to mean \"proper\" or \"genuine.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pukka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Sanskrit pakva",
+            "b": "Ripened"
+          },
+          {
+            "a": "Hindi pakkā",
+            "b": "Cooked, solid, ripe"
+          },
+          {
+            "a": "Extended by",
+            "b": "British colonial usage"
+          },
+          {
+            "a": "Modern sense",
+            "b": "Genuine, proper"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pukka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pukka means",
+            "b": "Genuine or of high quality"
+          },
+          {
+            "a": "The word originally described",
+            "b": "Something cooked or ripened"
+          },
+          {
+            "a": "Pukka is largely used in",
+            "b": "British informal speech"
+          },
+          {
+            "a": "A pukka meal is",
+            "b": "A properly made, authentic one"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pukka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The chef called it a",
+            "b": "Pukka curry"
+          },
+          {
+            "a": "He insisted on",
+            "b": "Pukka ingredients only"
+          },
+          {
+            "a": "She praised the tailor's",
+            "b": "Pukka craftsmanship"
+          },
+          {
+            "a": "They served a",
+            "b": "Proper, pukka Sunday roast"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pakva",
+        "rootLanguage": "Sanskrit",
+        "rootMeaning": "Ripened",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Hindi pakkā, from Sanskrit ",
+          "highlight": false
+        },
+        {
+          "text": "pakva",
+          "highlight": true
+        },
+        {
+          "text": " (ripened); British colonial usage extended it to mean \"proper\" or \"genuine.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "pakva",
+      "correctAnswer": "Ripened",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cushy",
+    "pronunciation": "KUUSH-ee",
+    "pos": "adjective",
+    "definition": "Easy and comfortable, undemanding.",
+    "origin": "Possibly from Hindi/Urdu <strong>khush</strong>, meaning pleasant or happy. British soldiers in India popularised it as slang, especially for an easy, safe posting.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cushy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hindi khush",
+            "b": "Pleasant, happy"
+          },
+          {
+            "a": "Popularised by",
+            "b": "British soldiers in India"
+          },
+          {
+            "a": "Original slang sense",
+            "b": "An easy, safe military posting"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cushy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cushy describes",
+            "b": "Something easy and comfortable"
+          },
+          {
+            "a": "A cushy job is",
+            "b": "Undemanding and well-rewarded"
+          },
+          {
+            "a": "The word originated as",
+            "b": "Military slang"
+          },
+          {
+            "a": "A cushy life implies",
+            "b": "Ease and few hardships"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cushy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He landed a",
+            "b": "Cushy office job"
+          },
+          {
+            "a": "She envied his",
+            "b": "Cushy work-from-home schedule"
+          },
+          {
+            "a": "The posting was surprisingly",
+            "b": "Cushy"
+          },
+          {
+            "a": "They joked about his",
+            "b": "Cushy retirement plan"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "khush",
+        "rootLanguage": "Hindi",
+        "rootMeaning": "Pleasant, happy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Possibly from Hindi/Urdu ",
+          "highlight": false
+        },
+        {
+          "text": "khush",
+          "highlight": true
+        },
+        {
+          "text": " (pleasant); British soldiers in India popularised it for an easy posting.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "khush",
+      "correctAnswer": "Pleasant, happy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pariah",
+    "pronunciation": "puh-RY-uh",
+    "pos": "noun",
+    "definition": "An outcast; a person despised or rejected by society.",
+    "origin": "From Tamil <strong>paṟaiyar</strong>, the plural of <strong>paṟaiyan</strong>, a member of a South Indian community traditionally assigned low social status. British colonists broadened it to mean any outcast.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-south-asian",
+      "name": "From South Asia",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pariah</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Tamil paṟaiyan",
+            "b": "Member of a South Indian community"
+          },
+          {
+            "a": "Broadened by",
+            "b": "British colonial usage"
+          },
+          {
+            "a": "Modern meaning",
+            "b": "Any social outcast"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pariah</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A pariah is",
+            "b": "A social outcast"
+          },
+          {
+            "a": "To become a pariah means to",
+            "b": "Be shunned by others"
+          },
+          {
+            "a": "A pariah state describes",
+            "b": "A country isolated internationally"
+          },
+          {
+            "a": "The word originally named",
+            "b": "A specific South Indian community"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pariah</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "After the scandal, he became a",
+            "b": "Social pariah"
+          },
+          {
+            "a": "The regime was treated as",
+            "b": "An international pariah"
+          },
+          {
+            "a": "She felt like a",
+            "b": "Pariah at the reunion"
+          },
+          {
+            "a": "The company's scandal made it",
+            "b": "A corporate pariah"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "paṟaiyan",
+        "rootLanguage": "Tamil",
+        "rootMeaning": "Member of a South Indian community",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Tamil paṟaiyar, from ",
+          "highlight": false
+        },
+        {
+          "text": "paṟaiyan",
+          "highlight": true
+        },
+        {
+          "text": "; British colonists broadened the word to mean any outcast.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "paṟaiyan",
+      "correctAnswer": "Member of a South Indian community",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

@@ -7,8 +7,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
-import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { OriginText } from '@/components/ui/OriginText';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { fonts, radii, typography } from '@/constants/theme';
@@ -127,16 +127,8 @@ export function LearnScreen() {
           marginTop: spacing.md,
         },
         wordLoadingRow: {
-          flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
           marginBottom: 6,
-        },
-        wordLoadingText: {
-          ...typography.learnWord,
-          fontSize: 32,
-          color: colors.subtext,
-          opacity: 0.45,
         },
       }),
     [colors],
@@ -170,9 +162,13 @@ export function LearnScreen() {
                 </Text>
               </>
             ) : (
-              <View style={screenStyles.wordLoadingRow} accessibilityRole="progressbar">
-                <LoadingSpinner size={20} />
-                <Text style={screenStyles.wordLoadingText}>{copy.home.wordOfDayLoading}</Text>
+              <View
+                style={screenStyles.wordLoadingRow}
+                accessibilityRole="progressbar"
+                accessibilityLabel={copy.home.wordOfDayLoading}
+              >
+                <Skeleton width={190} height={38} style={{ marginBottom: 8 }} />
+                <Skeleton width={130} height={14} />
               </View>
             )}
 

@@ -89,6 +89,14 @@ export const colors = {
   alarmGlowDark: 'rgba(200,180,232,0.15)',
   /** Success glow — index.html .success-glow */
   successGlow: 'rgba(168,216,176,0.3)',
+  /** Gold paywall glow + card wash */
+  goldLight: '#f0c060',
+  goldGlow: 'rgba(201,150,58,0.28)',
+  goldGlowDark: 'rgba(240,192,96,0.16)',
+  goldCardFill: 'rgba(240,192,96,0.14)',
+  goldCardFillDark: 'rgba(240,192,96,0.08)',
+  goldCardBorder: 'rgba(201,150,58,0.4)',
+  goldCardBorderDark: 'rgba(240,192,96,0.32)',
 } as const;
 
 export const fonts = {
@@ -145,13 +153,13 @@ export const typography = {
   },
   wotdDef: {
     fontFamily: fonts.sans,
-    fontSize: 15, // was 14 (.88rem)
-    lineHeight: 23, // was 22
+    fontSize: 17,
+    lineHeight: 25,
   },
   wotdOrigin: {
     fontFamily: fonts.sans,
-    fontSize: 13, // was 12 (.75rem)
-    lineHeight: 19, // was 18
+    fontSize: 15,
+    lineHeight: 21,
   },
   posBadge: {
     fontFamily: fonts.sansSemiBold,
@@ -208,8 +216,8 @@ export const typography = {
   },
   learnDef: {
     fontFamily: fonts.sans,
-    fontSize: 17, // was 16
-    lineHeight: 25, // was 24
+    fontSize: 18,
+    lineHeight: 26,
   },
   etymLabel: {
     fontFamily: fonts.sansSemiBold,
@@ -218,8 +226,8 @@ export const typography = {
   },
   etymBody: {
     fontFamily: fonts.sans,
-    fontSize: 15, // was 14 (.88rem)
-    lineHeight: 23, // was 22
+    fontSize: 17,
+    lineHeight: 25,
   },
   mtQuestion: {
     fontFamily: fonts.sansMedium,
@@ -228,8 +236,8 @@ export const typography = {
   },
   mtOption: {
     fontFamily: fonts.sans,
-    fontSize: 16, // was 15 (.92rem)
-    lineHeight: 23, // was 22
+    fontSize: 17,
+    lineHeight: 24,
   },
   alarmBigTime: {
     fontFamily: fonts.serif,

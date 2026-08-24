@@ -1,0 +1,2693 @@
+[
+  {
+    "word": "Schadenfreude",
+    "pronunciation": "SHAH-den-froy-duh",
+    "pos": "noun",
+    "definition": "Pleasure derived from another person's misfortune.",
+    "origin": "From German <strong>Schadenfreude</strong>, from <strong>Schaden</strong> (damage, harm) + <strong>Freude</strong> (joy). English has no single native word for the feeling, so it borrowed the German compound wholesale.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Schadenfreude</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Schaden",
+            "b": "Damage, harm"
+          },
+          {
+            "a": "German Freude",
+            "b": "Joy"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Joy at another's harm"
+          },
+          {
+            "a": "English equivalent",
+            "b": "None — borrowed wholesale"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Schadenfreude</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Schadenfreude is",
+            "b": "Pleasure at someone else's misfortune"
+          },
+          {
+            "a": "It is often felt toward",
+            "b": "Rivals or the arrogant"
+          },
+          {
+            "a": "Psychologists study it as",
+            "b": "A common, if uncomfortable, emotion"
+          },
+          {
+            "a": "A related feeling is",
+            "b": "Guilt for enjoying it"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Schadenfreude</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He couldn't hide his",
+            "b": "Schadenfreude at his rival's defeat"
+          },
+          {
+            "a": "There was a flicker of",
+            "b": "Schadenfreude in her smile"
+          },
+          {
+            "a": "The tabloids fed on public",
+            "b": "Schadenfreude"
+          },
+          {
+            "a": "She felt a guilty pang of",
+            "b": "Schadenfreude watching the mishap"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Schaden",
+        "rootLanguage": "German",
+        "rootMeaning": "Damage, harm",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "Schaden",
+          "highlight": true
+        },
+        {
+          "text": " (harm) + Freude (joy); English has no single native word for the feeling.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Schaden",
+      "correctAnswer": "Damage, harm",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kindergarten",
+    "pronunciation": "KIN-der-gar-ten",
+    "pos": "noun",
+    "definition": "A school or class for young children, typically before primary school.",
+    "origin": "From German <strong>Kindergarten</strong>, literally \"children's garden,\" from <strong>Kinder</strong> (children) + <strong>Garten</strong> (garden). Coined by educator Friedrich Fröbel, who saw children as plants to be nurtured.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kindergarten</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Kinder",
+            "b": "Children"
+          },
+          {
+            "a": "German Garten",
+            "b": "Garden"
+          },
+          {
+            "a": "Coined by",
+            "b": "Educator Friedrich Fröbel"
+          },
+          {
+            "a": "Underlying idea",
+            "b": "Children nurtured like plants"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kindergarten</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Kindergarten is",
+            "b": "Early schooling for young children"
+          },
+          {
+            "a": "The Fröbel method emphasised",
+            "b": "Play-based learning"
+          },
+          {
+            "a": "Kindergarten typically precedes",
+            "b": "Primary or elementary school"
+          },
+          {
+            "a": "The literal translation is",
+            "b": "Children's garden"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kindergarten</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Her daughter starts",
+            "b": "Kindergarten in September"
+          },
+          {
+            "a": "The kindergarten classroom was full of",
+            "b": "Building blocks and picture books"
+          },
+          {
+            "a": "He still remembers his first day of",
+            "b": "Kindergarten"
+          },
+          {
+            "a": "The teacher led kindergarten pupils in",
+            "b": "A simple counting song"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Garten",
+        "rootLanguage": "German",
+        "rootMeaning": "Garden",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Kinder (children) + ",
+          "highlight": false
+        },
+        {
+          "text": "Garten",
+          "highlight": true
+        },
+        {
+          "text": " (garden); coined by Friedrich Fröbel, who saw children as plants to nurture.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Garten",
+      "correctAnswer": "Garden",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Wanderlust",
+    "pronunciation": "WON-der-lust",
+    "pos": "noun",
+    "definition": "A strong desire to travel and explore the world.",
+    "origin": "From German <strong>Wanderlust</strong>, from <strong>wandern</strong> (to hike, to wander) + <strong>Lust</strong> (desire, pleasure). It entered English in the early 20th century as travel writing grew popular.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Wanderlust</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German wandern",
+            "b": "To hike, to wander"
+          },
+          {
+            "a": "German Lust",
+            "b": "Desire, pleasure"
+          },
+          {
+            "a": "Combined meaning",
+            "b": "Desire to wander"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Wanderlust</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Wanderlust is",
+            "b": "A strong urge to travel"
+          },
+          {
+            "a": "People with wanderlust often",
+            "b": "Prioritise new experiences"
+          },
+          {
+            "a": "Wanderlust is unrelated to",
+            "b": "German \"Lust\" meaning sexual desire"
+          },
+          {
+            "a": "The word conveys",
+            "b": "Restlessness and curiosity"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Wanderlust</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The travel blog fed her",
+            "b": "Growing wanderlust"
+          },
+          {
+            "a": "After graduation, wanderlust took him",
+            "b": "Across three continents"
+          },
+          {
+            "a": "The photos of distant coastlines sparked",
+            "b": "A wave of wanderlust"
+          },
+          {
+            "a": "His wanderlust never faded, even in",
+            "b": "Old age"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Lust",
+        "rootLanguage": "German",
+        "rootMeaning": "Desire, pleasure",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German wandern (to hike) + ",
+          "highlight": false
+        },
+        {
+          "text": "Lust",
+          "highlight": true
+        },
+        {
+          "text": " (desire); entered English as early-20th-century travel writing grew popular.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Lust",
+      "correctAnswer": "Desire, pleasure",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Doppelganger",
+    "pronunciation": "DOP-el-gang-er",
+    "pos": "noun",
+    "definition": "A person who looks strikingly like another, or a ghostly double of a living person.",
+    "origin": "From German <strong>Doppelgänger</strong>, from <strong>doppel</strong> (double) + <strong>Gänger</strong> (walker, goer). In folklore, seeing your own doppelgänger was an omen of misfortune.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Doppelganger</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German doppel",
+            "b": "Double"
+          },
+          {
+            "a": "German Gänger",
+            "b": "Walker, goer"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Double-walker"
+          },
+          {
+            "a": "Folklore belief",
+            "b": "An omen of misfortune"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Doppelganger</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A doppelganger is",
+            "b": "A look-alike double of a person"
+          },
+          {
+            "a": "In folklore, a doppelganger is",
+            "b": "A ghostly duplicate"
+          },
+          {
+            "a": "Doppelganger effects appear in",
+            "b": "Fiction and film"
+          },
+          {
+            "a": "The word entered English in",
+            "b": "The 19th century"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Doppelganger</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She spotted her exact",
+            "b": "Doppelganger across the street"
+          },
+          {
+            "a": "The actor plays his own",
+            "b": "Doppelganger in the film"
+          },
+          {
+            "a": "He joked that his cousin was",
+            "b": "His doppelganger"
+          },
+          {
+            "a": "Fans noticed the singer's",
+            "b": "Doppelganger in the crowd"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "doppel",
+        "rootLanguage": "German",
+        "rootMeaning": "Double",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "doppel",
+          "highlight": true
+        },
+        {
+          "text": " (double) + Gänger (walker); folklore held it as an omen to glimpse your own.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "doppel",
+      "correctAnswer": "Double",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Zeitgeist",
+    "pronunciation": "TSYT-gyst",
+    "pos": "noun",
+    "definition": "The defining spirit or mood of a particular period in history.",
+    "origin": "From German <strong>Zeitgeist</strong>, from <strong>Zeit</strong> (time) + <strong>Geist</strong> (spirit, ghost). Popularised by philosopher Georg Hegel to describe the intellectual climate of an era.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Zeitgeist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Zeit",
+            "b": "Time"
+          },
+          {
+            "a": "German Geist",
+            "b": "Spirit, ghost"
+          },
+          {
+            "a": "Popularised by",
+            "b": "Philosopher Georg Hegel"
+          },
+          {
+            "a": "Describes",
+            "b": "The mood of a historical era"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Zeitgeist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Zeitgeist means",
+            "b": "The spirit of the times"
+          },
+          {
+            "a": "The zeitgeist shapes",
+            "b": "Art, politics, and culture"
+          },
+          {
+            "a": "To capture the zeitgeist means to",
+            "b": "Reflect current attitudes precisely"
+          },
+          {
+            "a": "A related word is",
+            "b": "Poltergeist (noisy spirit)"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Zeitgeist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The film perfectly captured",
+            "b": "The zeitgeist of the decade"
+          },
+          {
+            "a": "Critics called the novel",
+            "b": "A snapshot of the zeitgeist"
+          },
+          {
+            "a": "The song became an anthem for",
+            "b": "The current zeitgeist"
+          },
+          {
+            "a": "Historians trace how",
+            "b": "The zeitgeist shifted after the war"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Geist",
+        "rootLanguage": "German",
+        "rootMeaning": "Spirit, ghost",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Zeit (time) + ",
+          "highlight": false
+        },
+        {
+          "text": "Geist",
+          "highlight": true
+        },
+        {
+          "text": " (spirit); popularised by Hegel to describe an era's intellectual climate.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Geist",
+      "correctAnswer": "Spirit, ghost",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Schlep",
+    "pronunciation": "SHLEP",
+    "pos": "verb",
+    "definition": "To carry or drag something with effort, or to travel with tedious inconvenience.",
+    "origin": "From Yiddish <strong>shlepn</strong>, from German <strong>schleppen</strong> (to drag, to haul). It entered American English through Yiddish-speaking immigrant communities in the early 20th century.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Schlep</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German schleppen",
+            "b": "To drag, to haul"
+          },
+          {
+            "a": "Yiddish shlepn",
+            "b": "To drag, to lug"
+          },
+          {
+            "a": "Entered American English",
+            "b": "Via Yiddish-speaking immigrants"
+          },
+          {
+            "a": "Era of adoption",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Schlep</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To schlep means to",
+            "b": "Carry something with effort"
+          },
+          {
+            "a": "A schlep can also mean",
+            "b": "A tediously long journey"
+          },
+          {
+            "a": "A schlepper is",
+            "b": "Someone who hauls things around"
+          },
+          {
+            "a": "The word conveys",
+            "b": "Weary, reluctant effort"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Schlep</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She had to",
+            "b": "Schlep the groceries up five flights"
+          },
+          {
+            "a": "It was a real",
+            "b": "Schlep to get across town"
+          },
+          {
+            "a": "He schlepped his suitcase through",
+            "b": "The crowded terminal"
+          },
+          {
+            "a": "They schlepped the sofa",
+            "b": "Up the narrow staircase"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "schleppen",
+        "rootLanguage": "German",
+        "rootMeaning": "To drag, to haul",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yiddish shlepn, from German ",
+          "highlight": false
+        },
+        {
+          "text": "schleppen",
+          "highlight": true
+        },
+        {
+          "text": "; entered American English via Yiddish-speaking immigrant communities.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "schleppen",
+      "correctAnswer": "To drag, to haul",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bagel",
+    "pronunciation": "BAY-gul",
+    "pos": "noun",
+    "definition": "A dense, ring-shaped bread roll, boiled then baked.",
+    "origin": "From Yiddish <strong>beygl</strong>, related to German <strong>Bügel</strong> (ring, bracket) and ultimately to a word for \"bend.\" The distinctive boil-then-bake method dates to medieval Jewish communities in Central Europe.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bagel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Yiddish beygl",
+            "b": "Ring, bracket"
+          },
+          {
+            "a": "Related German word",
+            "b": "Bügel"
+          },
+          {
+            "a": "Distinctive method",
+            "b": "Boiled, then baked"
+          },
+          {
+            "a": "Origin community",
+            "b": "Medieval Jewish Central Europe"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bagel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A bagel is",
+            "b": "A ring-shaped boiled-and-baked roll"
+          },
+          {
+            "a": "Bagels are often served with",
+            "b": "Cream cheese or lox"
+          },
+          {
+            "a": "The boiling step gives bagels",
+            "b": "Their chewy crust"
+          },
+          {
+            "a": "Bagels became a staple of",
+            "b": "New York Jewish delis"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bagel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She toasted a",
+            "b": "Sesame bagel for breakfast"
+          },
+          {
+            "a": "The deli sold fresh",
+            "b": "Bagels every morning"
+          },
+          {
+            "a": "He spread cream cheese on",
+            "b": "His everything bagel"
+          },
+          {
+            "a": "The bakery's bagels sold out by",
+            "b": "Nine o'clock"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "beygl",
+        "rootLanguage": "Yiddish",
+        "rootMeaning": "Ring, bracket",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yiddish ",
+          "highlight": false
+        },
+        {
+          "text": "beygl",
+          "highlight": true
+        },
+        {
+          "text": " (ring), tied to a word for \"bend\"; boiled-then-baked since medieval Central Europe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "beygl",
+      "correctAnswer": "Ring, bracket",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mensch",
+    "pronunciation": "MENSH",
+    "pos": "noun",
+    "definition": "A person of integrity and honour; a genuinely good, decent human being.",
+    "origin": "From Yiddish <strong>mentsh</strong>, from German <strong>Mensch</strong> (human being, person). In Yiddish usage it narrowed from simply \"person\" to specifically \"an admirable, honourable one.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mensch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Mensch",
+            "b": "Human being, person"
+          },
+          {
+            "a": "Yiddish mentsh",
+            "b": "Person of integrity"
+          },
+          {
+            "a": "Meaning narrowed to",
+            "b": "Someone admirable and honourable"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Yiddish-speaking immigrant communities"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mensch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A mensch is",
+            "b": "A person of integrity and decency"
+          },
+          {
+            "a": "To call someone a mensch is",
+            "b": "High praise"
+          },
+          {
+            "a": "Mensch describes character, not",
+            "b": "Status or wealth"
+          },
+          {
+            "a": "The opposite of a mensch is",
+            "b": "Someone selfish or dishonourable"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mensch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Everyone agreed he was",
+            "b": "A real mensch"
+          },
+          {
+            "a": "She thanked him for being",
+            "b": "Such a mensch about it"
+          },
+          {
+            "a": "He quietly paid the bill, acting like",
+            "b": "A total mensch"
+          },
+          {
+            "a": "Her grandfather was remembered as",
+            "b": "An honest, generous mensch"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Mensch",
+        "rootLanguage": "German",
+        "rootMeaning": "Human being, person",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yiddish mentsh, from German ",
+          "highlight": false
+        },
+        {
+          "text": "Mensch",
+          "highlight": true
+        },
+        {
+          "text": " (person); Yiddish narrowed the sense to \"an admirable, honourable one.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Mensch",
+      "correctAnswer": "Human being, person",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pretzel",
+    "pronunciation": "PRET-suhl",
+    "pos": "noun",
+    "definition": "A crisp or soft baked snack twisted into a knot shape and sprinkled with salt.",
+    "origin": "From German <strong>Brezel</strong>, ultimately from Latin <strong>brachiatus</strong> (having arms), describing the shape of folded arms. Medieval monks are said to have shaped them to resemble arms crossed in prayer.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pretzel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin brachiatus",
+            "b": "Having arms"
+          },
+          {
+            "a": "German Brezel",
+            "b": "Pretzel"
+          },
+          {
+            "a": "Legendary origin",
+            "b": "Monks shaping folded prayer arms"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century, via German immigrants"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pretzel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A pretzel is",
+            "b": "A knot-shaped salted snack"
+          },
+          {
+            "a": "Soft pretzels are typically",
+            "b": "Chewy and warm"
+          },
+          {
+            "a": "To twist into a pretzel means to",
+            "b": "Contort oneself awkwardly"
+          },
+          {
+            "a": "Pretzels are traditionally boiled in",
+            "b": "A lye or baking-soda solution before baking"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pretzel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The street vendor sold warm",
+            "b": "Soft pretzels"
+          },
+          {
+            "a": "She twisted the dough into",
+            "b": "A perfect pretzel shape"
+          },
+          {
+            "a": "His legs were tangled like",
+            "b": "A pretzel by the end of yoga class"
+          },
+          {
+            "a": "They snacked on",
+            "b": "A bag of salted pretzels"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "brachiatus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Having arms",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Brezel, ultimately from Latin ",
+          "highlight": false
+        },
+        {
+          "text": "brachiatus",
+          "highlight": true
+        },
+        {
+          "text": " (having arms); monks shaped them like arms folded in prayer.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "brachiatus",
+      "correctAnswer": "Having arms",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rucksack",
+    "pronunciation": "RUK-sak",
+    "pos": "noun",
+    "definition": "A bag with straps carried on the back, used for hiking or travel.",
+    "origin": "From German <strong>Rucksack</strong>, from <strong>Rücken</strong> (back) + <strong>Sack</strong> (bag, sack). It entered English through mountaineering and military use in the 19th and 20th centuries.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rucksack</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Rücken",
+            "b": "Back"
+          },
+          {
+            "a": "German Sack",
+            "b": "Bag, sack"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Back-bag"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Mountaineering and military use"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rucksack</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A rucksack is",
+            "b": "A backpack carried on straps"
+          },
+          {
+            "a": "Rucksacks are favoured for",
+            "b": "Hiking and travel"
+          },
+          {
+            "a": "The word is more common in",
+            "b": "British English than American"
+          },
+          {
+            "a": "A rucksack differs from a briefcase in",
+            "b": "Being worn on the back"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rucksack</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She packed her",
+            "b": "Rucksack for the weekend hike"
+          },
+          {
+            "a": "He slung his",
+            "b": "Rucksack over one shoulder"
+          },
+          {
+            "a": "The trekkers checked their",
+            "b": "Rucksacks before setting off"
+          },
+          {
+            "a": "Rain soaked through",
+            "b": "His unlined rucksack"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Rücken",
+        "rootLanguage": "German",
+        "rootMeaning": "Back",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "Rücken",
+          "highlight": true
+        },
+        {
+          "text": " (back) + Sack (bag); entered English via mountaineering and military use.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Rücken",
+      "correctAnswer": "Back",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Poltergeist",
+    "pronunciation": "POHL-ter-gyst",
+    "pos": "noun",
+    "definition": "A ghost or spirit thought to cause noisy disturbances, such as moving objects.",
+    "origin": "From German <strong>Poltergeist</strong>, from <strong>poltern</strong> (to make a racket, to rumble) + <strong>Geist</strong> (spirit, ghost) — literally a \"noisy ghost.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Poltergeist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German poltern",
+            "b": "To make a racket, to rumble"
+          },
+          {
+            "a": "German Geist",
+            "b": "Spirit, ghost"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Noisy ghost"
+          },
+          {
+            "a": "Entered English",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Poltergeist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A poltergeist is",
+            "b": "A noisy, disruptive spirit"
+          },
+          {
+            "a": "Poltergeist activity typically involves",
+            "b": "Moving or throwing objects"
+          },
+          {
+            "a": "Reported cases often centre on",
+            "b": "A specific person or household"
+          },
+          {
+            "a": "The word entered popular culture through",
+            "b": "Horror films"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Poltergeist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The family blamed strange noises on",
+            "b": "A poltergeist"
+          },
+          {
+            "a": "Investigators found no evidence of",
+            "b": "A genuine poltergeist"
+          },
+          {
+            "a": "The film follows a house plagued by",
+            "b": "A poltergeist"
+          },
+          {
+            "a": "Doors slammed as if",
+            "b": "A poltergeist stalked the corridor"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "poltern",
+        "rootLanguage": "German",
+        "rootMeaning": "To make a racket",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "poltern",
+          "highlight": true
+        },
+        {
+          "text": " (to make a racket) + Geist (spirit); literally a \"noisy ghost.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "poltern",
+      "correctAnswer": "To make a racket",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kitsch",
+    "pronunciation": "KICH",
+    "pos": "noun",
+    "definition": "Art or objects considered tasteless or overly sentimental, but often enjoyed ironically.",
+    "origin": "From German <strong>Kitsch</strong>, of uncertain origin, possibly from a dialect verb meaning \"to smear\" or \"to sketch cheaply.\" It described mass-produced sentimental art in 19th-century Munich.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kitsch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Kitsch",
+            "b": "Cheap, sentimental art"
+          },
+          {
+            "a": "Possible root sense",
+            "b": "To smear, sketch cheaply"
+          },
+          {
+            "a": "Coined in",
+            "b": "19th-century Munich art scene"
+          },
+          {
+            "a": "Entered English",
+            "b": "Early 20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kitsch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Kitsch describes",
+            "b": "Tacky or overly sentimental art"
+          },
+          {
+            "a": "Kitsch can be enjoyed",
+            "b": "Ironically or nostalgically"
+          },
+          {
+            "a": "Kitsch is often mass-produced, unlike",
+            "b": "Fine art"
+          },
+          {
+            "a": "Kitsch decor might include",
+            "b": "Garden gnomes or velvet paintings"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kitsch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The diner's neon signs were",
+            "b": "Delightfully kitsch"
+          },
+          {
+            "a": "Critics dismissed the painting as",
+            "b": "Sentimental kitsch"
+          },
+          {
+            "a": "The gift shop sold plenty of",
+            "b": "Tourist kitsch"
+          },
+          {
+            "a": "Her apartment embraced",
+            "b": "A retro-kitsch aesthetic"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Kitsch",
+        "rootLanguage": "German",
+        "rootMeaning": "Cheap, sentimental art",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "Kitsch",
+          "highlight": true
+        },
+        {
+          "text": ", possibly from a dialect word meaning \"to smear cheaply\"; described sentimental Munich art.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Kitsch",
+      "correctAnswer": "Cheap, sentimental art",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Hamburger",
+    "pronunciation": "HAM-bur-ger",
+    "pos": "noun",
+    "definition": "A patty of minced beef, typically served in a bread roll.",
+    "origin": "Named after <strong>Hamburg</strong>, the German port city, where a minced beef preparation was popular before emigrants and sailors carried it to America, where it was reshaped into the modern sandwich.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Hamburger</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "City of origin",
+            "b": "Hamburg, Germany"
+          },
+          {
+            "a": "Original dish",
+            "b": "Minced beef preparation"
+          },
+          {
+            "a": "Carried to America by",
+            "b": "German emigrants and sailors"
+          },
+          {
+            "a": "Modern form standardised",
+            "b": "Late 19th-century United States"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Hamburger</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A hamburger is",
+            "b": "A minced beef patty in a bun"
+          },
+          {
+            "a": "The name has no relation to",
+            "b": "The meat \"ham\""
+          },
+          {
+            "a": "A cheeseburger adds",
+            "b": "A slice of cheese"
+          },
+          {
+            "a": "The dish is closely tied to",
+            "b": "American fast food culture"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Hamburger</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They grilled",
+            "b": "Hamburgers for the barbecue"
+          },
+          {
+            "a": "The diner's specialty was",
+            "b": "A double hamburger with fries"
+          },
+          {
+            "a": "She ordered a",
+            "b": "Hamburger with no onions"
+          },
+          {
+            "a": "The food truck served",
+            "b": "Gourmet hamburgers"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Hamburg",
+        "rootLanguage": "German",
+        "rootMeaning": "German port city",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named after ",
+          "highlight": false
+        },
+        {
+          "text": "Hamburg",
+          "highlight": true
+        },
+        {
+          "text": ", the German port city, whose minced-beef dish emigrants carried to America.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Hamburg",
+      "correctAnswer": "German port city",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Delicatessen",
+    "pronunciation": "del-i-kuh-TES-en",
+    "pos": "noun",
+    "definition": "A shop selling cooked meats, cheeses, and speciality foods, often ready to eat.",
+    "origin": "From German <strong>Delikatessen</strong>, the plural of <strong>Delikatesse</strong> (delicacy), itself from French <strong>délicatesse</strong>. It named fine prepared foods before shortening to \"deli.\"",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Delicatessen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Delikatesse",
+            "b": "Delicacy"
+          },
+          {
+            "a": "Ultimate source",
+            "b": "French délicatesse"
+          },
+          {
+            "a": "Shortened form",
+            "b": "Deli"
+          },
+          {
+            "a": "Entered English",
+            "b": "19th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Delicatessen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A delicatessen is",
+            "b": "A shop selling prepared speciality foods"
+          },
+          {
+            "a": "Delicatessens are known for",
+            "b": "Cured meats and cheeses"
+          },
+          {
+            "a": "The common short form is",
+            "b": "Deli"
+          },
+          {
+            "a": "Delicatessen food is typically",
+            "b": "Ready to eat or lightly prepared"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Delicatessen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She bought smoked salmon at",
+            "b": "The local delicatessen"
+          },
+          {
+            "a": "The delicatessen counter offered",
+            "b": "A dozen types of cheese"
+          },
+          {
+            "a": "He grabbed a sandwich from",
+            "b": "The corner delicatessen"
+          },
+          {
+            "a": "Their shelves stocked imported",
+            "b": "Delicatessen goods"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Delikatesse",
+        "rootLanguage": "German",
+        "rootMeaning": "Delicacy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Delikatessen, plural of ",
+          "highlight": false
+        },
+        {
+          "text": "Delikatesse",
+          "highlight": true
+        },
+        {
+          "text": " (delicacy), from French délicatesse; later shortened to \"deli.\"",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Delikatesse",
+      "correctAnswer": "Delicacy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dachshund",
+    "pronunciation": "DAKS-huund",
+    "pos": "noun",
+    "definition": "A small dog breed with a long body and short legs, originally bred to hunt badgers.",
+    "origin": "From German <strong>Dachshund</strong>, from <strong>Dachs</strong> (badger) + <strong>Hund</strong> (dog) — literally \"badger dog,\" bred to pursue badgers into their burrows.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dachshund</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German Dachs",
+            "b": "Badger"
+          },
+          {
+            "a": "German Hund",
+            "b": "Dog"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "Badger dog"
+          },
+          {
+            "a": "Original purpose",
+            "b": "Hunting badgers underground"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dachshund</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A dachshund is",
+            "b": "A long-bodied, short-legged dog"
+          },
+          {
+            "a": "Dachshunds were bred to",
+            "b": "Hunt badgers in their burrows"
+          },
+          {
+            "a": "Dachshunds are nicknamed",
+            "b": "Sausage dogs or wiener dogs"
+          },
+          {
+            "a": "The breed originated in",
+            "b": "Germany"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dachshund</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Their",
+            "b": "Dachshund trotted along the path"
+          },
+          {
+            "a": "The dachshund's short legs made",
+            "b": "The stairs a challenge"
+          },
+          {
+            "a": "She dressed her dachshund in",
+            "b": "A tiny knitted jumper"
+          },
+          {
+            "a": "The breeder specialised in",
+            "b": "Miniature dachshunds"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Dachs",
+        "rootLanguage": "German",
+        "rootMeaning": "Badger",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German ",
+          "highlight": false
+        },
+        {
+          "text": "Dachs",
+          "highlight": true
+        },
+        {
+          "text": " (badger) + Hund (dog); bred to pursue badgers into their burrows.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Dachs",
+      "correctAnswer": "Badger",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Chutzpah",
+    "pronunciation": "KHUUTS-puh",
+    "pos": "noun",
+    "definition": "Shameless audacity or nerve, often admired despite its brashness.",
+    "origin": "From Yiddish <strong>khutspe</strong>, from Hebrew <strong>ḥutspāh</strong> (insolence, audacity). The word carries an ambivalent charge, condemning brazenness while quietly admiring the boldness.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Chutzpah</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hebrew ḥutspāh",
+            "b": "Insolence, audacity"
+          },
+          {
+            "a": "Yiddish khutspe",
+            "b": "Nerve, audacity"
+          },
+          {
+            "a": "Tone of the word",
+            "b": "Both critical and admiring"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Yiddish-speaking immigrant communities"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Chutzpah</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Chutzpah means",
+            "b": "Shameless nerve or boldness"
+          },
+          {
+            "a": "A classic example of chutzpah is",
+            "b": "Audacity mixed with confidence"
+          },
+          {
+            "a": "Chutzpah can be seen as",
+            "b": "Admirable or infuriating, depending on context"
+          },
+          {
+            "a": "The word entered English via",
+            "b": "Yiddish-speaking communities"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Chutzpah</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "It took real",
+            "b": "Chutzpah to ask for a raise that day"
+          },
+          {
+            "a": "She admired his",
+            "b": "Chutzpah in confronting the board"
+          },
+          {
+            "a": "The salesman's chutzpah",
+            "b": "Won over even skeptical clients"
+          },
+          {
+            "a": "Only sheer chutzpah could explain",
+            "b": "His unpaid invoice for the delay"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ḥutspāh",
+        "rootLanguage": "Hebrew",
+        "rootMeaning": "Insolence, audacity",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yiddish khutspe, from Hebrew ",
+          "highlight": false
+        },
+        {
+          "text": "ḥutspāh",
+          "highlight": true
+        },
+        {
+          "text": "; the word both condemns brazenness and quietly admires it.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ḥutspāh",
+      "correctAnswer": "Insolence, audacity",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Schmooze",
+    "pronunciation": "SHMOOZ",
+    "pos": "verb",
+    "definition": "To chat casually and warmly, often to network or ingratiate oneself.",
+    "origin": "From Yiddish <strong>shmuesn</strong>, from Hebrew <strong>shəmūʿōth</strong> (rumours, news, things heard). It described friendly gossip before broadening to mean social small talk generally.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Schmooze</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Hebrew shəmūʿōth",
+            "b": "Rumours, things heard"
+          },
+          {
+            "a": "Yiddish shmuesn",
+            "b": "To chat, gossip"
+          },
+          {
+            "a": "Original sense",
+            "b": "Friendly gossip"
+          },
+          {
+            "a": "Modern sense",
+            "b": "Social small talk, networking"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Schmooze</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To schmooze means to",
+            "b": "Chat warmly, often to network"
+          },
+          {
+            "a": "Schmoozing is common at",
+            "b": "Parties and business events"
+          },
+          {
+            "a": "A schmoozer is someone who",
+            "b": "Works a room easily"
+          },
+          {
+            "a": "The word suggests",
+            "b": "Charm with a practical motive"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Schmooze</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He schmoozed with",
+            "b": "Investors at the reception"
+          },
+          {
+            "a": "She spent the evening",
+            "b": "Schmoozing potential clients"
+          },
+          {
+            "a": "The event was less about ideas and more about",
+            "b": "Schmoozing"
+          },
+          {
+            "a": "They schmoozed over drinks before",
+            "b": "Discussing the contract"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "shəmūʿōth",
+        "rootLanguage": "Hebrew",
+        "rootMeaning": "Rumours, things heard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Yiddish shmuesn, from Hebrew ",
+          "highlight": false
+        },
+        {
+          "text": "shəmūʿōth",
+          "highlight": true
+        },
+        {
+          "text": " (things heard); described friendly gossip before meaning small talk generally.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "shəmūʿōth",
+      "correctAnswer": "Rumours, things heard",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ersatz",
+    "pronunciation": "ER-zats",
+    "pos": "adjective",
+    "definition": "Made or used as a substitute, typically an inferior one.",
+    "origin": "From German <strong>Ersatz</strong>, meaning replacement or substitute, from <strong>ersetzen</strong> (to replace). English adopted it especially during the World Wars, describing wartime substitute goods.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ersatz</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "German ersetzen",
+            "b": "To replace"
+          },
+          {
+            "a": "German Ersatz",
+            "b": "Replacement, substitute"
+          },
+          {
+            "a": "Widely used during",
+            "b": "The First and Second World Wars"
+          },
+          {
+            "a": "Typically implies",
+            "b": "An inferior substitute"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ersatz</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ersatz describes",
+            "b": "A substitute, usually inferior"
+          },
+          {
+            "a": "Ersatz coffee, historically, was made from",
+            "b": "Roasted chicory or acorns"
+          },
+          {
+            "a": "The word carries a tone of",
+            "b": "Mild disparagement"
+          },
+          {
+            "a": "Opposite of ersatz",
+            "b": "Genuine, authentic"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ersatz</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Wartime shortages forced people onto",
+            "b": "Ersatz coffee"
+          },
+          {
+            "a": "Critics called the sequel an",
+            "b": "Ersatz version of the original"
+          },
+          {
+            "a": "The costume jewellery was",
+            "b": "Obviously ersatz"
+          },
+          {
+            "a": "They served an",
+            "b": "Ersatz version of the traditional dish"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ersetzen",
+        "rootLanguage": "German",
+        "rootMeaning": "To replace",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Ersatz, from ",
+          "highlight": false
+        },
+        {
+          "text": "ersetzen",
+          "highlight": true
+        },
+        {
+          "text": " (to replace); English adopted it for wartime substitute goods.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ersetzen",
+      "correctAnswer": "To replace",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Angst",
+    "pronunciation": "ANGST",
+    "pos": "noun",
+    "definition": "A feeling of deep anxiety or dread, often existential in nature.",
+    "origin": "From German <strong>Angst</strong>, meaning fear or anxiety, related to Latin <strong>angustia</strong> (narrowness, distress). Popularised in English through the writings of philosophers Kierkegaard and Freud.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Angst</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin angustia",
+            "b": "Narrowness, distress"
+          },
+          {
+            "a": "German Angst",
+            "b": "Fear, anxiety"
+          },
+          {
+            "a": "Popularised by",
+            "b": "Kierkegaard and Freud"
+          },
+          {
+            "a": "Modern use",
+            "b": "Especially teenage or existential dread"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Angst</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Angst is",
+            "b": "A feeling of deep anxiety or dread"
+          },
+          {
+            "a": "Teenage angst describes",
+            "b": "Adolescent emotional turmoil"
+          },
+          {
+            "a": "Existential angst concerns",
+            "b": "Anxiety about meaning and mortality"
+          },
+          {
+            "a": "The word entered English mainly through",
+            "b": "Philosophy and psychology"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Angst</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The novel captures the",
+            "b": "Angst of adolescence"
+          },
+          {
+            "a": "He wrote poetry full of",
+            "b": "Existential angst"
+          },
+          {
+            "a": "She felt a wave of",
+            "b": "Angst before the interview"
+          },
+          {
+            "a": "Their music channelled the",
+            "b": "Angst of a whole generation"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "angustia",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Narrowness, distress",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From German Angst, related to Latin ",
+          "highlight": false
+        },
+        {
+          "text": "angustia",
+          "highlight": true
+        },
+        {
+          "text": " (narrowness); popularised via Kierkegaard and Freud.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "angustia",
+      "correctAnswer": "Narrowness, distress",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Spook",
+    "pronunciation": "SPOOK",
+    "pos": "noun",
+    "definition": "A ghost or spirit; informally, a spy.",
+    "origin": "From Dutch <strong>spook</strong>, meaning ghost, related to German <strong>Spuk</strong> (haunting). American English borrowed it from Dutch settlers, later extending it as slang for an intelligence agent.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Spook</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch spook",
+            "b": "Ghost"
+          },
+          {
+            "a": "German Spuk",
+            "b": "Haunting"
+          },
+          {
+            "a": "Borrowed by",
+            "b": "American English via Dutch settlers"
+          },
+          {
+            "a": "Later slang sense",
+            "b": "A spy or intelligence agent"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Spook</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A spook is",
+            "b": "A ghost or unsettling apparition"
+          },
+          {
+            "a": "As slang, a spook is",
+            "b": "An intelligence agent or spy"
+          },
+          {
+            "a": "To be spooked means to",
+            "b": "Be startled or frightened"
+          },
+          {
+            "a": "A spooky place feels",
+            "b": "Eerie or haunted"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Spook</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The old house was said to be haunted by",
+            "b": "A spook"
+          },
+          {
+            "a": "The novel's hero turns out to be",
+            "b": "A government spook"
+          },
+          {
+            "a": "The horse was spooked by",
+            "b": "The sudden thunderclap"
+          },
+          {
+            "a": "Children dared each other to enter",
+            "b": "The spook house"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "spook",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "Ghost",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "spook",
+          "highlight": true
+        },
+        {
+          "text": ", related to German Spuk (haunting); later slang for an intelligence agent.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "spook",
+      "correctAnswer": "Ghost",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bluff",
+    "pronunciation": "BLUHF",
+    "pos": "verb",
+    "definition": "To deceive someone by pretending to have confidence or a strong position one does not have.",
+    "origin": "From Dutch <strong>bluffen</strong>, meaning to brag or boast. It entered English through card games, especially poker, where bluffing means feigning a strong hand.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bluff</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dutch bluffen",
+            "b": "To brag, boast"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Card games, especially poker"
+          },
+          {
+            "a": "Poker sense",
+            "b": "Feigning a strong hand"
+          },
+          {
+            "a": "General sense",
+            "b": "Deceiving through false confidence"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bluff</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To bluff means to",
+            "b": "Feign confidence to deceive"
+          },
+          {
+            "a": "A bluff in poker is",
+            "b": "Betting big on a weak hand"
+          },
+          {
+            "a": "To call someone's bluff means to",
+            "b": "Challenge their pretence"
+          },
+          {
+            "a": "A geographical bluff is",
+            "b": "A steep cliff or headland"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bluff</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He tried to",
+            "b": "Bluff his way past security"
+          },
+          {
+            "a": "She called his",
+            "b": "Bluff and he folded"
+          },
+          {
+            "a": "The negotiator suspected",
+            "b": "They were bluffing about the deadline"
+          },
+          {
+            "a": "The house stood atop",
+            "b": "A grassy bluff overlooking the sea"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bluffen",
+        "rootLanguage": "Dutch",
+        "rootMeaning": "To brag, boast",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Dutch ",
+          "highlight": false
+        },
+        {
+          "text": "bluffen",
+          "highlight": true
+        },
+        {
+          "text": " (to brag); entered English through poker, where it means feigning a strong hand.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bluffen",
+      "correctAnswer": "To brag, boast",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ransack",
+    "pronunciation": "RAN-sak",
+    "pos": "verb",
+    "definition": "To search a place thoroughly and roughly, often causing damage or disorder.",
+    "origin": "From Old Norse <strong>rannsaka</strong>, from <strong>rann</strong> (house) + <strong>sœkja</strong> (to seek) — literally \"to search a house,\" originally in a legal sense of searching for stolen goods.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ransack</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old Norse rann",
+            "b": "House"
+          },
+          {
+            "a": "Old Norse sœkja",
+            "b": "To seek"
+          },
+          {
+            "a": "Literal meaning",
+            "b": "To search a house"
+          },
+          {
+            "a": "Original legal sense",
+            "b": "Searching for stolen goods"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ransack</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "To ransack means to",
+            "b": "Search roughly and thoroughly"
+          },
+          {
+            "a": "Ransacking often leaves behind",
+            "b": "Disorder or damage"
+          },
+          {
+            "a": "Burglars ransack a house to",
+            "b": "Find valuables quickly"
+          },
+          {
+            "a": "The word originally referred to",
+            "b": "A lawful search for stolen property"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ransack</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Thieves had",
+            "b": "Ransacked the entire office"
+          },
+          {
+            "a": "She ransacked her bag looking for",
+            "b": "The missing keys"
+          },
+          {
+            "a": "The soldiers ransacked",
+            "b": "The abandoned village"
+          },
+          {
+            "a": "He ransacked the archive for",
+            "b": "Any mention of his ancestor"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "rannsaka",
+        "rootLanguage": "Old Norse",
+        "rootMeaning": "To search a house",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old Norse ",
+          "highlight": false
+        },
+        {
+          "text": "rannsaka",
+          "highlight": true
+        },
+        {
+          "text": ": rann (house) + sœkja (to seek); originally a legal search for stolen goods.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "rannsaka",
+      "correctAnswer": "To search a house",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Glitch",
+    "pronunciation": "GLICH",
+    "pos": "noun",
+    "definition": "A minor malfunction or unexpected error, especially in a machine or system.",
+    "origin": "Likely from Yiddish <strong>glitshn</strong> (to slip or slide), related to German <strong>glitschen</strong>. American radio and TV engineers adopted it in the mid-20th century for small technical faults.",
+    "tier": "premium",
+    "packId": "loan-words",
+    "subpack": {
+      "id": "loan-german-yiddish",
+      "name": "From German & Yiddish",
+      "packId": "loan-words"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Glitch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Yiddish glitshn",
+            "b": "To slip, to slide"
+          },
+          {
+            "a": "Related German word",
+            "b": "Glitschen"
+          },
+          {
+            "a": "Adopted by",
+            "b": "Radio and TV engineers"
+          },
+          {
+            "a": "Era of adoption",
+            "b": "Mid-20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Glitch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A glitch is",
+            "b": "A minor unexpected malfunction"
+          },
+          {
+            "a": "A software glitch causes",
+            "b": "Unintended behaviour in a program"
+          },
+          {
+            "a": "To glitch means to",
+            "b": "Malfunction briefly"
+          },
+          {
+            "a": "The word suggests",
+            "b": "A small, often temporary fault"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Glitch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "A technical",
+            "b": "Glitch delayed the broadcast"
+          },
+          {
+            "a": "The game froze due to",
+            "b": "A rendering glitch"
+          },
+          {
+            "a": "Engineers traced the",
+            "b": "Glitch to a loose cable"
+          },
+          {
+            "a": "The screen glitched briefly before",
+            "b": "Returning to normal"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "glitshn",
+        "rootLanguage": "Yiddish",
+        "rootMeaning": "To slip, to slide",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Likely from Yiddish ",
+          "highlight": false
+        },
+        {
+          "text": "glitshn",
+          "highlight": true
+        },
+        {
+          "text": " (to slip); adopted by mid-20th-century American broadcast engineers.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "glitshn",
+      "correctAnswer": "To slip, to slide",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

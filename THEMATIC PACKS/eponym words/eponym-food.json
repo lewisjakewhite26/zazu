@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Sandwich",
+    "pronunciation": "SAN-wich",
+    "pos": "noun",
+    "definition": "Two or more slices of bread with a filling between them.",
+    "origin": "<strong>Sandwich</strong> is named after John Montagu, 4th Earl of Sandwich (1718–1792), a British statesman said to have asked for meat tucked between slices of bread so he could keep eating without leaving the gaming table. Whether the story is entirely true or partly legend, his title, taken from the Kent town of Sandwich, became attached to the meal within his own lifetime.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sandwich</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Earl of Sandwich",
+            "b": "British statesman, 1718–1792"
+          },
+          {
+            "a": "Legend says he wanted",
+            "b": "Food he could eat without leaving the card table"
+          },
+          {
+            "a": "His title came from",
+            "b": "The Kent town of Sandwich"
+          },
+          {
+            "a": "Word entered use",
+            "b": "Within his own lifetime"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sandwich</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Sandwich describes",
+            "b": "A filling between two slices of bread"
+          },
+          {
+            "a": "Named after",
+            "b": "An 18th-century British earl"
+          },
+          {
+            "a": "Popular legend involves",
+            "b": "Gambling and a reluctance to stop eating"
+          },
+          {
+            "a": "Now describes",
+            "b": "Countless variations worldwide"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sandwich</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She packed a cheese",
+            "b": "Sandwich for lunch"
+          },
+          {
+            "a": "He ordered a club",
+            "b": "Sandwich at the diner"
+          },
+          {
+            "a": "The picnic basket held neat triangle",
+            "b": "Sandwiches"
+          },
+          {
+            "a": "They queued at the deli for a fresh",
+            "b": "Sandwich"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Earl of Sandwich",
+        "rootLanguage": "18th-century England",
+        "rootMeaning": "Statesman said to have invented the meal at the card table",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Earl of Sandwich",
+          "highlight": true
+        },
+        {
+          "text": ", whose reluctance to leave the gaming table gave English its everyday lunch.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Earl of Sandwich",
+      "correctAnswer": "Statesman said to have invented the meal at the card table",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Reuben",
+    "pronunciation": "ROO-bin",
+    "pos": "noun",
+    "definition": "A grilled sandwich of corned beef, Swiss cheese, sauerkraut, and dressing between slices of rye bread.",
+    "origin": "<strong>Reuben</strong> sandwiches are most often credited to Reuben Kulakofsky, a grocer in Omaha, Nebraska, who supposedly created it for a 1920s poker game at the Blackstone Hotel, and it was later popularised on the hotel's menu. A rival claim credits Arnold Reuben, a New York deli owner, but either way the sandwich carries a Reuben's name into diners across America.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Reuben</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Reuben Kulakofsky",
+            "b": "Omaha grocer, credited with the sandwich"
+          },
+          {
+            "a": "Created for",
+            "b": "A 1920s poker game at the Blackstone Hotel"
+          },
+          {
+            "a": "Rival claim credits",
+            "b": "Arnold Reuben, New York deli owner"
+          },
+          {
+            "a": "Sandwich named after",
+            "b": "One of these two men, likely the first"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Reuben</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Reuben describes",
+            "b": "A grilled corned beef and sauerkraut sandwich"
+          },
+          {
+            "a": "Key ingredients include",
+            "b": "Swiss cheese and rye bread"
+          },
+          {
+            "a": "Disputed origin between",
+            "b": "Omaha and New York"
+          },
+          {
+            "a": "Typically served",
+            "b": "Hot, with the cheese melted"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Reuben</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He ordered a",
+            "b": "Reuben with extra sauerkraut"
+          },
+          {
+            "a": "The deli's specialty was a grilled",
+            "b": "Reuben"
+          },
+          {
+            "a": "She loved the tangy dressing on a",
+            "b": "Reuben sandwich"
+          },
+          {
+            "a": "The menu listed the classic",
+            "b": "Reuben alongside a pastrami stack"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Reuben Kulakofsky",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Grocer credited with inventing the sandwich at a poker game",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Reuben Kulakofsky",
+          "highlight": true
+        },
+        {
+          "text": ", the Omaha grocer said to have built the sandwich for a hotel poker night.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Reuben Kulakofsky",
+      "correctAnswer": "Grocer credited with inventing the sandwich at a poker game",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Margherita",
+    "pronunciation": "mar-guh-REE-tuh",
+    "pos": "noun",
+    "definition": "A pizza topped simply with tomato, mozzarella, and basil, echoing the colours of the Italian flag.",
+    "origin": "<strong>Margherita</strong> pizza is named after Queen Margherita of Savoy (1851–1926), consort to King Umberto I of Italy, for whom Neapolitan pizzaiolo Raffaele Esposito is said to have created the dish during a royal visit to Naples in 1889. Its red tomato, white mozzarella, and green basil were chosen to mirror the new Italian tricolour flag, honouring both the queen and the recently unified nation at once.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Margherita</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Queen Margherita of Savoy",
+            "b": "Consort of King Umberto I, 1851–1926"
+          },
+          {
+            "a": "Pizza created by",
+            "b": "Raffaele Esposito, Naples, 1889"
+          },
+          {
+            "a": "Colours chosen to echo",
+            "b": "The Italian tricolour flag"
+          },
+          {
+            "a": "Occasion",
+            "b": "A royal visit to Naples"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Margherita</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Margherita describes",
+            "b": "A pizza with tomato, mozzarella, and basil"
+          },
+          {
+            "a": "Colours represent",
+            "b": "Red, white, and green of the Italian flag"
+          },
+          {
+            "a": "Named after",
+            "b": "An Italian queen"
+          },
+          {
+            "a": "Considered",
+            "b": "The classic, original Neapolitan pizza"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Margherita</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They ordered a simple",
+            "b": "Margherita to share"
+          },
+          {
+            "a": "The wood-fired oven turned out a perfect",
+            "b": "Margherita"
+          },
+          {
+            "a": "Purists say the",
+            "b": "Margherita is the only true pizza"
+          },
+          {
+            "a": "She topped the dough with basil for a classic",
+            "b": "Margherita"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Queen Margherita of Savoy",
+        "rootLanguage": "19th-century Italy",
+        "rootMeaning": "Queen honoured by a pizza matching the Italian flag",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Queen Margherita of Savoy",
+          "highlight": true
+        },
+        {
+          "text": ", whose royal visit to Naples inspired a pizza coloured like the new Italian flag.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Queen Margherita of Savoy",
+      "correctAnswer": "Queen honoured by a pizza matching the Italian flag",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Clementine",
+    "pronunciation": "KLEM-un-teen",
+    "pos": "noun",
+    "definition": "A small, sweet, seedless citrus fruit, a cross between a mandarin orange and a sweet orange.",
+    "origin": "<strong>Clementine</strong> is named after Father Clément Rodier, a French missionary and horticulturalist who, according to the most widely told account, discovered the fruit around 1902 growing in the garden of his orphanage in Misserghin, Algeria, as a chance hybrid among his citrus trees. The fruit was named in his honour, sometimes with a nod to his own first name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Clementine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Father Clément Rodier",
+            "b": "French missionary and horticulturalist"
+          },
+          {
+            "a": "Discovered the fruit around",
+            "b": "1902"
+          },
+          {
+            "a": "Location",
+            "b": "An orphanage garden in Misserghin, Algeria"
+          },
+          {
+            "a": "Fruit is a hybrid of",
+            "b": "Mandarin and sweet orange"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Clementine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Clementine describes",
+            "b": "A small, sweet, seedless citrus fruit"
+          },
+          {
+            "a": "Genetic cross between",
+            "b": "A mandarin and a sweet orange"
+          },
+          {
+            "a": "Discovered by",
+            "b": "A French missionary in Algeria"
+          },
+          {
+            "a": "Season typically",
+            "b": "Winter"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Clementine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She peeled a",
+            "b": "Clementine for her lunchbox"
+          },
+          {
+            "a": "The bowl on the counter was full of",
+            "b": "Clementines"
+          },
+          {
+            "a": "Christmas stockings traditionally include a",
+            "b": "Clementine"
+          },
+          {
+            "a": "He snacked on a",
+            "b": "Clementine between meetings"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Father Clément Rodier",
+        "rootLanguage": "20th-century France/Algeria",
+        "rootMeaning": "Missionary who discovered the hybrid citrus fruit",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Father Clément Rodier",
+          "highlight": true
+        },
+        {
+          "text": ", the missionary whose Algerian orphanage garden produced a chance hybrid citrus.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Father Clément Rodier",
+      "correctAnswer": "Missionary who discovered the hybrid citrus fruit",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Boysenberry",
+    "pronunciation": "BOY-zun-bair-ee",
+    "pos": "noun",
+    "definition": "A large, dark purple hybrid berry combining raspberry, blackberry, and loganberry.",
+    "origin": "<strong>Boysenberry</strong> is named after Rudolph Boysen, an American horticulturalist who in the 1920s bred the hybrid berry by crossing several existing bramble fruits, but his vines were nearly lost when a bacterial infection struck his farm. Farmer Walter Knott rescued surviving cuttings and grew them successfully, and when he named the fruit for its original breeder, he built an entire berry farm and empire, later becoming Knott's Berry Farm, on the strength of it.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Boysenberry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Rudolph Boysen",
+            "b": "American horticulturalist, bred the hybrid berry"
+          },
+          {
+            "a": "Bred in",
+            "b": "The 1920s, from raspberry, blackberry, and loganberry"
+          },
+          {
+            "a": "Rescued by",
+            "b": "Farmer Walter Knott, after Boysen's vines failed"
+          },
+          {
+            "a": "Knott later founded",
+            "b": "Knott's Berry Farm"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Boysenberry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Boysenberry describes",
+            "b": "A large, dark purple hybrid berry"
+          },
+          {
+            "a": "Cross between",
+            "b": "Raspberry, blackberry, and loganberry"
+          },
+          {
+            "a": "Rescued and popularised by",
+            "b": "Walter Knott"
+          },
+          {
+            "a": "Named after",
+            "b": "The original breeder, Rudolph Boysen"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Boysenberry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She baked a",
+            "b": "Boysenberry pie for the fair"
+          },
+          {
+            "a": "The jam jar was labelled",
+            "b": "Boysenberry preserve"
+          },
+          {
+            "a": "He ordered a scoop of",
+            "b": "Boysenberry ice cream"
+          },
+          {
+            "a": "The farm stand sold fresh",
+            "b": "Boysenberries in summer"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Rudolph Boysen",
+        "rootLanguage": "20th-century USA",
+        "rootMeaning": "Horticulturalist who bred the hybrid berry",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Rudolph Boysen",
+          "highlight": true
+        },
+        {
+          "text": ", whose hybrid berry nearly vanished until a fellow farmer rescued and popularised it.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Rudolph Boysen",
+      "correctAnswer": "Horticulturalist who bred the hybrid berry",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Loganberry",
+    "pronunciation": "LOH-gun-bair-ee",
+    "pos": "noun",
+    "definition": "A tart, dark red hybrid berry, a cross between a raspberry and a blackberry.",
+    "origin": "<strong>Loganberry</strong> is named after James Harvey Logan (1841–1928), an American judge and amateur horticulturalist who in 1881, while growing blackberries and raspberries side by side in his California garden, produced an accidental hybrid seedling. He propagated the new fruit deliberately once he saw its promise, and it carried his name into orchards and jam jars ever since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Loganberry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "James Harvey Logan",
+            "b": "American judge and horticulturalist, 1841–1928"
+          },
+          {
+            "a": "Discovered the hybrid in",
+            "b": "1881, in his California garden"
+          },
+          {
+            "a": "Parent fruits",
+            "b": "Blackberry and raspberry"
+          },
+          {
+            "a": "Origin was",
+            "b": "An accidental seedling, later propagated"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Loganberry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Loganberry describes",
+            "b": "A tart, dark red hybrid berry"
+          },
+          {
+            "a": "Cross between",
+            "b": "Raspberry and blackberry"
+          },
+          {
+            "a": "Discovered by",
+            "b": "An American judge, by accident"
+          },
+          {
+            "a": "Common use",
+            "b": "Jams, pies, and cordials"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Loganberry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cordial was made from tart",
+            "b": "Loganberries"
+          },
+          {
+            "a": "She spread",
+            "b": "Loganberry jam on her toast"
+          },
+          {
+            "a": "The orchard grew rows of",
+            "b": "Loganberry canes"
+          },
+          {
+            "a": "His grandmother's recipe called for fresh",
+            "b": "Loganberries"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "James Harvey Logan",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Judge whose garden produced an accidental berry hybrid",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "James Harvey Logan",
+          "highlight": true
+        },
+        {
+          "text": ", the judge whose garden experiment with raspberries and blackberries produced a tart new fruit.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "James Harvey Logan",
+      "correctAnswer": "Judge whose garden produced an accidental berry hybrid",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nachos",
+    "pronunciation": "NAH-chohz",
+    "pos": "noun",
+    "definition": "A dish of tortilla chips covered with melted cheese and other toppings such as jalapeños, beans, or salsa.",
+    "origin": "<strong>Nachos</strong> are named after Ignacio \"Nacho\" Anaya, a Mexican maître d' who in 1943 improvised the dish for a group of American military wives in Piedras Negras, just across the border from Texas, when the kitchen was low on ingredients. He topped fried tortilla chips with melted cheese and pickled jalapeños and called them \"Nacho's especiales,\" and the nickname alone survived into the dish's modern name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nachos</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Ignacio \"Nacho\" Anaya",
+            "b": "Mexican maître d', created the dish in 1943"
+          },
+          {
+            "a": "Location",
+            "b": "Piedras Negras, Mexico, near the Texas border"
+          },
+          {
+            "a": "Improvised for",
+            "b": "American military wives, with limited ingredients"
+          },
+          {
+            "a": "Original name",
+            "b": "\"Nacho's especiales\""
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nachos</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Nachos describes",
+            "b": "Tortilla chips with melted cheese and toppings"
+          },
+          {
+            "a": "Named after",
+            "b": "A Mexican restaurant maître d'"
+          },
+          {
+            "a": "Created for",
+            "b": "A group of hungry visiting Americans"
+          },
+          {
+            "a": "Common toppings include",
+            "b": "Jalapeños, beans, and salsa"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nachos</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They shared a plate of loaded",
+            "b": "Nachos"
+          },
+          {
+            "a": "The cinema sold cheesy",
+            "b": "Nachos at the concession stand"
+          },
+          {
+            "a": "He piled extra jalapeños onto his",
+            "b": "Nachos"
+          },
+          {
+            "a": "The party spread included a giant tray of",
+            "b": "Nachos"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ignacio \"Nacho\" Anaya",
+        "rootLanguage": "20th-century Mexico",
+        "rootMeaning": "Maître d' who improvised the dish for hungry visitors",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Ignacio \"Nacho\" Anaya",
+          "highlight": true
+        },
+        {
+          "text": ", whose quick improvisation for hungry visitors became a global snack.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ignacio \"Nacho\" Anaya",
+      "correctAnswer": "Maître d' who improvised the dish for hungry visitors",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Caesar",
+    "pronunciation": "SEE-zur",
+    "pos": "noun",
+    "definition": "A salad of romaine lettuce, croutons, parmesan, and a dressing of garlic, anchovy, egg, and lemon.",
+    "origin": "<strong>Caesar</strong> salad is named after Caesar Cardini, an Italian-born restaurateur working in Tijuana, Mexico, who is credited with inventing it in 1924 when a rush of American holiday customers, drawn south by prohibition, left his kitchen short on ingredients. He improvised a tableside salad from what remained, and despite the name it has no connection at all to the Roman general Julius Caesar.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Caesar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Caesar Cardini",
+            "b": "Italian-born restaurateur, Tijuana, Mexico"
+          },
+          {
+            "a": "Invented the salad in",
+            "b": "1924"
+          },
+          {
+            "a": "Reason for improvisation",
+            "b": "A rush of American prohibition-era tourists"
+          },
+          {
+            "a": "Common misconception",
+            "b": "Named after Julius Caesar, which it is not"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Caesar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Caesar salad describes",
+            "b": "Romaine, croutons, parmesan, and a garlicky dressing"
+          },
+          {
+            "a": "Named after",
+            "b": "A restaurateur, not the Roman general"
+          },
+          {
+            "a": "Invented during",
+            "b": "US prohibition, in Mexico"
+          },
+          {
+            "a": "Classic dressing includes",
+            "b": "Anchovy, garlic, egg, and lemon"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Caesar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She ordered a",
+            "b": "Caesar salad with grilled chicken"
+          },
+          {
+            "a": "The waiter tossed the",
+            "b": "Caesar tableside"
+          },
+          {
+            "a": "He asked for extra parmesan on his",
+            "b": "Caesar"
+          },
+          {
+            "a": "The menu listed a classic",
+            "b": "Caesar as a starter"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Caesar Cardini",
+        "rootLanguage": "20th-century Mexico",
+        "rootMeaning": "Restaurateur who improvised the salad, unrelated to Julius Caesar",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Caesar Cardini",
+          "highlight": true
+        },
+        {
+          "text": ", the restaurateur whose prohibition-era improvisation has nothing to do with the Roman general who shares his name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Caesar Cardini",
+      "correctAnswer": "Restaurateur who improvised the salad, unrelated to Julius Caesar",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bellini",
+    "pronunciation": "buh-LEE-nee",
+    "pos": "noun",
+    "definition": "A cocktail of prosecco and peach purée.",
+    "origin": "<strong>Bellini</strong> was created around 1948 by Giuseppe Cipriani, founder of Harry's Bar in Venice, who blended white peach purée with sparkling prosecco and named the pink-hued drink after Giovanni Bellini (c.1430–1516), the Venetian Renaissance painter whose canvases often featured a similarly warm, glowing pink tone. The cocktail honoured a painter Cipriani admired rather than being invented by one.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bellini</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Giovanni Bellini",
+            "b": "Venetian Renaissance painter, c.1430–1516"
+          },
+          {
+            "a": "Cocktail created by",
+            "b": "Giuseppe Cipriani, founder of Harry's Bar, Venice"
+          },
+          {
+            "a": "Created around",
+            "b": "1948"
+          },
+          {
+            "a": "Named for the painter's",
+            "b": "Warm, glowing pink tones in his work"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bellini</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bellini describes",
+            "b": "A prosecco and peach purée cocktail"
+          },
+          {
+            "a": "Invented at",
+            "b": "Harry's Bar in Venice"
+          },
+          {
+            "a": "Named after",
+            "b": "A Renaissance painter, not its inventor"
+          },
+          {
+            "a": "Signature colour",
+            "b": "A soft pink"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bellini</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They toasted the wedding with a round of",
+            "b": "Bellinis"
+          },
+          {
+            "a": "The brunch menu featured a fresh peach",
+            "b": "Bellini"
+          },
+          {
+            "a": "She sipped a chilled",
+            "b": "Bellini on the terrace"
+          },
+          {
+            "a": "The bar was famous for its original",
+            "b": "Bellini recipe"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Giovanni Bellini",
+        "rootLanguage": "15th-century Venice",
+        "rootMeaning": "Renaissance painter whose pink tones inspired the cocktail's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Giovanni Bellini",
+          "highlight": true
+        },
+        {
+          "text": ", the Renaissance painter whose glowing pink tones inspired a Venetian bartender's cocktail.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Giovanni Bellini",
+      "correctAnswer": "Renaissance painter whose pink tones inspired the cocktail's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Benedict",
+    "pronunciation": "BEN-uh-dikt",
+    "pos": "noun",
+    "definition": "A dish of poached eggs and ham or bacon on an English muffin, topped with hollandaise sauce.",
+    "origin": "<strong>Eggs Benedict</strong> is most often traced to Lemuel Benedict, a Wall Street broker who, nursing a hangover in 1894, ordered buttered toast, bacon, poached eggs, and hollandaise sauce at New York's Waldorf Hotel. The maître d' was so taken with the improvised order that he put a version on the menu, swapping the toast for an English muffin and keeping Benedict's name attached.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Benedict</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Lemuel Benedict",
+            "b": "Wall Street broker, New York"
+          },
+          {
+            "a": "Ordered the dish in",
+            "b": "1894, nursing a hangover"
+          },
+          {
+            "a": "Location",
+            "b": "The Waldorf Hotel, New York"
+          },
+          {
+            "a": "Maître d' added it to",
+            "b": "The hotel menu, with an English muffin"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Benedict</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Eggs Benedict describes",
+            "b": "Poached eggs and ham on a muffin with hollandaise"
+          },
+          {
+            "a": "Named after",
+            "b": "A hungover Wall Street broker"
+          },
+          {
+            "a": "Origin restaurant",
+            "b": "The Waldorf Hotel, New York"
+          },
+          {
+            "a": "Key sauce",
+            "b": "Hollandaise"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Benedict</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She ordered",
+            "b": "Eggs Benedict for a lazy Sunday brunch"
+          },
+          {
+            "a": "The café's signature dish was",
+            "b": "Eggs Benedict with smoked salmon"
+          },
+          {
+            "a": "He drizzled extra hollandaise over his",
+            "b": "Eggs Benedict"
+          },
+          {
+            "a": "The hotel restaurant still serves the original",
+            "b": "Benedict recipe"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Lemuel Benedict",
+        "rootLanguage": "19th-century USA",
+        "rootMeaning": "Broker whose hungover breakfast order became a brunch classic",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Lemuel Benedict",
+          "highlight": true
+        },
+        {
+          "text": ", whose hungover order at the Waldorf Hotel became a permanent fixture of the brunch menu.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Lemuel Benedict",
+      "correctAnswer": "Broker whose hungover breakfast order became a brunch classic",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Suzette",
+    "pronunciation": "soo-ZET",
+    "pos": "noun",
+    "definition": "A thin dessert pancake served flambéed in a sauce of caramelised sugar, butter, orange juice, and liqueur.",
+    "origin": "<strong>Crêpe Suzette</strong> is said to have been created around 1895 by a young waiter, Henri Charpentier, for the future King Edward VII, who was dining with a woman named Suzette at the Café de Paris in Monte Carlo. When the pan of orange liqueur accidentally caught fire, Charpentier served the flaming dessert anyway, and the prince asked that it be named for his companion.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Suzette</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Henri Charpentier",
+            "b": "Young waiter, credited with creating the dish"
+          },
+          {
+            "a": "Created around",
+            "b": "1895, at the Café de Paris, Monte Carlo"
+          },
+          {
+            "a": "Guest of honour",
+            "b": "The future King Edward VII"
+          },
+          {
+            "a": "Dish named for",
+            "b": "Suzette, the prince's dining companion"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Suzette</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Crêpe Suzette describes",
+            "b": "A flambéed pancake in orange liqueur sauce"
+          },
+          {
+            "a": "Named after",
+            "b": "A woman dining with a future king"
+          },
+          {
+            "a": "Signature technique",
+            "b": "Flambéing at the table"
+          },
+          {
+            "a": "Created in",
+            "b": "Monte Carlo"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Suzette</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The waiter flambéed the",
+            "b": "Crêpe Suzette tableside"
+          },
+          {
+            "a": "Dessert that evening was",
+            "b": "Crêpe Suzette, flames and all"
+          },
+          {
+            "a": "She ordered the classic",
+            "b": "Suzette for a special occasion"
+          },
+          {
+            "a": "The chef's orange sauce made a perfect",
+            "b": "Suzette"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Suzette",
+        "rootLanguage": "19th-century France (Monte Carlo)",
+        "rootMeaning": "Woman dining with a future king when the dessert caught fire",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Suzette",
+          "highlight": true
+        },
+        {
+          "text": ", the dinner companion of a future king, when a waiter's accidental flambé turned into a signature dessert.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Suzette",
+      "correctAnswer": "Woman dining with a future king when the dessert caught fire",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Foster",
+    "pronunciation": "FOS-tur",
+    "pos": "noun",
+    "definition": "A dessert of bananas cooked in butter, brown sugar, cinnamon, and rum, then flambéed and served over ice cream.",
+    "origin": "<strong>Bananas Foster</strong> was invented in 1951 at Brennan's restaurant in New Orleans, where chef Paul Blangé created the flambéed dish and named it after Richard Foster, a regular customer and friend of the restaurant's owner who chaired the local Crime Commission. New Orleans was then a major port for banana imports from Central America, making the fruit a natural local specialty to showcase.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Foster</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Richard Foster",
+            "b": "Regular customer, chaired the New Orleans Crime Commission"
+          },
+          {
+            "a": "Dish created by",
+            "b": "Chef Paul Blangé, at Brennan's restaurant"
+          },
+          {
+            "a": "Created in",
+            "b": "1951, New Orleans"
+          },
+          {
+            "a": "Local context",
+            "b": "New Orleans was a major banana import port"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Foster</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bananas Foster describes",
+            "b": "Flambéed bananas served over ice cream"
+          },
+          {
+            "a": "Named after",
+            "b": "A restaurant regular, not a chef"
+          },
+          {
+            "a": "Origin restaurant",
+            "b": "Brennan's, New Orleans"
+          },
+          {
+            "a": "Key flavours",
+            "b": "Rum, brown sugar, and cinnamon"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Foster</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The waiter flambéed",
+            "b": "Bananas Foster right at the table"
+          },
+          {
+            "a": "Dessert menus in New Orleans rarely skip",
+            "b": "Bananas Foster"
+          },
+          {
+            "a": "She poured the rum sauce over the",
+            "b": "Bananas Foster"
+          },
+          {
+            "a": "The restaurant was famous for its tableside",
+            "b": "Bananas Foster"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Richard Foster",
+        "rootLanguage": "20th-century USA (New Orleans)",
+        "rootMeaning": "Restaurant regular honoured with the flambéed banana dessert",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Richard Foster",
+          "highlight": true
+        },
+        {
+          "text": ", a regular customer honoured when a New Orleans chef flambéed a new banana dessert in his name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Richard Foster",
+      "correctAnswer": "Restaurant regular honoured with the flambéed banana dessert",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Melba",
+    "pronunciation": "MEL-buh",
+    "pos": "noun",
+    "definition": "A dessert of peaches and vanilla ice cream topped with raspberry sauce, or very thin, crisp toast.",
+    "origin": "<strong>Peach Melba</strong> and <strong>Melba toast</strong> both honour Dame Nellie Melba (1861–1931), the celebrated Australian opera soprano who took her stage name from her home city of Melbourne. French chef Auguste Escoffier created the peach dessert in her honour after seeing her perform in London in the 1890s, and later created the crisp, thin toast for her when she needed plain food while unwell.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Melba</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Dame Nellie Melba",
+            "b": "Australian opera soprano, 1861–1931"
+          },
+          {
+            "a": "Stage name taken from",
+            "b": "Melbourne, her home city"
+          },
+          {
+            "a": "Dessert created by",
+            "b": "Chef Auguste Escoffier, after seeing her perform"
+          },
+          {
+            "a": "Toast created for her",
+            "b": "While she needed plain food during illness"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Melba</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Peach Melba describes",
+            "b": "Peaches, ice cream, and raspberry sauce"
+          },
+          {
+            "a": "Melba toast describes",
+            "b": "Very thin, crisp toast"
+          },
+          {
+            "a": "Both named after",
+            "b": "An Australian opera singer"
+          },
+          {
+            "a": "Created by",
+            "b": "Chef Auguste Escoffier"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Melba</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The hotel dessert menu still lists",
+            "b": "Peach Melba"
+          },
+          {
+            "a": "He nibbled dry",
+            "b": "Melba toast with his soup"
+          },
+          {
+            "a": "She ordered the classic",
+            "b": "Peach Melba for dessert"
+          },
+          {
+            "a": "The chef plated raspberry sauce over the",
+            "b": "Melba"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Dame Nellie Melba",
+        "rootLanguage": "19th–20th-century Australia",
+        "rootMeaning": "Opera soprano honoured with both a dessert and a toast",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Dame Nellie Melba",
+          "highlight": true
+        },
+        {
+          "text": ", the opera star whose stage name, taken from Melbourne, ended up on both a dessert and a slice of toast.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Dame Nellie Melba",
+      "correctAnswer": "Opera soprano honoured with both a dessert and a toast",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pilsner",
+    "pronunciation": "PILZ-nur",
+    "pos": "noun",
+    "definition": "A pale, crisp, bottom-fermented lager beer style.",
+    "origin": "<strong>Pilsner</strong> takes its name from Plzeň (Pilsen), a city in Bohemia, now in the Czech Republic, where in 1842 brewers unveiled a new golden, clear lager after years of producing inconsistent, cloudy beer. The style, brewed with soft local water and pale malt, was so successful that it became the template most of the world's lager still follows, all named for the city where it began.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pilsner</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Plzeň (Pilsen)",
+            "b": "City in Bohemia, now the Czech Republic"
+          },
+          {
+            "a": "New beer unveiled in",
+            "b": "1842"
+          },
+          {
+            "a": "Style features",
+            "b": "Pale colour, clarity, and crisp hops"
+          },
+          {
+            "a": "Beer style named for",
+            "b": "The city itself"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pilsner</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pilsner describes",
+            "b": "A pale, crisp lager beer style"
+          },
+          {
+            "a": "Fermentation type",
+            "b": "Bottom-fermented"
+          },
+          {
+            "a": "Origin city",
+            "b": "Plzeň, Bohemia"
+          },
+          {
+            "a": "Became the template for",
+            "b": "Most lager brewed worldwide"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pilsner</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "He ordered a crisp",
+            "b": "Pilsner at the beer garden"
+          },
+          {
+            "a": "The brewery's flagship beer was a classic",
+            "b": "Pilsner"
+          },
+          {
+            "a": "She poured a golden",
+            "b": "Pilsner into a tall glass"
+          },
+          {
+            "a": "The menu listed a Czech",
+            "b": "Pilsner on tap"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Plzeň (Pilsen)",
+        "rootLanguage": "Bohemia (Czech Republic)",
+        "rootMeaning": "City where the clear, golden lager style was first brewed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Plzeň",
+          "highlight": true
+        },
+        {
+          "text": ", the Bohemian city whose 1842 golden lager became the template for beer worldwide.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Plzeň (Pilsen)",
+      "correctAnswer": "City where the clear, golden lager style was first brewed",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Kir",
+    "pronunciation": "KEER",
+    "pos": "noun",
+    "definition": "A drink of white wine mixed with a small amount of blackcurrant liqueur.",
+    "origin": "<strong>Kir</strong> is named after Félix Kir (1876–1968), a French priest and mayor of Dijon who, during his long tenure after the Second World War, popularised the local custom of mixing crème de cassis, a blackcurrant liqueur, with the region's tart white Bourgogne Aligoté wine at official receptions. His enthusiastic promotion of the drink, and his own name, made it a staple of French aperitif culture.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Kir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Félix Kir",
+            "b": "French priest and Mayor of Dijon, 1876–1968"
+          },
+          {
+            "a": "He popularised",
+            "b": "White wine mixed with crème de cassis"
+          },
+          {
+            "a": "Era of promotion",
+            "b": "After the Second World War"
+          },
+          {
+            "a": "Occasion",
+            "b": "Official civic receptions in Dijon"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Kir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Kir describes",
+            "b": "White wine with blackcurrant liqueur"
+          },
+          {
+            "a": "Key liqueur used",
+            "b": "Crème de cassis"
+          },
+          {
+            "a": "Named after",
+            "b": "A French mayor and priest"
+          },
+          {
+            "a": "Related drink",
+            "b": "Kir Royale, made with champagne instead"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Kir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They ordered a",
+            "b": "Kir before dinner"
+          },
+          {
+            "a": "The café served a chilled",
+            "b": "Kir as an aperitif"
+          },
+          {
+            "a": "She topped up her glass with a splash of cassis for a",
+            "b": "Kir"
+          },
+          {
+            "a": "At the reception, waiters passed round glasses of",
+            "b": "Kir"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Félix Kir",
+        "rootLanguage": "20th-century France",
+        "rootMeaning": "Mayor of Dijon who popularised the blackcurrant wine aperitif",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Félix Kir",
+          "highlight": true
+        },
+        {
+          "text": ", the mayor-priest of Dijon whose enthusiasm for a blackcurrant wine mix made it a French institution.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Félix Kir",
+      "correctAnswer": "Mayor of Dijon who popularised the blackcurrant wine aperitif",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Burgundy",
+    "pronunciation": "BUR-gun-dee",
+    "pos": "noun",
+    "definition": "A red or white wine from the Burgundy region of eastern France, or the deep purplish-red colour associated with it.",
+    "origin": "<strong>Burgundy</strong> takes its name from the historic Duchy of Burgundy in eastern France, itself named after the Burgundians, a Germanic people who settled the region in the fifth century. The area's wines became so distinguished that the region's name was applied first to the drink and later, from its deep red colour, to a shade of dark reddish-purple used in fashion and design.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Burgundy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Duchy of Burgundy",
+            "b": "Historic region of eastern France"
+          },
+          {
+            "a": "Named after",
+            "b": "The Burgundians, a Germanic settler people"
+          },
+          {
+            "a": "Settled the region in",
+            "b": "The 5th century"
+          },
+          {
+            "a": "Name later applied to",
+            "b": "A wine, and then a deep red colour"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Burgundy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Burgundy describes",
+            "b": "A wine from eastern France, or its deep red colour"
+          },
+          {
+            "a": "Region known for",
+            "b": "Pinot noir and chardonnay grapes"
+          },
+          {
+            "a": "Named after",
+            "b": "A Germanic settler people"
+          },
+          {
+            "a": "Colour sense used in",
+            "b": "Fashion and interior design"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Burgundy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They shared a bottle of",
+            "b": "Burgundy with dinner"
+          },
+          {
+            "a": "She wore a",
+            "b": "Burgundy dress to the gala"
+          },
+          {
+            "a": "The sommelier recommended a fine",
+            "b": "Burgundy"
+          },
+          {
+            "a": "His scarf was a rich",
+            "b": "Burgundy colour"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Burgundians",
+        "rootLanguage": "5th-century Germanic Europe",
+        "rootMeaning": "Settler people who gave their name to the French wine region",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named, ultimately, for the ",
+          "highlight": false
+        },
+        {
+          "text": "Burgundians",
+          "highlight": true
+        },
+        {
+          "text": ", a Germanic people whose settled region gave its name to a wine and, later, a colour.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Burgundians",
+      "correctAnswer": "Settler people who gave their name to the French wine region",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Champagne",
+    "pronunciation": "sham-PAYN",
+    "pos": "noun",
+    "definition": "A sparkling white wine produced in the Champagne region of France using a specific traditional method.",
+    "origin": "<strong>Champagne</strong> takes its name from the Champagne region of north-eastern France, whose name in turn derives from Latin <em>campania</em>, meaning open countryside or plain. The sparkling wine developed there from the seventeenth century onward, and the region's producers fought hard, eventually winning legal protection, to ensure only wine actually made there under the traditional method may carry the name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Champagne</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Champagne region",
+            "b": "North-eastern France"
+          },
+          {
+            "a": "Name derives from Latin",
+            "b": "Campania, meaning open countryside"
+          },
+          {
+            "a": "Sparkling wine developed from",
+            "b": "The 17th century onward"
+          },
+          {
+            "a": "Legal protection ensures",
+            "b": "Only wine from the region may use the name"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Champagne</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Champagne describes",
+            "b": "Sparkling wine from a specific French region"
+          },
+          {
+            "a": "Legally protected term",
+            "b": "Only wine made there may be called Champagne"
+          },
+          {
+            "a": "Root Latin word means",
+            "b": "Open countryside or plain"
+          },
+          {
+            "a": "Other sparkling wines are called",
+            "b": "Prosecco, cava, or sparkling wine"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Champagne</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They popped a bottle of",
+            "b": "Champagne to celebrate"
+          },
+          {
+            "a": "The toast was made with chilled",
+            "b": "Champagne"
+          },
+          {
+            "a": "She saved the good",
+            "b": "Champagne for New Year's Eve"
+          },
+          {
+            "a": "Only wine from the region may legally be labelled",
+            "b": "Champagne"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "campania",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Open countryside or plain, the root of the French region's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Champagne",
+          "highlight": true
+        },
+        {
+          "text": " region of France, whose Latin root meaning \"open countryside\" now names one of the world's most protected wine terms.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "campania",
+      "correctAnswer": "Open countryside or plain, the root of the French region's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Shiraz",
+    "pronunciation": "shih-RAHZ",
+    "pos": "noun",
+    "definition": "A dark-skinned red wine grape, and the full-bodied red wine made from it, known in France as Syrah.",
+    "origin": "<strong>Shiraz</strong> takes its name from Shiraz, an ancient Persian city in modern-day Iran, long celebrated in poetry and legend as a centre of wine and culture. Though genetic testing has shown the grape actually originated in south-eastern France rather than Persia, the romantic association with the storied city stuck, especially in Australia, where the grape, called Syrah in France, is still widely marketed under the Persian name.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Shiraz</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Shiraz",
+            "b": "Ancient city in Persia (modern Iran)"
+          },
+          {
+            "a": "Long celebrated for",
+            "b": "Poetry, culture, and wine legend"
+          },
+          {
+            "a": "Genetic testing later showed",
+            "b": "The grape actually originated in France"
+          },
+          {
+            "a": "Name still used, especially in",
+            "b": "Australia, for the Syrah grape"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Shiraz</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Shiraz describes",
+            "b": "A dark-skinned red wine grape and its wine"
+          },
+          {
+            "a": "French name for the same grape",
+            "b": "Syrah"
+          },
+          {
+            "a": "True origin of the grape",
+            "b": "South-eastern France, not Persia"
+          },
+          {
+            "a": "Popular in",
+            "b": "Australian winemaking"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Shiraz</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They paired the steak with a bold",
+            "b": "Shiraz"
+          },
+          {
+            "a": "The vineyard was known for its peppery",
+            "b": "Shiraz"
+          },
+          {
+            "a": "She preferred a full-bodied Australian",
+            "b": "Shiraz"
+          },
+          {
+            "a": "The wine list offered a Syrah, labelled",
+            "b": "Shiraz"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Shiraz",
+        "rootLanguage": "Ancient Persia (Iran)",
+        "rootMeaning": "City long associated with wine and poetry, lending its name to the grape",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Shiraz",
+          "highlight": true
+        },
+        {
+          "text": ", the storied Persian city, even though the grape it lent its name to actually hails from France.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Shiraz",
+      "correctAnswer": "City long associated with wine and poetry, lending its name to the grape",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Flambé",
+    "pronunciation": "FLAHM-bay",
+    "pos": "adjective",
+    "definition": "Describing a dish doused with alcohol and set alight briefly before serving.",
+    "origin": "<strong>Flambé</strong> is not a personal eponym but belongs among these dishes as the technique that made several of them famous: it comes directly from the French verb <em>flamber</em>, meaning to flame or blaze, from Latin <em>flammare</em>. The dramatic tableside flame, whether in a crêpe Suzette or bananas Foster, burns off most of the alcohol while concentrating its flavour, and the showmanship of the method became as memorable as the dishes it created.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Flambé</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French verb flamber",
+            "b": "To flame or blaze"
+          },
+          {
+            "a": "Ultimately from Latin",
+            "b": "Flammare, to set on fire"
+          },
+          {
+            "a": "Technique involves",
+            "b": "Alcohol ignited briefly over a dish"
+          },
+          {
+            "a": "Made famous by dishes like",
+            "b": "Crêpe Suzette and Bananas Foster"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Flambé</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Flambé describes",
+            "b": "A dish briefly set alight with alcohol"
+          },
+          {
+            "a": "Purpose of the flame",
+            "b": "Burns off alcohol, concentrates flavour"
+          },
+          {
+            "a": "Comes from French",
+            "b": "Flamber, to flame"
+          },
+          {
+            "a": "Often performed",
+            "b": "Tableside, for dramatic effect"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Flambé</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The waiter prepared the dessert",
+            "b": "Flambé at the table"
+          },
+          {
+            "a": "She loved the dramatic",
+            "b": "Flambé finish to the dish"
+          },
+          {
+            "a": "The chef poured brandy over the pan for a",
+            "b": "Flambé"
+          },
+          {
+            "a": "Guests gasped as the crêpes went",
+            "b": "Flambé"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "flamber",
+        "rootLanguage": "French, from Latin flammare",
+        "rootMeaning": "To flame or set alight",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From French ",
+          "highlight": false
+        },
+        {
+          "text": "flamber",
+          "highlight": true
+        },
+        {
+          "text": " (to flame), the technique that gave several desserts their dramatic tableside finish.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "flamber",
+      "correctAnswer": "To flame or set alight",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fuchsia",
+    "pronunciation": "FYOO-shuh",
+    "pos": "noun",
+    "definition": "A vivid purplish-pink colour, or the ornamental flowering shrub it is named after.",
+    "origin": "<strong>Fuchsia</strong> is named after Leonhart Fuchs (1501–1566), a German physician and botanist whose influential herbal, <em>De Historia Stirpium</em>, catalogued and illustrated hundreds of plants. He never saw the flowering shrub himself, since it grows wild in Central and South America and was not identified by Europeans until decades after his death, but botanists honoured his contribution to botany by naming the genus, and later the colour, after him.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fuchsia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Leonhart Fuchs",
+            "b": "German physician and botanist, 1501–1566"
+          },
+          {
+            "a": "His major work",
+            "b": "De Historia Stirpium, an influential plant herbal"
+          },
+          {
+            "a": "He never saw the plant, which grows in",
+            "b": "Central and South America"
+          },
+          {
+            "a": "Genus named after him by",
+            "b": "Later botanists, after his death"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fuchsia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Fuchsia describes",
+            "b": "A vivid purplish-pink colour or flowering shrub"
+          },
+          {
+            "a": "Named after",
+            "b": "A German botanist who never saw the plant"
+          },
+          {
+            "a": "Native region of the plant",
+            "b": "Central and South America"
+          },
+          {
+            "a": "Now widely used to describe",
+            "b": "A bold pink shade"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fuchsia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The garden was full of drooping",
+            "b": "Fuchsia blossoms"
+          },
+          {
+            "a": "She painted her nails a bright",
+            "b": "Fuchsia"
+          },
+          {
+            "a": "The dress came in a bold",
+            "b": "Fuchsia pink"
+          },
+          {
+            "a": "Hummingbirds were drawn to the",
+            "b": "Fuchsia flowers"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Leonhart Fuchs",
+        "rootLanguage": "16th-century Germany",
+        "rootMeaning": "Botanist honoured by a flower he never saw",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Leonhart Fuchs",
+          "highlight": true
+        },
+        {
+          "text": ", the German botanist honoured with a flower, and later a colour, he never lived to see.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Leonhart Fuchs",
+      "correctAnswer": "Botanist honoured by a flower he never saw",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dahlia",
+    "pronunciation": "DAY-lee-uh",
+    "pos": "noun",
+    "definition": "A garden plant with brightly coloured, many-petalled flowers, native to Mexico and Central America.",
+    "origin": "<strong>Dahlia</strong> is named after Anders Dahl (1751–1789), a Swedish botanist and student of Carl Linnaeus, who never travelled to the Americas but was honoured by his teacher's successor with the naming of a Mexican flower first sent to Europe as seeds in the 1780s. Dahl himself died the same year the plant was formally named for him, without ever learning of the tribute.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dahlia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Anders Dahl",
+            "b": "Swedish botanist, 1751–1789"
+          },
+          {
+            "a": "Studied under",
+            "b": "Carl Linnaeus"
+          },
+          {
+            "a": "Flower native to",
+            "b": "Mexico and Central America"
+          },
+          {
+            "a": "Named for Dahl in",
+            "b": "1789, the year he died"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dahlia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Dahlia describes",
+            "b": "A brightly coloured, many-petalled garden flower"
+          },
+          {
+            "a": "Native region",
+            "b": "Mexico and Central America"
+          },
+          {
+            "a": "Named after",
+            "b": "A Swedish botanist"
+          },
+          {
+            "a": "Botanical mentor",
+            "b": "Carl Linnaeus"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dahlia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The garden competition's prize flower was a giant",
+            "b": "Dahlia"
+          },
+          {
+            "a": "She arranged a bouquet of vivid",
+            "b": "Dahlias"
+          },
+          {
+            "a": "The allotment grew rows of prize",
+            "b": "Dahlias"
+          },
+          {
+            "a": "Autumn brought the last blooms of the",
+            "b": "Dahlia season"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Anders Dahl",
+        "rootLanguage": "18th-century Sweden",
+        "rootMeaning": "Botanist honoured with a Mexican flower he never saw",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Anders Dahl",
+          "highlight": true
+        },
+        {
+          "text": ", the Swedish botanist honoured, the very year he died, with a Mexican flower he never laid eyes on.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Anders Dahl",
+      "correctAnswer": "Botanist honoured with a Mexican flower he never saw",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Magnolia",
+    "pronunciation": "mag-NOH-lee-uh",
+    "pos": "noun",
+    "definition": "A tree or shrub with large, often fragrant, cup-shaped flowers, an ancient genus predating bees.",
+    "origin": "<strong>Magnolia</strong> is named after Pierre Magnol (1638–1715), a French botanist and physician who directed the botanical garden at Montpellier and pioneered the concept of grouping plants into families based on shared characteristics, laying groundwork for modern plant classification. Botanist Charles Plumier honoured him by naming the genus after a flowering tree Plumier had encountered in the Caribbean.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Magnolia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Pierre Magnol",
+            "b": "French botanist and physician, 1638–1715"
+          },
+          {
+            "a": "His contribution",
+            "b": "Pioneered grouping plants into families"
+          },
+          {
+            "a": "Directed",
+            "b": "The botanical garden at Montpellier"
+          },
+          {
+            "a": "Genus named by",
+            "b": "Charles Plumier, after a Caribbean tree"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Magnolia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Magnolia describes",
+            "b": "A tree with large, fragrant, cup-shaped flowers"
+          },
+          {
+            "a": "Named after",
+            "b": "A French pioneer of plant classification"
+          },
+          {
+            "a": "Genus is notably",
+            "b": "Ancient, predating bees as pollinators"
+          },
+          {
+            "a": "Named by",
+            "b": "Botanist Charles Plumier"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Magnolia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The southern garden was shaded by a huge",
+            "b": "Magnolia tree"
+          },
+          {
+            "a": "Spring brought the first",
+            "b": "Magnolia blossoms"
+          },
+          {
+            "a": "She pressed a fallen",
+            "b": "Magnolia petal into her diary"
+          },
+          {
+            "a": "The street was lined with flowering",
+            "b": "Magnolias"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Pierre Magnol",
+        "rootLanguage": "17th-century France",
+        "rootMeaning": "Botanist who pioneered grouping plants into families",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Pierre Magnol",
+          "highlight": true
+        },
+        {
+          "text": ", the French botanist whose pioneering plant classification earned him an ancient flowering tree.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Pierre Magnol",
+      "correctAnswer": "Botanist who pioneered grouping plants into families",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Poinsettia",
+    "pronunciation": "poyn-SET-ee-uh",
+    "pos": "noun",
+    "definition": "A plant with large red or pink bracts surrounding small yellow flowers, traditionally associated with Christmas.",
+    "origin": "<strong>Poinsettia</strong> is named after Joel Roberts Poinsett (1779–1851), the first United States Minister to Mexico, who while serving there in the 1820s became fascinated by the vivid red plant growing wild and sent cuttings back to his greenhouses in South Carolina. His skill as an amateur botanist, alongside his diplomatic career, spread the plant through the United States, where it became a fixture of Christmas decoration.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Poinsettia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Joel Roberts Poinsett",
+            "b": "First US Minister to Mexico, 1779–1851"
+          },
+          {
+            "a": "Discovered the plant while",
+            "b": "Serving in Mexico in the 1820s"
+          },
+          {
+            "a": "He sent cuttings to",
+            "b": "His greenhouses in South Carolina"
+          },
+          {
+            "a": "Plant became associated with",
+            "b": "Christmas decoration in the US"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Poinsettia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Poinsettia describes",
+            "b": "A plant with red bracts around small flowers"
+          },
+          {
+            "a": "Named after",
+            "b": "A US diplomat and amateur botanist"
+          },
+          {
+            "a": "Native to",
+            "b": "Mexico"
+          },
+          {
+            "a": "Traditionally associated with",
+            "b": "Christmas"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Poinsettia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The mantelpiece was decorated with a red",
+            "b": "Poinsettia"
+          },
+          {
+            "a": "Every December the shop sold trays of",
+            "b": "Poinsettias"
+          },
+          {
+            "a": "She wrapped the potted",
+            "b": "Poinsettia as a holiday gift"
+          },
+          {
+            "a": "The church altar displayed rows of",
+            "b": "Poinsettias"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Joel Roberts Poinsett",
+        "rootLanguage": "19th-century USA/Mexico",
+        "rootMeaning": "Diplomat who introduced the plant to the United States",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Joel Roberts Poinsett",
+          "highlight": true
+        },
+        {
+          "text": ", the American diplomat whose fascination with a Mexican plant made it a Christmas fixture back home.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Joel Roberts Poinsett",
+      "correctAnswer": "Diplomat who introduced the plant to the United States",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cantaloupe",
+    "pronunciation": "KAN-tuh-lohp",
+    "pos": "noun",
+    "definition": "A sweet, orange-fleshed variety of melon with a rough, netted rind.",
+    "origin": "<strong>Cantaloupe</strong> takes its name from Cantalupo, a former papal estate near Rome where the melon was reportedly cultivated after seeds arrived from Armenia in the fifteenth century, though some scholars trace the name instead to a town of the same name in southern France. Either way, the fruit carried an Italian place name into English, even as European and American varieties later diverged.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cantaloupe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Cantalupo",
+            "b": "Former papal estate near Rome"
+          },
+          {
+            "a": "Melon seeds reportedly arrived from",
+            "b": "Armenia, 15th century"
+          },
+          {
+            "a": "Alternative theory points to",
+            "b": "A town of the same name in southern France"
+          },
+          {
+            "a": "Fruit name carried into",
+            "b": "English, from the Italian estate"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cantaloupe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cantaloupe describes",
+            "b": "A sweet melon with netted rind"
+          },
+          {
+            "a": "Flesh colour is typically",
+            "b": "Orange"
+          },
+          {
+            "a": "Named after",
+            "b": "An Italian papal estate"
+          },
+          {
+            "a": "Seeds reportedly came from",
+            "b": "Armenia"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cantaloupe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Breakfast included a bowl of fresh",
+            "b": "Cantaloupe"
+          },
+          {
+            "a": "She sliced the ripe",
+            "b": "Cantaloupe for the fruit salad"
+          },
+          {
+            "a": "The market stall sold sweet, fragrant",
+            "b": "Cantaloupes"
+          },
+          {
+            "a": "He wrapped prosciutto around a wedge of",
+            "b": "Cantaloupe"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Cantalupo",
+        "rootLanguage": "15th-century Italy",
+        "rootMeaning": "Papal estate where the melon was reportedly first cultivated in Europe",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Cantalupo",
+          "highlight": true
+        },
+        {
+          "text": ", the Italian papal estate where a melon from Armenian seed reportedly first took root in Europe.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Cantalupo",
+      "correctAnswer": "Papal estate where the melon was reportedly first cultivated in Europe",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Waldorf",
+    "pronunciation": "WAWL-dorf",
+    "pos": "noun",
+    "definition": "A salad of chopped apples, celery, walnuts, and grapes bound in mayonnaise.",
+    "origin": "<strong>Waldorf salad</strong> is named after the Waldorf-Astoria Hotel in New York City, where maître d'hôtel Oscar Tschirky created it around 1893, reportedly for the hotel's opening. His original version contained just apples, celery, and mayonnaise, with walnuts added to the recipe only later, but the hotel's name has stayed attached to the dish through every variation since.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Waldorf</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Waldorf-Astoria Hotel",
+            "b": "New York City hotel"
+          },
+          {
+            "a": "Salad created by",
+            "b": "Oscar Tschirky, the hotel's maître d'hôtel"
+          },
+          {
+            "a": "Created around",
+            "b": "1893"
+          },
+          {
+            "a": "Original recipe had",
+            "b": "Apples, celery, and mayonnaise, no walnuts"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Waldorf</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Waldorf salad describes",
+            "b": "Apples, celery, walnuts, and grapes in mayonnaise"
+          },
+          {
+            "a": "Named after",
+            "b": "A famous New York hotel"
+          },
+          {
+            "a": "Created by",
+            "b": "The hotel's maître d'hôtel"
+          },
+          {
+            "a": "Walnuts were",
+            "b": "A later addition to the original recipe"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Waldorf</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The lunch menu offered a classic",
+            "b": "Waldorf salad"
+          },
+          {
+            "a": "She tossed apples and walnuts for a homemade",
+            "b": "Waldorf"
+          },
+          {
+            "a": "The hotel restaurant still serves its namesake",
+            "b": "Waldorf salad"
+          },
+          {
+            "a": "He added grapes for extra sweetness to his",
+            "b": "Waldorf"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Waldorf-Astoria Hotel",
+        "rootLanguage": "19th-century USA (New York)",
+        "rootMeaning": "Hotel where the maître d'hôtel created the salad",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for the ",
+          "highlight": false
+        },
+        {
+          "text": "Waldorf-Astoria Hotel",
+          "highlight": true
+        },
+        {
+          "text": ", where a maître d'hôtel's simple apple and celery mix became a lasting classic.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Waldorf-Astoria Hotel",
+      "correctAnswer": "Hotel where the maître d'hôtel created the salad",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cobb",
+    "pronunciation": "KOB",
+    "pos": "noun",
+    "definition": "A salad of chopped lettuce, tomato, bacon, chicken, hard-boiled egg, avocado, and blue cheese, arranged in rows.",
+    "origin": "<strong>Cobb salad</strong> is named after Robert Cobb (1899–1970), owner of the Hollywood Brown Derby restaurant, who is said to have thrown the dish together in 1937 from leftovers in his kitchen late one night to feed himself and a hungry visiting friend. The improvised combination proved so popular with regulars that it became a permanent, and now iconic, fixture of the menu.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cobb</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Robert Cobb",
+            "b": "Owner of the Hollywood Brown Derby, 1899–1970"
+          },
+          {
+            "a": "Created the salad in",
+            "b": "1937"
+          },
+          {
+            "a": "Reason for creation",
+            "b": "Improvised from kitchen leftovers, late at night"
+          },
+          {
+            "a": "Became",
+            "b": "A permanent, iconic menu item"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cobb</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Cobb salad describes",
+            "b": "Chopped ingredients arranged in neat rows"
+          },
+          {
+            "a": "Typical ingredients include",
+            "b": "Bacon, chicken, egg, and blue cheese"
+          },
+          {
+            "a": "Named after",
+            "b": "A Hollywood restaurant owner"
+          },
+          {
+            "a": "Created from",
+            "b": "Leftover kitchen ingredients"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cobb</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The diner's specialty was a hearty",
+            "b": "Cobb salad"
+          },
+          {
+            "a": "She arranged the ingredients neatly for a classic",
+            "b": "Cobb"
+          },
+          {
+            "a": "He asked for extra bacon on his",
+            "b": "Cobb salad"
+          },
+          {
+            "a": "The restaurant's founder invented the original",
+            "b": "Cobb salad from leftovers"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Robert Cobb",
+        "rootLanguage": "20th-century USA (Hollywood)",
+        "rootMeaning": "Restaurant owner who improvised the salad from leftovers",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Robert Cobb",
+          "highlight": true
+        },
+        {
+          "text": ", the Hollywood restaurateur whose late-night improvised leftovers became a menu icon.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Robert Cobb",
+      "correctAnswer": "Restaurant owner who improvised the salad from leftovers",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Carpaccio",
+    "pronunciation": "kar-PAH-choh",
+    "pos": "noun",
+    "definition": "A dish of thinly sliced raw meat or fish, typically served with a light dressing.",
+    "origin": "<strong>Carpaccio</strong> is named after Vittore Carpaccio (c.1465–1525), the Venetian Renaissance painter celebrated for his vivid use of red. In 1950, Giuseppe Cipriani of Harry's Bar in Venice, the same bar that gave the world the Bellini, created a dish of paper-thin raw beef for a countess advised by her doctor to avoid cooked meat, and its deep red colour reminded him of Carpaccio's canvases.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Carpaccio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Vittore Carpaccio",
+            "b": "Venetian Renaissance painter, c.1465–1525"
+          },
+          {
+            "a": "Known for",
+            "b": "Vivid, deep red tones in his paintings"
+          },
+          {
+            "a": "Dish created by",
+            "b": "Giuseppe Cipriani, Harry's Bar, Venice, 1950"
+          },
+          {
+            "a": "Created for",
+            "b": "A countess advised to avoid cooked meat"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Carpaccio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Carpaccio describes",
+            "b": "Thinly sliced raw meat or fish"
+          },
+          {
+            "a": "Named after",
+            "b": "A Renaissance painter, for the dish's red colour"
+          },
+          {
+            "a": "Invented at",
+            "b": "Harry's Bar in Venice"
+          },
+          {
+            "a": "Same bar that invented",
+            "b": "The Bellini cocktail"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Carpaccio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The starter menu offered a beef",
+            "b": "Carpaccio"
+          },
+          {
+            "a": "She ordered a delicate salmon",
+            "b": "Carpaccio"
+          },
+          {
+            "a": "The chef sliced the tuna paper-thin for a",
+            "b": "Carpaccio"
+          },
+          {
+            "a": "Drizzled with oil, the",
+            "b": "Carpaccio glistened on the plate"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vittore Carpaccio",
+        "rootLanguage": "15th–16th-century Venice",
+        "rootMeaning": "Painter whose vivid red tones inspired the raw meat dish's name",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Vittore Carpaccio",
+          "highlight": true
+        },
+        {
+          "text": ", the Venetian painter whose vivid reds gave a paper-thin raw beef dish its name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vittore Carpaccio",
+      "correctAnswer": "Painter whose vivid red tones inspired the raw meat dish's name",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mocha",
+    "pronunciation": "MOH-kuh",
+    "pos": "noun",
+    "definition": "A drink or flavour combining coffee and chocolate.",
+    "origin": "<strong>Mocha</strong> takes its name from Mocha, a port city in Yemen that from the fifteenth to the seventeenth centuries was the world's principal hub for coffee export, giving its name simply to coffee itself for a time. The specific coffee-chocolate flavour pairing came later, but it kept the port city's name attached, long after Mocha's trading importance had faded.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mocha</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Mocha",
+            "b": "Port city in Yemen"
+          },
+          {
+            "a": "Era of importance",
+            "b": "15th to 17th centuries"
+          },
+          {
+            "a": "Role at the time",
+            "b": "World's principal hub for coffee export"
+          },
+          {
+            "a": "Name later applied to",
+            "b": "The coffee-chocolate flavour combination"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mocha</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mocha describes",
+            "b": "A coffee and chocolate flavour or drink"
+          },
+          {
+            "a": "Named after",
+            "b": "A Yemeni port city"
+          },
+          {
+            "a": "Historic role of the city",
+            "b": "Global centre of the coffee trade"
+          },
+          {
+            "a": "Modern usage often refers to",
+            "b": "A café drink or dessert flavour"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mocha</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She ordered a warm",
+            "b": "Mocha on the cold morning"
+          },
+          {
+            "a": "The café's menu listed a chocolate",
+            "b": "Mocha latte"
+          },
+          {
+            "a": "He baked a rich",
+            "b": "Mocha cake for the party"
+          },
+          {
+            "a": "The barista drizzled chocolate syrup into her",
+            "b": "Mocha"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Mocha",
+        "rootLanguage": "Yemen",
+        "rootMeaning": "Port city that once dominated the global coffee trade",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Mocha",
+          "highlight": true
+        },
+        {
+          "text": ", the Yemeni port that once shipped the world's coffee, and later lent its name to the coffee-chocolate blend.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Mocha",
+      "correctAnswer": "Port city that once dominated the global coffee trade",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Delmonico",
+    "pronunciation": "del-MON-ih-koh",
+    "pos": "noun",
+    "definition": "A thick, boneless cut of beef steak, typically from the rib section, known for its rich marbling.",
+    "origin": "<strong>Delmonico</strong> steak takes its name from Delmonico's, the restaurant opened in New York City in 1837 by Swiss brothers John and Peter Delmonico, widely credited as America's first fine-dining establishment. The restaurant served a particular well-marbled cut of steak that became so associated with its name that \"Delmonico\" is still used for that style of steak today, long after the original restaurant closed.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Delmonico</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Delmonico's",
+            "b": "New York restaurant, opened 1837"
+          },
+          {
+            "a": "Founded by",
+            "b": "Swiss brothers John and Peter Delmonico"
+          },
+          {
+            "a": "Reputation",
+            "b": "Widely regarded as America's first fine-dining restaurant"
+          },
+          {
+            "a": "Steak cut named for",
+            "b": "The restaurant that served it"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Delmonico</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Delmonico describes",
+            "b": "A thick, well-marbled cut of beef steak"
+          },
+          {
+            "a": "Named after",
+            "b": "A pioneering New York restaurant"
+          },
+          {
+            "a": "Founded by",
+            "b": "Swiss immigrant brothers"
+          },
+          {
+            "a": "Considered",
+            "b": "One of America's earliest fine-dining icons"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Delmonico</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The steakhouse's specialty was a thick",
+            "b": "Delmonico"
+          },
+          {
+            "a": "He ordered a well-marbled",
+            "b": "Delmonico, medium rare"
+          },
+          {
+            "a": "The butcher recommended the",
+            "b": "Delmonico cut"
+          },
+          {
+            "a": "She seared the",
+            "b": "Delmonico in a hot cast-iron pan"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Delmonico's",
+        "rootLanguage": "19th-century USA (New York)",
+        "rootMeaning": "America's pioneering fine-dining restaurant",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Delmonico's",
+          "highlight": true
+        },
+        {
+          "text": ", the pioneering New York restaurant whose signature marbled steak still carries its name.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Delmonico's",
+      "correctAnswer": "America's pioneering fine-dining restaurant",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Granny",
+    "pronunciation": "GRAN-ee",
+    "pos": "noun",
+    "definition": "A tart, crisp, bright green variety of apple, formally called the Granny Smith.",
+    "origin": "<strong>Granny Smith</strong> apples are named after Maria Ann \"Granny\" Smith (1799–1870), an English-born orchardist in New South Wales, Australia, who around 1868 discovered a chance seedling growing from discarded French crab apples near a creek on her property. She propagated the tart, green apple herself, and it became one of the most widely grown apple varieties in the world, still carrying her homely nickname.",
+    "tier": "premium",
+    "packId": "eponym",
+    "subpack": {
+      "id": "eponym-food",
+      "name": "Food & Drink",
+      "packId": "eponym"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Granny</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Maria Ann \"Granny\" Smith",
+            "b": "English-born orchardist, 1799–1870"
+          },
+          {
+            "a": "Discovered the apple around",
+            "b": "1868, in New South Wales, Australia"
+          },
+          {
+            "a": "Origin of the seedling",
+            "b": "Discarded French crab apples near a creek"
+          },
+          {
+            "a": "She propagated the apple",
+            "b": "Herself, on her own property"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Granny</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Granny describes",
+            "b": "A tart, crisp, bright green apple"
+          },
+          {
+            "a": "Full name of the variety",
+            "b": "Granny Smith"
+          },
+          {
+            "a": "Discovered by",
+            "b": "An orchardist in Australia"
+          },
+          {
+            "a": "Origin of the seedling",
+            "b": "A chance sprouting from discarded apples"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Granny</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She sliced a tart",
+            "b": "Granny Smith into the salad"
+          },
+          {
+            "a": "The pie called for six crisp",
+            "b": "Granny apples"
+          },
+          {
+            "a": "He preferred the sourness of a",
+            "b": "Granny Smith to a sweeter variety"
+          },
+          {
+            "a": "The fruit bowl held one bright green",
+            "b": "Granny apple"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Maria Ann \"Granny\" Smith",
+        "rootLanguage": "19th-century Australia",
+        "rootMeaning": "Orchardist who discovered the tart green apple by chance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Named for ",
+          "highlight": false
+        },
+        {
+          "text": "Maria Ann \"Granny\" Smith",
+          "highlight": true
+        },
+        {
+          "text": ", the Australian orchardist whose chance seedling by a creek became one of the world's most popular apples.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Maria Ann \"Granny\" Smith",
+      "correctAnswer": "Orchardist who discovered the tart green apple by chance",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

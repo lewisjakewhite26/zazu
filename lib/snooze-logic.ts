@@ -6,7 +6,7 @@ import { toLocalDateKey } from './date-utils';
 /** Default minutes a snoozed alarm is deferred by, before the user drags the slider. */
 export const SNOOZE_MINUTES = 8;
 
-/** Slider bounds — kept well short of a full sleep cycle so a snooze stays a snooze. */
+/** Bounds — kept well short of a full sleep cycle so a snooze stays a snooze. */
 export const SNOOZE_MIN_MINUTES = 1;
 export const SNOOZE_MAX_MINUTES = 20;
 

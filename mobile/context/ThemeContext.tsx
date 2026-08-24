@@ -67,6 +67,13 @@ const STATIC_EXTRAS = {
   alarmGlowLight: staticColors.alarmGlowLight,
   alarmGlowDark: staticColors.alarmGlowDark,
   successGlow: staticColors.successGlow,
+  goldLight: staticColors.goldLight,
+  goldGlow: staticColors.goldGlow,
+  goldGlowDark: staticColors.goldGlowDark,
+  goldCardFill: staticColors.goldCardFill,
+  goldCardFillDark: staticColors.goldCardFillDark,
+  goldCardBorder: staticColors.goldCardBorder,
+  goldCardBorderDark: staticColors.goldCardBorderDark,
 } as const;
 
 function mergePalette(palette: ThemePalette) {

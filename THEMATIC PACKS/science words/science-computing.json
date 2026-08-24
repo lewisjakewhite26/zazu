@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Pixel",
+    "pronunciation": "PIK-suhl",
+    "pos": "noun",
+    "definition": "The smallest single element of a digital image or display, each carrying its own colour and brightness value.",
+    "origin": "A blend of <strong>pic</strong> (from picture) + element, coined in 1965 by engineers at the Jet Propulsion Laboratory to describe the tiny units making up digitised space probe images.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pixel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Pic comes from", "b": "Picture" },
+          { "a": "El comes from", "b": "Element" },
+          { "a": "Coined in 1965 at the", "b": "Jet Propulsion Laboratory" },
+          { "a": "First described tiny units in", "b": "Digitised space probe images" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pixel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pixel is the smallest element of a", "b": "Digital image or display" },
+          { "a": "Each pixel carries its own", "b": "Colour and brightness value" },
+          { "a": "A screen's resolution describes its total number of", "b": "Pixels" },
+          { "a": "Zooming too far into a photo reveals", "b": "Individual pixels" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pixel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The new monitor boasted millions of", "b": "Pixels" },
+          { "a": "Zoomed in too far, the photo turned into a blur of", "b": "Pixels" },
+          { "a": "The artist worked in a retro,", "b": "Pixel-art style" },
+          { "a": "One dead pixel appeared as a tiny stuck", "b": "Dot on the screen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pic + element", "rootLanguage": "English blend", "rootMeaning": "Picture element", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "pic + element", "highlight": true }, { "text": "; the tiny building block of every digital image.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pic + element", "correctAnswer": "Picture element", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Byte",
+    "pronunciation": "byt",
+    "pos": "noun",
+    "definition": "A unit of digital information, typically consisting of eight bits, used to represent a single character of text.",
+    "origin": "Coined in 1956 by IBM engineer Werner Buchholz, who deliberately respelled <strong>bite</strong> to avoid confusion with the similar-sounding word bit, the smallest unit of binary information.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Byte</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A deliberate respelling of", "b": "Bite" },
+          { "a": "Coined in 1956 by", "b": "Werner Buchholz" },
+          { "a": "Buchholz worked for", "b": "IBM" },
+          { "a": "Respelled to avoid confusion with", "b": "Bit" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Byte</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A byte typically consists of", "b": "Eight bits" },
+          { "a": "A byte usually represents one", "b": "Character of text" },
+          { "a": "A megabyte contains roughly one million", "b": "Bytes" },
+          { "a": "File sizes on a computer are measured in", "b": "Bytes" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Byte</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old floppy disk could store just over a", "b": "Megabyte of data" },
+          { "a": "The file size was listed as", "b": "2.4 gigabytes" },
+          { "a": "The programmer optimised the code to save every", "b": "Byte of memory" },
+          { "a": "The download counter ticked up, byte by", "b": "Byte" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bite", "rootLanguage": "English (respelled)", "rootMeaning": "A small chunk, deliberately misspelled", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A deliberate respelling of ", "highlight": false }, { "text": "bite", "highlight": true }, { "text": "; a small chunk of data, renamed to avoid confusion with \"bit.\"", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bite", "correctAnswer": "A small chunk, deliberately misspelled", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Boolean",
+    "pronunciation": "BOO-lee-uhn",
+    "pos": "adjective",
+    "definition": "Relating to a system of logic in which values are restricted to true or false, used extensively in computer programming and search queries.",
+    "origin": "Named after English mathematician <strong>George Boole</strong>, who published An Investigation of the Laws of Thought in 1854, laying out an algebra of logic built entirely on true and false values.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Boolean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "George Boole" },
+          { "a": "Boole published his key work in", "b": "1854" },
+          { "a": "The book was titled", "b": "An Investigation of the Laws of Thought" },
+          { "a": "Boole built an algebra of logic using", "b": "True and false values" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Boolean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A Boolean value can only be", "b": "True or false" },
+          { "a": "Boolean logic uses operators such as", "b": "AND, OR, and NOT" },
+          { "a": "Search engines use Boolean operators to", "b": "Refine search results" },
+          { "a": "Programmers use Boolean variables to control", "b": "Conditional logic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Boolean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The function returned a simple", "b": "Boolean value" },
+          { "a": "She refined her search using", "b": "Boolean operators" },
+          { "a": "The database query relied on a", "b": "Boolean condition" },
+          { "a": "The switch's state was stored as a single", "b": "Boolean flag" }
+        ] }
+    ],
+    "roots": [ { "rootText": "George Boole", "rootLanguage": "English (eponym)", "rootMeaning": "Mathematician who founded logical algebra", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "George Boole", "highlight": true }, { "text": ", whose true-or-false algebra underlies all modern computing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "George Boole", "correctAnswer": "Mathematician who founded logical algebra", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Software",
+    "pronunciation": "SOFT-wair",
+    "pos": "noun",
+    "definition": "The programs and other operating information used by a computer, as distinct from its physical components.",
+    "origin": "A compound of <strong>soft</strong> + ware, first used in this sense in 1953, deliberately coined to contrast with hardware, the physical, fixed machinery of a computer.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Software</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of soft and", "b": "Ware" },
+          { "a": "First used in this sense in", "b": "1953" },
+          { "a": "Coined to contrast with", "b": "Hardware" },
+          { "a": "'Soft' reflects the fact that programs are", "b": "Easily changed, unlike fixed machinery" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Software</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Software refers to a computer's", "b": "Programs and instructions" },
+          { "a": "Unlike hardware, software has no", "b": "Physical form" },
+          { "a": "An operating system is a type of", "b": "Software" },
+          { "a": "Updating software fixes bugs and adds", "b": "New features" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Software</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The IT department rolled out a", "b": "Software update" },
+          { "a": "The company builds accounting", "b": "Software for small businesses" },
+          { "a": "The bug was traced to a flaw in the", "b": "Software" },
+          { "a": "Her degree focused on", "b": "Software engineering" }
+        ] }
+    ],
+    "roots": [ { "rootText": "soft + ware", "rootLanguage": "English", "rootMeaning": "Intangible, changeable components", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "soft + ware", "highlight": true }, { "text": "; the changeable instructions, as opposed to the fixed machine.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "soft + ware", "correctAnswer": "Intangible, changeable components", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hardware",
+    "pronunciation": "HARD-wair",
+    "pos": "noun",
+    "definition": "The physical components of a computer system, such as the processor, memory, and casing, as distinct from the programs it runs.",
+    "origin": "From Middle English <strong>hard</strong> + ware, originally denoting metal tools and fittings such as nails and locks; the word was repurposed in the mid-20th century for the physical parts of a computer.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hardware</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Originally meant", "b": "Metal tools and fittings" },
+          { "a": "Included items such as", "b": "Nails and locks" },
+          { "a": "Repurposed for computing in the", "b": "Mid-20th century" },
+          { "a": "Contrasted with the newer term", "b": "Software" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hardware</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Hardware refers to a computer's", "b": "Physical components" },
+          { "a": "A hardware shop traditionally sells", "b": "Tools and fittings" },
+          { "a": "The processor and memory chips are examples of", "b": "Hardware" },
+          { "a": "Upgrading hardware might mean adding more", "b": "Memory or storage" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hardware</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The technician replaced a faulty piece of", "b": "Hardware" },
+          { "a": "He picked up some screws from the local", "b": "Hardware shop" },
+          { "a": "The gaming rig featured top-of-the-line", "b": "Hardware" },
+          { "a": "The fault turned out to be", "b": "Hardware, not software" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hard + ware", "rootLanguage": "English", "rootMeaning": "Physical, fixed metal goods", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "hard + ware", "highlight": true }, { "text": "; once tools and nails, now a computer's physical parts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hard + ware", "correctAnswer": "Physical, fixed metal goods", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ethernet",
+    "pronunciation": "EE-thuh-net",
+    "pos": "noun",
+    "definition": "A widely used technology for connecting computers within a local network via cable.",
+    "origin": "Coined in 1973 by American engineer Robert Metcalfe, blending <strong>ether</strong> (the once-hypothesised medium filling all space) with network, reflecting the way data was imagined as passing through a shared medium.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ethernet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blend of ether and", "b": "Network" },
+          { "a": "Coined in 1973 by", "b": "Robert Metcalfe" },
+          { "a": "Ether refers to the old idea of", "b": "A medium filling all space" },
+          { "a": "The name reflects data passing through a shared", "b": "Medium" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ethernet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ethernet connects computers within a", "b": "Local network" },
+          { "a": "Ethernet typically uses a physical", "b": "Cable" },
+          { "a": "Ethernet is often faster and more stable than", "b": "Wi-Fi" },
+          { "a": "The Ethernet cable plugs into a computer's", "b": "Network port" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ethernet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "For a stable connection, he plugged in an", "b": "Ethernet cable" },
+          { "a": "The office network relied on wired", "b": "Ethernet connections" },
+          { "a": "Gamers often prefer", "b": "Ethernet over Wi-Fi for lower latency" },
+          { "a": "The router had four", "b": "Ethernet ports on the back" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ether + network", "rootLanguage": "English blend", "rootMeaning": "A shared medium for network data", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "ether + network", "highlight": true }, { "text": "; data imagined flowing through one shared medium.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ether + network", "correctAnswer": "A shared medium for network data", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Computer",
+    "pronunciation": "kuhm-PYOO-tuh",
+    "pos": "noun",
+    "definition": "An electronic device capable of storing, retrieving, and processing data according to programmed instructions.",
+    "origin": "From Latin <strong>computare</strong> (to calculate), from com- (together) + putare (to reckon). Until the mid-20th century, a \"computer\" was a person employed to perform calculations by hand.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Computer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin computare", "b": "To calculate" },
+          { "a": "Latin putare", "b": "To reckon" },
+          { "a": "Until the mid-20th century, a computer was a", "b": "Person who performed calculations by hand" },
+          { "a": "The machine sense became dominant after the", "b": "1940s and 1950s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Computer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A computer stores, retrieves, and processes", "b": "Data" },
+          { "a": "A computer follows", "b": "Programmed instructions" },
+          { "a": "Early human 'computers' worked on projects like", "b": "Wartime code-breaking" },
+          { "a": "A laptop is a portable type of", "b": "Computer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Computer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old desktop", "b": "Computer finally gave out" },
+          { "a": "She spent the afternoon fixing a friend's", "b": "Computer" },
+          { "a": "The film told the story of the women who worked as human", "b": "Computers" },
+          { "a": "The office upgraded every", "b": "Computer in the building" }
+        ] }
+    ],
+    "roots": [ { "rootText": "computare", "rootLanguage": "Latin", "rootMeaning": "To calculate", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "computare", "highlight": true }, { "text": " (to calculate); once a person's job title, now a machine on every desk.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "computare", "correctAnswer": "To calculate", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cybernetics",
+    "pronunciation": "sy-buh-NET-iks",
+    "pos": "noun",
+    "definition": "The scientific study of control and communication in animals, machines, and complex systems.",
+    "origin": "Coined in 1948 by American mathematician Norbert Wiener from Greek <strong>kybernetes</strong> (steersman, governor), the same root that later gave rise to the word cyberspace.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cybernetics</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kybernetes", "b": "Steersman, governor" },
+          { "a": "Coined in 1948 by", "b": "Norbert Wiener" },
+          { "a": "Wiener was an", "b": "American mathematician" },
+          { "a": "The same Greek root later gave rise to", "b": "Cyberspace" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cybernetics</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cybernetics studies control and communication in", "b": "Animals, machines, and systems" },
+          { "a": "Cybernetics influenced early research into", "b": "Robotics and artificial intelligence" },
+          { "a": "A feedback loop is a central idea in", "b": "Cybernetics" },
+          { "a": "The prefix cyber- eventually broadened to describe anything", "b": "Related to computers and networks" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cybernetics</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The university offered a course in", "b": "Cybernetics and control theory" },
+          { "a": "Early robotics research drew heavily on", "b": "Cybernetics" },
+          { "a": "The lab explored feedback systems central to", "b": "Cybernetics" },
+          { "a": "Science fiction writers were inspired by ideas from", "b": "Cybernetics" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kybernetes", "rootLanguage": "Greek", "rootMeaning": "Steersman, governor", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kybernetes", "highlight": true }, { "text": " (steersman); the art of steering systems, machine or living.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kybernetes", "correctAnswer": "Steersman, governor", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Transistor",
+    "pronunciation": "tran-ZIS-tuh",
+    "pos": "noun",
+    "definition": "A semiconductor device used to amplify or switch electronic signals, forming the basic building block of modern electronics.",
+    "origin": "A blend of <strong>transfer</strong> + resistor, coined in 1948 at Bell Labs following its invention by John Bardeen, Walter Brattain, and William Shockley, who shared the Nobel Prize for the discovery.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Transistor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blend of transfer and", "b": "Resistor" },
+          { "a": "Coined in 1948 at", "b": "Bell Labs" },
+          { "a": "Invented by", "b": "Bardeen, Brattain, and Shockley" },
+          { "a": "The inventors shared the", "b": "Nobel Prize" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Transistor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A transistor amplifies or switches", "b": "Electronic signals" },
+          { "a": "Transistors are the basic building block of", "b": "Modern electronics" },
+          { "a": "A microchip contains billions of tiny", "b": "Transistors" },
+          { "a": "Transistors replaced the older, bulkier", "b": "Vacuum tube" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Transistor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The 1950s radio was famous for using a portable", "b": "Transistor" },
+          { "a": "Engineers packed billions of", "b": "Transistors onto a single chip" },
+          { "a": "The tiny component acted as a single", "b": "Transistor" },
+          { "a": "Moore's Law describes how the number of", "b": "Transistors doubles over time" }
+        ] }
+    ],
+    "roots": [ { "rootText": "transfer + resistor", "rootLanguage": "English blend", "rootMeaning": "A device that transfers a signal through resistance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "transfer + resistor", "highlight": true }, { "text": "; the tiny switch that built the digital age.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "transfer + resistor", "correctAnswer": "A device that transfers a signal through resistance", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Semiconductor",
+    "pronunciation": "sem-ee-kuhn-DUK-tuh",
+    "pos": "noun",
+    "definition": "A material with electrical conductivity between that of a conductor and an insulator, forming the basis of modern electronic devices.",
+    "origin": "From Latin <strong>semi</strong> (half) + conductor (one that carries), a term formalised in the early 20th century to describe materials such as silicon whose conductivity lies between metals and insulators.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Semiconductor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin semi", "b": "Half" },
+          { "a": "Conductor means", "b": "One that carries" },
+          { "a": "Formalised in the", "b": "Early 20th century" },
+          { "a": "Describes materials such as", "b": "Silicon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Semiconductor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A semiconductor's conductivity sits between a conductor and an", "b": "Insulator" },
+          { "a": "Silicon is the most widely used", "b": "Semiconductor material" },
+          { "a": "Semiconductors form the basis of", "b": "Microchips and transistors" },
+          { "a": "A global chip shortage highlighted the importance of the", "b": "Semiconductor industry" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Semiconductor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The factory manufactured advanced", "b": "Semiconductor chips" },
+          { "a": "Global supply chains struggled during the", "b": "Semiconductor shortage" },
+          { "a": "The country invested billions in a new", "b": "Semiconductor plant" },
+          { "a": "Engineers doped the crystal to create a", "b": "Semiconductor" }
+        ] }
+    ],
+    "roots": [ { "rootText": "semi", "rootLanguage": "Latin", "rootMeaning": "Half", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "semi", "highlight": true }, { "text": " (half) + conductor; a material sitting neatly between metal and insulator.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "semi", "correctAnswer": "Half", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Telephone",
+    "pronunciation": "TEL-uh-fohn",
+    "pos": "noun",
+    "definition": "A device used to transmit and receive speech over a distance, typically via electrical signals.",
+    "origin": "From Greek <strong>tele</strong> (far) + phone (sound, voice), a name proposed by several inventors in the 1830s and 1840s before Alexander Graham Bell patented the first practical device in 1876.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Telephone</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek tele", "b": "Far" },
+          { "a": "Greek phone", "b": "Sound, voice" },
+          { "a": "The word was proposed decades before", "b": "Alexander Graham Bell's patent" },
+          { "a": "Bell patented the first practical device in", "b": "1876" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Telephone</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A telephone transmits", "b": "Speech over a distance" },
+          { "a": "Early telephones sent voice as", "b": "Electrical signals" },
+          { "a": "A smartphone is essentially a computer that is also a", "b": "Telephone" },
+          { "a": "The verb 'to telephone' means to", "b": "Call someone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Telephone</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She picked up the ringing", "b": "Telephone" },
+          { "a": "He promised to", "b": "Telephone her the next morning" },
+          { "a": "The old red box was a classic British", "b": "Telephone booth" },
+          { "a": "The office directory listed everyone's", "b": "Telephone extension" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tele phone", "rootLanguage": "Greek", "rootMeaning": "Far sound", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "tele phone", "highlight": true }, { "text": " (\"far sound\"); a voice carried across distance by wire.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tele phone", "correctAnswer": "Far sound", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Telegraph",
+    "pronunciation": "TEL-uh-graf",
+    "pos": "noun",
+    "definition": "A system for transmitting messages over a distance, historically by electrical signals along wires encoded as pulses.",
+    "origin": "From Greek <strong>tele</strong> (far) + graphein (to write), coined in 1792 by French inventor Claude Chappe for his visual signalling system, later applied to Samuel Morse's electrical version in the 1830s.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Telegraph</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek tele", "b": "Far" },
+          { "a": "Greek graphein", "b": "To write" },
+          { "a": "Coined in 1792 by", "b": "Claude Chappe" },
+          { "a": "Later applied to the electrical version by", "b": "Samuel Morse" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Telegraph</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The telegraph transmitted messages using", "b": "Electrical pulses along wires" },
+          { "a": "Morse code was designed for use with the", "b": "Telegraph" },
+          { "a": "Chappe's original telegraph used visual", "b": "Signals from towers" },
+          { "a": "The telegraph was eventually replaced by the", "b": "Telephone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Telegraph</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The news reached the newspaper by", "b": "Telegraph" },
+          { "a": "Operators tapped out messages in", "b": "Morse code over the telegraph" },
+          { "a": "The frontier town's first link to the outside world was a", "b": "Telegraph line" },
+          { "a": "His fidgeting seemed to", "b": "Telegraph his nervousness" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tele graphein", "rootLanguage": "Greek", "rootMeaning": "Far writing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "tele graphein", "highlight": true }, { "text": " (\"far writing\"); a message sent across distance long before the phone.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tele graphein", "correctAnswer": "Far writing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Astronaut",
+    "pronunciation": "AS-truh-nawt",
+    "pos": "noun",
+    "definition": "A person trained to travel and work in a spacecraft, especially in outer space.",
+    "origin": "From Greek <strong>astron</strong> (star) + nautes (sailor), coined in the 1920s in early science fiction before NASA formally adopted the word for its space programme in 1959.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Astronaut</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek astron", "b": "Star" },
+          { "a": "Greek nautes", "b": "Sailor" },
+          { "a": "First coined in", "b": "1920s science fiction" },
+          { "a": "Formally adopted by NASA in", "b": "1959" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Astronaut</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An astronaut is trained to work in", "b": "A spacecraft" },
+          { "a": "The Soviet equivalent term is", "b": "Cosmonaut" },
+          { "a": "Astronauts train extensively for the effects of", "b": "Microgravity" },
+          { "a": "The first astronauts were selected from experienced", "b": "Test pilots" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Astronaut</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The child dreamed of becoming an", "b": "Astronaut" },
+          { "a": "The crew of", "b": "Astronauts boarded the capsule" },
+          { "a": "Mission control monitored the", "b": "Astronaut's vital signs" },
+          { "a": "The retired", "b": "Astronaut now gives talks in schools" }
+        ] }
+    ],
+    "roots": [ { "rootText": "astron nautes", "rootLanguage": "Greek", "rootMeaning": "Star sailor", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "astron nautes", "highlight": true }, { "text": " (\"star sailor\"); a name from science fiction that became a job title.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "astron nautes", "correctAnswer": "Star sailor", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Digital",
+    "pronunciation": "DIJ-i-tuhl",
+    "pos": "adjective",
+    "definition": "Relating to data represented as discrete numerical values, especially binary code, as opposed to continuous analogue signals.",
+    "origin": "From Latin <strong>digitus</strong> (finger, toe), since counting on fingers is the most basic form of representing numbers discretely. The computing sense developed in the mid-20th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Digital</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin digitus", "b": "Finger, toe" },
+          { "a": "Counting on fingers represents numbers", "b": "Discretely" },
+          { "a": "The computing sense developed in the", "b": "Mid-20th century" },
+          { "a": "Digital contrasts with", "b": "Analogue" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Digital</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Digital data is represented as discrete", "b": "Numerical values" },
+          { "a": "Digital signals use", "b": "Binary code" },
+          { "a": "A digital clock displays time as", "b": "Numbers, not hands" },
+          { "a": "'Going digital' figuratively means switching from", "b": "Paper or analogue to electronic systems" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Digital</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The library scanned its archives into a", "b": "Digital format" },
+          { "a": "She checked the time on her", "b": "Digital watch" },
+          { "a": "The company invested heavily in its", "b": "Digital marketing" },
+          { "a": "Photographers largely abandoned film for", "b": "Digital cameras" }
+        ] }
+    ],
+    "roots": [ { "rootText": "digitus", "rootLanguage": "Latin", "rootMeaning": "Finger, toe", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "digitus", "highlight": true }, { "text": " (finger); counting on fingers, the oldest discrete number system.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "digitus", "correctAnswer": "Finger, toe", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cyber",
+    "pronunciation": "SY-buh",
+    "pos": "adjective",
+    "definition": "Relating to computers, information technology, and virtual reality, especially as a prefix denoting the digital or online world.",
+    "origin": "Shortened from <strong>cybernetics</strong>, itself from Greek kybernetes (steersman). The prefix cyber- was popularised by science fiction author William Gibson's 1984 novel Neuromancer, which coined the related term cyberspace.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cyber</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Shortened from", "b": "Cybernetics" },
+          { "a": "Ultimately from Greek kybernetes, meaning", "b": "Steersman" },
+          { "a": "Popularised by author", "b": "William Gibson" },
+          { "a": "Gibson's 1984 novel was titled", "b": "Neuromancer" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cyber</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cyber relates to", "b": "Computers and the digital world" },
+          { "a": "Cybersecurity protects systems from", "b": "Digital attacks" },
+          { "a": "Cyberspace refers to the", "b": "Virtual world of networked computers" },
+          { "a": "A cyberattack targets", "b": "Computer systems or networks" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cyber</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The company invested heavily in", "b": "Cyber security" },
+          { "a": "Police warned of rising", "b": "Cyber crime" },
+          { "a": "The novel imagined a dystopian", "b": "Cyber future" },
+          { "a": "Analysts blamed the outage on a", "b": "Cyber attack" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kybernetes", "rootLanguage": "Greek", "rootMeaning": "Steersman", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kybernetes", "highlight": true }, { "text": " (steersman), via cybernetics; the prefix that steered fiction into everyday tech language.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kybernetes", "correctAnswer": "Steersman", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Modem",
+    "pronunciation": "MOH-dem",
+    "pos": "noun",
+    "definition": "A device that converts digital data into a signal suitable for transmission over a telephone line or cable, and back again.",
+    "origin": "A blend of <strong>modulator</strong> and demodulator, coined in the 1950s to describe the device's dual role in converting signals for transmission and reception.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Modem</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blend of modulator and", "b": "Demodulator" },
+          { "a": "Coined in the", "b": "1950s" },
+          { "a": "Reflects the device's dual role of converting signals for", "b": "Transmission and reception" },
+          { "a": "A modem converts digital data into a", "b": "Transmittable signal" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Modem</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A modem converts digital data for transmission over a", "b": "Telephone line or cable" },
+          { "a": "Dial-up modems were once famous for their distinctive", "b": "Screeching connection sound" },
+          { "a": "A modem is often paired with a", "b": "Router" },
+          { "a": "Broadband modems allow much faster", "b": "Internet speeds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Modem</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The engineer arrived to install a new broadband", "b": "Modem" },
+          { "a": "Older internet users remember the screech of a dial-up", "b": "Modem" },
+          { "a": "Rebooting the", "b": "Modem often fixes a slow connection" },
+          { "a": "The router and", "b": "Modem sat side by side on the shelf" }
+        ] }
+    ],
+    "roots": [ { "rootText": "modulator + demodulator", "rootLanguage": "English blend", "rootMeaning": "A device that converts signals both ways", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "modulator + demodulator", "highlight": true }, { "text": "; converting data into signal, and back again.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "modulator + demodulator", "correctAnswer": "A device that converts signals both ways", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Binary",
+    "pronunciation": "BY-nuh-ree",
+    "pos": "adjective / noun",
+    "definition": "Relating to a number system with only two digits, 0 and 1, used to represent all data in digital computing.",
+    "origin": "From Latin <strong>binarius</strong> (consisting of two), from bini (two together). Mathematician Gottfried Leibniz refined the binary number system in 1703, laying groundwork later essential to computing.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Binary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin binarius", "b": "Consisting of two" },
+          { "a": "Latin bini", "b": "Two together" },
+          { "a": "Refined in 1703 by", "b": "Gottfried Leibniz" },
+          { "a": "Leibniz's work laid groundwork for", "b": "Modern computing" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Binary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Binary uses only two digits", "b": "0 and 1" },
+          { "a": "All computer data is ultimately stored in", "b": "Binary" },
+          { "a": "A binary choice offers only", "b": "Two options" },
+          { "a": "A binary star system consists of", "b": "Two stars orbiting each other" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Binary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The programmer converted the number into", "b": "Binary" },
+          { "a": "Deep down, every file is stored as", "b": "Binary code" },
+          { "a": "The debate was framed as a simplistic", "b": "Binary choice" },
+          { "a": "Astronomers observed a distant", "b": "Binary star system" }
+        ] }
+    ],
+    "roots": [ { "rootText": "binarius", "rootLanguage": "Latin", "rootMeaning": "Consisting of two", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "binarius", "highlight": true }, { "text": " (consisting of two); every byte reduced to just two digits.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "binarius", "correctAnswer": "Consisting of two", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Database",
+    "pronunciation": "DAY-tuh-bays",
+    "pos": "noun",
+    "definition": "A structured collection of data held electronically, organised for easy access, management, and updating.",
+    "origin": "A compound of <strong>data</strong> + base, first used in this sense in the 1960s to describe organised collections of information stored and retrieved by early computer systems.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Database</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of data and", "b": "Base" },
+          { "a": "First used in this sense in the", "b": "1960s" },
+          { "a": "Described organised collections stored on", "b": "Early computer systems" },
+          { "a": "'Data' itself traces to Latin", "b": "Datum (a thing given)" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Database</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A database is a structured collection of", "b": "Data" },
+          { "a": "Databases are organised for easy", "b": "Access and management" },
+          { "a": "A relational database organises data into", "b": "Linked tables" },
+          { "a": "A hospital keeps patient records in a secure", "b": "Database" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Database</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The customer's details were stored in a", "b": "Database" },
+          { "a": "The company suffered a leak from its", "b": "Customer database" },
+          { "a": "The developer wrote a query to search the", "b": "Database" },
+          { "a": "The library's catalogue is now a searchable", "b": "Digital database" }
+        ] }
+    ],
+    "roots": [ { "rootText": "data + base", "rootLanguage": "English", "rootMeaning": "An organised foundation of information", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "data + base", "highlight": true }, { "text": "; information organised into one searchable foundation.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "data + base", "correctAnswer": "An organised foundation of information", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Interface",
+    "pronunciation": "IN-tuh-fays",
+    "pos": "noun",
+    "definition": "A point of interaction between two systems, or between a user and a machine, especially the software through which a person controls a device.",
+    "origin": "From Latin <strong>inter</strong> (between) + facies (face, form), a term first used in 19th-century physics for the boundary between two substances before being adopted into computing in the 1960s.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Interface</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin inter", "b": "Between" },
+          { "a": "Latin facies", "b": "Face, form" },
+          { "a": "First used in 19th-century", "b": "Physics" },
+          { "a": "Adopted into computing in the", "b": "1960s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Interface</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An interface is a point of interaction between", "b": "Two systems, or a user and a machine" },
+          { "a": "A user interface lets a person", "b": "Control software or a device" },
+          { "a": "'To interface with someone' figuratively means to", "b": "Communicate or interact with them" },
+          { "a": "A well-designed interface should feel", "b": "Intuitive to use" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Interface</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The app's redesigned", "b": "Interface felt much cleaner" },
+          { "a": "The engineers built an", "b": "Interface between the two systems" },
+          { "a": "New staff rarely need to", "b": "Interface directly with the client" },
+          { "a": "Designers spent months polishing the", "b": "User interface" }
+        ] }
+    ],
+    "roots": [ { "rootText": "inter facies", "rootLanguage": "Latin", "rootMeaning": "Between faces", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "inter facies", "highlight": true }, { "text": " (\"between faces\"); the boundary where two things meet and interact.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "inter facies", "correctAnswer": "Between faces", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Network",
+    "pronunciation": "NET-wurk",
+    "pos": "noun",
+    "definition": "A group of interconnected computers, devices, or people that communicate or share resources with one another.",
+    "origin": "A compound of <strong>net</strong> + work, originally describing a woven fabric of crossing threads in the 16th century, before being applied figuratively to interconnected systems from the 19th century onward.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Network</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of net and", "b": "Work" },
+          { "a": "Originally described a woven", "b": "Fabric of crossing threads" },
+          { "a": "This original sense dates to the", "b": "16th century" },
+          { "a": "Applied figuratively to systems from the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Network</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A computer network connects", "b": "Interconnected devices" },
+          { "a": "A social network connects", "b": "People" },
+          { "a": "'To network' at an event means to", "b": "Build professional connections" },
+          { "a": "A railway network is a system of", "b": "Connected train lines" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Network</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The office relies on a secure", "b": "Wi-Fi network" },
+          { "a": "She spent the conference trying to", "b": "Network with other founders" },
+          { "a": "The city's transport", "b": "Network expanded to new suburbs" },
+          { "a": "Hackers targeted the company's internal", "b": "Network" }
+        ] }
+    ],
+    "roots": [ { "rootText": "net + work", "rootLanguage": "English", "rootMeaning": "A woven, crossing structure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "net + work", "highlight": true }, { "text": "; once literal woven cloth, now any web of connections.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "net + work", "correctAnswer": "A woven, crossing structure", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Robotics",
+    "pronunciation": "roh-BOT-iks",
+    "pos": "noun",
+    "definition": "The branch of technology dealing with the design, construction, and operation of robots.",
+    "origin": "From <strong>robot</strong>, a word coined in 1920 by Czech writer Karel Čapek from robota (forced labour), first used in his play R.U.R.; the field of robotics itself was named by science fiction author Isaac Asimov in 1941.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Robotics</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Czech robota", "b": "Forced labour" },
+          { "a": "Robot was coined in 1920 by", "b": "Karel Čapek" },
+          { "a": "Čapek's play was titled", "b": "R.U.R." },
+          { "a": "The field's name was coined in 1941 by", "b": "Isaac Asimov" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Robotics</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Robotics deals with the design and operation of", "b": "Robots" },
+          { "a": "Asimov's famous 'laws of robotics' governed how robots should", "b": "Treat humans" },
+          { "a": "Industrial robotics is widely used in", "b": "Manufacturing" },
+          { "a": "Robotics combines mechanical engineering with", "b": "Computer science" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Robotics</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The school entered a national", "b": "Robotics competition" },
+          { "a": "The car plant automated much of production with", "b": "Robotics" },
+          { "a": "She studied", "b": "Robotics at engineering school" },
+          { "a": "Advances in robotics have transformed", "b": "Modern surgery" }
+        ] }
+    ],
+    "roots": [ { "rootText": "robota", "rootLanguage": "Czech", "rootMeaning": "Forced labour", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Czech ", "highlight": false }, { "text": "robota", "highlight": true }, { "text": " (forced labour); named for machines built to do the work.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "robota", "correctAnswer": "Forced labour", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Logarithm",
+    "pronunciation": "LOG-uh-rith-uhm",
+    "pos": "noun",
+    "definition": "The power to which a fixed number, the base, must be raised to produce a given number.",
+    "origin": "Coined in 1614 by Scottish mathematician John Napier from Greek <strong>logos</strong> (ratio, reckoning) + arithmos (number), inventing the concept to simplify complex multiplication and division into addition and subtraction.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Logarithm</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek logos", "b": "Ratio, reckoning" },
+          { "a": "Greek arithmos", "b": "Number" },
+          { "a": "Coined in 1614 by", "b": "John Napier" },
+          { "a": "Napier was a", "b": "Scottish mathematician" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Logarithm</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A logarithm turns multiplication into", "b": "Addition" },
+          { "a": "Logarithms were invented to simplify", "b": "Complex calculations" },
+          { "a": "The Richter scale for earthquakes is", "b": "Logarithmic" },
+          { "a": "Before calculators, engineers used logarithms with a", "b": "Slide rule" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Logarithm</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The maths teacher explained how to calculate a", "b": "Logarithm" },
+          { "a": "Sound intensity in decibels follows a", "b": "Logarithmic scale" },
+          { "a": "The graph used a", "b": "Logarithmic axis to show the wide range" },
+          { "a": "Old engineering students relied on tables of", "b": "Logarithms" }
+        ] }
+    ],
+    "roots": [ { "rootText": "logos arithmos", "rootLanguage": "Greek", "rootMeaning": "Ratio number", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "logos arithmos", "highlight": true }, { "text": " (\"ratio number\"); Napier's trick for turning hard multiplication into easy addition.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "logos arithmos", "correctAnswer": "Ratio number", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Microchip",
+    "pronunciation": "MY-kroh-chip",
+    "pos": "noun",
+    "definition": "A small piece of semiconductor material containing a complex integrated electronic circuit.",
+    "origin": "From Greek <strong>mikros</strong> (small) + chip, following the invention of the integrated circuit in 1958 by American engineer Jack Kilby, whose device packed multiple components onto a single small piece of silicon.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Microchip</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek mikros", "b": "Small" },
+          { "a": "The integrated circuit was invented in 1958 by", "b": "Jack Kilby" },
+          { "a": "Kilby's device packed components onto a single small piece of", "b": "Silicon" },
+          { "a": "Kilby later won the", "b": "Nobel Prize" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Microchip</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A microchip contains a complex integrated", "b": "Electronic circuit" },
+          { "a": "Microchips are made from", "b": "Semiconductor material" },
+          { "a": "Pets are often fitted with an identifying", "b": "Microchip" },
+          { "a": "A global shortage of microchips affected", "b": "Car and electronics manufacturing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Microchip</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The vet scanned the dog's", "b": "Microchip to find its owner" },
+          { "a": "The factory struggled with a shortage of", "b": "Microchips" },
+          { "a": "Every smartphone relies on a powerful", "b": "Microchip" },
+          { "a": "Engineers packed millions of transistors onto a single", "b": "Microchip" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mikros", "rootLanguage": "Greek", "rootMeaning": "Small", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "mikros", "highlight": true }, { "text": " (small); a whole circuit shrunk onto a sliver of silicon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mikros", "correctAnswer": "Small", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Telemetry",
+    "pronunciation": "tuh-LEM-uh-tree",
+    "pos": "noun",
+    "definition": "The automatic transmission and measurement of data from a remote source to a receiving station for monitoring.",
+    "origin": "From Greek <strong>tele</strong> (far) + metron (measure), a term formalised in the early 20th century as engineers developed systems to monitor equipment, weather, and later spacecraft, from a distance.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Telemetry</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek tele", "b": "Far" },
+          { "a": "Greek metron", "b": "Measure" },
+          { "a": "Formalised in the", "b": "Early 20th century" },
+          { "a": "Used to monitor equipment and later", "b": "Spacecraft" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Telemetry</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Telemetry transmits data from a", "b": "Remote source" },
+          { "a": "Mission control monitors a rocket's flight using", "b": "Telemetry" },
+          { "a": "Racing teams analyse a car's performance via", "b": "Telemetry data" },
+          { "a": "Fitness trackers send health data using a form of", "b": "Telemetry" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Telemetry</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Mission control watched the rocket's", "b": "Telemetry closely" },
+          { "a": "The race engineer studied the driver's lap", "b": "Telemetry" },
+          { "a": "The satellite continuously beamed back", "b": "Telemetry data" },
+          { "a": "The app quietly collects usage", "b": "Telemetry" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tele metron", "rootLanguage": "Greek", "rootMeaning": "Far measure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "tele metron", "highlight": true }, { "text": " (\"far measure\"); reading a distant instrument's dials from home.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tele metron", "correctAnswer": "Far measure", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Codec",
+    "pronunciation": "KOH-dek",
+    "pos": "noun",
+    "definition": "A device or program that encodes or decodes a digital data stream, especially for audio or video compression.",
+    "origin": "A blend of <strong>coder</strong> and decoder, coined in the 1970s to describe the software or hardware that compresses media for storage or transmission and then decompresses it for playback.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Codec</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Blend of coder and", "b": "Decoder" },
+          { "a": "Coined in the", "b": "1970s" },
+          { "a": "Describes software or hardware that", "b": "Compresses and decompresses media" },
+          { "a": "Compression is applied for", "b": "Storage or transmission" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Codec</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A codec encodes or decodes a digital", "b": "Data stream" },
+          { "a": "Video streaming relies on efficient", "b": "Codecs" },
+          { "a": "A missing codec can prevent a video from", "b": "Playing correctly" },
+          { "a": "MP3 is a well-known audio", "b": "Codec" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Codec</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The video wouldn't play without the right", "b": "Codec installed" },
+          { "a": "Streaming services use an efficient", "b": "Codec to save bandwidth" },
+          { "a": "The editing software supported dozens of", "b": "Video codecs" },
+          { "a": "The call quality improved after switching to a newer", "b": "Audio codec" }
+        ] }
+    ],
+    "roots": [ { "rootText": "coder + decoder", "rootLanguage": "English blend", "rootMeaning": "A device that encodes and decodes data", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "coder + decoder", "highlight": true }, { "text": "; compressing media down, then unpacking it again.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "coder + decoder", "correctAnswer": "A device that encodes and decodes data", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Firmware",
+    "pronunciation": "FURM-wair",
+    "pos": "noun",
+    "definition": "Permanent software programmed into a device's hardware, providing low-level control and typically not intended to be changed by the user.",
+    "origin": "A compound of <strong>firm</strong> + ware, coined in 1967 by American engineer Ascher Opler to describe software that is more permanent than ordinary software but not fixed like hardware.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Firmware</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of firm and", "b": "Ware" },
+          { "a": "Coined in 1967 by", "b": "Ascher Opler" },
+          { "a": "Named to describe software more permanent than", "b": "Ordinary software" },
+          { "a": "But less fixed than", "b": "Hardware" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Firmware</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Firmware is programmed directly into a device's", "b": "Hardware" },
+          { "a": "Firmware provides", "b": "Low-level control" },
+          { "a": "Firmware is not usually meant to be changed by the", "b": "User" },
+          { "a": "Manufacturers occasionally release a", "b": "Firmware update" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Firmware</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The router needed a", "b": "Firmware update" },
+          { "a": "A bug in the printer's", "b": "Firmware caused the jam" },
+          { "a": "Engineers pushed a critical", "b": "Firmware patch" },
+          { "a": "The camera's autofocus improved after a", "b": "Firmware upgrade" }
+        ] }
+    ],
+    "roots": [ { "rootText": "firm + ware", "rootLanguage": "English", "rootMeaning": "Software that is more fixed than ordinary programs", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "firm + ware", "highlight": true }, { "text": "; the halfway point between hardware and software.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "firm + ware", "correctAnswer": "Software that is more fixed than ordinary programs", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bandwidth",
+    "pronunciation": "BAND-width",
+    "pos": "noun",
+    "definition": "The maximum rate of data transfer across a network connection, measured in bits per second; figuratively, a person's available capacity for a task.",
+    "origin": "From <strong>band</strong> (a range of frequencies) + width, a term from early 20th-century radio engineering that described the range of frequencies a signal occupied, later applied to digital data transfer.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bandwidth</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Band refers to a range of", "b": "Frequencies" },
+          { "a": "Originated in early 20th-century", "b": "Radio engineering" },
+          { "a": "Originally described the range a", "b": "Signal occupied" },
+          { "a": "Later applied to", "b": "Digital data transfer" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bandwidth</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bandwidth measures the maximum rate of", "b": "Data transfer" },
+          { "a": "Bandwidth is typically measured in", "b": "Bits per second" },
+          { "a": "Streaming high-definition video requires more", "b": "Bandwidth" },
+          { "a": "'I don't have the bandwidth right now' figuratively means lacking", "b": "Time or capacity" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bandwidth</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The video kept buffering due to low", "b": "Bandwidth" },
+          { "a": "The office upgraded its internet", "b": "Bandwidth" },
+          { "a": "She apologised, saying she didn't have the", "b": "Bandwidth to take on more work" },
+          { "a": "The server struggled under the surge in", "b": "Bandwidth demand" }
+        ] }
+    ],
+    "roots": [ { "rootText": "band + width", "rootLanguage": "English", "rootMeaning": "The width of a range of frequencies", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "band + width", "highlight": true }, { "text": "; how much data, or attention, a channel can carry.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "band + width", "correctAnswer": "The width of a range of frequencies", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cryptography",
+    "pronunciation": "krip-TOG-ruh-fee",
+    "pos": "noun",
+    "definition": "The practice of writing or solving codes, used to secure information so it can only be read by intended recipients.",
+    "origin": "From Greek <strong>kryptos</strong> (hidden) + graphein (to write), a discipline practised since antiquity but formalised as a modern science in the 19th and 20th centuries, notably during wartime code-breaking efforts.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cryptography</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kryptos", "b": "Hidden" },
+          { "a": "Greek graphein", "b": "To write" },
+          { "a": "Practised since", "b": "Antiquity" },
+          { "a": "Formalised as a modern science during", "b": "Wartime code-breaking" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cryptography</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cryptography secures information so it can only be read by", "b": "Intended recipients" },
+          { "a": "Modern cryptography protects", "b": "Online banking and messaging" },
+          { "a": "Cryptocurrency relies heavily on", "b": "Cryptography" },
+          { "a": "Breaking a code without the key is called", "b": "Cryptanalysis" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cryptography</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bank relies on strong", "b": "Cryptography to protect transactions" },
+          { "a": "Wartime codebreakers pioneered modern", "b": "Cryptography" },
+          { "a": "The app encrypts messages using advanced", "b": "Cryptography" },
+          { "a": "She studied", "b": "Cryptography as part of her computer science degree" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kryptos graphein", "rootLanguage": "Greek", "rootMeaning": "Hidden writing", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kryptos graphein", "highlight": true }, { "text": " (\"hidden writing\"); an ancient art now securing the entire internet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kryptos graphein", "correctAnswer": "Hidden writing", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Virtual",
+    "pronunciation": "VUR-choo-uhl",
+    "pos": "adjective",
+    "definition": "Existing or occurring through computer software or simulation rather than physically; almost or nearly as described.",
+    "origin": "From medieval Latin <strong>virtualis</strong> (having virtue or power), from virtus (strength, virtue). The computing sense of existing in effect, though not physically, emerged in the mid-20th century.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Virtual</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Medieval Latin virtualis", "b": "Having virtue or power" },
+          { "a": "Latin virtus", "b": "Strength, virtue" },
+          { "a": "The computing sense emerged in the", "b": "Mid-20th century" },
+          { "a": "Describes something existing in", "b": "Effect, though not physically" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Virtual</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Virtual reality simulates an environment through", "b": "Computer technology" },
+          { "a": "A virtual meeting takes place", "b": "Online, not in person" },
+          { "a": "'A virtual certainty' figuratively means", "b": "Almost certain" },
+          { "a": "Virtual memory lets a computer use disk space as extra", "b": "RAM" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Virtual</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The company switched most meetings to", "b": "Virtual calls" },
+          { "a": "She put on a headset to explore the", "b": "Virtual world" },
+          { "a": "By half-time, victory felt like a", "b": "Virtual certainty" },
+          { "a": "The museum launched a", "b": "Virtual tour online" }
+        ] }
+    ],
+    "roots": [ { "rootText": "virtus", "rootLanguage": "Latin", "rootMeaning": "Strength, virtue", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "virtus", "highlight": true }, { "text": " (strength); something real in effect, though not in physical form.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "virtus", "correctAnswer": "Strength, virtue", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Simulation",
+    "pronunciation": "sim-yuh-LAY-shuhn",
+    "pos": "noun",
+    "definition": "The production of a computer model of a process or system, used to study or predict its behaviour under different conditions.",
+    "origin": "From Latin <strong>simulare</strong> (to imitate, copy), from similis (like). Computer-based simulation developed as a scientific method in the mid-20th century, notably to model nuclear reactions and weather.",
+    "tier": "premium",
+    "packId": "science",
+    "subpack": { "id": "science-computing", "name": "Computing & Technology", "packId": "science" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Simulation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin simulare", "b": "To imitate, copy" },
+          { "a": "Latin similis", "b": "Like" },
+          { "a": "Computer simulation developed as a method in the", "b": "Mid-20th century" },
+          { "a": "Early uses modelled nuclear reactions and", "b": "Weather" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Simulation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A simulation produces a computer model of a", "b": "Process or system" },
+          { "a": "Simulations help predict behaviour under different", "b": "Conditions" },
+          { "a": "Flight simulators train pilots without the risks of a", "b": "Real aircraft" },
+          { "a": "Weather forecasts rely on complex atmospheric", "b": "Simulations" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Simulation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Trainee pilots spent hours in a flight", "b": "Simulation" },
+          { "a": "Scientists ran a climate", "b": "Simulation to model future warming" },
+          { "a": "The crash test was replaced by a digital", "b": "Simulation" },
+          { "a": "Engineers tested the bridge design using a computer", "b": "Simulation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "simulare", "rootLanguage": "Latin", "rootMeaning": "To imitate, copy", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "simulare", "highlight": true }, { "text": " (to imitate); a model built to behave just like the real thing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "simulare", "correctAnswer": "To imitate, copy", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]
