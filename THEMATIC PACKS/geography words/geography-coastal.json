@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Reef",
+    "pronunciation": "REEF",
+    "pos": "noun",
+    "definition": "A ridge of rock, coral, or sand lying at or near the surface of the sea.",
+    "origin": "From Middle Dutch <strong>rif</strong>, related to Old Norse rif meaning both \"rib\" and \"ridge\"; sailors saw the ridged, bone-like shape of submerged rock breaking the surface of the water and named it after a rib.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Reef</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch rif", "b": "Ridge, rib" },
+          { "a": "Related to Old Norse rif", "b": "Rib" },
+          { "a": "Sailors named it for its", "b": "Rib-like ridged shape" },
+          { "a": "Word entered English through", "b": "Seafaring, Germanic dialects" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Reef</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A reef lies at or near the surface of the", "b": "Sea" },
+          { "a": "A reef can be made of rock, sand, or", "b": "Coral" },
+          { "a": "Reefs are a hazard to passing", "b": "Ships" },
+          { "a": "Coral reefs support enormous marine", "b": "Biodiversity" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Reef</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Divers explored the vivid coral", "b": "Reef" },
+          { "a": "The captain steered wide of the hidden", "b": "Reef" },
+          { "a": "Rising sea temperatures are bleaching the", "b": "Reef" },
+          { "a": "Snorkellers drifted above the shallow", "b": "Reef" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rif", "rootLanguage": "Middle Dutch", "rootMeaning": "Ridge, rib", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "rif", "highlight": true }, { "text": " (rib, ridge); rock breaking the surface like a bone beneath the water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rif", "correctAnswer": "Ridge, rib", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Shoal",
+    "pronunciation": "SHOHL",
+    "pos": "noun",
+    "definition": "An area of shallow water, especially a sandbank or bar that can be seen at low tide.",
+    "origin": "From Old English <strong>sceald</strong> (shallow), the same Germanic root that gave English the word shallow itself; the noun shoal for a shallow patch of sea developed alongside it in the 16th century.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Shoal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English sceald", "b": "Shallow" },
+          { "a": "Shares its root with the word", "b": "Shallow" },
+          { "a": "Developed as a noun in the", "b": "16th century" },
+          { "a": "Describes water that is", "b": "Shallow, near the surface" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Shoal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A shoal is an area of", "b": "Shallow water" },
+          { "a": "A shoal can be a sandbank or", "b": "Bar" },
+          { "a": "Some shoals appear only at", "b": "Low tide" },
+          { "a": "Confusingly, a shoal of fish means a", "b": "Large group swimming together" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Shoal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chart marked a dangerous", "b": "Shoal" },
+          { "a": "The ferry ran aground on a sandy", "b": "Shoal" },
+          { "a": "At low tide the boat sat stranded on a", "b": "Shoal" },
+          { "a": "A silvery", "b": "Shoal of mackerel scattered" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sceald", "rootLanguage": "Old English", "rootMeaning": "Shallow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "sceald", "highlight": true }, { "text": " (shallow); the same root that gave English its everyday word shallow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sceald", "correctAnswer": "Shallow", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Littoral",
+    "pronunciation": "LIT-uh-ruhl",
+    "pos": "adjective",
+    "definition": "Relating to or situated on the shore of the sea or a lake.",
+    "origin": "From Latin <strong>litus, litoris</strong> (shore, coast), which also gave French littoral. English naturalists and geographers borrowed the adjective directly from Latin in the 17th century to describe the coastal zone.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Littoral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin litus, litoris", "b": "Shore, coast" },
+          { "a": "Also passed into", "b": "French littoral" },
+          { "a": "Borrowed directly into English by", "b": "Geographers and naturalists" },
+          { "a": "Entered English in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Littoral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Littoral describes something", "b": "Relating to the shore" },
+          { "a": "The littoral zone lies between high and low", "b": "Tide marks" },
+          { "a": "Littoral is distinct from the open-sea term", "b": "Pelagic" },
+          { "a": "Military planners speak of contested", "b": "Littoral waters" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Littoral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The survey mapped the region's", "b": "Littoral zone" },
+          { "a": "Fragile ecosystems thrive along the", "b": "Littoral fringe" },
+          { "a": "The navy developed ships built for", "b": "Littoral combat" },
+          { "a": "Erosion is reshaping the entire", "b": "Littoral belt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "litus", "rootLanguage": "Latin", "rootMeaning": "Shore, coast", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "litus", "highlight": true }, { "text": " (shore); the narrow strip where land and sea meet.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "litus", "correctAnswer": "Shore, coast", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pelagic",
+    "pronunciation": "puh-LAJ-ik",
+    "pos": "adjective",
+    "definition": "Relating to the open sea, away from the coast or the sea floor.",
+    "origin": "From Greek <strong>pelagos</strong> (open sea) + -ikos, via Latin pelagicus. The same Greek root underlies archipelago, originally the \"chief sea\" of the Aegean, before the word shifted to mean a group of islands.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pelagic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pelagos", "b": "Open sea" },
+          { "a": "Reached English via", "b": "Latin pelagicus" },
+          { "a": "The same root underlies", "b": "Archipelago" },
+          { "a": "Archipelago originally meant the", "b": "Chief sea of the Aegean" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pelagic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Pelagic describes waters far from the", "b": "Coast or sea floor" },
+          { "a": "Pelagic fish such as tuna swim in the", "b": "Open ocean" },
+          { "a": "Pelagic is the opposite of the coastal term", "b": "Littoral" },
+          { "a": "Deep pelagic zones receive little", "b": "Sunlight" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pelagic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crew hauled in a school of", "b": "Pelagic tuna" },
+          { "a": "Researchers tracked whales across the", "b": "Pelagic zone" },
+          { "a": "Birdwatchers joined a", "b": "Pelagic seabird tour" },
+          { "a": "The trawler fished far out in", "b": "Pelagic waters" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pelagos", "rootLanguage": "Greek", "rootMeaning": "Open sea", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "pelagos", "highlight": true }, { "text": " (open sea); the vast water far from any shore.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pelagos", "correctAnswer": "Open sea", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Abyssal",
+    "pronunciation": "uh-BIS-uhl",
+    "pos": "adjective",
+    "definition": "Relating to the deepest zone of the ocean, far below where light can penetrate.",
+    "origin": "From Greek <strong>abyssos</strong> (bottomless), from a- (without) + byssos (depth, bottom). Oceanographers adopted the adjective in the 19th century for the vast, lightless plain of the deep ocean floor.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Abyssal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek abyssos", "b": "Bottomless" },
+          { "a": "Greek a-", "b": "Without" },
+          { "a": "Greek byssos", "b": "Depth, bottom" },
+          { "a": "Adopted by oceanographers in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Abyssal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The abyssal zone lies far below where", "b": "Light can penetrate" },
+          { "a": "Abyssal plains cover much of the", "b": "Deep ocean floor" },
+          { "a": "Abyssal creatures have adapted to extreme", "b": "Pressure and darkness" },
+          { "a": "\"Abyssal\" figuratively describes something", "b": "Immeasurably deep" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Abyssal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The submersible descended into the", "b": "Abyssal zone" },
+          { "a": "Strange creatures drifted across the", "b": "Abyssal plain" },
+          { "a": "Sonar mapped the contours of the", "b": "Abyssal seabed" },
+          { "a": "He described his grief as an", "b": "Abyssal emptiness" }
+        ] }
+    ],
+    "roots": [ { "rootText": "abyssos", "rootLanguage": "Greek", "rootMeaning": "Bottomless", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "abyssos", "highlight": true }, { "text": " (bottomless); the dark, crushing depths where no bottom seems to lie.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "abyssos", "correctAnswer": "Bottomless", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Spit",
+    "pronunciation": "SPIT",
+    "pos": "noun",
+    "definition": "A narrow point of land, usually made of sand or shingle, projecting into a body of water.",
+    "origin": "From Old English <strong>spitu</strong> (a spit, a pointed rod for roasting meat). Coastal spits were named for their long, slender, tapering shape, jutting out over water just as a roasting spit juts from a fire.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Spit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English spitu", "b": "A pointed roasting rod" },
+          { "a": "Named for its", "b": "Long, tapering shape" },
+          { "a": "Compared to a rod", "b": "Jutting from a fire" },
+          { "a": "A coastal spit projects into", "b": "A body of water" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Spit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A spit is usually made of", "b": "Sand or shingle" },
+          { "a": "A spit projects out into", "b": "The sea or a bay" },
+          { "a": "Spits form through the deposit of drifting", "b": "Sediment" },
+          { "a": "A long spit can partly enclose a", "b": "Lagoon" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Spit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A lighthouse stood at the tip of the sandy", "b": "Spit" },
+          { "a": "The kayakers paddled around the narrow", "b": "Spit" },
+          { "a": "Storms have slowly lengthened the coastal", "b": "Spit" },
+          { "a": "Seabirds nested along the exposed", "b": "Spit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "spitu", "rootLanguage": "Old English", "rootMeaning": "A pointed roasting rod", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "spitu", "highlight": true }, { "text": " (roasting rod); a slender finger of sand pointing out over the water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "spitu", "correctAnswer": "A pointed roasting rod", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tombolo",
+    "pronunciation": "TOM-buh-loh",
+    "pos": "noun",
+    "definition": "A sand or shingle bar that connects an island to the mainland or to another island.",
+    "origin": "From Italian <strong>tombolo</strong>, from Latin tumulus (mound, small hill). The term was first applied by Italian geographers to the sandy causeway linking Monte Argentario to the Tuscan coast before entering international geological vocabulary.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tombolo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian tombolo", "b": "Sandy causeway, mound" },
+          { "a": "From Latin tumulus", "b": "Mound, small hill" },
+          { "a": "First described the causeway to", "b": "Monte Argentario" },
+          { "a": "Monte Argentario sits on the", "b": "Tuscan coast" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tombolo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tombolo is made of", "b": "Sand or shingle" },
+          { "a": "A tombolo connects an island to the", "b": "Mainland" },
+          { "a": "Tombolos form through the buildup of drifting", "b": "Sediment" },
+          { "a": "A tombolo differs from a spit by fully", "b": "Connecting two landmasses" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tombolo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists walked the sandy", "b": "Tombolo out to the island" },
+          { "a": "At high tide the water nearly covered the", "b": "Tombolo" },
+          { "a": "The geography class sketched the coastal", "b": "Tombolo" },
+          { "a": "A lighthouse marked the end of the", "b": "Tombolo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tumulus", "rootLanguage": "Latin", "rootMeaning": "Mound, small hill", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tumulus", "highlight": true }, { "text": " (mound), via Italian tombolo; a bar of sand tying an island to the shore.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tumulus", "correctAnswer": "Mound, small hill", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Seamount",
+    "pronunciation": "SEE-mownt",
+    "pos": "noun",
+    "definition": "An underwater mountain rising from the ocean floor that does not reach the surface.",
+    "origin": "A compound of <strong>sea</strong> and mount, from Latin mons, montis (mountain). Oceanographers coined the term in the 20th century as sonar mapping revealed thousands of submerged volcanic peaks across the ocean basins.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Seamount</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of sea and", "b": "Mount" },
+          { "a": "Latin mons, montis", "b": "Mountain" },
+          { "a": "Coined by", "b": "Oceanographers" },
+          { "a": "Revealed by 20th-century", "b": "Sonar mapping" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Seamount</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A seamount rises from the", "b": "Ocean floor" },
+          { "a": "A seamount does not reach the", "b": "Surface" },
+          { "a": "Most seamounts began as underwater", "b": "Volcanoes" },
+          { "a": "Seamounts often host rich marine", "b": "Ecosystems" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Seamount</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The survey ship charted an uncharted", "b": "Seamount" },
+          { "a": "Fishing crews targeted the waters above the", "b": "Seamount" },
+          { "a": "The submersible descended along the flank of the", "b": "Seamount" },
+          { "a": "Coral colonies thrived on the submerged", "b": "Seamount" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mons", "rootLanguage": "Latin", "rootMeaning": "Mountain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound with Latin ", "highlight": false }, { "text": "mons", "highlight": true }, { "text": " (mountain); a hidden peak that never breaks the surface.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mons", "correctAnswer": "Mountain", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Guyot",
+    "pronunciation": "GHEE-oh",
+    "pos": "noun",
+    "definition": "A flat-topped underwater mountain, thought to have been worn down by waves before subsiding beneath the surface.",
+    "origin": "Named after <strong>Arnold Henry Guyot</strong> (1807–1884), a Swiss-American geographer at Princeton. Geologist Harry Hess coined the term in 1945 for these flat-topped seamounts, playfully borrowing the name of Princeton's Guyot Hall, itself named for the scientist.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Guyot</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after", "b": "Arnold Henry Guyot" },
+          { "a": "Guyot was a", "b": "Swiss-American geographer" },
+          { "a": "Term coined in 1945 by", "b": "Geologist Harry Hess" },
+          { "a": "Hess borrowed the name from Princeton's", "b": "Guyot Hall" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Guyot</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A guyot has a distinctive", "b": "Flat top" },
+          { "a": "A guyot is thought to have been worn down by", "b": "Waves at the surface" },
+          { "a": "After erosion, a guyot eventually", "b": "Subsides beneath the surface" },
+          { "a": "A guyot is a type of", "b": "Seamount" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Guyot</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sonar revealed the flat summit of a", "b": "Guyot" },
+          { "a": "The research vessel mapped a submerged", "b": "Guyot" },
+          { "a": "Coral once grew atop the ancient", "b": "Guyot" },
+          { "a": "Geologists studied how the volcano became a", "b": "Guyot" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Arnold Henry Guyot", "rootLanguage": "19th-century Switzerland/USA", "rootMeaning": "Geographer honoured by the flat-topped seamount's name", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Arnold Henry Guyot", "highlight": true }, { "text": ", the Princeton geographer whose name Harry Hess borrowed for these flat-topped peaks.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Arnold Henry Guyot", "correctAnswer": "Geographer honoured by the flat-topped seamount's name", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Trench",
+    "pronunciation": "TRENCH",
+    "pos": "noun",
+    "definition": "A long, narrow, steep-sided depression in the ocean floor, marking the deepest parts of the sea.",
+    "origin": "From Old French <strong>trenchier</strong> (to cut), from Vulgar Latin trincare, from Latin truncare (to shorten, maim). The word first meant a path cut through a forest before narrowing to any long cut in the ground, including the ocean floor.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Trench</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French trenchier", "b": "To cut" },
+          { "a": "From Vulgar Latin trincare, ultimately Latin", "b": "Truncare (to shorten, maim)" },
+          { "a": "Originally meant a path cut through a", "b": "Forest" },
+          { "a": "Later widened to any", "b": "Long cut in the ground" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Trench</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ocean trench marks the", "b": "Deepest parts of the sea" },
+          { "a": "Trenches are long, narrow, and", "b": "Steep-sided" },
+          { "a": "The Mariana Trench holds the ocean's", "b": "Deepest known point" },
+          { "a": "Soldiers also dig defensive", "b": "Trenches" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Trench</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The submersible dove into the ocean", "b": "Trench" },
+          { "a": "Scientists mapped the depth of the", "b": "Trench" },
+          { "a": "A subducting plate had carved the deep", "b": "Trench" },
+          { "a": "Strange fish were filmed near the bottom of the", "b": "Trench" }
+        ] }
+    ],
+    "roots": [ { "rootText": "truncare", "rootLanguage": "Latin", "rootMeaning": "To shorten, maim", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "truncare", "highlight": true }, { "text": " (to cut short), via Old French trenchier; a deep gash slicing across the ocean floor.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "truncare", "correctAnswer": "To shorten, maim", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brackish",
+    "pronunciation": "BRAK-ish",
+    "pos": "adjective",
+    "definition": "Describing water that is slightly salty, as in a mixture of seawater and fresh water found in estuaries.",
+    "origin": "From Middle Dutch <strong>brac</strong> (salty) + the English adjectival suffix -ish. Dutch and Low German sailors, familiar with the tidal estuaries of the Low Countries, brought the word into English in the 16th century.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brackish</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch brac", "b": "Salty" },
+          { "a": "Suffix -ish means", "b": "Somewhat, having the quality of" },
+          { "a": "Brought into English by", "b": "Dutch and Low German sailors" },
+          { "a": "Entered English in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brackish</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Brackish water is a mix of", "b": "Seawater and fresh water" },
+          { "a": "Brackish water is typically found in", "b": "Estuaries" },
+          { "a": "Brackish is saltier than fresh water but less salty than the", "b": "Open ocean" },
+          { "a": "\"Brackish\" figuratively can describe something", "b": "Unpleasant or distasteful" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brackish</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Mangroves thrive in the", "b": "Brackish estuary water" },
+          { "a": "The well had turned faintly", "b": "Brackish" },
+          { "a": "Shrimp farms are often stocked with", "b": "Brackish water" },
+          { "a": "The marsh's", "b": "Brackish pools shifted with the tide" }
+        ] }
+    ],
+    "roots": [ { "rootText": "brac", "rootLanguage": "Middle Dutch", "rootMeaning": "Salty", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "brac", "highlight": true }, { "text": " (salty); water where the sea and the river meet halfway.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "brac", "correctAnswer": "Salty", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Intertidal",
+    "pronunciation": "in-tər-TY-duhl",
+    "pos": "adjective",
+    "definition": "Relating to the zone of shore that is exposed at low tide and submerged at high tide.",
+    "origin": "From Latin <strong>inter</strong> (between) + tidal, from tide, ultimately from Old English tid (time, season). Marine biologists coined the compound in the 19th century to name the zone shaped entirely by the rhythm of the tides.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Intertidal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin inter", "b": "Between" },
+          { "a": "Tidal derives from tide, from Old English", "b": "Tid (time, season)" },
+          { "a": "Coined by", "b": "Marine biologists" },
+          { "a": "Coined in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Intertidal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The intertidal zone is exposed at", "b": "Low tide" },
+          { "a": "The intertidal zone is submerged at", "b": "High tide" },
+          { "a": "Intertidal creatures must survive both air and", "b": "Water" },
+          { "a": "Rock pools are a classic", "b": "Intertidal habitat" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Intertidal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Students collected samples from the", "b": "Intertidal zone" },
+          { "a": "Barnacles cling tightly within the", "b": "Intertidal band" },
+          { "a": "The reserve protects a stretch of", "b": "Intertidal habitat" },
+          { "a": "At dawn, researchers surveyed the", "b": "Intertidal flats" }
+        ] }
+    ],
+    "roots": [ { "rootText": "inter", "rootLanguage": "Latin", "rootMeaning": "Between", "showInIntro": true }, { "rootText": "tid", "rootLanguage": "Old English", "rootMeaning": "Time, season", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "inter", "highlight": true }, { "text": " (between) + tidal; the shifting strip that lives between two waters.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "inter", "correctAnswer": "Between", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Breaker",
+    "pronunciation": "BRAY-kər",
+    "pos": "noun",
+    "definition": "A large wave that breaks into foam as it reaches shallow water or the shore.",
+    "origin": "From Old English <strong>brecan</strong> (to break) + the agent suffix -er. Sailors and coastal communities used \"breaker\" from the 17th century for the churning white water where waves collapse over shoals or beaches.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Breaker</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English brecan", "b": "To break" },
+          { "a": "Suffix -er names", "b": "One that performs the action" },
+          { "a": "Used from the 17th century by", "b": "Sailors and coastal communities" },
+          { "a": "Names the white water where waves", "b": "Collapse over shoals or beaches" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Breaker</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A breaker forms when a wave reaches", "b": "Shallow water" },
+          { "a": "A breaker collapses into", "b": "Foam" },
+          { "a": "Surfers ride a wave just before it becomes a", "b": "Breaker" },
+          { "a": "A breakwater is built to blunt the force of", "b": "Breakers" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Breaker</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Surfers paddled out past the line of", "b": "Breakers" },
+          { "a": "A huge", "b": "Breaker crashed over the sea wall" },
+          { "a": "The storm sent towering", "b": "Breakers onto the pier" },
+          { "a": "Children shrieked as the", "b": "Breaker soaked their sandcastle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "brecan", "rootLanguage": "Old English", "rootMeaning": "To break", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "brecan", "highlight": true }, { "text": " (to break); a wave giving way to foam as it meets the shallows.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "brecan", "correctAnswer": "To break", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Undertow",
+    "pronunciation": "UN-dər-toh",
+    "pos": "noun",
+    "definition": "A strong current beneath the surface, moving in a different direction from the surface water, especially pulling back out to sea after a wave breaks.",
+    "origin": "An English compound of <strong>under</strong> and tow, from Old English togian (to pull, drag). Coined in the 19th century to describe the hidden current dragging swimmers back beneath the returning surf.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Undertow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of under and", "b": "Tow" },
+          { "a": "Tow comes from Old English togian, meaning", "b": "To pull, drag" },
+          { "a": "Coined in the", "b": "19th century" },
+          { "a": "Describes a current that drags swimmers", "b": "Beneath the returning surf" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Undertow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An undertow flows beneath the", "b": "Surface" },
+          { "a": "An undertow typically pulls swimmers", "b": "Back out to sea" },
+          { "a": "An undertow moves in a different direction from the", "b": "Surface water" },
+          { "a": "\"An undertow of resentment\" figuratively describes a hidden", "b": "Current of feeling" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Undertow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Lifeguards warned swimmers about a dangerous", "b": "Undertow" },
+          { "a": "The current dragged her under with a sudden", "b": "Undertow" },
+          { "a": "Beneath the calm surface ran a strong", "b": "Undertow" },
+          { "a": "Novelists often write about the", "b": "Undertow of old grief" }
+        ] }
+    ],
+    "roots": [ { "rootText": "togian", "rootLanguage": "Old English", "rootMeaning": "To pull, drag", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "togian", "highlight": true }, { "text": " (to drag); the hidden current pulling beneath the returning surf.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "togian", "correctAnswer": "To pull, drag", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Seiche",
+    "pronunciation": "SAYSH",
+    "pos": "noun",
+    "definition": "A standing wave that oscillates back and forth in an enclosed or partly enclosed body of water, such as a lake or bay.",
+    "origin": "A Swiss French dialect word, first studied scientifically on Lake Geneva by physicist François-Alphonse Forel in the 1890s. Its deeper origin is uncertain, though some scholars link it to sec (dry), describing the shoreline briefly left exposed as the water sloshes away.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Seiche</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Origin is a", "b": "Swiss French dialect word" },
+          { "a": "First studied scientifically by", "b": "François-Alphonse Forel" },
+          { "a": "Forel studied the phenomenon on", "b": "Lake Geneva, 1890s" },
+          { "a": "Possibly linked to French sec, meaning", "b": "Dry" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Seiche</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A seiche is a standing wave that", "b": "Oscillates back and forth" },
+          { "a": "A seiche occurs in an enclosed or partly enclosed", "b": "Body of water" },
+          { "a": "Seiches can be triggered by wind, or by", "b": "Earthquakes" },
+          { "a": "A seiche differs from an ocean tide because it is", "b": "Confined to a basin" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Seiche</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Strong winds set off a large", "b": "Seiche on the lake" },
+          { "a": "The harbour's water level rose and fell in a", "b": "Seiche" },
+          { "a": "Scientists recorded the rhythm of the", "b": "Seiche" },
+          { "a": "The earthquake triggered a", "b": "Seiche in the distant bay" }
+        ] }
+    ],
+    "roots": [ { "rootText": "seiche", "rootLanguage": "Swiss French", "rootMeaning": "A sloshing, oscillating body of water", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A Swiss French dialect word, possibly linked to ", "highlight": false }, { "text": "sec", "highlight": true }, { "text": " (dry); water sloshing back and forth within its own basin.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "seiche", "correctAnswer": "A sloshing, oscillating body of water", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Firth",
+    "pronunciation": "FURTH",
+    "pos": "noun",
+    "definition": "A narrow inlet of the sea, especially in Scotland, often at the mouth of a river.",
+    "origin": "From Scots <strong>firth</strong>, from Old Norse fjörðr, the same root that gave English fjord. Norse settlers brought the word to Scotland's coasts, where it survives in names like the Firth of Forth.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Firth</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse fjörðr", "b": "Inlet, fjord" },
+          { "a": "Shares its root with", "b": "Fjord" },
+          { "a": "Brought to Scotland's coasts by", "b": "Norse settlers" },
+          { "a": "Survives in the name", "b": "Firth of Forth" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Firth</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A firth is a narrow inlet of the", "b": "Sea" },
+          { "a": "A firth is often found at the mouth of a", "b": "River" },
+          { "a": "The term is used especially in", "b": "Scotland" },
+          { "a": "A firth is geologically similar to a Scandinavian", "b": "Fjord" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Firth</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bridge spans the", "b": "Firth of Forth" },
+          { "a": "Fishing boats crossed the choppy", "b": "Firth" },
+          { "a": "Seals gathered along the shores of the", "b": "Firth" },
+          { "a": "The city grew up along the banks of the", "b": "Firth" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fjörðr", "rootLanguage": "Old Norse", "rootMeaning": "Inlet, fjord", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "fjörðr", "highlight": true }, { "text": " (inlet); the same root, brought by Norse settlers, that gave English fjord.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fjörðr", "correctAnswer": "Inlet, fjord", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ria",
+    "pronunciation": "REE-uh",
+    "pos": "noun",
+    "definition": "A long, narrow coastal inlet formed by the flooding of a river valley as sea levels rise.",
+    "origin": "From Spanish and Galician <strong>ría</strong> (estuary), from río (river), ultimately from Latin rivus (stream). Geographers borrowed the term in the late 19th century after studying the drowned river valleys of Galicia's coastline.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ria</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish/Galician ría", "b": "Estuary" },
+          { "a": "From río, meaning", "b": "River" },
+          { "a": "Ultimately from Latin rivus, meaning", "b": "Stream" },
+          { "a": "Geographers studied the coastline of", "b": "Galicia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ria</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ria forms when a river valley is", "b": "Flooded by rising seas" },
+          { "a": "A ria is long, narrow, and", "b": "Coastal" },
+          { "a": "Unlike a fjord, a ria was not carved by", "b": "A glacier" },
+          { "a": "Rias often shelter useful natural", "b": "Harbours" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ria</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Fishing villages dot the shores of the", "b": "Ria" },
+          { "a": "Ships sheltered from the storm inside the", "b": "Ria" },
+          { "a": "Geologists explained how rising seas drowned the valley to form a", "b": "Ria" },
+          { "a": "The estuary is officially classed as a", "b": "Ria" }
+        ] }
+    ],
+    "roots": [ { "rootText": "río", "rootLanguage": "Spanish", "rootMeaning": "River", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "río", "highlight": true }, { "text": " (river); a river valley drowned by the slowly rising sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "río", "correctAnswer": "River", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tidewater",
+    "pronunciation": "TYD-waw-tər",
+    "pos": "noun",
+    "definition": "Land or water affected by the ebb and flow of tides, especially the low coastal region near a tidal river or estuary.",
+    "origin": "An English compound of <strong>tide</strong>, from Old English tid (time, season), and water. The term became especially associated in the 17th century with the low-lying coastal plain around the Chesapeake Bay in colonial America.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tidewater</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of tide and", "b": "Water" },
+          { "a": "Tide comes from Old English tid, meaning", "b": "Time, season" },
+          { "a": "Became linked in the 17th century to", "b": "Colonial America" },
+          { "a": "Especially associated with the", "b": "Chesapeake Bay region" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tidewater</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tidewater refers to land affected by the", "b": "Ebb and flow of tides" },
+          { "a": "Tidewater regions are typically", "b": "Low-lying coastal plains" },
+          { "a": "Tidewater rivers rise and fall with the", "b": "Sea" },
+          { "a": "As a proper noun, Tidewater names a region of", "b": "Virginia" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tidewater</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Farmers worked the fertile fields of the", "b": "Tidewater plain" },
+          { "a": "The river remained navigable well into the", "b": "Tidewater region" },
+          { "a": "Historic plantations lined the", "b": "Tidewater shore" },
+          { "a": "Salt marshes stretched across the", "b": "Tidewater lowlands" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tid", "rootLanguage": "Old English", "rootMeaning": "Time, season", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "tid", "highlight": true }, { "text": " (time, season) + water; low land ruled by the daily rhythm of the tide.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tid", "correctAnswer": "Time, season", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neap",
+    "pronunciation": "NEEP",
+    "pos": "adjective",
+    "definition": "Describing the tide with the smallest range between high and low water, occurring near the first and third quarters of the moon.",
+    "origin": "From Old English <strong>nepflod</strong> (neap flood). The word's deeper roots are unknown, with no clear cognates in other Germanic languages, making neap one of the oldest and most mysterious words in English tidal vocabulary.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neap</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English nepflod", "b": "Neap flood" },
+          { "a": "The word's deeper roots are", "b": "Unknown" },
+          { "a": "It has no clear cognates in other", "b": "Germanic languages" },
+          { "a": "Neap is one of English's oldest tidal", "b": "Terms" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neap</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A neap tide has the smallest range between", "b": "High and low water" },
+          { "a": "Neap tides occur near the moon's", "b": "First and third quarters" },
+          { "a": "Neap tides are the opposite of the more extreme", "b": "Spring tides" },
+          { "a": "Neap tides occur when the sun and moon pull at", "b": "Right angles to each other" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neap</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The harbour was too shallow to enter except at", "b": "Neap tide" },
+          { "a": "Sailors timed the crossing around the gentle", "b": "Neap tides" },
+          { "a": "The mudflats barely shifted during the", "b": "Neap tide" },
+          { "a": "Fishermen preferred to dock during", "b": "Neap tides" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nepflod", "rootLanguage": "Old English", "rootMeaning": "Neap flood, tide of smallest range", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "nepflod", "highlight": true }, { "text": "; a tide whose reach barely rises or falls, its deeper origin still a mystery.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nepflod", "correctAnswer": "Neap flood, tide of smallest range", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ebb",
+    "pronunciation": "EB",
+    "pos": "noun",
+    "definition": "The movement of the tide out to sea, or a decline from a stronger or fuller state.",
+    "origin": "From Old English <strong>ebba</strong>, a Germanic word related to Dutch eb and German Ebbe, tracing to a prehistoric root meaning \"off\" or \"away\" — the same sense preserved in the ordinary English word off.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ebb</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English ebba", "b": "The outgoing tide" },
+          { "a": "Related to Dutch eb and German", "b": "Ebbe" },
+          { "a": "Traces to a prehistoric root meaning", "b": "Off, away" },
+          { "a": "That root also survives in the word", "b": "Off" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ebb</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The ebb is the tide moving", "b": "Out to sea" },
+          { "a": "Ebb is the opposite of the incoming", "b": "Flood tide" },
+          { "a": "Figuratively, \"an ebb\" describes a decline from a", "b": "Stronger or fuller state" },
+          { "a": "\"Ebb and flow\" together describe a natural", "b": "Rhythm of rise and fall" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ebb</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fishing boats set out on the", "b": "Ebb tide" },
+          { "a": "Her enthusiasm seemed to", "b": "Ebb as the weeks passed" },
+          { "a": "The mudflats appeared only at", "b": "Ebb tide" },
+          { "a": "His career was at a low", "b": "Ebb" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ebba", "rootLanguage": "Old English", "rootMeaning": "The outgoing tide", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "ebba", "highlight": true }, { "text": ", sharing its root with off; the sea quietly withdrawing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ebba", "correctAnswer": "The outgoing tide", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Swell",
+    "pronunciation": "SWEL",
+    "pos": "noun",
+    "definition": "A long, unbroken wave or series of waves that travels across the open sea, often generated by a distant storm.",
+    "origin": "From Old English <strong>swellan</strong> (to grow large, to increase in bulk), a common Germanic verb. Mariners applied the noun form from the 16th century to the great rolling waves that swell up on the open ocean.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Swell</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English swellan", "b": "To grow large, increase in bulk" },
+          { "a": "Swellan is a", "b": "Common Germanic verb" },
+          { "a": "Mariners applied the noun form from the", "b": "16th century" },
+          { "a": "Named for waves that", "b": "Swell up on the open ocean" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Swell</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A swell is long and", "b": "Unbroken" },
+          { "a": "A swell travels across the", "b": "Open sea" },
+          { "a": "A swell is often generated by a", "b": "Distant storm" },
+          { "a": "Surfers check forecasts for an incoming", "b": "Swell" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Swell</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The small boat rose and fell on the ocean", "b": "Swell" },
+          { "a": "Surfers paddled out to meet the incoming", "b": "Swell" },
+          { "a": "A distant storm sent a powerful", "b": "Swell toward the coast" },
+          { "a": "The ship pitched gently on a long", "b": "Swell" }
+        ] }
+    ],
+    "roots": [ { "rootText": "swellan", "rootLanguage": "Old English", "rootMeaning": "To grow large, increase in bulk", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "swellan", "highlight": true }, { "text": " (to grow large); the sea's slow rise, rolling in from a storm far away.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "swellan", "correctAnswer": "To grow large, increase in bulk", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fetch",
+    "pronunciation": "FECH",
+    "pos": "noun",
+    "definition": "The distance of open water over which wind blows in a constant direction, determining the size of the resulting waves.",
+    "origin": "From Old English <strong>feccan</strong> (to fetch, to bring). The everyday verb meaning \"to go and bring back\" was extended by 19th-century meteorologists to the distance wind travels to fetch up a wave.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fetch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English feccan", "b": "To fetch, to bring" },
+          { "a": "Originally an everyday verb meaning", "b": "To go and bring back" },
+          { "a": "Extended by 19th-century", "b": "Meteorologists" },
+          { "a": "Describes the distance wind travels to", "b": "Fetch up a wave" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fetch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fetch is a distance of open", "b": "Water" },
+          { "a": "Fetch is measured in a constant wind", "b": "Direction" },
+          { "a": "A longer fetch produces", "b": "Larger waves" },
+          { "a": "Enclosed lakes generally have a shorter", "b": "Fetch than the open ocean" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fetch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The forecaster explained how a long", "b": "Fetch built the towering waves" },
+          { "a": "Sheltered bays have a much shorter", "b": "Fetch" },
+          { "a": "Surf grew rough as the wind's", "b": "Fetch increased across the bay" },
+          { "a": "Engineers calculated the wave", "b": "Fetch before building the pier" }
+        ] }
+    ],
+    "roots": [ { "rootText": "feccan", "rootLanguage": "Old English", "rootMeaning": "To fetch, to bring", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "feccan", "highlight": true }, { "text": " (to bring); the open stretch of water the wind crosses to fetch up a wave.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "feccan", "correctAnswer": "To fetch, to bring", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Embayment",
+    "pronunciation": "em-BAY-muhnt",
+    "pos": "noun",
+    "definition": "A coastal indentation shaped like a bay, or the process by which a coastline is folded inward to form one.",
+    "origin": "From the prefix <strong>em-</strong> (in, into) + bay, from Old French baie, of uncertain pre-Latin origin, + the noun suffix -ment. Geologists coined the word in the 19th century for coastlines that curve inward into bay-like shapes.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Embayment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Prefix em-", "b": "In, into" },
+          { "a": "Bay comes from Old French baie, of", "b": "Uncertain pre-Latin origin" },
+          { "a": "Suffix -ment forms a", "b": "Noun of process or result" },
+          { "a": "Coined by", "b": "19th-century geologists" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Embayment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An embayment is a coastal", "b": "Indentation shaped like a bay" },
+          { "a": "Embayment can also describe the", "b": "Process of forming such a shape" },
+          { "a": "Embayments often shelter calmer", "b": "Waters" },
+          { "a": "Rivers and rising seas can carve out an", "b": "Embayment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Embayment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sediment slowly filled the shallow", "b": "Embayment" },
+          { "a": "The town grew up around a sheltered", "b": "Embayment" },
+          { "a": "Geologists traced the coastline's ancient", "b": "Embayment" },
+          { "a": "Boats anchored safely inside the", "b": "Embayment" }
+        ] }
+    ],
+    "roots": [ { "rootText": "baie", "rootLanguage": "Old French", "rootMeaning": "Bay", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Built from ", "highlight": false }, { "text": "bay", "highlight": true }, { "text": " (Old French baie); a coastline gently folded inward to cradle the sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "baie", "correctAnswer": "Bay", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Promontory",
+    "pronunciation": "PROM-uhn-tor-ee",
+    "pos": "noun",
+    "definition": "A high point of land that juts out into the sea or over a lower landscape.",
+    "origin": "From Latin <strong>promontorium</strong>, from pro- (forward) + mons, montis (mountain), likely reinforced by prominere (to jut out). The word described the rocky headlands that sailors used for centuries as navigational landmarks.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Promontory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin pro-", "b": "Forward" },
+          { "a": "Latin mons, montis", "b": "Mountain" },
+          { "a": "Likely reinforced by prominere, meaning", "b": "To jut out" },
+          { "a": "Described the rocky headlands used as", "b": "Navigational landmarks" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Promontory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A promontory is a high point of land that", "b": "Juts out into the sea" },
+          { "a": "A promontory can also overlook a lower", "b": "Landscape" },
+          { "a": "Lighthouses are often built atop a", "b": "Promontory" },
+          { "a": "A headland is another word for a", "b": "Promontory" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Promontory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lighthouse stood atop a rocky", "b": "Promontory" },
+          { "a": "Hikers watched the sunset from the", "b": "Promontory" },
+          { "a": "Waves crashed against the base of the", "b": "Promontory" },
+          { "a": "Ships steered wide around the jagged", "b": "Promontory" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mons", "rootLanguage": "Latin", "rootMeaning": "Mountain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "pro- + mons", "highlight": true }, { "text": " (forward mountain); a headland thrust out over the pounding sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mons", "correctAnswer": "Mountain", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cay",
+    "pronunciation": "KEE",
+    "pos": "noun",
+    "definition": "A small, low island composed largely of sand or coral, often found near a reef.",
+    "origin": "From Spanish <strong>cayo</strong> (shoal, reef, small island), likely borrowed from Taino, an indigenous Caribbean language, before Spanish explorers spread the word. The same root gives English key, as in the Florida Keys.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cay</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish cayo", "b": "Shoal, reef, small island" },
+          { "a": "Likely borrowed from", "b": "Taino, a Caribbean language" },
+          { "a": "Spread by", "b": "Spanish explorers" },
+          { "a": "The same root gives English", "b": "Key, as in the Florida Keys" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cay</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cay is a small, low island made largely of", "b": "Sand or coral" },
+          { "a": "Cays are often found near a", "b": "Reef" },
+          { "a": "Cays are especially common in the", "b": "Caribbean" },
+          { "a": "A cay is generally too small to support", "b": "Permanent settlement" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cay</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The yacht anchored off a tiny sandy", "b": "Cay" },
+          { "a": "Turtles nested on the deserted", "b": "Cay" },
+          { "a": "Snorkellers explored the reef around the", "b": "Cay" },
+          { "a": "A lone palm tree marked the small", "b": "Cay" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cayo", "rootLanguage": "Spanish", "rootMeaning": "Shoal, reef, small island", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "cayo", "highlight": true }, { "text": " (small island), likely from Taino; a scrap of sand rising just above the reef.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cayo", "correctAnswer": "Shoal, reef, small island", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Surge",
+    "pronunciation": "SURJ",
+    "pos": "noun",
+    "definition": "A sudden, powerful rise and forward rush of water, especially the abnormal rise driven onshore by a storm.",
+    "origin": "From Latin <strong>surgere</strong> (to rise), from sub- (up from below) + regere (to keep straight, guide), via Old French sourdre. English sailors adopted \"surge\" in the 15th century for the sudden swell and rush of water at sea.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Surge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin surgere", "b": "To rise" },
+          { "a": "Built from sub- + regere, meaning", "b": "Up from below + to guide" },
+          { "a": "Reached English via", "b": "Old French sourdre" },
+          { "a": "Adopted by English sailors in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Surge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A surge is a sudden, powerful", "b": "Rise and rush of water" },
+          { "a": "A storm surge is driven", "b": "Onshore by a storm" },
+          { "a": "Storm surges cause dangerous coastal", "b": "Flooding" },
+          { "a": "\"A surge of anger\" figuratively describes a sudden", "b": "Powerful feeling" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Surge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hurricane pushed a devastating storm", "b": "Surge" },
+          { "a": "Residents evacuated ahead of the coastal", "b": "Surge" },
+          { "a": "A sudden", "b": "Surge of water flooded the harbour" },
+          { "a": "She felt a", "b": "Surge of relief at the news" }
+        ] }
+    ],
+    "roots": [ { "rootText": "surgere", "rootLanguage": "Latin", "rootMeaning": "To rise", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "surgere", "highlight": true }, { "text": " (to rise); the sea suddenly lifting and rushing forward.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "surgere", "correctAnswer": "To rise", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Backwash",
+    "pronunciation": "BAK-wosh",
+    "pos": "noun",
+    "definition": "The seaward flow of water down a beach after a wave has broken and run up the shore.",
+    "origin": "An English compound of <strong>back</strong> and wash, from Old English wascan (to wash). Coastal scientists adopted the term in the 19th century for the water's return journey down the beach after each breaking wave.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Backwash</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of back and", "b": "Wash" },
+          { "a": "Wash comes from Old English wascan, meaning", "b": "To wash" },
+          { "a": "Adopted by", "b": "19th-century coastal scientists" },
+          { "a": "Names water's return journey", "b": "Down the beach" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Backwash</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Backwash flows", "b": "Seaward, back down the beach" },
+          { "a": "Backwash follows a wave's", "b": "Run-up the shore" },
+          { "a": "Backwash helps carry sand back toward the", "b": "Sea" },
+          { "a": "\"Political backwash\" figuratively describes the lingering", "b": "Aftereffects of an event" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Backwash</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sand shifted with each wave's", "b": "Backwash" },
+          { "a": "The child's sandcastle crumbled in the", "b": "Backwash" },
+          { "a": "Shells tumbled seaward in the", "b": "Backwash" },
+          { "a": "Analysts studied the economic", "b": "Backwash of the policy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "wascan", "rootLanguage": "Old English", "rootMeaning": "To wash", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "wascan", "highlight": true }, { "text": " (to wash); a wave's water pulled back down the sand toward the sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "wascan", "correctAnswer": "To wash", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Neritic",
+    "pronunciation": "nuh-RIT-ik",
+    "pos": "adjective",
+    "definition": "Relating to the shallow zone of the sea that lies over the continental shelf, close to shore.",
+    "origin": "From Greek <strong>nerites</strong>, a genus of sea snail, itself named for Nereus, the ancient Greek sea god. Naturalist Ernst Haeckel coined the adjective in the 1890s for the shallow, nutrient-rich waters near the coast.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Neritic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek nerites", "b": "A genus of sea snail" },
+          { "a": "Nerites was named for", "b": "Nereus, the Greek sea god" },
+          { "a": "Coined in the 1890s by", "b": "Ernst Haeckel" },
+          { "a": "Haeckel was a", "b": "Naturalist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Neritic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The neritic zone lies over the", "b": "Continental shelf" },
+          { "a": "Neritic waters are close to the", "b": "Shore" },
+          { "a": "Neritic waters tend to be", "b": "Shallow and nutrient-rich" },
+          { "a": "Neritic contrasts with the deep-ocean term", "b": "Oceanic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Neritic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Fish stocks thrive in the productive", "b": "Neritic zone" },
+          { "a": "The survey focused on species living in", "b": "Neritic waters" },
+          { "a": "Sunlight reaches the seabed easily within the", "b": "Neritic zone" },
+          { "a": "The continental shelf defines the extent of the", "b": "Neritic province" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nerites", "rootLanguage": "Greek", "rootMeaning": "A genus of sea snail, named for Nereus", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "nerites", "highlight": true }, { "text": ", named for the sea god Nereus; the shallow, living waters just off the coast.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nerites", "correctAnswer": "A genus of sea snail, named for Nereus", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Inlet",
+    "pronunciation": "IN-let",
+    "pos": "noun",
+    "definition": "A narrow strip of water extending from a larger body of water into the land, or a passage admitting water into a bay or harbour.",
+    "origin": "An English compound of <strong>in</strong> and let, from Old English lætan (to let, allow to pass). The word arose in the 16th century as a literal description of a passage that \"lets in\" the sea.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Inlet</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "A compound of in and", "b": "Let" },
+          { "a": "Let comes from Old English lætan, meaning", "b": "To allow to pass" },
+          { "a": "Arose in the", "b": "16th century" },
+          { "a": "Literally describes a passage that", "b": "\"Lets in\" the sea" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Inlet</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An inlet extends from a larger body of water into the", "b": "Land" },
+          { "a": "An inlet can admit water into a bay or", "b": "Harbour" },
+          { "a": "Inlets are typically", "b": "Narrow" },
+          { "a": "Boaters use an inlet to reach a sheltered", "b": "Harbour" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Inlet</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fishing boats sheltered inside a quiet", "b": "Inlet" },
+          { "a": "The tide surged through the narrow", "b": "Inlet" },
+          { "a": "Kayakers paddled up the winding", "b": "Inlet" },
+          { "a": "A sandbar partly blocked the", "b": "Inlet" }
+        ] }
+    ],
+    "roots": [ { "rootText": "lætan", "rootLanguage": "Old English", "rootMeaning": "To let, allow to pass", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "lætan", "highlight": true }, { "text": " (to let); a narrow passage that lets the sea slip into the land.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "lætan", "correctAnswer": "To let, allow to pass", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Barrier",
+    "pronunciation": "BA-ree-ər",
+    "pos": "noun",
+    "definition": "A long, narrow landform such as an island or reef, lying roughly parallel to a coastline and separated from it by open or shallow water.",
+    "origin": "From Old French <strong>barriere</strong>, from Vulgar Latin barra (bar), of uncertain, possibly Gaulish origin. Naturalists including Charles Darwin used the term in the 19th century for the long reefs and islands that shield a coastline like a wall.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-coastal", "name": "Coastal & Marine", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Barrier</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French barriere", "b": "A barring structure" },
+          { "a": "From Vulgar Latin barra, meaning", "b": "Bar" },
+          { "a": "Barra is of uncertain, possibly", "b": "Gaulish origin" },
+          { "a": "Applied to reefs and islands by naturalists including", "b": "Charles Darwin" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Barrier</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A barrier island or reef lies roughly parallel to a", "b": "Coastline" },
+          { "a": "A barrier is separated from the coast by", "b": "Open or shallow water" },
+          { "a": "Barrier reefs and islands shelter the coast from", "b": "Waves and storms" },
+          { "a": "The Great Barrier Reef is the world's largest", "b": "Coral reef system" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Barrier</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Cottages lined the sandy", "b": "Barrier island" },
+          { "a": "The lagoon lay calm behind the protective", "b": "Barrier reef" },
+          { "a": "Storm waves broke first against the", "b": "Barrier island" },
+          { "a": "Divers explored the coral of the", "b": "Barrier reef" }
+        ] }
+    ],
+    "roots": [ { "rootText": "barra", "rootLanguage": "Vulgar Latin", "rootMeaning": "Bar", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Vulgar Latin ", "highlight": false }, { "text": "barra", "highlight": true }, { "text": " (bar); a long reef or island standing like a wall between coast and open sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "barra", "correctAnswer": "Bar", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

@@ -1496,7 +1496,7 @@ _Pack-local: 1–150 · Global: 1290–1439_
 
 ## Geography pack (150)
 
-Physical geography — landforms, waters, climate, and biomes (premium pack).
+Physical geography — landforms, waters, climate, and biomes (premium pack). Built and shipped 2026-08-24 as 5 sub-packs of 30 (Climate & Biomes, Rivers & Freshwater, Mountains & Geology, Wetlands/Grassland & Terrain, Coastal & Marine). Four words were swapped from the original plan for colliding with words already shipped elsewhere: Canyon → Gulch (Loan Words/Spanish), Lava → Pumice (Science/Earth), Avalanche → Rockslide (Science/Earth), Drought → Doldrums (Science/Earth).
 
 1440. Arid
 1441. Semiarid
@@ -1516,7 +1516,7 @@ Physical geography — landforms, waters, climate, and biomes (premium pack).
 1455. Foehn
 1456. Haboob
 1457. Blizzard
-1458. Drought
+1458. Doldrums
 1459. Biome
 1460. Glade
 1461. Grove
@@ -1569,21 +1569,21 @@ Physical geography — landforms, waters, climate, and biomes (premium pack).
 1508. Outcrop
 1509. Bedrock
 1510. Alluvium
-1511. Avalanche
+1511. Rockslide
 1512. Crevasse
 1513. Firn
 1514. Snowline
 1515. Treeline
 1516. Fell
 1517. Ravine
-1518. Canyon
+1518. Gulch
 1519. Coulee
 1520. Knoll
 1521. Summit
 1522. Col
 1523. Ridge
 1524. Crest
-1525. Lava
+1525. Pumice
 1526. Basalt
 1527. Schist
 1528. Gneiss

@@ -61,8 +61,8 @@ export const WORD_PACKS: WordPack[] = [
     id: 'geography',
     title: 'Geography',
     description: 'Landscapes, borders, and the words that describe them.',
-    wordCount: 0,
-    status: 'coming_soon',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {

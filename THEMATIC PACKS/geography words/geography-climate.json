@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Arid",
+    "pronunciation": "AR-id",
+    "pos": "adjective",
+    "definition": "Having little or no rainfall; too dry to support significant plant or animal life.",
+    "origin": "From Latin <strong>aridus</strong> (dry, parched), from arere (to be dry, to burn). The word entered English in the 17th century to describe scorched land and climates lacking sufficient rainfall.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin aridus", "b": "Dry, parched" },
+          { "a": "Latin arere", "b": "To be dry, to burn" },
+          { "a": "Entered English in the", "b": "17th century" },
+          { "a": "Originally described", "b": "Scorched land and climates" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An arid region receives", "b": "Little or no rainfall" },
+          { "a": "Arid land struggles to support", "b": "Plant and animal life" },
+          { "a": "The opposite of arid is", "b": "Humid" },
+          { "a": "'An arid lecture' figuratively means", "b": "Dry and uninteresting" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Camels are well adapted to", "b": "Arid environments" },
+          { "a": "Little grows in the region's", "b": "Arid soil" },
+          { "a": "Critics called the speech dull and", "b": "Arid" },
+          { "a": "The expedition crossed a vast", "b": "Arid plateau" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aridus", "rootLanguage": "Latin", "rootMeaning": "Dry, parched", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aridus", "highlight": true }, { "text": " (dry, parched); land scorched of nearly all its moisture.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aridus", "correctAnswer": "Dry, parched", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Semiarid",
+    "pronunciation": "sem-ee-AR-id",
+    "pos": "adjective",
+    "definition": "Having low but not negligible rainfall, typically supporting grasses and drought-resistant shrubs rather than true desert.",
+    "origin": "A blend of Latin <strong>semi-</strong> (half) and aridus (dry). Climatologists adopted the compound in the 19th century to classify regions too dry for regular agriculture yet wetter than a true desert.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Semiarid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin semi-", "b": "Half" },
+          { "a": "Latin aridus", "b": "Dry" },
+          { "a": "Adopted by climatologists in the", "b": "19th century" },
+          { "a": "Classifies regions", "b": "Drier than grassland, wetter than desert" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Semiarid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Semiarid regions receive", "b": "Low but not negligible rainfall" },
+          { "a": "Semiarid land typically supports", "b": "Grasses and drought-resistant shrubs" },
+          { "a": "Semiarid climates sit between", "b": "Arid deserts and humid regions" },
+          { "a": "Overgrazing can turn semiarid land into", "b": "True desert" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Semiarid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ranchers grazed cattle across the", "b": "Semiarid grassland" },
+          { "a": "The city sits in a", "b": "Semiarid climate zone" },
+          { "a": "Drought-tolerant crops thrive in", "b": "Semiarid soil" },
+          { "a": "Much of the American Southwest is classified as", "b": "Semiarid" }
+        ] }
+    ],
+    "roots": [ { "rootText": "semi- + aridus", "rootLanguage": "Latin", "rootMeaning": "Half + dry", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "semi- + aridus", "highlight": true }, { "text": " (half + dry); a middle ground between desert and grassland.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "semi- + aridus", "correctAnswer": "Half + dry", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Humid",
+    "pronunciation": "HYOO-mid",
+    "pos": "adjective",
+    "definition": "Marked by a high concentration of water vapour in the air; damp or moist.",
+    "origin": "From Latin <strong>humidus</strong> (moist, wet), from humere (to be moist). The word passed into English through French in the 15th century, well before humidity became a formal meteorological measurement.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Humid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin humidus", "b": "Moist, wet" },
+          { "a": "Latin humere", "b": "To be moist" },
+          { "a": "Passed into English via", "b": "French" },
+          { "a": "Entered English in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Humid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A humid climate has a high concentration of", "b": "Water vapour in the air" },
+          { "a": "Humid air can make heat feel", "b": "More oppressive" },
+          { "a": "The opposite of humid is", "b": "Arid" },
+          { "a": "Rainforests are typically both hot and", "b": "Humid" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Humid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jungle air was thick and", "b": "Humid" },
+          { "a": "Summers in the city are hot and", "b": "Humid" },
+          { "a": "Greenhouses are kept warm and", "b": "Humid" },
+          { "a": "Her curls tightened in the", "b": "Humid weather" }
+        ] }
+    ],
+    "roots": [ { "rootText": "humidus", "rootLanguage": "Latin", "rootMeaning": "Moist, wet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "humidus", "highlight": true }, { "text": " (moist, wet); air thick with unseen water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "humidus", "correctAnswer": "Moist, wet", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Boreal",
+    "pronunciation": "BOR-ee-uhl",
+    "pos": "adjective",
+    "definition": "Relating to the cold, high-latitude northern regions of the Earth, especially the northern coniferous forest belt.",
+    "origin": "From Latin <strong>borealis</strong>, from Boreas, the ancient Greek god personifying the cold north wind. Naturalists adopted the adjective to describe the far-northern climates and forests he was thought to rule.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Boreal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin borealis", "b": "Northern" },
+          { "a": "Named after", "b": "Boreas, Greek god of the north wind" },
+          { "a": "Boreas ruled over", "b": "Cold northern climates" },
+          { "a": "Adopted by", "b": "Naturalists describing far-northern regions" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Boreal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Boreal describes regions that are", "b": "Cold and high-latitude" },
+          { "a": "The boreal forest is also called the", "b": "Taiga" },
+          { "a": "Boreal winters are marked by", "b": "Long, harsh cold" },
+          { "a": "Boreal wildlife includes", "b": "Moose, lynx, and wolves" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Boreal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wolves roamed the vast", "b": "Boreal forest" },
+          { "a": "Scientists study how warming affects the", "b": "Boreal ecosystem" },
+          { "a": "The expedition trekked through", "b": "Boreal wilderness" },
+          { "a": "Spruce and fir dominate the", "b": "Boreal woodland" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Boreas", "rootLanguage": "Greek", "rootMeaning": "God of the north wind", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Boreas", "highlight": true }, { "text": ", the Greek god of the cold north wind, ruler of the far-northern climate.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Boreas", "correctAnswer": "God of the north wind", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sirocco",
+    "pronunciation": "si-ROK-oh",
+    "pos": "noun",
+    "definition": "A hot, dust-laden wind that blows out of the Sahara across North Africa and the Mediterranean, often reaching southern Europe.",
+    "origin": "From Italian <strong>scirocco</strong>, from Arabic sharq (east, sunrise), via the Sicilian dialect form. Mediterranean sailors named the wind for the direction it blew from, carrying Saharan heat and dust northward.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sirocco</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian scirocco", "b": "Hot southerly wind" },
+          { "a": "Arabic sharq", "b": "East, sunrise" },
+          { "a": "Passed through", "b": "Sicilian dialect" },
+          { "a": "Named for the direction it", "b": "Blew from" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sirocco</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sirocco carries heat and dust from the", "b": "Sahara Desert" },
+          { "a": "The sirocco often reaches as far as", "b": "Southern Europe" },
+          { "a": "Sirocco winds are typically", "b": "Hot and dust-laden" },
+          { "a": "Sailors historically feared the sirocco's", "b": "Reduced visibility and heat" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sirocco</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A hazy orange sky signalled the arriving", "b": "Sirocco" },
+          { "a": "Dust from the", "b": "Sirocco coated cars across Sicily" },
+          { "a": "Fishermen delayed their trip until the", "b": "Sirocco passed" },
+          { "a": "The novel opens with a suffocating", "b": "Sirocco wind" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sharq", "rootLanguage": "Arabic", "rootMeaning": "East, sunrise", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "sharq", "highlight": true }, { "text": " (east); a scorching wind that carries the Sahara's heat north across the sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sharq", "correctAnswer": "East, sunrise", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mistral",
+    "pronunciation": "mi-STRAHL",
+    "pos": "noun",
+    "definition": "A strong, cold, dry wind that blows from the north or northwest down the Rhône valley into southern France.",
+    "origin": "From Occitan <strong>mistral</strong> (masterly), from Latin magistralis (of a master), from magister (master). Provençal speakers named the wind for its dominating force over the region's weather.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mistral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Occitan mistral", "b": "Masterly" },
+          { "a": "Latin magistralis", "b": "Of a master" },
+          { "a": "Latin magister", "b": "Master" },
+          { "a": "Named by speakers of", "b": "Provençal" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mistral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The mistral blows down the", "b": "Rhône valley" },
+          { "a": "Mistral winds are", "b": "Strong, cold, and dry" },
+          { "a": "The mistral typically blows from the", "b": "North or northwest" },
+          { "a": "Farmers plant windbreaks in Provence to guard against the", "b": "Mistral" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mistral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Shutters rattled all night as the", "b": "Mistral howled" },
+          { "a": "The cyclists battled a fierce", "b": "Mistral headwind" },
+          { "a": "Cypress trees were planted as a shield against the", "b": "Mistral" },
+          { "a": "The sky cleared to a brilliant blue after the", "b": "Mistral passed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "magister", "rootLanguage": "Latin", "rootMeaning": "Master", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "magister", "highlight": true }, { "text": " (master); a wind so forceful the Provençal called it the master wind.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "magister", "correctAnswer": "Master", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chinook",
+    "pronunciation": "shi-NOOK",
+    "pos": "noun",
+    "definition": "A warm, dry wind that descends the eastern slopes of the Rocky Mountains, often rapidly melting snow.",
+    "origin": "Named after the <strong>Chinook</strong> people of the Pacific Northwest coast. Fur traders and settlers borrowed the name for the warm wind said to blow from the direction of Chinook territory, and later for the rapid winter thaw it brings to the Rockies' eastern slopes.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chinook</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Named after the", "b": "Chinook people" },
+          { "a": "The Chinook lived along the", "b": "Pacific Northwest coast" },
+          { "a": "Traders named the wind for the direction of", "b": "Chinook territory" },
+          { "a": "Later applied to the thaw wind of the", "b": "Rocky Mountains" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chinook</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chinook wind descends the", "b": "Eastern slopes of the Rockies" },
+          { "a": "Chinook winds are known for rapidly", "b": "Melting snow" },
+          { "a": "Chinook winds are unusually", "b": "Warm and dry" },
+          { "a": "Locals nickname the chinook the", "b": "Snow-eater" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chinook</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Overnight, a warm", "b": "Chinook melted the snowdrifts" },
+          { "a": "Ranchers welcomed the midwinter", "b": "Chinook" },
+          { "a": "Temperatures jumped twenty degrees during the", "b": "Chinook" },
+          { "a": "The town's ice rink turned to slush after the", "b": "Chinook blew through" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Chinook", "rootLanguage": "Chinookan", "rootMeaning": "Name of a Pacific Northwest people", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the ", "highlight": false }, { "text": "Chinook", "highlight": true }, { "text": " people of the Pacific Northwest; a warm wind that can melt a winter's snow in hours.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Chinook", "correctAnswer": "Name of a Pacific Northwest people", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Foehn",
+    "pronunciation": "FURN",
+    "pos": "noun",
+    "definition": "A warm, dry wind that descends the leeward side of a mountain range, especially in the Alps.",
+    "origin": "From German <strong>Föhn</strong>, from Old High German phōnno, ultimately from Latin (ventus) favonius (favourable west wind). The word describes the warm downslope wind long noted by Alpine communities as it dries and heats the air on its descent.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Foehn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Föhn", "b": "Warm downslope wind" },
+          { "a": "Old High German phōnno", "b": "Earlier form of the word" },
+          { "a": "Ultimately from Latin favonius", "b": "West wind, favourable wind" },
+          { "a": "Long noted by", "b": "Alpine communities" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Foehn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A foehn wind blows down the", "b": "Leeward side of a mountain range" },
+          { "a": "As it descends, foehn air becomes", "b": "Warmer and drier" },
+          { "a": "Foehn winds are common in the", "b": "Alps" },
+          { "a": "A foehn can trigger rapid", "b": "Snowmelt and avalanche risk" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Foehn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Villagers noticed the sudden warmth of the", "b": "Foehn" },
+          { "a": "The glacier's meltwater surged after the", "b": "Foehn wind blew through" },
+          { "a": "Headaches were blamed, fairly or not, on the", "b": "Foehn" },
+          { "a": "Skiers watched conditions soften under the", "b": "Foehn's warmth" }
+        ] }
+    ],
+    "roots": [ { "rootText": "favonius", "rootLanguage": "Latin", "rootMeaning": "West wind, favourable wind", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "favonius", "highlight": true }, { "text": " (west wind); Alpine air that turns warm and dry as it rushes down the mountainside.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "favonius", "correctAnswer": "West wind, favourable wind", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Haboob",
+    "pronunciation": "huh-BOOB",
+    "pos": "noun",
+    "definition": "A sudden, intense wall of dust or sand driven by the outflow of a collapsing thunderstorm.",
+    "origin": "From Arabic <strong>habb</strong> (to blow), via haboob (a blowing, strong wind). The term was first used in English in the early 20th century to describe sudden dust storms in Sudan before spreading to describe similar storms elsewhere.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Haboob</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic habb", "b": "To blow" },
+          { "a": "Arabic haboob", "b": "A blowing, strong wind" },
+          { "a": "First used in English to describe storms in", "b": "Sudan" },
+          { "a": "Entered English in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Haboob</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A haboob is caused by", "b": "A collapsing thunderstorm downdraft" },
+          { "a": "A haboob typically appears as a", "b": "Towering wall of dust or sand" },
+          { "a": "Haboobs can reduce visibility to", "b": "Near zero" },
+          { "a": "Haboobs are common in", "b": "Desert regions such as Sudan and Arizona" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Haboob</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Drivers pulled over as the", "b": "Haboob swallowed the highway" },
+          { "a": "A wall of brown dust announced the arriving", "b": "Haboob" },
+          { "a": "The airport closed briefly during the", "b": "Haboob" },
+          { "a": "Photographers raced to capture the towering", "b": "Haboob" }
+        ] }
+    ],
+    "roots": [ { "rootText": "habb", "rootLanguage": "Arabic", "rootMeaning": "To blow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "habb", "highlight": true }, { "text": " (to blow); a towering wall of dust thrown up by a collapsing storm.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "habb", "correctAnswer": "To blow", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Blizzard",
+    "pronunciation": "BLIZ-erd",
+    "pos": "noun",
+    "definition": "A severe snowstorm with high winds and greatly reduced visibility.",
+    "origin": "Origin uncertain. The word first appeared in American English in the early 19th century as slang for a furious blow or volley of gunfire, then shifted to describe a violent, blinding snowstorm, a sense that American newspapers helped popularise after severe storms in the 1870s.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Blizzard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Origin of the word is", "b": "Uncertain" },
+          { "a": "Early 19th-century American slang meaning", "b": "A furious blow or volley" },
+          { "a": "Later applied to", "b": "A violent, blinding snowstorm" },
+          { "a": "Popularised by American newspapers after storms in the", "b": "1870s" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Blizzard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A blizzard combines heavy snow with", "b": "High winds" },
+          { "a": "Blizzards cause visibility to drop", "b": "Drastically" },
+          { "a": "Blizzard warnings urge people to", "b": "Stay off the roads" },
+          { "a": "'A blizzard of paperwork' figuratively means", "b": "An overwhelming flood of it" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Blizzard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Schools closed as the", "b": "Blizzard buried the streets" },
+          { "a": "Drivers were stranded overnight in the", "b": "Blizzard" },
+          { "a": "The office was hit with a", "b": "Blizzard of complaints" },
+          { "a": "Forecasters tracked the approaching", "b": "Blizzard" }
+        ] }
+    ],
+    "roots": [ { "rootText": "blizzard", "rootLanguage": "American English", "rootMeaning": "Originally, a furious blow or volley", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Originally American slang for ", "highlight": false }, { "text": "a furious blow", "highlight": true }, { "text": "; the word shifted to mean a blinding, wind-driven snowstorm.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "blizzard", "correctAnswer": "Originally, a furious blow or volley", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Doldrums",
+    "pronunciation": "DOHL-druhmz",
+    "pos": "noun",
+    "definition": "A belt of calm, unpredictable winds near the equator where sailing ships historically became becalmed; figuratively, a state of stagnation or low spirits.",
+    "origin": "From the archaic English adjective <strong>doldrum</strong> (dull, sluggish), likely built on dol- (related to dull) with an ending modelled on tantrum. Nineteenth-century sailors applied the plural to the windless equatorial waters that left their ships motionless for days.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Doldrums</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Archaic English doldrum", "b": "Dull, sluggish" },
+          { "a": "Built on the root", "b": "Dol- (related to dull)" },
+          { "a": "Ending modelled on", "b": "Tantrum" },
+          { "a": "Applied by sailors in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Doldrums</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The doldrums are a belt of calm winds near the", "b": "Equator" },
+          { "a": "Sailing ships in the doldrums could be", "b": "Becalmed for days" },
+          { "a": "'Stuck in the doldrums' figuratively means", "b": "Feeling stagnant or low" },
+          { "a": "The doldrums are also known to sailors as the", "b": "Intertropical Convergence Zone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Doldrums</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old clipper ship drifted for a week in the", "b": "Doldrums" },
+          { "a": "Sales fell into the summer", "b": "Doldrums" },
+          { "a": "After the injury, his career sank into the", "b": "Doldrums" },
+          { "a": "Sailors dreaded being trapped in the", "b": "Windless doldrums" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dol-", "rootLanguage": "English", "rootMeaning": "Dull, sluggish", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "dol-", "highlight": true }, { "text": " (dull); the becalmed equatorial seas where sailing ships once sat motionless for days.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dol-", "correctAnswer": "Dull, sluggish", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tundra",
+    "pronunciation": "TUN-druh",
+    "pos": "noun",
+    "definition": "A vast, flat, treeless Arctic or high-altitude region where the subsoil remains permanently frozen.",
+    "origin": "From Russian <strong>тундра</strong> (tundra), borrowed from a Kildin Sami word related to tūndâr, meaning uplands or a treeless plain. The word entered English in the early 19th century through accounts of Arctic Russia.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tundra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Russian тундра", "b": "Tundra" },
+          { "a": "Borrowed from Sami", "b": "Tūndâr" },
+          { "a": "Sami root meaning", "b": "Uplands, treeless plain" },
+          { "a": "Entered English via accounts of", "b": "Arctic Russia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tundra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Tundra is treeless and", "b": "Flat" },
+          { "a": "Beneath tundra soil lies", "b": "Permanently frozen subsoil" },
+          { "a": "Tundra vegetation is limited to", "b": "Mosses, lichens, and low shrubs" },
+          { "a": "Tundra occurs at high latitudes and", "b": "High altitudes" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tundra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Caribou migrate each year across the", "b": "Tundra" },
+          { "a": "Wildflowers briefly bloom on the summer", "b": "Tundra" },
+          { "a": "Researchers drilled samples from the frozen", "b": "Tundra" },
+          { "a": "The plane landed on the flat, open", "b": "Arctic tundra" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tūndâr", "rootLanguage": "Sami", "rootMeaning": "Uplands, treeless plain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Sami ", "highlight": false }, { "text": "tūndâr", "highlight": true }, { "text": " (treeless upland), via Russian; a frozen plain where trees cannot take root.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tūndâr", "correctAnswer": "Uplands, treeless plain", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Savanna",
+    "pronunciation": "suh-VAN-uh",
+    "pos": "noun",
+    "definition": "A grassy plain of tropical or subtropical regions, scattered with trees and marked by a distinct wet and dry season.",
+    "origin": "From Spanish <strong>sabana</strong>, borrowed from Taíno zabana, a word used by the Indigenous people of the Caribbean for a treeless, grassy plain. Spanish explorers carried the term into English in the 16th century.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Savanna</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish sabana", "b": "Grassy plain" },
+          { "a": "Taíno zabana", "b": "Treeless, grassy plain" },
+          { "a": "Taíno people lived in the", "b": "Caribbean" },
+          { "a": "Carried into English by", "b": "Spanish explorers in the 16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Savanna</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A savanna is a grassy plain scattered with", "b": "Trees" },
+          { "a": "Savannas experience distinct", "b": "Wet and dry seasons" },
+          { "a": "The African savanna is home to", "b": "Lions, elephants, and giraffes" },
+          { "a": "Savanna differs from forest by having a", "b": "Continuous grass layer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Savanna</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Herds of zebra crossed the open", "b": "Savanna" },
+          { "a": "The documentary filmed lions hunting on the", "b": "Savanna" },
+          { "a": "Acacia trees dotted the golden", "b": "Savanna grassland" },
+          { "a": "Wildfires sweep naturally across the dry-season", "b": "Savanna" }
+        ] }
+    ],
+    "roots": [ { "rootText": "zabana", "rootLanguage": "Taíno", "rootMeaning": "Treeless, grassy plain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Taíno ", "highlight": false }, { "text": "zabana", "highlight": true }, { "text": " (grassy plain), via Spanish sabana; open grassland dotted with scattered trees.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "zabana", "correctAnswer": "Treeless, grassy plain", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Taiga",
+    "pronunciation": "TY-guh",
+    "pos": "noun",
+    "definition": "The subarctic coniferous forest biome that stretches across the northern regions of Eurasia and North America.",
+    "origin": "From Russian <strong>taiga</strong>, itself likely borrowed from a Turkic or Mongolic word for dense mountain forest. The term spread into English geography and ecology in the early 20th century to describe the vast coniferous forest belt south of the tundra.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Taiga</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Russian taiga", "b": "Dense mountain forest" },
+          { "a": "Likely borrowed from a", "b": "Turkic or Mongolic language" },
+          { "a": "Entered English geography in the", "b": "Early 20th century" },
+          { "a": "Describes the forest belt lying", "b": "South of the tundra" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Taiga</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Taiga is dominated by", "b": "Coniferous trees such as spruce and pine" },
+          { "a": "Taiga stretches across northern", "b": "Eurasia and North America" },
+          { "a": "Taiga winters are", "b": "Long and bitterly cold" },
+          { "a": "Taiga is also known as the", "b": "Boreal forest" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Taiga</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wolves hunted moose through the endless", "b": "Taiga" },
+          { "a": "Loggers worked deep within the Siberian", "b": "Taiga" },
+          { "a": "The train crossed thousands of miles of", "b": "Taiga forest" },
+          { "a": "Snow blanketed the silent", "b": "Taiga" }
+        ] }
+    ],
+    "roots": [ { "rootText": "taiga", "rootLanguage": "Turkic/Mongolic", "rootMeaning": "Dense mountain forest", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Russian ", "highlight": false }, { "text": "taiga", "highlight": true }, { "text": " (dense mountain forest), of Turkic or Mongolic origin; the vast conifer belt of the far north.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "taiga", "correctAnswer": "Dense mountain forest", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arctic",
+    "pronunciation": "ARK-tik",
+    "pos": "adjective",
+    "definition": "Relating to the region surrounding the North Pole; extremely cold.",
+    "origin": "From Greek <strong>arktikos</strong> (of the north, near the Bear), from arktos (bear), referring to the constellations Ursa Major and Ursa Minor that hang over the northern sky. Ancient Greek astronomers used the 'Bear' to mark true north.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arctic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek arktikos", "b": "Of the north, near the Bear" },
+          { "a": "Greek arktos", "b": "Bear" },
+          { "a": "Referred to the constellations", "b": "Ursa Major and Ursa Minor" },
+          { "a": "Greek astronomers used the Bear to mark", "b": "True north" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arctic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Arctic surrounds the", "b": "North Pole" },
+          { "a": "Arctic temperatures are", "b": "Extremely cold" },
+          { "a": "The Arctic Circle marks the southern edge of", "b": "The midnight sun and polar night" },
+          { "a": "'Arctic conditions' figuratively describes weather that is", "b": "Bitterly cold" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arctic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Polar bears roam the frozen", "b": "Arctic" },
+          { "a": "Researchers studied melting", "b": "Arctic sea ice" },
+          { "a": "An", "b": "Arctic blast plunged temperatures overnight" },
+          { "a": "The expedition ship pushed through", "b": "Arctic pack ice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arktos", "rootLanguage": "Greek", "rootMeaning": "Bear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "arktos", "highlight": true }, { "text": " (bear); the polar region beneath the constellation of the Great Bear.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arktos", "correctAnswer": "Bear", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tropic",
+    "pronunciation": "TROP-ik",
+    "pos": "noun",
+    "definition": "Either of the two lines of latitude, Cancer and Capricorn, marking the boundaries of the tropical zone; in the plural, the warm region between them.",
+    "origin": "From Greek <strong>tropikos</strong> (of a turning), from trope (a turning). Ancient astronomers named the lines for the point at which the sun appeared to turn back toward the equator after reaching its highest point at the solstice.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tropic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek tropikos", "b": "Of a turning" },
+          { "a": "Greek trope", "b": "A turning" },
+          { "a": "Named for where the sun appears to", "b": "Turn back toward the equator" },
+          { "a": "This turning happens at the", "b": "Solstice" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tropic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Tropic of Cancer lies in the", "b": "Northern Hemisphere" },
+          { "a": "The Tropic of Capricorn lies in the", "b": "Southern Hemisphere" },
+          { "a": "The tropics lie between the two", "b": "Tropic lines" },
+          { "a": "The tropics are known for a", "b": "Warm, humid climate year-round" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tropic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ship crossed the", "b": "Tropic of Cancer" },
+          { "a": "Rainforests thrive within the", "b": "Tropics" },
+          { "a": "They vacationed somewhere warm, deep in the", "b": "Tropics" },
+          { "a": "The plane's route dipped south of the", "b": "Tropic of Capricorn" }
+        ] }
+    ],
+    "roots": [ { "rootText": "trope", "rootLanguage": "Greek", "rootMeaning": "A turning", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "trope", "highlight": true }, { "text": " (a turning); the latitude where the sun appears to turn back at the solstice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "trope", "correctAnswer": "A turning", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Equator",
+    "pronunciation": "i-KWAY-tuhr",
+    "pos": "noun",
+    "definition": "The imaginary line encircling the Earth equidistant from the North and South Poles, dividing it into two hemispheres.",
+    "origin": "From Medieval Latin <strong>aequator</strong> (diei et noctis), literally 'equalizer of day and night,' from aequare (to make equal), from aequus (equal). The line was so named because day and night are of equal length there year-round.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Equator</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Medieval Latin aequator", "b": "Equalizer (of day and night)" },
+          { "a": "Latin aequare", "b": "To make equal" },
+          { "a": "Latin aequus", "b": "Equal" },
+          { "a": "Named for equal", "b": "Day and night length" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Equator</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The equator divides the Earth into two", "b": "Hemispheres" },
+          { "a": "The equator is equidistant from the", "b": "North and South Poles" },
+          { "a": "Regions near the equator have a", "b": "Warm, tropical climate" },
+          { "a": "The equator marks latitude", "b": "Zero degrees" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Equator</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ship's crew celebrated crossing the", "b": "Equator" },
+          { "a": "Countries along the", "b": "Equator experience little seasonal change" },
+          { "a": "Ecuador takes its name from the Spanish word for", "b": "Equator" },
+          { "a": "The satellite's orbit tracked closely along the", "b": "Equator" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aequare", "rootLanguage": "Latin", "rootMeaning": "To make equal", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aequare", "highlight": true }, { "text": " (to make equal); the line where day and night stay equal all year.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aequare", "correctAnswer": "To make equal", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Meridian",
+    "pronunciation": "muh-RID-ee-uhn",
+    "pos": "noun",
+    "definition": "An imaginary line of longitude running from the North Pole to the South Pole, used to measure position east or west.",
+    "origin": "From Latin <strong>meridies</strong> (midday, south), an alteration of medidies, from medius (middle) + dies (day), via the adjective meridianus (of midday). The sun crosses any given meridian at local noon, giving the line its name.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Meridian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin meridianus", "b": "Of midday" },
+          { "a": "Latin meridies", "b": "Midday, south" },
+          { "a": "Altered from Latin medidies, from", "b": "Medius (middle) + dies (day)" },
+          { "a": "Named because the sun crosses it at", "b": "Local noon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Meridian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A meridian runs from the", "b": "North Pole to the South Pole" },
+          { "a": "Meridians measure position", "b": "East or west" },
+          { "a": "The Prime Meridian passes through", "b": "Greenwich, England" },
+          { "a": "'Meridian' can also describe a body's peak, as in", "b": "The meridian of one's career" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Meridian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Navigators calculated their position from a known", "b": "Meridian" },
+          { "a": "The Prime", "b": "Meridian marks zero degrees longitude" },
+          { "a": "Time zones are measured relative to", "b": "Meridians of longitude" },
+          { "a": "Astronomers tracked the star as it crossed the", "b": "Meridian" }
+        ] }
+    ],
+    "roots": [ { "rootText": "meridies", "rootLanguage": "Latin", "rootMeaning": "Midday, south", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "meridies", "highlight": true }, { "text": " (midday); a north-south line the sun crosses at local noon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "meridies", "correctAnswer": "Midday, south", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Highland",
+    "pronunciation": "HY-luhnd",
+    "pos": "noun",
+    "definition": "An area of elevated, often mountainous or hilly terrain.",
+    "origin": "A native English compound of <strong>high</strong> and land, in use since Old English. The plural 'Highlands' came to refer specifically to the mountainous north and west of Scotland by the late medieval period.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Highland</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English heah", "b": "High" },
+          { "a": "Old English land", "b": "Land" },
+          { "a": "A native compound in use since", "b": "Old English" },
+          { "a": "'The Highlands' came to mean", "b": "Mountainous Scotland" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Highland</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A highland is an area of", "b": "Elevated, hilly or mountainous terrain" },
+          { "a": "Highlands typically have", "b": "Cooler climates than lowlands" },
+          { "a": "The Scottish Highlands are known for", "b": "Rugged mountains and lochs" },
+          { "a": "Highland regions often support distinct", "b": "Farming and grazing traditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Highland</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sheep grazed across the misty", "b": "Highlands" },
+          { "a": "The road wound up into the", "b": "Ethiopian highlands" },
+          { "a": "Bagpipes echoed through the", "b": "Highland glen" },
+          { "a": "Coffee grown in the", "b": "Highlands develops a richer flavour" }
+        ] }
+    ],
+    "roots": [ { "rootText": "high + land", "rootLanguage": "Old English", "rootMeaning": "Elevated ground", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A native compound of ", "highlight": false }, { "text": "high + land", "highlight": true }, { "text": "; elevated ground rising above the surrounding country.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "high + land", "correctAnswer": "Elevated ground", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Badlands",
+    "pronunciation": "BAD-landz",
+    "pos": "noun",
+    "definition": "A dry, heavily eroded region of soft sedimentary rock and clay, marked by jagged ridges, gullies, and sparse vegetation.",
+    "origin": "A translation of French <strong>mauvaises terres</strong> (bad lands), the phrase French-Canadian trappers used for the harsh, eroded terrain of the northern Great Plains. It likely echoed the Lakota Sioux phrase mako sica, meaning 'land bad,' used for the same rugged region.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Badlands</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French mauvaises terres", "b": "Bad lands" },
+          { "a": "Used by", "b": "French-Canadian trappers" },
+          { "a": "Likely echoed Lakota", "b": "Mako sica (land bad)" },
+          { "a": "Described terrain across the", "b": "Northern Great Plains" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Badlands</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Badlands are formed by heavy", "b": "Erosion of soft sedimentary rock" },
+          { "a": "Badlands terrain features jagged ridges and", "b": "Gullies" },
+          { "a": "Vegetation in badlands is typically", "b": "Sparse" },
+          { "a": "Badlands National Park lies in the state of", "b": "South Dakota" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Badlands</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hikers navigated the maze of ridges in the", "b": "Badlands" },
+          { "a": "Fossil hunters searched the exposed layers of the", "b": "Badlands" },
+          { "a": "The film was shot amid the striped cliffs of the", "b": "Badlands" },
+          { "a": "Rain carved deep gullies into the", "b": "Badlands" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mauvaises terres", "rootLanguage": "French", "rootMeaning": "Bad lands", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Translated from French ", "highlight": false }, { "text": "mauvaises terres", "highlight": true }, { "text": " (bad lands); terrain so eroded and dry it defied travel and farming.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mauvaises terres", "correctAnswer": "Bad lands", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Karst",
+    "pronunciation": "kahrst",
+    "pos": "noun",
+    "definition": "A landscape underlain by soluble rock such as limestone, characterised by sinkholes, caves, and underground drainage.",
+    "origin": "From German <strong>Karst</strong>, the name of a limestone plateau straddling the border of Slovenia and Italy (Kras in Slovene, Carso in Italian). Geologists adopted the place name in the late 19th century as the general term for this type of eroded limestone terrain.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Karst</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Karst", "b": "Name of a limestone plateau" },
+          { "a": "The plateau straddles", "b": "Slovenia and Italy" },
+          { "a": "Also known as Kras or", "b": "Carso" },
+          { "a": "Adopted by geologists in the", "b": "Late 19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Karst</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Karst landscapes form in", "b": "Soluble rock such as limestone" },
+          { "a": "Karst terrain is riddled with", "b": "Sinkholes and caves" },
+          { "a": "Karst regions often have extensive", "b": "Underground drainage systems" },
+          { "a": "Karst caves form as water slowly", "b": "Dissolves the rock" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Karst</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Cavers explored the labyrinth beneath the", "b": "Karst landscape" },
+          { "a": "A sudden sinkhole opened in the", "b": "Karst terrain" },
+          { "a": "The region's rivers vanish underground into", "b": "Karst channels" },
+          { "a": "Geologists mapped the region's extensive", "b": "Karst topography" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Karst", "rootLanguage": "German (place name)", "rootMeaning": "Limestone plateau region", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the ", "highlight": false }, { "text": "Karst", "highlight": true }, { "text": " plateau on the Slovenia–Italy border; limestone terrain riddled with caves and sinkholes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Karst", "correctAnswer": "Limestone plateau region", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Biome",
+    "pronunciation": "BY-ohm",
+    "pos": "noun",
+    "definition": "A large community of plants and animals shaped by a shared climate and geography, such as tundra, desert, or rainforest.",
+    "origin": "From Greek <strong>bios</strong> (life) + -oma (a suffix denoting a mass or group, as in 'rhizome'). American ecologist Frederic Clements coined the term in 1916 to describe a whole community of organisms as a single ecological unit.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Biome</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek bios", "b": "Life" },
+          { "a": "Greek -oma", "b": "Mass, group" },
+          { "a": "Coined in 1916 by", "b": "Frederic Clements" },
+          { "a": "Clements was an", "b": "American ecologist" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Biome</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A biome is shaped by shared", "b": "Climate and geography" },
+          { "a": "Examples of biomes include", "b": "Tundra, desert, and rainforest" },
+          { "a": "A biome includes both", "b": "Plant and animal communities" },
+          { "a": "Biomes are broader in scale than a single", "b": "Ecosystem" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Biome</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The textbook chapter compared the desert and rainforest", "b": "Biomes" },
+          { "a": "Climate change is shifting the boundaries of many", "b": "Biomes" },
+          { "a": "The zoo designed exhibits around distinct", "b": "Biomes" },
+          { "a": "Students mapped the world's major", "b": "Terrestrial biomes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bios", "rootLanguage": "Greek", "rootMeaning": "Life", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "bios", "highlight": true }, { "text": " (life) + -oma (mass, group); a whole community of life treated as one unit.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bios", "correctAnswer": "Life", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chaparral",
+    "pronunciation": "shap-uh-RAL",
+    "pos": "noun",
+    "definition": "A dense shrubland of drought-resistant evergreen bushes, typical of regions with hot, dry summers and mild, wet winters.",
+    "origin": "From Spanish <strong>chaparro</strong> (dwarf evergreen oak), a word believed to derive from Basque txapar (thicket, small shrub). Spanish speakers in the American Southwest and California applied the derived term chaparral to the dense scrub blanketing the hillsides.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chaparral</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish chaparral", "b": "Dense evergreen scrubland" },
+          { "a": "Spanish chaparro", "b": "Dwarf evergreen oak" },
+          { "a": "Believed to derive from Basque", "b": "Txapar (thicket)" },
+          { "a": "Applied to hillside scrub in", "b": "California and the Southwest" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chaparral</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Chaparral consists of dense, drought-resistant", "b": "Evergreen shrubs" },
+          { "a": "Chaparral regions have hot, dry summers and", "b": "Mild, wet winters" },
+          { "a": "Chaparral is highly prone to", "b": "Wildfire" },
+          { "a": "Coastal California is famous for its", "b": "Chaparral hillsides" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chaparral</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hikers pushed through thick", "b": "Chaparral brush" },
+          { "a": "Wildfires swept quickly across the dry", "b": "Chaparral" },
+          { "a": "Deer browsed among the", "b": "Chaparral shrubs" },
+          { "a": "The hillsides were covered in dense", "b": "Chaparral scrub" }
+        ] }
+    ],
+    "roots": [ { "rootText": "chaparro", "rootLanguage": "Spanish", "rootMeaning": "Dwarf evergreen oak", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "chaparro", "highlight": true }, { "text": " (dwarf oak); dense, drought-hardy scrub covering dry hillsides.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "chaparro", "correctAnswer": "Dwarf evergreen oak", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Scrubland",
+    "pronunciation": "SKRUB-land",
+    "pos": "noun",
+    "definition": "Land covered predominantly by low, often stunted vegetation such as shrubs, bushes, and dwarf trees.",
+    "origin": "A compound of English <strong>scrub</strong> (low, stunted vegetation, an alteration of shrub) and land. The word entered common use in the 19th century as settlers and naturalists described the thorny, dry brushland of colonised regions such as Australia and southern Africa.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Scrubland</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English scrub", "b": "Low, stunted vegetation" },
+          { "a": "Scrub is an alteration of", "b": "Shrub" },
+          { "a": "Entered common use in the", "b": "19th century" },
+          { "a": "Used to describe brushland in", "b": "Australia and southern Africa" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Scrubland</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Scrubland is dominated by", "b": "Low shrubs and bushes" },
+          { "a": "Scrubland vegetation is typically", "b": "Stunted and hardy" },
+          { "a": "Scrubland often occurs in", "b": "Dry, marginal soils" },
+          { "a": "Scrubland can transition into", "b": "Chaparral or desert" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Scrubland</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Kangaroos bounded across the dusty", "b": "Scrubland" },
+          { "a": "Bulldozers cleared the", "b": "Scrubland for development" },
+          { "a": "Fire crews battled flames racing through the", "b": "Scrubland" },
+          { "a": "The trail cut through thorny", "b": "Scrubland brush" }
+        ] }
+    ],
+    "roots": [ { "rootText": "scrub", "rootLanguage": "English", "rootMeaning": "Low, stunted vegetation", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "scrub", "highlight": true }, { "text": " (stunted vegetation) + land; dry country dominated by low, thorny brush.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "scrub", "correctAnswer": "Low, stunted vegetation", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Erg",
+    "pronunciation": "urg",
+    "pos": "noun",
+    "definition": "A large area of shifting sand dunes within a desert, especially in the Sahara.",
+    "origin": "From French <strong>erg</strong>, borrowed from Arabic ʿerg, a term used by desert peoples of North Africa for a vast expanse of wind-sculpted dunes. The word entered English through 19th- and 20th-century accounts of Saharan exploration.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Erg</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French erg", "b": "Sea of sand dunes" },
+          { "a": "Arabic ʿerg", "b": "Sand dune region" },
+          { "a": "Used by desert peoples of", "b": "North Africa" },
+          { "a": "Entered English through accounts of", "b": "Saharan exploration" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Erg</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An erg is a vast field of", "b": "Shifting sand dunes" },
+          { "a": "Ergs are found especially in the", "b": "Sahara" },
+          { "a": "Ergs form where wind deposits", "b": "Large quantities of loose sand" },
+          { "a": "An erg differs from a rocky desert plateau, or", "b": "Hamada" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Erg</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The convoy crossed the towering dunes of the", "b": "Erg" },
+          { "a": "Sunset painted the vast", "b": "Erg in shades of gold" },
+          { "a": "Camels plodded across the endless", "b": "Erg" },
+          { "a": "Satellite images revealed the shifting patterns of the", "b": "Erg's dunes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ʿerg", "rootLanguage": "Arabic", "rootMeaning": "Sand dune region", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "ʿerg", "highlight": true }, { "text": " (sand dune region); a rippling sea of wind-sculpted sand.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ʿerg", "correctAnswer": "Sand dune region", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hamada",
+    "pronunciation": "huh-MAH-duh",
+    "pos": "noun",
+    "definition": "A barren, rocky desert plateau largely stripped of sand by the wind, typical of parts of the Sahara.",
+    "origin": "From Arabic <strong>ḥammādah</strong>, describing a stony, barren plateau. The term passed into European geographical usage through French and English accounts of the Sahara in the 19th and 20th centuries, distinguishing rocky desert from sandy erg terrain.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hamada</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic ḥammādah", "b": "Barren, stony plateau" },
+          { "a": "Passed into use via", "b": "French and English accounts" },
+          { "a": "Described terrain across the", "b": "Sahara" },
+          { "a": "Distinguished rocky desert from sandy", "b": "Erg" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hamada</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hamada is a rocky", "b": "Desert plateau" },
+          { "a": "Hamada terrain has been mostly stripped of", "b": "Sand by the wind" },
+          { "a": "Hamada surfaces are typically", "b": "Barren and stony" },
+          { "a": "Little vegetation survives on a", "b": "Hamada" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hamada</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jeep bounced across the rocky", "b": "Hamada" },
+          { "a": "Geologists studied the exposed bedrock of the", "b": "Hamada" },
+          { "a": "No dunes broke the flat horizon of the", "b": "Hamada" },
+          { "a": "Wind had scoured the surface of the", "b": "Hamada plateau clean" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ḥammādah", "rootLanguage": "Arabic", "rootMeaning": "Barren, stony plateau", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "ḥammādah", "highlight": true }, { "text": " (barren plateau); a windswept expanse of bare rock stripped clean of sand.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ḥammādah", "correctAnswer": "Barren, stony plateau", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Thicket",
+    "pronunciation": "THIK-it",
+    "pos": "noun",
+    "definition": "A dense growth of shrubs, bushes, or small trees.",
+    "origin": "From Old English <strong>þiccet</strong>, formed from þicce (thick) with a collective suffix. The word has described dense, tangled undergrowth in English since before the Norman Conquest.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Thicket</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English þiccet", "b": "Thicket" },
+          { "a": "Old English þicce", "b": "Thick" },
+          { "a": "Formed with a", "b": "Collective suffix" },
+          { "a": "In use since before the", "b": "Norman Conquest" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Thicket</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A thicket is a dense growth of", "b": "Shrubs, bushes, or small trees" },
+          { "a": "Thickets can provide cover for", "b": "Wildlife" },
+          { "a": "Pushing through a thicket can be", "b": "Slow and difficult" },
+          { "a": "'A thicket of rules' figuratively describes", "b": "A tangled, confusing set of regulations" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Thicket</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A rabbit darted into the", "b": "Thicket" },
+          { "a": "Hunters lost the trail in a dense", "b": "Thicket" },
+          { "a": "The lawyers navigated a legal", "b": "Thicket of regulations" },
+          { "a": "Brambles formed an impenetrable", "b": "Thicket along the fence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "þicce", "rootLanguage": "Old English", "rootMeaning": "Thick", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "þicce", "highlight": true }, { "text": " (thick); a tangled mass of bushes packed close together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "þicce", "correctAnswer": "Thick", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Canopy",
+    "pronunciation": "KAN-uh-pee",
+    "pos": "noun",
+    "definition": "The uppermost, continuous layer of branches and foliage formed by the tallest trees in a forest.",
+    "origin": "From Greek <strong>konops</strong> (mosquito, gnat), via konopeion (a couch fitted with mosquito netting), through Latin conopeum and Old French/Medieval Latin canopeum. The word originally meant a curtained bed and only later, by extension, came to describe an overhead covering of forest branches.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Canopy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek konops", "b": "Mosquito, gnat" },
+          { "a": "Greek konopeion", "b": "Couch fitted with mosquito netting" },
+          { "a": "Passed through Latin", "b": "Conopeum" },
+          { "a": "Originally meant a", "b": "Curtained bed" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Canopy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A forest canopy is formed by the", "b": "Tallest trees' branches and foliage" },
+          { "a": "The canopy blocks much of the", "b": "Sunlight reaching the forest floor" },
+          { "a": "Many rainforest species live entirely within the", "b": "Canopy" },
+          { "a": "The canopy sits above the", "b": "Understory" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Canopy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sunlight barely pierced the thick rainforest", "b": "Canopy" },
+          { "a": "Researchers built a walkway high in the", "b": "Forest canopy" },
+          { "a": "Monkeys swung between branches in the", "b": "Canopy" },
+          { "a": "Rain pattered steadily on the leafy", "b": "Canopy overhead" }
+        ] }
+    ],
+    "roots": [ { "rootText": "konops", "rootLanguage": "Greek", "rootMeaning": "Mosquito, gnat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "konops", "highlight": true }, { "text": " (mosquito); once a netted bed to keep off insects, now the leafy roof of the forest.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "konops", "correctAnswer": "Mosquito, gnat", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Understory",
+    "pronunciation": "UN-duhr-stor-ee",
+    "pos": "noun",
+    "definition": "The layer of vegetation, including shrubs and young trees, growing beneath a forest's main canopy.",
+    "origin": "A compound of English <strong>under</strong> and story (a horizontal layer, as in a building's storey). Twentieth-century ecologists adopted the architectural metaphor of 'storeys' to describe the distinct vertical layers of a forest.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Understory</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English under", "b": "Beneath" },
+          { "a": "English story", "b": "A horizontal layer, as in a building" },
+          { "a": "Ecologists borrowed the metaphor of", "b": "A building's storeys" },
+          { "a": "Adopted to describe forest layers in the", "b": "20th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Understory</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The understory grows beneath the forest's", "b": "Main canopy" },
+          { "a": "The understory includes shrubs and", "b": "Young trees" },
+          { "a": "The understory receives", "b": "Less sunlight than the canopy" },
+          { "a": "Many forest birds and insects depend on the", "b": "Understory" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Understory</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ferns carpeted the shaded", "b": "Forest understory" },
+          { "a": "Deer browsed quietly through the", "b": "Understory" },
+          { "a": "Sunlight filtered weakly into the", "b": "Understory" },
+          { "a": "Saplings competed for light in the crowded", "b": "Understory" }
+        ] }
+    ],
+    "roots": [ { "rootText": "under + story", "rootLanguage": "English", "rootMeaning": "Layer beneath", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "under + story", "highlight": true }, { "text": "; the shaded layer of shrubs and saplings beneath the treetops.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "under + story", "correctAnswer": "Layer beneath", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Heath",
+    "pronunciation": "heeth",
+    "pos": "noun",
+    "definition": "An open tract of uncultivated land, typically covered with low shrubs such as heather and gorse.",
+    "origin": "From Old English <strong>hæð</strong>, a common Germanic word (related to German Heide) for open, uncultivated land. The word has named Britain's open moorland since before written English records began.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-climate", "name": "Climate & Biomes", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Heath</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English hæð", "b": "Open, uncultivated land" },
+          { "a": "Related to German", "b": "Heide" },
+          { "a": "A common", "b": "Germanic word" },
+          { "a": "Named Britain's moorland since before", "b": "Written English records" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Heath</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A heath is open land typically covered with", "b": "Low shrubs such as heather" },
+          { "a": "Heath soil is usually", "b": "Poor and acidic" },
+          { "a": "Heaths are largely", "b": "Uncultivated" },
+          { "a": "'Heath' gives its name to wild settings in fiction, such as", "b": "Egdon Heath in Thomas Hardy's novels" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Heath</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Purple heather bloomed across the", "b": "Heath" },
+          { "a": "They walked their dog on the open", "b": "Heath" },
+          { "a": "Grouse nested among the gorse on the", "b": "Heath" },
+          { "a": "The novel's moody opening scene unfolds on a windswept", "b": "Heath" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hæð", "rootLanguage": "Old English", "rootMeaning": "Open, uncultivated land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "hæð", "highlight": true }, { "text": " (open land); wild, uncultivated ground carpeted in heather.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hæð", "correctAnswer": "Open, uncultivated land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

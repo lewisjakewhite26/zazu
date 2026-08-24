@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Bog",
+    "pronunciation": "BOG",
+    "pos": "noun",
+    "definition": "A wet, spongy area of ground consisting largely of decayed and decaying plant matter, too soft to support heavy weight.",
+    "origin": "From Irish and Scottish Gaelic <strong>bogach</strong>, from bog (soft, moist), a Celtic root that entered English in the 16th century through descriptions of Irish wetlands.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bog</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Gaelic bog", "b": "Soft, moist" },
+          { "a": "Irish/Scottish Gaelic bogach", "b": "A soft, wet place" },
+          { "a": "Entered English in the", "b": "16th century" },
+          { "a": "Borrowed from descriptions of", "b": "Irish wetlands" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bog</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bog is composed largely of", "b": "Decayed and decaying plant matter" },
+          { "a": "Bogs are too soft to", "b": "Support heavy weight" },
+          { "a": "Peat is harvested from", "b": "Bogs" },
+          { "a": "'Bogged down' figuratively means", "b": "Stuck, unable to progress" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bog</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hikers' boots sank into the", "b": "Bog" },
+          { "a": "The negotiations got", "b": "Bogged down in details" },
+          { "a": "Rare orchids grew at the edge of the", "b": "Bog" },
+          { "a": "Ancient bodies have been preserved for centuries in peat", "b": "Bogs" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bog", "rootLanguage": "Gaelic", "rootMeaning": "Soft, moist", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Gaelic ", "highlight": false }, { "text": "bog", "highlight": true }, { "text": " (soft); ground so waterlogged it gives way underfoot.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bog", "correctAnswer": "Soft, moist", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fen",
+    "pronunciation": "FEN",
+    "pos": "noun",
+    "definition": "A low-lying area of marshy or waterlogged land, especially one fed by mineral-rich water and often more fertile than a bog.",
+    "origin": "From Old English <strong>fenn</strong> (mud, mire, marsh), a native Germanic word cognate with Dutch veen and German Fenn, long used to describe the low wetlands of eastern England.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English fenn", "b": "Mud, mire, marsh" },
+          { "a": "Cognate with Dutch", "b": "Veen" },
+          { "a": "Cognate with German", "b": "Fenn" },
+          { "a": "Long described the wetlands of", "b": "Eastern England" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fen is fed by", "b": "Mineral-rich water" },
+          { "a": "Unlike a bog, a fen tends to be more", "b": "Fertile" },
+          { "a": "The Fens are a region of", "b": "Eastern England" },
+          { "a": "Fens support diverse populations of", "b": "Wading birds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Reed beds lined the edge of the", "b": "Fen" },
+          { "a": "Farmers drained the", "b": "Fen to create arable land" },
+          { "a": "Herons stalked fish through the shallow", "b": "Fen" },
+          { "a": "The nature reserve protected a rare stretch of", "b": "Fen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fenn", "rootLanguage": "Old English", "rootMeaning": "Mud, mire, marsh", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "fenn", "highlight": true }, { "text": " (marsh); the low, waterlogged flatlands of eastern England.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fenn", "correctAnswer": "Mud, mire, marsh", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Marsh",
+    "pronunciation": "MARSH",
+    "pos": "noun",
+    "definition": "A low-lying area of wetland, periodically flooded and dominated by grasses, reeds, and other soft-stemmed plants rather than trees.",
+    "origin": "From Old English <strong>mersc</strong>, related to mere (sea, lake, pool), a Germanic term describing land at the boundary between water and dry ground.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Marsh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English mersc", "b": "Marshland" },
+          { "a": "Related to Old English mere", "b": "Sea, lake, pool" },
+          { "a": "A Germanic word describing land where", "b": "Water meets dry ground" },
+          { "a": "Marsh is a close cousin of the word", "b": "Mere" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Marsh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A marsh is dominated by", "b": "Grasses and reeds" },
+          { "a": "Marshes are periodically", "b": "Flooded" },
+          { "a": "Unlike a bog, a marsh has largely", "b": "Mineral soil, not peat" },
+          { "a": "Salt marshes form along", "b": "Tidal coastlines" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Marsh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Egrets waded through the shallow", "b": "Marsh" },
+          { "a": "The trail wound along a boardwalk through the", "b": "Marsh" },
+          { "a": "Storm surge flooded the coastal", "b": "Marsh" },
+          { "a": "Reintroduced beavers transformed the meadow into a", "b": "Marsh" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mersc", "rootLanguage": "Old English", "rootMeaning": "Marshland", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "mersc", "highlight": true }, { "text": " (marshland); grassy wetland at the edge of open water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mersc", "correctAnswer": "Marshland", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Swamp",
+    "pronunciation": "SWOMP",
+    "pos": "noun",
+    "definition": "A low-lying wetland forest or thicket permanently saturated with water, typically dominated by trees and shrubs.",
+    "origin": "Likely related to Middle Low German <strong>sump</strong> (swamp, morass) and Old English swamm (fungus, sponge); the word rose to prominence in 17th-century accounts of the waterlogged forests of colonial Virginia.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Swamp</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Low German sump", "b": "Swamp, morass" },
+          { "a": "Old English swamm", "b": "Fungus, sponge" },
+          { "a": "Rose to prominence in accounts of", "b": "Colonial Virginia" },
+          { "a": "Popularized in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Swamp</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Unlike a marsh, a swamp is typically dominated by", "b": "Trees and shrubs" },
+          { "a": "A swamp is permanently", "b": "Saturated with water" },
+          { "a": "The Everglades is a famous", "b": "Swamp" },
+          { "a": "'Drain the swamp' figuratively means to remove", "b": "Corruption or waste" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Swamp</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Alligators lurked beneath the cypress trees of the", "b": "Swamp" },
+          { "a": "Politicians vowed to", "b": "Drain the swamp" },
+          { "a": "The expedition trudged for days through dense", "b": "Swamp" },
+          { "a": "Mosquitoes bred in the stagnant water of the", "b": "Swamp" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sump", "rootLanguage": "Germanic", "rootMeaning": "Swamp, morass", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Related to Germanic ", "highlight": false }, { "text": "sump", "highlight": true }, { "text": " (morass); waterlogged forest first named by colonial Virginians.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sump", "correctAnswer": "Swamp, morass", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mire",
+    "pronunciation": "MYRE",
+    "pos": "noun",
+    "definition": "A stretch of deep mud or boggy ground; figuratively, a difficult or inescapable situation.",
+    "origin": "From Old Norse <strong>myrr</strong> (bog, swamp), brought into Middle English by Norse settlers and still visible in place names across northern England.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mire</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse myrr", "b": "Bog, swamp" },
+          { "a": "Brought into English by", "b": "Norse settlers" },
+          { "a": "Entered", "b": "Middle English" },
+          { "a": "Still visible in", "b": "Northern English place names" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mire</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mire is a stretch of deep", "b": "Mud or boggy ground" },
+          { "a": "Figuratively, to be 'in a mire' means to be in a", "b": "Difficult, inescapable situation" },
+          { "a": "'Mired in' something means", "b": "Stuck or entangled in it" },
+          { "a": "A mire can trap animals as heavy as", "b": "Cattle" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mire</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cart's wheels sank deep into the", "b": "Mire" },
+          { "a": "The company became", "b": "Mired in lawsuits" },
+          { "a": "Soldiers slogged through a battlefield turned to", "b": "Mire" },
+          { "a": "Years of delay left the project", "b": "Mired in red tape" }
+        ] }
+    ],
+    "roots": [ { "rootText": "myrr", "rootLanguage": "Old Norse", "rootMeaning": "Bog, swamp", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "myrr", "highlight": true }, { "text": " (bog); deep, clinging mud that traps whatever enters it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "myrr", "correctAnswer": "Bog, swamp", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Peat",
+    "pronunciation": "PEET",
+    "pos": "noun",
+    "definition": "Partially decayed organic matter, formed in wet, acidic bog conditions, that can be dried and burned as fuel.",
+    "origin": "From medieval Latin <strong>peta</strong>, a term of Celtic origin related to Welsh peth (thing, piece), first recorded in Britain to describe turves of bog matter cut for fuel.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Peat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Medieval Latin peta", "b": "A piece, turf of bog matter" },
+          { "a": "Of", "b": "Celtic origin" },
+          { "a": "Related to Welsh peth", "b": "Thing, piece" },
+          { "a": "First recorded to describe", "b": "Turves cut for fuel" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Peat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Peat forms in wet,", "b": "Acidic bog conditions" },
+          { "a": "Dried peat can be burned as", "b": "Fuel" },
+          { "a": "Some whisky is dried over smouldering", "b": "Peat" },
+          { "a": "Peat bogs can preserve ancient", "b": "Human remains" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Peat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The distillery dried its malt over smoking", "b": "Peat" },
+          { "a": "Villagers once cut blocks of", "b": "Peat to heat their homes" },
+          { "a": "Archaeologists found a preserved body buried in the", "b": "Peat" },
+          { "a": "Draining the bog for farmland destroyed centuries of stored", "b": "Peat" }
+        ] }
+    ],
+    "roots": [ { "rootText": "peta", "rootLanguage": "Medieval Latin", "rootMeaning": "A piece, turf of bog matter", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From medieval Latin ", "highlight": false }, { "text": "peta", "highlight": true }, { "text": " (a piece cut from the bog); decayed matter dried for fuel.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "peta", "correctAnswer": "A piece, turf of bog matter", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Moor",
+    "pronunciation": "MOOR",
+    "pos": "noun",
+    "definition": "An expanse of open, rolling, uncultivated land, typically covered with heather and often boggy underfoot.",
+    "origin": "From Old English <strong>mor</strong> (marsh, morass, barren upland), a Germanic word cognate with German Moor, originally describing wet wasteland before it broadened to cover open heath country.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Moor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English mor", "b": "Marsh, barren upland" },
+          { "a": "Cognate with German", "b": "Moor" },
+          { "a": "Originally described", "b": "Wet wasteland" },
+          { "a": "Later broadened to cover", "b": "Open heath country" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Moor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A moor is typically covered with", "b": "Heather" },
+          { "a": "Moors are often boggy", "b": "Underfoot" },
+          { "a": "Dartmoor and Exmoor are famous English", "b": "Moors" },
+          { "a": "Moorland supports game birds such as", "b": "Grouse" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Moor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Mist rolled across the desolate", "b": "Moor" },
+          { "a": "The detective searched the windswept", "b": "Moor for clues" },
+          { "a": "Sheep grazed freely on the open", "b": "Moor" },
+          { "a": "Wuthering Heights is set on the Yorkshire", "b": "Moors" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mor", "rootLanguage": "Old English", "rootMeaning": "Marsh, barren upland", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "mor", "highlight": true }, { "text": " (barren wasteland); open, heather-covered upland.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mor", "correctAnswer": "Marsh, barren upland", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Glade",
+    "pronunciation": "GLAYD",
+    "pos": "noun",
+    "definition": "An open, grassy space within a wood or forest, typically bright with sunlight.",
+    "origin": "Of uncertain origin, first recorded in 14th-century English and possibly related to Old Norse <strong>glaðr</strong> (bright, shining), describing a sunlit clearing amid dark trees.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Glade</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Possibly related to Old Norse glaðr", "b": "Bright, shining" },
+          { "a": "First recorded in the", "b": "14th century" },
+          { "a": "Origin is otherwise", "b": "Uncertain" },
+          { "a": "Describes a clearing bright with", "b": "Sunlight" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Glade</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A glade is an open, grassy space within a", "b": "Wood or forest" },
+          { "a": "Glades are typically bright with", "b": "Sunlight" },
+          { "a": "Deer often graze in a forest's", "b": "Glade" },
+          { "a": "A glade differs from a clearing mainly in its", "b": "Natural, park-like appearance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Glade</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Sunlight streamed into the quiet forest", "b": "Glade" },
+          { "a": "The deer paused to graze in a woodland", "b": "Glade" },
+          { "a": "Wildflowers carpeted the small", "b": "Glade" },
+          { "a": "They pitched their tent in a sheltered", "b": "Glade" }
+        ] }
+    ],
+    "roots": [ { "rootText": "glaðr", "rootLanguage": "Old Norse", "rootMeaning": "Bright, shining", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Old Norse ", "highlight": false }, { "text": "glaðr", "highlight": true }, { "text": " (bright); a sunlit clearing amid the shadow of trees.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "glaðr", "correctAnswer": "Bright, shining", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Grove",
+    "pronunciation": "GROHV",
+    "pos": "noun",
+    "definition": "A small group of trees, especially one without much undergrowth, or a cultivated planting of fruit or nut trees.",
+    "origin": "From Old English <strong>graf</strong>, a native Germanic word of uncertain further origin, possibly related to a root meaning to dig or carve, used since Anglo-Saxon times for a small stand of trees.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Grove</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English graf", "b": "A small wood, thicket" },
+          { "a": "Further origin is", "b": "Uncertain" },
+          { "a": "Possibly related to a root meaning", "b": "To dig or carve" },
+          { "a": "In use since", "b": "Anglo-Saxon times" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Grove</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A grove is a small group of", "b": "Trees" },
+          { "a": "An orchard of citrus trees is called a citrus", "b": "Grove" },
+          { "a": "A grove typically has little", "b": "Undergrowth" },
+          { "a": "Sacred groves were once sites of ancient", "b": "Worship" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Grove</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They picnicked beneath the shade of an olive", "b": "Grove" },
+          { "a": "The farmer tended his orange", "b": "Grove" },
+          { "a": "Birdsong echoed through the quiet", "b": "Grove" },
+          { "a": "Ancient oaks stood in a small", "b": "Grove behind the temple" }
+        ] }
+    ],
+    "roots": [ { "rootText": "graf", "rootLanguage": "Old English", "rootMeaning": "A small wood, thicket", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "graf", "highlight": true }, { "text": " (small wood); a compact stand of trees, natural or planted.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "graf", "correctAnswer": "A small wood, thicket", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Copse",
+    "pronunciation": "KOPS",
+    "pos": "noun",
+    "definition": "A small group of trees growing close together, especially one periodically cut back for timber.",
+    "origin": "A contraction of <strong>coppice</strong>, from Old French copeiz (a cut area of wood), from Latin colpus (a blow, a cut), from Greek kolaphos (a blow); the word originally named woodland regularly felled and regrown.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Copse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin colpus", "b": "A blow, a cut" },
+          { "a": "Greek kolaphos", "b": "A blow" },
+          { "a": "Old French copeiz", "b": "A cut area of wood" },
+          { "a": "Copse is a contraction of", "b": "Coppice" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Copse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A copse is a small group of trees growing", "b": "Close together" },
+          { "a": "Traditionally, a copse was periodically cut back for", "b": "Timber" },
+          { "a": "A copse is generally smaller than a", "b": "Wood or forest" },
+          { "a": "Hazel and hornbeam were common species in an English", "b": "Copse" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Copse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A pheasant burst from the small", "b": "Copse" },
+          { "a": "The path skirted a dense", "b": "Copse of hazel" },
+          { "a": "Foxes denned in the tangled", "b": "Copse" },
+          { "a": "Beyond the field stood a lone", "b": "Copse of birch" }
+        ] }
+    ],
+    "roots": [ { "rootText": "colpus", "rootLanguage": "Latin", "rootMeaning": "A blow, a cut", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "colpus", "highlight": true }, { "text": " (a cut); woodland regularly felled and left to regrow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "colpus", "correctAnswer": "A blow, a cut", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Prairie",
+    "pronunciation": "PRAIR-ee",
+    "pos": "noun",
+    "definition": "A large area of flat or gently rolling, treeless grassland, especially in central North America.",
+    "origin": "From French <strong>prairie</strong> (meadow), from Vulgar Latin prataria, from Latin pratum (meadow); French explorers and settlers applied the word to the vast grasslands they encountered in North America.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Prairie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin pratum", "b": "Meadow" },
+          { "a": "Vulgar Latin prataria", "b": "A meadowland" },
+          { "a": "French prairie", "b": "Meadow" },
+          { "a": "Applied by French settlers to", "b": "North American grasslands" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Prairie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A prairie is a large area of flat, treeless", "b": "Grassland" },
+          { "a": "Prairies are found especially in central", "b": "North America" },
+          { "a": "Prairie soil is famously fertile for growing", "b": "Grain" },
+          { "a": "The prairie dog takes its name from its", "b": "Grassland habitat" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Prairie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wagon trains once crossed the open", "b": "Prairie" },
+          { "a": "Bison herds once roamed the vast American", "b": "Prairie" },
+          { "a": "Wildfires swept quickly across the dry", "b": "Prairie" },
+          { "a": "Wind turbines now line the flat", "b": "Prairie horizon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pratum", "rootLanguage": "Latin", "rootMeaning": "Meadow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "pratum", "highlight": true }, { "text": " (meadow), via French prairie; the vast grasslands named by French settlers.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pratum", "correctAnswer": "Meadow", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pampas",
+    "pronunciation": "PAM-puhz",
+    "pos": "noun",
+    "definition": "The extensive, treeless grassland plains of South America, especially in Argentina and Uruguay.",
+    "origin": "From Spanish <strong>pampa</strong>, from Quechua pampa (plain, flat land), the Indigenous Andean word for open ground adopted by Spanish colonizers to name the grasslands of the southern cone.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pampas</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Quechua pampa", "b": "Plain, flat land" },
+          { "a": "Adopted into", "b": "Spanish" },
+          { "a": "Quechua is an", "b": "Indigenous Andean language" },
+          { "a": "Names the grasslands of the", "b": "Southern cone" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pampas</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The pampas are treeless grassland", "b": "Plains" },
+          { "a": "The pampas lie especially in Argentina and", "b": "Uruguay" },
+          { "a": "The pampas are famous for raising", "b": "Cattle" },
+          { "a": "A gaucho is a herdsman of the", "b": "Pampas" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pampas</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Gauchos on horseback drove cattle across the", "b": "Pampas" },
+          { "a": "The novel was set on a remote ranch in the", "b": "Pampas" },
+          { "a": "Fierce winds swept unhindered across the flat", "b": "Pampas" },
+          { "a": "Wheat fields now cover much of the fertile", "b": "Pampas" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pampa", "rootLanguage": "Quechua", "rootMeaning": "Plain, flat land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Quechua ", "highlight": false }, { "text": "pampa", "highlight": true }, { "text": " (plain); the sweeping grasslands of southern South America.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pampa", "correctAnswer": "Plain, flat land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Butte",
+    "pronunciation": "BYOOT",
+    "pos": "noun",
+    "definition": "An isolated hill with steep, often cliff-like sides and a small, flat top, rising abruptly from surrounding land.",
+    "origin": "From French <strong>butte</strong> (mound, knoll), a word carried into American English by French trappers and settlers in the western territories, where it came to describe the flat-topped hills of the arid interior.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Butte</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French butte", "b": "Mound, knoll" },
+          { "a": "Carried into English by", "b": "French trappers and settlers" },
+          { "a": "Became common in", "b": "The American West" },
+          { "a": "Describes hills rising from the", "b": "Arid interior" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Butte</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A butte has steep, often cliff-like", "b": "Sides" },
+          { "a": "A butte's top is small and", "b": "Flat" },
+          { "a": "A butte is smaller in area than a", "b": "Mesa" },
+          { "a": "Buttes rise abruptly from the surrounding", "b": "Land" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Butte</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The sun set behind a lone sandstone", "b": "Butte" },
+          { "a": "Monument Valley is famous for its towering", "b": "Buttes" },
+          { "a": "Climbers scaled the sheer face of the", "b": "Butte" },
+          { "a": "The road wound around the base of the", "b": "Butte" }
+        ] }
+    ],
+    "roots": [ { "rootText": "butte", "rootLanguage": "French", "rootMeaning": "Mound, knoll", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "butte", "highlight": true }, { "text": " (mound); a flat-topped hill rising alone from the plain.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "butte", "correctAnswer": "Mound, knoll", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gorge",
+    "pronunciation": "GORJ",
+    "pos": "noun",
+    "definition": "A narrow, steep-sided ravine or valley, typically formed by a river cutting through rock.",
+    "origin": "From French <strong>gorge</strong> (throat), from Latin gurges (whirlpool, gullet); the word was applied figuratively to a narrow rocky passage that resembles a throat cut through the landscape.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gorge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin gurges", "b": "Whirlpool, gullet" },
+          { "a": "French gorge", "b": "Throat" },
+          { "a": "Applied figuratively to a narrow", "b": "Rocky passage" },
+          { "a": "Compares the landform to a", "b": "Throat" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gorge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gorge is typically formed by a", "b": "River cutting through rock" },
+          { "a": "A gorge is narrow with", "b": "Steep sides" },
+          { "a": "To 'gorge oneself' means to", "b": "Eat greedily" },
+          { "a": "The Grand Canyon is an especially vast", "b": "Gorge" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gorge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rafters navigated the rapids of the narrow", "b": "Gorge" },
+          { "a": "A rope bridge spanned the deep", "b": "Gorge" },
+          { "a": "The river had carved a spectacular", "b": "Gorge over millennia" },
+          { "a": "Guests at the feast began to", "b": "Gorge themselves on food" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gurges", "rootLanguage": "Latin", "rootMeaning": "Whirlpool, gullet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "gurges", "highlight": true }, { "text": " (gullet), via French gorge (throat); a narrow throat cut through rock.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gurges", "correctAnswer": "Whirlpool, gullet", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Plateau",
+    "pronunciation": "pla-TOH",
+    "pos": "noun",
+    "definition": "An area of relatively level high ground, often with at least one steep side dropping to lower land; figuratively, a period of little change after growth.",
+    "origin": "From French <strong>plateau</strong> (flat area, platter), from Old French platel, a diminutive of plat (flat); geographers borrowed the word for elevated flatlands in the 18th century.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Plateau</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French plat", "b": "Flat" },
+          { "a": "French platel", "b": "Small flat dish" },
+          { "a": "Adopted by geographers in the", "b": "18th century" },
+          { "a": "Describes elevated", "b": "Flatland" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Plateau</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A plateau is an area of relatively level", "b": "High ground" },
+          { "a": "A plateau usually has at least one", "b": "Steep side" },
+          { "a": "The Tibetan Plateau is the world's", "b": "Highest large plateau" },
+          { "a": "Figuratively, sales that 'reach a plateau' have", "b": "Stopped growing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Plateau</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The road climbed steadily to a wide, windswept", "b": "Plateau" },
+          { "a": "After early gains, the patient's recovery reached a", "b": "Plateau" },
+          { "a": "Farmers grew potatoes on the fertile", "b": "Plateau" },
+          { "a": "The expedition made camp on the high", "b": "Plateau" }
+        ] }
+    ],
+    "roots": [ { "rootText": "plat", "rootLanguage": "Old French", "rootMeaning": "Flat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "plat", "highlight": true }, { "text": " (flat); a broad, level highland standing above the surrounding country.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "plat", "correctAnswer": "Flat", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Moraine",
+    "pronunciation": "muh-RAYN",
+    "pos": "noun",
+    "definition": "An accumulation of rock, gravel, and soil debris carried and deposited by a glacier.",
+    "origin": "From French <strong>moraine</strong>, borrowed from an Alpine Savoyard dialect word for a mound of earth or rubble left by a glacier; geologists adopted the term in the 18th century to describe glacial debris.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Moraine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Alpine Savoyard dialect word for", "b": "Mound of glacial rubble" },
+          { "a": "Borrowed into", "b": "French" },
+          { "a": "Adopted by geologists in the", "b": "18th century" },
+          { "a": "Describes debris left behind by a", "b": "Glacier" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Moraine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A moraine is made of rock, gravel, and", "b": "Soil debris" },
+          { "a": "A moraine is deposited by a", "b": "Glacier" },
+          { "a": "A terminal moraine marks a glacier's furthest", "b": "Advance" },
+          { "a": "Moraines can dam meltwater to form a", "b": "Lake" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Moraine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The valley floor was littered with a jagged", "b": "Moraine" },
+          { "a": "Geologists dated the ridge as a glacial", "b": "Moraine" },
+          { "a": "The lake had formed behind a natural dam of", "b": "Moraine" },
+          { "a": "Hikers scrambled over loose boulders of", "b": "Moraine" }
+        ] }
+    ],
+    "roots": [ { "rootText": "moraine", "rootLanguage": "Alpine French dialect", "rootMeaning": "Mound of glacial rubble", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From an Alpine dialect word for ", "highlight": false }, { "text": "glacial rubble", "highlight": true }, { "text": "; debris ground up and left behind by ice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "moraine", "correctAnswer": "Mound of glacial rubble", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dune",
+    "pronunciation": "DYOON",
+    "pos": "noun",
+    "definition": "A mound or ridge of loose sand piled up by the wind, typically found in deserts or along coastlines.",
+    "origin": "From French <strong>dune</strong>, from Middle Dutch dune, ultimately from a Germanic root also seen in English down (as in the South Downs), originally meaning a low hill.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dune</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Middle Dutch dune", "b": "Low hill" },
+          { "a": "Reached English via", "b": "French" },
+          { "a": "Shares a Germanic root with English", "b": "Down (hill)" },
+          { "a": "Originally simply meant a", "b": "Low hill" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dune</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dune is a mound of loose", "b": "Sand" },
+          { "a": "Dunes are shaped by", "b": "Wind" },
+          { "a": "Dunes are common in deserts and along", "b": "Coastlines" },
+          { "a": "A dune's crest can shift and", "b": "Migrate over time" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dune</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Children rolled down the steep sandy", "b": "Dune" },
+          { "a": "Marram grass helped stabilise the coastal", "b": "Dune" },
+          { "a": "The caravan crested another towering desert", "b": "Dune" },
+          { "a": "Wind steadily reshaped the", "b": "Dune overnight" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dune", "rootLanguage": "Middle Dutch", "rootMeaning": "Low hill", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Middle Dutch ", "highlight": false }, { "text": "dune", "highlight": true }, { "text": " (low hill); windblown sand piled into shifting ridges.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dune", "correctAnswer": "Low hill", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Horn",
+    "pronunciation": "HORN",
+    "pos": "noun",
+    "definition": "A sharp, pointed mountain peak formed where three or more glacial cirques erode a mountain from different sides.",
+    "origin": "From Old English <strong>horn</strong>, cognate with Latin cornu and Greek keras (all meaning animal horn); geologists extended the everyday word to jagged peaks like the Matterhorn that resemble an animal's horn.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Horn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English horn", "b": "Animal horn" },
+          { "a": "Cognate with Latin", "b": "Cornu" },
+          { "a": "Cognate with Greek", "b": "Keras" },
+          { "a": "Extended by geologists to peaks such as the", "b": "Matterhorn" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Horn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A horn peak forms where several glacial", "b": "Cirques meet" },
+          { "a": "A horn is sharply", "b": "Pointed" },
+          { "a": "The Matterhorn is a famous example of a glacial", "b": "Horn" },
+          { "a": "A horn forms through repeated", "b": "Glacial erosion" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Horn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Climbers admired the razor-sharp ridge of the", "b": "Horn" },
+          { "a": "Glaciers on all sides had carved the peak into a classic", "b": "Horn" },
+          { "a": "The postcard showed the famous silhouette of the", "b": "Matterhorn" },
+          { "a": "Snow clung to the steep faces of the", "b": "Horn" }
+        ] }
+    ],
+    "roots": [ { "rootText": "horn", "rootLanguage": "Old English", "rootMeaning": "Animal horn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "horn", "highlight": true }, { "text": "; a jagged summit carved to a point like an animal's horn.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "horn", "correctAnswer": "Animal horn", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Peninsula",
+    "pronunciation": "puh-NIN-syuh-luh",
+    "pos": "noun",
+    "definition": "A piece of land almost entirely surrounded by water, connected to the mainland by a narrow strip.",
+    "origin": "From Latin <strong>paene</strong> (almost) + insula (island), literally meaning \"almost an island,\" a term adopted directly into English in the 16th century.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Peninsula</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin paene", "b": "Almost" },
+          { "a": "Latin insula", "b": "Island" },
+          { "a": "Literally means", "b": "Almost an island" },
+          { "a": "Adopted into English in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Peninsula</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A peninsula is almost entirely surrounded by", "b": "Water" },
+          { "a": "A peninsula connects to the mainland by a narrow", "b": "Strip" },
+          { "a": "Florida is a well-known", "b": "Peninsula" },
+          { "a": "An island differs from a peninsula in having", "b": "No land connection" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Peninsula</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The coastal road looped around the entire", "b": "Peninsula" },
+          { "a": "Spain and Portugal share the Iberian", "b": "Peninsula" },
+          { "a": "Fishing villages dotted the rugged", "b": "Peninsula" },
+          { "a": "They drove to the tip of the narrow", "b": "Peninsula" }
+        ] }
+    ],
+    "roots": [ { "rootText": "paene", "rootLanguage": "Latin", "rootMeaning": "Almost", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "paene", "highlight": true }, { "text": " (almost) + insula (island); land that is almost, but not quite, an island.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "paene", "correctAnswer": "Almost", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Isthmus",
+    "pronunciation": "IS-muhs",
+    "pos": "noun",
+    "definition": "A narrow strip of land connecting two larger land areas, with water on either side.",
+    "origin": "From Greek <strong>isthmos</strong> (narrow passage, neck), originally referring specifically to the Isthmus of Corinth before broadening to describe any such narrow land bridge.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Isthmus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek isthmos", "b": "Narrow passage, neck" },
+          { "a": "Originally referred specifically to the", "b": "Isthmus of Corinth" },
+          { "a": "Later broadened to describe any", "b": "Narrow land bridge" },
+          { "a": "Isthmos literally evokes the shape of a", "b": "Neck" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Isthmus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An isthmus connects two larger areas of", "b": "Land" },
+          { "a": "An isthmus has water on", "b": "Either side" },
+          { "a": "The Isthmus of Panama connects North and", "b": "South America" },
+          { "a": "Canals are sometimes cut through an isthmus to", "b": "Link two seas" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Isthmus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Engineers dug a canal across the narrow", "b": "Isthmus" },
+          { "a": "Ships once had to sail around rather than cross the", "b": "Isthmus" },
+          { "a": "The ancient games were held near the", "b": "Isthmus of Corinth" },
+          { "a": "A single road crossed the slender", "b": "Isthmus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "isthmos", "rootLanguage": "Greek", "rootMeaning": "Narrow passage, neck", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "isthmos", "highlight": true }, { "text": " (neck); a slender land bridge with sea on either side.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "isthmos", "correctAnswer": "Narrow passage, neck", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cape",
+    "pronunciation": "KAYP",
+    "pos": "noun",
+    "definition": "A piece of land jutting out into the sea or a large lake, forming a prominent point on the coastline.",
+    "origin": "From Old French <strong>cap</strong>, from Latin caput (head); the word likens a jutting coastal point to the \"head\" thrust out from the body of the land.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cape</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin caput", "b": "Head" },
+          { "a": "Old French cap", "b": "Head, cape" },
+          { "a": "Compares a coastal point to a", "b": "Head" },
+          { "a": "Also gives English the word", "b": "Captain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cape</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cape juts out into the", "b": "Sea or a large lake" },
+          { "a": "A cape forms a prominent", "b": "Point on the coastline" },
+          { "a": "The Cape of Good Hope lies at the tip of", "b": "South Africa" },
+          { "a": "Sailors once feared rounding a stormy", "b": "Cape" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cape</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lighthouse stood at the tip of the rocky", "b": "Cape" },
+          { "a": "Explorers finally rounded the treacherous", "b": "Cape" },
+          { "a": "Fishing boats sheltered in the lee of the", "b": "Cape" },
+          { "a": "The trail followed the cliffs out to the", "b": "Cape" }
+        ] }
+    ],
+    "roots": [ { "rootText": "caput", "rootLanguage": "Latin", "rootMeaning": "Head", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "caput", "highlight": true }, { "text": " (head); a headland thrust out like the head of the coastline.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "caput", "correctAnswer": "Head", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gulf",
+    "pronunciation": "GULF",
+    "pos": "noun",
+    "definition": "A large area of sea partly enclosed by land, typically larger and deeper than a bay; figuratively, a wide gap or divide.",
+    "origin": "From Old French <strong>golfe</strong>, from Italian golfo, from Greek kolpos (bosom, fold, gulf), a word that likened a broad inlet of the sea to the curve of a chest or lap.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gulf</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kolpos", "b": "Bosom, fold, gulf" },
+          { "a": "Italian golfo", "b": "Gulf" },
+          { "a": "Old French golfe", "b": "Gulf" },
+          { "a": "Likens a sea inlet to a", "b": "Bosom's curve" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gulf</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gulf is a large area of sea partly enclosed by", "b": "Land" },
+          { "a": "A gulf is typically larger and deeper than a", "b": "Bay" },
+          { "a": "The Gulf of Mexico lies between the US and", "b": "Mexico" },
+          { "a": "Figuratively, 'a gulf between them' means a wide", "b": "Divide" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gulf</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Oil rigs dotted the waters of the", "b": "Gulf" },
+          { "a": "A wide political", "b": "Gulf separated the two parties" },
+          { "a": "Hurricanes frequently form over the warm", "b": "Gulf" },
+          { "a": "Tankers carried crude oil across the", "b": "Gulf" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kolpos", "rootLanguage": "Greek", "rootMeaning": "Bosom, fold, gulf", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kolpos", "highlight": true }, { "text": " (bosom); a broad inlet shaped like the curve of a chest.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kolpos", "correctAnswer": "Bosom, fold, gulf", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bay",
+    "pronunciation": "BAY",
+    "pos": "noun",
+    "definition": "A broad inlet of the sea or a lake, curving into the shoreline and typically smaller than a gulf.",
+    "origin": "From Old French <strong>baie</strong>, from Vulgar Latin baia, of disputed origin but possibly linked to Baiae, a resort town on the Bay of Naples in ancient Italy.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bay</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Vulgar Latin baia", "b": "Inlet, bay" },
+          { "a": "Reached English via", "b": "Old French baie" },
+          { "a": "Possibly linked to", "b": "Baiae, an Italian resort town" },
+          { "a": "Baiae sat on the", "b": "Bay of Naples" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bay</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bay is a broad inlet curving into the", "b": "Shoreline" },
+          { "a": "A bay is typically smaller than a", "b": "Gulf" },
+          { "a": "San Francisco Bay is a well-known", "b": "Natural harbour" },
+          { "a": "Bays often provide shelter for", "b": "Boats and ships" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bay</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Yachts lay anchored calmly in the sheltered", "b": "Bay" },
+          { "a": "Fishermen hauled their nets along the curve of the", "b": "Bay" },
+          { "a": "The storm eased once they reached the quiet", "b": "Bay" },
+          { "a": "Seals often hauled out onto rocks in the", "b": "Bay" }
+        ] }
+    ],
+    "roots": [ { "rootText": "baia", "rootLanguage": "Vulgar Latin", "rootMeaning": "Inlet, bay", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Vulgar Latin ", "highlight": false }, { "text": "baia", "highlight": true }, { "text": "; a sheltered curve of coastline possibly named after ancient Baiae.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "baia", "correctAnswer": "Inlet, bay", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Strait",
+    "pronunciation": "STRAYT",
+    "pos": "noun",
+    "definition": "A narrow channel of water connecting two larger bodies of water.",
+    "origin": "From Old French <strong>estreit</strong> (narrow), from Latin strictus (drawn tight, restricted), the same root that gives English strict and constrict, describing a passage pinched narrow between two shores.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Strait</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin strictus", "b": "Drawn tight, restricted" },
+          { "a": "Old French estreit", "b": "Narrow" },
+          { "a": "Shares a root with English", "b": "Strict" },
+          { "a": "Also shares a root with English", "b": "Constrict" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Strait</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A strait connects two larger bodies of", "b": "Water" },
+          { "a": "A strait is defined by being", "b": "Narrow" },
+          { "a": "The Strait of Gibraltar separates Europe from", "b": "Africa" },
+          { "a": "'In dire straits' figuratively means in a", "b": "Difficult situation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Strait</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ferries crossed the busy", "b": "Strait daily" },
+          { "a": "Naval fleets once fought for control of the", "b": "Strait" },
+          { "a": "The company found itself in dire financial", "b": "Straits" },
+          { "a": "Whales were spotted migrating through the", "b": "Strait" }
+        ] }
+    ],
+    "roots": [ { "rootText": "strictus", "rootLanguage": "Latin", "rootMeaning": "Drawn tight, restricted", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "strictus", "highlight": true }, { "text": " (drawn tight); a passage of sea pinched narrow between two shores.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "strictus", "correctAnswer": "Drawn tight, restricted", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Channel",
+    "pronunciation": "CHAN-uhl",
+    "pos": "noun",
+    "definition": "A stretch of water connecting two seas, or a navigable route through a body of water; figuratively, a means of communication or transmission.",
+    "origin": "From Old French <strong>chanel</strong>, from Latin canalis (canal, pipe, groove), from canna (reed, cane); the word originally described any tube-like watercourse before narrowing to its maritime sense.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Channel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin canalis", "b": "Canal, pipe, groove" },
+          { "a": "Latin canna", "b": "Reed, cane" },
+          { "a": "Old French chanel", "b": "Watercourse" },
+          { "a": "Originally described any", "b": "Tube-like watercourse" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Channel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A channel connects two", "b": "Seas" },
+          { "a": "A navigable channel guides ships through", "b": "Shallow water" },
+          { "a": "The English Channel separates Britain from", "b": "France" },
+          { "a": "Figuratively, a 'channel' can mean a means of", "b": "Communication" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Channel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tugboats guided the tanker through the dredged", "b": "Channel" },
+          { "a": "Swimmers have long attempted to cross the", "b": "English Channel" },
+          { "a": "Diplomats kept open a quiet", "b": "Channel of communication" },
+          { "a": "The buoys marked the safe", "b": "Channel for boats" }
+        ] }
+    ],
+    "roots": [ { "rootText": "canalis", "rootLanguage": "Latin", "rootMeaning": "Canal, pipe, groove", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "canalis", "highlight": true }, { "text": " (pipe, groove); a watercourse shaped to guide the flow of the sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "canalis", "correctAnswer": "Canal, pipe, groove", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sound",
+    "pronunciation": "SOWND",
+    "pos": "noun",
+    "definition": "A long, wide inlet of the sea, often running parallel to the coast or separating an island from the mainland.",
+    "origin": "From Old Norse <strong>sund</strong> (a strait, a swimming), related to the verb swim; Norse and later English sailors used the word for a stretch of water narrow enough that it might once have been swum.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sound</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse sund", "b": "Strait, a swimming" },
+          { "a": "Related to the verb", "b": "Swim" },
+          { "a": "Used by", "b": "Norse and English sailors" },
+          { "a": "Named for water narrow enough to be", "b": "Swum across" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sound</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sound is a long, wide", "b": "Inlet of the sea" },
+          { "a": "A sound often separates an island from the", "b": "Mainland" },
+          { "a": "Puget Sound lies in the northwestern", "b": "United States" },
+          { "a": "A sound is generally wider than a", "b": "Strait" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sound</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ferries shuttled commuters across the busy", "b": "Sound" },
+          { "a": "Orcas were spotted swimming through the", "b": "Sound" },
+          { "a": "The marina lay sheltered within the calm", "b": "Sound" },
+          { "a": "Fog rolled in low over the water of the", "b": "Sound" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sund", "rootLanguage": "Old Norse", "rootMeaning": "Strait, a swimming", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "sund", "highlight": true }, { "text": " (a strait); water narrow enough that sailors once named it for swimming.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sund", "correctAnswer": "Strait, a swimming", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Archipelago",
+    "pronunciation": "ar-kuh-PEL-uh-goh",
+    "pos": "noun",
+    "definition": "A group or chain of islands scattered across a stretch of sea.",
+    "origin": "From Italian <strong>arcipelago</strong>, from Greek arkhi- (chief) + pelagos (sea); the word first named the Aegean Sea itself, dotted with its many islands, before broadening to mean any island chain.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Archipelago</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pelagos", "b": "Sea" },
+          { "a": "Greek arkhi-", "b": "Chief" },
+          { "a": "Italian arcipelago", "b": "Chief sea" },
+          { "a": "Originally the name for the", "b": "Aegean Sea" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Archipelago</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An archipelago is a group of", "b": "Islands" },
+          { "a": "An archipelago's islands are scattered across a stretch of", "b": "Sea" },
+          { "a": "Indonesia is the world's largest", "b": "Archipelago" },
+          { "a": "The Greek Aegean gave the word its original", "b": "Meaning" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Archipelago</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ferries connected the scattered islands of the", "b": "Archipelago" },
+          { "a": "Volcanic activity formed the entire", "b": "Archipelago" },
+          { "a": "Sailors navigated carefully among the reefs of the", "b": "Archipelago" },
+          { "a": "Tourists island-hopped across the tropical", "b": "Archipelago" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pelagos", "rootLanguage": "Greek", "rootMeaning": "Sea", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek arkhi- (chief) + ", "highlight": false }, { "text": "pelagos", "highlight": true }, { "text": " (sea); once the name for the island-studded Aegean itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pelagos", "correctAnswer": "Sea", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Estuary",
+    "pronunciation": "ES-choo-uh-ree",
+    "pos": "noun",
+    "definition": "The wide tidal mouth of a river where it meets the sea, mixing fresh water with salt water.",
+    "origin": "From Latin <strong>aestuarium</strong> (a tidal marsh, an inlet), from aestus (tide, surging heat), describing the restless back-and-forth surge of water where river meets sea.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Estuary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin aestuarium", "b": "A tidal marsh, an inlet" },
+          { "a": "Latin aestus", "b": "Tide, surging heat" },
+          { "a": "Describes the", "b": "Back-and-forth surge of water" },
+          { "a": "Names the place where a", "b": "River meets the sea" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Estuary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An estuary is the tidal mouth of a", "b": "River" },
+          { "a": "An estuary mixes fresh water with", "b": "Salt water" },
+          { "a": "Estuaries are rich nursery habitats for", "b": "Fish and shellfish" },
+          { "a": "The Thames Estuary opens into the", "b": "North Sea" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Estuary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wading birds fed on mudflats in the", "b": "Estuary" },
+          { "a": "Cargo ships navigated slowly up the", "b": "Estuary" },
+          { "a": "Salmon return through the", "b": "Estuary to spawn upstream" },
+          { "a": "Pollution from the city threatened the fragile", "b": "Estuary" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aestus", "rootLanguage": "Latin", "rootMeaning": "Tide, surging heat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aestus", "highlight": true }, { "text": " (tide); the restless mixing zone where river meets sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aestus", "correctAnswer": "Tide, surging heat", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Headland",
+    "pronunciation": "HED-luhnd",
+    "pos": "noun",
+    "definition": "A narrow strip of high land jutting out into the sea, forming a prominent point on the coast.",
+    "origin": "A native English compound of <strong>head</strong> and land, first recorded in Old English as heafod-land, literally the \"head\" or foremost part of a stretch of land.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Headland</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English heafod-land", "b": "Head land" },
+          { "a": "A native English compound of", "b": "Head and land" },
+          { "a": "'Head' here means the", "b": "Foremost part" },
+          { "a": "Recorded since", "b": "Old English times" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Headland</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A headland is a narrow strip of high land jutting into the", "b": "Sea" },
+          { "a": "A headland forms a prominent point on the", "b": "Coast" },
+          { "a": "Erosion by waves often carves cliffs into a", "b": "Headland" },
+          { "a": "A headland is closely related in meaning to a", "b": "Cape" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Headland</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Waves crashed against the base of the rocky", "b": "Headland" },
+          { "a": "Coastal erosion had worn the", "b": "Headland into an arch" },
+          { "a": "Walkers followed the cliff path out to the", "b": "Headland" },
+          { "a": "A lighthouse warned ships away from the", "b": "Headland" }
+        ] }
+    ],
+    "roots": [ { "rootText": "heafod-land", "rootLanguage": "Old English", "rootMeaning": "Head land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "heafod-land", "highlight": true }, { "text": " (head-land); the foremost point where land meets sea.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "heafod-land", "correctAnswer": "Head land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cove",
+    "pronunciation": "KOHV",
+    "pos": "noun",
+    "definition": "A small, sheltered bay or inlet, often with a narrow entrance, set into a rocky coastline.",
+    "origin": "From Old English <strong>cofa</strong> (a small chamber, cave, or den), a native Germanic word that narrowed over time from any small hollow space to specifically a sheltered coastal inlet.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-terrain", "name": "Wetlands, Grassland & Terrain", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cove</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English cofa", "b": "Small chamber, cave, den" },
+          { "a": "A native", "b": "Germanic word" },
+          { "a": "Originally meant any small", "b": "Hollow space" },
+          { "a": "Narrowed over time to a sheltered", "b": "Coastal inlet" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cove</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cove is a small, sheltered", "b": "Bay or inlet" },
+          { "a": "A cove often has a narrow", "b": "Entrance" },
+          { "a": "Coves are typically set into a rocky", "b": "Coastline" },
+          { "a": "Smugglers historically favoured hidden coves to", "b": "Land contraband" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cove</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They anchored the dinghy in a quiet", "b": "Cove" },
+          { "a": "Smugglers once used the hidden", "b": "Cove to land their goods" },
+          { "a": "Snorkelers explored the clear water of the", "b": "Cove" },
+          { "a": "A narrow path led down to the secluded", "b": "Cove" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cofa", "rootLanguage": "Old English", "rootMeaning": "Small chamber, den", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "cofa", "highlight": true }, { "text": " (a small chamber); a snug, sheltered inlet tucked into the coast.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cofa", "correctAnswer": "Small chamber, den", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

@@ -1,0 +1,1085 @@
+[
+  {
+    "word": "Floodplain",
+    "pronunciation": "FLUHD-playn",
+    "pos": "noun",
+    "definition": "The flat land bordering a river that is naturally covered with water when the river overflows its banks.",
+    "origin": "A plain English compound of <strong>flood</strong> + plain, first used by geologists and engineers in the late 19th century to name the flat ground a river covers when it overflows.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Floodplain</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Floodplain compounds", "b": "Flood + plain" },
+          { "a": "First used by geologists and engineers in the", "b": "Late 19th century" },
+          { "a": "Names the flat ground a river", "b": "Covers when it overflows" },
+          { "a": "The word describes ground shaped by", "b": "Repeated flooding, not ancient myth" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Floodplain</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A floodplain lies alongside a", "b": "River" },
+          { "a": "Floodplains form from deposits of", "b": "Silt and sediment left by floodwater" },
+          { "a": "Floodplain soil is prized by farmers for being", "b": "Fertile" },
+          { "a": "Building on a floodplain increases the risk of", "b": "Flood damage" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Floodplain</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The town was built on a fertile", "b": "Floodplain" },
+          { "a": "Engineers mapped the river's", "b": "Floodplain to plan flood defences" },
+          { "a": "Spring rains regularly submerge the", "b": "Floodplain" },
+          { "a": "New housing developments were banned from the", "b": "Floodplain" }
+        ] }
+    ],
+    "roots": [ { "rootText": "flood + plain", "rootLanguage": "English compound", "rootMeaning": "Land covered by an overflowing river", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A plain compound of ", "highlight": false }, { "text": "flood + plain", "highlight": true }, { "text": "; the level ground a river spreads across when it overflows.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "flood + plain", "correctAnswer": "Land covered by an overflowing river", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oxbow",
+    "pronunciation": "OKS-boh",
+    "pos": "noun",
+    "definition": "A U-shaped bend in a river, or the crescent-shaped lake left behind when such a bend is cut off from the main channel.",
+    "origin": "From Old English <strong>oxa</strong> (ox) + boga (bow, bend), originally the U-shaped wooden collar fitted around an ox's neck in a yoke. Geographers borrowed the name in the 19th century for river bends of the same curved shape.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oxbow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English oxa", "b": "Ox" },
+          { "a": "Old English boga", "b": "Bow, bend" },
+          { "a": "Originally named the curved", "b": "Wooden collar of an ox's yoke" },
+          { "a": "Geographers borrowed the name in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oxbow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An oxbow is a", "b": "U-shaped bend in a river" },
+          { "a": "An oxbow lake forms when a bend is", "b": "Cut off from the main channel" },
+          { "a": "Oxbow lakes are typically", "b": "Crescent-shaped" },
+          { "a": "Over time an abandoned oxbow lake may", "b": "Silt up and dry out" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oxbow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The plane's shadow crossed a perfect", "b": "Oxbow lake" },
+          { "a": "Over centuries the river cut off an", "b": "Oxbow" },
+          { "a": "Paddlers explored the still water of the", "b": "Oxbow lake" },
+          { "a": "The map showed a chain of abandoned", "b": "Oxbows along the old floodplain" }
+        ] }
+    ],
+    "roots": [ { "rootText": "oxa + boga", "rootLanguage": "Old English", "rootMeaning": "Ox + bow/bend (a yoke collar)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "oxa + boga", "highlight": true }, { "text": " (ox + bow); a river bend shaped like the curved collar of an ox's yoke.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "oxa + boga", "correctAnswer": "Ox + bow/bend (a yoke collar)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Meander",
+    "pronunciation": "mee-AN-dur",
+    "pos": "verb",
+    "definition": "To follow a winding, turning course rather than a straight one, as a river does across a flat landscape; also, a single bend in such a winding river.",
+    "origin": "From Latin <strong>maeander</strong>, from Greek Maiandros, the ancient name of a famously winding river in Asia Minor (the modern Büyük Menderes in Turkey). Its sinuous course made the river's name a byword for winding paths.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Meander</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek Maiandros", "b": "Name of a winding river in Asia Minor" },
+          { "a": "The river is known today as the", "b": "Büyük Menderes, in Turkey" },
+          { "a": "Ancient writers used the river as a byword for", "b": "Winding, twisting paths" },
+          { "a": "Latin borrowed the name as", "b": "Maeander" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Meander</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To meander is to follow a", "b": "Winding, turning course" },
+          { "a": "Rivers meander most across", "b": "Flat, low-gradient land" },
+          { "a": "A meander is a single", "b": "Bend in a winding river" },
+          { "a": "Figuratively, a meandering conversation", "b": "Wanders without a clear direction" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Meander</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The river continued to", "b": "Meander through the valley" },
+          { "a": "Visitors could see every", "b": "Meander of the river from the hilltop" },
+          { "a": "Their after-dinner walk began to", "b": "Meander through the old town" },
+          { "a": "Over centuries the channel's shifting", "b": "Meanders redrew the border" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Maiandros", "rootLanguage": "Greek", "rootMeaning": "Name of a winding river in Asia Minor", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "Maiandros", "highlight": true }, { "text": "; the sinuous Anatolian river whose name became a byword for winding paths.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Maiandros", "correctAnswer": "Name of a winding river in Asia Minor", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Outwash",
+    "pronunciation": "OWT-wosh",
+    "pos": "noun",
+    "definition": "Sediment such as sand and gravel that is carried and deposited by meltwater flowing away from a glacier.",
+    "origin": "A plain English compound of <strong>out</strong> + wash, adopted by glacial geologists in the late 19th and early 20th centuries to describe material washed out beyond a glacier's edge by its meltwater streams.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Outwash</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Outwash compounds", "b": "Out + wash" },
+          { "a": "Adopted by glacial geologists in the", "b": "Late 19th and early 20th centuries" },
+          { "a": "Names sediment carried by", "b": "Glacial meltwater streams" },
+          { "a": "Deposited beyond a glacier's", "b": "Edge, or terminus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Outwash</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Outwash consists mainly of", "b": "Sand and gravel" },
+          { "a": "Outwash is deposited by", "b": "Glacial meltwater" },
+          { "a": "A broad outwash deposit is called an", "b": "Outwash plain" },
+          { "a": "Outwash sediment is generally sorted by grain size, unlike unsorted glacial", "b": "Till" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Outwash</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Meltwater streams spread a fan of", "b": "Outwash across the valley floor" },
+          { "a": "The gravel quarry sat atop an ancient", "b": "Outwash plain" },
+          { "a": "Geologists cored the layers of", "b": "Glacial outwash" },
+          { "a": "Retreating ice left behind a broad apron of", "b": "Outwash" }
+        ] }
+    ],
+    "roots": [ { "rootText": "out + wash", "rootLanguage": "English compound", "rootMeaning": "Material washed out beyond a glacier by meltwater", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "out + wash", "highlight": true }, { "text": "; sand and gravel carried beyond the glacier's edge by its own meltwater.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "out + wash", "correctAnswer": "Material washed out beyond a glacier by meltwater", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Basin",
+    "pronunciation": "BAY-suhn",
+    "pos": "noun",
+    "definition": "The area of land drained by a river and its tributaries, or a natural depression that collects water.",
+    "origin": "From Old French <strong>bacin</strong>, from Vulgar Latin baccinum (a water vessel), likely of Gaulish origin. English first used basin for a bowl-shaped container, then extended it in the 18th century to the bowl-shaped area of land that drains into a river.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Basin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French bacin", "b": "A bowl or basin" },
+          { "a": "Vulgar Latin baccinum", "b": "A water vessel" },
+          { "a": "Likely of", "b": "Gaulish origin" },
+          { "a": "Extended to river drainage areas in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Basin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A river basin is drained by a river and its", "b": "Tributaries" },
+          { "a": "A basin can also mean a natural", "b": "Depression that collects water" },
+          { "a": "The Amazon basin covers land drained by the", "b": "Amazon River and its tributaries" },
+          { "a": "A washbasin is a bowl-shaped fixture used for", "b": "Washing" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Basin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rain across the entire", "b": "River basin feeds the same channel" },
+          { "a": "She rinsed the vegetables in a", "b": "Basin of water" },
+          { "a": "Geographers mapped the boundaries of the", "b": "Drainage basin" },
+          { "a": "The valley formed a natural", "b": "Basin that filled with a lake" }
+        ] }
+    ],
+    "roots": [ { "rootText": "baccinum", "rootLanguage": "Vulgar Latin", "rootMeaning": "A water vessel, bowl", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Vulgar Latin ", "highlight": false }, { "text": "baccinum", "highlight": true }, { "text": " (a bowl); a bowl-shaped container extended to the bowl-shaped land a river drains.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "baccinum", "correctAnswer": "A water vessel, bowl", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Divide",
+    "pronunciation": "dih-VYD",
+    "pos": "noun",
+    "definition": "A ridge or area of high ground that separates two river systems or drainage basins, so that water on each side flows toward a different sea or ocean.",
+    "origin": "From Latin <strong>dividere</strong> (to force apart, cleave), from dis- (apart) + a root related to viduus (bereft, void). American explorers and surveyors adopted 'divide' in the 19th century for the high ground that splits a continent's rivers, as in the Continental Divide.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Divide</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin dividere", "b": "To force apart, cleave" },
+          { "a": "Formed from dis- (apart) plus a root related to", "b": "Viduus (bereft, void)" },
+          { "a": "American surveyors applied 'divide' to landscape in the", "b": "19th century" },
+          { "a": "The best-known example is the", "b": "Continental Divide" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Divide</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A divide separates two", "b": "River systems or drainage basins" },
+          { "a": "Water on either side of a divide flows toward a different", "b": "Sea or ocean" },
+          { "a": "The Continental Divide runs along the crest of the", "b": "Rocky Mountains" },
+          { "a": "Figuratively, a 'political divide' describes a sharp", "b": "Disagreement or split" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Divide</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Snowmelt on one side of the", "b": "Divide reaches the Pacific" },
+          { "a": "Hikers crossed the Continental", "b": "Divide at over 3,000 metres" },
+          { "a": "A low ridge formed the", "b": "Divide between the two watersheds" },
+          { "a": "Commentators spoke of a growing", "b": "Political divide" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dividere", "rootLanguage": "Latin", "rootMeaning": "To force apart, cleave", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "dividere", "highlight": true }, { "text": " (to force apart); the high ground that splits a continent's rivers into separate paths.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dividere", "correctAnswer": "To force apart, cleave", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Confluence",
+    "pronunciation": "KON-floo-uhns",
+    "pos": "noun",
+    "definition": "The point where two or more rivers or streams flow together and merge into one.",
+    "origin": "From Latin <strong>confluentia</strong>, from confluere (to flow together), from con- (together) + fluere (to flow). The word entered English in the 15th century for the meeting point of two waters.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Confluence</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin confluere", "b": "To flow together" },
+          { "a": "Formed from con-", "b": "Together" },
+          { "a": "Plus fluere, meaning", "b": "To flow" },
+          { "a": "Entered English in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Confluence</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A confluence is where two rivers", "b": "Flow together and merge" },
+          { "a": "Below a confluence, the combined flow is generally", "b": "Larger and stronger" },
+          { "a": "Cities were often founded at a river", "b": "Confluence" },
+          { "a": "Figuratively, 'a confluence of events' means several things", "b": "Coming together at once" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Confluence</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city grew up at the", "b": "Confluence of two great rivers" },
+          { "a": "Kayakers avoided the turbulent water at the", "b": "Confluence" },
+          { "a": "It took a rare", "b": "Confluence of luck and timing" },
+          { "a": "Maps marked the exact point of", "b": "Confluence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "confluere", "rootLanguage": "Latin", "rootMeaning": "To flow together", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "confluere", "highlight": true }, { "text": " (to flow together); the meeting point where two rivers become one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "confluere", "correctAnswer": "To flow together", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tributary",
+    "pronunciation": "TRIB-yuh-ter-ee",
+    "pos": "noun",
+    "definition": "A stream or smaller river that flows into a larger river or lake, rather than directly into the sea.",
+    "origin": "From Latin <strong>tributarius</strong> (paying tribute), from tributum (tribute, contribution). The word first described a person or state paying tribute to a ruler; by the 17th century it was applied to a river that 'contributes' its water to a larger one.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tributary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin tributarius", "b": "Paying tribute" },
+          { "a": "Latin tributum", "b": "Tribute, contribution" },
+          { "a": "Originally described a person or state paying", "b": "Tribute to a ruler" },
+          { "a": "Applied to rivers by the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tributary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tributary flows into a", "b": "Larger river or lake" },
+          { "a": "Unlike a main river, a tributary does not flow directly into the", "b": "Sea" },
+          { "a": "A river system includes its main channel and all its", "b": "Tributaries" },
+          { "a": "The Missouri is the longest", "b": "Tributary of the Mississippi" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tributary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Dozens of small streams feed the river as", "b": "Tributaries" },
+          { "a": "The dam was built on a minor", "b": "Tributary" },
+          { "a": "Biologists sampled fish populations in each", "b": "Tributary" },
+          { "a": "Flooding on a single", "b": "Tributary raised levels downstream" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tributum", "rootLanguage": "Latin", "rootMeaning": "Tribute, contribution", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tributum", "highlight": true }, { "text": " (tribute); a smaller river that contributes, or pays tribute, to a larger one.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tributum", "correctAnswer": "Tribute, contribution", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Runoff",
+    "pronunciation": "RUHN-off",
+    "pos": "noun",
+    "definition": "Water from rain or melting snow that flows over the land surface into streams, rivers, or drains rather than soaking into the ground.",
+    "origin": "A plain English compound of <strong>run</strong> + off, in use since the 19th century for water that runs off the land rather than being absorbed by soil.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Runoff</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Runoff compounds", "b": "Run + off" },
+          { "a": "In hydrological use since the", "b": "19th century" },
+          { "a": "Describes water that runs off the land rather than", "b": "Soaking into the soil" },
+          { "a": "The same compound also names an election", "b": "Runoff, a follow-up vote" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Runoff</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Runoff forms from", "b": "Rain or melting snow" },
+          { "a": "Runoff flows into", "b": "Streams, rivers, or drains" },
+          { "a": "Paved surfaces increase runoff because they", "b": "Prevent water from soaking in" },
+          { "a": "Agricultural runoff can carry", "b": "Fertiliser and pesticides into waterways" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Runoff</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Heavy rain sent a surge of", "b": "Runoff into the storm drains" },
+          { "a": "Scientists tested the river for chemical", "b": "Runoff from nearby farms" },
+          { "a": "Spring snowmelt", "b": "Runoff swelled the creek" },
+          { "a": "City planners designed gutters to manage", "b": "Street runoff" }
+        ] }
+    ],
+    "roots": [ { "rootText": "run + off", "rootLanguage": "English compound", "rootMeaning": "Water that runs off the land surface", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "run + off", "highlight": true }, { "text": "; water that runs off the land instead of soaking in.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "run + off", "correctAnswer": "Water that runs off the land surface", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Drainage",
+    "pronunciation": "DRAY-nij",
+    "pos": "noun",
+    "definition": "The process by which water flows away from an area of land, or the system of channels and pipes that carries it away.",
+    "origin": "From <strong>drain</strong>, from Old English dreahnian (to strain out, filter), with the suffix -age added in the 18th century. The word broadened from removing water from soil to describing entire river systems, as in 'drainage basin.'",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Drainage</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English dreahnian", "b": "To strain out, filter" },
+          { "a": "The suffix -age was added in the", "b": "18th century" },
+          { "a": "Originally described removing water from", "b": "Soil or land" },
+          { "a": "Later broadened to whole river systems as in", "b": "Drainage basin" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Drainage</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Drainage describes water flowing", "b": "Away from an area of land" },
+          { "a": "A drainage system may include", "b": "Channels and pipes" },
+          { "a": "Poor drainage leaves soil", "b": "Waterlogged" },
+          { "a": "A drainage basin is the whole area that feeds one", "b": "River" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Drainage</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The field flooded because of poor", "b": "Drainage" },
+          { "a": "Engineers installed new", "b": "Drainage pipes beneath the road" },
+          { "a": "The valley forms part of the Mississippi's", "b": "Drainage basin" },
+          { "a": "Heavy clay soil has notoriously slow", "b": "Drainage" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dreahnian", "rootLanguage": "Old English", "rootMeaning": "To strain out, filter", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "dreahnian", "highlight": true }, { "text": " (to strain out); water leaving the land, channel by channel.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dreahnian", "correctAnswer": "To strain out, filter", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Silt",
+    "pronunciation": "silt",
+    "pos": "noun",
+    "definition": "Fine sediment, finer than sand but coarser than clay, typically carried and deposited by moving water.",
+    "origin": "From a Germanic word related to Danish and Norwegian <strong>sylt</strong> (salt marsh) and Middle Low German silte (salt, brine). The term entered Middle English in the 15th century among communities working the muddy tidal flats of the North Sea.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Silt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Danish/Norwegian sylt", "b": "Salt marsh" },
+          { "a": "Middle Low German silte", "b": "Salt, brine" },
+          { "a": "Entered Middle English in the", "b": "15th century" },
+          { "a": "Associated with communities working", "b": "North Sea tidal flats" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Silt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Silt particles are finer than", "b": "Sand but coarser than clay" },
+          { "a": "Silt is typically carried and deposited by", "b": "Moving water" },
+          { "a": "Fertile silt deposits build up on a river's", "b": "Floodplain" },
+          { "a": "Reservoirs slowly lose capacity as they fill with", "b": "Silt" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Silt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Floodwater left a fine layer of", "b": "Silt across the fields" },
+          { "a": "Divers found the wreck buried in river", "b": "Silt" },
+          { "a": "Years of erosion had", "b": "Silted up the harbour mouth" },
+          { "a": "Farmers valued the rich", "b": "Silt deposited each flood season" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sylt", "rootLanguage": "Danish/Norwegian", "rootMeaning": "Salt marsh", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Related to Danish/Norwegian ", "highlight": false }, { "text": "sylt", "highlight": true }, { "text": " (salt marsh); the fine mud of tidal flats and slow river water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sylt", "correctAnswer": "Salt marsh", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Loess",
+    "pronunciation": "LUHS",
+    "pos": "noun",
+    "definition": "A pale, fine-grained, wind-deposited sediment, mostly silt, that forms thick fertile soils in regions such as the Mississippi Valley and northern China.",
+    "origin": "From German <strong>Löss</strong>, from a Swiss-German dialect word meaning 'loose.' The geologist Karl Cäsar von Leonhard coined the geological term in 1823 to describe the loosely packed wind-blown sediment he studied along the Rhine valley.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Loess</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Löss", "b": "Loose" },
+          { "a": "Traced to a", "b": "Swiss-German dialect word" },
+          { "a": "Coined as a geological term in", "b": "1823" },
+          { "a": "Coined by geologist", "b": "Karl Cäsar von Leonhard" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Loess</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Loess is a pale, fine-grained sediment deposited by", "b": "Wind" },
+          { "a": "Loess is composed mostly of", "b": "Silt" },
+          { "a": "Thick loess deposits form especially fertile", "b": "Farmland soils" },
+          { "a": "Famous loess regions include the Mississippi Valley and", "b": "Northern China" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Loess</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bluffs above the river were made of ancient", "b": "Loess" },
+          { "a": "Farmers prized the deep, fertile", "b": "Loess soil" },
+          { "a": "Wind carried fine dust that settled as a", "b": "Loess deposit" },
+          { "a": "Geologists dated the", "b": "Loess layers to the last ice age" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Löss", "rootLanguage": "German (Swiss dialect)", "rootMeaning": "Loose", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From German ", "highlight": false }, { "text": "Löss", "highlight": true }, { "text": " (loose); windblown sediment named for its loosely packed grains along the Rhine.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Löss", "correctAnswer": "Loose", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Wadi",
+    "pronunciation": "WAH-dee",
+    "pos": "noun",
+    "definition": "A dry riverbed or valley in North Africa or the Middle East that fills with water only after heavy rain.",
+    "origin": "From Arabic <strong>wādī</strong> (valley, riverbed), a word long used across the Arabian Peninsula and North Africa for the dry channels that flash-flood after rare rains. It entered English in the 17th and 18th centuries through travellers' accounts of the region.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Wadi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Arabic wādī", "b": "Valley, riverbed" },
+          { "a": "Long used across the", "b": "Arabian Peninsula and North Africa" },
+          { "a": "Entered English through travellers' accounts in the", "b": "17th and 18th centuries" },
+          { "a": "Names a channel that floods only after", "b": "Rare, heavy rain" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Wadi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A wadi is normally", "b": "Dry" },
+          { "a": "A wadi fills with water only after", "b": "Heavy rain" },
+          { "a": "Wadis are common across", "b": "North Africa and the Middle East" },
+          { "a": "Flash floods in a wadi can be", "b": "Sudden and dangerous" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Wadi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Travellers pitched camp beside the dry", "b": "Wadi" },
+          { "a": "After the storm, water rushed through the", "b": "Wadi" },
+          { "a": "The trail followed the winding path of a", "b": "Wadi" },
+          { "a": "Hikers were warned about flash floods in the", "b": "Wadi" }
+        ] }
+    ],
+    "roots": [ { "rootText": "wādī", "rootLanguage": "Arabic", "rootMeaning": "Valley, riverbed", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Arabic ", "highlight": false }, { "text": "wādī", "highlight": true }, { "text": " (valley); a dry desert channel that floods briefly after rare rains.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "wādī", "correctAnswer": "Valley, riverbed", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arroyo",
+    "pronunciation": "uh-ROY-oh",
+    "pos": "noun",
+    "definition": "A dry, steep-sided gully or watercourse in an arid region of the American Southwest or Latin America, cut by intermittent flash floods.",
+    "origin": "From Spanish <strong>arroyo</strong> (stream, brook), from Latin arrugia (a mine shaft or gully cut into a hillside), itself likely from a pre-Roman Iberian word. Spanish settlers brought the word to the Americas, where it came to mean a dry desert watercourse.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arroyo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish arroyo", "b": "Stream, brook" },
+          { "a": "Latin arrugia", "b": "A mine shaft, gully" },
+          { "a": "Possibly traces further back to a", "b": "Pre-Roman Iberian word" },
+          { "a": "Spanish settlers carried the word to the", "b": "Americas" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arroyo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An arroyo is usually", "b": "Dry" },
+          { "a": "An arroyo is cut by", "b": "Intermittent flash floods" },
+          { "a": "Arroyos are common in the", "b": "American Southwest and Latin America" },
+          { "a": "An arroyo typically has steep, eroded", "b": "Sides" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arroyo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The truck got stuck crossing a sandy", "b": "Arroyo" },
+          { "a": "Cacti lined the banks of the dry", "b": "Arroyo" },
+          { "a": "A sudden storm sent water roaring through the", "b": "Arroyo" },
+          { "a": "Hikers were told never to camp inside an", "b": "Arroyo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arrugia", "rootLanguage": "Latin", "rootMeaning": "A mine shaft, gully", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "arrugia", "highlight": true }, { "text": " (a gully); a dry Southwestern watercourse cut by sudden desert floods.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arrugia", "correctAnswer": "A mine shaft, gully", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brook",
+    "pronunciation": "brook",
+    "pos": "noun",
+    "definition": "A small, natural freshwater stream.",
+    "origin": "From Old English <strong>broc</strong> (brook, stream), of West Germanic origin, related to Dutch broek and German Bruch. It is one of English's oldest native words for flowing water.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brook</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English broc", "b": "Brook, stream" },
+          { "a": "Of", "b": "West Germanic origin" },
+          { "a": "Related to Dutch", "b": "Broek" },
+          { "a": "Related to German", "b": "Bruch" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brook</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A brook is a small, natural", "b": "Freshwater stream" },
+          { "a": "Brooks are generally smaller than", "b": "Rivers or creeks" },
+          { "a": "'To brook no argument' unrelatedly means to", "b": "Tolerate no opposition" },
+          { "a": "Brooks often feed into larger", "b": "Streams or rivers" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brook</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Children waded barefoot through the shallow", "b": "Brook" },
+          { "a": "A stone bridge crossed the babbling", "b": "Brook" },
+          { "a": "Trout darted through the clear water of the", "b": "Brook" },
+          { "a": "The cabin sat beside a gently flowing", "b": "Brook" }
+        ] }
+    ],
+    "roots": [ { "rootText": "broc", "rootLanguage": "Old English", "rootMeaning": "Brook, stream", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "broc", "highlight": true }, { "text": "; one of the oldest native English words for a small flowing stream.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "broc", "correctAnswer": "Brook, stream", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stream",
+    "pronunciation": "streem",
+    "pos": "noun",
+    "definition": "A body of water flowing continuously in a channel, such as a river, brook, or creek; also, any continuous flow.",
+    "origin": "From Old English <strong>stream</strong>, from Proto-Germanic straumaz, ultimately from the Proto-Indo-European root sreu- (to flow), which also gave rise to related words for flowing water in Greek and Sanskrit.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stream</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English stream", "b": "Flowing water, current" },
+          { "a": "Proto-Germanic straumaz", "b": "Ancestor of stream" },
+          { "a": "PIE root sreu-", "b": "To flow" },
+          { "a": "The same root underlies related words in", "b": "Greek and Sanskrit" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stream</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A stream flows continuously through a", "b": "Channel" },
+          { "a": "A data 'stream' figuratively describes a continuous flow of", "b": "Information" },
+          { "a": "To 'stream' video means to", "b": "Play it continuously over the internet" },
+          { "a": "A stream is generally smaller than a", "b": "River" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stream</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Salmon swam upstream against the", "b": "Fast-moving stream" },
+          { "a": "A steady", "b": "Stream of visitors filed through the museum" },
+          { "a": "She sat on the bank watching the", "b": "Stream drift by" },
+          { "a": "He preferred to", "b": "Stream music rather than download it" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sreu-", "rootLanguage": "Proto-Indo-European", "rootMeaning": "To flow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From the ancient root ", "highlight": false }, { "text": "sreu-", "highlight": true }, { "text": " (to flow); one of the oldest words in the language for moving water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sreu-", "correctAnswer": "To flow", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Levee",
+    "pronunciation": "LEV-ee",
+    "pos": "noun",
+    "definition": "An embankment built along a river to prevent it from overflowing and flooding the surrounding land.",
+    "origin": "From French <strong>levée</strong> (raised, the past participle of lever, to raise), from Latin levare (to lift). French colonists in Louisiana used the word in the 18th century for the raised earthen banks built to hold back the Mississippi.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Levee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French levée", "b": "Raised" },
+          { "a": "Latin levare", "b": "To lift, raise" },
+          { "a": "Used by French colonists in", "b": "Louisiana" },
+          { "a": "Entered American English in the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Levee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A levee is an", "b": "Embankment along a river" },
+          { "a": "Levees are built to prevent", "b": "Flooding of surrounding land" },
+          { "a": "A levee can be natural or", "b": "Artificially constructed" },
+          { "a": "If a levee fails during a flood, it is said to have", "b": "Breached" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Levee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Volunteers stacked sandbags to reinforce the", "b": "Levee" },
+          { "a": "Floodwater breached the", "b": "Levee overnight" },
+          { "a": "The city built a taller", "b": "Levee after the last flood" },
+          { "a": "Engineers inspected cracks in the aging", "b": "Levee" }
+        ] }
+    ],
+    "roots": [ { "rootText": "levare", "rootLanguage": "Latin", "rootMeaning": "To lift, raise", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "levare", "highlight": true }, { "text": " (to lift); the raised bank Louisiana settlers built to hold back the Mississippi.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "levare", "correctAnswer": "To lift, raise", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Braided",
+    "pronunciation": "BRAY-did",
+    "pos": "adjective",
+    "definition": "Describing a river that splits into a network of small, interweaving channels separated by shifting bars of sediment.",
+    "origin": "From <strong>braid</strong>, from Old English bregdan (to weave, move quickly). Geomorphologists began describing rivers as 'braided' in the early 20th century for channels that interweave like plaited hair or rope.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Braided</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English bregdan", "b": "To weave, move quickly" },
+          { "a": "Geomorphologists adopted 'braided' in the", "b": "Early 20th century" },
+          { "a": "Compares a river's channels to", "b": "Plaited hair or rope" },
+          { "a": "Describes channels that", "b": "Interweave and shift" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Braided</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A braided river splits into", "b": "Many small, interweaving channels" },
+          { "a": "Braided channels are separated by shifting", "b": "Bars of sediment" },
+          { "a": "Braided rivers often form where sediment supply is", "b": "High and flow is variable" },
+          { "a": "Braided hair is styled by", "b": "Interweaving strands together" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Braided</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "From the air, the glacier-fed river looked", "b": "Braided across the valley floor" },
+          { "a": "Gravel bars shifted constantly in the", "b": "Braided channel" },
+          { "a": "She wore her hair in a neat", "b": "Braided style" },
+          { "a": "Sediment from the melting glacier fed the", "b": "Braided river system" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bregdan", "rootLanguage": "Old English", "rootMeaning": "To weave, move quickly", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "bregdan", "highlight": true }, { "text": " (to weave); a river split into channels that interweave like plaited strands.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bregdan", "correctAnswer": "To weave, move quickly", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Riparian",
+    "pronunciation": "ry-PAIR-ee-uhn",
+    "pos": "adjective",
+    "definition": "Relating to or situated on the bank of a river or other body of water.",
+    "origin": "From Latin <strong>ripa</strong> (riverbank) + -arius (relating to), entered English in the 19th century, largely through legal writing on riparian rights, the entitlements of landowners along a watercourse.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Riparian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ripa", "b": "Riverbank" },
+          { "a": "Suffix -arius means", "b": "Relating to" },
+          { "a": "Entered English in the", "b": "19th century" },
+          { "a": "Popularised through legal writing on", "b": "Riparian rights" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Riparian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Riparian describes something", "b": "On the bank of a river" },
+          { "a": "A riparian buffer is a strip of vegetation that protects a", "b": "Waterway" },
+          { "a": "Riparian rights concern landowners along a", "b": "Watercourse" },
+          { "a": "Riparian habitats support species that depend on", "b": "Water's edge conditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Riparian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Conservationists planted trees to restore the", "b": "Riparian zone" },
+          { "a": "The farmer owned", "b": "Riparian rights to the stream" },
+          { "a": "Herons nested in the dense", "b": "Riparian vegetation" },
+          { "a": "Development was restricted within the", "b": "Riparian buffer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ripa", "rootLanguage": "Latin", "rootMeaning": "Riverbank", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ripa", "highlight": true }, { "text": " (riverbank); anything living or lying along the water's edge.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ripa", "correctAnswer": "Riverbank", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Terrace",
+    "pronunciation": "TER-uhs",
+    "pos": "noun",
+    "definition": "A flat, step-like shelf of land along a valley side, marking a former level of a river or floodplain before the river cut down further.",
+    "origin": "From French <strong>terrasse</strong>, from Latin terra (earth, land), via Vulgar Latin terracea. Geologists adopted 'river terrace' in the 19th century for the stepped ledges left as a river slowly cuts its valley deeper over time.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Terrace</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French terrasse", "b": "A raised, level platform" },
+          { "a": "Latin terra", "b": "Earth, land" },
+          { "a": "Geologists adopted 'river terrace' in the", "b": "19th century" },
+          { "a": "Names the ledge left when a river", "b": "Cuts its valley deeper over time" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Terrace</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A river terrace is a", "b": "Flat, step-like shelf along a valley" },
+          { "a": "A terrace marks a former level of a river's", "b": "Floodplain" },
+          { "a": "An outdoor terrace is a", "b": "Paved or raised platform" },
+          { "a": "Farmers cut agricultural terraces into", "b": "Steep hillsides" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Terrace</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Geologists dated gravel from the ancient river", "b": "Terrace" },
+          { "a": "The old floodplain now sat as a dry", "b": "Terrace above the current channel" },
+          { "a": "Diners enjoyed the view from the restaurant's", "b": "Terrace" },
+          { "a": "Farmers had carved neat", "b": "Terraces into the hillside" }
+        ] }
+    ],
+    "roots": [ { "rootText": "terra", "rootLanguage": "Latin", "rootMeaning": "Earth, land", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "terra", "highlight": true }, { "text": " (earth); a stepped shelf marking where a river once flowed before cutting deeper.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "terra", "correctAnswer": "Earth, land", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Aquifer",
+    "pronunciation": "AK-wuh-fer",
+    "pos": "noun",
+    "definition": "An underground layer of permeable rock or sediment that holds and can yield groundwater through wells and springs.",
+    "origin": "From Latin <strong>aqua</strong> (water) + ferre (to bear, carry), coined in the 19th century by hydrogeologists to name rock layers that 'carry' water underground.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Aquifer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin aqua", "b": "Water" },
+          { "a": "Latin ferre", "b": "To bear, carry" },
+          { "a": "Coined by hydrogeologists in the", "b": "19th century" },
+          { "a": "Names rock that", "b": "Carries water underground" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Aquifer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An aquifer holds and yields", "b": "Groundwater" },
+          { "a": "An aquifer is made of permeable", "b": "Rock or sediment" },
+          { "a": "Groundwater from an aquifer can be reached by", "b": "Wells and springs" },
+          { "a": "Overpumping can cause an aquifer to become", "b": "Depleted" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Aquifer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The town's drinking water came from a deep", "b": "Aquifer" },
+          { "a": "Decades of irrigation had drawn down the", "b": "Aquifer" },
+          { "a": "Engineers drilled a well into the", "b": "Underground aquifer" },
+          { "a": "Pollution threatened to contaminate the region's", "b": "Aquifer" }
+        ] }
+    ],
+    "roots": [
+      { "rootText": "aqua", "rootLanguage": "Latin", "rootMeaning": "Water", "showInIntro": true },
+      { "rootText": "ferre", "rootLanguage": "Latin", "rootMeaning": "To bear, carry", "showInIntro": true }
+    ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "aqua", "highlight": true }, { "text": " (water) + ferre (to carry); an underground layer that carries water for wells and springs.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aqua", "correctAnswer": "Water", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Spring",
+    "pronunciation": "spring",
+    "pos": "noun",
+    "definition": "A natural point where groundwater flows out of the ground to the surface, often forming the source of a stream.",
+    "origin": "From Old English <strong>spring</strong> (a source of water, well), related to springan (to leap, burst forth). The image of water 'springing' or bursting from the earth also underlies the season spring and the verb meaning to jump.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Spring</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English springan", "b": "To leap, burst forth" },
+          { "a": "A spring is water that", "b": "Bursts forth from the ground" },
+          { "a": "The same root gives us the season", "b": "Spring, when plants burst forth" },
+          { "a": "And the verb meaning", "b": "To jump suddenly" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Spring</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A spring is a point where", "b": "Groundwater reaches the surface" },
+          { "a": "A spring often forms the source of a", "b": "Stream" },
+          { "a": "A hot spring is heated by", "b": "Geothermal activity underground" },
+          { "a": "Mineral springs are often bottled as", "b": "Sparkling or still water" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Spring</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hikers refilled their bottles at a clear mountain", "b": "Spring" },
+          { "a": "The town was famous for its healing hot", "b": "Spring" },
+          { "a": "The stream's source was a small", "b": "Spring high on the hillside" },
+          { "a": "Bottled water labelled 'natural' often comes from a", "b": "Spring" }
+        ] }
+    ],
+    "roots": [ { "rootText": "springan", "rootLanguage": "Old English", "rootMeaning": "To leap, burst forth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "springan", "highlight": true }, { "text": " (to burst forth); water leaping up from the ground to feed a stream.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "springan", "correctAnswer": "To leap, burst forth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gully",
+    "pronunciation": "GUHL-ee",
+    "pos": "noun",
+    "definition": "A small, narrow ravine or channel cut into the earth by running water, typically after heavy rain.",
+    "origin": "Possibly from <strong>gullet</strong>, from Old French goulet, from Latin gula (throat). By the 18th century 'gully' described a narrow channel cut by water, likened to a throat carved into the land.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gully</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin gula", "b": "Throat" },
+          { "a": "Possibly related to English", "b": "Gullet" },
+          { "a": "Via Old French", "b": "Goulet" },
+          { "a": "Described a water-cut channel by the", "b": "18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gully</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gully is a small, narrow", "b": "Ravine or channel" },
+          { "a": "Gullies are typically cut by", "b": "Running water after heavy rain" },
+          { "a": "Gully erosion is a concern for", "b": "Farmers and land managers" },
+          { "a": "In cricket, 'gully' names a fielding position near the", "b": "Slips" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gully</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Heavy rain carved a deep", "b": "Gully across the hillside" },
+          { "a": "The hikers had to scramble down a steep", "b": "Gully" },
+          { "a": "Erosion had turned the footpath into a", "b": "Gully" },
+          { "a": "The fielder at", "b": "Gully took a sharp catch" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gula", "rootLanguage": "Latin", "rootMeaning": "Throat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Latin ", "highlight": false }, { "text": "gula", "highlight": true }, { "text": " (throat); a narrow channel cut into the land by rushing water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gula", "correctAnswer": "Throat", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Alluvial",
+    "pronunciation": "uh-LOO-vee-uhl",
+    "pos": "adjective",
+    "definition": "Relating to or made of sediment such as sand, silt, and clay deposited by flowing water, especially in a river valley or delta.",
+    "origin": "From Latin <strong>alluvius</strong>, from alluere (to wash against), from ad- (to) + luere (to wash). English adopted 'alluvial' in the 17th century to describe fertile soil built up by river deposits.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Alluvial</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin alluvius", "b": "Washed against, deposited by water" },
+          { "a": "Latin alluere", "b": "To wash against" },
+          { "a": "Formed from ad- (to) plus", "b": "Luere (to wash)" },
+          { "a": "Entered English in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Alluvial</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Alluvial soil is deposited by", "b": "Flowing water" },
+          { "a": "Alluvial deposits are common in river valleys and", "b": "Deltas" },
+          { "a": "Alluvial soil is often especially", "b": "Fertile" },
+          { "a": "Alluvial gold is found in", "b": "Riverbed sediment, not solid rock" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Alluvial</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Prospectors panned for", "b": "Alluvial gold in the riverbed" },
+          { "a": "Rice paddies thrived in the rich", "b": "Alluvial soil" },
+          { "a": "The valley floor was built from ancient", "b": "Alluvial deposits" },
+          { "a": "Engineers tested the load-bearing strength of the", "b": "Alluvial ground" }
+        ] }
+    ],
+    "roots": [ { "rootText": "alluere", "rootLanguage": "Latin", "rootMeaning": "To wash against", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "alluere", "highlight": true }, { "text": " (to wash against); fertile soil built by centuries of river deposits.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "alluere", "correctAnswer": "To wash against", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Floodway",
+    "pronunciation": "FLUHD-way",
+    "pos": "noun",
+    "definition": "A designated channel, often engineered, that carries excess floodwater away from populated areas to reduce flood damage.",
+    "origin": "A plain English compound of <strong>flood</strong> + way, adopted by civil engineers in the 20th century for channels purpose-built or reserved to carry a river's excess water safely around towns and cities.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Floodway</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Floodway compounds", "b": "Flood + way" },
+          { "a": "Adopted by civil engineers in the", "b": "20th century" },
+          { "a": "Names a channel built to carry", "b": "Excess floodwater" },
+          { "a": "Designed to route floodwater", "b": "Around towns and cities" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Floodway</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A floodway is a designated", "b": "Channel for excess floodwater" },
+          { "a": "Floodways reduce flood damage by carrying water", "b": "Away from populated areas" },
+          { "a": "Some floodways are only used during", "b": "Major flood events" },
+          { "a": "Floodway construction is a form of", "b": "Flood-control engineering" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Floodway</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Engineers opened the gates of the", "b": "Floodway during the storm" },
+          { "a": "The city's flood-control plan relied on a purpose-built", "b": "Floodway" },
+          { "a": "Signs warned drivers not to cross the", "b": "Floodway during heavy rain" },
+          { "a": "The reserved land beside the river served as a", "b": "Floodway" }
+        ] }
+    ],
+    "roots": [ { "rootText": "flood + way", "rootLanguage": "English compound", "rootMeaning": "A channel built to carry excess floodwater", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "flood + way", "highlight": true }, { "text": "; an engineered channel built to carry a river's overflow safely away.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "flood + way", "correctAnswer": "A channel built to carry excess floodwater", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Headwater",
+    "pronunciation": "HED-waw-ter",
+    "pos": "noun",
+    "definition": "The source or upper reaches of a river, where its smallest tributary streams begin.",
+    "origin": "A plain English compound of <strong>head</strong> (source, origin) + water, in use since at least the 17th century for the point where a river's flow begins.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Headwater</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Headwater compounds", "b": "Head + water" },
+          { "a": "'Head' here means", "b": "Source, origin" },
+          { "a": "In use since at least the", "b": "17th century" },
+          { "a": "Names the point where a river's flow", "b": "Begins" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Headwater</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Headwaters are the", "b": "Source or upper reaches of a river" },
+          { "a": "Headwaters typically begin as small", "b": "Tributary streams" },
+          { "a": "Headwaters are often found in", "b": "Hills or mountains" },
+          { "a": "Pollution at the headwaters can affect", "b": "The entire river downstream" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Headwater</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The expedition traced the river back to its", "b": "Headwaters" },
+          { "a": "Snowmelt in the mountains fed the river's", "b": "Headwaters" },
+          { "a": "Conservationists protected the fragile", "b": "Headwater streams" },
+          { "a": "The map marked the", "b": "Headwaters near the national park" }
+        ] }
+    ],
+    "roots": [ { "rootText": "head + water", "rootLanguage": "English compound", "rootMeaning": "The source, or beginning, of a river", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A compound of ", "highlight": false }, { "text": "head + water", "highlight": true }, { "text": "; the small streams high in the hills where a river begins.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "head + water", "correctAnswer": "The source, or beginning, of a river", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Riffle",
+    "pronunciation": "RIF-uhl",
+    "pos": "noun",
+    "definition": "A shallow, rocky stretch of a stream where the water flows quickly over the surface, breaking into small waves and ripples.",
+    "origin": "Likely a dialectal alteration of <strong>ripple</strong>, recorded in English since the 19th century for the choppy, fast-flowing shallows of a stream, distinct from the smooth, deep pools between them.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Riffle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Likely an alteration of", "b": "Ripple" },
+          { "a": "Recorded in English since the", "b": "19th century" },
+          { "a": "Describes water flowing quickly over", "b": "Shallow, rocky ground" },
+          { "a": "Contrasts with the smooth, deep", "b": "Pools between riffles" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Riffle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A riffle is a shallow, rocky stretch of a", "b": "Stream" },
+          { "a": "In a riffle, water flows", "b": "Quickly, breaking into small waves" },
+          { "a": "Riffles are important habitat for", "b": "Insects and spawning fish" },
+          { "a": "Anglers often fish", "b": "Riffles for trout" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Riffle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The kayak bounced lightly through a shallow", "b": "Riffle" },
+          { "a": "Trout gathered to feed at the edge of the", "b": "Riffle" },
+          { "a": "Sunlight glinted off the fast water of the", "b": "Riffle" },
+          { "a": "Biologists sampled insects from the stream's", "b": "Riffles" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ripple", "rootLanguage": "English (dialectal alteration)", "rootMeaning": "A small wave, ruffled water surface", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Likely an alteration of ", "highlight": false }, { "text": "ripple", "highlight": true }, { "text": "; the choppy, fast-flowing shallows between a stream's calmer pools.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ripple", "correctAnswer": "A small wave, ruffled water surface", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Watershed",
+    "pronunciation": "WAW-tur-shed",
+    "pos": "noun",
+    "definition": "The area of land whose water drains into a particular river, lake, or sea; also, a turning point or dividing line in events.",
+    "origin": "A calque, or direct translation, of German <strong>Wasserscheide</strong> (water + parting), from scheiden (to divide). English adopted 'watershed' in the mid-19th century, using 'shed' in its older sense of 'to divide or part,' as in the parting of hair.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Watershed</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Wasserscheide", "b": "Water parting, water divide" },
+          { "a": "From scheiden, meaning", "b": "To divide" },
+          { "a": "Watershed is a direct translation, or", "b": "Calque" },
+          { "a": "Adopted into English in the", "b": "Mid-19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Watershed</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A watershed is the area of land that drains into a particular", "b": "River, lake, or sea" },
+          { "a": "'Watershed' is a near-synonym for", "b": "Drainage basin" },
+          { "a": "Figuratively, a 'watershed moment' marks a", "b": "Turning point" },
+          { "a": "Protecting a watershed helps safeguard local", "b": "Water quality" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Watershed</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rainfall across the entire", "b": "Watershed feeds the same lake" },
+          { "a": "Historians called it a", "b": "Watershed moment in the war" },
+          { "a": "City officials worked to protect the", "b": "Drinking-water watershed" },
+          { "a": "The election marked a", "b": "Watershed in the country's politics" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Wasserscheide", "rootLanguage": "German", "rootMeaning": "Water parting, water divide", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A translation of German ", "highlight": false }, { "text": "Wasserscheide", "highlight": true }, { "text": " (water-parting); the boundary where rainfall divides between two river systems.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Wasserscheide", "correctAnswer": "Water parting, water divide", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rapids",
+    "pronunciation": "RAP-idz",
+    "pos": "noun",
+    "definition": "A stretch of a river where the water flows fast and turbulently over a steep or rocky riverbed.",
+    "origin": "From <strong>rapid</strong>, from Latin rapidus (hurrying, seizing), from rapere (to seize, snatch). By the 18th century, 'the rapids' named the fast, turbulent stretches of a river that seemed to seize and hurry boats along.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rapids</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin rapidus", "b": "Hurrying, seizing" },
+          { "a": "Latin rapere", "b": "To seize, snatch" },
+          { "a": "'The rapids' named as a river feature by the", "b": "18th century" },
+          { "a": "Named for water fast enough to", "b": "Seize and hurry a boat along" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rapids</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Rapids form where a river flows fast over a", "b": "Steep or rocky bed" },
+          { "a": "Rapids are often rated by", "b": "Difficulty, for paddlers" },
+          { "a": "Rapids differ from a waterfall in that the drop is", "b": "Gradual, not vertical" },
+          { "a": "'Rapid' as an adjective describes something", "b": "Very fast" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rapids</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The raft crew paddled hard through the churning", "b": "Rapids" },
+          { "a": "Only experienced kayakers attempted the", "b": "Class V rapids" },
+          { "a": "The canoe capsized in the rocky", "b": "Rapids" },
+          { "a": "Tourists booked a white-water", "b": "Rapids tour" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rapere", "rootLanguage": "Latin", "rootMeaning": "To seize, snatch", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "rapere", "highlight": true }, { "text": " (to seize); a stretch of river fast enough to seize and hurry a boat along.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rapere", "correctAnswer": "To seize, snatch", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Delta",
+    "pronunciation": "DEL-tuh",
+    "pos": "noun",
+    "definition": "A low, often triangular area of land formed where a river deposits sediment as it splits into several channels flowing into a sea or lake.",
+    "origin": "Named after the Greek letter <strong>delta</strong> (Δ), whose triangular shape the historian Herodotus compared, in the 5th century BC, to the fan-shaped mouth of the Nile as it split into the Mediterranean.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-rivers", "name": "Rivers & Freshwater", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Delta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek letter delta", "b": "Δ, triangular in shape" },
+          { "a": "Compared to the Nile's mouth by", "b": "Herodotus" },
+          { "a": "Herodotus wrote in the", "b": "5th century BC" },
+          { "a": "Named for the river mouth's", "b": "Fan-like, triangular shape" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Delta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A delta forms where a river", "b": "Deposits sediment at its mouth" },
+          { "a": "A delta forms as a river splits into", "b": "Several channels" },
+          { "a": "Deltas are often especially", "b": "Fertile, low-lying land" },
+          { "a": "The Nile, Mississippi, and Ganges all end in a", "b": "Delta" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Delta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rice farmers cultivated the fertile", "b": "Mekong Delta" },
+          { "a": "The river fanned into dozens of channels at its", "b": "Delta" },
+          { "a": "Wildlife thrived among the wetlands of the", "b": "Delta" },
+          { "a": "Sediment build-up steadily expanded the", "b": "River delta" }
+        ] }
+    ],
+    "roots": [ { "rootText": "delta (Δ)", "rootLanguage": "Greek", "rootMeaning": "The fourth letter of the Greek alphabet, triangular in shape", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the Greek letter ", "highlight": false }, { "text": "delta (Δ)", "highlight": true }, { "text": "; Herodotus likened the Nile's triangular mouth to its shape.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "delta (Δ)", "correctAnswer": "The fourth letter of the Greek alphabet, triangular in shape", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

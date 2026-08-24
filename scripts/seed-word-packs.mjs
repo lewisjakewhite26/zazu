@@ -55,6 +55,11 @@ const SOURCES = [
   resolve(root, 'THEMATIC PACKS', 'science words', 'science-earth.json'),
   resolve(root, 'THEMATIC PACKS', 'science words', 'science-physics.json'),
   resolve(root, 'THEMATIC PACKS', 'science words', 'science-computing.json'),
+  resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-climate.json'),
+  resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-rivers.json'),
+  resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-mountains.json'),
+  resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-terrain.json'),
+  resolve(root, 'THEMATIC PACKS', 'geography words', 'geography-coastal.json'),
 ];
 
 function requireEnv(name) {

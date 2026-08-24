@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Mesa",
+    "pronunciation": "MAY-suh",
+    "pos": "noun",
+    "definition": "A flat-topped hill or plateau with steep sides, common in arid regions.",
+    "origin": "From Spanish <strong>mesa</strong> (table), ultimately from Latin mensa (table). Spanish and Mexican settlers applied the word to the flat-topped, steep-sided landforms common across the arid plateaus of the American Southwest.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mesa</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish mesa", "b": "Table" },
+          { "a": "Ultimately from Latin", "b": "Mensa (table)" },
+          { "a": "Applied by Spanish settlers to landforms in the", "b": "American Southwest" },
+          { "a": "Named for its flat, tabletop-like", "b": "Summit" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mesa</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mesa has steep sides and a flat", "b": "Top" },
+          { "a": "Mesas form in", "b": "Arid regions" },
+          { "a": "A smaller mesa is sometimes called a", "b": "Butte" },
+          { "a": "Mesas are shaped mainly by", "b": "Erosion of surrounding rock" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mesa</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The hikers camped at the base of a towering", "b": "Mesa" },
+          { "a": "Ancient dwellings were carved into the cliffs of the", "b": "Mesa" },
+          { "a": "The road wound up onto the flat", "b": "Mesa top" },
+          { "a": "Wind and rain slowly wore the plateau into a", "b": "Mesa" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mesa", "rootLanguage": "Spanish", "rootMeaning": "Table", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Spanish ", "highlight": false }, { "text": "mesa", "highlight": true }, { "text": " (table); a landform flat enough to eat dinner on.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mesa", "correctAnswer": "Table", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Scree",
+    "pronunciation": "skree",
+    "pos": "noun",
+    "definition": "A mass of small loose stones covering a slope, typically at the base of a cliff or mountainside.",
+    "origin": "From Old Norse <strong>skriða</strong> (landslide), related to the verb skríða (to slide, creep). The word passed into northern English and Scots dialect as scree, describing the loose stones that slide underfoot on a slope.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Scree</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse skriða", "b": "Landslide" },
+          { "a": "Related to Old Norse skríða, meaning", "b": "To slide, creep" },
+          { "a": "Entered dialect in", "b": "Northern England and Scotland" },
+          { "a": "Describes loose stones that", "b": "Shift underfoot on a slope" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Scree</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Scree is made of", "b": "Small loose stones" },
+          { "a": "Scree typically collects at the", "b": "Base of a cliff" },
+          { "a": "Walking on scree is notoriously", "b": "Unstable and slippery" },
+          { "a": "Scree forms mainly through", "b": "Frost-shattering of rock" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Scree</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The climbers picked their way carefully across the", "b": "Scree slope" },
+          { "a": "Loose scree slid beneath every", "b": "Footstep" },
+          { "a": "A trail of grey", "b": "Scree ran down from the summit" },
+          { "a": "He lost his footing on the", "b": "Scree" }
+        ] }
+    ],
+    "roots": [ { "rootText": "skriða", "rootLanguage": "Old Norse", "rootMeaning": "Landslide", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "skriða", "highlight": true }, { "text": " (landslide); loose stone that shifts and slides underfoot.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "skriða", "correctAnswer": "Landslide", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Talus",
+    "pronunciation": "TAY-luhs",
+    "pos": "noun",
+    "definition": "A sloping mass of rock fragments accumulated at the base of a cliff or steep slope.",
+    "origin": "From French <strong>talus</strong> (slope, embankment), from Latin talutium (a mine's sloping spoil-heap), itself possibly linked to talus (ankle, heel), the part of the body a slope was likened to. Geologists borrowed the French term for the sloping apron of rock debris at a cliff's foot.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Talus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French talus", "b": "Slope, embankment" },
+          { "a": "From Latin talutium, meaning", "b": "A mine's sloping spoil-heap" },
+          { "a": "Possibly linked to Latin talus, meaning", "b": "Ankle, heel" },
+          { "a": "Geologists adopted the term for a", "b": "Cliff-foot apron of rock debris" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Talus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Talus accumulates at the", "b": "Base of a cliff" },
+          { "a": "Talus is formed chiefly by", "b": "Repeated freezing and thawing" },
+          { "a": "A talus slope is also sometimes called a", "b": "Scree slope" },
+          { "a": "Over centuries, a talus slope can bury a cliff's", "b": "Lower face" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Talus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Boulders had tumbled down to form a", "b": "Talus slope" },
+          { "a": "The trail crossed a field of unstable", "b": "Talus" },
+          { "a": "Frost had shattered the cliff into a fan of", "b": "Talus" },
+          { "a": "They scrambled up the loose", "b": "Talus to reach the ridge" }
+        ] }
+    ],
+    "roots": [ { "rootText": "talus", "rootLanguage": "Latin", "rootMeaning": "Slope, ankle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "talus", "highlight": true }, { "text": " (slope); a sloping heap of broken rock piled at a cliff's foot.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "talus", "correctAnswer": "Slope, ankle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cirque",
+    "pronunciation": "surk",
+    "pos": "noun",
+    "definition": "A bowl-shaped hollow at the head of a glacial valley, carved by the rotational movement of ice.",
+    "origin": "From French <strong>cirque</strong> (circus, ring), from Latin circus (a circular arena). Alpine geographers borrowed the word for the bowl-shaped hollow a glacier carves into a mountainside, its curved walls echoing the shape of a Roman arena.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cirque</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French cirque", "b": "Circus, ring" },
+          { "a": "Latin circus", "b": "Circular arena" },
+          { "a": "Borrowed by", "b": "Alpine geographers" },
+          { "a": "Named for its resemblance to a", "b": "Roman arena" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cirque</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cirque sits at the", "b": "Head of a glacial valley" },
+          { "a": "A cirque is carved by the", "b": "Rotational movement of ice" },
+          { "a": "A cirque often holds a small lake called a", "b": "Tarn" },
+          { "a": "Cirques typically have steep walls on", "b": "Three sides" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cirque</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A turquoise lake filled the floor of the", "b": "Cirque" },
+          { "a": "The glacier had long since retreated from the", "b": "Cirque" },
+          { "a": "Climbers approached the peak through a dramatic", "b": "Cirque" },
+          { "a": "Snow lingered late into summer inside the", "b": "Cirque" }
+        ] }
+    ],
+    "roots": [ { "rootText": "circus", "rootLanguage": "Latin", "rootMeaning": "Circular arena", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "circus", "highlight": true }, { "text": " (circular arena); a bowl-shaped hollow carved by a glacier's turning ice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "circus", "correctAnswer": "Circular arena", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arete",
+    "pronunciation": "a-RET",
+    "pos": "noun",
+    "definition": "A narrow, sharp-edged mountain ridge formed between two adjacent glacial valleys or cirques.",
+    "origin": "From French <strong>arête</strong> (fish bone, spine, ridge), from Latin arista (the awn or bristle of an ear of grain, later also fish bone). Mountaineers adopted the French word for the sharp, narrow ridges that separate two glacial valleys or cirques.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arete</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French arête", "b": "Fish bone, spine, ridge" },
+          { "a": "Latin arista, originally meaning", "b": "Awn of a grain ear" },
+          { "a": "Later also came to mean", "b": "Fish bone" },
+          { "a": "Adopted by", "b": "Mountaineers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arete</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An arete separates two adjacent", "b": "Glacial valleys or cirques" },
+          { "a": "Aretes form where cirques erode", "b": "Back to back" },
+          { "a": "An arete's edge is typically", "b": "Narrow and knife-like" },
+          { "a": "Climbers often traverse an arete along its", "b": "Ridge crest" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arete</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The climbers roped up to cross the exposed", "b": "Arete" },
+          { "a": "Two cirques met to form a razor-thin", "b": "Arete" },
+          { "a": "The route followed a spectacular knife-edge", "b": "Arete" },
+          { "a": "Snow cornices overhung the crest of the", "b": "Arete" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arista", "rootLanguage": "Latin", "rootMeaning": "Awn, fish bone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "arista", "highlight": true }, { "text": " (fish bone); a knife-edge ridge as sharp as a bone.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arista", "correctAnswer": "Awn, fish bone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Esker",
+    "pronunciation": "ESS-kur",
+    "pos": "noun",
+    "definition": "A long, winding ridge of sand and gravel deposited by a stream of meltwater flowing beneath a glacier.",
+    "origin": "From Irish <strong>eiscir</strong> (a ridge, an elevated sandy pathway), a word that also gave its name to several Irish place names. Geologists adopted it for the long, winding ridges of sand and gravel deposited by rivers of meltwater running beneath a melting glacier.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Esker</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish eiscir", "b": "Ridge, elevated pathway" },
+          { "a": "Also survives in several Irish", "b": "Place names" },
+          { "a": "Geologists adopted the term for ridges of", "b": "Sand and gravel" },
+          { "a": "Deposited by rivers of meltwater running", "b": "Beneath a glacier" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Esker</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An esker is deposited by meltwater flowing", "b": "Beneath a glacier" },
+          { "a": "An esker is composed of", "b": "Sand and gravel" },
+          { "a": "Eskers can stretch for", "b": "Many kilometres" },
+          { "a": "Eskers often trace the former path of a", "b": "Subglacial river" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Esker</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The road followed the crest of a long", "b": "Esker" },
+          { "a": "Gravel was quarried from the flank of the", "b": "Esker" },
+          { "a": "The winding ridge across the bog was a classic", "b": "Esker" },
+          { "a": "Glaciologists mapped the esker to trace ancient", "b": "Meltwater channels" }
+        ] }
+    ],
+    "roots": [ { "rootText": "eiscir", "rootLanguage": "Irish", "rootMeaning": "Ridge, elevated pathway", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "eiscir", "highlight": true }, { "text": " (ridge); a winding trail of gravel left by a river under the ice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "eiscir", "correctAnswer": "Ridge, elevated pathway", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Drumlin",
+    "pronunciation": "DRUM-lin",
+    "pos": "noun",
+    "definition": "A smooth, elongated hill of glacial till, shaped by the movement of an overriding ice sheet.",
+    "origin": "From Irish <strong>droimnín</strong>, a diminutive of droim (back, ridge). The term entered geology in the 19th century to describe the smooth, elongated hills shaped beneath moving glacial ice, clustered thickly across the Irish countryside where the word originated.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Drumlin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish droimnín", "b": "Diminutive of droim (back, ridge)" },
+          { "a": "Irish droim", "b": "Back, ridge" },
+          { "a": "Entered geology in the", "b": "19th century" },
+          { "a": "Clusters of drumlins are common across the", "b": "Irish countryside" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Drumlin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A drumlin is made of", "b": "Glacial till" },
+          { "a": "A drumlin is shaped by", "b": "An overriding ice sheet" },
+          { "a": "Drumlins are typically", "b": "Smooth and elongated" },
+          { "a": "A cluster of drumlins is sometimes called", "b": "Basket-of-eggs terrain" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Drumlin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The train passed through a landscape dotted with", "b": "Drumlins" },
+          { "a": "Sheep grazed the gentle slope of a small", "b": "Drumlin" },
+          { "a": "The ice sheet had smoothed the hill into a classic", "b": "Drumlin" },
+          { "a": "Farmers ploughed the fertile soil atop the", "b": "Drumlin" }
+        ] }
+    ],
+    "roots": [ { "rootText": "droim", "rootLanguage": "Irish", "rootMeaning": "Back, ridge", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "droim", "highlight": true }, { "text": " (back, ridge); a smooth hill of till shaped by a glacier's passing weight.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "droim", "correctAnswer": "Back, ridge", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Caldera",
+    "pronunciation": "kal-DAIR-uh",
+    "pos": "noun",
+    "definition": "A large, cauldron-shaped depression formed when a volcano's summit collapses into its emptied magma chamber.",
+    "origin": "From Spanish <strong>caldera</strong> (cauldron, kettle), from Latin caldaria (cooking pot), from calidus (hot). The term was first applied to volcanic landforms in the Canary Islands, where a great cauldron-shaped hollow had formed after a volcano's summit collapsed.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Caldera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Spanish caldera", "b": "Cauldron, kettle" },
+          { "a": "Latin caldaria", "b": "Cooking pot" },
+          { "a": "Latin calidus, meaning", "b": "Hot" },
+          { "a": "First applied to volcanic landforms in the", "b": "Canary Islands" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Caldera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A caldera forms when a volcano's summit", "b": "Collapses into its magma chamber" },
+          { "a": "A caldera is much larger than an ordinary", "b": "Crater" },
+          { "a": "Crater Lake in Oregon fills a famous", "b": "Caldera" },
+          { "a": "A caldera can form after a", "b": "Massive eruption empties the chamber" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Caldera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A deep lake now fills the ancient", "b": "Caldera" },
+          { "a": "Geologists mapped the rim of the collapsed", "b": "Caldera" },
+          { "a": "The island itself is the exposed edge of a vast", "b": "Caldera" },
+          { "a": "Steam still vents from cracks within the", "b": "Caldera" }
+        ] }
+    ],
+    "roots": [ { "rootText": "caldaria", "rootLanguage": "Latin", "rootMeaning": "Cooking pot", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "caldaria", "highlight": true }, { "text": " (cooking pot); a vast cauldron left behind when a volcano's summit gives way.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "caldaria", "correctAnswer": "Cooking pot", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Escarpment",
+    "pronunciation": "ess-KARP-muhnt",
+    "pos": "noun",
+    "definition": "A long, steep slope or cliff face separating two relatively level areas of land at different elevations.",
+    "origin": "From French <strong>escarpement</strong>, from escarper (to cut steep, to scarp), from Italian scarpa (slope, shoe), itself likely of Germanic origin. The word describes a long, steep slope or cliff separating two relatively flat areas of land lying at different elevations.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Escarpment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French escarpement", "b": "A steep slope, from escarper" },
+          { "a": "French escarper, meaning", "b": "To cut steep" },
+          { "a": "Italian scarpa", "b": "Slope" },
+          { "a": "Likely traces further back to a", "b": "Germanic root" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Escarpment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An escarpment separates two areas of land at different", "b": "Elevations" },
+          { "a": "An escarpment often forms where erosion exposes", "b": "Resistant rock layers" },
+          { "a": "The Niagara Escarpment stretches for", "b": "Hundreds of kilometres" },
+          { "a": "Military forces have long used escarpments as natural", "b": "Defensive barriers" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Escarpment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The road climbed steeply up the face of the", "b": "Escarpment" },
+          { "a": "A ribbon of waterfalls tumbled over the", "b": "Escarpment" },
+          { "a": "The fort was built along the crest of the", "b": "Escarpment" },
+          { "a": "Vineyards covered the sunlit slope of the", "b": "Escarpment" }
+        ] }
+    ],
+    "roots": [ { "rootText": "scarpa", "rootLanguage": "Italian", "rootMeaning": "Slope", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "scarpa", "highlight": true }, { "text": " (slope); a long steep cliff cut sharply between two lower and higher plains.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "scarpa", "correctAnswer": "Slope", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Outcrop",
+    "pronunciation": "OWT-krop",
+    "pos": "noun",
+    "definition": "A visible exposure of bedrock or rock strata protruding through the surrounding soil or vegetation.",
+    "origin": "A native English compound of <strong>out</strong> and crop, first used by 19th-century miners to describe a vein or rock layer that emerged, or 'cropped out', at the ground's surface. The mining sense of crop as 'to appear above ground' predates the geological term by centuries.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Outcrop</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Formed from", "b": "Out + crop" },
+          { "a": "First used by 19th-century", "b": "Miners" },
+          { "a": "To 'crop out' meant to", "b": "Appear above ground" },
+          { "a": "Miners tracked a mineral vein by following its", "b": "Outcrop" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Outcrop</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An outcrop is a visible exposure of", "b": "Bedrock" },
+          { "a": "Outcrops let geologists study rock without", "b": "Digging or drilling" },
+          { "a": "An outcrop can reveal a rock layer's", "b": "Age and composition" },
+          { "a": "Erosion of overlying soil creates a natural", "b": "Outcrop" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Outcrop</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Geology students sketched the layered", "b": "Rock outcrop" },
+          { "a": "Sheep sheltered beside a granite", "b": "Outcrop" },
+          { "a": "The trail wound around a jagged", "b": "Outcrop of limestone" },
+          { "a": "Fossils were found embedded in the", "b": "Outcrop" }
+        ] }
+    ],
+    "roots": [ { "rootText": "crop", "rootLanguage": "English", "rootMeaning": "To appear above ground", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "crop", "highlight": true }, { "text": " (to appear above ground); rock breaking through the surface where a miner could see it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "crop", "correctAnswer": "To appear above ground", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bedrock",
+    "pronunciation": "BED-rok",
+    "pos": "noun",
+    "definition": "The solid, continuous rock lying beneath the loose soil, sand, or gravel of the Earth's surface.",
+    "origin": "A native English compound of <strong>bed</strong> and rock, first recorded in the mid-19th century among American geologists and miners to describe the solid, unbroken rock lying beneath loose soil, sand, or gravel. It quickly acquired a figurative sense of a firm, underlying foundation.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bedrock</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Formed from", "b": "Bed + rock" },
+          { "a": "First recorded in the", "b": "Mid-19th century" },
+          { "a": "Coined among American", "b": "Geologists and miners" },
+          { "a": "Quickly gained a figurative sense of a firm", "b": "Underlying foundation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bedrock</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bedrock lies beneath loose", "b": "Soil, sand, or gravel" },
+          { "a": "Bedrock is", "b": "Solid and continuous" },
+          { "a": "Skyscrapers anchor their foundations directly into", "b": "Bedrock" },
+          { "a": "'Bedrock principles' figuratively means", "b": "Fundamental, unshakable beliefs" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bedrock</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Engineers drilled down until they struck solid", "b": "Bedrock" },
+          { "a": "Erosion had stripped the hillside bare to the", "b": "Bedrock" },
+          { "a": "Trust formed the", "b": "Bedrock of their partnership" },
+          { "a": "The tunnel was blasted straight through the", "b": "Bedrock" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bed", "rootLanguage": "English", "rootMeaning": "A foundational layer", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "bed", "highlight": true }, { "text": " + rock; the solid rock foundation lying beneath all the loose soil above.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bed", "correctAnswer": "A foundational layer", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Alluvium",
+    "pronunciation": "uh-LOO-vee-uhm",
+    "pos": "noun",
+    "definition": "Loose sediment of clay, silt, sand, or gravel deposited by flowing water, typically in a river valley or delta.",
+    "origin": "From Latin <strong>alluvium</strong>, from alluere (to wash against), from ad- (toward) + luere (to wash). The term entered English geology in the 17th century for the loose sediment of clay, silt, sand, or gravel that rivers deposit as their currents slow.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Alluvium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin alluere", "b": "To wash against" },
+          { "a": "Latin ad-", "b": "Toward" },
+          { "a": "Latin luere", "b": "To wash" },
+          { "a": "Entered English geology in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Alluvium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Alluvium is deposited by", "b": "Flowing water" },
+          { "a": "Alluvium can consist of clay, silt, sand, or", "b": "Gravel" },
+          { "a": "Alluvium settles as a river's current", "b": "Slows" },
+          { "a": "Rich alluvium makes floodplains highly", "b": "Fertile for farming" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Alluvium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Centuries of flooding had built up deep layers of", "b": "Alluvium" },
+          { "a": "Farmers prized the fertile", "b": "Alluvium of the river valley" },
+          { "a": "The delta was formed entirely from deposited", "b": "Alluvium" },
+          { "a": "Engineers tested how deep the", "b": "Alluvium ran before hitting bedrock" }
+        ] }
+    ],
+    "roots": [ { "rootText": "alluere", "rootLanguage": "Latin", "rootMeaning": "To wash against", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "alluere", "highlight": true }, { "text": " (to wash against); fine soil left behind wherever a river's current slows.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "alluere", "correctAnswer": "To wash against", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rockslide",
+    "pronunciation": "ROK-slyd",
+    "pos": "noun",
+    "definition": "A sudden, rapid movement of a mass of rock down a slope or cliff face.",
+    "origin": "A native English compound of <strong>rock</strong> and slide, formed in the 19th century on the same pattern as landslide, to describe a sudden mass movement of broken rock down a slope.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rockslide</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Formed from", "b": "Rock + slide" },
+          { "a": "Coined on the same pattern as", "b": "Landslide" },
+          { "a": "First used in the", "b": "19th century" },
+          { "a": "Describes a sudden mass movement of", "b": "Broken rock" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rockslide</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rockslide is a sudden movement of rock down a", "b": "Slope or cliff face" },
+          { "a": "Rockslides are often triggered by", "b": "Heavy rain or earthquakes" },
+          { "a": "A rockslide differs from a landslide mainly in its", "b": "Rocky, rather than soil, material" },
+          { "a": "Warning signs marked the road's", "b": "Rockslide danger zone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rockslide</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Boulders thundered down the mountainside in a sudden", "b": "Rockslide" },
+          { "a": "The highway was closed after a", "b": "Rockslide blocked both lanes" },
+          { "a": "Heavy rain triggered a small", "b": "Rockslide overnight" },
+          { "a": "Engineers installed netting to prevent future", "b": "Rockslides" }
+        ] }
+    ],
+    "roots": [ { "rootText": "slide", "rootLanguage": "English", "rootMeaning": "To move smoothly downward", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "slide", "highlight": true }, { "text": "; a sudden fall of broken rock rushing down a slope.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "slide", "correctAnswer": "To move smoothly downward", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Crevasse",
+    "pronunciation": "kruh-VASS",
+    "pos": "noun",
+    "definition": "A deep, often hidden crack or fissure in a glacier or ice sheet.",
+    "origin": "From French <strong>crevasse</strong> (crack, fissure), from crever (to burst, to split), from Latin crepare (to crack, creak, rattle). Alpine explorers borrowed the word in the 19th century for the deep, often hidden fractures that split open a glacier's surface.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Crevasse</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French crevasse", "b": "Crack, fissure" },
+          { "a": "French crever", "b": "To burst, split" },
+          { "a": "Latin crepare", "b": "To crack, creak" },
+          { "a": "Borrowed by", "b": "19th-century Alpine explorers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Crevasse</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A crevasse forms in a", "b": "Glacier or ice sheet" },
+          { "a": "Crevasses are often hidden by a thin bridge of", "b": "Snow" },
+          { "a": "Crevasses form as ice stretches and", "b": "Fractures" },
+          { "a": "Mountaineers rope together to guard against falling into a", "b": "Crevasse" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Crevasse</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A climber slipped and fell into a hidden", "b": "Crevasse" },
+          { "a": "The glacier's surface was riddled with deep", "b": "Crevasses" },
+          { "a": "Guides probed the snow bridges for concealed", "b": "Crevasses" },
+          { "a": "Rescue teams lowered ropes into the", "b": "Crevasse" }
+        ] }
+    ],
+    "roots": [ { "rootText": "crever", "rootLanguage": "French", "rootMeaning": "To burst, split", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "crever", "highlight": true }, { "text": " (to burst); a deep crack splitting open a glacier's icy surface.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "crever", "correctAnswer": "To burst, split", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Firn",
+    "pronunciation": "feern",
+    "pos": "noun",
+    "definition": "Old, granular snow that has survived at least one summer melt season without turning fully into glacial ice.",
+    "origin": "From Swiss German <strong>Firn</strong> (of last year, old), from Old High German firni (old), related to the modern German fern (far, distant in time). Alpine communities used the word for the granular, partly compacted snow that survives one summer without fully melting.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Firn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Swiss German Firn", "b": "Of last year, old" },
+          { "a": "Old High German firni", "b": "Old" },
+          { "a": "Related to modern German fern, meaning", "b": "Far, distant" },
+          { "a": "Used by", "b": "Alpine communities" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Firn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Firn is snow that has survived at least one", "b": "Summer melt season" },
+          { "a": "Firn sits between fresh snow and true", "b": "Glacial ice" },
+          { "a": "Firn is more compacted than fresh snow but less dense than", "b": "Ice" },
+          { "a": "Over years of compaction, firn gradually becomes", "b": "Glacier ice" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Firn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Skiers crossed a wide field of granular", "b": "Firn" },
+          { "a": "The glaciologist drilled a core through layers of", "b": "Firn" },
+          { "a": "Old, compacted snow near the summit had turned to", "b": "Firn" },
+          { "a": "The line where fresh snow met packed", "b": "Firn was easy to spot" }
+        ] }
+    ],
+    "roots": [ { "rootText": "firni", "rootLanguage": "Old High German", "rootMeaning": "Old", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old High German ", "highlight": false }, { "text": "firni", "highlight": true }, { "text": " (old); last year's snow, packed dense but not yet true ice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "firni", "correctAnswer": "Old", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Snowline",
+    "pronunciation": "SNOH-lyn",
+    "pos": "noun",
+    "definition": "The elevation on a mountain above which snow cover persists throughout the year.",
+    "origin": "A native English compound of <strong>snow</strong> and line, adopted by 19th-century geographers and mountaineers to describe the elevation above which snow persists year-round on a mountain.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Snowline</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Formed from", "b": "Snow + line" },
+          { "a": "Adopted by 19th-century", "b": "Geographers and mountaineers" },
+          { "a": "Marks the elevation where snow", "b": "Persists year-round" },
+          { "a": "Rises and falls with a region's", "b": "Climate and latitude" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Snowline</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Above the snowline, snow cover", "b": "Persists all year" },
+          { "a": "The snowline's elevation varies with", "b": "Latitude and season" },
+          { "a": "Climbers packed crampons before crossing the", "b": "Snowline" },
+          { "a": "A rising snowline over decades can signal", "b": "Climate warming" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Snowline</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The peak's summit sat well above the", "b": "Permanent snowline" },
+          { "a": "Warmer temperatures have pushed the", "b": "Snowline higher each decade" },
+          { "a": "Photographers waited for the road to reach the", "b": "Snowline" },
+          { "a": "Below the snowline, wildflowers carpeted the", "b": "Meadows" }
+        ] }
+    ],
+    "roots": [ { "rootText": "line", "rootLanguage": "English", "rootMeaning": "A boundary or limit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "line", "highlight": true }, { "text": "; the boundary on a mountainside above which snow never fully melts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "line", "correctAnswer": "A boundary or limit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Treeline",
+    "pronunciation": "TREE-lyn",
+    "pos": "noun",
+    "definition": "The elevation or latitude beyond which environmental conditions prevent trees from growing.",
+    "origin": "A native English compound of <strong>tree</strong> and line, formed on the same pattern as snowline, describing the elevation or latitude beyond which trees cannot survive due to cold, wind, or thin soil.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Treeline</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Formed from", "b": "Tree + line" },
+          { "a": "Coined on the same pattern as", "b": "Snowline" },
+          { "a": "Marks the limit beyond which trees cannot survive", "b": "Cold, wind, or thin soil" },
+          { "a": "Also known in high latitudes as the", "b": "Timberline" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Treeline</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Above the treeline, the landscape becomes", "b": "Open tundra or bare rock" },
+          { "a": "The treeline's elevation drops as you move toward the", "b": "Poles" },
+          { "a": "Trees near the treeline often grow stunted and", "b": "Twisted" },
+          { "a": "A rising treeline can indicate a warming", "b": "Climate" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Treeline</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The trail broke out above the", "b": "Treeline into open alpine tundra" },
+          { "a": "Gnarled pines clung to the edge of the", "b": "Treeline" },
+          { "a": "They pitched camp just below the", "b": "Treeline for shelter from the wind" },
+          { "a": "Above the", "b": "Treeline, only lichen and moss survived" }
+        ] }
+    ],
+    "roots": [ { "rootText": "line", "rootLanguage": "English", "rootMeaning": "A boundary or limit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From English ", "highlight": false }, { "text": "line", "highlight": true }, { "text": "; the boundary beyond which the cold and wind stop trees from growing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "line", "correctAnswer": "A boundary or limit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fell",
+    "pronunciation": "fel",
+    "pos": "noun",
+    "definition": "A high, barren stretch of hill or moorland, especially in northern England or Scandinavia.",
+    "origin": "From Old Norse <strong>fjall</strong> (mountain), brought to Britain by Norse settlers and preserved in the dialect of northern England and the Lake District, where fell still names the high, open, often barren hills of the region.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fell</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse fjall", "b": "Mountain" },
+          { "a": "Brought to Britain by", "b": "Norse settlers" },
+          { "a": "Preserved in the dialect of", "b": "Northern England and the Lake District" },
+          { "a": "Still names the high, open hills of the", "b": "Region" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fell</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fell is a high, barren stretch of", "b": "Hill or moorland" },
+          { "a": "Fells are especially common in", "b": "Northern England and Scandinavia" },
+          { "a": "Fell running is a sport that races over", "b": "Rugged upland terrain" },
+          { "a": "Fells are typically covered in", "b": "Heather and grass, not trees" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fell</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Mist rolled low across the open", "b": "Fell" },
+          { "a": "Hardy sheep grazed the windswept", "b": "Fell" },
+          { "a": "Runners raced along the ridge of the", "b": "Fell" },
+          { "a": "They hiked up the steep flank of the", "b": "Fell" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fjall", "rootLanguage": "Old Norse", "rootMeaning": "Mountain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "fjall", "highlight": true }, { "text": " (mountain); a bare northern hill named by Viking settlers.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fjall", "correctAnswer": "Mountain", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ravine",
+    "pronunciation": "ruh-VEEN",
+    "pos": "noun",
+    "definition": "A deep, narrow gorge, typically formed by the erosive force of running water.",
+    "origin": "From French <strong>ravine</strong> (a violent rush of water, a gully), from Latin rapina (robbery, plunder), from rapere (to seize). The word first described a torrent's sudden, seizing force before it settled into naming the deep, narrow gorge such a torrent carves.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ravine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French ravine", "b": "A violent rush of water, a gully" },
+          { "a": "Latin rapina", "b": "Robbery, plunder" },
+          { "a": "Latin rapere", "b": "To seize" },
+          { "a": "Originally described a torrent's", "b": "Sudden, seizing force" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ravine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ravine is deep and", "b": "Narrow" },
+          { "a": "Ravines are typically carved by", "b": "Running water" },
+          { "a": "A ravine is generally steeper and narrower than a", "b": "Valley" },
+          { "a": "Flash floods can rip through a", "b": "Dry ravine" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ravine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A rope bridge spanned the deep", "b": "Ravine" },
+          { "a": "The stream had carved a narrow", "b": "Ravine through the hillside" },
+          { "a": "Hikers scrambled down into the shaded", "b": "Ravine" },
+          { "a": "The old road skirted the edge of a steep", "b": "Ravine" }
+        ] }
+    ],
+    "roots": [ { "rootText": "rapere", "rootLanguage": "Latin", "rootMeaning": "To seize", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "rapere", "highlight": true }, { "text": " (to seize); a gorge carved by water violent enough to seize everything in its path.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rapere", "correctAnswer": "To seize", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gulch",
+    "pronunciation": "gulch",
+    "pos": "noun",
+    "definition": "A steep-sided ravine or gully, especially one cut by a fast-flowing stream, common in western American usage.",
+    "origin": "Of uncertain origin, possibly related to the English dialect verb <strong>gulsh</strong> (to gush out suddenly). The word rose to prominence among 19th-century American prospectors, who used it for the steep-sided ravines their gold-panning often followed.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gulch</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Origin is", "b": "Uncertain" },
+          { "a": "Possibly related to dialect gulsh, meaning", "b": "To gush out suddenly" },
+          { "a": "Rose to prominence among 19th-century American", "b": "Prospectors" },
+          { "a": "Prospectors panned for gold along steep", "b": "Ravines" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gulch</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A gulch is a steep-sided", "b": "Ravine or gully" },
+          { "a": "A gulch is often cut by a fast-flowing", "b": "Stream" },
+          { "a": "The word is especially common in", "b": "American western usage" },
+          { "a": "Many old mining towns took their names from local", "b": "Gulches" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gulch</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Prospectors panned for gold in the rocky", "b": "Gulch" },
+          { "a": "A dry creek bed wound through the", "b": "Gulch" },
+          { "a": "The old mining camp sat at the mouth of the", "b": "Gulch" },
+          { "a": "Rain sent a flash flood roaring down the", "b": "Gulch" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gulsh", "rootLanguage": "English dialect", "rootMeaning": "To gush out suddenly", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from dialect ", "highlight": false }, { "text": "gulsh", "highlight": true }, { "text": " (to gush); a steep gully American prospectors panned for gold.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gulsh", "correctAnswer": "To gush out suddenly", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Coulee",
+    "pronunciation": "KOO-lee",
+    "pos": "noun",
+    "definition": "A steep-sided ravine or gully, often dry for most of the year, cut by seasonal meltwater or runoff.",
+    "origin": "From French <strong>coulée</strong> (a flow, a stream), from couler (to flow), from Latin colare (to strain, filter). French-Canadian settlers carried the word into the American West, where it came to describe the steep, often dry ravines cut by seasonal meltwater.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Coulee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French coulée", "b": "A flow, a stream" },
+          { "a": "French couler", "b": "To flow" },
+          { "a": "Latin colare", "b": "To strain, filter" },
+          { "a": "Carried into the American West by", "b": "French-Canadian settlers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Coulee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A coulee is often", "b": "Dry for most of the year" },
+          { "a": "A coulee is cut by seasonal", "b": "Meltwater or runoff" },
+          { "a": "The Grand Coulee in Washington State gave its name to a famous", "b": "Dam" },
+          { "a": "Coulees are common across the", "b": "Northern American plains" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Coulee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Snowmelt briefly filled the bottom of the", "b": "Coulee" },
+          { "a": "Cattle sheltered from the wind inside the", "b": "Coulee" },
+          { "a": "The dam took its name from the nearby", "b": "Grand Coulee" },
+          { "a": "A dirt track followed the winding floor of the", "b": "Coulee" }
+        ] }
+    ],
+    "roots": [ { "rootText": "couler", "rootLanguage": "French", "rootMeaning": "To flow", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "couler", "highlight": true }, { "text": " (to flow); a dry ravine that only truly flows during the spring melt.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "couler", "correctAnswer": "To flow", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Knoll",
+    "pronunciation": "nohl",
+    "pos": "noun",
+    "definition": "A small, rounded hill or mound.",
+    "origin": "From Old English <strong>cnoll</strong> (hilltop, summit), a Germanic word related to Middle Dutch cnolle and German Knolle (lump, clod). It has named small, rounded hills in English since before the Norman Conquest.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Knoll</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English cnoll", "b": "Hilltop, summit" },
+          { "a": "Related to German Knolle, meaning", "b": "Lump, clod" },
+          { "a": "Also related to Middle Dutch", "b": "Cnolle" },
+          { "a": "In use since before the", "b": "Norman Conquest" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Knoll</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A knoll is a small, rounded", "b": "Hill or mound" },
+          { "a": "A knoll is generally smaller than a full-sized", "b": "Hill or mountain" },
+          { "a": "'The grassy knoll' became famous in accounts of the", "b": "Kennedy assassination" },
+          { "a": "A knoll often offers a good vantage point over the", "b": "Surrounding land" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Knoll</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Children rolled down the grassy", "b": "Knoll" },
+          { "a": "The picnic blanket was spread atop a sunny", "b": "Knoll" },
+          { "a": "From the small", "b": "Knoll, they could see the whole valley" },
+          { "a": "A lone oak tree stood on the", "b": "Knoll" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cnoll", "rootLanguage": "Old English", "rootMeaning": "Hilltop, summit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "cnoll", "highlight": true }, { "text": " (hilltop); a small, rounded rise on the land, named since Anglo-Saxon times.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cnoll", "correctAnswer": "Hilltop, summit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Summit",
+    "pronunciation": "SUM-it",
+    "pos": "noun",
+    "definition": "The highest point of a mountain or hill; figuratively, a meeting between heads of government or high-level leaders.",
+    "origin": "From Old French <strong>somete</strong>, a diminutive of som or sum (highest point), from Latin summum (highest), the neuter of summus (highest). The word entered English in the 15th century for a mountain's topmost point, later extending to meetings between heads of state.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Summit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French somete", "b": "Diminutive of som/sum (highest point)" },
+          { "a": "Latin summum", "b": "Highest" },
+          { "a": "Latin summus", "b": "Highest" },
+          { "a": "Entered English in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Summit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A summit is a mountain's", "b": "Highest point" },
+          { "a": "Figuratively, a summit is a meeting of", "b": "Heads of state or high-level leaders" },
+          { "a": "Climbers aim to reach the", "b": "Summit before nightfall" },
+          { "a": "'Summit fever' describes a dangerous drive to reach the top despite", "b": "Worsening conditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Summit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They finally reached the snow-capped", "b": "Summit" },
+          { "a": "World leaders gathered for a climate", "b": "Summit" },
+          { "a": "Clouds obscured the mountain's", "b": "Summit" },
+          { "a": "The two presidents held a private", "b": "Summit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "summus", "rootLanguage": "Latin", "rootMeaning": "Highest", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "summus", "highlight": true }, { "text": " (highest); the very topmost point a mountain, or a meeting, can reach.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "summus", "correctAnswer": "Highest", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Col",
+    "pronunciation": "kol",
+    "pos": "noun",
+    "definition": "A low point or saddle-shaped pass along a mountain ridge, connecting two adjacent peaks.",
+    "origin": "From French <strong>col</strong> (neck, collar), from Latin collum (neck). The word was adopted directly into English mountaineering vocabulary in the 19th century for the low, saddle-shaped pass connecting two peaks, likened to the narrow neck between two shoulders.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Col</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French col", "b": "Neck, collar" },
+          { "a": "Latin collum", "b": "Neck" },
+          { "a": "Adopted into English", "b": "Mountaineering vocabulary" },
+          { "a": "Adopted in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Col</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A col connects two adjacent", "b": "Peaks" },
+          { "a": "A col is the lowest point along a", "b": "Mountain ridge" },
+          { "a": "Alpine cycling races often climb famous", "b": "Cols" },
+          { "a": "A col is shaped like a", "b": "Saddle" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Col</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Cyclists ground slowly up toward the famous", "b": "Col" },
+          { "a": "The trail crossed a narrow", "b": "Col between two summits" },
+          { "a": "Wind howled through the exposed", "b": "Col" },
+          { "a": "They paused at the", "b": "Col to catch their breath" }
+        ] }
+    ],
+    "roots": [ { "rootText": "collum", "rootLanguage": "Latin", "rootMeaning": "Neck", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "collum", "highlight": true }, { "text": " (neck); a saddle-shaped pass narrow as the neck between two peaks.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "collum", "correctAnswer": "Neck", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ridge",
+    "pronunciation": "rij",
+    "pos": "noun",
+    "definition": "A long, narrow elevation of land, typically the crest of a hill or mountain range.",
+    "origin": "From Old English <strong>hrycg</strong> (back, spine), a Germanic word related to German Rücken (back). The anatomical sense of a backbone extended naturally to describe the long, narrow crest of high ground running between two slopes.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ridge</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English hrycg", "b": "Back, spine" },
+          { "a": "Related to German", "b": "Rücken (back)" },
+          { "a": "Anatomical sense extended to describe", "b": "High ground between two slopes" },
+          { "a": "A native Germanic word in English since", "b": "Old English times" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ridge</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ridge is a long, narrow", "b": "Elevation of land" },
+          { "a": "A ridge typically forms the crest of a", "b": "Hill or mountain range" },
+          { "a": "A weather ridge brings a spell of", "b": "Calm, settled conditions" },
+          { "a": "'Ridge and furrow' describes an old pattern of", "b": "Medieval farmland" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ridge</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They followed the trail along the mountain", "b": "Ridge" },
+          { "a": "A high-pressure", "b": "Ridge brought clear skies" },
+          { "a": "Wind turbines lined the crest of the", "b": "Ridge" },
+          { "a": "The house sat perched atop a rocky", "b": "Ridge" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hrycg", "rootLanguage": "Old English", "rootMeaning": "Back, spine", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "hrycg", "highlight": true }, { "text": " (back, spine); the land's own backbone rising between two slopes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hrycg", "correctAnswer": "Back, spine", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Crest",
+    "pronunciation": "krest",
+    "pos": "noun",
+    "definition": "The highest point or ridge of something, especially a hill, wave, or mountain range.",
+    "origin": "From Old French <strong>creste</strong>, from Latin crista (tuft, comb, plume), the same root that names a rooster's fleshy comb. The word's sense of a topmost, jutting point extended naturally from bird and helmet crests to the highest line of a wave, hill, or mountain.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Crest</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French creste", "b": "From Latin crista" },
+          { "a": "Latin crista", "b": "Tuft, comb, plume" },
+          { "a": "Same root names a rooster's fleshy", "b": "Comb" },
+          { "a": "Sense extended from bird crests to the highest line of a", "b": "Hill or wave" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Crest</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A crest is the highest point of a hill, wave, or", "b": "Mountain range" },
+          { "a": "A wave's crest is the opposite of its", "b": "Trough" },
+          { "a": "A coat of arms often features a heraldic", "b": "Crest" },
+          { "a": "'At the crest of his career' figuratively means at its", "b": "Peak" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Crest</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Surfers waited to catch the wave at its", "b": "Crest" },
+          { "a": "The trail finally reached the", "b": "Crest of the ridge" },
+          { "a": "A helmet displayed the knight's family", "b": "Crest" },
+          { "a": "He was riding the", "b": "Crest of a winning streak" }
+        ] }
+    ],
+    "roots": [ { "rootText": "crista", "rootLanguage": "Latin", "rootMeaning": "Tuft, comb, plume", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "crista", "highlight": true }, { "text": " (comb, plume); the topmost line of a ridge, like a rooster's comb held high.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "crista", "correctAnswer": "Tuft, comb, plume", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pumice",
+    "pronunciation": "PUM-iss",
+    "pos": "noun",
+    "definition": "A light, porous volcanic rock, full of tiny gas bubbles, formed when gas-rich lava cools rapidly.",
+    "origin": "From Latin <strong>pumex</strong> (pumice, foam-stone), related to spuma (foam), reflecting the rock's frothy, air-filled appearance. Volcanic pumice forms when gas-rich, molten rock is ejected explosively and cools so quickly that it traps countless tiny bubbles.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pumice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin pumex", "b": "Pumice, foam-stone" },
+          { "a": "Related to Latin spuma, meaning", "b": "Foam" },
+          { "a": "Named for the rock's frothy,", "b": "Air-filled appearance" },
+          { "a": "Forms when gas-rich molten rock is ejected", "b": "Explosively" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pumice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Pumice is full of tiny", "b": "Gas bubbles" },
+          { "a": "Pumice is so light it can", "b": "Float on water" },
+          { "a": "Pumice is often used to", "b": "Exfoliate skin" },
+          { "a": "Pumice forms when lava cools", "b": "Very rapidly" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pumice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She scrubbed her heels with a rough", "b": "Pumice stone" },
+          { "a": "Chunks of floating", "b": "Pumice drifted across the harbour" },
+          { "a": "The eruption blanketed the town in fine", "b": "Pumice" },
+          { "a": "Builders mixed lightweight", "b": "Pumice into the concrete" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pumex", "rootLanguage": "Latin", "rootMeaning": "Foam-stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "pumex", "highlight": true }, { "text": " (foam-stone); molten rock frozen so fast its gas bubbles never escaped.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pumex", "correctAnswer": "Foam-stone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Basalt",
+    "pronunciation": "buh-SAWLT",
+    "pos": "noun",
+    "definition": "A dark, fine-grained volcanic rock formed from the rapid cooling of lava rich in iron and magnesium.",
+    "origin": "From Latin <strong>basaltes</strong>, a term used by the Roman naturalist Pliny the Elder, who claimed it derived from an Ethiopian word for a hard, dark stone. Basalt is a dark, fine-grained volcanic rock that solidifies from lava rich in iron and magnesium.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Basalt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin basaltes", "b": "Hard, dark stone" },
+          { "a": "Term recorded by Roman naturalist", "b": "Pliny the Elder" },
+          { "a": "Pliny claimed the word derived from", "b": "An Ethiopian word for dark stone" },
+          { "a": "Basalt forms from lava rich in", "b": "Iron and magnesium" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Basalt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Basalt is", "b": "Dark and fine-grained" },
+          { "a": "Basalt forms from the rapid cooling of", "b": "Volcanic lava" },
+          { "a": "Basalt often cools into distinctive", "b": "Hexagonal columns" },
+          { "a": "The Giant's Causeway is famously made of", "b": "Basalt columns" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Basalt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Waves crashed against the black", "b": "Basalt cliffs" },
+          { "a": "The ancient temple was built from carved", "b": "Basalt blocks" },
+          { "a": "Hexagonal columns of", "b": "Basalt lined the coastline" },
+          { "a": "The lava cooled into a smooth sheet of", "b": "Basalt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "basaltes", "rootLanguage": "Latin", "rootMeaning": "Hard dark stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "basaltes", "highlight": true }, { "text": " (hard dark stone); a dense black rock born from cooling volcanic lava.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "basaltes", "correctAnswer": "Hard dark stone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Schist",
+    "pronunciation": "shist",
+    "pos": "noun",
+    "definition": "A medium-grained metamorphic rock characterized by well-developed layers of platy minerals that make it split easily.",
+    "origin": "From French <strong>schiste</strong>, from Latin schistos lapis (split stone), from Greek schistos (divided, split), from schizein (to split), the same root that gives English schism and schizophrenia. The name reflects the rock's tendency to split easily along parallel planes.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Schist</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French schiste", "b": "From Latin schistos lapis" },
+          { "a": "Latin schistos lapis", "b": "Split stone" },
+          { "a": "Greek schizein", "b": "To split" },
+          { "a": "The same Greek root also gives", "b": "Schism and schizophrenia" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Schist</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Schist is a", "b": "Metamorphic rock" },
+          { "a": "Schist is defined by its layers of", "b": "Platy minerals" },
+          { "a": "Schist forms under intense heat and", "b": "Pressure" },
+          { "a": "Because of its layering, schist splits easily along", "b": "Parallel planes" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Schist</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The quarry cut thin slabs of glittering", "b": "Schist" },
+          { "a": "Mica flakes sparkled across the surface of the", "b": "Schist" },
+          { "a": "The mountain range was largely composed of folded", "b": "Schist" },
+          { "a": "Geologists mapped veins of quartz running through the", "b": "Schist" }
+        ] }
+    ],
+    "roots": [ { "rootText": "schizein", "rootLanguage": "Greek", "rootMeaning": "To split", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "schizein", "highlight": true }, { "text": " (to split); a rock defined by how easily it splits into thin layers.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "schizein", "correctAnswer": "To split", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Gneiss",
+    "pronunciation": "nyss",
+    "pos": "noun",
+    "definition": "A coarse-grained metamorphic rock with distinct bands of light and dark minerals, formed under intense heat and pressure.",
+    "origin": "From German <strong>Gneis</strong>, a term used by miners in the Erzgebirge region since at least the 16th century, of uncertain origin — possibly related to Old High German gneisto (spark), referencing the way mica-rich gneiss glitters in the light, or to a dialect verb meaning 'to split off'.",
+    "tier": "premium",
+    "packId": "geography",
+    "subpack": { "id": "geography-mountains", "name": "Mountains & Geology", "packId": "geography" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Gneiss</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "German Gneis", "b": "Used by miners since the 16th century" },
+          { "a": "Miners worked in the", "b": "Erzgebirge region" },
+          { "a": "Possibly related to Old High German gneisto, meaning", "b": "Spark" },
+          { "a": "May reference the way mica-rich gneiss", "b": "Glitters in the light" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Gneiss</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Gneiss is a coarse-grained", "b": "Metamorphic rock" },
+          { "a": "Gneiss shows distinct bands of light and", "b": "Dark minerals" },
+          { "a": "Gneiss forms under intense heat and", "b": "Pressure" },
+          { "a": "Gneiss is among the oldest rock types found on", "b": "Earth's surface" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Gneiss</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The cliff face revealed swirling bands of ancient", "b": "Gneiss" },
+          { "a": "Builders quarried slabs of decorative", "b": "Gneiss" },
+          { "a": "The mountain's core was formed of Precambrian", "b": "Gneiss" },
+          { "a": "Sunlight caught the flecks of mica in the", "b": "Gneiss" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gneisto", "rootLanguage": "Old High German", "rootMeaning": "Spark", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Old High German ", "highlight": false }, { "text": "gneisto", "highlight": true }, { "text": " (spark); a banded rock that seems to glitter with flecks of mica.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gneisto", "correctAnswer": "Spark", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]
