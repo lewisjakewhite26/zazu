@@ -1,18 +1,16 @@
 # Zazu word library
 
-395 words, generated from `zazu-words.json` (the canonical seed source for the `words` / `word_roots` / `word_morning_tasks` tables — see `scripts/seed-words.mjs`).
+The table below was generated from `zazu-words.json` (the canonical seed source for the `words` / `word_roots` / `word_morning_tasks` tables — see `scripts/seed-words.mjs`) and lists 395 words. **That table is now stale**: the live free word bank is 393 words (confirmed against `zazu-words.json` and its git history, 2026-08-24) — it hasn't been regenerated since 2 words were dropped from the bank. Treat the count in this paragraph, not the "395" below, as current; regenerate the table before relying on it for anything row-level.
 
 ## Free vs. Gold — current reality
 
-All 395 words below are currently `tier: free`. The schema supports a `premium` word tier (see `supabase/migrations/001_create_words_schema.sql`), but nothing in the live content is marked premium — there is no "Gold word pack" in the data today.
+All 393 words in the live bank are `tier: free`. The schema supports a `premium` word tier (see `supabase/migrations/001_create_words_schema.sql`), and it's now in real use — see below.
 
-Zazu Gold's actual gating (per `PRODUCT.md`) works differently: every word is available to every user through the daily alarm ritual. Gold instead unlocks:
-- **Full calendar history** — free users can only revisit today + yesterday; everything older is locked behind Gold.
-- **Word Gym** — the matching-pairs practice mode, Gold-only.
+Zazu Gold's actual gating (per `PRODUCT.md`) works at two levels:
+- **Feature-level**, for the free daily-alarm bank: every one of these 393 words is available to every user through the daily alarm ritual regardless of tier. Gold instead unlocks **full calendar history** (free users can only revisit today + yesterday) and **Word Gym** (the matching-pairs practice mode).
+- **Content-level**, for Thematic Word Packs (below): those 1,741 words genuinely are `tier: premium` and RLS-gated — the "actual curated Gold word pack" this doc used to describe as hypothetical now exists, just not as a subset of this 393-word list.
 
-So the free/gold split lives at the *feature* level, not the *word content* level. If you want an actual curated Gold word pack (a subset of these 395 marked `premium` and gated by the existing RLS policies), that would be new scoping — happy to build it, just say which words or how many.
-
-Separately, **Thematic Word Packs** (Science, Food, Geography, Games, Loan Words, etc.) are planned as a distinct content track inside Word Gym — 30-day campaigns unlocked by coins or an all-access pass, not part of this 395-word daily-alarm library. Spec: `ROADMAP.md` "Coin Economy & Thematic Word Packs." Draft content for two packs already exists in `THEMATIC PACKS/` (Games, Loan Words), not yet imported to Supabase.
+**Thematic Word Packs** (Literary, Games, Loan Words, Eponym, Science, Geography, Music, Architecture, Law, Mythology) are a separate, Gold-gated content track inside Word Gym — flat per-pack word lists, not part of this daily-alarm library. All 10 packs (1,741 words, live in Supabase) shipped as of 2026-08-24; see `ROADMAP.md` "Coin Economy & Thematic Word Packs" for the full build history and `THEMATIC PACKS/WORDS-ALL.md` for the word lists.
 
 ## Word list
 

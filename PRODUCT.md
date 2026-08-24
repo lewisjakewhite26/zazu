@@ -30,10 +30,10 @@ The alarm *is* the lesson. Unlike a word-of-the-day app (passive, easy to ignore
 
 ## Capabilities and Constraints
 
-- **Content:** a curated word library (currently 395 words), each with a definition, pronunciation, part of speech, etymology, and a morning-task question; validated and seeded via a Supabase pipeline with CI checks. Separately, thousands of curated thematic words (Science, Food, Geography, Games, Loan Words, etc. — several packs already drafted in `THEMATIC PACKS/`) are planned as **Thematic Word Packs**: 30-day mini-campaigns inside Word Gym with built-in spaced retrieval, distinct from the single daily alarm word. Users pick a pack, progress through daily levels, and earn a completion badge + bonus coins at the end of 30 days.
+- **Content:** a curated free daily-alarm word library (currently 393 words), each with a definition, pronunciation, part of speech, etymology, and a morning-task question; validated and seeded via a Supabase pipeline with CI checks. Separately, **Thematic Word Packs** — 10 packs, 1,741 words, all live in Supabase and Gold-gated (Literary, Games, Loan Words, Eponym, Science, Geography, Music, Architecture, Law, Mythology) — are a distinct content track inside Word Gym: each pack is a flat word list a user browses and practices through, not a personalization surface for the daily alarm. No 30-day campaign structure or completion badges shipped — see `ROADMAP.md` "Coin Economy & Thematic Word Packs" for what was originally speced there versus what was actually built.
 - **Monetization — two tracks:**
-  1. **Subscription (existing):** Zazu Gold subscription via RevenueCat in-app purchase (App Store / Play Store), unlocking full calendar history and Word Gym. Free tier gets today + yesterday only.
-  2. **Earned coins + optional ads (new, planned):** users earn coins through daily habits (completing the alarm/puzzle, avoiding snoozes, streaks, Word Gym sessions), or optionally by watching rewarded video ads, capped at ~3/day, for users who want to progress faster. No static/banner ads anywhere, and no forced ads on the snooze flow. Thematic Word Pack full access (past the free preview) is unlocked either by spending earned coins or via an all-access pass — coins/pass are an unlock mechanism layered on top of the Gold subscription, not a replacement for it.
+  1. **Subscription (existing):** Zazu Gold subscription via RevenueCat in-app purchase (App Store / Play Store), unlocking full calendar history, Word Gym, and all 10 Thematic Word Packs. Free tier gets today + yesterday only.
+  2. **Earned coins + optional ads (partially built):** users earn coins through daily habits (completing the alarm/puzzle, avoiding snoozes, streaks, Word Gym sessions). As shipped, coins have one job — unlocking a **missed daily alarm word** (`unlockMissedWord`) — not unlocking Thematic Word Pack content, which is Gold-only with no separate coin/pass layer. Optional rewarded-video ads (capped at ~3/day) to earn coins faster are still planned, not built; no ad SDK chosen. No static/banner ads anywhere, and no forced ads on the snooze flow.
 - **Backend:** Supabase (Postgres + row-level security gating premium content on Gold entitlement; an edge function handles the RevenueCat webhook).
 - **Web accessibility:** the web puzzle has keyboard and ARIA support; no formal accessibility standard (e.g. WCAG level) has been confirmed as a product commitment — treat as undecided rather than assumed.
 
@@ -44,7 +44,7 @@ The alarm *is* the lesson. Unlike a word-of-the-day app (passive, easy to ignore
 
 ## Evidence on Hand
 
-- Real, validated content: 395 words with full definitions/etymology/morning tasks, live in the Supabase content pipeline.
+- Real, validated content: 393 free daily-alarm words with full definitions/etymology/morning tasks, plus 1,741 Gold-gated Thematic Word Pack words across 10 packs — all live in the Supabase content pipeline.
 - No testimonials, case studies, press mentions, or usage benchmarks exist yet (pre-launch) — do not fabricate any.
 
 ## Product Principles
