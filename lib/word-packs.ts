@@ -69,8 +69,8 @@ export const WORD_PACKS: WordPack[] = [
     id: 'law',
     title: 'Law',
     description: 'Legal terms worth actually understanding.',
-    wordCount: 0,
-    status: 'coming_soon',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {
@@ -85,8 +85,8 @@ export const WORD_PACKS: WordPack[] = [
     id: 'mythology',
     title: 'Mythology',
     description: 'Gods, monsters, and the words they left behind.',
-    wordCount: 0,
-    status: 'coming_soon',
+    wordCount: 150,
+    status: 'available',
     kind: 'standard',
   },
   {

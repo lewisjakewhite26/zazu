@@ -1,0 +1,3932 @@
+[
+  {
+    "word": "Ultra vires",
+    "pronunciation": "UHL-truh VY-reez",
+    "pos": "phrase",
+    "definition": "Describing an act performed by a corporation, official, or public body that exceeds the legal power or authority granted to it.",
+    "origin": "Literally <strong>ultra</strong> (beyond) + <strong>vires</strong> (powers, strength). Courts strike down a company resolution or a government regulation as ultra vires when it goes further than the authority its charter or statute allows.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ultra vires</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ultra",
+            "b": "Beyond"
+          },
+          {
+            "a": "Latin vires",
+            "b": "Powers, strength"
+          },
+          {
+            "a": "Together the phrase means",
+            "b": "Beyond the powers"
+          },
+          {
+            "a": "Courts use it to describe acts that",
+            "b": "Exceed granted legal authority"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ultra vires</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An ultra vires act is one that",
+            "b": "Exceeds an entity's legal authority"
+          },
+          {
+            "a": "Ultra vires most often applies to",
+            "b": "Corporations and public bodies"
+          },
+          {
+            "a": "A court may declare a resolution void if it is",
+            "b": "Ultra vires"
+          },
+          {
+            "a": "The opposite of ultra vires is an act that is",
+            "b": "Intra vires, within one's powers"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ultra vires</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The shareholders sued, claiming the merger was",
+            "b": "Ultra vires"
+          },
+          {
+            "a": "The council's new bylaw was struck down as",
+            "b": "Ultra vires"
+          },
+          {
+            "a": "The board exceeded its charter, making the loan",
+            "b": "Ultra vires"
+          },
+          {
+            "a": "Judges reviewed whether the minister's order was",
+            "b": "Ultra vires"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ultra",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Beyond",
+        "showInIntro": true
+      },
+      {
+        "rootText": "vires",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Powers, strength",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ultra",
+          "highlight": true
+        },
+        {
+          "text": " (beyond) + ",
+          "highlight": false
+        },
+        {
+          "text": "vires",
+          "highlight": true
+        },
+        {
+          "text": " (powers); an act that reaches past its legal authority.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ultra",
+      "correctAnswer": "Beyond",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "De facto",
+    "pronunciation": "dee FAK-toh",
+    "pos": "phrase",
+    "definition": "Existing or functioning in practice, in fact, even without official legal recognition or sanction.",
+    "origin": "Literally <strong>de</strong> (from, of) + <strong>facto</strong> (fact, deed) — 'from the fact.' Lawyers use it to describe an arrangement, government, or authority that operates in reality, regardless of whether it has formal legal standing.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>De facto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin de",
+            "b": "From, of"
+          },
+          {
+            "a": "Latin facto",
+            "b": "Fact, deed"
+          },
+          {
+            "a": "Together the phrase means",
+            "b": "From the fact"
+          },
+          {
+            "a": "Contrasted in law with",
+            "b": "De jure, by law"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>De facto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A de facto arrangement exists",
+            "b": "In practice, regardless of formal recognition"
+          },
+          {
+            "a": "A de facto government holds power",
+            "b": "Without necessarily being legally established"
+          },
+          {
+            "a": "De facto is the opposite of",
+            "b": "De jure"
+          },
+          {
+            "a": "Courts may recognise a de facto",
+            "b": "Relationship or standard practice"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>De facto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The two countries had no treaty, yet a",
+            "b": "De facto border existed"
+          },
+          {
+            "a": "After the coup, the general became the",
+            "b": "De facto head of state"
+          },
+          {
+            "a": "The company's dominant product became the",
+            "b": "De facto industry standard"
+          },
+          {
+            "a": "Though unmarried, the couple was treated as",
+            "b": "De facto partners"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "de",
+        "rootLanguage": "Latin",
+        "rootMeaning": "From, of",
+        "showInIntro": true
+      },
+      {
+        "rootText": "facto",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Fact, deed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "de",
+          "highlight": true
+        },
+        {
+          "text": " (from) + ",
+          "highlight": false
+        },
+        {
+          "text": "facto",
+          "highlight": true
+        },
+        {
+          "text": " (fact); what exists in practice, whether or not the law says so.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "de",
+      "correctAnswer": "From, of",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ipso facto",
+    "pronunciation": "IP-soh FAK-toh",
+    "pos": "phrase",
+    "definition": "By that very fact or act itself; used to describe a consequence that follows automatically and necessarily from a stated fact, without need for further proof.",
+    "origin": "Literally <strong>ipso</strong> (itself) + <strong>facto</strong> (fact, deed) — 'by the fact itself.' A contract clause might state that a company's bankruptcy ipso facto terminates the agreement, meaning the termination happens automatically the moment bankruptcy occurs.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ipso facto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ipso",
+            "b": "Itself"
+          },
+          {
+            "a": "Latin facto",
+            "b": "Fact, deed"
+          },
+          {
+            "a": "Literal translation",
+            "b": "By the fact itself"
+          },
+          {
+            "a": "Contrast: prima facie means",
+            "b": "At first sight, not automatically"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ipso facto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ipso facto describes a consequence that follows",
+            "b": "Automatically from a stated fact"
+          },
+          {
+            "a": "No further proof is needed because the result follows",
+            "b": "By the fact itself"
+          },
+          {
+            "a": "An 'ipso facto clause' in a contract triggers on",
+            "b": "A specific triggering event, like bankruptcy"
+          },
+          {
+            "a": "Ipso facto is often used to mean",
+            "b": "As an automatic, necessary result"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ipso facto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Filing for bankruptcy would, ipso facto,",
+            "b": "Terminate the lease"
+          },
+          {
+            "a": "Being a convicted felon does not, ipso facto,",
+            "b": "Bar someone from all employment"
+          },
+          {
+            "a": "The judge ruled that breach of the clause was, ipso facto,",
+            "b": "A breach of the entire contract"
+          },
+          {
+            "a": "Missing the filing deadline meant the claim was, ipso facto,",
+            "b": "Barred"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ipso",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Itself",
+        "showInIntro": true
+      },
+      {
+        "rootText": "facto",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Fact, deed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ipso",
+          "highlight": true
+        },
+        {
+          "text": " (itself) + ",
+          "highlight": false
+        },
+        {
+          "text": "facto",
+          "highlight": true
+        },
+        {
+          "text": " (fact); a result that follows automatically, by the fact alone.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ipso",
+      "correctAnswer": "Itself",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Modus operandi",
+    "pronunciation": "MOH-duhs op-uh-RAN-dee",
+    "pos": "phrase",
+    "definition": "A particular way or method of operating or working, especially one that is habitual and can be used to identify the person or organisation behind it.",
+    "origin": "Literally <strong>modus</strong> (method, manner) + <strong>operandi</strong> (of operating) — 'method of operating.' Investigators speak of a suspect's modus operandi, often abbreviated 'M.O.,' as the consistent pattern of behaviour they leave behind.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Modus operandi</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin modus",
+            "b": "Method, manner"
+          },
+          {
+            "a": "Latin operandi",
+            "b": "Of operating"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Method of operating"
+          },
+          {
+            "a": "Commonly abbreviated as",
+            "b": "M.O."
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Modus operandi</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A modus operandi is a habitual",
+            "b": "Way of working"
+          },
+          {
+            "a": "Detectives use an M.O. to link",
+            "b": "Crimes to the same offender"
+          },
+          {
+            "a": "A company's modus operandi describes how it",
+            "b": "Typically conducts business"
+          },
+          {
+            "a": "Recognising a modus operandi can help",
+            "b": "Identify a repeat pattern"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Modus operandi</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The burglar's modus operandi involved",
+            "b": "Entering through rear windows"
+          },
+          {
+            "a": "Prosecutors argued the fraud fit the defendant's usual",
+            "b": "Modus operandi"
+          },
+          {
+            "a": "The agency's modus operandi relied heavily on",
+            "b": "Confidential informants"
+          },
+          {
+            "a": "Analysts studied the cartel's shifting",
+            "b": "Modus operandi"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "modus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Method, manner",
+        "showInIntro": true
+      },
+      {
+        "rootText": "operandi",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Of operating",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "modus",
+          "highlight": true
+        },
+        {
+          "text": " (method) + ",
+          "highlight": false
+        },
+        {
+          "text": "operandi",
+          "highlight": true
+        },
+        {
+          "text": " (of operating); the habitual way someone gets something done.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "modus",
+      "correctAnswer": "Method, manner",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Prima facie",
+    "pronunciation": "PRY-muh FAY-shee-ee",
+    "pos": "phrase",
+    "definition": "Based on the first impression; accepted as true or sufficient unless later disproved, describing evidence strong enough on its face to establish a fact or case.",
+    "origin": "Literally <strong>prima</strong> (first) + <strong>facie</strong> (face, appearance) — 'at first sight.' A prosecutor must show prima facie evidence, meaning it is sufficient on its face to support a conviction unless the defence rebuts it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Prima facie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin prima",
+            "b": "First"
+          },
+          {
+            "a": "Latin facie",
+            "b": "Face, appearance"
+          },
+          {
+            "a": "Literal translation",
+            "b": "At first sight, on its face"
+          },
+          {
+            "a": "A 'prima facie case' is one that appears",
+            "b": "Sufficient at first glance"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Prima facie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Prima facie evidence is accepted as true unless",
+            "b": "Later disproved"
+          },
+          {
+            "a": "A prima facie case gives rise to a",
+            "b": "Presumption in the claimant's favour"
+          },
+          {
+            "a": "If the prosecution fails to show a prima facie case, the charge may be",
+            "b": "Dismissed"
+          },
+          {
+            "a": "Prima facie contrasts with evidence proven",
+            "b": "Beyond all doubt"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Prima facie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The judge found a",
+            "b": "Prima facie case of discrimination"
+          },
+          {
+            "a": "On its face, the contract was",
+            "b": "Prima facie valid"
+          },
+          {
+            "a": "The commission needed only",
+            "b": "Prima facie proof to proceed"
+          },
+          {
+            "a": "Without rebuttal, the claim stood as",
+            "b": "Prima facie true"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "prima",
+        "rootLanguage": "Latin",
+        "rootMeaning": "First",
+        "showInIntro": true
+      },
+      {
+        "rootText": "facie",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Face, appearance",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "prima",
+          "highlight": true
+        },
+        {
+          "text": " (first) + ",
+          "highlight": false
+        },
+        {
+          "text": "facie",
+          "highlight": true
+        },
+        {
+          "text": " (face); true and sufficient at first sight, unless disproved.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "facie",
+      "correctAnswer": "Face, appearance",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pro bono",
+    "pronunciation": "proh BOH-noh",
+    "pos": "phrase",
+    "definition": "Legal or professional work undertaken voluntarily and without payment, for the public good.",
+    "origin": "Literally <strong>pro</strong> (for) + <strong>bono</strong> (good), shortened from the fuller phrase pro bono publico, 'for the public good.' Lawyers who take on pro bono cases represent clients who cannot afford legal fees, without charging for their time.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pro bono</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin pro",
+            "b": "For"
+          },
+          {
+            "a": "Latin bono",
+            "b": "Good"
+          },
+          {
+            "a": "Short for the fuller phrase",
+            "b": "Pro bono publico"
+          },
+          {
+            "a": "That fuller phrase means",
+            "b": "For the public good"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pro bono</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Pro bono work is performed",
+            "b": "Voluntarily and without payment"
+          },
+          {
+            "a": "Lawyers often take pro bono cases for clients who",
+            "b": "Cannot afford legal fees"
+          },
+          {
+            "a": "Many law firms require associates to complete",
+            "b": "A set number of pro bono hours"
+          },
+          {
+            "a": "Pro bono work benefits",
+            "b": "The public good"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pro bono</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The firm represented the refugee family",
+            "b": "Pro bono"
+          },
+          {
+            "a": "She spent ten hours a week on",
+            "b": "Pro bono cases"
+          },
+          {
+            "a": "The clinic offers free legal advice through a",
+            "b": "Pro bono programme"
+          },
+          {
+            "a": "He took the civil rights case entirely",
+            "b": "Pro bono"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pro",
+        "rootLanguage": "Latin",
+        "rootMeaning": "For",
+        "showInIntro": true
+      },
+      {
+        "rootText": "bono",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Good",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "pro",
+          "highlight": true
+        },
+        {
+          "text": " (for) + ",
+          "highlight": false
+        },
+        {
+          "text": "bono",
+          "highlight": true
+        },
+        {
+          "text": " (good), short for pro bono publico; legal work done for the public good, unpaid.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "bono",
+      "correctAnswer": "Good",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pro se",
+    "pronunciation": "proh SAY",
+    "pos": "phrase",
+    "definition": "Representing oneself in a legal proceeding without the assistance of a lawyer.",
+    "origin": "Literally <strong>pro</strong> (for) + <strong>se</strong> (oneself) — 'for oneself.' A defendant who chooses to argue pro se waives the right to counsel and presents their own case directly to the court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pro se</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin pro",
+            "b": "For"
+          },
+          {
+            "a": "Latin se",
+            "b": "Oneself"
+          },
+          {
+            "a": "Literal translation",
+            "b": "For oneself"
+          },
+          {
+            "a": "A pro se litigant appears in court",
+            "b": "Without a lawyer"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pro se</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A pro se defendant represents",
+            "b": "Themselves, without counsel"
+          },
+          {
+            "a": "Choosing to go pro se means waiving the right to",
+            "b": "A lawyer"
+          },
+          {
+            "a": "Judges often give pro se litigants some leeway with",
+            "b": "Court procedure"
+          },
+          {
+            "a": "Pro se filings are common in",
+            "b": "Small claims and family court"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pro se</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Unable to afford a lawyer, she chose to proceed",
+            "b": "Pro se"
+          },
+          {
+            "a": "The judge reminded the",
+            "b": "Pro se defendant of filing deadlines"
+          },
+          {
+            "a": "He drafted his own motion, filing",
+            "b": "Pro se"
+          },
+          {
+            "a": "Many tenants represent themselves",
+            "b": "Pro se in housing court"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "pro",
+        "rootLanguage": "Latin",
+        "rootMeaning": "For",
+        "showInIntro": true
+      },
+      {
+        "rootText": "se",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Oneself",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "pro",
+          "highlight": true
+        },
+        {
+          "text": " (for) + ",
+          "highlight": false
+        },
+        {
+          "text": "se",
+          "highlight": true
+        },
+        {
+          "text": " (oneself); arguing your own case, without a lawyer.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "se",
+      "correctAnswer": "Oneself",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ex parte",
+    "pronunciation": "eks PAR-tay",
+    "pos": "phrase",
+    "definition": "Describing a legal proceeding, motion, or communication involving or initiated by only one party, without the other side present or notified.",
+    "origin": "Literally <strong>ex</strong> (from, out of) + <strong>parte</strong> (part, side) — 'from one side.' A judge may grant an ex parte emergency order, such as a restraining order, after hearing only the party requesting it, when there isn't time to notify the other side.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ex parte</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ex",
+            "b": "From, out of"
+          },
+          {
+            "a": "Latin parte",
+            "b": "Part, side"
+          },
+          {
+            "a": "Literal translation",
+            "b": "From one side"
+          },
+          {
+            "a": "An ex parte hearing involves",
+            "b": "Only one party"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ex parte</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An ex parte order is granted after hearing from",
+            "b": "Only one side"
+          },
+          {
+            "a": "Ex parte communication with a judge is generally considered",
+            "b": "Improper outside limited exceptions"
+          },
+          {
+            "a": "Ex parte emergency orders are used when there is",
+            "b": "No time to notify the other party"
+          },
+          {
+            "a": "The opposing party in an ex parte hearing is",
+            "b": "Not present"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ex parte</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "She obtained an",
+            "b": "Ex parte restraining order"
+          },
+          {
+            "a": "The attorney was reprimanded for improper",
+            "b": "Ex parte contact with the judge"
+          },
+          {
+            "a": "The court issued the injunction",
+            "b": "Ex parte"
+          },
+          {
+            "a": "Because of the danger, the judge granted relief",
+            "b": "Ex parte"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ex",
+        "rootLanguage": "Latin",
+        "rootMeaning": "From, out of",
+        "showInIntro": true
+      },
+      {
+        "rootText": "parte",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Part, side",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ex",
+          "highlight": true
+        },
+        {
+          "text": " (from) + ",
+          "highlight": false
+        },
+        {
+          "text": "parte",
+          "highlight": true
+        },
+        {
+          "text": " (side); a proceeding heard from only one side.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "parte",
+      "correctAnswer": "Part, side",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Amicus curiae",
+    "pronunciation": "uh-MEE-kuhs KYOOR-ee-eye",
+    "pos": "phrase",
+    "definition": "A person or organisation, not a party to a case, who offers information or expertise to assist a court in reaching its decision.",
+    "origin": "Literally <strong>amicus</strong> (friend) + <strong>curiae</strong> (of the court) — 'friend of the court.' Advocacy groups often file an amicus curiae brief in major appeals to present arguments or evidence the parties themselves might not raise.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Amicus curiae</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin amicus",
+            "b": "Friend"
+          },
+          {
+            "a": "Latin curiae",
+            "b": "Of the court"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Friend of the court"
+          },
+          {
+            "a": "An amicus brief is filed by someone who is",
+            "b": "Not a party to the case"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Amicus curiae</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An amicus curiae assists the court with",
+            "b": "Information or expertise"
+          },
+          {
+            "a": "Amicus briefs are common in",
+            "b": "Major appellate cases"
+          },
+          {
+            "a": "An amicus curiae is not",
+            "b": "A party to the lawsuit"
+          },
+          {
+            "a": "Courts may grant or deny permission to file an",
+            "b": "Amicus brief"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Amicus curiae</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The civil liberties union filed an",
+            "b": "Amicus curiae brief"
+          },
+          {
+            "a": "Several states submitted briefs as",
+            "b": "Amici curiae"
+          },
+          {
+            "a": "The professor was invited to argue as",
+            "b": "Amicus curiae"
+          },
+          {
+            "a": "The Supreme Court welcomed dozens of",
+            "b": "Amicus briefs on the case"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "amicus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Friend",
+        "showInIntro": true
+      },
+      {
+        "rootText": "curiae",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Of the court",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "amicus",
+          "highlight": true
+        },
+        {
+          "text": " (friend) + ",
+          "highlight": false
+        },
+        {
+          "text": "curiae",
+          "highlight": true
+        },
+        {
+          "text": " (of the court); an outside voice offering the court its help.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "amicus",
+      "correctAnswer": "Friend",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Stare decisis",
+    "pronunciation": "STAR-ee dih-SY-sis",
+    "pos": "phrase",
+    "definition": "The legal doctrine that courts should follow precedent, adhering to principles established in prior similar cases.",
+    "origin": "Literally <strong>stare</strong> (to stand) + <strong>decisis</strong> (things decided) — 'to stand by things decided.' Under stare decisis, a court is generally bound to follow the rulings of higher courts, or its own past rulings, on materially similar facts.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Stare decisis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin stare",
+            "b": "To stand"
+          },
+          {
+            "a": "Latin decisis",
+            "b": "Things decided"
+          },
+          {
+            "a": "Literal translation",
+            "b": "To stand by things decided"
+          },
+          {
+            "a": "Stare decisis is the doctrine of",
+            "b": "Following precedent"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Stare decisis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Stare decisis requires courts to follow",
+            "b": "Established precedent"
+          },
+          {
+            "a": "The doctrine promotes legal",
+            "b": "Consistency and predictability"
+          },
+          {
+            "a": "A court may depart from stare decisis when a precedent is",
+            "b": "Clearly wrong or outdated"
+          },
+          {
+            "a": "Stare decisis is strongest for rulings from",
+            "b": "Higher courts"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Stare decisis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The justices cited",
+            "b": "Stare decisis in upholding the ruling"
+          },
+          {
+            "a": "Critics argued the court ignored",
+            "b": "Stare decisis"
+          },
+          {
+            "a": "Under the principle of",
+            "b": "Stare decisis, the lower court followed precedent"
+          },
+          {
+            "a": "Overturning decades of precedent was a sharp break from",
+            "b": "Stare decisis"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "stare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To stand",
+        "showInIntro": true
+      },
+      {
+        "rootText": "decisis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Things decided",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "stare",
+          "highlight": true
+        },
+        {
+          "text": " (to stand) + ",
+          "highlight": false
+        },
+        {
+          "text": "decisis",
+          "highlight": true
+        },
+        {
+          "text": " (things decided); courts standing by what has already been decided.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "stare",
+      "correctAnswer": "To stand",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mens rea",
+    "pronunciation": "menz REE-uh",
+    "pos": "phrase",
+    "definition": "The mental state of intending to commit a crime, or knowing that one's actions are wrongful; a guilty mind, generally required alongside a guilty act to establish criminal liability.",
+    "origin": "Literally <strong>mens</strong> (mind) + <strong>rea</strong> (guilty) — 'guilty mind.' Prosecutors must typically prove both mens rea and actus reus, since intent distinguishes a deliberate crime from an innocent accident.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mens rea</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin mens",
+            "b": "Mind"
+          },
+          {
+            "a": "Latin rea",
+            "b": "Guilty"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Guilty mind"
+          },
+          {
+            "a": "Mens rea is paired in law with",
+            "b": "Actus reus, the guilty act"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mens rea</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mens rea refers to a defendant's",
+            "b": "Intent or guilty state of mind"
+          },
+          {
+            "a": "Without mens rea, an act may be considered",
+            "b": "An accident, not a crime"
+          },
+          {
+            "a": "Levels of mens rea include intent,",
+            "b": "Knowledge, recklessness, and negligence"
+          },
+          {
+            "a": "Mens rea must generally be proven alongside",
+            "b": "Actus reus"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mens rea</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The defence argued the defendant lacked",
+            "b": "The mens rea required for murder"
+          },
+          {
+            "a": "Prosecutors struggled to establish",
+            "b": "Mens rea"
+          },
+          {
+            "a": "The statute required proof of",
+            "b": "Mens rea beyond reasonable doubt"
+          },
+          {
+            "a": "Without intent, there was no",
+            "b": "Mens rea"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "mens",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Mind",
+        "showInIntro": true
+      },
+      {
+        "rootText": "rea",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Guilty",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "mens",
+          "highlight": true
+        },
+        {
+          "text": " (mind) + ",
+          "highlight": false
+        },
+        {
+          "text": "rea",
+          "highlight": true
+        },
+        {
+          "text": " (guilty); the guilty mind the law looks for behind an act.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mens",
+      "correctAnswer": "Mind",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Actus reus",
+    "pronunciation": "AK-tuhs REE-uhs",
+    "pos": "phrase",
+    "definition": "The physical act or conduct that constitutes a crime; the guilty act, which together with a guilty state of mind establishes criminal liability.",
+    "origin": "Literally <strong>actus</strong> (act) + <strong>reus</strong> (guilty) — 'guilty act.' A crime generally requires both actus reus and mens rea: prosecutors must show the defendant actually committed the wrongful act, not merely thought about it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Actus reus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin actus",
+            "b": "Act"
+          },
+          {
+            "a": "Latin reus",
+            "b": "Guilty"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Guilty act"
+          },
+          {
+            "a": "Actus reus is paired in law with",
+            "b": "Mens rea, the guilty mind"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Actus reus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Actus reus refers to the",
+            "b": "Physical conduct that constitutes the crime"
+          },
+          {
+            "a": "Without an actus reus, there can be no",
+            "b": "Criminal liability, only thought"
+          },
+          {
+            "a": "Actus reus can include an act or, in some cases, an",
+            "b": "Omission to act"
+          },
+          {
+            "a": "Actus reus must generally be proven alongside",
+            "b": "Mens rea"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Actus reus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The prosecution had to prove the",
+            "b": "Actus reus of the assault"
+          },
+          {
+            "a": "Failing to feed a dependent can itself be an",
+            "b": "Actus reus"
+          },
+          {
+            "a": "The court found the physical act, the",
+            "b": "Actus reus, clearly established"
+          },
+          {
+            "a": "Merely planning the crime, without acting, is not",
+            "b": "Actus reus"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "actus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Act",
+        "showInIntro": true
+      },
+      {
+        "rootText": "reus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Guilty",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "actus",
+          "highlight": true
+        },
+        {
+          "text": " (act) + ",
+          "highlight": false
+        },
+        {
+          "text": "reus",
+          "highlight": true
+        },
+        {
+          "text": " (guilty); the guilty deed the law must prove was actually done.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "actus",
+      "correctAnswer": "Act",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Caveat emptor",
+    "pronunciation": "KAV-ee-at EMP-tor",
+    "pos": "phrase",
+    "definition": "The principle that a buyer purchases goods at their own risk and is responsible for checking the quality and condition of what they buy.",
+    "origin": "Literally <strong>caveat</strong> (let him beware) + <strong>emptor</strong> (buyer) — 'let the buyer beware.' Under caveat emptor, a buyer who fails to inspect goods before purchase generally cannot later claim the seller concealed a defect, unless the seller made a false representation.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Caveat emptor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin caveat",
+            "b": "Let him beware"
+          },
+          {
+            "a": "Latin emptor",
+            "b": "Buyer"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Let the buyer beware"
+          },
+          {
+            "a": "The related word caveat alone now means",
+            "b": "A warning or qualification"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Caveat emptor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Caveat emptor places responsibility for inspecting goods on the",
+            "b": "Buyer"
+          },
+          {
+            "a": "Under caveat emptor, a buyer generally cannot later complain of",
+            "b": "Defects they could have discovered"
+          },
+          {
+            "a": "Modern consumer protection laws have",
+            "b": "Limited the reach of caveat emptor"
+          },
+          {
+            "a": "Caveat emptor does not excuse a seller's",
+            "b": "Active fraud or misrepresentation"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Caveat emptor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The used car was sold",
+            "b": "As is, under caveat emptor"
+          },
+          {
+            "a": "At the flea market, the rule was simply",
+            "b": "Caveat emptor"
+          },
+          {
+            "a": "The judge noted that consumer law had softened",
+            "b": "Caveat emptor"
+          },
+          {
+            "a": "Buying property at auction operates largely on",
+            "b": "Caveat emptor"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "caveat",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Let him beware",
+        "showInIntro": true
+      },
+      {
+        "rootText": "emptor",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Buyer",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "caveat",
+          "highlight": true
+        },
+        {
+          "text": " (let him beware) + ",
+          "highlight": false
+        },
+        {
+          "text": "emptor",
+          "highlight": true
+        },
+        {
+          "text": " (buyer); the buyer bears the risk of what they purchase.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "emptor",
+      "correctAnswer": "Buyer",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sub judice",
+    "pronunciation": "sub JOO-dih-see",
+    "pos": "phrase",
+    "definition": "Describing a matter that is currently under judicial consideration and has not yet been decided, making public discussion or commentary on it potentially improper.",
+    "origin": "Literally <strong>sub</strong> (under) + <strong>judice</strong> (a judge, judgment) — 'under judgment.' While a case is sub judice, journalists and commentators are often restricted from publishing material that could prejudice the trial.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sub judice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin sub",
+            "b": "Under"
+          },
+          {
+            "a": "Latin judice",
+            "b": "A judge, judgment"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Under judgment"
+          },
+          {
+            "a": "A matter that is sub judice has not yet",
+            "b": "Been decided"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sub judice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sub judice case is still",
+            "b": "Before the court, undecided"
+          },
+          {
+            "a": "Sub judice rules restrict commentary that could",
+            "b": "Prejudice a trial"
+          },
+          {
+            "a": "Once a verdict is delivered, a case is no longer",
+            "b": "Sub judice"
+          },
+          {
+            "a": "Parliaments often avoid debating matters that are",
+            "b": "Sub judice"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sub judice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The minister declined to comment, calling the case",
+            "b": "Sub judice"
+          },
+          {
+            "a": "The newspaper held the story back because the matter was",
+            "b": "Sub judice"
+          },
+          {
+            "a": "Reporters must be careful when a case is",
+            "b": "Sub judice"
+          },
+          {
+            "a": "The judge warned against publicity while the appeal remained",
+            "b": "Sub judice"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sub",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Under",
+        "showInIntro": true
+      },
+      {
+        "rootText": "judice",
+        "rootLanguage": "Latin",
+        "rootMeaning": "A judge, judgment",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "sub",
+          "highlight": true
+        },
+        {
+          "text": " (under) + ",
+          "highlight": false
+        },
+        {
+          "text": "judice",
+          "highlight": true
+        },
+        {
+          "text": " (judgment); a case still sitting under the court's judgment.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "judice",
+      "correctAnswer": "A judge, judgment",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "In camera",
+    "pronunciation": "in KAM-uh-ruh",
+    "pos": "phrase",
+    "definition": "Describing legal proceedings, or part of them, held in private, in the judge's chambers or a closed courtroom, away from the public and press.",
+    "origin": "Literally <strong>in</strong> (in) + <strong>camera</strong> (chamber, room) — 'in a chamber.' Sensitive matters, such as cases involving children or classified evidence, may be heard in camera, with the courtroom closed to the public.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>In camera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in",
+            "b": "In"
+          },
+          {
+            "a": "Latin camera",
+            "b": "Chamber, room"
+          },
+          {
+            "a": "Literal translation",
+            "b": "In a chamber"
+          },
+          {
+            "a": "The word camera also gave English its word for",
+            "b": "A photographic camera"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>In camera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An in camera hearing is closed to the",
+            "b": "Public and press"
+          },
+          {
+            "a": "Judges often hear evidence in camera when it involves",
+            "b": "Children or national security"
+          },
+          {
+            "a": "In camera is the opposite of a hearing held in",
+            "b": "Open court"
+          },
+          {
+            "a": "A judge may review disputed documents in camera before",
+            "b": "Ruling on disclosure"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>In camera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The custody hearing was held",
+            "b": "In camera"
+          },
+          {
+            "a": "The judge reviewed the classified file",
+            "b": "In camera"
+          },
+          {
+            "a": "To protect the witness, testimony was taken",
+            "b": "In camera"
+          },
+          {
+            "a": "The sensitive financial records were examined",
+            "b": "In camera"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "in",
+        "rootLanguage": "Latin",
+        "rootMeaning": "In",
+        "showInIntro": true
+      },
+      {
+        "rootText": "camera",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Chamber, room",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "in",
+          "highlight": true
+        },
+        {
+          "text": " (in) + ",
+          "highlight": false
+        },
+        {
+          "text": "camera",
+          "highlight": true
+        },
+        {
+          "text": " (chamber); a hearing held privately, behind closed doors.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "camera",
+      "correctAnswer": "Chamber, room",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Res judicata",
+    "pronunciation": "rayz joo-dih-KAH-tuh",
+    "pos": "phrase",
+    "definition": "The principle that a matter already finally decided by a competent court cannot be relitigated between the same parties.",
+    "origin": "Literally <strong>res</strong> (matter, thing) + <strong>judicata</strong> (judged, decided) — 'a thing already judged.' Once a final judgment is reached, res judicata bars either party from bringing the same claim again in a new lawsuit.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Res judicata</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin res",
+            "b": "Matter, thing"
+          },
+          {
+            "a": "Latin judicata",
+            "b": "Judged, decided"
+          },
+          {
+            "a": "Literal translation",
+            "b": "A thing already judged"
+          },
+          {
+            "a": "Res judicata prevents parties from",
+            "b": "Relitigating a decided matter"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Res judicata</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Res judicata applies once a case has reached a",
+            "b": "Final judgment"
+          },
+          {
+            "a": "The doctrine bars a party from bringing the",
+            "b": "Same claim again"
+          },
+          {
+            "a": "Res judicata promotes finality and prevents",
+            "b": "Endless relitigation"
+          },
+          {
+            "a": "For res judicata to apply, the parties and the claim must be",
+            "b": "Substantially the same"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Res judicata</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The court dismissed the second lawsuit as barred by",
+            "b": "Res judicata"
+          },
+          {
+            "a": "Having already lost on the same claim, she was blocked by",
+            "b": "Res judicata"
+          },
+          {
+            "a": "The defence raised",
+            "b": "Res judicata to end the repeat litigation"
+          },
+          {
+            "a": "Once appeals were exhausted, the ruling became",
+            "b": "Res judicata"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "res",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Matter, thing",
+        "showInIntro": true
+      },
+      {
+        "rootText": "judicata",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Judged, decided",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "res",
+          "highlight": true
+        },
+        {
+          "text": " (a matter) + ",
+          "highlight": false
+        },
+        {
+          "text": "judicata",
+          "highlight": true
+        },
+        {
+          "text": " (already judged); a case that is settled and cannot be tried again.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "res",
+      "correctAnswer": "Matter, thing",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nolo contendere",
+    "pronunciation": "NOH-loh kuhn-TEN-duh-ree",
+    "pos": "phrase",
+    "definition": "A plea in a criminal case in which the defendant does not admit guilt but accepts punishment as though guilty, without contesting the charge.",
+    "origin": "Literally <strong>nolo</strong> (I do not wish) + <strong>contendere</strong> (to contend) — 'I do not wish to contend.' A defendant pleading nolo contendere accepts the conviction and sentence but avoids formally admitting guilt, which can matter in a related civil lawsuit.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nolo contendere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin nolo",
+            "b": "I do not wish"
+          },
+          {
+            "a": "Latin contendere",
+            "b": "To contend"
+          },
+          {
+            "a": "Literal translation",
+            "b": "I do not wish to contend"
+          },
+          {
+            "a": "Often shortened in court to a plea of",
+            "b": "No contest"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nolo contendere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A nolo contendere plea does not require an admission of",
+            "b": "Guilt"
+          },
+          {
+            "a": "The defendant still accepts",
+            "b": "Conviction and punishment"
+          },
+          {
+            "a": "Nolo contendere can help a defendant avoid",
+            "b": "Admissions usable in a civil suit"
+          },
+          {
+            "a": "A judge must generally approve a plea of",
+            "b": "Nolo contendere"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nolo contendere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Facing overwhelming evidence, the executive pleaded",
+            "b": "Nolo contendere"
+          },
+          {
+            "a": "The plea deal allowed him to enter a",
+            "b": "Nolo contendere plea"
+          },
+          {
+            "a": "By pleading",
+            "b": "Nolo contendere, she avoided admitting fault"
+          },
+          {
+            "a": "The judge accepted his plea of",
+            "b": "No contest, or nolo contendere"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "nolo",
+        "rootLanguage": "Latin",
+        "rootMeaning": "I do not wish",
+        "showInIntro": true
+      },
+      {
+        "rootText": "contendere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To contend",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "nolo",
+          "highlight": true
+        },
+        {
+          "text": " (I do not wish) + ",
+          "highlight": false
+        },
+        {
+          "text": "contendere",
+          "highlight": true
+        },
+        {
+          "text": " (to contend); accepting punishment without admitting guilt.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "contendere",
+      "correctAnswer": "To contend",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Voir dire",
+    "pronunciation": "vwar DEER",
+    "pos": "phrase",
+    "definition": "The process of questioning prospective jurors, or sometimes witnesses, to determine their suitability or competence to serve.",
+    "origin": "Literally <strong>voir</strong> (true) + <strong>dire</strong> (to say), from Anglo-Norman law French rather than classical Latin — 'to speak the truth.' During voir dire, attorneys and judges question potential jurors about their backgrounds and biases before selecting a jury.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Voir dire</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Anglo-Norman voir",
+            "b": "True"
+          },
+          {
+            "a": "Anglo-Norman dire",
+            "b": "To say"
+          },
+          {
+            "a": "Literal translation",
+            "b": "To speak the truth"
+          },
+          {
+            "a": "Unlike most entries in this pack, voir dire comes from",
+            "b": "Law French, not Latin"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Voir dire</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Voir dire is the process of questioning",
+            "b": "Prospective jurors"
+          },
+          {
+            "a": "Lawyers use voir dire to uncover potential",
+            "b": "Bias or conflicts of interest"
+          },
+          {
+            "a": "A juror may be dismissed for cause during",
+            "b": "Voir dire"
+          },
+          {
+            "a": "Voir dire can also refer to questioning a",
+            "b": "Witness's competence to testify"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Voir dire</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "During",
+            "b": "Voir dire, the attorney questioned each juror"
+          },
+          {
+            "a": "The judge excused a juror during",
+            "b": "Voir dire for an obvious conflict"
+          },
+          {
+            "a": "Jury selection began with a lengthy round of",
+            "b": "Voir dire"
+          },
+          {
+            "a": "The defence used its strikes carefully during",
+            "b": "Voir dire"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "voir",
+        "rootLanguage": "Anglo-Norman French",
+        "rootMeaning": "True",
+        "showInIntro": true
+      },
+      {
+        "rootText": "dire",
+        "rootLanguage": "Anglo-Norman French",
+        "rootMeaning": "To say",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "voir",
+          "highlight": true
+        },
+        {
+          "text": " (true) + ",
+          "highlight": false
+        },
+        {
+          "text": "dire",
+          "highlight": true
+        },
+        {
+          "text": " (to say), from Anglo-Norman French; questioning jurors to find the truth of their bias.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "dire",
+      "correctAnswer": "To say",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Quid pro quo",
+    "pronunciation": "kwid proh KWOH",
+    "pos": "phrase",
+    "definition": "An exchange of one thing for another of roughly equal value; a mutual favour or benefit given in return for something.",
+    "origin": "Literally <strong>quid</strong> (something, what) + <strong>pro</strong> (for) + <strong>quo</strong> (what) — 'something for something.' Contract law often requires quid pro quo, some exchange of value between the parties, for an agreement to be enforceable.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Quid pro quo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin quid",
+            "b": "Something, what"
+          },
+          {
+            "a": "Latin pro",
+            "b": "For"
+          },
+          {
+            "a": "Latin quo",
+            "b": "What, for what"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Something for something"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Quid pro quo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A quid pro quo is an exchange of",
+            "b": "One thing for another"
+          },
+          {
+            "a": "Contract law calls this exchanged value",
+            "b": "Consideration"
+          },
+          {
+            "a": "Quid pro quo can carry a negative sense in",
+            "b": "Bribery or corruption cases"
+          },
+          {
+            "a": "Quid pro quo harassment involves demanding favours in exchange for",
+            "b": "Employment benefits"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Quid pro quo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The favour was clearly a",
+            "b": "Quid pro quo"
+          },
+          {
+            "a": "Investigators alleged an illegal",
+            "b": "Quid pro quo between the official and donor"
+          },
+          {
+            "a": "The lawyer denied any",
+            "b": "Quid pro quo arrangement"
+          },
+          {
+            "a": "She refused the offer, recognising it as",
+            "b": "A quid pro quo"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "quid",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Something, what",
+        "showInIntro": true
+      },
+      {
+        "rootText": "quo",
+        "rootLanguage": "Latin",
+        "rootMeaning": "What, for what",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "quid",
+          "highlight": true
+        },
+        {
+          "text": " (something) + pro (for) + ",
+          "highlight": false
+        },
+        {
+          "text": "quo",
+          "highlight": true
+        },
+        {
+          "text": " (what); one thing given in exchange for another.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "quid",
+      "correctAnswer": "Something, what",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ad hoc",
+    "pronunciation": "ad HOK",
+    "pos": "phrase",
+    "definition": "Formed or done for a particular purpose only, as necessary, rather than as part of a planned or permanent arrangement.",
+    "origin": "Literally <strong>ad</strong> (to, for) + <strong>hoc</strong> (this) — 'for this.' Courts and legislatures sometimes create an ad hoc committee or tribunal to address a single specific issue, which is then dissolved once its task is complete.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ad hoc</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ad",
+            "b": "To, for"
+          },
+          {
+            "a": "Latin hoc",
+            "b": "This"
+          },
+          {
+            "a": "Literal translation",
+            "b": "For this"
+          },
+          {
+            "a": "An ad hoc body is created for a",
+            "b": "Single specific purpose"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ad hoc</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Something ad hoc is arranged for a",
+            "b": "Particular, immediate purpose"
+          },
+          {
+            "a": "An ad hoc tribunal is dissolved once its",
+            "b": "Task is complete"
+          },
+          {
+            "a": "Ad hoc contrasts with a",
+            "b": "Permanent, standing arrangement"
+          },
+          {
+            "a": "An ad hoc ruling applies to",
+            "b": "The specific case at hand only"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ad hoc</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The UN created an",
+            "b": "Ad hoc tribunal for the conflict"
+          },
+          {
+            "a": "The committee was purely",
+            "b": "Ad hoc, formed to review one incident"
+          },
+          {
+            "a": "Lacking a formal policy, the office handled requests on an",
+            "b": "Ad hoc basis"
+          },
+          {
+            "a": "The judges reached an",
+            "b": "Ad hoc solution for the unusual case"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ad",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To, for",
+        "showInIntro": true
+      },
+      {
+        "rootText": "hoc",
+        "rootLanguage": "Latin",
+        "rootMeaning": "This",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ad",
+          "highlight": true
+        },
+        {
+          "text": " (to) + ",
+          "highlight": false
+        },
+        {
+          "text": "hoc",
+          "highlight": true
+        },
+        {
+          "text": " (this); set up for one specific purpose, and no more.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "hoc",
+      "correctAnswer": "This",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sine qua non",
+    "pronunciation": "SIN-ay kwah NOHN",
+    "pos": "phrase",
+    "definition": "An essential condition or element without which something could not exist or be accomplished; an absolute prerequisite.",
+    "origin": "Literally <strong>sine</strong> (without) + <strong>qua</strong> (which) + <strong>non</strong> (not) — 'without which not.' In tort law, the 'but for' test is sometimes called the sine qua non test: an act is a cause of harm only if the harm would not have occurred but for it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sine qua non</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin sine",
+            "b": "Without"
+          },
+          {
+            "a": "Latin qua",
+            "b": "Which"
+          },
+          {
+            "a": "Latin non",
+            "b": "Not"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Without which not"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sine qua non</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A sine qua non is an",
+            "b": "Essential, indispensable condition"
+          },
+          {
+            "a": "Without it, the outcome",
+            "b": "Could not have occurred"
+          },
+          {
+            "a": "The sine qua non test in tort law asks whether the harm would have happened",
+            "b": "But for the defendant's act"
+          },
+          {
+            "a": "Something described as a sine qua non is treated as",
+            "b": "Absolutely necessary"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sine qua non</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Trust is the",
+            "b": "Sine qua non of any partnership"
+          },
+          {
+            "a": "The court applied the",
+            "b": "Sine qua non test of causation"
+          },
+          {
+            "a": "Consent is the",
+            "b": "Sine qua non of a valid contract"
+          },
+          {
+            "a": "Evidence of intent was the",
+            "b": "Sine qua non of the prosecution's case"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "sine",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Without",
+        "showInIntro": true
+      },
+      {
+        "rootText": "non",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Not",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "sine",
+          "highlight": true
+        },
+        {
+          "text": " (without) + qua (which) + ",
+          "highlight": false
+        },
+        {
+          "text": "non",
+          "highlight": true
+        },
+        {
+          "text": " (not); the one condition without which nothing else follows.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "sine",
+      "correctAnswer": "Without",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "De jure",
+    "pronunciation": "dee JOOR-ee",
+    "pos": "phrase",
+    "definition": "Existing or recognised by law, as a matter of legal right, whether or not the same thing exists in practice.",
+    "origin": "Literally <strong>de</strong> (from, by) + <strong>jure</strong> (law, right) — 'by law.' A de jure government is the one legally recognised as ruling a territory, even if a rival de facto government actually controls it on the ground.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>De jure</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin de",
+            "b": "From, by"
+          },
+          {
+            "a": "Latin jure",
+            "b": "Law, right"
+          },
+          {
+            "a": "Literal translation",
+            "b": "By law"
+          },
+          {
+            "a": "Contrasted in law with",
+            "b": "De facto, in fact"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>De jure</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A de jure right exists as a matter of",
+            "b": "Legal recognition"
+          },
+          {
+            "a": "A de jure government is the one recognised",
+            "b": "Officially, by law"
+          },
+          {
+            "a": "De jure segregation refers to segregation",
+            "b": "Required or permitted by law"
+          },
+          {
+            "a": "Something can be de jure true but not",
+            "b": "De facto true in practice"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>De jure</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The exiled leader remained the",
+            "b": "De jure head of state"
+          },
+          {
+            "a": "The court ruled the policy amounted to",
+            "b": "De jure discrimination"
+          },
+          {
+            "a": "Although occupied, the territory remained",
+            "b": "De jure part of the country"
+          },
+          {
+            "a": "The treaty granted",
+            "b": "De jure recognition to the new state"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "de",
+        "rootLanguage": "Latin",
+        "rootMeaning": "From, by",
+        "showInIntro": true
+      },
+      {
+        "rootText": "jure",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Law, right",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "de",
+          "highlight": true
+        },
+        {
+          "text": " (by) + ",
+          "highlight": false
+        },
+        {
+          "text": "jure",
+          "highlight": true
+        },
+        {
+          "text": " (law); what the law formally recognises, whether or not it holds in practice.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "jure",
+      "correctAnswer": "Law, right",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Per se",
+    "pronunciation": "pur SAY",
+    "pos": "phrase",
+    "definition": "By or in itself; intrinsically, without reference to additional facts or circumstances, especially describing something automatically unlawful.",
+    "origin": "Literally <strong>per</strong> (through, by) + <strong>se</strong> (itself) — 'by itself.' Antitrust law treats certain conduct, such as price-fixing, as illegal per se, meaning courts need not examine its actual competitive effect before condemning it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Per se</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin per",
+            "b": "Through, by"
+          },
+          {
+            "a": "Latin se",
+            "b": "Itself"
+          },
+          {
+            "a": "Literal translation",
+            "b": "By itself"
+          },
+          {
+            "a": "'Illegal per se' means unlawful",
+            "b": "In and of itself, no further inquiry needed"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Per se</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Per se means",
+            "b": "By or in itself"
+          },
+          {
+            "a": "A per se violation requires no proof of",
+            "b": "Actual harmful effect"
+          },
+          {
+            "a": "Per se rules contrast with a fact-specific",
+            "b": "Rule of reason analysis"
+          },
+          {
+            "a": "Price-fixing is typically treated as illegal",
+            "b": "Per se"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Per se</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "Price-fixing among competitors is illegal",
+            "b": "Per se"
+          },
+          {
+            "a": "Being late is not, per se,",
+            "b": "A breach of contract"
+          },
+          {
+            "a": "The court applied a",
+            "b": "Per se rule against the practice"
+          },
+          {
+            "a": "The statute does not,",
+            "b": "Per se, ban the activity"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "per",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Through, by",
+        "showInIntro": true
+      },
+      {
+        "rootText": "se",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Itself",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "per",
+          "highlight": true
+        },
+        {
+          "text": " (through, by) + ",
+          "highlight": false
+        },
+        {
+          "text": "se",
+          "highlight": true
+        },
+        {
+          "text": " (itself); a thing judged by itself, without needing further proof.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "per",
+      "correctAnswer": "Through, by",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Inter alia",
+    "pronunciation": "IN-tur AY-lee-uh",
+    "pos": "phrase",
+    "definition": "Among other things; used to indicate that additional, unlisted items or matters also apply beyond those specifically mentioned.",
+    "origin": "Literally <strong>inter</strong> (among) + <strong>alia</strong> (other things) — 'among other things.' A statute might state that a court may, inter alia, impose a fine, revoke a licence, or order restitution, signalling that the listed remedies are not exhaustive.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Inter alia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin inter",
+            "b": "Among"
+          },
+          {
+            "a": "Latin alia",
+            "b": "Other things"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Among other things"
+          },
+          {
+            "a": "Inter alia signals that a list is",
+            "b": "Not exhaustive"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Inter alia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Inter alia is used to introduce",
+            "b": "Some, but not all, examples"
+          },
+          {
+            "a": "A clause using inter alia leaves room for",
+            "b": "Additional unlisted matters"
+          },
+          {
+            "a": "Inter alia is common in",
+            "b": "Statutes and formal legal drafting"
+          },
+          {
+            "a": "The phrase signals the list that follows is",
+            "b": "Illustrative, not complete"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Inter alia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The order required, inter alia,",
+            "b": "The company to pay damages and issue an apology"
+          },
+          {
+            "a": "The report covered, inter alia,",
+            "b": "Pricing, safety, and staffing"
+          },
+          {
+            "a": "The statute permits the agency to, inter alia,",
+            "b": "Suspend or revoke a permit"
+          },
+          {
+            "a": "The contract addressed, inter alia,",
+            "b": "Termination, confidentiality, and disputes"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "inter",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Among",
+        "showInIntro": true
+      },
+      {
+        "rootText": "alia",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Other things",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "inter",
+          "highlight": true
+        },
+        {
+          "text": " (among) + ",
+          "highlight": false
+        },
+        {
+          "text": "alia",
+          "highlight": true
+        },
+        {
+          "text": " (other things); a signal that more items exist beyond the ones named.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "alia",
+      "correctAnswer": "Other things",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Corpus juris",
+    "pronunciation": "KOR-puhs JOOR-is",
+    "pos": "phrase",
+    "definition": "The whole body of law of a particular jurisdiction or system, considered as a single organised collection.",
+    "origin": "Literally <strong>corpus</strong> (body) + <strong>juris</strong> (of law) — 'body of law.' The phrase echoes the Corpus Juris Civilis, the vast compilation of Roman law codified under Emperor Justinian in the 6th century, which shaped legal systems across Europe.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Corpus juris</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin corpus",
+            "b": "Body"
+          },
+          {
+            "a": "Latin juris",
+            "b": "Of law"
+          },
+          {
+            "a": "Literal translation",
+            "b": "Body of law"
+          },
+          {
+            "a": "The phrase echoes the",
+            "b": "Corpus Juris Civilis of Emperor Justinian"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Corpus juris</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A corpus juris is the entire",
+            "b": "Body of law of a jurisdiction"
+          },
+          {
+            "a": "The term treats law as a single organised",
+            "b": "Collection, or body"
+          },
+          {
+            "a": "Corpus Juris Civilis was compiled under",
+            "b": "Emperor Justinian in the 6th century"
+          },
+          {
+            "a": "Legal encyclopedias have adopted the phrase to describe a",
+            "b": "Comprehensive summary of the law"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Corpus juris</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The scholar spent decades studying the",
+            "b": "Corpus juris of ancient Rome"
+          },
+          {
+            "a": "The reforms touched nearly every part of the nation's",
+            "b": "Corpus juris"
+          },
+          {
+            "a": "Justinian's compilers assembled the",
+            "b": "Corpus Juris Civilis"
+          },
+          {
+            "a": "The treatise aimed to summarise the entire",
+            "b": "Corpus juris on the subject"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "corpus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Body",
+        "showInIntro": true
+      },
+      {
+        "rootText": "juris",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Of law",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "corpus",
+          "highlight": true
+        },
+        {
+          "text": " (body) + ",
+          "highlight": false
+        },
+        {
+          "text": "juris",
+          "highlight": true
+        },
+        {
+          "text": " (of law); the whole body of a system's law, gathered as one.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "corpus",
+      "correctAnswer": "Body",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ab initio",
+    "pronunciation": "ab in-ISH-ee-oh",
+    "pos": "phrase",
+    "definition": "From the beginning; describing something, such as a contract or marriage, treated as valid, void, or existing from its very inception.",
+    "origin": "Literally <strong>ab</strong> (from) + <strong>initio</strong> (the beginning) — 'from the beginning.' A court that declares a contract void ab initio treats it as though it never had any legal effect at all, right from the moment it was signed.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ab initio</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ab",
+            "b": "From"
+          },
+          {
+            "a": "Latin initio",
+            "b": "The beginning"
+          },
+          {
+            "a": "Literal translation",
+            "b": "From the beginning"
+          },
+          {
+            "a": "'Void ab initio' means invalid",
+            "b": "From the very start"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ab initio</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Ab initio describes something true from",
+            "b": "Its very inception"
+          },
+          {
+            "a": "A contract void ab initio never had",
+            "b": "Any legal effect"
+          },
+          {
+            "a": "Ab initio is often paired with the word",
+            "b": "Void or valid"
+          },
+          {
+            "a": "A marriage annulled ab initio is treated as",
+            "b": "Never having legally existed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ab initio</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The court held the agreement was",
+            "b": "Void ab initio"
+          },
+          {
+            "a": "Because of the fraud, the patent was invalid",
+            "b": "Ab initio"
+          },
+          {
+            "a": "The illegal contract was unenforceable",
+            "b": "Ab initio"
+          },
+          {
+            "a": "The judge ruled the marriage had been void",
+            "b": "Ab initio"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ab",
+        "rootLanguage": "Latin",
+        "rootMeaning": "From",
+        "showInIntro": true
+      },
+      {
+        "rootText": "initio",
+        "rootLanguage": "Latin",
+        "rootMeaning": "The beginning",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ab",
+          "highlight": true
+        },
+        {
+          "text": " (from) + ",
+          "highlight": false
+        },
+        {
+          "text": "initio",
+          "highlight": true
+        },
+        {
+          "text": " (the beginning); treated as having always been so, from the very start.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "initio",
+      "correctAnswer": "The beginning",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ex post facto",
+    "pronunciation": "eks pohst FAK-toh",
+    "pos": "phrase",
+    "definition": "Describing a law that retroactively changes the legal consequences of actions committed before the law was enacted, especially one that criminalises past conduct.",
+    "origin": "Literally <strong>ex</strong> (from, out of) + <strong>post</strong> (after) + <strong>facto</strong> (the fact, deed) — 'from after the fact.' Many constitutions ban ex post facto criminal laws, preventing the government from punishing someone for conduct that was legal when they did it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ex post facto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin ex",
+            "b": "From, out of"
+          },
+          {
+            "a": "Latin post",
+            "b": "After"
+          },
+          {
+            "a": "Latin facto",
+            "b": "The fact, deed"
+          },
+          {
+            "a": "Literal translation",
+            "b": "From after the fact"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ex post facto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An ex post facto law changes the legal consequences of acts",
+            "b": "Committed before it was passed"
+          },
+          {
+            "a": "Ex post facto criminal laws are typically",
+            "b": "Prohibited by constitutions"
+          },
+          {
+            "a": "The doctrine protects people from being punished for conduct that was",
+            "b": "Legal at the time"
+          },
+          {
+            "a": "Ex post facto literally describes something acting",
+            "b": "Retroactively"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ex post facto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The court struck down the statute as",
+            "b": "An unconstitutional ex post facto law"
+          },
+          {
+            "a": "Raising the penalty for a past offence would be",
+            "b": "Ex post facto"
+          },
+          {
+            "a": "Defendants challenged the new sentencing rule as",
+            "b": "Ex post facto"
+          },
+          {
+            "a": "The constitution explicitly bars",
+            "b": "Ex post facto legislation"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ex",
+        "rootLanguage": "Latin",
+        "rootMeaning": "From, out of",
+        "showInIntro": true
+      },
+      {
+        "rootText": "post",
+        "rootLanguage": "Latin",
+        "rootMeaning": "After",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "ex",
+          "highlight": true
+        },
+        {
+          "text": " (from) + ",
+          "highlight": false
+        },
+        {
+          "text": "post",
+          "highlight": true
+        },
+        {
+          "text": " (after) + facto (the fact); a law reaching back to punish what was legal when it happened.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "post",
+      "correctAnswer": "After",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "In loco parentis",
+    "pronunciation": "in LOH-koh puh-REN-tis",
+    "pos": "phrase",
+    "definition": "Acting in the place of a parent, taking on a parent's responsibilities and authority for the care, welfare, and discipline of a child or student.",
+    "origin": "Literally <strong>in</strong> (in) + <strong>loco</strong> (the place) + <strong>parentis</strong> (of a parent) — 'in the place of a parent.' Schools and boarding institutions often act in loco parentis while a child is in their care, assuming a duty to supervise and protect the student's welfare.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>In loco parentis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin in",
+            "b": "In"
+          },
+          {
+            "a": "Latin loco",
+            "b": "The place"
+          },
+          {
+            "a": "Latin parentis",
+            "b": "Of a parent"
+          },
+          {
+            "a": "Literal translation",
+            "b": "In the place of a parent"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>In loco parentis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "In loco parentis describes taking on the responsibilities of a",
+            "b": "Parent"
+          },
+          {
+            "a": "Schools acting in loco parentis have a duty to",
+            "b": "Supervise and protect students"
+          },
+          {
+            "a": "The doctrine applies when a child is placed in the",
+            "b": "Care of another adult or institution"
+          },
+          {
+            "a": "In loco parentis can affect a school's liability for a student's",
+            "b": "Safety and welfare"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>In loco parentis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "While students boarded there, the school acted",
+            "b": "In loco parentis"
+          },
+          {
+            "a": "The court examined whether the coach stood",
+            "b": "In loco parentis to the players"
+          },
+          {
+            "a": "As their legal guardian, she acted",
+            "b": "In loco parentis"
+          },
+          {
+            "a": "Camp counsellors are generally considered to act",
+            "b": "In loco parentis"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "loco",
+        "rootLanguage": "Latin",
+        "rootMeaning": "The place",
+        "showInIntro": true
+      },
+      {
+        "rootText": "parentis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Of a parent",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally in (in) + ",
+          "highlight": false
+        },
+        {
+          "text": "loco",
+          "highlight": true
+        },
+        {
+          "text": " (the place) + ",
+          "highlight": false
+        },
+        {
+          "text": "parentis",
+          "highlight": true
+        },
+        {
+          "text": " (of a parent); stepping into a parent's role and duties.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "parentis",
+      "correctAnswer": "Of a parent",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Mutatis mutandis",
+    "pronunciation": "myoo-TAY-tis myoo-TAN-dis",
+    "pos": "phrase",
+    "definition": "With the necessary changes having been made; used to indicate that a rule, comparison, or precedent applies equally to a different situation once minor adjustments are made for the differences.",
+    "origin": "Literally <strong>mutatis</strong> (having been changed) + <strong>mutandis</strong> (things needing to be changed) — 'with things changed that need to be changed.' A clause might state that the same procedure applies to a related dispute, mutatis mutandis, meaning with whatever small adjustments the different facts require.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Mutatis mutandis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin mutatis",
+            "b": "Having been changed"
+          },
+          {
+            "a": "Latin mutandis",
+            "b": "Things needing to be changed"
+          },
+          {
+            "a": "Literal translation",
+            "b": "With things changed that need to be changed"
+          },
+          {
+            "a": "Mutatis mutandis signals a rule applies",
+            "b": "With necessary adjustments"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Mutatis mutandis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Mutatis mutandis means a rule applies to a new case",
+            "b": "With the necessary changes made"
+          },
+          {
+            "a": "The phrase is used to avoid",
+            "b": "Repeating a rule word for word"
+          },
+          {
+            "a": "A court applying precedent mutatis mutandis adapts it to",
+            "b": "The differing facts at hand"
+          },
+          {
+            "a": "Mutatis mutandis assumes the underlying",
+            "b": "Principle stays the same"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Mutatis mutandis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The same rules apply to the subsidiary,",
+            "b": "Mutatis mutandis"
+          },
+          {
+            "a": "The tribunal extended the earlier ruling,",
+            "b": "Mutatis mutandis, to the new claim"
+          },
+          {
+            "a": "The clause was drafted to apply,",
+            "b": "Mutatis mutandis, in every member state"
+          },
+          {
+            "a": "The judge adopted the precedent,",
+            "b": "Mutatis mutandis, for the modified facts"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "mutatis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Having been changed",
+        "showInIntro": true
+      },
+      {
+        "rootText": "mutandis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Things needing to be changed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "mutatis",
+          "highlight": true
+        },
+        {
+          "text": " (having been changed) + ",
+          "highlight": false
+        },
+        {
+          "text": "mutandis",
+          "highlight": true
+        },
+        {
+          "text": " (things needing to be changed); a rule reused, adjusted just enough to fit.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "mutatis",
+      "correctAnswer": "Having been changed",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Bona fide",
+    "pronunciation": "BOH-nuh FY-dee",
+    "pos": "phrase",
+    "definition": "Made or done in good faith; genuine, sincere, and without intent to deceive.",
+    "origin": "Literally <strong>bona</strong> (good) + <strong>fide</strong> (faith) — 'in good faith.' A bona fide purchaser buys property honestly, for value, without knowledge of any defect in the seller's title, and is often protected by law even if the seller's title later proves flawed.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-latin",
+      "name": "Latin Legal Terms",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Bona fide</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin bona",
+            "b": "Good"
+          },
+          {
+            "a": "Latin fide",
+            "b": "Faith"
+          },
+          {
+            "a": "Literal translation",
+            "b": "In good faith"
+          },
+          {
+            "a": "A 'bona fide purchaser' buys",
+            "b": "Honestly and without knowledge of defects"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Bona fide</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Bona fide describes something done",
+            "b": "In good faith, genuinely"
+          },
+          {
+            "a": "A bona fide offer is made",
+            "b": "Sincerely, with real intent to follow through"
+          },
+          {
+            "a": "The opposite of bona fide is",
+            "b": "Mala fide, in bad faith"
+          },
+          {
+            "a": "A bona fide purchaser is often protected against",
+            "b": "Hidden defects in the seller's title"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Bona fide</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The court accepted it was a",
+            "b": "Bona fide mistake"
+          },
+          {
+            "a": "She was recognised as a",
+            "b": "Bona fide purchaser for value"
+          },
+          {
+            "a": "He submitted a",
+            "b": "Bona fide job application"
+          },
+          {
+            "a": "The charity proved it was a",
+            "b": "Bona fide nonprofit organisation"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "bona",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Good",
+        "showInIntro": true
+      },
+      {
+        "rootText": "fide",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Faith",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Literally ",
+          "highlight": false
+        },
+        {
+          "text": "bona",
+          "highlight": true
+        },
+        {
+          "text": " (good) + ",
+          "highlight": false
+        },
+        {
+          "text": "fide",
+          "highlight": true
+        },
+        {
+          "text": " (faith); done honestly, in good faith.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "fide",
+      "correctAnswer": "Good",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

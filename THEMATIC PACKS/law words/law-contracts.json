@@ -1,0 +1,3512 @@
+[
+  {
+    "word": "Indemnity",
+    "pronunciation": "in-DEM-ni-tee",
+    "pos": "noun",
+    "definition": "A contractual obligation by one party to compensate another for specified loss, damage, or liability incurred.",
+    "origin": "From Latin <strong>indemnis</strong> (unharmed, free from loss), formed from in- (not) + damnum (loss, damage). The term passed into English via Old French indemnité in the 17th century, when lawyers began using it for formal promises to make a party whole against future loss.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Indemnity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin indemnis",
+            "b": "Unharmed, free from loss"
+          },
+          {
+            "a": "Latin in- + damnum",
+            "b": "Not + loss, damage"
+          },
+          {
+            "a": "Entered English via",
+            "b": "Old French indemnité"
+          },
+          {
+            "a": "Adopted by lawyers in the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Indemnity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An indemnity obligates one party to",
+            "b": "Compensate another for loss or damage"
+          },
+          {
+            "a": "Indemnity clauses commonly appear in",
+            "b": "Insurance and construction contracts"
+          },
+          {
+            "a": "An indemnity differs from a guarantee because it covers",
+            "b": "Loss itself, not just another's default"
+          },
+          {
+            "a": "'To indemnify' someone means to",
+            "b": "Make them whole again"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Indemnity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The contractor agreed to",
+            "b": "Indemnify the client against third-party claims"
+          },
+          {
+            "a": "The insurance policy provided",
+            "b": "Indemnity for fire damage"
+          },
+          {
+            "a": "Lawyers negotiated the scope of the",
+            "b": "Indemnity clause"
+          },
+          {
+            "a": "The company sought",
+            "b": "Indemnity for the unexpected losses"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "indemnis",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Unharmed, free from loss",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "indemnis",
+          "highlight": true
+        },
+        {
+          "text": " (unharmed); a promise to leave the other party free from loss.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "indemnis",
+      "correctAnswer": "Unharmed, free from loss",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lien",
+    "pronunciation": "LEEN",
+    "pos": "noun",
+    "definition": "A legal right to retain possession of, or a claim against, another's property until a debt owed on it is satisfied.",
+    "origin": "From Old French <strong>lien</strong> (bond, tie), from Latin ligamen, itself from ligare (to bind). English law borrowed the word in the 16th century for a creditor's right to \"bind\" property as security until a debt is paid.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lien</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French lien",
+            "b": "Bond, tie"
+          },
+          {
+            "a": "Latin ligamen",
+            "b": "A binding, ligament"
+          },
+          {
+            "a": "From Latin verb",
+            "b": "Ligare, to bind"
+          },
+          {
+            "a": "Borrowed by English law in the",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lien</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A lien gives a creditor the right to hold property until",
+            "b": "A debt is paid"
+          },
+          {
+            "a": "A mechanic's lien secures payment for",
+            "b": "Repair or improvement work"
+          },
+          {
+            "a": "An unpaid tax lien can attach to",
+            "b": "A person's real estate"
+          },
+          {
+            "a": "Unlike ownership, a lien is only a",
+            "b": "Security interest"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lien</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bank placed a",
+            "b": "Lien on the property"
+          },
+          {
+            "a": "The contractor filed a",
+            "b": "Mechanic's lien after non-payment"
+          },
+          {
+            "a": "Buyers must check the title for any existing",
+            "b": "Liens"
+          },
+          {
+            "a": "The court ordered the",
+            "b": "Lien to be released"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "ligare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To bind",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "ligare",
+          "highlight": true
+        },
+        {
+          "text": " (to bind); a creditor's right to bind property as security.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "ligare",
+      "correctAnswer": "To bind",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Breach",
+    "pronunciation": "BREECH",
+    "pos": "noun",
+    "definition": "The failure, without lawful excuse, to perform any term of a contract.",
+    "origin": "From Old English <strong>brecan</strong> (to break) and its noun bryce, a native Germanic word for a break or fracture. Its legal sense of a broken promise or violated duty developed naturally from this ancient meaning, well before written contract law formalised the term.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Breach</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old English brecan",
+            "b": "To break"
+          },
+          {
+            "a": "Old English bryce",
+            "b": "A break, fracture"
+          },
+          {
+            "a": "A native",
+            "b": "Germanic word"
+          },
+          {
+            "a": "Legal sense of a broken promise developed",
+            "b": "Naturally from the literal meaning"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Breach</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A breach is a failure to perform a term of a",
+            "b": "Contract"
+          },
+          {
+            "a": "A material breach lets the other party",
+            "b": "Terminate the contract"
+          },
+          {
+            "a": "A minor breach usually only entitles a party to",
+            "b": "Damages, not termination"
+          },
+          {
+            "a": "'Breach of the peace' describes a disturbance of",
+            "b": "Public order"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Breach</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The supplier's late delivery was ruled a",
+            "b": "Breach of contract"
+          },
+          {
+            "a": "The tenant sued the landlord for",
+            "b": "Breach of the lease"
+          },
+          {
+            "a": "Engineers rushed to repair a",
+            "b": "Breach in the dam"
+          },
+          {
+            "a": "The company faced penalties for its",
+            "b": "Breach of warranty"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "brecan",
+        "rootLanguage": "Old English",
+        "rootMeaning": "To break",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old English ",
+          "highlight": false
+        },
+        {
+          "text": "brecan",
+          "highlight": true
+        },
+        {
+          "text": " (to break); a broken promise, plain and simple.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "brecan",
+      "correctAnswer": "To break",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Covenant",
+    "pronunciation": "KUV-uh-nant",
+    "pos": "noun",
+    "definition": "A formal, legally binding promise contained in a contract or deed to do or refrain from doing a specified act.",
+    "origin": "From Old French <strong>covenant</strong> (agreement), the present participle of covenir (to agree, come together), from Latin convenire (con- \"together\" + venire \"to come\"). Anglo-Norman lawyers adopted it in the 13th century for a formal, sealed promise enforceable in the king's courts.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Covenant</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French covenant",
+            "b": "Agreement"
+          },
+          {
+            "a": "Old French covenir",
+            "b": "To agree, come together"
+          },
+          {
+            "a": "Latin convenire",
+            "b": "Con- (together) + venire (to come)"
+          },
+          {
+            "a": "Adopted by Anglo-Norman lawyers in the",
+            "b": "13th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Covenant</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A covenant is a formal promise contained in a",
+            "b": "Contract or deed"
+          },
+          {
+            "a": "A restrictive covenant on land might limit",
+            "b": "How the property can be used"
+          },
+          {
+            "a": "Breaking a covenant is called",
+            "b": "A breach of covenant"
+          },
+          {
+            "a": "Historically, a covenant needed to be made under",
+            "b": "Seal"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Covenant</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The deed contained a",
+            "b": "Covenant not to build above two storeys"
+          },
+          {
+            "a": "The lender relied on a",
+            "b": "Loan covenant requiring minimum cash reserves"
+          },
+          {
+            "a": "Neighbours disputed the meaning of an old",
+            "b": "Restrictive covenant"
+          },
+          {
+            "a": "The parties signed a formal",
+            "b": "Covenant of good faith"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "convenire",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To come together, agree",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "convenire",
+          "highlight": true
+        },
+        {
+          "text": " (to come together); a formal promise both sides have agreed to.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "convenire",
+      "correctAnswer": "To come together, agree",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Consideration",
+    "pronunciation": "kuhn-sid-uh-RAY-shuhn",
+    "pos": "noun",
+    "definition": "Something of value—money, goods, services, or a promise—exchanged by each party to a contract in return for the other's performance, without which a promise generally is not enforceable.",
+    "origin": "From Latin <strong>considerare</strong> (to examine closely, originally \"to observe the stars,\" from con- \"together\" + sidus \"star\"). English contract law narrowed the everyday sense of careful thought into a technical requirement by the 16th century: the thing of value each party must give for a promise to be enforceable.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Consideration</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin considerare",
+            "b": "To examine closely"
+          },
+          {
+            "a": "Latin con- + sidus",
+            "b": "Together + star"
+          },
+          {
+            "a": "Originally described",
+            "b": "Observing the stars"
+          },
+          {
+            "a": "Narrowed to its contract-law sense by the",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Consideration</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "In contract law, consideration means something of",
+            "b": "Value exchanged between the parties"
+          },
+          {
+            "a": "Without consideration, a promise is generally",
+            "b": "Not enforceable"
+          },
+          {
+            "a": "Consideration can be money, goods, services, or a",
+            "b": "Promise to act"
+          },
+          {
+            "a": "'Past consideration' generally",
+            "b": "Cannot support a new contract"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Consideration</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The court found no valid",
+            "b": "Consideration for the promise"
+          },
+          {
+            "a": "She paid a token sum as",
+            "b": "Consideration to make the deal binding"
+          },
+          {
+            "a": "The contract recited nominal",
+            "b": "Consideration of one dollar"
+          },
+          {
+            "a": "Lawyers examined whether adequate",
+            "b": "Consideration had passed between the parties"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "considerare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To examine closely",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "considerare",
+          "highlight": true
+        },
+        {
+          "text": " (to examine closely); the thing of value each side weighs and gives.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "considerare",
+      "correctAnswer": "To examine closely",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Easement",
+    "pronunciation": "EEZ-muhnt",
+    "pos": "noun",
+    "definition": "A nonpossessory right to use another person's land for a specific purpose, such as passage or access.",
+    "origin": "From Old French <strong>aisement</strong> (convenience, comfort), from aisier (to ease, to accommodate). English property law adopted the word by the 15th century for a right that makes the use of one's own land easier by permitting a limited use of a neighbour's.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Easement</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French aisement",
+            "b": "Convenience, comfort"
+          },
+          {
+            "a": "Old French aisier",
+            "b": "To ease, accommodate"
+          },
+          {
+            "a": "Adopted by English property law by the",
+            "b": "15th century"
+          },
+          {
+            "a": "Named for making land use",
+            "b": "Easier for the holder"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Easement</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An easement grants a nonpossessory right to use",
+            "b": "Another person's land"
+          },
+          {
+            "a": "A right of way is a common example of an",
+            "b": "Easement"
+          },
+          {
+            "a": "An easement does not transfer",
+            "b": "Ownership of the land"
+          },
+          {
+            "a": "An easement 'runs with the land,' meaning it",
+            "b": "Binds future owners too"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Easement</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The neighbours held an",
+            "b": "Easement allowing access across the field"
+          },
+          {
+            "a": "The utility company secured an",
+            "b": "Easement to run cables underground"
+          },
+          {
+            "a": "Buyers checked the deed for any existing",
+            "b": "Easements"
+          },
+          {
+            "a": "The path had been used so long it became an",
+            "b": "Easement by prescription"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "aisier",
+        "rootLanguage": "Old French",
+        "rootMeaning": "To ease, accommodate",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French ",
+          "highlight": false
+        },
+        {
+          "text": "aisier",
+          "highlight": true
+        },
+        {
+          "text": " (to ease); a right that makes using your land a little easier.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "aisier",
+      "correctAnswer": "To ease, accommodate",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Escrow",
+    "pronunciation": "ESS-kroh",
+    "pos": "noun",
+    "definition": "An arrangement in which a neutral third party holds money, property, or documents until specified conditions of an agreement are fulfilled.",
+    "origin": "From Anglo-Norman <strong>escroue</strong> (a scroll or written deed), related to Old French escroe (a strip of parchment). A deed was historically handed to a third party \"in escrow\"—held on a scroll—until the conditions attached to it were performed.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Escrow</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Anglo-Norman escroue",
+            "b": "A scroll or written deed"
+          },
+          {
+            "a": "Old French escroe",
+            "b": "A strip of parchment"
+          },
+          {
+            "a": "Deeds were historically held on a",
+            "b": "Scroll"
+          },
+          {
+            "a": "Entered English legal use in the",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Escrow</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An escrow arrangement holds funds or documents with a",
+            "b": "Neutral third party"
+          },
+          {
+            "a": "Money is released from escrow once conditions of the",
+            "b": "Agreement are fulfilled"
+          },
+          {
+            "a": "Home sales commonly use an",
+            "b": "Escrow account for the deposit"
+          },
+          {
+            "a": "An escrow agent has a duty of",
+            "b": "Strict neutrality between the parties"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Escrow</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The buyer's deposit was held in",
+            "b": "Escrow"
+          },
+          {
+            "a": "The lawyer confirmed the funds had cleared",
+            "b": "Escrow"
+          },
+          {
+            "a": "The deed was placed in",
+            "b": "Escrow pending final approval"
+          },
+          {
+            "a": "Both sides agreed to use an",
+            "b": "Escrow service for the transaction"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "escroue",
+        "rootLanguage": "Anglo-Norman",
+        "rootMeaning": "A scroll or written deed",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Anglo-Norman ",
+          "highlight": false
+        },
+        {
+          "text": "escroue",
+          "highlight": true
+        },
+        {
+          "text": " (a scroll); a deed held safe until its conditions are met.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "escroue",
+      "correctAnswer": "A scroll or written deed",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Novation",
+    "pronunciation": "noh-VAY-shuhn",
+    "pos": "noun",
+    "definition": "The substitution of a new contract or party for an existing one, with the consent of all parties, extinguishing the original obligation.",
+    "origin": "From Latin <strong>novatio</strong> (a renewing), from novare (to make new), from novus (new). Roman contract law used novatio for replacing an old obligation with a new one, and English commercial law borrowed the term directly in the 17th century.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Novation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin novatio",
+            "b": "A renewing"
+          },
+          {
+            "a": "Latin novare",
+            "b": "To make new"
+          },
+          {
+            "a": "Latin novus",
+            "b": "New"
+          },
+          {
+            "a": "Roman law used novatio for",
+            "b": "Replacing an old obligation with a new one"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Novation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A novation substitutes a new contract or party for an",
+            "b": "Existing one"
+          },
+          {
+            "a": "Unlike an assignment, a novation requires the consent of",
+            "b": "All parties, including the original obligor"
+          },
+          {
+            "a": "A novation completely extinguishes the",
+            "b": "Original obligation"
+          },
+          {
+            "a": "Novation is common when a company transfers a",
+            "b": "Contract to a buyer during a sale"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Novation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The parties signed a deed of",
+            "b": "Novation to replace the old supplier"
+          },
+          {
+            "a": "The bank required a formal",
+            "b": "Novation before releasing the original borrower"
+          },
+          {
+            "a": "The merger triggered a",
+            "b": "Novation of several key contracts"
+          },
+          {
+            "a": "Without a signed",
+            "b": "Novation, the original party remains liable"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "novare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To make new",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "novare",
+          "highlight": true
+        },
+        {
+          "text": " (to make new); swapping an old obligation for a fresh one.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "novare",
+      "correctAnswer": "To make new",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Estoppel",
+    "pronunciation": "es-TOP-uhl",
+    "pos": "noun",
+    "definition": "A legal principle that prevents a party from asserting a claim or fact inconsistent with a position it previously took, if another party relied on it to their detriment.",
+    "origin": "From Old French <strong>estoupail</strong> (a stopper or plug), from estouper (to stop up), ultimately from Vulgar Latin stuppare (to stop with tow or oakum)—the same root that gives English \"stop.\" A party is \"estopped,\" or stopped up, from denying a position it previously affirmed.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Estoppel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French estoupail",
+            "b": "A stopper or plug"
+          },
+          {
+            "a": "Old French estouper",
+            "b": "To stop up"
+          },
+          {
+            "a": "Vulgar Latin stuppare",
+            "b": "To stop with tow or oakum"
+          },
+          {
+            "a": "Shares its root with the modern English word",
+            "b": "Stop"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Estoppel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Estoppel prevents a party from asserting a position that",
+            "b": "Contradicts its earlier statement"
+          },
+          {
+            "a": "Estoppel typically applies when another party relied on the earlier statement to their",
+            "b": "Detriment"
+          },
+          {
+            "a": "Promissory estoppel can enforce a promise even without",
+            "b": "Traditional consideration"
+          },
+          {
+            "a": "A party who is 'estopped' is, in effect,",
+            "b": "Stopped from arguing otherwise"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Estoppel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The tenant argued the landlord was",
+            "b": "Estopped from denying the agreement"
+          },
+          {
+            "a": "The judge applied the doctrine of",
+            "b": "Promissory estoppel"
+          },
+          {
+            "a": "Having accepted rent for years, the landlord was",
+            "b": "Estopped from evicting on that ground"
+          },
+          {
+            "a": "Her reliance on his promise raised a claim of",
+            "b": "Estoppel"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "estouper",
+        "rootLanguage": "Old French",
+        "rootMeaning": "To stop up",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French ",
+          "highlight": false
+        },
+        {
+          "text": "estouper",
+          "highlight": true
+        },
+        {
+          "text": " (to stop up); a party stopped from denying its earlier word.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "estouper",
+      "correctAnswer": "To stop up",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Foreclosure",
+    "pronunciation": "for-KLOH-zhur",
+    "pos": "noun",
+    "definition": "The legal process by which a lender takes possession of, and sells, mortgaged property after the borrower defaults on the loan.",
+    "origin": "From Old French <strong>forclore</strong> (to shut out, exclude), from for- (outside) + clore (to close), from Latin claudere (to close). English mortgage law adopted the term in the 17th century for permanently shutting out a defaulting borrower's right to redeem the property.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Foreclosure</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French forclore",
+            "b": "To shut out, exclude"
+          },
+          {
+            "a": "Old French for- + clore",
+            "b": "Outside + to close"
+          },
+          {
+            "a": "Latin claudere",
+            "b": "To close"
+          },
+          {
+            "a": "Adopted by English mortgage law in the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Foreclosure</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Foreclosure lets a lender take possession of property after a borrower",
+            "b": "Defaults on the loan"
+          },
+          {
+            "a": "Foreclosure permanently shuts out the borrower's right to",
+            "b": "Redeem the property"
+          },
+          {
+            "a": "Foreclosed properties are often sold at",
+            "b": "Auction"
+          },
+          {
+            "a": "A judicial foreclosure requires approval from a",
+            "b": "Court"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Foreclosure</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bank began",
+            "b": "Foreclosure proceedings on the house"
+          },
+          {
+            "a": "Missed payments put the family at risk of",
+            "b": "Foreclosure"
+          },
+          {
+            "a": "Investors bid on homes sold through",
+            "b": "Foreclosure auctions"
+          },
+          {
+            "a": "The homeowners fought to avoid",
+            "b": "Foreclosure"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "forclore",
+        "rootLanguage": "Old French",
+        "rootMeaning": "To shut out, exclude",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French ",
+          "highlight": false
+        },
+        {
+          "text": "forclore",
+          "highlight": true
+        },
+        {
+          "text": " (to shut out); permanently closing off a borrower's right to redeem.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "forclore",
+      "correctAnswer": "To shut out, exclude",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lease",
+    "pronunciation": "LEESS",
+    "pos": "noun",
+    "definition": "A contract granting one party the right to occupy or use property owned by another for a set period in exchange for rent.",
+    "origin": "From Anglo-Norman <strong>lesser</strong> (to let, to leave), from Old French laissier, from Latin laxare (to loosen, release). Medieval English land law used the word for \"releasing\" the use of property to another for a term, while the owner retained ultimate ownership.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lease</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Anglo-Norman lesser",
+            "b": "To let, to leave"
+          },
+          {
+            "a": "Old French laissier",
+            "b": "To let, allow"
+          },
+          {
+            "a": "Latin laxare",
+            "b": "To loosen, release"
+          },
+          {
+            "a": "Used by medieval land law for",
+            "b": "Releasing use of land to another"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lease</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A lease grants the right to occupy property owned by",
+            "b": "Another party"
+          },
+          {
+            "a": "In exchange for use of the property, a tenant pays",
+            "b": "Rent"
+          },
+          {
+            "a": "A lease runs for a fixed",
+            "b": "Term"
+          },
+          {
+            "a": "The person granting a lease is called the",
+            "b": "Landlord or lessor"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lease</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They signed a two-year",
+            "b": "Lease on the apartment"
+          },
+          {
+            "a": "The company renewed its office",
+            "b": "Lease"
+          },
+          {
+            "a": "Breaking a",
+            "b": "Lease early often incurs a penalty"
+          },
+          {
+            "a": "The car dealership offered a competitive",
+            "b": "Lease agreement"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "laxare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To loosen, release",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "laxare",
+          "highlight": true
+        },
+        {
+          "text": " (to loosen); releasing the use of land to someone else for a time.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "laxare",
+      "correctAnswer": "To loosen, release",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Warranty",
+    "pronunciation": "WOR-uhn-tee",
+    "pos": "noun",
+    "definition": "A contractual assurance that a particular fact or condition is true, breach of which entitles the injured party to a remedy.",
+    "origin": "From Old North French <strong>warantie</strong> (a guarantee), from warant (protector, guarantee), a Germanic word related to English \"ward\" and \"guard.\" Anglo-Norman lawyers used it for a lord's promise to defend a tenant's title, before it broadened to any binding assurance.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Warranty</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old North French warantie",
+            "b": "A guarantee"
+          },
+          {
+            "a": "Old North French warant",
+            "b": "Protector, guarantee"
+          },
+          {
+            "a": "Germanic root",
+            "b": "Warjan, to defend or guard"
+          },
+          {
+            "a": "Originally described a lord's promise to defend a tenant's",
+            "b": "Title"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Warranty</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A warranty is a contractual assurance that a fact or condition is",
+            "b": "True"
+          },
+          {
+            "a": "Breach of warranty entitles the injured party to a",
+            "b": "Remedy, such as damages"
+          },
+          {
+            "a": "A product warranty promises to repair or replace",
+            "b": "Defective goods"
+          },
+          {
+            "a": "Unlike a condition, breach of a warranty rarely allows a party to",
+            "b": "Terminate the whole contract"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Warranty</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The seller offered a five-year",
+            "b": "Warranty on the appliance"
+          },
+          {
+            "a": "The buyer discovered a breach of",
+            "b": "Warranty after the sale"
+          },
+          {
+            "a": "The contract included a",
+            "b": "Warranty that the goods were of merchantable quality"
+          },
+          {
+            "a": "Extended",
+            "b": "Warranty coverage cost extra"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "warjan",
+        "rootLanguage": "Germanic",
+        "rootMeaning": "To defend, guard",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Germanic ",
+          "highlight": false
+        },
+        {
+          "text": "warjan",
+          "highlight": true
+        },
+        {
+          "text": " (to guard); an assurance the seller stands behind and defends.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "warjan",
+      "correctAnswer": "To defend, guard",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Offer",
+    "pronunciation": "OF-uhr",
+    "pos": "noun",
+    "definition": "A definite proposal made by one party expressing willingness to enter a contract on stated terms, capable of being turned into a binding agreement by acceptance.",
+    "origin": "From Latin <strong>offerre</strong> (to bring before, to present), from ob- (toward) + ferre (to carry). The word entered legal English via Old French offrir in the 14th century for a proposal formally put forward for another's acceptance.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Offer</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin offerre",
+            "b": "To bring before, present"
+          },
+          {
+            "a": "Latin ob- + ferre",
+            "b": "Toward + to carry"
+          },
+          {
+            "a": "Entered legal English via",
+            "b": "Old French offrir"
+          },
+          {
+            "a": "Adopted into contract law by the",
+            "b": "14th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Offer</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An offer is a definite proposal to enter a",
+            "b": "Contract on stated terms"
+          },
+          {
+            "a": "An offer becomes binding once it is",
+            "b": "Accepted"
+          },
+          {
+            "a": "An offer can generally be withdrawn before it is",
+            "b": "Accepted"
+          },
+          {
+            "a": "An 'invitation to treat,' like a shop display, is not a genuine",
+            "b": "Offer"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Offer</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The seller made a formal",
+            "b": "Offer to sell the land"
+          },
+          {
+            "a": "She accepted the job",
+            "b": "Offer"
+          },
+          {
+            "a": "The buyer withdrew the",
+            "b": "Offer before it was accepted"
+          },
+          {
+            "a": "Negotiations began after the first",
+            "b": "Offer was rejected"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "offerre",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To bring before, present",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "offerre",
+          "highlight": true
+        },
+        {
+          "text": " (to bring before); a proposal put forward for another to accept.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "offerre",
+      "correctAnswer": "To bring before, present",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Acceptance",
+    "pronunciation": "ak-SEP-tuhns",
+    "pos": "noun",
+    "definition": "An unqualified agreement to the exact terms of an offer, which creates a binding contract.",
+    "origin": "From Latin <strong>acceptare</strong>, a frequentative form of accipere (to take, to receive), from ad- (toward) + capere (to take). Contract law paired it with \"offer\" by the 17th century to mark the moment a proposal becomes a binding agreement.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Acceptance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin acceptare",
+            "b": "To take, receive"
+          },
+          {
+            "a": "Latin ad- + capere",
+            "b": "Toward + to take"
+          },
+          {
+            "a": "A frequentative form meaning to",
+            "b": "Take repeatedly, readily receive"
+          },
+          {
+            "a": "Paired with 'offer' in contract law by the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Acceptance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Acceptance is an unqualified agreement to the exact terms of an",
+            "b": "Offer"
+          },
+          {
+            "a": "Acceptance creates a",
+            "b": "Binding contract"
+          },
+          {
+            "a": "Under the 'mirror image rule,' an acceptance must match the offer",
+            "b": "Exactly"
+          },
+          {
+            "a": "A reply that changes the terms is a",
+            "b": "Counteroffer, not an acceptance"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Acceptance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The supplier's written",
+            "b": "Acceptance sealed the deal"
+          },
+          {
+            "a": "Silence generally does not count as",
+            "b": "Acceptance"
+          },
+          {
+            "a": "The buyer's",
+            "b": "Acceptance was posted the same day"
+          },
+          {
+            "a": "Courts examined whether valid",
+            "b": "Acceptance had occurred"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "accipere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To take, receive",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "accipere",
+          "highlight": true
+        },
+        {
+          "text": " (to take); the moment a proposal is taken up and becomes binding.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "accipere",
+      "correctAnswer": "To take, receive",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Rescission",
+    "pronunciation": "ri-SIZH-uhn",
+    "pos": "noun",
+    "definition": "The cancellation of a contract, restoring the parties as far as possible to the position they held before it was made.",
+    "origin": "From Latin <strong>rescissio</strong> (a cutting off, cancelling), from rescindere (to cut back, annul), from re- (back) + scindere (to cut, split). English courts of equity adopted the term in the 17th century for the power to cut away a contract entirely.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Rescission</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin rescissio",
+            "b": "A cutting off, cancelling"
+          },
+          {
+            "a": "Latin rescindere",
+            "b": "To cut back, annul"
+          },
+          {
+            "a": "Latin re- + scindere",
+            "b": "Back + to cut, split"
+          },
+          {
+            "a": "Adopted by English courts of equity in the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Rescission</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Rescission cancels a contract and restores the parties to their position",
+            "b": "Before it was made"
+          },
+          {
+            "a": "Rescission is often available where a contract was induced by",
+            "b": "Misrepresentation or fraud"
+          },
+          {
+            "a": "Unlike termination, rescission treats the contract as if it",
+            "b": "Never existed"
+          },
+          {
+            "a": "A party seeking rescission may need to return any",
+            "b": "Benefit already received"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Rescission</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The buyer sought",
+            "b": "Rescission of the contract for fraud"
+          },
+          {
+            "a": "The court granted",
+            "b": "Rescission and ordered the deposit returned"
+          },
+          {
+            "a": "She demanded",
+            "b": "Rescission after discovering the misrepresentation"
+          },
+          {
+            "a": "The lawyers argued the case did not warrant",
+            "b": "Rescission"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "rescindere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To cut back, annul",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "rescindere",
+          "highlight": true
+        },
+        {
+          "text": " (to cut back); cutting a contract away as though it never existed.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "rescindere",
+      "correctAnswer": "To cut back, annul",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Default",
+    "pronunciation": "dih-FAWLT",
+    "pos": "noun",
+    "definition": "The failure to fulfill a legal or contractual obligation, such as repaying a debt or performing a duty on time.",
+    "origin": "From Old French <strong>defaute</strong> (fault, lack), from Vulgar Latin defallita, from Latin de- (away) + fallere (to deceive, fail). Anglo-Norman legal usage from the 13th century applied it to a party's failure to appear in court or perform an owed duty.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Default</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French defaute",
+            "b": "Fault, lack"
+          },
+          {
+            "a": "Vulgar Latin defallita",
+            "b": "A failing"
+          },
+          {
+            "a": "Latin de- + fallere",
+            "b": "Away + to deceive, fail"
+          },
+          {
+            "a": "Used in Anglo-Norman courts from the",
+            "b": "13th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Default</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Default is the failure to fulfill a legal or contractual",
+            "b": "Obligation"
+          },
+          {
+            "a": "A borrower in default has failed to make required",
+            "b": "Payments"
+          },
+          {
+            "a": "A default judgment is entered when a defendant fails to",
+            "b": "Respond or appear in court"
+          },
+          {
+            "a": "A 'default setting' figuratively means the",
+            "b": "Standard option if nothing is changed"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Default</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The bank declared the borrower in",
+            "b": "Default"
+          },
+          {
+            "a": "The court entered a",
+            "b": "Default judgment against the absent defendant"
+          },
+          {
+            "a": "Missing three payments triggered",
+            "b": "Default"
+          },
+          {
+            "a": "Nations negotiated to avoid a sovereign debt",
+            "b": "Default"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "fallere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To deceive, fail",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "fallere",
+          "highlight": true
+        },
+        {
+          "text": " (to fail); falling short of a promised obligation.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "fallere",
+      "correctAnswer": "To deceive, fail",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Encumbrance",
+    "pronunciation": "en-KUM-bruhns",
+    "pos": "noun",
+    "definition": "A claim, lien, or liability—such as a mortgage—attached to property that may reduce its value or restrict its transfer.",
+    "origin": "From Old French <strong>encombrer</strong> (to block, obstruct), from combre (a barrier or river obstruction), likely of Gaulish origin. English property law used the word from the 15th century for any claim that blocks or burdens a clear title.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Encumbrance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French encombrer",
+            "b": "To block, obstruct"
+          },
+          {
+            "a": "Old French combre",
+            "b": "A barrier or river obstruction"
+          },
+          {
+            "a": "Likely of",
+            "b": "Gaulish origin"
+          },
+          {
+            "a": "Adopted by English property law from the",
+            "b": "15th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Encumbrance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An encumbrance is a claim or liability attached to",
+            "b": "Property"
+          },
+          {
+            "a": "A mortgage is a common example of an",
+            "b": "Encumbrance"
+          },
+          {
+            "a": "An encumbrance can restrict a property's",
+            "b": "Sale or transfer"
+          },
+          {
+            "a": "A title search checks for any existing",
+            "b": "Encumbrances"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Encumbrance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The buyer's lawyer found an",
+            "b": "Encumbrance on the title"
+          },
+          {
+            "a": "The property was sold free of any",
+            "b": "Encumbrances"
+          },
+          {
+            "a": "Unpaid taxes created an",
+            "b": "Encumbrance on the estate"
+          },
+          {
+            "a": "The survey revealed an old",
+            "b": "Encumbrance no one had cleared"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "encombrer",
+        "rootLanguage": "Old French",
+        "rootMeaning": "To block, obstruct",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French ",
+          "highlight": false
+        },
+        {
+          "text": "encombrer",
+          "highlight": true
+        },
+        {
+          "text": " (to block); a claim that burdens or blocks a clear title.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "encombrer",
+      "correctAnswer": "To block, obstruct",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Title",
+    "pronunciation": "TY-tuhl",
+    "pos": "noun",
+    "definition": "The legal right to ownership of property, and the evidence establishing that right.",
+    "origin": "From Old French <strong>title</strong>, from Latin titulus (a label, inscription, or claim to honour). Latin titulus was used for the placard announcing a claim, and English law borrowed the sense by the 14th century for the formal claim of ownership over property.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Title</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French title",
+            "b": "Inscription, label, claim"
+          },
+          {
+            "a": "Latin titulus",
+            "b": "A label or inscription"
+          },
+          {
+            "a": "Originally described a",
+            "b": "Placard announcing a claim"
+          },
+          {
+            "a": "Adopted by English property law by the",
+            "b": "14th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Title</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Title is the legal right to",
+            "b": "Ownership of property"
+          },
+          {
+            "a": "A 'clear title' means the property is free of",
+            "b": "Disputes or encumbrances"
+          },
+          {
+            "a": "Title can be transferred by",
+            "b": "Deed"
+          },
+          {
+            "a": "A title search confirms who legally",
+            "b": "Owns the property"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Title</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The buyer insisted on a clear",
+            "b": "Title before closing"
+          },
+          {
+            "a": "The lawyer conducted a",
+            "b": "Title search"
+          },
+          {
+            "a": "A dispute arose over",
+            "b": "Title to the land"
+          },
+          {
+            "a": "The deed transferred",
+            "b": "Title to the new owner"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "titulus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "A label, inscription, claim",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "titulus",
+          "highlight": true
+        },
+        {
+          "text": " (a label); the formal claim announcing who owns what.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "titulus",
+      "correctAnswer": "A label, inscription, claim",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Tenancy",
+    "pronunciation": "TEN-uhn-see",
+    "pos": "noun",
+    "definition": "The legal right to occupy or hold property under a lease or similar arrangement, and the period for which that right lasts.",
+    "origin": "From Anglo-Norman <strong>tenaunt</strong> (holder), the present participle of Old French tenir (to hold), from Latin tenere (to hold). Feudal land law used tenant for anyone who \"held\" land from a lord, and tenancy came to describe the legal arrangement of that holding.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Tenancy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Anglo-Norman tenaunt",
+            "b": "Holder"
+          },
+          {
+            "a": "Old French tenir",
+            "b": "To hold"
+          },
+          {
+            "a": "Latin tenere",
+            "b": "To hold"
+          },
+          {
+            "a": "Feudal land law called anyone holding land from a lord a",
+            "b": "Tenant"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Tenancy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A tenancy is the legal right to occupy property under a",
+            "b": "Lease or similar arrangement"
+          },
+          {
+            "a": "A periodic tenancy renews automatically each",
+            "b": "Rent period"
+          },
+          {
+            "a": "A joint tenancy gives co-owners an equal, undivided",
+            "b": "Interest in the property"
+          },
+          {
+            "a": "At the end of a fixed-term tenancy, the tenant must generally",
+            "b": "Vacate or renew"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Tenancy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "They signed a twelve-month",
+            "b": "Tenancy agreement"
+          },
+          {
+            "a": "The landlord ended the",
+            "b": "Tenancy for non-payment of rent"
+          },
+          {
+            "a": "Siblings inherited the house as joint",
+            "b": "Tenants"
+          },
+          {
+            "a": "The dispute concerned the terms of the",
+            "b": "Tenancy"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "tenere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To hold",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "tenere",
+          "highlight": true
+        },
+        {
+          "text": " (to hold); the legal right to hold and occupy another's land.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "tenere",
+      "correctAnswer": "To hold",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Promissory note",
+    "pronunciation": "PROM-uh-sor-ee noht",
+    "pos": "noun",
+    "definition": "A signed written instrument containing an unconditional promise to pay a specified sum of money to a named party on demand or at a fixed future date.",
+    "origin": "From Latin <strong>promittere</strong> (to send forth, to promise), pro- (forward) + mittere (to send), combined with \"note,\" from Latin nota (a mark or sign used to record something). English merchants of the 17th century used the compound for a written, signed promise to pay a fixed sum, distinct from a mere verbal pledge.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Promissory note</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin promittere",
+            "b": "To send forth, promise"
+          },
+          {
+            "a": "Latin pro- + mittere",
+            "b": "Forward + to send"
+          },
+          {
+            "a": "Latin nota",
+            "b": "A mark or sign"
+          },
+          {
+            "a": "Merchants used the compound term from the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Promissory note</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A promissory note contains an unconditional promise to pay a",
+            "b": "Specified sum of money"
+          },
+          {
+            "a": "A promissory note must be",
+            "b": "Signed by the person making the promise"
+          },
+          {
+            "a": "Unlike a verbal pledge, a promissory note is a",
+            "b": "Written instrument"
+          },
+          {
+            "a": "A promissory note can be payable on demand or on a",
+            "b": "Fixed future date"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Promissory note</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The borrower signed a",
+            "b": "Promissory note for the loan"
+          },
+          {
+            "a": "The lender kept the",
+            "b": "Promissory note as evidence of the debt"
+          },
+          {
+            "a": "She used a",
+            "b": "Promissory note to formalise the private loan"
+          },
+          {
+            "a": "The court enforced the terms of the",
+            "b": "Promissory note"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "promittere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To send forth, promise",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "promittere",
+          "highlight": true
+        },
+        {
+          "text": " (to promise); a written, signed pledge to pay a fixed sum.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "promittere",
+      "correctAnswer": "To send forth, promise",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Adhesion",
+    "pronunciation": "ad-HEE-zhuhn",
+    "pos": "noun",
+    "definition": "Describing a standardized contract drafted entirely by one party and offered to the other on a take-it-or-leave-it basis, with no opportunity to negotiate its terms.",
+    "origin": "From Latin <strong>adhaesio</strong> (a sticking to), from adhaerere (to stick to), ad- (to) + haerere (to stick). American courts and scholars borrowed the physical image of two surfaces stuck fast in the mid-20th century to describe standardised contracts a weaker party can only \"stick to\" as offered, not negotiate.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Adhesion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin adhaesio",
+            "b": "A sticking to"
+          },
+          {
+            "a": "Latin adhaerere",
+            "b": "To stick to"
+          },
+          {
+            "a": "Latin ad- + haerere",
+            "b": "To + to stick"
+          },
+          {
+            "a": "Borrowed for standardised contracts by American courts in the",
+            "b": "Mid-20th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Adhesion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A contract of adhesion is drafted entirely by one party and offered on a",
+            "b": "Take-it-or-leave-it basis"
+          },
+          {
+            "a": "The weaker party to a contract of adhesion has little or no power to",
+            "b": "Negotiate its terms"
+          },
+          {
+            "a": "Courts may scrutinise unfair terms buried in a",
+            "b": "Contract of adhesion"
+          },
+          {
+            "a": "Standard insurance and phone contracts are classic examples of",
+            "b": "Adhesion contracts"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Adhesion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The clause was struck down as part of a",
+            "b": "Contract of adhesion"
+          },
+          {
+            "a": "Consumers rarely read the fine print of an",
+            "b": "Adhesion contract"
+          },
+          {
+            "a": "The judge noted the stark bargaining imbalance typical of",
+            "b": "Adhesion"
+          },
+          {
+            "a": "Scholars debate how far courts should police",
+            "b": "Contracts of adhesion"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "adhaerere",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To stick to",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "adhaerere",
+          "highlight": true
+        },
+        {
+          "text": " (to stick to); terms a weaker party can only stick to, not negotiate.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "adhaerere",
+      "correctAnswer": "To stick to",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Force majeure",
+    "pronunciation": "fors mah-ZHUR",
+    "pos": "noun",
+    "definition": "A contract clause excusing a party from performance when an extraordinary event beyond its control—such as war, natural disaster, or civil unrest—makes performance impossible.",
+    "origin": "Borrowed directly from French <strong>force majeure</strong> (superior force), from Latin fortia (strength) and maior (greater). The phrase entered the Napoleonic Code of 1804 as a defence excusing performance made impossible by overwhelming external events, and English-language contracts adopted the French term itself rather than translating it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Force majeure</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "French force majeure",
+            "b": "Superior force"
+          },
+          {
+            "a": "Latin fortia",
+            "b": "Strength"
+          },
+          {
+            "a": "Latin maior",
+            "b": "Greater"
+          },
+          {
+            "a": "Entered the Napoleonic Code in",
+            "b": "1804"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Force majeure</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A force majeure clause excuses performance made impossible by an",
+            "b": "Extraordinary event beyond a party's control"
+          },
+          {
+            "a": "Typical force majeure events include war, natural disaster, and",
+            "b": "Civil unrest"
+          },
+          {
+            "a": "Unlike frustration, force majeure usually applies only when the contract",
+            "b": "Expressly names the clause"
+          },
+          {
+            "a": "Force majeure does not usually excuse events a party could have",
+            "b": "Reasonably foreseen and avoided"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Force majeure</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The supplier invoked",
+            "b": "Force majeure after the factory flooded"
+          },
+          {
+            "a": "Lawyers debated whether the pandemic counted as",
+            "b": "Force majeure"
+          },
+          {
+            "a": "The contract's",
+            "b": "Force majeure clause listed specific qualifying events"
+          },
+          {
+            "a": "Without a",
+            "b": "Force majeure clause, the airline remained liable"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "force majeure",
+        "rootLanguage": "French",
+        "rootMeaning": "Superior force",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "Borrowed from French ",
+          "highlight": false
+        },
+        {
+          "text": "force majeure",
+          "highlight": true
+        },
+        {
+          "text": " (superior force); events too overwhelming to perform against.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "force majeure",
+      "correctAnswer": "Superior force",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Liquidated damages",
+    "pronunciation": "LIK-wi-day-tid DAM-ij-iz",
+    "pos": "noun",
+    "definition": "A sum the parties agree in advance will be paid as compensation for a specified breach, set as a genuine pre-estimate of loss rather than a penalty.",
+    "origin": "From Latin <strong>liquidare</strong> (to make clear, to settle an account), from liquidus (clear, fluid), paired with \"damages,\" from Old French damage, from Latin damnum (loss, harm). English contract law used \"liquidated\" from the 17th century in its accounting sense of a sum made certain and fixed in advance, rather than left for a court to calculate.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Liquidated damages</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin liquidare",
+            "b": "To make clear, settle an account"
+          },
+          {
+            "a": "Latin liquidus",
+            "b": "Clear, fluid"
+          },
+          {
+            "a": "Old French damage",
+            "b": "Loss, harm"
+          },
+          {
+            "a": "Latin damnum",
+            "b": "Loss"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Liquidated damages</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Liquidated damages are a sum the parties agree in advance to pay for a specified",
+            "b": "Breach"
+          },
+          {
+            "a": "Liquidated damages must be a genuine pre-estimate of loss, not a",
+            "b": "Penalty"
+          },
+          {
+            "a": "Courts will strike down liquidated damages clauses that are found to be",
+            "b": "Punitive rather than compensatory"
+          },
+          {
+            "a": "Liquidated damages save the parties from having to prove exact",
+            "b": "Loss in court"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Liquidated damages</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The contract set",
+            "b": "Liquidated damages of one thousand dollars per day of delay"
+          },
+          {
+            "a": "The developer paid the agreed",
+            "b": "Liquidated damages for the late handover"
+          },
+          {
+            "a": "The court found the clause an unenforceable penalty, not true",
+            "b": "Liquidated damages"
+          },
+          {
+            "a": "Construction contracts commonly include",
+            "b": "Liquidated damages provisions"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "liquidare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To make clear, settle an account",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "liquidare",
+          "highlight": true
+        },
+        {
+          "text": " (to make clear); a fixed, pre-agreed sum standing in for actual loss.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "liquidare",
+      "correctAnswer": "To make clear, settle an account",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Specific performance",
+    "pronunciation": "spuh-SIF-ik pur-FOR-muhns",
+    "pos": "noun",
+    "definition": "An equitable remedy compelling a party to carry out its exact obligations under a contract, ordered when monetary damages would be inadequate.",
+    "origin": "From Latin <strong>specificus</strong> (of a particular kind), from species (kind, appearance) + facere (to make), combined with \"performance,\" from Old French parfournir (to carry out fully), par- (thoroughly) + fournir (to furnish). English equity courts developed the phrase in the 18th century for ordering the exact, specific act promised, rather than merely awarding money.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Specific performance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin specificus",
+            "b": "Of a particular kind"
+          },
+          {
+            "a": "Latin species + facere",
+            "b": "Kind + to make"
+          },
+          {
+            "a": "Old French parfournir",
+            "b": "To carry out fully"
+          },
+          {
+            "a": "Equity courts developed the remedy in the",
+            "b": "18th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Specific performance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Specific performance is an equitable remedy compelling a party to carry out its exact",
+            "b": "Contractual obligations"
+          },
+          {
+            "a": "Courts order specific performance when monetary damages would be",
+            "b": "Inadequate"
+          },
+          {
+            "a": "Specific performance is common in disputes over",
+            "b": "Unique property, such as land"
+          },
+          {
+            "a": "Courts rarely order specific performance of contracts requiring",
+            "b": "Personal services"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Specific performance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The buyer sued for",
+            "b": "Specific performance to force the sale of the land"
+          },
+          {
+            "a": "The court granted",
+            "b": "Specific performance rather than mere damages"
+          },
+          {
+            "a": "Since the painting was unique, the judge ordered",
+            "b": "Specific performance"
+          },
+          {
+            "a": "The seller resisted the claim for",
+            "b": "Specific performance"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "specificus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Of a particular kind",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "specificus",
+          "highlight": true
+        },
+        {
+          "text": " (of a particular kind); a court ordering the exact act once promised.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "specificus",
+      "correctAnswer": "Of a particular kind",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Accord",
+    "pronunciation": "uh-KORD",
+    "pos": "noun",
+    "definition": "An agreement in which one party accepts a different performance than originally promised in full satisfaction of an existing obligation.",
+    "origin": "From Old French <strong>acorder</strong> (to reconcile, agree), from Latin ad- (to) + cor (heart)—literally \"to bring hearts together.\" English contract law paired it with \"satisfaction\" from the 16th century for an agreement to accept different performance in place of an original, disputed obligation.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Accord</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French acorder",
+            "b": "To reconcile, agree"
+          },
+          {
+            "a": "Latin ad- + cor",
+            "b": "To + heart"
+          },
+          {
+            "a": "Literally meant to",
+            "b": "Bring hearts together"
+          },
+          {
+            "a": "Paired with 'satisfaction' in contract law from the",
+            "b": "16th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Accord</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An accord is an agreement to accept different performance in place of an",
+            "b": "Original, disputed obligation"
+          },
+          {
+            "a": "An accord becomes binding only once the new performance is",
+            "b": "Actually carried out, or 'satisfied'"
+          },
+          {
+            "a": "Accord and satisfaction can settle a dispute without",
+            "b": "Going to court"
+          },
+          {
+            "a": "Until satisfaction occurs, the original obligation",
+            "b": "Remains in force"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Accord</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The parties reached an",
+            "b": "Accord and satisfaction over the unpaid invoice"
+          },
+          {
+            "a": "Both sides signed an",
+            "b": "Accord to settle the dispute"
+          },
+          {
+            "a": "The debtor offered a lump sum in",
+            "b": "Accord for the larger debt"
+          },
+          {
+            "a": "Once the payment cleared, the",
+            "b": "Accord was satisfied"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "cor",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Heart",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "cor",
+          "highlight": true
+        },
+        {
+          "text": " (heart); an agreement that brings two disputing sides into one mind.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "cor",
+      "correctAnswer": "Heart",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Parol evidence",
+    "pronunciation": "puh-ROHL EV-i-duhns",
+    "pos": "noun",
+    "definition": "Evidence of prior or contemporaneous oral or written statements offered to add to, contradict, or explain the terms of a written contract, generally excluded once the writing is final.",
+    "origin": "From Old French <strong>parole</strong> (word, speech), from Late Latin parabola (a comparison, a speech). Medieval English courts distinguished a sealed written deed from mere parol—spoken—promises, and the phrase survives in the modern rule limiting oral evidence against a final written contract.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Parol evidence</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French parole",
+            "b": "Word, speech"
+          },
+          {
+            "a": "Late Latin parabola",
+            "b": "A comparison, a speech"
+          },
+          {
+            "a": "Medieval courts distinguished sealed deeds from mere",
+            "b": "Spoken promises"
+          },
+          {
+            "a": "The phrase survives in the modern",
+            "b": "Parol evidence rule"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Parol evidence</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Parol evidence refers to prior or contemporaneous statements offered to add to or contradict a",
+            "b": "Written contract"
+          },
+          {
+            "a": "The parol evidence rule generally excludes such statements once a writing is",
+            "b": "Final and complete"
+          },
+          {
+            "a": "Parol evidence may still be admitted to show",
+            "b": "Fraud, mistake, or ambiguity"
+          },
+          {
+            "a": "The rule protects the certainty of a",
+            "b": "Final written agreement"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Parol evidence</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The judge excluded the email as inadmissible",
+            "b": "Parol evidence"
+          },
+          {
+            "a": "Lawyers argued over whether the",
+            "b": "Parol evidence rule applied"
+          },
+          {
+            "a": "The witness's account of the phone call was ruled",
+            "b": "Parol evidence"
+          },
+          {
+            "a": "The written contract was treated as the parties'",
+            "b": "Complete agreement, barring parol evidence"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "parole",
+        "rootLanguage": "Old French",
+        "rootMeaning": "Word, speech",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Old French ",
+          "highlight": false
+        },
+        {
+          "text": "parole",
+          "highlight": true
+        },
+        {
+          "text": " (word, speech); spoken words weighed against the final written deal.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "parole",
+      "correctAnswer": "Word, speech",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Guarantee",
+    "pronunciation": "ga-ruhn-TEE",
+    "pos": "noun",
+    "definition": "A promise by one party to answer for the debt, default, or obligation of another if that party fails to perform.",
+    "origin": "A variant of <strong>warranty</strong>, altered under the influence of French garantir and Spanish garantía, all tracing to the same Germanic root warjan (to defend, protect) that gives English \"ward.\" Merchants and lawyers used the \"g\" spelling from the 17th century for a promise to answer for another party's debt if they failed to pay.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Guarantee</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Variant of",
+            "b": "Warranty"
+          },
+          {
+            "a": "Influenced by French",
+            "b": "Garantir"
+          },
+          {
+            "a": "Germanic root warjan",
+            "b": "To defend, protect"
+          },
+          {
+            "a": "The 'g' spelling was used by merchants from the",
+            "b": "17th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Guarantee</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "A guarantee is a promise to answer for another party's debt if they",
+            "b": "Fail to pay or perform"
+          },
+          {
+            "a": "A guarantor's liability is usually",
+            "b": "Secondary to the main debtor's"
+          },
+          {
+            "a": "A personal guarantee lets a lender pursue an individual's",
+            "b": "Personal assets"
+          },
+          {
+            "a": "A guarantee differs from a warranty because it concerns another party's",
+            "b": "Default, not the quality of goods"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Guarantee</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The landlord required a personal",
+            "b": "Guarantee from the tenant's parent"
+          },
+          {
+            "a": "The bank refused the loan without a",
+            "b": "Guarantee"
+          },
+          {
+            "a": "She signed a",
+            "b": "Guarantee for her son's business loan"
+          },
+          {
+            "a": "The supplier demanded a",
+            "b": "Guarantee of payment before shipping"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "warjan",
+        "rootLanguage": "Germanic",
+        "rootMeaning": "To defend, protect",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Germanic ",
+          "highlight": false
+        },
+        {
+          "text": "warjan",
+          "highlight": true
+        },
+        {
+          "text": " (to protect); standing behind another party's unpaid debt.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "warjan",
+      "correctAnswer": "To defend, protect",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Assignment",
+    "pronunciation": "uh-SYN-muhnt",
+    "pos": "noun",
+    "definition": "The transfer of a party's rights or benefits under a contract to a third party.",
+    "origin": "From Old French <strong>assigner</strong> (to allot, appoint), from Latin assignare, ad- (to) + signare (to mark out, seal). Property law adopted the term in the 14th century for formally \"marking out\" and transferring a right or interest to someone else.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Assignment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French assigner",
+            "b": "To allot, appoint"
+          },
+          {
+            "a": "Latin assignare",
+            "b": "To mark out, allot"
+          },
+          {
+            "a": "Latin ad- + signare",
+            "b": "To + to mark, seal"
+          },
+          {
+            "a": "Adopted by property law in the",
+            "b": "14th century"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Assignment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "An assignment transfers a party's rights or benefits under a contract to a",
+            "b": "Third party"
+          },
+          {
+            "a": "Most contract rights can be assigned unless the contract expressly",
+            "b": "Forbids it"
+          },
+          {
+            "a": "The party transferring rights is the assignor, and the party receiving them is the",
+            "b": "Assignee"
+          },
+          {
+            "a": "An assignment usually does not transfer the assignor's underlying",
+            "b": "Duties, only its rights"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Assignment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The lender executed an",
+            "b": "Assignment of the mortgage to a new bank"
+          },
+          {
+            "a": "The tenant sought consent for the",
+            "b": "Assignment of the lease"
+          },
+          {
+            "a": "The author signed an",
+            "b": "Assignment of copyright to the publisher"
+          },
+          {
+            "a": "The dispute centred on whether the",
+            "b": "Assignment was valid"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "assignare",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To mark out, allot",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "assignare",
+          "highlight": true
+        },
+        {
+          "text": " (to mark out); handing a contractual right on to someone else.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "assignare",
+      "correctAnswer": "To mark out, allot",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Frustration",
+    "pronunciation": "fruh-STRAY-shuhn",
+    "pos": "noun",
+    "definition": "The automatic discharge of a contract when an unforeseen event, through no fault of either party, makes performance impossible or radically different from what was agreed.",
+    "origin": "From Latin <strong>frustratio</strong> (a deception, a disappointment), from frustrari (to deceive, frustrate), from frustra (in vain). English contract law adopted the everyday sense of thwarted effort in the early 20th century, most notably after a 1903 English case about a cancelled coronation procession, for a doctrine discharging contracts made impossible by unforeseen events.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Frustration</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Latin frustratio",
+            "b": "A deception, disappointment"
+          },
+          {
+            "a": "Latin frustrari",
+            "b": "To deceive, frustrate"
+          },
+          {
+            "a": "Latin frustra",
+            "b": "In vain"
+          },
+          {
+            "a": "Adopted as a contract doctrine after a famous",
+            "b": "1903 coronation case"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Frustration</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Frustration automatically discharges a contract when an unforeseen event makes performance",
+            "b": "Impossible or radically different"
+          },
+          {
+            "a": "Frustration must arise through no fault of",
+            "b": "Either party"
+          },
+          {
+            "a": "Unlike breach, frustration excuses",
+            "b": "Both parties from further performance"
+          },
+          {
+            "a": "A contract is not frustrated merely because it has become",
+            "b": "More expensive to perform"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Frustration</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The cancelled coronation left the room-hire contract",
+            "b": "Frustrated"
+          },
+          {
+            "a": "The court held the destroyed warehouse",
+            "b": "Frustrated the supply contract"
+          },
+          {
+            "a": "The pandemic led many businesses to argue",
+            "b": "Frustration of their leases"
+          },
+          {
+            "a": "The tribunal rejected the claim of",
+            "b": "Frustration, finding performance still possible"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "frustrari",
+        "rootLanguage": "Latin",
+        "rootMeaning": "To deceive, frustrate",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "frustrari",
+          "highlight": true
+        },
+        {
+          "text": " (to frustrate); a contract thwarted beyond either party's control.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "frustrari",
+      "correctAnswer": "To deceive, frustrate",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Privity",
+    "pronunciation": "PRIV-i-tee",
+    "pos": "noun",
+    "definition": "The direct legal relationship between the parties to a contract that generally allows only those parties to sue or be sued on it.",
+    "origin": "From Old French <strong>privete</strong> (privacy, a private matter), from Latin privatus (private, restricted to an individual). English contract law adopted the term by the 16th century for the private, direct bond linking only the actual parties to an agreement, excluding outsiders from suing on it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": {
+      "id": "law-contracts",
+      "name": "Contracts & Property",
+      "packId": "law"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Privity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          {
+            "a": "Old French privete",
+            "b": "Privacy, a private matter"
+          },
+          {
+            "a": "Latin privatus",
+            "b": "Private, restricted to an individual"
+          },
+          {
+            "a": "Adopted by English contract law by the",
+            "b": "16th century"
+          },
+          {
+            "a": "Describes the direct bond linking only the",
+            "b": "Actual contracting parties"
+          }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Privity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          {
+            "a": "Privity of contract describes the direct legal relationship between the",
+            "b": "Parties to a contract"
+          },
+          {
+            "a": "Under traditional privity rules, only the actual parties may",
+            "b": "Sue or be sued on the contract"
+          },
+          {
+            "a": "Modern statutes have carved out exceptions allowing some",
+            "b": "Third parties to enforce a contract"
+          },
+          {
+            "a": "A person outside the privity of a contract is generally called a",
+            "b": "Third party"
+          }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Privity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          {
+            "a": "The subcontractor could not sue because it lacked",
+            "b": "Privity with the homeowner"
+          },
+          {
+            "a": "The court examined whether",
+            "b": "Privity of contract existed between the two firms"
+          },
+          {
+            "a": "The statute created an exception to the doctrine of",
+            "b": "Privity"
+          },
+          {
+            "a": "Without",
+            "b": "Privity, the beneficiary could not enforce the promise directly"
+          }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "privatus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Private, restricted to an individual",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        {
+          "text": "From Latin ",
+          "highlight": false
+        },
+        {
+          "text": "privatus",
+          "highlight": true
+        },
+        {
+          "text": " (private); the private bond that links only the actual contracting parties.",
+          "highlight": false
+        }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "privatus",
+      "correctAnswer": "Private, restricted to an individual",
+      "hint": "Check the highlighted root(s) in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Pharaoh",
+    "pronunciation": "FAIR-oh",
+    "pos": "noun",
+    "definition": "The title of an ancient Egyptian king, believed to be a living god who ruled over both the mortal and divine realms.",
+    "origin": "From Egyptian <strong>per-aa</strong>, literally \"great house,\" a term that originally named the royal palace itself rather than the ruler inside it. Only by the New Kingdom (around 1500 BC) did scribes begin using the phrase as a respectful way to refer to the king, much as \"the White House\" can stand in for a president. The word reached English via Hebrew <em>par'oh</em> and Greek <em>pharao</em>.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pharaoh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Egyptian per-aa", "b": "Literally \"great house\"" },
+          { "a": "Originally named", "b": "The royal palace, not the king" },
+          { "a": "Became a royal title around", "b": "1500 BC, the New Kingdom" },
+          { "a": "Reached English via", "b": "Hebrew and Greek" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pharaoh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pharaoh ruled as", "b": "A living god over Egypt" },
+          { "a": "The pharaoh's rule united", "b": "Upper and Lower Egypt" },
+          { "a": "Pharaohs were buried in", "b": "Pyramids or hidden royal tombs" },
+          { "a": "The title eventually applied to", "b": "Both kings and reigning queens" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pharaoh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The exhibit displayed the gold mask of a", "b": "pharaoh" },
+          { "a": "Archaeologists traced the tomb to a little-known", "b": "pharaoh" },
+          { "a": "In the film, the", "b": "pharaoh commanded his armies from a golden chariot" },
+          { "a": "The inscription names her as", "b": "pharaoh in her own right" }
+        ] }
+    ],
+    "roots": [ { "rootText": "per-aa", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Great house (the royal palace)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Egyptian ", "highlight": false }, { "text": "per-aa", "highlight": true }, { "text": ", \"great house\" — a word for the palace that came to name the king within it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "per-aa", "correctAnswer": "Great house (the royal palace)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mummy",
+    "pronunciation": "MUM-ee",
+    "pos": "noun",
+    "definition": "A body, especially an ancient Egyptian one, preserved after death through embalming and wrapping so that it resists decay.",
+    "origin": "English <strong>mummy</strong> descends from medieval Arabic <em>mumiya</em>, itself from Persian <strong>mum</strong> (\"wax\" or \"bitumen\"). Medieval traders believed Egyptian embalmed bodies had been coated in bitumen, both because of their blackened appearance and because ground \"mumiya\" was sold across Europe as a medicine. Only later did Egyptologists confirm the dark colour came from resins and natron salts, not tar.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mummy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Persian mum", "b": "Wax or bitumen" },
+          { "a": "Arabic mumiya meant", "b": "Bitumen used in preservation" },
+          { "a": "Medieval Europeans believed bodies were", "b": "Coated in tar-like bitumen" },
+          { "a": "Ground mummy was once sold as", "b": "A medicine" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mummy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A mummy is a body preserved by", "b": "Embalming and wrapping" },
+          { "a": "Egyptian mummification removed", "b": "Internal organs before wrapping" },
+          { "a": "The dark colour of mummies actually comes from", "b": "Resins and natron salt, not tar" },
+          { "a": "Natural mummies can also form through", "b": "Extreme cold, dryness, or bogs" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mummy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The museum's star attraction was a 3,000-year-old", "b": "mummy" },
+          { "a": "Archaeologists carefully unwrapped the linen around the", "b": "mummy" },
+          { "a": "The CT scan revealed jewellery hidden inside the", "b": "mummy's wrappings" },
+          { "a": "Tourists filed past the glass case holding the royal", "b": "mummy" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mum", "rootLanguage": "Persian", "rootMeaning": "Wax, bitumen", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Persian ", "highlight": false }, { "text": "mum", "highlight": true }, { "text": " (\"wax\"), via Arabic mumiya — Europeans mistook embalmed skin for tar.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mum", "correctAnswer": "Wax, bitumen", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Obelisk",
+    "pronunciation": "OB-uh-lisk",
+    "pos": "noun",
+    "definition": "A tall, four-sided stone pillar that tapers to a pyramid-shaped point, originally carved by the ancient Egyptians to honour the sun god.",
+    "origin": "<strong>Obelisk</strong> comes from Greek <em>obeliskos</em>, a diminutive of <strong>obelos</strong> (\"spit\" or \"pointed pillar\"), the same root that gives English the typographical dagger mark called an obelus. Greek visitors used the word for the single-shaft stone monuments the Egyptians called <em>tekhenu</em>, which stood in pairs before temple gates and were often capped in electrum to catch the sun. Several were later shipped to Rome, Paris, London, and New York as trophies of empire.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Obelisk</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek obeliskos", "b": "Diminutive of obelos, \"pointed pillar\"" },
+          { "a": "Egyptians called them", "b": "Tekhenu" },
+          { "a": "Obelisks stood in pairs at", "b": "Temple gateways" },
+          { "a": "Later taken abroad as", "b": "Trophies for Rome, Paris, London, New York" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Obelisk</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An obelisk is shaped like", "b": "A tall, tapering four-sided pillar" },
+          { "a": "Its pointed tip is called a", "b": "Pyramidion" },
+          { "a": "Obelisks honoured", "b": "The sun god Ra" },
+          { "a": "Egyptian obelisks were carved from", "b": "A single piece of granite" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Obelisk</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists gathered around the ancient", "b": "obelisk in the city square" },
+          { "a": "The plaza's centrepiece is a genuine Egyptian", "b": "obelisk" },
+          { "a": "Engineers marvelled at how one block of granite became an", "b": "obelisk over twenty metres tall" },
+          { "a": "Cleopatra's Needle is actually an", "b": "obelisk that predates Cleopatra by centuries" }
+        ] }
+    ],
+    "roots": [ { "rootText": "obelos", "rootLanguage": "Greek", "rootMeaning": "Spit, pointed pillar", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "obelos", "highlight": true }, { "text": " (\"pointed pillar\"); the Greek name for Egypt's sun-tipped granite needles.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "obelos", "correctAnswer": "Spit, pointed pillar", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hieroglyph",
+    "pronunciation": "HY-ruh-glif",
+    "pos": "noun",
+    "definition": "A picture or symbol used in the ancient Egyptian writing system, in which signs represented sounds, objects, or ideas.",
+    "origin": "<strong>Hieroglyph</strong> comes from Greek <strong>hieros</strong> (\"sacred\") + <em>glyphein</em> (\"to carve\"), coined because Greek visitors saw the script chiselled onto temple walls and tombs. The Egyptians themselves called their writing <em>medu netjer</em>, \"the words of the god,\" believing Thoth had invented it. For nearly 1,400 years after Egypt's last native temples closed, no one could read the signs, until the Rosetta Stone provided the key.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hieroglyph</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek hieros", "b": "Sacred" },
+          { "a": "Greek glyphein", "b": "To carve" },
+          { "a": "Egyptians called their script", "b": "Medu netjer, \"words of the god\"" },
+          { "a": "The script was deciphered using", "b": "The Rosetta Stone" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hieroglyph</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hieroglyph can represent", "b": "A sound, an object, or an idea" },
+          { "a": "Hieroglyphic writing was mainly carved on", "b": "Temple and tomb walls" },
+          { "a": "A related cursive script for daily use was called", "b": "Hieratic, later demotic" },
+          { "a": "For centuries hieroglyphs were thought to be", "b": "Purely symbolic, not phonetic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hieroglyph</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Scholars spent decades trying to translate the carved", "b": "hieroglyphs" },
+          { "a": "The tomb walls were covered floor to ceiling in painted", "b": "hieroglyphs" },
+          { "a": "She pointed out the falcon symbol among the", "b": "hieroglyphs" },
+          { "a": "Without the Rosetta Stone, the", "b": "hieroglyphs might still be unreadable" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hieros", "rootLanguage": "Greek", "rootMeaning": "Sacred", "showInIntro": true }, { "rootText": "glyphein", "rootLanguage": "Greek", "rootMeaning": "To carve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "hieros", "highlight": true }, { "text": " (\"sacred\") + glyphein (\"to carve\") — sacred carvings the Egyptians called the words of the god.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hieros", "correctAnswer": "Sacred", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Scarab",
+    "pronunciation": "SKAIR-ub",
+    "pos": "noun",
+    "definition": "A dung beetle, or an amulet carved in its likeness, that ancient Egyptians used as a symbol of rebirth and protection.",
+    "origin": "<strong>Scarab</strong> comes from Latin <em>scarabaeus</em>, the dung beetle, which Egyptians watched roll balls of dung across the sand and hatch new beetles from within them. They linked this to <strong>Khepri</strong>, a god who rolled the sun across the sky each day and was reborn each dawn, so scarab amulets became a favourite charm for rebirth, protection, and good luck, often placed over a mummy's heart.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Scarab</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin scarabaeus", "b": "Dung beetle" },
+          { "a": "Egyptians watched beetles", "b": "Roll dung balls and hatch young" },
+          { "a": "Linked the beetle to the god", "b": "Khepri, who rolled the sun each day" },
+          { "a": "Scarab amulets were placed over", "b": "A mummy's heart" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Scarab</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A scarab amulet symbolised", "b": "Rebirth and renewal" },
+          { "a": "The scarab was sacred to the god", "b": "Khepri" },
+          { "a": "Scarabs were carved from", "b": "Stone, faience, or precious metal" },
+          { "a": "Heart scarabs were inscribed with a spell to", "b": "Silence the heart at judgement" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Scarab</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gift shop sold tiny stone", "b": "scarabs on cord necklaces" },
+          { "a": "Beneath the mummy's bandages lay a jewelled", "b": "scarab" },
+          { "a": "The seal ring was carved in the shape of a", "b": "scarab" },
+          { "a": "Excavators found dozens of inscribed", "b": "scarabs in the tomb's rubble" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Khepri", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Scarab-headed god who rolled the sun across the sky", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Sacred to ", "highlight": false }, { "text": "Khepri", "highlight": true }, { "text": ", the scarab-headed god who rolled the sun across the sky and was reborn each dawn.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Khepri", "correctAnswer": "Scarab-headed god who rolled the sun across the sky", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ammonia",
+    "pronunciation": "uh-MOHN-yuh",
+    "pos": "noun",
+    "definition": "A colourless, sharp-smelling gas made of nitrogen and hydrogen, widely used in cleaning products and fertilisers.",
+    "origin": "<strong>Ammonia</strong> is named for the <strong>Temple of Amun</strong> (called Jupiter Ammon by the Romans) at the Siwa Oasis in the Libyan desert. Ancient travellers collected white salt deposits, formed partly from camel dung, near the temple, which Romans called <em>sal ammoniacus</em>, \"salt of Ammon.\" In 1782 the Swedish chemist Torbern Bergman isolated the gas from this salt and gave it the name we still use.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ammonia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Temple of Amun stood at", "b": "The Siwa Oasis, Libya" },
+          { "a": "Romans called Amun's shrine", "b": "Jupiter Ammon" },
+          { "a": "Salt collected nearby was called", "b": "Sal ammoniacus, \"salt of Ammon\"" },
+          { "a": "Named the gas in 1782", "b": "Torbern Bergman" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ammonia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ammonia gas is made of", "b": "Nitrogen and hydrogen" },
+          { "a": "Ammonia has a sharp smell often used in", "b": "Cleaning products" },
+          { "a": "Industrially, ammonia is a key ingredient in", "b": "Fertiliser" },
+          { "a": "Ammonium chloride, its original source, forms near", "b": "Volcanic vents and desert oases" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ammonia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bathroom cleaner reeked of", "b": "ammonia" },
+          { "a": "Farmers rely on synthetic", "b": "ammonia to fertilise their fields" },
+          { "a": "She recoiled at the sharp sting of", "b": "ammonia fumes" },
+          { "a": "The lab stored the", "b": "ammonia solution behind a fume hood" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Amun", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Ram-headed god worshipped at the Siwa Oasis temple", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the salt gathered near the temple of ", "highlight": false }, { "text": "Amun", "highlight": true }, { "text": " at Siwa — a desert god who unexpectedly gave chemistry its word for ammonia.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Amun", "correctAnswer": "Ram-headed god worshipped at the Siwa Oasis temple", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Embalm",
+    "pronunciation": "im-BAHM",
+    "pos": "verb",
+    "definition": "To treat a corpse with preservatives to prevent decay, historically using aromatic oils, resins, and salts.",
+    "origin": "<strong>Embalm</strong> comes from Old French <em>embaumer</em>, from <strong>en-</strong> (\"in\") + <em>basme</em> (\"balm\"), ultimately from Latin <em>balsamum</em> and Greek <em>balsamon</em>, an aromatic resin. The word entered English describing exactly the kind of treatment Egyptian priests practised for over two thousand years: packing a body with natron salt, then anointing it with resins, oils, and spices before wrapping it in linen.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Embalm</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French embaumer combined", "b": "en- (\"in\") + basme (\"balm\")" },
+          { "a": "Ultimately from Latin", "b": "Balsamum, an aromatic resin" },
+          { "a": "Egyptian priests packed bodies with", "b": "Natron salt" },
+          { "a": "After drying, bodies were anointed with", "b": "Resins, oils, and spices" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Embalm</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To embalm a body means to", "b": "Treat it with preservatives against decay" },
+          { "a": "Egyptian embalming took roughly", "b": "Seventy days from start to burial" },
+          { "a": "Embalmers removed most organs except the", "b": "Heart" },
+          { "a": "Modern embalming typically uses", "b": "Formaldehyde-based fluid" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Embalm</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The priests took seventy days to", "b": "embalm the pharaoh's body" },
+          { "a": "Funeral homes today still", "b": "embalm bodies before viewing" },
+          { "a": "The papyrus described exactly how to", "b": "embalm and wrap a corpse" },
+          { "a": "Ancient Egyptians believed you had to", "b": "embalm the dead to preserve them for the afterlife" }
+        ] }
+    ],
+    "roots": [ { "rootText": "balsamon", "rootLanguage": "Greek", "rootMeaning": "Aromatic resin, balm", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "balsamon", "highlight": true }, { "text": " (\"balm\"), via Latin and French — the resin-based art Egyptian priests practised for two thousand years.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "balsamon", "correctAnswer": "Aromatic resin, balm", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Canopic",
+    "pronunciation": "kuh-NOH-pik",
+    "pos": "adjective",
+    "definition": "Describing the four jars used in ancient Egyptian burial to store a mummy's embalmed internal organs.",
+    "origin": "<strong>Canopic</strong> derives from <strong>Canopus</strong>, an ancient city in the Nile Delta where, according to a Greek legend, the pilot of Menelaus's ship died and was worshipped there in the form of a jar with a human head. Renaissance and later antiquarians borrowed this unrelated legend to name the four Egyptian jars — each guarded by a son of the god Horus — that held the mummified liver, lungs, stomach, and intestines.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Canopic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Canopus was", "b": "An ancient city in the Nile Delta" },
+          { "a": "Greek legend told of", "b": "A jar-worshipped pilot named Canopus" },
+          { "a": "Antiquarians borrowed the name for", "b": "Egyptian organ jars" },
+          { "a": "Each jar was guarded by", "b": "A son of the god Horus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Canopic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Canopic jars stored a mummy's", "b": "Liver, lungs, stomach, and intestines" },
+          { "a": "The heart was left inside the body because", "b": "Egyptians believed it held the mind and soul" },
+          { "a": "Canopic jar lids were often shaped like", "b": "Animal or human heads" },
+          { "a": "The four guardian gods were collectively called", "b": "The Sons of Horus" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Canopic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tomb contained a full set of", "b": "canopic jars" },
+          { "a": "Each", "b": "canopic jar bore the carved head of a different guardian god" },
+          { "a": "Museum visitors peered into the empty", "b": "canopic jars" },
+          { "a": "Conservators X-rayed the sealed", "b": "canopic jars before opening them" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Canopus", "rootLanguage": "Ancient Egyptian/Greek place name", "rootMeaning": "Nile Delta city linked by legend to a jar-worshipped figure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named after ", "highlight": false }, { "text": "Canopus", "highlight": true }, { "text": ", a Delta city whose unrelated jar legend gave its name to the jars holding a mummy's organs.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Canopus", "correctAnswer": "Nile Delta city linked by legend to a jar-worshipped figure", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sphinx",
+    "pronunciation": "SFINGKS",
+    "pos": "noun",
+    "definition": "A mythical creature with a lion's body and a human head, most famously the giant limestone statue at Giza guarding the pyramids.",
+    "origin": "<strong>Sphinx</strong> comes from Greek, possibly related to <em>sphingein</em> (\"to squeeze\" or \"strangle\"), the fate the riddling Greek sphinx dealt to travellers who failed her puzzle. Greek visitors then applied their own word to the far older Egyptian statue at Giza, which the Egyptians called <em>shesep-ankh</em>, \"living image,\" and understood not as a monster but as a guardian representing royal power.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sphinx</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek sphinx possibly relates to", "b": "Sphingein, \"to strangle\"" },
+          { "a": "The Greek sphinx myth strangled", "b": "Travellers who failed her riddle" },
+          { "a": "Egyptians called their statue", "b": "Shesep-ankh, \"living image\"" },
+          { "a": "The Egyptian sphinx represented", "b": "A guardian of royal power" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sphinx</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sphinx combines", "b": "A lion's body and a human head" },
+          { "a": "The Great Sphinx of Giza is carved from", "b": "A single limestone outcrop" },
+          { "a": "The Sphinx is believed to guard", "b": "The pyramid complex at Giza" },
+          { "a": "Unlike the Greek monster, the Egyptian sphinx symbolised", "b": "Protection, not danger" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sphinx</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tour guides pointed out the missing nose of the", "b": "Sphinx" },
+          { "a": "The riddle in the story was posed by a", "b": "sphinx" },
+          { "a": "Statues of ram-headed", "b": "sphinxes lined the avenue to the temple" },
+          { "a": "Visitors photographed the pyramids beside the", "b": "Sphinx" }
+        ] }
+    ],
+    "roots": [ { "rootText": "shesep-ankh", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Living image", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptians called it ", "highlight": false }, { "text": "shesep-ankh", "highlight": true }, { "text": ", \"living image\" — a guardian later renamed Sphinx by Greek visitors.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "shesep-ankh", "correctAnswer": "Living image", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pyramid",
+    "pronunciation": "PEER-uh-mid",
+    "pos": "noun",
+    "definition": "A massive stone monument with a square base and four triangular sides meeting at a point, built by the ancient Egyptians chiefly as royal tombs.",
+    "origin": "<strong>Pyramid</strong> comes from Greek <em>pyramis</em>, a word ancient Greek writers used for the great stone monuments, though its origin is debated: some scholars trace it to Egyptian <strong>per-em-us</strong>, a term for a pyramid-shaped structure, while others connect it to a Greek wheat cake of similar shape. Whatever the route, the word travelled from Egypt through Greek historians like Herodotus into every modern language.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pyramid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pyramis is possibly linked to", "b": "Egyptian per-em-us" },
+          { "a": "An alternate theory connects it to", "b": "A Greek wheat cake of similar shape" },
+          { "a": "The word was popularised by", "b": "The historian Herodotus" },
+          { "a": "Pyramids were chiefly built as", "b": "Royal tombs" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pyramid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pyramid's four sides are", "b": "Triangular, meeting at a single point" },
+          { "a": "The Great Pyramid was built for the pharaoh", "b": "Khufu" },
+          { "a": "Pyramid interiors held", "b": "Burial chambers and sealed passages" },
+          { "a": "Egypt's pyramids were built mainly during the", "b": "Old Kingdom" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pyramid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists climbed the causeway toward the", "b": "Great Pyramid" },
+          { "a": "The engineers still debate how workers raised each block of the", "b": "pyramid" },
+          { "a": "From the desert road, three", "b": "pyramids rose against the sunset" },
+          { "a": "The tomb robbers had tunnelled deep into the", "b": "pyramid centuries earlier" }
+        ] }
+    ],
+    "roots": [ { "rootText": "per-em-us", "rootLanguage": "Ancient Egyptian (proposed)", "rootMeaning": "Term linked to the pyramid's shape", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Egyptian ", "highlight": false }, { "text": "per-em-us", "highlight": true }, { "text": ", by way of Greek pyramis — the word for Egypt's great tomb-mountains.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "per-em-us", "correctAnswer": "Term linked to the pyramid's shape", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Papyrus",
+    "pronunciation": "puh-PY-rus",
+    "pos": "noun",
+    "definition": "A writing material made from the pith of a Nile reed, used by the ancient Egyptians and the ancestor of the modern word \"paper.\"",
+    "origin": "<strong>Papyrus</strong> comes from Greek <em>papyros</em>, the name for the tall reed <em>Cyperus papyrus</em> that grew thickly along the Nile. Egyptians sliced its pith into strips, layered them crosswise, and pressed them into sheets for writing, trade, and record-keeping; the Greek word passed into Latin and then French, eventually giving English the everyday word \"paper.\"",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Papyrus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek papyros named", "b": "The reed Cyperus papyrus" },
+          { "a": "The plant grew thickly along", "b": "The Nile River" },
+          { "a": "Egyptians pressed pith strips into", "b": "Writing sheets" },
+          { "a": "The Greek word eventually gave English", "b": "The word \"paper\"" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Papyrus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Papyrus was made by pressing", "b": "Layered strips of reed pith" },
+          { "a": "Papyrus scrolls recorded", "b": "Religious texts, letters, and accounts" },
+          { "a": "Compared to parchment, papyrus is more", "b": "Brittle and prone to decay" },
+          { "a": "Egypt exported papyrus across", "b": "The ancient Mediterranean world" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Papyrus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The scroll was written on fragile ancient", "b": "papyrus" },
+          { "a": "Archaeologists carefully unrolled the brittle", "b": "papyrus" },
+          { "a": "Scribes copied spells from the Book of the Dead onto", "b": "papyrus" },
+          { "a": "The museum displayed a two-thousand-year-old sheet of", "b": "papyrus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "papyros", "rootLanguage": "Greek (from Egyptian)", "rootMeaning": "The Nile reed used to make writing sheets", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "papyros", "highlight": true }, { "text": ", the Nile reed pressed into sheets — ancestor of the word \"paper\" itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "papyros", "correctAnswer": "The Nile reed used to make writing sheets", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sarcophagus",
+    "pronunciation": "sar-KOF-uh-gus",
+    "pos": "noun",
+    "definition": "A stone coffin, especially one carved or inscribed, used to hold a body or an inner coffin in ancient burial.",
+    "origin": "<strong>Sarcophagus</strong> comes from Greek <strong>sarx</strong> (\"flesh\") + <em>phagein</em> (\"to eat\"), literally \"flesh-eater.\" The name first described a particular limestone quarried near Assos in Asia Minor, which Greeks believed dissolved the flesh of corpses placed inside it, and only later did the word broaden to cover any large stone coffin, including the massive granite ones enclosing Egyptian mummies.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sarcophagus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek sarx means", "b": "Flesh" },
+          { "a": "Greek phagein means", "b": "To eat" },
+          { "a": "The name first described", "b": "A flesh-dissolving limestone from Assos" },
+          { "a": "The word later broadened to mean", "b": "Any large stone coffin" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sarcophagus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sarcophagus is typically made of", "b": "Carved or inscribed stone" },
+          { "a": "Egyptian sarcophagi often held", "b": "A wooden coffin or coffins inside" },
+          { "a": "Royal sarcophagi were carved from", "b": "Granite or quartzite" },
+          { "a": "Its surface was often decorated with", "b": "Spells and protective goddesses" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sarcophagus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tomb's centrepiece was a massive stone", "b": "sarcophagus" },
+          { "a": "Workers used ropes and levers to lower the lid of the", "b": "sarcophagus" },
+          { "a": "Inside the outer coffin lay a nested golden", "b": "sarcophagus" },
+          { "a": "The empty", "b": "sarcophagus suggested the tomb had been robbed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sarx", "rootLanguage": "Greek", "rootMeaning": "Flesh", "showInIntro": true }, { "rootText": "phagein", "rootLanguage": "Greek", "rootMeaning": "To eat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "sarx", "highlight": true }, { "text": " (\"flesh\") + phagein (\"to eat\") — a stone once believed to consume the bodies it held.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sarx", "correctAnswer": "Flesh", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cartouche",
+    "pronunciation": "kar-TOOSH",
+    "pos": "noun",
+    "definition": "An oval frame enclosing the hieroglyphic name of an ancient Egyptian king or queen.",
+    "origin": "<strong>Cartouche</strong> is French for \"cartridge,\" from Italian <em>cartoccio</em>, a rolled paper cone. French soldiers and scholars accompanying Napoleon's Egyptian expedition (1798–1801) coined the nickname because the oval rings enclosing royal names on temple walls reminded them of a rolled paper cartridge, and Egyptologists have used the word ever since.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cartouche</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French cartouche literally means", "b": "Cartridge" },
+          { "a": "From Italian cartoccio, meaning", "b": "A rolled paper cone" },
+          { "a": "Nicknamed by", "b": "Napoleon's soldiers and scholars in Egypt, 1798–1801" },
+          { "a": "They thought the oval shape resembled", "b": "A rolled paper cartridge" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cartouche</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cartouche encloses", "b": "A royal name in hieroglyphs" },
+          { "a": "Cartouches helped Champollion", "b": "Decipher hieroglyphic writing" },
+          { "a": "Only certain people's names were framed in a", "b": "Cartouche — kings and queens" },
+          { "a": "The oval shape may also represent", "b": "A loop of eternal protection" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cartouche</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Champollion matched the Greek name to hieroglyphs inside the", "b": "cartouche" },
+          { "a": "Her name was carved within an oval", "b": "cartouche" },
+          { "a": "The jeweller engraved the pendant with a personalised", "b": "cartouche" },
+          { "a": "Tourists bought souvenir pendants stamped with their name in a", "b": "cartouche" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cartoccio", "rootLanguage": "Italian", "rootMeaning": "Rolled paper cone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "cartoccio", "highlight": true }, { "text": " (\"paper cartridge\") — Napoleon's soldiers named the oval name-rings after their own ammunition.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cartoccio", "correctAnswer": "Rolled paper cone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Duat",
+    "pronunciation": "doo-AHT",
+    "pos": "noun",
+    "definition": "In ancient Egyptian religion, the underworld realm through which the sun travelled each night and where the dead were judged.",
+    "origin": "<strong>Duat</strong> (Egyptian <em>dwꜣt</em>) named the shadowy region beneath and around the world through which the sun god Ra sailed each night in his solar barque, battling the serpent Apophis before rising reborn at dawn. The dead followed a similar path, facing trials and the weighing of the heart before reaching the peaceful fields of Iaru, the Egyptian afterlife's paradise.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Duat</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Egyptian dwꜣt named", "b": "The underworld realm" },
+          { "a": "Each night the sun god Ra sailed through it in", "b": "His solar barque" },
+          { "a": "Ra battled the serpent", "b": "Apophis" },
+          { "a": "Surviving the Duat led the dead to", "b": "The peaceful fields of Iaru" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Duat</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Duat was believed to lie", "b": "Beneath and around the visible world" },
+          { "a": "The dead had to pass through the Duat before reaching", "b": "Paradise" },
+          { "a": "Texts describing the Duat's dangers include", "b": "The Book of the Dead" },
+          { "a": "The Duat combined ideas of", "b": "Judgement, danger, and rebirth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Duat</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tomb ceiling was painted with a map of the", "b": "Duat" },
+          { "a": "Spells were meant to guide the soul safely through the", "b": "Duat" },
+          { "a": "Scholars translated the passage describing Ra's nightly voyage through the", "b": "Duat" },
+          { "a": "The exhibit reconstructed how Egyptians imagined the", "b": "Duat" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dwꜣt", "rootLanguage": "Ancient Egyptian", "rootMeaning": "The underworld realm of the dead", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptian ", "highlight": false }, { "text": "dwꜣt", "highlight": true }, { "text": " named the underworld the sun crossed each night before rising reborn at dawn.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dwꜣt", "correctAnswer": "The underworld realm of the dead", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ka",
+    "pronunciation": "KAH",
+    "pos": "noun",
+    "definition": "In ancient Egyptian belief, a person's life force or spiritual double, created at birth and requiring nourishment after death.",
+    "origin": "The <strong>ka</strong> (Egyptian <em>kꜣ</em>) was understood as a spiritual double born alongside every person, distinct from the <em>ba</em>, or personality-soul, that could travel freely. After death, the ka remained near the body and depended on offerings of food and drink, which is why tomb chapels included false doors and painted banquet scenes to sustain it eternally, even if real offerings ceased.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Egyptian kꜣ named", "b": "A person's life force or spiritual double" },
+          { "a": "Created for a person at", "b": "Birth" },
+          { "a": "Distinct from the ka was the", "b": "Ba, or personality-soul" },
+          { "a": "After death, the ka needed", "b": "Ongoing food and drink offerings" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The ka was believed to remain near", "b": "The tomb and body" },
+          { "a": "Tomb chapels included false doors to let the ka", "b": "Receive offerings symbolically" },
+          { "a": "If offerings stopped, painted banquet scenes could", "b": "Sustain the ka magically" },
+          { "a": "Statues of the deceased sometimes served as", "b": "A backup home for the ka" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The priest left bread and beer daily to nourish the", "b": "ka" },
+          { "a": "Egyptologists explained how offerings sustained the", "b": "ka after death" },
+          { "a": "The false door was carved so the", "b": "ka could pass through it" },
+          { "a": "Inscriptions asked visitors to leave gifts for the tomb owner's", "b": "ka" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kꜣ", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Life force, spiritual double", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptian ", "highlight": false }, { "text": "kꜣ", "highlight": true }, { "text": " named the spiritual double born with every person, sustained by offerings after death.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kꜣ", "correctAnswer": "Life force, spiritual double", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Asp",
+    "pronunciation": "ASP",
+    "pos": "noun",
+    "definition": "A small venomous snake, especially the Egyptian cobra, historically associated with royalty and famously with Cleopatra's death.",
+    "origin": "<strong>Asp</strong> comes from Greek <strong>aspis</strong>, which meant both \"shield\" and a venomous snake, likely because a cobra's raised, flared hood resembles a small round shield. The Egyptian cobra was already sacred to royalty as the uraeus on the crown, which made it fitting, if likely legendary, that ancient writers claimed Cleopatra VII ended her life in 30 BC with an asp's bite.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Asp</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek aspis meant both", "b": "Shield and venomous snake" },
+          { "a": "The name likely describes", "b": "A cobra's flared, shield-like hood" },
+          { "a": "The Egyptian cobra already symbolised", "b": "Royalty, as the uraeus" },
+          { "a": "Ancient writers claimed Cleopatra died from", "b": "An asp's bite in 30 BC" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Asp</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An asp is typically identified as", "b": "The Egyptian cobra" },
+          { "a": "An asp's venom is", "b": "A dangerous neurotoxin" },
+          { "a": "The asp is often confused in art with", "b": "Other venomous snakes" },
+          { "a": "Historians now doubt the asp story mainly because", "b": "A cobra bite is not a swift, painless death" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Asp</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The play stages Cleopatra's death by an", "b": "asp hidden in a basket of figs" },
+          { "a": "The desert guide warned hikers about the venomous", "b": "asp" },
+          { "a": "Ancient carvings show the pharaoh's crown ringed by an", "b": "asp" },
+          { "a": "Historians still debate whether an", "b": "asp really killed the queen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "aspis", "rootLanguage": "Greek", "rootMeaning": "Shield; venomous snake", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "aspis", "highlight": true }, { "text": " (\"shield\"), for a cobra's flared hood — later tied to Cleopatra's legendary death.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "aspis", "correctAnswer": "Shield; venomous snake", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lotus",
+    "pronunciation": "LOH-tus",
+    "pos": "noun",
+    "definition": "A water lily sacred in ancient Egypt, whose blossoms close at night and reopen at dawn, symbolising rebirth and the sun.",
+    "origin": "<strong>Lotus</strong> comes from Greek <em>lotos</em>, a name Greek writers applied loosely to several unrelated plants. The Egyptian \"lotus\" was actually a water lily, <em>Nymphaea</em>, prized because its flowers sink underwater at night and rise to bloom again each morning, a daily resurrection that made it a natural emblem of the sun god and of rebirth after death.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lotus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek lotos was applied to", "b": "Several unrelated plants" },
+          { "a": "The Egyptian \"lotus\" is botanically a", "b": "Water lily, Nymphaea" },
+          { "a": "Its flowers sink at night and", "b": "Rise to bloom again at dawn" },
+          { "a": "This daily cycle symbolised", "b": "The sun god and rebirth" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lotus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The lotus symbolised", "b": "Rebirth and the rising sun" },
+          { "a": "Blue and white lotus varieties grew along", "b": "The Nile and its marshes" },
+          { "a": "Lotus columns in temples imitate", "b": "The plant's stem and blossom" },
+          { "a": "The lotus often appears in art alongside", "b": "The papyrus plant" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lotus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The temple's columns were carved to resemble open", "b": "lotus blossoms" },
+          { "a": "The goddess was depicted seated on a", "b": "lotus flower" },
+          { "a": "Painted tomb scenes show guests sniffing", "b": "lotus blooms at a banquet" },
+          { "a": "The perfume was scented with essence of", "b": "lotus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "seshen", "rootLanguage": "Ancient Egyptian", "rootMeaning": "The sacred water lily symbolising rebirth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptians called it ", "highlight": false }, { "text": "seshen", "highlight": true }, { "text": " — a water lily that closed each night and reopened at dawn, a daily symbol of rebirth.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "seshen", "correctAnswer": "The sacred water lily symbolising rebirth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ibis",
+    "pronunciation": "EYE-bis",
+    "pos": "noun",
+    "definition": "A long-legged wading bird with a curved bill, sacred in ancient Egypt as the animal form of the god of writing and wisdom.",
+    "origin": "<strong>Ibis</strong> passed from Egyptian into Greek and then Latin largely unchanged, naming the sacred bird linked to <strong>Thoth</strong>, the god of writing, wisdom, and the moon, often shown with an ibis head atop a human body. Pilgrims mummified millions of the sacred ibis as offerings at Thoth's cult centres, particularly Hermopolis, leaving vast catacombs of bird mummies that archaeologists still excavate today.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ibis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ibis names a bird sacred to", "b": "Thoth, god of writing and wisdom" },
+          { "a": "Thoth was often depicted with", "b": "An ibis head on a human body" },
+          { "a": "Pilgrims mummified millions of ibises as", "b": "Offerings at Thoth's temples" },
+          { "a": "The main cult centre was called", "b": "Hermopolis" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ibis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ibis is known for its", "b": "Long legs and curved bill" },
+          { "a": "In Egyptian belief the ibis represented", "b": "Wisdom and sacred writing" },
+          { "a": "Ibis mummy catacombs have been found near", "b": "Hermopolis and Saqqara" },
+          { "a": "The bird was considered an earthly form of", "b": "The god Thoth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ibis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The relief showed Thoth with the head of an", "b": "ibis" },
+          { "a": "Archaeologists uncovered a catacomb packed with mummified", "b": "ibises" },
+          { "a": "A white-and-black", "b": "ibis waded through the marsh reeds" },
+          { "a": "Scribes prayed to the", "b": "ibis-headed god before writing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Thoth", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Ibis-headed god of writing and wisdom", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Sacred to ", "highlight": false }, { "text": "Thoth", "highlight": true }, { "text": ", the ibis-headed god of writing — pilgrims mummified millions of the birds in his honour.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Thoth", "correctAnswer": "Ibis-headed god of writing and wisdom", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cleopatra",
+    "pronunciation": "klee-oh-PA-truh",
+    "pos": "noun",
+    "definition": "A name borne by several Ptolemaic queens of Egypt, now used to evoke the last and most famous, Cleopatra VII.",
+    "origin": "<strong>Cleopatra</strong> is Greek, combining <strong>kleos</strong> (\"glory\") and <em>pater</em> (\"father\"), meaning roughly \"glory of her father.\" Cleopatra VII (69–30 BC) was the last active ruler of the Ptolemaic dynasty, Greek-Macedonian kings who had governed Egypt since Alexander the Great's conquest, and her alliances with Julius Caesar and Mark Antony made her one of the ancient world's most consequential rulers.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cleopatra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kleos means", "b": "Glory" },
+          { "a": "Greek pater means", "b": "Father" },
+          { "a": "Cleopatra VII belonged to the", "b": "Ptolemaic dynasty of Greek-Macedonian kings" },
+          { "a": "That dynasty began with", "b": "Alexander the Great's conquest of Egypt" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cleopatra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cleopatra VII ruled Egypt from", "b": "51 to 30 BC" },
+          { "a": "She formed political alliances with", "b": "Julius Caesar and Mark Antony" },
+          { "a": "Her death in 30 BC marked", "b": "The end of independent Egyptian rule" },
+          { "a": "After her, Egypt became", "b": "A province of the Roman Empire" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cleopatra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The play dramatised the doomed romance of Antony and", "b": "Cleopatra" },
+          { "a": "The exhibit traced", "b": "Cleopatra's alliances with Rome" },
+          { "a": "Historians still debate how much power", "b": "Cleopatra truly wielded" },
+          { "a": "The coin bore a profile portrait of", "b": "Cleopatra herself" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kleos", "rootLanguage": "Greek", "rootMeaning": "Glory", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Greek ", "highlight": false }, { "text": "kleos", "highlight": true }, { "text": " (\"glory\") + pater (\"father\") — the name of Egypt's last Ptolemaic queen.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kleos", "correctAnswer": "Glory", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Memphis",
+    "pronunciation": "MEM-fis",
+    "pos": "noun",
+    "definition": "The ancient capital of Egypt near modern Cairo, founded around 3100 BC as a centre of royal power and worship of the god Ptah.",
+    "origin": "<strong>Memphis</strong> is the Greek rendering of Egyptian <em>Men-nefer</em>, \"enduring and beautiful,\" a name originally attached to the nearby pyramid of Pepi I and later applied to the whole city. Founded around 3100 BC, traditionally by the first king Menes, Memphis served as Egypt's political capital and chief cult centre of the creator god Ptah for much of its ancient history.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Memphis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek Memphis renders Egyptian", "b": "Men-nefer, \"enduring and beautiful\"" },
+          { "a": "The name first belonged to", "b": "The pyramid of Pepi I" },
+          { "a": "Memphis was traditionally founded around", "b": "3100 BC" },
+          { "a": "It was the chief cult centre of", "b": "The god Ptah" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Memphis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Memphis served for centuries as Egypt's", "b": "Political capital" },
+          { "a": "Memphis lies near modern", "b": "Cairo" },
+          { "a": "According to tradition, Memphis was founded by", "b": "King Menes" },
+          { "a": "The city's necropolis included the pyramids of", "b": "Giza and Saqqara" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Memphis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ruins of the ancient capital still lie south of", "b": "Memphis" },
+          { "a": "The colossal statue of Ramesses II once stood in", "b": "Memphis" },
+          { "a": "Priests of Ptah conducted rituals in the great temple at", "b": "Memphis" },
+          { "a": "Archaeologists mapped the sprawling ruins of ancient", "b": "Memphis" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Men-nefer", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Enduring and beautiful", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Egyptian ", "highlight": false }, { "text": "Men-nefer", "highlight": true }, { "text": ", \"enduring and beautiful\" — the pyramid name that grew into Egypt's ancient capital.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Men-nefer", "correctAnswer": "Enduring and beautiful", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rosetta",
+    "pronunciation": "roh-ZET-uh",
+    "pos": "noun",
+    "definition": "Referring to the Rosetta Stone, an inscribed slab whose parallel Greek and Egyptian texts allowed scholars to decipher hieroglyphs.",
+    "origin": "<strong>Rosetta</strong> is the Italian-derived name for <strong>Rashid</strong>, a town in the Nile Delta near where French soldiers unearthed the stone in 1799 while fortifying a fort. Carved in 196 BC, the stone repeats a single decree in hieroglyphic, demotic, and Greek script, and it was this parallel Greek text that let Jean-François Champollion finally crack the hieroglyphic code in 1822.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rosetta</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Rosetta is a European name for", "b": "Rashid, a Nile Delta town" },
+          { "a": "French soldiers found the stone in", "b": "1799" },
+          { "a": "The decree was carved in", "b": "196 BC" },
+          { "a": "Champollion deciphered hieroglyphs using it in", "b": "1822" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rosetta</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Rosetta Stone repeats one decree in", "b": "Three scripts: hieroglyphic, demotic, and Greek" },
+          { "a": "The readable Greek text let scholars", "b": "Work backward to hieroglyphs" },
+          { "a": "The stone is now kept in", "b": "The British Museum" },
+          { "a": "\"Rosetta Stone\" now means figuratively", "b": "Any key that unlocks a mystery" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rosetta</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Linguists called the newly found bilingual tablet a", "b": "Rosetta Stone for the lost language" },
+          { "a": "Champollion spent years comparing scripts on the", "b": "Rosetta Stone" },
+          { "a": "The software's name nodded to the", "b": "Rosetta Stone as a metaphor for translation" },
+          { "a": "Crowds still gather around the glass case holding the", "b": "Rosetta Stone" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Rashid", "rootLanguage": "Arabic place name (Egypt)", "rootMeaning": "The Delta town where the stone was found", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Rashid", "highlight": true }, { "text": ", the Delta town (Rosetta) where the stone that unlocked hieroglyphs was found in 1799.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Rashid", "correctAnswer": "The Delta town where the stone was found", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Uraeus",
+    "pronunciation": "yoo-REE-us",
+    "pos": "noun",
+    "definition": "The image of a rearing cobra worn on the crown of Egyptian pharaohs, symbolising royal authority and divine protection.",
+    "origin": "<strong>Uraeus</strong> is a Latinised form of Greek, ultimately from Egyptian <strong>iaret</strong>, \"the rearing one.\" It represented the goddess <em>Wadjet</em>, protector of Lower Egypt, shown as a cobra poised to strike enemies of the crown with spat venom or fire. Pharaohs wore it on the brow of their headdress as a constant, visible claim to divine protection and royal legitimacy.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Uraeus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Egyptian iaret means", "b": "The rearing one" },
+          { "a": "The uraeus represented the goddess", "b": "Wadjet" },
+          { "a": "Wadjet protected", "b": "Lower Egypt" },
+          { "a": "The cobra was shown ready to", "b": "Strike enemies with venom or fire" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Uraeus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A uraeus is worn on a pharaoh's", "b": "Brow or crown" },
+          { "a": "The symbol conveyed", "b": "Royal authority and divine protection" },
+          { "a": "It is often paired in art with a", "b": "Vulture, representing Upper Egypt" },
+          { "a": "The uraeus appears on royal", "b": "Statues, coffins, and crowns" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Uraeus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The golden mask's forehead bore a coiled", "b": "uraeus" },
+          { "a": "Only the king was entitled to wear the", "b": "uraeus" },
+          { "a": "Restorers carefully cleaned the tiny gold", "b": "uraeus on the crown" },
+          { "a": "The relief shows the queen crowned with a rearing", "b": "uraeus" }
+        ] }
+    ],
+    "roots": [ { "rootText": "iaret", "rootLanguage": "Ancient Egyptian", "rootMeaning": "The rearing one (the cobra goddess)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Egyptian ", "highlight": false }, { "text": "iaret", "highlight": true }, { "text": ", \"the rearing one\" — the cobra goddess Wadjet worn on every pharaoh's brow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "iaret", "correctAnswer": "The rearing one (the cobra goddess)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ankh",
+    "pronunciation": "ANGK",
+    "pos": "noun",
+    "definition": "An Egyptian hieroglyphic symbol shaped like a cross with a looped top, representing life.",
+    "origin": "<strong>Ankh</strong> is the Egyptian word for \"life\" and the hieroglyph written to spell it, a looped cross carried by gods in temple art as they granted breath and vitality to kings. Because of its shape and meaning, the ankh became one of Egypt's most enduring symbols, later adopted well beyond Egypt as jewellery and, among some early Christians in Egypt, blended with the cross.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ankh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Egyptian ankh means", "b": "Life" },
+          { "a": "The hieroglyph shows", "b": "A looped cross" },
+          { "a": "Gods carried the ankh to", "b": "Grant breath and vitality to kings" },
+          { "a": "Some early Egyptian Christians blended it with", "b": "The Christian cross" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ankh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The ankh symbolised", "b": "Life itself" },
+          { "a": "In art, gods often hold the ankh to", "b": "A pharaoh's lips or nose" },
+          { "a": "The ankh's loop may represent", "b": "The rising sun or eternity" },
+          { "a": "Today the ankh is worn mainly as", "b": "Jewellery and a spiritual symbol" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ankh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The relief showed the god extending an", "b": "ankh toward the pharaoh's mouth" },
+          { "a": "She wore a silver pendant shaped like an", "b": "ankh" },
+          { "a": "Tomb paintings repeat the looped", "b": "ankh symbol beside every god" },
+          { "a": "The tattoo artist sketched a simple", "b": "ankh on his forearm" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ankh", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Life", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptian ", "highlight": false }, { "text": "ankh", "highlight": true }, { "text": " means \"life\" — the looped cross gods held out to grant breath to kings.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ankh", "correctAnswer": "Life", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Necropolis",
+    "pronunciation": "neh-KROP-uh-lis",
+    "pos": "noun",
+    "definition": "A large ancient cemetery, especially one with elaborate tombs and monuments, literally a \"city of the dead.\"",
+    "origin": "<strong>Necropolis</strong> combines Greek <strong>nekros</strong> (\"corpse\") and <em>polis</em> (\"city\"). Greek geographers such as Strabo used the word for Egypt's vast burial grounds at Thebes and elsewhere, cities of tombs, chapels, and processional roads that mirrored the streets and neighbourhoods of the living, built to house the dead for eternity.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Necropolis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek nekros means", "b": "Corpse" },
+          { "a": "Greek polis means", "b": "City" },
+          { "a": "Used by the geographer", "b": "Strabo" },
+          { "a": "Applied to Egypt's burial grounds at", "b": "Thebes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Necropolis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A necropolis is essentially a", "b": "City of the dead" },
+          { "a": "Egyptian necropoleis included", "b": "Tombs, chapels, and processional roads" },
+          { "a": "They were laid out to mirror", "b": "The streets of the living" },
+          { "a": "Famous Egyptian necropoleis lie near", "b": "Thebes, Giza, and Saqqara" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Necropolis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Archaeologists mapped the sprawling desert", "b": "necropolis" },
+          { "a": "Tomb robbers had plundered much of the ancient", "b": "necropolis" },
+          { "a": "Guides led tourists through the rock-cut tombs of the", "b": "necropolis" },
+          { "a": "The city's wealthy elite were buried in a grand", "b": "necropolis outside its walls" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nekros", "rootLanguage": "Greek", "rootMeaning": "Corpse", "showInIntro": true }, { "rootText": "polis", "rootLanguage": "Greek", "rootMeaning": "City", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "nekros", "highlight": true }, { "text": " (\"corpse\") + polis (\"city\") — the Greek name for Egypt's sprawling tomb cities.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nekros", "correctAnswer": "Corpse", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Colossus",
+    "pronunciation": "kuh-LOS-us",
+    "pos": "noun",
+    "definition": "An enormous statue, especially one far larger than life size; figuratively, a person or thing of immense size or importance.",
+    "origin": "<strong>Colossus</strong> comes from Greek <strong>kolossos</strong>, a word Greek writers used for the towering stone statues of Egyptian pharaohs long before it was famously applied to the bronze Colossus of Rhodes. The best-known Egyptian examples are the two seated Colossi of Memnon near Thebes, actually statues of Amenhotep III, which ancient Greek and Roman tourists visited to hear one figure's eerie \"singing\" at dawn.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Colossus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek kolossos named", "b": "A towering statue" },
+          { "a": "First applied to statues of", "b": "Egyptian pharaohs" },
+          { "a": "The Colossi of Memnon actually depict", "b": "Amenhotep III" },
+          { "a": "They stand near the ancient city of", "b": "Thebes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Colossus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A colossus is defined by its", "b": "Enormous size" },
+          { "a": "Figuratively, a colossus can mean", "b": "A person or thing of immense importance" },
+          { "a": "Ancient tourists visited the Colossi of Memnon to hear", "b": "A strange singing sound at dawn" },
+          { "a": "That sound stopped after", "b": "Roman-era repairs to the statue" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Colossus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Two seated stone giants, the", "b": "Colossi of Memnon, still guard the ruined temple" },
+          { "a": "Critics called the tech company a", "b": "colossus of modern industry" },
+          { "a": "Visitors gawked at the", "b": "colossus towering over the temple courtyard" },
+          { "a": "The fallen", "b": "colossus lay in pieces across the sand" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kolossos", "rootLanguage": "Greek", "rootMeaning": "A towering statue", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "kolossos", "highlight": true }, { "text": " — first used for the towering statues of Egyptian pharaohs, like the Colossi of Memnon.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kolossos", "correctAnswer": "A towering statue", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nile",
+    "pronunciation": "NYL",
+    "pos": "noun",
+    "definition": "The great river of north-eastern Africa whose annual floods made possible the civilisation of ancient Egypt.",
+    "origin": "<strong>Nile</strong> comes from Greek <em>Neilos</em>, a name of uncertain origin that may derive from an older Semitic or pre-Greek word for \"river valley.\" The Egyptians themselves simply called it <strong>iteru</strong>, \"the river,\" and personified its life-giving flood as the god Hapi, since the Nile's predictable summer inundation deposited the fertile silt that fed Egyptian agriculture for millennia.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nile</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek Neilos may derive from", "b": "An older Semitic word for \"river valley\"" },
+          { "a": "Egyptians simply called it", "b": "Iteru, \"the river\"" },
+          { "a": "They personified its flood as", "b": "The god Hapi" },
+          { "a": "The annual flood deposited", "b": "Fertile silt for farming" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nile</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Nile flows through", "b": "North-eastern Africa" },
+          { "a": "Its annual flood once made possible", "b": "Egyptian agriculture and civilisation" },
+          { "a": "The Aswan Dam changed the river by", "b": "Ending the natural annual flood" },
+          { "a": "The Nile is often called the", "b": "Longest river in the world" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nile</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Farmers still depend on irrigation from the", "b": "Nile" },
+          { "a": "Feluccas drifted lazily along the", "b": "Nile" },
+          { "a": "Ancient temples line the banks of the", "b": "Nile" },
+          { "a": "The cruise sailed south along the", "b": "Nile toward Aswan" }
+        ] }
+    ],
+    "roots": [ { "rootText": "iteru", "rootLanguage": "Ancient Egyptian", "rootMeaning": "\"The river\" (the Nile)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Egyptians called it simply ", "highlight": false }, { "text": "iteru", "highlight": true }, { "text": ", \"the river\" — the flood that made their entire civilisation possible.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "iteru", "correctAnswer": "\"The river\" (the Nile)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jackal",
+    "pronunciation": "JAK-ul",
+    "pos": "noun",
+    "definition": "A wild, dog-like scavenger of Africa and Asia, associated in ancient Egypt with the god of embalming and the dead, Anubis.",
+    "origin": "<strong>Jackal</strong> reached English via French and Turkish from Persian <strong>shaghal</strong>, tracing back to Sanskrit. In Egypt, jackals scavenged the desert edges where cemeteries lay, prompting the Egyptians to cast the animal as sacred rather than fight its presence: the black jackal-headed god <em>Anubis</em> was made patron and protector of embalming, guiding the dead safely through mummification and judgement.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jackal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Persian shaghal traces back to", "b": "Sanskrit" },
+          { "a": "Reached English via", "b": "Turkish and French" },
+          { "a": "Egyptian jackals scavenged near", "b": "Desert cemeteries" },
+          { "a": "Egyptians cast the jackal as the sacred god", "b": "Anubis" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jackal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A jackal is a wild, dog-like", "b": "Scavenger" },
+          { "a": "Anubis, the jackal-headed god, presided over", "b": "Embalming and the dead" },
+          { "a": "Egyptians likely deified the jackal to", "b": "Make an unwelcome scavenger a protector" },
+          { "a": "Anubis was said to guide souls to", "b": "Judgement in the afterlife" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jackal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "At dusk, a lone", "b": "jackal howled beyond the tomb walls" },
+          { "a": "The statue showed the god Anubis with the head of a", "b": "jackal" },
+          { "a": "Archaeologists found real mummified", "b": "jackals buried near the temple" },
+          { "a": "Priests wore a", "b": "jackal mask during the embalming ritual" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Anubis", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Jackal-headed god of embalming and the dead", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Sacred to ", "highlight": false }, { "text": "Anubis", "highlight": true }, { "text": ", the jackal-headed god — Egyptians turned a desert scavenger into a guardian of the dead.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Anubis", "correctAnswer": "Jackal-headed god of embalming and the dead", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Crocodile",
+    "pronunciation": "KROK-uh-dyle",
+    "pos": "noun",
+    "definition": "A large aquatic reptile with a long snout and armoured skin, revered in ancient Egypt as the sacred animal of the god Sobek.",
+    "origin": "<strong>Crocodile</strong> comes from Greek <strong>krokodeilos</strong>, literally \"pebble-worm,\" from <em>kroke</em> (pebble) + <em>drilos</em> (worm), a name the historian Herodotus explained as describing the lizards he saw basking on stony riverbanks. In Egypt the Nile crocodile was sacred to <em>Sobek</em>, a crocodile-headed god of fertility, military strength, and pharaonic power, worshipped with live crocodiles kept in temple pools.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Crocodile</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek krokodeilos combines", "b": "Kroke (pebble) + drilos (worm)" },
+          { "a": "Recorded by the historian", "b": "Herodotus" },
+          { "a": "He described them basking on", "b": "Stony riverbanks" },
+          { "a": "Egypt's crocodile god was called", "b": "Sobek" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Crocodile</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sobek was worshipped as a god of", "b": "Fertility, strength, and pharaonic power" },
+          { "a": "Temples to Sobek kept", "b": "Live sacred crocodiles in pools" },
+          { "a": "A crocodile is identifiable by its", "b": "Long snout and armoured skin" },
+          { "a": "Crocodile mummies were offered to Sobek at", "b": "Sites like Kom Ombo" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Crocodile</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Priests fed honey cakes to the sacred", "b": "crocodiles kept in the temple pool" },
+          { "a": "The relief depicted Sobek with the head of a", "b": "crocodile" },
+          { "a": "Fishermen along the Nile still watch for", "b": "crocodiles near the banks" },
+          { "a": "Archaeologists uncovered dozens of mummified", "b": "crocodiles at Kom Ombo" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Sobek", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Crocodile-headed god of strength and fertility", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Sacred to ", "highlight": false }, { "text": "Sobek", "highlight": true }, { "text": ", the crocodile-headed god — worshipped with live crocodiles kept in temple pools.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Sobek", "correctAnswer": "Crocodile-headed god of strength and fertility", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Judgement",
+    "pronunciation": "JUJ-mint",
+    "pos": "noun",
+    "definition": "The act of forming a decision or verdict; in Egyptian belief, the trial in which a soul's heart was weighed to decide its fate.",
+    "origin": "English <strong>judgement</strong> derives from Old French <em>jugement</em>, from Latin <em>judicare</em>, \"to judge.\" The Egyptians pictured their own judgement of the dead as the <strong>Weighing of the Heart</strong>: Anubis placed the deceased's heart on a scale against the feather of Ma'at, goddess of truth, while the god Thoth recorded the result and the monster Ammit waited to devour any heart too heavy with wrongdoing.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Judgement</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "English judgement comes from Latin", "b": "Judicare, \"to judge\"" },
+          { "a": "Egyptians pictured judgement as the", "b": "Weighing of the Heart" },
+          { "a": "Anubis weighed the heart against", "b": "The feather of Ma'at" },
+          { "a": "A heart too heavy was devoured by", "b": "The monster Ammit" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Judgement</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "In Egyptian belief, the heart was weighed to test", "b": "A lifetime of good or bad conduct" },
+          { "a": "Ma'at represented", "b": "Truth and cosmic order" },
+          { "a": "Thoth's role in the ceremony was to", "b": "Record the verdict" },
+          { "a": "A heart lighter than the feather earned passage to", "b": "The afterlife paradise" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Judgement</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tomb painting depicted the pharaoh's heart at the moment of", "b": "judgement" },
+          { "a": "Egyptians hoped a lifetime of good deeds would spare them at their final", "b": "judgement" },
+          { "a": "The scale in the mural weighed the heart for", "b": "judgement before Osiris" },
+          { "a": "Priests recited spells to help the soul pass its", "b": "judgement unharmed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Ma'at", "rootLanguage": "Ancient Egyptian", "rootMeaning": "Goddess of truth, whose feather weighed the heart", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Weighed against the feather of ", "highlight": false }, { "text": "Ma'at", "highlight": true }, { "text": ", goddess of truth — the Egyptian trial that decided a soul's fate.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Ma'at", "correctAnswer": "Goddess of truth, whose feather weighed the heart", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oasis",
+    "pronunciation": "oh-AY-sis",
+    "pos": "noun",
+    "definition": "A fertile spot in a desert where water allows plants to grow, historically vital for travel and settlement.",
+    "origin": "<strong>Oasis</strong> reached Greek and then Latin from Egyptian, likely via Demotic <em>wahe</em> or Coptic <em>ouahe</em>, meaning \"dwelling place.\" Egypt's own desert oases, including Siwa, home to the temple of Amun that later gave chemistry the word \"ammonia,\" served as vital stops for trade caravans and pilgrims crossing the vast surrounding desert.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-egyptian", "name": "Egyptian Myth & Afterlife", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oasis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek oasis derived from Egyptian, via", "b": "Demotic wahe or Coptic ouahe" },
+          { "a": "That word meant", "b": "Dwelling place" },
+          { "a": "Egypt's Siwa Oasis was home to", "b": "The temple of Amun" },
+          { "a": "Oases served ancient travellers as", "b": "Vital stops for trade caravans" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oasis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An oasis provides", "b": "Water and fertile land in a desert" },
+          { "a": "Oases form where", "b": "Underground water reaches the surface" },
+          { "a": "Egypt's Western Desert holds oases including", "b": "Siwa, Kharga, and Dakhla" },
+          { "a": "Historically, oases were essential for", "b": "Trade routes and pilgrimage" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oasis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "After days in the dunes, the caravan finally reached the", "b": "oasis" },
+          { "a": "Palm trees ringed the small desert", "b": "oasis" },
+          { "a": "Pilgrims once travelled far to consult the oracle at the", "b": "Siwa oasis" },
+          { "a": "The hotel pool felt like a genuine", "b": "oasis after the desert heat" }
+        ] }
+    ],
+    "roots": [ { "rootText": "wahe", "rootLanguage": "Egyptian (Demotic/Coptic)", "rootMeaning": "Dwelling place", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Egyptian ", "highlight": false }, { "text": "wahe", "highlight": true }, { "text": ", \"dwelling place\" — the desert refuge that gave Greek and Latin the word oasis.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "wahe", "correctAnswer": "Dwelling place", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

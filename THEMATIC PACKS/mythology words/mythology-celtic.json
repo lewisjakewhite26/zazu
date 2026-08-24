@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Druid",
+    "pronunciation": "DROO-id",
+    "pos": "noun",
+    "definition": "A priest, teacher, and judge in ancient Celtic society, believed to hold deep knowledge of nature, law, and the sacred.",
+    "origin": "<strong>Druid</strong> comes from Gaulish \"druides\", most likely built from Proto-Celtic roots meaning \"oak\" and \"to know\" — an \"oak-knower\" reflecting the sacred role oak trees and oak groves played in Celtic ritual. Roman writers such as Julius Caesar and Pliny the Elder described druids as the learned class of Gaulish and British society, serving as priests, judges, and keepers of oral law and astronomy. The Old Irish form \"drui\" carried the same meaning into early Irish literature, where druids appear as advisors to kings and workers of magic.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Druid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Gaulish word druides", "b": "Root of the English word Druid" },
+          { "a": "Proto-Celtic druwid-", "b": "Believed to mean 'oak-knower'" },
+          { "a": "Caesar and Pliny described druids as", "b": "The learned class of Gaulish and British society" },
+          { "a": "Old Irish drui", "b": "Carried the meaning into early Irish texts" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Druid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A druid served as", "b": "Priest, judge, and teacher" },
+          { "a": "Druids were valued for their", "b": "Knowledge of nature, law, and ritual" },
+          { "a": "Sacred oak groves were central to", "b": "Druidic worship" },
+          { "a": "In Irish literature druids often", "b": "Advise kings and work magic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Druid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old druid stepped forward to settle the", "b": "dispute between the two clans" },
+          { "a": "Legend says the druid could read omens in the flight of", "b": "birds over the sacred grove" },
+          { "a": "Before battle, the king always consulted his", "b": "chief druid" },
+          { "a": "Modern festivals sometimes borrow the robed image of the", "b": "ancient druid" }
+        ] }
+    ],
+    "roots": [ { "rootText": "druwid-", "rootLanguage": "Proto-Celtic", "rootMeaning": "Oak-knower (oak + to know)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Celtic ", "highlight": false }, { "text": "druwid-", "highlight": true }, { "text": ", literally an 'oak-knower' — priests whose wisdom was rooted in the sacred oak groves.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "druwid-", "correctAnswer": "Oak-knower (oak + to know)", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bard",
+    "pronunciation": "bahrd",
+    "pos": "noun",
+    "definition": "A professional poet and singer in Celtic society who composed and performed verse praising heroes, chronicling history, and satirizing enemies.",
+    "origin": "<strong>Bard</strong> derives from Gaulish \"bardos\", from a Proto-Celtic root shared across Celtic languages, entering English via Scottish Gaelic and Irish \"bard\". Bards held a formal, often hereditary rank below the druids, trained for years in complex metre and genealogy so they could recite a chieftain's lineage and deeds from memory. A skilled bard could also compose a satire so cutting it was believed to raise blisters on its target's face, making bards figures both honoured and feared.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Gaulish bardos", "b": "Root of the English word bard" },
+          { "a": "Bards ranked", "b": "Below druids in Celtic society" },
+          { "a": "Training included", "b": "Years of memorising metre and genealogy" },
+          { "a": "A bard's satire was believed to", "b": "Raise blisters on its target's face" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bard's main job was to", "b": "Compose and perform praise poetry" },
+          { "a": "Bards recited a chieftain's", "b": "Lineage and heroic deeds" },
+          { "a": "An angry bard might compose a", "b": "Satire to shame an enemy" },
+          { "a": "The modern sense of bard now generally means", "b": "Any celebrated poet, such as Shakespeare" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The bard struck his harp and began the", "b": "tale of the chieftain's ancestors" },
+          { "a": "No one dared insult the bard for fear of a", "b": "blistering satire in return" },
+          { "a": "Shakespeare is still nicknamed the", "b": "Bard of Avon" },
+          { "a": "At the feast, the bard recited a poem", "b": "praising the king's victory in battle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bardos", "rootLanguage": "Gaulish / Proto-Celtic", "rootMeaning": "Poet-singer", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Gaulish ", "highlight": false }, { "text": "bardos", "highlight": true }, { "text": ", a poet-singer trained to praise chieftains — and just as able to destroy a reputation with a satire.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bardos", "correctAnswer": "Poet-singer", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Samhain",
+    "pronunciation": "SOW-in",
+    "pos": "noun",
+    "definition": "An ancient Gaelic festival marking the end of the harvest and the beginning of winter, observed around the 31st of October and 1st of November.",
+    "origin": "<strong>Samhain</strong> comes from Old Irish \"samain\", likely rooted in \"sam\" (summer) and a word for \"end\", marking the turning point when summer gave way to the dark half of the year. The Gaels believed the boundary between the world of the living and the Otherworld grew thin at Samhain, allowing spirits to cross over, and communities lit bonfires and left out food to appease wandering souls. Christian missionaries later placed All Saints' and All Souls' Day nearby, and Samhain's customs of costumes, bonfires, and offerings to the dead survived into the modern festival of Halloween.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Samhain</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish samain", "b": "Root of the word Samhain" },
+          { "a": "Old Irish sam", "b": "Related to the word for summer" },
+          { "a": "Samhain fell around", "b": "The 31st of October and 1st of November" },
+          { "a": "Christian missionaries placed nearby", "b": "All Saints' and All Souls' Day" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Samhain</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Samhain marked the boundary between", "b": "Summer and the dark half of the year" },
+          { "a": "Gaels believed at Samhain the veil thinned between", "b": "The living and the Otherworld" },
+          { "a": "Communities marked the festival with", "b": "Bonfires and offerings of food" },
+          { "a": "Samhain's customs survive today in", "b": "Modern Halloween" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Samhain</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "On the eve of Samhain, villagers lit great", "b": "bonfires to ward off wandering spirits" },
+          { "a": "She left a plate of food on the step for", "b": "the spirits said to walk at Samhain" },
+          { "a": "Historians trace trick-or-treating costumes back to", "b": "Samhain disguises meant to fool the dead" },
+          { "a": "The festival of Samhain closes out the", "b": "harvest season before winter" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sam", "rootLanguage": "Old Irish", "rootMeaning": "Summer", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Irish ", "highlight": false }, { "text": "sam", "highlight": true }, { "text": " (summer), Samhain marked the night summer ended and the dark half of the year, and the wandering dead, began.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sam", "correctAnswer": "Summer", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Beltane",
+    "pronunciation": "BEL-tayn",
+    "pos": "noun",
+    "definition": "A Gaelic festival celebrated around the 1st of May marking the beginning of summer, traditionally observed with bonfires and rituals for fertility and protection.",
+    "origin": "<strong>Beltane</strong> comes from Old Irish \"Beltaine\", widely thought to combine a word related to a bright or fire deity with \"tene\" (fire) — literally something like \"bright fire\". Cattle were driven between two bonfires at Beltane in a purification ritual meant to protect the herd before it was moved to summer pasture. The festival marked the midpoint between spring equinox and summer solstice, standing opposite Samhain on the Celtic wheel of the year, and its bonfire customs still survive in modern Gaelic revival festivals such as the Edinburgh Beltane Fire Festival.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Beltane</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish Beltaine", "b": "Root of the word Beltane" },
+          { "a": "Old Irish tene", "b": "Means fire" },
+          { "a": "Beltane falls around", "b": "The 1st of May" },
+          { "a": "Beltane stands opposite", "b": "Samhain on the Celtic year" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Beltane</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Beltane celebrates the start of", "b": "Summer" },
+          { "a": "Cattle were driven between two bonfires to", "b": "Purify and protect the herd" },
+          { "a": "Beltane sits at the midpoint between", "b": "Spring equinox and summer solstice" },
+          { "a": "A modern revival of the festival is held annually in", "b": "Edinburgh" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Beltane</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Farmers drove their cattle between two blazing", "b": "Beltane bonfires for good luck" },
+          { "a": "Dancers circled the maypole at the village's", "b": "Beltane celebration" },
+          { "a": "The old calendar treated Beltane as the true start of", "b": "summer, not the solstice" },
+          { "a": "Thousands gather each spring to watch the", "b": "Beltane Fire Festival on Calton Hill" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tene", "rootLanguage": "Old Irish", "rootMeaning": "Fire", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Irish ", "highlight": false }, { "text": "tene", "highlight": true }, { "text": " (fire), Beltane's bonfires once purified cattle and welcomed the start of summer.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tene", "correctAnswer": "Fire", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Morrigan",
+    "pronunciation": "MOR-ih-gan",
+    "pos": "noun",
+    "definition": "A powerful Irish goddess associated with war, fate, and death, often appearing as a crow or raven over battlefields.",
+    "origin": "<strong>Morrigan</strong> (Old Irish \"Mórrígan\") is usually parsed as \"mór\" (great) plus \"rígan\" (queen), giving \"great queen\", though some scholars connect the first element to a root for terror or nightmare instead. She appears throughout the Ulster Cycle, most famously testing and later aiding the hero Cú Chulainn, and could shapeshift into a crow to haunt the site of coming slaughter. Rather than a single goddess, \"the Morrígan\" sometimes names a trio of war-goddesses working together, reflecting how fluid identity could be in Irish myth.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Morrigan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish mór", "b": "Means great" },
+          { "a": "Old Irish rígan", "b": "Means queen" },
+          { "a": "The Morrígan appears throughout the", "b": "Ulster Cycle of Irish myth" },
+          { "a": "She famously tests and aids the hero", "b": "Cú Chulainn" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Morrigan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Morrígan is a goddess of", "b": "War, fate, and death" },
+          { "a": "She often takes the form of a", "b": "Crow or raven" },
+          { "a": "Her appearance over a battlefield warns of", "b": "Coming slaughter" },
+          { "a": "Some sources describe the Morrígan as", "b": "A trio of goddesses acting as one" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Morrigan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A lone crow settled on the battlements, and the soldiers whispered of", "b": "the Morrígan" },
+          { "a": "In the saga, the Morrígan warns Cú Chulainn that he will", "b": "die before the day is out" },
+          { "a": "Storytellers describe her washing bloody armour by a ford as an", "b": "omen of death" },
+          { "a": "The novel reimagines the Morrígan as a", "b": "modern goddess of conflict" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mór", "rootLanguage": "Old Irish", "rootMeaning": "Great" }, { "rootText": "rígan", "rootLanguage": "Old Irish", "rootMeaning": "Queen", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Irish ", "highlight": false }, { "text": "rígan", "highlight": true }, { "text": " (queen), joined to 'mór' (great) — the 'great queen' who haunted battlefields as a crow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "rígan", "correctAnswer": "Queen", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brigid",
+    "pronunciation": "BRIJ-id",
+    "pos": "noun",
+    "definition": "An Irish goddess of fire, poetry, healing, and smithcraft, whose worship later merged with the Christian Saint Brigid of Kildare.",
+    "origin": "<strong>Brigid</strong> comes from Old Irish \"Brigit\", from a Proto-Celtic root meaning \"the exalted one\" or \"high one\", marking her as a goddess of high status among the Tuatha Dé Danann. She presided over poetry, healing wells, and the forge, a triple domain that made her one of the most widely venerated deities in pre-Christian Ireland. When Ireland converted, many of Brigid's associations — her feast day at the start of February, her sacred flame, and her healing wells — were carried over almost intact onto Saint Brigid of Kildare.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brigid</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish Brigit", "b": "Root of the name Brigid" },
+          { "a": "Proto-Celtic brig-", "b": "Means exalted or high one" },
+          { "a": "Brigid belonged to the", "b": "Tuatha Dé Danann" },
+          { "a": "After Ireland's conversion, her feast passed to", "b": "Saint Brigid of Kildare" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brigid</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Brigid was a goddess of", "b": "Fire, poetry, and healing" },
+          { "a": "Her sacred sites often included", "b": "Holy wells and an eternal flame" },
+          { "a": "Brigid's feast day falls at the start of", "b": "February" },
+          { "a": "Her triple domain also covered", "b": "Smithcraft" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brigid</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Pilgrims still visit the holy well said to have healed the sick since", "b": "Brigid's time" },
+          { "a": "On her feast day, families once wove crosses from rushes in honour of", "b": "Brigid" },
+          { "a": "The forge fire was kept burning day and night as an offering to", "b": "Brigid" },
+          { "a": "Poets invoked Brigid for inspiration before", "b": "reciting their verse" }
+        ] }
+    ],
+    "roots": [ { "rootText": "brig-", "rootLanguage": "Proto-Celtic", "rootMeaning": "Exalted, high one", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Proto-Celtic ", "highlight": false }, { "text": "brig-", "highlight": true }, { "text": " (exalted, high), Brigid was Ireland's high goddess of fire, poetry, and healing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "brig-", "correctAnswer": "Exalted, high one", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Kelpie",
+    "pronunciation": "KEL-pee",
+    "pos": "noun",
+    "definition": "A shape-shifting water spirit of Scottish folklore, usually appearing as a horse, said to lure travellers onto its back before dragging them under the water.",
+    "origin": "<strong>Kelpie</strong> first appears in Scots in the 18th century, and though its exact roots are debated, many scholars connect it to Scottish Gaelic \"colpach\", meaning a young horse or heifer, fitting the creature's most common disguise. Tales describe the kelpie's coat as always dripping wet, and any rider foolish enough to mount it would find their hands stuck fast as it plunged into a loch or river. The legend likely served a practical purpose too, warning children away from dangerous water.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Kelpie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "First recorded in Scots in the", "b": "18th century" },
+          { "a": "Scottish Gaelic colpach", "b": "Means young horse or heifer" },
+          { "a": "The kelpie's most common disguise was a", "b": "Horse" },
+          { "a": "The legend likely served to warn children away from", "b": "Dangerous water" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Kelpie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A kelpie is a shape-shifting spirit associated with", "b": "Water" },
+          { "a": "Its coat was said to always be", "b": "Dripping wet" },
+          { "a": "A rider who mounted the kelpie found their hands", "b": "Stuck fast to its back" },
+          { "a": "The kelpie would ultimately drag its victim into a", "b": "Loch or river" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Kelpie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Grandmother warned us never to pet the strange horse by the loch, calling it a", "b": "kelpie" },
+          { "a": "The pair of giant steel horse-head statues by the canal are named for the", "b": "kelpie legend" },
+          { "a": "He swore the beast that vanished into the water was a", "b": "kelpie" },
+          { "a": "Sailors blamed the drowning on a", "b": "kelpie lurking in the river" }
+        ] }
+    ],
+    "roots": [ { "rootText": "colpach", "rootLanguage": "Scottish Gaelic", "rootMeaning": "Young horse, heifer", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from Scottish Gaelic ", "highlight": false }, { "text": "colpach", "highlight": true }, { "text": " (young horse), the kelpie disguised itself as a beautiful horse to drag riders into deep water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "colpach", "correctAnswer": "Young horse, heifer", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pixie",
+    "pronunciation": "PIK-see",
+    "pos": "noun",
+    "definition": "A small, mischievous, fairy-like creature of English folklore, especially associated with the West Country of England.",
+    "origin": "<strong>Pixie</strong> is first recorded in the 17th century in the West Country dialects of Devon and Cornwall, though its ultimate origin is uncertain and has been linked to both Swedish dialect \"pyske\" (small fairy) and older Celtic folklore of the region. Pixies were said to lead travellers astray on the moors, an experience known as being \"pixie-led\", and leaving one's coat turned inside out was a folk remedy for breaking the spell. Unlike the more sinister fairies of other traditions, pixies were generally viewed as playful rather than dangerous.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pixie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "First recorded in the", "b": "17th century" },
+          { "a": "Strongly associated with the dialects of", "b": "Devon and Cornwall" },
+          { "a": "One proposed root is Swedish dialect", "b": "pyske, meaning small fairy" },
+          { "a": "Being led astray by a pixie was called being", "b": "Pixie-led" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pixie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pixie is generally viewed as", "b": "Playful rather than dangerous" },
+          { "a": "Pixies were said to haunt", "b": "Moors and wild countryside" },
+          { "a": "The folk remedy for being pixie-led was to", "b": "Turn one's coat inside out" },
+          { "a": "Unlike some fairies, pixies are typically", "b": "Small and mischievous, not sinister" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pixie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Lost on the foggy moor, the hikers joked they must be", "b": "pixie-led" },
+          { "a": "She turned her jacket inside out, laughing about the old cure for", "b": "pixies" },
+          { "a": "The garden ornament shaped like a tiny winged figure was a", "b": "pixie" },
+          { "a": "Cornish folktales are full of stories about", "b": "mischievous pixies" }
+        ] }
+    ],
+    "roots": [ { "rootText": "pyske", "rootLanguage": "Swedish dialect (proposed)", "rootMeaning": "Small fairy", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly related to Swedish dialect ", "highlight": false }, { "text": "pyske", "highlight": true }, { "text": " (small fairy), pixies haunted the moors of Devon and Cornwall, leading walkers astray.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "pyske", "correctAnswer": "Small fairy", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fairy",
+    "pronunciation": "FAIR-ee",
+    "pos": "noun",
+    "definition": "A supernatural being of folklore with magical powers, often small in size and capable of helping or harming humans.",
+    "origin": "<strong>Fairy</strong> comes from Old French \"faerie\", meaning enchantment or the land of fairies, itself from Latin \"fata\", the Fates, the three goddesses who spun and cut the thread of human destiny. The word entered Middle English describing not individual creatures but a state of enchantment, and only later narrowed to mean the beings themselves. Celtic-speaking regions had their own older names for such beings, such as the Irish \"sídhe\" and Welsh \"tylwyth teg\", and English \"fairy\" gradually absorbed and blended with these native traditions.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fairy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French faerie", "b": "Means enchantment, or fairyland" },
+          { "a": "Latin fata", "b": "Refers to the Fates" },
+          { "a": "In Middle English, fairy first described a", "b": "State of enchantment" },
+          { "a": "Celtic regions had older native names such as", "b": "Sídhe and tylwyth teg" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fairy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fairy is a supernatural being with", "b": "Magical powers" },
+          { "a": "Fairies could be either", "b": "Helpful or harmful to humans" },
+          { "a": "The word fairy narrowed over time from a state to", "b": "The beings themselves" },
+          { "a": "Fairy tales get their name from stories about", "b": "Enchantment and magical beings" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fairy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The child left a saucer of milk out for the", "b": "garden fairies" },
+          { "a": "Grandmother's stories always began with a", "b": "fairy godmother granting a wish" },
+          { "a": "The ring of mushrooms in the field was called a", "b": "fairy ring" },
+          { "a": "He swore he'd wandered under a", "b": "fairy enchantment for hours" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fata", "rootLanguage": "Latin", "rootMeaning": "The Fates", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fata", "highlight": true }, { "text": " (the Fates), fairy first meant a state of enchantment before it came to mean the beings themselves.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fata", "correctAnswer": "The Fates", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pooka",
+    "pronunciation": "POO-kuh",
+    "pos": "noun",
+    "definition": "A shape-shifting trickster spirit of Irish folklore, often appearing as a dark horse, that can bring either good luck or mischief.",
+    "origin": "<strong>Pooka</strong> comes from Irish \"púca\", a word of uncertain origin possibly related to Old Norse \"puki\" (a mischievous demon) or older native Celtic roots for a malevolent spirit. The pooka could take many forms, most famously a black horse with glowing eyes, and was said to speak with a human voice while carrying unwary riders on a wild, terrifying gallop across the countryside before dumping them in a ditch at dawn. Farmers traditionally left a share of the harvest in the field for the pooka, calling it the \"pooka's share\", to keep the creature's mischief at bay.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pooka</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish púca", "b": "Root of the word pooka" },
+          { "a": "One proposed link is Old Norse", "b": "puki, a mischievous demon" },
+          { "a": "The pooka's most famous form was a", "b": "Black horse with glowing eyes" },
+          { "a": "Farmers left a share of the harvest for the pooka called the", "b": "Pooka's share" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pooka</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A pooka is a", "b": "Shape-shifting trickster spirit" },
+          { "a": "Riders taken by the pooka experienced a", "b": "Wild, terrifying gallop" },
+          { "a": "The pooka could speak with a", "b": "Human voice" },
+          { "a": "Leaving crops for the pooka was meant to", "b": "Keep its mischief at bay" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pooka</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Farmers always left the last of the blackberries for the", "b": "pooka's share" },
+          { "a": "The dark horse that appeared at midnight was said to be a", "b": "pooka" },
+          { "a": "He woke in a ditch at dawn, certain he'd been ridden by a", "b": "pooka overnight" },
+          { "a": "The film's shapeshifting rabbit-like companion was based on the", "b": "pooka legend" }
+        ] }
+    ],
+    "roots": [ { "rootText": "púca", "rootLanguage": "Irish", "rootMeaning": "Trickster spirit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "púca", "highlight": true }, { "text": ", a shape-shifting trickster who often took the form of a wild black horse.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "púca", "correctAnswer": "Trickster spirit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cairn",
+    "pronunciation": "kairn",
+    "pos": "noun",
+    "definition": "A human-made pile or mound of stones, often built as a landmark, boundary marker, or memorial over a burial site.",
+    "origin": "<strong>Cairn</strong> comes from Scottish Gaelic \"càrn\", a word shared across the Celtic languages for a heap of stones, tracing back to a common Celtic root. Ancient cairns across Ireland, Scotland, and Wales frequently mark Neolithic and Bronze Age burial sites, some, like Newgrange in Ireland, built with such precision that they align with the sunrise on the winter solstice. The tradition of adding a stone to a cairn while passing, \"to add to the cairn\", survives today as a hiking custom on mountain summits.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cairn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Scottish Gaelic càrn", "b": "Root of the word cairn" },
+          { "a": "Càrn is shared across the", "b": "Celtic languages" },
+          { "a": "Cairns often mark", "b": "Neolithic and Bronze Age burial sites" },
+          { "a": "Newgrange in Ireland aligns with sunrise on the", "b": "Winter solstice" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cairn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cairn is a human-made pile of", "b": "Stones" },
+          { "a": "Cairns can serve as", "b": "Landmarks, boundary markers, or memorials" },
+          { "a": "Some ancient cairns cover", "b": "Burial chambers" },
+          { "a": "Hikers today follow the tradition of", "b": "Adding a stone to a cairn" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cairn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "At the summit, walkers had left dozens of stones on the", "b": "cairn" },
+          { "a": "Archaeologists dated the burial chamber beneath the", "b": "ancient cairn" },
+          { "a": "The trail markers were simple piles of stone, or", "b": "cairns, every few hundred metres" },
+          { "a": "She placed a final pebble on the memorial", "b": "cairn" }
+        ] }
+    ],
+    "roots": [ { "rootText": "càrn", "rootLanguage": "Scottish Gaelic", "rootMeaning": "Heap of stones", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Scottish Gaelic ", "highlight": false }, { "text": "càrn", "highlight": true }, { "text": " (heap of stones), cairns once marked ancient graves and still mark mountain summits today.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "càrn", "correctAnswer": "Heap of stones", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sidhe",
+    "pronunciation": "SHEE",
+    "pos": "noun",
+    "definition": "In Irish mythology, the fairy folk believed to live within ancient burial mounds, also called the Aos Sí.",
+    "origin": "<strong>Sidhe</strong> comes from Irish \"sídh\" (also spelled \"sí\"), originally meaning a fairy mound or hill, before extending to name the beings believed to dwell inside it, the \"Aos Sí\" or \"people of the mounds\". These mounds were often real Neolithic burial sites, and folk belief held that the Tuatha Dé Danann retreated underground into them after being defeated by later invaders, becoming the sidhe of legend. Disturbing a fairy mound was considered deeply unlucky, a belief so persistent that even modern Irish road projects have occasionally been rerouted around them.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sidhe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish sídh or sí", "b": "Originally meant a fairy mound" },
+          { "a": "The full name for the fairy folk was", "b": "Aos Sí, people of the mounds" },
+          { "a": "Fairy mounds were often real", "b": "Neolithic burial sites" },
+          { "a": "Folk belief held the sidhe were once the", "b": "Tuatha Dé Danann, gone underground" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sidhe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The sidhe are believed to live within", "b": "Ancient burial mounds" },
+          { "a": "Disturbing a fairy mound was considered", "b": "Deeply unlucky" },
+          { "a": "The sidhe are closely tied to the", "b": "Tuatha Dé Danann" },
+          { "a": "Modern Irish infrastructure projects have sometimes", "b": "Been rerouted around fairy mounds" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sidhe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Locals refused to plough the field, fearing it belonged to the", "b": "sidhe" },
+          { "a": "On certain nights, music was said to drift up from the", "b": "sidhe beneath the hill" },
+          { "a": "The engineer quietly redrew the road plans around the", "b": "ancient sidhe mound" },
+          { "a": "Storytellers describe grand feasting halls hidden inside the", "b": "sidhe" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sídh", "rootLanguage": "Irish", "rootMeaning": "Fairy mound", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "sídh", "highlight": true }, { "text": " (fairy mound), the sidhe were believed to be the Tuatha Dé Danann living on beneath the ancient burial hills.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sídh", "correctAnswer": "Fairy mound", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Brownie",
+    "pronunciation": "BROW-nee",
+    "pos": "noun",
+    "definition": "A household spirit of Scottish and English folklore said to perform chores and farm work at night in exchange for small offerings of food.",
+    "origin": "<strong>Brownie</strong> comes from the adjective \"brown\", describing the creature's dusky, homely appearance, combined with the diminutive suffix \"-ie\" common in Scots. Brownies were said to attach themselves to a single household or farm, working through the night at tasks like threshing grain or cleaning, but they would vanish forever if given clothing, since this was taken as an insult implying payment for their labour. The belief closely parallels stories of the German \"kobold\" and the house-elf traditions found more widely across northern Europe.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Brownie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Brownie comes from the word", "b": "Brown, describing its dusky look" },
+          { "a": "The suffix -ie is common in", "b": "Scots diminutives" },
+          { "a": "Brownies attached themselves to a", "b": "Single household or farm" },
+          { "a": "Giving a brownie clothing would", "b": "Make it vanish forever" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Brownie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A brownie performs", "b": "Household or farm chores at night" },
+          { "a": "Brownies expected only", "b": "Small offerings of food" },
+          { "a": "The tradition parallels the German", "b": "Kobold" },
+          { "a": "Insulting a brownie by offering payment risked", "b": "Losing its help forever" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Brownie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "By morning the barn was swept clean, and the farmer thanked the", "b": "brownie" },
+          { "a": "She left a bowl of cream by the hearth each night for the", "b": "brownie" },
+          { "a": "When they gave it a coat as thanks, the", "b": "brownie disappeared for good" },
+          { "a": "The old cottage was said to be looked after by a", "b": "helpful brownie" }
+        ] }
+    ],
+    "roots": [ { "rootText": "brown + -ie", "rootLanguage": "Scots", "rootMeaning": "Little brown one", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Scots ", "highlight": false }, { "text": "brown + -ie", "highlight": true }, { "text": ", a 'little brown one' who did the night's chores but vanished forever if offered clothes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "brown + -ie", "correctAnswer": "Little brown one", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Will-o-wisp",
+    "pronunciation": "WIL-uh-thuh-WISP",
+    "pos": "noun",
+    "definition": "A ghostly, flickering light seen at night over marshes or bogs, said to lure travellers off the safe path.",
+    "origin": "<strong>Will-o'-the-wisp</strong> combines the personal name \"Will\" with \"wisp\", a bundle of twigs or straw once used as a makeshift torch, painting the light as a mischievous figure carrying his own lantern. The phenomenon has a real scientific explanation, the gentle combustion of gases such as methane released by decaying organic matter in marshland, which produces a pale glow known scientifically as ignis fatuus, Latin for \"foolish fire\". Folklore across Britain and Ireland cast the light as a trickster spirit or wandering soul, leading unwary night travellers into bogs and danger.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Will-o-wisp</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Will-o'-the-wisp combines the name Will with", "b": "Wisp, a bundle used as a torch" },
+          { "a": "The scientific name for the light is", "b": "Ignis fatuus" },
+          { "a": "Ignis fatuus is Latin for", "b": "Foolish fire" },
+          { "a": "The real cause of the light is gas released by", "b": "Decaying organic matter in marshland" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Will-o-wisp</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A will-o'-the-wisp is a ghostly light seen over", "b": "Marshes or bogs" },
+          { "a": "Folklore treated the light as a", "b": "Trickster spirit or wandering soul" },
+          { "a": "The light was said to lure travellers", "b": "Off the safe path" },
+          { "a": "Following the light after dark could lead a traveller into", "b": "Dangerous bog" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Will-o-wisp</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The travellers refused to chase the pale light, calling it a", "b": "will-o'-the-wisp" },
+          { "a": "Deep in the fen, an eerie glow flickered like a", "b": "will-o'-the-wisp" },
+          { "a": "His promises turned out to be a", "b": "will-o'-the-wisp, always out of reach" },
+          { "a": "Old maps warned travellers of bogs haunted by", "b": "will-o'-the-wisps" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ignis fatuus", "rootLanguage": "Latin", "rootMeaning": "Foolish fire", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Known scientifically as ", "highlight": false }, { "text": "ignis fatuus", "highlight": true }, { "text": " (foolish fire), the will-o'-the-wisp was folklore's name for the eerie lights over the marsh.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ignis fatuus", "correctAnswer": "Foolish fire", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dullahan",
+    "pronunciation": "DUL-uh-han",
+    "pos": "noun",
+    "definition": "A headless horseman of Irish folklore who rides at night carrying his own head, said to be a harbinger of death.",
+    "origin": "<strong>Dullahan</strong> comes from Irish \"dulachán\", meaning \"headless one\", though its deeper roots remain debated among folklorists. He is described riding a black horse or driving a black coach, the Cóiste Bodhar, carrying his severed head under one arm, its mouth stretched into a wide, monstrous grin. Wherever the Dullahan stopped his ride, a person's name would be called out and that person would die, a belief that made hearing hoofbeats at night a genuinely terrifying prospect for rural Irish communities.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dullahan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish dulachán", "b": "Root of the name Dullahan, meaning headless one" },
+          { "a": "The Dullahan's coach was called the", "b": "Cóiste Bodhar" },
+          { "a": "The Dullahan rides a", "b": "Black horse or coach" },
+          { "a": "His severed head was said to be carried", "b": "Under one arm" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dullahan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Dullahan is a", "b": "Headless horseman, a harbinger of death" },
+          { "a": "Wherever the Dullahan stopped, he would call out a", "b": "Person's name, who would then die" },
+          { "a": "His mouth was described as stretched into a", "b": "Monstrous grin" },
+          { "a": "Hearing hoofbeats at night was considered a sign of", "b": "The Dullahan's approach" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dullahan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Villagers bolted their doors when they heard the hooves of the", "b": "Dullahan" },
+          { "a": "Legend says the Dullahan halted before the house and called out a", "b": "name" },
+          { "a": "The black coach thundering past at midnight was said to be the", "b": "Cóiste Bodhar" },
+          { "a": "The film's headless rider was clearly modelled on the", "b": "Irish Dullahan" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dulachán", "rootLanguage": "Irish", "rootMeaning": "Headless one", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "dulachán", "highlight": true }, { "text": ", the Dullahan rode a black horse carrying his own severed head, calling the name of the next to die.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dulachán", "correctAnswer": "Headless one", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fomorian",
+    "pronunciation": "foh-MOR-ee-un",
+    "pos": "noun",
+    "definition": "A member of a race of supernatural, often monstrous beings in Irish mythology who opposed the divine Tuatha Dé Danann for control of Ireland.",
+    "origin": "<strong>Fomorian</strong> comes from Irish \"Fomhóraigh\", generally analysed as \"fo\" (under) plus a root meaning \"sea\" or \"spectre\", suggesting beings from beneath the sea or the underworld. In the mythological cycle, the Fomorians represent chaotic, destructive forces of nature, often depicted with deformities such as a single arm, leg, or eye, and their king Balor possessed a single deadly eye that could destroy an army with a glance. Their defeat by the Tuatha Dé Danann at the Second Battle of Mag Tuired is one of the central myths of early Irish literature.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fomorian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish Fomhóraigh", "b": "Root of the word Fomorian" },
+          { "a": "Fo-mór is generally read as", "b": "Under plus sea or spectre" },
+          { "a": "The Fomorians opposed the", "b": "Tuatha Dé Danann" },
+          { "a": "Their decisive defeat came at the", "b": "Second Battle of Mag Tuired" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fomorian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Fomorians represent", "b": "Chaotic, destructive forces of nature" },
+          { "a": "Many Fomorians were depicted with", "b": "Physical deformities" },
+          { "a": "Their king Balor had a", "b": "Single deadly eye" },
+          { "a": "Balor's eye could destroy an army with a", "b": "Glance" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fomorian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "In the epic, warriors marched to face the monstrous", "b": "Fomorian army" },
+          { "a": "Balor's terrible eye, feared throughout the tale, marked him as king of the", "b": "Fomorians" },
+          { "a": "The battle at Mag Tuired finally broke the power of the", "b": "Fomorians" },
+          { "a": "Storm-battered fishermen once blamed wrecks on the", "b": "Fomorians of the sea" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fo-mór", "rootLanguage": "Irish", "rootMeaning": "Under-sea, under-spectre", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "fo-mór", "highlight": true }, { "text": " (under-sea), the Fomorians were chaotic, sea-born beings who warred with the Tuatha Dé Danann for Ireland.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fo-mór", "correctAnswer": "Under-sea, under-spectre", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ogma",
+    "pronunciation": "OG-muh",
+    "pos": "noun",
+    "definition": "An Irish god of eloquence, poetry, and strength, traditionally credited with inventing the Ogham writing system.",
+    "origin": "<strong>Ogma</strong> appears in Old Irish as a member of the Tuatha Dé Danann, sometimes called \"Ogma Grianainech\" (\"sun-faced\"), celebrated as a champion warrior as much as a master of language. He is traditionally said to have invented Ogham, the earliest known writing system in Ireland, a script of notched lines carved along the edge of standing stones, used mainly to write names in Old Irish. Some scholars connect his name to the Gaulish god Ogmios, described by the Greek writer Lucian as an old man who drew crowds along by golden chains linked to his tongue, an image of persuasive, binding eloquence.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ogma</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ogma belonged to the", "b": "Tuatha Dé Danann" },
+          { "a": "His epithet Grianainech means", "b": "Sun-faced" },
+          { "a": "He is traditionally credited with inventing", "b": "Ogham" },
+          { "a": "His name may be linked to the Gaulish god", "b": "Ogmios" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ogma</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ogma was a god of", "b": "Eloquence, poetry, and strength" },
+          { "a": "Ogham is Ireland's earliest known", "b": "Writing system" },
+          { "a": "Ogham inscriptions were carved along the edges of", "b": "Standing stones" },
+          { "a": "Lucian described Ogmios pulling crowds along by", "b": "Golden chains from his tongue" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ogma</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Scholars still decipher the notched marks of", "b": "Ogham on ancient standing stones" },
+          { "a": "The bard invoked Ogma before beginning his", "b": "epic recitation" },
+          { "a": "According to legend, Ogma's gift for words was as fearsome as his", "b": "strength in battle" },
+          { "a": "The museum's stone bore rows of an ancient script called", "b": "Ogham" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Ogmios", "rootLanguage": "Gaulish (proposed cognate)", "rootMeaning": "God of persuasive eloquence", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly linked to Gaulish ", "highlight": false }, { "text": "Ogmios", "highlight": true }, { "text": ", a god whose golden chains of speech bound listeners — Ogma was Ireland's champion of language and strength.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Ogmios", "correctAnswer": "God of persuasive eloquence", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tuatha",
+    "pronunciation": "TOO-uh-huh",
+    "pos": "noun",
+    "definition": "Short for Tuatha Dé Danann, the mythical race of gods and heroes in Irish mythology said to have ruled Ireland before retreating into the fairy mounds.",
+    "origin": "<strong>Tuatha</strong> is the Irish word for \"tribe\" or \"people\", combined in \"Tuatha Dé Danann\" with \"dé\" (of the god/gods) and \"Danann\", referring to the goddess Danu, giving the full meaning \"the people of the goddess Danu\". They were said to have arrived in Ireland in mist-shrouded ships, bringing with them four great treasures including the Spear of Lugh and the Stone of Destiny, and defeated the Fomorians for control of the land. When later human invaders, the Milesians, arrived, the Tuatha Dé Danann agreed to retreat underground into the sídhe, becoming the fairy folk of later legend.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tuatha</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish tuath", "b": "Means tribe or people" },
+          { "a": "The full name Tuatha Dé Danann means", "b": "People of the goddess Danu" },
+          { "a": "The Tuatha Dé Danann arrived in", "b": "Mist-shrouded ships" },
+          { "a": "They defeated the", "b": "Fomorians for control of Ireland" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tuatha</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Tuatha Dé Danann were a race of", "b": "Gods and heroes" },
+          { "a": "They brought four great treasures, including the", "b": "Spear of Lugh" },
+          { "a": "When the Milesians arrived, the Tuatha Dé Danann retreated into the", "b": "Sídhe, or fairy mounds" },
+          { "a": "They are considered ancestors of the later", "b": "Fairy folk of Irish legend" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tuatha</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The saga opens with the arrival of the", "b": "Tuatha Dé Danann on Irish shores" },
+          { "a": "Warriors of the Tuatha carried the legendary", "b": "Spear of Lugh into battle" },
+          { "a": "After their defeat, the Tuatha withdrew into the hills, becoming the", "b": "sídhe" },
+          { "a": "The Stone of Destiny was said to cry out beneath the feet of a true", "b": "king of the Tuatha" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tuath", "rootLanguage": "Irish", "rootMeaning": "Tribe, people", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Irish ", "highlight": false }, { "text": "tuath", "highlight": true }, { "text": " (tribe, people), the Tuatha Dé Danann, 'people of the goddess Danu', once ruled Ireland before retreating into the fairy mounds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tuath", "correctAnswer": "Tribe, people", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Glamour",
+    "pronunciation": "GLAM-er",
+    "pos": "noun",
+    "definition": "Alluring physical attractiveness or exciting charm; originally, a magic spell cast to alter appearance or perception.",
+    "origin": "<strong>Glamour</strong> began as a Scots alteration of \"grammar\", reflecting a widespread medieval folk belief that learning, especially Latin grammar and the study of arcane books, was closely tied to magic and occult knowledge. By the 18th century, Scots \"glamer\" or \"glamour\" specifically meant a spell cast over someone's eyes to make things appear different from what they really were, popularised in the poetry of Sir Walter Scott. Only in the early 20th century did the word soften from an actual bewitching spell into its modern sense of captivating, fashionable charm.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Glamour</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Glamour began as a Scots alteration of", "b": "Grammar" },
+          { "a": "Medieval folk belief linked learning to", "b": "Magic and occult knowledge" },
+          { "a": "By the 18th century, glamer meant a", "b": "Spell cast over someone's eyes" },
+          { "a": "The word was popularised in the poetry of", "b": "Sir Walter Scott" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Glamour</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Originally, a glamour was a", "b": "Magic spell altering appearance" },
+          { "a": "The modern sense of glamour softened into", "b": "Captivating, fashionable charm" },
+          { "a": "A glamour cast over someone's eyes made things appear", "b": "Different from what they really were" },
+          { "a": "The shift to the modern meaning happened in the", "b": "Early 20th century" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Glamour</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The witch cast a glamour so the cottage appeared as a", "b": "grand palace" },
+          { "a": "Hollywood premieres are known for their red-carpet", "b": "glamour" },
+          { "a": "Under the fairy's glamour, the traveller saw only a", "b": "beautiful meadow, not the bog" },
+          { "a": "Critics said the film glorified the", "b": "glamour of a dangerous lifestyle" }
+        ] }
+    ],
+    "roots": [ { "rootText": "grammar", "rootLanguage": "Scots (alteration)", "rootMeaning": "Learning, especially of magic and Latin", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Glamour began as a Scots alteration of ", "highlight": false }, { "text": "grammar", "highlight": true }, { "text": " — since book-learning was once thought a form of magic that could bewitch the eye.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "grammar", "correctAnswer": "Learning, especially of magic and Latin", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Awen",
+    "pronunciation": "AH-wen",
+    "pos": "noun",
+    "definition": "A Welsh word for poetic or artistic inspiration, especially the flowing, divine-seeming gift said to move through bards.",
+    "origin": "<strong>Awen</strong> is Old Welsh for \"inspiration\" or \"flowing spirit\", likely from a root meaning \"to blow\" or \"breathe\", picturing inspiration as a breath or wind moving through the poet. The word appears in the earliest Welsh poetry, including work attributed to the legendary bard Taliesin, who claimed his awen came directly from drinking from a cauldron of wisdom. Modern Welsh cultural life still uses awen as the guiding symbol of the National Eisteddfod, represented by three rays of light at the ceremony's heart.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Awen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Awen is Old Welsh for", "b": "Inspiration, flowing spirit" },
+          { "a": "The root likely relates to", "b": "To blow or breathe" },
+          { "a": "Awen appears in poetry attributed to", "b": "Taliesin" },
+          { "a": "Taliesin claimed his awen came from", "b": "A cauldron of wisdom" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Awen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Awen refers to", "b": "Poetic or artistic inspiration" },
+          { "a": "The gift of awen was thought to feel", "b": "Divine or flowing" },
+          { "a": "Modern Welsh culture uses awen as the symbol of the", "b": "National Eisteddfod" },
+          { "a": "At the Eisteddfod, awen is represented by", "b": "Three rays of light" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Awen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old poet said the words came not from skill but from", "b": "awen" },
+          { "a": "On stage, the emblem of three rays represented the", "b": "awen" },
+          { "a": "She described her sudden burst of creativity as a kind of", "b": "awen" },
+          { "a": "Bards competed at the festival, each hoping to be touched by", "b": "awen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "awen", "rootLanguage": "Old Welsh", "rootMeaning": "Flowing inspiration, breath", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Old Welsh ", "highlight": false }, { "text": "awen", "highlight": true }, { "text": " pictured poetic inspiration as a breath or flowing spirit moving through the bard.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "awen", "correctAnswer": "Flowing inspiration, breath", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Taliesin",
+    "pronunciation": "tal-YES-in",
+    "pos": "noun",
+    "definition": "A legendary sixth-century Welsh bard, part historical poet and part mythical figure, celebrated as the greatest of the early Welsh poets.",
+    "origin": "<strong>Taliesin</strong> comes from Welsh \"tal\" (brow, front) and \"iesin\" (radiant, shining), together meaning \"shining brow\", a name legend says was given to him at birth for the light upon his forehead. A real poet of that name likely composed verse in the courts of sixth-century Welsh kings, but medieval tales transformed him into a shapeshifting, prophetic figure who gained all knowledge from three drops of a magic potion brewed by the witch Ceridwen. His legendary life story, the \"Hanes Taliesin\", blends real early poetry with myth so thoroughly that historians still debate where the man ends and the legend begins.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Taliesin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Welsh tal", "b": "Means brow or front" },
+          { "a": "Welsh iesin", "b": "Means radiant or shining" },
+          { "a": "Taliesin's name together means", "b": "Shining brow" },
+          { "a": "His legendary life story is called the", "b": "Hanes Taliesin" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Taliesin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Taliesin was a legendary", "b": "Sixth-century Welsh bard" },
+          { "a": "Historians believe a real poet of that name served in", "b": "Sixth-century Welsh royal courts" },
+          { "a": "Legend says Taliesin gained all knowledge from three drops of a", "b": "Potion brewed by Ceridwen" },
+          { "a": "His story blends", "b": "Real early poetry with myth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Taliesin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Welsh schoolchildren still study verses attributed to the poet", "b": "Taliesin" },
+          { "a": "According to legend, three drops of Ceridwen's potion transformed the boy into", "b": "Taliesin" },
+          { "a": "The festival's chief poet was crowned in the tradition of", "b": "Taliesin" },
+          { "a": "Scholars still argue over which surviving poems truly belong to", "b": "the historical Taliesin" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tal", "rootLanguage": "Welsh", "rootMeaning": "Brow, front" }, { "rootText": "iesin", "rootLanguage": "Welsh", "rootMeaning": "Radiant, shining", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Welsh ", "highlight": false }, { "text": "iesin", "highlight": true }, { "text": " (radiant) joined to 'tal' (brow) gives 'shining brow' — the name of Wales' greatest legendary bard.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "iesin", "correctAnswer": "Radiant, shining", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Guinevere",
+    "pronunciation": "GWIN-uh-veer",
+    "pos": "noun",
+    "definition": "The queen of Arthurian legend, wife of King Arthur, whose love affair with Sir Lancelot became central to the fall of Camelot in later versions of the story.",
+    "origin": "<strong>Guinevere</strong> comes from Welsh \"Gwenhwyfar\", combining \"gwen\" (white, fair, blessed) and \"hwyfar\" (smooth, soft, or possibly phantom, spirit), giving a name often translated as \"white phantom\" or \"white enchantress\". She appears in the earliest Welsh Arthurian material as Arthur's queen, but it was the French medieval poet Chrétien de Troyes who developed her romance with Lancelot, reshaping her from a queen of a warband into the tragic centrepiece of courtly love and betrayal familiar today. Later Welsh tradition, intriguingly, hints at three women all named Gwenhwyfar, suggesting the figure absorbed several older tales.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Guinevere</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Welsh Gwenhwyfar", "b": "Root of the name Guinevere" },
+          { "a": "Welsh gwen", "b": "Means white, fair, or blessed" },
+          { "a": "Welsh hwyfar", "b": "Means smooth, soft, or possibly phantom/spirit" },
+          { "a": "The combined name is often translated", "b": "White phantom or white enchantress" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Guinevere</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Guinevere was", "b": "Queen of Arthurian legend, Arthur's wife" },
+          { "a": "Her love affair was with", "b": "Sir Lancelot" },
+          { "a": "Chrétien de Troyes reshaped her into the centerpiece of", "b": "Courtly love and betrayal" },
+          { "a": "Welsh tradition hints she may be", "b": "Three older women merged into one figure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Guinevere</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The queen of Camelot in most retellings is", "b": "Guinevere" },
+          { "a": "Arthur's marriage to", "b": "Guinevere sealed an alliance" },
+          { "a": "The love triangle with Lancelot centers on", "b": "Guinevere" },
+          { "a": "Medieval poets reimagined the once-warlike queen as", "b": "Guinevere, a tragic romantic heroine" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gwen", "rootLanguage": "Welsh", "rootMeaning": "White, fair, blessed", "showInIntro": true }, { "rootText": "hwyfar", "rootLanguage": "Welsh", "rootMeaning": "Smooth, soft, or phantom/spirit", "showInIntro": false } ],
+    "introEtymology": { "spans": [ { "text": "Welsh ", "highlight": false }, { "text": "Gwenhwyfar", "highlight": true }, { "text": " combines 'white, fair' with 'phantom, spirit' to give the name behind Arthur's queen.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gwen", "correctAnswer": "White, fair, blessed", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Enchant",
+    "pronunciation": "en-CHANT",
+    "pos": "verb",
+    "definition": "To cast a magic spell over someone or something, or to delight them completely.",
+    "origin": "<strong>Enchant</strong> comes from Old French \"enchanter\", itself from Latin \"incantare\" — \"in\" (upon) plus \"cantare\" (to sing or chant) — reflecting the ancient belief that spells were sung or chanted aloud. The word entered English in the 14th century still carrying its literal magical sense of casting a spell through words, and only later softened into the everyday meaning of captivating someone with charm or delight.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Enchant</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin cantare", "b": "To sing or chant" },
+          { "a": "Latin in- + cantare", "b": "To chant a spell upon" },
+          { "a": "Enchant entered English in the", "b": "14th century" },
+          { "a": "The original literal sense was", "b": "To cast a magic spell through song" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Enchant</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Enchant means to", "b": "Cast a spell over, or utterly delight" },
+          { "a": "A witch might enchant a", "b": "Sword or a forest" },
+          { "a": "Synonym of enchant", "b": "Bewitch" },
+          { "a": "Antonym of enchant", "b": "Disenchant, bore" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Enchant</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The wizard's spell would", "b": "enchant the sleeping princess" },
+          { "a": "Audiences were completely", "b": "enchanted by the performance" },
+          { "a": "Legend says the sword was", "b": "enchanted by a lake spirit" },
+          { "a": "Her singing voice seemed to", "b": "enchant the whole room" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cantare", "rootLanguage": "Latin", "rootMeaning": "To sing, chant", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Latin ", "highlight": false }, { "text": "cantare", "highlight": true }, { "text": " (to sing) plus 'in-' gives the literal sense of chanting a spell over someone.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cantare", "correctAnswer": "To sing, chant", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Avalon",
+    "pronunciation": "AV-uh-lawn",
+    "pos": "noun",
+    "definition": "The legendary island of Arthurian legend, sometimes called the Isle of Apples, where King Arthur was taken after his final battle to heal or die.",
+    "origin": "<strong>Avalon</strong> first appears in Latin as \"Insula Avallonis\" in Geoffrey of Monmouth's 12th-century \"Historia Regum Britanniae\". Most scholars trace the name to Welsh \"afal\", meaning apple, making Avalon the \"Isle of Apples\" — a fitting home for a mystical otherworld, since apples carried associations with immortality and the Celtic otherworld long before Arthur's story took shape. Later medieval writers, including Chrétien de Troyes and the authors of the Vulgate Cycle, linked the island with the enchantress Morgan le Fay, who was said to rule it and tend to Arthur's wound.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Avalon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Welsh afal", "b": "Means apple" },
+          { "a": "Avalon first appears in Latin as", "b": "Insula Avallonis" },
+          { "a": "That Latin name comes from Geoffrey of Monmouth's", "b": "Historia Regum Britanniae" },
+          { "a": "Apples were linked in Celtic tradition to", "b": "Immortality and the otherworld" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Avalon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Avalon is", "b": "The mystical island of Arthurian legend" },
+          { "a": "Arthur was taken there after his", "b": "Final battle, to heal or die" },
+          { "a": "The island was said to be ruled by", "b": "Morgan le Fay" },
+          { "a": "Avalon's other name is the", "b": "Isle of Apples" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Avalon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Wounded and dying, the king was ferried to", "b": "Avalon" },
+          { "a": "Legend says Arthur still sleeps on", "b": "Avalon" },
+          { "a": "The barge carried the king toward the mists of", "b": "Avalon" },
+          { "a": "Some tales claim Arthur will one day return from", "b": "Avalon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "afal", "rootLanguage": "Welsh", "rootMeaning": "Apple", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Welsh ", "highlight": false }, { "text": "afal", "highlight": true }, { "text": " (apple) gives Avalon its name — the mystical 'Isle of Apples' of Arthurian legend.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "afal", "correctAnswer": "Apple", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Excalibur",
+    "pronunciation": "ex-KAL-ih-ber",
+    "pos": "noun",
+    "definition": "The legendary sword of King Arthur, symbol of his right to rule, sometimes said to have been given to him by the Lady of the Lake.",
+    "origin": "<strong>Excalibur</strong> traces back through French Arthurian romance to Geoffrey of Monmouth's Latin \"Caliburnus\", which itself derives from the Welsh \"Caledfwlch\" — likely related to the Irish \"Caladbolg\", meaning \"hard cleft\" or \"hard lightning\". The familiar French spelling was later reshaped by writers who folk-connected it to Latin \"chalybs\" (steel) and the phrase \"ex calce liberatus\" (freed from the stone), tying the sword's name to the sword-in-the-stone legend even though that connection is almost certainly a later invention rather than the word's true origin.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Excalibur</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Welsh Caledfwlch", "b": "Means hard cleft or hard lightning" },
+          { "a": "Related Irish sword name", "b": "Caladbolg" },
+          { "a": "Geoffrey of Monmouth Latinized the name as", "b": "Caliburnus" },
+          { "a": "Later writers folk-linked Excalibur to Latin", "b": "Chalybs, meaning steel" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Excalibur</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Excalibur is", "b": "King Arthur's legendary sword" },
+          { "a": "The sword symbolized Arthur's", "b": "Right to rule" },
+          { "a": "Some legends say it was given to Arthur by", "b": "The Lady of the Lake" },
+          { "a": "Excalibur is often confused with the separate legend of", "b": "The sword in the stone" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Excalibur</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Arthur drew the shining blade called", "b": "Excalibur" },
+          { "a": "Before his death, the king ordered", "b": "Excalibur thrown into the lake" },
+          { "a": "The film reimagined the legend of", "b": "Excalibur" },
+          { "a": "No ordinary sword could match the power of", "b": "Excalibur" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Caledfwlch", "rootLanguage": "Welsh", "rootMeaning": "Hard cleft, hard lightning", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Welsh ", "highlight": false }, { "text": "Caledfwlch", "highlight": true }, { "text": ", meaning 'hard cleft', became Latin Caliburnus and finally the French Excalibur.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Caledfwlch", "correctAnswer": "Hard cleft, hard lightning", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arthur",
+    "pronunciation": "AR-thur",
+    "pos": "noun",
+    "definition": "The legendary king of Britain, central figure of Arthurian romance, said to have led the defense of Britain and ruled from Camelot with the knights of the Round Table.",
+    "origin": "The name <strong>Arthur</strong> is most likely derived from the Roman family name \"Artorius\", of obscure and possibly pre-Roman origin, worn by a real Romano-British military commander whose exploits may have seeded the later legend. A popular but linguistically weaker theory instead traces it to Welsh \"arth\" (bear) plus \"gwr\" (man), giving \"bear-man\"; most modern scholars favor the Roman origin, though the debate remains genuinely unsettled. Whether or not a single historical figure lies behind him, the literary Arthur was built up over centuries by Welsh, Latin, and French writers into the king of Camelot known today.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arthur</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Most likely root of Arthur is the Roman name", "b": "Artorius" },
+          { "a": "A weaker rival theory traces Arthur to Welsh", "b": "Arth (bear) + gwr (man)" },
+          { "a": "The Roman name Artorius may itself derive from", "b": "An obscure pre-Roman language" },
+          { "a": "A real Romano-British commander may have", "b": "Inspired the later legend" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arthur</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Arthur is", "b": "The legendary king of Britain" },
+          { "a": "He is said to have ruled from", "b": "Camelot" },
+          { "a": "His knights sat at the", "b": "Round Table" },
+          { "a": "Whether a historical Arthur existed is", "b": "Still genuinely debated by historians" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arthur</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Only the rightful king could pull the sword and become", "b": "Arthur" },
+          { "a": "The knights swore fealty to King", "b": "Arthur" },
+          { "a": "Medieval romances retold the court of", "b": "Arthur" },
+          { "a": "Wounded in his final battle,", "b": "Arthur was carried to Avalon" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Artorius", "rootLanguage": "Latin", "rootMeaning": "Roman family name, of uncertain origin", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Latin ", "highlight": false }, { "text": "Artorius", "highlight": true }, { "text": ", a Roman family name of obscure origin, is the name most scholars trace Arthur back to.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Artorius", "correctAnswer": "Roman family name, of uncertain origin", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Eisteddfod",
+    "pronunciation": "eye-STETH-vod",
+    "pos": "noun",
+    "definition": "A Welsh festival of literature, music, and performance, especially the National Eisteddfod, rooted in medieval gatherings of bards and poets.",
+    "origin": "<strong>Eisteddfod</strong> comes directly from Welsh \"eistedd\" (to sit) plus the suffix \"-fod\" (being, state), together literally meaning \"a sitting\" or \"session\" — describing the assembly where bards and poets sat together to compete and be judged. The tradition traces back to medieval bardic gatherings, formalized in the 12th century, and was revived and expanded in the 18th and 19th centuries into the modern National Eisteddfod, now one of Europe's largest cultural festivals.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Eisteddfod</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Welsh eistedd", "b": "Means to sit" },
+          { "a": "Welsh -fod", "b": "Means being or state" },
+          { "a": "Eisteddfod literally means", "b": "A sitting, or session" },
+          { "a": "The tradition was formalized in the", "b": "12th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Eisteddfod</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An eisteddfod is a", "b": "Welsh festival of literature, music, and performance" },
+          { "a": "Bards originally gathered there to", "b": "Compete and be judged" },
+          { "a": "The modern version is called the", "b": "National Eisteddfod" },
+          { "a": "It is now one of Europe's largest", "b": "Cultural festivals" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Eisteddfod</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The young poet won her first competition at the local", "b": "eisteddfod" },
+          { "a": "Choirs from across Wales gathered for the", "b": "National Eisteddfod" },
+          { "a": "Bards once competed for the bardic chair at the", "b": "eisteddfod" },
+          { "a": "The festival's emblem, the awen, is displayed at every", "b": "eisteddfod" }
+        ] }
+    ],
+    "roots": [ { "rootText": "eistedd", "rootLanguage": "Welsh", "rootMeaning": "To sit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Welsh ", "highlight": false }, { "text": "eistedd", "highlight": true }, { "text": " (to sit) plus '-fod' (being) literally means 'a sitting' — the bardic assembly.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "eistedd", "correctAnswer": "To sit", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Dolmen",
+    "pronunciation": "DOHL-men",
+    "pos": "noun",
+    "definition": "A prehistoric megalithic tomb structure made of two or more upright stones supporting a flat capstone.",
+    "origin": "<strong>Dolmen</strong> entered English via French antiquarian writing in the 18th and 19th centuries, who took it from Breton \"taol maen\", literally \"stone table\" (\"taol\", table, plus \"maen\", stone). An older theory linked it instead to Cornish \"tolmen\" (\"hole of stone\"), and the two possible origins were sometimes confused by early scholars, but \"stone table\" is now the more widely accepted source. The structures themselves are far older than the word, built across Neolithic Europe as chamber tombs, many still standing after five thousand years.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Dolmen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Breton taol maen", "b": "Means stone table" },
+          { "a": "Breton maen", "b": "Means stone" },
+          { "a": "A rival Cornish source is", "b": "Tolmen, hole of stone" },
+          { "a": "Dolmen entered English via", "b": "French antiquarian writing" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Dolmen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A dolmen is a", "b": "Prehistoric megalithic tomb structure" },
+          { "a": "It is built from upright stones supporting a", "b": "Flat capstone" },
+          { "a": "Dolmens were built during the", "b": "Neolithic period" },
+          { "a": "Many dolmens still stand after", "b": "Five thousand years" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Dolmen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hikers stumbled upon an ancient", "b": "dolmen on the hillside" },
+          { "a": "Archaeologists dated the burial chamber, or", "b": "dolmen, to 3000 BCE" },
+          { "a": "The capstone of the", "b": "dolmen weighed several tons" },
+          { "a": "Local legend claimed giants had built the", "b": "dolmen" }
+        ] }
+    ],
+    "roots": [ { "rootText": "taol maen", "rootLanguage": "Breton", "rootMeaning": "Stone table", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Breton ", "highlight": false }, { "text": "taol maen", "highlight": true }, { "text": " (stone table) gives dolmen its name, borrowed by French antiquarians.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "taol maen", "correctAnswer": "Stone table", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Claddagh",
+    "pronunciation": "KLAD-uh",
+    "pos": "noun",
+    "definition": "A traditional Irish ring featuring two hands clasping a crowned heart, symbolizing love, loyalty, and friendship.",
+    "origin": "The <strong>Claddagh</strong> ring takes its name from the Claddagh, a small fishing village just outside Galway city in Ireland, from Irish \"An Cladach\", meaning \"the shore\" or \"stony beach\". The design — two hands holding a crowned heart — is traditionally dated to the 17th century and credited to a local goldsmith, Richard Joyce, though much of that story is folklore layered onto a genuine local craft tradition. The ring became a lasting symbol of Irish identity, worn to signal whether the wearer's heart is taken, engaged, or married depending on which way it faces.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Claddagh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Irish cladach", "b": "Means shore or stony beach" },
+          { "a": "The Claddagh is a fishing village near", "b": "Galway" },
+          { "a": "The ring's design is traditionally credited to", "b": "Goldsmith Richard Joyce" },
+          { "a": "That origin story is likely", "b": "Partly folklore over a real craft tradition" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Claddagh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A Claddagh ring shows", "b": "Two hands holding a crowned heart" },
+          { "a": "The three elements symbolize", "b": "Love, loyalty, and friendship" },
+          { "a": "Which way the ring faces indicates", "b": "The wearer's relationship status" },
+          { "a": "The design dates traditionally to the", "b": "17th century" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Claddagh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her grandmother gave her a gold", "b": "Claddagh ring" },
+          { "a": "He wore the ring's heart facing outward, a", "b": "Claddagh tradition for the unattached" },
+          { "a": "Turned inward, the", "b": "Claddagh ring signals a taken heart" },
+          { "a": "Tourists in Galway often buy a", "b": "Claddagh ring as a keepsake" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cladach", "rootLanguage": "Irish", "rootMeaning": "Shore, stony beach", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Irish ", "highlight": false }, { "text": "cladach", "highlight": true }, { "text": " (shore) names the Galway fishing village that gave this ring its design its name.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cladach", "correctAnswer": "Shore, stony beach", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Lughnasadh",
+    "pronunciation": "LOO-nuh-sah",
+    "pos": "noun",
+    "definition": "An ancient Irish harvest festival celebrated around the first of August, traditionally associated with games, gatherings, and the god Lugh.",
+    "origin": "<strong>Lughnasadh</strong> comes from Old Irish \"Lugnasad\", combining the god \"Lugh\" with \"násad\" (an assembly, especially one held in commemoration, often including games or contests). Medieval Irish tradition held that Lugh founded the festival to honor his foster mother Tailtiu, who died clearing the land for agriculture, tying the celebration to the grain harvest. It survives today, sometimes anglicized as \"Lammas\" in parts of Britain, and continues to be marked by Celtic-tradition communities as one of the four great quarter-day festivals alongside Samhain, Imbolc, and Beltane.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-celtic", "name": "Celtic Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Lughnasadh</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Irish násad", "b": "Means assembly, often with games" },
+          { "a": "Lughnasadh is named for the god", "b": "Lugh" },
+          { "a": "Tradition says Lugh founded the festival to honor", "b": "His foster mother Tailtiu" },
+          { "a": "Lughnasadh is one of the four Celtic", "b": "Quarter-day festivals" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Lughnasadh</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Lughnasadh is a", "b": "Irish harvest festival" },
+          { "a": "It falls around the", "b": "First of August" },
+          { "a": "It is sometimes anglicized as", "b": "Lammas" },
+          { "a": "The other three quarter-day festivals are", "b": "Samhain, Imbolc, and Beltane" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Lughnasadh</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Villagers gathered for games and feasting to mark", "b": "Lughnasadh" },
+          { "a": "The first sheaf of grain was cut to celebrate", "b": "Lughnasadh" },
+          { "a": "Modern pagan communities still observe", "b": "Lughnasadh each August" },
+          { "a": "Storytellers linked the harvest festival to the god", "b": "Lugh, honoring his foster mother" }
+        ] }
+    ],
+    "roots": [ { "rootText": "násad", "rootLanguage": "Old Irish", "rootMeaning": "Assembly, commemorative games", "showInIntro": true }, { "rootText": "Lugh", "rootLanguage": "Old Irish", "rootMeaning": "Name of the god associated with the festival", "showInIntro": false } ],
+    "introEtymology": { "spans": [ { "text": "Old Irish ", "highlight": false }, { "text": "násad", "highlight": true }, { "text": " (assembly) joined to the god Lugh's name gives 'the assembly of Lugh'.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "násad", "correctAnswer": "Assembly, commemorative games", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

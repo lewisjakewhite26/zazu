@@ -70,6 +70,16 @@ const SOURCES = [
   resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-structure.json'),
   resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-styles.json'),
   resolve(root, 'THEMATIC PACKS', 'architecture words', 'architecture-urban.json'),
+  resolve(root, 'THEMATIC PACKS', 'law words', 'law-torts.json'),
+  resolve(root, 'THEMATIC PACKS', 'law words', 'law-contracts.json'),
+  resolve(root, 'THEMATIC PACKS', 'law words', 'law-procedure.json'),
+  resolve(root, 'THEMATIC PACKS', 'law words', 'law-criminal.json'),
+  resolve(root, 'THEMATIC PACKS', 'law words', 'law-latin.json'),
+  resolve(root, 'THEMATIC PACKS', 'mythology words', 'mythology-celtic.json'),
+  resolve(root, 'THEMATIC PACKS', 'mythology words', 'mythology-egyptian.json'),
+  resolve(root, 'THEMATIC PACKS', 'mythology words', 'mythology-greek.json'),
+  resolve(root, 'THEMATIC PACKS', 'mythology words', 'mythology-norse.json'),
+  resolve(root, 'THEMATIC PACKS', 'mythology words', 'mythology-roman.json'),
 ];
 
 function requireEnv(name) {

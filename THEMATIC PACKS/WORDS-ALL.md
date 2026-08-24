@@ -1653,7 +1653,7 @@ _Pack-local: 1–150 · Global: 1440–1589_
 
 ## Music pack (150)
 
-Musical vocabulary — classical, jazz, instruments, stage, and song (premium pack).
+Musical vocabulary — classical, jazz, instruments, stage, and song (premium pack). Built and shipped 2026-08-24 as 5 sub-packs of 30 (Classical Forms & Terms, Music Theory & Instruments, Jazz/Blues & Dance, Song & Vocal Forms, Performance & Stage). Twelve words were swapped from the original plan: ten for colliding with words already shipped in Loan Words (Maestro → Fortissimo, Virtuoso → Impresario, Sonata → Nocturne, Guitar → Zither, Tango → Waltz, Samba → Habanera) or elsewhere (Cadence → Downbeat, Bridge → Crescendo, Ballet → Recitative, Diva → Balladeer); two for duplicating a word also planned for the Architecture pack (Mezzanine → Vibrato, Gallery → Coloratura, both kept in Architecture instead).
 
 1590. Allegro
 1591. Adagio
@@ -1670,7 +1670,7 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1602. Legato
 1603. Libretto
 1604. Madrigal
-1605. Maestro
+1605. Fortissimo
 1606. Mezzo
 1607. Opus
 1608. Oratorio
@@ -1680,9 +1680,9 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1612. Staccato
 1613. Tempo
 1614. Tenor
-1615. Virtuoso
+1615. Impresario
 1616. Vivace
-1617. Sonata
+1617. Nocturne
 1618. Chorale
 1619. Overture
 1620. Timbre
@@ -1695,7 +1695,7 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1627. Orchestra
 1628. Chord
 1629. Violin
-1630. Guitar
+1630. Zither
 1631. Harp
 1632. Trumpet
 1633. Clarinet
@@ -1739,15 +1739,15 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1671. Shuffle
 1672. Lindy
 1673. Foxtrot
-1674. Tango
+1674. Waltz
 1675. Rumba
 1676. Mambo
-1677. Samba
+1677. Habanera
 1678. Charleston
 1679. Boogie-woogie
 1680. Ballad
 1681. Chorus
-1682. Cadence
+1682. Downbeat
 1683. Hymn
 1684. Lullaby
 1685. Anthem
@@ -1763,7 +1763,7 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1695. Melisma
 1696. Lyric
 1697. Verse
-1698. Bridge
+1698. Crescendo
 1699. Hook
 1700. Remix
 1701. Canon
@@ -1789,11 +1789,11 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1721. Soloist
 1722. Matinee
 1723. Premiere
-1724. Ballet
+1724. Recitative
 1725. Choreography
 1726. Intermission
 1727. Philharmonic
-1728. Diva
+1728. Balladeer
 1729. Limelight
 1730. Playbill
 1731. Cabaret
@@ -1802,8 +1802,8 @@ Musical vocabulary — classical, jazz, instruments, stage, and song (premium pa
 1734. Troupe
 1735. Busker
 1736. Proscenium
-1737. Mezzanine
-1738. Gallery
+1737. Vibrato
+1738. Coloratura
 1739. Operetta
 
 _Pack-local: 1–150 · Global: 1590–1739_
@@ -1847,7 +1847,7 @@ _Pack-local: 1–30 · Global: 1740–1769_
 
 ## Architecture pack (150)
 
-Words from building styles, structures, and urban design (premium pack).
+Words from building styles, structures, and urban design (premium pack). Built and shipped 2026-08-24 as 5 sub-packs of 30 (Materials, Sacred & Interior Spaces, Structure & Ornament, Styles & Movements, Urban Design & Planning). One word was swapped from the original plan for duplicating a word also planned for the Law pack: easement → variance (kept in Law instead).
 
 1770. stucco
 1771. mortar
@@ -1981,7 +1981,7 @@ Words from building styles, structures, and urban design (premium pack).
 1899. sprawl
 1900. density
 1901. setback
-1902. easement
+1902. variance
 1903. block
 1904. grid
 1905. corridor
@@ -2004,7 +2004,7 @@ _Pack-local: 1–150 · Global: 1770–1919_
 
 ## Law pack (150)
 
-Legal English and Latin terms from courts and codes (premium pack).
+Legal English and Latin terms from courts and codes (premium pack). Built and shipped 2026-08-24 as 5 sub-packs of 30 (Torts & Civil Wrongs, Contracts & Property, Courtroom & Procedure, Criminal Law, Latin Legal Terms). Two words were swapped from the original plan for colliding with words already shipped elsewhere (Slander → Malice, Mortgage → Foreclosure).
 
 1920. Tort
 1921. Plaintiff
@@ -2016,7 +2016,7 @@ Legal English and Latin terms from courts and codes (premium pack).
 1927. Nuisance
 1928. Defamation
 1929. Libel
-1930. Slander
+1930. Malice
 1931. Trespass
 1932. Restitution
 1933. Remedy
@@ -2045,7 +2045,7 @@ Legal English and Latin terms from courts and codes (premium pack).
 1956. Escrow
 1957. Novation
 1958. Estoppel
-1959. Mortgage
+1959. Foreclosure
 1960. Lease
 1961. Warranty
 1962. Offer
@@ -2161,7 +2161,7 @@ _Pack-local: 1–150 · Global: 1920–2069_
 
 ## Mythology pack (150)
 
-English words rooted in Greek, Roman, Egyptian, Norse, and Celtic myth (premium pack).
+English words rooted in Greek, Roman, Egyptian, Norse, and Celtic myth (premium pack). Built and shipped 2026-08-24 as 5 sub-packs of 30 (Celtic Myth & Legend, Egyptian Myth & Afterlife, Greek Myth & Legend, Norse Myth & Legend, Roman Myth & Everyday Latin). No word swaps needed — no collisions with already-shipped content.
 
 2070. Druid
 2071. Bard

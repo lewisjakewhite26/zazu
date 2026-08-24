@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Valhalla",
+    "pronunciation": "val-HAL-uh",
+    "pos": "noun",
+    "definition": "In Norse mythology, the majestic hall in Asgard where warriors slain in battle are received by Odin.",
+    "origin": "From Old Norse <strong>Valholl</strong>, a compound of valr (the slain) and holl (hall). It named the great hall ruled by Odin, roofed with shields and shining spears, where chosen fighters feasted and trained for the final battle of Ragnarok.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Valhalla</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse valr", "b": "The slain" },
+          { "a": "Old Norse holl", "b": "Hall" },
+          { "a": "Ruled by", "b": "Odin, the Allfather" },
+          { "a": "Roofed with", "b": "Shields and spears" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Valhalla</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Valhalla is a hall located in", "b": "Asgard" },
+          { "a": "Warriors admitted to Valhalla died", "b": "Bravely in battle" },
+          { "a": "Inside Valhalla, warriors spend their days", "b": "Fighting and feasting" },
+          { "a": "Valhalla's inhabitants prepare for", "b": "Ragnarok" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Valhalla</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old soldier joked he'd earned his place in", "b": "Valhalla" },
+          { "a": "The metal band named their album", "b": "Valhalla" },
+          { "a": "Fans called the packed stadium a kind of", "b": "Sporting Valhalla" },
+          { "a": "The saga describes fallen warriors feasting in", "b": "Valhalla's golden hall" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Valholl", "rootLanguage": "Old Norse", "rootMeaning": "Hall of the slain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Valholl", "highlight": true }, { "text": " (hall of the slain); Odin's great hall for warriors fallen in battle.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Valholl", "correctAnswer": "Hall of the slain", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Valkyrie",
+    "pronunciation": "val-KEER-ee",
+    "pos": "noun",
+    "definition": "In Norse mythology, one of the female warrior-spirits who choose which fighters die in battle and carry the worthy to Valhalla.",
+    "origin": "From Old Norse <strong>valkyrja</strong>, from valr (the slain) + kjosa (to choose), literally \"chooser of the slain.\" Riding armored and often winged, these figures decided the outcome of battles at Odin's command and escorted honored warriors to the afterlife.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Valkyrie</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse valr", "b": "The slain" },
+          { "a": "Old Norse kjosa", "b": "To choose" },
+          { "a": "Literal meaning", "b": "Chooser of the slain" },
+          { "a": "Acted under the command of", "b": "Odin" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Valkyrie</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A Valkyrie decides who", "b": "Dies in battle" },
+          { "a": "Valkyries carry worthy warriors to", "b": "Valhalla" },
+          { "a": "Valkyries are typically portrayed as", "b": "Armored female riders" },
+          { "a": "Wagner's opera cycle features", "b": "The Ride of the Valkyries" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Valkyrie</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fighter pilots named their squadron", "b": "Valkyrie" },
+          { "a": "She strode into the meeting like a", "b": "Valkyrie ready for battle" },
+          { "a": "The video game cast the heroine as a", "b": "Valkyrie descending from the sky" },
+          { "a": "Critics called her stage presence", "b": "Positively Valkyrie-like" }
+        ] }
+    ],
+    "roots": [ { "rootText": "valkyrja", "rootLanguage": "Old Norse", "rootMeaning": "Chooser of the slain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "valkyrja", "highlight": true }, { "text": " (chooser of the slain); a warrior-spirit who decides battle's outcome.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "valkyrja", "correctAnswer": "Chooser of the slain", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Saga",
+    "pronunciation": "SAH-guh",
+    "pos": "noun",
+    "definition": "A long, detailed story of heroic adventure or family history; originally, a medieval Icelandic prose narrative of legendary or historical events.",
+    "origin": "From Old Norse <strong>saga</strong> (a saying, tale, narrative), related to segja (to say). Medieval Icelandic writers used the word for the sprawling prose histories of settlers, feuds, and heroes that formed one of the great literary achievements of the North.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Saga</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse saga", "b": "A saying, tale, narrative" },
+          { "a": "Related to Old Norse segja", "b": "To say" },
+          { "a": "Written down mainly in", "b": "Medieval Iceland" },
+          { "a": "Traditional subjects included", "b": "Settlers, feuds, and heroes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Saga</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A saga is a long, detailed", "b": "Story of adventure or history" },
+          { "a": "The original Icelandic sagas were written in", "b": "Prose, not verse" },
+          { "a": "Modern usage often calls a lengthy ordeal a", "b": "Saga" },
+          { "a": "Famous examples include the", "b": "Sagas of Icelanders" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Saga</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lawsuit dragged on for years, a real", "b": "Legal saga" },
+          { "a": "Grandfather told the family's founding", "b": "Saga" },
+          { "a": "The film series became an eight-part", "b": "Saga" },
+          { "a": "Historians study the medieval Icelandic", "b": "Sagas" }
+        ] }
+    ],
+    "roots": [ { "rootText": "saga", "rootLanguage": "Old Norse", "rootMeaning": "A saying, tale, narrative", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "saga", "highlight": true }, { "text": " (a tale); the sprawling prose histories of medieval Iceland.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "saga", "correctAnswer": "A saying, tale, narrative", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Rune",
+    "pronunciation": "roon",
+    "pos": "noun",
+    "definition": "A letter from an ancient Germanic alphabet used for writing and, in legend, for magic and divination.",
+    "origin": "From Old Norse <strong>run</strong> (secret, mystery, whispered lore), related to a wider Germanic root for something hidden. The angular runic alphabet, easy to carve into wood or stone, was believed capable of carrying secret or magical power beyond ordinary writing.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Rune</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse run", "b": "Secret, mystery" },
+          { "a": "Part of a wider", "b": "Germanic root for hidden things" },
+          { "a": "Runes were carved into", "b": "Wood or stone" },
+          { "a": "Believed to carry", "b": "Magical or secret power" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Rune</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A rune is a letter from an ancient", "b": "Germanic alphabet" },
+          { "a": "In legend, runes were used for", "b": "Magic and divination" },
+          { "a": "Odin was said to have won knowledge of runes by", "b": "Hanging on the World Tree" },
+          { "a": "The runic alphabet is also called the", "b": "Futhark" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Rune</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The archaeologists uncovered a stone carved with", "b": "Ancient runes" },
+          { "a": "The wizard traced a glowing", "b": "Rune in the air" },
+          { "a": "The museum displayed a Viking-era", "b": "Rune stone" },
+          { "a": "She wore a pendant etched with a", "b": "Protective rune" }
+        ] }
+    ],
+    "roots": [ { "rootText": "run", "rootLanguage": "Old Norse", "rootMeaning": "Secret, mystery", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "run", "highlight": true }, { "text": " (secret); a carved letter thought to hold hidden power.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "run", "correctAnswer": "Secret, mystery", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Elf",
+    "pronunciation": "elf",
+    "pos": "noun",
+    "definition": "A supernatural being of Germanic folklore, in Norse myth often luminous and associated with fertility, beauty, or mischief.",
+    "origin": "From Old Norse <strong>alfr</strong>, part of a common Germanic root for these nature spirits. Norse mythology placed the shining alfar in Alfheim, a realm of its own, distinct from the darker dwarves who lived underground.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Elf</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse alfr", "b": "Elf, nature spirit" },
+          { "a": "Part of a common", "b": "Germanic root" },
+          { "a": "Elves in Norse myth lived in", "b": "Alfheim" },
+          { "a": "Distinguished from the", "b": "Underground dwarves" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Elf</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An elf is a supernatural being from", "b": "Germanic folklore" },
+          { "a": "In Norse myth, elves are often linked to", "b": "Beauty and fertility" },
+          { "a": "Norse elves were said to be", "b": "Luminous or radiant" },
+          { "a": "Later fantasy fiction reimagined elves as", "b": "Tall, graceful woodland folk" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Elf</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The children left cookies out for the", "b": "Christmas elf" },
+          { "a": "In the fantasy novel, an", "b": "Elf archer led the company" },
+          { "a": "Her pointed ears gave her a slightly", "b": "Elf-like look" },
+          { "a": "Folklore warned travelers to avoid the", "b": "Elf mounds at dusk" }
+        ] }
+    ],
+    "roots": [ { "rootText": "alfr", "rootLanguage": "Old Norse", "rootMeaning": "Elf, nature spirit", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "alfr", "highlight": true }, { "text": "; a luminous nature spirit dwelling in its own realm, Alfheim.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "alfr", "correctAnswer": "Elf, nature spirit", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hel",
+    "pronunciation": "hel",
+    "pos": "noun",
+    "definition": "In Norse mythology, the goddess who rules the realm of the same name, where those who die of sickness or old age dwell.",
+    "origin": "From Old Norse <strong>Hel</strong>, both the name of the goddess and her shadowy underworld realm, daughter of Loki and the giantess Angrboda. Half her body was said to be living flesh and half corpse-blue, and English \"hell\" descends from the same Germanic root.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Hel", "b": "Both goddess and realm" },
+          { "a": "Hel's parents were", "b": "Loki and the giantess Angrboda" },
+          { "a": "Her body was described as", "b": "Half living, half corpse-blue" },
+          { "a": "English \"hell\" shares", "b": "The same Germanic root" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Hel rules over", "b": "The realm of the same name" },
+          { "a": "Those who die of sickness or old age go to", "b": "Hel's realm" },
+          { "a": "Unlike Valhalla, Hel was not reserved for", "b": "Warriors who died in battle" },
+          { "a": "Hel's realm lies beneath", "b": "Niflheim" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "In the myth, Baldur's spirit journeyed down to", "b": "Hel" },
+          { "a": "The gods sent a messenger to bargain with", "b": "Hel" },
+          { "a": "The saga described the cold, misty gates of", "b": "Hel's realm" },
+          { "a": "Scholars distinguish the goddess", "b": "Hel from the later Christian hell" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Hel", "rootLanguage": "Old Norse", "rootMeaning": "Goddess and realm of the dead", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Hel", "highlight": true }, { "text": "; daughter of Loki, ruling the shadowy realm of those who die peacefully.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Hel", "correctAnswer": "Goddess and realm of the dead", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ragnarok",
+    "pronunciation": "RAG-nuh-rok",
+    "pos": "noun",
+    "definition": "In Norse mythology, the prophesied final battle in which the gods, giants, and monsters destroy one another and the world is consumed and reborn.",
+    "origin": "From Old Norse <strong>Ragnarok</strong>, most often read as ragna (of the ruling powers, the gods) + rok (fate, doom). The Eddas foretold Odin, Thor, and Freyr falling alongside Fenrir, Jormungandr, and Surtr as the nine worlds burn, after which a new green earth rises from the sea.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ragnarok</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse ragna", "b": "Of the ruling powers, the gods" },
+          { "a": "Old Norse rok", "b": "Fate, doom" },
+          { "a": "Foretold in", "b": "The Eddas" },
+          { "a": "Gods said to fall include", "b": "Odin, Thor, and Freyr" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ragnarok</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ragnarok is the prophesied", "b": "Final battle and destruction of the gods" },
+          { "a": "Among the monsters unleashed are", "b": "Fenrir and Jormungandr" },
+          { "a": "After the destruction, the world is", "b": "Reborn, green and new" },
+          { "a": "The event is sometimes translated as", "b": "The twilight of the gods" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ragnarok</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Reporters called the market crash a financial", "b": "Ragnarok" },
+          { "a": "The film's climactic battle was billed as", "b": "A modern Ragnarok" },
+          { "a": "The comic book series was titled", "b": "Ragnarok" },
+          { "a": "Historians debate whether the myth of", "b": "Ragnarok predates Christian influence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ragna rok", "rootLanguage": "Old Norse", "rootMeaning": "Doom of the ruling powers", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "ragna rok", "highlight": true }, { "text": " (doom of the gods); the prophesied battle that ends and remakes the world.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ragna rok", "correctAnswer": "Doom of the ruling powers", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Midgard",
+    "pronunciation": "MID-gard",
+    "pos": "noun",
+    "definition": "In Norse mythology, the realm of humankind, encircled by a vast ocean and connected to Asgard by the rainbow bridge Bifrost.",
+    "origin": "From Old Norse <strong>Midgardr</strong>, a compound of mid (middle) + gardr (enclosure, yard). It named the human world at the center of the nine realms, protected from the giants of Jotunheim by an outer ocean where the World Serpent lay coiled.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Midgard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse mid", "b": "Middle" },
+          { "a": "Old Norse gardr", "b": "Enclosure, yard" },
+          { "a": "Midgard sits at the center of", "b": "The nine realms" },
+          { "a": "Connected to Asgard by", "b": "The rainbow bridge Bifrost" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Midgard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Midgard is the realm of", "b": "Humankind" },
+          { "a": "Midgard is encircled by", "b": "A vast ocean" },
+          { "a": "Coiled in that ocean lies", "b": "The World Serpent, Jormungandr" },
+          { "a": "Midgard was shielded from the giants of", "b": "Jotunheim" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Midgard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fantasy setting borrowed its name from", "b": "Midgard" },
+          { "a": "The game's map placed the human kingdoms in", "b": "Midgard" },
+          { "a": "The saga described the serpent circling", "b": "Midgard's shores" },
+          { "a": "Tolkien's \"Middle-earth\" echoes the old term", "b": "Midgard" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Midgardr", "rootLanguage": "Old Norse", "rootMeaning": "Middle enclosure, human world", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Midgardr", "highlight": true }, { "text": " (middle enclosure); the human world at the center of the nine realms.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Midgardr", "correctAnswer": "Middle enclosure, human world", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Asgard",
+    "pronunciation": "AHS-gard",
+    "pos": "noun",
+    "definition": "In Norse mythology, the fortified realm of the Aesir gods, home to Odin, Thor, and the great hall Valhalla.",
+    "origin": "From Old Norse <strong>Asgardr</strong>, a compound of ass (god, one of the Aesir) + gardr (enclosure, yard). Set high above the other worlds and reached by the rainbow bridge Bifrost, it was walled to keep out giants and other threats to the gods.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Asgard</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse ass", "b": "God, one of the Aesir" },
+          { "a": "Old Norse gardr", "b": "Enclosure, yard" },
+          { "a": "Reached from Midgard via", "b": "Bifrost, the rainbow bridge" },
+          { "a": "Walled to keep out", "b": "Giants and other threats" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Asgard</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Asgard is home to", "b": "The Aesir gods" },
+          { "a": "Asgard's most famous hall is", "b": "Valhalla" },
+          { "a": "Asgard's ruler is", "b": "Odin" },
+          { "a": "Asgard sits", "b": "High above the other eight realms" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Asgard</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The comic book heroes traveled from Earth to", "b": "Asgard" },
+          { "a": "The exhibit reconstructed a model of", "b": "Asgard's golden halls" },
+          { "a": "In the film, the villain sought to conquer", "b": "Asgard" },
+          { "a": "The saga names Odin as the ruler of", "b": "Asgard" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Asgardr", "rootLanguage": "Old Norse", "rootMeaning": "Enclosure of the gods", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Asgardr", "highlight": true }, { "text": " (enclosure of the gods); the fortified home of Odin, Thor, and the Aesir.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Asgardr", "correctAnswer": "Enclosure of the gods", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bifrost",
+    "pronunciation": "BEE-frost",
+    "pos": "noun",
+    "definition": "In Norse mythology, the burning rainbow bridge that connects Midgard, the realm of humans, to Asgard, the realm of the gods.",
+    "origin": "From Old Norse <strong>Bifrost</strong>, likely from bifa (to shake, tremble) + rost (path, way), \"the trembling way.\" Guarded by the ever-watchful god Heimdall, the bridge appeared as a rainbow and was said to be built from fire, air, and water, strong enough for gods yet fated to break under the giants at Ragnarok.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bifrost</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse bifa", "b": "To shake, tremble" },
+          { "a": "Old Norse rost", "b": "Path, way" },
+          { "a": "Literal meaning", "b": "The trembling way" },
+          { "a": "Guarded eternally by", "b": "The god Heimdall" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bifrost</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bifrost connects", "b": "Midgard and Asgard" },
+          { "a": "Bifrost appears to mortal eyes as a", "b": "Rainbow" },
+          { "a": "The bridge is said to be built of", "b": "Fire, air, and water" },
+          { "a": "At Ragnarok, Bifrost is fated to", "b": "Break beneath the giants" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bifrost</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "In the film, the hero crossed the", "b": "Bifrost to reach Asgard" },
+          { "a": "The observatory tower was nicknamed the", "b": "Bifrost" },
+          { "a": "Guarding the bridge day and night stood", "b": "Heimdall at the Bifrost" },
+          { "a": "The rainbow after the storm reminded her of", "b": "Bifrost" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Bifrost", "rootLanguage": "Old Norse", "rootMeaning": "The trembling way", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Bifrost", "highlight": true }, { "text": " (the trembling way); the burning rainbow bridge linking gods and mortals.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Bifrost", "correctAnswer": "The trembling way", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fenrir",
+    "pronunciation": "FEN-reer",
+    "pos": "noun",
+    "definition": "In Norse mythology, the monstrous wolf, son of Loki, prophesied to kill Odin at Ragnarok before being killed in turn.",
+    "origin": "From Old Norse <strong>Fenrir</strong>, likely related to fen (marsh, fen-dweller). The gods, fearing his growing size, bound him with a magical ribbon called Gleipnir made by the dwarves, at the cost of the war-god Tyr's hand, which Fenrir bit off when he realized he had been tricked.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fenrir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Fenrir", "b": "Likely related to fen, marsh-dweller" },
+          { "a": "Fenrir's father was", "b": "Loki" },
+          { "a": "The gods bound him with", "b": "The dwarf-made ribbon Gleipnir" },
+          { "a": "The binding cost", "b": "Tyr's hand" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fenrir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fenrir is a monstrous", "b": "Wolf" },
+          { "a": "Fenrir is prophesied to kill", "b": "Odin at Ragnarok" },
+          { "a": "After killing Odin, Fenrir is himself killed by", "b": "Odin's son Vidar" },
+          { "a": "The gods feared Fenrir because of his", "b": "Enormous, growing strength" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fenrir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The novel's villain took the name", "b": "Fenrir" },
+          { "a": "The wrestler's nickname in the ring was", "b": "Fenrir the Bound" },
+          { "a": "The myth tells how Tyr lost his hand to", "b": "Fenrir's jaws" },
+          { "a": "The sculpture depicted the chained wolf", "b": "Fenrir straining at his bonds" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Fenrir", "rootLanguage": "Old Norse", "rootMeaning": "The monstrous wolf, marsh-dweller", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Fenrir", "highlight": true }, { "text": "; Loki's monstrous wolf-son, bound until Ragnarok.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Fenrir", "correctAnswer": "The monstrous wolf, marsh-dweller", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ymir",
+    "pronunciation": "EE-meer",
+    "pos": "noun",
+    "definition": "In Norse mythology, the primeval giant from whose body the gods created the world.",
+    "origin": "From Old Norse <strong>Ymir</strong>, possibly meaning \"screamer\" or \"twin.\" Born from the meeting of fire and ice in the void of Ginnungagap, Ymir was slain by Odin and his brothers, who shaped the earth from his flesh, the sea from his blood, the sky from his skull, and the mountains from his bones.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ymir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Ymir", "b": "Possibly \"screamer\" or \"twin\"" },
+          { "a": "Born in the void called", "b": "Ginnungagap" },
+          { "a": "Formed from the meeting of", "b": "Fire and ice" },
+          { "a": "Slain by", "b": "Odin and his brothers" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ymir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ymir was the primeval", "b": "Giant" },
+          { "a": "The gods shaped the earth from Ymir's", "b": "Flesh" },
+          { "a": "The sea was made from Ymir's", "b": "Blood" },
+          { "a": "The sky was made from Ymir's", "b": "Skull" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ymir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The creation myth begins with the giant", "b": "Ymir" },
+          { "a": "The documentary explained how the world formed from", "b": "Ymir's body" },
+          { "a": "The video game boss was modeled on", "b": "Ymir" },
+          { "a": "Scholars compare the dismemberment of", "b": "Ymir to other creation myths" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Ymir", "rootLanguage": "Old Norse", "rootMeaning": "Primeval giant, \"screamer\"", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Ymir", "highlight": true }, { "text": "; the primeval giant whose slain body became the world.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Ymir", "correctAnswer": "Primeval giant, \"screamer\"", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Geyser",
+    "pronunciation": "GY-zer",
+    "pos": "noun",
+    "definition": "A natural hot spring that periodically erupts, shooting a column of boiling water and steam into the air.",
+    "origin": "From Icelandic <strong>Geysir</strong>, the proper name of a specific spouting hot spring in southwest Iceland, itself from the Old Norse verb gjosa (to gush). Geysir's dramatic eruptions made it famous enough that its name became the general English word for any such spring.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Geyser</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Icelandic Geysir", "b": "Name of a specific hot spring" },
+          { "a": "Old Norse gjosa", "b": "To gush" },
+          { "a": "Geysir is located in", "b": "Southwest Iceland" },
+          { "a": "Its name became the general word for", "b": "Any spouting hot spring" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Geyser</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A geyser is a hot spring that periodically", "b": "Erupts" },
+          { "a": "A geyser shoots a column of", "b": "Boiling water and steam" },
+          { "a": "A famous American geyser is", "b": "Old Faithful, in Yellowstone" },
+          { "a": "Geysers form where groundwater meets", "b": "Volcanic heat underground" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Geyser</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists gathered to watch the", "b": "Geyser erupt on schedule" },
+          { "a": "The burst pipe sent up a", "b": "Geyser of water" },
+          { "a": "Yellowstone's most famous attraction is a", "b": "Geyser" },
+          { "a": "Iceland's geothermal fields are dotted with", "b": "Bubbling geysers" }
+        ] }
+    ],
+    "roots": [ { "rootText": "gjosa", "rootLanguage": "Old Norse", "rootMeaning": "To gush", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "gjosa", "highlight": true }, { "text": " (to gush), via the Icelandic spring named Geysir; a fountain of boiling water.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "gjosa", "correctAnswer": "To gush", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Yggdrasil",
+    "pronunciation": "IG-druh-sil",
+    "pos": "noun",
+    "definition": "In Norse mythology, the immense ash tree whose branches and roots connect and support the nine worlds.",
+    "origin": "From Old Norse <strong>Yggdrasill</strong>, likely a compound of Yggr (a name for Odin, \"the terrible one\") + drasill (horse), read as \"Odin's horse,\" referring to a myth in which Odin hung himself from the tree. Its three great roots reached into Asgard, Jotunheim, and Niflheim, binding the entire cosmos together.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Yggdrasil</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Yggr", "b": "A name for Odin, \"the terrible one\"" },
+          { "a": "Old Norse drasill", "b": "Horse" },
+          { "a": "Read together as", "b": "\"Odin's horse\"" },
+          { "a": "Refers to the myth of Odin", "b": "Hanging himself from the tree" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Yggdrasil</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Yggdrasil is often called", "b": "The World Tree" },
+          { "a": "Yggdrasil's branches and roots connect", "b": "The nine worlds" },
+          { "a": "Yggdrasil's three roots reach into", "b": "Asgard, Jotunheim, and Niflheim" },
+          { "a": "Yggdrasil is described as an", "b": "Immense ash tree" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Yggdrasil</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The game's central hub was designed as", "b": "A vast tree modeled on Yggdrasil" },
+          { "a": "The museum diorama illustrated", "b": "Yggdrasil binding the nine realms" },
+          { "a": "The band's logo featured a stylized", "b": "Yggdrasil" },
+          { "a": "The professor lectured on", "b": "Yggdrasil as a symbol of cosmic order" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Yggdrasill", "rootLanguage": "Old Norse", "rootMeaning": "Odin's horse (the World Tree)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Yggdrasill", "highlight": true }, { "text": " (\"Odin's horse\"); the immense ash tree binding together the nine worlds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Yggdrasill", "correctAnswer": "Odin's horse (the World Tree)", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Einherjar",
+    "pronunciation": "eyn-HAIR-yar",
+    "pos": "noun",
+    "definition": "In Norse mythology, the host of warriors who died gloriously in battle and now dwell in Valhalla, training for Ragnarok.",
+    "origin": "From Old Norse <strong>einherjar</strong>, likely a compound of einn (one, alone) + herr (army, host), roughly \"those who fight alone\" or \"the once-army.\" Each day the Einherjar were said to battle one another in Valhalla's fields, their wounds healing by evening so the feasting could begin again.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Einherjar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse einn", "b": "One, alone" },
+          { "a": "Old Norse herr", "b": "Army, host" },
+          { "a": "Rough sense", "b": "Those who fight alone" },
+          { "a": "Their wounds were said to heal by", "b": "Evening" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Einherjar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Einherjar are warriors who died", "b": "Gloriously in battle" },
+          { "a": "The Einherjar dwell in", "b": "Valhalla" },
+          { "a": "Each day the Einherjar", "b": "Battle one another to train" },
+          { "a": "The Einherjar prepare to fight for the gods at", "b": "Ragnarok" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Einherjar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The metal band titled their song", "b": "Einherjar" },
+          { "a": "The game's elite soldiers were named after the", "b": "Einherjar" },
+          { "a": "The saga describes the endless training of the", "b": "Einherjar" },
+          { "a": "Historians note the Einherjar were meant to", "b": "Reinforce Odin's forces at Ragnarok" }
+        ] }
+    ],
+    "roots": [ { "rootText": "einherjar", "rootLanguage": "Old Norse", "rootMeaning": "Those who fight alone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "einherjar", "highlight": true }, { "text": "; the slain warriors who train daily in Valhalla for Ragnarok.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "einherjar", "correctAnswer": "Those who fight alone", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Njord",
+    "pronunciation": "nyord",
+    "pos": "noun",
+    "definition": "In Norse mythology, the Vanir god of the sea, seafaring, wind, and wealth, father of Freyr and Freya.",
+    "origin": "From Old Norse <strong>Njordr</strong>, a name related to an old Germanic root for strength or vigor, connected to the earlier Germanic deity Nerthus. Njord came to Asgard as a hostage after the war between the Aesir and Vanir, and sailors prayed to him for calm seas and good catches.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Njord</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Njordr", "b": "Related to a root for strength, vigor" },
+          { "a": "Connected to the earlier deity", "b": "Nerthus" },
+          { "a": "Njord came to Asgard as a", "b": "Hostage after the Aesir-Vanir war" },
+          { "a": "Sailors prayed to him for", "b": "Calm seas and good catches" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Njord</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Njord is a god of the", "b": "Sea and seafaring" },
+          { "a": "Njord belongs to the divine family called the", "b": "Vanir" },
+          { "a": "Njord is the father of", "b": "Freyr and Freya" },
+          { "a": "Beyond the sea, Njord was also linked to", "b": "Wind and wealth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Njord</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fishing fleet was named", "b": "Njord" },
+          { "a": "Sailors of old invoked", "b": "Njord before a voyage" },
+          { "a": "The museum's Viking ship exhibit was called", "b": "Njord's Fleet" },
+          { "a": "The myth describes Njord's marriage to", "b": "The giantess Skadi" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Njordr", "rootLanguage": "Old Norse", "rootMeaning": "Vanir god of sea and wealth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Njordr", "highlight": true }, { "text": "; the Vanir god of sea, wind, and wealth, father of Freyr and Freya.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Njordr", "correctAnswer": "Vanir god of sea and wealth", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vanir",
+    "pronunciation": "VAH-neer",
+    "pos": "noun",
+    "definition": "In Norse mythology, one of the two families of gods, associated with fertility, prosperity, and nature, who made peace with the Aesir after a great war.",
+    "origin": "From Old Norse <strong>Vanir</strong>, of uncertain deeper origin, possibly related to a root meaning \"friends\" or \"the shining ones.\" After a long war between the Vanir and the Aesir ended in stalemate, the two families exchanged hostages, including Njord and his children Freyr and Freya, and lived afterward as one pantheon.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vanir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Vanir", "b": "Of uncertain origin, possibly \"friends\"" },
+          { "a": "Fought a long war against", "b": "The Aesir" },
+          { "a": "The war ended in a", "b": "Stalemate" },
+          { "a": "The two sides exchanged", "b": "Hostages" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vanir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Vanir are one of the two families of", "b": "Gods" },
+          { "a": "The Vanir are associated with", "b": "Fertility, prosperity, and nature" },
+          { "a": "Members of the Vanir include", "b": "Njord, Freyr, and Freya" },
+          { "a": "After the war, the Vanir and Aesir", "b": "Lived together as one pantheon" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vanir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lecture compared the war gods of the Aesir to the fertility gods of the", "b": "Vanir" },
+          { "a": "The novel's magic system split wizards into Aesir and", "b": "Vanir factions" },
+          { "a": "Scholars debate the historical roots of the", "b": "Vanir-Aesir war myth" },
+          { "a": "The exhibit's second hall was devoted to the", "b": "Vanir gods" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Vanir", "rootLanguage": "Old Norse", "rootMeaning": "The fertility gods, possibly \"friends\"", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Vanir", "highlight": true }, { "text": "; one of the two divine families, tied to fertility and prosperity.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Vanir", "correctAnswer": "The fertility gods, possibly \"friends\"", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Aesir",
+    "pronunciation": "AY-seer",
+    "pos": "noun",
+    "definition": "In Norse mythology, the principal family of gods, including Odin, Thor, and Frigg, who dwell in Asgard.",
+    "origin": "From Old Norse <strong>Aesir</strong>, plural of ass (god), the same root that names Asgard itself. The Aesir were the ruling gods of war, wisdom, and order, and after their war with the Vanir ended in peace, the two families merged into a single pantheon.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Aesir</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Aesir", "b": "Plural of ass, god" },
+          { "a": "Same root names", "b": "Asgard" },
+          { "a": "The Aesir ruled over", "b": "War, wisdom, and order" },
+          { "a": "After war with the Vanir, the two families", "b": "Merged into one pantheon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Aesir</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Aesir are the principal family of", "b": "Gods" },
+          { "a": "Aesir gods include", "b": "Odin, Thor, and Frigg" },
+          { "a": "The Aesir dwell in", "b": "Asgard" },
+          { "a": "The Aesir's rival family of gods was the", "b": "Vanir" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Aesir</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The professor's course covered myths of the", "b": "Aesir" },
+          { "a": "The novel's heroes were descended from the", "b": "Aesir" },
+          { "a": "The exhibit's main hall honored", "b": "Odin and the other Aesir" },
+          { "a": "Fans of the games franchise recognized", "b": "The Aesir as playable gods" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Aesir", "rootLanguage": "Old Norse", "rootMeaning": "The gods (plural of ass)", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Aesir", "highlight": true }, { "text": " (the gods); the principal pantheon ruling from Asgard.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Aesir", "correctAnswer": "The gods (plural of ass)", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Skald",
+    "pronunciation": "skahld",
+    "pos": "noun",
+    "definition": "A medieval Scandinavian poet who composed and recited praise poems, often for kings and chieftains.",
+    "origin": "From Old Norse <strong>skald</strong> (poet), of uncertain further origin. Skalds held a valued place at royal courts, crafting elaborate verse in strict meter full of kennings, compact metaphorical phrases, to celebrate a ruler's deeds or lament the dead.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Skald</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse skald", "b": "Poet" },
+          { "a": "Origin beyond that is", "b": "Uncertain" },
+          { "a": "Skalds held a valued place at", "b": "Royal courts" },
+          { "a": "Their verse was famous for", "b": "Kennings, compact metaphors" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Skald</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A skald was a medieval Scandinavian", "b": "Poet" },
+          { "a": "Skalds composed praise poems for", "b": "Kings and chieftains" },
+          { "a": "Skaldic verse followed a strict", "b": "Meter" },
+          { "a": "Skalds sometimes composed poems to", "b": "Lament the dead" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Skald</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The king kept a", "b": "Skald in his hall to sing his victories" },
+          { "a": "The professor specialized in", "b": "Skaldic poetry of the Viking Age" },
+          { "a": "The novel's bard character was based on a", "b": "Skald" },
+          { "a": "Few named", "b": "Skalds survive from before the 10th century" }
+        ] }
+    ],
+    "roots": [ { "rootText": "skald", "rootLanguage": "Old Norse", "rootMeaning": "Poet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "skald", "highlight": true }, { "text": " (poet); a court poet crafting verse in praise of kings.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "skald", "correctAnswer": "Poet", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Thor",
+    "pronunciation": "thor",
+    "pos": "noun",
+    "definition": "In Norse mythology, the Aesir god of thunder, strength, and protection, wielder of the hammer Mjolnir.",
+    "origin": "From Old Norse <strong>Thorr</strong>, from a Germanic root meaning \"thunder\" (the same root that gives English its word thunder). Son of Odin, Thor was the gods' great protector against the giants, and his hammer Mjolnir, forged by dwarves, always returned to his hand after being thrown.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Thor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Thorr", "b": "From a Germanic root for \"thunder\"" },
+          { "a": "Shares that root with English", "b": "Thunder" },
+          { "a": "Thor's father was", "b": "Odin" },
+          { "a": "Thor's hammer was called", "b": "Mjolnir" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Thor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Thor is the Aesir god of", "b": "Thunder and strength" },
+          { "a": "Thor's role among the gods was as their", "b": "Protector against the giants" },
+          { "a": "Thor's hammer Mjolnir was forged by", "b": "Dwarves" },
+          { "a": "When thrown, Mjolnir always", "b": "Returned to Thor's hand" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Thor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The blockbuster film franchise was simply titled", "b": "Thor" },
+          { "a": "Amateur weightlifters nicknamed the strongest competitor", "b": "Thor" },
+          { "a": "The rolling thunder overhead sounded like", "b": "Thor's hammer" },
+          { "a": "The museum displayed a Viking amulet shaped like", "b": "Thor's hammer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Thorr", "rootLanguage": "Old Norse", "rootMeaning": "Thunder", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Thorr", "highlight": true }, { "text": " (thunder); Odin's son, the hammer-wielding protector of gods and men.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Thorr", "correctAnswer": "Thunder", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Odin",
+    "pronunciation": "OH-din",
+    "pos": "noun",
+    "definition": "In Norse mythology, the Allfather and chief of the Aesir gods, associated with wisdom, war, poetry, and the dead.",
+    "origin": "From Old Norse <strong>Odinn</strong>, related to odr (fury, inspiration, poetic frenzy). Odin sacrificed one of his eyes at Mimir's well for wisdom and hung himself from Yggdrasil for nine nights to gain knowledge of the runes, making him a god as much of relentless seeking as of raw power.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Odin</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Odinn", "b": "Related to odr, fury/inspiration" },
+          { "a": "Odin sacrificed an eye at", "b": "Mimir's well" },
+          { "a": "Odin hung himself from", "b": "Yggdrasil for nine nights" },
+          { "a": "That sacrifice won him knowledge of the", "b": "Runes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Odin</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Odin is the Allfather and chief of the", "b": "Aesir" },
+          { "a": "Odin is associated with wisdom, war, and", "b": "Poetry" },
+          { "a": "Odin rules over the hall of the slain called", "b": "Valhalla" },
+          { "a": "Odin is often depicted with", "b": "One eye" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Odin</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "English \"Wednesday\" is named after", "b": "Odin (Woden)" },
+          { "a": "The film cast an actor as the one-eyed", "b": "Odin" },
+          { "a": "The elder statesman was jokingly compared to", "b": "A modern Odin" },
+          { "a": "The saga recounts how", "b": "Odin won the runes through sacrifice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Odinn", "rootLanguage": "Old Norse", "rootMeaning": "Fury, poetic inspiration", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Odinn", "highlight": true }, { "text": "; the one-eyed Allfather who traded an eye and hung on the World Tree for wisdom.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Odinn", "correctAnswer": "Fury, poetic inspiration", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Loki",
+    "pronunciation": "LOH-kee",
+    "pos": "noun",
+    "definition": "In Norse mythology, the cunning shape-shifting trickster god, sometimes an ally of the Aesir and sometimes their bitter enemy.",
+    "origin": "From Old Norse <strong>Loki</strong>, of debated origin, possibly linked to a root for \"knot\" or \"tangle,\" fitting for a god whose plots constantly entangled gods and giants alike. Loki fathered the wolf Fenrir, the World Serpent Jormungandr, and Hel, and his final betrayal helped trigger Ragnarok.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Loki</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Loki", "b": "Origin debated, possibly \"knot, tangle\"" },
+          { "a": "Loki fathered the wolf", "b": "Fenrir" },
+          { "a": "Loki also fathered the World Serpent", "b": "Jormungandr" },
+          { "a": "Loki's final betrayal helped trigger", "b": "Ragnarok" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Loki</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Loki is the cunning", "b": "Shape-shifting trickster god" },
+          { "a": "Loki sometimes acted as an ally, and sometimes as", "b": "An enemy of the Aesir" },
+          { "a": "Loki's daughter Hel rules over", "b": "The realm of the dead" },
+          { "a": "Loki was eventually bound as punishment for", "b": "Orchestrating Baldur's death" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Loki</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The con artist's schemes earned him the nickname", "b": "Loki" },
+          { "a": "The TV series followed the trickster god", "b": "Loki" },
+          { "a": "Critics called the double agent a real-life", "b": "Loki" },
+          { "a": "The saga blames the chaos at Ragnarok on", "b": "Loki's final betrayal" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Loki", "rootLanguage": "Old Norse", "rootMeaning": "Possibly \"knot, tangle\"", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Loki", "highlight": true }, { "text": "; the shape-shifting trickster whose schemes entangled gods and giants alike.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Loki", "correctAnswer": "Possibly \"knot, tangle\"", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Freya",
+    "pronunciation": "FRAY-uh",
+    "pos": "noun",
+    "definition": "In Norse mythology, the Vanir goddess of love, beauty, fertility, war, and death, who rides a chariot pulled by cats.",
+    "origin": "From Old Norse <strong>Freyja</strong>, literally \"Lady,\" the female counterpart to the title Freyr (\"Lord\"). Daughter of Njord and twin sister of Freyr, she owned the prized necklace Brisingamen and claimed half of the warriors who died in battle, taking them to her hall Folkvangr instead of Valhalla.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Freya</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Freyja", "b": "Lady" },
+          { "a": "Female counterpart to the title", "b": "Freyr, \"Lord\"" },
+          { "a": "Freya's father was", "b": "Njord" },
+          { "a": "Freya's twin brother was", "b": "Freyr" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Freya</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Freya is the Vanir goddess of", "b": "Love and beauty" },
+          { "a": "Freya rides a chariot pulled by", "b": "Cats" },
+          { "a": "Freya's prized necklace was called", "b": "Brisingamen" },
+          { "a": "Freya claimed half of the slain, taking them to", "b": "Folkvangr" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Freya</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The parents named their newborn daughter", "b": "Freya" },
+          { "a": "The exhibit's centerpiece was a statue of", "b": "Freya in her cat-drawn chariot" },
+          { "a": "The novel's heroine, a warrior-priestess, was named for", "b": "Freya" },
+          { "a": "The myth describes Freya weeping tears of", "b": "Gold" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Freyja", "rootLanguage": "Old Norse", "rootMeaning": "Lady", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Freyja", "highlight": true }, { "text": " (Lady); the Vanir goddess of love, beauty, and half the battle-slain.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Freyja", "correctAnswer": "Lady", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Heimdall",
+    "pronunciation": "HAME-dahl",
+    "pos": "noun",
+    "definition": "In Norse mythology, the ever-vigilant Aesir god who guards the rainbow bridge Bifrost and will sound his horn to signal the start of Ragnarok.",
+    "origin": "From Old Norse <strong>Heimdallr</strong>, of debated meaning, possibly \"world-brightener\" or \"one who illuminates the world.\" Said to need less sleep than a bird and to hear grass growing, Heimdall stood eternal watch at the edge of Asgard, his horn Gjallarhorn ready to warn the gods of the giants' final assault.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Heimdall</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse Heimdallr", "b": "Possibly \"world-brightener\"" },
+          { "a": "Meaning beyond that is", "b": "Debated" },
+          { "a": "Heimdall was said to hear", "b": "Grass growing" },
+          { "a": "Heimdall's horn was called", "b": "Gjallarhorn" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Heimdall</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Heimdall guards the bridge", "b": "Bifrost" },
+          { "a": "Heimdall needs less sleep than", "b": "A bird" },
+          { "a": "Heimdall's horn signals the start of", "b": "Ragnarok" },
+          { "a": "Heimdall stood watch at the edge of", "b": "Asgard" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Heimdall</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The film cast a golden-eyed sentinel as", "b": "Heimdall" },
+          { "a": "The night-shift guard joked he was the office's", "b": "Heimdall" },
+          { "a": "The saga tells how", "b": "Heimdall will blow Gjallarhorn at the end times" },
+          { "a": "The observatory's watch-post was nicknamed", "b": "Heimdall's Post" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Heimdallr", "rootLanguage": "Old Norse", "rootMeaning": "World-brightener", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Heimdallr", "highlight": true }, { "text": "; the ever-watchful guardian of Bifrost who will sound the horn at Ragnarok.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Heimdallr", "correctAnswer": "World-brightener", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Norn",
+    "pronunciation": "norn",
+    "pos": "noun",
+    "definition": "In Norse mythology, one of the three female beings who weave and control the fate of gods and mortals alike.",
+    "origin": "From Old Norse <strong>norn</strong>, of uncertain origin, possibly related to a word for \"to twine\" or \"to entwine.\" The three chief Norns, Urd, Verdandi, and Skuld, roughly \"what was,\" \"what is becoming,\" and \"what shall be,\" dwelt beside the well at the roots of Yggdrasil, tending the tree and spinning the threads of destiny.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Norn</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse norn", "b": "Possibly \"to twine, entwine\"" },
+          { "a": "The three chief Norns were", "b": "Urd, Verdandi, and Skuld" },
+          { "a": "Their names roughly mean", "b": "What was, is becoming, and shall be" },
+          { "a": "The Norns dwelt beside a well at the roots of", "b": "Yggdrasil" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Norn</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A Norn is a female being who controls", "b": "Fate" },
+          { "a": "The Norns weave the destiny of", "b": "Gods and mortals alike" },
+          { "a": "Besides weaving fate, the Norns also", "b": "Tended the World Tree" },
+          { "a": "The Norns are sometimes compared to", "b": "The Fates of Greek myth" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Norn</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fortune teller styled herself a modern", "b": "Norn" },
+          { "a": "The fantasy trilogy's three witches were modeled on the", "b": "Norns" },
+          { "a": "The tapestry depicted the three", "b": "Norns spinning threads of fate" },
+          { "a": "Scholars compare the Norns to", "b": "Other fate-weaving figures in world myth" }
+        ] }
+    ],
+    "roots": [ { "rootText": "norn", "rootLanguage": "Old Norse", "rootMeaning": "To twine, entwine", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "norn", "highlight": true }, { "text": "; the three fate-weavers dwelling beside the well at Yggdrasil's roots.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "norn", "correctAnswer": "To twine, entwine", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Niflheim",
+    "pronunciation": "NIF-el-hime",
+    "pos": "noun",
+    "definition": "In Norse mythology, the primordial realm of mist, cold, and darkness, one of the two forces that shaped the world at creation.",
+    "origin": "From Old Norse <strong>Niflheimr</strong>, a compound of nifl (mist, fog) + heimr (home, world). Existing before the world itself, Niflheim's icy rivers met the fire of Muspelheim across the void of Ginnungagap, and the meltwater of that collision gave rise to the giant Ymir.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Niflheim</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse nifl", "b": "Mist, fog" },
+          { "a": "Old Norse heimr", "b": "Home, world" },
+          { "a": "Niflheim existed", "b": "Before the world itself" },
+          { "a": "Its icy rivers met the fire of", "b": "Muspelheim" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Niflheim</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Niflheim is a primordial realm of", "b": "Mist, cold, and darkness" },
+          { "a": "Niflheim's meltwater collision helped create", "b": "The giant Ymir" },
+          { "a": "Niflheim and Muspelheim met across the void called", "b": "Ginnungagap" },
+          { "a": "In later myth, Niflheim also came to be linked with", "b": "The realm of the dead" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Niflheim</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The video game's frozen level was named", "b": "Niflheim" },
+          { "a": "Explorers called the frigid glacier a real", "b": "Niflheim" },
+          { "a": "The novel described a mist-shrouded valley as", "b": "A Niflheim of fog and ice" },
+          { "a": "The creation myth begins in the icy realm of", "b": "Niflheim" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Niflheimr", "rootLanguage": "Old Norse", "rootMeaning": "World of mist", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Niflheimr", "highlight": true }, { "text": " (world of mist); the primordial realm of cold and darkness before creation.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Niflheimr", "correctAnswer": "World of mist", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Muspelheim",
+    "pronunciation": "MOOS-pel-hime",
+    "pos": "noun",
+    "definition": "In Norse mythology, the primordial realm of fire, one of the two forces that shaped the world at creation, home to the fire giant Surtr.",
+    "origin": "From Old Norse <strong>Muspellsheimr</strong>, combining an obscure element muspell (of uncertain meaning, possibly \"world-destroyer\") with heimr (home, world). Its searing heat met the ice of Niflheim across Ginnungagap to spark creation, and at Ragnarok its guardian Surtr is prophesied to march out and set the nine worlds ablaze.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Muspelheim</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse muspell", "b": "Obscure, possibly \"world-destroyer\"" },
+          { "a": "Old Norse heimr", "b": "Home, world" },
+          { "a": "Muspelheim's heat met the ice of", "b": "Niflheim" },
+          { "a": "Their meeting across Ginnungagap sparked", "b": "Creation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Muspelheim</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Muspelheim is the primordial realm of", "b": "Fire" },
+          { "a": "Muspelheim is home to the fire giant", "b": "Surtr" },
+          { "a": "At Ragnarok, Surtr is prophesied to", "b": "Set the nine worlds ablaze" },
+          { "a": "Muspelheim and Niflheim together helped shape", "b": "The first living being, Ymir" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Muspelheim</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The video game's volcanic realm was named", "b": "Muspelheim" },
+          { "a": "The desert heat felt like stepping into", "b": "Muspelheim" },
+          { "a": "The comic depicted Surtr striding out of", "b": "Muspelheim" },
+          { "a": "The professor's diagram paired", "b": "Muspelheim's fire against Niflheim's ice" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Muspellsheimr", "rootLanguage": "Old Norse", "rootMeaning": "World of fire", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "Muspellsheimr", "highlight": true }, { "text": " (world of fire); the searing realm of Surtr, fated to burn the nine worlds at Ragnarok.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Muspellsheimr", "correctAnswer": "World of fire", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Wednesday",
+    "pronunciation": "WENZ-day",
+    "pos": "noun",
+    "definition": "The fourth day of the week, following Tuesday and preceding Thursday.",
+    "origin": "From Old English <strong>Wodnesdaeg</strong> (Woden's day), naming the day for Woden, the Anglo-Saxon form of the god Odin. The Germanic peoples renamed the Roman day of Mercury, dies Mercurii, after their own god of wisdom and war, since Woden and Mercury were seen as parallel figures.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Wednesday</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English Wodnesdaeg", "b": "Woden's day" },
+          { "a": "Woden is the Anglo-Saxon form of", "b": "Odin" },
+          { "a": "The Romans had called this day", "b": "Dies Mercurii, day of Mercury" },
+          { "a": "Woden and Mercury were seen as", "b": "Parallel figures" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Wednesday</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Wednesday falls between", "b": "Tuesday and Thursday" },
+          { "a": "Wednesday is named for the god", "b": "Odin (Woden)" },
+          { "a": "The naming pattern reflects days named after", "b": "Germanic gods" },
+          { "a": "Wednesday is the week's", "b": "Fourth day" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Wednesday</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The meeting was rescheduled to", "b": "Wednesday afternoon" },
+          { "a": "Office workers call the midweek slump", "b": "Wednesday" },
+          { "a": "The trivia question asked which god gave us the name", "b": "Wednesday" },
+          { "a": "The market always dips a little every", "b": "Wednesday" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Wodnesdaeg", "rootLanguage": "Old English", "rootMeaning": "Woden's (Odin's) day", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "Wodnesdaeg", "highlight": true }, { "text": " (Woden's day); the weekday named for Odin himself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Wodnesdaeg", "correctAnswer": "Woden's (Odin's) day", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Thursday",
+    "pronunciation": "THURZ-day",
+    "pos": "noun",
+    "definition": "The fifth day of the week, following Wednesday and preceding Friday.",
+    "origin": "From Old English <strong>Thunresdaeg</strong> (Thor's day), naming the day for the Germanic thunder god. The Germanic peoples replaced the Roman dies Iovis, day of Jupiter, with their own thunder-wielding god, since Thor and Jupiter both ruled the sky and hurled weapons of storm.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Thursday</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English Thunresdaeg", "b": "Thor's day" },
+          { "a": "The Romans had called this day", "b": "Dies Iovis, day of Jupiter" },
+          { "a": "Thor and Jupiter were paired as", "b": "Both rulers of sky and storm" },
+          { "a": "Thunresdaeg names the day for the god of", "b": "Thunder" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Thursday</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Thursday falls between", "b": "Wednesday and Friday" },
+          { "a": "Thursday is named for the god", "b": "Thor" },
+          { "a": "Thursday is the week's", "b": "Fifth day" },
+          { "a": "The equivalent Roman god was", "b": "Jupiter" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Thursday</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The team always releases new episodes on", "b": "Thursday" },
+          { "a": "\"Thor's day\" survives in English simply as", "b": "Thursday" },
+          { "a": "The deadline for submissions is next", "b": "Thursday" },
+          { "a": "Thunderstorms rolled in that very", "b": "Thursday evening" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Thunresdaeg", "rootLanguage": "Old English", "rootMeaning": "Thor's day", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "Thunresdaeg", "highlight": true }, { "text": " (Thor's day); the weekday named for the thunder god's hammer.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Thunresdaeg", "correctAnswer": "Thor's day", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Friday",
+    "pronunciation": "FRY-day",
+    "pos": "noun",
+    "definition": "The sixth day of the week, following Thursday and preceding Saturday.",
+    "origin": "From Old English <strong>Frigedaeg</strong> (Frigg's day), replacing the Roman dies Veneris, day of Venus, with a Germanic goddess of love and marriage. Scholars debate whether the day honors Frigg, Odin's wife, or Freya, since the two goddesses' names and attributes overlapped and may have blended in popular memory.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-norse", "name": "Norse Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Friday</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English Frigedaeg", "b": "Frigg's day" },
+          { "a": "The Romans had called this day", "b": "Dies Veneris, day of Venus" },
+          { "a": "Scholars debate whether it honors Frigg or", "b": "Freya" },
+          { "a": "The two goddesses' identities may have", "b": "Overlapped in popular memory" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Friday</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Friday falls between", "b": "Thursday and Saturday" },
+          { "a": "Friday is named for a goddess linked to", "b": "Love and marriage" },
+          { "a": "Friday is the week's", "b": "Sixth day" },
+          { "a": "The equivalent Roman goddess was", "b": "Venus" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Friday</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The office cheered at the start of", "b": "Friday" },
+          { "a": "The trivia host asked which goddess gave English", "b": "Friday" },
+          { "a": "Payday always lands on a", "b": "Friday" },
+          { "a": "Some cultures still consider", "b": "Friday the 13th unlucky" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Frigedaeg", "rootLanguage": "Old English", "rootMeaning": "Frigg's (or Freya's) day", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "Frigedaeg", "highlight": true }, { "text": "; the weekday named for a goddess of love, Frigg or perhaps Freya.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Frigedaeg", "correctAnswer": "Frigg's (or Freya's) day", "hint": "Check the highlighted root in the etymology line.", "generatorVersion": "1" }
+  }
+]

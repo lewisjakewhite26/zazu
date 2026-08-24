@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Habeas corpus",
+    "pronunciation": "HAY-bee-uhs KOR-puhs",
+    "pos": "noun",
+    "definition": "A legal writ ordering that a detained person be brought before a court so a judge can decide whether their imprisonment is lawful.",
+    "origin": "From Latin <strong>habeas corpus</strong>, literally \"you shall have the body,\" the opening words of the medieval writ commanding a jailer to produce a prisoner in court. English courts used the phrase from the 14th century onward to stop the crown from holding people indefinitely without trial, and it became a cornerstone protection against unlawful detention.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Habeas corpus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin habeas", "b": "You shall have" },
+          { "a": "Latin corpus", "b": "The body" },
+          { "a": "English courts used the writ from the", "b": "14th century onward" },
+          { "a": "The writ commanded a jailer to", "b": "Produce a prisoner in court" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Habeas corpus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A habeas corpus petition challenges", "b": "The lawfulness of someone's detention" },
+          { "a": "The writ orders a detainee be brought before a", "b": "Judge" },
+          { "a": "Habeas corpus protects against being held", "b": "Indefinitely without trial" },
+          { "a": "Unlike an appeal, habeas corpus questions", "b": "Whether imprisonment itself is legal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Habeas corpus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her lawyers filed a petition for", "b": "Habeas corpus" },
+          { "a": "The government suspended", "b": "Habeas corpus during the crisis" },
+          { "a": "The judge granted the writ of", "b": "Habeas corpus and ordered his release" },
+          { "a": "Historians call it one of the oldest protections in", "b": "Habeas corpus law" }
+        ] }
+    ],
+    "roots": [ { "rootText": "habeas corpus", "rootLanguage": "Latin", "rootMeaning": "You shall have the body", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "habeas corpus", "highlight": true }, { "text": " (you shall have the body); a medieval order demanding a prisoner be brought before a judge.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "habeas corpus", "correctAnswer": "You shall have the body", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Felony",
+    "pronunciation": "FEL-uh-nee",
+    "pos": "noun",
+    "definition": "A serious crime, such as murder or armed robbery, typically punishable by more than a year in prison, as distinguished from a lesser misdemeanor.",
+    "origin": "From Anglo-Norman <strong>felonie</strong>, from Old French felon (wicked, traitorous), of disputed further origin but possibly linked to Latin fel (gall, bitterness), suggesting a person full of bitterness or malice. In medieval English law, a felony was a grave offence serious enough to cost the offender their land and life.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Felony</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French felon", "b": "Wicked, traitorous" },
+          { "a": "Possibly linked to Latin fel", "b": "Gall, bitterness" },
+          { "a": "Reached English via", "b": "Anglo-Norman felonie" },
+          { "a": "In medieval law, a felon could lose their", "b": "Land and life" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Felony</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A felony is generally punishable by", "b": "More than a year in prison" },
+          { "a": "Felonies are more serious than", "b": "Misdemeanors" },
+          { "a": "Murder and armed robbery are classic examples of", "b": "Felonies" },
+          { "a": "A felony conviction can strip a person of the right to", "b": "Vote or own firearms" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Felony</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was charged with a", "b": "Felony count of burglary" },
+          { "a": "Unlike a traffic ticket, this offence rose to the level of a", "b": "Felony" },
+          { "a": "Her prior felony conviction barred her from", "b": "Serving on the jury" },
+          { "a": "The prosecutor reduced the charge from a felony to a", "b": "Misdemeanor" }
+        ] }
+    ],
+    "roots": [ { "rootText": "felon", "rootLanguage": "Old French", "rootMeaning": "Wicked, traitorous", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "felon", "highlight": true }, { "text": " (wicked, traitorous); the gravest class of crime in medieval English law.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "felon", "correctAnswer": "Wicked, traitorous", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arson",
+    "pronunciation": "AHR-suhn",
+    "pos": "noun",
+    "definition": "The criminal act of deliberately setting fire to property, especially a building.",
+    "origin": "From Anglo-Norman <strong>arsoun</strong>, from Old French ars (burnt), the past participle of ardre (to burn), ultimately from Latin ardere (to burn). English law adopted the term in the 17th century to name the felony of maliciously burning another's dwelling.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arson</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French ars", "b": "Burnt" },
+          { "a": "Latin ardere", "b": "To burn" },
+          { "a": "Reached English via", "b": "Anglo-Norman arsoun" },
+          { "a": "English law adopted the term in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arson</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Arson requires that the fire be set", "b": "Deliberately, not accidentally" },
+          { "a": "Arson is a crime against", "b": "Property" },
+          { "a": "Investigators look for accelerants to prove", "b": "Arson" },
+          { "a": "Arson for insurance money is a form of", "b": "Fraud" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arson</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Investigators ruled the warehouse fire an act of", "b": "Arson" },
+          { "a": "He was convicted of", "b": "Arson after torching his own shop" },
+          { "a": "The insurer refused to pay, suspecting", "b": "Arson" },
+          { "a": "Firefighters called in an", "b": "Arson specialist to examine the debris" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ardere", "rootLanguage": "Latin", "rootMeaning": "To burn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ardere", "highlight": true }, { "text": " (to burn), via Old French ars; the crime of deliberately setting a fire.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ardere", "correctAnswer": "To burn", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Indictment",
+    "pronunciation": "in-DYT-muhnt",
+    "pos": "noun",
+    "definition": "A formal written accusation, typically issued by a grand jury, charging a person with a serious crime.",
+    "origin": "From Anglo-Norman <strong>enditer</strong> (to accuse, indict), from Old French enditier, from Latin indictare (to declare, proclaim), from in- (toward) + dictare (to assert, dictate). The silent \"c\" was inserted later by scholars eager to show off the word's Latin ancestry, though it was never pronounced.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Indictment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Norman enditer", "b": "To accuse, indict" },
+          { "a": "Latin indictare", "b": "To declare, proclaim" },
+          { "a": "Latin dictare", "b": "To assert, dictate" },
+          { "a": "The silent \"c\" was added by scholars to show off its", "b": "Latin ancestry" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Indictment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An indictment is typically issued by a", "b": "Grand jury" },
+          { "a": "An indictment formally", "b": "Charges someone with a crime" },
+          { "a": "Being indicted does not mean a person is", "b": "Guilty, only formally accused" },
+          { "a": "\"An indictment of the system\" figuratively means a", "b": "Damning criticism" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Indictment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The grand jury returned an", "b": "Indictment on three counts" },
+          { "a": "Prosecutors unsealed the", "b": "Indictment on Monday morning" },
+          { "a": "The scandal was seen as a damning", "b": "Indictment of the agency" },
+          { "a": "His lawyer moved to have the", "b": "Indictment dismissed" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dictare", "rootLanguage": "Latin", "rootMeaning": "To assert, dictate", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "dictare", "highlight": true }, { "text": " (to assert), via Anglo-Norman enditer; a formal declaration of criminal charges.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dictare", "correctAnswer": "To assert, dictate", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Misdemeanor",
+    "pronunciation": "mis-di-MEE-nuhr",
+    "pos": "noun",
+    "definition": "A less serious criminal offence, such as petty theft or minor vandalism, punishable by a fine or less than a year in jail rather than lengthy imprisonment.",
+    "origin": "A Middle English blend of the prefix <strong>mis-</strong> (wrongly, badly) and demeanour (conduct, behaviour), itself from Old French demener (to conduct, direct oneself). By the 16th century, English courts used \"misdemeanor\" for wrongful conduct falling short of a felony.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Misdemeanor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Prefix mis-", "b": "Wrongly, badly" },
+          { "a": "Old French demener", "b": "To conduct, direct oneself" },
+          { "a": "Misdemeanor is a blend meaning", "b": "Wrongful conduct" },
+          { "a": "Courts used the term from the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Misdemeanor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A misdemeanor is less serious than a", "b": "Felony" },
+          { "a": "Misdemeanors are typically punished with a fine or", "b": "Less than a year in jail" },
+          { "a": "Petty theft and minor vandalism are usually charged as", "b": "Misdemeanors" },
+          { "a": "A repeated misdemeanor can sometimes be elevated to a", "b": "Felony" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Misdemeanor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He pleaded guilty to a", "b": "Misdemeanor charge of trespassing" },
+          { "a": "The judge treated it as a minor", "b": "Misdemeanor rather than a felony" },
+          { "a": "Shoplifting a small item is usually only a", "b": "Misdemeanor" },
+          { "a": "Her record showed a single old", "b": "Misdemeanor" }
+        ] }
+    ],
+    "roots": [ { "rootText": "demener", "rootLanguage": "Old French", "rootMeaning": "To conduct, direct oneself", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "mis-", "highlight": true }, { "text": " (wrongly) + demeanour (conduct); a lesser offence of merely bad, not gravely criminal, behaviour.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "demener", "correctAnswer": "To conduct, direct oneself", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Burglary",
+    "pronunciation": "BUR-gluh-ree",
+    "pos": "noun",
+    "definition": "The crime of unlawfully entering a building or structure with the intent to commit a crime inside, such as theft, regardless of whether anything is actually stolen.",
+    "origin": "From Anglo-Latin <strong>burglaria</strong>, likely blending Old English burg (fortified dwelling, town) with a Germanic element related to breaking or plundering. Medieval English law treated night-time house-breaking as an especially grave offence, since it threatened people in the very place they should be safest.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Burglary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Latin burglaria", "b": "House-breaking" },
+          { "a": "Old English burg", "b": "Fortified dwelling, town" },
+          { "a": "Blended with a Germanic element for", "b": "Breaking or plundering" },
+          { "a": "Medieval law singled out", "b": "Night-time house-breaking" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Burglary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Burglary requires unlawful entry into a", "b": "Building or structure" },
+          { "a": "Burglary is committed the moment someone enters with", "b": "Intent to commit a crime inside" },
+          { "a": "Unlike robbery, burglary does not require", "b": "Confronting a person" },
+          { "a": "A burglar can be charged even if nothing was", "b": "Actually stolen" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Burglary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Police responded to a report of", "b": "Burglary at the corner shop" },
+          { "a": "He was caught prying open a window during a", "b": "Burglary" },
+          { "a": "The homeowner installed an alarm after a nearby", "b": "Burglary" },
+          { "a": "Unlike a mugging, this was a straightforward case of", "b": "Burglary" }
+        ] }
+    ],
+    "roots": [ { "rootText": "burg", "rootLanguage": "Old English", "rootMeaning": "Fortified dwelling, town", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "burg", "highlight": true }, { "text": " (dwelling), via Anglo-Latin burglaria; unlawfully entering a building meant to be safe.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "burg", "correctAnswer": "Fortified dwelling, town", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Larceny",
+    "pronunciation": "LAHR-suh-nee",
+    "pos": "noun",
+    "definition": "The unlawful taking and carrying away of someone else's property with the intent to permanently deprive them of it, without force or unlawful entry.",
+    "origin": "From Old French <strong>larcin</strong> (theft), from Latin latrocinium (robbery, brigandage), from latro (robber, hired soldier, mercenary). The Latin latro originally described a paid retainer before darkening into a word for a bandit who took by stealth or violence.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Larceny</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French larcin", "b": "Theft" },
+          { "a": "Latin latrocinium", "b": "Robbery, brigandage" },
+          { "a": "Latin latro", "b": "Robber, mercenary" },
+          { "a": "Latro originally described a", "b": "Paid retainer or hired soldier" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Larceny</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Larceny is the taking of property with intent to", "b": "Permanently deprive the owner" },
+          { "a": "Unlike burglary, larceny requires no", "b": "Unlawful entry" },
+          { "a": "Unlike robbery, larceny involves no", "b": "Force or threat against a person" },
+          { "a": "Stealing a bicycle left unattended is a classic", "b": "Larceny" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Larceny</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was charged with petty", "b": "Larceny for taking the bicycle" },
+          { "a": "Stealing goods worth thousands qualified as grand", "b": "Larceny" },
+          { "a": "The shoplifter faced a simple charge of", "b": "Larceny" },
+          { "a": "Unlike the armed hold-up next door, this was mere", "b": "Larceny" }
+        ] }
+    ],
+    "roots": [ { "rootText": "latro", "rootLanguage": "Latin", "rootMeaning": "Robber, mercenary", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "latro", "highlight": true }, { "text": " (robber), via Old French larcin; quietly taking what belongs to someone else.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "latro", "correctAnswer": "Robber, mercenary", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Perjury",
+    "pronunciation": "PUR-juh-ree",
+    "pos": "noun",
+    "definition": "The criminal offence of deliberately giving false testimony while under oath.",
+    "origin": "From Old French <strong>perjurie</strong>, from Latin perjurium, from per- (thoroughly, wrongly) + jurare (to swear). To \"per-swear\" was to swear falsely or swear one's way through an oath dishonestly, a betrayal treated with special severity because it corrupted the courts themselves.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Perjury</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin per-", "b": "Thoroughly, wrongly" },
+          { "a": "Latin jurare", "b": "To swear" },
+          { "a": "Reached English via", "b": "Old French perjurie" },
+          { "a": "Perjury was treated with special severity because it corrupted the", "b": "Courts themselves" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Perjury</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Perjury requires that the false statement be made", "b": "Under oath" },
+          { "a": "Perjury must also be made", "b": "Knowingly and deliberately" },
+          { "a": "A witness lying on the stand can be prosecuted for", "b": "Perjury" },
+          { "a": "An honest mistake, unlike perjury, lacks", "b": "Intent to deceive" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Perjury</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The witness was later charged with", "b": "Perjury" },
+          { "a": "Lying to the grand jury exposed him to", "b": "Perjury charges" },
+          { "a": "The judge reminded the witness that", "b": "Perjury is itself a crime" },
+          { "a": "Prosecutors caught her in a clear act of", "b": "Perjury" }
+        ] }
+    ],
+    "roots": [ { "rootText": "jurare", "rootLanguage": "Latin", "rootMeaning": "To swear", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "jurare", "highlight": true }, { "text": " (to swear) + per- (wrongly); swearing an oath and then breaking faith with it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "jurare", "correctAnswer": "To swear", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Embezzlement",
+    "pronunciation": "em-BEZ-uhl-muhnt",
+    "pos": "noun",
+    "definition": "The fraudulent taking of money or property by someone to whom it was lawfully entrusted, such as an employee or trustee.",
+    "origin": "From Anglo-Norman <strong>enbesiler</strong> (to make away with, steal), from Old French besillier (to torment, ravage, destroy). The word narrowed by the 16th century to describe someone secretly ruining the trust placed in them, quietly diverting funds they were meant to safeguard.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Embezzlement</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Norman enbesiler", "b": "To make away with, steal" },
+          { "a": "Old French besillier", "b": "To torment, ravage, destroy" },
+          { "a": "The word narrowed in meaning by the", "b": "16th century" },
+          { "a": "It came to describe ruining", "b": "Trust placed in someone" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Embezzlement</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Embezzlement requires that the property first be", "b": "Lawfully entrusted to the offender" },
+          { "a": "Unlike larceny, embezzlement begins with", "b": "Legal possession, not an unlawful taking" },
+          { "a": "A treasurer who diverts club funds commits", "b": "Embezzlement" },
+          { "a": "Embezzlement is a betrayal of a position of", "b": "Trust" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Embezzlement</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The accountant was arrested for", "b": "Embezzlement of client funds" },
+          { "a": "Auditors uncovered years of quiet", "b": "Embezzlement" },
+          { "a": "The treasurer faced charges of", "b": "Embezzlement after the funds went missing" },
+          { "a": "Unlike a break-in, this was an inside job of", "b": "Embezzlement" }
+        ] }
+    ],
+    "roots": [ { "rootText": "besillier", "rootLanguage": "Old French", "rootMeaning": "To torment, ravage, destroy", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "besillier", "highlight": true }, { "text": " (to ravage); quietly ruining the trust placed in a caretaker of funds.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "besillier", "correctAnswer": "To torment, ravage, destroy", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fraud",
+    "pronunciation": "frawd",
+    "pos": "noun",
+    "definition": "Wrongful or criminal deception carried out to secure unfair or unlawful financial or personal gain.",
+    "origin": "From Old French <strong>fraude</strong>, from Latin fraus (deceit, harm, injury). The Latin root carried a double sense of trickery and the damage it caused, a pairing English preserved: fraud is deception measured by the harm it does to its victim.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fraud</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French fraude", "b": "Deceit" },
+          { "a": "Latin fraus", "b": "Deceit, harm, injury" },
+          { "a": "The Latin root combined trickery with", "b": "The damage it caused" },
+          { "a": "English preserved this sense that fraud is measured by", "b": "Harm to the victim" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fraud</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fraud is deception used to secure unlawful", "b": "Financial or personal gain" },
+          { "a": "Unlike embezzlement, fraud need not involve", "b": "Property already entrusted to the offender" },
+          { "a": "A person exposed as a phony expert is called a", "b": "Fraud" },
+          { "a": "Wire fraud and mail fraud are fraud committed via", "b": "Electronic or postal communication" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fraud</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Investigators uncovered a scheme of", "b": "Insurance fraud" },
+          { "a": "The salesman was exposed as a complete", "b": "Fraud" },
+          { "a": "She was convicted of", "b": "Wire fraud" },
+          { "a": "The charity collapsed amid allegations of", "b": "Fraud" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fraus", "rootLanguage": "Latin", "rootMeaning": "Deceit, harm, injury", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fraus", "highlight": true }, { "text": " (deceit); trickery measured by the harm it does to its victim.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fraus", "correctAnswer": "Deceit, harm, injury", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Assault",
+    "pronunciation": "uh-SAWLT",
+    "pos": "noun",
+    "definition": "An intentional act that causes another person to reasonably fear imminent harmful or offensive physical contact, whether or not any actual contact occurs.",
+    "origin": "From Old French <strong>assaut</strong>, from Vulgar Latin assaltus, from Latin ad- (toward) + saltus, from salire (to leap, jump). To assault someone was literally to leap at them, and the word kept that sense of a sudden, threatening lunge even as its legal meaning narrowed.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Assault</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin salire", "b": "To leap, jump" },
+          { "a": "Latin ad-", "b": "Toward" },
+          { "a": "Vulgar Latin assaltus reached English via", "b": "Old French assaut" },
+          { "a": "To assault someone originally meant to", "b": "Leap at them" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Assault</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Assault causes reasonable fear of", "b": "Imminent harmful contact" },
+          { "a": "Unlike battery, assault requires no", "b": "Actual physical contact" },
+          { "a": "Raising a fist at someone within striking range can be", "b": "Assault, even if no blow lands" },
+          { "a": "Assault is essentially a crime against a person's", "b": "Sense of safety" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Assault</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was charged with", "b": "Assault after lunging at the officer" },
+          { "a": "Merely raising the bat toward him counted as", "b": "Assault" },
+          { "a": "The threat alone, without any blow, was enough for", "b": "Assault" },
+          { "a": "Unlike the punch that followed, this first act was only", "b": "Assault" }
+        ] }
+    ],
+    "roots": [ { "rootText": "salire", "rootLanguage": "Latin", "rootMeaning": "To leap, jump", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "salire", "highlight": true }, { "text": " (to leap) + ad- (toward); a sudden, threatening lunge at another person.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "salire", "correctAnswer": "To leap, jump", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Battery",
+    "pronunciation": "BAT-uh-ree",
+    "pos": "noun",
+    "definition": "The intentional and unlawful physical contact with another person, such as striking or touching them, without their consent.",
+    "origin": "From Old French <strong>batterie</strong>, from battre (to beat), from Latin battuere (to beat, strike). The word first described the act of beating and only later extended, by a loose resemblance of repeated blows, to a connected group of guns and then to a cell that discharges electrical current.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Battery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French battre", "b": "To beat" },
+          { "a": "Latin battuere", "b": "To beat, strike" },
+          { "a": "The word first described", "b": "The act of beating" },
+          { "a": "It later extended by resemblance to guns, then to", "b": "An electrical cell" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Battery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Battery requires actual", "b": "Physical contact" },
+          { "a": "Unlike assault, battery does not require the victim to see it", "b": "Coming beforehand" },
+          { "a": "A punch that actually lands is legally a", "b": "Battery" },
+          { "a": "\"Assault and battery\" together describe the threat and then the", "b": "Physical contact itself" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Battery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was convicted of", "b": "Battery for striking his neighbour" },
+          { "a": "The shove that followed the threat amounted to", "b": "Battery" },
+          { "a": "She sued the driver for", "b": "Assault and battery" },
+          { "a": "Unlike the earlier verbal threat, the actual slap was a", "b": "Battery" }
+        ] }
+    ],
+    "roots": [ { "rootText": "battuere", "rootLanguage": "Latin", "rootMeaning": "To beat, strike", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "battuere", "highlight": true }, { "text": " (to beat); unlawful physical contact, where assault is only the threat.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "battuere", "correctAnswer": "To beat, strike", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Homicide",
+    "pronunciation": "HOM-i-syde",
+    "pos": "noun",
+    "definition": "The general legal term for the killing of one person by another, encompassing both lawful and unlawful killings, including murder and manslaughter.",
+    "origin": "From Old French <strong>homicide</strong>, from Latin homicidium, from homo (man, human being) + caedere (to cut down, kill). The same Latin root -cide reappears across the legal vocabulary, from suicide to genocide, always marking the killing of the thing named before it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Homicide</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin homo", "b": "Man, human being" },
+          { "a": "Latin caedere", "b": "To cut down, kill" },
+          { "a": "Reached English via", "b": "Old French homicide" },
+          { "a": "The same -cide root appears in", "b": "Suicide and genocide" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Homicide</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Homicide is the general term for", "b": "The killing of one person by another" },
+          { "a": "Homicide includes both", "b": "Lawful and unlawful killings" },
+          { "a": "Murder and manslaughter are both categories of", "b": "Homicide" },
+          { "a": "Killing in self-defence can be a", "b": "Justifiable homicide" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Homicide</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Detectives from the", "b": "Homicide division arrived at the scene" },
+          { "a": "The medical examiner ruled the death a", "b": "Homicide" },
+          { "a": "The city's annual", "b": "Homicide rate rose slightly" },
+          { "a": "The shooting was later classified as justifiable", "b": "Homicide" }
+        ] }
+    ],
+    "roots": [ { "rootText": "caedere", "rootLanguage": "Latin", "rootMeaning": "To cut down, kill", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "homo", "highlight": true }, { "text": " (man) + caedere (to kill); the broad legal category covering any killing of a person.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "caedere", "correctAnswer": "To cut down, kill", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Manslaughter",
+    "pronunciation": "MAN-slaw-tuhr",
+    "pos": "noun",
+    "definition": "The unlawful killing of another person without premeditation or malice aforethought, whether through reckless conduct or in the heat of sudden provocation.",
+    "origin": "A Middle English compound of <strong>man</strong> and slaughter, the latter from Old Norse slatr (butcher's meat, slaughtered animal), related to Old English sleán (to strike, slay). Medieval English law borrowed the blunt word for butchering animals to describe an unlawful killing committed without the cold calculation of murder.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Manslaughter</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old Norse slatr", "b": "Butcher's meat, slaughtered animal" },
+          { "a": "Related to Old English sleán", "b": "To strike, slay" },
+          { "a": "Manslaughter is a Middle English compound of", "b": "Man and slaughter" },
+          { "a": "Law borrowed the word for butchering animals to describe killing without", "b": "Cold calculation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Manslaughter</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Manslaughter lacks the", "b": "Premeditation or malice aforethought of murder" },
+          { "a": "Killing during sudden provocation may be charged as", "b": "Voluntary manslaughter" },
+          { "a": "A death caused by reckless driving may be charged as", "b": "Involuntary manslaughter" },
+          { "a": "Manslaughter is a category within the broader offence of", "b": "Homicide" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Manslaughter</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jury convicted him of", "b": "Voluntary manslaughter" },
+          { "a": "The negligent contractor was charged with", "b": "Involuntary manslaughter" },
+          { "a": "Prosecutors reduced the charge from murder to", "b": "Manslaughter" },
+          { "a": "The fatal crash led to a charge of", "b": "Manslaughter" }
+        ] }
+    ],
+    "roots": [ { "rootText": "slatr", "rootLanguage": "Old Norse", "rootMeaning": "Butcher's meat, slaughtered animal", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old Norse ", "highlight": false }, { "text": "slatr", "highlight": true }, { "text": " (slaughtered animal); an unlawful killing committed without premeditation.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "slatr", "correctAnswer": "Butcher's meat, slaughtered animal", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arraignment",
+    "pronunciation": "uh-RAYN-muhnt",
+    "pos": "noun",
+    "definition": "A defendant's first formal court appearance, at which the charges are read aloud and the defendant enters a plea.",
+    "origin": "From Anglo-Norman <strong>arainer</strong>, from Old French araisnier (to speak to, address, call to account), from Latin ad- (to) + rationare (to reason, argue), from ratio (reckoning, reason). To arraign someone was literally to call them to reckoning before the court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arraignment</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French araisnier", "b": "To speak to, call to account" },
+          { "a": "Latin ratio", "b": "Reckoning, reason" },
+          { "a": "Reached English via", "b": "Anglo-Norman arainer" },
+          { "a": "To arraign someone meant to call them to", "b": "Reckoning before the court" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arraignment</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "At an arraignment, the charges are", "b": "Read aloud to the defendant" },
+          { "a": "The defendant enters a plea at the", "b": "Arraignment" },
+          { "a": "An arraignment is usually a defendant's", "b": "First formal court appearance" },
+          { "a": "Bail conditions are often set during the", "b": "Arraignment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arraignment</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defendant appeared for his", "b": "Arraignment on Tuesday" },
+          { "a": "At the", "b": "Arraignment, she pleaded not guilty" },
+          { "a": "The judge set bail during the", "b": "Arraignment" },
+          { "a": "Reporters gathered outside the courthouse for the", "b": "Arraignment" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ratio", "rootLanguage": "Latin", "rootMeaning": "Reckoning, reason", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ratio", "highlight": true }, { "text": " (reckoning), via Old French araisnier; calling a defendant to account before the court.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ratio", "correctAnswer": "Reckoning, reason", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Plea",
+    "pronunciation": "plee",
+    "pos": "noun",
+    "definition": "A defendant's formal answer, such as \"guilty\" or \"not guilty,\" to a criminal charge, entered before the court.",
+    "origin": "From Anglo-Norman <strong>plai</strong>, from Latin placitum (a decree, that which is pleasing, an opinion), from placere (to please). A plea was originally simply what a court decided pleased it to rule, before narrowing to the defendant's own formal response to a charge.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Plea</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin placitum", "b": "A decree, that which is pleasing" },
+          { "a": "Latin placere", "b": "To please" },
+          { "a": "Reached English via", "b": "Anglo-Norman plai" },
+          { "a": "A plea originally meant a court's own", "b": "Ruling or decision" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Plea</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A plea is a defendant's formal answer to a", "b": "Criminal charge" },
+          { "a": "Common pleas include guilty, not guilty, and", "b": "No contest" },
+          { "a": "A plea bargain trades a guilty plea for a", "b": "Reduced charge or sentence" },
+          { "a": "A plea is entered", "b": "Before the court" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Plea</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defendant entered a", "b": "Plea of not guilty" },
+          { "a": "Prosecutors offered a", "b": "Plea deal in exchange for testimony" },
+          { "a": "She changed her", "b": "Plea to guilty" },
+          { "a": "The judge accepted the", "b": "Plea and set a sentencing date" }
+        ] }
+    ],
+    "roots": [ { "rootText": "placere", "rootLanguage": "Latin", "rootMeaning": "To please", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "placere", "highlight": true }, { "text": " (to please), via placitum (a decree); a defendant's formal answer to the charges.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "placere", "correctAnswer": "To please", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bail",
+    "pronunciation": "bayl",
+    "pos": "noun",
+    "definition": "Money or property given to a court as security to secure the release of a defendant from custody while guaranteeing their return for trial.",
+    "origin": "From Old French <strong>baillier</strong> (to control, deliver, hand over), from Latin bajulare (to bear a burden, carry). To \"bail\" a prisoner was literally to hand them over into someone else's keeping, in exchange for a promise, backed by money, that they would return.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bail</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French baillier", "b": "To control, deliver, hand over" },
+          { "a": "Latin bajulare", "b": "To bear a burden, carry" },
+          { "a": "To bail a prisoner meant to hand them into someone else's", "b": "Keeping" },
+          { "a": "Release was secured by a promise backed by", "b": "Money" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bail</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bail secures a defendant's release while guaranteeing their", "b": "Return for trial" },
+          { "a": "Failing to appear after posting bail can lead to its", "b": "Forfeiture" },
+          { "a": "A judge may deny bail if the defendant is a", "b": "Flight risk" },
+          { "a": "A bail bondsman posts bail for a defendant in exchange for a", "b": "Fee" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bail</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge set", "b": "Bail at ten thousand dollars" },
+          { "a": "Her family scrambled to post", "b": "Bail" },
+          { "a": "He skipped town after making", "b": "Bail" },
+          { "a": "The court denied", "b": "Bail, calling him a flight risk" }
+        ] }
+    ],
+    "roots": [ { "rootText": "bajulare", "rootLanguage": "Latin", "rootMeaning": "To bear a burden, carry", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "bajulare", "highlight": true }, { "text": " (to bear a burden); security handed over to secure a defendant's release.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "bajulare", "correctAnswer": "To bear a burden, carry", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Parole",
+    "pronunciation": "puh-ROHL",
+    "pos": "noun",
+    "definition": "The supervised, conditional release of a prisoner before the end of their full sentence, granted on the understanding they will obey certain conditions.",
+    "origin": "From French <strong>parole</strong> (word, speech), from Latin parabola (comparison, speech, parable). A prisoner released on parole gave their parole d'honneur, their word of honour, promising good conduct; the modern legal sense still rests on that pledged word.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Parole</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "French parole", "b": "Word, speech" },
+          { "a": "Latin parabola", "b": "Comparison, speech, parable" },
+          { "a": "A prisoner on parole gave their", "b": "Parole d'honneur, word of honour" },
+          { "a": "The legal sense rests on a prisoner's pledged", "b": "Word" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Parole</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Parole releases a prisoner before the end of their full", "b": "Sentence" },
+          { "a": "Someone on parole remains under", "b": "Supervision" },
+          { "a": "Unlike probation, parole follows a period of", "b": "Actual imprisonment" },
+          { "a": "Breaking parole conditions can send someone back to", "b": "Prison" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Parole</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was released on", "b": "Parole after eight years" },
+          { "a": "The board denied her request for", "b": "Parole" },
+          { "a": "Missing a check-in violated the terms of his", "b": "Parole" },
+          { "a": "His parole officer required weekly", "b": "Meetings" }
+        ] }
+    ],
+    "roots": [ { "rootText": "parole", "rootLanguage": "French", "rootMeaning": "Word, speech", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From French ", "highlight": false }, { "text": "parole", "highlight": true }, { "text": " (word); early release granted on a prisoner's pledged word of honour.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "parole", "correctAnswer": "Word, speech", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Probation",
+    "pronunciation": "proh-BAY-shuhn",
+    "pos": "noun",
+    "definition": "A court-ordered period during which a convicted offender remains in the community under supervision instead of, or following, imprisonment, subject to specific conditions.",
+    "origin": "From Latin <strong>probationem</strong> (a proving, testing, trial), from probare (to test, prove, approve). To be on probation was originally to be under a period of testing to prove one's worth, a sense the courts kept when they began offering offenders a supervised trial period instead of a cell.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Probation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin probationem", "b": "A proving, testing, trial" },
+          { "a": "Latin probare", "b": "To test, prove, approve" },
+          { "a": "To be on probation originally meant to be under a", "b": "Period of testing" },
+          { "a": "Courts adopted the sense of a supervised", "b": "Trial period" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Probation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Probation lets an offender remain in the", "b": "Community, under supervision" },
+          { "a": "Unlike parole, probation is often ordered", "b": "Instead of imprisonment" },
+          { "a": "Violating probation conditions can result in", "b": "Imprisonment" },
+          { "a": "A probation officer monitors the offender's", "b": "Compliance with court conditions" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Probation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge sentenced him to two years of", "b": "Probation" },
+          { "a": "She reported monthly to her", "b": "Probation officer" },
+          { "a": "A failed drug test violated the terms of his", "b": "Probation" },
+          { "a": "Instead of jail time, the first-time offender received", "b": "Probation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "probare", "rootLanguage": "Latin", "rootMeaning": "To test, prove, approve", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "probare", "highlight": true }, { "text": " (to test, prove); a supervised trial period served in the community instead of a cell.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "probare", "correctAnswer": "To test, prove, approve", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Robbery",
+    "pronunciation": "ROB-uh-ree",
+    "pos": "noun",
+    "definition": "The unlawful taking of property directly from a person, or in their presence, by force or the threat of immediate force.",
+    "origin": "From Old French <strong>robberie</strong>, from rober (to rob, plunder), of Germanic origin related to Frankish raubon (to plunder, seize by violence). The word carried its violent, confrontational sense into English law, distinguishing a face-to-face taking by force from quiet theft.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Robbery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French rober", "b": "To rob, plunder" },
+          { "a": "Frankish raubon", "b": "To plunder, seize by violence" },
+          { "a": "Robbery is of", "b": "Germanic origin" },
+          { "a": "The word kept its sense of a", "b": "Face-to-face taking by force" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Robbery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Robbery requires taking property directly from a", "b": "Person, or in their presence" },
+          { "a": "Robbery always involves force or the", "b": "Threat of immediate force" },
+          { "a": "Unlike larceny, robbery confronts the", "b": "Victim directly" },
+          { "a": "Unlike burglary, robbery does not require entering a", "b": "Building" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Robbery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gunman committed an armed", "b": "Robbery of the bank" },
+          { "a": "She was mugged in a street", "b": "Robbery" },
+          { "a": "Unlike the earlier burglary, this was a face-to-face", "b": "Robbery" },
+          { "a": "Witnesses described the getaway car used in the", "b": "Robbery" }
+        ] }
+    ],
+    "roots": [ { "rootText": "raubon", "rootLanguage": "Frankish", "rootMeaning": "To plunder, seize by violence", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Frankish ", "highlight": false }, { "text": "raubon", "highlight": true }, { "text": " (to plunder), via Old French rober; taking property from a person by force.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "raubon", "correctAnswer": "To plunder, seize by violence", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Extortion",
+    "pronunciation": "ik-STOR-shuhn",
+    "pos": "noun",
+    "definition": "The crime of obtaining money, property, or a benefit from someone through threats, coercion, or abuse of authority, rather than direct physical force.",
+    "origin": "From Latin <strong>extortionem</strong>, from extorquere (to wrench out, extract by force), from ex- (out) + torquere (to twist). To extort something was literally to twist it out of someone, a violent image of wringing consent from an unwilling victim through pressure rather than a blow.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Extortion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin extorquere", "b": "To wrench out, extract by force" },
+          { "a": "Latin torquere", "b": "To twist" },
+          { "a": "Latin ex-", "b": "Out" },
+          { "a": "To extort something meant to", "b": "Twist it out of someone" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Extortion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Extortion obtains a benefit through", "b": "Threats or coercion" },
+          { "a": "Unlike robbery, extortion need not involve", "b": "Immediate physical force" },
+          { "a": "A threat to expose a secret unless paid is", "b": "Extortion, also called blackmail" },
+          { "a": "An official demanding bribes under threat of harm commits", "b": "Extortion" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Extortion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The gang was charged with", "b": "Extortion of local shop owners" },
+          { "a": "He threatened to leak the photos, an act of", "b": "Extortion" },
+          { "a": "The official demanded payment under", "b": "Extortion" },
+          { "a": "Unlike the earlier robbery, this scheme relied on", "b": "Extortion" }
+        ] }
+    ],
+    "roots": [ { "rootText": "torquere", "rootLanguage": "Latin", "rootMeaning": "To twist", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "torquere", "highlight": true }, { "text": " (to twist) + ex- (out); wringing money or favours from someone through threats.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "torquere", "correctAnswer": "To twist", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Kidnapping",
+    "pronunciation": "KID-nap-ing",
+    "pos": "noun",
+    "definition": "The unlawful seizing and carrying away of a person by force, threat, or fraud, typically to hold them against their will.",
+    "origin": "A 17th-century English coinage combining <strong>kid</strong> (slang for child) and nap (a variant of nab, to seize or steal). The word first named the grim trade of stealing children and young labourers to sell them into indentured servitude in the American colonies, before broadening to cover the unlawful seizure of anyone.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Kidnapping</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Kid", "b": "Slang for child" },
+          { "a": "Nap", "b": "Variant of nab, to seize or steal" },
+          { "a": "Coined in the", "b": "17th century" },
+          { "a": "The word first named stealing children to sell into", "b": "Indentured servitude" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Kidnapping</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Kidnapping is the unlawful seizing and carrying away of a", "b": "Person" },
+          { "a": "Kidnapping can be carried out by force, threat, or", "b": "Fraud" },
+          { "a": "Kidnapping typically aims to hold the victim", "b": "Against their will" },
+          { "a": "Demanding money for a victim's release is", "b": "Kidnapping for ransom" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Kidnapping</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The suspect was charged with", "b": "Kidnapping" },
+          { "a": "Investigators treated the disappearance as a possible", "b": "Kidnapping" },
+          { "a": "The ransom note confirmed it was a", "b": "Kidnapping" },
+          { "a": "Police negotiators handled the", "b": "Kidnapping case carefully" }
+        ] }
+    ],
+    "roots": [ { "rootText": "kid + nap", "rootLanguage": "English blend", "rootMeaning": "Child + to seize or steal", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "A blend of ", "highlight": false }, { "text": "kid + nap", "highlight": true }, { "text": " (to seize); originally stealing children, later any unlawful seizure of a person.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "kid + nap", "correctAnswer": "Child + to seize or steal", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Forgery",
+    "pronunciation": "FOR-juh-ree",
+    "pos": "noun",
+    "definition": "The crime of falsely making or altering a document, signature, or object with the intent to deceive or defraud.",
+    "origin": "From Old French <strong>forgier</strong> (to forge, fashion, shape metal), from Latin fabricare (to make, construct, from faber, craftsman). A forger was originally simply a skilled maker; the criminal sense grew from craftsmen who turned their skill at fashioning objects to fashioning fakes.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Forgery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French forgier", "b": "To forge, fashion, shape metal" },
+          { "a": "Latin fabricare", "b": "To make, construct" },
+          { "a": "Latin faber", "b": "Craftsman" },
+          { "a": "A forger was originally simply a", "b": "Skilled maker" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Forgery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Forgery involves falsely making or altering a", "b": "Document, signature, or object" },
+          { "a": "Forgery must be done with the intent to", "b": "Deceive or defraud" },
+          { "a": "Signing someone else's name on a cheque is a classic", "b": "Forgery" },
+          { "a": "A forged painting passed off as genuine is also a form of", "b": "Forgery" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Forgery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Handwriting experts confirmed the signature was a", "b": "Forgery" },
+          { "a": "He was arrested for", "b": "Forgery of legal documents" },
+          { "a": "The painting turned out to be a skilled", "b": "Forgery" },
+          { "a": "Bank staff spotted the", "b": "Forgery on the cheque" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fabricare", "rootLanguage": "Latin", "rootMeaning": "To make, construct", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fabricare", "highlight": true }, { "text": " (to make), via Old French forgier; a craftsman's skill turned toward fashioning fakes.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fabricare", "correctAnswer": "To make, construct", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bribery",
+    "pronunciation": "BRY-buh-ree",
+    "pos": "noun",
+    "definition": "The crime of offering, giving, receiving, or soliciting something of value in order to influence the actions of an official or person in a position of trust.",
+    "origin": "From Old French <strong>briberie</strong>, from briber (to beg, live by begging), related to bribe, which once meant a piece of bread given to a beggar. Over time the word shifted from a beggar's alms to the corrupt payment slipped to an official to buy their favour.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bribery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French briber", "b": "To beg, live by begging" },
+          { "a": "A bribe originally meant a", "b": "Piece of bread given to a beggar" },
+          { "a": "The word shifted over time from alms to a corrupt", "b": "Payment to an official" },
+          { "a": "Bribery reached English via", "b": "Old French briberie" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bribery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Bribery involves offering something of value to", "b": "Influence an official's actions" },
+          { "a": "Both giving and receiving a bribe can constitute", "b": "Bribery" },
+          { "a": "A police officer accepting cash to ignore a crime is guilty of", "b": "Bribery" },
+          { "a": "Bribery corrupts decisions that should be based on", "b": "Merit or law, not payment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bribery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The inspector was arrested on charges of", "b": "Bribery" },
+          { "a": "Prosecutors alleged the contract was won through", "b": "Bribery" },
+          { "a": "He offered the guard cash in an attempt at", "b": "Bribery" },
+          { "a": "The scandal exposed years of official", "b": "Bribery" }
+        ] }
+    ],
+    "roots": [ { "rootText": "briber", "rootLanguage": "Old French", "rootMeaning": "To beg, live by begging", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "briber", "highlight": true }, { "text": " (to beg); alms for a beggar became the corrupt payoff slipped to an official.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "briber", "correctAnswer": "To beg, live by begging", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Racketeering",
+    "pronunciation": "rak-i-TEER-ing",
+    "pos": "noun",
+    "definition": "The organised, ongoing conduct of illegal business activity, such as extortion or fraud, typically carried out through a criminal enterprise.",
+    "origin": "From American English <strong>racket</strong> (a noisy, fraudulent scheme), whose own origin is uncertain, possibly echoing the din of a rowdy party or scam. The term hardened in early 20th-century Chicago slang, where a \"racket\" meant a criminal business run under the guise of legitimate trade, and \"racketeering\" named the ongoing practice of running one.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Racketeering</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "American English racket", "b": "A noisy, fraudulent scheme" },
+          { "a": "Racket's origin is", "b": "Uncertain, possibly echoing a rowdy din" },
+          { "a": "The term hardened in slang from", "b": "Early 20th-century Chicago" },
+          { "a": "A \"racket\" meant a criminal business run under the guise of", "b": "Legitimate trade" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Racketeering</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Racketeering is organised, ongoing", "b": "Illegal business activity" },
+          { "a": "Racketeering is typically carried out through a", "b": "Criminal enterprise" },
+          { "a": "Extortion and fraud are common forms of", "b": "Racketeering" },
+          { "a": "Laws against racketeering target patterns of crime rather than a", "b": "Single isolated act" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Racketeering</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The crime boss was convicted under federal", "b": "Racketeering statutes" },
+          { "a": "Investigators built a case around years of", "b": "Racketeering" },
+          { "a": "The union official faced charges of", "b": "Racketeering" },
+          { "a": "The trial exposed a sprawling", "b": "Racketeering network" }
+        ] }
+    ],
+    "roots": [ { "rootText": "racket", "rootLanguage": "American English", "rootMeaning": "A noisy, fraudulent scheme", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From American English ", "highlight": false }, { "text": "racket", "highlight": true }, { "text": " (a fraudulent scheme); running an ongoing criminal enterprise behind a legitimate front.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "racket", "correctAnswer": "A noisy, fraudulent scheme", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Extradition",
+    "pronunciation": "ek-struh-DISH-uhn",
+    "pos": "noun",
+    "definition": "The formal surrender of a person by one jurisdiction or country to another where they are accused or convicted of a crime, so they can face trial or punishment.",
+    "origin": "From French <strong>extradition</strong>, from Latin ex- (out) + traditio (a handing over, delivery), from tradere (to hand over, deliver). The word entered legal use in the late 18th century as nations began signing treaties agreeing to hand fugitives back to the country whose laws they had broken.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Extradition</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin traditio", "b": "A handing over, delivery" },
+          { "a": "Latin tradere", "b": "To hand over, deliver" },
+          { "a": "Latin ex-", "b": "Out" },
+          { "a": "Entered legal use in the", "b": "Late 18th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Extradition</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Extradition surrenders a person to another", "b": "Jurisdiction or country" },
+          { "a": "Extradition allows the person to face", "b": "Trial or punishment there" },
+          { "a": "Extradition is typically governed by a", "b": "Treaty between countries" },
+          { "a": "A country may refuse extradition if it fears an unfair", "b": "Trial" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Extradition</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fugitive fought his", "b": "Extradition in court" },
+          { "a": "The two countries signed an", "b": "Extradition treaty" },
+          { "a": "Authorities requested his", "b": "Extradition from abroad" },
+          { "a": "A judge finally approved the", "b": "Extradition order" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tradere", "rootLanguage": "Latin", "rootMeaning": "To hand over, deliver", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "tradere", "highlight": true }, { "text": " (to hand over); surrendering a fugitive to the country whose laws they broke.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tradere", "correctAnswer": "To hand over, deliver", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Incarceration",
+    "pronunciation": "in-kahr-suh-RAY-shuhn",
+    "pos": "noun",
+    "definition": "The state of being confined in prison or jail, typically as punishment for a crime.",
+    "origin": "From Latin <strong>incarcerare</strong>, from in- (into) + carcer (prison, enclosure). The Latin carcer is also the root of \"incarcerate\" and survives in the Vatican's Carcere Mamertino, an ancient Roman prison; incarceration has meant being physically shut into an enclosure since antiquity.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Incarceration</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin carcer", "b": "Prison, enclosure" },
+          { "a": "Latin in-", "b": "Into" },
+          { "a": "Latin carcer survives in the name of the", "b": "Carcere Mamertino, an ancient Roman prison" },
+          { "a": "Incarceration has meant being shut into an enclosure since", "b": "Antiquity" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Incarceration</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Incarceration is the state of being confined in", "b": "Prison or jail" },
+          { "a": "Incarceration is typically imposed as", "b": "Punishment for a crime" },
+          { "a": "A country's incarceration rate measures how many people are", "b": "Held in custody" },
+          { "a": "Pretrial incarceration occurs before a defendant is even", "b": "Convicted" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Incarceration</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He served ten years of", "b": "Incarceration" },
+          { "a": "The report examined the country's rising", "b": "Incarceration rate" },
+          { "a": "Reformers pushed for alternatives to", "b": "Incarceration" },
+          { "a": "She wrote a memoir about her years of", "b": "Incarceration" }
+        ] }
+    ],
+    "roots": [ { "rootText": "carcer", "rootLanguage": "Latin", "rootMeaning": "Prison, enclosure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "carcer", "highlight": true }, { "text": " (prison); being physically confined as punishment for a crime.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "carcer", "correctAnswer": "Prison, enclosure", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Acquittal",
+    "pronunciation": "uh-KWIT-uhl",
+    "pos": "noun",
+    "definition": "A formal legal judgment that a defendant is not guilty of the crime charged, freeing them from further prosecution for that offence.",
+    "origin": "From Old French <strong>aquiter</strong> (to pay off, discharge a debt, clear), from Latin ad- (to) + quietare (to quiet, settle), from quietus (calm, at rest). To be acquitted was originally to have a debt settled and quieted; the courts extended the image to a charge finally laid to rest.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Acquittal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French aquiter", "b": "To pay off, discharge a debt, clear" },
+          { "a": "Latin quietare", "b": "To quiet, settle" },
+          { "a": "Latin quietus", "b": "Calm, at rest" },
+          { "a": "To be acquitted originally meant to have a debt", "b": "Settled and quieted" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Acquittal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An acquittal is a formal finding of", "b": "Not guilty" },
+          { "a": "An acquittal frees the defendant from", "b": "Further prosecution for that offence" },
+          { "a": "An acquittal can be delivered by a", "b": "Jury or a judge" },
+          { "a": "Double jeopardy generally prevents retrying someone after an", "b": "Acquittal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Acquittal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jury returned a verdict of", "b": "Acquittal" },
+          { "a": "Her lawyers celebrated the", "b": "Acquittal outside the courthouse" },
+          { "a": "Prosecutors were stunned by the", "b": "Acquittal" },
+          { "a": "The defendant walked free after his", "b": "Acquittal" }
+        ] }
+    ],
+    "roots": [ { "rootText": "quietare", "rootLanguage": "Latin", "rootMeaning": "To quiet, settle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "quietare", "highlight": true }, { "text": " (to settle), via Old French aquiter; a charge finally cleared and laid to rest.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "quietare", "correctAnswer": "To quiet, settle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Conspiracy",
+    "pronunciation": "kuhn-SPIR-uh-see",
+    "pos": "noun",
+    "definition": "An agreement between two or more people to commit an unlawful act, treated as a crime in itself even if the planned act is never carried out.",
+    "origin": "From Old French <strong>conspiracie</strong>, from Latin conspirare (to plot, agree, literally breathe together), from con- (together) + spirare (to breathe). To conspire was to breathe as one with fellow plotters, a vivid image of secret minds falling into unison over a shared, unlawful plan.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Conspiracy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin conspirare", "b": "To plot, agree, breathe together" },
+          { "a": "Latin spirare", "b": "To breathe" },
+          { "a": "Latin con-", "b": "Together" },
+          { "a": "To conspire meant to breathe as one with", "b": "Fellow plotters" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Conspiracy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Conspiracy requires an agreement between", "b": "Two or more people" },
+          { "a": "Conspiracy is a crime even if the plan is", "b": "Never actually carried out" },
+          { "a": "Conspirators can be charged alongside anyone who commits the", "b": "Underlying crime" },
+          { "a": "A conspiracy typically also requires some overt", "b": "Step taken toward the plan" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Conspiracy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The three men were charged with", "b": "Conspiracy to commit fraud" },
+          { "a": "Wiretaps revealed the details of the", "b": "Conspiracy" },
+          { "a": "Even though the robbery never happened, prosecutors proved the", "b": "Conspiracy" },
+          { "a": "The informant testified against his former", "b": "Co-conspirators" }
+        ] }
+    ],
+    "roots": [ { "rootText": "spirare", "rootLanguage": "Latin", "rootMeaning": "To breathe", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "spirare", "highlight": true }, { "text": " (to breathe) + con- (together); plotters breathing as one over a shared unlawful plan.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "spirare", "correctAnswer": "To breathe", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Obstruction",
+    "pronunciation": "uhb-STRUK-shuhn",
+    "pos": "noun",
+    "definition": "The crime of interfering with or impeding the administration of justice, such as by tampering with evidence, witnesses, or a court or police investigation.",
+    "origin": "From Latin <strong>obstructionem</strong>, from obstruere (to block, build up against), from ob- (against, in front of) + struere (to build, pile up). To obstruct was literally to build a wall against something; the legal sense keeps that image of deliberately blocking the path of justice.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-criminal", "name": "Criminal Law", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Obstruction</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin obstruere", "b": "To block, build up against" },
+          { "a": "Latin struere", "b": "To build, pile up" },
+          { "a": "Latin ob-", "b": "Against, in front of" },
+          { "a": "To obstruct meant literally to", "b": "Build a wall against something" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Obstruction</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Obstruction interferes with the", "b": "Administration of justice" },
+          { "a": "Tampering with evidence or witnesses is a form of", "b": "Obstruction" },
+          { "a": "Obstruction can be charged even if the underlying investigation", "b": "Never leads to a conviction" },
+          { "a": "Lying to investigators can itself amount to", "b": "Obstruction" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Obstruction</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was indicted for", "b": "Obstruction of justice" },
+          { "a": "Shredding the documents amounted to", "b": "Obstruction" },
+          { "a": "Prosecutors added a charge of", "b": "Obstruction to the indictment" },
+          { "a": "Witness tampering is treated as a serious form of", "b": "Obstruction" }
+        ] }
+    ],
+    "roots": [ { "rootText": "struere", "rootLanguage": "Latin", "rootMeaning": "To build, pile up", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "struere", "highlight": true }, { "text": " (to build) + ob- (against); deliberately building a wall in the path of justice.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "struere", "correctAnswer": "To build, pile up", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

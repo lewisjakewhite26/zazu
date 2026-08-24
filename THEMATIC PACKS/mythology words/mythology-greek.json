@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Panic",
+    "pronunciation": "PAN-ik",
+    "pos": "noun",
+    "definition": "A sudden overwhelming feeling of fear or anxiety that spreads quickly and often leads to wild, unreasoning behavior.",
+    "origin": "<strong>Panic</strong> comes from the Greek god <strong>Pan</strong>, the horned, goat-legged god of shepherds and wild places, whose unexpected shriek from the woods was said to strike travelers and armies with sudden, irrational terror. The Greeks called this sensation <em>panikon</em> (of Pan), and ancient historians even credited a night of Pan-induced chaos with helping the Athenians rout the Persians at Marathon. The word passed into Latin and French before settling into English as a noun for sudden, contagious fear.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Panic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Pan", "b": "Greek god of shepherds and wild places" },
+          { "a": "His unexpected shriek", "b": "Struck travelers with sudden terror" },
+          { "a": "Greek term panikon meant", "b": "\"Of Pan\"" },
+          { "a": "Credited with helping the Greeks at", "b": "The Battle of Marathon" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Panic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Panic describes", "b": "Sudden overwhelming fear" },
+          { "a": "A panic attack causes", "b": "Racing heart and irrational dread" },
+          { "a": "Mass panic can lead to", "b": "Chaotic, unreasoning behavior" },
+          { "a": "Antonym", "b": "Calm composure" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Panic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The fire alarm sent the crowd into a", "b": "Panic" },
+          { "a": "She felt a flicker of", "b": "Panic when she lost sight of her son" },
+          { "a": "Investors sold in a wave of", "b": "Market panic" },
+          { "a": "Don't", "b": "Panic — we still have time" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Pan", "rootLanguage": "Greek mythology", "rootMeaning": "God of wild places whose cry caused sudden terror", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Pan", "highlight": true }, { "text": ", the wild god whose sudden cry from the woods could send armies fleeing in terror.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Pan", "correctAnswer": "God of wild places whose cry caused sudden terror", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Siren",
+    "pronunciation": "SY-ruhn",
+    "pos": "noun",
+    "definition": "A dangerously seductive person or thing that lures others toward disaster; also, a loud warning device.",
+    "origin": "<strong>Siren</strong> comes from the Greek <em>Seirenes</em>, mythical creatures — part woman, part bird — who sang so irresistibly that sailors steered their ships onto the rocks to reach them. In Homer's <em>Odyssey</em>, Odysseus survives their song only by having his crew plug their ears and lash him to the mast. The name later attached to any dangerous allure, and in the 19th century French inventors borrowed it again for the wailing warning device.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Siren</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Seirenes", "b": "Bird-women who sang sailors to their doom" },
+          { "a": "Appear in", "b": "Homer's Odyssey" },
+          { "a": "Odysseus survived by", "b": "Being lashed to the mast, crew's ears plugged" },
+          { "a": "Word borrowed again in the", "b": "19th century for the warning device" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Siren</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A siren is", "b": "A dangerously alluring person or thing" },
+          { "a": "A siren song is", "b": "A tempting invitation leading to ruin" },
+          { "a": "A police siren makes", "b": "A loud wailing warning sound" },
+          { "a": "Synonym for the seductive sense", "b": "A temptress" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Siren</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Ambulance", "b": "Sirens wailed through the empty streets" },
+          { "a": "The easy money was a", "b": "Siren song he should have ignored" },
+          { "a": "Critics called the app's rewards a", "b": "Siren luring users to overspend" },
+          { "a": "She had a", "b": "Siren-like charm on stage" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Seirenes", "rootLanguage": "Greek mythology", "rootMeaning": "Bird-women whose song lured sailors to shipwreck", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for the ", "highlight": false }, { "text": "Seirenes", "highlight": true }, { "text": ", whose irresistible song lured sailors onto the rocks in Homer's Odyssey.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Seirenes", "correctAnswer": "Bird-women whose song lured sailors to shipwreck", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hypnosis",
+    "pronunciation": "hip-NOH-sis",
+    "pos": "noun",
+    "definition": "A trance-like state of focused attention and heightened suggestibility, typically induced deliberately by another person.",
+    "origin": "<strong>Hypnosis</strong> is built from <strong>Hypnos</strong>, the Greek god of sleep, whose Roman counterpart Somnus lent his name to \"somnolent.\" The Scottish surgeon James Braid coined \"hypnotism\" in the 1840s to describe the sleep-like trance he induced in patients, though he later argued the state had little to do with actual sleep. The shortened \"hypnosis\" stuck, even as the word's Hypnos root kept the ancient association alive.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hypnosis</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hypnos", "b": "Greek god of sleep" },
+          { "a": "Roman counterpart", "b": "Somnus" },
+          { "a": "Term \"hypnotism\" coined by", "b": "James Braid, 1840s" },
+          { "a": "Braid later argued the state", "b": "Wasn't true sleep at all" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hypnosis</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Hypnosis is a state of", "b": "Focused attention and suggestibility" },
+          { "a": "A hypnotist induces trance through", "b": "Relaxation and repeated suggestion" },
+          { "a": "Hypnotherapy is sometimes used to treat", "b": "Anxiety or bad habits" },
+          { "a": "Related adjective", "b": "Hypnotic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hypnosis</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The stage performer put a volunteer under", "b": "Hypnosis" },
+          { "a": "He quit smoking after a session of", "b": "Hypnosis" },
+          { "a": "The repetitive drumming had a", "b": "Hypnotic effect on the crowd" },
+          { "a": "Therapists debate how deep true", "b": "Hypnosis actually goes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Hypnos", "rootLanguage": "Greek", "rootMeaning": "God of sleep", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Hypnos", "highlight": true }, { "text": ", the god of sleep, borrowed by a 19th-century surgeon for the trance he called hypnotism.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Hypnos", "correctAnswer": "God of sleep", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Morphine",
+    "pronunciation": "MOR-feen",
+    "pos": "noun",
+    "definition": "A powerful opioid drug derived from opium, used medically to relieve severe pain.",
+    "origin": "<strong>Morphine</strong> takes its name from <strong>Morpheus</strong>, the Greek god of dreams, who was said to appear to sleepers in human form and shape the visions of their sleep. The German pharmacist Friedrich Sertürner isolated the compound from opium poppies around 1804 and named it after the dream-god in 1817, fitting for a drug that plunged patients into deep, dream-like relief from pain. It became the first alkaloid ever isolated from a plant.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Morphine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Morpheus", "b": "Greek god of dreams" },
+          { "a": "Isolated by", "b": "Friedrich Sertürner, around 1804" },
+          { "a": "Named by Sertürner in", "b": "1817" },
+          { "a": "Notable first as", "b": "The first alkaloid isolated from a plant" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Morphine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Morphine is derived from", "b": "Opium poppies" },
+          { "a": "It is used medically to", "b": "Relieve severe pain" },
+          { "a": "Morphine belongs to the drug class of", "b": "Opioids" },
+          { "a": "Overuse of morphine can lead to", "b": "Dependence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Morphine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Paramedics administered", "b": "Morphine for the fracture's pain" },
+          { "a": "The hospice managed her pain with", "b": "Morphine" },
+          { "a": "The soldier was given", "b": "Morphine before the field surgery" },
+          { "a": "Doctors carefully control doses of", "b": "Morphine to prevent dependence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Morpheus", "rootLanguage": "Greek mythology", "rootMeaning": "God of dreams", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Morpheus", "highlight": true }, { "text": ", the god of dreams, by the chemist who first isolated it from opium.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Morpheus", "correctAnswer": "God of dreams", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Narcissism",
+    "pronunciation": "NAR-sis-iz-um",
+    "pos": "noun",
+    "definition": "Excessive self-admiration, vanity, or preoccupation with one's own image and importance.",
+    "origin": "<strong>Narcissism</strong> comes from <strong>Narcissus</strong>, a beautiful youth in Greek myth who scorned the nymph Echo and every other suitor, then fell hopelessly in love with his own reflection in a pool of water. Unable to leave the image or embrace it, he wasted away and was transformed into the flower that still bears his name. Psychologists at the turn of the 20th century, including Havelock Ellis and later Sigmund Freud, adopted his name for excessive self-love as a clinical concept.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Narcissism</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Narcissus", "b": "Youth who fell in love with his reflection" },
+          { "a": "He had scorned", "b": "The nymph Echo and other suitors" },
+          { "a": "He was transformed into", "b": "The narcissus flower" },
+          { "a": "Adopted as a clinical term by", "b": "Havelock Ellis and Sigmund Freud" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Narcissism</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Narcissism describes", "b": "Excessive self-admiration and vanity" },
+          { "a": "A narcissist is preoccupied with", "b": "Their own image and importance" },
+          { "a": "Narcissistic Personality Disorder is a recognized", "b": "Clinical diagnosis" },
+          { "a": "Related adjective", "b": "Narcissistic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Narcissism</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Critics dismissed the memoir as pure", "b": "Narcissism" },
+          { "a": "His constant selfies struck friends as", "b": "Narcissistic" },
+          { "a": "The therapist described a pattern of", "b": "Narcissism in the client's relationships" },
+          { "a": "She accused her boss of blatant", "b": "Narcissism" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Narcissus", "rootLanguage": "Greek mythology", "rootMeaning": "Youth who fell in love with his own reflection", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Narcissus", "highlight": true }, { "text": ", the youth who wasted away staring at his own reflection in a pool.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Narcissus", "correctAnswer": "Youth who fell in love with his own reflection", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tantalize",
+    "pronunciation": "TAN-tuh-lyze",
+    "pos": "verb",
+    "definition": "To torment or tease someone by showing or promising something desirable while keeping it out of reach.",
+    "origin": "<strong>Tantalize</strong> comes from <strong>Tantalus</strong>, a king condemned in Tartarus to stand forever in a pool of water beneath a fruit-laden branch; whenever he reached for the fruit the branch drew back, and whenever he bent to drink the water receded. His crime, in most versions, was killing his own son and serving him to the gods to test their omniscience. English speakers coined \"tantalize\" in the 16th century for the cruelty of a desire perpetually and deliberately out of reach.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tantalize</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Tantalus", "b": "King punished in Tartarus" },
+          { "a": "His punishment", "b": "Fruit and water that always receded" },
+          { "a": "His crime", "b": "Serving his son to the gods as a test" },
+          { "a": "Word coined in the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tantalize</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To tantalize means to", "b": "Tease with something just out of reach" },
+          { "a": "A tantalizing smell", "b": "Promises food you can't yet have" },
+          { "a": "Related noun", "b": "Tantalization" },
+          { "a": "Synonym", "b": "To torment with desire" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tantalize</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The menu's photos", "b": "Tantalized the hungry travelers" },
+          { "a": "Rumors of a sequel", "b": "Tantalized fans for years" },
+          { "a": "The trailer offered only a", "b": "Tantalizing glimpse of the plot" },
+          { "a": "The prize sat", "b": "Tantalizingly close but unreachable" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Tantalus", "rootLanguage": "Greek mythology", "rootMeaning": "King punished with food and water forever out of reach", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Tantalus", "highlight": true }, { "text": ", condemned to reach forever for fruit and water that always drew away.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Tantalus", "correctAnswer": "King punished with food and water forever out of reach", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Herculean",
+    "pronunciation": "hur-KYOO-lee-un",
+    "pos": "adjective",
+    "definition": "Requiring or displaying extraordinary strength, courage, or effort; extremely difficult.",
+    "origin": "<strong>Herculean</strong> honors <strong>Heracles</strong> (Hercules to the Romans), the greatest of Greek heroes, who was forced to complete Twelve Labors as penance, including slaying the Nemean lion, capturing the Erymanthian boar, and cleaning the Augean stables in a single day. His feats demanded superhuman strength and endurance far beyond any mortal task. By the 16th century English writers were using \"Herculean\" for any labor of similarly overwhelming difficulty.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Herculean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Heracles", "b": "Greatest hero of Greek myth" },
+          { "a": "Roman name", "b": "Hercules" },
+          { "a": "His penance", "b": "The Twelve Labors" },
+          { "a": "One labor was", "b": "Cleaning the Augean stables in a day" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Herculean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Herculean describes", "b": "Extraordinary strength or effort" },
+          { "a": "A Herculean task is", "b": "Extremely difficult to accomplish" },
+          { "a": "Herculean effort implies", "b": "Pushing far beyond normal limits" },
+          { "a": "Synonym", "b": "Superhuman" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Herculean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Rebuilding the city after the flood was a", "b": "Herculean task" },
+          { "a": "It took a", "b": "Herculean effort to finish the deadline" },
+          { "a": "The rescue team performed a", "b": "Herculean feat overnight" },
+          { "a": "Cleaning out the garage felt like a", "b": "Herculean chore" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Heracles (Hercules)", "rootLanguage": "Greek mythology", "rootMeaning": "Hero who completed twelve superhuman labors", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Heracles", "highlight": true }, { "text": ", whose Twelve Labors demanded strength beyond any ordinary mortal.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Heracles (Hercules)", "correctAnswer": "Hero who completed twelve superhuman labors", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Odyssey",
+    "pronunciation": "OD-uh-see",
+    "pos": "noun",
+    "definition": "A long, eventful journey or series of experiences, often marked by hardship and wandering.",
+    "origin": "<strong>Odyssey</strong> is named for Homer's epic poem about <strong>Odysseus</strong>, the king of Ithaca who spent ten years struggling to sail home from the Trojan War, battling monsters, gods, and temptation at every turn. The poem's title, <em>Odysseia</em>, simply meant \"the story of Odysseus,\" but by the 19th century English speakers had lowercased the word into a common noun for any long, wandering, hardship-filled journey.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Odyssey</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Odysseus", "b": "King of Ithaca, hero of the epic" },
+          { "a": "His journey lasted", "b": "Ten years after the Trojan War" },
+          { "a": "Poem title Odysseia meant", "b": "\"The story of Odysseus\"" },
+          { "a": "Word entered common use in the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Odyssey</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An odyssey is", "b": "A long, eventful journey" },
+          { "a": "The word implies", "b": "Hardship and wandering along the way" },
+          { "a": "Odysseys often include", "b": "Unexpected obstacles and detours" },
+          { "a": "Synonym", "b": "A saga" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Odyssey</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Their road trip across the continent became a real", "b": "Odyssey" },
+          { "a": "The refugees endured a harrowing", "b": "Odyssey to safety" },
+          { "a": "Getting the visa approved turned into a bureaucratic", "b": "Odyssey" },
+          { "a": "She described her cancer treatment as a medical", "b": "Odyssey" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Odysseus", "rootLanguage": "Greek mythology", "rootMeaning": "Hero of Homer's epic ten-year journey home", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Odysseus", "highlight": true }, { "text": ", whose ten-year struggle to sail home gave English a word for any long, hard journey.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Odysseus", "correctAnswer": "Hero of Homer's epic ten-year journey home", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Titan",
+    "pronunciation": "TY-tun",
+    "pos": "noun",
+    "definition": "In Greek myth, one of a race of primordial gods who ruled before the Olympians; figuratively, a person or thing of enormous size, strength, or influence.",
+    "origin": "The <strong>Titans</strong> were the elder generation of Greek gods, children of Gaia (Earth) and Uranus (Sky), who ruled the cosmos until their leader Cronus was overthrown by his own son Zeus in the Titanomachy, a ten-year war between the Titans and the Olympians. Most Titans were then imprisoned in Tartarus, the deepest pit of the underworld. Their name survives in English for anything of overwhelming scale, from the moon of Saturn to the doomed ocean liner Titanic.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Titan</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Titans", "b": "Children of Gaia and Uranus" },
+          { "a": "Their leader", "b": "Cronus, father of Zeus" },
+          { "a": "Overthrown in the", "b": "Titanomachy, a ten-year war" },
+          { "a": "Most were imprisoned in", "b": "Tartarus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Titan</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A Titan was", "b": "One of the elder gods before the Olympians" },
+          { "a": "Figuratively, a titan is", "b": "A person or thing of immense power" },
+          { "a": "A \"titan of industry\" means", "b": "An enormously influential business figure" },
+          { "a": "Related adjective", "b": "Titanic" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Titan</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was hailed as a", "b": "Titan of the tech industry" },
+          { "a": "The two heavyweight boxers were", "b": "Titans of the ring" },
+          { "a": "Saturn's largest moon is named", "b": "Titan" },
+          { "a": "The company's founder became a corporate", "b": "Titan" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Titanes", "rootLanguage": "Greek mythology", "rootMeaning": "Elder race of gods who ruled before the Olympians", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From the ", "highlight": false }, { "text": "Titanes", "highlight": true }, { "text": ", the elder gods overthrown by Zeus and the Olympians in a ten-year war.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Titanes", "correctAnswer": "Elder race of gods who ruled before the Olympians", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Clue",
+    "pronunciation": "kloo",
+    "pos": "noun",
+    "definition": "A piece of evidence or information that helps solve a problem, mystery, or puzzle.",
+    "origin": "<strong>Clue</strong> began as \"clew,\" the Old English word for a ball of thread or yarn, and gained its modern sense from the myth of <strong>Ariadne</strong>, who gave Theseus a clew of thread to unwind as he entered the Labyrinth so he could find his way back out after slaying the Minotaur. By the 17th century, English writers used \"clew\" figuratively for anything that helped a person thread their way through a difficult problem, and the spelling gradually shifted to \"clue.\"",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Clue</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ariadne", "b": "Gave Theseus a clew of thread" },
+          { "a": "The thread led him through", "b": "The Labyrinth" },
+          { "a": "He entered to slay", "b": "The Minotaur" },
+          { "a": "Old English \"clew\" meant", "b": "A ball of thread or yarn" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Clue</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A clue is", "b": "A piece of evidence that helps solve a mystery" },
+          { "a": "Detectives search a scene for", "b": "Clues" },
+          { "a": "\"Clueless\" describes someone who is", "b": "Without any idea or understanding" },
+          { "a": "Synonym", "b": "A lead" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Clue</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The detective found a vital", "b": "Clue at the crime scene" },
+          { "a": "The crossword's first", "b": "Clue stumped everyone" },
+          { "a": "He didn't have a", "b": "Clue what she meant" },
+          { "a": "The treasure hunt's final", "b": "Clue led to the old oak tree" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Ariadne's thread (clew)", "rootLanguage": "Greek mythology", "rootMeaning": "Ball of thread used to navigate out of the Labyrinth", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Ariadne's clew", "highlight": true }, { "text": " of thread, unwound through the Labyrinth so Theseus could find his way back out.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Ariadne's thread (clew)", "correctAnswer": "Ball of thread used to navigate out of the Labyrinth", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Stentorian",
+    "pronunciation": "sten-TOR-ee-un",
+    "pos": "adjective",
+    "definition": "Extremely loud and powerful, especially describing a voice.",
+    "origin": "<strong>Stentorian</strong> comes from <strong>Stentor</strong>, a Greek herald in Homer's <em>Iliad</em> whose voice was said to be as loud as the combined shout of fifty men. He used this booming voice to rally the Greek troops on the battlefield at Troy, and his name became proverbial for volume long before the adjective itself was coined in English in the 17th century.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Stentorian</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Stentor", "b": "Herald in Homer's Iliad" },
+          { "a": "His voice equaled", "b": "Fifty men shouting at once" },
+          { "a": "He rallied Greek troops at", "b": "The siege of Troy" },
+          { "a": "Adjective coined in", "b": "17th-century English" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Stentorian</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Stentorian describes", "b": "An extremely loud, powerful voice" },
+          { "a": "A stentorian announcer", "b": "Fills a stadium without a microphone" },
+          { "a": "The word implies", "b": "Volume rather than tone or pitch" },
+          { "a": "Synonym", "b": "Booming" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Stentorian</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The sergeant barked orders in a", "b": "Stentorian voice" },
+          { "a": "His", "b": "Stentorian laugh echoed through the hall" },
+          { "a": "The town crier's", "b": "Stentorian call drew a crowd" },
+          { "a": "She silenced the room with one", "b": "Stentorian word" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Stentor", "rootLanguage": "Greek mythology", "rootMeaning": "Herald whose voice equaled fifty men shouting", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Stentor", "highlight": true }, { "text": ", the herald whose voice was said to equal fifty men shouting together.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Stentor", "correctAnswer": "Herald whose voice equaled fifty men shouting", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Museum",
+    "pronunciation": "myoo-ZEE-um",
+    "pos": "noun",
+    "definition": "A building where objects of historical, artistic, or scientific importance are collected, preserved, and displayed.",
+    "origin": "<strong>Museum</strong> comes from the Greek <em>mouseion</em>, a shrine or temple dedicated to the <strong>Muses</strong>, the nine goddesses of poetry, music, and the arts. The most famous mouseion stood in ancient Alexandria, part of a great research institution that also housed the legendary Library of Alexandria and drew scholars from across the Mediterranean world. When Renaissance Europe revived the idea of housing collections for study, it borrowed both the word and the reverence it implied.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Museum</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mouseion", "b": "Greek shrine to the Muses" },
+          { "a": "The Muses were", "b": "Nine goddesses of the arts" },
+          { "a": "Famous mouseion stood in", "b": "Ancient Alexandria" },
+          { "a": "It housed", "b": "The legendary Library of Alexandria" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Museum</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A museum houses objects of", "b": "Historical, artistic, or scientific importance" },
+          { "a": "Museums exist to", "b": "Preserve and display collections" },
+          { "a": "A curator is responsible for", "b": "A museum's collection" },
+          { "a": "Related word sharing the root", "b": "Music" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Museum</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The school trip visited the natural history", "b": "Museum" },
+          { "a": "The new wing of the", "b": "Museum opened to the public" },
+          { "a": "She donated her collection to the local", "b": "Museum" },
+          { "a": "The dinosaur skeleton is the", "b": "Museum's star exhibit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Mousai (Muses)", "rootLanguage": "Greek mythology", "rootMeaning": "Nine goddesses of poetry, music, and the arts", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From the ", "highlight": false }, { "text": "Mousai", "highlight": true }, { "text": ", the Muses, whose Alexandrian shrine gave English its word for a house of learning.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Mousai (Muses)", "correctAnswer": "Nine goddesses of poetry, music, and the arts", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Music",
+    "pronunciation": "MYOO-zik",
+    "pos": "noun",
+    "definition": "The art of arranging sounds, especially through melody, harmony, and rhythm, to produce a composition of beauty or emotional expression.",
+    "origin": "<strong>Music</strong> comes from the Greek <em>mousike</em>, meaning \"art of the Muses,\" the nine goddesses who presided over poetry, dance, and song as well as history and astronomy. To the Greeks, mousike covered nearly every art the Muses inspired, not sound alone, and only gradually narrowed in Latin and later English to mean the art of organized sound. Music shares its root directly with \"museum,\" the two words tracing back to the very same goddesses.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Music</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mousike meant", "b": "\"Art of the Muses\"" },
+          { "a": "The Muses presided over", "b": "Poetry, dance, and song" },
+          { "a": "Word originally covered", "b": "Nearly every art the Muses inspired" },
+          { "a": "Shares its root with", "b": "Museum" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Music</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Music arranges sound through", "b": "Melody, harmony, and rhythm" },
+          { "a": "A composer writes", "b": "Music" },
+          { "a": "Music can express", "b": "Emotion without words" },
+          { "a": "Related adjective", "b": "Musical" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Music</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The orchestra tuned up before the", "b": "Music began" },
+          { "a": "She has studied", "b": "Music since she was five" },
+          { "a": "The film's score featured haunting", "b": "Music" },
+          { "a": "They danced late into the night to live", "b": "Music" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mousike", "rootLanguage": "Greek", "rootMeaning": "Art of the Muses", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "mousike", "highlight": true }, { "text": ", \"art of the Muses\" — the same nine goddesses who gave English the word museum.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mousike", "correctAnswer": "Art of the Muses", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Petrify",
+    "pronunciation": "PET-ri-fy",
+    "pos": "verb",
+    "definition": "To make someone so frightened that they become frozen and unable to move or think; also, to turn organic matter into stone.",
+    "origin": "<strong>Petrify</strong> comes from the Greek <em>petra</em> (rock, stone), and its modern sense of paralyzing fear draws directly on the myth of <strong>Medusa</strong>, the Gorgon whose monstrous gaze turned any who looked at her instantly to stone. The hero Perseus beheaded her only by watching her reflection in his polished shield rather than facing her directly. English adopted \"petrify\" in the 17th century for literal fossilization and, soon after, for the stone-still grip of terror Medusa's stare once caused.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Petrify</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek petra", "b": "Rock, stone" },
+          { "a": "Medusa", "b": "Gorgon whose gaze turned onlookers to stone" },
+          { "a": "Perseus beheaded her by", "b": "Viewing her reflection in his shield" },
+          { "a": "Word entered English in the", "b": "17th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Petrify</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "To petrify someone means to", "b": "Freeze them with terror" },
+          { "a": "Petrified wood is wood that has", "b": "Turned to stone over time" },
+          { "a": "A petrifying scream is", "b": "Utterly terrifying" },
+          { "a": "Related adjective", "b": "Petrified" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Petrify</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The thunderclap left the child", "b": "Petrified" },
+          { "a": "Visitors marveled at the", "b": "Petrified forest" },
+          { "a": "She stood", "b": "Petrified at the edge of the cliff" },
+          { "a": "The horror film's ending left the audience", "b": "Petrified" }
+        ] }
+    ],
+    "roots": [ { "rootText": "petra", "rootLanguage": "Greek", "rootMeaning": "Rock, stone", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "petra", "highlight": true }, { "text": " (stone); the fear that turns you rigid, as Medusa's gaze once did in myth.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "petra", "correctAnswer": "Rock, stone", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Syringe",
+    "pronunciation": "suh-RINJ",
+    "pos": "noun",
+    "definition": "A medical instrument with a plunger and hollow needle used to inject or withdraw fluids from the body.",
+    "origin": "<strong>Syringe</strong> comes from the Greek <em>syrinx</em> (reed, pipe, tube), a word tied to the myth of the nymph <strong>Syrinx</strong>, who fled the god Pan's advances and was transformed by river gods into hollow reeds at the water's edge. Pan cut the reeds into the pipes that still bear her name, the pan-pipes or \"syrinx.\" The medical instrument, essentially a hollow tube, borrowed the same word for \"pipe\" when it entered English in the 17th century.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Syringe</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek syrinx", "b": "Reed, pipe, tube" },
+          { "a": "Syrinx the nymph", "b": "Fled Pan and was turned into reeds" },
+          { "a": "Pan cut the reeds into", "b": "The pan-pipes" },
+          { "a": "Medical device named for its", "b": "Hollow, tube-like shape" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Syringe</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A syringe is used to", "b": "Inject or withdraw fluids" },
+          { "a": "A syringe has a", "b": "Plunger and hollow needle" },
+          { "a": "Syringes are used to administer", "b": "Vaccines and medication" },
+          { "a": "The bird's vocal organ, the syrinx, produces", "b": "Song" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Syringe</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The nurse filled the", "b": "Syringe with the vaccine" },
+          { "a": "He measured the dose carefully with a", "b": "Syringe" },
+          { "a": "The vet used a", "b": "Syringe to feed the injured bird" },
+          { "a": "A used", "b": "Syringe was disposed of in the sharps bin" }
+        ] }
+    ],
+    "roots": [ { "rootText": "syrinx", "rootLanguage": "Greek", "rootMeaning": "Reed, pipe, tube", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Greek ", "highlight": false }, { "text": "syrinx", "highlight": true }, { "text": " (reed pipe), the hollow reeds the nymph Syrinx became while fleeing Pan.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "syrinx", "correctAnswer": "Reed, pipe, tube", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Elysium",
+    "pronunciation": "ih-LIZ-ee-um",
+    "pos": "noun",
+    "definition": "In Greek myth, the paradise of the afterlife reserved for heroes and the virtuous; figuratively, a state of perfect happiness.",
+    "origin": "<strong>Elysium</strong>, also called the Elysian Fields, was the section of the Greek underworld set aside for heroes, the virtuous, and those favored by the gods, a place of eternal sunshine, ease, and joy rather than punishment or gray oblivion. Homer placed it at the edge of the world, while later writers like Virgil folded it into their own visions of the underworld's blessed quarter. English borrowed the name directly from Greek and Latin for any place or state of perfect bliss.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Elysium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Elysium", "b": "Section of the underworld for heroes" },
+          { "a": "Also called", "b": "The Elysian Fields" },
+          { "a": "Described by", "b": "Homer, and later Virgil" },
+          { "a": "Unlike most of the underworld, it offered", "b": "Eternal sunshine and ease" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Elysium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Elysium describes", "b": "A paradise reserved for the virtuous" },
+          { "a": "Figuratively, an Elysium is", "b": "A state of perfect happiness" },
+          { "a": "Contrast with", "b": "Tartarus, the underworld's place of punishment" },
+          { "a": "Related adjective", "b": "Elysian" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Elysium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The quiet garden felt like a private", "b": "Elysium" },
+          { "a": "He described the honeymoon island as", "b": "Elysian" },
+          { "a": "Poets imagined the afterlife as an", "b": "Elysium of endless spring" },
+          { "a": "Retirement, for her, was pure", "b": "Elysium" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Elysion", "rootLanguage": "Greek mythology", "rootMeaning": "Paradise of the afterlife for heroes and the virtuous", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From ", "highlight": false }, { "text": "Elysion", "highlight": true }, { "text": ", the sunlit paradise of the underworld reserved for heroes and the virtuous.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Elysion", "correctAnswer": "Paradise of the afterlife for heroes and the virtuous", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Styx",
+    "pronunciation": "stiks",
+    "pos": "noun",
+    "definition": "In Greek myth, the river forming the boundary between Earth and the underworld, across which the dead were ferried.",
+    "origin": "The <strong>Styx</strong> was the principal river of the Greek underworld, so sacred that the gods themselves swore their most binding, unbreakable oaths upon its waters. The dead were ferried across it by the boatman Charon, who demanded a coin as fare, which is why the Greeks buried their dead with one under the tongue. Later legend also held that dipping the infant Achilles in the Styx made him invulnerable everywhere except the heel by which his mother held him.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Styx</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Styx", "b": "Principal river of the underworld" },
+          { "a": "Gods swore oaths upon it because it was", "b": "Sacred and unbreakable" },
+          { "a": "The dead were ferried across by", "b": "Charon, the boatman" },
+          { "a": "Achilles was dipped in it to become", "b": "Invulnerable except at the heel" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Styx</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Styx separates", "b": "The land of the living from the underworld" },
+          { "a": "Charon ferried souls across it for", "b": "A single coin" },
+          { "a": "\"Crossing the Styx\" figuratively means", "b": "Dying" },
+          { "a": "The word Styx literally means", "b": "Hateful, or shuddering" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Styx</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The poem imagined the soul waiting to cross the", "b": "Styx" },
+          { "a": "He joked that missing the deadline felt like crossing the", "b": "Styx" },
+          { "a": "The ferryman in the myth guarded the banks of the", "b": "Styx" },
+          { "a": "Ancient coins were placed with the dead as fare for the", "b": "Styx" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Styx", "rootLanguage": "Greek mythology", "rootMeaning": "River of the underworld on which gods swore oaths", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Styx", "highlight": true }, { "text": ", river of the underworld, was sacred enough that even the gods swore unbreakable oaths upon it.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Styx", "correctAnswer": "River of the underworld on which gods swore oaths", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fury",
+    "pronunciation": "FYOOR-ee",
+    "pos": "noun",
+    "definition": "Wild, uncontrollable anger or rage; in Greek myth, one of three vengeful goddesses who punished wrongdoers.",
+    "origin": "<strong>Fury</strong> traces to Latin furia (rage, madness), but English also uses it as the name for the <strong>Furies</strong>, the Erinyes of Greek myth — three terrifying goddesses born from the blood of Uranus, who pursued and tormented those guilty of unpunished crimes, especially murder within a family. They were relentless, ancient, and older than the Olympian gods themselves, embodying vengeance as an almost physical force. Their name gave English both the mythic sense and the everyday word for blazing, uncontrollable anger.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fury</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Erinyes", "b": "Greek name for the Furies" },
+          { "a": "Born from", "b": "The blood of Uranus" },
+          { "a": "They pursued", "b": "Those guilty of unpunished crimes" },
+          { "a": "They were older than", "b": "The Olympian gods" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fury</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fury describes", "b": "Wild, uncontrollable anger" },
+          { "a": "A Fury in myth was a", "b": "Vengeful goddess of punishment" },
+          { "a": "\"In a fury\" means", "b": "Consumed by rage" },
+          { "a": "Synonym", "b": "Wrath" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fury</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He stormed out of the meeting in a", "b": "Fury" },
+          { "a": "The storm hit the coast with terrifying", "b": "Fury" },
+          { "a": "She unleashed her", "b": "Fury on the referee's decision" },
+          { "a": "The ancient tragedy has the Furies pursue the", "b": "Guilty son relentlessly" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Erinyes (Furies)", "rootLanguage": "Greek mythology", "rootMeaning": "Vengeful goddesses who punished unavenged crimes", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Erinyes", "highlight": true }, { "text": ", or Furies, were vengeful goddesses who relentlessly pursued the guilty.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Erinyes (Furies)", "correctAnswer": "Vengeful goddesses who punished unavenged crimes", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Cornucopia",
+    "pronunciation": "kor-nuh-KOH-pee-uh",
+    "pos": "noun",
+    "definition": "An overflowing abundance of good things; literally, a curved horn overflowing with fruit, flowers, and grain.",
+    "origin": "<strong>Cornucopia</strong> comes from Latin cornu copiae, \"horn of plenty,\" rooted in the Greek myth of the goat <strong>Amalthea</strong>, who nursed the infant Zeus in secret on Crete after his father Cronus tried to devour him. In gratitude, Zeus broke off one of her horns and blessed it so that it endlessly refilled itself with whatever food or drink its owner desired. A rival version credits the hero Heracles, who broke off a horn of the river god Achelous during a wrestling match and it became the same magical, ever-flowing horn.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Cornucopia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Cornu copiae means", "b": "\"Horn of plenty\"" },
+          { "a": "Amalthea", "b": "Goat who secretly nursed the infant Zeus" },
+          { "a": "Zeus blessed her broken horn to", "b": "Endlessly refill with food" },
+          { "a": "Rival myth credits the horn to", "b": "Heracles, wrestling Achelous" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Cornucopia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A cornucopia is", "b": "An overflowing abundance" },
+          { "a": "Literally, a cornucopia is a", "b": "Curved horn full of fruit and grain" },
+          { "a": "The word is often used at", "b": "Harvest festivals like Thanksgiving" },
+          { "a": "Synonym", "b": "A bounty" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Cornucopia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The market stall displayed a", "b": "Cornucopia of autumn produce" },
+          { "a": "The festival table featured a", "b": "Cornucopia centerpiece" },
+          { "a": "The museum offered a", "b": "Cornucopia of rare artifacts" },
+          { "a": "Her garden produced a", "b": "Cornucopia of vegetables each summer" }
+        ] }
+    ],
+    "roots": [ { "rootText": "cornu copiae", "rootLanguage": "Latin, from Greek myth", "rootMeaning": "\"Horn of plenty\" — Amalthea's endlessly refilling horn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "cornu copiae", "highlight": true }, { "text": " (\"horn of plenty\"), the goat Amalthea's horn that endlessly refilled itself.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "cornu copiae", "correctAnswer": "\"Horn of plenty\" — Amalthea's endlessly refilling horn", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Protean",
+    "pronunciation": "PROH-tee-un",
+    "pos": "adjective",
+    "definition": "Readily assuming different forms or characters; extremely versatile and changeable.",
+    "origin": "<strong>Protean</strong> comes from <strong>Proteus</strong>, an ancient sea god in Greek myth who could foretell the future but hated to be pinned down for an answer, and so would shift shape endlessly, becoming a lion, a serpent, water, even fire, to escape anyone trying to hold him still. In the <em>Odyssey</em>, Menelaus finally forces a prophecy from him only by clinging on through every transformation until Proteus tires and returns to his true form. English adopted \"protean\" in the 16th century for anyone or anything just as changeable and hard to fix in place.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Protean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Proteus", "b": "Shape-shifting sea god" },
+          { "a": "He could foretell the", "b": "Future" },
+          { "a": "To avoid answering, he would", "b": "Change shape endlessly" },
+          { "a": "Menelaus forced a prophecy from him in", "b": "The Odyssey" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Protean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Protean describes something", "b": "Readily changing form or character" },
+          { "a": "A protean actor can", "b": "Play wildly different roles convincingly" },
+          { "a": "The word implies", "b": "Versatility rather than instability" },
+          { "a": "Synonym", "b": "Mutable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Protean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The actor's", "b": "Protean range spanned comedy and tragedy" },
+          { "a": "The company showed", "b": "Protean adaptability during the crisis" },
+          { "a": "Jazz is a", "b": "Protean genre, always reshaping itself" },
+          { "a": "Her", "b": "Protean career moved from law to painting" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Proteus", "rootLanguage": "Greek mythology", "rootMeaning": "Shape-shifting sea god who changed form to avoid capture", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Proteus", "highlight": true }, { "text": ", the sea god who shifted shape endlessly to avoid answering questions.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Proteus", "correctAnswer": "Shape-shifting sea god who changed form to avoid capture", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Zephyr",
+    "pronunciation": "ZEF-ur",
+    "pos": "noun",
+    "definition": "A soft, gentle breeze, especially one blowing from the west.",
+    "origin": "<strong>Zephyr</strong> comes from <strong>Zephyrus</strong>, the Greek god of the west wind, considered the gentlest and most pleasant of the four directional wind gods, associated with the arrival of spring. Poets from Homer onward invoked him as a mild, fertilizing breeze in contrast to his harsher brothers Boreas (the north wind) and Notus (the south wind). English absorbed his name directly as a common noun for any soft, light breeze.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Zephyr</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Zephyrus", "b": "Greek god of the west wind" },
+          { "a": "Considered the", "b": "Gentlest of the wind gods" },
+          { "a": "Associated with the arrival of", "b": "Spring" },
+          { "a": "His harsher brother, god of the north wind", "b": "Boreas" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Zephyr</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A zephyr is a", "b": "Soft, gentle breeze" },
+          { "a": "Zephyrs are typically associated with", "b": "Mild, pleasant weather" },
+          { "a": "Contrast with", "b": "A gale or harsh wind" },
+          { "a": "Zephyr fabric is named for being", "b": "Light as a breeze" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Zephyr</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "A cool", "b": "Zephyr drifted through the open window" },
+          { "a": "The sailboat caught a light", "b": "Zephyr and glided forward" },
+          { "a": "A gentle", "b": "Zephyr rustled the cherry blossoms" },
+          { "a": "They picnicked in the shade, cooled by a passing", "b": "Zephyr" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Zephyrus", "rootLanguage": "Greek mythology", "rootMeaning": "God of the gentle west wind", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Zephyrus", "highlight": true }, { "text": ", the gentlest of the wind gods, whose breath announced the arrival of spring.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Zephyrus", "correctAnswer": "God of the gentle west wind", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Echo",
+    "pronunciation": "EK-oh",
+    "pos": "noun",
+    "definition": "A repetition of sound caused by reflection off a surface; figuratively, a reflection or repetition of something earlier.",
+    "origin": "<strong>Echo</strong> was a mountain nymph in Greek myth cursed by Hera for talking too much, condemned to only ever repeat the last words spoken to her. When she fell in love with Narcissus and he rejected her, she wasted away in grief until only her voice remained, forever repeating fragments of other people's speech among the rocks. Her name became the English word for the physical phenomenon of reflected sound, and by extension for any faint repetition or trace of something past.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Echo</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Echo", "b": "Mountain nymph cursed by Hera" },
+          { "a": "Her curse", "b": "Could only repeat others' last words" },
+          { "a": "She fell in love with", "b": "Narcissus, who rejected her" },
+          { "a": "She wasted away until only her", "b": "Voice remained" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Echo</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An echo is", "b": "Sound reflected back off a surface" },
+          { "a": "Figuratively, an echo of the past means", "b": "A faint trace or repetition of it" },
+          { "a": "Canyons and empty halls are known for producing", "b": "Echoes" },
+          { "a": "Related verb", "b": "To echo" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Echo</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Her shout returned as a faint", "b": "Echo off the canyon walls" },
+          { "a": "His speech seemed to", "b": "Echo arguments from decades earlier" },
+          { "a": "The empty warehouse turned every footstep into an", "b": "Echo" },
+          { "a": "Critics heard", "b": "Echoes of the earlier novel in her new book" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Echo", "rootLanguage": "Greek mythology", "rootMeaning": "Nymph cursed to only repeat others' final words", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Echo", "highlight": true }, { "text": ", the nymph cursed to repeat only the last words spoken to her.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Echo", "correctAnswer": "Nymph cursed to only repeat others' final words", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Promethean",
+    "pronunciation": "pruh-MEE-thee-un",
+    "pos": "adjective",
+    "definition": "Boldly creative or defiantly innovative, especially in a way that challenges authority or convention; relating to Prometheus.",
+    "origin": "<strong>Promethean</strong> honors <strong>Prometheus</strong>, the Titan who defied Zeus by stealing fire from the gods and giving it to humanity, enabling civilization, craft, and progress. For his rebellion he was chained to a rock where an eagle devoured his regenerating liver every day for eternity. Writers from the Romantic era onward, most famously Mary Shelley in the subtitle of <em>Frankenstein</em> (\"The Modern Prometheus\"), used his name for any act of bold, transgressive creation or defiance of higher authority.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Promethean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Prometheus", "b": "Titan who stole fire for humanity" },
+          { "a": "His punishment", "b": "Chained to a rock, liver eaten daily" },
+          { "a": "Fire enabled", "b": "Human civilization and craft" },
+          { "a": "Mary Shelley's subtitle for Frankenstein", "b": "\"The Modern Prometheus\"" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Promethean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Promethean describes", "b": "Bold, defiant creativity or innovation" },
+          { "a": "A Promethean act often", "b": "Challenges authority or convention" },
+          { "a": "The word carries a sense of", "b": "Both genius and dangerous overreach" },
+          { "a": "Related concept", "b": "Playing with forces beyond one's control" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Promethean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Scientists called gene editing a", "b": "Promethean leap for medicine" },
+          { "a": "The inventor's", "b": "Promethean ambition worried his investors" },
+          { "a": "Critics called the artist's defiance", "b": "Truly Promethean" },
+          { "a": "Splitting the atom was a", "b": "Promethean achievement with grave risks" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Prometheus", "rootLanguage": "Greek mythology", "rootMeaning": "Titan who stole fire from the gods for humanity", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Prometheus", "highlight": true }, { "text": ", the Titan who stole fire from the gods and was punished for it eternally.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Prometheus", "correctAnswer": "Titan who stole fire from the gods for humanity", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sisyphean",
+    "pronunciation": "sis-uh-FEE-un",
+    "pos": "adjective",
+    "definition": "Describing a task that is endless and futile, requiring continuous effort with no hope of completion.",
+    "origin": "<strong>Sisyphean</strong> comes from <strong>Sisyphus</strong>, a cunning king punished in the underworld for repeatedly cheating death, condemned for eternity to push a massive boulder up a hill only to watch it roll back down each time he neared the top. The philosopher Albert Camus later used his myth as a symbol of the human condition, arguing that one must imagine Sisyphus happy despite the futility of his task. The adjective entered English use for any endlessly repeating, unwinnable labor.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sisyphean</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Sisyphus", "b": "Cunning king punished in the underworld" },
+          { "a": "His crime", "b": "Repeatedly cheating death" },
+          { "a": "His punishment", "b": "Pushing a boulder uphill eternally" },
+          { "a": "Philosopher who reinterpreted the myth", "b": "Albert Camus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sisyphean</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sisyphean describes a task that is", "b": "Endless and futile" },
+          { "a": "A Sisyphean struggle offers", "b": "No hope of final completion" },
+          { "a": "The word implies", "b": "Repetition without progress" },
+          { "a": "Synonym", "b": "Futile" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sisyphean</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Clearing his inbox felt like a", "b": "Sisyphean task" },
+          { "a": "Fighting the weeds each summer was a", "b": "Sisyphean chore" },
+          { "a": "Negotiators faced a", "b": "Sisyphean struggle for peace" },
+          { "a": "Paying down the debt felt", "b": "Sisyphean, interest outpacing every payment" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Sisyphus", "rootLanguage": "Greek mythology", "rootMeaning": "King condemned to eternally push a boulder uphill", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Sisyphus", "highlight": true }, { "text": ", condemned to push a boulder uphill forever, only to watch it roll back down.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Sisyphus", "correctAnswer": "King condemned to eternally push a boulder uphill", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Pandora",
+    "pronunciation": "pan-DOR-uh",
+    "pos": "noun",
+    "definition": "In Greek myth, the first mortal woman, whose curiosity led her to release all the world's evils from a sealed jar; figuratively, a source of unexpected trouble once opened.",
+    "origin": "<strong>Pandora</strong> was fashioned by the gods as the first woman, given gifts by each Olympian — her name means \"all-gifted\" — and sent to earth carrying a sealed jar (later mistranslated as a box) she was forbidden to open. Overcome by curiosity, she lifted the lid and released disease, sorrow, and every other evil into the world, managing to trap only Hope inside before sealing it again. The phrase \"opening Pandora's box\" entered English for any action that unleashes irreversible trouble.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Pandora</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Pandora", "b": "First mortal woman in Greek myth" },
+          { "a": "Her name means", "b": "\"All-gifted\"" },
+          { "a": "She was given a", "b": "Sealed jar she was forbidden to open" },
+          { "a": "Only this remained trapped inside", "b": "Hope" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Pandora</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Pandora describes", "b": "The first woman in Greek myth" },
+          { "a": "\"Pandora's box\" figuratively means", "b": "A source of unexpected, irreversible trouble" },
+          { "a": "Opening it released", "b": "Disease, sorrow, and every evil" },
+          { "a": "The jar was later mistranslated as a", "b": "Box" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Pandora</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Legalizing the drug opened a", "b": "Pandora's box of new problems" },
+          { "a": "The lawyer warned that the lawsuit would open a", "b": "Pandora's box of claims" },
+          { "a": "Once the scandal broke, it was clear", "b": "Pandora's box had been opened" },
+          { "a": "Reopening the old case felt like unleashing a", "b": "Pandora's box" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Pandora", "rootLanguage": "Greek mythology", "rootMeaning": "First woman who released all evils from a forbidden jar", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Pandora", "highlight": true }, { "text": ", whose curiosity released every evil into the world from a single forbidden jar.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Pandora", "correctAnswer": "First woman who released all evils from a forbidden jar", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Chimera",
+    "pronunciation": "ky-MEER-uh",
+    "pos": "noun",
+    "definition": "A fire-breathing hybrid monster in Greek myth with a lion's head, a goat's body, and a serpent's tail; figuratively, an unrealistic hope or fanciful, unattainable idea.",
+    "origin": "The <strong>Chimera</strong> was a monstrous creature in Greek myth, part lion, part goat, and part serpent, breathing fire from the goat's head that sprouted from its back, terrorizing the region of Lycia until the hero Bellerophon slew it while riding the winged horse Pegasus. Because the beast fused three incompatible animals into one impossible body, its name became the English word for any wildly implausible fantasy, and later for an organism made of genetically distinct tissues.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Chimera</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Chimera", "b": "Hybrid monster of lion, goat, and serpent" },
+          { "a": "It breathed", "b": "Fire from its goat's head" },
+          { "a": "It terrorized", "b": "The region of Lycia" },
+          { "a": "Slain by", "b": "Bellerophon, riding Pegasus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Chimera</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A chimera in myth was a", "b": "Fire-breathing hybrid monster" },
+          { "a": "Figuratively, a chimera is", "b": "An unrealistic or fanciful hope" },
+          { "a": "In biology, a chimera is an organism with", "b": "Genetically distinct tissues" },
+          { "a": "Related adjective", "b": "Chimerical" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Chimera</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Critics dismissed the perpetual motion machine as a", "b": "Chimera" },
+          { "a": "Their plan for instant riches was a", "b": "Chimerical fantasy" },
+          { "a": "Scientists created a genetic", "b": "Chimera in the lab" },
+          { "a": "World peace felt like a distant", "b": "Chimera to the negotiators" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Chimera", "rootLanguage": "Greek mythology", "rootMeaning": "Fire-breathing hybrid monster of lion, goat, and serpent", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Chimera", "highlight": true }, { "text": ", part lion, part goat, part serpent, was slain by Bellerophon riding the winged horse Pegasus.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Chimera", "correctAnswer": "Fire-breathing hybrid monster of lion, goat, and serpent", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Oracle",
+    "pronunciation": "OR-uh-kul",
+    "pos": "noun",
+    "definition": "A person or agency believed to give wise, authoritative, or divinely inspired counsel or prophecy; the place where such counsel is given.",
+    "origin": "<strong>Oracle</strong> comes from Latin oraculum (a divine announcement), from orare (to speak, pray), but the concept is inseparable from the Greek <strong>Oracle of Delphi</strong>, where the priestess Pythia sat above a chasm in an entranced state and delivered cryptic prophecies believed to come directly from Apollo. Kings and generals across the ancient world traveled to consult her before major decisions, and her often riddling answers gave English the sense of an oracle as any source of profound but ambiguous wisdom.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Oracle</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin oraculum meant", "b": "A divine announcement" },
+          { "a": "Priestess who spoke the prophecies", "b": "Pythia" },
+          { "a": "Prophecies were believed to come from", "b": "Apollo" },
+          { "a": "Located at", "b": "Delphi" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Oracle</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An oracle gives", "b": "Wise or divinely inspired counsel" },
+          { "a": "An oracle's answers are often", "b": "Cryptic or riddling" },
+          { "a": "Kings consulted oracles before", "b": "Major decisions" },
+          { "a": "In computing, an \"oracle\" can mean", "b": "A trusted external source of data" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Oracle</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Investors treated the veteran trader as an", "b": "Oracle of the markets" },
+          { "a": "Ancient kings consulted the", "b": "Oracle before going to war" },
+          { "a": "Her cryptic advice felt almost", "b": "Oracular" },
+          { "a": "The old professor was the department's", "b": "Oracle on obscure history" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Oracle of Delphi", "rootLanguage": "Greek mythology / Latin oraculum", "rootMeaning": "Shrine where the priestess Pythia delivered Apollo's prophecies", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Oracle of Delphi", "highlight": true }, { "text": ", where the priestess Pythia delivered Apollo's cryptic prophecies, gave English its word for wise counsel.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Oracle of Delphi", "correctAnswer": "Shrine where the priestess Pythia delivered Apollo's prophecies", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hydra",
+    "pronunciation": "HY-druh",
+    "pos": "noun",
+    "definition": "A multi-headed serpent monster in Greek myth that grew two new heads for every one severed; figuratively, a problem that multiplies when partially confronted.",
+    "origin": "The <strong>Hydra</strong> of Lerna was a monstrous, many-headed serpent in Greek myth, and Heracles' second labor was to kill it, only to discover that for every head he cut off, two more grew in its place. He finally succeeded with his nephew Iolaus, who cauterized each stump with fire before it could regrow, while Heracles severed and buried the one immortal head beneath a boulder. The myth gave English the word for any problem that seems to worsen and multiply the moment it is partly solved.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hydra</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Hydra", "b": "Many-headed serpent monster of Lerna" },
+          { "a": "Heracles' labor", "b": "His second of the Twelve Labors" },
+          { "a": "Each severed head", "b": "Grew back as two" },
+          { "a": "Solved by cauterizing stumps with", "b": "Fire, with help from his nephew Iolaus" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hydra</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hydra in myth was a", "b": "Many-headed serpent monster" },
+          { "a": "Figuratively, a hydra describes a problem that", "b": "Multiplies when partly confronted" },
+          { "a": "\"Cutting off one head\" of a hydra-like problem risks", "b": "Making it worse" },
+          { "a": "Related biological genus name", "b": "Hydra, a small freshwater animal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hydra</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Corruption in the agency proved to be a", "b": "Hydra, growing back wherever it was cut" },
+          { "a": "Shutting down one smuggling route only fed the", "b": "Hydra of trafficking elsewhere" },
+          { "a": "The bug fix spawned three new bugs, like a", "b": "Hydra" },
+          { "a": "Fighting misinformation online felt like battling a", "b": "Hydra" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Hydra of Lerna", "rootLanguage": "Greek mythology", "rootMeaning": "Serpent monster that regrew two heads for every one cut off", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Hydra of Lerna", "highlight": true }, { "text": " grew two heads for every one Heracles cut off, until fire stopped the regrowth.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Hydra of Lerna", "correctAnswer": "Serpent monster that regrew two heads for every one cut off", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bacchanal",
+    "pronunciation": "BAK-uh-nal",
+    "pos": "noun",
+    "definition": "A wild, drunken celebration or riotous festivity; a participant in such revelry.",
+    "origin": "<strong>Bacchanal</strong> comes from <strong>Bacchus</strong>, the Roman name for Dionysus, the Greek god of wine, ecstasy, and ritual madness, whose festivals featured uninhibited drinking, music, and dancing meant to dissolve ordinary restraint. Ancient Bacchanalia grew so notorious for excess that the Roman Senate moved to suppress them in 186 BC, fearing the secretive, unruly gatherings threatened public order. The word survives in English for any similarly uninhibited, drunken revelry.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bacchanal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Bacchus", "b": "Roman name for Dionysus, god of wine" },
+          { "a": "His festivals featured", "b": "Uninhibited drinking, music, and dancing" },
+          { "a": "Roman Senate suppressed Bacchanalia in", "b": "186 BC" },
+          { "a": "Reason for suppression", "b": "Fear of unruly, secretive gatherings" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bacchanal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A bacchanal is a", "b": "Wild, drunken celebration" },
+          { "a": "The word can also describe", "b": "A participant in such revelry" },
+          { "a": "Related adjective", "b": "Bacchanalian" },
+          { "a": "Synonym", "b": "An orgy of excess" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bacchanal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The New Year's party turned into a full", "b": "Bacchanal" },
+          { "a": "Critics called the festival a modern", "b": "Bacchanal" },
+          { "a": "The wedding reception descended into a", "b": "Bacchanalian night of dancing" },
+          { "a": "Ancient frescoes depicted scenes of", "b": "Bacchanalian revelry" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Bacchus (Dionysus)", "rootLanguage": "Greek/Roman mythology", "rootMeaning": "God of wine, ecstasy, and ritual revelry", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Named for ", "highlight": false }, { "text": "Bacchus", "highlight": true }, { "text": ", god of wine, whose festivals of uninhibited revelry gave English its word for a drunken celebration.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Bacchus (Dionysus)", "correctAnswer": "God of wine, ecstasy, and ritual revelry", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Acheron",
+    "pronunciation": "AK-uh-ron",
+    "pos": "noun",
+    "definition": "In Greek myth, one of the rivers of the underworld, often called the river of woe, across which the dead were ferried.",
+    "origin": "The <strong>Acheron</strong> was one of the five rivers of the Greek underworld, its name traditionally linked to Greek words for \"woe\" or \"pain,\" and in many accounts it was the very river the ferryman Charon rowed the dead across rather than the Styx, the two rivers often blurred together in later literature. A real river in northwestern Greece bears the same name and was long believed by ancient travelers to be an actual entrance to the underworld. The name became poetic shorthand in English for the underworld itself, or for death's threshold.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": { "id": "mythology-greek", "name": "Greek Myth & Legend", "packId": "mythology" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Acheron</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Acheron", "b": "One of the five rivers of the underworld" },
+          { "a": "Name traditionally linked to", "b": "Greek words for \"woe\" or \"pain\"" },
+          { "a": "Ferried across by", "b": "Charon, the boatman" },
+          { "a": "A real river in", "b": "Northwestern Greece bears the same name" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Acheron</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The Acheron is a river of the", "b": "Greek underworld" },
+          { "a": "It is often called the river of", "b": "Woe" },
+          { "a": "In literature it is sometimes confused with", "b": "The Styx" },
+          { "a": "Figuratively, the name evokes", "b": "Death's threshold" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Acheron</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The poet imagined souls gathering on the banks of the", "b": "Acheron" },
+          { "a": "Dante's underworld draws heavily on the mythic", "b": "Acheron" },
+          { "a": "Travelers in antiquity visited the real river believing it led to the", "b": "Underworld" },
+          { "a": "The play's final act was set on the shadowy banks of the", "b": "Acheron" }
+        ] }
+    ],
+    "roots": [ { "rootText": "Acheron", "rootLanguage": "Greek mythology", "rootMeaning": "River of the underworld, traditionally \"river of woe\"", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "The ", "highlight": false }, { "text": "Acheron", "highlight": true }, { "text": ", the river of woe, was where Charon the ferryman rowed the dead into the underworld.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "Acheron", "correctAnswer": "River of the underworld, traditionally \"river of woe\"", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

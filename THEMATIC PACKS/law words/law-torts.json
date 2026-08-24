@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Tort",
+    "pronunciation": "TORT",
+    "pos": "noun",
+    "definition": "A wrongful act, other than a breach of contract, that causes harm to another and gives rise to civil legal liability.",
+    "origin": "From Old French <strong>tort</strong> (wrong, injustice), from medieval Latin tortum, the neuter past participle of torquere (to twist). The word carries the sense of something twisted or bent out of the straight course of right conduct, entering English law through Anglo-Norman legal French in the 13th century.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tort</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French tort", "b": "Wrong, injustice" },
+          { "a": "Medieval Latin tortum", "b": "Twisted (past participle of torquere)" },
+          { "a": "Entered English law via", "b": "Anglo-Norman legal French" },
+          { "a": "First used in English courts in the", "b": "13th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tort</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tort is a wrongful act other than a", "b": "Breach of contract" },
+          { "a": "Tort law allows a victim to seek", "b": "Civil compensation" },
+          { "a": "The main branches of tort include negligence and", "b": "Intentional wrongs" },
+          { "a": "A synonym for a tort is a", "b": "Civil wrong" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tort</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The driver was sued for the", "b": "Tort of negligence" },
+          { "a": "Publishing false claims can amount to the", "b": "Tort of defamation" },
+          { "a": "Trespass is one of the oldest recognised", "b": "Torts" },
+          { "a": "Her professor specialised in", "b": "Tort law" }
+        ] }
+    ],
+    "roots": [ { "rootText": "torquere", "rootLanguage": "Latin", "rootMeaning": "To twist", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "torquere", "highlight": true }, { "text": " (to twist); a wrong that bends conduct away from the straight path of right.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "torquere", "correctAnswer": "To twist", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Plaintiff",
+    "pronunciation": "PLAYN-tif",
+    "pos": "noun",
+    "definition": "The party who initiates a civil lawsuit by bringing a claim against another party in court.",
+    "origin": "From Old French <strong>plaintif</strong> (complaining, wretched), from plaindre (to lament), rooted in Latin plangere (to strike the breast in grief, to lament). The term entered English legal usage in the 14th century to describe the party voicing a grievance before the court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Plaintiff</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French plaintif", "b": "Complaining, wretched" },
+          { "a": "From Old French plaindre", "b": "To lament" },
+          { "a": "Ultimately from Latin plangere", "b": "To strike the breast in grief" },
+          { "a": "Entered English legal usage in the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Plaintiff</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A plaintiff is the party who", "b": "Initiates the lawsuit" },
+          { "a": "The plaintiff's opposite party is the", "b": "Defendant" },
+          { "a": "In criminal cases, the plaintiff's role is played by the", "b": "State or prosecution" },
+          { "a": "A near synonym in modern civil procedure is the", "b": "Claimant" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Plaintiff</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The", "b": "Plaintiff alleged the company had been negligent" },
+          { "a": "Lawyers for the", "b": "Plaintiff presented medical records as evidence" },
+          { "a": "The judge asked the", "b": "Plaintiff to state her case first" },
+          { "a": "After settling, the", "b": "Plaintiff withdrew the claim" }
+        ] }
+    ],
+    "roots": [ { "rootText": "plangere", "rootLanguage": "Latin", "rootMeaning": "To lament, strike the breast in grief", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "plangere", "highlight": true }, { "text": " (to lament); originally, simply, the one who complains.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "plangere", "correctAnswer": "To lament, strike the breast in grief", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Defendant",
+    "pronunciation": "dih-FEN-duhnt",
+    "pos": "noun",
+    "definition": "The party against whom a civil lawsuit or criminal charge is brought.",
+    "origin": "From Anglo-Norman <strong>defendant</strong>, the present participle of defendre (to defend, ward off), from Latin defendere (de- 'away' + fendere 'to strike'). The word described one who must fend off, or defend against, an accusation in court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Defendant</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Norman defendant", "b": "Present participle of defendre" },
+          { "a": "Latin defendere breaks down as", "b": "De- (away) + fendere (to strike)" },
+          { "a": "Fendere meant", "b": "To strike, ward off a blow" },
+          { "a": "The word entered English law via", "b": "Anglo-Norman French" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Defendant</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The defendant is the party", "b": "Accused or sued" },
+          { "a": "In a criminal trial, the defendant is presumed", "b": "Innocent until proven guilty" },
+          { "a": "The defendant's legal team presents a", "b": "Defence" },
+          { "a": "The opposite party to the defendant is the", "b": "Plaintiff" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Defendant</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The", "b": "Defendant pleaded not guilty to the charge" },
+          { "a": "Counsel for the", "b": "Defendant cross-examined the witness" },
+          { "a": "The court found the", "b": "Defendant liable for damages" },
+          { "a": "The", "b": "Defendant's insurer agreed to pay the settlement" }
+        ] }
+    ],
+    "roots": [ { "rootText": "defendere", "rootLanguage": "Latin", "rootMeaning": "To ward off, defend", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "defendere", "highlight": true }, { "text": " (to ward off); the party who must fend off the claim brought against them.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "defendere", "correctAnswer": "To ward off, defend", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Liability",
+    "pronunciation": "ly-uh-BIL-i-tee",
+    "pos": "noun",
+    "definition": "The state of being legally responsible for something, especially for causing harm or loss to another party.",
+    "origin": "From liable, from Anglo-Norman lier (to bind), from Latin <strong>ligare</strong> (to bind, tie). To be liable was originally to be 'bound' by law to answer for a debt or wrong, a sense that survives in the modern idea of being bound to compensate for harm caused.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Liability</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ligare", "b": "To bind, tie" },
+          { "a": "Passed into English via", "b": "Anglo-Norman lier" },
+          { "a": "To be 'liable' originally meant to be", "b": "Legally bound" },
+          { "a": "The same root gives us the word", "b": "Ligament" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Liability</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Liability means being legally responsible for", "b": "Causing harm or loss" },
+          { "a": "Civil liability can result in an order to pay", "b": "Damages" },
+          { "a": "A company with limited liability protects shareholders from", "b": "Personal financial loss" },
+          { "a": "The opposite of being liable is being", "b": "Exempt from responsibility" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Liability</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court held the manufacturer", "b": "Liable for the defective product" },
+          { "a": "The contract capped the company's", "b": "Liability at ten thousand pounds" },
+          { "a": "Drivers must carry insurance to cover their", "b": "Liability" },
+          { "a": "The landlord denied any", "b": "Liability for the tenant's injury" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ligare", "rootLanguage": "Latin", "rootMeaning": "To bind, tie", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ligare", "highlight": true }, { "text": " (to bind); to be liable is to be legally bound to answer for a wrong.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ligare", "correctAnswer": "To bind, tie", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Negligence",
+    "pronunciation": "NEG-li-juhns",
+    "pos": "noun",
+    "definition": "Failure to exercise the standard of care that a reasonably prudent person would exercise in similar circumstances, resulting in harm to another.",
+    "origin": "From Latin <strong>neglegere</strong> (to disregard, not heed), formed from nec- (not) + legere (to pick up, choose, pay attention to). To neglect something was literally to fail to 'gather up' or attend to it, a sense refined by medieval jurists into the standard of care owed to others.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Negligence</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin neglegere", "b": "To disregard, not heed" },
+          { "a": "Formed from nec- and legere, meaning", "b": "Not + to pick up, choose" },
+          { "a": "Legere also gives English the word", "b": "Elect" },
+          { "a": "Medieval jurists refined the word into a legal", "b": "Standard of care" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Negligence</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Negligence is a failure to exercise", "b": "Reasonable care" },
+          { "a": "To win a negligence claim, a plaintiff must prove", "b": "Duty, breach, causation, and harm" },
+          { "a": "The legal standard is that of a", "b": "Reasonably prudent person" },
+          { "a": "Negligence is contrasted with a deliberate, intentional", "b": "Wrong" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Negligence</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The surgeon was sued for", "b": "Medical negligence" },
+          { "a": "The council's", "b": "Negligence in maintaining the road caused the crash" },
+          { "a": "Her lawyer argued the company had acted with gross", "b": "Negligence" },
+          { "a": "The court found the babysitter guilty of", "b": "Negligence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "neglegere", "rootLanguage": "Latin", "rootMeaning": "To disregard, not heed", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "neglegere", "highlight": true }, { "text": " (to disregard); failing to pick up, or attend to, a duty of care.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "neglegere", "correctAnswer": "To disregard, not heed", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Damages",
+    "pronunciation": "DAM-ij-iz",
+    "pos": "noun",
+    "definition": "Monetary compensation awarded by a court to a party who has suffered loss or injury because of another's wrongful act.",
+    "origin": "From Old French damage, from Latin <strong>damnum</strong> (harm, loss, injury). In law, 'damages' took on its distinctive plural form in the 14th century to denote the sum of money awarded to repair a loss, rather than the loss itself.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Damages</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin damnum", "b": "Harm, loss, injury" },
+          { "a": "Passed to English via Old French", "b": "Damage" },
+          { "a": "The legal plural 'damages' emerged in the", "b": "14th century" },
+          { "a": "Damnum also gives English the word", "b": "Condemn" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Damages</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Damages are a sum of money awarded to", "b": "Compensate a wronged party" },
+          { "a": "'Compensatory damages' aim to restore the claimant to their", "b": "Original position" },
+          { "a": "'Punitive damages' are intended to", "b": "Punish and deter the wrongdoer" },
+          { "a": "Damages are distinct from an", "b": "Injunction, which orders an act instead" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Damages</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jury awarded the injured worker", "b": "Substantial damages" },
+          { "a": "The court capped", "b": "Damages at a fixed amount" },
+          { "a": "The plaintiff sought", "b": "Damages for lost earnings" },
+          { "a": "The company was ordered to pay", "b": "Punitive damages" }
+        ] }
+    ],
+    "roots": [ { "rootText": "damnum", "rootLanguage": "Latin", "rootMeaning": "Harm, loss, injury", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "damnum", "highlight": true }, { "text": " (harm, loss); the money paid to repair what was broken.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "damnum", "correctAnswer": "Harm, loss, injury", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Injunction",
+    "pronunciation": "in-JUHNGK-shuhn",
+    "pos": "noun",
+    "definition": "A court order requiring a party to do, or refrain from doing, a specific act.",
+    "origin": "From Latin injunctio, from <strong>injungere</strong> (to enjoin, impose), formed from in- (upon) + jungere (to join). To be enjoined was to have a duty 'joined onto' one by legal command, a sense preserved in the modern court order that compels or forbids an act.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Injunction</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin injungere", "b": "To enjoin, impose" },
+          { "a": "Formed from in- and jungere, meaning", "b": "Upon + to join" },
+          { "a": "Jungere also gives English the word", "b": "Junction" },
+          { "a": "The noun injunctio entered English law in the", "b": "15th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Injunction</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An injunction is a court order to do, or refrain from,", "b": "A specific act" },
+          { "a": "A 'prohibitory injunction' forbids someone from", "b": "Continuing an act" },
+          { "a": "A 'mandatory injunction' compels someone to", "b": "Take positive action" },
+          { "a": "Injunctions are considered an", "b": "Equitable remedy" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Injunction</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The newspaper was hit with an", "b": "Injunction blocking publication" },
+          { "a": "Neighbours sought an", "b": "Injunction to stop the noisy building work" },
+          { "a": "The court granted a temporary", "b": "Injunction pending trial" },
+          { "a": "She was ordered by", "b": "Injunction to stay away from the property" }
+        ] }
+    ],
+    "roots": [ { "rootText": "injungere", "rootLanguage": "Latin", "rootMeaning": "To enjoin, impose", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "injungere", "highlight": true }, { "text": " (to impose); a duty joined onto a party by order of the court.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "injungere", "correctAnswer": "To enjoin, impose", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Nuisance",
+    "pronunciation": "NOO-suhns",
+    "pos": "noun",
+    "definition": "An unlawful interference with a person's use or enjoyment of land, or with a right belonging to the public.",
+    "origin": "From Old French nuisance, from nuire (to harm), from Latin <strong>nocere</strong> (to hurt, injure). English law adopted the word by the 14th century to describe conduct that harms a neighbour's enjoyment of property without necessarily involving trespass.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Nuisance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin nocere", "b": "To hurt, injure" },
+          { "a": "Passed to English via Old French", "b": "Nuire, nuisance" },
+          { "a": "Nocere also gives English the word", "b": "Innocent (not harming)" },
+          { "a": "English law adopted the term by the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Nuisance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Private nuisance interferes with a person's use of their", "b": "Land" },
+          { "a": "Public nuisance harms a right belonging to", "b": "The community at large" },
+          { "a": "Excessive noise from a factory can constitute a", "b": "Nuisance" },
+          { "a": "Unlike trespass, nuisance does not require", "b": "Direct physical entry" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Nuisance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Residents sued the factory for", "b": "Nuisance over the constant fumes" },
+          { "a": "The barking dogs were ruled a", "b": "Private nuisance" },
+          { "a": "Blocking the public footpath amounted to a", "b": "Public nuisance" },
+          { "a": "The court ordered the club to reduce the", "b": "Nuisance of late-night noise" }
+        ] }
+    ],
+    "roots": [ { "rootText": "nocere", "rootLanguage": "Latin", "rootMeaning": "To hurt, injure", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "nocere", "highlight": true }, { "text": " (to hurt); harm done to a neighbour's peace and enjoyment of their land.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "nocere", "correctAnswer": "To hurt, injure", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Defamation",
+    "pronunciation": "def-uh-MAY-shuhn",
+    "pos": "noun",
+    "definition": "The act of harming a person's reputation through a false statement communicated to a third party.",
+    "origin": "From Latin diffamare (to spread an evil report), from dis- (widely, apart) + <strong>fama</strong> (reputation, rumour). The same fama that gives English 'fame' could be spread for good or ill; diffamare specialised in the harmful sense as it passed into legal French and English.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Defamation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fama", "b": "Reputation, rumour, report" },
+          { "a": "Diffamare combined dis- and fama to mean", "b": "To spread an evil report widely" },
+          { "a": "Fama also gives English the word", "b": "Fame" },
+          { "a": "The word passed into English through", "b": "Legal French" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Defamation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Defamation harms a person's", "b": "Reputation" },
+          { "a": "A defamatory statement must be communicated to a", "b": "Third party" },
+          { "a": "Written defamation is called libel; spoken defamation is called", "b": "Slander" },
+          { "a": "Truth is generally a complete defence to a claim of", "b": "Defamation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Defamation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The celebrity filed a", "b": "Defamation lawsuit over the false article" },
+          { "a": "The politician accused the paper of", "b": "Defamation" },
+          { "a": "Posting the false rumour online could amount to", "b": "Defamation" },
+          { "a": "The jury found the claims to be", "b": "Defamatory and untrue" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fama", "rootLanguage": "Latin", "rootMeaning": "Reputation, rumour, report", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fama", "highlight": true }, { "text": " (reputation), via diffamare (to spread ill report); the deliberate scattering of a false report.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fama", "correctAnswer": "Reputation, rumour, report", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Libel",
+    "pronunciation": "LY-buhl",
+    "pos": "noun",
+    "definition": "Defamation expressed in a fixed or published form, such as writing, print, or broadcast.",
+    "origin": "From Latin <strong>libellus</strong> (a little book, pamphlet), the diminutive of liber (book). In medieval Europe, a libellus was originally simply a short written document or legal petition; by the 16th century, English law had narrowed the sense to a damaging written or published statement.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Libel</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin libellus", "b": "A little book, pamphlet" },
+          { "a": "Libellus is the diminutive of", "b": "Liber (book)" },
+          { "a": "Originally described any short", "b": "Written document or petition" },
+          { "a": "Narrowed to its damaging legal sense by the", "b": "16th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Libel</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Libel is defamation expressed in a", "b": "Fixed, published form" },
+          { "a": "Unlike slander, libel is generally considered", "b": "More permanent and serious" },
+          { "a": "Libel can be committed through writing, print, or", "b": "Broadcast media" },
+          { "a": "A person who commits libel is called a", "b": "Libeller" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Libel</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The magazine faced a", "b": "Libel suit over the fabricated story" },
+          { "a": "She sued the blogger for", "b": "Libel" },
+          { "a": "The court awarded damages for the", "b": "Libellous headline" },
+          { "a": "Editors are trained to avoid publishing anything", "b": "Libellous" }
+        ] }
+    ],
+    "roots": [ { "rootText": "libellus", "rootLanguage": "Latin", "rootMeaning": "A little book, pamphlet", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "libellus", "highlight": true }, { "text": " (little book); a damaging statement fixed permanently in writing or print.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "libellus", "correctAnswer": "A little book, pamphlet", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Malice",
+    "pronunciation": "MAL-is",
+    "pos": "noun",
+    "definition": "The intention or desire to cause harm to another, or reckless disregard for whether harm results; in law, a state of mind that can aggravate liability.",
+    "origin": "From Old French malice, from Latin malitia (badness, ill will), from <strong>malus</strong> (bad, evil). The word entered English legal vocabulary in the 13th century to describe the deliberate wrongful intent that distinguishes a malicious act from a merely careless one.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Malice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin malus", "b": "Bad, evil" },
+          { "a": "Latin malitia", "b": "Badness, ill will" },
+          { "a": "Passed into English via", "b": "Old French malice" },
+          { "a": "Entered English legal vocabulary in the", "b": "13th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Malice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Malice describes an intention to", "b": "Cause harm" },
+          { "a": "'Malice aforethought' historically referred to premeditated intent in", "b": "Murder cases" },
+          { "a": "In defamation law, 'actual malice' means knowing or reckless", "b": "Disregard for the truth" },
+          { "a": "Malice is contrasted with mere", "b": "Carelessness or negligence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Malice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Prosecutors had to prove the killing was committed with", "b": "Malice aforethought" },
+          { "a": "The court found the accusation was made with", "b": "Actual malice" },
+          { "a": "He denied acting out of", "b": "Malice toward his rival" },
+          { "a": "The claim required proof of", "b": "Malicious intent" }
+        ] }
+    ],
+    "roots": [ { "rootText": "malus", "rootLanguage": "Latin", "rootMeaning": "Bad, evil", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "malus", "highlight": true }, { "text": " (bad); an intent to do harm, as opposed to mere carelessness.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "malus", "correctAnswer": "Bad, evil", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Trespass",
+    "pronunciation": "TRES-pas",
+    "pos": "noun",
+    "definition": "The act of unlawfully entering or interfering with another person's land, property, or person without permission.",
+    "origin": "From Old French <strong>trespasser</strong> (to pass across, transgress), formed from tres- (across, beyond) from Latin trans + passer (to pass). To trespass was literally to 'pass beyond' the boundary that separates lawful conduct from wrongful intrusion.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Trespass</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French trespasser", "b": "To pass across, transgress" },
+          { "a": "Formed from tres- and passer, meaning", "b": "Across, beyond + to pass" },
+          { "a": "Tres- traces back to Latin", "b": "Trans (across)" },
+          { "a": "Originally the word simply meant", "b": "To pass beyond a boundary" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Trespass</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Trespass to land is entering another's property without", "b": "Permission" },
+          { "a": "Trespass to the person covers unwanted physical contact, called", "b": "Battery" },
+          { "a": "Trespass is actionable even if no", "b": "Actual damage occurs" },
+          { "a": "A trespasser who ignores warnings may face a", "b": "Civil claim or removal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Trespass</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The farmer posted signs warning against", "b": "Trespass" },
+          { "a": "Hikers who left the marked path were committing", "b": "Trespass" },
+          { "a": "The company sued the protesters for", "b": "Trespass on its land" },
+          { "a": "Walking onto the neighbour's driveway without asking was", "b": "Trespass" }
+        ] }
+    ],
+    "roots": [ { "rootText": "trespasser", "rootLanguage": "Old French", "rootMeaning": "To pass across, transgress", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "trespasser", "highlight": true }, { "text": " (to pass beyond); crossing a boundary one has no right to cross.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "trespasser", "correctAnswer": "To pass across, transgress", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Restitution",
+    "pronunciation": "res-ti-TOO-shuhn",
+    "pos": "noun",
+    "definition": "The restoration of a benefit unjustly gained, or of property or funds, to the party from whom it was taken.",
+    "origin": "From Latin restitutio, from <strong>restituere</strong> (to restore, set up again), formed from re- (back) + statuere (to set up, establish). The word entered English legal use in the 14th century for the act of returning what had been wrongfully taken to its rightful state.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Restitution</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin restituere", "b": "To restore, set up again" },
+          { "a": "Formed from re- and statuere, meaning", "b": "Back + to set up, establish" },
+          { "a": "Statuere also gives English the word", "b": "Statute" },
+          { "a": "Entered English legal use in the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Restitution</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Restitution requires returning a", "b": "Wrongfully gained benefit" },
+          { "a": "Unlike damages, restitution focuses on the wrongdoer's", "b": "Gain, not the victim's loss" },
+          { "a": "A court may order restitution of stolen", "b": "Property or funds" },
+          { "a": "Restitution is closely linked to the principle against", "b": "Unjust enrichment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Restitution</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge ordered the fraudster to pay", "b": "Restitution to his victims" },
+          { "a": "The museum agreed to make", "b": "Restitution of the looted artefact" },
+          { "a": "As part of the plea deal, he offered", "b": "Full restitution" },
+          { "a": "The court calculated", "b": "Restitution based on the wrongful profit" }
+        ] }
+    ],
+    "roots": [ { "rootText": "restituere", "rootLanguage": "Latin", "rootMeaning": "To restore, set up again", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "restituere", "highlight": true }, { "text": " (to restore); putting back what was wrongfully taken.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "restituere", "correctAnswer": "To restore, set up again", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Remedy",
+    "pronunciation": "REM-i-dee",
+    "pos": "noun",
+    "definition": "The means by which a court enforces a right, redresses a wrong, or prevents a legal harm.",
+    "origin": "From Old French remedie, from Latin remedium (a cure, medicine), formed from re- (again) + <strong>mederi</strong> (to heal). The legal sense preserves the medical metaphor directly: a remedy is the law's medicine, administered to heal an injured party.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Remedy</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin mederi", "b": "To heal" },
+          { "a": "Latin remedium", "b": "A cure, medicine" },
+          { "a": "Formed from re- and mederi, meaning", "b": "Again + to heal" },
+          { "a": "Passed into English via", "b": "Old French remedie" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Remedy</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A legal remedy redresses a", "b": "Wrong or violated right" },
+          { "a": "Damages are the most common", "b": "Remedy at law" },
+          { "a": "An injunction is an example of an", "b": "Equitable remedy" },
+          { "a": "The maxim 'no right without a remedy' reflects that a right is only meaningful if the law provides a", "b": "Way to enforce it" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Remedy</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court considered damages an inadequate", "b": "Remedy" },
+          { "a": "Specific performance is an equitable", "b": "Remedy" },
+          { "a": "The statute limits the available", "b": "Remedies for breach" },
+          { "a": "Her lawyer sought the most appropriate", "b": "Remedy for the harm done" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mederi", "rootLanguage": "Latin", "rootMeaning": "To heal", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "mederi", "highlight": true }, { "text": " (to heal); the law's medicine, administered to cure a wrong.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mederi", "correctAnswer": "To heal", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Arbitration",
+    "pronunciation": "ahr-bi-TRAY-shuhn",
+    "pos": "noun",
+    "definition": "A process for resolving a dispute outside of court, in which parties agree to submit their case to one or more neutral arbitrators for a binding decision.",
+    "origin": "From Latin arbitratio, from arbitrari (to judge, give a decision), from <strong>arbiter</strong> (a witness, judge, one who goes to a place to see and decide). The word entered English commercial and legal practice in the 14th century for disputes settled by a chosen private judge rather than a public court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Arbitration</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin arbiter", "b": "A witness, judge, one who decides" },
+          { "a": "Latin arbitrari", "b": "To judge, give a decision" },
+          { "a": "Entered English legal and commercial practice in the", "b": "14th century" },
+          { "a": "Arbiter also gives English the word", "b": "Arbitrary" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Arbitration</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Arbitration resolves disputes", "b": "Outside of court" },
+          { "a": "Parties in arbitration submit their case to a neutral", "b": "Arbitrator" },
+          { "a": "Unlike mediation, arbitration produces a decision that is", "b": "Binding on the parties" },
+          { "a": "Many commercial contracts include a clause requiring", "b": "Arbitration" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Arbitration</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The two companies agreed to settle the dispute through", "b": "Arbitration" },
+          { "a": "The union and employer entered", "b": "Binding arbitration" },
+          { "a": "The contract specified that any conflict would go to", "b": "Arbitration" },
+          { "a": "After months of negotiation, they turned the matter over to an", "b": "Arbitration panel" }
+        ] }
+    ],
+    "roots": [ { "rootText": "arbiter", "rootLanguage": "Latin", "rootMeaning": "A witness, judge, one who decides", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "arbiter", "highlight": true }, { "text": " (judge, witness); a dispute settled privately by a chosen decision-maker.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "arbiter", "correctAnswer": "A witness, judge, one who decides", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mediation",
+    "pronunciation": "mee-dee-AY-shuhn",
+    "pos": "noun",
+    "definition": "A voluntary process in which a neutral third party helps disputing parties reach a mutually acceptable resolution, without imposing a binding decision.",
+    "origin": "From Latin mediare (to be in the middle), from <strong>medius</strong> (middle). The word entered English in the 16th century, describing the act of standing between two opposing sides to help them find common ground, a role now formalised in modern dispute resolution.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mediation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin medius", "b": "Middle" },
+          { "a": "Latin mediare", "b": "To be in the middle" },
+          { "a": "Entered English in the", "b": "16th century" },
+          { "a": "Medius also gives English the word", "b": "Median" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mediation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mediation is a voluntary process guided by a neutral", "b": "Third party" },
+          { "a": "Unlike arbitration, a mediator does not impose a", "b": "Binding decision" },
+          { "a": "Mediation aims to help parties reach a mutually", "b": "Acceptable resolution" },
+          { "a": "Divorcing couples are often encouraged to try", "b": "Mediation before litigating" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mediation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The neighbours resolved the boundary dispute through", "b": "Mediation" },
+          { "a": "The court referred the parties to", "b": "Mediation before trial" },
+          { "a": "A trained mediator facilitated the", "b": "Mediation session" },
+          { "a": "Rather than sue, the business partners agreed to try", "b": "Mediation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "medius", "rootLanguage": "Latin", "rootMeaning": "Middle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "medius", "highlight": true }, { "text": " (middle); standing between two disputing sides to help them find common ground.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "medius", "correctAnswer": "Middle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Class action",
+    "pronunciation": "KLAS AK-shuhn",
+    "pos": "noun",
+    "definition": "A lawsuit brought by one or more representative plaintiffs on behalf of a larger group of people who share a common legal claim.",
+    "origin": "A modern American legal compound formed from class (a group sharing a common characteristic, from Latin <strong>classis</strong>, a division of citizens) and action (a legal proceeding, from Latin agere, to do or drive). The procedure was formalised in United States federal law with Rule 23 of the Federal Rules of Civil Procedure in 1938, allowing many similar claims to be resolved in a single case.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Class action</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin classis", "b": "A group or division of citizens" },
+          { "a": "Latin agere", "b": "To do, to drive, to act" },
+          { "a": "Formalised by U.S. federal Rule 23 in", "b": "1938" },
+          { "a": "The rule allows many similar claims to be resolved in a", "b": "Single case" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Class action</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A class action is brought by representative plaintiffs on behalf of a", "b": "Larger group" },
+          { "a": "Members of the class typically share a common", "b": "Legal claim" },
+          { "a": "Class actions are often used in cases of defective products or", "b": "Consumer fraud" },
+          { "a": "A class member can usually choose to 'opt out' and pursue their", "b": "Own separate claim" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Class action</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Thousands of customers joined the", "b": "Class action against the bank" },
+          { "a": "The law firm specialised in filing", "b": "Class actions" },
+          { "a": "The judge certified the case as a", "b": "Class action" },
+          { "a": "Shareholders launched a", "b": "Class action over the company's losses" }
+        ] }
+    ],
+    "roots": [ { "rootText": "classis", "rootLanguage": "Latin", "rootMeaning": "A group or division of citizens", "showInIntro": true }, { "rootText": "agere", "rootLanguage": "Latin", "rootMeaning": "To do, to drive, to act", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "classis", "highlight": true }, { "text": " (a group of citizens) + action (agere, to act); one claim brought on behalf of an entire group.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "classis", "correctAnswer": "A group or division of citizens", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Tortfeasor",
+    "pronunciation": "TORT-fee-zer",
+    "pos": "noun",
+    "definition": "A person or entity that commits a tort; a wrongdoer who is legally liable for civil harm caused to another.",
+    "origin": "A law French compound of <strong>tort</strong> (wrong, from Latin tortum, twisted) and feasour (doer, from faire, to do or make, ultimately from Latin facere). The hybrid term survives almost exclusively in legal English, a fossil of the centuries when English courts conducted business in Anglo-Norman French.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Tortfeasor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French tort", "b": "Wrong, injustice" },
+          { "a": "Old French feasour", "b": "Doer, one who makes" },
+          { "a": "Feasour derives from faire, ultimately from Latin", "b": "Facere (to do, make)" },
+          { "a": "The hybrid word survives almost only in", "b": "Legal English" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Tortfeasor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A tortfeasor is a person who commits a", "b": "Tort" },
+          { "a": "A 'joint tortfeasor' shares liability with", "b": "One or more others" },
+          { "a": "The tortfeasor may be ordered to pay", "b": "Damages to the victim" },
+          { "a": "In everyday language, a tortfeasor is simply a", "b": "Wrongdoer" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Tortfeasor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court identified the negligent driver as the", "b": "Tortfeasor" },
+          { "a": "Both companies were named as joint", "b": "Tortfeasors" },
+          { "a": "The injured plaintiff sought damages from the", "b": "Tortfeasor" },
+          { "a": "As the primary", "b": "Tortfeasor, the contractor bore most of the liability" }
+        ] }
+    ],
+    "roots": [ { "rootText": "tort", "rootLanguage": "Old French", "rootMeaning": "Wrong, injustice", "showInIntro": true }, { "rootText": "faire", "rootLanguage": "Old French", "rootMeaning": "To do, to make", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "tort", "highlight": true }, { "text": " + feasour (faire, to do); literally, the 'doer of a wrong.'", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "tort", "correctAnswer": "Wrong, injustice", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Causation",
+    "pronunciation": "kaw-ZAY-shuhn",
+    "pos": "noun",
+    "definition": "The legal requirement that a defendant's wrongful act must have actually and directly produced the claimant's harm.",
+    "origin": "From Latin causatio, from <strong>causa</strong> (cause, reason, motive). The concept entered English law by the 17th century as courts developed tests to distinguish harm truly produced by a defendant's conduct from harm merely coincidental to it.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Causation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin causa", "b": "Cause, reason, motive" },
+          { "a": "Latin causatio", "b": "A pretext, an alleging of cause" },
+          { "a": "Entered English law by the", "b": "17th century" },
+          { "a": "Causa also gives English the word", "b": "Because" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Causation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Causation requires proof that the defendant's act", "b": "Actually produced the harm" },
+          { "a": "'Factual causation' is often tested by asking whether the harm would have occurred", "b": "But for the defendant's act" },
+          { "a": "'Legal causation' asks whether the harm was a", "b": "Reasonably foreseeable result" },
+          { "a": "Without causation, a negligence claim will", "b": "Fail" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Causation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defence argued there was no", "b": "Causation linking the accident to the injury" },
+          { "a": "Expert witnesses testified about", "b": "Causation between the drug and the illness" },
+          { "a": "The plaintiff struggled to establish", "b": "Causation" },
+          { "a": "The court applied the 'but for' test of", "b": "Causation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "causa", "rootLanguage": "Latin", "rootMeaning": "Cause, reason, motive", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "causa", "highlight": true }, { "text": " (cause); the link a court must find between an act and the harm it produced.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "causa", "correctAnswer": "Cause, reason, motive", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Strict liability",
+    "pronunciation": "STRIKT ly-uh-BIL-i-tee",
+    "pos": "noun",
+    "definition": "A legal doctrine imposing liability for harm caused by certain acts or products regardless of fault or intent.",
+    "origin": "A compound of strict (from Latin <strong>strictus</strong>, drawn tight, rigorous) and liability (see liable, from Latin ligare, to bind). The doctrine took modern shape in English law through the 1868 case Rylands v Fletcher, which held landowners liable for escaping dangerous substances even without proof of negligence, and later spread into product liability law.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Strict liability</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin strictus", "b": "Drawn tight, rigorous" },
+          { "a": "Latin ligare", "b": "To bind, tie" },
+          { "a": "The doctrine took modern shape in the 1868 case", "b": "Rylands v Fletcher" },
+          { "a": "The case held landowners liable for escaping", "b": "Dangerous substances" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Strict liability</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Strict liability imposes responsibility regardless of", "b": "Fault or intent" },
+          { "a": "It is commonly applied to defective", "b": "Products" },
+          { "a": "Keeping dangerous wild animals can trigger", "b": "Strict liability" },
+          { "a": "Strict liability contrasts with claims requiring proof of", "b": "Negligence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Strict liability</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The manufacturer faced", "b": "Strict liability for the faulty brakes" },
+          { "a": "Courts apply", "b": "Strict liability to ultrahazardous activities" },
+          { "a": "The zoo was held to a standard of", "b": "Strict liability for its escaped tiger" },
+          { "a": "Under", "b": "Strict liability, the company didn't need to be shown negligent" }
+        ] }
+    ],
+    "roots": [ { "rootText": "strictus", "rootLanguage": "Latin", "rootMeaning": "Drawn tight, rigorous", "showInIntro": true }, { "rootText": "ligare", "rootLanguage": "Latin", "rootMeaning": "To bind, tie", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "strictus", "highlight": true }, { "text": " (rigorous) + liability (ligare, to bind); responsibility imposed without needing proof of fault.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "strictus", "correctAnswer": "Drawn tight, rigorous", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Settlement",
+    "pronunciation": "SET-uhl-muhnt",
+    "pos": "noun",
+    "definition": "An agreement between disputing parties that resolves a legal claim without a final court judgment.",
+    "origin": "From English settle (to place firmly, resolve, from Old English <strong>setlan</strong>, related to sittan, to sit) + -ment. Settle acquired its legal sense of 'resolving a dispute' by the 17th century, when parties began 'settling' matters privately to avoid the expense and uncertainty of a full trial.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Settlement</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English setlan", "b": "To place firmly, to settle" },
+          { "a": "Related to Old English sittan, meaning", "b": "To sit" },
+          { "a": "Settle acquired its legal, dispute-resolving sense by the", "b": "17th century" },
+          { "a": "Parties settled privately to avoid a costly", "b": "Trial" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Settlement</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A settlement resolves a claim without a final", "b": "Court judgment" },
+          { "a": "Most civil lawsuits end in", "b": "Settlement, not trial" },
+          { "a": "A settlement typically involves the defendant paying a", "b": "Negotiated sum" },
+          { "a": "Once signed, a settlement agreement is usually", "b": "Legally binding" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Settlement</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The two sides reached a", "b": "Settlement out of court" },
+          { "a": "The company agreed to a multimillion-dollar", "b": "Settlement" },
+          { "a": "Lawyers negotiated the", "b": "Settlement terms for weeks" },
+          { "a": "She accepted the", "b": "Settlement rather than risk a trial" }
+        ] }
+    ],
+    "roots": [ { "rootText": "setlan", "rootLanguage": "Old English", "rootMeaning": "To place firmly, to settle", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "setlan", "highlight": true }, { "text": " (to settle); a dispute brought to rest before trial.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "setlan", "correctAnswer": "To place firmly, to settle", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Compensation",
+    "pronunciation": "kom-puhn-SAY-shuhn",
+    "pos": "noun",
+    "definition": "Payment made to redress harm, loss, or injury suffered as a result of another's act.",
+    "origin": "From Latin compensatio, from <strong>compensare</strong> (to weigh together, counterbalance), formed from com- (together) + pensare (to weigh). The metaphor is of scales: compensation weighs against, and balances out, a loss suffered.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Compensation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin compensare", "b": "To weigh together, counterbalance" },
+          { "a": "Formed from com- and pensare, meaning", "b": "Together + to weigh" },
+          { "a": "Pensare also gives English the word", "b": "Pension" },
+          { "a": "The metaphor behind compensation is of", "b": "Balancing scales" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Compensation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Compensation is payment made to redress a", "b": "Harm, loss, or injury" },
+          { "a": "Workers injured on the job may claim", "b": "Compensation" },
+          { "a": "Compensation aims to restore the victim, as far as money can, to their", "b": "Original position" },
+          { "a": "A near synonym for compensation in tort law is", "b": "Damages" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Compensation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The airline offered", "b": "Compensation for the cancelled flight" },
+          { "a": "He filed a claim for", "b": "Compensation after the workplace accident" },
+          { "a": "The government set up a fund to pay", "b": "Compensation to victims" },
+          { "a": "Her lawyer negotiated fair", "b": "Compensation for the injury" }
+        ] }
+    ],
+    "roots": [ { "rootText": "compensare", "rootLanguage": "Latin", "rootMeaning": "To weigh together, counterbalance", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "compensare", "highlight": true }, { "text": " (to counterbalance); payment weighed against a loss to balance it out.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "compensare", "correctAnswer": "To weigh together, counterbalance", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Duress",
+    "pronunciation": "dyoo-RES",
+    "pos": "noun",
+    "definition": "Unlawful pressure, threat, or coercion that deprives a person of free will, potentially invalidating a contract or excusing conduct.",
+    "origin": "From Old French duresse (hardness, severity), from Latin duritia (hardness), from <strong>durus</strong> (hard). The word's original sense of physical 'hardness' softened into its legal meaning of coercive hardship that overwhelms a person's free choice.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Duress</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin durus", "b": "Hard" },
+          { "a": "Latin duritia", "b": "Hardness, severity" },
+          { "a": "Passed into English via", "b": "Old French duresse" },
+          { "a": "Durus also gives English the word", "b": "Durable" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Duress</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Duress is unlawful pressure that deprives a person of", "b": "Free will" },
+          { "a": "A contract signed under duress may be", "b": "Voidable" },
+          { "a": "Duress can be a defence to a", "b": "Criminal charge" },
+          { "a": "Threats of violence are a classic form of", "b": "Duress" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Duress</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She claimed she signed the agreement under", "b": "Duress" },
+          { "a": "The confession was thrown out because it was obtained by", "b": "Duress" },
+          { "a": "He argued he committed the crime only under", "b": "Duress from his captors" },
+          { "a": "The court examined whether the contract was formed under", "b": "Duress" }
+        ] }
+    ],
+    "roots": [ { "rootText": "durus", "rootLanguage": "Latin", "rootMeaning": "Hard", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "durus", "highlight": true }, { "text": " (hard); pressure so hard it overwhelms a person's free will.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "durus", "correctAnswer": "Hard", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Fiduciary",
+    "pronunciation": "fi-DOO-shee-air-ee",
+    "pos": "noun",
+    "definition": "A person or entity, such as a trustee, who holds a legal duty to act in good faith and in the best interests of another party.",
+    "origin": "From Latin fiduciarius (held in trust), from <strong>fiducia</strong> (trust, confidence), from fidere (to trust). Roman law used fiducia for property transferred in trust for a specific purpose, a concept English law absorbed to describe relationships, such as trustee and beneficiary, demanding the utmost good faith.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Fiduciary</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin fiducia", "b": "Trust, confidence" },
+          { "a": "Latin fidere", "b": "To trust" },
+          { "a": "Roman law used fiducia for", "b": "Property transferred in trust" },
+          { "a": "Fidere also gives English the word", "b": "Confide" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Fiduciary</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A fiduciary must act in the best interests of", "b": "Another party" },
+          { "a": "Trustees owe a", "b": "Fiduciary duty to beneficiaries" },
+          { "a": "Breaching a fiduciary duty can lead to a claim for", "b": "Breach of trust" },
+          { "a": "Company directors typically owe", "b": "Fiduciary duties to shareholders" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Fiduciary</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "As trustee, she had a", "b": "Fiduciary duty to manage the fund honestly" },
+          { "a": "The financial adviser breached his", "b": "Fiduciary obligation" },
+          { "a": "Directors were accused of ignoring their", "b": "Fiduciary duty" },
+          { "a": "The lawyer owed his client a strict", "b": "Fiduciary duty" }
+        ] }
+    ],
+    "roots": [ { "rootText": "fiducia", "rootLanguage": "Latin", "rootMeaning": "Trust, confidence", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "fiducia", "highlight": true }, { "text": " (trust); a relationship demanding the utmost good faith and loyalty.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "fiducia", "correctAnswer": "Trust, confidence", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Malpractice",
+    "pronunciation": "mal-PRAK-tis",
+    "pos": "noun",
+    "definition": "Improper, negligent, or unethical conduct by a professional in the course of their duties, causing harm to a client or patient.",
+    "origin": "A compound of mal- (bad, from Latin <strong>malus</strong>) and practice (the exercise of a profession, from Greek praktikos, fit for action, via Latin practicare). The compound entered English legal use in the 18th century, specifically to describe substandard conduct by physicians and, later, other licensed professionals.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Malpractice</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin malus", "b": "Bad, evil" },
+          { "a": "Greek praktikos", "b": "Fit for action, practical" },
+          { "a": "The compound entered English legal use in the", "b": "18th century" },
+          { "a": "It first described substandard conduct by", "b": "Physicians" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Malpractice</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Malpractice is negligent or unethical conduct by a", "b": "Professional" },
+          { "a": "Medical malpractice occurs when a doctor's care falls below the accepted", "b": "Standard of care" },
+          { "a": "Legal malpractice can arise from a lawyer's", "b": "Negligent handling of a case" },
+          { "a": "A malpractice claim generally requires proof of", "b": "Duty, breach, causation, and harm" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Malpractice</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The surgeon was sued for", "b": "Medical malpractice" },
+          { "a": "The firm carries insurance against claims of", "b": "Malpractice" },
+          { "a": "Her attorney was investigated for", "b": "Legal malpractice" },
+          { "a": "The hospital settled the", "b": "Malpractice lawsuit quietly" }
+        ] }
+    ],
+    "roots": [ { "rootText": "malus", "rootLanguage": "Latin", "rootMeaning": "Bad, evil", "showInIntro": true }, { "rootText": "praktikos", "rootLanguage": "Greek", "rootMeaning": "Fit for action, practical", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "malus", "highlight": true }, { "text": " (bad) + practice (Greek praktikos); a professional's substandard exercise of their duties.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "malus", "correctAnswer": "Bad, evil", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Immunity",
+    "pronunciation": "i-MYOO-ni-tee",
+    "pos": "noun",
+    "definition": "Exemption from legal liability, prosecution, or duty granted to a particular person or body.",
+    "origin": "From Latin immunitas, from immunis (exempt from public service), formed from in- (not) + <strong>munus</strong> (service, duty, obligation). Rome granted immunitas to release certain citizens from taxes or civic burdens; English law adapted the word to describe exemption from suit or prosecution.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Immunity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin munus", "b": "Service, duty, obligation" },
+          { "a": "Latin immunis", "b": "Exempt from public service" },
+          { "a": "Formed from in- and munus, meaning", "b": "Not + duty" },
+          { "a": "Rome granted immunitas to release citizens from", "b": "Taxes or civic burdens" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Immunity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Immunity is exemption from legal", "b": "Liability or prosecution" },
+          { "a": "'Sovereign immunity' shields the state from being", "b": "Sued without its consent" },
+          { "a": "'Diplomatic immunity' protects foreign officials from", "b": "Local prosecution" },
+          { "a": "A witness may be granted immunity in exchange for", "b": "Testimony" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Immunity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ambassador claimed", "b": "Diplomatic immunity" },
+          { "a": "The city argued it had", "b": "Sovereign immunity from the lawsuit" },
+          { "a": "Prosecutors offered the witness", "b": "Immunity in exchange for cooperation" },
+          { "a": "The judge ruled the officer had", "b": "Qualified immunity" }
+        ] }
+    ],
+    "roots": [ { "rootText": "munus", "rootLanguage": "Latin", "rootMeaning": "Service, duty, obligation", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "munus", "highlight": true }, { "text": " (duty), via immunis (exempt from service); freedom from a legal burden others must bear.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "munus", "correctAnswer": "Service, duty, obligation", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Wrongful death",
+    "pronunciation": "RAWNG-fuhl deth",
+    "pos": "noun",
+    "definition": "A civil claim brought by the survivors or estate of a deceased person against a party whose wrongful act caused the death.",
+    "origin": "A compound of wrongful (unlawful, from Old English <strong>wrang</strong>, twisted, wrong) and death. At common law, a person's death originally extinguished any tort claim; the English Parliament's Fatal Accidents Act of 1846, often called Lord Campbell's Act, first created a statutory action allowing dependants to sue for a wrongfully caused death, a model later adopted across the United States.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Wrongful death</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English wrang", "b": "Twisted, wrong" },
+          { "a": "At common law, a person's death originally", "b": "Extinguished any tort claim" },
+          { "a": "The Fatal Accidents Act, creating the modern claim, was passed in", "b": "1846" },
+          { "a": "The 1846 Act is also known as", "b": "Lord Campbell's Act" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Wrongful death</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A wrongful death claim is brought by the deceased's", "b": "Survivors or estate" },
+          { "a": "The claim targets a party whose wrongful act", "b": "Caused the death" },
+          { "a": "Damages in wrongful death cases often cover lost", "b": "Financial support and companionship" },
+          { "a": "Wrongful death is a civil claim, separate from any", "b": "Criminal prosecution" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Wrongful death</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The family filed a", "b": "Wrongful death lawsuit against the manufacturer" },
+          { "a": "The jury awarded damages in the", "b": "Wrongful death case" },
+          { "a": "The widow's attorney argued the accident was a", "b": "Wrongful death caused by negligence" },
+          { "a": "The hospital settled the", "b": "Wrongful death claim" }
+        ] }
+    ],
+    "roots": [ { "rootText": "wrang", "rootLanguage": "Old English", "rootMeaning": "Twisted, wrong", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "wrang", "highlight": true }, { "text": " (wrong); a statutory claim created after 1846 to let survivors sue for a death wrongfully caused.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "wrang", "correctAnswer": "Twisted, wrong", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Proximate cause",
+    "pronunciation": "PROK-suh-mit kawz",
+    "pos": "noun",
+    "definition": "The legal cause of an injury that is sufficiently closely connected to the harm to justify holding the defendant liable, as opposed to a merely remote or incidental cause.",
+    "origin": "A compound of proximate (nearest, from Latin <strong>proximus</strong>, nearest, superlative of prope, near) and cause (from Latin causa). The doctrine developed in English and American courts during the 19th century to limit liability to consequences reasonably connected to a defendant's act, rather than every conceivable downstream effect.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Proximate cause</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin proximus", "b": "Nearest" },
+          { "a": "Latin causa", "b": "Cause, reason" },
+          { "a": "Proximus is the superlative of", "b": "Prope (near)" },
+          { "a": "The doctrine developed in English and American courts during the", "b": "19th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Proximate cause</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Proximate cause is the cause sufficiently closely connected to justify", "b": "Holding the defendant liable" },
+          { "a": "It is contrasted with a merely", "b": "Remote or incidental cause" },
+          { "a": "Courts often ask whether the harm was a", "b": "Reasonably foreseeable consequence" },
+          { "a": "An unforeseeable intervening event can break the chain of", "b": "Proximate cause" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Proximate cause</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court ruled the spark was the", "b": "Proximate cause of the fire" },
+          { "a": "Lawyers debated whether the delay was the", "b": "Proximate cause of the loss" },
+          { "a": "The jury had to decide if the collision was the", "b": "Proximate cause of the injury" },
+          { "a": "An unrelated storm broke the chain of", "b": "Proximate cause" }
+        ] }
+    ],
+    "roots": [ { "rootText": "proximus", "rootLanguage": "Latin", "rootMeaning": "Nearest", "showInIntro": true }, { "rootText": "causa", "rootLanguage": "Latin", "rootMeaning": "Cause, reason", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "proximus", "highlight": true }, { "text": " (nearest) + causa (cause); the cause near enough to the harm to justify liability.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "proximus", "correctAnswer": "Nearest", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Contributory negligence",
+    "pronunciation": "kuhn-TRIB-yuh-tor-ee NEG-li-juhns",
+    "pos": "noun",
+    "definition": "A legal doctrine under which a claimant's own carelessness, contributing to their injury, reduces or bars their recovery from a negligent defendant.",
+    "origin": "A compound of contributory (contributing a share, from Latin <strong>contribuere</strong>, to bring together, from com- + tribuere, to allot) and negligence (from neglegere, to disregard). The strict common-law rule, under which any fault by the claimant barred recovery entirely, dominated English and American courts through the 19th century before most jurisdictions replaced it with a fairer, apportioned system of comparative negligence.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Contributory negligence</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin contribuere", "b": "To bring together, contribute" },
+          { "a": "Latin neglegere", "b": "To disregard, not heed" },
+          { "a": "The strict common-law rule dominated courts through the", "b": "19th century" },
+          { "a": "Most jurisdictions later replaced it with", "b": "Comparative negligence" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Contributory negligence</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Contributory negligence occurs when a claimant's own carelessness", "b": "Contributes to their injury" },
+          { "a": "Under the strict old rule, any fault by the claimant could", "b": "Bar recovery entirely" },
+          { "a": "Modern comparative negligence instead", "b": "Apportions and reduces damages" },
+          { "a": "A pedestrian who jaywalked into a crash might be found guilty of", "b": "Contributory negligence" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Contributory negligence</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defence argued the cyclist's own", "b": "Contributory negligence caused the crash" },
+          { "a": "The court reduced the award because of the plaintiff's", "b": "Contributory negligence" },
+          { "a": "Not wearing a seatbelt was cited as", "b": "Contributory negligence" },
+          { "a": "The jury found the pedestrian partly guilty of", "b": "Contributory negligence" }
+        ] }
+    ],
+    "roots": [ { "rootText": "contribuere", "rootLanguage": "Latin", "rootMeaning": "To bring together, contribute", "showInIntro": true }, { "rootText": "neglegere", "rootLanguage": "Latin", "rootMeaning": "To disregard, not heed", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "contribuere", "highlight": true }, { "text": " (to contribute) + neglegere (to disregard); a claimant's own carelessness reducing their recovery.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "contribuere", "correctAnswer": "To bring together, contribute", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Vicarious liability",
+    "pronunciation": "vy-KAIR-ee-uhs ly-uh-BIL-i-tee",
+    "pos": "noun",
+    "definition": "The legal responsibility of one party for the wrongful acts of another, typically an employer for the torts of an employee committed in the course of employment.",
+    "origin": "A compound of vicarious (acting as a substitute, from Latin <strong>vicarius</strong>, a substitute or deputy, from vicis, change, turn) and liability (from ligare, to bind). English courts developed the doctrine over the 18th and 19th centuries to hold masters accountable for the wrongs of their servants, on the reasoning that the employer stood in the wrongdoer's place for the purpose of compensation.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-torts", "name": "Torts & Civil Wrongs", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Vicarious liability</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin vicarius", "b": "A substitute, deputy" },
+          { "a": "Latin vicis", "b": "Change, turn" },
+          { "a": "The doctrine developed in English courts over the", "b": "18th and 19th centuries" },
+          { "a": "Vicarius also gives English the word", "b": "Vicar" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Vicarious liability</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vicarious liability holds one party responsible for the wrongs of", "b": "Another party" },
+          { "a": "It most commonly makes an employer liable for the torts of an", "b": "Employee" },
+          { "a": "Vicarious liability typically applies to acts within the", "b": "Course of employment" },
+          { "a": "The doctrine allows victims to seek compensation from a party more likely to", "b": "Have the means to pay" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Vicarious liability</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The delivery company was held", "b": "Vicariously liable for the driver's crash" },
+          { "a": "Under", "b": "Vicarious liability, the hospital was sued for the nurse's error" },
+          { "a": "The court found the employer", "b": "Vicariously liable for the assault" },
+          { "a": "The firm argued the employee had acted outside the scope of", "b": "Vicarious liability" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vicarius", "rootLanguage": "Latin", "rootMeaning": "A substitute, deputy", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vicarius", "highlight": true }, { "text": " (substitute); an employer standing in for the wrongs of an employee.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vicarius", "correctAnswer": "A substitute, deputy", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

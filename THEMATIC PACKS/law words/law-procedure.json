@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Subpoena",
+    "pronunciation": "suh-PEE-nuh",
+    "pos": "noun",
+    "definition": "A writ ordering a person to attend court or produce evidence, under threat of penalty for failure to comply.",
+    "origin": "From Latin <strong>sub poena</strong> (under penalty), the opening words of the medieval writ that threatened a fine for failing to appear in court. The term passed into English legal Latin by the 14th century and still names the very document that compels a witness to attend.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Subpoena</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sub poena", "b": "Under penalty" },
+          { "a": "These were the opening words of a medieval", "b": "Writ" },
+          { "a": "The writ threatened a fine for failing to", "b": "Appear in court" },
+          { "a": "Entered English legal Latin by the", "b": "14th century" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Subpoena</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A subpoena orders a person to attend court or produce", "b": "Evidence" },
+          { "a": "Ignoring a subpoena can result in a charge of", "b": "Contempt of court" },
+          { "a": "A subpoena duces tecum specifically compels the production of", "b": "Documents" },
+          { "a": "A subpoena is issued under threat of a legal", "b": "Penalty" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Subpoena</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The witness was served with a", "b": "Subpoena to testify" },
+          { "a": "Lawyers issued a", "b": "Subpoena for the company's emails" },
+          { "a": "He tried to avoid being handed the", "b": "Subpoena" },
+          { "a": "The court held the executive in contempt for ignoring the", "b": "Subpoena" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sub poena", "rootLanguage": "Latin", "rootMeaning": "Under penalty", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sub poena", "highlight": true }, { "text": " (under penalty); the medieval writ that threatened a fine for staying away.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sub poena", "correctAnswer": "Under penalty", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Affidavit",
+    "pronunciation": "af-i-DAY-vit",
+    "pos": "noun",
+    "definition": "A written statement of facts sworn to be true, made voluntarily under oath before an authorized officer.",
+    "origin": "From medieval Latin <strong>affidavit</strong> (he has declared upon oath), the third-person perfect tense of affidare (to pledge one's faith). Unusually for an English legal term, the word is not a noun borrowed from Latin but an entire Latin sentence frozen into a single word.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Affidavit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Medieval Latin affidavit means", "b": "He has declared upon oath" },
+          { "a": "It is the perfect tense of", "b": "Affidare, to pledge one's faith" },
+          { "a": "Unusually, the word is not a noun but a whole", "b": "Latin sentence" },
+          { "a": "It became frozen into a single English", "b": "Legal term" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Affidavit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An affidavit is a written statement made under", "b": "Oath" },
+          { "a": "An affidavit must be signed before an authorised", "b": "Officer, such as a notary" },
+          { "a": "Unlike testimony, an affidavit is typically made", "b": "Outside the courtroom" },
+          { "a": "A false affidavit can expose the signer to charges of", "b": "Perjury" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Affidavit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "She signed a sworn", "b": "Affidavit confirming the facts" },
+          { "a": "The lawyer filed an", "b": "Affidavit in support of the motion" },
+          { "a": "His notarised", "b": "Affidavit was submitted as evidence" },
+          { "a": "The bank required an", "b": "Affidavit of identity" }
+        ] }
+    ],
+    "roots": [ { "rootText": "affidavit", "rootLanguage": "Latin", "rootMeaning": "He has declared upon oath", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "affidavit", "highlight": true }, { "text": " (he has declared upon oath) — an entire Latin sentence frozen into one word.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "affidavit", "correctAnswer": "He has declared upon oath", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Testimony",
+    "pronunciation": "TES-ti-moh-nee",
+    "pos": "noun",
+    "definition": "A witness's statement given under oath, typically in court, offered as evidence.",
+    "origin": "From Latin <strong>testimonium</strong> (evidence, witness), from testis (a witness). The same root testis gives English 'testify' and 'attest', all built around the idea of a person standing as a third party to vouch for the truth.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Testimony</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin testimonium means", "b": "Evidence, witness" },
+          { "a": "It derives from testis, meaning", "b": "A witness" },
+          { "a": "The same root gives English", "b": "Testify and attest" },
+          { "a": "All these words centre on a person who", "b": "Vouches for the truth" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Testimony</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Testimony is given under", "b": "Oath" },
+          { "a": "Testimony is typically delivered during a trial or", "b": "Hearing" },
+          { "a": "Cross-examination tests the reliability of a witness's", "b": "Testimony" },
+          { "a": "Hearsay is generally excluded as unreliable", "b": "Testimony" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Testimony</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The witness gave detailed", "b": "Testimony about the accident" },
+          { "a": "Her", "b": "Testimony contradicted the defendant's account" },
+          { "a": "The jury weighed the credibility of each witness's", "b": "Testimony" },
+          { "a": "He was called to give", "b": "Testimony before the committee" }
+        ] }
+    ],
+    "roots": [ { "rootText": "testis", "rootLanguage": "Latin", "rootMeaning": "A witness", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "testis", "highlight": true }, { "text": " (a witness); the root also behind 'testify' and 'attest'.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "testis", "correctAnswer": "A witness", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Verdict",
+    "pronunciation": "VUR-dikt",
+    "pos": "noun",
+    "definition": "The formal decision or finding of a jury on the matters submitted for its determination at trial.",
+    "origin": "From Anglo-Norman <strong>verdit</strong>, from Latin vere dictum (truly said), a fusion of vere (truly) and dictum (a thing said). Medieval English courts adopted the French-Latin hybrid to name the jury's spoken finding of fact.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Verdict</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Norman verdit derives from Latin", "b": "Vere dictum" },
+          { "a": "Vere means", "b": "Truly" },
+          { "a": "Dictum means", "b": "A thing said" },
+          { "a": "Medieval English courts adopted the term for the jury's", "b": "Spoken finding of fact" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Verdict</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A verdict is delivered by a", "b": "Jury" },
+          { "a": "A verdict resolves the factual questions put before the", "b": "Court" },
+          { "a": "A unanimous verdict requires agreement from", "b": "All jurors" },
+          { "a": "A guilty verdict is the opposite of an", "b": "Acquittal" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Verdict</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The jury returned a", "b": "Verdict of not guilty" },
+          { "a": "After deliberating for hours, they reached a", "b": "Verdict" },
+          { "a": "The judge read out the jury's", "b": "Verdict" },
+          { "a": "Critics called the ruling a", "b": "Just verdict" }
+        ] }
+    ],
+    "roots": [ { "rootText": "vere dictum", "rootLanguage": "Latin", "rootMeaning": "Truly said", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "vere dictum", "highlight": true }, { "text": " (truly said); the jury's spoken finding of fact.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "vere dictum", "correctAnswer": "Truly said", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Deposition",
+    "pronunciation": "dep-uh-ZISH-uhn",
+    "pos": "noun",
+    "definition": "Sworn out-of-court testimony given by a witness, recorded for use as evidence or for pretrial discovery.",
+    "origin": "From Latin <strong>deponere</strong> (to put down, lay aside), from de- (down) + ponere (to place). A deposition literally 'lays down' a witness's account in a fixed, recorded form outside the courtroom.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Deposition</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin deponere means", "b": "To put down, lay aside" },
+          { "a": "It combines de- with", "b": "Ponere, to place" },
+          { "a": "A deposition literally", "b": "Lays down a witness's account" },
+          { "a": "This is done outside the", "b": "Courtroom" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Deposition</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A deposition is testimony given", "b": "Under oath, out of court" },
+          { "a": "Depositions are typically taken during", "b": "Pretrial discovery" },
+          { "a": "A court reporter transcribes a witness's", "b": "Deposition" },
+          { "a": "A deposition can later be used to", "b": "Impeach a witness at trial" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Deposition</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lawyers scheduled a", "b": "Deposition for next week" },
+          { "a": "During the", "b": "Deposition, she answered questions under oath" },
+          { "a": "His earlier", "b": "Deposition contradicted his trial testimony" },
+          { "a": "The attorney objected repeatedly during the", "b": "Deposition" }
+        ] }
+    ],
+    "roots": [ { "rootText": "deponere", "rootLanguage": "Latin", "rootMeaning": "To put down, lay aside", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "deponere", "highlight": true }, { "text": " (to put down); a witness's account laid down outside the courtroom.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "deponere", "correctAnswer": "To put down, lay aside", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Discovery",
+    "pronunciation": "dis-KUV-uh-ree",
+    "pos": "noun",
+    "definition": "The pretrial process by which parties obtain evidence from one another, such as documents and witness statements.",
+    "origin": "From Old French <strong>descovrir</strong> (to uncover, reveal), from Latin dis- (away) + cooperire (to cover). Legal discovery keeps the everyday sense of uncovering something hidden, applied to evidence one party must reveal to another.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Discovery</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French descovrir means", "b": "To uncover, reveal" },
+          { "a": "It derives from Latin dis- plus", "b": "Cooperire, to cover" },
+          { "a": "Legal discovery keeps the everyday sense of", "b": "Uncovering something hidden" },
+          { "a": "It applies to evidence one party must reveal to the", "b": "Other party" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Discovery</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Discovery is the pretrial process of exchanging", "b": "Evidence between parties" },
+          { "a": "Discovery can include documents, depositions, and", "b": "Interrogatories" },
+          { "a": "Failing to comply with discovery requests can lead to", "b": "Sanctions" },
+          { "a": "Discovery aims to prevent trial by", "b": "Ambush" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Discovery</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The parties exchanged evidence during", "b": "Discovery" },
+          { "a": "Her lawyers requested documents through the", "b": "Discovery process" },
+          { "a": "The trial was delayed by lengthy", "b": "Discovery disputes" },
+          { "a": "New emails surfaced during", "b": "Discovery" }
+        ] }
+    ],
+    "roots": [ { "rootText": "descovrir", "rootLanguage": "Old French", "rootMeaning": "To uncover, reveal", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old French ", "highlight": false }, { "text": "descovrir", "highlight": true }, { "text": " (to uncover); evidence brought into the light before trial.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "descovrir", "correctAnswer": "To uncover, reveal", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Motion",
+    "pronunciation": "MOH-shuhn",
+    "pos": "noun",
+    "definition": "A formal application made to a court requesting a specific ruling or order.",
+    "origin": "From Latin <strong>motio</strong> (a moving, motion), from movere (to move). A legal motion 'moves' the court to act, the same root that gives 'motive' and 'movement'.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Motion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin motio means", "b": "A moving, motion" },
+          { "a": "It derives from the verb", "b": "Movere, to move" },
+          { "a": "The same root gives English", "b": "Motive and movement" },
+          { "a": "A legal motion literally", "b": "Moves the court to act" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Motion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A motion is a formal request made to a", "b": "Court" },
+          { "a": "A motion to dismiss asks the court to", "b": "Throw out the case" },
+          { "a": "A motion is typically argued before a judge at a", "b": "Hearing" },
+          { "a": "Denying a motion means the court has", "b": "Rejected the request" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Motion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defense filed a", "b": "Motion to suppress the evidence" },
+          { "a": "The judge granted the", "b": "Motion for summary judgment" },
+          { "a": "Opposing counsel argued against the", "b": "Motion" },
+          { "a": "She withdrew her", "b": "Motion before the hearing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "motio", "rootLanguage": "Latin", "rootMeaning": "A moving, motion", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "motio", "highlight": true }, { "text": " (a moving); a formal request that moves the court to act.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "motio", "correctAnswer": "A moving, motion", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Appeal",
+    "pronunciation": "uh-PEEL",
+    "pos": "noun",
+    "definition": "A request made to a higher court to review and change the decision of a lower court.",
+    "origin": "From Old French <strong>apeler</strong>, from Latin appellare (to address, call upon, entreat), from ad- (to) + pellere (to drive). To appeal a verdict is literally to call upon a higher authority for redress.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Appeal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French apeler derives from Latin", "b": "Appellare, to call upon" },
+          { "a": "Appellare combines ad- with", "b": "Pellere, to drive" },
+          { "a": "To appeal is literally to", "b": "Call upon a higher authority" },
+          { "a": "This call is made seeking", "b": "Redress" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Appeal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An appeal asks a higher court to review a", "b": "Lower court's decision" },
+          { "a": "An appeal is generally based on an alleged", "b": "Error of law" },
+          { "a": "A court that hears appeals is called an", "b": "Appellate court" },
+          { "a": "An appeal does not usually involve a new", "b": "Trial of the facts" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Appeal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defendant filed an", "b": "Appeal against the conviction" },
+          { "a": "Her lawyers took the case to the", "b": "Court of Appeal" },
+          { "a": "The company lost its", "b": "Appeal against the ruling" },
+          { "a": "He has thirty days to", "b": "Lodge an appeal" }
+        ] }
+    ],
+    "roots": [ { "rootText": "appellare", "rootLanguage": "Latin", "rootMeaning": "To address, call upon", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "appellare", "highlight": true }, { "text": " (to call upon); a call to a higher authority for redress.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "appellare", "correctAnswer": "To address, call upon", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jurisdiction",
+    "pronunciation": "joor-is-DIK-shuhn",
+    "pos": "noun",
+    "definition": "The official power of a court or authority to interpret and apply the law within a defined area or over particular matters.",
+    "origin": "From Latin <strong>ius</strong> (law, right) + dicere (to say), combined in iurisdictio (the administration of justice). The word captures the core judicial act: speaking the law within a defined territory or authority.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jurisdiction</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ius means", "b": "Law, right" },
+          { "a": "Latin dicere means", "b": "To say" },
+          { "a": "Combined, iurisdictio meant", "b": "The administration of justice" },
+          { "a": "The word captures the judicial act of", "b": "Speaking the law" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jurisdiction</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Jurisdiction is a court's power to", "b": "Hear and decide a case" },
+          { "a": "Subject-matter jurisdiction concerns the type of", "b": "Case a court may hear" },
+          { "a": "Personal jurisdiction concerns a court's authority over the", "b": "Parties involved" },
+          { "a": "A court acting outside its jurisdiction acts", "b": "Ultra vires, beyond its power" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jurisdiction</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dispute fell outside the court's", "b": "Jurisdiction" },
+          { "a": "Federal courts have", "b": "Jurisdiction over certain cases" },
+          { "a": "The lawyers argued over which state had", "b": "Jurisdiction" },
+          { "a": "The tribunal declined to exercise", "b": "Jurisdiction" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ius", "rootLanguage": "Latin", "rootMeaning": "Law, right", "showInIntro": true }, { "rootText": "dicere", "rootLanguage": "Latin", "rootMeaning": "To say", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ius", "highlight": true }, { "text": " (law) + ", "highlight": false }, { "text": "dicere", "highlight": true }, { "text": " (to say); the authority to speak the law.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ius", "correctAnswer": "Law, right", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Precedent",
+    "pronunciation": "PRES-i-duhnt",
+    "pos": "noun",
+    "definition": "A prior judicial decision that serves as an authoritative example or rule for deciding subsequent cases with similar facts.",
+    "origin": "From Latin <strong>praecedere</strong> (to go before), from prae- (before) + cedere (to go). A legal precedent is, quite literally, a case that has gone before and now guides the ones that follow.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Precedent</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin praecedere means", "b": "To go before" },
+          { "a": "It combines prae- with", "b": "Cedere, to go" },
+          { "a": "A legal precedent is a case that has", "b": "Gone before" },
+          { "a": "It now guides the cases that", "b": "Follow" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Precedent</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A precedent is a prior decision that guides", "b": "Future rulings" },
+          { "a": "The doctrine of following precedent is called", "b": "Stare decisis" },
+          { "a": "A binding precedent must be followed by", "b": "Lower courts" },
+          { "a": "A court may distinguish a case to avoid an unwanted", "b": "Precedent" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Precedent</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The ruling set an important", "b": "Legal precedent" },
+          { "a": "Lawyers cited an old case as", "b": "Precedent" },
+          { "a": "The judge broke with established", "b": "Precedent" },
+          { "a": "This decision could become a", "b": "Precedent for future disputes" }
+        ] }
+    ],
+    "roots": [ { "rootText": "praecedere", "rootLanguage": "Latin", "rootMeaning": "To go before", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "praecedere", "highlight": true }, { "text": " (to go before); a case that has gone before and now guides those that follow.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "praecedere", "correctAnswer": "To go before", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Statute",
+    "pronunciation": "STACH-oot",
+    "pos": "noun",
+    "definition": "A written law formally enacted by a legislative body.",
+    "origin": "From Latin <strong>statuere</strong> (to set up, establish), past participle statutum (a thing set up). A statute is law that has been formally 'set up' by a legislature, as opposed to custom or judicial precedent.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Statute</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin statuere means", "b": "To set up, establish" },
+          { "a": "Its past participle statutum means", "b": "A thing set up" },
+          { "a": "A statute is law formally", "b": "Set up by a legislature" },
+          { "a": "This distinguishes it from", "b": "Custom or judicial precedent" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Statute</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A statute is enacted by a", "b": "Legislature" },
+          { "a": "Statutory law differs from law developed by", "b": "Judges through precedent" },
+          { "a": "A statute of limitations sets a deadline for", "b": "Bringing a claim" },
+          { "a": "Courts interpret ambiguous statutes through", "b": "Statutory interpretation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Statute</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Parliament passed a new", "b": "Statute regulating emissions" },
+          { "a": "The claim was barred by the", "b": "Statute of limitations" },
+          { "a": "The court struck down the", "b": "Statute as unconstitutional" },
+          { "a": "Lawyers debated the meaning of the", "b": "Statute's wording" }
+        ] }
+    ],
+    "roots": [ { "rootText": "statuere", "rootLanguage": "Latin", "rootMeaning": "To set up, establish", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "statuere", "highlight": true }, { "text": " (to set up); law formally established by a legislature.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "statuere", "correctAnswer": "To set up, establish", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ordinance",
+    "pronunciation": "OR-din-uhns",
+    "pos": "noun",
+    "definition": "A law or regulation enacted by a local governing authority, such as a city or county council.",
+    "origin": "From Latin <strong>ordinare</strong> (to set in order, arrange), from ordo (order, row, rank). An ordinance puts a community's affairs 'in order' at the local level, beneath the statutes of national or state legislatures.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ordinance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin ordinare means", "b": "To set in order, arrange" },
+          { "a": "It derives from ordo, meaning", "b": "Order, row, rank" },
+          { "a": "An ordinance puts a community's affairs", "b": "In order" },
+          { "a": "It operates beneath statutes passed at the", "b": "State or national level" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ordinance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An ordinance is enacted by a", "b": "Local governing authority" },
+          { "a": "A zoning ordinance regulates", "b": "Land use within a city" },
+          { "a": "An ordinance cannot conflict with a higher", "b": "State statute" },
+          { "a": "Violating a noise ordinance can result in a", "b": "Fine" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ordinance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The city council passed a new", "b": "Ordinance banning plastic bags" },
+          { "a": "Residents complained the", "b": "Ordinance was too strict" },
+          { "a": "The building violated a local", "b": "Ordinance" },
+          { "a": "The town enforced its", "b": "Curfew ordinance" }
+        ] }
+    ],
+    "roots": [ { "rootText": "ordinare", "rootLanguage": "Latin", "rootMeaning": "To set in order, arrange", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "ordinare", "highlight": true }, { "text": " (to set in order); a community's affairs arranged at the local level.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "ordinare", "correctAnswer": "To set in order, arrange", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Regulation",
+    "pronunciation": "reg-yuh-LAY-shuhn",
+    "pos": "noun",
+    "definition": "A rule issued by an administrative agency to implement or enforce a statute.",
+    "origin": "From Latin <strong>regula</strong> (a rule, straight stick), from regere (to guide, rule). A regulation keeps conduct 'in line', the same image as a carpenter's tool for keeping a measurement straight.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Regulation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin regula means", "b": "A rule, straight stick" },
+          { "a": "It derives from regere, meaning", "b": "To guide, rule" },
+          { "a": "A regulation keeps conduct", "b": "In line" },
+          { "a": "The image is of a carpenter's tool for keeping a line", "b": "Straight" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Regulation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A regulation is issued by an", "b": "Administrative agency" },
+          { "a": "Regulations implement or enforce a", "b": "Statute" },
+          { "a": "Businesses must remain in", "b": "Compliance with regulations" },
+          { "a": "Breaching a regulation can result in a", "b": "Fine or sanction" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Regulation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The agency issued a new", "b": "Regulation on food labelling" },
+          { "a": "The factory violated safety", "b": "Regulations" },
+          { "a": "Lawmakers debated tightening financial", "b": "Regulation" },
+          { "a": "The company updated its policies to meet the new", "b": "Regulation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "regula", "rootLanguage": "Latin", "rootMeaning": "A rule, straight stick", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "regula", "highlight": true }, { "text": " (a rule); keeping conduct in line, the way a straight edge keeps a measurement true.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "regula", "correctAnswer": "A rule, straight stick", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Compliance",
+    "pronunciation": "kuhm-PLY-uhns",
+    "pos": "noun",
+    "definition": "The act of conforming to a law, regulation, rule, or standard.",
+    "origin": "From Italian <strong>complire</strong> (to complete, fulfil courtesy), ultimately from Latin complere (to fill up, complete), from com- (thoroughly) + plere (to fill). To comply with a rule is, at root, to fill it out completely.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Compliance</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Italian complire means", "b": "To complete, fulfil courtesy" },
+          { "a": "It traces to Latin complere, meaning", "b": "To fill up, complete" },
+          { "a": "Complere combines com- with", "b": "Plere, to fill" },
+          { "a": "To comply with a rule is, at root, to", "b": "Fill it out completely" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Compliance</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Compliance means conforming to a", "b": "Law, rule, or standard" },
+          { "a": "A compliance officer ensures a company follows", "b": "Regulatory requirements" },
+          { "a": "Non-compliance can lead to fines or", "b": "Sanctions" },
+          { "a": "Compliance is the opposite of", "b": "Violation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Compliance</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The company hired a team to ensure", "b": "Regulatory compliance" },
+          { "a": "Inspectors checked the factory for", "b": "Compliance with safety codes" },
+          { "a": "The firm faced penalties for", "b": "Failing to achieve compliance" },
+          { "a": "Auditors reviewed the bank's", "b": "Compliance procedures" }
+        ] }
+    ],
+    "roots": [ { "rootText": "complire", "rootLanguage": "Italian", "rootMeaning": "To complete, fulfil", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Italian ", "highlight": false }, { "text": "complire", "highlight": true }, { "text": " (to fulfil), from Latin complere (to fill up); following a rule completely.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "complire", "correctAnswer": "To complete, fulfil", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Litigation",
+    "pronunciation": "lit-i-GAY-shuhn",
+    "pos": "noun",
+    "definition": "The process of taking a legal dispute through the court system.",
+    "origin": "From Latin <strong>litigare</strong> (to dispute, quarrel at law), from lis (a lawsuit, dispute) + agere (to drive, do). Litigation is the active 'doing' of a dispute through the machinery of the courts.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Litigation</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin litigare means", "b": "To dispute, quarrel at law" },
+          { "a": "It combines lis, meaning", "b": "A lawsuit, dispute" },
+          { "a": "With agere, meaning", "b": "To drive, do" },
+          { "a": "Litigation is the active", "b": "Driving of a dispute through the courts" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Litigation</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Litigation is the process of resolving disputes through the", "b": "Court system" },
+          { "a": "Parties to litigation are called", "b": "Litigants" },
+          { "a": "Many disputes settle before reaching", "b": "Trial" },
+          { "a": "An alternative to litigation is", "b": "Arbitration or mediation" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Litigation</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The companies became locked in years of", "b": "Litigation" },
+          { "a": "She hired a specialist in commercial", "b": "Litigation" },
+          { "a": "The dispute was resolved without resorting to", "b": "Litigation" },
+          { "a": "His firm handled complex patent", "b": "Litigation" }
+        ] }
+    ],
+    "roots": [ { "rootText": "litigare", "rootLanguage": "Latin", "rootMeaning": "To dispute, quarrel at law", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "litigare", "highlight": true }, { "text": " (to dispute at law); a quarrel actively driven through the courts.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "litigare", "correctAnswer": "To dispute, quarrel at law", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Certiorari",
+    "pronunciation": "sur-shee-uh-RAIR-eye",
+    "pos": "noun",
+    "definition": "A writ by which a higher court reviews the decision or record of a lower court, granted at the higher court's discretion.",
+    "origin": "From Latin <strong>certiorari</strong> (to be made certain, to be informed), the passive infinitive of certiorare. The writ takes its name from its opening command that the lower court's record be sent up so the higher court can be made certain of the facts.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Certiorari</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin certiorari means", "b": "To be made certain, informed" },
+          { "a": "It is the passive infinitive of", "b": "Certiorare" },
+          { "a": "The writ is named after its opening", "b": "Command" },
+          { "a": "That command orders the lower court's record be", "b": "Sent up for review" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Certiorari</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Certiorari is a writ used to review a", "b": "Lower court's decision" },
+          { "a": "A higher court grants certiorari at its own", "b": "Discretion" },
+          { "a": "In the US, most Supreme Court cases arrive via a petition for", "b": "Certiorari" },
+          { "a": "When certiorari is denied, the lower ruling", "b": "Stands" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Certiorari</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The Supreme Court granted", "b": "Certiorari to hear the case" },
+          { "a": "Her petition for", "b": "Certiorari was denied" },
+          { "a": "Lawyers filed for a writ of", "b": "Certiorari" },
+          { "a": "Only a small fraction of petitions for", "b": "Certiorari are granted" }
+        ] }
+    ],
+    "roots": [ { "rootText": "certiorari", "rootLanguage": "Latin", "rootMeaning": "To be made certain, informed", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "certiorari", "highlight": true }, { "text": " (to be made certain); a command that a lower court's record be sent up for review.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "certiorari", "correctAnswer": "To be made certain, informed", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Mandamus",
+    "pronunciation": "man-DAY-muhs",
+    "pos": "noun",
+    "definition": "A writ issued by a court ordering a government official or lower court to perform a mandatory duty correctly.",
+    "origin": "From Latin <strong>mandamus</strong> (we command), the first-person plural of mandare (to order, entrust). Like certiorari, the writ is named directly after the opening Latin word of the royal or judicial order it once carried.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Mandamus</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin mandamus means", "b": "We command" },
+          { "a": "It is the first-person plural of", "b": "Mandare, to order" },
+          { "a": "Like certiorari, the writ is named after its opening", "b": "Latin word" },
+          { "a": "That word once opened a royal or judicial", "b": "Order" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Mandamus</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Mandamus orders a government official to perform a", "b": "Mandatory duty" },
+          { "a": "Mandamus cannot be used to force a", "b": "Discretionary decision" },
+          { "a": "A court issues mandamus only when there is no other", "b": "Adequate remedy" },
+          { "a": "Mandamus compels an official to act", "b": "Correctly, as the law requires" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Mandamus</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court issued a writ of", "b": "Mandamus" },
+          { "a": "Citizens petitioned for", "b": "Mandamus to compel the agency to act" },
+          { "a": "The judge refused to grant", "b": "Mandamus" },
+          { "a": "Lawyers sought", "b": "Mandamus against the clerk's refusal" }
+        ] }
+    ],
+    "roots": [ { "rootText": "mandamus", "rootLanguage": "Latin", "rootMeaning": "We command", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "mandamus", "highlight": true }, { "text": " (we command); a court's order compelling an official to act correctly.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "mandamus", "correctAnswer": "We command", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Contempt",
+    "pronunciation": "kuhn-TEMPT",
+    "pos": "noun",
+    "definition": "Wilful disobedience of or disrespect toward a court's authority or orders, punishable by fine or imprisonment.",
+    "origin": "From Latin <strong>contemptus</strong> (scorn, disdain), the past participle of contemnere (to despise), from com- (intensifier) + temnere (to scorn). Contempt of court treats disobedience to a judge as an act of disdain toward the court's authority itself.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Contempt</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin contemptus means", "b": "Scorn, disdain" },
+          { "a": "It is the past participle of", "b": "Contemnere, to despise" },
+          { "a": "Contemnere combines com- with", "b": "Temnere, to scorn" },
+          { "a": "Contempt of court treats disobedience as", "b": "Disdain toward the court's authority" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Contempt</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Contempt is wilful disobedience of a", "b": "Court's order or authority" },
+          { "a": "Civil contempt aims to compel", "b": "Compliance" },
+          { "a": "Criminal contempt punishes disrespect shown to the", "b": "Court itself" },
+          { "a": "A person found in contempt may face a fine or", "b": "Imprisonment" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Contempt</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge held the witness in", "b": "Contempt of court" },
+          { "a": "He was jailed for", "b": "Contempt after refusing to testify" },
+          { "a": "The company was fined for", "b": "Contempt of the injunction" },
+          { "a": "Outbursts in the courtroom risked a charge of", "b": "Contempt" }
+        ] }
+    ],
+    "roots": [ { "rootText": "contemptus", "rootLanguage": "Latin", "rootMeaning": "Scorn, disdain", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "contemptus", "highlight": true }, { "text": " (scorn); disobedience treated as disdain toward the court's authority.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "contemptus", "correctAnswer": "Scorn, disdain", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Hearing",
+    "pronunciation": "HEER-ing",
+    "pos": "noun",
+    "definition": "A proceeding before a court, tribunal, or other decision-making body at which evidence or argument is presented.",
+    "origin": "From Old English <strong>hieran</strong> (to hear, listen, obey), a native Germanic verb with cognates across the Germanic languages. A legal hearing keeps the word's oldest sense intact: a session in which a tribunal literally hears both sides.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Hearing</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English hieran means", "b": "To hear, listen, obey" },
+          { "a": "It is a native", "b": "Germanic verb" },
+          { "a": "It has cognates across the", "b": "Germanic languages" },
+          { "a": "A legal hearing keeps the oldest sense: a session where a tribunal", "b": "Literally hears both sides" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Hearing</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A hearing is a proceeding at which evidence or argument is", "b": "Presented" },
+          { "a": "A preliminary hearing determines whether there is enough evidence for a", "b": "Trial" },
+          { "a": "A hearing may be held before a judge, or an", "b": "Administrative tribunal" },
+          { "a": "The right to a fair hearing is a principle of", "b": "Due process" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Hearing</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge scheduled a", "b": "Hearing for next month" },
+          { "a": "Both sides presented arguments at the", "b": "Hearing" },
+          { "a": "The committee held a public", "b": "Hearing" },
+          { "a": "She testified at the disciplinary", "b": "Hearing" }
+        ] }
+    ],
+    "roots": [ { "rootText": "hieran", "rootLanguage": "Old English", "rootMeaning": "To hear, listen, obey", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "hieran", "highlight": true }, { "text": " (to hear); a session where a tribunal literally hears both sides.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "hieran", "correctAnswer": "To hear, listen, obey", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Docket",
+    "pronunciation": "DOK-it",
+    "pos": "noun",
+    "definition": "The official schedule or list of cases pending before a court.",
+    "origin": "Of uncertain origin, possibly from <strong>dock</strong> (to cut short) plus the diminutive suffix -et, originally naming a small slip of paper or label summarising a longer document. By the 17th century, English courts used it for the running list of cases awaiting the bench's attention.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Docket</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Docket is of uncertain origin, possibly from", "b": "Dock, to cut short" },
+          { "a": "It combines that with the diminutive suffix", "b": "-et" },
+          { "a": "It originally named a small slip of paper", "b": "Summarising a longer document" },
+          { "a": "By the 17th century courts used it for the running list of", "b": "Cases awaiting the bench" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Docket</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A docket is the official schedule of", "b": "Cases pending before a court" },
+          { "a": "A crowded docket can lead to", "b": "Long delays" },
+          { "a": "A case is placed on the", "b": "Docket before it is heard" },
+          { "a": "Court clerks are responsible for managing the", "b": "Docket" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Docket</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The case was added to the court's", "b": "Docket" },
+          { "a": "The judge worked through a busy", "b": "Docket of hearings" },
+          { "a": "The trial was pushed back due to a backlogged", "b": "Docket" },
+          { "a": "Her case finally reached the top of the", "b": "Docket" }
+        ] }
+    ],
+    "roots": [ { "rootText": "dock", "rootLanguage": "English (uncertain origin)", "rootMeaning": "To cut short", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "Possibly from ", "highlight": false }, { "text": "dock", "highlight": true }, { "text": " (to cut short) + -et; originally a small slip summarising a longer document.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "dock", "correctAnswer": "To cut short", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Bench",
+    "pronunciation": "bench",
+    "pos": "noun",
+    "definition": "The judge or judges of a court, considered collectively as the seat of judicial authority.",
+    "origin": "From Old English <strong>benc</strong> (a long wooden seat), a native Germanic word. Medieval judges literally sat on a raised bench to hear cases, and the physical furniture gave its name to the judiciary's collective authority.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Bench</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English benc means", "b": "A long wooden seat" },
+          { "a": "It is a native", "b": "Germanic word" },
+          { "a": "Medieval judges literally sat on a raised", "b": "Bench to hear cases" },
+          { "a": "The physical furniture gave its name to the", "b": "Judiciary's collective authority" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Bench</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "The bench refers collectively to the", "b": "Judge or judges of a court" },
+          { "a": "A case argued 'before the bench' is argued before the", "b": "Judge" },
+          { "a": "'Bench trial' describes a trial decided by a judge without a", "b": "Jury" },
+          { "a": "A judge appointed to a higher court is said to", "b": "Join the bench" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Bench</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lawyer approached the", "b": "Bench to confer with the judge" },
+          { "a": "She was recently appointed to the", "b": "Bench" },
+          { "a": "The case will be decided as a", "b": "Bench trial" },
+          { "a": "The chief justice addressed the courtroom from the", "b": "Bench" }
+        ] }
+    ],
+    "roots": [ { "rootText": "benc", "rootLanguage": "Old English", "rootMeaning": "A long wooden seat", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "benc", "highlight": true }, { "text": " (a long wooden seat); the physical seat that lent its name to judicial authority.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "benc", "correctAnswer": "A long wooden seat", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Jury",
+    "pronunciation": "JOOR-ee",
+    "pos": "noun",
+    "definition": "A body of citizens sworn to hear evidence and render a verdict in a legal proceeding.",
+    "origin": "From Anglo-Norman <strong>juree</strong> (a swearing, oath), from Latin iurare (to swear). Every juror's role begins with the same root act: swearing an oath to judge honestly.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Jury</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Anglo-Norman juree means", "b": "A swearing, oath" },
+          { "a": "It derives from Latin iurare, meaning", "b": "To swear" },
+          { "a": "Every juror's role begins with an", "b": "Oath" },
+          { "a": "That oath is to judge the case", "b": "Honestly" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Jury</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A jury is a body of citizens sworn to hear", "b": "Evidence and render a verdict" },
+          { "a": "A grand jury decides whether there is enough evidence to", "b": "Bring charges" },
+          { "a": "A petit jury decides guilt or liability at", "b": "Trial" },
+          { "a": "Selecting jurors is called", "b": "Voir dire" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Jury</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The", "b": "Jury deliberated for two days" },
+          { "a": "Twelve citizens were chosen for the", "b": "Jury" },
+          { "a": "The", "b": "Jury found the defendant not guilty" },
+          { "a": "She was summoned for", "b": "Jury duty" }
+        ] }
+    ],
+    "roots": [ { "rootText": "juree", "rootLanguage": "Anglo-Norman", "rootMeaning": "A swearing, oath", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Anglo-Norman ", "highlight": false }, { "text": "juree", "highlight": true }, { "text": " (a swearing); citizens sworn to judge honestly.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "juree", "correctAnswer": "A swearing, oath", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Objection",
+    "pronunciation": "uhb-JEK-shuhn",
+    "pos": "noun",
+    "definition": "A formal protest raised during a trial against the admission of evidence or testimony.",
+    "origin": "From Latin <strong>obicere</strong> (to throw against, put in the way), from ob- (against) + iacere (to throw). An objection throws a legal obstacle in the path of evidence or argument the opposing side seeks to introduce.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Objection</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin obicere means", "b": "To throw against, put in the way" },
+          { "a": "It combines ob- with", "b": "Iacere, to throw" },
+          { "a": "An objection throws an obstacle in the path of", "b": "Evidence or argument" },
+          { "a": "This blocks material the opposing side seeks to", "b": "Introduce" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Objection</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An objection is a formal protest against", "b": "Evidence or testimony" },
+          { "a": "A sustained objection means the judge", "b": "Agrees and excludes the evidence" },
+          { "a": "An overruled objection means the judge", "b": "Allows the evidence to stand" },
+          { "a": "'Objection, hearsay' challenges evidence as", "b": "Secondhand and unreliable" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Objection</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The attorney rose and shouted,", "b": "Objection!" },
+          { "a": "The judge sustained the defense's", "b": "Objection" },
+          { "a": "Her repeated", "b": "Objections slowed the trial" },
+          { "a": "He raised an", "b": "Objection to the leading question" }
+        ] }
+    ],
+    "roots": [ { "rootText": "obicere", "rootLanguage": "Latin", "rootMeaning": "To throw against, put in the way", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "obicere", "highlight": true }, { "text": " (to throw against); an obstacle thrown in the path of unwanted evidence.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "obicere", "correctAnswer": "To throw against, put in the way", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Ruling",
+    "pronunciation": "ROO-ling",
+    "pos": "noun",
+    "definition": "An official decision made by a judge on a point of law or procedure.",
+    "origin": "From the verb 'to rule', via Old French reuler, ultimately from Latin <strong>regula</strong> (a rule, straight edge). A judge's ruling applies the straight measure of the law to the facts at hand, the same root that also gives 'regulate' and 'regular'.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Ruling</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ruling traces via Old French reuler to Latin", "b": "Regula, a rule" },
+          { "a": "Regula also meant a", "b": "Straight edge" },
+          { "a": "A judge's ruling applies the straight measure of", "b": "Law to the facts" },
+          { "a": "The same root also gives English", "b": "Regulate and regular" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Ruling</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A ruling is an official decision on a point of", "b": "Law or procedure" },
+          { "a": "A judge may issue a ruling from the", "b": "Bench" },
+          { "a": "A ruling on evidence decides whether it is", "b": "Admissible" },
+          { "a": "An appellate court can overturn a lower court's", "b": "Ruling" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Ruling</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge issued a", "b": "Ruling in favour of the plaintiff" },
+          { "a": "Lawyers awaited the court's", "b": "Ruling" },
+          { "a": "The", "b": "Ruling was later overturned on appeal" },
+          { "a": "She read out her", "b": "Ruling on the objection" }
+        ] }
+    ],
+    "roots": [ { "rootText": "regula", "rootLanguage": "Latin", "rootMeaning": "A rule, straight edge", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "regula", "highlight": true }, { "text": " (a rule); a judge applying the straight measure of the law.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "regula", "correctAnswer": "A rule, straight edge", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Sanction",
+    "pronunciation": "SANGK-shuhn",
+    "pos": "noun",
+    "definition": "A penalty imposed for violating a law, rule, or order, or, conversely, official authorization granting permission.",
+    "origin": "From Latin <strong>sanctio</strong> (a decree, penalty for violating a law), from sancire (to make sacred, inviolable). The Latin root explains the word's odd double life in English: a sanction can be either the sacred authorization that permits an act or the sacred penalty that punishes its violation.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Sanction</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin sanctio means", "b": "A decree, penalty for violating a law" },
+          { "a": "It derives from sancire, meaning", "b": "To make sacred, inviolable" },
+          { "a": "This explains sanction's odd double life as both", "b": "Permission and penalty" },
+          { "a": "One sense authorizes an act; the other", "b": "Punishes its violation" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Sanction</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A sanction can be a penalty for violating a", "b": "Law or rule" },
+          { "a": "Economic sanctions are imposed against a", "b": "Country or entity" },
+          { "a": "A court may sanction a lawyer for", "b": "Misconduct" },
+          { "a": "Used the other way, 'to sanction' something means to", "b": "Officially permit it" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Sanction</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court imposed a", "b": "Sanction on the offending party" },
+          { "a": "The UN voted to lift", "b": "Sanctions on the country" },
+          { "a": "The judge threatened", "b": "Sanctions for withholding evidence" },
+          { "a": "The board refused to", "b": "Sanction the merger" }
+        ] }
+    ],
+    "roots": [ { "rootText": "sancire", "rootLanguage": "Latin", "rootMeaning": "To make sacred, inviolable", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "sancire", "highlight": true }, { "text": " (to make sacred); a word that can mean both official permission and punishment.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "sancire", "correctAnswer": "To make sacred, inviolable", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Exhibit",
+    "pronunciation": "ig-ZIB-it",
+    "pos": "noun",
+    "definition": "An object or document formally presented as evidence in a court proceeding.",
+    "origin": "From Latin <strong>exhibere</strong> (to hold out, display, present), from ex- (out) + habere (to hold). To exhibit evidence is to hold it out before the court exactly as the Latin root describes.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Exhibit</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin exhibere means", "b": "To hold out, display, present" },
+          { "a": "It combines ex- with", "b": "Habere, to hold" },
+          { "a": "To exhibit evidence is to", "b": "Hold it out before the court" },
+          { "a": "This is exactly what the Latin root", "b": "Describes" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Exhibit</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "An exhibit is an object or document formally presented as", "b": "Evidence" },
+          { "a": "Exhibits are typically marked and numbered for the", "b": "Court record" },
+          { "a": "A physical exhibit might be a weapon, photograph, or", "b": "Contract" },
+          { "a": "Both parties can introduce their own", "b": "Exhibits at trial" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Exhibit</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The prosecutor presented", "b": "Exhibit A to the jury" },
+          { "a": "The murder weapon was entered as an", "b": "Exhibit" },
+          { "a": "Lawyers labelled each document as an", "b": "Exhibit" },
+          { "a": "The photograph was admitted as an", "b": "Exhibit in the trial" }
+        ] }
+    ],
+    "roots": [ { "rootText": "exhibere", "rootLanguage": "Latin", "rootMeaning": "To hold out, display, present", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "exhibere", "highlight": true }, { "text": " (to hold out); evidence held out for the court to see.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "exhibere", "correctAnswer": "To hold out, display, present", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Summons",
+    "pronunciation": "SUM-uhnz",
+    "pos": "noun",
+    "definition": "A legal document notifying a person that they are required to appear in court or respond to a claim.",
+    "origin": "From Old French <strong>somondre</strong>, from Latin summonere (to remind secretly, warn), from sub- (secretly, under) + monere (to warn). What began as a quiet, private warning became the formal public notice compelling a person into court.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Summons</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French somondre derives from Latin", "b": "Summonere, to remind secretly" },
+          { "a": "Summonere combines sub- with", "b": "Monere, to warn" },
+          { "a": "The word began as a quiet, private", "b": "Warning" },
+          { "a": "It became a formal public notice compelling a person into", "b": "Court" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Summons</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A summons notifies a person they are required to", "b": "Appear in court" },
+          { "a": "A summons is often served alongside a", "b": "Complaint" },
+          { "a": "Ignoring a summons can result in a default", "b": "Judgment" },
+          { "a": "A process server is responsible for delivering the", "b": "Summons" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Summons</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "He was served with a", "b": "Summons to appear in court" },
+          { "a": "She received a jury duty", "b": "Summons in the mail" },
+          { "a": "The defendant failed to respond to the", "b": "Summons" },
+          { "a": "The clerk issued a", "b": "Summons to the witness" }
+        ] }
+    ],
+    "roots": [ { "rootText": "summonere", "rootLanguage": "Latin", "rootMeaning": "To remind secretly, warn", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "summonere", "highlight": true }, { "text": " (to warn secretly); once a quiet warning, now a formal notice into court.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "summonere", "correctAnswer": "To remind secretly, warn", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Adjudication",
+    "pronunciation": "uh-joo-di-KAY-shuhn",
+    "pos": "noun",
+    "definition": "The formal legal process of resolving a dispute or deciding a case by judgment.",
+    "origin": "From Latin <strong>adjudicare</strong> (to award judicially, adjudge), from ad- (to) + iudicare (to judge). Adjudication names the formal act of a judge awarding a decision, the same root that gives 'judge' and 'judicial'.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Adjudication</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin adjudicare means", "b": "To award judicially, adjudge" },
+          { "a": "It combines ad- with", "b": "Iudicare, to judge" },
+          { "a": "The same root gives English", "b": "Judge and judicial" },
+          { "a": "Adjudication names the formal act of a judge", "b": "Awarding a decision" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Adjudication</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Adjudication is the formal process of resolving a dispute through", "b": "Judgment" },
+          { "a": "An adjudicator may be a judge, arbitrator, or", "b": "Administrative officer" },
+          { "a": "Adjudication concludes with a binding", "b": "Decision" },
+          { "a": "A bankruptcy adjudication formally declares a debtor", "b": "Insolvent" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Adjudication</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The dispute went to formal", "b": "Adjudication" },
+          { "a": "The tribunal completed its", "b": "Adjudication of the claim" },
+          { "a": "He was declared bankrupt following", "b": "Adjudication" },
+          { "a": "The panel's", "b": "Adjudication was final" }
+        ] }
+    ],
+    "roots": [ { "rootText": "adjudicare", "rootLanguage": "Latin", "rootMeaning": "To award judicially, adjudge", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "adjudicare", "highlight": true }, { "text": " (to award judicially); a judge's formal act of awarding a decision.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "adjudicare", "correctAnswer": "To award judicially, adjudge", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Writ",
+    "pronunciation": "rit",
+    "pos": "noun",
+    "definition": "A formal written order issued by a court commanding a person to act or refrain from acting.",
+    "origin": "From Old English <strong>writan</strong> (to write, score, cut marks), a native Germanic word and one of English law's oldest surviving procedural terms. A writ is, at its root, simply 'a thing written', reflecting how early royal commands were formalised on parchment.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Writ</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old English writan means", "b": "To write, score, cut marks" },
+          { "a": "It is a native", "b": "Germanic word" },
+          { "a": "A writ is, at its root, simply", "b": "A thing written" },
+          { "a": "Early royal commands were formalised on", "b": "Parchment" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Writ</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "A writ is a formal written order issued by a", "b": "Court" },
+          { "a": "A writ commands a person to act or", "b": "Refrain from acting" },
+          { "a": "Certiorari and mandamus are both types of", "b": "Writ" },
+          { "a": "A writ of habeas corpus challenges the legality of a person's", "b": "Detention" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Writ</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The court issued a", "b": "Writ ordering the sale to stop" },
+          { "a": "Lawyers filed a", "b": "Writ of habeas corpus" },
+          { "a": "The sheriff served the", "b": "Writ on the tenant" },
+          { "a": "A royal", "b": "Writ once commanded the sheriff directly" }
+        ] }
+    ],
+    "roots": [ { "rootText": "writan", "rootLanguage": "Old English", "rootMeaning": "To write, score, cut marks", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Old English ", "highlight": false }, { "text": "writan", "highlight": true }, { "text": " (to write); a command formalised in writing.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "writan", "correctAnswer": "To write, score, cut marks", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  },
+  {
+    "word": "Venue",
+    "pronunciation": "VEN-yoo",
+    "pos": "noun",
+    "definition": "The particular county, district, or court in which a legal case is properly heard.",
+    "origin": "From Old French <strong>venue</strong> (a coming, arrival), from Latin venire (to come). Venue originally meant the place where a jury 'came' from, evolving into the modern rule about which court a case should properly come before.",
+    "tier": "premium",
+    "packId": "law",
+    "subpack": { "id": "law-procedure", "name": "Courtroom & Procedure", "packId": "law" },
+    "rounds": [
+      { "type": "Etymology", "label": "Round 1 of 3 · Etymology", "context": "Where does <strong>Venue</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Old French venue means", "b": "A coming, arrival" },
+          { "a": "It derives from Latin venire, meaning", "b": "To come" },
+          { "a": "Venue originally meant the place a jury", "b": "Came from" },
+          { "a": "This evolved into the modern rule about where a case should", "b": "Properly come before a court" }
+        ] },
+      { "type": "Definition", "label": "Round 2 of 3 · Definition", "context": "What does <strong>Venue</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Venue refers to the proper court or location for a", "b": "Trial" },
+          { "a": "A change of venue moves a trial to a different", "b": "Location" },
+          { "a": "Venue is often chosen based on where the events", "b": "Occurred" },
+          { "a": "Improper venue can be grounds to", "b": "Dismiss or transfer a case" }
+        ] },
+      { "type": "Usage", "label": "Round 3 of 3 · Usage", "context": "How is <strong>Venue</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The defense requested a change of", "b": "Venue" },
+          { "a": "The trial's", "b": "Venue was moved to a neighbouring county" },
+          { "a": "Lawyers argued the case was filed in the wrong", "b": "Venue" },
+          { "a": "The judge granted the motion to transfer", "b": "Venue" }
+        ] }
+    ],
+    "roots": [ { "rootText": "venire", "rootLanguage": "Latin", "rootMeaning": "To come", "showInIntro": true } ],
+    "introEtymology": { "spans": [ { "text": "From Latin ", "highlight": false }, { "text": "venire", "highlight": true }, { "text": " (to come); the place where a case should properly come before the court.", "highlight": false } ] },
+    "morningTask": { "taskType": "root", "sourceKind": "root", "sourceValue": "venire", "correctAnswer": "To come", "hint": "Check the highlighted root(s) in the etymology line.", "generatorVersion": "1" }
+  }
+]

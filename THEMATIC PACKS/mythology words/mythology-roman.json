@@ -1,0 +1,2162 @@
+[
+  {
+    "word": "Martial",
+    "pronunciation": "MAR-shul",
+    "pos": "adjective",
+    "definition": "Relating to war or the military, especially in a disciplined, combative sense.",
+    "origin": "<strong>Martial</strong> descends from <strong>Mars</strong>, the Roman god of war, second only to Jupiter in importance and the mythical father of Romulus and Remus. Latin <em>martialis</em> meant \"of Mars,\" and Rome's warlike self-image made his name the natural root for anything to do with fighting, from martial law to the martial arts.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Martial</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Mars", "b": "Roman god of war" },
+          { "a": "Mars was father of", "b": "Romulus and Remus, Rome's founders" },
+          { "a": "Latin martialis meant", "b": "\"Of Mars\"" },
+          { "a": "Rome saw itself as", "b": "A warlike, martial people" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Martial</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Martial describes", "b": "Anything relating to war or the military" },
+          { "a": "Martial law means", "b": "Military rule replacing civilian government" },
+          { "a": "Martial arts are", "b": "Combat disciplines like judo or karate" },
+          { "a": "Antonym", "b": "Peaceful or civilian" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Martial</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The general declared", "b": "martial law across the province" },
+          { "a": "He carried himself with a", "b": "martial bearing, spine straight and eyes forward" },
+          { "a": "She had studied several", "b": "martial arts since childhood" },
+          { "a": "The parade had a strict,", "b": "martial precision to every step" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Mars",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of war",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Mars", "highlight": true },
+        { "text": ", the god of war, whose name gave Latin its word for anything combative or military.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Mars",
+      "correctAnswer": "God of war",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Saturnine",
+    "pronunciation": "SAT-ur-nyne",
+    "pos": "adjective",
+    "definition": "Having a gloomy, brooding, or sluggish temperament; slow to show emotion and inclined toward melancholy.",
+    "origin": "<strong>Saturnine</strong> comes from <strong>Saturn</strong>, the Roman god of agriculture and time, whose name was also given to the slowest-moving visible planet. Medieval astrologers believed anyone born \"under Saturn\" inherited the planet's cold, sluggish, melancholic influence, and that supposed temperament survives in the word today.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Saturnine</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Saturn", "b": "Roman god of agriculture and time" },
+          { "a": "Also names", "b": "The slowest-moving visible planet" },
+          { "a": "Medieval astrologers believed", "b": "Saturn's influence brought gloom and cold" },
+          { "a": "Word now describes", "b": "A brooding, melancholic temperament" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Saturnine</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Saturnine describes", "b": "A gloomy, brooding temperament" },
+          { "a": "A saturnine person seems", "b": "Slow, taciturn, and hard to read" },
+          { "a": "Antonym", "b": "Cheerful or sanguine" },
+          { "a": "Often paired with", "b": "A dark, watchful expression" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Saturnine</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The professor wore a", "b": "saturnine expression through the whole lecture" },
+          { "a": "His saturnine mood", "b": "darkened the room the moment he entered" },
+          { "a": "Critics called the actor's brooding stare", "b": "his signature saturnine look" },
+          { "a": "Even good news barely lifted his", "b": "saturnine disposition" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Saturn",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of agriculture and time",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Saturn", "highlight": true },
+        { "text": ", the slow-moving god whose planet was thought to breed gloom in anyone born beneath it.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Saturn",
+      "correctAnswer": "God of agriculture and time",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Janitor",
+    "pronunciation": "JAN-ih-tur",
+    "pos": "noun",
+    "definition": "A person employed to clean and maintain a building, especially one who also acts as a caretaker or doorkeeper.",
+    "origin": "<strong>Janitor</strong> comes directly from <strong>Janus</strong>, the two-faced Roman god of doorways, gates, and beginnings, who looked both forward and backward at once. Latin <em>janitor</em> literally meant \"doorkeeper,\" the servant who guarded the entrance the way Janus guarded every threshold, and the word later widened to cover general building maintenance.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Janitor</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Janus", "b": "Two-faced Roman god of doorways" },
+          { "a": "Janus looked", "b": "Both forward and backward at once" },
+          { "a": "Latin janitor meant", "b": "\"Doorkeeper\"" },
+          { "a": "Word later widened to", "b": "Cover general building maintenance" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Janitor</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Janitor describes", "b": "Someone who cleans and maintains a building" },
+          { "a": "Original narrow sense", "b": "A gatekeeper or doorkeeper" },
+          { "a": "Related modern role", "b": "A caretaker or custodian" },
+          { "a": "Often works in", "b": "Schools, offices, and apartment blocks" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Janitor</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The school", "b": "janitor unlocked the gym before dawn" },
+          { "a": "He mopped the hallway like the", "b": "janitor he'd been for thirty years" },
+          { "a": "The office building's", "b": "janitor kept a ring of master keys" },
+          { "a": "She left a thank-you note for the", "b": "janitor who fixed the broken lock" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Janus",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Two-faced god of doorways and beginnings",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Janus", "highlight": true },
+        { "text": ", the doorway god, whose Latin title \"doorkeeper\" became the everyday word for a building's caretaker.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Janus",
+      "correctAnswer": "Two-faced god of doorways and beginnings",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Venerate",
+    "pronunciation": "VEN-uh-rayt",
+    "pos": "verb",
+    "definition": "To regard with deep respect and reverence, especially something considered sacred or venerable due to age or wisdom.",
+    "origin": "<strong>Venerate</strong> traces to <strong>Venus</strong>, the Roman goddess of love and desire, through Latin <em>venerari</em>, \"to regard with religious awe.\" The same root that gave Venus her name also produced <em>venus</em>, meaning charm or allure, and Romans stretched that sense of powerful attraction into the deep reverence owed to gods, ancestors, and sacred things.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Venerate</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Venus", "b": "Roman goddess of love and desire" },
+          { "a": "Shared Latin root", "b": "Venus and venerari both stem from \"charm, awe\"" },
+          { "a": "Latin venerari meant", "b": "\"To regard with religious awe\"" },
+          { "a": "Word now means", "b": "To honour with deep reverence" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Venerate</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Venerate means", "b": "To regard with deep respect and reverence" },
+          { "a": "A venerated elder is", "b": "Honoured for age and wisdom" },
+          { "a": "Synonym", "b": "To revere or worship" },
+          { "a": "Related adjective", "b": "Venerable" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Venerate</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Pilgrims travelled for weeks to", "b": "venerate the ancient shrine" },
+          { "a": "The village continued to", "b": "venerate its founding elders" },
+          { "a": "Students were taught to", "b": "venerate the old master's teachings" },
+          { "a": "The temple was built to", "b": "venerate the city's guardian spirit" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Venus",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess of love and desire",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Rooted in the same Latin stem as ", "highlight": false },
+        { "text": "Venus", "highlight": true },
+        { "text": ", where the goddess's charm deepened into the awe owed to sacred things.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Venus",
+      "correctAnswer": "Goddess of love and desire",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Vestal",
+    "pronunciation": "VES-tul",
+    "pos": "adjective",
+    "definition": "Chaste and pure, especially in a devoted, priestess-like sense; relating to the hearth or its sacred keeping.",
+    "origin": "<strong>Vestal</strong> comes from <strong>Vesta</strong>, the Roman goddess of the hearth and home, whose sacred flame in the Forum was tended by six priestesses known as the Vestal Virgins. Sworn to thirty years of chastity to keep the fire and the city's fortunes alive, they made \"vestal\" a lasting byword for sworn purity.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Vestal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Vesta", "b": "Roman goddess of the hearth" },
+          { "a": "Her sacred fire burned in", "b": "The Roman Forum" },
+          { "a": "Vestal Virgins were", "b": "Six priestesses sworn to chastity" },
+          { "a": "Their vow lasted", "b": "Thirty years" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Vestal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Vestal describes", "b": "Something chaste, pure, and devoted" },
+          { "a": "A vestal flame is", "b": "A fire kept continuously alight" },
+          { "a": "The tone of the word is", "b": "Solemn and reverent" },
+          { "a": "Related noun", "b": "Vestal virgin" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Vestal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The monastery kept a", "b": "vestal flame burning in the chapel" },
+          { "a": "She lived a quiet,", "b": "vestal existence devoted to study" },
+          { "a": "The novel described the abbess's", "b": "vestal devotion to her order" },
+          { "a": "Historians compared the guards' loyalty to", "b": "vestal duty" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vesta",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess of the hearth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Vesta", "highlight": true },
+        { "text": ", whose priestesses guarded her sacred flame and gave English a word for sworn purity.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vesta",
+      "correctAnswer": "Goddess of the hearth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cereal",
+    "pronunciation": "SEER-ee-ul",
+    "pos": "noun",
+    "definition": "An edible grain, or a food made from it, especially one eaten for breakfast.",
+    "origin": "<strong>Cereal</strong> comes from <strong>Ceres</strong>, the Roman goddess of agriculture, grain, and fertility, whose festival each spring marked the growing season. Latin <em>cerealis</em> meant \"of Ceres,\" and by the nineteenth century English borrowed the word for grain crops themselves, later narrowing further to the boxed breakfast food.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cereal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ceres", "b": "Roman goddess of agriculture and grain" },
+          { "a": "Her festival marked", "b": "The spring growing season" },
+          { "a": "Latin cerealis meant", "b": "\"Of Ceres\"" },
+          { "a": "English later narrowed the word to", "b": "Boxed breakfast grains" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cereal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cereal describes", "b": "An edible grain or grain-based food" },
+          { "a": "Common cereal crops include", "b": "Wheat, oats, rice, and corn" },
+          { "a": "Cereal is typically eaten", "b": "At breakfast, often with milk" },
+          { "a": "Homophone to watch for", "b": "\"Serial,\" a story in instalments" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cereal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The farmer's fields grew several", "b": "cereal crops in rotation" },
+          { "a": "She poured milk over her bowl of", "b": "cereal" },
+          { "a": "Wheat is the region's most valuable", "b": "cereal export" },
+          { "a": "The supermarket aisle stocked a dozen", "b": "cereal brands" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ceres",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess of agriculture and grain",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Ceres", "highlight": true },
+        { "text": ", the harvest goddess, whose blessing over the grain fields gave English its word for breakfast grains.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ceres",
+      "correctAnswer": "Goddess of agriculture and grain",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Palladium",
+    "pronunciation": "puh-LAY-dee-um",
+    "pos": "noun",
+    "definition": "Something regarded as a safeguard or guarantee of a nation's or institution's safety and continued existence.",
+    "origin": "<strong>Palladium</strong> was originally a wooden statue of <strong>Pallas Athena</strong> said to have fallen from the sky and to guarantee the safety of Troy for as long as it stood inside the city walls. The Greek legend passed into Roman religious tradition, where the statue was believed rescued from Troy's fall and enshrined at Rome, and \"palladium\" came to mean any object or institution seen as a city's protective safeguard.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Palladium</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Pallas Athena", "b": "Goddess whose statue was the original Palladium" },
+          { "a": "The statue was said to", "b": "Have fallen from the sky onto Troy" },
+          { "a": "Legend held that", "b": "Troy stood safe only while it kept the statue" },
+          { "a": "Romans believed", "b": "The statue was rescued and enshrined at Rome" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Palladium</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Palladium describes", "b": "A safeguard of a nation's continued safety" },
+          { "a": "The word is often applied to", "b": "Institutions like a free press or courts" },
+          { "a": "Synonym", "b": "A bulwark or protective guarantee" },
+          { "a": "Original literal meaning", "b": "A sacred protective statue" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Palladium</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The judge called trial by jury the", "b": "palladium of English liberty" },
+          { "a": "Reformers described a free press as", "b": "democracy's palladium" },
+          { "a": "The constitution was praised as the nation's", "b": "palladium against tyranny" },
+          { "a": "Historians debated whether the relic was truly", "b": "the ancient palladium of legend" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Pallas Athena",
+        "rootLanguage": "Greco-Roman mythology",
+        "rootMeaning": "Goddess whose sacred statue safeguarded Troy",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for the sacred statue of ", "highlight": false },
+        { "text": "Pallas Athena", "highlight": true },
+        { "text": ", said to guard Troy, whose legend gave English its word for a nation's protective safeguard.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Pallas Athena",
+      "correctAnswer": "Goddess whose sacred statue safeguarded Troy",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "January",
+    "pronunciation": "JAN-yoo-air-ee",
+    "pos": "noun",
+    "definition": "The first month of the year in the modern calendar.",
+    "origin": "<strong>January</strong> is named for <strong>Janus</strong>, the Roman god of doorways, transitions, and beginnings, fittingly given two faces so he could look back at the closing year and forward into the new one at once. The Romans placed his month at the start of the civil calendar around 700 BC, cementing the association between endings, beginnings, and the god who watched over both.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>January</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Janus", "b": "Roman god of doorways and beginnings" },
+          { "a": "Janus had", "b": "Two faces, looking back and forward" },
+          { "a": "Romans placed his month", "b": "At the start of the civil calendar" },
+          { "a": "Approximate date adopted", "b": "Around 700 BC" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>January</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "January describes", "b": "The first month of the calendar year" },
+          { "a": "It follows", "b": "December, the previous year's last month" },
+          { "a": "Traditionally associated with", "b": "New beginnings and resolutions" },
+          { "a": "Season in the Northern Hemisphere", "b": "Winter" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>January</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "They planned to launch the product in", "b": "January, right after the holidays" },
+          { "a": "The gym was packed with resolution-makers every", "b": "January" },
+          { "a": "Snow blanketed the town through most of", "b": "January" },
+          { "a": "The new law takes effect on the first of", "b": "January" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Janus",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of doorways, transitions, and beginnings",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Janus", "highlight": true },
+        { "text": ", the two-faced god who looked back on the old year and forward into the new.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Janus",
+      "correctAnswer": "God of doorways, transitions, and beginnings",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Triumph",
+    "pronunciation": "TRY-umf",
+    "pos": "noun",
+    "definition": "A great victory or achievement, or the elation felt after one.",
+    "origin": "<strong>Triumph</strong> comes from Latin <em>triumphus</em>, the name for the elaborate victory parade granted to a returning Roman general, in which he rode through the city in a chariot dressed as <strong>Jupiter</strong> himself while a slave whispered reminders of his mortality. The ritual honoured the king of the gods by letting a mortal briefly wear his glory, and the word broadened from that one ceremony into any triumphant success.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Triumph</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin triumphus", "b": "A general's victory parade through Rome" },
+          { "a": "The general dressed as", "b": "Jupiter, king of the gods" },
+          { "a": "A slave in the chariot whispered", "b": "Reminders of his mortality" },
+          { "a": "Word later broadened to", "b": "Any great victory or success" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Triumph</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Triumph describes", "b": "A great victory or achievement" },
+          { "a": "A triumphant feeling is", "b": "Elation after a hard-won success" },
+          { "a": "Synonym", "b": "A conquest or win" },
+          { "a": "Antonym", "b": "A defeat or failure" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Triumph</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Winning the championship was a", "b": "triumph years in the making" },
+          { "a": "She raised her arms in", "b": "triumph as she crossed the finish line" },
+          { "a": "The negotiation ended in a rare", "b": "diplomatic triumph" },
+          { "a": "Historians called the campaign a", "b": "military triumph despite heavy losses" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Jupiter",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "King of the gods, honoured in the Roman triumph parade",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From the Roman victory parade honouring ", "highlight": false },
+        { "text": "Jupiter", "highlight": true },
+        { "text": ", whose glory a returning general briefly wore through the streets of Rome.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Jupiter",
+      "correctAnswer": "King of the gods, honoured in the Roman triumph parade",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Aurora",
+    "pronunciation": "aw-ROR-uh",
+    "pos": "noun",
+    "definition": "A natural display of coloured light in the night sky near the polar regions, or, more poetically, the dawn itself.",
+    "origin": "<strong>Aurora</strong> is the name of the Roman goddess of the dawn, who each morning was said to fly across the sky ahead of the sun to announce its arrival. Eighteenth-century scientists borrowed her name for the shimmering polar lights, since the phenomenon's glow seemed to echo the goddess's own rosy arrival at daybreak.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Aurora</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Aurora", "b": "Roman goddess of the dawn" },
+          { "a": "Each morning she", "b": "Flew ahead of the sun to announce it" },
+          { "a": "Scientists borrowed her name for", "b": "The shimmering polar lights" },
+          { "a": "Century of that scientific naming", "b": "The eighteenth century" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Aurora</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Aurora describes", "b": "Polar light displays, or the dawn itself" },
+          { "a": "Aurora borealis is seen", "b": "Near the North Pole" },
+          { "a": "Aurora australis is seen", "b": "Near the South Pole" },
+          { "a": "Poetic use of the word", "b": "The first light of morning" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Aurora</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists travelled to Iceland to see the", "b": "aurora ripple green across the sky" },
+          { "a": "The poet described the", "b": "aurora breaking pink over the hills" },
+          { "a": "Scientists photographed a rare red", "b": "aurora over the Arctic Circle" },
+          { "a": "Campers stayed up all night hoping for an", "b": "aurora display" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Aurora",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess of the dawn",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Aurora", "highlight": true },
+        { "text": ", the dawn goddess, whose rosy arrival each morning gave the polar lights their name.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Aurora",
+      "correctAnswer": "Goddess of the dawn",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Genius",
+    "pronunciation": "JEEN-yus",
+    "pos": "noun",
+    "definition": "Exceptional natural intellectual or creative ability, or a person who possesses it.",
+    "origin": "In Roman belief, a <strong>genius</strong> was the guardian spirit assigned to every person, place, or household at birth, shaping their character and watching over their fortunes for life. Renaissance writers began to speak of someone \"having a genius\" for a skill, and by the eighteenth century the guardian spirit itself had faded, leaving only the sense of an inborn, almost supernatural talent.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Genius</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Roman genius", "b": "A guardian spirit assigned at birth" },
+          { "a": "Every person and household had", "b": "Its own protecting genius" },
+          { "a": "Renaissance writers said someone", "b": "\"Had a genius\" for a particular skill" },
+          { "a": "By the eighteenth century, the word meant", "b": "Inborn, exceptional talent" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Genius</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Genius describes", "b": "Exceptional natural talent or intellect" },
+          { "a": "A genius is also", "b": "A person of extraordinary ability" },
+          { "a": "The phrase \"stroke of genius\" means", "b": "A brilliant sudden insight" },
+          { "a": "Original Roman sense", "b": "A personal guardian spirit" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Genius</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The engineer's solution was a stroke of", "b": "pure genius" },
+          { "a": "Critics called the young composer a", "b": "genius" },
+          { "a": "Her plan showed real", "b": "genius under pressure" },
+          { "a": "The design combined simplicity with", "b": "genius" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Genius",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Personal guardian spirit assigned at birth",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From the Roman ", "highlight": false },
+        { "text": "genius", "highlight": true },
+        { "text": ", the guardian spirit believed to shape a person's character from birth.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Genius",
+      "correctAnswer": "Personal guardian spirit assigned at birth",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Ambrosia",
+    "pronunciation": "am-BROH-zhuh",
+    "pos": "noun",
+    "definition": "Something with an especially delicious taste or fragrance; food fit for the gods.",
+    "origin": "<strong>Ambrosia</strong> was the mythical food of the gods, which the Romans adopted from Greek tradition, believed to grant immortality to whoever ate it and to smell sweeter than any earthly thing. The Greek root behind it means \"immortal,\" and Roman poets used the word for the divine banquets of Jupiter and his court, giving English a word for anything deliciously sublime.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Ambrosia</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Ambrosia", "b": "The mythical food of the gods" },
+          { "a": "Believed to grant", "b": "Immortality to whoever ate it" },
+          { "a": "Greek root behind the word means", "b": "\"Immortal\"" },
+          { "a": "Served at", "b": "The divine banquets of Jupiter's court" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Ambrosia</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Ambrosia describes", "b": "Something exceptionally delicious or divine" },
+          { "a": "The word can describe", "b": "A dessert or a fragrant dish" },
+          { "a": "Companion drink of the gods", "b": "Nectar" },
+          { "a": "Tone of the word", "b": "Lofty and admiring" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Ambrosia</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The chef's dessert tasted like pure", "b": "ambrosia" },
+          { "a": "Grandmother's cooking was, to us,", "b": "sheer ambrosia" },
+          { "a": "The garden's roses filled the air with an", "b": "ambrosia-like fragrance" },
+          { "a": "Critics called the wine an", "b": "ambrosia among ordinary vintages" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Ambrosia",
+        "rootLanguage": "Greco-Roman mythology",
+        "rootMeaning": "The immortal food of the gods",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "ambrosia", "highlight": true },
+        { "text": ", the food said to grant the gods their immortality, borrowed into Roman myth from Greek tradition.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Ambrosia",
+      "correctAnswer": "The immortal food of the gods",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Nectar",
+    "pronunciation": "NEK-tur",
+    "pos": "noun",
+    "definition": "A delicious drink, especially the sweet liquid produced by flowers, or anything exceptionally sweet and pleasant.",
+    "origin": "<strong>Nectar</strong> was the drink of the Roman gods, served alongside ambrosia at their heavenly feasts and believed, like it, to sustain their immortality. The Greek root is thought to combine \"death\" and \"overcome,\" fitting for a drink that let its drinkers conquer death itself, and botanists later borrowed the word for the sweet fluid flowers offer to bees.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Nectar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Nectar", "b": "The drink of the Roman gods" },
+          { "a": "Served alongside", "b": "Ambrosia at heavenly feasts" },
+          { "a": "Root meaning suggested", "b": "\"Overcoming death\"" },
+          { "a": "Botanists later borrowed the word for", "b": "The sweet fluid inside flowers" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Nectar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Nectar describes", "b": "A delicious drink, or flower's sweet fluid" },
+          { "a": "Bees collect nectar to make", "b": "Honey" },
+          { "a": "The word can describe", "b": "Anything exceptionally sweet or pleasant" },
+          { "a": "Companion food of the gods", "b": "Ambrosia" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Nectar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Hummingbirds hovered to drink the flower's", "b": "nectar" },
+          { "a": "The fresh-squeezed juice tasted like", "b": "nectar after a long hike" },
+          { "a": "Bees carried pollen and", "b": "nectar back to the hive" },
+          { "a": "He called her cooking pure", "b": "nectar" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Nectar",
+        "rootLanguage": "Greco-Roman mythology",
+        "rootMeaning": "The drink of the gods",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From ", "highlight": false },
+        { "text": "nectar", "highlight": true },
+        { "text": ", the drink believed to sustain the gods' immortality alongside ambrosia.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Nectar",
+      "correctAnswer": "The drink of the gods",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Augury",
+    "pronunciation": "AW-gyoor-ee",
+    "pos": "noun",
+    "definition": "A sign or omen of a future event; the practice of predicting the future from signs.",
+    "origin": "<strong>Augury</strong> comes from the Roman <em>augur</em>, a priestly official who read the will of the gods in the flight patterns and calls of birds before any major public decision, from elections to declarations of war. No Roman general marched and no consul took office without a favourable augury, and the word survives for any sign taken to foretell what is coming.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Augury</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Augur", "b": "Roman priestly official who read omens" },
+          { "a": "Augurs read the will of the gods in", "b": "The flight and calls of birds" },
+          { "a": "Consulted before", "b": "Elections, wars, and public decisions" },
+          { "a": "Word now describes", "b": "Any sign foretelling the future" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Augury</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Augury describes", "b": "A sign or omen of what is to come" },
+          { "a": "The practice of augury involves", "b": "Interpreting signs to predict events" },
+          { "a": "Related adjective", "b": "Auspicious" },
+          { "a": "Synonym", "b": "A portent or omen" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Augury</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Investors read the falling prices as an", "b": "augury of recession" },
+          { "a": "The empty stadium seemed a grim", "b": "augury for opening night" },
+          { "a": "Ancient priests studied the sky for", "b": "augury before the battle" },
+          { "a": "She treated the sudden storm as a bad", "b": "augury" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Augur",
+        "rootLanguage": "Roman religion",
+        "rootMeaning": "Priest who read omens from the flight of birds",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From the Roman ", "highlight": false },
+        { "text": "augur", "highlight": true },
+        { "text": ", the priest who read the gods' will in the flight of birds before every major decision.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Augur",
+      "correctAnswer": "Priest who read omens from the flight of birds",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Auspicious",
+    "pronunciation": "aw-SPISH-us",
+    "pos": "adjective",
+    "definition": "Conducive to success; favourable, or indicating a good outcome to come.",
+    "origin": "<strong>Auspicious</strong> comes from Latin <em>auspicium</em>, \"bird-watching,\" a specific branch of Roman augury in which officials called auspices read favour or disfavour from the sky in the flight of birds before beginning any state business. When the auspices were good, the Romans considered the moment blessed, and \"auspicious\" kept that sense of a promising, favourable sign.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Auspicious</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin auspicium meant", "b": "\"Bird-watching\"" },
+          { "a": "Roman auspices read", "b": "Favour or disfavour in the flight of birds" },
+          { "a": "Consulted before", "b": "Beginning any state business" },
+          { "a": "Good auspices meant", "b": "The moment was considered blessed" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Auspicious</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Auspicious describes", "b": "Something favourable, promising success" },
+          { "a": "An auspicious start is", "b": "A promising beginning" },
+          { "a": "Antonym", "b": "Ominous or inauspicious" },
+          { "a": "Related noun", "b": "Augury" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Auspicious</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The new business had an", "b": "auspicious first quarter" },
+          { "a": "Rain on the wedding day was, oddly, considered", "b": "auspicious" },
+          { "a": "The team's opening win felt like an", "b": "auspicious sign for the season" },
+          { "a": "They chose an", "b": "auspicious date for the launch" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Auspicium",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Bird-watching used to divine favour",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "auspicium", "highlight": true },
+        { "text": ", \"bird-watching,\" the Roman practice of reading favour or disaster in the flight of birds.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Auspicium",
+      "correctAnswer": "Bird-watching used to divine favour",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Omen",
+    "pronunciation": "OH-men",
+    "pos": "noun",
+    "definition": "A sign taken to foretell a good or evil event; a portent.",
+    "origin": "<strong>Omen</strong> comes directly from Latin <em>omen</em>, a sign the Romans believed the gods scattered through ordinary life, from a sneeze at the wrong moment to a bird crossing one's path, to warn or reassure the watchful. Unlike augury, which required a trained official, an omen could be spotted by anyone, and Romans built elaborate customs around reading and averting bad ones.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Omen</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin omen meant", "b": "A sign sent by the gods" },
+          { "a": "Examples included", "b": "A sneeze or a bird crossing one's path" },
+          { "a": "Unlike augury, an omen could be spotted by", "b": "Anyone, not just a trained official" },
+          { "a": "Romans built customs around", "b": "Reading and averting bad omens" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Omen</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Omen describes", "b": "A sign foretelling a future event" },
+          { "a": "A good omen suggests", "b": "A favourable outcome ahead" },
+          { "a": "A bad omen suggests", "b": "Trouble or misfortune to come" },
+          { "a": "Related adjective", "b": "Ominous" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Omen</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The black cat crossing the road felt like a bad", "b": "omen" },
+          { "a": "Sailors took the calm sea as a good", "b": "omen for the voyage" },
+          { "a": "The broken mirror was, to her, a clear", "b": "omen of trouble" },
+          { "a": "He shrugged off the strange dream as no", "b": "omen at all" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Omen",
+        "rootLanguage": "Latin",
+        "rootMeaning": "A sign believed to be sent by the gods",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "omen", "highlight": true },
+        { "text": ", a sign the Romans believed the gods scattered through daily life to warn or reassure the watchful.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Omen",
+      "correctAnswer": "A sign believed to be sent by the gods",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Legion",
+    "pronunciation": "LEE-jun",
+    "pos": "noun",
+    "definition": "A large organised group, especially a military force; used informally to mean a great number.",
+    "origin": "<strong>Legion</strong> comes from Latin <em>legio</em>, the basic unit of the Roman army, typically several thousand heavily armed infantry organised into cohorts under Mars's patronage as the god of war. Rome's legions conquered and administered most of the known world, and their sheer numbers gave the word its lingering sense of an overwhelming multitude, \"legion\" meaning simply \"many.\"",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Legion</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin legio meant", "b": "The basic unit of the Roman army" },
+          { "a": "A legion held", "b": "Several thousand heavily armed infantry" },
+          { "a": "Legions marched under the patronage of", "b": "Mars, god of war" },
+          { "a": "Their vast numbers gave the word its sense of", "b": "An overwhelming multitude" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Legion</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Legion describes", "b": "A large organised group or military force" },
+          { "a": "Used informally, legion means", "b": "A great many" },
+          { "a": "The phrase \"his fans are legion\" means", "b": "He has a huge number of fans" },
+          { "a": "Related word", "b": "Legionary, a Roman soldier" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Legion</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Complaints about the new policy were", "b": "legion" },
+          { "a": "The general commanded three full", "b": "legions" },
+          { "a": "Her admirers were", "b": "legion after the film's release" },
+          { "a": "Errors in the report were", "b": "legion" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Legio",
+        "rootLanguage": "Latin",
+        "rootMeaning": "A large unit of the Roman army",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "legio", "highlight": true },
+        { "text": ", the vast infantry unit of Rome's army, whose scale gave English its word for an overwhelming multitude.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Legio",
+      "correctAnswer": "A large unit of the Roman army",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Faun",
+    "pronunciation": "FAWN",
+    "pos": "noun",
+    "definition": "A mythical woodland creature with the body of a man and the horns, ears, and hindquarters of a goat.",
+    "origin": "<strong>Faun</strong> comes from <strong>Faunus</strong>, the Roman god of the forest, fields, and shepherds, who was said to protect flocks and warn travellers of danger with a voice heard in the rustling woods. Later writers imagined a whole race of goat-legged woodland spirits in his image, and \"faun\" became the general word for these playful, half-wild creatures of the countryside.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Faun</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Faunus", "b": "Roman god of the forest and shepherds" },
+          { "a": "Faunus was said to", "b": "Protect flocks and warn travellers" },
+          { "a": "His voice was heard in", "b": "The rustling of the woods" },
+          { "a": "Later writers imagined", "b": "A whole race of goat-legged woodland spirits" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Faun</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Faun describes", "b": "A goat-legged woodland spirit" },
+          { "a": "A faun typically has", "b": "A man's torso and a goat's legs and horns" },
+          { "a": "Fauns are associated with", "b": "Forests, music, and mischief" },
+          { "a": "Related feminine figure", "b": "A nymph" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Faun</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The tapestry showed a", "b": "faun playing pipes in a glade" },
+          { "a": "Children in the story met a shy", "b": "faun near the frozen stream" },
+          { "a": "The ballet was inspired by a", "b": "faun's afternoon reverie" },
+          { "a": "Carved into the fountain was a mischievous", "b": "faun" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Faunus",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of the forest and shepherds",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Faunus", "highlight": true },
+        { "text": ", the forest god, whose image inspired a whole race of goat-legged woodland spirits.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Faunus",
+      "correctAnswer": "God of the forest and shepherds",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Cupidity",
+    "pronunciation": "kyoo-PID-ih-tee",
+    "pos": "noun",
+    "definition": "Greed for material wealth or possessions; excessive desire to acquire.",
+    "origin": "<strong>Cupidity</strong> traces to <strong>Cupid</strong>, the Roman god of desire, whose Latin name <em>cupido</em> simply meant \"desire\" or \"longing\" before it was ever attached to a winged boy with a bow. While Cupid's arrows came to stand for romantic longing alone, the noun <em>cupiditas</em> kept the older, broader sense of desire and narrowed instead toward greed for money and possessions.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Cupidity</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Cupid", "b": "Roman god of desire" },
+          { "a": "Latin cupido meant", "b": "\"Desire\" or \"longing\"" },
+          { "a": "Cupid's arrows came to represent", "b": "Romantic longing" },
+          { "a": "The noun cupiditas narrowed toward", "b": "Greed for wealth and possessions" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Cupidity</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Cupidity describes", "b": "Greed for wealth or possessions" },
+          { "a": "A person driven by cupidity is", "b": "Excessively eager to acquire riches" },
+          { "a": "Synonym", "b": "Avarice or greed" },
+          { "a": "Antonym", "b": "Generosity or contentment" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Cupidity</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The developer's plan was driven purely by", "b": "cupidity" },
+          { "a": "Critics accused the executives of naked", "b": "cupidity" },
+          { "a": "The old fable warned against the perils of", "b": "cupidity" },
+          { "a": "His eyes lit with unmistakable", "b": "cupidity at the sight of gold" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Cupido",
+        "rootLanguage": "Latin",
+        "rootMeaning": "Desire or longing",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "cupido", "highlight": true },
+        { "text": ", \"desire,\" the same root behind Cupid, narrowed over time into greed for wealth.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Cupido",
+      "correctAnswer": "Desire or longing",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pluto",
+    "pronunciation": "PLOO-toh",
+    "pos": "noun",
+    "definition": "The dwarf planet named for the Roman god of the underworld; used by extension for anything associated with darkness or the depths.",
+    "origin": "<strong>Pluto</strong> was the Roman god who ruled the underworld and its riches, since precious metals and minerals lay hidden beneath the earth he governed. When astronomers discovered a small, distant, cold world in 1930, its remoteness from the sun's light made the name of the shadowy underworld king feel fitting, and an eleven-year-old, Venetia Burney, is credited with the suggestion.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pluto</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Pluto", "b": "Roman god of the underworld" },
+          { "a": "He also governed", "b": "Precious metals hidden beneath the earth" },
+          { "a": "Astronomers discovered the dwarf planet in", "b": "1930" },
+          { "a": "The name was suggested by", "b": "An eleven-year-old, Venetia Burney" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pluto</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Pluto describes", "b": "A distant dwarf planet, or the underworld god" },
+          { "a": "Pluto's realm was", "b": "The underworld, land of the dead" },
+          { "a": "Pluto lost its status as a full planet in", "b": "2006" },
+          { "a": "Related mythological figure", "b": "Proserpina, Pluto's wife" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pluto</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The probe took nine years to reach", "b": "Pluto" },
+          { "a": "Astronomy students debated whether", "b": "Pluto deserved planet status" },
+          { "a": "The mural depicted", "b": "Pluto enthroned in his shadowy realm" },
+          { "a": "Scientists mapped the icy plains of", "b": "Pluto's surface" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Pluto",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of the underworld",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Pluto", "highlight": true },
+        { "text": ", the underworld god, whose shadowy realm suited a small, distant, sunless world.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Pluto",
+      "correctAnswer": "God of the underworld",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Lunar",
+    "pronunciation": "LOO-nur",
+    "pos": "adjective",
+    "definition": "Relating to the moon.",
+    "origin": "<strong>Lunar</strong> comes from <strong>Luna</strong>, the Roman goddess who personified the moon and drove it across the night sky in a silver chariot, much as her brother Sol drove the sun. Latin <em>lunaris</em> meant simply \"of the moon,\" and the word passed into English essentially unchanged, still carrying her name into every mention of lunar eclipses, calendars, and landings.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Lunar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Luna", "b": "Roman goddess who personified the moon" },
+          { "a": "Luna drove the moon across the sky in", "b": "A silver chariot" },
+          { "a": "Her brother Sol drove", "b": "The sun" },
+          { "a": "Latin lunaris meant", "b": "\"Of the moon\"" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Lunar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Lunar describes", "b": "Anything relating to the moon" },
+          { "a": "A lunar eclipse occurs when", "b": "Earth's shadow falls on the moon" },
+          { "a": "A lunar calendar tracks", "b": "The moon's phases" },
+          { "a": "Related word for \"sun\"", "b": "Solar" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Lunar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The astronauts trained for months before their", "b": "lunar landing" },
+          { "a": "Farmers once planted crops by the", "b": "lunar calendar" },
+          { "a": "Crowds gathered outside to watch the", "b": "lunar eclipse" },
+          { "a": "The rover explored craters on the", "b": "lunar surface" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Luna",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess who personified the moon",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Luna", "highlight": true },
+        { "text": ", the moon goddess, whose silver chariot crossed the sky each night.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Luna",
+      "correctAnswer": "Goddess who personified the moon",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Solar",
+    "pronunciation": "SOH-lur",
+    "pos": "adjective",
+    "definition": "Relating to the sun, or deriving power from it.",
+    "origin": "<strong>Solar</strong> comes from <strong>Sol</strong>, the Roman god who personified the sun and, like his sister Luna with the moon, was said to drive it across the sky each day in a blazing chariot. Latin <em>solaris</em> meant \"of the sun,\" and centuries later the same root gave English words for everything from solar eclipses to solar-powered technology.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Solar</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Sol", "b": "Roman god who personified the sun" },
+          { "a": "Sol's sister", "b": "Luna, goddess of the moon" },
+          { "a": "Sol drove the sun across the sky in", "b": "A blazing chariot" },
+          { "a": "Latin solaris meant", "b": "\"Of the sun\"" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Solar</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Solar describes", "b": "Anything relating to the sun" },
+          { "a": "Solar power comes from", "b": "Energy captured from sunlight" },
+          { "a": "A solar eclipse occurs when", "b": "The moon blocks the sun's light" },
+          { "a": "Related word for \"moon\"", "b": "Lunar" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Solar</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The house was fitted with", "b": "solar panels on the roof" },
+          { "a": "Scientists studied the", "b": "solar flare's effect on satellites" },
+          { "a": "The eclipse plunged the town into", "b": "solar darkness" },
+          { "a": "Engineers designed a car that ran on", "b": "solar power alone" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Sol",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God who personified the sun",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Sol", "highlight": true },
+        { "text": ", the sun god, whose blazing chariot crossed the sky each day.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Sol",
+      "correctAnswer": "God who personified the sun",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Dismal",
+    "pronunciation": "DIZ-mul",
+    "pos": "adjective",
+    "definition": "Depressing, gloomy, or of very poor quality; causing a feeling of misery or despair.",
+    "origin": "<strong>Dismal</strong> comes from medieval Latin <em>dies mali</em>, \"evil days,\" the name given to two unlucky days in each month when Roman-derived calendar tradition warned that <strong>Pluto</strong>'s underworld influence made any new venture doomed to fail. Over time \"the dismal\" shifted from naming those specific dreaded days to describing anything gloomy, bleak, or wretched.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Dismal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin dies mali meant", "b": "\"Evil days\"" },
+          { "a": "Two such days occurred", "b": "In each month of the old calendar" },
+          { "a": "Tradition linked the days to", "b": "Pluto's underworld influence" },
+          { "a": "Word later widened to mean", "b": "Anything gloomy or bleak" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Dismal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Dismal describes", "b": "Something gloomy, bleak, or wretched" },
+          { "a": "Dismal weather is", "b": "Grey, wet, and depressing" },
+          { "a": "A dismal performance means", "b": "One of very poor quality" },
+          { "a": "Antonym", "b": "Cheerful or splendid" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Dismal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The team suffered a", "b": "dismal defeat at home" },
+          { "a": "Grey rain fell over the", "b": "dismal little town" },
+          { "a": "Sales figures for the quarter were", "b": "dismal" },
+          { "a": "The abandoned house had a", "b": "dismal, forgotten look" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Dies mali",
+        "rootLanguage": "Medieval Latin",
+        "rootMeaning": "Evil days linked to Pluto's underworld influence",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "dies mali", "highlight": true },
+        { "text": ", \"evil days,\" once believed cursed by the underworld's shadow over the calendar.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Dies mali",
+      "correctAnswer": "Evil days linked to Pluto's underworld influence",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Manes",
+    "pronunciation": "MAH-nayz",
+    "pos": "noun",
+    "definition": "The spirits of the dead, especially deceased ancestors, regarded in Roman religion as benevolent household deities.",
+    "origin": "The <strong>Manes</strong> were the collective spirits of the Roman dead, honoured as gentle guardian deities of the family rather than feared ghosts, with festivals like the Parentalia set aside each February to bring them offerings of food and wine. Roman tombstones were often inscribed \"Dis Manibus,\" \"to the spirits of the dead,\" a formula so common that archaeologists still find its abbreviation across the ancient world.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Manes</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Manes", "b": "The collective spirits of the Roman dead" },
+          { "a": "Regarded as", "b": "Benevolent guardian deities of the family" },
+          { "a": "Honoured each February at", "b": "The festival of Parentalia" },
+          { "a": "Tombstones were inscribed", "b": "\"Dis Manibus,\" to the spirits of the dead" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Manes</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Manes describes", "b": "The spirits of deceased ancestors" },
+          { "a": "Romans viewed the Manes as", "b": "Protective, not frightening" },
+          { "a": "Offerings to the Manes included", "b": "Food and wine" },
+          { "a": "Related Roman household spirits", "b": "The Lares" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Manes</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The family poured wine at the shrine to honour the", "b": "Manes" },
+          { "a": "Archaeologists found the inscription invoking the", "b": "Manes of the deceased" },
+          { "a": "Historians described Roman rites for placating the", "b": "Manes each February" },
+          { "a": "The epitaph opened with a dedication to the", "b": "Manes" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Manes",
+        "rootLanguage": "Roman religion",
+        "rootMeaning": "Spirits of the dead, honoured as household guardians",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "The ", "highlight": false },
+        { "text": "Manes", "highlight": true },
+        { "text": " were the spirits of Roman ancestors, honoured as gentle guardians rather than feared as ghosts.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Manes",
+      "correctAnswer": "Spirits of the dead, honoured as household guardians",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Fauna",
+    "pronunciation": "FAW-nuh",
+    "pos": "noun",
+    "definition": "The animal life of a particular region, habitat, or geological period.",
+    "origin": "<strong>Fauna</strong> takes its name from <strong>Faunus</strong>, the Roman god of the countryside and wild creatures, and his sister or consort Fauna, a goddess of fertility and animal life honoured by rural households. Eighteenth-century naturalist Carl Linnaeus borrowed her name as the scientific term for a region's animal life, pairing it with \"flora,\" named for the goddess of flowers.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Fauna</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Fauna", "b": "Roman goddess of fertility and animal life" },
+          { "a": "Related to", "b": "Faunus, god of the countryside" },
+          { "a": "Naturalist who borrowed her name scientifically", "b": "Carl Linnaeus" },
+          { "a": "Paired scientifically with", "b": "\"Flora,\" named for the goddess of flowers" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Fauna</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Fauna describes", "b": "The animal life of a region or era" },
+          { "a": "Fauna is paired in science with", "b": "Flora, meaning plant life" },
+          { "a": "\"Local fauna\" refers to", "b": "The animals native to a specific place" },
+          { "a": "\"Prehistoric fauna\" refers to", "b": "Animal life from an ancient era" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Fauna</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The nature documentary explored the island's unique", "b": "fauna" },
+          { "a": "Researchers catalogued the rainforest's", "b": "fauna over three field seasons" },
+          { "a": "The museum's fossil hall displayed extinct", "b": "fauna from the Jurassic" },
+          { "a": "Conservationists worked to protect the wetland's", "b": "native fauna" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Fauna",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "Goddess of fertility and animal life",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Fauna", "highlight": true },
+        { "text": ", goddess of animal life, whose name Linnaeus borrowed for the animals of a region.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Fauna",
+      "correctAnswer": "Goddess of fertility and animal life",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Infernal",
+    "pronunciation": "in-FUR-nul",
+    "pos": "adjective",
+    "definition": "Relating to hell or the underworld; used informally to express extreme annoyance at something.",
+    "origin": "<strong>Infernal</strong> comes from Latin <em>infernus</em>, \"of the lower regions,\" describing the underworld ruled by <strong>Pluto</strong> that lay literally beneath the earth the living walked upon. From that grim, subterranean realm the word came to describe anything hellish or, in looser modern speech, simply infuriating enough to seem sent from below.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Infernal</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Latin infernus meant", "b": "\"Of the lower regions\"" },
+          { "a": "Described the underworld ruled by", "b": "Pluto" },
+          { "a": "The underworld was imagined as", "b": "Lying beneath the earth" },
+          { "a": "Word later broadened to mean", "b": "Hellish, or simply infuriating" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Infernal</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Infernal describes", "b": "Something relating to hell or the underworld" },
+          { "a": "Used informally, infernal means", "b": "Extremely annoying" },
+          { "a": "An infernal machine is an old term for", "b": "A dangerous or destructive device" },
+          { "a": "Antonym", "b": "Heavenly or celestial" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Infernal</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The furnace glowed with an", "b": "infernal red light" },
+          { "a": "He cursed the", "b": "infernal printer for jamming again" },
+          { "a": "The painting depicted an", "b": "infernal landscape of fire and smoke" },
+          { "a": "That", "b": "infernal alarm went off three times last night" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Infernus",
+        "rootLanguage": "Latin",
+        "rootMeaning": "The lower regions, home of the underworld",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Latin ", "highlight": false },
+        { "text": "infernus", "highlight": true },
+        { "text": ", \"of the lower regions,\" the underworld realm ruled by Pluto beneath the living earth.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Infernus",
+      "correctAnswer": "The lower regions, home of the underworld",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Sibyl",
+    "pronunciation": "SIB-ul",
+    "pos": "noun",
+    "definition": "A woman regarded as a prophetess or oracle; someone believed to foretell the future.",
+    "origin": "The <strong>Sibyls</strong> were prophetic women scattered across the ancient Mediterranean, believed to be mouthpieces for the gods, and the most famous to Rome was the Sibyl of Cumae, said to have sold Rome's sacred Sibylline Books of prophecy to a king after he refused her price too many times. Roman leaders consulted these guarded books for centuries in times of crisis, and \"sibyl\" became the lasting word for any female prophet.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Sibyl</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Sibyls", "b": "Prophetic women believed to speak for the gods" },
+          { "a": "Most famous to Rome", "b": "The Sibyl of Cumae" },
+          { "a": "She sold Rome", "b": "The sacred Sibylline Books of prophecy" },
+          { "a": "Romans consulted the books", "b": "In times of crisis, for centuries" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Sibyl</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Sibyl describes", "b": "A woman believed to foretell the future" },
+          { "a": "Synonym", "b": "Prophetess or oracle" },
+          { "a": "A modern sibyl figure might be called", "b": "A seer or fortune-teller" },
+          { "a": "Sibylline as an adjective means", "b": "Mysteriously prophetic" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Sibyl</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The old woman was treated in the village like a", "b": "sibyl" },
+          { "a": "The novel's blind narrator spoke in riddles like a", "b": "sibyl" },
+          { "a": "Reporters called the analyst a modern-day", "b": "market sibyl" },
+          { "a": "Her cryptic warning felt like a", "b": "sibyl's prophecy" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Sibyl",
+        "rootLanguage": "Greco-Roman tradition",
+        "rootMeaning": "A prophetic woman who spoke for the gods",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From the ", "highlight": false },
+        { "text": "Sibyl", "highlight": true },
+        { "text": " of Cumae, whose prophetic books Rome consulted for centuries in times of crisis.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Sibyl",
+      "correctAnswer": "A prophetic woman who spoke for the gods",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Volcanic",
+    "pronunciation": "vol-KAN-ik",
+    "pos": "adjective",
+    "definition": "Relating to a volcano, or, figuratively, marked by sudden and explosive intensity of emotion.",
+    "origin": "<strong>Volcanic</strong> comes from <strong>Vulcan</strong>, the Roman god of fire and metalworking, who was believed to forge weapons for the gods in a smoking underground smithy beneath Mount Etna in Sicily. Romans explained the mountain's rumbling and eruptions as the sound of Vulcan's hammer at work, and his name gave Italian, then English, the word for any fire-spewing mountain.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Volcanic</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Vulcan", "b": "Roman god of fire and metalworking" },
+          { "a": "Vulcan forged weapons in a smithy beneath", "b": "Mount Etna, Sicily" },
+          { "a": "Romans explained eruptions as", "b": "The sound of Vulcan's hammer" },
+          { "a": "His name gave Italian, then English", "b": "The word for a fire-spewing mountain" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Volcanic</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Volcanic describes", "b": "Anything relating to a volcano" },
+          { "a": "Figuratively, volcanic describes", "b": "Sudden, explosive emotion" },
+          { "a": "Volcanic rock forms from", "b": "Cooled lava" },
+          { "a": "A \"volcanic temper\" means", "b": "One that erupts suddenly and fiercely" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Volcanic</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The island's black sand beaches came from", "b": "volcanic rock" },
+          { "a": "His temper turned", "b": "volcanic when he read the email" },
+          { "a": "Geologists monitored the", "b": "volcanic activity for weeks" },
+          { "a": "The crowd's cheers reached a", "b": "volcanic roar" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Vulcan",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of fire and metalworking",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Vulcan", "highlight": true },
+        { "text": ", the fire god, whose forge beneath Mount Etna explained the mountain's rumbling eruptions.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Vulcan",
+      "correctAnswer": "God of fire and metalworking",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Pantheon",
+    "pronunciation": "PAN-thee-on",
+    "pos": "noun",
+    "definition": "All the gods of a particular religion collectively, or a group of especially famous or respected people or things.",
+    "origin": "<strong>Pantheon</strong> combines Greek <em>pan</em>, \"all,\" with <em>theos</em>, \"god,\" and named both the full assembly of a religion's deities and the actual Pantheon temple built in Rome around 126 AD to honour them all under one great domed roof. That building's soaring dome still stands nearly two thousand years later, and the word broadened from housing all the gods to describing any celebrated group of greats.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Pantheon</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Greek pan means", "b": "\"All\"" },
+          { "a": "Greek theos means", "b": "\"God\"" },
+          { "a": "The Pantheon temple in Rome was built around", "b": "126 AD" },
+          { "a": "It housed", "b": "All the gods under one great dome" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Pantheon</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Pantheon describes", "b": "All the gods of a religion collectively" },
+          { "a": "By extension, pantheon means", "b": "A celebrated group of greats" },
+          { "a": "\"The pantheon of jazz greats\" refers to", "b": "The most legendary jazz musicians" },
+          { "a": "The Roman Pantheon is famous for its", "b": "Massive unsupported dome" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Pantheon</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "Tourists queued for hours to see the dome of the", "b": "Pantheon in Rome" },
+          { "a": "Critics ranked the film among the", "b": "pantheon of great tragedies" },
+          { "a": "She earned a place in the", "b": "pantheon of pioneering scientists" },
+          { "a": "The museum wing was devoted to the Roman", "b": "pantheon of gods" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Pan + theos",
+        "rootLanguage": "Greek",
+        "rootMeaning": "All + god",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "From Greek ", "highlight": false },
+        { "text": "pan + theos", "highlight": true },
+        { "text": ", \"all gods,\" the name of the domed Roman temple built to honour every deity at once.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Pan + theos",
+      "correctAnswer": "All + god",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  },
+  {
+    "word": "Somnolent",
+    "pronunciation": "SOM-nuh-lent",
+    "pos": "adjective",
+    "definition": "Drowsy or sleepy; tending to induce sleep.",
+    "origin": "<strong>Somnolent</strong> comes from Latin <em>somnus</em>, \"sleep,\" the name also given to <strong>Somnus</strong>, the Roman god of sleep who lived in a dark, silent cave where no rooster crowed and no branch stirred, and whose son Morpheus shaped the dreams of sleepers. From that drowsy god's name Latin built <em>somnolentus</em>, and English kept the word for anything heavy-lidded or sleep-inducing.",
+    "tier": "premium",
+    "packId": "mythology",
+    "subpack": {
+      "id": "mythology-roman",
+      "name": "Roman Myth & Everyday Latin",
+      "packId": "mythology"
+    },
+    "rounds": [
+      {
+        "type": "Etymology",
+        "label": "Round 1 of 3 · Etymology",
+        "context": "Where does <strong>Somnolent</strong> come from? Match each root to its meaning.",
+        "pairs": [
+          { "a": "Somnus", "b": "Roman god of sleep" },
+          { "a": "Somnus lived in", "b": "A dark, silent cave" },
+          { "a": "His son Morpheus", "b": "Shaped the dreams of sleepers" },
+          { "a": "Latin somnus means", "b": "\"Sleep\"" }
+        ]
+      },
+      {
+        "type": "Definition",
+        "label": "Round 2 of 3 · Definition",
+        "context": "What does <strong>Somnolent</strong> mean? Match each clue to the right answer.",
+        "pairs": [
+          { "a": "Somnolent describes", "b": "Something drowsy or sleep-inducing" },
+          { "a": "A somnolent afternoon feels", "b": "Heavy, quiet, and drowsy" },
+          { "a": "Synonym", "b": "Sleepy or drowsy" },
+          { "a": "Antonym", "b": "Alert or wide awake" }
+        ]
+      },
+      {
+        "type": "Usage",
+        "label": "Round 3 of 3 · Usage",
+        "context": "How is <strong>Somnolent</strong> used? Match each fragment to its correct completion.",
+        "pairs": [
+          { "a": "The lecture's monotone voice left the class", "b": "somnolent by the second slide" },
+          { "a": "A", "b": "somnolent hush settled over the village at noon" },
+          { "a": "The warm train carriage made passengers", "b": "somnolent" },
+          { "a": "After the heavy lunch, she felt", "b": "somnolent and slow" }
+        ]
+      }
+    ],
+    "roots": [
+      {
+        "rootText": "Somnus",
+        "rootLanguage": "Roman mythology",
+        "rootMeaning": "God of sleep",
+        "showInIntro": true
+      }
+    ],
+    "introEtymology": {
+      "spans": [
+        { "text": "Named for ", "highlight": false },
+        { "text": "Somnus", "highlight": true },
+        { "text": ", the god of sleep, whose silent cave gave Latin its word for drowsiness.", "highlight": false }
+      ]
+    },
+    "morningTask": {
+      "taskType": "root",
+      "sourceKind": "root",
+      "sourceValue": "Somnus",
+      "correctAnswer": "God of sleep",
+      "hint": "Check the highlighted root in the etymology line.",
+      "generatorVersion": "1"
+    }
+  }
+]
