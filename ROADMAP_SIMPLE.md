@@ -100,6 +100,8 @@ Fixed, prioritized by traffic rather than exhaustively (174 declarations is a lo
 
 ## Later / backlog
 
+- **Privacy Policy + Terms of Service (2026-08-25, launch blocker)** — no document exists anywhere, not hosted, not linked from Settings. App Store/Play Store both require a privacy policy URL to submit, and Zazu collects an account, handles payments, and stores progress data. Wasn't tracked anywhere until now.
+- **Accessibility statement (2026-08-25)** — not a submission blocker but nothing exists; worth writing given the app's own "70-year-old user" readability bar.
 - **Rewarded-video ads** (opt-in coin-earning, capped ~3/day) — the earning-loop half of the 2026-08-09 Coin Economy spec. Not built; still needs an ad SDK choice.
 - Wake-up task passage length is currently always short (one sentence) — add a longer-paragraph option (user-selectable) later, deliberately deferred to keep the content pipeline simple for v1
 - Analytics + crash reporting
