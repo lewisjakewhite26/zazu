@@ -63,8 +63,8 @@ export function SignInScreen() {
         },
         muted: {
           fontFamily: fonts.sans,
-          fontSize: 13,
-          lineHeight: 20,
+          fontSize: 15,
+          lineHeight: 21,
           color: colors.subtext,
           textAlign: 'center',
           marginTop: spacing.sm,

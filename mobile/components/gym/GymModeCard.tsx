@@ -60,8 +60,8 @@ export function GymModeCard({
         },
         description: {
           fontFamily: fonts.sans,
-          fontSize: 13,
-          lineHeight: 18,
+          fontSize: 15,
+          lineHeight: 20,
           color: colors.subtext,
         },
         badge: {

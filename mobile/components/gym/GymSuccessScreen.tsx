@@ -99,8 +99,8 @@ export function GymSuccessScreen() {
         },
         definition: {
           fontFamily: fonts.sans,
-          fontSize: 13,
-          lineHeight: 20,
+          fontSize: 17,
+          lineHeight: 24,
           color: colors.text,
           marginBottom: 8,
         },

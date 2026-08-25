@@ -72,9 +72,9 @@ function createStyles(colors: AppThemeColors) {
     },
     def: {
       fontFamily: fonts.sans,
-      fontSize: 14,
+      fontSize: 17,
       color: colors.text,
-      lineHeight: 22,
+      lineHeight: 24,
       marginBottom: 10,
     },
     cta: {

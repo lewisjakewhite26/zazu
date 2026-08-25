@@ -169,7 +169,8 @@ function createLocalStyles(colors: AppThemeColors) {
     },
     subtitle: {
       fontFamily: fonts.sans,
-      fontSize: 13,
+      fontSize: 15,
+      lineHeight: 20,
       color: colors.subtext,
       marginBottom: spacing.md,
     },
@@ -203,8 +204,8 @@ function createLocalStyles(colors: AppThemeColors) {
     },
     packDescription: {
       fontFamily: fonts.sans,
-      fontSize: 11,
-      lineHeight: 15,
+      fontSize: 15,
+      lineHeight: 20,
       color: colors.subtext,
     },
     packCount: {

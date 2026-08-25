@@ -243,8 +243,8 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         },
         contextText: {
           fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          lineHeight: 19,
+          fontSize: 15,
+          lineHeight: 21,
           color: colors.text,
         },
         excerptLabel: {
@@ -256,8 +256,8 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         },
         excerptText: {
           fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          lineHeight: 20,
+          fontSize: 16,
+          lineHeight: 22,
           color: colors.text,
           fontStyle: 'italic',
         },
@@ -317,8 +317,8 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         },
         hint: {
           fontFamily: typography.btnDemo.fontFamily,
-          fontSize: 13,
-          lineHeight: 19,
+          fontSize: 15,
+          lineHeight: 21,
           color: colors.subtext,
           marginBottom: spacing.sm,
         },
