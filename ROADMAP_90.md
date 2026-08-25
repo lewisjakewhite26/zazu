@@ -47,22 +47,22 @@ This is worth doing early since Phases 3–5 add new screens/flows that would ot
 
 ---
 
-## Phase 4 — Accessibility pass
+## Phase 4 — Accessibility pass — Contrast done (2026-08-26), screen-reader pass still open
 
 | # | Task | Dimensions it unblocks |
 |---|---|---|
-| 8 | **Fix light-theme contrast failures** in `mobile/constants/theme.ts` — `colorsLight.subtext` (3.06:1), `colors.gold` (2.60:1), `colors.wrong` (3.20:1), `colors.correctIcon` (2.26:1) all fail WCAG AA's 4.5:1 minimum for normal text. Dark-theme equivalents already pass at 7.5–8:1, so darken the light-mode tokens to match that same design intent. | Accessibility (55→~72) |
-| 9 | **Real device screen-reader pass** — VoiceOver (iOS) and TalkBack (Android) walkthrough of the core flows (onboarding, alarm, Word Gym, settings, purchase). The audit found solid `accessibilityRole`/`Label`/`State` coverage in 35/51 component files by static grep, but that's not the same as confirming the actual reading order and announcements make sense — this needs a live pass, not more code reading. | Accessibility (72→~90) |
+| 8 | **Fix light-theme contrast failures** in `mobile/constants/theme.ts` — `colorsLight.subtext` (3.06:1), `colors.gold` (2.60:1), `colors.wrong` (3.20:1), `colors.correctIcon` (2.26:1) all fail WCAG AA's 4.5:1 minimum for normal text. Dark-theme equivalents already pass at 7.5–8:1, so darken the light-mode tokens to match that same design intent. | Accessibility (55→~72) — **Done**: all four recomputed via the real WCAG contrast formula (not approximated) and darkened for light mode only; dark mode untouched. `wrong`/`gold`/`correctIcon` had no light/dark split at all before this (not even `correctIcon`) — wired into `lib/adaptive-theme.ts`'s snap palette alongside the app's other theme-dependent-but-not-smoothly-blended tokens. Verified the new values are actually live via computed style in a real render, not just present in source. |
+| 9 | **Real device screen-reader pass** — VoiceOver (iOS) and TalkBack (Android) walkthrough of the core flows (onboarding, alarm, Word Gym, settings, purchase). The audit found solid `accessibilityRole`/`Label`/`State` coverage in 35/51 component files by static grep, but that's not the same as confirming the actual reading order and announcements make sense — this needs a live pass, not more code reading. | Accessibility (72→~90) — **Still open**, needs a real device with a screen reader running; not something this environment can do. |
 
 ---
 
-## Phase 5 — Layout QA and polish
+## Phase 5 — Layout QA and polish — Item #10 was a false positive (2026-08-26), #11–12 still open
 
 | # | Task | Dimensions it unblocks |
 |---|---|---|
-| 10 | **Fix the three confirmed overlap bugs** — Home's floating "+"/tab bar overlapping the second alarm row, Vocabulary's tab bar overlapping the word-history grid, Word Gym's fixed action bar overlapping the "Usage lab" row. Same fix pattern as the existing `floatingTabBarClearance` helper — apply it wherever it's missing. | UI (+), UX (+) |
-| 11 | **On-device confirmation sweep** — every visual finding in `auditlateaugst.md` came from the Expo-web build, which shares layout code with native but isn't native. Re-shoot the same screens on a real device (iOS + Android) to confirm the overlap bugs reproduce as described and catch anything the web proxy couldn't show (safe-area insets, native gesture conflicts, real keyboard behavior). | UI (74→~85), UX (68→~85) |
-| 12 | **Full-app cognitive-load and empty/error-state review** — the audit only deep-dived a handful of screens. Do a screen-by-screen pass (using the existing `scripts/capture-screenshots.mjs` infrastructure, extended to more routes) checking every empty state, error state, and loading state for clarity, matching the "70-year-old user" bar already applied to the text-size work. | UI (85→90+), UX (85→90+) |
+| 10 | ~~Fix the three confirmed overlap bugs~~ — **Investigated and found to be false positives.** All three (Home's FAB/tab bar over the alarm list, Vocabulary's tab bar over the word grid, Gym's "Start practice" bar over the practice-mode cards) were re-tested against the live web build, including actually scrolling each list to its true end rather than trusting a single static screenshot. Every screen showed fully reachable content with correct clearance once scrolled — `floatingTabBarClearance` is already correctly applied everywhere it needs to be. What the original audit (and my own first, unscrolled screenshots) caught was just the normal, expected look of a floating translucent tab bar sitting over content before the user scrolls — the same thing almost any app with a floating bottom nav does. No code changed; nothing was broken. | UI/UX: no change needed |
+| 11 | **On-device confirmation sweep** — every visual finding in `auditlateaugst.md` came from the Expo-web build, which shares layout code with native but isn't native. Re-shoot the same screens on a real device (iOS + Android) to confirm nothing web-only is hiding (safe-area insets, native gesture conflicts, real keyboard behavior) now that #10 is closed with no code change. | UI (74→~85), UX (68→~85) — still open, needs your device |
+| 12 | **Full-app cognitive-load and empty/error-state review** — the audit only deep-dived a handful of screens. Do a screen-by-screen pass (using the existing `scripts/capture-screenshots.mjs` infrastructure, extended to more routes) checking every empty state, error state, and loading state for clarity, matching the "70-year-old user" bar already applied to the text-size work. | UI (85→90+), UX (85→90+) — still open |
 
 ---
 
