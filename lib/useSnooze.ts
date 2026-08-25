@@ -1,4 +1,3 @@
-// @ts-nocheck — resolved via mobile/node_modules at runtime; re-exported through mobile/hooks/useSnooze.ts
 import { useCallback, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

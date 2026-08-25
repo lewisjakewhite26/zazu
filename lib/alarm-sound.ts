@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { Alert, Platform, Vibration } from 'react-native';
 import { createAudioPlayer, preload, setAudioModeAsync, type AudioPlayer } from 'expo-audio';
 import { Asset } from 'expo-asset';
@@ -50,13 +49,14 @@ function getWebAudioContext(): AudioContext | null {
 
 function playWebChime() {
   const context = getWebAudioContext();
-  if (!context || !webGain) return;
+  const gainNode = webGain;
+  if (!context || !gainNode) return;
 
   [[440, 0], [660, 0.3], [440, 1.2], [660, 1.5]].forEach(([freq, delay]) => {
     const oscillator = context.createOscillator();
     const gain = context.createGain();
     oscillator.connect(gain);
-    gain.connect(webGain);
+    gain.connect(gainNode);
     oscillator.type = 'sine';
     oscillator.frequency.value = freq;
     const start = context.currentTime + delay;

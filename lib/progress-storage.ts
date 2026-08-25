@@ -1,4 +1,3 @@
-// @ts-nocheck — AsyncStorage resolved via mobile/node_modules at runtime
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import type { UserWordProgressLocal } from './morning-task';
