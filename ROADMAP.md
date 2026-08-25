@@ -1,6 +1,6 @@
 # Zazu roadmap
 
-Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re-audit (every item below was re-verified against the actual code, not carried forward from prior docs). Updated 2026-08-07 with a feature audit of an old, never-committed laptop copy (Pack Shop, Coin Shop, Gym Modes, Literary Gym Round, Word Reroll, Snooze, FloatingTabBar, AppIcon fallback) — see the new subsection under P3 and [ROADMAP_SIMPLE.md](ROADMAP_SIMPLE.md) for the short version.
+Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re-audit (every item below was re-verified against the actual code, not carried forward from prior docs). Updated 2026-08-07 with a feature audit of an old, never-committed laptop copy (Pack Shop, Coin Shop, Gym Modes, Literary Gym Round, Word Reroll, Snooze, FloatingTabBar, AppIcon fallback) — see the new subsection under P3 and [ROADMAP_SIMPLE.md](ROADMAP_SIMPLE.md) for the short version. Word reroll was dropped 2026-08-25, see the verdict table below.
 
 **Overall score: ~78/100** · Vision-aligned product: ~70/100 · Details in [AUDIT.md](AUDIT.md)
 
@@ -157,7 +157,6 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 28 | Scale word library to 365+ | Done (393 core words) |
 | 29 | Wire Gold calendar toggle to auth/subscription | **Done on mobile** (real entitlement check); web remains a local preview toggle by design |
 | 30 | Cloud progress sync via Supabase Auth | Scaffolded (`user_word_progress` exists); not confirmed wired end-to-end from mobile UI |
-| 46 | Word reroll (pick a different alarm word once/day) | Not started — new idea surfaced by old-copy audit, not previously tracked. Low priority |
 | 47 | Native floating tab bar (blur pill on native, matching the existing web pill) | **Done** — `mobile/components/ui/FloatingTabBar.tsx` ported from the old copy, `AppIcon` swapped for direct `phosphor-react-native` imports (`HouseIcon`/`BarbellIcon`) to match this repo's icon pattern. Now floating on **all** platforms, not just web, so `HomeScreen`/`GymScreen` footer padding was switched from a `Platform.OS === 'web' ? 72 : 0` hack to `floatingTabBarClearance(insets.bottom)`, applied universally. Fixed one bug found during porting: the old copy used `accessibilityRole="button"` on each tab, which is both an accessibility regression (screen readers wouldn't announce it as a tab) and broke this repo's own Playwright screenshot script (`getByRole('tab', ...)` timed out) — changed to `accessibilityRole="tab"`. Verified visually via `scripts/capture-screenshots.mjs` in light + dark on web; `tsc --noEmit` passes. |
 
 ### Word packs, Gym Modes & related — old-copy audit (2026-08-07)
@@ -170,12 +169,12 @@ A never-committed laptop copy of this repo (given to Claude via `C:\Users\lewis\
 | **Literary Gym Round** (quote-completion, contextual definition) | **Rewritten — done, live in Supabase (#48)** | Turned out more involved than sized: the old copy's rounds mix match-pairs (Etymology) with a different MCQ shape (Quote Completion, Contextual Definition) that doesn't fit `word_rounds`/`word_pairs`, and the old screen wired literary rounds directly into the same step-by-step session as the normal puzzle — reworking that shared core wasn't worth the risk. Built as a fully isolated table + dedicated screen instead; migration applied, 270 words seeded, RLS verified both directions, see below. |
 | **FloatingTabBar** (native blur pill tab bar) | **Ported — done (#47)** | Only dependency was `AppIcon` (see below) — swapped for direct `phosphor-react-native` imports. No backend/data dependency. Cheapest real win found, and it was: one bug fixed in the port (`accessibilityRole` was `"button"`, needed `"tab"`), verified visually in both themes. |
 | **Snooze** | **Rewritten — done (#27)** | The old copy's hook was an 8-line empty re-export — nothing to recover. Built fresh from the spec below: 8-minute reschedule, no coin bonus if used, one per calendar day. |
-| **Word reroll** | **Rewrite, low priority** | Not previously tracked; mild tension with "one word, no choice" product framing. Needs a new persisted "reroll used today" state. |
+| **Word reroll** | **Dropped (2026-08-25)** | Undermines the global, date-keyed Word of the Day design — that design specifically fixed a past bug where alarm/home/calendar could disagree on the word, and reroll reintroduces per-user personalization on the same surface. No user demand for it either; it only ever surfaced from an old-copy audit. |
 | **Pack Shop** (8 non-literary packs: Architecture, Eponym, Games, Geography, Law, Music, Mythology, Science) | **Rewritten — done (content complete 2026-08-24)** | All 8 now have full word content (Games 30, the other 7 at 150 apiece) and are live in Supabase — see "Coin Economy & Thematic Word Packs" below. What shipped is the existing Vocabulary tab's Word Packs shelf (`lib/word-packs.ts` + `VocabularyScreen.tsx`/`PackDetailScreen.tsx`), not a port of the old copy's separate Pack Shop screen — same destination, built on this repo's own schema instead of resurrecting dead code. |
 | **Coin Shop** | **Drop for now** | Screen is a literal `PLACEHOLDER_ITEMS` list with "more coming soon" copy — no missing dependency, but nothing to actually ship. Revisit once one real spendable item (streak freeze) exists. |
 | **AppIcon fallback** (Phosphor + `@expo/vector-icons` runtime fallback) | **Drop** | Actively conflicts with #44 (icon migration), which already removed `@expo/vector-icons` from `package.json`. Resurrecting this means re-adding a dependency you deliberately dropped. |
 
-Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. **All four done.** Pack Shop content is also now done (2026-08-24, see above). Word Reroll is still backlog. Coin Shop and AppIcon fallback are not being pursued.
+Safe build order: FloatingTabBar → Gym Modes → Literary Gym Round → Snooze. **All four done.** Pack Shop content is also now done (2026-08-24, see above). Word Reroll, Coin Shop, and AppIcon fallback are not being pursued.
 
 ### Coin Economy & Thematic Word Packs (#16, #17) — built 2026-08-21, content complete 2026-08-24
 
@@ -201,7 +200,6 @@ Questions that need real answers before this gets built, not during:
 - If it replaces: which pack, if a user has more than one unlocked? Chosen how — a setting, rotate through all of them, most-recently-unlocked?
 - Packs are currently flat word lists with no per-day structure (`display_order` exists but nothing consumes it as a rotation index) — what decides which pack word lands on which day, and does it stay stable across app restarts/timezones the way the core rotation does (`dateKeyToDayIndex`)?
 - Do streak/coins/Daily Ritual all work identically off a pack-sourced word, or does personalizing the word source mean rethinking parts of that pipeline too?
-- Interacts directly with the already-tracked "Word reroll" backlog item (`ROADMAP_SIMPLE.md`) — both are "let the user influence which word they get" asks; worth deciding together rather than as two separate features that quietly overlap.
 
 ### Literary Gym Round (#48) — done, live in Supabase
 

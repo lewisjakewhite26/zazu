@@ -102,10 +102,10 @@ Fixed, prioritized by traffic rather than exhaustively (174 declarations is a lo
 
 - **Rewarded-video ads** (opt-in coin-earning, capped ~3/day) — the earning-loop half of the 2026-08-09 Coin Economy spec. Not built; still needs an ad SDK choice.
 - Wake-up task passage length is currently always short (one sentence) — add a longer-paragraph option (user-selectable) later, deliberately deferred to keep the content pipeline simple for v1
-- Word reroll (pick a different alarm word once a day) — in tension with Word of the Day now being a shared, non-personal value; needs a product decision, not just a build
 - Analytics + crash reporting
 
 ## Not doing
 
 - The old copy's icon fallback component — conflicts with the icon migration already shipped
 - Porting the old coin shop screen as-is — it's a placeholder with nothing to buy
+- Word reroll (pick a different alarm word once a day) — undermines the global, date-keyed Word of the Day design that fixed a past alarm/home/calendar disagreement bug; no user demand for it either
