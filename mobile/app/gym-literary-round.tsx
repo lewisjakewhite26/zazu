@@ -1,5 +1,5 @@
-import { GymLiteraryRoundScreen } from '@/components/gym/GymLiteraryRoundScreen';
+import { GymMcqSessionScreen } from '@/components/gym/GymMcqSessionScreen';
 
 export default function GymLiteraryRoundRoute() {
-  return <GymLiteraryRoundScreen />;
+  return <GymMcqSessionScreen />;
 }
