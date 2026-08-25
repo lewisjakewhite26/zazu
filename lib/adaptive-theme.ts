@@ -22,6 +22,9 @@ export type BlendablePalette = {
 };
 
 export type NightSnapPalette = {
+  wrong: string;
+  gold: string;
+  correctIcon: string;
   wotdGradientStart: string;
   wotdGradientEnd: string;
   posBadgeBg: string;
@@ -68,6 +71,9 @@ const DARK_BLEND: BlendablePalette = {
 };
 
 const LIGHT_SNAP: NightSnapPalette = {
+  wrong: colorsLight.wrong,
+  gold: colorsLight.gold,
+  correctIcon: colorsLight.correctIcon,
   wotdGradientStart: 'rgba(249,201,168,0.35)',
   wotdGradientEnd: 'rgba(200,180,232,0.35)',
   posBadgeBg: 'rgba(26,18,37,0.07)',
@@ -86,6 +92,9 @@ const LIGHT_SNAP: NightSnapPalette = {
 };
 
 const DARK_SNAP: NightSnapPalette = {
+  wrong: colorsDark.wrong,
+  gold: colorsDark.gold,
+  correctIcon: colorsDark.correctIcon,
   wotdGradientStart: 'rgba(249,201,168,0.08)',
   wotdGradientEnd: 'rgba(200,180,232,0.08)',
   posBadgeBg: 'rgba(255,255,255,0.08)',

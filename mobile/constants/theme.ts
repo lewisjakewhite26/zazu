@@ -13,8 +13,17 @@ export const colorsLight = {
   ink: '#1a1225',
   muted: '#9080a0',
   correct: '#a8d8b0',
-  wrong: '#e8617a',
-  gold: '#c9963a',
+  /**
+   * wrong/gold/correctIcon: darkened from index.html's original values
+   * (wrong #e8617a, gold #c9963a, correctIcon #5cbd8a) to hit WCAG AA's
+   * 4.5:1 text contrast against light backgrounds -- the originals ran
+   * 2.3-3.2:1 against the dawn/white light-mode surfaces. Dark mode keeps
+   * the original values (colorsDark below), which already pass against
+   * dark surfaces without needing to change.
+   */
+  wrong: '#cf1e3f',
+  gold: '#876425',
+  correctIcon: '#307651',
   white: '#fefcfb',
   card: 'rgba(255,255,255,0.72)',
   /** Lighter, airier glass-card fill/border — GlassCard only, not the shared `border` token. */
@@ -24,12 +33,17 @@ export const colorsLight = {
   bgMid: '#dde8f8',
   bgTo: '#ede0f8',
   text: '#1a1225',
-  subtext: '#9080a0',
+  /** Darkened from index.html's original #9080a0 (3.06:1 against dawn) to hit WCAG AA's 4.5:1. */
+  subtext: '#756486',
   border: 'rgba(26,18,37,0.1)',
 } as const;
 
 /** index.html body.night overrides */
 export const colorsDark = {
+  /** Original index.html values -- already pass WCAG AA against dark surfaces, unlike the light-mode versions above. */
+  wrong: '#e8617a',
+  gold: '#c9963a',
+  correctIcon: '#5cbd8a',
   card: 'rgba(255,255,255,0.11)',
   glassCardFill: 'rgba(255,255,255,0.11)',
   glassCardBorder: 'rgba(255,255,255,0.13)',
@@ -64,7 +78,6 @@ export const colors = {
   primaryButtonBgNight: 'rgba(255,255,255,0.12)',
   /** Toggle thumb shadow */
   toggleThumbShadow: 'rgba(0,0,0,0.15)',
-  correctIcon: '#5cbd8a',
   overlay: 'rgba(26,18,37,0.45)',
   appleButtonBg: '#000000',
   appleButtonText: '#ffffff',
