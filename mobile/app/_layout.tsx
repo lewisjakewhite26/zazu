@@ -18,6 +18,7 @@ import { AuthProvider } from '@/context/AuthContext';
 import { SubscriptionProvider } from '@/context/SubscriptionContext';
 import { AlarmFlowProvider } from '@/context/AlarmFlowContext';
 import { AlarmsProvider } from '@/context/AlarmsContext';
+import { WordLibraryProvider } from '@/context/WordLibraryContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { NotificationBootstrap } from '@/components/NotificationBootstrap';
 import { AppAlertHost } from '@/components/ui/AppAlert';
@@ -87,27 +88,29 @@ export default function RootLayout() {
           <SubscriptionProvider>
             <AlarmFlowProvider>
               <AlarmsProvider>
-                <NotificationBootstrap>
-                  <Stack>
-                    <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-                    <Stack.Screen name="add-alarm" options={{ headerShown: false, presentation: 'modal' }} />
-                    <Stack.Screen name="alarm" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="learn" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="morning-task" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="puzzle" options={{ headerShown: false }} />
-                    <Stack.Screen name="gym-mcq" options={{ headerShown: false }} />
-                    <Stack.Screen name="gym-literary-round" options={{ headerShown: false }} />
-                    <Stack.Screen name="ad" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="success" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="daily-ritual" options={{ headerShown: false }} />
-                    <Stack.Screen name="gym-success" options={{ headerShown: false, gestureEnabled: false }} />
-                    <Stack.Screen name="pack" options={{ headerShown: false }} />
-                    <Stack.Screen name="settings" options={{ headerShown: false, presentation: 'modal' }} />
-                    <Stack.Screen name="gold" options={{ headerShown: false, presentation: 'modal' }} />
-                    <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
-                  </Stack>
-                  <AppAlertHost />
-                </NotificationBootstrap>
+                <WordLibraryProvider>
+                  <NotificationBootstrap>
+                    <Stack>
+                      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+                      <Stack.Screen name="add-alarm" options={{ headerShown: false, presentation: 'modal' }} />
+                      <Stack.Screen name="alarm" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="learn" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="morning-task" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="puzzle" options={{ headerShown: false }} />
+                      <Stack.Screen name="gym-mcq" options={{ headerShown: false }} />
+                      <Stack.Screen name="gym-literary-round" options={{ headerShown: false }} />
+                      <Stack.Screen name="ad" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="success" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="daily-ritual" options={{ headerShown: false }} />
+                      <Stack.Screen name="gym-success" options={{ headerShown: false, gestureEnabled: false }} />
+                      <Stack.Screen name="pack" options={{ headerShown: false }} />
+                      <Stack.Screen name="settings" options={{ headerShown: false, presentation: 'modal' }} />
+                      <Stack.Screen name="gold" options={{ headerShown: false, presentation: 'modal' }} />
+                      <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
+                    </Stack>
+                    <AppAlertHost />
+                  </NotificationBootstrap>
+                </WordLibraryProvider>
               </AlarmsProvider>
             </AlarmFlowProvider>
           </SubscriptionProvider>
