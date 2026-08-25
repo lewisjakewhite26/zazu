@@ -37,4 +37,8 @@ jobs:
 
       - name: Typecheck mobile app
         working-directory: mobile
-        run: npx tsc --noEmit
+        run: npx tsc -p tsconfig.typecheck.json --noEmit
+
+      - name: Run mobile tests
+        working-directory: mobile
+        run: npm test -- --ci
