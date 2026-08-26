@@ -33,9 +33,9 @@ export default function TermsOfService() {
 
           <h2>The service</h2>
           <p>
-            Zazu is a vocabulary alarm clock: it wakes you up and asks you to answer a short
-            word-learning task before the alarm can be dismissed. Some features (extra word packs,
-            unlimited practice) are available as part of a paid &ldquo;Zazu Gold&rdquo; subscription.
+            Zazu is a vocabulary alarm clock. It wakes you up and asks you to answer a short word-learning
+            task before the alarm can be dismissed. Some features, such as extra word packs and unlimited
+            practice, are available as part of a paid &ldquo;Zazu Gold&rdquo; subscription.
           </p>
 
           <h2>Accounts</h2>
@@ -48,17 +48,21 @@ export default function TermsOfService() {
           <h2>Subscriptions and billing</h2>
           <ul>
             <li>
-              Zazu Gold is a subscription purchased through the Apple App Store or Google Play and
-              billed by Apple or Google directly — we never see or store your payment details.
+              <strong>Billing.</strong> Zazu Gold is a subscription purchased through the Apple App Store
+              or Google Play and billed by Apple or Google directly. We never see or store your payment
+              details.
             </li>
             <li>
-              Subscriptions renew automatically until cancelled. You can manage or cancel your
-              subscription at any time in your Apple ID or Google Play account settings.
+              <strong>Renewal.</strong> Subscriptions renew automatically until cancelled. You can manage or
+              cancel your subscription at any time in your Apple ID or Google Play account settings.
             </li>
-            <li>Refunds are handled by Apple or Google according to their own refund policies, not by us directly.</li>
             <li>
-              We use RevenueCat to keep track of which features your subscription unlocks, but
-              Apple/Google remain the merchant of record.
+              <strong>Refunds.</strong> Handled by Apple or Google according to their own refund policies,
+              not by us directly.
+            </li>
+            <li>
+              <strong>RevenueCat.</strong> We use RevenueCat to keep track of which features your
+              subscription unlocks. Apple and Google remain the merchant of record.
             </li>
           </ul>
 
@@ -78,17 +82,18 @@ export default function TermsOfService() {
 
           <h2>Disclaimers</h2>
           <p>
-            Zazu is provided &ldquo;as is&rdquo;. While we work hard to make sure alarms fire reliably, we can&rsquo;t
-            guarantee the app will be error-free or available at all times — for anything safety-critical
-            (medication, appointments you cannot miss), please use a dedicated, redundant alarm method as
-            well. To the fullest extent permitted by law, we are not liable for missed alarms, lost data,
-            or indirect damages arising from your use of the app.
+            Zazu is provided &ldquo;as is&rdquo;. While we work hard to make sure alarms fire reliably, we
+            can&rsquo;t guarantee the app will be error-free or available at all times. For anything
+            safety-critical, such as medication or appointments you cannot miss, please use a dedicated,
+            redundant alarm method as well. To the fullest extent permitted by law, we are not liable for
+            missed alarms, lost data, or indirect damages arising from your use of the app.
           </p>
 
           <h2>Termination</h2>
           <p>
-            You can stop using Zazu and delete your account at any time (Settings → Delete account, or by
-            emailing us). We may suspend or terminate your access if you materially breach these terms.
+            You can stop using Zazu and delete your account at any time (<strong>Settings → Delete
+            account</strong>, or by emailing us). We may suspend or terminate your access if you materially
+            breach these terms.
           </p>
 
           <h2>Changes to these terms</h2>

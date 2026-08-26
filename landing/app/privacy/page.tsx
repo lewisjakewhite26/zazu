@@ -34,37 +34,37 @@ export default function PrivacyPolicy() {
           <p>Zazu is a vocabulary alarm clock app. Depending on how you use it, we collect:</p>
           <ul>
             <li>
-              <strong>Account identity</strong> — if you sign in with Apple or Google, we receive your name
+              <strong>Account identity.</strong> If you sign in with Apple or Google, we receive your name
               and email address from that provider, via our authentication provider Supabase, so we can
               create and secure your account.
             </li>
             <li>
-              <strong>Learning progress</strong> — your streak, coins, and word-mastery history, so your
-              progress is saved and can sync across devices. If you use the app as a guest without signing
-              in, this is instead stored only on your device and never sent to us.
+              <strong>Learning progress.</strong> We store your streak, coins, and word-mastery history so
+              your progress is saved and can sync across devices. If you use the app as a guest without
+              signing in, this is instead stored only on your device and never sent to us.
             </li>
             <li>
-              <strong>Subscription status</strong> — if you purchase Zazu Gold, our subscription provider
-              RevenueCat tells us your entitlement status (e.g. &ldquo;active Gold subscriber&rdquo;) so the app can
-              unlock the right features. Billing itself is handled entirely by the Apple App Store or
-              Google Play — we never see or store your payment card details.
+              <strong>Subscription status.</strong> If you purchase Zazu Gold, our subscription provider
+              RevenueCat tells us your entitlement status (e.g. &ldquo;active Gold subscriber&rdquo;) so the
+              app can unlock the right features. Billing itself is handled entirely by the Apple App Store
+              or Google Play. We never see or store your payment card details.
             </li>
           </ul>
 
           <h2>What we don&rsquo;t collect</h2>
           <p>
             Zazu does not use advertising networks, analytics SDKs, or any third-party tracking or
-            crash-reporting tools. We don&rsquo;t sell or share your data with advertisers, because there aren&rsquo;t
-            any in this app.
+            crash-reporting tools. We don&rsquo;t sell or share your data with advertisers, because there
+            aren&rsquo;t any in this app.
           </p>
 
           <h2>Who we share data with</h2>
           <p>We use a small number of service providers to run Zazu, each acting only on our instructions:</p>
           <ul>
-            <li><strong>Supabase</strong> — hosts our database and handles sign-in.</li>
-            <li><strong>RevenueCat</strong> — manages subscription entitlements.</li>
+            <li><strong>Supabase.</strong> Hosts our database and handles sign-in.</li>
+            <li><strong>RevenueCat.</strong> Manages subscription entitlements.</li>
             <li>
-              <strong>Apple / Google</strong> — process sign-in and, where applicable, subscription
+              <strong>Apple and Google.</strong> Process sign-in and, where applicable, subscription
               payments through the App Store or Google Play.
             </li>
           </ul>
@@ -92,8 +92,8 @@ export default function PrivacyPolicy() {
           <h2>Data retention</h2>
           <p>
             We keep your account data for as long as your account is active. If you delete your account,
-            your data is permanently removed from our systems (subscription records may be retained by
-            Apple/Google/RevenueCat per their own policies, outside our control).
+            your data is permanently removed from our systems. Subscription records may be retained by
+            Apple, Google, or RevenueCat per their own policies, outside our control.
           </p>
 
           <h2>Children&rsquo;s privacy</h2>
@@ -105,8 +105,8 @@ export default function PrivacyPolicy() {
 
           <h2>Changes to this policy</h2>
           <p>
-            If we make material changes to this policy, we&rsquo;ll update the &ldquo;Last updated&rdquo; date above
-            and, where appropriate, notify you in the app.
+            If we make material changes to this policy, we&rsquo;ll update the &ldquo;Last updated&rdquo; date
+            above and, where appropriate, notify you in the app.
           </p>
 
           <h2>Contact</h2>
