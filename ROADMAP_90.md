@@ -15,15 +15,15 @@ Target: every dimension in the late-August audit at 90+/100. Current composite i
 
 ---
 
-## Phase 1 — Fix the three confirmed blockers
+## Phase 1 — Fix the three confirmed blockers — Done (2026-08-26)
 
 These are launch-blocking on their own, and two of them also anchor a dimension score (Security, Monetisation) that can't hit 90 while they're open.
 
 | # | Task | Dimensions it unblocks |
 |---|---|---|
-| 1 | **Account deletion** — Settings → "Delete account" action + a Supabase RPC/edge function that removes/anonymizes rows across `user_entitlements`, `user_word_progress`, `auth.users`. No in-app deletion flow today is a known App Store/Play Store rejection reason. | Security (70→~78) |
-| 2 | **Fix the post-purchase error** — stop calling `upsertUserEntitlement()` from `SubscriptionContext.tsx`'s purchase path in production (it unconditionally throws there by design); set local entitlement state optimistically from the RevenueCat result and let the webhook reconcile it. Currently a paying user sees an error message at the moment of conversion. | Security (+), Monetisation (54→~66) |
-| 3 | **Harden Google Sign-In** — gate `Google.useIdTokenAuthRequest` behind `googleConfig.isConfigured` in `SignInScreen.tsx`, matching the existing `isAppleSignInAvailable()` pattern in the same file. Not currently broken (client IDs are set and EAS-synced), but this project has had two documented EAS-env-drift incidents already, and this path has zero fallback — an instant crash screen instead of a degraded state. | Security (+) |
+| 1 | **Account deletion** — Settings → "Delete account" action + a Supabase RPC/edge function that removes/anonymizes rows across `user_entitlements`, `user_word_progress`, `auth.users`. No in-app deletion flow today is a known App Store/Play Store rejection reason. | Security (70→~78) — **Done**: Settings UI + confirm dialog wired through `AuthContext.deleteAccount`, backed by `supabase/functions/delete-account` (resolves the caller's own user id from their session token, calls `auth.admin.deleteUser`; `user_word_progress`/`user_entitlements` cascade-delete). Deployed and smoke-tested (401 on an unauthenticated call, as expected). |
+| 2 | **Fix the post-purchase error** — stop calling `upsertUserEntitlement()` from `SubscriptionContext.tsx`'s purchase path in production (it unconditionally throws there by design); set local entitlement state optimistically from the RevenueCat result and let the webhook reconcile it. Currently a paying user sees an error message at the moment of conversion. | Security (+), Monetisation (54→~66) — **Done**: `purchaseGold`/`restorePurchases`/`refreshEntitlement` now only call `upsertUserEntitlement` in `__DEV__`; production sets local state optimistically. `GoldPaywallScreen.handlePurchase`'s existing `router.back()` on success now actually runs. |
+| 3 | **Harden Google Sign-In** — gate `Google.useIdTokenAuthRequest` behind `googleConfig.isConfigured` in `SignInScreen.tsx`, matching the existing `isAppleSignInAvailable()` pattern in the same file. Not currently broken (client IDs are set and EAS-synced), but this project has had two documented EAS-env-drift incidents already, and this path has zero fallback — an instant crash screen instead of a degraded state. | Security (+) — **Done**: the hook itself can't be called conditionally (rules of hooks), so instead `Google.useIdTokenAuthRequest` now always receives a defined client ID (real value or a `GOOGLE_CLIENT_ID_FALLBACK` placeholder) — a missing/drifted EAS env var can no longer throw synchronously during render. `googleConfig.isConfigured` still keeps the button disabled/inert either way. |
 
 ---
 
