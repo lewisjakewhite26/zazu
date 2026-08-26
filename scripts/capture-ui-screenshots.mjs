@@ -1,11 +1,9 @@
 /**
- * Capture Expo web + HTML prototype screenshots at desktop and mobile viewports.
+ * Capture Expo web screenshots at desktop and mobile viewports.
  * Usage: node scripts/capture-ui-screenshots.mjs
  * Requires: dev server on EXPO_PORT (default 8087), npx playwright
  */
 import { chromium, devices } from 'playwright';
-import { createServer } from 'node:http';
-import { readFileSync } from 'node:fs';
 import { mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -17,20 +15,6 @@ const EXPO_BASE = process.env.EXPO_PORT
   : 'http://localhost:8087';
 
 mkdirSync(OUT, { recursive: true });
-
-function startStaticServer(filePath) {
-  const html = readFileSync(filePath);
-  return new Promise((resolve) => {
-    const server = createServer((_req, res) => {
-      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-      res.end(html);
-    });
-    server.listen(0, '127.0.0.1', () => {
-      const { port } = server.address();
-      resolve({ server, url: `http://127.0.0.1:${port}/` });
-    });
-  });
-}
 
 async function gotoApp(page, path = '/') {
   await page.goto(`${EXPO_BASE}${path}`, {
@@ -149,36 +133,6 @@ async function captureExpo(context, folder) {
   await page.close();
 }
 
-async function capturePrototype(context, folder, baseUrl) {
-  const page = await context.newPage();
-  console.log(`\nPrototype → ${folder}`);
-
-  const screens = [
-    ['01-home', 'screenHome'],
-    ['02-alarm', 'screenAlarm'],
-    ['03-learn', 'screenLearn'],
-    ['04-morning-task', 'screenMorningTask'],
-    ['05-puzzle', 'screenPuzzle'],
-    ['06-ad', 'screenAd'],
-    ['07-success', 'screenSuccess'],
-  ];
-
-  await page.goto(baseUrl);
-  await waitForApp(page, 1500);
-
-  for (const [name, id] of screens) {
-    await page.evaluate((screenId) => {
-      if (typeof window.showScreen === 'function') {
-        window.showScreen(screenId);
-      }
-    }, id);
-    await waitForApp(page, 800);
-    await shot(page, folder, name);
-  }
-
-  await page.close();
-}
-
 async function main() {
   const scope = process.env.SCOPE ?? 'all';
   console.log(`Expo base: ${EXPO_BASE}`);
@@ -195,8 +149,6 @@ async function main() {
     defaultNavigationTimeout: 120000,
   });
 
-  const proto = scope === 'all' ? await startStaticServer(join(ROOT, 'index.html')) : null;
-
   try {
     if (scope === 'all' || scope === 'expo-desktop') {
       await captureExpo(desktop, 'expo-web-desktop');
@@ -204,12 +156,7 @@ async function main() {
     if (scope === 'all' || scope === 'expo-mobile') {
       await captureExpo(mobile, 'expo-web-mobile');
     }
-    if (scope === 'all' && proto) {
-      await capturePrototype(desktop, 'prototype-desktop', proto.url);
-      await capturePrototype(mobile, 'prototype-mobile', proto.url);
-    }
   } finally {
-    proto?.server.close();
     await browser.close();
   }
 

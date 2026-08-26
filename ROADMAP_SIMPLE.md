@@ -100,8 +100,11 @@ Fixed, prioritized by traffic rather than exhaustively (174 declarations is a lo
 
 ## Later / backlog
 
-- **Privacy Policy + Terms of Service (2026-08-25, launch blocker)** — no document exists anywhere, not hosted, not linked from Settings. App Store/Play Store both require a privacy policy URL to submit, and Zazu collects an account, handles payments, and stores progress data. Wasn't tracked anywhere until now.
-- **Accessibility statement (2026-08-25)** — not a submission blocker but nothing exists; worth writing given the app's own "70-year-old user" readability bar.
+- ~~**Privacy Policy + Terms of Service**~~ — **done 2026-08-26**: `/privacy` and `/terms` routes in `landing/`, hosted at `zazu.org.uk`, linked from a new "Legal" section in mobile Settings.
+- ~~**Accessibility statement**~~ — **done 2026-08-26**: `/accessibility` route in `landing/`, same hosting/linking.
+- **Set up `support@zazu.org.uk`** (2026-08-26) — the legal docs above list this as the contact address but the mailbox doesn't exist yet; needs the user's own domain/email host access.
+- **Removed the legacy static-web prototype (2026-08-26)** — `index.html`'s app screens, the 8 `lib/*-web.js` browser-only helpers, PWA assets (`manifest.webmanifest`, `sw.js`, icons), and the two build scripts that only supported them (`generate-public-config.mjs`, `normalize-word-copy.mjs`) are gone. It wasn't shipped, wasn't in the App/Play Store listing, and had drifted out of sync with the mobile app's real game logic.
+- **Merged the `zazulanding` repo in as `landing/` (2026-08-26)** — a separately-built Next.js marketing site (already 95/100 on its own internal audit) that `zazu.org.uk` already pointed at. Superseded the root static-site scaffolding entirely: `vercel.json`, `scripts/vercel-build.mjs`, and the plain-HTML `privacy.html`/`terms.html`/`accessibility.html` are all gone, replaced by `landing/app/{privacy,terms,accessibility}/page.tsx` (real content, not the placeholder boilerplate the repo shipped with) styled to match the landing site's own design system. **Manual step still needed**: point the Vercel project that owns `zazu.org.uk` at this `zazu` repo with **Root Directory: `landing`**, instead of the old standalone `zazulanding` repo.
 - **Rewarded-video ads** (opt-in coin-earning, capped ~3/day) — the earning-loop half of the 2026-08-09 Coin Economy spec. Not built; still needs an ad SDK choice.
 - Wake-up task passage length is currently always short (one sentence) — add a longer-paragraph option (user-selectable) later, deliberately deferred to keep the content pipeline simple for v1
 - Analytics + crash reporting

@@ -14,7 +14,6 @@ npm install
 npm run words:morning-tasks    # generate morningTask blocks in zazu-words.json
 npm run seed:dry               # validate JSON + morning tasks
 npm run seed                   # upload words, roots, gym rounds, morning tasks, distractors
-npm run config                 # write public/config.js for zazu.html
 ```
 
 ## Keys

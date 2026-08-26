@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+@theme {
+  --color-peach: #f9c9a8;
+  --color-blush: #f0a0bc;
+  --color-lavender: #c8b4e8;
+  --color-ink: #2c1f2e;
+  --color-subtext: #6a5c78;
+  --color-gold: #c9963a;
+  --color-white: #fefcfb;
+  --color-correct: #a8d8b0;
+
+  --font-serif: var(--font-boska);
+  --font-sans: var(--font-satoshi);
+}
+
+:root {
+  --peach: #f9c9a8;
+  --blush: #f0a0bc;
+  --lavender: #c8b4e8;
+  --ink: #2c1f2e;
+  --subtext: #6a5c78;
+  --gold: #c9963a;
+  --white: #fefcfb;
+  --correct: #a8d8b0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  color: var(--ink);
+  background-color: var(--white);
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+/* Utilities */
+.dawn-gradient {
+  background: linear-gradient(160deg, #c8b4e8 0%, #f0a0bc 50%, #f9c9a8 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(160deg, #f9c9a8 0%, #c9963a 60%, #f0a0bc 100%);
+}
+
+/* Base Glass Card */
+.glass-card {
+  background: rgba(254, 252, 251, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(44, 31, 46, 0.05);
+  box-shadow: 0 4px 16px rgba(44, 31, 46, 0.04), 0 16px 48px rgba(44, 31, 46, 0.06);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Raised Glass Card (Hover State or High-Value Element) */
+.glass-card--raised,
+.glass-card:hover {
+  box-shadow: 0 8px 24px rgba(44, 31, 46, 0.06), 0 32px 80px rgba(44, 31, 46, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Boska — expressive, high-contrast display serif */
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h1.font-serif,
+h2.font-serif {
+  letter-spacing: -0.02em;
+}
+
+/* Marquee animations */
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee-left {
+  animation: marquee-left 40s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-right {
+  animation: marquee-right 40s linear infinite;
+  will-change: transform;
+}
+
+.pause-on-hover:hover {
+  animation-play-state: paused;
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+@keyframes gradientShift {
+  /* Lively diagonal sweep while the intro is alive... */
+  0% {
+    background-position: 0% 20%;
+    animation-timing-function: ease-in-out;
+  }
+  45% {
+    background-position: 100% 80%;
+    /* ...then decelerate gracefully (no abrupt cut) into the resting frame */
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  /* Settle on a neutral, centred position and hold it via animation-fill-mode: forwards */
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #e4d2f5 0%,
+    #d9b8ec 12%,
+    #f0a0bc 30%,
+    #f9c9a8 45%,
+    #fde8d8 58%,
+    #e8c4f0 72%,
+    #c8b4e8 86%,
+    #b9a0e6 100%
+  );
+  background-size: 360% 360%;
+  /* Runs once over ~11s (alive during the intro), then settles and holds the final frame.
+     Per-keyframe timing functions handle the easing, so the base is linear.
+     Settling stops the perpetual repaint that was inflating Speed Index. */
+  animation: gradientShift 11s linear 1 forwards;
+}
+
+.section-padding {
+  padding: clamp(80px, 12vw, 160px) clamp(24px, 8vw, 120px);
+}
+
+
+/* Bespoke keyboard focus — never the browser default */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* The skip-link target is focused programmatically — no ring needed on the container itself */
+#main:focus,
+#main:focus-visible {
+  outline: none;
+}
+
+/* Skip to content — visually hidden until keyboard focus */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 16px;
+  z-index: 200;
+  transform: translateY(-120%);
+  background: var(--ink);
+  color: var(--white);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 0 0 999px 999px;
+  box-shadow: 0 8px 24px rgba(44, 31, 46, 0.18);
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (pointer: fine) {
+  body,
+  a,
+  button,
+  .glass-card {
+    cursor: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hero-gradient {
+    animation: none;
+    background: linear-gradient(160deg, #ede0f8 0%, #f0a0bc 40%, #f9c9a8 100%);
+    background-size: 100% 100%;
+  }
+}
+

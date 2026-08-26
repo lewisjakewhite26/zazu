@@ -26,6 +26,7 @@ Thumbs.db
 
 # Supabase local
 .supabase/
+supabase/.temp/
 
 # impeccable skill critique logs
 .impeccable/

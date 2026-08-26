@@ -4,8 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "config": "node scripts/generate-public-config.mjs",
-    "vercel-build": "node scripts/vercel-build.mjs",
     "seed": "node scripts/seed-words.mjs",
     "seed:dry": "node scripts/seed-words.mjs --dry-run",
     "seed:literary:dry": "node scripts/seed-literary-words.mjs",
@@ -14,7 +12,6 @@
     "seed:packs": "node scripts/seed-word-packs.mjs --apply",
     "words:morning-tasks": "node scripts/generate-morning-tasks.mjs",
     "words:morning-tasks:check": "node scripts/generate-morning-tasks.mjs --check",
-    "words:normalize": "node scripts/normalize-word-copy.mjs",
     "sounds:alarm-chime": "node scripts/generate-alarm-chime.mjs",
     "db:push": "echo Run supabase/migrations/001_create_words_schema.sql in the Supabase SQL Editor, or use: npx supabase db push",
     "test": "vitest run",
