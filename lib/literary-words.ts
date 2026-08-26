@@ -1,5 +1,6 @@
 import { getSupabase } from './supabase';
 import { stripHtml } from './puzzle-utils';
+import { shuffle } from './shuffle';
 
 export type LiteraryMatchRound = {
   type: 'Etymology';
@@ -115,15 +116,6 @@ export async function fetchLiteraryWords(): Promise<LiteraryWord[]> {
     console.error('[Zazu] Literary word fetch failed:', error instanceof Error ? error.message : error);
     return [];
   }
-}
-
-function shuffle<T>(items: T[]): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
 }
 
 const ROUND_TITLES: Record<LiteraryMcqRound['type'], string> = {

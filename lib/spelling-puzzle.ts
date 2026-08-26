@@ -4,6 +4,8 @@
  * correctness. No React/RN imports, so it can be unit tested directly.
  */
 
+import { shuffle } from './shuffle';
+
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz';
 
 export type SlotSpec = {
@@ -22,15 +24,6 @@ export type LetterBank = {
   slots: SlotSpec[];
   bankLetters: BankLetter[];
 };
-
-function shuffle<T>(items: T[]): T[] {
-  const result = [...items];
-  for (let i = result.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
 
 function randomLetter(): string {
   return ALPHABET[Math.floor(Math.random() * ALPHABET.length)];

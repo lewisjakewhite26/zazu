@@ -5,6 +5,7 @@
  */
 import type { WordRound, ZazuGymWord } from './supabase';
 import type { UserWordProgressLocal } from './morning-task';
+import { shuffle } from './shuffle';
 
 export type GymMcqQuestion = {
   wordId: string;
@@ -20,15 +21,6 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 
 const DRILL_QUESTION_COUNT = 5;
 const DRILL_OPTION_COUNT = 3;
-
-function shuffle<T>(items: T[]): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
 
 function sample<T>(items: T[], count: number): T[] {
   return shuffle(items).slice(0, count);

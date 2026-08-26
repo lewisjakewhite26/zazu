@@ -7,17 +7,9 @@
 import type { GymMcqQuestion } from './gym-modes';
 import { buildRootsDrillQuestions, buildUsageLabQuestions } from './gym-modes';
 import type { ZazuAlarmWord, ZazuGymWord } from './supabase';
+import { shuffle } from './shuffle';
 
 const DEFINITION_OPTION_COUNT = 3;
-
-function shuffle<T>(items: T[]): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
 
 /** "What does [word] mean?" -- distractors sampled from other words' definitions, same pattern gym-modes.ts already uses. */
 function buildDefinitionQuestion(

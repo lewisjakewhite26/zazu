@@ -1,4 +1,7 @@
 import type { WordPair } from './supabase';
+import { shuffle } from './shuffle';
+
+export { shuffle };
 
 export type PuzzleTileData = {
   id: string;
@@ -10,15 +13,6 @@ export type PuzzleTileData = {
 export type PuzzleTileState = PuzzleTileData & {
   state: 'idle' | 'selected' | 'correct' | 'wrong' | 'gone';
 };
-
-export function shuffle<T>(items: T[]): T[] {
-  const copy = items.slice();
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
 
 export function buildBoardTiles(pairs: WordPair[]): PuzzleTileData[] {
   const aItems = shuffle(

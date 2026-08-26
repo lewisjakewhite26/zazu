@@ -1,6 +1,7 @@
 /**
  * Morning task types, question templates, and distractor sampling.
  */
+import { shuffle } from './shuffle';
 
 export type MorningTaskType = 'root' | 'definition' | 'etymology';
 
@@ -146,11 +147,7 @@ export function buildMorningOptions(
     options.push(task.correctAnswer);
   }
 
-  const shuffled = [...options.slice(0, optionCount)];
-  for (let i = shuffled.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
+  const shuffled = shuffle(options.slice(0, optionCount));
 
   const correctIndex = shuffled.findIndex(
     (opt) => normaliseAnswer(opt) === normaliseAnswer(task.correctAnswer),
