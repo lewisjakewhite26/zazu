@@ -36,6 +36,13 @@ function createStyles(colors: AppThemeColors) {
       textAlign: 'center',
       marginTop: spacing.xl,
     },
+    retryLink: {
+      fontFamily: fonts.sansMedium,
+      fontSize: 14,
+      color: colors.gold,
+      textAlign: 'center',
+      marginTop: spacing.sm,
+    },
     listContent: {
       paddingVertical: spacing.md,
     },
@@ -68,7 +75,9 @@ export function PackDetailScreen() {
   const { colors } = useTheme();
   const [loading, setLoading] = useState(true);
   const [words, setWords] = useState<PackWord[]>([]);
+  const [failed, setFailed] = useState(false);
   const [selected, setSelected] = useState<PackWord | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   const pack = useMemo(() => WORD_PACKS.find((p) => p.id === packId) ?? null, [packId]);
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -79,13 +88,14 @@ export function PackDetailScreen() {
     setLoading(true);
     fetchPackWords(packId).then((result) => {
       if (cancelled) return;
-      setWords(result);
+      setWords(result.words);
+      setFailed(result.failed);
       setLoading(false);
     });
     return () => {
       cancelled = true;
     };
-  }, [packId]);
+  }, [packId, retryCount]);
 
   return (
     <GradientBackground>
@@ -101,6 +111,13 @@ export function PackDetailScreen() {
             <View style={styles.loadingWrap}>
               <ActivityIndicator color={colors.text} />
             </View>
+          ) : failed ? (
+            <>
+              <Text style={styles.empty}>{copy.vocabulary.loadFailed}</Text>
+              <Pressable onPress={() => setRetryCount((count) => count + 1)} accessibilityRole="button">
+                <Text style={styles.retryLink}>{copy.vocabulary.retry}</Text>
+              </Pressable>
+            </>
           ) : words.length === 0 ? (
             <Text style={styles.empty}>{copy.vocabulary.empty}</Text>
           ) : (

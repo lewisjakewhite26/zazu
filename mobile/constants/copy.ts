@@ -12,6 +12,7 @@ export const copy = {
       'Could not load words from the cloud. Using the built-in library for now.',
     wordLibraryRetry: 'Try again',
     yourAlarms: 'Your alarms',
+    noAlarmsYet: 'No alarms yet. Tap + to set your first one.',
     addAlarm: '+ Add alarm',
     tryTheAlarm: 'Try the alarm',
     dayStreak: 'day streak',
@@ -102,6 +103,7 @@ export const copy = {
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
     accessibilityStatement: 'Accessibility statement',
+    linkOpenFailed: 'Couldn\'t open that link.',
     themeAuto: 'Theme: Auto (Dawn/Dusk)',
     themeLight: 'Theme: Light',
     themeDark: 'Theme: Dark',
@@ -124,6 +126,8 @@ export const copy = {
     setupRequired: 'Purchases are not configured in this build.',
     alreadyGold: 'You\'re on Gold',
     alreadyGoldSub: 'Thanks for supporting Zazu.',
+    entitlementCheckFailed: 'Couldn\'t check your Gold status.',
+    retry: 'Try again',
   },
   success: {
     heading: "You're up.",
@@ -268,5 +272,7 @@ export const copy = {
     packWordCount: (n: number) => `${n} word${n === 1 ? '' : 's'}`,
     openInGym: 'Open in Word Gym',
     empty: 'No words in this pack yet.',
+    loadFailed: 'Couldn\'t load these words.',
+    retry: 'Try again',
   },
 } as const;

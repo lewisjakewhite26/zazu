@@ -123,6 +123,12 @@ export function SettingsScreen() {
 
   const themeValueLabel = THEME_OPTIONS.find((option) => option.value === override)?.label ?? '';
 
+  const openLegalLink = (url: string) => {
+    Linking.openURL(url).catch(() => {
+      Alert.alert(copy.settings.linkOpenFailed);
+    });
+  };
+
   const confirmDeleteAccount = () => {
     Alert.alert(
       copy.settings.deleteAccountConfirmTitle,
@@ -410,21 +416,21 @@ export function SettingsScreen() {
               <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
                 <SettingsRow
                   label={copy.settings.privacyPolicy}
-                  onPress={() => void Linking.openURL(LEGAL_URLS.privacy)}
+                  onPress={() => openLegalLink(LEGAL_URLS.privacy)}
                   showChevron
                   colors={colors}
                 />
                 <Divider style={styles.divider} />
                 <SettingsRow
                   label={copy.settings.termsOfService}
-                  onPress={() => void Linking.openURL(LEGAL_URLS.terms)}
+                  onPress={() => openLegalLink(LEGAL_URLS.terms)}
                   showChevron
                   colors={colors}
                 />
                 <Divider style={styles.divider} />
                 <SettingsRow
                   label={copy.settings.accessibilityStatement}
-                  onPress={() => void Linking.openURL(LEGAL_URLS.accessibility)}
+                  onPress={() => openLegalLink(LEGAL_URLS.accessibility)}
                   showChevron
                   colors={colors}
                 />

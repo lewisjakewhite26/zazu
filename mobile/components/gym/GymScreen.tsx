@@ -11,6 +11,7 @@ import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HomeHeader } from '@/components/home/HomeHeader';
+import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
 import { Divider } from '@/components/ui/Divider';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
@@ -46,7 +47,14 @@ export function GymScreen() {
   const { isGold, loading: subscriptionLoading } = useSubscription();
   const { loading: progressLoading, streak, coins, learnedWordIds, getGymMastery, wordProgress } =
     useProgress();
-  const { loading: wordsLoading, gymWordOfDay, gymWords } = useWordLibrary();
+  const {
+    loading: wordsLoading,
+    fetchFailed: wordsFetchFailed,
+    retry: retryWordLibrary,
+    retrying: wordsRetrying,
+    gymWordOfDay,
+    gymWords,
+  } = useWordLibrary();
   const { literaryWords } = useLiteraryWords(isGold);
 
   const styles = useMemo(
@@ -251,6 +259,10 @@ export function GymScreen() {
             contentContainerStyle={styles.scrollContent}
             showsVerticalScrollIndicator={false}
           >
+            {wordsFetchFailed ? (
+              <WordLibraryErrorBanner onRetry={retryWordLibrary} retrying={wordsRetrying} />
+            ) : null}
+
             <View style={styles.heroIcon}>
               <BarbellIcon size={28} color={colors.ink} />
             </View>

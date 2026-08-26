@@ -53,10 +53,16 @@ function mapRow(row: PackWordRow): PackWord {
   };
 }
 
-/** RLS-gated the same as the main word bank -- every pack word is tier='premium', so this returns [] for free users, guests, or if Supabase isn't configured. */
-export async function fetchPackWords(packId: string): Promise<PackWord[]> {
+export type PackWordsResult = {
+  words: PackWord[];
+  /** True only when the fetch itself failed -- lets the caller tell "empty pack" from "couldn't load". */
+  failed: boolean;
+};
+
+/** RLS-gated the same as the main word bank -- every pack word is tier='premium', so this returns [] for free users, guests, or if Supabase isn't configured (not a failure in those cases). */
+export async function fetchPackWords(packId: string): Promise<PackWordsResult> {
   const supabase = getSupabase();
-  if (!supabase) return [];
+  if (!supabase) return { words: [], failed: false };
 
   try {
     const { data, error } = await withTimeout(
@@ -67,12 +73,12 @@ export async function fetchPackWords(packId: string): Promise<PackWord[]> {
 
     if (error) {
       console.error('[Zazu] Pack word fetch failed:', error.message);
-      return [];
+      return { words: [], failed: true };
     }
 
-    return (data ?? []).map((row: PackWordRow) => mapRow(row));
+    return { words: (data ?? []).map((row: PackWordRow) => mapRow(row)), failed: false };
   } catch (error) {
     console.error('[Zazu] Pack word fetch failed:', error instanceof Error ? error.message : error);
-    return [];
+    return { words: [], failed: true };
   }
 }

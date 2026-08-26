@@ -7,6 +7,8 @@ export type SubscriptionContextValue = {
   tier: SubscriptionTier;
   isGold: boolean;
   entitlement: UserEntitlement | null;
+  /** True if the last entitlement fetch threw (network/Supabase failure) rather than just returning free tier. */
+  entitlementError: boolean;
   revenueCatReady: boolean;
   devGoldPreview: boolean | null;
   setDevGoldPreview: (value: boolean | null) => void;

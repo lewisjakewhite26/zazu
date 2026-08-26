@@ -40,12 +40,14 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
   const { user, session, isAnonymous } = useAuth();
   const [loading, setLoading] = useState(true);
   const [entitlement, setEntitlement] = useState<UserEntitlement | null>(null);
+  const [entitlementError, setEntitlementError] = useState(false);
   const [revenueCatReady, setRevenueCatReady] = useState(false);
   const [devGoldPreview, setDevGoldPreview] = useState<boolean | null>(null);
 
   const refreshEntitlement = useCallback(async () => {
     if (!user || isAnonymous) {
       setEntitlement(FREE_ENTITLEMENT);
+      setEntitlementError(false);
       setLoading(false);
       return;
     }
@@ -72,6 +74,13 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
       }
 
       setEntitlement(next);
+      setEntitlementError(false);
+    } catch (error) {
+      // Keep whatever entitlement was last known (don't silently demote a real
+      // Gold user to free just because this one check failed) and surface the
+      // failure instead of pretending everything's fine.
+      console.warn('[Subscription] refreshEntitlement failed:', error);
+      setEntitlementError(true);
     } finally {
       setLoading(false);
     }
@@ -176,6 +185,7 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
       tier,
       isGold,
       entitlement,
+      entitlementError,
       revenueCatReady,
       devGoldPreview,
       setDevGoldPreview,
@@ -188,6 +198,7 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
       loading,
       tier,
       isGold,
+      entitlementError,
       entitlement,
       revenueCatReady,
       devGoldPreview,

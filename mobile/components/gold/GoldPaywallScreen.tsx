@@ -37,7 +37,8 @@ export function GoldPaywallScreen() {
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
   const { session, isAnonymous, goToSignIn } = useAuth();
-  const { isGold, purchaseGold, restorePurchases, revenueCatReady, loading } = useSubscription();
+  const { isGold, purchaseGold, restorePurchases, revenueCatReady, loading, entitlementError, refreshEntitlement } =
+    useSubscription();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [livePricing, setLivePricing] = useState<{ monthly: string; yearly: string } | null>(null);
@@ -352,6 +353,22 @@ export function GoldPaywallScreen() {
 
           {!revenueCatReady ? (
             <Text style={styles.sub}>{copy.gold.setupRequired}</Text>
+          ) : null}
+
+          {entitlementError ? (
+            <>
+              <Text style={styles.error} accessibilityRole="alert">
+                {copy.gold.entitlementCheckFailed}
+              </Text>
+              <Pressable
+                style={styles.link}
+                onPress={() => void refreshEntitlement()}
+                accessibilityRole="button"
+                accessibilityLabel={copy.gold.retry}
+              >
+                <Text style={styles.linkText}>{copy.gold.retry}</Text>
+              </Pressable>
+            </>
           ) : null}
 
           {error ? (

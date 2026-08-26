@@ -20,6 +20,7 @@ import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { HomeHeader } from '@/components/home/HomeHeader';
+import { WordLibraryErrorBanner } from '@/components/home/WordLibraryErrorBanner';
 import { copy } from '@/constants/copy';
 import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
@@ -321,7 +322,13 @@ export function VocabularyScreen() {
     wordProgress,
     unlockMissedWord,
   } = useProgress();
-  const { loading: wordsLoading, alarmWords } = useWordLibrary();
+  const {
+    loading: wordsLoading,
+    fetchFailed: wordsFetchFailed,
+    retry: retryWordLibrary,
+    retrying: wordsRetrying,
+    alarmWords,
+  } = useWordLibrary();
   const { isGold, setDevGoldPreview, loading: subscriptionLoading } = useSubscription();
   const { literaryWords } = useLiteraryWords(isGold);
   const { startGymModeSession } = useAlarmFlow();
@@ -423,6 +430,10 @@ export function VocabularyScreen() {
             ]}
             showsVerticalScrollIndicator={false}
           >
+          {wordsFetchFailed ? (
+            <WordLibraryErrorBanner onRetry={retryWordLibrary} retrying={wordsRetrying} />
+          ) : null}
+
           {__DEV__ ? (
             <View style={calendarStyles.toggleRow}>
               <Text style={calendarStyles.toggleLabel}>{copy.calendar.previewAs}</Text>

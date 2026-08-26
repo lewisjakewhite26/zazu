@@ -17,7 +17,7 @@ import { IconButton } from '@/components/ui/IconButton';
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
-import { radii, typography } from '@/constants/theme';
+import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
@@ -115,6 +115,10 @@ export function HomeScreen() {
                   </View>
                 ))}
               </GlassCard>
+            ) : !alarmsLoading ? (
+              <Text style={[styles.noAlarmsText, { color: colors.subtext }]}>
+                {copy.home.noAlarmsYet}
+              </Text>
             ) : null}
           </ScrollView>
 
@@ -170,6 +174,11 @@ const styles = StyleSheet.create({
   },
   alarmList: {
     width: '100%',
+    marginBottom: 18,
+  },
+  noAlarmsText: {
+    fontFamily: fonts.sans,
+    fontSize: 14,
     marginBottom: 18,
   },
   footer: {
