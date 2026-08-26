@@ -18,6 +18,12 @@ import {
   signInWithGoogleOAuth,
 } from '@/services/auth';
 
+// expo-auth-session's Google provider throws synchronously during render if the
+// platform-required client ID is undefined, before `isConfigured` is ever checked.
+// A placeholder keeps the hook from crashing when EAS env vars go missing again —
+// the isConfigured check below still keeps the button disabled/inert either way.
+const GOOGLE_CLIENT_ID_FALLBACK = 'zazu-google-signin-not-configured';
+
 export function SignInScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
@@ -27,9 +33,9 @@ export function SignInScreen() {
   const showApple = isAppleSignInAvailable();
 
   const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
-    clientId: googleConfig.webClientId,
-    iosClientId: googleConfig.iosClientId,
-    androidClientId: googleConfig.androidClientId,
+    clientId: googleConfig.webClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
+    iosClientId: googleConfig.iosClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
+    androidClientId: googleConfig.androidClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
   });
 
   useEffect(() => {
