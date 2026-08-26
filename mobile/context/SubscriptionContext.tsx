@@ -62,7 +62,12 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
             goldUntil: null,
             source: 'revenuecat',
           };
-          await upsertUserEntitlement(user.id, next);
+          // Production entitlements are written by the RevenueCat webhook, not the
+          // client — __DEV__ builds still upsert directly since there's no webhook
+          // hitting a local Supabase project during development.
+          if (__DEV__) {
+            await upsertUserEntitlement(user.id, next);
+          }
         }
       }
 
@@ -123,7 +128,12 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
           goldUntil: null,
           source: 'revenuecat',
         };
-        await upsertUserEntitlement(user.id, next);
+        // The RevenueCat webhook writes the real row; set local state optimistically
+        // here so the paying user sees success immediately instead of an error from
+        // upsertUserEntitlement (which is disabled in production for this exact reason).
+        if (__DEV__) {
+          await upsertUserEntitlement(user.id, next);
+        }
         setEntitlement(next);
       }
       return purchased;
@@ -141,7 +151,9 @@ export function SubscriptionProvider({ children }: SubscriptionProviderProps) {
         goldUntil: null,
         source: 'revenuecat',
       };
-      await upsertUserEntitlement(user.id, next);
+      if (__DEV__) {
+        await upsertUserEntitlement(user.id, next);
+      }
       setEntitlement(next);
     }
     return restored;
