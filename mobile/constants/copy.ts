@@ -128,6 +128,9 @@ export const copy = {
     done: 'Done',
     streakCount: (n: number) => `${n} day streak!`,
     streakSubtitle: (title: string) => `${title}. Keep it going tomorrow.`,
+    shareCta: 'Share this word',
+    shareMessage: (word: string, definition: string) =>
+      `${word}: ${definition}\n\nLearned it with Zazu, one word a day.`,
   },
   puzzle: {
     roundLabel: (round: number, type: string) => `Round ${round} of 3 · ${type}`,

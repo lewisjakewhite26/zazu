@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react';
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, Share, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { CoinsIcon, FireIcon } from 'phosphor-react-native';
+import { CoinsIcon, FireIcon, ShareIcon } from 'phosphor-react-native';
 import { useRouter, type Href } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -11,7 +11,7 @@ import { OriginText } from '@/components/ui/OriginText';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { copy } from '@/constants/copy';
 import { fonts, radii, typography } from '@/constants/theme';
-import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
+import { CONTENT_MAX_WIDTH, MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useWordLibrary } from '@/hooks/useWordLibrary';
@@ -67,6 +67,15 @@ export function SuccessScreen() {
     const gymWord = gymWords.find((word) => word.id === sessionWord.id);
     return buildDailyRitual(sessionWord, alarmWords, gymWord, gymWords);
   }, [sessionWord, alarmWords, gymWords]);
+
+  const handleShare = () => {
+    void Share.share({
+      message: copy.success.shareMessage(sessionWord?.word ?? '', sessionWord?.definition ?? ''),
+    }).catch(() => {
+      // User dismissed the share sheet, or the platform doesn't support
+      // Share (e.g. most desktop browsers) -- neither is worth surfacing.
+    });
+  };
 
   const handleStartDailyRitual = () => {
     if (!sessionWord || !dailyRitual) return;
@@ -158,6 +167,20 @@ export function SuccessScreen() {
           lineHeight: 20,
           color: colors.text,
           marginBottom: 8,
+        },
+        shareBtn: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: 6,
+          minHeight: MIN_TOUCH_TARGET,
+          paddingHorizontal: spacing.md,
+          marginBottom: 18,
+        },
+        shareBtnText: {
+          fontFamily: fonts.sansSemiBold,
+          fontSize: 14,
+          color: colors.subtext,
         },
         streakBanner: {
           width: '100%',
@@ -301,6 +324,16 @@ export function SuccessScreen() {
               <Text style={styles.definition}>{sessionWord.definition}</Text>
               <OriginText origin={sessionWord.origin} />
             </LinearGradient>
+
+            <Pressable
+              onPress={handleShare}
+              style={styles.shareBtn}
+              accessibilityRole="button"
+              accessibilityLabel={copy.success.shareCta}
+            >
+              <ShareIcon size={16} color={colors.subtext} />
+              <Text style={styles.shareBtnText}>{copy.success.shareCta}</Text>
+            </Pressable>
 
             <LinearGradient colors={streakGradient as [string, string]} style={styles.streakBanner}>
               <FireIcon size={21} color={colors.streakFlame} weight="fill" />
