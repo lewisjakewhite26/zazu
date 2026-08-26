@@ -110,11 +110,11 @@ export const copy = {
   gold: {
     eyebrow: 'Zazu Gold',
     title: 'Wake up to everything',
-    subtitle: 'Full word history, Word Gym, and more.',
+    subtitle: 'Ten themed word packs. Full history. Every Word Gym mode.',
     features: [
+      'Ten themed word packs, 1,741 words',
       'Full calendar word history',
-      'Word Gym on every past word',
-      'Support Zazu development',
+      'Word Gym on every word you\'ve learned',
     ],
     trialBadge: '7-day trial',
     subscribe: 'Start free trial',
