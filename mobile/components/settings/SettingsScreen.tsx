@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { CaretDownIcon, CaretRightIcon, CaretUpIcon, CheckIcon } from 'phosphor-react-native';
@@ -23,6 +23,12 @@ const THEME_OPTIONS: { value: ThemeOverride; label: string }[] = [
   { value: 'light', label: 'Light' },
   { value: 'dark', label: 'Dark' },
 ];
+
+const LEGAL_URLS = {
+  privacy: 'https://zazu.org.uk/privacy',
+  terms: 'https://zazu.org.uk/terms',
+  accessibility: 'https://zazu.org.uk/accessibility',
+};
 
 type SettingsRowProps = {
   label: string;
@@ -109,12 +115,24 @@ function SettingsRow({ label, hint, value, valueTone = 'neutral', onPress, showC
 export function SettingsScreen() {
   const router = useRouter();
   const { colors, override, setOverride } = useTheme();
-  const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy } = useAuth();
+  const { session, displayName, isAnonymous, signOut, goToSignIn, authBusy, authError, deleteAccount } =
+    useAuth();
   const { isGold, grantDevGold } = useSubscription();
   const { snoozeMinutes, setSnoozeMinutes } = useSnooze();
   const [themePickerOpen, setThemePickerOpen] = useState(false);
 
   const themeValueLabel = THEME_OPTIONS.find((option) => option.value === override)?.label ?? '';
+
+  const confirmDeleteAccount = () => {
+    Alert.alert(
+      copy.settings.deleteAccountConfirmTitle,
+      copy.settings.deleteAccountConfirmBody,
+      [
+        { text: copy.settings.deleteAccountCancel, style: 'cancel' },
+        { text: copy.settings.deleteAccountConfirm, style: 'destructive', onPress: () => void deleteAccount() },
+      ],
+    );
+  };
 
   const styles = useMemo(
     () =>
@@ -169,6 +187,13 @@ export function SettingsScreen() {
         },
         divider: {
           marginHorizontal: spacing.lg,
+        },
+        errorText: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.wrong,
+          marginTop: spacing.sm,
+          marginLeft: 4,
         },
         footer: {
           gap: spacing.sm,
@@ -266,7 +291,19 @@ export function SettingsScreen() {
                     </>
                   )}
                 </View>
+                {session ? (
+                  <>
+                    <Divider style={styles.divider} />
+                    <SettingsRow
+                      label={copy.settings.deleteAccount}
+                      onPress={confirmDeleteAccount}
+                      showChevron
+                      colors={colors}
+                    />
+                  </>
+                ) : null}
               </GlassCard>
+              {authError ? <Text style={styles.errorText}>{authError}</Text> : null}
             </View>
 
             <View style={styles.section}>
@@ -365,6 +402,32 @@ export function SettingsScreen() {
                     />
                   </>
                 ) : null}
+              </GlassCard>
+            </View>
+
+            <View style={styles.section}>
+              <Text style={styles.sectionLabel}>Legal</Text>
+              <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
+                <SettingsRow
+                  label={copy.settings.privacyPolicy}
+                  onPress={() => void Linking.openURL(LEGAL_URLS.privacy)}
+                  showChevron
+                  colors={colors}
+                />
+                <Divider style={styles.divider} />
+                <SettingsRow
+                  label={copy.settings.termsOfService}
+                  onPress={() => void Linking.openURL(LEGAL_URLS.terms)}
+                  showChevron
+                  colors={colors}
+                />
+                <Divider style={styles.divider} />
+                <SettingsRow
+                  label={copy.settings.accessibilityStatement}
+                  onPress={() => void Linking.openURL(LEGAL_URLS.accessibility)}
+                  showChevron
+                  colors={colors}
+                />
               </GlassCard>
             </View>
           </View>

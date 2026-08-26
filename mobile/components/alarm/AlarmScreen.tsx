@@ -165,7 +165,7 @@ export function AlarmScreen() {
         {isDemo ? (
           <IconButton
             onPress={handleExitDemo}
-            accessibilityLabel="Exit demo alarm"
+            accessibilityLabel={copy.a11y.exitDemoAlarm}
             variant="card"
             style={styles.closeButton}
           >

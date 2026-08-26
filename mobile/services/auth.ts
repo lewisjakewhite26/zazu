@@ -114,6 +114,13 @@ export function buildGoogleAuthRequest() {
   };
 }
 
+export async function deleteAccount(): Promise<void> {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error('Supabase is not configured');
+  const { error } = await supabase.functions.invoke('delete-account', { method: 'POST' });
+  if (error) throw error;
+}
+
 export async function signOut(): Promise<void> {
   const supabase = getSupabase();
   if (!supabase) return;

@@ -17,6 +17,7 @@ export type AuthContextValue = {
   signInGoogle: (idToken: string) => Promise<void>;
   saveName: (firstName: string) => Promise<void>;
   signOut: () => Promise<void>;
+  deleteAccount: () => Promise<void>;
   clearAuthError: () => void;
 };
 

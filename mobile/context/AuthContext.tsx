@@ -11,11 +11,13 @@ import {
   userNeedsName,
 } from '../../lib/progress-sync';
 import {
+  clearLocalProgress,
   readOnboardingFlags,
   setOnboardingFlags,
 } from '../../lib/progress-storage';
 import { getSupabase, initSupabaseAuth } from '../../lib/supabase';
 import {
+  deleteAccount as authDeleteAccount,
   signInWithApple,
   signInWithGoogle,
   signOut as authSignOut,
@@ -284,6 +286,25 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   }, [router]);
 
+  const deleteAccount = useCallback(async () => {
+    setAuthBusy(true);
+    setAuthError(null);
+    try {
+      await authDeleteAccount();
+      await clearLocalProgress();
+      await setOnboardingFlags({ hasOnboarded: false, isAnonymous: false });
+      setHasOnboarded(false);
+      setIsAnonymous(false);
+      setSession(null);
+      router.replace('/(onboarding)/welcome');
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Could not delete account';
+      setAuthError(message);
+    } finally {
+      setAuthBusy(false);
+    }
+  }, [router]);
+
   const value = useMemo<AuthContextValue>(
     () => ({
       ready,
@@ -301,6 +322,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       signInGoogle,
       saveName,
       signOut,
+      deleteAccount,
       clearAuthError: () => setAuthError(null),
     }),
     [
@@ -319,6 +341,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       signInGoogle,
       saveName,
       signOut,
+      deleteAccount,
     ],
   );
 

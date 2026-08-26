@@ -76,7 +76,7 @@ export function DailyRitualScreen() {
     if (index === current.correctIndex) {
       setSelectedIndex(index);
       hapticCorrect();
-      AccessibilityInfo.announceForAccessibility('Correct.');
+      AccessibilityInfo.announceForAccessibility(copy.a11y.correctAnnouncement);
       setTimeout(() => {
         setAdvanceReady(true);
         setTimeout(goNextStep, ADVANCE_MS);

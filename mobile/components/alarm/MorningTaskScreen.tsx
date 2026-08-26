@@ -90,11 +90,11 @@ export function MorningTaskScreen() {
       setShowTryAgain(false);
       setCorrectIndex(index);
       hapticCorrect();
-      AccessibilityInfo.announceForAccessibility('Correct.');
+      AccessibilityInfo.announceForAccessibility(copy.a11y.correctAnnouncement);
       setTimeout(() => {
         setDismissReady(true);
         setChecking(false);
-        AccessibilityInfo.announceForAccessibility('You can now dismiss the alarm.');
+        AccessibilityInfo.announceForAccessibility(copy.a11y.canDismissAlarmAnnouncement);
       }, CORRECT_CONFIRM_MS);
       return;
     }
@@ -113,7 +113,7 @@ export function MorningTaskScreen() {
   const handleDismiss = async () => {
     if (!sessionWord || !dismissReady || submitting) return;
     setSubmitting(true);
-    AccessibilityInfo.announceForAccessibility('Dismissing alarm…');
+    AccessibilityInfo.announceForAccessibility(copy.a11y.dismissingAlarmAnnouncement);
     try {
       const result = await completeWord(sessionWord.id, {
         noSnooze: earnedNoSnoozeBonus,
@@ -239,7 +239,7 @@ export function MorningTaskScreen() {
         {isDemo ? (
           <IconButton
             onPress={handleExitDemo}
-            accessibilityLabel="Exit demo alarm"
+            accessibilityLabel={copy.a11y.exitDemoAlarm}
             variant="card"
             style={styles.closeButton}
           >
