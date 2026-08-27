@@ -164,63 +164,177 @@
   --word-idle: rgba(240, 232, 248, 0.55);
 }
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+/* Everything below that sets an actual style (not a custom-property
+   declaration) is wrapped in @layer. Tailwind v4's own utilities live in
+   named layers (base/components/utilities) via its @import above; any plain,
+   unlayered CSS added after it -- as this file used to have -- outranks ALL
+   layered styles regardless of specificity or source order, per the CSS
+   cascade-layers spec. That silently made body's ink color win over every
+   text-white/text-[var(--color-gold)] utility on buttons and accents
+   throughout the page. Layering these correctly lets Tailwind's own utility
+   layer (deliberately the highest-priority named layer) override them where
+   a component asks for a different color. */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    color: var(--ink);
+    background-color: var(--white);
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    overflow-x: hidden;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
 }
 
-body {
-  font-family: var(--font-sans), system-ui, sans-serif;
-  color: var(--ink);
-  background-color: var(--white);
-  line-height: 1.6;
-  letter-spacing: -0.01em;
-  overflow-x: hidden;
-  transition: background-color 0.5s ease, color 0.5s ease;
+@layer components {
+  .dawn-gradient {
+    background: linear-gradient(160deg, var(--dawn-stop-1) 0%, var(--dawn-stop-2) 50%, var(--dawn-stop-3) 100%);
+    transition: background 0.5s ease;
+  }
+
+  .gold-gradient {
+    background: linear-gradient(160deg, var(--gold-stop-1) 0%, var(--gold-stop-2) 60%, var(--gold-stop-3) 100%);
+    transition: background 0.5s ease;
+  }
+
+  /* Base Glass Card */
+  .glass-card {
+    background: var(--card-fill);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--card-border);
+    box-shadow: 0 4px 16px var(--card-shadow-1), 0 16px 48px var(--card-shadow-2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.5s ease, border-color 0.5s ease;
+  }
+
+  /* Raised Glass Card (Hover State or High-Value Element) */
+  .glass-card--raised,
+  .glass-card:hover {
+    box-shadow: 0 8px 24px var(--card-shadow-hover-1), 0 32px 80px var(--card-shadow-hover-2);
+    transform: translateY(-2px);
+  }
+
+  /* Boska — expressive, high-contrast display serif */
+  .font-serif {
+    font-family: var(--font-serif), Georgia, serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  h1.font-serif,
+  h2.font-serif {
+    letter-spacing: -0.02em;
+  }
+
+  .animate-marquee-left {
+    animation: marquee-left 40s linear infinite;
+    will-change: transform;
+  }
+
+  .animate-marquee-right {
+    animation: marquee-right 40s linear infinite;
+    will-change: transform;
+  }
+
+  .pause-on-hover:hover {
+    animation-play-state: paused;
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--hero-stop-1) 0%,
+      var(--hero-stop-2) 12%,
+      var(--hero-stop-3) 30%,
+      var(--hero-stop-4) 45%,
+      var(--hero-stop-5) 58%,
+      var(--hero-stop-6) 72%,
+      var(--hero-stop-7) 86%,
+      var(--hero-stop-8) 100%
+    );
+    background-size: 360% 360%;
+    /* Runs once over ~11s (alive during the intro), then settles and holds the final frame.
+       Per-keyframe timing functions handle the easing, so the base is linear.
+       Settling stops the perpetual repaint that was inflating Speed Index. */
+    animation: gradientShift 11s linear 1 forwards;
+  }
+
+  .section-padding {
+    padding: clamp(80px, 12vw, 160px) clamp(24px, 8vw, 120px);
+  }
+
+  /* Bespoke keyboard focus — never the browser default */
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+
+  /* The skip-link target is focused programmatically — no ring needed on the container itself */
+  #main:focus,
+  #main:focus-visible {
+    outline: none;
+  }
+
+  /* Skip to content — visually hidden until keyboard focus */
+  .skip-link {
+    position: fixed;
+    top: 0;
+    left: 16px;
+    z-index: 200;
+    transform: translateY(-120%);
+    background: var(--ink);
+    color: var(--white);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 0 0 999px 999px;
+    box-shadow: 0 8px 24px rgba(44, 31, 46, 0.18);
+    transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .skip-link:focus-visible {
+    transform: translateY(0);
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  @media (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    body,
+    a,
+    button,
+    .glass-card {
+      cursor: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-gradient {
+      animation: none;
+      background: var(--hero-reduced-motion-gradient);
+      background-size: 100% 100%;
+    }
+  }
 }
 
-/* Utilities */
-.dawn-gradient {
-  background: linear-gradient(160deg, var(--dawn-stop-1) 0%, var(--dawn-stop-2) 50%, var(--dawn-stop-3) 100%);
-  transition: background 0.5s ease;
-}
-
-.gold-gradient {
-  background: linear-gradient(160deg, var(--gold-stop-1) 0%, var(--gold-stop-2) 60%, var(--gold-stop-3) 100%);
-  transition: background 0.5s ease;
-}
-
-/* Base Glass Card */
-.glass-card {
-  background: var(--card-fill);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--card-border);
-  box-shadow: 0 4px 16px var(--card-shadow-1), 0 16px 48px var(--card-shadow-2);
-  transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.5s ease, border-color 0.5s ease;
-}
-
-/* Raised Glass Card (Hover State or High-Value Element) */
-.glass-card--raised,
-.glass-card:hover {
-  box-shadow: 0 8px 24px var(--card-shadow-hover-1), 0 32px 80px var(--card-shadow-hover-2);
-  transform: translateY(-2px);
-}
-
-/* Boska — expressive, high-contrast display serif */
-.font-serif {
-  font-family: var(--font-serif), Georgia, serif;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-}
-
-h1.font-serif,
-h2.font-serif {
-  letter-spacing: -0.02em;
-}
-
-/* Marquee animations */
+/* Keyframes and the reduced-motion global kill-switch aren't selector-based
+   styles competing for an element, so they're safe unlayered. */
 @keyframes marquee-left {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -229,24 +343,6 @@ h2.font-serif {
 @keyframes marquee-right {
   0% { transform: translateX(-50%); }
   100% { transform: translateX(0); }
-}
-
-.animate-marquee-left {
-  animation: marquee-left 40s linear infinite;
-  will-change: transform;
-}
-
-.animate-marquee-right {
-  animation: marquee-right 40s linear infinite;
-  will-change: transform;
-}
-
-.pause-on-hover:hover {
-  animation-play-state: paused;
-}
-
-.bg-noise {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 @keyframes gradientShift {
@@ -266,81 +362,6 @@ h2.font-serif {
   }
 }
 
-.hero-gradient {
-  background: linear-gradient(
-    135deg,
-    var(--hero-stop-1) 0%,
-    var(--hero-stop-2) 12%,
-    var(--hero-stop-3) 30%,
-    var(--hero-stop-4) 45%,
-    var(--hero-stop-5) 58%,
-    var(--hero-stop-6) 72%,
-    var(--hero-stop-7) 86%,
-    var(--hero-stop-8) 100%
-  );
-  background-size: 360% 360%;
-  /* Runs once over ~11s (alive during the intro), then settles and holds the final frame.
-     Per-keyframe timing functions handle the easing, so the base is linear.
-     Settling stops the perpetual repaint that was inflating Speed Index. */
-  animation: gradientShift 11s linear 1 forwards;
-}
-
-.section-padding {
-  padding: clamp(80px, 12vw, 160px) clamp(24px, 8vw, 120px);
-}
-
-
-/* Bespoke keyboard focus — never the browser default */
-:focus:not(:focus-visible) {
-  outline: none;
-}
-
-a:focus-visible,
-button:focus-visible,
-[tabindex]:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 3px;
-}
-
-/* The skip-link target is focused programmatically — no ring needed on the container itself */
-#main:focus,
-#main:focus-visible {
-  outline: none;
-}
-
-/* Skip to content — visually hidden until keyboard focus */
-.skip-link {
-  position: fixed;
-  top: 0;
-  left: 16px;
-  z-index: 200;
-  transform: translateY(-120%);
-  background: var(--ink);
-  color: var(--white);
-  font-family: var(--font-sans), system-ui, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 20px;
-  border-radius: 0 0 999px 999px;
-  box-shadow: 0 8px 24px rgba(44, 31, 46, 0.18);
-  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.skip-link:focus-visible {
-  transform: translateY(0);
-  outline: 2px solid var(--gold);
-  outline-offset: 2px;
-}
-
-@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  body,
-  a,
-  button,
-  .glass-card {
-    cursor: none;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
@@ -350,11 +371,4 @@ button:focus-visible,
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-
-  .hero-gradient {
-    animation: none;
-    background: var(--hero-reduced-motion-gradient);
-    background-size: 100% 100%;
-  }
 }
-
