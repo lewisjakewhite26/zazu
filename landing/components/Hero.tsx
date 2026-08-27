@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-[12px] mt-10 w-full sm:w-auto justify-center lg:justify-start">
             <a
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS"
-              className="px-8 py-4 bg-ink text-white rounded-full font-medium hover:bg-ink/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
+              className="px-8 py-4 bg-[var(--color-button-fill)] text-white rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
             >
               Join the iOS Waitlist
             </a>
@@ -116,11 +116,11 @@ export default function Hero() {
             y: { repeat: Infinity, duration: 6, ease: "easeInOut", delay: activeContentDelay + 0.95 },
           }}
         >
-          <div className="relative rounded-[2.6rem] bg-ink p-2.5 shadow-[0_30px_80px_rgba(44,31,46,0.35)]">
-            {/* Notch */}
-            <div className="absolute top-2.5 left-1/2 -translate-x-1/2 h-[22px] w-[110px] bg-ink rounded-b-2xl z-10" />
+          <div className="relative rounded-[2.6rem] bg-[var(--color-button-fill)] p-2.5 shadow-[0_30px_80px_rgba(44,31,46,0.35)]">
+            {/* Notch -- fixed dark bezel colour like the frame above, not theme-flipping ink */}
+            <div className="absolute top-2.5 left-1/2 -translate-x-1/2 h-[22px] w-[110px] bg-[var(--color-button-fill)] rounded-b-2xl z-10" />
             {/* Screen */}
-            <div className="overflow-hidden rounded-[2.1rem] bg-white">
+            <div className="overflow-hidden rounded-[2.1rem] bg-[var(--color-white)]">
               <Image
                 src={theme === "dark" ? "/zazu-word-screen-dark.png" : "/zazu-word-screen.png"}
                 alt="The Zazu app's word screen, shown in its real light or dark theme, with a word's definition and etymology"

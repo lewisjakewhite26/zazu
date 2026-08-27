@@ -24,6 +24,13 @@
   --white: #fefcfb;
   --correct: #a8d8b0;
 
+  /* Fixed dark fill for "dark pill, white text" CTAs and the phone-mockup
+     bezel -- deliberately does NOT flip with theme. A phone's bezel doesn't
+     turn light-coloured because the website is in dark mode, and a primary
+     CTA reads as "the same button" more if its fill stays constant while
+     everything around it changes. */
+  --color-button-fill: #2c1f2e;
+
   /* Card fill/border and gradient stops as variables so .glass-card and the
      gradient utilities below can flip for dark mode without duplicating
      each utility class. */
@@ -55,6 +62,14 @@
   /* RevealCard's idle-word dim state -- an ink-tinted rgba, needs its own
      dark equivalent since it's not one of the theme colors above. */
   --word-idle: rgba(44, 31, 46, 0.62);
+
+  /* PackGrid's "Included with Zazu Gold" text -- darkened from the base gold
+     (#c9963a, 2.60:1) to #8c6318 (5.25:1) specifically for AA contrast against
+     a light card. That darkening is wrong on a dark surface, where the base
+     gold already passes AA fine (it's the same gold the app's own dark theme
+     uses unmodified) -- so this needs its own theme-aware value rather than
+     reusing --color-gold as-is. */
+  --gold-text: #8c6318;
 }
 
 /* Dark theme -- the app's own real night palette (mobile/constants/theme.ts
@@ -68,6 +83,16 @@
     --white: #1e1730;
     --gold: #c9963a;
     --correct: #5cbd8a;
+
+    /* Tailwind v4 compiles bg-ink/text-ink/border-ink and every
+       var(--color-ink) reference from these @theme-scoped tokens, not the
+       unprefixed ones above -- both sets need overriding or only the
+       gradients (wired to their own dedicated variables) actually go dark. */
+    --color-ink: #f0e8f8;
+    --color-subtext: #b0a0c8;
+    --color-white: #1e1730;
+    --color-correct: #5cbd8a;
+    --gold-text: #c9963a;
 
     --card-fill: rgba(255, 255, 255, 0.11);
     --card-border: rgba(255, 255, 255, 0.13);
@@ -104,6 +129,12 @@
   --white: #1e1730;
   --gold: #c9963a;
   --correct: #5cbd8a;
+
+  --color-ink: #f0e8f8;
+  --color-subtext: #b0a0c8;
+  --color-white: #1e1730;
+  --color-correct: #5cbd8a;
+  --gold-text: #c9963a;
 
   --card-fill: rgba(255, 255, 255, 0.11);
   --card-border: rgba(255, 255, 255, 0.13);

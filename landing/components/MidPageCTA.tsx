@@ -17,7 +17,7 @@ export default function MidPageCTA() {
         </p>
         <a
           href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
-          className="px-8 py-4 bg-ink text-white rounded-full font-medium hover:bg-ink/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
+          className="px-8 py-4 bg-[var(--color-button-fill)] text-white rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
         >
           Join the Waitlist
         </a>

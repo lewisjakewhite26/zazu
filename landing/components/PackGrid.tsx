@@ -159,7 +159,7 @@ export default function PackGrid() {
                   </div>
 
                   <div className="mt-8 pt-4 border-t border-[var(--color-gold)] border-opacity-30 self-start pr-8">
-                    <span className="font-serif italic text-[19px] text-[#8c6318]">
+                    <span className="font-serif italic text-[19px] text-[var(--gold-text)]">
                       Included with Zazu Gold
                     </span>
                   </div>

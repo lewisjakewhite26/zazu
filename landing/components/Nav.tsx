@@ -5,10 +5,15 @@ import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } fr
 import Link from 'next/link'
 import { useTheme } from '@/lib/theme-context'
 
+// Fixed literal white (not the theme-flipping --color-white surface token) --
+// these sit on the toggle knob, which is a deliberately constant dark fill
+// (--color-button-fill) in both themes, so the glyph needs to stay light too.
+const GLYPH_COLOR = "#fefcfb";
+
 function SunIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-white)" strokeWidth="2.5" strokeLinecap="round">
-      <circle cx="12" cy="12" r="4" fill="var(--color-white)" stroke="none" />
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={GLYPH_COLOR} strokeWidth="2.5" strokeLinecap="round">
+      <circle cx="12" cy="12" r="4" fill={GLYPH_COLOR} stroke="none" />
       <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
     </svg>
   )
@@ -16,7 +21,7 @@ function SunIcon() {
 
 function MoonIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--color-white)" stroke="none">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill={GLYPH_COLOR} stroke="none">
       <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 1020.354 15.354z" />
     </svg>
   )
@@ -57,7 +62,7 @@ function ThemeToggle() {
       className="relative shrink-0 h-9 w-16 rounded-full border border-[var(--color-ink)]/15 bg-[var(--color-ink)]/5 transition-colors flex items-center px-1"
     >
       <motion.span
-        className="absolute h-7 w-7 rounded-full bg-[var(--color-ink)] flex items-center justify-center"
+        className="absolute h-7 w-7 rounded-full bg-[var(--color-button-fill)] flex items-center justify-center"
         animate={{ x: isDark ? 28 : 0 }}
         transition={{ type: 'spring', stiffness: 400, damping: 30 }}
       >
@@ -114,7 +119,7 @@ export default function Nav() {
           <ThemeToggle />
           <a
             href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
-            className="px-5 py-2 bg-ink text-white text-[14px] rounded-full font-medium hover:bg-ink/90 transition-colors whitespace-nowrap"
+            className="px-5 py-2 bg-[var(--color-button-fill)] text-white text-[14px] rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors whitespace-nowrap"
           >
             Join the Waitlist
           </a>
@@ -158,7 +163,7 @@ export default function Nav() {
             <a
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
               onClick={() => setMobileOpen(false)}
-              className="mt-4 px-5 py-3 bg-ink text-white text-[15px] rounded-full font-medium text-center"
+              className="mt-4 px-5 py-3 bg-[var(--color-button-fill)] text-white text-[15px] rounded-full font-medium text-center"
             >
               Join the Waitlist
             </a>

@@ -45,13 +45,13 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <a
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS"
-              className="h-10 px-6 rounded-full bg-[var(--color-ink)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
+              className="h-10 px-6 rounded-full bg-[var(--color-button-fill)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
             >
               App Store: Join the Waitlist
             </a>
             <a
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20Android"
-              className="h-10 px-6 rounded-full bg-[var(--color-ink)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
+              className="h-10 px-6 rounded-full bg-[var(--color-button-fill)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
             >
               Google Play: Join the Waitlist
             </a>

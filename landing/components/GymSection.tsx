@@ -76,7 +76,7 @@ export default function GymSection() {
                   </div>
 
                   {/* Round card */}
-                  <div className={`glass-card ${isHardest ? "glass-card--raised" : ""} rounded-[20px] p-7 md:p-8 bg-white flex-1`}>
+                  <div className={`glass-card ${isHardest ? "glass-card--raised" : ""} rounded-[20px] p-7 md:p-8 bg-[var(--color-white)] flex-1`}>
                     <div className="flex items-center justify-between gap-4 mb-3">
                       <span className="font-sans text-[12px] uppercase tracking-[0.18em] text-[var(--color-subtext)]">
                         {round.number}

@@ -54,7 +54,7 @@ export default function GoldSection() {
             <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£1.99</div>
             <div className="text-[var(--color-subtext)] text-[16px] mb-1">per month</div>
             <div className="text-[var(--color-ink)] font-medium text-[14px] mb-8">7-day free trial</div>
-            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-ink)] text-white font-medium hover:opacity-90 transition-opacity">
+            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity">
               Start free trial
             </button>
           </motion.div>
@@ -74,7 +74,7 @@ export default function GoldSection() {
             <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£14.99</div>
             <div className="text-[var(--color-subtext)] text-[16px] mb-1">per year</div>
             <div className="text-[var(--color-gold)] font-medium text-[14px] mb-8">Save 37%</div>
-            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-ink)] text-white font-medium hover:opacity-90 transition-opacity">
+            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity">
               Start free trial
             </button>
           </motion.div>
