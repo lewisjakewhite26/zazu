@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Alert, Linking, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { CaretDownIcon, CaretRightIcon, CaretUpIcon, CheckIcon } from 'phosphor-react-native';
@@ -152,6 +152,9 @@ export function SettingsScreen() {
         },
         body: {
           flex: 1,
+        },
+        bodyContent: {
+          flexGrow: 1,
           justifyContent: 'space-between',
           paddingHorizontal: spacing.lg,
           paddingTop: spacing.xl,
@@ -282,7 +285,11 @@ export function SettingsScreen() {
           />
         </View>
 
-        <View style={styles.body}>
+        <ScrollView
+          style={styles.body}
+          contentContainerStyle={styles.bodyContent}
+          showsVerticalScrollIndicator={false}
+        >
           <View style={styles.sections}>
             <View style={styles.section}>
               <Text style={styles.sectionLabel}>Account</Text>
@@ -451,7 +458,7 @@ export function SettingsScreen() {
               <PrimaryButton label={copy.settings.signIn} onPress={goToSignIn} />
             ) : null}
           </View>
-        </View>
+        </ScrollView>
       </SafeAreaView>
     </GradientBackground>
   );

@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import * as Google from 'expo-auth-session/providers/google';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -31,11 +31,17 @@ export function SignInScreen() {
   const { signInApple, signInGoogle, authBusy, authError, session, needsName } = useAuth();
   const googleConfig = buildGoogleAuthRequest();
   const showApple = isAppleSignInAvailable();
+  const [googleError, setGoogleError] = useState<string | null>(null);
 
   const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
     clientId: googleConfig.webClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
     iosClientId: googleConfig.iosClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
     androidClientId: googleConfig.androidClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
+    // Without this, the library defaults to `${applicationId}:/oauthredirect`
+    // (e.g. com.zazu.app:/oauthredirect), which has no matching intent filter
+    // in AndroidManifest.xml -- only the `zazu` scheme does -- so Google
+    // redirects the browser somewhere the app can never catch it.
+    redirectUri: googleConfig.redirectUri,
   });
 
   useEffect(() => {
@@ -45,9 +51,20 @@ export function SignInScreen() {
   }, [session, needsName, router]);
 
   useEffect(() => {
-    if (response?.type !== 'success') return;
+    if (!response || response.type === 'dismiss' || response.type === 'cancel') return;
+
+    if (response.type !== 'success') {
+      setGoogleError(copy.onboarding.googleSignInFailed);
+      return;
+    }
+
     const idToken = response.params.id_token;
-    if (!idToken) return;
+    if (!idToken) {
+      setGoogleError(copy.onboarding.googleSignInFailed);
+      return;
+    }
+
+    setGoogleError(null);
     void signInGoogle(idToken);
   }, [response, signInGoogle]);
 
@@ -126,6 +143,7 @@ export function SignInScreen() {
             <Text style={styles.muted}>{copy.onboarding.progressSaved}</Text>
           )}
           {authError ? <Text style={styles.error}>{authError}</Text> : null}
+          {!authError && googleError ? <Text style={styles.error}>{googleError}</Text> : null}
         </View>
 
         <View style={styles.footerSpacer} />

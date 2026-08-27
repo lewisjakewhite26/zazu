@@ -77,6 +77,7 @@ export const copy = {
     alreadyHaveAccount: 'Already have an account?',
     progressSaved: 'Your progress will sync when you sign in.',
     googleNotConfigured: 'Google sign-in is not configured in this build.',
+    googleSignInFailed: 'Google sign-in didn\'t work. Please try again.',
     nameHeading: 'What should we call you?',
     namePlaceholder: 'Your name',
     nameConfirm: 'Continue',
