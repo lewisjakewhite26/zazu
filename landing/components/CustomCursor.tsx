@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, useSpring, useMotionValue } from "framer-motion";
+import { motion, useSpring, useMotionValue, useReducedMotion } from "framer-motion";
 
 export default function CustomCursor() {
+  const prefersReducedMotion = useReducedMotion();
   const [isHovering, setIsHovering] = useState(false);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
   const [isKeyboardNav, setIsKeyboardNav] = useState(false);
@@ -62,7 +63,11 @@ export default function CustomCursor() {
     };
   }, [cursorX, cursorY]);
 
-  if (isTouchDevice) return null;
+  // Respect reduced motion the same way isTouchDevice is handled: restore the
+  // native cursor entirely rather than showing a toned-down animated one --
+  // the whole point is a persistent spring-animated element, so "less motion"
+  // for this component means "no custom cursor".
+  if (isTouchDevice || prefersReducedMotion) return null;
 
   return (
     <motion.div

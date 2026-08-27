@@ -30,6 +30,12 @@ export default function Footer() {
             <Link href="/privacy" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
               Privacy Policy
             </Link>
+            <Link href="/terms" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
+              Terms of Service
+            </Link>
+            <Link href="/accessibility" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
+              Accessibility
+            </Link>
             <a href="mailto:hello@zazu.org.uk" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
               Support
             </a>
@@ -37,17 +43,17 @@ export default function Footer() {
 
           {/* Right: Download Buttons */}
           <div className="flex flex-col gap-3">
-            <a 
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS" 
+            <a
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS"
               className="h-10 px-6 rounded-full bg-[var(--color-ink)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
             >
-              App Store — Join the Waitlist
+              App Store: Join the Waitlist
             </a>
-            <a 
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20Android" 
+            <a
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20Android"
               className="h-10 px-6 rounded-full bg-[var(--color-ink)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
             >
-              Google Play — Join the Waitlist
+              Google Play: Join the Waitlist
             </a>
           </div>
 

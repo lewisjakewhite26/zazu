@@ -95,7 +95,7 @@ export default function PackGrid() {
                 onClick={() => setActiveIndex(i)} 
                 className={`text-left px-6 py-4 md:py-5 rounded-[20px] transition-all duration-300 whitespace-nowrap lg:whitespace-normal shrink-0 border border-transparent ${
                   activeIndex === i 
-                    ? "bg-white shadow-[0_8px_32px_rgba(44,31,46,0.06)] border-[var(--color-ink)] border-opacity-5" 
+                    ? "bg-[var(--color-white)] shadow-[0_8px_32px_var(--card-shadow-2)] border-[var(--color-ink)] border-opacity-5"
                     : "hover:bg-[var(--color-ink)] hover:bg-opacity-[0.03] text-[var(--color-subtext)]"
                 }`}
               >
@@ -132,7 +132,7 @@ export default function PackGrid() {
                 <div className="absolute inset-0 bg-noise opacity-[0.03] mix-blend-overlay pointer-events-none z-0" />
 
                 {/* Context Side: Info */}
-                <div className="flex flex-col justify-between p-8 md:p-12 lg:w-[45%] shrink-0 relative z-10 border-b lg:border-b-0 lg:border-r border-[var(--color-ink)] border-opacity-5 bg-white bg-opacity-40">
+                <div className="flex flex-col justify-between p-8 md:p-12 lg:w-[45%] shrink-0 relative z-10 border-b lg:border-b-0 lg:border-r border-[var(--color-ink)] border-opacity-5 bg-[var(--color-white)] bg-opacity-40">
                   <div>
                     <div className="mb-6">
                       <h4 className="font-sans text-[11px] uppercase tracking-widest text-[var(--color-subtext)] mb-2">
@@ -169,8 +169,8 @@ export default function PackGrid() {
                 <div className="relative w-full lg:w-[55%] bg-[var(--color-white)] bg-opacity-50 overflow-hidden flex items-center py-12 lg:py-0 min-h-[400px]">
                   
                   {/* Faded edges to blend the marquee seamlessly */}
-                  <div className="absolute inset-y-0 left-0 w-16 md:w-24 bg-gradient-to-r from-[rgba(254,252,251,1)] to-transparent z-10 pointer-events-none" />
-                  <div className="absolute inset-y-0 right-0 w-16 md:w-24 bg-gradient-to-l from-[rgba(254,252,251,1)] to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-y-0 left-0 w-16 md:w-24 bg-gradient-to-r from-[var(--color-white)] to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-y-0 right-0 w-16 md:w-24 bg-gradient-to-l from-[var(--color-white)] to-transparent z-10 pointer-events-none" />
 
                   {/* Marquee Track */}
                   <div 
@@ -181,9 +181,9 @@ export default function PackGrid() {
                     onTouchCancel={() => setPausedIndex(null)}
                   >
                     {marqueeWords.map((fw, j) => (
-                      <div 
-                        key={j} 
-                        className="w-[280px] md:w-[320px] shrink-0 bg-white rounded-[24px] p-8 shadow-[0_8px_24px_rgba(44,31,46,0.04)] border border-[var(--color-ink)] border-opacity-[0.03] hover:shadow-[0_12px_32px_rgba(44,31,46,0.08)] transition-all duration-300 transform hover:-translate-y-1 cursor-default group/card flex flex-col justify-center relative overflow-hidden"
+                      <div
+                        key={j}
+                        className="w-[280px] md:w-[320px] shrink-0 bg-[var(--color-white)] rounded-[24px] p-8 shadow-[0_8px_24px_var(--card-shadow-1)] border border-[var(--color-ink)] border-opacity-[0.03] hover:shadow-[0_12px_32px_var(--card-shadow-2)] transition-all duration-300 transform hover:-translate-y-1 cursor-default group/card flex flex-col justify-center relative overflow-hidden"
                       >
                         {/* Noise overlay for individual cards */}
                         <div className="absolute inset-0 bg-noise opacity-[0.02] mix-blend-overlay pointer-events-none z-0" />

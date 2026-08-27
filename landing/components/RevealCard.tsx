@@ -45,7 +45,7 @@ export default function RevealCard({ wordData, onHoverChange }: RevealCardProps)
         {/* Naked Typographic Word — decorative, not a document heading (keeps the outline clean) */}
       <div
         className="font-serif text-[40px] md:text-[56px] m-0 leading-normal pb-4 transition-colors duration-300"
-        style={{ color: isHovered ? "var(--color-ink)" : "rgba(44,31,46,0.62)" }} // Dim slightly when not hovered (AA-safe floor)
+        style={{ color: isHovered ? "var(--color-ink)" : "var(--word-idle)" }} // Dim slightly when not hovered (AA-safe floor)
       >
         {wordData.word}
       </div>

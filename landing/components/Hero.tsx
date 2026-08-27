@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
+import { useTheme } from "@/lib/theme-context";
 
 export default function Hero() {
   const shouldReduceMotion = useReducedMotion();
+  const { theme } = useTheme();
   const [isSkipped, setIsSkipped] = useState(false);
 
   // Cinematic timing constants (seconds)
@@ -100,7 +102,7 @@ export default function Hero() {
           </div>
 
           <p className="text-sm text-ink/50 mt-4 font-sans">
-            Be first in line — early access invites are sent in batches.
+            Be first in line. Early access invites are sent in batches.
           </p>
         </div>
 
@@ -120,8 +122,8 @@ export default function Hero() {
             {/* Screen */}
             <div className="overflow-hidden rounded-[2.1rem] bg-white">
               <Image
-                src="/zazu-word-screen.png"
-                alt="The Zazu app's word screen — the word Vitreous with its definition and Latin etymology, vitrum (glass)"
+                src={theme === "dark" ? "/zazu-word-screen-dark.png" : "/zazu-word-screen.png"}
+                alt="The Zazu app's word screen, shown in its real light or dark theme, with a word's definition and etymology"
                 width={601}
                 height={1302}
                 priority

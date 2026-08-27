@@ -23,6 +23,114 @@
   --gold: #c9963a;
   --white: #fefcfb;
   --correct: #a8d8b0;
+
+  /* Card fill/border and gradient stops as variables so .glass-card and the
+     gradient utilities below can flip for dark mode without duplicating
+     each utility class. */
+  --card-fill: rgba(254, 252, 251, 0.7);
+  --card-border: rgba(44, 31, 46, 0.05);
+  --card-shadow-1: rgba(44, 31, 46, 0.04);
+  --card-shadow-2: rgba(44, 31, 46, 0.06);
+  --card-shadow-hover-1: rgba(44, 31, 46, 0.06);
+  --card-shadow-hover-2: rgba(44, 31, 46, 0.12);
+
+  --dawn-stop-1: #c8b4e8;
+  --dawn-stop-2: #f0a0bc;
+  --dawn-stop-3: #f9c9a8;
+
+  --gold-stop-1: #f9c9a8;
+  --gold-stop-2: #c9963a;
+  --gold-stop-3: #f0a0bc;
+
+  --hero-stop-1: #e4d2f5;
+  --hero-stop-2: #d9b8ec;
+  --hero-stop-3: #f0a0bc;
+  --hero-stop-4: #f9c9a8;
+  --hero-stop-5: #fde8d8;
+  --hero-stop-6: #e8c4f0;
+  --hero-stop-7: #c8b4e8;
+  --hero-stop-8: #b9a0e6;
+  --hero-reduced-motion-gradient: linear-gradient(160deg, #ede0f8 0%, #f0a0bc 40%, #f9c9a8 100%);
+
+  /* RevealCard's idle-word dim state -- an ink-tinted rgba, needs its own
+     dark equivalent since it's not one of the theme colors above. */
+  --word-idle: rgba(44, 31, 46, 0.62);
+}
+
+/* Dark theme -- the app's own real night palette (mobile/constants/theme.ts
+   colorsDark), not an invented "dark mode for websites" look. Applied in two
+   layers: system preference by default, explicit [data-theme] always wins
+   regardless of OS setting (set by ThemeProvider, persisted per visitor). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #f0e8f8;
+    --subtext: #b0a0c8;
+    --white: #1e1730;
+    --gold: #c9963a;
+    --correct: #5cbd8a;
+
+    --card-fill: rgba(255, 255, 255, 0.11);
+    --card-border: rgba(255, 255, 255, 0.13);
+    --card-shadow-1: rgba(0, 0, 0, 0.25);
+    --card-shadow-2: rgba(0, 0, 0, 0.35);
+    --card-shadow-hover-1: rgba(0, 0, 0, 0.3);
+    --card-shadow-hover-2: rgba(0, 0, 0, 0.45);
+
+    --dawn-stop-1: #1a1225;
+    --dawn-stop-2: #1a1830;
+    --dawn-stop-3: #0e0c1a;
+
+    --gold-stop-1: #1a1830;
+    --gold-stop-2: #c9963a;
+    --gold-stop-3: #1a1225;
+
+    --hero-stop-1: #1a1225;
+    --hero-stop-2: #241a35;
+    --hero-stop-3: #2e1f3d;
+    --hero-stop-4: #1a1830;
+    --hero-stop-5: #0e0c1a;
+    --hero-stop-6: #241a35;
+    --hero-stop-7: #1a1830;
+    --hero-stop-8: #0e0c1a;
+    --hero-reduced-motion-gradient: linear-gradient(160deg, #1a1225 0%, #1a1830 50%, #0e0c1a 100%);
+
+    --word-idle: rgba(240, 232, 248, 0.55);
+  }
+}
+
+:root[data-theme="dark"] {
+  --ink: #f0e8f8;
+  --subtext: #b0a0c8;
+  --white: #1e1730;
+  --gold: #c9963a;
+  --correct: #5cbd8a;
+
+  --card-fill: rgba(255, 255, 255, 0.11);
+  --card-border: rgba(255, 255, 255, 0.13);
+  --card-shadow-1: rgba(0, 0, 0, 0.25);
+  --card-shadow-2: rgba(0, 0, 0, 0.35);
+  --card-shadow-hover-1: rgba(0, 0, 0, 0.3);
+  --card-shadow-hover-2: rgba(0, 0, 0, 0.45);
+
+  --dawn-stop-1: #1a1225;
+  --dawn-stop-2: #1a1830;
+  --dawn-stop-3: #0e0c1a;
+
+  --gold-stop-1: #1a1830;
+  --gold-stop-2: #c9963a;
+  --gold-stop-3: #1a1225;
+
+  --hero-stop-1: #1a1225;
+  --hero-stop-2: #241a35;
+  --hero-stop-3: #2e1f3d;
+  --hero-stop-4: #1a1830;
+  --hero-stop-5: #0e0c1a;
+  --hero-stop-6: #241a35;
+  --hero-stop-7: #1a1830;
+  --hero-stop-8: #0e0c1a;
+  --hero-reduced-motion-gradient: linear-gradient(160deg, #1a1225 0%, #1a1830 50%, #0e0c1a 100%);
+
+  --word-idle: rgba(240, 232, 248, 0.55);
 }
 
 html {
@@ -38,31 +146,34 @@ body {
   line-height: 1.6;
   letter-spacing: -0.01em;
   overflow-x: hidden;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* Utilities */
 .dawn-gradient {
-  background: linear-gradient(160deg, #c8b4e8 0%, #f0a0bc 50%, #f9c9a8 100%);
+  background: linear-gradient(160deg, var(--dawn-stop-1) 0%, var(--dawn-stop-2) 50%, var(--dawn-stop-3) 100%);
+  transition: background 0.5s ease;
 }
 
 .gold-gradient {
-  background: linear-gradient(160deg, #f9c9a8 0%, #c9963a 60%, #f0a0bc 100%);
+  background: linear-gradient(160deg, var(--gold-stop-1) 0%, var(--gold-stop-2) 60%, var(--gold-stop-3) 100%);
+  transition: background 0.5s ease;
 }
 
 /* Base Glass Card */
 .glass-card {
-  background: rgba(254, 252, 251, 0.7);
+  background: var(--card-fill);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(44, 31, 46, 0.05);
-  box-shadow: 0 4px 16px rgba(44, 31, 46, 0.04), 0 16px 48px rgba(44, 31, 46, 0.06);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 16px var(--card-shadow-1), 0 16px 48px var(--card-shadow-2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.5s ease, border-color 0.5s ease;
 }
 
 /* Raised Glass Card (Hover State or High-Value Element) */
 .glass-card--raised,
 .glass-card:hover {
-  box-shadow: 0 8px 24px rgba(44, 31, 46, 0.06), 0 32px 80px rgba(44, 31, 46, 0.12);
+  box-shadow: 0 8px 24px var(--card-shadow-hover-1), 0 32px 80px var(--card-shadow-hover-2);
   transform: translateY(-2px);
 }
 
@@ -127,14 +238,14 @@ h2.font-serif {
 .hero-gradient {
   background: linear-gradient(
     135deg,
-    #e4d2f5 0%,
-    #d9b8ec 12%,
-    #f0a0bc 30%,
-    #f9c9a8 45%,
-    #fde8d8 58%,
-    #e8c4f0 72%,
-    #c8b4e8 86%,
-    #b9a0e6 100%
+    var(--hero-stop-1) 0%,
+    var(--hero-stop-2) 12%,
+    var(--hero-stop-3) 30%,
+    var(--hero-stop-4) 45%,
+    var(--hero-stop-5) 58%,
+    var(--hero-stop-6) 72%,
+    var(--hero-stop-7) 86%,
+    var(--hero-stop-8) 100%
   );
   background-size: 360% 360%;
   /* Runs once over ~11s (alive during the intro), then settles and holds the final frame.
@@ -190,7 +301,7 @@ button:focus-visible,
   outline-offset: 2px;
 }
 
-@media (pointer: fine) {
+@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
   body,
   a,
   button,
@@ -211,7 +322,7 @@ button:focus-visible,
 
   .hero-gradient {
     animation: none;
-    background: linear-gradient(160deg, #ede0f8 0%, #f0a0bc 40%, #f9c9a8 100%);
+    background: var(--hero-reduced-motion-gradient);
     background-size: 100% 100%;
   }
 }
