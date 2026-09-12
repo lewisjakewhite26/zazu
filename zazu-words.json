@@ -20188,7 +20188,7 @@
         "pairs": [
           {
             "a": "Greek apo-",
-            "b": "Form or completely"
+            "b": "From or completely"
           },
           {
             "a": "Greek theos",
@@ -20255,7 +20255,7 @@
       {
         "rootText": "apo-",
         "rootLanguage": "Greek",
-        "rootMeaning": "Form or completely",
+        "rootMeaning": "From or completely",
         "showInIntro": true
       },
       {
@@ -20280,7 +20280,7 @@
           "highlight": true
         },
         {
-          "text": " (form or completely)",
+          "text": " (from or completely)",
           "highlight": false
         },
         {
@@ -20309,7 +20309,7 @@
       "taskType": "root",
       "sourceKind": "root",
       "sourceValue": "apo-",
-      "correctAnswer": "Form or completely",
+      "correctAnswer": "From or completely",
       "hint": "Check the highlighted roots in the etymology line.",
       "generatorVersion": "1",
       "passage": "The final symphony is often called the apotheosis of his career."
@@ -25703,7 +25703,7 @@
     "pronunciation": "DEM-uh-gog",
     "pos": "noun",
     "definition": "A political leader who seeks support by appealing to popular desires rather than using rational argument. UK spelling.",
-    "origin": "From Greek demagogogos, from demos (people) + agogos (leader, leading).",
+    "origin": "From Greek demagogos, from demos (people) + agogos (leader, leading).",
     "tier": "free",
     "rounds": [
       {
@@ -41831,7 +41831,7 @@
         "pairs": [
           {
             "a": "Latin languere",
-            "b": "To droop, fade, or slug"
+            "b": "To droop, fade, or grow sluggish"
           },
           {
             "a": "Latin languor",
@@ -41898,7 +41898,7 @@
       {
         "rootText": "languere",
         "rootLanguage": "Latin",
-        "rootMeaning": "To droop, fade, or slug",
+        "rootMeaning": "To droop, fade, or grow sluggish",
         "showInIntro": true
       },
       {
@@ -41923,7 +41923,7 @@
           "highlight": true
         },
         {
-          "text": " (to droop, fade, or slug)",
+          "text": " (to droop, fade, or grow sluggish)",
           "highlight": false
         },
         {
@@ -41952,7 +41952,7 @@
       "taskType": "root",
       "sourceKind": "root",
       "sourceValue": "languere",
-      "correctAnswer": "To droop, fade, or slug",
+      "correctAnswer": "To droop, fade, or grow sluggish",
       "hint": "Check the highlighted roots in the etymology line.",
       "generatorVersion": "1",
       "passage": "They spent a languid afternoon on the porch, too warm to do much of anything."

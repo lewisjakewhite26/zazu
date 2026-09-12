@@ -21,6 +21,7 @@ import {
 } from '../../../lib/puzzle-utils';
 import { hapticCorrect, hapticSelect, hapticWrong } from '../../../lib/feedback';
 import { stopAlarmSound } from '../../../lib/alarm-sound';
+import { buildRoundInstruction } from '../../../lib/question-variety';
 
 export function PuzzleScreen() {
   const router = useRouter();
@@ -216,7 +217,7 @@ export function PuzzleScreen() {
         contextContent: {
           paddingHorizontal: 16,
           paddingVertical: 13,
-          marginBottom: 14,
+          marginBottom: spacing.md,
         },
         contextLabel: {
           ...typography.etymLabel,
@@ -308,7 +309,9 @@ export function PuzzleScreen() {
 
             <GlassCard borderRadius={16} contentStyle={styles.contextContent}>
               <Text style={styles.contextLabel}>{round.label}</Text>
-              <Text style={styles.contextText}>{stripHtml(round.context)}</Text>
+              <Text style={styles.contextText}>
+                {buildRoundInstruction(round.type, gymSessionWord.word, gymSessionWord.id, stripHtml(round.context))}
+              </Text>
             </GlassCard>
 
             <View style={styles.progressRow}>{progressDots}</View>

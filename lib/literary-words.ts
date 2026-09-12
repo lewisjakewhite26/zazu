@@ -1,6 +1,7 @@
 import { getSupabase } from './supabase';
 import { stripHtml } from './puzzle-utils';
 import { shuffle } from './shuffle';
+import { buildContextualDefinitionInstruction, buildQuoteCompletionInstruction } from './question-variety';
 
 export type LiteraryMatchRound = {
   type: 'Etymology';
@@ -130,15 +131,20 @@ const EXCERPT_LABELS: Record<LiteraryMcqRound['type'], string> = {
 
 function mcqRoundToQuestion(word: LiteraryWord, round: LiteraryMcqRound): LiteraryMcqQuestion {
   const excerptSource = round.type === 'QuoteCompletion' ? round.prompt : round.passage;
+  const { author, work } = word.source;
+  const instruction =
+    round.type === 'QuoteCompletion'
+      ? buildQuoteCompletionInstruction(author, work, word.id)
+      : buildContextualDefinitionInstruction(word.word, author, work, word.id);
 
   return {
     wordId: word.id,
     word: word.word,
     roundTitle: ROUND_TITLES[round.type],
-    context: stripHtml(round.context),
+    context: instruction,
     excerptLabel: EXCERPT_LABELS[round.type],
     excerptText: stripHtml(excerptSource ?? ''),
-    question: stripHtml(round.context),
+    question: instruction,
     options: round.options,
     correctIndex: round.correctIndex,
   };

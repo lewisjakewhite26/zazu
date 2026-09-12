@@ -6,6 +6,7 @@
 import type { WordRound, ZazuGymWord } from './supabase';
 import type { UserWordProgressLocal } from './morning-task';
 import { shuffle } from './shuffle';
+import { buildRootsDrillQuestion, buildUsageLabQuestion } from './question-variety';
 
 export type GymMcqQuestion = {
   wordId: string;
@@ -105,7 +106,7 @@ export function buildRootsDrillQuestions(
     drillWords,
     allGymWords,
     'etymology',
-    (word, root) => `In ${word.word}, what does "${root}" mean?`,
+    (word, root) => buildRootsDrillQuestion(word.word, root, word.id),
   );
 }
 
@@ -118,7 +119,7 @@ export function buildUsageLabQuestions(
     drillWords,
     allGymWords,
     'usage',
-    (_word, fragment) => `Complete the sentence: "${fragment}…"`,
+    (word, fragment) => buildUsageLabQuestion(fragment, word.id),
   );
 }
 

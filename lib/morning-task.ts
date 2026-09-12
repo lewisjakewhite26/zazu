@@ -2,6 +2,7 @@
  * Morning task types, question templates, and distractor sampling.
  */
 import { shuffle } from './shuffle';
+import { buildMorningQuestion } from './question-variety';
 
 export type MorningTaskType = 'root' | 'definition' | 'etymology';
 
@@ -49,15 +50,8 @@ export type ZazuAlarmWord = {
   morningTask: MorningTask;
 };
 
-const QUESTION_TEMPLATES: Record<MorningTaskType, (word: string, sourceValue: string) => string> = {
-  root: (_word, sourceValue) => `What does ${sourceValue} mean?`,
-  definition: (word) => `What does ${word} mean?`,
-  etymology: (word) => `Which best describes where ${word} comes from?`,
-};
-
 export function morningQuestionText(word: string, task: MorningTask): string {
-  const template = QUESTION_TEMPLATES[task.taskType];
-  return template(word, task.sourceValue);
+  return buildMorningQuestion(task.taskType, word, task.sourceValue);
 }
 
 function normaliseAnswer(value: string): string {

@@ -80,6 +80,10 @@ export function GymScreen() {
           flexGrow: 1,
           paddingBottom: spacing.sm,
           alignItems: 'center',
+          // Free-tier content (hero + word card + upsell link, no modes list)
+          // is much shorter than the screen -- center it instead of letting
+          // it hug the top with a dead void of gradient before the fixed CTA.
+          justifyContent: isGold ? 'flex-start' : 'center',
         },
         heroIcon: {
           width: 56,
@@ -181,7 +185,7 @@ export function GymScreen() {
           color: colors.gold,
         },
       }),
-    [colors],
+    [colors, isGold],
   );
 
   const loading = progressLoading || wordsLoading || subscriptionLoading;

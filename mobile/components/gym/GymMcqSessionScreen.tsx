@@ -175,13 +175,13 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           maxWidth: CONTENT_MAX_WIDTH,
           alignSelf: 'center',
           paddingHorizontal: spacing.lg,
-          paddingTop: 28,
+          paddingTop: spacing.xl,
         },
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
           textTransform: 'uppercase',
-          marginBottom: 8,
+          marginBottom: spacing.sm,
         },
         progress: {
           fontFamily: typography.btnDemo.fontFamily,
@@ -201,13 +201,13 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           borderRadius: 2,
           backgroundColor: colors.ink,
         },
-        banner: { alignItems: 'center', paddingBottom: 16 },
+        banner: { alignItems: 'center', paddingBottom: spacing.md },
         wordMain: { ...typography.puzzleWordMain, color: colors.text },
         wordRound: {
           ...typography.puzzleWordRound,
           color: colors.subtext,
           textTransform: 'uppercase',
-          marginTop: 4,
+          marginTop: spacing.xs,
         },
         progressRow: {
           flexDirection: 'row',
@@ -227,8 +227,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           transform: [{ scale: 1.2 }],
         },
         questionCard: {
-          paddingHorizontal: 16,
-          paddingVertical: 14,
+          padding: spacing.md,
           marginBottom: spacing.lg,
         },
         question: {
@@ -239,7 +238,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           ...typography.etymLabel,
           color: colors.subtext,
           textTransform: 'uppercase',
-          marginBottom: 4,
+          marginBottom: spacing.xs,
         },
         contextText: {
           fontFamily: typography.btnDemo.fontFamily,
@@ -251,8 +250,8 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           ...typography.etymLabel,
           color: colors.subtext,
           textTransform: 'uppercase',
-          marginTop: 10,
-          marginBottom: 4,
+          marginTop: spacing.sm,
+          marginBottom: spacing.xs,
         },
         excerptText: {
           fontFamily: typography.btnDemo.fontFamily,
@@ -301,7 +300,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         feedbackRow: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
+          gap: spacing.sm,
           marginBottom: spacing.xs,
         },
         feedbackBadge: {
@@ -327,7 +326,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
           borderRadius: radii.pill,
           alignItems: 'center',
           justifyContent: 'center',
-          paddingVertical: 14,
+          paddingVertical: spacing.md,
         },
         actionBtnText: {
           ...typography.btnPrimary,

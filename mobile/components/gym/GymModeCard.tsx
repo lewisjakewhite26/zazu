@@ -50,8 +50,8 @@ export function GymModeCard({
         titleRow: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
-          marginBottom: 4,
+          gap: spacing.sm,
+          marginBottom: spacing.xs,
         },
         title: {
           fontFamily: fonts.sansSemiBold,

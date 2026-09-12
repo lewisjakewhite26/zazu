@@ -112,8 +112,8 @@ export const copy = {
   },
   gold: {
     eyebrow: 'Zazu Gold',
-    title: 'Wake up to everything',
-    subtitle: 'Ten themed word packs. Full history. Every Word Gym mode.',
+    title: 'Never lose a word again',
+    subtitle: 'Everything you learn stays yours. Go deeper whenever you want.',
     features: [
       'Ten themed word packs, 1,741 words',
       'Full calendar word history',
