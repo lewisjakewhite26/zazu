@@ -1,20 +1,20 @@
-# ZAZU — Curation Audit (Re-Run #4)
+# ZAZU — Curation Audit (Re-Run #5)
 
 *A vocabulary-alarm landing page. Dawn palette, skippable cinematic hero, two-column product hero, scroll-driven etymology storytelling. Bespoke **Boska / Satoshi** type pairing, Framer Motion throughout, a deliberate keyboard-accessibility layer, and now AA-clean contrast top to bottom.*
 
-Fourth cold re-audit, taken after a technical re-audit (a11y/perf/responsive fixes) and an independent dual-agent UX critique. Trajectory: **79 → 90 → 93 → 95 → 92**. The score moves down this round, not up — the critique found two real P0 defects (dead Gold pricing buttons, contradictory word-count stats) that **Re-Run #3 explicitly and incorrectly claimed were fixed** ("there is nothing left on the page a judge can click into a void," section 4 below, previous revision). That claim was never re-verified against the actual Gold pricing section; this round corrects it. Meanwhile, the technical dimensions (accessibility, responsiveness, dependency hygiene) genuinely improved and are now clean.
+Fifth re-audit. Trajectory: **79 → 90 → 93 → 95 → 92 → 95**. Re-Run #4 found five real defects (two P0, two P1, one P2) via an independent dual-agent UX critique that the previous curation round had missed or dismissed as "subjective polish." **All five are fixed and source-verified this round**: the Gold pricing buttons are wired to the waitlist flow, the word-count stats agree everywhere (393 / 1,741), every mailto CTA now shows on-click confirmation, the etymology sequence's scroll budget is cut nearly in half, and the custom cursor no longer implies interactivity on non-interactive panels.
 
-**Correction of record**: Re-Run #3's claim that "every click target is now honest" was false. `GoldSection.tsx`'s two "Start free trial" buttons have no `onClick`/`href` and never did — the previous audit checked the footer's mailto links (which were genuinely fixed) and generalized that finding to the whole page without checking the pricing section, its highest-intent surface. Treat this file's per-round claims as needing spot-verification against code going forward, the same lesson the root project's `AUDIT.md` has already learned twice.
+**Correction of record (carried from Re-Run #4)**: Re-Run #3's claim that "every click target is now honest" was false — it never checked the Gold pricing section specifically. Treat this file's per-round claims as needing spot-verification against code, not taken on faith from the previous entry.
 
 ---
 
-## 0. Two independent evidence streams this round
+## 0. Two independent evidence streams (Re-Run #4), now closed out
 
-**A. Technical audit** (5-dimension a11y/perf/theming/responsive/implementation-integrity scan, `/impeccable audit`): **20/20 Excellent**, up from 17/20. Fixed since the last technical pass: mobile nav menu now has a focus trap, Escape-to-close, and `role="dialog"`; FAQ accordion triggers are wired to their panels via `aria-controls`; theme-toggle and mobile-menu touch targets bumped to 44px; removed 5 unused dependencies (`@react-three/fiber`, `@react-three/drei`, `three`, `@types/three`, `puppeteer`); `npm audit` went from 9 known vulnerabilities (2 moderate, 6 high, 1 critical) to 0. Detector (`detect.mjs`): 0 anti-pattern findings, both before and after.
+**A. Technical audit** (`/impeccable audit`): **20/20 Excellent**, up from 17/20. Mobile nav menu now has a focus trap, Escape-to-close, and `role="dialog"`; FAQ accordion wired via `aria-controls`; touch targets at 44px; 5 unused dependencies removed; `npm audit` at 0 vulnerabilities (was 9, including 1 critical). Detector: 0 anti-pattern findings throughout.
 
-**B. UX critique** (dual-agent Nielsen-heuristics review, `/impeccable critique`, persisted at `.impeccable/critique/2026-09-12T23-17-30Z__landing-app-page-tsx.md`): **19/36 (Acceptable)**. This is a different, harder rubric than the curation scores below (it penalizes silent CTAs and unverified claims specifically) — the two scores aren't meant to average together, they're two lenses on the same page. Full findings: 2× P0 (dead Gold buttons; word-count mismatches — `WordMarquee.tsx` says 479 free words and `GoldSection.tsx` says 1,740 Gold words, when `PRODUCT.md`'s actual content-pipeline figures are 393 and 1,741, matching `ProofStrip.tsx`), 2× P1 (silent mailto CTAs with no confirmation state; the 300vh `EtymologyExploder` re-teaches what `RevealCard` already showed in under a second one section earlier), 1× P2 (`CustomCursor` grows on non-interactive `.glass-card` panels, a false affordance).
+**B. UX critique** (`/impeccable critique`, persisted at `.impeccable/critique/2026-09-12T23-17-30Z__landing-app-page-tsx.md`): **19/36 (Acceptable)** at the time it ran. Found 2× P0 (dead Gold buttons; word-count mismatches), 2× P1 (silent mailto CTAs; redundant 300vh `EtymologyExploder`), 1× P2 (`CustomCursor` false affordance on `.glass-card`).
 
-**Not yet fixed as of this writing** — the critique findings above are documented, not yet resolved. Fixing them is the clear next step for the next round.
+**Status: all five findings fixed and verified this round** — against source (grep-confirmed) and against the rendered production build (`npm run build && npm run start`, curl-checked the actual HTML for the corrected stats and mailto subjects). A fresh full dual-agent `/impeccable critique` run (which would re-score all 10 heuristics from scratch) was not re-run to produce a new number — see the per-section notes below for what changed and why the fixes should move heuristics 1, 4, and 9 back up.
 
 ---
 
@@ -62,55 +62,34 @@ Fourth cold re-audit, taken after a technical re-audit (a11y/perf/responsive fix
 
 ---
 
-## 3. Motion & Interactivity — **90 / 100** *(was 94, corrected down)*
+## 3. Motion & Interactivity — **95 / 100** *(was 90, fixed)*
 
 **Strengths**
 
 - **The hero phone enters with intent:** an `x: 40 → 0` settle on `[0.22,1,0.36,1]` hands off to a perpetual 6s float — directional arrival, then life — anchored to the scene rather than pasted on.
-- **The cursor is keyboard-aware.** On `Tab` the custom dot steps aside so focus rings lead; the next pointer move restores it, without re-rendering on every `mousemove`.
+- **The cursor is now honest about what's clickable.** `CustomCursor.tsx`'s hover-grow no longer matches the blanket `.glass-card` selector — it only fires on real `a`/`button`/`input` targets, so hovering an info-only panel (`HowItWorks.tsx`, `GymSection.tsx`) no longer implies a click will do something.
+- **`EtymologyExploder`'s scroll budget cut from 300vh to 160vh.** Same reveal sequence, roughly half the forced scroll distance — closes most of the gap to `RevealCard`'s near-instant version of the same idea one section earlier, without losing the set-piece.
 - Skippable cinematic intro, the clean `height`+`opacity` RevealCard unfold (no squash), and full `prefers-reduced-motion` support are all intact.
 
-**Real Defects**
+**Room for Improvement**
 
-- **[P1] `EtymologyExploder`'s 300vh scroll budget re-teaches what `RevealCard` already showed.** This was previously filed as a "minor, subjective" polish note; the independent UX critique reframed it correctly: `RevealCard` demonstrates "hover a word to see its etymology" in under a second, one section earlier, so the exploder's three-screens-of-scroll payoff is largely redundant, not just slow. A fast scroll also blows past the readable window entirely.
-- **[P2] `CustomCursor.tsx:46` grows the cursor on hover over any `.glass-card`**, including pure info panels with nothing to click (`HowItWorks.tsx`, `GymSection.tsx`) — a false affordance, not "keyboard-aware polish."
-
-**Actionable Dev Tweak**
-
-```tsx
-// EtymologyExploder.tsx: shrink the scroll runway to ~150vh or less, or make it
-// advance on discrete interaction (click/tap) instead of raw scroll distance.
-
-// CustomCursor.tsx:43-48: scope the hover-grow match to actual interactive
-// elements (a, button, input) instead of the blanket `.glass-card` selector.
-```
+- The exploder is shorter, not gone — whether it still earns its place next to `RevealCard`'s faster version of the same idea is a taste call worth revisiting once real users see both.
 
 ---
 
-## 4. UX & Content Pacing — **78 / 100** *(was 95, corrected down)*
+## 4. UX & Content Pacing — **93 / 100** *(was 78, fixed)*
 
 **Strengths**
 
-- **The keyboard path is premium.** A visually-hidden skip-to-content link slides in on focus and jumps past the fixed nav to `#main`; every CTA/link carries a bespoke `:focus-visible` ink ring at `3px` offset — no browser defaults anywhere.
-- **One unified inbox** (`hello@zazu.org.uk`) across Hero, Nav, and Footer; honest pre-launch subcopy. The narrative arc (ritual → proof → etymology → catalogue → Gold → gym) is a deliberate funnel.
-- **FAQ genuinely does documentation work.** It answers the real pre-launch anxieties a vocabulary-alarm product provokes (DND bypass, wrong answers, account deletion) rather than filler questions.
+- **Every click target is honest again, this time verified against the rendered build, not just the footer.** `GoldSection.tsx`'s two "Start free trial" buttons now link to `mailto:...?subject=Zazu%20Gold%20Waitlist%20-%20Monthly` / `...-Annual` — distinct subjects per plan, confirmed present in the built HTML via curl.
+- **One consistent set of numbers everywhere.** `ProofStrip.tsx`, `WordMarquee.tsx`, and `GoldSection.tsx` all now say 393 free words / 1,741 Gold words, matching `PRODUCT.md`'s actual content-pipeline figures.
+- **Mailto CTAs now confirm the click.** A new shared `WaitlistLink.tsx` swaps every waitlist CTA's label to "Opening email…" for 2.5s on click (Nav ×2, Hero, MidPageCTA, Footer, GoldSection ×2) — a visitor without a configured mail client now sees the click register instead of silence.
+- **The keyboard path is premium.** Skip-to-content link, bespoke `:focus-visible` rings everywhere, `#main` target.
+- **FAQ genuinely does documentation work** — answers the real pre-launch anxieties (DND bypass, wrong answers, account deletion).
 
-**Real Defects (not caught by Re-Run #3)**
+**Room for Improvement**
 
-- **[P0] `GoldSection.tsx`'s two "Start free trial" buttons (lines 57, 77) have no `onClick` or `href`.** They render as buttons and do nothing when clicked. This sits at the page's single highest purchase-intent moment. Re-Run #3 claimed "there is nothing left on the page a judge can click into a void" — that claim was never checked against this section and was false.
-- **[P0] Word-count stats disagree across sections.** `ProofStrip.tsx` says 393 free words / 1,741 Gold words (correct, matches `PRODUCT.md`'s content-pipeline figures). `WordMarquee.tsx:42` says 479 free words; `GoldSection.tsx:7` says 1,740 Gold words. Both are stale and wrong.
-- **[P1] Every CTA is a silent `mailto:` link** (Nav, Hero, MidPageCTA, Footer) with no in-page confirmation — a visitor without a configured mail client gets no visible response to clicking the page's only ask.
-
-**Actionable Dev Tweak**
-
-```tsx
-// GoldSection.tsx — wire the dead buttons to the existing waitlist flow
-<a href="mailto:hello@zazu.org.uk?subject=Zazu%20Gold%20Waitlist%20-%20Monthly"
-   className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity flex items-center justify-center">
-  Start free trial
-</a>
-// Fix WordMarquee.tsx:42 -> "393 free words" and GoldSection.tsx:7 -> "1,741 premium words across ten packs"
-```
+- Pre-launch, *all* primary actions still funnel to mailto (now with confirmation, but still not a real checkout/signup flow) — correct for a waitlist, but a single embedded email-capture form would out-convert this post-launch.
 
 ---
 
@@ -138,30 +117,24 @@ npx lighthouse http://localhost:3000 --view
 
 ---
 
-## Overall Score — **92 / 100** *(was 95, corrected down)*
+## Overall Score — **95 / 100** *(was 92, fixed)*
 
-| Category | Re-Run #3 | Now |
+| Category | Re-Run #4 | Now |
 |---|---|---|
 | Visual Aesthetics & Premium Feel | 96 | **96** |
 | Typography & Readability | 95 | **95** |
-| Motion & Interactivity | 94 | **90** |
-| UX & Content Pacing | 95 | **78** |
-| Technical Craftsmanship & Responsiveness | 95 | **97** |
+| Motion & Interactivity | 90 | **95** |
+| UX & Content Pacing | 78 | **93** |
+| Technical Craftsmanship & Responsiveness | 97 | **97** |
 
-## Curation Verdict: **Strong, but not launch-ready until the Gold section is fixed**
+## Curation Verdict: **Launch-blocking defects closed; back to genuine strength**
 
-Re-Run #3's "Site of the Day contention" verdict was premature — it never checked the Gold pricing section's buttons or cross-checked the page's own stats against each other. This round's two independent evidence streams (a technical `/impeccable audit` and a dual-agent `/impeccable critique`, see section 0 above) caught what the prior curation pass missed. The visual craft genuinely is excellent and the technical/accessibility layer genuinely improved this round — but a page whose highest-intent buttons don't work and whose trust-building stats contradict each other is not launch-ready regardless of how the gradient looks.
+All five findings from Re-Run #4's independent dual-agent critique are fixed and verified against both source and the rendered production build: the Gold pricing buttons work, the page's own numbers agree with each other and with `PRODUCT.md`, every waitlist CTA confirms its click, the etymology sequence asks for less scroll, and the cursor no longer lies about what's clickable. Combined with the prior round's technical/accessibility work (20/20, 0 vulnerabilities), this is now a page that's both well-crafted *and* functionally honest — the gap this file exists to catch.
 
-**Must-fix before the next round can credibly claim "nothing left to click into a void" again:**
+**Still open (unchanged, not blocking):**
 
-1. **Wire or remove the two dead "Start free trial" buttons** in `GoldSection.tsx` (lines 57, 77).
-2. **Fix the word-count mismatches**: `WordMarquee.tsx:42` (479 → 393) and `GoldSection.tsx:7` (1,740 → 1,741), ideally centralized as a shared constant so they can't drift apart again.
-3. **Add confirmation feedback to the mailto CTAs**, or a visible plain-text fallback email, for visitors without a configured mail client.
+1. Run a live Lighthouse pass on the deployed URL and bank the actual LCP/a11y numbers.
+2. Confirm the GitHub remote is actually wired to a live Vercel deploy (unverifiable from code).
+3. Optional taste call: revisit whether the shortened `EtymologyExploder` still earns its place next to `RevealCard`'s faster version of the same idea.
 
-**Confirmation list (unchanged from Re-Run #3, still open):**
-
-4. Run a live Lighthouse pass on the deployed URL and bank the actual LCP/a11y numbers.
-5. Shrink or interaction-gate the `EtymologyExploder`'s 300vh scroll budget (now filed as P1, not polish — see section 3).
-6. Scope `CustomCursor`'s hover-grow away from non-interactive `.glass-card` panels (P2).
-
-*Final: 92/100 — strong craft and now-clean technical/a11y fundamentals, held back by real functional defects in the highest-stakes section of the page. Re-run both `/impeccable audit` and `/impeccable critique` after the three must-fix items land.*
+*Final: 95/100. Re-run `/impeccable critique` for a fresh full 10-heuristic score once the page has live traffic or a deploy to point it at — the per-section notes above reflect verified fixes, not a new dual-agent score.*
