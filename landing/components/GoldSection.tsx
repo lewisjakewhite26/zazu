@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import WaitlistLink from "./WaitlistLink";
 
 const features = [
   "Every word pack included",
-  "1,740 premium words across ten packs",
+  "1,741 premium words across ten packs",
   "Full 30-day word history",
   "Spaced repetition review",
   "Etymology roots drill",
@@ -54,9 +55,11 @@ export default function GoldSection() {
             <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£1.99</div>
             <div className="text-[var(--color-subtext)] text-[16px] mb-1">per month</div>
             <div className="text-[var(--color-ink)] font-medium text-[14px] mb-8">7-day free trial</div>
-            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity">
-              Start free trial
-            </button>
+            <WaitlistLink
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Gold%20Waitlist%20-%20Monthly"
+              label="Start free trial"
+              className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity flex items-center justify-center"
+            />
           </motion.div>
 
           {/* Annual Card */}
@@ -74,9 +77,11 @@ export default function GoldSection() {
             <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£14.99</div>
             <div className="text-[var(--color-subtext)] text-[16px] mb-1">per year</div>
             <div className="text-[var(--color-gold)] font-medium text-[14px] mb-8">Save 37%</div>
-            <button className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity">
-              Start free trial
-            </button>
+            <WaitlistLink
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Gold%20Waitlist%20-%20Annual"
+              label="Start free trial"
+              className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity flex items-center justify-center"
+            />
           </motion.div>
         </div>
 

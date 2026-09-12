@@ -40,10 +40,12 @@ export default function CustomCursor() {
     const handleMouseOver = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       // Check if we are hovering over an interactive element
+      // Only elements that actually respond to a click get the grown "hovering"
+      // dot -- .glass-card alone used to qualify, which promised interactivity
+      // on plain info panels (HowItWorks, GymSection) that do nothing on click.
       if (
-        target.closest("a") || 
-        target.closest("button") || 
-        target.closest(".glass-card") ||
+        target.closest("a") ||
+        target.closest("button") ||
         target.closest("input")
       ) {
         setIsHovering(true);

@@ -82,7 +82,7 @@ export default function EtymologyExploder() {
   const staticState = prefersReducedMotion;
 
   return (
-    <section ref={containerRef} className="relative w-full h-[300vh] bg-transparent">
+    <section ref={containerRef} className="relative w-full h-[160vh] bg-transparent">
       {/* Sticky container */}
       <div className="sticky top-0 h-screen w-full overflow-hidden bg-[var(--color-page)] flex flex-col items-center justify-center">
         

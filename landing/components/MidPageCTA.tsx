@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import WaitlistLink from "./WaitlistLink";
 
 export default function MidPageCTA() {
   return (
@@ -15,12 +16,11 @@ export default function MidPageCTA() {
         <p className="font-serif text-[24px] md:text-[28px] text-[var(--color-ink)]">
           Your first word is waiting.
         </p>
-        <a
+        <WaitlistLink
           href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
+          label="Join the Waitlist"
           className="px-8 py-4 bg-[var(--color-button-fill)] text-white rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
-        >
-          Join the Waitlist
-        </a>
+        />
       </motion.div>
     </section>
   );

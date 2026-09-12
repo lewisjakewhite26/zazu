@@ -5,6 +5,7 @@ import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } fr
 import Image from 'next/image'
 import Link from 'next/link'
 import { useTheme } from '@/lib/theme-context'
+import WaitlistLink from './WaitlistLink'
 
 // Fixed literal white (not the theme-flipping --color-white surface token) --
 // these sit on the toggle knob, which is a deliberately constant dark fill
@@ -161,12 +162,11 @@ export default function Nav() {
             </Link>
           ))}
           <ThemeToggle />
-          <a
+          <WaitlistLink
             href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
+            label="Join the Waitlist"
             className="px-5 py-2 bg-[var(--color-button-fill)] text-white text-[14px] rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors whitespace-nowrap"
-          >
-            Join the Waitlist
-          </a>
+          />
         </div>
 
         {/* Mobile: toggle + menu button */}
@@ -211,13 +211,12 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <a
+            <WaitlistLink
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
+              label="Join the Waitlist"
               onClick={() => setMobileOpen(false)}
               className="mt-4 px-5 py-3 bg-[var(--color-button-fill)] text-white text-[15px] rounded-full font-medium text-center"
-            >
-              Join the Waitlist
-            </a>
+            />
           </motion.div>
         )}
       </AnimatePresence>

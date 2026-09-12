@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { useTheme } from "@/lib/theme-context";
+import WaitlistLink from "./WaitlistLink";
 
 export default function Hero() {
   const shouldReduceMotion = useReducedMotion();
@@ -87,12 +88,11 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-[12px] mt-10 w-full sm:w-auto justify-center lg:justify-start">
-            <a
+            <WaitlistLink
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist"
+              label="Join the Waitlist"
               className="px-8 py-4 bg-[var(--color-button-fill)] text-white rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
-            >
-              Join the Waitlist
-            </a>
+            />
           </div>
 
           <p className="text-sm text-ink/50 mt-4 font-sans">

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import WaitlistLink from "./WaitlistLink";
 
 export default function Footer() {
   return (
@@ -53,12 +54,11 @@ export default function Footer() {
 
           {/* Right: Download Button */}
           <div className="flex flex-col gap-3">
-            <a
+            <WaitlistLink
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist"
+              label="Google Play: Join the Waitlist"
               className="h-10 px-6 rounded-full bg-[var(--color-button-fill)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
-            >
-              Google Play: Join the Waitlist
-            </a>
+            />
           </div>
 
         </div>
