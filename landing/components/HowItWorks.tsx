@@ -38,7 +38,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="w-full bg-[var(--color-white)] section-padding">
+    <section id="how-it-works" className="w-full bg-[var(--color-page)] section-padding">
       <div className="max-w-[1100px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
 
         {/* Left: heading + intro, sticky on desktop so it stays in view while steps scroll past */}
@@ -73,7 +73,7 @@ export default function HowItWorks() {
               }}
               className="glass-card rounded-[20px] p-8 flex items-start gap-6 transition-colors duration-300"
             >
-              <div className="shrink-0 w-12 h-12 rounded-full bg-[var(--color-white)] flex items-center justify-center">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-[var(--color-page)] flex items-center justify-center">
                 {step.icon}
               </div>
               <div>

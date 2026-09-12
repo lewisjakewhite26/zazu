@@ -2,12 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Zazu",
+  title: "Terms of Service | Zazu",
 };
 
 export default function TermsOfService() {
   return (
-    <main className="min-h-screen dawn-gradient py-24 px-6">
+    <main className="min-h-screen bg-[var(--color-page)] py-24 px-6">
       <div className="max-w-[800px] mx-auto glass-card rounded-3xl p-8 md:p-12">
         <div className="mb-8 border-b border-[var(--color-ink)] border-opacity-10 pb-8 flex items-center justify-between">
           <h1 className="font-serif text-[48px] text-[var(--color-ink)] leading-none">
@@ -40,7 +40,7 @@ export default function TermsOfService() {
 
           <h2>Accounts</h2>
           <p>
-            You can use Zazu as a guest, or sign in with Apple or Google to save your progress and sync
+            You can use Zazu as a guest, or sign in with Google to save your progress and sync
             it across devices. You&rsquo;re responsible for keeping your sign-in credentials secure, and for
             all activity that happens under your account.
           </p>
@@ -48,21 +48,20 @@ export default function TermsOfService() {
           <h2>Subscriptions and billing</h2>
           <ul>
             <li>
-              <strong>Billing.</strong> Zazu Gold is a subscription purchased through the Apple App Store
-              or Google Play and billed by Apple or Google directly. We never see or store your payment
-              details.
+              <strong>Billing.</strong> Zazu Gold is a subscription purchased through Google Play
+              and billed by Google directly. We never see or store your payment details.
             </li>
             <li>
               <strong>Renewal.</strong> Subscriptions renew automatically until cancelled. You can manage or
-              cancel your subscription at any time in your Apple ID or Google Play account settings.
+              cancel your subscription at any time in your Google Play account settings.
             </li>
             <li>
-              <strong>Refunds.</strong> Handled by Apple or Google according to their own refund policies,
+              <strong>Refunds.</strong> Handled by Google according to their own refund policies,
               not by us directly.
             </li>
             <li>
               <strong>RevenueCat.</strong> We use RevenueCat to keep track of which features your
-              subscription unlocks. Apple and Google remain the merchant of record.
+              subscription unlocks. Google remains the merchant of record.
             </li>
           </ul>
 

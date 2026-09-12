@@ -10,7 +10,7 @@ const stats = [
 
 export default function ProofStrip() {
   return (
-    <section className="w-full bg-[var(--color-white)] px-6 py-16 md:py-20">
+    <section className="w-full bg-[var(--color-page)] px-6 py-16 md:py-20">
       <div className="max-w-[1000px] mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8 text-center">
         {stats.map((stat, i) => (
           <motion.div

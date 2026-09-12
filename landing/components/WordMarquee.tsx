@@ -30,7 +30,7 @@ export default function WordMarquee() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section className="w-full dawn-gradient section-padding overflow-hidden flex flex-col items-center py-32">
+    <section className="w-full bg-[var(--color-page)] section-padding overflow-hidden flex flex-col items-center py-32">
       <motion.div 
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export default function WordMarquee() {
         className="px-6 text-center max-w-[800px] mb-24 flex flex-col items-center"
       >
         <h2 className="font-serif text-[clamp(40px,5vw,64px)] leading-tight text-[var(--color-ink)] mb-6">
-          479 free words. Start expanding your vocabulary today.
+          479 free words. Yours without a subscription.
         </h2>
         <p className="text-[var(--color-ink)] opacity-80 text-lg md:text-[18px] max-w-[650px] leading-relaxed">
           A word a day builds faster than you'd think. Every word in Zazu comes with its full story: etymology, roots, and a morning task that makes it stick.

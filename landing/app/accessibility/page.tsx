@@ -2,12 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accessibility Statement — Zazu",
+  title: "Accessibility Statement | Zazu",
 };
 
 export default function AccessibilityStatement() {
   return (
-    <main className="min-h-screen dawn-gradient py-24 px-6">
+    <main className="min-h-screen bg-[var(--color-page)] py-24 px-6">
       <div className="max-w-[800px] mx-auto glass-card rounded-3xl p-8 md:p-12">
         <div className="mb-8 border-b border-[var(--color-ink)] border-opacity-10 pb-8 flex items-center justify-between">
           <h1 className="font-serif text-[48px] text-[var(--color-ink)] leading-none">
@@ -39,7 +39,7 @@ export default function AccessibilityStatement() {
             </li>
             <li>
               <strong>Screen readers.</strong> Buttons, toggles, and controls throughout the app carry
-              accessibility roles, labels, and state for VoiceOver (iOS) and TalkBack (Android).
+              accessibility roles, labels, and state for TalkBack (Android).
             </li>
             <li>
               <strong>Colour contrast.</strong> Text and interface colours meet WCAG AA contrast ratios

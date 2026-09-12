@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "Do I need an account?",
-    answer: "No. You can use the daily alarm and today's word as a guest, with no sign-up. Signing in with Apple or Google just lets your streak and progress sync across devices.",
+    answer: "No. You can use the daily alarm and today's word as a guest, with no sign-up. Signing in with Google just lets your streak and progress sync across devices.",
   },
   {
     question: "What happens to my data if I delete my account?",
@@ -50,7 +50,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="w-full bg-[var(--color-white)] section-padding">
+    <section id="faq" className="w-full bg-[var(--color-page)] section-padding">
       <div className="max-w-[760px] mx-auto flex flex-col items-center">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

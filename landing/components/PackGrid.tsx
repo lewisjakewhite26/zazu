@@ -19,14 +19,14 @@ const packs = [
 const packDetails: Record<string, { subpacks: string[], featuredWords: { word: string, etymology: string }[] }> = {
   "The Literary Pack": { subpacks: ["Shakespeare Vol. 1", "Shakespeare Vol. 2", "Milton", "Chaucer", "The Romantics", "Dickens", "Carroll & Dahl", "Tolkien", "Orwell"], featuredWords: [{ word: "Pandemonium", etymology: "Coined by Milton in Paradise Lost, 1667. From Greek pan (all) + daimon (spirit)." }, { word: "Chortle", etymology: "Invented by Lewis Carroll in Through the Looking-Glass, 1871. A blend of chuckle and snort." }, { word: "Assassination", etymology: "First used by Shakespeare in Macbeth, 1606. From Arabic hashshashin." }] },
   "The Loan Words Pack": { subpacks: ["From the French", "From the Germanic", "From the Spanish", "From the East", "From Persia and Arabia", "From the Italian", "From South Asia", "From the North", "From the Americas", "From Africa", "From the Pacific", "From the Classical World", "The Curious and Unexpected"], featuredWords: [{ word: "Schadenfreude", etymology: "From German: Schaden (harm) + Freude (joy). Pleasure from another's misfortune." }, { word: "Juggernaut", etymology: "From Hindi Jagannath, a title of the god Vishnu. Via colonial British usage." }, { word: "Labyrinth", etymology: "From Greek labyrinthos. Possibly from Lydian labrys (double axe)." }] },
-  "The Mythology Pack": { subpacks: ["Greek Mythology", "Roman Mythology", "Norse Mythology", "Egyptian Mythology", "Celtic Mythology"], featuredWords: [{ word: "Narcissism", etymology: "From Narcissus, the Greek youth who fell in love with his own reflection." }, { word: "Panic", etymology: "From Pan, the Greek god whose sudden appearances caused terror." }, { word: "Valhalla", etymology: "From Old Norse Valhöll — hall of the slain. Where Odin's warriors feasted." }] },
-  "The Science Pack": { subpacks: ["Biology & Medicine", "Chemistry", "Earth & Climate", "Physics & Technology", "Space & Astronomy"], featuredWords: [{ word: "Entropy", etymology: "Coined by Rudolf Clausius in 1865. From Greek entropia — a turning toward." }, { word: "Quark", etymology: "Coined by physicist Murray Gell-Mann in 1964, from a line in James Joyce's Finnegans Wake." }, { word: "Laser", etymology: "Acronym coined in 1959: Light Amplification by Stimulated Emission of Radiation." }] },
+  "The Mythology Pack": { subpacks: ["Greek Mythology", "Roman Mythology", "Norse Mythology", "Egyptian Mythology", "Celtic Mythology"], featuredWords: [{ word: "Narcissism", etymology: "From Narcissus, the Greek youth who fell in love with his own reflection." }, { word: "Panic", etymology: "From Pan, the Greek god whose sudden appearances caused terror." }, { word: "Valhalla", etymology: "From Old Norse Valhöll, hall of the slain. Where Odin's warriors feasted." }] },
+  "The Science Pack": { subpacks: ["Biology & Medicine", "Chemistry", "Earth & Climate", "Physics & Technology", "Space & Astronomy"], featuredWords: [{ word: "Entropy", etymology: "Coined by Rudolf Clausius in 1865. From Greek entropia, a turning toward." }, { word: "Quark", etymology: "Coined by physicist Murray Gell-Mann in 1964, from a line in James Joyce's Finnegans Wake." }, { word: "Laser", etymology: "Acronym coined in 1959: Light Amplification by Stimulated Emission of Radiation." }] },
   "The Eponym Pack": { subpacks: ["Literary Eponyms", "Historical & Political", "Scientific Eponyms", "Fashion Eponyms", "Food Eponyms", "Inventions & Brands"], featuredWords: [{ word: "Kafkaesque", etymology: "From Franz Kafka, whose novels depicted nightmarish bureaucratic helplessness." }, { word: "Wellington", etymology: "Named after the Duke of Wellington, who popularised the rubber boot style." }, { word: "Bowdlerise", etymology: "From Thomas Bowdler, who published an expurgated edition of Shakespeare in 1818." }] },
-  "The Geography Pack": { subpacks: ["Landforms", "Waters & Coasts", "Climate & Weather", "Biomes & Vegetation", "Geological Features"], featuredWords: [{ word: "Fjord", etymology: "From Old Norse fjörðr — a narrow sea inlet between cliffs." }, { word: "Savanna", etymology: "From Spanish sabana, borrowed from Taino zabana. An open tropical grassland." }, { word: "Archipelago", etymology: "From Italian arcipelago — the Aegean Sea. From Greek archi (chief) + pelagos (sea)." }] },
-  "The Architecture Pack": { subpacks: ["Structural Elements", "Spaces & Interiors", "Styles & Movements", "Materials", "Urban Design"], featuredWords: [{ word: "Cantilever", etymology: "Origin uncertain, possibly from cant (angle) + lever. A beam supported at one end only." }, { word: "Clerestory", etymology: "From Middle English: clear + story. The upper windowed section of a church wall." }, { word: "Brutalist", etymology: "From French béton brut — raw concrete. Coined by Le Corbusier." }] },
-  "The Law Pack": { subpacks: ["Civil Law", "Contract Law", "Criminal Law", "Court & Procedure", "Latin Legal Terms"], featuredWords: [{ word: "Habeas corpus", etymology: "Latin: you shall have the body. A writ protecting against unlawful imprisonment." }, { word: "Tort", etymology: "From Old French tort, Latin tortus — twisted, wrong. A civil wrong giving rise to liability." }, { word: "Prima facie", etymology: "Latin: at first face. Evidence sufficient to establish a fact unless rebutted." }] },
-  "The Music Pack": { subpacks: ["Classical & Orchestral", "Jazz & Blues", "Song & Folk", "Stage & Performance", "Instruments"], featuredWords: [{ word: "Cadenza", etymology: "From Italian cadenza — cadence, falling. A solo passage near the end of a movement." }, { word: "Syncopation", etymology: "From Greek synkoptein — to cut short. Rhythm that emphasises off-beats." }, { word: "Libretto", etymology: "From Italian libretto — little book. The text of an opera or musical work." }] },
-  "The Games Pack": { subpacks: ["Chess & Strategy", "Cards & Gambling", "Sport & Athletics"], featuredWords: [{ word: "Gambit", etymology: "From Italian gambetto — a tripping up. An opening move accepting early sacrifice for advantage." }, { word: "Stalemate", etymology: "From Old French estal (fixed position) + mate (defeated). A draw in chess." }, { word: "Mulligan", etymology: "Disputed origin, possibly from David Mulligan, a Canadian golfer. A free second attempt." }] }
+  "The Geography Pack": { subpacks: ["Landforms", "Waters & Coasts", "Climate & Weather", "Biomes & Vegetation", "Geological Features"], featuredWords: [{ word: "Fjord", etymology: "From Old Norse fjörðr, a narrow sea inlet between cliffs." }, { word: "Savanna", etymology: "From Spanish sabana, borrowed from Taino zabana. An open tropical grassland." }, { word: "Archipelago", etymology: "From Italian arcipelago, the Aegean Sea. From Greek archi (chief) + pelagos (sea)." }] },
+  "The Architecture Pack": { subpacks: ["Structural Elements", "Spaces & Interiors", "Styles & Movements", "Materials", "Urban Design"], featuredWords: [{ word: "Cantilever", etymology: "Origin uncertain, possibly from cant (angle) + lever. A beam supported at one end only." }, { word: "Clerestory", etymology: "From Middle English: clear + story. The upper windowed section of a church wall." }, { word: "Brutalist", etymology: "From French béton brut, raw concrete. Coined by Le Corbusier." }] },
+  "The Law Pack": { subpacks: ["Civil Law", "Contract Law", "Criminal Law", "Court & Procedure", "Latin Legal Terms"], featuredWords: [{ word: "Habeas corpus", etymology: "Latin: you shall have the body. A writ protecting against unlawful imprisonment." }, { word: "Tort", etymology: "From Old French tort, Latin tortus, twisted, wrong. A civil wrong giving rise to liability." }, { word: "Prima facie", etymology: "Latin: at first face. Evidence sufficient to establish a fact unless rebutted." }] },
+  "The Music Pack": { subpacks: ["Classical & Orchestral", "Jazz & Blues", "Song & Folk", "Stage & Performance", "Instruments"], featuredWords: [{ word: "Cadenza", etymology: "From Italian cadenza, meaning cadence, falling. A solo passage near the end of a movement." }, { word: "Syncopation", etymology: "From Greek synkoptein, meaning to cut short. Rhythm that emphasises off-beats." }, { word: "Libretto", etymology: "From Italian libretto, meaning little book. The text of an opera or musical work." }] },
+  "The Games Pack": { subpacks: ["Chess & Strategy", "Cards & Gambling", "Sport & Athletics"], featuredWords: [{ word: "Gambit", etymology: "From Italian gambetto, a tripping up. An opening move accepting early sacrifice for advantage." }, { word: "Stalemate", etymology: "From Old French estal (fixed position) + mate (defeated). A draw in chess." }, { word: "Mulligan", etymology: "Disputed origin, possibly from David Mulligan, a Canadian golfer. A free second attempt." }] }
 };
 
 const bentoVariants = {
@@ -67,7 +67,7 @@ export default function PackGrid() {
   const marqueeClass = activeIndex % 2 === 0 ? "animate-marquee-left" : "animate-marquee-right";
 
   return (
-    <section id="packs" className="w-full bg-[var(--color-white)] section-padding min-h-screen">
+    <section id="packs" className="w-full bg-[var(--color-page)] section-padding min-h-screen">
       <div className="max-w-[1400px] mx-auto flex flex-col items-center">
         
         <motion.div 
@@ -95,7 +95,7 @@ export default function PackGrid() {
                 onClick={() => setActiveIndex(i)} 
                 className={`text-left px-6 py-4 md:py-5 rounded-[20px] transition-all duration-300 whitespace-nowrap lg:whitespace-normal shrink-0 border border-transparent ${
                   activeIndex === i 
-                    ? "bg-[var(--color-white)] shadow-[0_8px_32px_var(--card-shadow-2)] border-[var(--color-ink)] border-opacity-5"
+                    ? "bg-[var(--color-page)] shadow-[0_8px_32px_var(--card-shadow-2)] border-[var(--color-ink)] border-opacity-5"
                     : "hover:bg-[var(--color-ink)] hover:bg-opacity-[0.03] text-[var(--color-subtext)]"
                 }`}
               >
@@ -132,7 +132,7 @@ export default function PackGrid() {
                 <div className="absolute inset-0 bg-noise opacity-[0.03] mix-blend-overlay pointer-events-none z-0" />
 
                 {/* Context Side: Info */}
-                <div className="flex flex-col justify-between p-8 md:p-12 lg:w-[45%] shrink-0 relative z-10 border-b lg:border-b-0 lg:border-r border-[var(--color-ink)] border-opacity-5 bg-[var(--color-white)] bg-opacity-40">
+                <div className="flex flex-col justify-between p-8 md:p-12 lg:w-[45%] shrink-0 relative z-10 border-b lg:border-b-0 lg:border-r border-[var(--color-ink)] border-opacity-5 bg-[var(--color-page)] bg-opacity-40">
                   <div>
                     <div className="mb-6">
                       <h4 className="font-sans text-[11px] uppercase tracking-widest text-[var(--color-subtext)] mb-2">
@@ -166,11 +166,11 @@ export default function PackGrid() {
                 </div>
 
                 {/* Right Side: Bento Marquee */}
-                <div className="relative w-full lg:w-[55%] bg-[var(--color-white)] bg-opacity-50 overflow-hidden flex items-center py-12 lg:py-0 min-h-[400px]">
+                <div className="relative w-full lg:w-[55%] bg-[var(--color-page)] bg-opacity-50 overflow-hidden flex items-center py-12 lg:py-0 min-h-[400px]">
                   
                   {/* Faded edges to blend the marquee seamlessly */}
-                  <div className="absolute inset-y-0 left-0 w-16 md:w-24 bg-gradient-to-r from-[var(--color-white)] to-transparent z-10 pointer-events-none" />
-                  <div className="absolute inset-y-0 right-0 w-16 md:w-24 bg-gradient-to-l from-[var(--color-white)] to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-y-0 left-0 w-16 md:w-24 bg-gradient-to-r from-[var(--color-page)] to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-y-0 right-0 w-16 md:w-24 bg-gradient-to-l from-[var(--color-page)] to-transparent z-10 pointer-events-none" />
 
                   {/* Marquee Track */}
                   <div 
@@ -183,7 +183,7 @@ export default function PackGrid() {
                     {marqueeWords.map((fw, j) => (
                       <div
                         key={j}
-                        className="w-[280px] md:w-[320px] shrink-0 bg-[var(--color-white)] rounded-[24px] p-8 shadow-[0_8px_24px_var(--card-shadow-1)] border border-[var(--color-ink)] border-opacity-[0.03] hover:shadow-[0_12px_32px_var(--card-shadow-2)] transition-all duration-300 transform hover:-translate-y-1 cursor-default group/card flex flex-col justify-center relative overflow-hidden"
+                        className="w-[280px] md:w-[320px] shrink-0 bg-[var(--color-page)] rounded-[24px] p-8 shadow-[0_8px_24px_var(--card-shadow-1)] border border-[var(--color-ink)] border-opacity-[0.03] hover:shadow-[0_12px_32px_var(--card-shadow-2)] transition-all duration-300 transform hover:-translate-y-1 cursor-default group/card flex flex-col justify-center relative overflow-hidden"
                       >
                         {/* Noise overlay for individual cards */}
                         <div className="absolute inset-0 bg-noise opacity-[0.02] mix-blend-overlay pointer-events-none z-0" />

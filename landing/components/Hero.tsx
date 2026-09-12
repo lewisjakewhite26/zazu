@@ -79,25 +79,19 @@ export default function Hero() {
         {/* Left: Copy & CTA */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left w-full max-w-[560px]">
           <h1 className="font-serif text-[clamp(48px,6vw,88px)] text-ink leading-[1.05] m-0 w-full">
-            A new word every morning.
+            Finally, a vocab habit that sticks.
           </h1>
 
           <p className="font-sans text-[clamp(16px,1.8vw,20px)] text-[var(--color-subtext)] mt-5">
-            Wake up. Learn something.
+            Built into your alarm. Impossible to forget.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-[12px] mt-10 w-full sm:w-auto justify-center lg:justify-start">
             <a
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS"
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist"
               className="px-8 py-4 bg-[var(--color-button-fill)] text-white rounded-full font-medium hover:bg-[var(--color-button-fill)]/90 transition-colors inline-flex items-center justify-center whitespace-nowrap"
             >
-              Join the iOS Waitlist
-            </a>
-            <a
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20Android"
-              className="px-8 py-4 bg-transparent border border-ink text-ink rounded-full font-medium hover:bg-ink/5 transition-colors inline-flex items-center justify-center whitespace-nowrap"
-            >
-              Join the Android Waitlist
+              Join the Waitlist
             </a>
           </div>
 
@@ -120,7 +114,7 @@ export default function Hero() {
             {/* Notch -- fixed dark bezel colour like the frame above, not theme-flipping ink */}
             <div className="absolute top-2.5 left-1/2 -translate-x-1/2 h-[22px] w-[110px] bg-[var(--color-button-fill)] rounded-b-2xl z-10" />
             {/* Screen */}
-            <div className="overflow-hidden rounded-[2.1rem] bg-[var(--color-white)]">
+            <div className="overflow-hidden rounded-[2.1rem] bg-[var(--color-page)]">
               <Image
                 src={theme === "dark" ? "/zazu-word-screen-dark.png" : "/zazu-word-screen.png"}
                 alt="The Zazu app's word screen, shown in its real light or dark theme, with a word's definition and etymology"

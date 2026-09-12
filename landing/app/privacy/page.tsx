@@ -2,12 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Zazu",
+  title: "Privacy Policy | Zazu",
 };
 
 export default function PrivacyPolicy() {
   return (
-    <main className="min-h-screen dawn-gradient py-24 px-6">
+    <main className="min-h-screen bg-[var(--color-page)] py-24 px-6">
       <div className="max-w-[800px] mx-auto glass-card rounded-3xl p-8 md:p-12">
         <div className="mb-8 border-b border-[var(--color-ink)] border-opacity-10 pb-8 flex items-center justify-between">
           <h1 className="font-serif text-[48px] text-[var(--color-ink)] leading-none">
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
           <p>Zazu is a vocabulary alarm clock app. Depending on how you use it, we collect:</p>
           <ul>
             <li>
-              <strong>Account identity.</strong> If you sign in with Apple or Google, we receive your name
+              <strong>Account identity.</strong> If you sign in with Google, we receive your name
               and email address from that provider, via our authentication provider Supabase, so we can
               create and secure your account.
             </li>
@@ -46,8 +46,8 @@ export default function PrivacyPolicy() {
             <li>
               <strong>Subscription status.</strong> If you purchase Zazu Gold, our subscription provider
               RevenueCat tells us your entitlement status (e.g. &ldquo;active Gold subscriber&rdquo;) so the
-              app can unlock the right features. Billing itself is handled entirely by the Apple App Store
-              or Google Play. We never see or store your payment card details.
+              app can unlock the right features. Billing itself is handled entirely by Google Play.
+              We never see or store your payment card details.
             </li>
           </ul>
 
@@ -64,8 +64,7 @@ export default function PrivacyPolicy() {
             <li><strong>Supabase.</strong> Hosts our database and handles sign-in.</li>
             <li><strong>RevenueCat.</strong> Manages subscription entitlements.</li>
             <li>
-              <strong>Apple and Google.</strong> Process sign-in and, where applicable, subscription
-              payments through the App Store or Google Play.
+              <strong>Google.</strong> Processes sign-in and subscription payments through Google Play.
             </li>
           </ul>
           <p>We do not otherwise sell, rent, or share your personal data with third parties.</p>
@@ -93,7 +92,7 @@ export default function PrivacyPolicy() {
           <p>
             We keep your account data for as long as your account is active. If you delete your account,
             your data is permanently removed from our systems. Subscription records may be retained by
-            Apple, Google, or RevenueCat per their own policies, outside our control.
+            Google or RevenueCat per their own policies, outside our control.
           </p>
 
           <h2>Children&rsquo;s privacy</h2>

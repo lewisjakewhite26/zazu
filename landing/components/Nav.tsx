@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useTheme } from '@/lib/theme-context'
 
@@ -101,8 +102,18 @@ export default function Nav() {
         style={{ background, backdropFilter: backdropBlur }}
         className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-8 py-4"
       >
-        <span className="font-serif text-[20px] lowercase text-[var(--color-ink)] leading-none">
-          zazu
+        <span className="flex items-center gap-2">
+          <Image
+            src="/images/zazu-mark.png"
+            alt=""
+            width={19}
+            height={25}
+            className="h-[25px] w-auto"
+            priority
+          />
+          <span className="font-serif text-[20px] lowercase text-[var(--color-ink)] leading-none">
+            zazu
+          </span>
         </span>
 
         {/* Desktop links */}

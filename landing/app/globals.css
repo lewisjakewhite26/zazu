@@ -7,11 +7,16 @@
   --color-ink: #2c1f2e;
   --color-subtext: #6a5c78;
   --color-gold: #c9963a;
-  --color-white: #fefcfb;
+  /* Named "page", not "white": Tailwind v4 generates bg-white/text-white/
+     border-white FROM a --color-white theme token, so defining one here
+     (even at a near-white #fefcfb) shadows Tailwind's real white and flips
+     every `text-white` CTA to this token's dark-mode value -- which used to
+     silently turn white button text into near-invisible dark-on-dark. */
+  --color-page: #fefcfb;
   --color-correct: #a8d8b0;
 
   --font-serif: var(--font-boska);
-  --font-sans: var(--font-satoshi);
+  --font-sans: var(--font-dm-sans);
 }
 
 :root {
@@ -40,14 +45,6 @@
   --card-shadow-2: rgba(44, 31, 46, 0.06);
   --card-shadow-hover-1: rgba(44, 31, 46, 0.06);
   --card-shadow-hover-2: rgba(44, 31, 46, 0.12);
-
-  --dawn-stop-1: #c8b4e8;
-  --dawn-stop-2: #f0a0bc;
-  --dawn-stop-3: #f9c9a8;
-
-  --gold-stop-1: #f9c9a8;
-  --gold-stop-2: #c9963a;
-  --gold-stop-3: #f0a0bc;
 
   --hero-stop-1: #e4d2f5;
   --hero-stop-2: #d9b8ec;
@@ -90,7 +87,7 @@
        gradients (wired to their own dedicated variables) actually go dark. */
     --color-ink: #f0e8f8;
     --color-subtext: #b0a0c8;
-    --color-white: #1e1730;
+    --color-page: #1e1730;
     --color-correct: #5cbd8a;
     --gold-text: #c9963a;
 
@@ -100,14 +97,6 @@
     --card-shadow-2: rgba(0, 0, 0, 0.35);
     --card-shadow-hover-1: rgba(0, 0, 0, 0.3);
     --card-shadow-hover-2: rgba(0, 0, 0, 0.45);
-
-    --dawn-stop-1: #1a1225;
-    --dawn-stop-2: #1a1830;
-    --dawn-stop-3: #0e0c1a;
-
-    --gold-stop-1: #1a1830;
-    --gold-stop-2: #c9963a;
-    --gold-stop-3: #1a1225;
 
     --hero-stop-1: #1a1225;
     --hero-stop-2: #241a35;
@@ -132,7 +121,7 @@
 
   --color-ink: #f0e8f8;
   --color-subtext: #b0a0c8;
-  --color-white: #1e1730;
+  --color-page: #1e1730;
   --color-correct: #5cbd8a;
   --gold-text: #c9963a;
 
@@ -142,14 +131,6 @@
   --card-shadow-2: rgba(0, 0, 0, 0.35);
   --card-shadow-hover-1: rgba(0, 0, 0, 0.3);
   --card-shadow-hover-2: rgba(0, 0, 0, 0.45);
-
-  --dawn-stop-1: #1a1225;
-  --dawn-stop-2: #1a1830;
-  --dawn-stop-3: #0e0c1a;
-
-  --gold-stop-1: #1a1830;
-  --gold-stop-2: #c9963a;
-  --gold-stop-3: #1a1225;
 
   --hero-stop-1: #1a1225;
   --hero-stop-2: #241a35;
@@ -193,16 +174,6 @@
 }
 
 @layer components {
-  .dawn-gradient {
-    background: linear-gradient(160deg, var(--dawn-stop-1) 0%, var(--dawn-stop-2) 50%, var(--dawn-stop-3) 100%);
-    transition: background 0.5s ease;
-  }
-
-  .gold-gradient {
-    background: linear-gradient(160deg, var(--gold-stop-1) 0%, var(--gold-stop-2) 60%, var(--gold-stop-3) 100%);
-    transition: background 0.5s ease;
-  }
-
   /* Base Glass Card */
   .glass-card {
     background: var(--card-fill);
@@ -220,7 +191,7 @@
     transform: translateY(-2px);
   }
 
-  /* Boska — expressive, high-contrast display serif */
+  /* Boska -- expressive, high-contrast display serif */
   .font-serif {
     font-family: var(--font-serif), Georgia, serif;
     font-weight: 400;

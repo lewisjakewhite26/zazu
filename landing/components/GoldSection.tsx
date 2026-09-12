@@ -23,7 +23,7 @@ function CheckmarkIcon() {
 
 export default function GoldSection() {
   return (
-    <section id="gold" className="w-full gold-gradient section-padding">
+    <section id="gold" className="w-full bg-[var(--color-page)] section-padding">
       <div className="max-w-[1000px] mx-auto flex flex-col items-center">
         
         <motion.div 
@@ -37,7 +37,7 @@ export default function GoldSection() {
             Zazu Gold.
           </h2>
           <p className="text-[var(--color-ink)] opacity-70 text-[20px] md:text-[24px]">
-            Every word pack. Full history. Advanced practice. £1.99 a month.
+            Keep every word you've ever learned, and go deeper whenever you want.
           </p>
         </motion.div>
 

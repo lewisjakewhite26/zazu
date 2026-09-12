@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="w-full dawn-gradient pt-20 pb-10 px-6">
+    <footer className="w-full bg-[var(--color-page)] border-t border-[var(--color-ink)] border-opacity-5 pt-20 pb-10 px-6">
       <motion.div 
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -17,9 +18,18 @@ export default function Footer() {
           
           {/* Left: Wordmark & Tagline */}
           <div className="flex flex-col items-center md:items-start">
-            <h2 className="font-serif text-[32px] lowercase text-[var(--color-ink)] leading-none mb-2">
-              zazu
-            </h2>
+            <div className="flex items-center gap-2.5 mb-2">
+              <Image
+                src="/images/zazu-mark.png"
+                alt=""
+                width={30}
+                height={40}
+                className="h-[40px] w-auto"
+              />
+              <h2 className="font-serif text-[32px] lowercase text-[var(--color-ink)] leading-none">
+                zazu
+              </h2>
+            </div>
             <p className="text-[var(--color-ink)] opacity-70 text-[16px] tracking-wide">
               A new word. Every morning.
             </p>
@@ -41,16 +51,10 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Right: Download Buttons */}
+          {/* Right: Download Button */}
           <div className="flex flex-col gap-3">
             <a
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20iOS"
-              className="h-10 px-6 rounded-full bg-[var(--color-button-fill)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
-            >
-              App Store: Join the Waitlist
-            </a>
-            <a
-              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist%20%E2%80%94%20Android"
+              href="mailto:hello@zazu.org.uk?subject=Zazu%20Waitlist"
               className="h-10 px-6 rounded-full bg-[var(--color-button-fill)] text-white text-[14px] flex items-center justify-center hover:opacity-90 transition-opacity whitespace-nowrap"
             >
               Google Play: Join the Waitlist

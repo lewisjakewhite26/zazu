@@ -8,7 +8,7 @@ const wordData = {
   author: "John Milton",
   work: "Paradise Lost",
   year: "1667",
-  meaning: "A place of wild chaos and noise — originally the capital of Hell.",
+  meaning: "A place of wild chaos and noise, originally the capital of Hell.",
   roots: [
     {
       fragment: "PAN",
@@ -84,7 +84,7 @@ export default function EtymologyExploder() {
   return (
     <section ref={containerRef} className="relative w-full h-[300vh] bg-transparent">
       {/* Sticky container */}
-      <div className="sticky top-0 h-screen w-full overflow-hidden dawn-gradient flex flex-col items-center justify-center">
+      <div className="sticky top-0 h-screen w-full overflow-hidden bg-[var(--color-page)] flex flex-col items-center justify-center">
         
         {/* Section Heading */}
         <motion.div

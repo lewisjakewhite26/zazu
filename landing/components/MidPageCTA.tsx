@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function MidPageCTA() {
   return (
-    <section className="w-full bg-[var(--color-white)] px-6 py-16 flex flex-col items-center text-center">
+    <section className="w-full bg-[var(--color-page)] px-6 py-16 flex flex-col items-center text-center">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -13,7 +13,7 @@ export default function MidPageCTA() {
         className="flex flex-col items-center gap-4"
       >
         <p className="font-serif text-[24px] md:text-[28px] text-[var(--color-ink)]">
-          Still reading? Good sign.
+          Your first word is waiting.
         </p>
         <a
           href="mailto:hello@zazu.org.uk?subject=Zazu%20Early%20Access%20Waitlist"
