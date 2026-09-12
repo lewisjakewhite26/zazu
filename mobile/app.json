@@ -53,7 +53,8 @@
       "expo-audio",
       "react-native-notify-kit",
       "./plugins/withAlarmFullScreen.js",
-      "expo-asset"
+      "expo-asset",
+      "@react-native-google-signin/google-signin"
     ],
     "experiments": {
       "typedRoutes": true

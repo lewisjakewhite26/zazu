@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-import * as Google from 'expo-auth-session/providers/google';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 
@@ -15,14 +14,9 @@ import { useTheme } from '@/context/ThemeContext';
 import {
   buildGoogleAuthRequest,
   isAppleSignInAvailable,
+  signInWithGoogleNative,
   signInWithGoogleOAuth,
 } from '@/services/auth';
-
-// expo-auth-session's Google provider throws synchronously during render if the
-// platform-required client ID is undefined, before `isConfigured` is ever checked.
-// A placeholder keeps the hook from crashing when EAS env vars go missing again —
-// the isConfigured check below still keeps the button disabled/inert either way.
-const GOOGLE_CLIENT_ID_FALLBACK = 'zazu-google-signin-not-configured';
 
 export function SignInScreen() {
   const router = useRouter();
@@ -32,41 +26,13 @@ export function SignInScreen() {
   const googleConfig = buildGoogleAuthRequest();
   const showApple = isAppleSignInAvailable();
   const [googleError, setGoogleError] = useState<string | null>(null);
-
-  const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
-    clientId: googleConfig.webClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
-    iosClientId: googleConfig.iosClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
-    androidClientId: googleConfig.androidClientId ?? GOOGLE_CLIENT_ID_FALLBACK,
-    // Without this, the library defaults to `${applicationId}:/oauthredirect`
-    // (e.g. com.zazu.app:/oauthredirect), which has no matching intent filter
-    // in AndroidManifest.xml -- only the `zazu` scheme does -- so Google
-    // redirects the browser somewhere the app can never catch it.
-    redirectUri: googleConfig.redirectUri,
-  });
+  const [googleBusy, setGoogleBusy] = useState(false);
 
   useEffect(() => {
     if (session && !needsName) {
       router.replace('/(tabs)');
     }
   }, [session, needsName, router]);
-
-  useEffect(() => {
-    if (!response || response.type === 'dismiss' || response.type === 'cancel') return;
-
-    if (response.type !== 'success') {
-      setGoogleError(copy.onboarding.googleSignInFailed);
-      return;
-    }
-
-    const idToken = response.params.id_token;
-    if (!idToken) {
-      setGoogleError(copy.onboarding.googleSignInFailed);
-      return;
-    }
-
-    setGoogleError(null);
-    void signInGoogle(idToken);
-  }, [response, signInGoogle]);
 
   const styles = useMemo(
     () =>
@@ -105,14 +71,25 @@ export function SignInScreen() {
     [colors, insets.bottom],
   );
 
-  const handleGoogle = () => {
-    if (!googleConfig.isConfigured) return;
+  const handleGoogle = async () => {
+    if (!googleConfig.isConfigured || googleBusy) return;
+
     if (Platform.OS === 'web') {
       void signInWithGoogleOAuth();
       return;
     }
-    if (!request) return;
-    void promptAsync();
+
+    setGoogleError(null);
+    setGoogleBusy(true);
+    try {
+      const outcome = await signInWithGoogleNative();
+      if (outcome.type === 'cancelled') return;
+      await signInGoogle(outcome.idToken);
+    } catch {
+      setGoogleError(copy.onboarding.googleSignInFailed);
+    } finally {
+      setGoogleBusy(false);
+    }
   };
 
   return (
@@ -133,9 +110,9 @@ export function SignInScreen() {
           ) : null}
           <OAuthButton
             provider="google"
-            onPress={handleGoogle}
-            loading={authBusy}
-            disabled={authBusy || !googleConfig.isConfigured || (Platform.OS !== 'web' && !request)}
+            onPress={() => void handleGoogle()}
+            loading={authBusy || googleBusy}
+            disabled={authBusy || googleBusy || !googleConfig.isConfigured}
           />
           {!googleConfig.isConfigured ? (
             <Text style={styles.muted}>{copy.onboarding.googleNotConfigured}</Text>
