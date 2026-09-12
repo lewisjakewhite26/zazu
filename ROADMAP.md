@@ -2,7 +2,7 @@
 
 Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re-audit (every item below was re-verified against the actual code, not carried forward from prior docs). Updated 2026-08-07 with a feature audit of an old, never-committed laptop copy (Pack Shop, Coin Shop, Gym Modes, Literary Gym Round, Word Reroll, Snooze, FloatingTabBar, AppIcon fallback) — see the new subsection under P3 and [ROADMAP_SIMPLE.md](ROADMAP_SIMPLE.md) for the short version. Word reroll was dropped 2026-08-25, see the verdict table below.
 
-**Overall score: ~78/100** · Vision-aligned product: ~70/100 · Details in [AUDIT.md](AUDIT.md)
+**Overall score: ~87/100** · Vision-aligned product: ~82/100 · Details in [AUDIT.md](AUDIT.md) (round 10, 2026-08-27)
 
 ---
 
@@ -39,29 +39,21 @@ Priority list for Zazu development. Rewritten 2026-07-31 after a ground-truth re
 | 6 | Alarm persistence (alarm list in AsyncStorage via `useAlarms`) | Done |
 | 7 | Audio + haptics (`expo-av` chime, `expo-haptics` on puzzle/success) | Done |
 | 8 | Expo branding pass (`app.json`: Zazu name, slug, dawn splash) | Done |
-| 9 | Device verification (notifications, audio, kill/reopen persistence) | **No evidence in-repo this has happened.** `mobile/eas.json` + `mobile/BUILD.md` are ready; nothing indicates a dev build was actually produced/installed. |
+| 9 | Device verification (notifications, audio, kill/reopen persistence) | **Superseded by local builds, not EAS** — see the note below. Ongoing via `expo run:android --variant release` on a real device throughout the 2026-08-22 session onward, each verified via adb/logcat. Still needs a final on-device confirmation of the 2026-08-27 Google Sign-In rewrite specifically, since that's a new native dependency. |
 
 ### P1 code quality (verified this round)
 
 | Check | Status |
 |---|---|
-| `npx tsc --noEmit` (mobile) | **Passes clean, zero errors** |
-| Automated tests | **Started 2026-08-07** — Vitest at root, 80 tests: webhook signature verification + entitlement-decision logic, a structural RLS-policy regression test covering every premium table including `literary_words` (see #41), pure-logic coverage for Gym Modes (#26), the Literary pack's question builder (#48), and Snooze's date-cap logic (#27). Still no tests for mobile UI or web. |
-| CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, root `tsc --noEmit`, `npm test`, and mobile `tsc --noEmit` — still no web build/lint, no mobile UI tests |
+| `npx tsc --noEmit` (mobile, via `tsconfig.typecheck.json`) | **Passes clean, zero errors** |
+| Automated tests | 110 tests at root (Vitest: webhook signature verification, entitlement-decision logic, RLS-policy structure across every premium table including `literary_words`, Gym Modes logic, the Literary pack's question builder, Snooze's date-cap logic, question-phrasing distribution) + 9 mobile tests (Jest: `useAlarms` CRUD/persistence, `AlarmFlowContext` state transitions). Still no tests for the landing page. |
+| CI coverage | `.github/workflows/ci.yml` runs `seed:dry`, `words:morning-tasks:check`, root `tsc --noEmit`/`npm test`, and mobile `tsc -p tsconfig.typecheck.json`/`npm test` — still no web build/lint for the landing page |
 
-**P1 code is complete and typesafe. Only #9 (real device) and test coverage remain.**
+**P1 code is complete and typesafe.**
 
-### P1 — EAS development build ("Zazu Dev")
+### P1 — device builds: local, not EAS (was "EAS development build")
 
-Replaces Play Store Expo Go. One custom APK on your phone with full local notifications, haptics, and SDK 56 support.
-
-| # | Task | Status |
-|---|------|--------|
-| 31 | Expo account + `eas login` (from `mobile/`) | Not started |
-| 32 | Install `expo-dev-client` | Not started |
-| 33 | `eas build:configure` + `mobile/eas.json` development profile | Done (`eas.json` committed, profiles present: development/preview/production) |
-| 34 | `eas build --profile development --platform android` → install APK on phone | Not started |
-| 35 | Device verification (P1 #9) on dev build | Not started |
+**This section previously listed EAS dev-client setup (`eas login`, `expo-dev-client`, `eas build --profile development`) as the path to a device build, with items #31/#32/#34/#35 marked "Not started" — that was stale and contradicted itself against this doc's own later note (below) that local builds had superseded EAS since the 2026-08-22 session. Removed rather than left inaccurate.** The real, current workflow is `cd mobile && npx expo run:android --variant release` with the phone connected via USB — see [ALARM_DEBUG_SESSION_2026-08-15.md](ALARM_DEBUG_SESSION_2026-08-15.md) for how that transition happened. `mobile/eas.json`'s development/preview/production profiles remain committed and usable if EAS's own build service is ever needed again, but they're not the active path.
 
 See [mobile/BUILD.md](mobile/BUILD.md) for the full workflow.
 
@@ -86,7 +78,7 @@ npm run web         # full flow + web chimes + add alarm + calendar
 | 39 | **Verify RevenueCat end-to-end** — `mobile/.env` exists and is populated (`EXPO_PUBLIC_REVENUECAT_IOS_KEY`/`ANDROID_KEY` set to RevenueCat's public test key, matching `.env.example`), so `isRevenueCatConfigured()` passes and the purchase flow (`SubscriptionContext.tsx`, `react-native-purchases@^10.4.4`) is wired and mounted in `app/_layout.tsx`. **Not yet proven**: no evidence (code or git history) a sandbox purchase has ever been run end-to-end, and the test key being present doesn't confirm store products/offerings are configured on RevenueCat's side. Run one real sandbox purchase to confirm. | **Dashboard side confirmed (2026-08-26)** — RevenueCat project has a Test Store SDK key (matches `mobile/.env`), a `default` offering with `$rc_monthly`/`$rc_annual` packages mapping to `offering.monthly`/`.annual` as the code expects, and a `gold` entitlement with both products attached, matching `GOLD_ENTITLEMENT_ID`. **Still unverified**: an actual sandbox purchase has not yet been run on-device; real Apple/Google store apps (vs. the Test Store) aren't set up yet either. |
 | 40 | **Fix `BILLING_ISSUE` webhook handling** — `supabase/functions/revenuecat-webhook/index.ts` correctly upgrades to `tier: 'gold'` on `INITIAL_PURCHASE`/`RENEWAL` and downgrades to `'free'` on `CANCELLATION`/`EXPIRATION` (with HMAC signature verification), but `BILLING_ISSUE` only logs — lapsed billing never downgrades a user. Add a grace period + eventual downgrade. | **Done** — `BILLING_ISSUE` now reads `grace_period_expiration_at_ms`; within the grace window it writes that timestamp to `gold_until` (existing RLS `gold_until > now()` checks make access self-expire, no cron/follow-up event needed), otherwise downgrades to `free` immediately |
 | — | **Fix post-purchase entitlement error** — `SubscriptionContext.tsx`'s `purchaseGold`/`restorePurchases`/`refreshEntitlement` all called `upsertUserEntitlement` after a successful RevenueCat result, which unconditionally throws in production builds (entitlements are meant to come only from the webhook) — so a paying user saw an error screen immediately after a successful charge. | **Done (2026-08-26)** — all three call sites now only call `upsertUserEntitlement` in `__DEV__`; production sets local `entitlement` state optimistically and lets the webhook write the real row. `GoldPaywallScreen.handlePurchase`'s existing `router.back()` on success now actually runs instead of being hijacked into the catch block. |
-| — | **Harden Google Sign-In** — `Google.useIdTokenAuthRequest` in `SignInScreen.tsx` threw synchronously during render if the platform-required client ID was undefined, before the app's own `isConfigured` check ever ran. Not currently broken (client IDs are set and EAS-synced), but this project has had two documented EAS-env-drift incidents already, and this path had zero fallback — an instant crash screen instead of a degraded state. | **Done (2026-08-26)** — the hook always receives a defined client ID now (real value or a `GOOGLE_CLIENT_ID_FALLBACK` placeholder), so a missing/drifted env var can no longer crash it; `googleConfig.isConfigured` still keeps the button disabled/inert either way. |
+| — | **Harden Google Sign-In**, then **replace it entirely**. The 2026-08-26 fix made `Google.useIdTokenAuthRequest` fail safely instead of crashing on a missing client ID — but the underlying `expo-auth-session` browser-redirect approach it was patching turned out to be broken by a Google policy change (custom URI scheme redirects are no longer supported for Android). | **Done (2026-08-27)** — rewritten onto `@react-native-google-signin/google-signin` (native Credential Manager on Android, no redirect URI at all). Typechecks and builds clean. **Still needs a real device rebuild** (`expo run:android --variant release`) to confirm the native sign-in flow actually works — new native dependency, not a JS-only change. |
 
 ### P2 — Everything else
 

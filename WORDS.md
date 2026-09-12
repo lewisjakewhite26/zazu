@@ -197,7 +197,7 @@ Zazu Gold's actual gating (per `PRODUCT.md`) works at two levels:
 | 179 | Decry | dih-KRY | verb | To publicly denounce or express strong disapproval of something. | From French décrier, from dé- (down) + crier (to cry out). |
 | 180 | Deference | DEF-uh-runss | noun | Polite submission and respect shown to an elder or authority figure. | From French déférence, from déférer, from Latin deferre (to carry down, submit). |
 | 181 | Deleterious | del-ih-TEER-ee-us | adjective | Causing harm or damage. | From Greek deleterios, from deleisthai (to hurt, injure, damage). |
-| 182 | Demagogue | DEM-uh-gog | noun | A political leader who seeks support by appealing to popular desires rather than using rational argument. UK spelling. | From Greek demagogogos, from demos (people) + agogos (leader, leading). |
+| 182 | Demagogue | DEM-uh-gog | noun | A political leader who seeks support by appealing to popular desires rather than using rational argument. UK spelling. | From Greek demagogos, from demos (people) + agogos (leader, leading). |
 | 183 | Demur | dih-MUR | verb | To raise objections or show reluctance to do something. | From Old French demorer, from Latin demorari (to linger, delay). |
 | 184 | Denigrate | DEN-ih-grayt | verb | To criticise unfairly, disparage, or defame someone's reputation. | From Latin denigratis, from de- (completely) + nigrare (to blacken). |
 | 185 | Depravity | dih-PRAV-ih-tee | noun | Moral corruption or wickedness. | From alteration of Old French depraver, from Latin depravare (to pervert, distort, corrupt). |

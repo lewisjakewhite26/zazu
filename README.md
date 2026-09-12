@@ -2,7 +2,7 @@
 
 Zazu is a vocabulary alarm clock. You set a morning alarm, wake up to a new word, and learn it before the day starts. The Expo mobile app runs the gentle alarm flow: **reveal → learn → one morning task → dismiss**. Word Gym (3-round puzzle) is available from the gym tab and calendar. The word library lives in `zazu-words.json` and syncs to Supabase.
 
-**The mobile app (`mobile/`) is the only shipped product.** `landing/` is a separate Next.js marketing site (zazu.org.uk) with the Privacy Policy, Terms of Service, and Accessibility Statement required for App Store/Play Store submission. An earlier browser-based prototype of the app itself used to live at the repo root; it's been removed now that the mobile app is feature-complete and the prototype had no users, no store presence, and duplicated logic that had drifted out of sync with mobile.
+**The mobile app (`mobile/`) is the only shipped product — Android only, no iOS app exists or is planned.** `landing/` is a separate Next.js marketing site (zazu.org.uk) with the Privacy Policy, Terms of Service, and Accessibility Statement required for Play Store submission. An earlier browser-based prototype of the app itself used to live at the repo root; it's been removed now that the mobile app is feature-complete and the prototype had no users, no store presence, and duplicated logic that had drifted out of sync with mobile.
 
 See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) for status and priorities.
 
@@ -10,7 +10,7 @@ See [AUDIT.md](AUDIT.md), [ROADMAP.md](ROADMAP.md), and [DESIGN_SYSTEM.md](DESIG
 
 | Surface | Built |
 |---------|--------|
-| **Mobile** (Expo) | Word Gym tab, calendar, settings, onboarding, Gold subscription, scheduled notifications, Apple/Google sign-in |
+| **Mobile** (Expo) | Word Gym tab, calendar, settings, onboarding, Gold subscription, scheduled notifications, Google sign-in |
 | **Content** | Word library (A–Z), morning tasks, gym rounds, distractor pool |
 | **Backend** | Supabase with alarm/gym RPCs, roots, morning tasks, user progress + entitlements schema, account deletion |
 | **Landing site** (`landing/`) | Next.js marketing site + legal docs, deployed on **Vercel** (GitHub → auto-deploy) |
@@ -210,7 +210,7 @@ All user-facing text in this project follows [writing-rules.md](writing-rules.md
 | Document | Purpose |
 |----------|---------|
 | [ROADMAP.md](ROADMAP.md) | P0–P3 priorities and what to build next |
-| [AUDIT.md](AUDIT.md) | Round 9 scores, gaps, and revenue notes (2026-07-31, not yet re-scored against the 2026-08-09 test pass) |
+| [AUDIT.md](AUDIT.md) | Round 10 scores, gaps, and revenue notes (2026-08-27) |
 | [POST_APP_TEST_ROADMAP.md](POST_APP_TEST_ROADMAP.md) | First real on-device test findings (2026-08-09) — bug fixes and the locked Coin Economy / Thematic Word Packs spec |
 | [PRODUCT.md](PRODUCT.md) | Product definition — purpose, positioning, monetization, principles |
 
