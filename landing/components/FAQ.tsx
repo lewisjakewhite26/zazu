@@ -76,8 +76,10 @@ export default function FAQ() {
               >
                 <button
                   type="button"
+                  id={`faq-trigger-${i}`}
                   onClick={() => setOpenIndex(isOpen ? null : i)}
                   aria-expanded={isOpen}
+                  aria-controls={`faq-panel-${i}`}
                   className="w-full flex items-center justify-between gap-4 text-left px-6 py-5"
                 >
                   <span className="font-sans font-medium text-[16px] md:text-[17px] text-[var(--color-ink)]">
@@ -88,6 +90,9 @@ export default function FAQ() {
                 <AnimatePresence initial={false}>
                   {isOpen && (
                     <motion.div
+                      id={`faq-panel-${i}`}
+                      role="region"
+                      aria-labelledby={`faq-trigger-${i}`}
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -60,11 +60,11 @@ function ThemeToggle() {
       onClick={toggleTheme}
       aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
       aria-pressed={isDark}
-      className="relative shrink-0 h-9 w-16 rounded-full border border-[var(--color-ink)]/15 bg-[var(--color-ink)]/5 transition-colors flex items-center px-1"
+      className="relative shrink-0 h-11 w-20 rounded-full border border-[var(--color-ink)]/15 bg-[var(--color-ink)]/5 transition-colors flex items-center px-1"
     >
       <motion.span
-        className="absolute h-7 w-7 rounded-full bg-[var(--color-button-fill)] flex items-center justify-center"
-        animate={{ x: isDark ? 28 : 0 }}
+        className="absolute h-9 w-9 rounded-full bg-[var(--color-button-fill)] flex items-center justify-center"
+        animate={{ x: isDark ? 36 : 0 }}
         transition={{ type: 'spring', stiffness: 400, damping: 30 }}
       >
         {isDark ? <MoonIcon /> : <SunIcon />}
@@ -78,7 +78,40 @@ export default function Nav() {
   const { theme } = useTheme()
   const prefersReducedMotion = useReducedMotion()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const menuButtonRef = useRef<HTMLButtonElement>(null)
+  const menuPanelRef = useRef<HTMLDivElement>(null)
   const isDark = theme === 'dark'
+
+  // Focus trap + Escape-to-close for the mobile menu overlay -- a fixed panel
+  // needs its own keyboard handling since it isn't a native <dialog>.
+  useEffect(() => {
+    if (!mobileOpen) return
+
+    const panel = menuPanelRef.current
+    const focusable = panel?.querySelectorAll<HTMLElement>('a[href], button')
+    focusable?.[0]?.focus()
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMobileOpen(false)
+        menuButtonRef.current?.focus()
+        return
+      }
+      if (e.key !== 'Tab' || !focusable || focusable.length === 0) return
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault()
+        first.focus()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [mobileOpen])
   // framer-motion interpolates colors numerically, so it needs literal rgba
   // strings rather than CSS var() references -- pick the pair by theme state
   // instead (the hook itself is still called unconditionally every render).
@@ -140,11 +173,13 @@ export default function Nav() {
         <div className="flex md:hidden items-center gap-3">
           <ThemeToggle />
           <button
+            ref={menuButtonRef}
             type="button"
             onClick={() => setMobileOpen((open) => !open)}
             aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={mobileOpen}
-            className="h-9 w-9 flex items-center justify-center rounded-full bg-[var(--color-ink)]/5"
+            aria-controls="mobile-menu"
+            className="h-11 w-11 flex items-center justify-center rounded-full bg-[var(--color-ink)]/5"
           >
             {mobileOpen ? <CloseIcon /> : <MenuIcon />}
           </button>
@@ -155,6 +190,11 @@ export default function Nav() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            ref={menuPanelRef}
+            id="mobile-menu"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Menu"
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
