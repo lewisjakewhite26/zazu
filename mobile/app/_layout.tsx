@@ -3,7 +3,7 @@ import {
   DMSans_500Medium,
   DMSans_600SemiBold,
 } from '@expo-google-fonts/dm-sans';
-import { DMSerifText_400Regular } from '@expo-google-fonts/dm-serif-text';
+import { DMSerifText_400Regular, DMSerifText_400Regular_Italic } from '@expo-google-fonts/dm-serif-text';
 import notifee, { EventType } from 'react-native-notify-kit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFonts } from 'expo-font';
@@ -65,6 +65,7 @@ export default function RootLayout() {
     DMSans_500Medium,
     DMSans_600SemiBold,
     DMSerifText_400Regular,
+    DMSerifText_400Regular_Italic,
   });
 
   useEffect(() => {

@@ -5,6 +5,7 @@ import {
   openBatteryOptimizationSettings,
   openExactAlarmSettings,
   openNotificationSettings,
+  requestNotificationPermissions,
   type AlarmPermissionStatus,
 } from '../../../lib/alarm-notifications';
 import { copy } from '@/constants/copy';
@@ -25,7 +26,11 @@ export function AlarmPermissionBanner({ status }: AlarmPermissionBannerProps) {
       items.push({
         key: 'notifications',
         label: copy.alarmPermissions.notifications,
-        onPress: () => void openNotificationSettings(),
+        // Ask in-app first; if Android won't show the prompt again, open Settings.
+        onPress: () =>
+          void requestNotificationPermissions().then((granted) => {
+            if (!granted) void openNotificationSettings();
+          }),
       });
     }
     if (Platform.OS === 'android' && !status.exactAlarmGranted) {

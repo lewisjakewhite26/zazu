@@ -5,11 +5,11 @@ import { ThemeProvider, themeInitScript } from "@/lib/theme-context";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Zazu: A new word. Every morning.',
+  title: 'Zazu: A new word every morning',
   description: 'Zazu is a vocabulary alarm clock. Learn one curated English word every morning, etymology included. Zazu Gold unlocks 1,700+ premium words across ten themed packs.',
   keywords: 'vocabulary, etymology, word of the day, alarm, English, learn, morning, dictionary',
   openGraph: {
-    title: 'Zazu: A new word. Every morning.',
+    title: 'Zazu: A new word every morning',
     description: 'Learn one word every morning. Etymology, gym rounds, and ten premium word packs.',
     url: 'https://zazu.org.uk',
     siteName: 'Zazu',

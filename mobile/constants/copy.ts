@@ -2,7 +2,7 @@
 export const copy = {
   brand: {
     wordmark: 'zazu',
-    tagline: 'A new word. Every morning.',
+    tagline: 'A new word every morning.',
     pageTitle: 'Zazu. Wake up. Learn something.',
   },
   home: {
@@ -44,12 +44,12 @@ export const copy = {
     hintRevealScreenReader: (word: string) => `It's "${word}". Select it from the list below.`,
   },
   alarmPermissions: {
-    bannerTitle: "Alarm can't wake a locked phone yet",
-    bannerBody: 'Grant these so it fires and shows through the lock screen.',
-    notifications: 'Allow notifications',
-    exactAlarm: 'Allow exact alarms',
-    battery: 'Allow background activity',
-    fix: 'Fix',
+    bannerTitle: 'Your alarm might not ring',
+    bannerBody: 'Android needs your permission for Zazu to wake you, even with the phone locked.',
+    notifications: 'Notifications',
+    exactAlarm: 'Exact alarms',
+    battery: 'Background activity',
+    fix: 'Allow',
   },
   addAlarm: {
     // Alarms repeat daily, so the default label says so.
@@ -76,6 +76,22 @@ export const copy = {
     nameHeading: 'What should we call you?',
     namePlaceholder: 'Your name',
     nameConfirm: 'Continue',
+    welcomeHow: 'Your alarm goes off, you meet a word, and one quick question gets you up.',
+    previewLabel: "Today's word",
+    wakeHeading: 'When do you wake up?',
+    wakeBody: "We'll set your first alarm. You can change it any time.",
+    wakeCta: 'Set my alarm',
+    wakeSkip: 'Skip for now',
+    ringHeading: 'So your alarm can ring',
+    ringBody: 'Android needs two permissions to wake you with the phone locked. Nothing else is asked for, and nothing is tracked.',
+    ringNotifications: 'Notifications',
+    ringNotificationsWhy: 'So the alarm can sound and show over the lock screen.',
+    ringBattery: 'Background activity',
+    ringBatteryWhy: "So Android doesn't put Zazu to sleep overnight. On the next screen, tap App battery usage, then Allow background usage, and choose Unrestricted.",
+    ringAllow: 'Allow',
+    ringAllowed: 'Allowed',
+    ringDone: 'Done',
+    ringLater: "I'll do this later",
   },
   settings: {
     back: 'Go back',

@@ -6,7 +6,6 @@ import { DEFAULT_ALARMS, type Alarm } from './alarm';
 import {
   cancelAlarmNotification,
   getAlarmPermissionStatus,
-  requestNotificationPermissions,
   syncAlarmNotifications,
   type AlarmPermissionStatus,
 } from './alarm-notifications';
@@ -80,9 +79,8 @@ export function useAlarms() {
       setAlarms(saved);
       setLoading(false);
 
-      await requestNotificationPermissions();
-      if (cancelled) return;
-
+      // No permission prompt here: onboarding asks, with a reason, and the
+      // Home banner offers it again if it's still missing.
       await refreshPermissionStatus();
       const synced = await syncAlarmNotifications(saved);
       if (!cancelled) {
@@ -107,10 +105,7 @@ export function useAlarms() {
   useEffect(() => {
     const subscription = AppState.addEventListener('change', (state) => {
       if (state !== 'active') return;
-      void (async () => {
-        await requestNotificationPermissions();
-        await refreshPermissionStatus();
-      })();
+      void refreshPermissionStatus();
     });
     return () => subscription.remove();
   }, [refreshPermissionStatus]);
