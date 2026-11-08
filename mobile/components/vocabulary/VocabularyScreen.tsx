@@ -165,7 +165,7 @@ function createLocalStyles(colors: AppThemeColors) {
     eyebrow: {
       ...typography.eyebrow,
       color: colors.subtext,
-      textTransform: 'uppercase',
+      letterSpacing: 0,
       marginBottom: spacing.xs,
     },
     subtitle: {
@@ -212,8 +212,7 @@ function createLocalStyles(colors: AppThemeColors) {
     packCount: {
       fontFamily: fonts.sansMedium,
       fontSize: 10,
-      letterSpacing: 0.5,
-      textTransform: 'uppercase',
+      letterSpacing: 0,
       color: colors.subtext,
       marginTop: 8,
     },

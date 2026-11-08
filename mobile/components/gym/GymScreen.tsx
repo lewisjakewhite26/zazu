@@ -2,7 +2,6 @@ import { useCallback, useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import {
   ArrowsClockwiseIcon,
-  BarbellIcon,
   BookOpenIcon,
   QuotesIcon,
   TreeStructureIcon,
@@ -21,6 +20,7 @@ import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
+import { GOLD_PURCHASES_ENABLED } from '@/constants/features';
 import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
@@ -85,20 +85,14 @@ export function GymScreen() {
           // it hug the top with a dead void of gradient before the fixed CTA.
           justifyContent: isGold ? 'flex-start' : 'center',
         },
-        heroIcon: {
-          width: 56,
-          height: 56,
-          borderRadius: 28,
-          backgroundColor: colors.cardLavender,
-          alignItems: 'center',
-          justifyContent: 'center',
+        title: {
+          fontFamily: fonts.serif,
+          fontSize: 34,
+          lineHeight: 40,
+          letterSpacing: -0.5,
+          color: colors.text,
+          textAlign: 'center',
           marginTop: spacing.md,
-          marginBottom: spacing.md,
-        },
-        eyebrow: {
-          ...typography.eyebrow,
-          color: colors.subtext,
-          textTransform: 'uppercase',
           marginBottom: spacing.xs,
         },
         subtitle: {
@@ -117,7 +111,7 @@ export function GymScreen() {
         wordLabel: {
           ...typography.wotdEyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: spacing.sm,
         },
         word: {
@@ -164,7 +158,7 @@ export function GymScreen() {
         modesEyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: spacing.xs,
         },
         modesSubtitle: {
@@ -212,7 +206,8 @@ export function GymScreen() {
 
   const handleStart = useCallback(() => {
     if (!word) return;
-    if (!isGold) {
+    // While Gold isn't on sale, today's-word practice is free for everyone.
+    if (!isGold && GOLD_PURCHASES_ENABLED) {
       router.push('/gold');
       return;
     }
@@ -267,10 +262,7 @@ export function GymScreen() {
               <WordLibraryErrorBanner onRetry={retryWordLibrary} retrying={wordsRetrying} />
             ) : null}
 
-            <View style={styles.heroIcon}>
-              <BarbellIcon size={28} color={colors.ink} />
-            </View>
-            <Text style={styles.eyebrow}>{copy.gym.eyebrow}</Text>
+            <Text style={styles.title}>{copy.gym.eyebrow}</Text>
             <Text style={styles.subtitle}>{copy.gym.subtitle}</Text>
 
             {loading || !word ? (
@@ -289,7 +281,6 @@ export function GymScreen() {
               </GlassCard>
             ) : (
               <GlassCard borderRadius={radii.wotd} style={styles.wordCard} contentStyle={styles.wordCardInner}>
-                <Text style={styles.wordLabel}>{copy.gym.todaysWord}</Text>
                 <Text style={styles.word}>{word.word}</Text>
                 <Text style={styles.pron}>
                   {word.pronunciation} · {word.pos}

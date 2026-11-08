@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { AccessibilityInfo, Pressable, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GradientBackground } from '@/components/ui/GradientBackground';
 import { IconButton } from '@/components/ui/IconButton';
@@ -21,6 +21,8 @@ const CORRECT_CONFIRM_MS = 500;
 const WRONG_CLEAR_MS = 700;
 
 export function MorningTaskScreen() {
+  // Absolute children ignore SafeAreaView padding; keep the demo exit button off the status bar.
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const { colors } = useTheme();
   const { sessionWord, isDemo, clearFlow, setCompletionResult } = useAlarmFlow();
@@ -151,7 +153,7 @@ export function MorningTaskScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         prompt: {
@@ -240,8 +242,7 @@ export function MorningTaskScreen() {
           <IconButton
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
-            variant="card"
-            style={styles.closeButton}
+            style={[styles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
           </IconButton>
@@ -249,7 +250,6 @@ export function MorningTaskScreen() {
         <View style={styles.inner}>
           <View style={styles.spacerTop} />
 
-          <Text style={styles.eyebrow}>{copy.morningTask.eyebrow}</Text>
 
           <View style={styles.passageWrap}>
             <Text style={styles.passageText}>{sessionWord.morningTask.passage}</Text>

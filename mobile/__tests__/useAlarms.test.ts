@@ -42,8 +42,9 @@ describe('useAlarms', () => {
 
     await waitFor(() => expect(result.current.loading).toBe(false));
 
-    expect(result.current.alarms).toHaveLength(2);
-    expect(result.current.alarms[0].label).toBe('Weekdays · Words pack');
+    expect(result.current.alarms).toHaveLength(1);
+    expect(result.current.alarms[0].label).toBe('Every day');
+    expect(result.current.alarms[0].enabled).toBe(false);
   });
 
   it('adding an alarm persists it and appears in state without a remount', async () => {
@@ -54,7 +55,7 @@ describe('useAlarms', () => {
       await result.current.addAlarm('06:45', 'Test alarm');
     });
 
-    expect(result.current.alarms).toHaveLength(3);
+    expect(result.current.alarms).toHaveLength(2);
     const added = result.current.alarms.find((a) => a.label === 'Test alarm');
     expect(added).toBeDefined();
     expect(added?.time).toBe('06:45');
@@ -65,22 +66,25 @@ describe('useAlarms', () => {
     // (a screen's own isolated hook instance holding a stale snapshot).
     const AsyncStorage = require('@react-native-async-storage/async-storage');
     const stored = JSON.parse(await AsyncStorage.getItem('zazu:alarms'));
-    expect(stored).toHaveLength(3);
+    expect(stored).toHaveLength(2);
   });
 
   it('toggling an alarm flips only that alarm', async () => {
     const { result } = await renderHook(() => useAlarms());
     await waitFor(() => expect(result.current.loading).toBe(false));
 
-    const target = result.current.alarms[0];
     await act(async () => {
-      await result.current.toggleAlarm(target.id, false);
+      await result.current.addAlarm('06:45', 'Other');
+    });
+    const target = result.current.alarms[0];
+    const other = result.current.alarms.find((a) => a.id !== target.id)!;
+    const otherBefore = other.enabled;
+    await act(async () => {
+      await result.current.toggleAlarm(target.id, true);
     });
 
-    expect(result.current.alarms.find((a) => a.id === target.id)?.enabled).toBe(false);
-    expect(result.current.alarms.find((a) => a.id !== target.id)?.enabled).toBe(
-      result.current.alarms.find((a) => a.id !== target.id)!.enabled,
-    );
+    expect(result.current.alarms.find((a) => a.id === target.id)?.enabled).toBe(true);
+    expect(result.current.alarms.find((a) => a.id === other.id)?.enabled).toBe(otherBefore);
   });
 
   it('deleting an alarm removes it and cancels its notification and snooze trigger', async () => {
@@ -97,7 +101,7 @@ describe('useAlarms', () => {
     });
 
     expect(result.current.alarms.find((a) => a.id === target.id)).toBeUndefined();
-    expect(result.current.alarms).toHaveLength(1);
+    expect(result.current.alarms).toHaveLength(0);
 
     // Regression coverage for the notification-leak bug fixed 2026-08-22:
     // deleting an alarm must cancel both its own trigger and its snooze

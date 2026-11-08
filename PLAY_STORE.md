@@ -11,6 +11,10 @@ Package name: `com.zazu.app` (no published app uses it as of 8 Nov 2026; Play wi
 1. **Build:** in `mobile/`: `npx expo prebuild --clean -p android`, then `cd android && ./gradlew bundleRelease`. Or `eas build -p android --profile production`. Output is an `.aab`.
    - Prebuild is needed because the launcher icons, permissions and blocked permissions in `app.json` changed.
    - Keep your upload keystore and its passwords backed up somewhere other than this laptop.
+   - **Gotcha:** Gradle's JS bundle task only watches `mobile/`. If you only changed the shared `lib/` folder, it reuses the old bundle and ships stale code. Force it: `./gradlew :app:createBundleReleaseJsAndAssets --rerun bundleRelease`.
+   - **Windows:** build from a short path (e.g. `C:\zz`), not a deep one, or the native build hits the 260-character path limit. Don't use `subst`; it mixes drive letters and breaks codegen.
+   - Signing: `android/app/build.gradle` reads `ZAZU_UPLOAD_*` from `~/.gradle/gradle.properties`. Prebuild regenerates `android/`, so re-add the `release` signing config after `prebuild --clean`.
+   - Bump `versionCode` in `app.json` (`android.versionCode`) for every upload after the first.
 2. **Phone test** (release build, not dev):
    - Set an alarm 2 minutes ahead, lock the phone, and check the full-screen alarm appears.
    - Repeat with the app swiped away, then after a reboot.

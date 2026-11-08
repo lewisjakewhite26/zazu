@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { AccessibilityInfo, ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
@@ -24,6 +24,8 @@ import { stopAlarmSound } from '../../../lib/alarm-sound';
 import { buildRoundInstruction } from '../../../lib/question-variety';
 
 export function PuzzleScreen() {
+  // Absolute children ignore SafeAreaView padding; keep the exit button off the status bar.
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const { colors } = useTheme();
   const { gymSessionWord, setGymCompletionResult, clearFlow } = useAlarmFlow();
@@ -211,18 +213,20 @@ export function PuzzleScreen() {
         wordRound: {
           ...typography.puzzleWordRound,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginTop: 4,
+        },
+        contextCard: {
+          marginBottom: spacing.lg,
         },
         contextContent: {
           paddingHorizontal: 16,
           paddingVertical: 13,
-          marginBottom: spacing.md,
         },
         contextLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 4,
         },
         contextText: {
@@ -231,22 +235,6 @@ export function PuzzleScreen() {
           lineHeight: 19,
           color: colors.text,
           fontStyle: 'italic',
-        },
-        progressRow: {
-          flexDirection: 'row',
-          justifyContent: 'center',
-          gap: spacing.sm,
-          marginBottom: spacing.md,
-        },
-        progressDot: {
-          width: 8,
-          height: 8,
-          borderRadius: 4,
-          backgroundColor: colors.border,
-        },
-        progressDotDone: {
-          backgroundColor: colors.blush,
-          transform: [{ scale: 1.2 }],
         },
         board: {
           gap: spacing.sm,
@@ -271,17 +259,6 @@ export function PuzzleScreen() {
     [colors],
   );
 
-  const progressDots = useMemo(
-    () =>
-      Array.from({ length: 3 }, (_, index) => (
-        <View
-          key={index}
-          style={[styles.progressDot, index < roundIndex && styles.progressDotDone]}
-        />
-      )),
-    [roundIndex, styles.progressDot, styles.progressDotDone],
-  );
-
   if (!gymSessionWord || !round) return null;
 
   const rows = [];
@@ -295,8 +272,7 @@ export function PuzzleScreen() {
         <IconButton
           onPress={handleExit}
           accessibilityLabel="Exit Word Gym"
-          variant="card"
-          style={styles.closeButton}
+          style={[styles.closeButton, { top: insets.top + spacing.sm }]}
         >
           <XIcon size={20} color={colors.text} />
         </IconButton>
@@ -304,17 +280,14 @@ export function PuzzleScreen() {
           <View style={styles.inner}>
             <View style={styles.banner}>
               <Text style={styles.wordMain}>{gymSessionWord.word}</Text>
-              <Text style={styles.wordRound}>{round.type}</Text>
             </View>
 
-            <GlassCard borderRadius={16} contentStyle={styles.contextContent}>
+            <GlassCard borderRadius={16} style={styles.contextCard} contentStyle={styles.contextContent}>
               <Text style={styles.contextLabel}>{round.label}</Text>
               <Text style={styles.contextText}>
                 {buildRoundInstruction(round.type, gymSessionWord.word, gymSessionWord.id, stripHtml(round.context))}
               </Text>
             </GlassCard>
-
-            <View style={styles.progressRow}>{progressDots}</View>
 
             <View style={styles.board}>
               {finishing ? (

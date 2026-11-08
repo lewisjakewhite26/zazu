@@ -180,7 +180,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: spacing.sm,
         },
         progress: {
@@ -206,7 +206,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         wordRound: {
           ...typography.puzzleWordRound,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginTop: spacing.xs,
         },
         progressRow: {
@@ -237,7 +237,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         contextLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: spacing.xs,
         },
         contextText: {
@@ -249,7 +249,7 @@ export function GymMcqSessionScreen({ modeLabel = '' }: GymMcqSessionScreenProps
         excerptLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginTop: spacing.sm,
           marginBottom: spacing.xs,
         },

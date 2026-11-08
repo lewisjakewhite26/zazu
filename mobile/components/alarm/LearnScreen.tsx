@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
@@ -49,6 +49,8 @@ const styles = StyleSheet.create({
 });
 
 export function LearnScreen() {
+  // Absolute children ignore SafeAreaView padding; keep the demo exit button off the status bar.
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const { colors } = useTheme();
   const { sessionWord, isDemo, clearFlow } = useAlarmFlow();
@@ -91,7 +93,7 @@ export function LearnScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         word: {
@@ -120,7 +122,7 @@ export function LearnScreen() {
         etymLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         cta: {
@@ -145,15 +147,13 @@ export function LearnScreen() {
           <IconButton
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
-            variant="card"
-            style={screenStyles.closeButton}
+            style={[screenStyles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
           </IconButton>
         ) : null}
         <ScrollView contentContainerStyle={screenStyles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={screenStyles.inner}>
-            <Text style={screenStyles.eyebrow}>{copy.learn.eyebrow}</Text>
             {wordReady ? (
               <>
                 <Text style={screenStyles.word}>{sessionWord.word}</Text>

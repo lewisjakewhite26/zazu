@@ -8,7 +8,7 @@ import notifee, {
   RepeatFrequency,
   TriggerType,
 } from 'react-native-notify-kit';
-import { Platform } from 'react-native';
+import { Linking, Platform } from 'react-native';
 
 import type { Alarm } from './alarm';
 
@@ -69,13 +69,29 @@ function nextOccurrence(hour: number, minute: number): number {
   return next.getTime();
 }
 
+// notify-kit keeps a single pending permission callback on Android. A second
+// requestPermission() while one is open overwrites it, and the first promise
+// never settles (this left the alarm list stuck on loading). Share one
+// in-flight request, and skip the request entirely once permission is granted.
+let permissionRequestInFlight: Promise<boolean> | null = null;
+
 export async function requestNotificationPermissions(): Promise<boolean> {
   if (Platform.OS === 'web') return false;
 
   await ensureAlarmNotificationChannel();
 
-  const settings = await notifee.requestPermission();
-  return settings.authorizationStatus >= 1;
+  const current = await notifee.getNotificationSettings();
+  if (current.authorizationStatus >= 1) return true;
+
+  if (!permissionRequestInFlight) {
+    permissionRequestInFlight = notifee
+      .requestPermission()
+      .then((settings) => settings.authorizationStatus >= 1)
+      .finally(() => {
+        permissionRequestInFlight = null;
+      });
+  }
+  return permissionRequestInFlight;
 }
 
 export type AlarmPermissionStatus = {
@@ -128,7 +144,9 @@ export async function openExactAlarmSettings(): Promise<void> {
 
 export async function openBatteryOptimizationSettings(): Promise<void> {
   if (Platform.OS !== 'android') return;
-  await notifee.openBatteryOptimizationSettings();
+  // Open Zazu's own App info page (App battery usage lives there). The generic
+  // battery optimisation screen is a list of every app, and users had to hunt for Zazu.
+  await Linking.openSettings();
 }
 
 export async function cancelAlarmNotification(id?: string): Promise<void> {

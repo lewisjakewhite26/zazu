@@ -75,7 +75,7 @@ export function AddAlarmScreen() {
         fieldLabel: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: spacing.xs,
         },
         input: {
@@ -126,7 +126,7 @@ export function AddAlarmScreen() {
   const handleSave = async () => {
     if (previewingId) await stopAlarmSoundPreview(previewingId);
     setSaving(true);
-    await addAlarm(time, label.trim() || copy.home.weekdaysPack, soundId);
+    await addAlarm(time, label.trim() || copy.addAlarm.defaultLabel, soundId);
     setSaving(false);
     router.back();
   };

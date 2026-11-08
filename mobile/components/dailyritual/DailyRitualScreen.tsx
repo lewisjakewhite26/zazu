@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { AccessibilityInfo, ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { CoinsIcon, XIcon } from 'phosphor-react-native';
 
 import { GlassCard } from '@/components/ui/GlassCard';
@@ -91,13 +91,15 @@ export function DailyRitualScreen() {
     setTimeout(() => setSelectedIndex(null), WRONG_CLEAR_MS);
   };
 
+  // Absolute children ignore SafeAreaView padding, so offset by the inset directly.
+  const insets = useSafeAreaInsets();
   const styles = useMemo(
     () =>
       StyleSheet.create({
         safeArea: { flex: 1 },
         closeButton: {
           position: 'absolute',
-          top: spacing.sm,
+          top: insets.top + spacing.sm,
           right: spacing.lg,
           zIndex: 2,
         },
@@ -112,7 +114,7 @@ export function DailyRitualScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         progress: {
@@ -187,7 +189,7 @@ export function DailyRitualScreen() {
         },
         doneCta: { width: '100%' },
       }),
-    [colors],
+    [colors, insets.top],
   );
 
   if (!dailyRitualSession) return null;
@@ -228,14 +230,12 @@ export function DailyRitualScreen() {
         <IconButton
           onPress={handleExit}
           accessibilityLabel={copy.dailyRitual.skip}
-          variant="card"
           style={styles.closeButton}
           disabled={finishing}
         >
           <XIcon size={20} color={colors.text} />
         </IconButton>
         <View style={styles.inner}>
-          <Text style={styles.eyebrow}>{copy.dailyRitual.eyebrow}</Text>
           <Text style={styles.progress}>{copy.gymModes.questionProgress(stepIndex + 1, totalSteps)}</Text>
 
           {current ? (

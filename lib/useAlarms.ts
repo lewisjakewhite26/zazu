@@ -74,6 +74,12 @@ export function useAlarms() {
 
     (async () => {
       const saved = await readAlarms();
+      // Show saved alarms straight away; permission prompts and rescheduling
+      // can take a while (or wait on a system dialog) and shouldn't blank the list.
+      if (cancelled) return;
+      setAlarms(saved);
+      setLoading(false);
+
       await requestNotificationPermissions();
       if (cancelled) return;
 

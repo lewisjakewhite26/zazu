@@ -41,7 +41,7 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
         },
         eyebrow: {
           ...typography.wotdEyebrow,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           color: colors.subtext,
           marginBottom: 8,
           textAlign: 'center',
@@ -104,7 +104,6 @@ export function WordOfDayCard({ word, pos, definition, loading = false }: WordOf
       accessibilityRole="summary"
       accessibilityLabel={copy.a11y.wordOfDay(word, definition)}
     >
-      <Text style={styles.eyebrow}>{copy.home.wordOfDayEyebrow}</Text>
       <Text style={styles.word}>{word}</Text>
       <Text style={styles.posText}>{pos}</Text>
       <Text style={styles.definition}>{definition}</Text>

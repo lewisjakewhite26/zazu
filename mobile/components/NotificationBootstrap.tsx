@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { AppState, DeviceEventEmitter, Platform } from 'react-native';
 import notifee, { EventType, type Notification } from 'react-native-notify-kit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -14,6 +14,12 @@ import { PENDING_ALARM_OPEN_KEY, PENDING_ALARM_WRITTEN_EVENT } from '../../lib/a
 // later for an unrelated reason) shouldn't replay an old alarm.
 const PENDING_ALARM_MAX_AGE_MS = 5 * 60 * 1000;
 
+// The word library starts on a 3-word demo list and swaps in the real list
+// once Supabase answers. Opening the alarm before then teaches a demo word
+// that doesn't match Home ("today's word"). Wait for the real list, but never
+// hold an alarm back longer than this on a slow network.
+const WORDS_READY_MAX_WAIT_MS = 3000;
+
 type NotificationBootstrapProps = {
   children: React.ReactNode;
 };
@@ -21,8 +27,14 @@ type NotificationBootstrapProps = {
 export function NotificationBootstrap({ children }: NotificationBootstrapProps) {
   const router = useRouter();
   const { startFlow } = useAlarmFlow();
-  const { alarmWordOfDay } = useWordLibrary();
+  const { alarmWordOfDay: libraryWordOfDay, loading: wordsLoading } = useWordLibrary();
   const { alarms } = useAlarms();
+  const [waitedLongEnough, setWaitedLongEnough] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => setWaitedLongEnough(true), WORDS_READY_MAX_WAIT_MS);
+    return () => clearTimeout(timer);
+  }, []);
+  const alarmWordOfDay = !wordsLoading || waitedLongEnough ? libraryWordOfDay : undefined;
 
   const openAlarmFlow = useCallback(
     (notification?: Notification) => {

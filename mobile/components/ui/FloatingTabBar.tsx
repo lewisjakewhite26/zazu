@@ -1,12 +1,11 @@
-import { useEffect, useRef, useState } from 'react';
-import { Animated, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { BarbellIcon, BookOpenIcon, HouseIcon, type IconProps } from 'phosphor-react-native';
 import type { BottomTabBarProps } from 'expo-router/build/react-navigation/bottom-tabs';
 import type { ComponentType } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { cardBlurIntensity, colors as staticColors } from '@/constants/theme';
+import { cardBlurIntensity, fonts } from '@/constants/theme';
 import { useTheme } from '@/context/ThemeContext';
 
 const TAB_ICONS: Record<string, ComponentType<IconProps>> = {
@@ -15,97 +14,45 @@ const TAB_ICONS: Record<string, ComponentType<IconProps>> = {
   vocabulary: BookOpenIcon,
 };
 
-/** Space to reserve above the floating tab bar (pill + padding; add safe-area separately). */
-export const FLOATING_TAB_BAR_BODY = 64;
+/** Height of the bar above the safe-area inset. Screens reserve this plus the inset. */
+export const FLOATING_TAB_BAR_BODY = 58;
 
 export function floatingTabBarClearance(bottomInset: number): number {
   return FLOATING_TAB_BAR_BODY + Math.max(bottomInset, 10);
 }
 
-/** index.html .app-tab-bar — centred floating pill with blush active state */
-const PILL_PADDING = 4;
-
+/**
+ * A flat bar on the bottom edge: frosted like the app's glass cards, a
+ * hairline on top, and the active tab marked by ink colour and a short rule
+ * on that hairline. No floating capsule, no filled active pill.
+ */
 export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
   const insets = useSafeAreaInsets();
   const { colors, blend } = useTheme();
   const isNight = blend >= 0.5;
 
-  const [pillWidth, setPillWidth] = useState(0);
-  const tabWidth = pillWidth > 0 ? (pillWidth - PILL_PADDING * 2) / state.routes.length : 0;
-  const indicatorX = useRef(new Animated.Value(state.index)).current;
-
-  useEffect(() => {
-    Animated.spring(indicatorX, {
-      toValue: state.index,
-      useNativeDriver: true,
-      friction: 9,
-      tension: 60,
-    }).start();
-  }, [indicatorX, state.index]);
-
   return (
-    <View
-      style={[styles.outer, { paddingBottom: Math.max(insets.bottom, 10) }]}
-      pointerEvents="box-none"
-    >
-      <View
-        onLayout={(event) => setPillWidth(event.nativeEvent.layout.width)}
-        style={[
-          styles.pill,
-          {
-            borderColor: colors.border,
-            shadowOpacity: isNight ? 0.35 : 0.12,
-          },
-        ]}
-      >
-        {Platform.OS !== 'web' ? (
-          <BlurView
-            intensity={cardBlurIntensity}
-            tint={isNight ? 'dark' : 'light'}
-            style={StyleSheet.absoluteFill}
-          />
-        ) : null}
-        <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.card }]} />
+    <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, 10) }]}>
+      {Platform.OS !== 'web' ? (
+        <BlurView intensity={cardBlurIntensity} tint={isNight ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
+      ) : null}
+      <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.card }]} />
+      <View style={[styles.hairline, { backgroundColor: colors.border }]} />
 
-        {tabWidth > 0 ? (
-          <Animated.View
-            pointerEvents="none"
-            style={[
-              styles.indicator,
-              {
-                width: tabWidth,
-                backgroundColor: isNight ? colors.wakeButtonBgNight : colors.ink,
-                transform: [
-                  {
-                    translateX: indicatorX.interpolate({
-                      inputRange: [0, Math.max(1, state.routes.length - 1)],
-                      outputRange: [0, tabWidth * Math.max(1, state.routes.length - 1)],
-                    }),
-                  },
-                ],
-              },
-            ]}
-          />
-        ) : null}
-
+      <View style={styles.row}>
         {state.routes.map((route, index) => {
           const { options } = descriptors[route.key];
           const label = options.title ?? route.name;
           const isFocused = state.index === index;
           const Icon = TAB_ICONS[route.name] ?? HouseIcon;
+          const tint = isFocused ? colors.text : colors.subtext;
 
           const onPress = () => {
-            const event = navigation.emit({
-              type: 'tabPress',
-              target: route.key,
-              canPreventDefault: true,
-            });
+            const event = navigation.emit({ type: 'tabPress', target: route.key, canPreventDefault: true });
             if (!isFocused && !event.defaultPrevented) {
               navigation.navigate(route.name, route.params);
             }
           };
-
-          const activeFg = isNight ? colors.wakeButtonTextNight : colors.white;
 
           return (
             <Pressable
@@ -113,20 +60,13 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
               onPress={onPress}
               style={styles.tab}
               accessibilityRole="tab"
+              accessibilityLabel={label}
               accessibilityState={isFocused ? { selected: true } : {}}
             >
-              <Icon
-                size={18}
-                color={isFocused ? activeFg : colors.subtext}
-                weight={isFocused ? 'fill' : 'regular'}
-              />
+              <View style={[styles.rule, { backgroundColor: isFocused ? colors.text : 'transparent' }]} />
+              <Icon size={22} color={tint} weight={isFocused ? 'fill' : 'regular'} />
               <Text
-                style={[
-                  styles.label,
-                  {
-                    color: isFocused ? activeFg : colors.subtext,
-                  },
-                ]}
+                style={[styles.label, { color: tint, fontFamily: isFocused ? fonts.sansSemiBold : fonts.sansMedium }]}
               >
                 {label}
               </Text>
@@ -139,49 +79,40 @@ export function FloatingTabBar({ state, descriptors, navigation }: BottomTabBarP
 }
 
 const styles = StyleSheet.create({
-  outer: {
+  bar: {
     position: 'absolute',
     left: 0,
     right: 0,
     bottom: 0,
-    alignItems: 'center',
-    paddingHorizontal: 24,
-    paddingTop: 10,
-  },
-  pill: {
-    flexDirection: 'row',
-    width: '100%',
-    maxWidth: 300,
-    borderRadius: 100,
-    borderWidth: 1,
     overflow: 'hidden',
-    padding: 4,
-    shadowColor: staticColors.ink,
-    shadowOffset: { width: 0, height: 4 },
-    shadowRadius: 14,
-    elevation: 8,
   },
-  indicator: {
+  hairline: {
     position: 'absolute',
-    top: 4,
-    bottom: 4,
-    left: 4,
-    borderRadius: 100,
+    top: 0,
+    left: 0,
+    right: 0,
+    height: StyleSheet.hairlineWidth,
+  },
+  row: {
+    flexDirection: 'row',
+    height: FLOATING_TAB_BAR_BODY,
   },
   tab: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 2,
-    paddingVertical: 7,
-    paddingHorizontal: 4,
-    minHeight: 46,
-    borderRadius: 100,
+    gap: 3,
+  },
+  rule: {
+    position: 'absolute',
+    top: 0,
+    width: 28,
+    height: 2,
+    borderBottomLeftRadius: 2,
+    borderBottomRightRadius: 2,
   },
   label: {
-    fontSize: 9,
-    letterSpacing: 0.63,
-    textTransform: 'uppercase',
-    fontWeight: '600',
+    fontSize: 11,
+    letterSpacing: 0,
   },
 });

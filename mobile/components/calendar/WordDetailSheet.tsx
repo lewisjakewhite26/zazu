@@ -74,8 +74,7 @@ function createSheetStyles(colors: AppThemeColors) {
     eyebrow: {
       fontFamily: fonts.sansMedium,
       fontSize: 10,
-      letterSpacing: 1,
-      textTransform: 'uppercase',
+      letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 6,
     },
@@ -122,8 +121,7 @@ function createSheetStyles(colors: AppThemeColors) {
     taskLabel: {
       fontFamily: fonts.sansMedium,
       fontSize: 10,
-      letterSpacing: 0.8,
-      textTransform: 'uppercase',
+      letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 6,
     },

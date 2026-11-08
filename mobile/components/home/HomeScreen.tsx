@@ -98,9 +98,12 @@ export function HomeScreen() {
 
             <WordOfDayCard {...alarmWordOfDay} loading={wordsLoading} />
 
-            <Text style={[styles.sectionLabel, { color: colors.subtext }]}>
-              {copy.home.yourAlarms}
-            </Text>
+            <View style={styles.sectionHeader}>
+              <Text style={[styles.sectionTitle, { color: colors.text }]}>{copy.home.yourAlarms}</Text>
+              <IconButton onPress={handleAddAlarm} accessibilityLabel={copy.home.addAlarm} style={styles.addAlarm}>
+                <PlusIcon size={24} color={colors.text} />
+              </IconButton>
+            </View>
 
             {!alarmsLoading && alarms.length > 0 ? (
               <GlassCard borderRadius={radii.alarmCard} style={styles.alarmList}>
@@ -122,21 +125,7 @@ export function HomeScreen() {
             ) : null}
           </ScrollView>
 
-          <View
-            style={[
-              styles.footer,
-              { paddingBottom: floatingTabBarClearance(insets.bottom) },
-            ]}
-          >
-            <IconButton
-              onPress={handleAddAlarm}
-              accessibilityLabel={copy.home.addAlarm}
-              variant="card"
-              style={styles.addAlarmFab}
-            >
-              <PlusIcon size={24} color={colors.text} />
-            </IconButton>
-          </View>
+          <View style={{ height: floatingTabBarClearance(insets.bottom) }} />
         </View>
       </SafeAreaView>
 
@@ -167,10 +156,21 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     paddingBottom: spacing.sm,
   },
-  sectionLabel: {
-    ...typography.sectionLabel,
-    textTransform: 'uppercase',
-    marginBottom: 10,
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: spacing.sm,
+    marginBottom: 6,
+  },
+  sectionTitle: {
+    fontFamily: fonts.serif,
+    fontSize: 24,
+    lineHeight: 30,
+    letterSpacing: -0.3,
+  },
+  addAlarm: {
+    marginRight: -10,
   },
   alarmList: {
     width: '100%',
@@ -180,15 +180,5 @@ const styles = StyleSheet.create({
     fontFamily: fonts.sans,
     fontSize: 14,
     marginBottom: 18,
-  },
-  footer: {
-    width: '100%',
-    paddingTop: spacing.sm,
-    alignItems: 'center',
-  },
-  addAlarmFab: {
-    width: 56,
-    height: 56,
-    borderRadius: 28,
   },
 });
