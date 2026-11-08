@@ -1,11 +1,11 @@
 import { useMemo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { CoinsIcon, FireIcon, GearIcon } from 'phosphor-react-native';
+import { CoinsIcon, FireIcon, GearSixIcon } from 'phosphor-react-native';
 
 import { IconButton } from '@/components/ui/IconButton';
 import { copy } from '@/constants/copy';
-import { typography } from '@/constants/theme';
+import { fonts, typography } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import type { HomeStats } from '@/types/home';
@@ -14,11 +14,16 @@ export type HomeHeaderProps = HomeStats & {
   loading?: boolean;
 };
 
+/**
+ * Brand on the left, a quiet typographic stat line on the right.
+ * No capsules: the numbers sit straight on the gradient in the serif,
+ * so the header reads like a masthead rather than a row of widgets.
+ */
 export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) {
   const { colors } = useTheme();
   const router = useRouter();
-  const streakLabel = loading ? '—' : String(streak);
-  const coinsLabel = loading ? '—' : String(coins);
+  const streakLabel = loading ? '–' : String(streak);
+  const coinsLabel = loading ? '–' : String(coins);
 
   const styles = useMemo(
     () =>
@@ -50,40 +55,31 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
         statsRow: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: 8,
           flexShrink: 1,
         },
-        streakPill: {
+        stat: {
           flexDirection: 'row',
           alignItems: 'center',
-          gap: 7,
-          backgroundColor: colors.card,
-          borderWidth: 1,
-          borderColor: colors.border,
-          borderRadius: 999,
-          paddingVertical: 7,
-          paddingRight: 12,
-          paddingLeft: 8,
-        },
-        coinPill: {
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: 7,
-          backgroundColor: colors.card,
-          borderWidth: 1,
-          borderColor: colors.border,
-          borderRadius: 999,
-          paddingVertical: 7,
-          paddingRight: 12,
-          paddingLeft: 8,
+          gap: 5,
+          paddingHorizontal: 10,
         },
         statValue: {
-          ...typography.streakCount,
+          fontFamily: fonts.serif,
+          fontSize: 21,
+          lineHeight: 26,
+          letterSpacing: -0.3,
           color: colors.text,
+          fontVariant: ['tabular-nums'],
         },
-        coinValue: {
-          ...typography.coinAmount,
-          color: colors.text,
+        rule: {
+          width: StyleSheet.hairlineWidth,
+          height: 18,
+          backgroundColor: colors.subtext,
+          opacity: 0.45,
+        },
+        gear: {
+          marginLeft: 2,
+          marginRight: -10,
         },
       }),
     [colors],
@@ -102,20 +98,14 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
       </View>
 
       <View style={styles.statsRow}>
-        <View
-          style={styles.streakPill}
-          accessibilityRole="text"
-          accessibilityLabel={copy.a11y.streak(streak)}
-        >
-          <FireIcon size={18} color={colors.streakFlame} weight="fill" />
+        <View style={styles.stat} accessibilityRole="text" accessibilityLabel={copy.a11y.streak(streak)}>
+          <FireIcon size={15} color={colors.streakFlame} weight="fill" />
           <Text style={styles.statValue}>{streakLabel}</Text>
         </View>
 
-        <View
-          style={styles.coinPill}
-          accessibilityRole="text"
-          accessibilityLabel={copy.a11y.coins(coins)}
-        >
+        <View style={styles.rule} />
+
+        <View style={styles.stat} accessibilityRole="text" accessibilityLabel={copy.a11y.coins(coins)}>
           <CoinsIcon
             size={15}
             color={colors.coinGradientEnd}
@@ -123,15 +113,15 @@ export function HomeHeader({ streak, coins, loading = false }: HomeHeaderProps) 
             duotoneColor={colors.coinGradientStart}
             duotoneOpacity={1}
           />
-          <Text style={styles.coinValue}>{coinsLabel}</Text>
+          <Text style={styles.statValue}>{coinsLabel}</Text>
         </View>
 
         <IconButton
-          variant="card"
           onPress={() => router.push('/settings')}
           accessibilityLabel={copy.settings.title}
+          style={styles.gear}
         >
-          <GearIcon size={18} color={colors.text} />
+          <GearSixIcon size={22} color={colors.subtext} />
         </IconButton>
       </View>
     </View>

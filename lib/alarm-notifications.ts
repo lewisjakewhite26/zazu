@@ -8,7 +8,7 @@ import notifee, {
   RepeatFrequency,
   TriggerType,
 } from 'react-native-notify-kit';
-import { Platform } from 'react-native';
+import { Linking, Platform } from 'react-native';
 
 import type { Alarm } from './alarm';
 
@@ -128,7 +128,9 @@ export async function openExactAlarmSettings(): Promise<void> {
 
 export async function openBatteryOptimizationSettings(): Promise<void> {
   if (Platform.OS !== 'android') return;
-  await notifee.openBatteryOptimizationSettings();
+  // Open Zazu's own App info page (App battery usage lives there). The generic
+  // battery optimisation screen is a list of every app, and users had to hunt for Zazu.
+  await Linking.openSettings();
 }
 
 export async function cancelAlarmNotification(id?: string): Promise<void> {
