@@ -39,7 +39,7 @@ SUBTEXT = (110, 92, 112)
 CAPTIONS = {
     "01": "Wake up to a new word",
     "02": "Learn where it comes from",
-    "03": "One short task, then you're up",
+    "03": "One task, then you're up",
     "04": "Practise in the Word Gym",
     "05": "Every word you've learned, by day",
     "06": "Light at dawn, dark at dusk",
