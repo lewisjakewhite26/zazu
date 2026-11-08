@@ -33,3 +33,9 @@ supabase/.temp/
 
 # Playwright screenshot audit output
 screenshots/
+
+# Local Claude Code permissions
+.claude/settings.local.json
+
+# Generated Play screenshots (raw phone captures)
+scripts/play-store/out/shot-*.png

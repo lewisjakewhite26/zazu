@@ -47,6 +47,9 @@ export default function Footer() {
             <Link href="/accessibility" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
               Accessibility
             </Link>
+            <Link href="/delete-account" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
+              Delete account
+            </Link>
             <a href="mailto:hello@zazu.org.uk" className="text-[var(--color-ink)] font-medium hover:opacity-70 transition-opacity">
               Support
             </a>

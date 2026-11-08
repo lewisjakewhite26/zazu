@@ -25,6 +25,7 @@ import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAuth } from '@/context/AuthContext';
 import { useSubscription } from '@/context/SubscriptionContext';
 import { useTheme } from '@/context/ThemeContext';
+import { GOLD_PURCHASES_ENABLED } from '@/constants/features';
 import { getRevenueCatOfferings } from '@/services/revenuecat';
 
 const GLOW_SIZE = 340;
@@ -189,6 +190,10 @@ export function GoldPaywallScreen() {
         goldButtonPressed: {
           opacity: 0.85,
         },
+        goldButtonDisabled: {
+          opacity: 0.55,
+          shadowOpacity: 0,
+        },
         goldButtonLabel: {
           fontFamily: fonts.sansSemiBold,
           fontSize: 16,
@@ -341,17 +346,27 @@ export function GoldPaywallScreen() {
               </View>
             ))}
             <View style={styles.divider} />
-            <View style={styles.priceRow}>
-              <Text style={styles.priceMain}>{priceText}</Text>
-              <Text style={styles.trialBadge}>{copy.gold.trialBadge}</Text>
-            </View>
+            {GOLD_PURCHASES_ENABLED ? (
+              <View style={styles.priceRow}>
+                <Text style={styles.priceMain}>{priceText}</Text>
+                <Text style={styles.trialBadge}>{copy.gold.trialBadge}</Text>
+              </View>
+            ) : (
+              <View style={styles.priceRow}>
+                <Text style={styles.trialBadge}>{copy.gold.comingSoonBadge}</Text>
+              </View>
+            )}
           </GlassCard>
 
-          {!session || isAnonymous ? (
+          {!GOLD_PURCHASES_ENABLED ? (
+            <Text style={styles.sub}>{copy.gold.comingSoonBody}</Text>
+          ) : null}
+
+          {GOLD_PURCHASES_ENABLED && (!session || isAnonymous) ? (
             <Text style={styles.sub}>{copy.gold.signInRequired}</Text>
           ) : null}
 
-          {!revenueCatReady ? (
+          {GOLD_PURCHASES_ENABLED && !revenueCatReady ? (
             <Text style={styles.sub}>{copy.gold.setupRequired}</Text>
           ) : null}
 
@@ -379,6 +394,23 @@ export function GoldPaywallScreen() {
         </ScrollView>
 
         <View style={[styles.footer, { paddingBottom: insets.bottom || spacing.lg }]}>
+          {!GOLD_PURCHASES_ENABLED ? (
+            <View
+              accessible
+              accessibilityRole="button"
+              accessibilityLabel={copy.gold.comingSoonButton}
+              accessibilityState={{ disabled: true }}
+              style={[styles.goldButton, styles.goldButtonDisabled]}
+            >
+              <LinearGradient
+                colors={[colors.goldLight, colors.gold]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={StyleSheet.absoluteFill}
+              />
+              <Text style={styles.goldButtonLabel}>{copy.gold.comingSoonButton}</Text>
+            </View>
+          ) : (
           <Pressable
             onPress={() => void handlePurchase()}
             disabled={busy || loading}
@@ -399,7 +431,8 @@ export function GoldPaywallScreen() {
               <Text style={styles.goldButtonLabel}>{ctaLabel}</Text>
             )}
           </Pressable>
-          {revenueCatReady ? (
+          )}
+          {GOLD_PURCHASES_ENABLED && revenueCatReady ? (
             <Pressable
               style={styles.link}
               onPress={() => void handleRestore()}
