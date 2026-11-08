@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AlarmOrbs } from '@/components/ui/AlarmOrbs';
 import { GradientBackground } from '@/components/ui/GradientBackground';
@@ -27,6 +27,8 @@ function formatClock(date: Date): string {
 }
 
 export function AlarmScreen() {
+  // Absolute children ignore SafeAreaView padding; keep the demo exit button off the status bar.
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const { colors } = useTheme();
   const { sessionWord, isDemo, soundId, alarmId, clearFlow } = useAlarmFlow();
@@ -167,7 +169,7 @@ export function AlarmScreen() {
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
             variant="card"
-            style={styles.closeButton}
+            style={[styles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
           </IconButton>

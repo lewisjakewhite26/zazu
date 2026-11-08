@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { AccessibilityInfo, ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientBackground } from '@/components/ui/GradientBackground';
@@ -24,6 +24,8 @@ import { stopAlarmSound } from '../../../lib/alarm-sound';
 import { buildRoundInstruction } from '../../../lib/question-variety';
 
 export function PuzzleScreen() {
+  // Absolute children ignore SafeAreaView padding; keep the exit button off the status bar.
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const { colors } = useTheme();
   const { gymSessionWord, setGymCompletionResult, clearFlow } = useAlarmFlow();
@@ -296,7 +298,7 @@ export function PuzzleScreen() {
           onPress={handleExit}
           accessibilityLabel="Exit Word Gym"
           variant="card"
-          style={styles.closeButton}
+          style={[styles.closeButton, { top: insets.top + spacing.sm }]}
         >
           <XIcon size={20} color={colors.text} />
         </IconButton>
