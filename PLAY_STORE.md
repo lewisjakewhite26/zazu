@@ -115,7 +115,11 @@ Zazu is an alarm clock. Its core function is waking the user at the exact time t
 Zazu is an alarm clock. When an alarm the user has set goes off, Zazu shows a full-screen alarm over the lock screen so the user can see their word and dismiss or snooze the alarm. It is used for nothing else.
 ```
 
-**Foreground service:** if Play flags one (the notification library may declare it for the ringing alarm), choose **Media playback** or **Short service**, depending on what's in the merged manifest. Explain that it keeps the alarm sound playing while the alarm screen is open. Record a 30-second video of the alarm ringing if Play asks for one.
+**Foreground service (`FOREGROUND_SERVICE_MEDIA_PLAYBACK`)**: the manifest declares this (it comes from expo-audio). Choose **Media playback**.
+```
+When an alarm the user has set goes off, Zazu plays the alarm sound until the user dismisses or snoozes it. The media playback foreground service keeps that sound playing if the user leaves the alarm screen. It only runs while an alarm is ringing.
+```
+Play asks for a short video link: record the phone with the alarm ringing and dismissed (about 30 seconds), upload it to YouTube as unlisted, and paste the link.
 
 ---
 
