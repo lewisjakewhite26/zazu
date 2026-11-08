@@ -120,7 +120,7 @@ def word_card(entry, size, night=False):
     text_block(d, (pad, y), plain(entry["origin"]), font("Satoshi-Regular.woff2", 34), sub, W - 2 * pad, 48)
 
     f = font("Boska-Regular.woff2", 40)
-    d.text((pad, H - pad - 30), "A new word. Every morning.", font=f, fill=ink)
+    d.text((pad, H - pad - 30), "A new word every morning.", font=f, fill=ink)
     return img.convert("RGB")
 
 
@@ -146,7 +146,7 @@ def hero_story():
     d = ImageDraw.Draw(img)
     brand(img, (W - 230) // 2, 130, INK, 48)
     hf = font("Boska-Medium.woff2", 104)
-    for i, line in enumerate(["A new word.", "Every morning."]):
+    for i, line in enumerate(["A new word", "every morning."]):
         f = hf if i == 0 else font("Boska-Italic.woff2", 104)
         d.text((W // 2, 330 + i * 118), line, font=f, fill=INK, anchor="mt")
     shot = phone(SRC / "alarm.png", 1120)

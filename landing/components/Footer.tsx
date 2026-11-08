@@ -32,7 +32,7 @@ export default function Footer() {
               </h2>
             </div>
             <p className="text-[var(--color-ink)] opacity-70 text-[16px] tracking-wide">
-              A new word. Every morning.
+              A new word every morning.
             </p>
           </div>
 

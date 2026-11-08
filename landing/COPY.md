@@ -11,10 +11,10 @@ Page render order (`app/page.tsx`): **Nav → Hero → How It Works → Word Mar
 
 | Field | Copy |
 |---|---|
-| Tab title | `Zazu — A new word. Every morning.` |
+| Tab title | `Zazu — A new word every morning.` |
 | Meta description | `Zazu is a vocabulary alarm clock. Learn one curated English word every morning — etymology included. Zazu Gold unlocks 1,700+ premium words across ten themed packs.` |
 | Keywords | `vocabulary, etymology, word of the day, alarm, English, learn, morning, dictionary` |
-| OG title | `Zazu — A new word. Every morning.` |
+| OG title | `Zazu — A new word every morning.` |
 | OG description | `Learn one word every morning. Etymology, gym rounds, and ten premium word packs.` |
 | OG site name | `Zazu` |
 | OG url | `https://zazu.org.uk` |
@@ -257,7 +257,7 @@ Inside: Chess & Strategy · Cards & Gambling · Sport & Athletics
 | Element | Copy |
 |---|---|
 | Wordmark | `zazu` |
-| Tagline | `A new word. Every morning.` |
+| Tagline | `A new word every morning.` |
 | Link 1 | `Privacy Policy` → `/privacy` |
 | Link 2 | `Support` → `mailto:hello@zazu.org.uk` |
 | Store button 1 | `App Store — Join the Waitlist` → `mailto:hello@zazu.org.uk?subject=Zazu Waitlist — iOS` |

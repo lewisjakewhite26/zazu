@@ -150,7 +150,9 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
 
     if (!hasOnboarded) {
-      if (!inOnboarding || onboardingScreen !== 'welcome') {
+      // Welcome, first alarm and permissions are all part of first run.
+      const firstRunScreens = ['welcome', 'wake', 'ready'];
+      if (!inOnboarding || !firstRunScreens.includes(onboardingScreen ?? '')) {
         router.replace('/(onboarding)/welcome');
       }
       return;

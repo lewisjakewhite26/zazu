@@ -75,7 +75,7 @@ Zazu has no adverts and no analytics or tracking tools.
 COMING SOON: ZAZU GOLD
 Ten themed word packs with more than 1,700 extra words, your full word history and the Word Gym on every word you've learned.
 
-One word. Every morning.
+One new word every morning.
 ```
 
 **App category:** Education. **Tags:** Vocabulary, Language learning, Alarm clock.

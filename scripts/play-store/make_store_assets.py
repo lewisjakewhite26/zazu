@@ -124,8 +124,8 @@ def make_feature_graphic():
     d = ImageDraw.Draw(img)
     x = 420
     d.text((x, 118), "zazu", font=font("Boska-Medium.woff2", 128), fill=INK)
-    d.text((x, 270), "A new word.", font=font("Boska-Regular.woff2", 50), fill=INK)
-    d.text((x, 326), "Every morning.", font=font("Boska-Italic.woff2", 50), fill=INK)
+    d.text((x, 270), "A new word", font=font("Boska-Regular.woff2", 50), fill=INK)
+    d.text((x, 326), "every morning.", font=font("Boska-Italic.woff2", 50), fill=INK)
     d.text((x, 408), "The vocabulary alarm clock", font=font("Satoshi-Medium.woff2", 26), fill=SUBTEXT)
 
     img.convert("RGB").save(OUT / "feature-graphic.png", optimize=True)
