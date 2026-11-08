@@ -34,6 +34,9 @@ export default function GoldSection() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="text-center flex flex-col items-center mb-16"
         >
+          <div className="bg-[var(--color-gold)] text-white text-[12px] font-bold uppercase tracking-wider py-1 px-4 rounded-full mb-6">
+            Coming soon
+          </div>
           <h2 className="font-serif text-[clamp(50px,8vw,80px)] leading-tight text-[var(--color-ink)] mb-4">
             Zazu Gold.
           </h2>
@@ -52,12 +55,11 @@ export default function GoldSection() {
             whileHover={{ scale: 1.02 }}
             className="flex-1 glass-card rounded-[24px] p-8 flex flex-col items-center text-center"
           >
-            <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£1.99</div>
-            <div className="text-[var(--color-subtext)] text-[16px] mb-1">per month</div>
-            <div className="text-[var(--color-ink)] font-medium text-[14px] mb-8">7-day free trial</div>
+            <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">Monthly</div>
+            <div className="text-[var(--color-subtext)] text-[16px] mb-8">Price confirmed at launch</div>
             <WaitlistLink
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Gold%20Waitlist%20-%20Monthly"
-              label="Start free trial"
+              label="Join the Gold waitlist"
               className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity flex items-center justify-center"
             />
           </motion.div>
@@ -71,15 +73,11 @@ export default function GoldSection() {
             whileHover={{ scale: 1.02 }}
             className="flex-1 glass-card glass-card--raised rounded-[24px] p-8 flex flex-col items-center text-center relative border-2 border-[var(--color-gold)] border-opacity-30"
           >
-            <div className="absolute -top-4 bg-[var(--color-gold)] text-white text-[12px] font-bold uppercase tracking-wider py-1 px-4 rounded-full">
-              Best value
-            </div>
-            <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">£14.99</div>
-            <div className="text-[var(--color-subtext)] text-[16px] mb-1">per year</div>
-            <div className="text-[var(--color-gold)] font-medium text-[14px] mb-8">Save 37%</div>
+            <div className="font-serif text-[48px] text-[var(--color-ink)] leading-none mb-2">Annual</div>
+            <div className="text-[var(--color-subtext)] text-[16px] mb-8">Price confirmed at launch</div>
             <WaitlistLink
               href="mailto:hello@zazu.org.uk?subject=Zazu%20Gold%20Waitlist%20-%20Annual"
-              label="Start free trial"
+              label="Join the Gold waitlist"
               className="w-full mt-auto h-12 rounded-full bg-[var(--color-button-fill)] text-white font-medium hover:opacity-90 transition-opacity flex items-center justify-center"
             />
           </motion.div>

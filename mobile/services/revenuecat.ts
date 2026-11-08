@@ -9,6 +9,7 @@ import type {
 } from '@revenuecat/purchases-typescript-internal/dist/offerings';
 
 import { GOLD_ENTITLEMENT_ID } from '../../lib/entitlements';
+import { GOLD_PURCHASES_ENABLED } from '../constants/features';
 
 function readRevenueCatApiKey(): string | undefined {
   if (Platform.OS === 'ios') {
@@ -21,6 +22,7 @@ function readRevenueCatApiKey(): string | undefined {
 }
 
 export function isRevenueCatConfigured(): boolean {
+  if (!GOLD_PURCHASES_ENABLED) return false;
   const key = readRevenueCatApiKey();
   return Boolean(key && !key.includes('YOUR_'));
 }
@@ -28,6 +30,7 @@ export function isRevenueCatConfigured(): boolean {
 let configured = false;
 
 export async function initRevenueCat(userId?: string): Promise<boolean> {
+  if (!GOLD_PURCHASES_ENABLED) return false;
   const apiKey = readRevenueCatApiKey();
   if (!apiKey) return false;
 

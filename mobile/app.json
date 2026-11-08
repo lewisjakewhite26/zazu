@@ -22,7 +22,15 @@
       "predictiveBackGestureEnabled": false,
       "permissions": [
         "android.permission.USE_FULL_SCREEN_INTENT",
-        "android.permission.SCHEDULE_EXACT_ALARM"
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.USE_EXACT_ALARM"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
       ]
     },
     "web": {

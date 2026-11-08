@@ -10,6 +10,7 @@ import { GradientBackground } from '@/components/ui/GradientBackground';
 import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { ScreenHeader } from '@/components/ui/ScreenHeader';
 import { copy } from '@/constants/copy';
+import { GOLD_PURCHASES_ENABLED } from '@/constants/features';
 import { fonts, radii, typography } from '@/constants/theme';
 import { MIN_TOUCH_TARGET, spacing } from '@/constants/layout';
 import { useAuth } from '@/context/AuthContext';
@@ -400,7 +401,13 @@ export function SettingsScreen() {
                 />
                 <Divider style={styles.divider} />
                 <SettingsRow
-                  label={isGold ? copy.settings.manageGold : copy.settings.upgradeGold}
+                  label={
+                    isGold
+                      ? copy.settings.manageGold
+                      : GOLD_PURCHASES_ENABLED
+                        ? copy.settings.upgradeGold
+                        : copy.settings.goldComingSoon
+                  }
                   onPress={() => router.push('/gold')}
                   showChevron
                   colors={colors}
