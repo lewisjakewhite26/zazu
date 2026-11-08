@@ -38,7 +38,8 @@ export const copy = {
     findPrompt: "Tap the word below that matches",
     dismiss: 'Dismiss alarm',
     tryAgain: 'Not quite. Try again.',
-    hintClue: (definition: string) => `Hint: it means ${definition}`,
+    hintClue: (definition: string) =>
+      `Hint: it means ${definition.charAt(0).toLowerCase()}${definition.slice(1)}`,
     hintReveal: "It's glowing below.",
     hintRevealScreenReader: (word: string) => `It's "${word}". Select it from the list below.`,
   },

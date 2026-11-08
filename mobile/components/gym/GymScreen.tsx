@@ -21,6 +21,7 @@ import { PrimaryButton } from '@/components/ui/PrimaryButton';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { floatingTabBarClearance } from '@/components/ui/FloatingTabBar';
 import { copy } from '@/constants/copy';
+import { GOLD_PURCHASES_ENABLED } from '@/constants/features';
 import { fonts, radii, typography } from '@/constants/theme';
 import { CONTENT_MAX_WIDTH, spacing } from '@/constants/layout';
 import { useAlarmFlow } from '@/context/AlarmFlowContext';
@@ -212,7 +213,8 @@ export function GymScreen() {
 
   const handleStart = useCallback(() => {
     if (!word) return;
-    if (!isGold) {
+    // While Gold isn't on sale, today's-word practice is free for everyone.
+    if (!isGold && GOLD_PURCHASES_ENABLED) {
       router.push('/gold');
       return;
     }
