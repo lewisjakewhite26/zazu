@@ -46,6 +46,7 @@ export function WelcomeScreen() {
           textAlign: 'center',
           marginBottom: spacing.xl,
         },
+        taglineItalic: { fontFamily: fonts.serifItalic },
         cardInner: { paddingVertical: 26, paddingHorizontal: 24 },
         word: {
           fontFamily: fonts.serif,
@@ -55,8 +56,7 @@ export function WelcomeScreen() {
           color: colors.text,
         },
         meta: {
-          fontFamily: fonts.serif,
-          fontStyle: 'italic',
+          fontFamily: fonts.serifItalic,
           fontSize: 16,
           color: colors.subtext,
           marginTop: 2,
@@ -102,8 +102,10 @@ export function WelcomeScreen() {
             resizeMode="contain"
             accessibilityLabel="Zazu"
           />
-          <Text style={styles.tagline} accessibilityRole="header">
-            {copy.brand.tagline}
+          {/* One sentence, set on two lines so it never breaks mid-phrase. */}
+          <Text style={styles.tagline} accessibilityRole="header" accessibilityLabel={copy.brand.tagline}>
+            A new word{'\n'}
+            <Text style={styles.taglineItalic}>every morning.</Text>
           </Text>
 
           {showPreview ? (

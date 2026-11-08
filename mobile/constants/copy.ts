@@ -87,7 +87,7 @@ export const copy = {
     ringNotifications: 'Notifications',
     ringNotificationsWhy: 'So the alarm can sound and show over the lock screen.',
     ringBattery: 'Background activity',
-    ringBatteryWhy: "So Android doesn't put Zazu to sleep overnight. On the next screen, open App battery usage and choose Allow.",
+    ringBatteryWhy: "So Android doesn't put Zazu to sleep overnight. On the next screen, tap App battery usage, then Allow background usage, and choose Unrestricted.",
     ringAllow: 'Allow',
     ringAllowed: 'Allowed',
     ringDone: 'Done',
