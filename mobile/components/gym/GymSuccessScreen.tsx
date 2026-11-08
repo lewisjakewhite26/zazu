@@ -80,7 +80,7 @@ export function GymSuccessScreen() {
         wordCardLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         word: {
@@ -140,7 +140,7 @@ export function GymSuccessScreen() {
         coinsTitle: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         coinRow: {

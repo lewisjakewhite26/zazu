@@ -144,7 +144,7 @@ export function SuccessScreen() {
         wordCardLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         word: {
@@ -218,7 +218,7 @@ export function SuccessScreen() {
         coinsTitle: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         totalRow: {
@@ -318,7 +318,6 @@ export function SuccessScreen() {
             <Text style={styles.sub}>{copy.success.sub}</Text>
 
             <LinearGradient colors={wordGradient as [string, string]} style={styles.wordCard}>
-              <Text style={styles.wordCardLabel}>{copy.success.wordLearned}</Text>
               <Text style={styles.word}>{sessionWord.word}</Text>
               <Text style={styles.pronunciation}>{sessionWord.pronunciation}</Text>
               <Text style={styles.definition}>{sessionWord.definition}</Text>

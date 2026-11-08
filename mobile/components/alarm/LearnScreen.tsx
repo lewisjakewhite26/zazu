@@ -93,7 +93,7 @@ export function LearnScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         word: {
@@ -122,7 +122,7 @@ export function LearnScreen() {
         etymLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         cta: {
@@ -147,7 +147,6 @@ export function LearnScreen() {
           <IconButton
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
-            variant="card"
             style={[screenStyles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
@@ -155,7 +154,6 @@ export function LearnScreen() {
         ) : null}
         <ScrollView contentContainerStyle={screenStyles.scrollContent} showsVerticalScrollIndicator={false}>
           <View style={screenStyles.inner}>
-            <Text style={screenStyles.eyebrow}>{copy.learn.eyebrow}</Text>
             {wordReady ? (
               <>
                 <Text style={screenStyles.word}>{sessionWord.word}</Text>

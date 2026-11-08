@@ -170,7 +170,7 @@ export function SettingsScreen() {
         sectionLabel: {
           ...typography.sectionLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginLeft: 4,
         },
         card: {

@@ -13,7 +13,7 @@ export const copy = {
     wordLibraryRetry: 'Try again',
     yourAlarms: 'Your alarms',
     noAlarmsYet: 'No alarms yet. Tap + to set your first one.',
-    addAlarm: '+ Add alarm',
+    addAlarm: 'Add alarm',
     tryTheAlarm: 'Try the alarm',
     dayStreak: 'day streak',
     weekdaysPack: 'Weekdays · Words pack',
@@ -52,6 +52,8 @@ export const copy = {
     fix: 'Fix',
   },
   addAlarm: {
+    // Alarms repeat daily, so the default label says so.
+    defaultLabel: 'Every day',
     title: 'Add alarm',
     timeLabel: 'Time',
     labelLabel: 'Label',
@@ -107,7 +109,7 @@ export const copy = {
   gold: {
     eyebrow: 'Zazu Gold',
     title: 'Never lose a word again',
-    subtitle: 'Everything you learn stays yours. Go deeper whenever you want.',
+    subtitle: 'Never lose a word again. Everything you learn stays yours, and you can go deeper whenever you want.',
     features: [
       'Ten themed word packs, 1,741 words',
       'Full calendar word history',

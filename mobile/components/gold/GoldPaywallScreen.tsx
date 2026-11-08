@@ -80,8 +80,7 @@ export function GoldPaywallScreen() {
         eyebrow: {
           fontFamily: fonts.sansSemiBold,
           fontSize: 12,
-          letterSpacing: 2,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           color: colors.gold,
           marginTop: spacing.sm,
         },
@@ -153,8 +152,7 @@ export function GoldPaywallScreen() {
           alignSelf: 'flex-start',
           fontFamily: fonts.sansSemiBold,
           fontSize: 10,
-          letterSpacing: 0.6,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           color: colors.gold,
           backgroundColor: goldCardFill,
           borderWidth: 1,
@@ -298,7 +296,7 @@ export function GoldPaywallScreen() {
       <Svg width={GLOW_SIZE} height={GLOW_SIZE} style={styles.glow}>
         <Defs>
           <RadialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
-            <Stop offset="0%" stopColor={colors.gold} stopOpacity={isNight ? 0.4 : 0.55} />
+            <Stop offset="0%" stopColor={colors.gold} stopOpacity={isNight ? 0.35 : 0.18} />
             <Stop offset="100%" stopColor={colors.gold} stopOpacity={0} />
           </RadialGradient>
         </Defs>
@@ -318,10 +316,7 @@ export function GoldPaywallScreen() {
             accessibilityIgnoresInvertColors
           />
 
-          <ShimmerText style={styles.eyebrow} sweepColor={colors.goldLight}>
-            {copy.gold.eyebrow}
-          </ShimmerText>
-          <Text style={styles.title}>{copy.gold.title}</Text>
+          <Text style={styles.title}>{copy.gold.eyebrow}</Text>
           <Text style={styles.sub}>{copy.gold.subtitle}</Text>
 
           <GlassCard borderRadius={radii.cardMd} style={styles.card} contentStyle={styles.cardInner}>
@@ -345,17 +340,13 @@ export function GoldPaywallScreen() {
                 <Text style={styles.featureText}>{feature}</Text>
               </View>
             ))}
-            <View style={styles.divider} />
+            {GOLD_PURCHASES_ENABLED ? <View style={styles.divider} /> : null}
             {GOLD_PURCHASES_ENABLED ? (
               <View style={styles.priceRow}>
                 <Text style={styles.priceMain}>{priceText}</Text>
                 <Text style={styles.trialBadge}>{copy.gold.trialBadge}</Text>
               </View>
-            ) : (
-              <View style={styles.priceRow}>
-                <Text style={styles.trialBadge}>{copy.gold.comingSoonBadge}</Text>
-              </View>
-            )}
+            ) : null}
           </GlassCard>
 
           {!GOLD_PURCHASES_ENABLED ? (

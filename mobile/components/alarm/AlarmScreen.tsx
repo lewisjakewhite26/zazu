@@ -127,7 +127,7 @@ export function AlarmScreen() {
         wordEyebrow: {
           ...typography.alarmWordEyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 14,
         },
         word: {
@@ -168,7 +168,6 @@ export function AlarmScreen() {
           <IconButton
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
-            variant="card"
             style={[styles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
@@ -191,7 +190,6 @@ export function AlarmScreen() {
           <View style={styles.spacerTop} />
 
           <View style={styles.hero}>
-            <Text style={styles.wordEyebrow}>{copy.alarm.todaysWord}</Text>
             <Text style={styles.word}>{sessionWord.word}</Text>
             <Text style={styles.sub}>{copy.alarm.learnSub}</Text>
           </View>

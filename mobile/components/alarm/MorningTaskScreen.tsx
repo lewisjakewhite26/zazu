@@ -153,7 +153,7 @@ export function MorningTaskScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 10,
         },
         prompt: {
@@ -242,7 +242,6 @@ export function MorningTaskScreen() {
           <IconButton
             onPress={handleExitDemo}
             accessibilityLabel={copy.a11y.exitDemoAlarm}
-            variant="card"
             style={[styles.closeButton, { top: insets.top + spacing.sm }]}
           >
             <XIcon size={20} color={colors.text} />
@@ -251,7 +250,6 @@ export function MorningTaskScreen() {
         <View style={styles.inner}>
           <View style={styles.spacerTop} />
 
-          <Text style={styles.eyebrow}>{copy.morningTask.eyebrow}</Text>
 
           <View style={styles.passageWrap}>
             <Text style={styles.passageText}>{sessionWord.morningTask.passage}</Text>

@@ -120,8 +120,7 @@ export function SnoozeDurationSlider({ value, min, max, onChange }: SnoozeDurati
         unit: {
           fontFamily: fonts.sansSemiBold,
           fontSize: 12,
-          letterSpacing: 1,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           color: colors.subtext,
         },
         trackTouchArea: {

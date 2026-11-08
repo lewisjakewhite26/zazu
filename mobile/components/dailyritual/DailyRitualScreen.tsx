@@ -114,7 +114,7 @@ export function DailyRitualScreen() {
         eyebrow: {
           ...typography.eyebrow,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 8,
         },
         progress: {
@@ -230,14 +230,12 @@ export function DailyRitualScreen() {
         <IconButton
           onPress={handleExit}
           accessibilityLabel={copy.dailyRitual.skip}
-          variant="card"
           style={styles.closeButton}
           disabled={finishing}
         >
           <XIcon size={20} color={colors.text} />
         </IconButton>
         <View style={styles.inner}>
-          <Text style={styles.eyebrow}>{copy.dailyRitual.eyebrow}</Text>
           <Text style={styles.progress}>{copy.gymModes.questionProgress(stepIndex + 1, totalSteps)}</Text>
 
           {current ? (

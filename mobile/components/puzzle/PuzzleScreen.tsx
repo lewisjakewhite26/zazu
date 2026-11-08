@@ -213,7 +213,7 @@ export function PuzzleScreen() {
         wordRound: {
           ...typography.puzzleWordRound,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginTop: 4,
         },
         contextCard: {
@@ -226,7 +226,7 @@ export function PuzzleScreen() {
         contextLabel: {
           ...typography.etymLabel,
           color: colors.subtext,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
           marginBottom: 4,
         },
         contextText: {
@@ -272,7 +272,6 @@ export function PuzzleScreen() {
         <IconButton
           onPress={handleExit}
           accessibilityLabel="Exit Word Gym"
-          variant="card"
           style={[styles.closeButton, { top: insets.top + spacing.sm }]}
         >
           <XIcon size={20} color={colors.text} />
@@ -281,7 +280,6 @@ export function PuzzleScreen() {
           <View style={styles.inner}>
             <View style={styles.banner}>
               <Text style={styles.wordMain}>{gymSessionWord.word}</Text>
-              <Text style={styles.wordRound}>{round.type}</Text>
             </View>
 
             <GlassCard borderRadius={16} style={styles.contextCard} contentStyle={styles.contextContent}>

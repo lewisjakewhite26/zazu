@@ -57,8 +57,7 @@ export function CalendarIconRow({
           fontFamily: fonts.sansMedium,
           fontSize: 9,
           color: colors.subtext,
-          letterSpacing: 0.4,
-          textTransform: 'uppercase',
+          letterSpacing: 0,
         },
         cardLabel: {
           fontFamily: fonts.sans,
