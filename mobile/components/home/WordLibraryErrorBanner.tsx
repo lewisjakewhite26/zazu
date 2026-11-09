@@ -52,7 +52,7 @@ export function WordLibraryErrorBanner({ onRetry, retrying = false }: WordLibrar
         },
         btnText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.text,
         },
       }),

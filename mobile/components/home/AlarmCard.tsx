@@ -35,7 +35,7 @@ export function AlarmCard({ alarm, onToggle, onDelete }: AlarmCardProps) {
           gap: spacing.sm,
         },
         rowOff: {
-          opacity: 0.38,
+          opacity: 0.5,
         },
         info: {
           flex: 1,

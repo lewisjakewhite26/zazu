@@ -92,7 +92,7 @@ export function GymSuccessScreen() {
         },
         pronunciation: {
           fontFamily: fonts.sans,
-          fontSize: 12,
+          fontSize: 14,
           fontStyle: 'italic',
           color: colors.subtext,
           marginBottom: 8,

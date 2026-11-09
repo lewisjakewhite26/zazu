@@ -109,7 +109,7 @@ export function AlarmPermissionModal({ visible, status, onDismiss }: AlarmPermis
         },
         btnText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.text,
         },
       }),

@@ -62,7 +62,7 @@ function createStyles(colors: AppThemeColors) {
     },
     rowPos: {
       fontFamily: fonts.sans,
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
       marginTop: 2,
     },

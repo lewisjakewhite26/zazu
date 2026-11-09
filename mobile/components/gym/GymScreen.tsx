@@ -129,22 +129,41 @@ export function GymScreen() {
           color: colors.text,
           marginBottom: spacing.sm,
         },
+        masteryBlock: {
+          borderTopWidth: StyleSheet.hairlineWidth,
+          borderTopColor: colors.border,
+          paddingTop: spacing.md,
+          gap: 8,
+        },
         masteryRow: {
           flexDirection: 'row',
           justifyContent: 'space-between',
-          alignItems: 'center',
-          borderTopWidth: 1,
-          borderTopColor: colors.border,
-          paddingTop: spacing.md,
+          alignItems: 'baseline',
+        },
+        masteryTrack: {
+          height: 3,
+          borderRadius: 2,
+          backgroundColor: colors.border,
+          overflow: 'hidden',
+        },
+        masteryFill: {
+          height: 3,
+          borderRadius: 2,
+          backgroundColor: colors.text,
+        },
+        masteryNote: {
+          fontFamily: fonts.sans,
+          fontSize: 13,
+          color: colors.subtext,
         },
         masteryLabel: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.subtext,
         },
         masteryValue: {
-          fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontFamily: fonts.serif,
+          fontSize: 18,
           color: colors.text,
         },
         footer: {
@@ -288,15 +307,21 @@ export function GymScreen() {
                 <Text style={styles.def}>{word.definition}</Text>
                 <OriginText origin={word.origin} style={{ marginBottom: spacing.md }} />
 
-                <View style={styles.masteryRow}>
-                  <Text style={styles.masteryLabel}>{copy.gym.mastery}</Text>
-                  <Text style={styles.masteryValue}>
-                    {gymDoneToday
-                      ? copy.gym.masteryComplete
-                      : mastery > 0
-                        ? copy.gymSuccess.masteryPercent(mastery)
-                        : copy.gym.masteryNew}
-                  </Text>
+                <View
+                  style={styles.masteryBlock}
+                  accessible
+                  accessibilityLabel={`${copy.gym.mastery}: ${mastery > 0 ? `${mastery}%` : copy.gym.masteryNew}`}
+                >
+                  <View style={styles.masteryRow}>
+                    <Text style={styles.masteryLabel}>{copy.gym.mastery}</Text>
+                    <Text style={styles.masteryValue}>
+                      {mastery >= 100 ? copy.gym.masteryDone : mastery > 0 ? `${mastery}%` : copy.gym.masteryNew}
+                    </Text>
+                  </View>
+                  <View style={styles.masteryTrack}>
+                    <View style={[styles.masteryFill, { width: `${Math.min(100, mastery)}%` }]} />
+                  </View>
+                  {gymDoneToday ? <Text style={styles.masteryNote}>{copy.gym.masteryComplete}</Text> : null}
                 </View>
               </GlassCard>
             )}
@@ -345,7 +370,7 @@ export function GymScreen() {
                   />
                 </GlassCard>
               </View>
-            ) : (
+            ) : GOLD_PURCHASES_ENABLED ? (
               <Pressable
                 style={styles.goldLink}
                 onPress={() => router.push('/gold')}
@@ -354,7 +379,7 @@ export function GymScreen() {
               >
                 <Text style={styles.goldLinkText}>{copy.gym.unlockGoldLink}</Text>
               </Pressable>
-            )}
+            ) : null}
           </ScrollView>
 
           <View

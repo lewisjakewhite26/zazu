@@ -55,13 +55,13 @@ export function CalendarIconRow({
         },
         heroLabel: {
           fontFamily: fonts.sansMedium,
-          fontSize: 9,
+          fontSize: 12,
           color: colors.subtext,
           letterSpacing: 0,
         },
         cardLabel: {
           fontFamily: fonts.sans,
-          fontSize: 9,
+          fontSize: 12,
           color: colors.subtext,
           textTransform: 'lowercase',
         },

@@ -51,7 +51,7 @@ export function ScreenHeader({
         },
         subtitle: {
           fontFamily: fonts.sans,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.subtext,
           marginTop: 2,
         },

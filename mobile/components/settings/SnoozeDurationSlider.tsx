@@ -119,7 +119,7 @@ export function SnoozeDurationSlider({ value, min, max, onChange }: SnoozeDurati
         },
         unit: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           letterSpacing: 0,
           color: colors.subtext,
         },
@@ -163,7 +163,7 @@ export function SnoozeDurationSlider({ value, min, max, onChange }: SnoozeDurati
         },
         endLabel: {
           fontFamily: fonts.sans,
-          fontSize: 11,
+          fontSize: 13,
           color: colors.subtext,
         },
       }),

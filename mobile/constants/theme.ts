@@ -34,7 +34,8 @@ export const colorsLight = {
   bgTo: '#ede0f8',
   text: '#1a1225',
   /** Darkened from index.html's original #9080a0 (3.06:1 against dawn) to hit WCAG AA's 4.5:1. */
-  subtext: '#756486',
+  /** Darkened twice: #9080a0 (3.1:1) then #756486 (4.5:1) read as washed out on glass cards; now ~6.5:1. */
+  subtext: '#5c4c6e',
   border: 'rgba(26,18,37,0.1)',
 } as const;
 
@@ -51,7 +52,7 @@ export const colorsDark = {
   bgMid: '#1a1830',
   bgTo: '#0e0c1a',
   text: '#f0e8f8',
-  subtext: '#b0a0c8',
+  subtext: '#cbbfdd',
   border: 'rgba(255,255,255,0.13)',
   ink: '#f0e8f8',
 } as const;
@@ -152,12 +153,12 @@ export const typography = {
   },
   sectionLabel: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 12, // was 11 (.7rem)
+    fontSize: 14, // was 11 (.7rem)
     letterSpacing: 1.1, // .1em
   },
   wotdEyebrow: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 11, // was 10 (.65rem)
+    fontSize: 13, // was 10 (.65rem)
     letterSpacing: 1.2, // .12em
   },
   wotdPron: {
@@ -177,7 +178,7 @@ export const typography = {
   },
   posBadge: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 11, // was 10 (.62rem)
+    fontSize: 13, // was 10 (.62rem)
     letterSpacing: 0.8,
   },
   alarmMeta: {
@@ -191,7 +192,7 @@ export const typography = {
   },
   streakLabel: {
     fontFamily: fonts.sansMedium,
-    fontSize: 10, // was 9 (.56rem)
+    fontSize: 12, // was 9 (.56rem)
     letterSpacing: 0.72,
   },
   coinAmount: {
@@ -215,7 +216,7 @@ export const typography = {
   },
   eyebrow: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 12, // was 11 (.68rem)
+    fontSize: 14, // was 11 (.68rem)
     letterSpacing: 1.32, // .12em
   },
   learnWord: {
@@ -235,7 +236,7 @@ export const typography = {
   },
   etymLabel: {
     fontFamily: fonts.sansSemiBold,
-    fontSize: 11, // was 10 (.62rem)
+    fontSize: 13, // was 10 (.62rem)
     letterSpacing: 1,
   },
   etymBody: {
@@ -306,7 +307,7 @@ export const typography = {
   },
   puzzleWordRound: {
     fontFamily: fonts.sansMedium,
-    fontSize: 12, // was 11 (.68rem)
+    fontSize: 14, // was 11 (.68rem)
     letterSpacing: 1.32,
   },
   adBrand: {

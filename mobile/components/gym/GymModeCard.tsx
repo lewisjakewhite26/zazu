@@ -72,7 +72,7 @@ export function GymModeCard({
         },
         badgeText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 11,
+          fontSize: 13,
           color: colors.ink,
         },
         pressable: {

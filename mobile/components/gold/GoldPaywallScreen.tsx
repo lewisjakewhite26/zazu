@@ -79,7 +79,7 @@ export function GoldPaywallScreen() {
         },
         eyebrow: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           letterSpacing: 0,
           color: colors.gold,
           marginTop: spacing.sm,
@@ -151,7 +151,7 @@ export function GoldPaywallScreen() {
         trialBadge: {
           alignSelf: 'flex-start',
           fontFamily: fonts.sansSemiBold,
-          fontSize: 10,
+          fontSize: 12,
           letterSpacing: 0,
           color: colors.gold,
           backgroundColor: goldCardFill,

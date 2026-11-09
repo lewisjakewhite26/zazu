@@ -1,3 +1,4 @@
+import { toLocalDateKey } from './date-utils';
 import { useCallback, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -284,7 +285,19 @@ export function useProgress() {
       const existing = getWordProgress(saved, wordId);
       const roundWrongCount = options.wrongCount ?? 0;
       const wrongCount = (existing.gymWrongCount ?? 0) + roundWrongCount;
-      const gymMastery = Math.min(100, options.mastery ?? 100);
+      // Mastery builds over separate days. A clean first session is ~45%; each
+      // later day adds 45% of what's left (min 15), scaled down by mistakes.
+      // A repeat on the same day adds only 5, so it can't be farmed.
+      const previous = existing.gymMastery ?? 0;
+      const practisedToday =
+        Boolean(existing.gymCompletedAt) &&
+        toLocalDateKey(new Date(existing.gymCompletedAt as string)) === toLocalDateKey();
+      const accuracy = Math.max(0.3, 1 - roundWrongCount / 10);
+      const baseGain = practisedToday ? 5 : Math.max(15, Math.round((100 - previous) * 0.45));
+      const gymMastery = Math.min(
+        100,
+        options.mastery ?? previous + Math.max(1, Math.round(baseGain * accuracy)),
+      );
       const gymCoins = 20;
 
       const { nextReviewAt, nextReviewIntervalDays } = computeNextReview(
