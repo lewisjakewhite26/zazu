@@ -73,7 +73,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     eyebrow: {
       fontFamily: fonts.sansMedium,
-      fontSize: 10,
+      fontSize: 12,
       letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 6,
@@ -120,7 +120,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     taskLabel: {
       fontFamily: fonts.sansMedium,
-      fontSize: 10,
+      fontSize: 12,
       letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 6,
@@ -143,7 +143,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     taskTries: {
       fontFamily: fonts.sans,
-      fontSize: 11,
+      fontSize: 13,
       color: colors.subtext,
       marginTop: 4,
     },
@@ -176,7 +176,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     statLabel: {
       fontFamily: fonts.sans,
-      fontSize: 11,
+      fontSize: 13,
       color: colors.subtext,
       marginBottom: 4,
     },
@@ -187,7 +187,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     statSub: {
       fontFamily: fonts.sans,
-      fontSize: 11,
+      fontSize: 13,
       color: colors.subtext,
       marginTop: 2,
     },
@@ -221,7 +221,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     gymBtnText: {
       fontFamily: fonts.sans,
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
     },
     gymLock: {
@@ -244,7 +244,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     gymLockSub: {
       fontFamily: fonts.sans,
-      fontSize: 11,
+      fontSize: 13,
       color: colors.subtext,
       marginTop: 1,
     },
@@ -258,7 +258,7 @@ function createSheetStyles(colors: AppThemeColors) {
     },
     gymUnlockText: {
       fontFamily: fonts.sansMedium,
-      fontSize: 12,
+      fontSize: 14,
       color: colors.gold,
     },
     closeBtn: {

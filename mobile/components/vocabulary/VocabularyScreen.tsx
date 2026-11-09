@@ -211,7 +211,7 @@ function createLocalStyles(colors: AppThemeColors) {
     },
     packCount: {
       fontFamily: fonts.sansMedium,
-      fontSize: 10,
+      fontSize: 12,
       letterSpacing: 0,
       color: colors.subtext,
       marginTop: 8,

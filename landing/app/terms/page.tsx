@@ -1,5 +1,6 @@
-import Link from "next/link";
 import type { Metadata } from "next";
+
+import Legal from "@/components/site/Legal";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Zazu",
@@ -7,23 +8,7 @@ export const metadata: Metadata = {
 
 export default function TermsOfService() {
   return (
-    <main className="min-h-screen bg-[var(--color-page)] py-24 px-6">
-      <div className="max-w-[800px] mx-auto glass-card rounded-3xl p-8 md:p-12">
-        <div className="mb-8 border-b border-[var(--color-ink)] border-opacity-10 pb-8 flex items-center justify-between">
-          <h1 className="font-serif text-[48px] text-[var(--color-ink)] leading-none">
-            Terms of Service
-          </h1>
-          <Link
-            href="/"
-            className="text-[var(--color-ink)] opacity-70 hover:opacity-100 font-medium transition-opacity"
-          >
-            ← Back home
-          </Link>
-        </div>
-
-        <p className="text-[var(--color-subtext)] text-sm mb-8">Last updated: 26 August 2026</p>
-
-        <div className="prose prose-lg text-[var(--color-ink)] max-w-none prose-headings:font-serif prose-headings:font-normal prose-a:text-[var(--color-gold)]">
+    <Legal title="Terms of Service" updated="26 August 2026">
           <h2>Acceptance of these terms</h2>
           <p>
             Zazu is developed and operated by Lewis White (&ldquo;we&rdquo;, &ldquo;us&rdquo;). By downloading,
@@ -108,8 +93,6 @@ export default function TermsOfService() {
           <p>
             Questions about these terms? Email <a href="mailto:support@zazu.org.uk">support@zazu.org.uk</a>.
           </p>
-        </div>
-      </div>
-    </main>
+    </Legal>
   );
 }

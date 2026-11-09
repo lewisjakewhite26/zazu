@@ -1,44 +1,37 @@
-import type { Metadata } from "next";
-import CustomCursor from "@/components/CustomCursor";
+import type { Metadata, Viewport } from "next";
 import { boska, dmSans } from "./fonts";
-import { ThemeProvider, themeInitScript } from "@/lib/theme-context";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Zazu: A new word every morning',
-  description: 'Zazu is a vocabulary alarm clock. Learn one curated English word every morning, etymology included. Zazu Gold unlocks 1,700+ premium words across ten themed packs.',
-  keywords: 'vocabulary, etymology, word of the day, alarm, English, learn, morning, dictionary',
+  title: "Zazu: A new word every morning",
+  description:
+    "Zazu is an alarm clock that teaches you one word every morning: its meaning, its story, and one quick question to get you up. Free on Android, with no ads.",
+  keywords: "vocabulary, etymology, word of the day, alarm clock, English, learn, morning",
+  metadataBase: new URL("https://zazu.org.uk"),
   openGraph: {
-    title: 'Zazu: A new word every morning',
-    description: 'Learn one word every morning. Etymology, gym rounds, and ten premium word packs.',
-    url: 'https://zazu.org.uk',
-    siteName: 'Zazu',
-  }
+    title: "Zazu: A new word every morning",
+    description: "An alarm clock that teaches you one word before the day starts.",
+    url: "https://zazu.org.uk",
+    siteName: "Zazu",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Zazu: A new word every morning" }],
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fde8d8" },
+    { media: "(prefers-color-scheme: dark)", color: "#1a1225" },
+  ],
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={`${boska.variable} ${dmSans.variable} h-full antialiased`}
-    >
-      <head>
-        {/* Blocking, before-paint theme init -- avoids a flash of the wrong
-            theme while React hydrates. */}
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-      </head>
-      <body className="min-h-full flex flex-col">
-        <ThemeProvider>
-          <a href="#main" className="skip-link">
-            Skip to content
-          </a>
-          <CustomCursor />
-          {children}
-        </ThemeProvider>
+    <html lang="en-GB" className={`${boska.variable} ${dmSans.variable}`}>
+      <body>
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
+        {children}
       </body>
     </html>
   );

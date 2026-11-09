@@ -71,7 +71,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     streakPillText: {
       fontFamily: 'DMSans_500Medium',
-      fontSize: 12,
+      fontSize: 14,
       color: colors.text,
     },
     toggleRow: {
@@ -83,7 +83,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     toggleLabel: {
       flex: 1,
       fontFamily: 'DMSans_400Regular',
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
     },
     toggleWrap: {
@@ -105,7 +105,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     toggleOptText: {
       fontFamily: 'DMSans_500Medium',
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
     },
     toggleOptTextActive: {
@@ -113,7 +113,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     sectionLabel: {
       fontFamily: 'DMSans_500Medium',
-      fontSize: 11,
+      fontSize: 13,
       letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 10,
@@ -132,7 +132,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     heroBadge: {
       alignSelf: 'flex-start',
       fontFamily: 'DMSans_500Medium',
-      fontSize: 10,
+      fontSize: 12,
       letterSpacing: 0,
       color: colors.subtext,
       backgroundColor: colors.card,
@@ -152,7 +152,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     heroDate: {
       fontFamily: 'DMSans_400Regular',
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
     },
     heroIcons: {
@@ -178,7 +178,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     cardDate: {
       fontFamily: 'DMSans_500Medium',
-      fontSize: 10,
+      fontSize: 12,
       letterSpacing: 0,
       color: colors.subtext,
       marginBottom: 5,
@@ -222,7 +222,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     monthHeaderCount: {
       fontFamily: 'DMSans_400Regular',
-      fontSize: 12,
+      fontSize: 14,
       color: colors.subtext,
     },
     monthHeaderBlurWeb: {
@@ -261,7 +261,7 @@ function createCalendarStyles(colors: AppThemeColors, blend: number) {
     },
     goldSub: {
       fontFamily: 'DMSans_400Regular',
-      fontSize: 11,
+      fontSize: 13,
       color: colors.subtext,
       textAlign: 'center',
     },

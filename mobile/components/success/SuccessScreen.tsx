@@ -156,7 +156,7 @@ export function SuccessScreen() {
         },
         pronunciation: {
           fontFamily: fonts.sans,
-          fontSize: 12,
+          fontSize: 14,
           fontStyle: 'italic',
           color: colors.subtext,
           marginBottom: 8,
@@ -264,7 +264,7 @@ export function SuccessScreen() {
         },
         ritualSub: {
           fontFamily: fonts.sans,
-          fontSize: 12.5,
+          fontSize: 14,
           lineHeight: 18,
           color: colors.subtext,
           marginBottom: 14,

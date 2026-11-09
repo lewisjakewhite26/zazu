@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Pressable, StyleSheet, Text } from 'react-native';
 
-import { typography } from '@/constants/theme';
+import { fonts } from '@/constants/theme';
 import { spacing } from '@/constants/layout';
 import { useTheme } from '@/context/ThemeContext';
 import type { PuzzleTileState } from '../../../lib/puzzle-utils';
@@ -12,8 +12,7 @@ type PuzzleTileProps = {
 };
 
 export function PuzzleTile({ tile, onPress }: PuzzleTileProps) {
-  const { colors, blend } = useTheme();
-  const isNight = blend >= 0.5;
+  const { colors } = useTheme();
   const isSideA = tile.side === 'a';
 
   const styles = useMemo(
@@ -21,54 +20,50 @@ export function PuzzleTile({ tile, onPress }: PuzzleTileProps) {
       StyleSheet.create({
         tile: {
           flex: 1,
-          minHeight: 70,
-          borderRadius: 16,
+          minHeight: 64,
+          borderRadius: 14,
           backgroundColor: colors.card,
-          borderWidth: 2,
-          borderColor: 'transparent',
+          borderWidth: 1.5,
+          borderColor: colors.border,
           paddingHorizontal: spacing.sm,
           paddingVertical: spacing.md,
           alignItems: 'center',
           justifyContent: 'center',
-          shadowColor: colors.ink,
-          shadowOpacity: 0.08,
-          shadowRadius: 14,
-          shadowOffset: { width: 0, height: 3 },
         },
         text: {
           textAlign: 'center',
-          lineHeight: 20,
+          lineHeight: 21,
         },
+        // Roots / prompts: the real serif italic, in full ink (was pale lavender).
         textA: {
-          fontFamily: typography.puzzleWordMain.fontFamily,
-          fontStyle: 'italic',
-          fontSize: 14,
-          color: isNight ? colors.lavender : colors.subtext,
-        },
-        textB: {
-          fontFamily: typography.mtOption.fontFamily,
-          fontWeight: '700',
-          fontSize: 14,
+          fontFamily: fonts.serifItalic,
+          fontSize: 17,
           color: colors.text,
         },
+        // Meanings: medium sans, not heavy bold, so both columns feel like one set.
+        textB: {
+          fontFamily: fonts.sansMedium,
+          fontSize: 15,
+          color: colors.text,
+        },
+        // Neutral ink outline: pink/red read as "wrong". Red is kept for mistakes only.
         selected: {
-          borderColor: colors.blush,
-          backgroundColor: 'rgba(240,160,188,0.18)',
-          transform: [{ scale: 1.03 }],
+          borderColor: colors.text,
+          transform: [{ scale: 1.02 }],
         },
         correct: {
-          borderColor: colors.correct,
-          backgroundColor: 'rgba(168,216,176,0.2)',
+          borderColor: colors.correctIcon,
+          backgroundColor: 'rgba(168,216,176,0.22)',
         },
         wrong: {
           borderColor: colors.wrong,
-          backgroundColor: 'rgba(232,97,122,0.1)',
+          backgroundColor: 'rgba(232,97,122,0.12)',
         },
         gone: {
           opacity: 0,
         },
       }),
-    [colors, isNight],
+    [colors],
   );
 
   return (

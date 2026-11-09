@@ -96,7 +96,7 @@ export function AlarmPermissionBanner({ status }: AlarmPermissionBannerProps) {
         },
         btnText: {
           fontFamily: fonts.sansSemiBold,
-          fontSize: 12,
+          fontSize: 14,
           color: colors.text,
         },
       }),

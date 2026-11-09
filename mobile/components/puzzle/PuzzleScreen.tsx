@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { AccessibilityInfo, ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { XIcon } from 'phosphor-react-native';
 import { useRouter } from 'expo-router';
@@ -31,6 +31,8 @@ export function PuzzleScreen() {
   const { gymSessionWord, setGymCompletionResult, clearFlow } = useAlarmFlow();
   const { completeGym } = useProgress();
   const [roundIndex, setRoundIndex] = useState(0);
+  // Mistakes across the whole session feed the mastery calculation.
+  const wrongCountRef = useRef(0);
   const [tiles, setTiles] = useState<PuzzleTileState[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [matched, setMatched] = useState(0);
@@ -63,7 +65,7 @@ export function PuzzleScreen() {
     if (!gymSessionWord || finishing) return;
     setFinishing(true);
     AccessibilityInfo.announceForAccessibility(copy.puzzle.saving);
-    const result = await completeGym(gymSessionWord.id);
+    const result = await completeGym(gymSessionWord.id, { wrongCount: wrongCountRef.current });
     setGymCompletionResult(result);
     router.replace('/gym-success');
   }, [gymSessionWord, finishing, completeGym, setGymCompletionResult, router]);
@@ -152,6 +154,7 @@ export function PuzzleScreen() {
 
       setLocked(true);
       setSelectedId(null);
+      wrongCountRef.current += 1;
       hapticWrong();
       setTiles((current) =>
         current.map((entry) => {

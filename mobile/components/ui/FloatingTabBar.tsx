@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 2,
   },
   label: {
-    fontSize: 11,
+    fontSize: 13,
     letterSpacing: 0,
   },
 });
