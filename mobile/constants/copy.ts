@@ -48,6 +48,7 @@ export const copy = {
     bannerBody: 'Android needs your permission for Zazu to wake you, even with the phone locked.',
     notifications: 'Notifications',
     exactAlarm: 'Exact alarms',
+    fullScreen: 'Full screen notifications',
     battery: 'Background activity',
     fix: 'Allow',
   },

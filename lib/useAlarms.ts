@@ -15,6 +15,7 @@ const UNKNOWN_PERMISSION_STATUS: AlarmPermissionStatus = {
   notificationsGranted: false,
   exactAlarmGranted: false,
   batteryUnrestricted: false,
+  fullScreenGranted: true,
 };
 
 const STORAGE_KEY = 'zazu:alarms';

@@ -22,6 +22,7 @@ jest.mock('../../lib/alarm-notifications', () => ({
     notificationsGranted: true,
     exactAlarmGranted: true,
     batteryUnrestricted: true,
+    fullScreenGranted: true,
   }),
   // Real syncAlarmNotifications is a passthrough that also schedules native
   // triggers as a side effect -- the native scheduling isn't what these

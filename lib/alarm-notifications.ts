@@ -12,7 +12,15 @@ import { Linking, Platform } from 'react-native';
 
 import type { Alarm } from './alarm';
 
-const ALARM_CHANNEL_ID = 'alarm';
+// Channel sound is immutable once a channel exists on a device, so moving from
+// the default ping to the custom chime needs a NEW channel id. The old one is
+// deleted in ensureAlarmNotificationChannel().
+const LEGACY_ALARM_CHANNEL_ID = 'alarm';
+const ALARM_CHANNEL_ID = 'alarm-v2';
+// res/raw/alarm_chime.wav, copied in by plugins/withAlarmSound.js.
+const ALARM_CHANNEL_SOUND = 'alarm_chime';
+// Safety stop: an untouched alarm shouldn't ring all day.
+const ALARM_RING_TIMEOUT_MS = 10 * 60 * 1000;
 
 /**
  * When a notification's DELIVERED event arrives in the headless background
@@ -39,6 +47,7 @@ export const PENDING_ALARM_WRITTEN_EVENT = 'zazu:pendingAlarmWritten';
 async function ensureAlarmNotificationChannel(): Promise<void> {
   if (Platform.OS !== 'android') return;
 
+  await notifee.deleteChannel(LEGACY_ALARM_CHANNEL_ID).catch(() => undefined);
   await notifee.createChannel({
     id: ALARM_CHANNEL_ID,
     name: 'Alarm',
@@ -46,7 +55,7 @@ async function ensureAlarmNotificationChannel(): Promise<void> {
     vibration: true,
     vibrationPattern: [300, 1000, 500, 1000],
     visibility: AndroidVisibility.PUBLIC,
-    sound: 'default',
+    sound: ALARM_CHANNEL_SOUND,
   });
 }
 
@@ -100,13 +109,26 @@ export type AlarmPermissionStatus = {
   exactAlarmGranted: boolean;
   /** True when the app is NOT battery-restricted. Always true off Android. */
   batteryUnrestricted: boolean;
+  /**
+   * Android 14+ "Full screen notifications" access. Without it the OS can show
+   * the alarm as a plain heads-up instead of taking over the lock screen.
+   * Needs notify-kit >= 10.6.0 to read; reports true when it can't be read.
+   */
+  fullScreenGranted: boolean;
 };
 
 const FULLY_GRANTED: AlarmPermissionStatus = {
   notificationsGranted: true,
   exactAlarmGranted: true,
   batteryUnrestricted: true,
+  fullScreenGranted: true,
 };
+
+function readFullScreenGranted(settings: unknown): boolean {
+  const value = (settings as { android?: { fullScreenIntent?: unknown } }).android?.fullScreenIntent;
+  // Older notify-kit doesn't report it: assume granted rather than nag.
+  return value === undefined || value === AndroidNotificationSetting.ENABLED;
+}
 
 /**
  * Read-only status check (no prompts) — safe to call on every app foreground
@@ -129,6 +151,7 @@ export async function getAlarmPermissionStatus(): Promise<AlarmPermissionStatus>
     notificationsGranted,
     exactAlarmGranted: settings.android.alarm === AndroidNotificationSetting.ENABLED,
     batteryUnrestricted: !batteryRestricted,
+    fullScreenGranted: readFullScreenGranted(settings),
   };
 }
 
@@ -140,6 +163,16 @@ export async function openNotificationSettings(): Promise<void> {
 export async function openExactAlarmSettings(): Promise<void> {
   if (Platform.OS !== 'android') return;
   await notifee.openAlarmPermissionSettings();
+}
+
+export async function openFullScreenSettings(): Promise<void> {
+  if (Platform.OS !== 'android') return;
+  try {
+    // Android 14+: the per-app "Full screen notifications" page.
+    await Linking.sendIntent('android.settings.MANAGE_APP_USE_FULL_SCREEN_INTENT');
+  } catch {
+    await Linking.openSettings();
+  }
 }
 
 export async function openBatteryOptimizationSettings(): Promise<void> {
@@ -154,6 +187,39 @@ export async function cancelAlarmNotification(id?: string): Promise<void> {
   await notifee.cancelTriggerNotification(id);
 }
 
+/**
+ * The notification itself must keep ringing, not just the in-app chime: the
+ * JS player only starts once the full-screen activity has launched, and
+ * Android can demote or skip that launch (full-screen access off, device in
+ * use, OEM limits). loopSound repeats the channel's chime until the
+ * notification is cancelled or opened, so a failed launch is still an alarm.
+ */
+function alarmAndroidOptions() {
+  return {
+    channelId: ALARM_CHANNEL_ID,
+    category: AndroidCategory.ALARM,
+    importance: AndroidImportance.HIGH,
+    pressAction: { id: 'default', launchActivity: 'default' },
+    fullScreenAction: {
+      id: 'default',
+      launchActivity: 'default',
+      // The app process usually survives between firings (rarely fully
+      // killed), so Android just resumes the existing activity instead
+      // of creating a new one -- and turnScreenOn only fires on actual
+      // creation. Forcing a fresh task/activity here is what makes the
+      // screen wake reliably instead of only occluding a black display.
+      launchActivityFlags: [AndroidLaunchActivityFlag.NEW_TASK, AndroidLaunchActivityFlag.CLEAR_TASK],
+    },
+    sound: ALARM_CHANNEL_SOUND,
+    loopSound: true,
+    timeoutAfter: ALARM_RING_TIMEOUT_MS,
+    // A notification left over from a previous firing blocks the next
+    // one's full-screen wake (Android treats a repost under the same id
+    // as an update, not a new notification) -- auto-clear on any tap.
+    autoCancel: true,
+  };
+}
+
 export async function scheduleAlarmNotification(alarm: Alarm): Promise<void> {
   if (!alarm.enabled || Platform.OS === 'web') return;
 
@@ -166,27 +232,7 @@ export async function scheduleAlarmNotification(alarm: Alarm): Promise<void> {
       title: 'Good morning',
       body: 'Time to wake up and learn a new word.',
       data: { alarmId: alarm.id },
-      android: {
-        channelId: ALARM_CHANNEL_ID,
-        category: AndroidCategory.ALARM,
-        importance: AndroidImportance.HIGH,
-        pressAction: { id: 'default', launchActivity: 'default' },
-        fullScreenAction: {
-          id: 'default',
-          launchActivity: 'default',
-          // The app process usually survives between firings (rarely fully
-          // killed), so Android just resumes the existing activity instead
-          // of creating a new one -- and turnScreenOn only fires on actual
-          // creation. Forcing a fresh task/activity here is what makes the
-          // screen wake reliably instead of only occluding a black display.
-          launchActivityFlags: [AndroidLaunchActivityFlag.NEW_TASK, AndroidLaunchActivityFlag.CLEAR_TASK],
-        },
-        sound: 'default',
-        // A notification left over from a previous firing blocks the next
-        // one's full-screen wake (Android treats a repost under the same id
-        // as an update, not a new notification) -- auto-clear on any tap.
-        autoCancel: true,
-      },
+      android: alarmAndroidOptions(),
     },
     {
       type: TriggerType.TIMESTAMP,
@@ -212,27 +258,7 @@ export async function scheduleSnoozeNotification(alarmId: string, minutes: numbe
       title: 'Good morning',
       body: 'Time to wake up and learn a new word.',
       data: { alarmId },
-      android: {
-        channelId: ALARM_CHANNEL_ID,
-        category: AndroidCategory.ALARM,
-        importance: AndroidImportance.HIGH,
-        pressAction: { id: 'default', launchActivity: 'default' },
-        fullScreenAction: {
-          id: 'default',
-          launchActivity: 'default',
-          // The app process usually survives between firings (rarely fully
-          // killed), so Android just resumes the existing activity instead
-          // of creating a new one -- and turnScreenOn only fires on actual
-          // creation. Forcing a fresh task/activity here is what makes the
-          // screen wake reliably instead of only occluding a black display.
-          launchActivityFlags: [AndroidLaunchActivityFlag.NEW_TASK, AndroidLaunchActivityFlag.CLEAR_TASK],
-        },
-        sound: 'default',
-        // A notification left over from a previous firing blocks the next
-        // one's full-screen wake (Android treats a repost under the same id
-        // as an update, not a new notification) -- auto-clear on any tap.
-        autoCancel: true,
-      },
+      android: alarmAndroidOptions(),
     },
     {
       type: TriggerType.TIMESTAMP,
