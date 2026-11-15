@@ -4,6 +4,7 @@ import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import {
   openBatteryOptimizationSettings,
   openExactAlarmSettings,
+  openFullScreenSettings,
   openNotificationSettings,
   requestNotificationPermissions,
   type AlarmPermissionStatus,
@@ -38,6 +39,13 @@ export function AlarmPermissionBanner({ status }: AlarmPermissionBannerProps) {
         key: 'exactAlarm',
         label: copy.alarmPermissions.exactAlarm,
         onPress: () => void openExactAlarmSettings(),
+      });
+    }
+    if (Platform.OS === 'android' && !status.fullScreenGranted) {
+      items.push({
+        key: 'fullScreen',
+        label: copy.alarmPermissions.fullScreen,
+        onPress: () => void openFullScreenSettings(),
       });
     }
     if (Platform.OS === 'android' && !status.batteryUnrestricted) {
